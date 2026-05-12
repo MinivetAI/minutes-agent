@@ -1,0 +1,34 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Secrets
+.env
+
+# Generated research / outputs
+runs/
+minutes_crawl_insights_v1/
+minutes_crawl_insights_v1.tar.gz
+sample_outputs/
+sample_outputs_reduced_schema/
+sample_outputs_reduced_schema_evidence/
+comparison_openai/
+comparison_openai_evidence/
+comparison_openai_54mini/
+comparison_openai_54mini_evidence/
