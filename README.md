@@ -10,6 +10,14 @@ Current tasks:
 
 - `fetch_product_knowledge` -> `POST /v1/llm/knowledge/fetch-product`
 - `product_semantic_paragraph` -> `POST /v1/llm/enrich/product-paragraph`
+- `user_hourly_summary` -> `POST /user/hourly-summary`
+- `user_aggregate_summary` -> `POST /user/aggregate-summary`
+- `user_category_profile` -> `POST /user/category-profile`
+- `user_cross_category_profile` -> `POST /user/cross-category-profile`
+
+Optional tasks (enabled only if the matching instruction constant exists):
+
+- `feed_query_generation` -> `POST /user/feed-queries`
 
 ## Run
 
