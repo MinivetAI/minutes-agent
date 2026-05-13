@@ -14,9 +14,10 @@ Current tasks:
 ## Run
 
 ```bash
-source ../minivet/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-python app.py --provider openai --model gpt-5.4-mini-2026-03-17
+python app.py --provider qwen --model Qwen/Qwen2.5-14B-Instruct-AWQ
 ```
 
 ## Batch sample fetch

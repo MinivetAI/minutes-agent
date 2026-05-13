@@ -1,12 +1,11 @@
 import argparse
 import os
-from typing import Dict
+from typing import Any, Dict
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 
-from alfred.alfie_v2 import Perplexity, Qwen, Task
-from openai_grounded import OpenAIResponsesTask
+from argus_compat import ArgusCompatibleTask, build_argus_vlm
 
 from tasks import get_enabled_tasks, get_task_names
 
@@ -32,14 +31,14 @@ def parse_args():
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-5.4-mini-2026-03-17",
+        default="Qwen/Qwen2.5-14B-Instruct-AWQ",
         help="Model name",
     )
     parser.add_argument(
         "--provider",
         type=str,
-        default="openai",
-        choices=("qwen", "perplexity", "openai"),
+        default="qwen",
+        choices=("qwen", "perplexity"),
         help="LLM provider backend",
     )
     parser.add_argument(
@@ -74,16 +73,6 @@ def parse_args():
     return parser.parse_args()
 
 
-def build_server(provider: str, vllm_url: str, model: str, guide):
-    if provider == "perplexity":
-        api_key = os.getenv("PERPLEXITY_API_KEY")
-        if not api_key:
-            raise RuntimeError("Missing PERPLEXITY_API_KEY for provider=perplexity")
-        return Perplexity(api_key=api_key, model=model, guide=guide)
-
-    return Qwen(url=vllm_url, model=model, guide=guide)
-
-
 def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, max_concurrent: int):
     task_names = list(enabled_tasks.keys())
 
@@ -93,39 +82,29 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
         version="0.1.0",
     )
 
-    tasks: Dict[str, Task] = {}
+    tasks: Dict[str, Any] = {}
 
     print(f"Initializing {len(enabled_tasks)} tasks...")
     for task_name, config in enabled_tasks.items():
         print(f"  - {task_name}")
         guide_model = config.get("guide_model", config["output_model"])
-        if provider == "openai":
-            api_key = os.getenv("OPENAI_API_KEY")
-            if not api_key:
-                raise RuntimeError("Missing OPENAI_API_KEY for provider=openai")
-            task = OpenAIResponsesTask(
-                instruction=config["instruction"].strip(),
-                guide=guide_model,
-                api_key=api_key,
-                model=model,
-                use_web_search=(task_name == "fetch_product_knowledge"),
-                max_output_tokens=4000 if task_name == "fetch_product_knowledge" else 512,
-                max_concurrent=max_concurrent,
-                reasoning_effort="none",
-            )
-        else:
-            server = build_server(provider, vllm_url, model, guide_model)
-            if task_name == "fetch_product_knowledge":
-                server.data["max_tokens"] = 1400
-            if task_name == "product_semantic_paragraph":
-                server.data["max_tokens"] = 256
+        server = build_argus_vlm(
+            provider=provider,
+            vllm_url=vllm_url,
+            model=model,
+            guide=guide_model,
+        )
+        if task_name == "fetch_product_knowledge":
+            server.data["max_tokens"] = 1400
+        if task_name == "product_semantic_paragraph":
+            server.data["max_tokens"] = 256
 
-            task = Task(
-                instruction=config["instruction"].strip(),
-                guide=guide_model,
-                server=server,
-                max_concurrent=max_concurrent,
-            )
+        task = ArgusCompatibleTask(
+            instruction=config["instruction"].strip(),
+            guide=guide_model,
+            server=server,
+            max_concurrent=max_concurrent,
+        )
         tasks[task_name] = task
 
     for task_name, config in enabled_tasks.items():
@@ -176,9 +155,9 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
 
 def get_app():
     task_list = os.getenv("MINUTES_AGENT_TASKS", "fetch_product_knowledge,product_semantic_paragraph")
-    provider = os.getenv("MINUTES_AGENT_PROVIDER", "openai")
+    provider = os.getenv("MINUTES_AGENT_PROVIDER", "qwen")
     vllm_url = os.getenv("MINUTES_AGENT_VLLM_URL", "http://localhost:8000/v1")
-    model = os.getenv("MINUTES_AGENT_MODEL", "gpt-5.4-mini-2026-03-17")
+    model = os.getenv("MINUTES_AGENT_MODEL", "Qwen/Qwen2.5-14B-Instruct-AWQ")
     max_concurrent = int(os.getenv("MINUTES_AGENT_MAX_CONCURRENT", "64"))
 
     enabled_tasks = get_enabled_tasks([t.strip() for t in task_list.split(",") if t.strip()])
