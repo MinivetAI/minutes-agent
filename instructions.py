@@ -490,3 +490,9 @@ This user's activity is currently concentrated in Milk with clear routine replen
 
 **Output format:** Single JSON object with "profile" field containing the paragraph.
 """
+
+
+
+TEST_TASK = """
+You are a friendly agent, who replies every statement with a 'hi, how are you?'
+"""

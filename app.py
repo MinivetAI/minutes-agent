@@ -19,7 +19,7 @@ def parse_args():
     parser.add_argument(
         "--tasks",
         type=str,
-        default="fetch_product_knowledge,product_semantic_paragraph",
+        default="fetch_product_knowledge,product_semantic_paragraph,test_task",
         help="Comma-separated list of tasks to enable",
     )
     parser.add_argument(
@@ -154,7 +154,7 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
 
 
 def get_app():
-    task_list = os.getenv("MINUTES_AGENT_TASKS", "fetch_product_knowledge,product_semantic_paragraph")
+    task_list = os.getenv("MINUTES_AGENT_TASKS", "fetch_product_knowledge,product_semantic_paragraph,test_task")
     provider = os.getenv("MINUTES_AGENT_PROVIDER", "qwen")
     vllm_url = os.getenv("MINUTES_AGENT_VLLM_URL", "http://localhost:8000/v1")
     model = os.getenv("MINUTES_AGENT_MODEL", "Qwen/Qwen2.5-14B-Instruct-AWQ")
@@ -189,8 +189,6 @@ if __name__ == "__main__":
         print("Available tasks:")
         for task_name in get_task_names():
             print(f"  - {task_name}")
-        raise SystemExit(0)
-
     enabled_tasks = get_enabled_tasks([t.strip() for t in args.tasks.split(",") if t.strip()])
 
     import uvicorn

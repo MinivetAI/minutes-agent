@@ -418,3 +418,9 @@ class QueryParsed(BaseModel):
     spans: List[QueryParsedSpan] = Field(
         description="Merged multi-token constituents when applicable, such as 'for girls', '16 GB RAM', or 'party wear'"
     )
+
+class TestInput(BaseModel):
+    query: str = Field(description="Query to be sent to the llm")
+
+class TestResponse(BaseModel):
+    response: str = Field(description="Response from the llm")

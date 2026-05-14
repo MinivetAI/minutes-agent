@@ -8,6 +8,7 @@ from instructions import (
     USER_CATEGORY_PROFILE,
     USER_CROSS_CATEGORY_PROFILE,
     USER_HOURLY_SUMMARY,
+    TEST_TASK
 )
 from models import (
     ActivitySummary,
@@ -22,10 +23,20 @@ from models import (
     SummaryAggregationInput,
     UserCategoryProfileInput,
     UserProfile,
+    TestInput,
+    TestResponse
 )
 
 
 TASKS: Dict[str, Dict[str, Any]] = {
+    "test_task":{
+        "input_model": TestInput,
+        "output_model": TestResponse,
+        "instruction": TEST_TASK,
+        "endpoint": "/test",
+        "load_level": "high"
+
+    },
     "fetch_product_knowledge": {
         "input_model": ProductKnowledgeInput,
         "output_model": ProductKnowledgeFetchedOutput,
