@@ -10,10 +10,13 @@ Current tasks:
 
 - `fetch_product_knowledge` -> `POST /v1/llm/knowledge/fetch-product`
 - `product_semantic_paragraph` -> `POST /v1/llm/enrich/product-paragraph`
+- `query_improvement` -> `POST /improve-query`
+- `query_parse` -> `POST /parse-query`
 - `user_hourly_summary` -> `POST /user/hourly-summary`
 - `user_aggregate_summary` -> `POST /user/aggregate-summary`
 - `user_category_profile` -> `POST /user/category-profile`
 - `user_cross_category_profile` -> `POST /user/cross-category-profile`
+- `test_task` -> `POST /test`
 
 Optional tasks (enabled only if the matching instruction constant exists):
 
@@ -26,6 +29,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python app.py --provider qwen --model Qwen/Qwen2.5-14B-Instruct-AWQ
+```
+
+To run only the query tasks:
+
+```bash
+python app.py --tasks query_improvement,query_parse --provider qwen --model Qwen/Qwen2.5-14B-Instruct-AWQ
 ```
 
 ## Batch sample fetch
@@ -41,3 +50,4 @@ This reads representative products from `/home/aditya/Minivet/minutes/data/minut
 
 - The intent model and product understanding notes live in `docs/flipkart-minutes-understanding.md`.
 - The current implementation is intentionally small and task-driven.
+- Query improvement and parsing borrow the task shape from `shopsy-agent` and use local Indian and brand context files when available.

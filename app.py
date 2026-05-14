@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 
 from argus_compat import ArgusCompatibleTask, build_argus_vlm
-
+from context import BrandContext, IndianContext
 from tasks import get_enabled_tasks, get_task_names
 
 
@@ -83,6 +83,9 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
     )
 
     tasks: Dict[str, Any] = {}
+    base_dir = os.path.dirname(__file__)
+    indian_context = IndianContext(os.path.join(base_dir, "indian_context.json"))
+    brand_context = BrandContext(os.path.join(base_dir, "brand_context.json"))
 
     print(f"Initializing {len(enabled_tasks)} tasks...")
     for task_name, config in enabled_tasks.items():
@@ -96,7 +99,7 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
         )
         if task_name == "fetch_product_knowledge":
             server.data["max_tokens"] = 1400
-        if task_name == "product_semantic_paragraph":
+        elif task_name in ("product_semantic_paragraph", "query_improvement", "query_parse"):
             server.data["max_tokens"] = 256
 
         task = ArgusCompatibleTask(
@@ -112,6 +115,15 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
             async def task_endpoint(input_data: config["input_model"]):
                 try:
                     input_dict = input_data.model_dump()
+                    if task_name in ("query_improvement", "query_parse"):
+                        query = input_dict.get("query", "")
+                        if query:
+                            indian_payload = indian_context.retrieve(query)
+                            if indian_payload:
+                                input_dict["indian_context"] = indian_payload
+                            brand_payload = brand_context.retrieve(query)
+                            if brand_payload:
+                                input_dict["brand_context"] = brand_payload
                     result = await tasks[task_name].do(input_dict)
                     if result is None:
                         raise HTTPException(status_code=500, detail=f"Failed to process {task_name}")
@@ -189,6 +201,8 @@ if __name__ == "__main__":
         print("Available tasks:")
         for task_name in get_task_names():
             print(f"  - {task_name}")
+        raise SystemExit(0)
+
     enabled_tasks = get_enabled_tasks([t.strip() for t in args.tasks.split(",") if t.strip()])
 
     import uvicorn

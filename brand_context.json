@@ -1,0 +1,3650 @@
+{
+  "gowardhan": {
+    "context": "Gowardhan is primarily associated with Ghee. Treat queries mentioning this brand as brand-led queries for Ghee.",
+    "keywords": [
+      "gowardhan"
+    ]
+  },
+  "sugar free": {
+    "context": "Sugar free is an artificial sweetener which when used alone without any other words in the query would generally mean the brand. It would be under the category food. If a query contains other words like sugar free orange juice would not mean the brand, it is an attribute of the product",
+    "keywords": [
+      "sugar free",
+      "sugar-free"
+    ]
+  },
+  "gillette": {
+    "context": "Gillette is a brand of Grooming products. If the query is just the brand then the category is grooming and gender is men, and the route if required is beauty_personal_care",
+    "keywords": [
+      "gillette"
+    ]
+  },
+  "kissan": {
+    "context": "Kissan is most strongly associated with JamsSpreads, and is also commonly seen in DipsSaucesPastes and PicklesChutneys. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kissan"
+    ]
+  },
+  "hrx": {
+    "context": "HRX is most strongly associated with Clothing, and is also commonly seen in Footwear, Duffel Bags, PunchingBag, and Helmet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hrx"
+    ]
+  },
+  "tata tea gold care": {
+    "context": "Tata Tea Gold Care is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "tata tea gold care",
+      "tata tea"
+    ]
+  },
+  "oswaal books and learning private limited": {
+    "context": "Oswaal Books is most strongly associated with ChildrensBooks, and is also commonly seen in SocietyAndSocialSciences, Reference, ExamPreparationUpscCivilServicesExamination, SchoolBooks, and MedicineAndHealthSciencesTextbooks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "oswaal books"
+    ]
+  },
+  "gear": {
+    "context": "Gear is most strongly associated with Backpack, and is also commonly seen in DuffleBag, SchoolBag, Rucksack, Suitcase, and TravelPouch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "gear"
+    ]
+  },
+  "the whole truth": {
+    "context": "The Whole Truth is most strongly associated with WheyProtein, and is also commonly seen in NutritionBars, JamsSpreads, Chocolates, and CornFlakes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "the whole truth",
+      "whole truth"
+    ]
+  },
+  "colgate": {
+    "context": "Colgate is most strongly associated with Toothpaste, and is also commonly seen in Toothbrush, KidOralCare, Mouthwash, ComboAndKit, and ShopsyToothpaste. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "colgate"
+    ]
+  },
+  "nautica": {
+    "context": "NAUTICA is most strongly associated with MensCasualShirt, and is also commonly seen in MensPoloTShirt, MensJean, MensJacket, MensCasualTrouser, and MensRoundAndOthersTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nautica"
+    ]
+  },
+  "apis": {
+    "context": "Apis is most strongly associated with Honey, and is also commonly seen in Dates. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "apis"
+    ]
+  },
+  "realme": {
+    "context": "Realme is primarily a mobile electronics brand that also sells earbuds, speakers, TVs, and other electronics accessories.",
+    "keywords": [
+      "realme"
+    ]
+  },
+  "livpure": {
+    "context": "LIVPURE is most strongly associated with WaterPurifier, and is also commonly seen in Chimney, AirCooler, Dishwasher, WaterFilterCartridge, and Pillow. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "livpure"
+    ]
+  },
+  "scorist": {
+    "context": "Scorist is most strongly associated with Almonds, and is also commonly seen in Cashews, Pistachios, EdibleSeeds, NutDryFruitAssortedMix, and Raisins. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "scorist"
+    ]
+  },
+  "tynor": {
+    "context": "TYNOR is most strongly associated with KneeSupport, and is also commonly seen in MedicalSupports, BackAndAbdomenSupport, AnkleFootAndLegSupport, ArmAndElbowSupport, and PillowSupports. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tynor"
+    ]
+  },
+  "activa": {
+    "context": "ACTIVA is most strongly associated with Fan, and is also commonly seen in WeighingScale, JuicerMixerGrinder, GeyserWaterHeater, RoomHeater, and OfficeAndStudyChair. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "activa"
+    ]
+  },
+  "go": {
+    "context": "Go is most strongly associated with Walnuts, and is also commonly seen in Cheese. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "go"
+    ]
+  },
+  "wrogn": {
+    "context": "WROGN is most strongly associated with Backpack, and is also commonly seen in MensJean, DuffleBag, MensCasualShirt, Rucksack, and MensPoloTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wrogn"
+    ]
+  },
+  "o3+": {
+    "context": "O3+ is most strongly associated with FacialKit, and is also commonly seen in FacePack, Facewash, FaceCreamAndGel, ComboAndKit, and FaceSerums. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "o3+"
+    ]
+  },
+  "tru hair & skin": {
+    "context": "TRU HAIR & SKIN is most strongly associated with Sunscreen, and is also commonly seen in HairStyling, ComboAndKit, FaceCreamAndGel, Soap, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tru hair & skin"
+    ]
+  },
+  "nescafe": {
+    "context": "Nescafe is most strongly associated with Coffee, and is also commonly seen in ShopsyCoffee. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nescafe"
+    ]
+  },
+  "nestle": {
+    "context": "NESTLE is most strongly associated with Chocolates, and is also commonly seen in InfantFormula, MilkMilkPowder, SpicesMasala, KidsNutritionDrinkMix, and Tea. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nestle"
+    ]
+  },
+  "raymond": {
+    "context": "Raymond is most strongly associated with MensFabric, and is also commonly seen in MensFormalTrouser, MensFormalShirt, MensBlazer, MensSweater, and MensPoloTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "raymond"
+    ]
+  },
+  "wow skin science": {
+    "context": "WOW SKIN SCIENCE is most strongly associated with Facewash, and is also commonly seen in Shampoo, FaceCreamAndGel, HairOil, FacialOil, and Sunscreen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wow skin science"
+    ]
+  },
+  "godrej no.1": {
+    "context": "Godrej No.1 is primarily associated with Soap. Treat queries mentioning this brand as brand-led queries for Soap.",
+    "keywords": [
+      "godrej no.1"
+    ]
+  },
+  "racold": {
+    "context": "Racold is most strongly associated with GeyserWaterHeater, and is also commonly seen in HosePipe and HoseConnector. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "racold"
+    ]
+  },
+  "sparx": {
+    "context": "Sparx is commonly a footwear brand.",
+    "keywords": [
+      "sparx"
+    ]
+  },
+  "bikano": {
+    "context": "Bikano is most strongly associated with SavouriesNamkeens, and is also commonly seen in SweetsMithai. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bikano"
+    ]
+  },
+  "oneplus": {
+    "context": "OnePlus is primarily a mobile electronics brand that also sells earbuds, smartwatches, and other electronics accessories.",
+    "keywords": [
+      "oneplus"
+    ]
+  },
+  "dr. alies professional": {
+    "context": "Dr. Alies Professional is most strongly associated with HairOil, and is also commonly seen in FaceSerums, BodyWash, ComboAndKit, Sunscreen, and FootCream. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dr. alies professional"
+    ]
+  },
+  "alpino": {
+    "context": "ALPINO is most strongly associated with Oats, and is also commonly seen in JamsSpreads, PlantBasedProtein, Muesli, Food&NutritionCombo, and ShopsyOats. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "alpino"
+    ]
+  },
+  "tommy hilfiger": {
+    "context": "TOMMY HILFIGER is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, MensBelt, MensWallet, MensPoloTShirt, and Suitcase. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tommy hilfiger"
+    ]
+  },
+  "real": {
+    "context": "Real is most strongly associated with FruitDrinks, and is also commonly seen in MensRaincoatUnbranded, WomenRaincoat, MensJacketUnbranded, WomenJacket, and ShopsyWatchCombo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "real"
+    ]
+  },
+  "savlon": {
+    "context": "Savlon is most strongly associated with Soap, and is also commonly seen in Handwash, AllPurposeCleaner, HealthCareAccessory, SpecialSupplements, and Handsanitizer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "savlon"
+    ]
+  },
+  "portronics": {
+    "context": "Portronics is most strongly associated with PowerBank, and is also commonly seen in LaptopKeyboard, MobileSpeaker, WiredEarphone, Mouse, and TrueWireless. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "portronics"
+    ]
+  },
+  "vlcc": {
+    "context": "VLCC is most strongly associated with FacialKit, and is also commonly seen in Facewash, Sunscreen, BodyLotion, FaceCreamAndGel, and Shampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vlcc"
+    ]
+  },
+  "wild stone": {
+    "context": "Wild Stone is most strongly associated with PerfumeForMen, and is also commonly seen in BodySpray, DeodorantForMen, Soap, Talc, and RollOn. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wild stone"
+    ]
+  },
+  "carmesi": {
+    "context": "Carmesi is most strongly associated with HairRemoval, and is also commonly seen in RollOn, SanitaryPad, ComboAndKit, DeodorantForWomen, and ShavingCreamFoamAndGel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "carmesi"
+    ]
+  },
+  "vicks": {
+    "context": "VICKS is most strongly associated with BodyPainRelief, and is also commonly seen in BabyBodyPainRelief and Cough. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vicks"
+    ]
+  },
+  "caprese": {
+    "context": "Caprese is most strongly associated with Handbags, and is also commonly seen in SlingBag, Totes, WomenMessengerBag, Backpack, and WomenBackpack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "caprese"
+    ]
+  },
+  "hrx by hrithik roshan": {
+    "context": "HRX by Hrithik Roshan is most strongly associated with SpRunningShoes, and is also commonly seen in SpWalkingShoes, SpSlides, MensTrackPant, MensRoundAndOthersTShirt, and Backpack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hrx by hrithik roshan"
+    ]
+  },
+  "hawkins": {
+    "context": "Hawkins is most strongly associated with PressureCooker, and is also commonly seen in PanAndTawa, WokAndKadhai, InductionCooktop, Pot, and Handi. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hawkins"
+    ]
+  },
+  "olay": {
+    "context": "OLAY is most strongly associated with FaceCreamAndGel, and is also commonly seen in FaceSerums, Facewash, BodyLotion, ComboAndKit, and ShopsyMoisturizerCream. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "olay"
+    ]
+  },
+  "orient electric": {
+    "context": "Orient Electric is most strongly associated with Fan, and is also commonly seen in AirCooler, GeyserWaterHeater, RoomHeater, Iron, and HomeEmergencyLight. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "orient electric"
+    ]
+  },
+  "zandu": {
+    "context": "ZANDU is most strongly associated with Honey, and is also commonly seen in DigestiveHealth, ImmunityBooster, Toothpaste, GeneralWellness, and BodyPainRelief. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "zandu"
+    ]
+  },
+  "closeup": {
+    "context": "Closeup is most strongly associated with Toothpaste, and is also commonly seen in Mouthwash and KidOralCare. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "closeup"
+    ]
+  },
+  "louis philippe": {
+    "context": "LOUIS PHILIPPE is most strongly associated with MensPoloTShirt, and is also commonly seen in MensCasualShirt, MensFormalTrouser, CnFLaceUp, MensFormalShirt, and MensBelt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "louis philippe"
+    ]
+  },
+  "pepe jeans": {
+    "context": "Pepe Jeans is most strongly associated with MensJean, and is also commonly seen in CnFSneakers, MensTrackPant, MensCasualShirt, CnFSlides, and BoyJean. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pepe jeans"
+    ]
+  },
+  "royal enfield": {
+    "context": "ROYAL ENFIELD is most strongly associated with Motorcycle, and is also commonly seen in Helmet, RiderProtectiveJackets, RidingGlove, MensCasualShirt, and CarHangingDecor. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "royal enfield"
+    ]
+  },
+  "id": {
+    "context": "iD is primarily associated with general marketplace categories. Treat queries mentioning this brand as brand-led queries for general marketplace categories.",
+    "keywords": [
+      "id"
+    ]
+  },
+  "41 foods": {
+    "context": "41 foods is most strongly associated with NutDryFruitAssortedMix, and is also commonly seen in EdibleSeeds, Pistachios, Cashews, Almonds, and Raisins. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "41 foods"
+    ]
+  },
+  "apollo": {
+    "context": "Apollo is most strongly associated with CarTyre, and is also commonly seen in BikeTyre, CommercialTyre, DipsSaucesPastes, FruitDrinks, and PicklesChutneys. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "apollo"
+    ]
+  },
+  "beardo": {
+    "context": "BEARDO is most strongly associated with PerfumeForMen, and is also commonly seen in Facewash, HairOil, Trimmer, ComboAndKit, and HairStyling. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "beardo"
+    ]
+  },
+  "arrow sport": {
+    "context": "Arrow Sport is most strongly associated with MensCasualShirt, and is also commonly seen in MensCasualTrouser, MensPoloTShirt, MensJacket, MensSweater, and MensSweatshirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "arrow sport"
+    ]
+  },
+  "glucon-d": {
+    "context": "GLUCON-D is most strongly associated with SportsEnergyDrinks, and is also commonly seen in ShopsyHealthEnergyDrink. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "glucon-d"
+    ]
+  },
+  "aashirvaad": {
+    "context": "AASHIRVAAD is most strongly associated with Ghee, and is also commonly seen in ReadyMixes, SpicesMasala, ToorDal, OtherPulses, and OtherFlours. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aashirvaad"
+    ]
+  },
+  "philips": {
+    "context": "PHILIPS is most strongly associated with Television, and is also commonly seen in Trimmer, AirFryer, InductionCooktop, Iron, and HairStraightener. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "philips"
+    ]
+  },
+  "prov": {
+    "context": "ProV is most strongly associated with Almonds, and is also commonly seen in Cashews, Walnuts, Pistachios, DriedFruitsandBerries, and Raisins. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "prov"
+    ]
+  },
+  "red chief": {
+    "context": "RED CHIEF is most strongly associated with CnFLaceUp, and is also commonly seen in CnFCasualOthers, CnFSlipOn, CnFRunningShoes, CnFBoots, and CnFSandal. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "red chief"
+    ]
+  },
+  "cetaphil": {
+    "context": "Cetaphil is a skincare/personal-care brand.",
+    "keywords": [
+      "cetaphil"
+    ]
+  },
+  "nua": {
+    "context": "Nua is most strongly associated with SanitaryPad, and is also commonly seen in Pantyliner, FaceCreamAndGel, BodyPainRelief, WomenIntimateCare, and ShopsySanitaryPad. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nua"
+    ]
+  },
+  "wipro": {
+    "context": "Wipro is most strongly associated with HomeEmergencyLight, and is also commonly seen in Iron, Bulb, ElectricKettle, TableLamp, and SmartSwitch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wipro"
+    ]
+  },
+  "mother dairy": {
+    "context": "MOTHER DAIRY is primarily associated with Ghee. Treat queries mentioning this brand as brand-led queries for Ghee.",
+    "keywords": [
+      "mother dairy"
+    ]
+  },
+  "hmd": {
+    "context": "hmd is most strongly associated with Handset, and is also commonly seen in MobileStoragePendrive, WomenFashionEarring, WomenFashionChain, FashionJewelleryCombo, and ShopsyHandset. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hmd"
+    ]
+  },
+  "dermdoc": {
+    "context": "DermDoc is most strongly associated with FaceCreamAndGel, and is also commonly seen in FaceSerums, ComboAndKit, Toner, Facewash, and BodyLotion. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dermdoc"
+    ]
+  },
+  "voltas": {
+    "context": "Voltas is most strongly associated with AirConditioner, and is also commonly seen in AirCooler, FreezerChest, GeyserWaterHeater, WaterDispenser, and VoltageStabilizer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "voltas"
+    ]
+  },
+  "dollar ultra": {
+    "context": "Dollar Ultra is most strongly associated with WomenThermal, and is also commonly seen in MensThermal, BoyThermal, and InfantThermal. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dollar ultra"
+    ]
+  },
+  "lux cott's wool": {
+    "context": "LUX COTT'S WOOL is most strongly associated with MensThermal, and is also commonly seen in BoyThermal, WomenThermal, InfantThermal, and GirlThermal. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lux cott's wool"
+    ]
+  },
+  "casio": {
+    "context": "CASIO is most strongly associated with MenWristWatch, and is also commonly seen in WristWatch, WomenWristWatch, Calculator, MusicalKeyboards, and KidsWristWatch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "casio"
+    ]
+  },
+  "madhusudan": {
+    "context": "Madhusudan is most strongly associated with Ghee, and is also commonly seen in WomenEthnicGown, WomenDress, and WomenKurtaAndKurti. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "madhusudan"
+    ]
+  },
+  "nycil": {
+    "context": "NYCIL is primarily associated with Talc. Treat queries mentioning this brand as brand-led queries for Talc.",
+    "keywords": [
+      "nycil"
+    ]
+  },
+  "nestle nan pro 2": {
+    "context": "Nestle Nan Pro 2 is primarily associated with InfantFormula. Treat queries mentioning this brand as brand-led queries for InfantFormula.",
+    "keywords": [
+      "nestle nan pro 2"
+    ]
+  },
+  "ariel": {
+    "context": "Ariel is most strongly associated with LiquidDetergent, and is also commonly seen in WashingPowder, GirlInnerwear, BoyInnerwear, WomenShort, and GirlLegging. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "ariel"
+    ]
+  },
+  "flying machine": {
+    "context": "FLYING MACHINE is most strongly associated with MensJean, and is also commonly seen in MensCasualShirt, WomenJean, MensJacket, MensCargo, and MensCasualTrouser. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "flying machine"
+    ]
+  },
+  "lotus": {
+    "context": "LOTUS is most strongly associated with FaceCreamAndGel, and is also commonly seen in FacialKit, BodyLotion, Facewash, ComboAndKit, and Sunscreen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lotus"
+    ]
+  },
+  "nutriglow": {
+    "context": "NutriGlow is most strongly associated with Sunscreen, and is also commonly seen in FacialKit, ComboAndKit, HairTreatment, FaceCreamAndGel, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nutriglow"
+    ]
+  },
+  "oleev": {
+    "context": "Oleev is primarily associated with OtherCookingOil. Treat queries mentioning this brand as brand-led queries for OtherCookingOil.",
+    "keywords": [
+      "oleev"
+    ]
+  },
+  "bikaji": {
+    "context": "Bikaji is most strongly associated with SavouriesNamkeens, and is also commonly seen in SweetsMithai and FryumsPapads. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bikaji"
+    ]
+  },
+  "open secret": {
+    "context": "OPEN SECRET is most strongly associated with Cashews, and is also commonly seen in Dates, Walnuts, Almonds, NutDryFruitAssortedMix, and EdibleSeeds. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "open secret"
+    ]
+  },
+  "odonil": {
+    "context": "Odonil is most strongly associated with HandheldAirFreshner, and is also commonly seen in CarAirFreshener, ShopsyHandheldAirFreshner, ShopsyCarAirFreshener, Diffuser, and NA. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "odonil"
+    ]
+  },
+  "singer": {
+    "context": "SINGER is most strongly associated with SewingMachine, and is also commonly seen in RoomHeater, ElectricKettle, JuicerMixerGrinder, InductionCooktop, and GasStove. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "singer"
+    ]
+  },
+  "atomberg": {
+    "context": "Atomberg is most strongly associated with Fan, and is also commonly seen in WaterPurifier, JuicerMixerGrinder, ExhaustFan, SmartDoorLock, and MixerGrinderAccessory. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "atomberg"
+    ]
+  },
+  "premium": {
+    "context": "Premium is primarily associated with HairColor. Treat queries mentioning this brand as brand-led queries for HairColor.",
+    "keywords": [
+      "premium"
+    ]
+  },
+  "reebok": {
+    "context": "REEBOK is most strongly associated with SpRunningShoes, and is also commonly seen in SpSneakers, SpWalkingShoes, SpCasualOthers, SpGymShoes, and SpCasMisc. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "reebok"
+    ]
+  },
+  "figaro": {
+    "context": "FIGARO is most strongly associated with OtherCookingOil, and is also commonly seen in MassageOil, BodyEssentialOil, HairOil, and ShopsyMassageOil. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "figaro"
+    ]
+  },
+  "luminous": {
+    "context": "LUMINOUS is most strongly associated with InverterBattery, and is also commonly seen in Inverter, UPS, InverterTrolley, SolarBattery, and Fan. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "luminous"
+    ]
+  },
+  "nothing": {
+    "context": "Nothing is a mobile/smartphone and electronics brand that also sells earbuds and other audio accessories. brand_name='Nothing'. Even if the query is just 'nothing' alone, treat it as the Nothing phone brand (brand_present=true).",
+    "keywords": [
+      "nothing"
+    ]
+  },
+  "dr. ortho": {
+    "context": "Dr. Ortho is most strongly associated with BodyPainRelief, and is also commonly seen in KneeSupport, WomenSlippers, CnFSlipperFlipFlops, BackAndAbdomenSupport, and MedicalSupports. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dr. ortho"
+    ]
+  },
+  "sony": {
+    "context": "Sony is a multi-category electronics brand for TVs, headphones, earbuds, speakers, soundbars, cameras, gaming consoles (PlayStation), and mobiles. When a clear product keyword is present (e.g., tv, mobile, headphone, earbuds, speaker, soundbar, camera, playstation), use that as the category. If the query contains only the brand name and alphanumeric/numeric strings (model numbers like 'wh 1000xm5', 'kd 43x75l', 'srs xb100'), these are opaque model codes — do NOT guess the product category from them, always use category 'electronics'. brand_name='Sony'.",
+    "keywords": [
+      "sony"
+    ]
+  },
+  "swiss military": {
+    "context": "SWISS MILITARY is most strongly associated with Backpack, and is also commonly seen in Suitcase, MessengerBag, ShopsySuitcase, SchoolBag, and DuffleBag. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "swiss military"
+    ]
+  },
+  "dr trust": {
+    "context": "Dr Trust is most strongly associated with WeighingScale, and is also commonly seen in BloodPressureMonitor, Nebulizer, PulseOximeter, Vaporizer, and BackAndAbdomenSupport. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dr trust"
+    ]
+  },
+  "go desi": {
+    "context": "GO DESi is primarily associated with CandiesMouthFresheners. Treat queries mentioning this brand as brand-led queries for CandiesMouthFresheners.",
+    "keywords": [
+      "go desi"
+    ]
+  },
+  "just herbs": {
+    "context": "Just Herbs is most strongly associated with PerfumeForMen, and is also commonly seen in Lipstick, MakeupKit, Shampoo, Kajal, and Attar. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "just herbs"
+    ]
+  },
+  "lee cooper": {
+    "context": "LEE COOPER is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, CnFLaceUp, CnFSlipOn, CnFSandal, and CnFBoots. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lee cooper"
+    ]
+  },
+  "only": {
+    "context": "ONLY is most strongly associated with WomenJean, and is also commonly seen in WomenDress, WomenTop, WomenPoloTShirt, WomenShirt, and WomenSweaterPullover. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "only"
+    ]
+  },
+  "dove": {
+    "context": "DOVE is most strongly associated with Shampoo, and is also commonly seen in Soap, BodyWash, Conditioner, HairMask, and BodyScrub. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dove"
+    ]
+  },
+  "asian paints": {
+    "context": "Asian Paints is most strongly associated with WallPaint, and is also commonly seen in Sander, RotaryTool, CrackFiller, PaintSprayer, and SprayPaints. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "asian paints"
+    ]
+  },
+  "carlton london": {
+    "context": "CARLTON LONDON is most strongly associated with OfficeAndStudyChair, and is also commonly seen in WomenWristWatch, KitchenCabinet, MenWristWatch, ClosetAndWardrobe, and Suitcase. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "carlton london"
+    ]
+  },
+  "parker": {
+    "context": "PARKER is most strongly associated with Pen, and is also commonly seen in DairyNoteBook and CorrectionStationery. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "parker"
+    ]
+  },
+  "woodland": {
+    "context": "WOODLAND is most strongly associated with CnFCasualOthers, and is also commonly seen in CnFSandal, CnFBoots, CnFSlipOnSneakers, CnFSlipperFlipFlops, and CnFSneakers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "woodland"
+    ]
+  },
+  "delsey": {
+    "context": "DELSEY is primarily associated with Suitcase. Treat queries mentioning this brand as brand-led queries for Suitcase.",
+    "keywords": [
+      "delsey"
+    ]
+  },
+  "huggies": {
+    "context": "Huggies is most strongly associated with Diaper, and is also commonly seen in ShopsyDiaper, ShopsyAdultDiapers, and AdultDiapers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "huggies"
+    ]
+  },
+  "poco": {
+    "context": "POCO is a mobile phone brand that also sells speakers and other electronics accessories. brand_name='POCO'.",
+    "keywords": [
+      "poco"
+    ]
+  },
+  "simple": {
+    "context": "Simple is most strongly associated with Facewash, and is also commonly seen in ElectricBike, FaceCreamAndGel, BodyLotion, FaceSerums, and Toner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "simple"
+    ]
+  },
+  "garnier": {
+    "context": "GARNIER is most strongly associated with Facewash, and is also commonly seen in FaceSerums, FaceCreamAndGel, FacePack, HairColor, and Sunscreen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "garnier"
+    ]
+  },
+  "lipton": {
+    "context": "Lipton is most strongly associated with Tea, and is also commonly seen in ShopsyTea. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lipton"
+    ]
+  },
+  "skechers": {
+    "context": "Skechers is most strongly associated with SpRunningShoes, and is also commonly seen in SpSneakers, SpWalkingShoes, WomenCasualShoeMisc, WomenWalkingShoes, and SpCasualOthers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "skechers"
+    ]
+  },
+  "asics": {
+    "context": "Asics is most strongly associated with SpRunningShoes, and is also commonly seen in SpSneakers, SpCricketShoes, SpBadmintonShoes, WomenRunningShoes, and SpCourtShoes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "asics"
+    ]
+  },
+  "fogg": {
+    "context": "FOGG is most strongly associated with PerfumeForMen, and is also commonly seen in DeodorantForMen, MenWristWatch, BodySpray, DeodorantForWomen, and PerfumeForWomen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fogg"
+    ]
+  },
+  "hero": {
+    "context": "Hero is a major Indian two-wheeler brand for motorcycles, scooters, and bikes. brand_name='Hero'.",
+    "keywords": [
+      "hero"
+    ]
+  },
+  "kohinoor": {
+    "context": "KOHINOOR is most strongly associated with Condom, and is also commonly seen in Rice, ReadyMixes, ReadyMeals, ColorPencil, and BoardsAndDusters. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kohinoor"
+    ]
+  },
+  "parle": {
+    "context": "PARLE is most strongly associated with CookiesBiscuits, and is also commonly seen in CandiesMouthFresheners, Chocolates, SavouriesNamkeens, ShopsyCandiesMouthFresheners, and Rusks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "parle"
+    ]
+  },
+  "haier": {
+    "context": "Haier is most strongly associated with Refrigerator, and is also commonly seen in AirConditioner, WashingMachineDryer, Television, FreezerChest, and MicrowaveOven. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "haier"
+    ]
+  },
+  "tata tea agni": {
+    "context": "Tata Tea Agni is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "tata tea agni"
+    ]
+  },
+  "thriveco": {
+    "context": "ThriveCo is most strongly associated with HairSerum, and is also commonly seen in HairColor, Shampoo, FaceSerums, HairTreatment, and RollOn. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "thriveco"
+    ]
+  },
+  "asian": {
+    "context": "asian is most strongly associated with SpRunningShoes, and is also commonly seen in SpSneakers, SpMisc, SpCasualOthers, SpGymShoes, and WomenRunningShoes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "asian"
+    ]
+  },
+  "anveshan": {
+    "context": "Anveshan is most strongly associated with OtherCookingOil, and is also commonly seen in Ghee, SunflowerOil, Honey, JamsSpreads, and SpicesMasala. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "anveshan"
+    ]
+  },
+  "clean & clear": {
+    "context": "Clean & Clear is most strongly associated with Facewash, and is also commonly seen in ShopsyFacewash, FaceScrub, ComboAndKit, FaceCreamAndGel, and ShopsyBodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "clean & clear"
+    ]
+  },
+  "inalsa": {
+    "context": "Inalsa is most strongly associated with AirFryer, and is also commonly seen in VacuumCleaner, JuicerMixerGrinder, Iron, HandBlender, and ElectricChopper. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "inalsa"
+    ]
+  },
+  "patanjali": {
+    "context": "PATANJALI is most strongly associated with Toothpaste, and is also commonly seen in Ghee, ImmunityBooster, GeneralWellness, FaceCreamAndGel, and Shampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "patanjali"
+    ]
+  },
+  "continental": {
+    "context": "Continental is most strongly associated with Coffee, and is also commonly seen in CollapsibleWardrobe, CarTyre, PanAndTawa, CarBodyCover, and ShowPiece. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "continental"
+    ]
+  },
+  "madame": {
+    "context": "MADAME is most strongly associated with WomenDress, and is also commonly seen in WomenSweaterPullover, WomenJean, WomenTop, WomenSweatshirt, and WomenJacket. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "madame"
+    ]
+  },
+  "soulflower": {
+    "context": "Soulflower is most strongly associated with HairOil, and is also commonly seen in BodyEssentialOil, HairTreatment, HairSerum, Shampoo, and Soap. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "soulflower"
+    ]
+  },
+  "tecno": {
+    "context": "Tecno is a mobile phone brand. brand_name='Tecno'.",
+    "keywords": [
+      "tecno"
+    ]
+  },
+  "snickers": {
+    "context": "SNICKERS is primarily associated with Chocolates. Treat queries mentioning this brand as brand-led queries for Chocolates.",
+    "keywords": [
+      "snickers"
+    ]
+  },
+  "vivo": {
+    "context": "Vivo is primarily a mobile electronics brand that also sells earbuds, speakers, and other electronics accessories.",
+    "keywords": [
+      "vivo"
+    ]
+  },
+  "mtr": {
+    "context": "MTR is most strongly associated with Handset, and is also commonly seen in ReadyMixes, SpicesMasala, ReadyMeals, ShopsyHandset, and KidsNutritionDrinkMix. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mtr"
+    ]
+  },
+  "wonderchef": {
+    "context": "WONDERCHEF is most strongly associated with JuicerMixerGrinder, and is also commonly seen in OTG, InductionCooktop, ElectricCooker, CoffeeMaker, and PanAndTawa. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wonderchef"
+    ]
+  },
+  "bblunt": {
+    "context": "BBlunt is most strongly associated with Shampoo, and is also commonly seen in HairStyling, HairColor, HairMask, ComboAndKit, and Conditioner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bblunt"
+    ]
+  },
+  "boroplus": {
+    "context": "BOROPLUS is most strongly associated with Soap, and is also commonly seen in BodyLotion, FaceCreamAndGel, Antiseptic, ShopsyMoisturizerCream, and Talc. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "boroplus"
+    ]
+  },
+  "vega": {
+    "context": "VEGA is most strongly associated with Helmet, and is also commonly seen in HairStraightener, Trimmer, HairDryer, PersonalCareAppCombo, and HairCareAccessory. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vega"
+    ]
+  },
+  "pedigree": {
+    "context": "PEDIGREE is most strongly associated with PetFood, and is also commonly seen in TreatAndChew. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pedigree"
+    ]
+  },
+  "head & shoulders": {
+    "context": "HEAD & SHOULDERS is most strongly associated with Shampoo, and is also commonly seen in ShopsyShampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "head & shoulders"
+    ]
+  },
+  "livguard": {
+    "context": "Livguard is most strongly associated with InverterBattery, and is also commonly seen in Inverter and BikeBattery. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "livguard"
+    ]
+  },
+  "morphy richards": {
+    "context": "Morphy Richards is most strongly associated with OTG, and is also commonly seen in RoomHeater, CoffeeMaker, JuicerMixerGrinder, AirFryer, and Iron. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "morphy richards"
+    ]
+  },
+  "r for rabbit": {
+    "context": "R for Rabbit is most strongly associated with Diaper, and is also commonly seen in Utensil, CarSeat, KidsCycles, StrollerPram, and CribsCradle. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "r for rabbit"
+    ]
+  },
+  "wrangler": {
+    "context": "Wrangler is most strongly associated with MensJean, and is also commonly seen in MensPoloTShirt, MensCasualShirt, WomenJean, MensRoundAndOthersTShirt, and MensCasualTrouser. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wrangler"
+    ]
+  },
+  "alcatel": {
+    "context": "Alcatel is most strongly associated with Handset, and is also commonly seen in DataCard. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "alcatel"
+    ]
+  },
+  "provogue": {
+    "context": "PROVOGUE is most strongly associated with Backpack, and is also commonly seen in MensBelt, MenWristWatch, CnFSandal, MensWallet, and CnFLoafers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "provogue"
+    ]
+  },
+  "khaitan": {
+    "context": "Khaitan is most strongly associated with GasStove, and is also commonly seen in ShopsyGasStove, WaterPump, WomenSlipOns, CnFSandal, and TileCutter. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "khaitan"
+    ]
+  },
+  "lotus botanicals": {
+    "context": "Lotus Botanicals is most strongly associated with FaceCreamAndGel, and is also commonly seen in Facewash, ComboAndKit, Sunscreen, FaceScrub, and FacialKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lotus botanicals"
+    ]
+  },
+  "indus valley": {
+    "context": "Indus Valley is most strongly associated with HairColor, and is also commonly seen in Henna, FaceCreamAndGel, FacePack, HairTreatment, and BodyEssentialOil. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "indus valley"
+    ]
+  },
+  "kechaoda": {
+    "context": "Kechaoda is a mobile phone brand that also sells speakers. Correct spelling is 'Kechaoda'. brand_name='Kechaoda'.",
+    "keywords": [
+      "kechaoda"
+    ]
+  },
+  "panasonic": {
+    "context": "Panasonic is a multi-category electronics brand for TVs, refrigerators, washing machines, ACs, microwaves, rice cookers, trimmers, hair dryers, and cameras. When a clear product keyword is present (e.g., tv, trimmer, washing machine, fridge, ac, microwave, hair dryer, camera), use that as the category. If the query contains only the brand name and alphanumeric/numeric strings (model numbers like 'sr wa18h', 'nn ct645b', 'er gb30'), these are opaque model codes — do NOT guess the product category from them, always use category 'electronics'. brand_name='Panasonic'.",
+    "keywords": [
+      "panasonic"
+    ]
+  },
+  "kinder joy": {
+    "context": "Kinder JOY is primarily associated with Chocolates. Treat queries mentioning this brand as brand-led queries for Chocolates.",
+    "keywords": [
+      "kinder joy"
+    ]
+  },
+  "motorola": {
+    "context": "Motorola is primarily a mobile electronics brand.",
+    "keywords": [
+      "motorola"
+    ]
+  },
+  "bevzilla": {
+    "context": "Bevzilla is most strongly associated with Coffee, and is also commonly seen in ImmunityBooster, ShopsyCoffee, HandBlender, Food&NutritionCombo, and KidsNutritionDrinkMix. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bevzilla"
+    ]
+  },
+  "sanfe": {
+    "context": "Sanfe is most strongly associated with BodyScrub, and is also commonly seen in HairRemoval, Soap, FacePack, FaceCreamAndGel, and BodyAndSkinAccessory. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sanfe"
+    ]
+  },
+  "lakme": {
+    "context": "Lakme is a beauty/personal-care brand.",
+    "keywords": [
+      "lakme"
+    ]
+  },
+  "rin": {
+    "context": "Rin is most strongly associated with WashingPowder, and is also commonly seen in WashingBar, FabricWhitener, LiquidDetergent, FabricSoftner, and DishWashingBar. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "rin"
+    ]
+  },
+  "honeywell": {
+    "context": "Honeywell is most strongly associated with AirPurifier, and is also commonly seen in DockingStation, Soundbar, CarAirPurifier, BarcodeScanner, and USBGadget. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "honeywell"
+    ]
+  },
+  "zebronics": {
+    "context": "ZEBRONICS is most strongly associated with Soundbar, and is also commonly seen in MobileSpeaker, HomeAudioSpeaker, DesktopMonitor, Projector, and LaptopKeyboard. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "zebronics"
+    ]
+  },
+  "nintendo": {
+    "context": "NINTENDO is most strongly associated with GamingConsole, and is also commonly seen in HandheldGamingConsole, MotionController, GamePad, GamingAccessoryKit, and JoystickGamingWheel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nintendo"
+    ]
+  },
+  "organic tattva": {
+    "context": "Organic Tattva is most strongly associated with Jaggery, and is also commonly seen in RagiFlour, Sugar, SpicesMasala, OtherFlours, and Rice. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "organic tattva"
+    ]
+  },
+  "lava": {
+    "context": "Lava is an Indian mobile phone brand. brand_name='Lava'.",
+    "keywords": [
+      "lava"
+    ]
+  },
+  "muscleblaze": {
+    "context": "MUSCLEBLAZE is most strongly associated with WheyProtein, and is also commonly seen in Creatine, WeightGainers, Oats, Vitamins, and ProteinBlend. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "muscleblaze"
+    ]
+  },
+  "quaker": {
+    "context": "Quaker is most strongly associated with OtherBreakfastMixesCereals, and is also commonly seen in Oats, ReadyMeals, ShopsyOats, and ReadyMixes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "quaker"
+    ]
+  },
+  "symphony": {
+    "context": "Symphony is most strongly associated with AirCooler, and is also commonly seen in GeyserWaterHeater and Fan. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "symphony"
+    ]
+  },
+  "usha": {
+    "context": "USHA is most strongly associated with SewingMachine, and is also commonly seen in Fan, InductionCooktop, JuicerMixerGrinder, RoomHeater, and Iron. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "usha"
+    ]
+  },
+  "bombay shaving company": {
+    "context": "BOMBAY SHAVING COMPANY is most strongly associated with Trimmer, and is also commonly seen in PerfumeForMen, DeodorantForMen, HairRemoval, Facewash, and RazorsAndCartrdige. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bombay shaving company"
+    ]
+  },
+  "sirona": {
+    "context": "SIRONA is most strongly associated with MenstrualCups, and is also commonly seen in SanitaryPad, HairRemoval, Tampon, Facewash, and FaceCreamAndGel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sirona"
+    ]
+  },
+  "swiss military by chrono": {
+    "context": "Swiss Military by Chrono is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "swiss military by chrono"
+    ]
+  },
+  "manforce": {
+    "context": "MANFORCE is most strongly associated with Condom, and is also commonly seen in Lubricant, Allopathy, and ShopsyCondom. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "manforce"
+    ]
+  },
+  "durex": {
+    "context": "DUREX is most strongly associated with Condom, and is also commonly seen in Lubricant, DelaySpray, SexualHealth, SexualComboAndKit, and SexualMassager. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "durex"
+    ]
+  },
+  "johnson's": {
+    "context": "JOHNSON'S is most strongly associated with Wipe, and is also commonly seen in LotionCream, BabySoap, MassageOil, Talc, and BabyShampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "johnson's"
+    ]
+  },
+  "dell": {
+    "context": "Dell is primarily a laptop/computing electronics brand.",
+    "keywords": [
+      "dell"
+    ]
+  },
+  "l'oreal paris": {
+    "context": "L'Oreal Paris is most strongly associated with ShopsyComboAndKit, and is also commonly seen in ShopsyShampoo, ShopsyHairTreatment, ShopsyHairSerum, and DeodorantForMen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "l'oreal paris"
+    ]
+  },
+  "pears": {
+    "context": "Pears is most strongly associated with Soap, and is also commonly seen in BodyWash, Facewash, ShopsySoap, ComboAndKit, and Handwash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pears"
+    ]
+  },
+  "bajaj": {
+    "context": "BAJAJ is most strongly associated with Motorcycle, and is also commonly seen in AirCooler, Fan, JuicerMixerGrinder, PressureCooker, and InductionCooktop. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bajaj"
+    ]
+  },
+  "nutraj": {
+    "context": "Nutraj is most strongly associated with Walnuts, and is also commonly seen in Dates, NutDryFruitAssortedMix, SpicesMasala, Almonds, and Pistachios. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nutraj"
+    ]
+  },
+  "sassafras": {
+    "context": "SASSAFRAS is most strongly associated with WomenDress, and is also commonly seen in WomenJean, WomenTrouser, WomenTop, WomenJumpsuit, and WomenSkirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sassafras"
+    ]
+  },
+  "tokyo talkies": {
+    "context": "Tokyo Talkies is most strongly associated with WomenDress, and is also commonly seen in WomenJean, WomenTop, WomenTrouser, WomensApparelSet, and WomenSweaterPullover. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tokyo talkies"
+    ]
+  },
+  "nat habit": {
+    "context": "Nat Habit is most strongly associated with Henna, and is also commonly seen in Facewash, HairOil, ComboAndKit, HairCareAccessory, and Shampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nat habit"
+    ]
+  },
+  "pampers": {
+    "context": "Pampers is most strongly associated with Diaper, and is also commonly seen in Wipe and AdultDiapers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pampers"
+    ]
+  },
+  "tetley": {
+    "context": "Tetley is most strongly associated with Tea, and is also commonly seen in AeratedDrinks and ShopsyTea. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tetley"
+    ]
+  },
+  "maggi": {
+    "context": "Maggi is most strongly associated with Noodles, and is also commonly seen in SpicesMasala, Pasta, JuicerMixerGrinder, MixerGrinderAccessory, and MilkMilkPowder. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "maggi"
+    ]
+  },
+  "midea": {
+    "context": "Midea is most strongly associated with AirConditioner, and is also commonly seen in Refrigerator, Dishwasher, MicrowaveOven, WashingMachineDryer, and ElectricCooker. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "midea"
+    ]
+  },
+  "fire-boltt": {
+    "context": "Fire-Boltt is most strongly associated with Smartwatch, and is also commonly seen in SmartGlasses, TrueWireless, GamingHeadset, ShopsySmartwatch, and BluetoothHeadset. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fire-boltt"
+    ]
+  },
+  "liril": {
+    "context": "Liril is most strongly associated with Soap, and is also commonly seen in BodyWash, ShopsySoap, and ShopsyBodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "liril"
+    ]
+  },
+  "monte carlo": {
+    "context": "MONTE CARLO is most strongly associated with MensJacket, and is also commonly seen in WomenSweaterPullover, MensSweater, WomenJacket, Blanket, and WomenCoat. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "monte carlo"
+    ]
+  },
+  "hp": {
+    "context": "HP is primarily a laptop/computing electronics brand.",
+    "keywords": [
+      "hp"
+    ]
+  },
+  "titan": {
+    "context": "Titan is commonly a watch/lifestyle accessories brand.",
+    "keywords": [
+      "titan"
+    ]
+  },
+  "diesel": {
+    "context": "DIESEL is most strongly associated with MenWristWatch, and is also commonly seen in MensRoundAndOthersTShirt, MensJean, WomenWristWatch, MensCasualShirt, and PerfumeForMen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "diesel"
+    ]
+  },
+  "del monte": {
+    "context": "Del Monte is most strongly associated with OtherCookingOil, and is also commonly seen in CannedFood, DipsSaucesPastes, JamsSpreads, Syrup, and ReadyMixes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "del monte"
+    ]
+  },
+  "elica": {
+    "context": "Elica is most strongly associated with Chimney, and is also commonly seen in GasStove, MobileProtectionPlainCaseCover, WallClock, TabletCaseCover, and MobileProtectionMobileScreenGuard. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "elica"
+    ]
+  },
+  "ifb": {
+    "context": "IFB is a washing machine and dryer brand. brand_name='IFB'.",
+    "keywords": [
+      "ifb"
+    ]
+  },
+  "dettol": {
+    "context": "Dettol is most strongly associated with Antiseptic, and is also commonly seen in Soap, Handwash, BodyWash, ComboAndKit, and DishCleaningGel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dettol"
+    ]
+  },
+  "greenchef": {
+    "context": "Greenchef is most strongly associated with GasStove, and is also commonly seen in PressureCooker, InductionCooktop, PanAndTawa, AirFryer, and MopSet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "greenchef"
+    ]
+  },
+  "manna": {
+    "context": "Manna is most strongly associated with Oats, and is also commonly seen in Dates, GrainsMillets, MultigrainFlour, KidsNutritionDrinkMix, and Sattu. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "manna"
+    ]
+  },
+  "man matters": {
+    "context": "Man Matters is most strongly associated with HairOil, and is also commonly seen in SpecialSupplements, GeneralWellness, Shampoo, ComboAndKit, and Vitamins. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "man matters"
+    ]
+  },
+  "parachute": {
+    "context": "Parachute is most strongly associated with HairOil, and is also commonly seen in OtherCookingOil, HairStyling, BodyLotion, ShopsyMoisturizerCream, and ShopsyHairOil. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "parachute"
+    ]
+  },
+  "cinthol": {
+    "context": "CINTHOL is most strongly associated with Soap, and is also commonly seen in BodyWash, Talc, ShopsySoap, DeodorantForMen, and ShopsyDeodorant. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cinthol"
+    ]
+  },
+  "himalaya": {
+    "context": "HIMALAYA is most strongly associated with Facewash, and is also commonly seen in BabyComboGiftSet, Diaper, Wipe, MassageOil, and LotionCream. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "himalaya"
+    ]
+  },
+  "mochi": {
+    "context": "MOCHI is most strongly associated with OpSandal, and is also commonly seen in OpFormal, WomenWedges, WomenFlatMisc, WomenBlockHeels, and OpLoafers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mochi"
+    ]
+  },
+  "under armour": {
+    "context": "UNDER ARMOUR is most strongly associated with SpMisc, and is also commonly seen in SpRunningShoes, SpBasketball, SpGymShoes, SpSneakers, and WomenRunningShoes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "under armour"
+    ]
+  },
+  "bosch": {
+    "context": "BOSCH is most strongly associated with WashingMachineDryer, and is also commonly seen in Dishwasher, Refrigerator, JuicerMixerGrinder, PowerDrill, and AngleGrinder. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bosch"
+    ]
+  },
+  "sonata": {
+    "context": "SONATA is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, WristWatch, CoupleWatch, KidsWristWatch, and WatchCombo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sonata"
+    ]
+  },
+  "tata tea": {
+    "context": "Tata Tea is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "tata tea"
+    ]
+  },
+  "urbangabru": {
+    "context": "urbangabru is most strongly associated with HairRemoval, and is also commonly seen in HairVolumizer, Trimmer, HairStyling, FacePack, and Shaver. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "urbangabru"
+    ]
+  },
+  "janasya": {
+    "context": "Janasya is most strongly associated with WomenEthnicSet, and is also commonly seen in WomensApparelSet, WomenEthnicDress, WomenTop, WomenKurtaAndKurti, and WomenDress. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "janasya"
+    ]
+  },
+  "borosil": {
+    "context": "BOROSIL is most strongly associated with LunchBox, and is also commonly seen in Bottle, Flask, Mug, BakingBowl, and JuicerMixerGrinder. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "borosil"
+    ]
+  },
+  "jivo": {
+    "context": "JIVO is most strongly associated with OtherCookingOil, and is also commonly seen in SunflowerOil, HipFlask, Torch, Massager, and ShopsyOtherCookingOil. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "jivo"
+    ]
+  },
+  "nestle lactogen": {
+    "context": "Nestle Lactogen is primarily associated with InfantFormula. Treat queries mentioning this brand as brand-led queries for InfantFormula.",
+    "keywords": [
+      "nestle lactogen"
+    ]
+  },
+  "hyphen": {
+    "context": "HYPHEN is most strongly associated with FaceSerums, and is also commonly seen in Sunscreen, FaceCreamAndGel, Lipbalm, ComboAndKit, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hyphen"
+    ]
+  },
+  "iqoo": {
+    "context": "iQOO is primarily a mobile electronics brand.",
+    "keywords": [
+      "iqoo"
+    ]
+  },
+  "peter england": {
+    "context": "PETER ENGLAND is most strongly associated with MenWristWatch, and is also commonly seen in MensSuit, MensCasualShirt, MensJean, MensFormalShirt, and MensBlazer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "peter england"
+    ]
+  },
+  "niine": {
+    "context": "niine is most strongly associated with SanitaryPad, and is also commonly seen in Diaper, DiaperDisposalBins, and ShopsyDiaper. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "niine"
+    ]
+  },
+  "lacoste": {
+    "context": "LACOSTE is most strongly associated with MenWristWatch, and is also commonly seen in SpGymShoes, WomenWristWatch, SpSneakers, SpCasualOthers, and KidsWristWatch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lacoste"
+    ]
+  },
+  "lino perros": {
+    "context": "LINO PERROS is most strongly associated with Handbags, and is also commonly seen in SlingBag, WalletClutch, WomenBackpack, Totes, and MessengerBag. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lino perros"
+    ]
+  },
+  "zouk": {
+    "context": "ZOUK is most strongly associated with Handbags, and is also commonly seen in Totes, SlingBag, Backpack, WalletClutch, and WomenBackpack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "zouk"
+    ]
+  },
+  "clinic plus": {
+    "context": "Clinic Plus is most strongly associated with Shampoo, and is also commonly seen in ComboAndKit, HairOil, ShopsyShampoo, and BabyShampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "clinic plus"
+    ]
+  },
+  "delsey paris": {
+    "context": "DELSEY PARIS is primarily associated with Suitcase. Treat queries mentioning this brand as brand-led queries for Suitcase.",
+    "keywords": [
+      "delsey paris"
+    ]
+  },
+  "devaaya": {
+    "context": "Devaaya is primarily associated with Rice. Treat queries mentioning this brand as brand-led queries for Rice.",
+    "keywords": [
+      "devaaya"
+    ]
+  },
+  "lux": {
+    "context": "LUX is most strongly associated with Soap, and is also commonly seen in BodyWash, WomenPanty, MensVest, ShopsyMenVest, and ShopsyMenBrief. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lux"
+    ]
+  },
+  "nayasa": {
+    "context": "NAYASA is most strongly associated with Bucket, and is also commonly seen in ThermalCasseroleAndSet, Bottle, LaundryBasket, Container, and Dustbin. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nayasa"
+    ]
+  },
+  "hershey's": {
+    "context": "HERSHEY'S is most strongly associated with Syrup, and is also commonly seen in BakingIngredientsDecoratives, Chocolates, JamsSpreads, Concentrates, and KidsNutritionDrinkMix. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hershey's"
+    ]
+  },
+  "lifebuoy": {
+    "context": "LIFEBUOY is most strongly associated with Soap, and is also commonly seen in Handwash and BodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lifebuoy"
+    ]
+  },
+  "mother sparsh": {
+    "context": "Mother Sparsh is most strongly associated with Wipe, and is also commonly seen in BabyComboGiftSet, LotionCream, Cleaner, BabyBodyWash, and KidOralCare. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mother sparsh"
+    ]
+  },
+  "oral-b": {
+    "context": "Oral-B is most strongly associated with ElectricToothbrush, and is also commonly seen in Toothbrush, DentalFlossStick, and KidOralCare. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "oral-b"
+    ]
+  },
+  "pureit": {
+    "context": "Pureit is most strongly associated with WaterPurifier, and is also commonly seen in WaterFilterCartridge. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pureit"
+    ]
+  },
+  "saffola": {
+    "context": "Saffola is most strongly associated with OtherCookingOil, and is also commonly seen in Oats, Honey, Muesli, JamsSpreads, and SunflowerOil. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "saffola"
+    ]
+  },
+  "dabur vatika": {
+    "context": "DABUR VATIKA is most strongly associated with Shampoo, and is also commonly seen in HairOil, ShopsyShampoo, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dabur vatika"
+    ]
+  },
+  "dhara": {
+    "context": "DHARA is primarily associated with OtherCookingOil. Treat queries mentioning this brand as brand-led queries for OtherCookingOil.",
+    "keywords": [
+      "dhara"
+    ]
+  },
+  "dabur": {
+    "context": "Dabur is most strongly associated with ImmunityBooster, and is also commonly seen in Toothpaste, HairOil, Honey, MassageOil, and MakeupRemover. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dabur"
+    ]
+  },
+  "tresemme": {
+    "context": "TRESemme is most strongly associated with Shampoo, and is also commonly seen in Conditioner, ComboAndKit, HairSerum, HairMask, and HairTreatment. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tresemme"
+    ]
+  },
+  "flite": {
+    "context": "FLITE is most strongly associated with OpSlipperFlipFlops, and is also commonly seen in WomenSlippers, OpSlides, WomenFlipFlops, OpSandal, and WomenSlides. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "flite"
+    ]
+  },
+  "hindware": {
+    "context": "Hindware is most strongly associated with Chimney, and is also commonly seen in Faucet, GeyserWaterHeater, Commodes, GasStove, and AirCooler. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hindware"
+    ]
+  },
+  "kellogg's": {
+    "context": "Kellogg's is most strongly associated with Muesli, and is also commonly seen in CornFlakes, Oats, Granola, OtherBreakfastMixesCereals, and ShopsyCornFlakes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kellogg's"
+    ]
+  },
+  "red label": {
+    "context": "Red Label is most strongly associated with Tea, and is also commonly seen in CnFLoafers, ShopsyTea, CnFSlipOn, and CnFCorpCasuals. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "red label"
+    ]
+  },
+  "zoff": {
+    "context": "zoff is most strongly associated with SpicesMasala, and is also commonly seen in ReadyMixes and EdibleSeeds. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "zoff"
+    ]
+  },
+  "nirlon": {
+    "context": "NIRLON is most strongly associated with WokAndKadhai, and is also commonly seen in PanAndTawa, CookwareSet, PressureCooker, Pot, and ShopsyPanAndTawa. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nirlon"
+    ]
+  },
+  "nokia": {
+    "context": "Nokia is most strongly associated with Handset, and is also commonly seen in Television, TabletWithCallFacility, TabletWithoutCallFacility, ShopsyHandset, and MobileSpareParts. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nokia"
+    ]
+  },
+  "campus": {
+    "context": "Campus is commonly a footwear brand.",
+    "keywords": [
+      "campus"
+    ]
+  },
+  "red tape": {
+    "context": "RED TAPE is most strongly associated with CnFSneakers, and is also commonly seen in CnFWalkingShoes, WomenCasualShoeMisc, CnFSlides, CnFSandal, and CnFBasketball. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "red tape"
+    ]
+  },
+  "streax": {
+    "context": "Streax is most strongly associated with HairSerum, and is also commonly seen in HairColor, HairStyling, HairTreatment, Shampoo, and ShopsyHairSerum. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "streax"
+    ]
+  },
+  "taj mahal": {
+    "context": "Taj Mahal is most strongly associated with Tea, and is also commonly seen in Rice, ShopsyTea, and SpicesMasala. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "taj mahal"
+    ]
+  },
+  "boss": {
+    "context": "BOSS is most strongly associated with MenWristWatch, and is also commonly seen in HandBlender, Projector, WomenWristWatch, InstrumentHardware, and StringInstruments. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "boss"
+    ]
+  },
+  "cosco": {
+    "context": "COSCO is most strongly associated with VolleyballBall, and is also commonly seen in FootballBall, BadmintonRacquets, BadmintonKits, CricketBall, and BasketballBall. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cosco"
+    ]
+  },
+  "cara mia": {
+    "context": "Cara Mia is most strongly associated with WomenWristWatch, and is also commonly seen in BodyLotion, Totes, SlingBag, Handbags, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cara mia"
+    ]
+  },
+  "nivea": {
+    "context": "NIVEA is most strongly associated with BodyLotion, and is also commonly seen in RollOn, Lipbalm, BodyWash, FaceCreamAndGel, and Sunscreen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nivea"
+    ]
+  },
+  "sprite": {
+    "context": "sprite is primarily associated with AeratedDrinks. Treat queries mentioning this brand as brand-led queries for AeratedDrinks.",
+    "keywords": [
+      "sprite"
+    ]
+  },
+  "modern": {
+    "context": "Modern is most strongly associated with OtherBooks, and is also commonly seen in ExamPreparationOtherBooksInExamPreparation, ExamPreparationCompetitiveExamsForHigherEducation, and ChildrensBooks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "modern"
+    ]
+  },
+  "the plant fix plix": {
+    "context": "The Plant Fix Plix is most strongly associated with ComboAndKit, and is also commonly seen in BodyLotion, HairStyling, Shampoo, HairSerum, and SpecialSupplements. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "the plant fix plix"
+    ]
+  },
+  "yum yum": {
+    "context": "YUM YUM is most strongly associated with NutDryFruitAssortedMix, and is also commonly seen in Pistachios, Almonds, Raisins, Walnuts, and Cashews. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "yum yum"
+    ]
+  },
+  "acer": {
+    "context": "Acer is primarily a laptop/computing electronics brand.",
+    "keywords": [
+      "acer"
+    ]
+  },
+  "bolas": {
+    "context": "Bolas is most strongly associated with Cashews, and is also commonly seen in Dates, ExoticNuts, Almonds, NutDryFruitAssortedMix, and SweetsMithai. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bolas"
+    ]
+  },
+  "dr. morepen": {
+    "context": "Dr. Morepen is most strongly associated with BloodPressureMonitor, and is also commonly seen in GlucometerStrips, Glucometer, OmegaFattyAcids, Nebulizer, and Stethoscope. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dr. morepen"
+    ]
+  },
+  "joy": {
+    "context": "Joy is most strongly associated with Facewash, and is also commonly seen in BodyLotion, FaceCreamAndGel, Sunscreen, Shampoo, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "joy"
+    ]
+  },
+  "noise": {
+    "context": "Noise is an electronics/wearables brand. 'noise' in any electronics/watch/audio context is always the Noise brand (brand_present=true, brand_name='Noise').",
+    "keywords": [
+      "noise"
+    ]
+  },
+  "kenstar": {
+    "context": "Kenstar is most strongly associated with AirCooler, and is also commonly seen in WaterPurifier, Fan, FreezerChest, Television, and GeyserWaterHeater. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kenstar"
+    ]
+  },
+  "pilgrim": {
+    "context": "Pilgrim is most strongly associated with Shampoo, and is also commonly seen in FaceSerums, FaceCreamAndGel, HairSerum, Sunscreen, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pilgrim"
+    ]
+  },
+  "u.s. polo assn.": {
+    "context": "U.S. POLO ASSN. is most strongly associated with CnFSneakers, and is also commonly seen in MensCasualShirt, MensPoloTShirt, MensJacket, MensRoundAndOthersTShirt, and CnFCasualOthers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "u.s. polo assn."
+    ]
+  },
+  "oswaal": {
+    "context": "OSWAAL is most strongly associated with WomenThermal, and is also commonly seen in MensThermalUnbranded, MensShawlUnbranded, and OtherBooks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "oswaal"
+    ]
+  },
+  "raymond home": {
+    "context": "Raymond Home is most strongly associated with Bedsheet, and is also commonly seen in Blanket, Pillow, MosquitoNet, LivingRoomCurtain, and MattressProtector. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "raymond home"
+    ]
+  },
+  "aqualogica": {
+    "context": "Aqualogica is most strongly associated with Sunscreen, and is also commonly seen in FaceCreamAndGel, Facewash, ComboAndKit, DeodorantForWomen, and PerfumeForMen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aqualogica"
+    ]
+  },
+  "boldfit": {
+    "context": "BOLDFIT is most strongly associated with YogaMat, and is also commonly seen in ShakerAndSipper, Bar, Balaclava, FitnessBand, and ResistanceTube. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "boldfit"
+    ]
+  },
+  "mamaearth": {
+    "context": "Mamaearth is most strongly associated with Facewash, and is also commonly seen in FaceCreamAndGel, Shampoo, Sunscreen, BodyLotion, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mamaearth"
+    ]
+  },
+  "sunsilk": {
+    "context": "SUNSILK is most strongly associated with Shampoo, and is also commonly seen in Conditioner, HairSerum, ComboAndKit, ShopsyShampoo, and ShopsyConditioner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sunsilk"
+    ]
+  },
+  "steelbird": {
+    "context": "Steelbird is most strongly associated with Helmet, and is also commonly seen in RidingGlove, VehicleInteriorCleaner, RiderProtectiveJackets, BikeMobileHolder, and CricketHelmet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "steelbird"
+    ]
+  },
+  "cmf by nothing": {
+    "context": "CMF by Nothing is most strongly associated with Handset, and is also commonly seen in TrueWireless, Smartwatch, MobileChargingMobileCharger, WiredEarphone, and BluetoothHeadset. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cmf by nothing"
+    ]
+  },
+  "lux venus": {
+    "context": "Lux Venus is most strongly associated with MensVest, and is also commonly seen in MensBrief, WomenBra, MensPoloTShirt, MensWindCheater, and MensRaincoat. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lux venus"
+    ]
+  },
+  "amul": {
+    "context": "Amul is most strongly associated with Chocolates, and is also commonly seen in MilkMilkPowder, Ghee, Cheese, WomenPanty, and CandiesMouthFresheners. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "amul"
+    ]
+  },
+  "safari": {
+    "context": "SAFARI is most strongly associated with Suitcase, and is also commonly seen in Backpack, DuffleBag, SchoolBag, Rucksack, and MessengerBag. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "safari"
+    ]
+  },
+  "true elements": {
+    "context": "True Elements is most strongly associated with Almonds, and is also commonly seen in Cashews, EdibleSeeds, Oats, Muesli, and GrainsMillets. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "true elements"
+    ]
+  },
+  "micromax": {
+    "context": "Micromax is most strongly associated with Handset, and is also commonly seen in ShopsyHandset, Television, and TrueWireless. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "micromax"
+    ]
+  },
+  "purepet": {
+    "context": "Purepet is most strongly associated with PetFood, and is also commonly seen in PetLitterTrayRefill, TreatAndChew, and PetChew. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "purepet"
+    ]
+  },
+  "elle 18": {
+    "context": "ELLE 18 is most strongly associated with Kajal, and is also commonly seen in Lipstick, ComboAndKit, Lipgloss, NailPolish, and Foundation. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "elle 18"
+    ]
+  },
+  "hitachi": {
+    "context": "Hitachi is primarily associated with AirConditioner. Treat queries mentioning this brand as brand-led queries for AirConditioner.",
+    "keywords": [
+      "hitachi"
+    ]
+  },
+  "toshiba": {
+    "context": "TOSHIBA is most strongly associated with Television, and is also commonly seen in ExternalHardDisk, Refrigerator, and InternalHardDrive. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "toshiba"
+    ]
+  },
+  "duroflex": {
+    "context": "Duroflex is most strongly associated with BedMattress, and is also commonly seen in Recliner, SofaAndSectional, Pillow, MattressProtector, and SofaBedAndFuton. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "duroflex"
+    ]
+  },
+  "kesh king": {
+    "context": "Kesh King is most strongly associated with Shampoo, and is also commonly seen in HairOil, ComboAndKit, HairSerum, Conditioner, and ShopsyHairOil. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kesh king"
+    ]
+  },
+  "surf excel": {
+    "context": "Surf excel is most strongly associated with LiquidDetergent, and is also commonly seen in WashingPowder, DetergentPod, and WashingBar. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "surf excel"
+    ]
+  },
+  "biba": {
+    "context": "BIBA is most strongly associated with WomenSalwarKurtaDupatta, and is also commonly seen in WomenKurtaAndKurti, WomenEthnicSet, WomenEthnicDress, GirlEthnicSet, and WomenDress. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "biba"
+    ]
+  },
+  "heritage": {
+    "context": "Heritage is most strongly associated with BodyPainRelief, and is also commonly seen in MedicineAndHealthSciencesTextbooks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "heritage"
+    ]
+  },
+  "nestle cerelac": {
+    "context": "Nestle Cerelac is primarily associated with BabyCereal. Treat queries mentioning this brand as brand-led queries for BabyCereal.",
+    "keywords": [
+      "nestle cerelac"
+    ]
+  },
+  "sugar cosmetics": {
+    "context": "SUGAR Cosmetics is most strongly associated with Lipstick, and is also commonly seen in Kajal, Lipbalm, Compact, Foundation, and Primer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sugar cosmetics"
+    ]
+  },
+  "spykar": {
+    "context": "Spykar is most strongly associated with MensJean, and is also commonly seen in MensCasualShirt, WomenJean, MensRoundAndOthersTShirt, MensPoloTShirt, and MensCargo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "spykar"
+    ]
+  },
+  "dr physio": {
+    "context": "DR PHYSIO is most strongly associated with Massager, and is also commonly seen in Electrotherapy. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dr physio"
+    ]
+  },
+  "rare rabbit": {
+    "context": "RARE RABBIT is most strongly associated with mens casual shirt, and is also commonly seen in mens trousers and mens jeans. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "rare rabbit"
+    ]
+  },
+  "scotch-brite": {
+    "context": "Scotch-Brite is most strongly associated with mops, and is also commonly seen in Scrub Pad, BroomAndBrush, CleaningGlove, ToiletBrush, and CleaningCloth. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "scotch-brite"
+    ]
+  },
+  "sumeet": {
+    "context": "Sumeet is most strongly associated with WokAndKadhai, and is also commonly seen in Flask, Pot, PanAndTawa, PlateTrayAndDish, and Container. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sumeet"
+    ]
+  },
+  "aptamil": {
+    "context": "Aptamil is most strongly associated with InfantFormula, and is also commonly seen in BabyCereal. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aptamil"
+    ]
+  },
+  "garmin": {
+    "context": "GARMIN is most strongly associated with Smartwatch, and is also commonly seen in GSPNavigationDevice and SmartBand. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "garmin"
+    ]
+  },
+  "jockey": {
+    "context": "JOCKEY is most strongly associated with MensBrief, and is also commonly seen in WomenBra, WomenPanty, MensVest, MensSock, and MensRoundAndOthersTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "jockey"
+    ]
+  },
+  "softovac": {
+    "context": "Softovac is primarily associated with DigestiveHealth. Treat queries mentioning this brand as brand-led queries for DigestiveHealth.",
+    "keywords": [
+      "softovac"
+    ]
+  },
+  "kwality": {
+    "context": "Kwality is most strongly associated with Muesli, and is also commonly seen in CornFlakes, ReadyMixes, Mascara, SavouriesNamkeens, and Oats. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kwality"
+    ]
+  },
+  "mast & harbour": {
+    "context": "Mast & Harbour is most strongly associated with MensCasualShirt, and is also commonly seen in MensJean, MensRoundAndOthersTShirt, CnFSandal, WomenJean, and MensSweater. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mast & harbour"
+    ]
+  },
+  "natureland organics": {
+    "context": "Natureland Organics is most strongly associated with SunflowerOil, and is also commonly seen in OtherCookingOil, WheatFlour, OtherPulses, and Tea. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "natureland organics"
+    ]
+  },
+  "tvs": {
+    "context": "TVS is a major Indian two-wheeler brand for motorcycles, scooters, and bikes. brand_name='TVS'.",
+    "keywords": [
+      "tvs"
+    ]
+  },
+  "whisper": {
+    "context": "Whisper is most strongly associated with SanitaryPad, and is also commonly seen in ShopsySanitaryPad, Pantyliner, and ShopsyPantyliner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "whisper"
+    ]
+  },
+  "khadi natural": {
+    "context": "KHADI NATURAL is most strongly associated with Shampoo, and is also commonly seen in Soap, Facewash, HairOil, Conditioner, and HairTreatment. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "khadi natural"
+    ]
+  },
+  "nutralite": {
+    "context": "Nutralite is most strongly associated with Ghee, and is also commonly seen in JamsSpreads. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nutralite"
+    ]
+  },
+  "jack & jones": {
+    "context": "JACK & JONES is most strongly associated with CnFSlides, and is also commonly seen in MensJean, MensCasualShirt, MensCap, MensRoundAndOthersTShirt, and MensPoloTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "jack & jones"
+    ]
+  },
+  "libas": {
+    "context": "LIBAS is most strongly associated with WomenEthnicSet, and is also commonly seen in WomenKurtaAndKurti, WomenSari, WomenNightSuit, WomenNightDressNighty, and WomenEthincBottom. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "libas"
+    ]
+  },
+  "renee": {
+    "context": "Renee is most strongly associated with FaceCreamAndGel, and is also commonly seen in Kajal, Lipstick, Sunscreen, HairColor, and Compact. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "renee"
+    ]
+  },
+  "7days natural": {
+    "context": "7days natural is most strongly associated with FaceCreamAndGel, and is also commonly seen in Lipbalm, FaceSerums, Shampoo, HairOil, and EyeCare. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "7days natural"
+    ]
+  },
+  "kaushalendra": {
+    "context": "Kaushalendra is most strongly associated with HammockSwing, and is also commonly seen in Hook, Bench, TrampolineSpring, AnchorFastener, and PillowCover. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kaushalendra"
+    ]
+  },
+  "sagar": {
+    "context": "SAGAR is most strongly associated with PerfumeForMen, and is also commonly seen in GasStove, WomenDupatta, DeodorantForMen, Jug, and PlantSeed. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sagar"
+    ]
+  },
+  "godrej": {
+    "context": "Godrej is most strongly associated with AirConditioner, and is also commonly seen in Refrigerator, WashingMachineDryer, FreezerChest, SafeLocker, and NoteCountingMachine. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "godrej"
+    ]
+  },
+  "lg": {
+    "context": "LG is a multi-category electronics brand for TVs, refrigerators, washing machines, ACs, microwaves, monitors, and mobiles. When a clear product keyword is present (e.g., tv, mobile, washing machine, fridge, ac, monitor, microwave), use that as the category. If the query contains only the brand name and alphanumeric/numeric strings (model numbers like 't70sksf1z', 'gl b201apzd', '32lm563bptc'), these are opaque model codes — do NOT guess the product category from them, always use category 'electronics'. brand_name='LG'.",
+    "keywords": [
+      "lg"
+    ]
+  },
+  "arrow": {
+    "context": "ARROW is most strongly associated with MensBlazer, and is also commonly seen in MensFormalShirt, MensFormalTrouser, MensSuit, MensCasualShirt, and MensPoloTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "arrow"
+    ]
+  },
+  "l'oreal professionnel": {
+    "context": "L'Oreal Professionnel is most strongly associated with ShopsyHairTreatment, and is also commonly seen in ShopsyShampoo and ShopsyHairColor. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "l'oreal professionnel"
+    ]
+  },
+  "nike": {
+    "context": "Nike is primarily a footwear/sportswear brand.",
+    "keywords": [
+      "nike"
+    ]
+  },
+  "ceat": {
+    "context": "CEAT is most strongly associated with CarTyre, and is also commonly seen in BikeTyre, CricketBat, ShopsyCricketBat, CricketTape, and CricketKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "ceat"
+    ]
+  },
+  "vero moda": {
+    "context": "VERO MODA is most strongly associated with WomenDress, and is also commonly seen in WomenJean, WomenTop, WomenPoloTShirt, WomenTrouser, and WomenShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vero moda"
+    ]
+  },
+  "xiaomi": {
+    "context": "Xiaomi is primarily an electronics brand for mobiles and smart devices.",
+    "keywords": [
+      "xiaomi",
+      "mi"
+    ]
+  },
+  "deconstruct": {
+    "context": "deconstruct is most strongly associated with Sunscreen, and is also commonly seen in FaceSerums, FaceCreamAndGel, Lipbalm, Facewash, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "deconstruct"
+    ]
+  },
+  "giva": {
+    "context": "GIVA is most strongly associated with WomenFashionRing, and is also commonly seen in WomenFashionNecklace, MenFashionChain, WomenFashionEarring, WomenFashionBracelet, and FashionJewelleryCombo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "giva"
+    ]
+  },
+  "studds": {
+    "context": "STUDDS is most strongly associated with Helmet, and is also commonly seen in Saddlebag, RidingGlove, HelmetVisor, HelmetLock, and HelmetCheekPads. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "studds"
+    ]
+  },
+  "durafit": {
+    "context": "Durafit is most strongly associated with Treadmill, and is also commonly seen in CrossTrainer, Massager, ExerciseBike, and RowingMachine. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "durafit"
+    ]
+  },
+  "i kall": {
+    "context": "I Kall is most strongly associated with Handset, and is also commonly seen in HomeAudioSpeaker, TabletWithCallFacility, TabletWithoutCallFacility, LaptopPowerBanks, and PowerBank. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "i kall"
+    ]
+  },
+  "tide": {
+    "context": "Tide is primarily a detergent brand. Category depends on qualifier: with 'powder' or 'washing powder' → 'detergent powder', with 'liquid' → 'liquid detergent', without qualifier → 'detergent'.",
+    "keywords": [
+      "tide"
+    ]
+  },
+  "united colors of benetton": {
+    "context": "United Colors of Benetton is most strongly associated with MensCasualShirt, and is also commonly seen in MensPoloTShirt, MensRoundAndOthersTShirt, BoyTshirt, MensJean, and MensSweatshirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "united colors of benetton"
+    ]
+  },
+  "dollar": {
+    "context": "Dollar is most strongly associated with MensVest, and is also commonly seen in MensBrief, MensJacket, MensThermal, WomenPanty, and MensPoloTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dollar"
+    ]
+  },
+  "dot & key": {
+    "context": "Dot & Key is most strongly associated with Sunscreen, and is also commonly seen in FaceCreamAndGel, Facewash, ComboAndKit, Lipbalm, and FaceSerums. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dot & key"
+    ]
+  },
+  "forever 21": {
+    "context": "FOREVER 21 is most strongly associated with MensCasualShirt, and is also commonly seen in WomenTop, WomenDress, WomenSkirt, MensJean, and MensRoundAndOthersTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "forever 21"
+    ]
+  },
+  "mcaffeine": {
+    "context": "mCaffeine is most strongly associated with BodyLotion, and is also commonly seen in BodyWash, BodyScrub, EyeCare, Facewash, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mcaffeine"
+    ]
+  },
+  "pond's": {
+    "context": "POND's is most strongly associated with FaceCreamAndGel, and is also commonly seen in Facewash, BodyLotion, Sunscreen, FaceSerums, and Talc. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pond's"
+    ]
+  },
+  "v-guard": {
+    "context": "V-Guard is most strongly associated with VoltageStabilizer, and is also commonly seen in GeyserWaterHeater, Fan, ElectricCooker, InductionCooktop, and Inverter. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "v-guard"
+    ]
+  },
+  "wildcraft": {
+    "context": "Wildcraft is most strongly associated with Backpack, and is also commonly seen in CnFOutdoorShoes, Rucksack, DuffleBag, MensJacket, and Suitcase. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wildcraft"
+    ]
+  },
+  "beaute blanc": {
+    "context": "BEAUTE BLANC is most strongly associated with HairColor, and is also commonly seen in ShopsyHairColor, HairSerum, Shampoo, and Conditioner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "beaute blanc"
+    ]
+  },
+  "indulekha": {
+    "context": "indulekha is most strongly associated with HairOil, and is also commonly seen in Shampoo, HairSerum, Soap, ComboAndKit, and OtherBooks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "indulekha"
+    ]
+  },
+  "aeropostale": {
+    "context": "AEROPOSTALE is most strongly associated with MensJean, and is also commonly seen in MensPoloTShirt, MensRoundAndOthersTShirt, CnFSneakers, MensJacket, and MensCasualShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aeropostale"
+    ]
+  },
+  "milton": {
+    "context": "MILTON is most strongly associated with Flask, and is also commonly seen in Bottle, LunchBox, ElectricKettle, ThermalCasseroleAndSet, and Jug. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "milton"
+    ]
+  },
+  "red bull": {
+    "context": "Red Bull is most strongly associated with SportsEnergyDrinks, and is also commonly seen in FruitDrinks. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "red bull"
+    ]
+  },
+  "aquaguard": {
+    "context": "Aquaguard is most strongly associated with WaterPurifier, and is also commonly seen in WaterFilterCartridge and TapMountWaterFilters. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aquaguard"
+    ]
+  },
+  "bare anatomy": {
+    "context": "BARE ANATOMY is most strongly associated with Shampoo, and is also commonly seen in HairSerum, HairStyling, ComboAndKit, Conditioner, and HairMask. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bare anatomy"
+    ]
+  },
+  "orpat": {
+    "context": "ORPAT is most strongly associated with RoomHeater, and is also commonly seen in HandBlender, TableClock, JuicerMixerGrinder, Chopper, and ElectricKettle. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "orpat"
+    ]
+  },
+  "baggit": {
+    "context": "Baggit is most strongly associated with Handbags, and is also commonly seen in SlingBag, Totes, WalletClutch, WomenMessengerBag, and Backpack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "baggit"
+    ]
+  },
+  "fevicryl": {
+    "context": "Fevicryl is most strongly associated with Paint, and is also commonly seen in ArtClay, ArtCraftKit, ArtSet, AdhesiveTool, and Adhesive. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fevicryl"
+    ]
+  },
+  "matrix": {
+    "context": "MATRIX is most strongly associated with ComboAndKit, and is also commonly seen in Shampoo, WristWatch, Conditioner, WomenWristWatch, and HairSerum. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "matrix"
+    ]
+  },
+  "featherlite": {
+    "context": "Featherlite is primarily associated with OfficeAndStudyChair. Treat queries mentioning this brand as brand-led queries for OfficeAndStudyChair.",
+    "keywords": [
+      "featherlite"
+    ]
+  },
+  "biotique": {
+    "context": "BIOTIQUE is most strongly associated with Facewash, and is also commonly seen in Sunscreen, BodyLotion, Shampoo, HairColor, and FaceCreamAndGel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "biotique"
+    ]
+  },
+  "sofy": {
+    "context": "SOFY is most strongly associated with SanitaryPad, and is also commonly seen in Pantyliner and Tampon. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sofy"
+    ]
+  },
+  "snitch": {
+    "context": "Snitch is most strongly associated with MensCasualShirt, and is also commonly seen in MensJean, MensCasualTrouser, MensPoloTShirt, MensCargo, and MensFormalTrouser. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "snitch"
+    ]
+  },
+  "vu": {
+    "context": "Vu is a television/TV brand. brand_name='Vu'. Note: 'vu meter' or 'audio vu' refers to an audio measurement device, NOT the Vu TV brand.",
+    "keywords": [
+      "vu"
+    ]
+  },
+  "hisense": {
+    "context": "Hisense is a television/TV brand. brand_name='Hisense'.",
+    "keywords": [
+      "hisense"
+    ]
+  },
+  "apple": {
+    "context": "Apple is primarily an electronics brand for mobiles, laptops, tablets, smartwatches, wearables, and earbuds.",
+    "keywords": [
+      "apple",
+      "iphone",
+      "macbook",
+      "ipad"
+    ]
+  },
+  "labrada": {
+    "context": "Labrada is most strongly associated with WeightGainers, and is also commonly seen in ProteinBlend, Creatine, AminoAcids, WheyProtein, and CaseinProtein. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "labrada"
+    ]
+  },
+  "metronaut": {
+    "context": "METRONAUT is most strongly associated with MensCasualShirt, and is also commonly seen in MensCargo, MensJean, Suitcase, MensJacket, and MensCasualTrouser. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "metronaut"
+    ]
+  },
+  "roadster": {
+    "context": "Roadster is most strongly associated with MensCasualShirt, and is also commonly seen in MensJean, MensRoundAndOthersTShirt, MensCasualTrouser, CnFBoots, and MensJacket. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "roadster"
+    ]
+  },
+  "killer": {
+    "context": "KILLER is most strongly associated with MensJean, and is also commonly seen in CnFRunningShoes, CnFWalkingShoes, Suitcase, CnFSneakers, and MensBlazer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "killer"
+    ]
+  },
+  "scalpe pro": {
+    "context": "Scalpe Pro is most strongly associated with Shampoo, and is also commonly seen in HairSerum. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "scalpe pro"
+    ]
+  },
+  "farmley": {
+    "context": "Farmley is most strongly associated with EdibleSeeds, and is also commonly seen in Almonds, NutDryFruitAssortedMix, Cashews, Dates, and Walnuts. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "farmley"
+    ]
+  },
+  "kodak": {
+    "context": "Kodak is a television/TV brand on Flipkart/Shopsy. brand_name='Kodak'.",
+    "keywords": [
+      "kodak"
+    ]
+  },
+  "annabelle by pantaloons": {
+    "context": "Annabelle by Pantaloons is most strongly associated with WomenTrouser, and is also commonly seen in WomenTop, WomenBlazer, WomenDress, WomenShirt, and WomenJacket. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "annabelle by pantaloons"
+    ]
+  },
+  "karbonn": {
+    "context": "Karbonn is an Indian mobile phone brand. brand_name='Karbonn'. Note: 'karbonn' in queries about jeans, pants, shoes, or car wraps refers to 'carbon fiber' material, NOT the Karbonn mobile brand. In such cases brand_present=false.",
+    "keywords": [
+      "karbonn"
+    ]
+  },
+  "rupa frontline": {
+    "context": "RUPA FRONTLINE is most strongly associated with MensVest, and is also commonly seen in MensBrief, BoyInnerwear, and ShopsyMenVest. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "rupa frontline"
+    ]
+  },
+  "wakefit": {
+    "context": "Wakefit is most strongly associated with BedMattress, and is also commonly seen in Bed, ClosetAndWardrobe, Pillow, MattressProtector, and SofaAndSectional. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wakefit"
+    ]
+  },
+  "boat": {
+    "context": "boAt is primarily an electronics/audio brand for earbuds, headphones, speakers, smartwatches, and wearables.",
+    "keywords": [
+      "boat"
+    ]
+  },
+  "lifelong": {
+    "context": "Lifelong is most strongly associated with Treadmill, and is also commonly seen in GasStove, InductionCooktop, Massager, ExerciseBike, and JuicerMixerGrinder. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lifelong"
+    ]
+  },
+  "seagate": {
+    "context": "Seagate is most strongly associated with ExternalHardDisk, and is also commonly seen in InternalHardDrive. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "seagate"
+    ]
+  },
+  "lavie": {
+    "context": "LAVIE is most strongly associated with Handbags, and is also commonly seen in Totes, SlingBag, WalletClutch, WomenFlatMisc, and Potlis. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lavie"
+    ]
+  },
+  "lotus herbals": {
+    "context": "LOTUS HERBALS is most strongly associated with FaceCreamAndGel, and is also commonly seen in Sunscreen, Facewash, FacialKit, ComboAndKit, and BodyLotion. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lotus herbals"
+    ]
+  },
+  "sesa": {
+    "context": "SESA is most strongly associated with HairOil, and is also commonly seen in Shampoo, SexualHealth, ComboAndKit, BodyEssentialOil, and HairTreatment. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sesa"
+    ]
+  },
+  "seiko": {
+    "context": "Seiko is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, WristWatch, WallClock, and ExtensionCords. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "seiko"
+    ]
+  },
+  "horlicks": {
+    "context": "Horlicks is primarily a milk drink mix brand and is also used as a generic name for milk drink mixes in India. If the query is just \"horlicks\" without other qualifiers or category info, treat milk drink mixes as the core category.",
+    "keywords": [
+      "horlicks"
+    ]
+  },
+  "park avenue": {
+    "context": "PARK AVENUE is most strongly associated with PerfumeForMen, and is also commonly seen in ComboAndKit, MensFormalTrouser, MensFormalShirt, DeodorantForMen, and MensPoloTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "park avenue"
+    ]
+  },
+  "sensodyne": {
+    "context": "SENSODYNE is most strongly associated with Toothpaste, and is also commonly seen in Toothbrush, Mouthwash, and KidOralCare. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sensodyne"
+    ]
+  },
+  "freedom": {
+    "context": "Freedom is most strongly associated with OtherCookingOil, and is also commonly seen in SunflowerOil and CrimeThrillerAndMystery. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "freedom"
+    ]
+  },
+  "foxtale": {
+    "context": "Foxtale is most strongly associated with Sunscreen, and is also commonly seen in FaceCreamAndGel, Facewash, ComboAndKit, FaceSerums, and FacePack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "foxtale"
+    ]
+  },
+  "fila": {
+    "context": "FILA is most strongly associated with SpGymShoes, and is also commonly seen in SpRunningShoes, SpMotorsport, SpSneakers, SpBasketball, and SpCasualOthers. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fila"
+    ]
+  },
+  "harpic": {
+    "context": "Harpic is primarily a bathroom/toilet cleaning brand and is also used as a generic name for toilet cleaners in India. If the query is just \"harpic\" without other qualifiers or category info, treat toilet cleaners as the core category.",
+    "keywords": [
+      "harpic"
+    ]
+  },
+  "lizol": {
+    "context": "Lizol is most strongly associated with BathroomFloorCleaner, and is also commonly seen in GlassCleaner, ToiletCleaner, and KitchenSurfaceCleaner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lizol"
+    ]
+  },
+  "blackzone": {
+    "context": "BlackZone is a mobile phone brand. brand_name='BlackZone'.",
+    "keywords": [
+      "blackzone"
+    ]
+  },
+  "spigen": {
+    "context": "Spigen is most strongly associated with MobileProtectionPlainCaseCover, and is also commonly seen in MobileProtectionMobileScreenGuard, PowerBank, TabletCaseCover, SmartWatchStraps, and HeadphonePouchesCases. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "spigen"
+    ]
+  },
+  "asus": {
+    "context": "Asus is primarily a laptop/computing electronics brand.",
+    "keywords": [
+      "asus"
+    ]
+  },
+  "eureka forbes": {
+    "context": "EUREKA FORBES is most strongly associated with VacuumCleaner, and is also commonly seen in AirPurifier, WaterFilterCartridge, WaterPurifier, TapMountWaterFilters, and CarVaccumCleaner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "eureka forbes"
+    ]
+  },
+  "voltas beko": {
+    "context": "Voltas Beko is most strongly associated with WashingMachineDryer, and is also commonly seen in Refrigerator, Dishwasher, MicrowaveOven, JuicerMixerGrinder, and Iron. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "voltas beko"
+    ]
+  },
+  "onida": {
+    "context": "Onida is a television and home appliances brand. brand_name='Onida'.",
+    "keywords": [
+      "onida"
+    ]
+  },
+  "proskire": {
+    "context": "Proskire is most strongly associated with HairSerum, and is also commonly seen in FaceSerums, ComboAndKit, HairOil, FaceCreamAndGel, and Facewash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "proskire"
+    ]
+  },
+  "john jacobs": {
+    "context": "john jacobs is most strongly associated with MenSunglass, and is also commonly seen in ComputerGlassFrames, WomenSunglass, and Frames. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "john jacobs"
+    ]
+  },
+  "paree": {
+    "context": "Paree is most strongly associated with SanitaryPad, and is also commonly seen in ShopsySanitaryPad, HairRemoval, ShopsyHairRemoval, MenstrualCups, and Chalk. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "paree"
+    ]
+  },
+  "richfeel": {
+    "context": "RICHFEEL is most strongly associated with Soap, and is also commonly seen in Facewash, FacialKit, BodyLotion, ShopsySoap, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "richfeel"
+    ]
+  },
+  "vedix": {
+    "context": "Vedix is most strongly associated with ComboAndKit, and is also commonly seen in Shampoo, HairSerum, HairOil, Conditioner, and Grooming. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vedix"
+    ]
+  },
+  "clovia": {
+    "context": "Clovia is most strongly associated with WomenBra, and is also commonly seen in WomenNightSuit, WomenPanty, WomenSportBra, WomenTight, and WomenNightDressNighty. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "clovia"
+    ]
+  },
+  "dermatouch": {
+    "context": "Dermatouch is most strongly associated with Facewash, and is also commonly seen in Sunscreen, FaceCreamAndGel, Soap, FaceSerums, and HairTreatment. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dermatouch"
+    ]
+  },
+  "vim": {
+    "context": "Vim is most strongly associated with DishCleaningGel, and is also commonly seen in DishWashingBar, BathroomFloorCleaner, DishWasherDetergent, and ShopsyDishCleaningGel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vim"
+    ]
+  },
+  "fastrack": {
+    "context": "Fastrack is commonly a watch/lifestyle accessories brand.",
+    "keywords": [
+      "fastrack"
+    ]
+  },
+  "sunflame": {
+    "context": "Sunflame is most strongly associated with GasStove, and is also commonly seen in Chimney, GeyserWaterHeater, RoomHeater, ElectricKettle, and JuicerMixerGrinder. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sunflame"
+    ]
+  },
+  "jovees": {
+    "context": "JOVEES is most strongly associated with Facewash, and is also commonly seen in Sunscreen, FaceCreamAndGel, Toner, Shampoo, and BodyLotion. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "jovees"
+    ]
+  },
+  "oriflame": {
+    "context": "Oriflame is most strongly associated with FaceCreamAndGel, and is also commonly seen in BodyLotion, ComboAndKit, Facewash, PerfumeForMen, and PerfumeForWomen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "oriflame"
+    ]
+  },
+  "scholl": {
+    "context": "Scholl is most strongly associated with WomenFlatMisc, and is also commonly seen in WomenWedges, WomenClogs, WomenSlippers, OpSandal, and WomenSandalMisc. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "scholl"
+    ]
+  },
+  "mufti": {
+    "context": "MUFTI is most strongly associated with MensCasualShirt, and is also commonly seen in MensJean, MensPoloTShirt, MensRoundAndOthersTShirt, MensJacket, and MensSweatshirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mufti"
+    ]
+  },
+  "pantene": {
+    "context": "PANTENE is most strongly associated with Shampoo, and is also commonly seen in Conditioner, HairSerum, HairStyling, ShopsyShampoo, and HairMask. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pantene"
+    ]
+  },
+  "parachute advansed": {
+    "context": "Parachute Advansed is most strongly associated with BodyLotion, and is also commonly seen in HairOil, MassageOil, HairSerum, LotionCream, and BabyComboGiftSet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "parachute advansed"
+    ]
+  },
+  "rajdhani": {
+    "context": "Rajdhani is most strongly associated with Sattu, and is also commonly seen in GrainsMillets, Besan, OtherPulses, Maida, and Poha. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "rajdhani"
+    ]
+  },
+  "tata sampann": {
+    "context": "Tata Sampann is most strongly associated with Almonds, and is also commonly seen in Cashews, EdibleSeeds, Raisins, DriedFruitsandBerries, and NutDryFruitAssortedMix. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tata sampann"
+    ]
+  },
+  "thomson": {
+    "context": "Thomson is a television/TV brand. brand_name='Thomson'.",
+    "keywords": [
+      "thomson"
+    ]
+  },
+  "fixderma": {
+    "context": "Fixderma is most strongly associated with Sunscreen, and is also commonly seen in FaceCreamAndGel, Lipbalm, Facewash, FootCream, and FaceSerums. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fixderma"
+    ]
+  },
+  "karachi bakery": {
+    "context": "KARACHI BAKERY is primarily associated with general marketplace categories. Treat queries mentioning this brand as brand-led queries for general marketplace categories.",
+    "keywords": [
+      "karachi bakery"
+    ]
+  },
+  "marshall": {
+    "context": "Marshall is an audio/headphones brand for headphones, earbuds, and speakers. brand_name='Marshall'.",
+    "keywords": [
+      "marshall"
+    ]
+  },
+  "french connection": {
+    "context": "French Connection is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, MensPoloTShirt, MensRoundAndOthersTShirt, MensCasualShirt, and MensJean. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "french connection"
+    ]
+  },
+  "mars": {
+    "context": "MARS is most strongly associated with Lipstick, and is also commonly seen in Lipgloss, Foundation, Mascara, Primer, and Concealer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mars"
+    ]
+  },
+  "nestle everyday": {
+    "context": "Nestle Everyday is primarily associated with MilkMilkPowder. Treat queries mentioning this brand as brand-led queries for MilkMilkPowder.",
+    "keywords": [
+      "nestle everyday"
+    ]
+  },
+  "avimee herbal": {
+    "context": "Avimee Herbal is most strongly associated with HairOil, and is also commonly seen in HairTreatment, HairSerum, ComboAndKit, Shampoo, and Toner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "avimee herbal"
+    ]
+  },
+  "biolage": {
+    "context": "BIOLAGE is most strongly associated with HairSerum, and is also commonly seen in Shampoo, ComboAndKit, Conditioner, and HairTreatment. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "biolage"
+    ]
+  },
+  "carrier": {
+    "context": "Carrier is an air conditioner/AC brand. brand_name='Carrier'. IMPORTANT: Only treat 'carrier' as the Carrier brand when used with AC/air conditioner context (e.g., 'carrier ac', 'carrier 1.5 ton'). When 'carrier' is preceded by a noun like 'cat', 'baby', 'tiffin', 'lunch box', 'bike', 'cycle', 'luggage', it is a generic English word meaning a container/holder — NOT the Carrier brand. In such cases brand_present=false.",
+    "keywords": [
+      "carrier"
+    ]
+  },
+  "fossil": {
+    "context": "FOSSIL is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, WatchCombo, MensWallet, WristWatch, and Handbags. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fossil"
+    ]
+  },
+  "wishcare": {
+    "context": "WishCare is most strongly associated with HairSerum, and is also commonly seen in Lipbalm, Sunscreen, Shampoo, BodyLotion, and Conditioner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wishcare"
+    ]
+  },
+  "bigen": {
+    "context": "Bigen is most strongly associated with HairColor, and is also commonly seen in HairOil and ShopsyHairColor. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bigen"
+    ]
+  },
+  "hush puppies": {
+    "context": "HUSH PUPPIES is most strongly associated with CnFSlipOn, and is also commonly seen in CnFLaceUp, CnFSandal, CnFOxford, CnFCasualOthers, and CnFSlipperFlipFlops. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hush puppies"
+    ]
+  },
+  "rexona": {
+    "context": "Rexona is most strongly associated with RollOn, and is also commonly seen in Soap, PerfumeForWomen, ShopsyDeodorant, DeodorantForMen, and DeodorantForWomen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "rexona"
+    ]
+  },
+  "adidas kids": {
+    "context": "Adidas Kids is most strongly associated with KidsUnisexFootwear, and is also commonly seen in GirlSportsShoe and BoySportsShoe. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "adidas kids"
+    ]
+  },
+  "classmate": {
+    "context": "Classmate is most strongly associated with DairyNoteBook, and is also commonly seen in Pen, GeometryBox, ShopsyPen, ShopsyDairyNoteBook, and Paper. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "classmate"
+    ]
+  },
+  "everest": {
+    "context": "EVEREST is most strongly associated with VoltageStabilizer, and is also commonly seen in SpicesMasala, OutdoorAndCafeteriaChair, HomeEmergencyLight, GarmentCover, and GasStove. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "everest"
+    ]
+  },
+  "mi": {
+    "context": "Mi is most strongly associated with TabletWithoutCallFacility, and is also commonly seen in PowerBank, Handset, GamingTablet, MobileSpeaker, and Trimmer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mi"
+    ]
+  },
+  "bata": {
+    "context": "Bata is commonly a footwear brand.",
+    "keywords": [
+      "bata"
+    ]
+  },
+  "glen": {
+    "context": "Glen is most strongly associated with GasStove, and is also commonly seen in Chimney, InductionCooktop, AirFryer, DoughMaker, and OTG. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "glen"
+    ]
+  },
+  "brinton": {
+    "context": "Brinton is most strongly associated with Sunscreen, and is also commonly seen in FaceCreamAndGel, Facewash, FaceSerums, HairSerum, and Lipbalm. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "brinton"
+    ]
+  },
+  "medimix": {
+    "context": "MEDIMIX is most strongly associated with Soap, and is also commonly seen in ShopsySoap, Shampoo, Handwash, ShopsyHandsanitizer, and ShopsyShampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "medimix"
+    ]
+  },
+  "plum": {
+    "context": "Plum is most strongly associated with FaceSerums, and is also commonly seen in FaceCreamAndGel, Facewash, Toner, ComboAndKit, and Sunscreen. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "plum"
+    ]
+  },
+  "nasher miles": {
+    "context": "NASHER MILES is most strongly associated with Suitcase, and is also commonly seen in Backpack, LuggageCover, SchoolBag, MessengerBag, and TravelOrganizer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nasher miles"
+    ]
+  },
+  "lotus professional": {
+    "context": "Lotus Professional is most strongly associated with FaceCreamAndGel, and is also commonly seen in ComboAndKit, Facewash, Sunscreen, FaceSerums, and BodyLotion. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lotus professional"
+    ]
+  },
+  "re'equil": {
+    "context": "Re'equil is most strongly associated with FaceCreamAndGel, and is also commonly seen in Sunscreen, Facewash, Shampoo, Conditioner, and Toner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "re'equil"
+    ]
+  },
+  "exide": {
+    "context": "EXIDE is most strongly associated with InverterBattery, and is also commonly seen in Inverter, BikeBattery, SolarChargeController, KitchenApplianceAccessories, and OtherVehiclesBattery. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "exide"
+    ]
+  },
+  "garnier men": {
+    "context": "Garnier Men is most strongly associated with Facewash, and is also commonly seen in FaceCreamAndGel, ComboAndKit, HairColor, and FacePack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "garnier men"
+    ]
+  },
+  "havells": {
+    "context": "HAVELLS is most strongly associated with Fan, and is also commonly seen in JuicerMixerGrinder, GeyserWaterHeater, Iron, AirCooler, and Trimmer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "havells"
+    ]
+  },
+  "honor": {
+    "context": "Honor is most strongly associated with Handset, and is also commonly seen in MobileBattery, SmartBand, MobileChargingMobileCharger, and MobileBodyPanel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "honor"
+    ]
+  },
+  "pepsodent": {
+    "context": "PEPSODENT is most strongly associated with Toothpaste, and is also commonly seen in ShopsyToothpaste and Toothbrush. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pepsodent"
+    ]
+  },
+  "cello": {
+    "context": "cello is most strongly associated with DinnerSet, and is also commonly seen in ThermalCasseroleAndSet, ElectricKettle, Flask, Bottle, and LunchBox. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cello"
+    ]
+  },
+  "intel": {
+    "context": "Intel is most strongly associated with Processor, and is also commonly seen in MiniPC, TowerPC, InternalHardDrive, AllInOnePC, and DesktopCooler. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "intel"
+    ]
+  },
+  "vastramay": {
+    "context": "VASTRAMAY is most strongly associated with MensKurta, and is also commonly seen in MensEthnicSet, MensEthnicPyjama, BoyEthnicSet, MensNehruJacket, and MensDhoti. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vastramay"
+    ]
+  },
+  "bergner": {
+    "context": "BERGNER is most strongly associated with CookwareSet, and is also commonly seen in WokAndKadhai, PressureCooker, PanAndTawa, Pot, and Handi. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "bergner"
+    ]
+  },
+  "whirlpool": {
+    "context": "Whirlpool is most strongly associated with Refrigerator, and is also commonly seen in WashingMachineDryer, AirConditioner, MicrowaveOven, Chimney, and GasStove. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "whirlpool"
+    ]
+  },
+  "mirinda": {
+    "context": "MiRiNDA is primarily associated with general marketplace categories. Treat queries mentioning this brand as brand-led queries for general marketplace categories.",
+    "keywords": [
+      "mirinda"
+    ]
+  },
+  "fujifilm": {
+    "context": "FUJIFILM is most strongly associated with InstantCameras, and is also commonly seen in CameraFilmRolls, PhotoPrinter, MirrorLess, and CameraBag. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fujifilm"
+    ]
+  },
+  "gemini": {
+    "context": "Gemini is most strongly associated with MixerGrinderAccessory, and is also commonly seen in OtherCookingOil, HandJuicer, SunflowerOil, WomenNightDressNighty, and MenWristWatch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "gemini"
+    ]
+  },
+  "gillette venus": {
+    "context": "Gillette Venus is most strongly associated with HairRemoval, and is also commonly seen in RazorsAndCartrdige and ShopsyRazorsAndCartrdige. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "gillette venus"
+    ]
+  },
+  "tata salt": {
+    "context": "Tata Salt is primarily associated with Salt. Treat queries mentioning this brand as brand-led queries for Salt.",
+    "keywords": [
+      "tata salt"
+    ]
+  },
+  "calvin klein": {
+    "context": "Calvin Klein is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, WristWatch, Suitcase, PerfumeForMen, and MensRoundAndOthersTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "calvin klein"
+    ]
+  },
+  "thums up": {
+    "context": "Thums Up is primarily associated with FruitDrinks. Treat queries mentioning this brand as brand-led queries for FruitDrinks.",
+    "keywords": [
+      "thums up"
+    ]
+  },
+  "gharsoaps": {
+    "context": "GharSoaps is most strongly associated with Soap, and is also commonly seen in ShopsySoap. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "gharsoaps"
+    ]
+  },
+  "maybelline new york": {
+    "context": "MAYBELLINE NEW YORK is most strongly associated with Foundation, and is also commonly seen in Lipstick, Kajal, Compact, Mascara, and Eyeliner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "maybelline new york"
+    ]
+  },
+  "cipla": {
+    "context": "Cipla is most strongly associated with Allopathy, and is also commonly seen in SmokingPatch, Shampoo, HairSerum, Sunscreen, and FaceSerums. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cipla"
+    ]
+  },
+  "itel": {
+    "context": "itel is an Indian mobile phone and smartwatch brand. brand_name='itel'.",
+    "keywords": [
+      "itel"
+    ]
+  },
+  "sujata": {
+    "context": "SUJATA is most strongly associated with JuicerMixerGrinder, and is also commonly seen in MixerGrinderAccessory, GasStove, ShopsyJuicerMixerGrinder, Iron, and KitchenApplianceAccessories. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sujata"
+    ]
+  },
+  "anouk": {
+    "context": "ANOUK is most strongly associated with WomenEthnicSet, and is also commonly seen in WomenSari, WomenKurtaAndKurti, WomenBlockHeels, MensKurta, and WomenFlatMisc. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "anouk"
+    ]
+  },
+  "van heusen": {
+    "context": "VAN HEUSEN is most strongly associated with WomenWristWatch, and is also commonly seen in MensFormalTrouser, MensFormalShirt, MenWristWatch, MensBrief, and MensCasualShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "van heusen"
+    ]
+  },
+  "yonex": {
+    "context": "YONEX is most strongly associated with BadmintonRacquets, and is also commonly seen in Shuttle, SpBadmintonShoes, BadmintonKits, BadmintonGrip, and TennisRacquet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "yonex"
+    ]
+  },
+  "cadbury oreo": {
+    "context": "Cadbury Oreo is primarily associated with CookiesBiscuits. Treat queries mentioning this brand as brand-led queries for CookiesBiscuits.",
+    "keywords": [
+      "cadbury oreo"
+    ]
+  },
+  "enfamil": {
+    "context": "Enfamil is most strongly associated with InfantFormula, and is also commonly seen in SpecialSupplements. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "enfamil"
+    ]
+  },
+  "everyuth naturals": {
+    "context": "Everyuth Naturals is most strongly associated with FaceScrub, and is also commonly seen in Facewash, FacePack, ComboAndKit, BodyLotion, and FaceCreamAndGel. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "everyuth naturals"
+    ]
+  },
+  "faber": {
+    "context": "FABER is most strongly associated with Chimney, and is also commonly seen in GasStove, Dishwasher, OTG, AirFryer, and InductionCooktop. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "faber"
+    ]
+  },
+  "skybags": {
+    "context": "SKYBAGS is most strongly associated with Suitcase, and is also commonly seen in Backpack, KidsBags, DuffleBag, WomenBackpack, and Rucksack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "skybags"
+    ]
+  },
+  "ananda": {
+    "context": "Ananda is most strongly associated with Ghee, and is also commonly seen in ActionAndAdventure, OtherBooks, LanguageLinguisticsAndWriting, and CrimeThrillerAndMystery. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "ananda"
+    ]
+  },
+  "minimalist": {
+    "context": "Minimalist is most strongly associated with FaceSerums, and is also commonly seen in Sunscreen, Facewash, FaceCreamAndGel, HairSerum, and Toner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "minimalist"
+    ]
+  },
+  "nutrela": {
+    "context": "NUTRELA is most strongly associated with WheyProtein, and is also commonly seen in Vitamins, WeightGainers, SpecialSupplements, ProteinBlend, and AntiOxidants. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nutrela"
+    ]
+  },
+  "jio": {
+    "context": "Jio is an Indian mobile phone brand. brand_name='Jio'.",
+    "keywords": [
+      "jio"
+    ]
+  },
+  "kozicare": {
+    "context": "Kozicare is most strongly associated with Soap, and is also commonly seen in FaceCreamAndGel, ComboAndKit, Facewash, BodyLotion, and ShopsyFairness. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kozicare"
+    ]
+  },
+  "msi": {
+    "context": "MSI is primarily a laptop/computing electronics brand.",
+    "keywords": [
+      "msi"
+    ]
+  },
+  "muuchstac": {
+    "context": "MUUCHSTAC is most strongly associated with Facewash, and is also commonly seen in FaceCreamAndGel, ShopsyFacewash, BodyWash, and ShopsyBodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "muuchstac"
+    ]
+  },
+  "nandini": {
+    "context": "Nandini is most strongly associated with Soap, and is also commonly seen in Ghee, FacialKit, ShopsySoap, FacePack, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nandini"
+    ]
+  },
+  "veeba": {
+    "context": "VEEBA is most strongly associated with DipsSaucesPastes, and is also commonly seen in FruitDrinks, JamsSpreads, Syrup, Condiments, and ShopsyDipsSaucesPastes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "veeba"
+    ]
+  },
+  "knorr": {
+    "context": "Knorr is most strongly associated with Condiments, and is also commonly seen in Soup, ReadyMixes, Noodles, DipsSaucesPastes, and ShopsyCondiments. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "knorr"
+    ]
+  },
+  "myfitness": {
+    "context": "MYFITNESS is most strongly associated with JamsSpreads, and is also commonly seen in WheyProtein, Creatine, Glutamine, AminoAcids, and Oats. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "myfitness"
+    ]
+  },
+  "reynolds": {
+    "context": "Reynolds is most strongly associated with Pen, and is also commonly seen in ShopsyPen, GeometryBox, CorrectionStationery, MarkerHighlighter, and AdhesiveTool. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "reynolds"
+    ]
+  },
+  "steelbird air": {
+    "context": "Steelbird Air is most strongly associated with Helmet, and is also commonly seen in HelmetLock. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "steelbird air"
+    ]
+  },
+  "shivaay": {
+    "context": "SHIVAAY is most strongly associated with NutDryFruitAssortedMix, and is also commonly seen in ExoticNuts, InfantEthnicSet, MobileProtectionMobileScreenGuard, BoyEthnicSet, and Chocolates. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "shivaay"
+    ]
+  },
+  "aristocrat": {
+    "context": "ARISTOCRAT is most strongly associated with Suitcase, and is also commonly seen in DuffleBag, Backpack, SchoolBag, Rucksack, and MenBackpack. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aristocrat"
+    ]
+  },
+  "tata tea chakra gold": {
+    "context": "Tata Tea Chakra Gold is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "tata tea chakra gold"
+    ]
+  },
+  "unibic": {
+    "context": "UNIBIC is most strongly associated with CookiesBiscuits, and is also commonly seen in ShopsyCookiesBiscuits, Chips, and WafersWaffles. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "unibic"
+    ]
+  },
+  "action": {
+    "context": "action is most strongly associated with CnFRunningShoes, and is also commonly seen in CnFLoafers, KidsUnisexFootwear, CnFMonkStrap, CnFLaceUp, and CnFSlipperFlipFlops. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "action"
+    ]
+  },
+  "blue star": {
+    "context": "Blue Star is most strongly associated with AirConditioner, and is also commonly seen in FreezerChest, WaterDispenser, Refrigerator, WaterPurifier, and AirCooler. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "blue star"
+    ]
+  },
+  "pediasure": {
+    "context": "Pediasure is most strongly associated with KidsNutritionDrinkMix, and is also commonly seen in AdultNutritionDrinkMix, InfantFormula, ShopsyHealthDrinkMixes, Vitamins, and ShopsyHealthEnergyDrink. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pediasure"
+    ]
+  },
+  "pee safe": {
+    "context": "Pee Safe is most strongly associated with SanitaryPad, and is also commonly seen in ToiletCleaner, MenstrualCups, Pantyliner, BodyAndSkinAccessory, and BodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pee safe"
+    ]
+  },
+  "jbl": {
+    "context": "JBL is primarily an electronics/audio brand for speakers, headphones, and earbuds.",
+    "keywords": [
+      "jbl"
+    ]
+  },
+  "liberty": {
+    "context": "LIBERTY is most strongly associated with CnFSandal, and is also commonly seen in CnFLaceUp, CnFFormalMisc, CnFBoots, CnFWalkingShoes, and CnFRunningShoes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "liberty"
+    ]
+  },
+  "livon": {
+    "context": "LIVON is most strongly associated with HairSerum, and is also commonly seen in Shampoo, ShopsyHairSerum, Vitamins, FatLossVitamins, and HairStyling. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "livon"
+    ]
+  },
+  "santoor": {
+    "context": "Santoor is most strongly associated with Soap, and is also commonly seen in Handwash, BodyWash, BodyLotion, Talc, and ShopsyHandsanitizer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "santoor"
+    ]
+  },
+  "godrej interio": {
+    "context": "Godrej Interio is most strongly associated with CupboardsAndAlmirahs, and is also commonly seen in Bed, ClosetAndWardrobe, OfficeAndStudyChair, SofaSet, and SofaAndSectional. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "godrej interio"
+    ]
+  },
+  "india gate": {
+    "context": "INDIA GATE is most strongly associated with Rice, and is also commonly seen in GrainsMillets. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "india gate"
+    ]
+  },
+  "pigeon": {
+    "context": "Pigeon is most strongly associated with PressureCooker, and is also commonly seen in InductionCooktop, GasStove, ElectricKettle, OTG, and AirFryer. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pigeon"
+    ]
+  },
+  "catch": {
+    "context": "Catch is most strongly associated with SpicesMasala, and is also commonly seen in Salt, Condiments, and PastesPurees. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "catch"
+    ]
+  },
+  "frooti": {
+    "context": "FROOTI is primarily associated with BathTowel. Treat queries mentioning this brand as brand-led queries for BathTowel.",
+    "keywords": [
+      "frooti"
+    ]
+  },
+  "gini & jony": {
+    "context": "GINI & JONY is most strongly associated with BoyTshirt, and is also commonly seen in BoyShirt, BoyJacket, BoyShort, BoyJean, and GirlTshirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "gini & jony"
+    ]
+  },
+  "naturoz": {
+    "context": "Naturoz is most strongly associated with Almonds, and is also commonly seen in Cashews, Walnuts, Pistachios, DriedFruitsandBerries, and Raisins. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "naturoz"
+    ]
+  },
+  "navratna": {
+    "context": "Navratna is most strongly associated with HairOil, and is also commonly seen in Talc, ShopsyHairOil, and Grooming. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "navratna"
+    ]
+  },
+  "society": {
+    "context": "Society is most strongly associated with Tea, and is also commonly seen in Ghee, Coffee, and PicklesChutneys. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "society"
+    ]
+  },
+  "be bodywise": {
+    "context": "Be Bodywise is most strongly associated with RollOn, and is also commonly seen in HairSerum, BodyWash, Vitamins, FootCream, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "be bodywise"
+    ]
+  },
+  "yogabar": {
+    "context": "Yogabar is most strongly associated with Muesli, and is also commonly seen in Oats, WheyProtein, OtherBreakfastMixesCereals, PlantBasedProtein, and Cashews. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "yogabar"
+    ]
+  },
+  "marq by flipkart": {
+    "context": "MarQ by Flipkart is most strongly associated with AirConditioner, and is also commonly seen in WashingMachineDryer, Television, Refrigerator, DesktopMonitor, and Soundbar. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "marq by flipkart"
+    ]
+  },
+  "vaseline": {
+    "context": "Vaseline is most strongly associated with BodyLotion, and is also commonly seen in Lipbalm, Sunscreen, FaceCreamAndGel, ShopsyMoisturizerCream, and LotionCream. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "vaseline"
+    ]
+  },
+  "adda": {
+    "context": "Adda is most strongly associated with OpSlipperFlipFlops, and is also commonly seen in OpSlides, WomenFlipFlops, OpSandal, WomenSlippers, and WomenWedges. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "adda"
+    ]
+  },
+  "google": {
+    "context": "Google is a mobile/smartphone and electronics brand (Pixel phones). brand_name='Google'.",
+    "keywords": [
+      "google"
+    ]
+  },
+  "infinix": {
+    "context": "Infinix is primarily a mobile electronics brand that also sells earbuds and other electronics accessories.",
+    "keywords": [
+      "infinix"
+    ]
+  },
+  "blk foods": {
+    "context": "BLK FOODS is most strongly associated with Almonds, and is also commonly seen in Walnuts, EdibleSeeds, Raisins, Dates, and Cashews. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "blk foods"
+    ]
+  },
+  "fiama": {
+    "context": "FIAMA is most strongly associated with Soap, and is also commonly seen in BodyWash, Handwash, ShopsySoap, ComboAndKit, and ShopsyBodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fiama"
+    ]
+  },
+  "kapiva": {
+    "context": "Kapiva is most strongly associated with GeneralWellness, and is also commonly seen in Diabetes, SexualHealth, CardiacCare, BloodPurification, and ImmunityBooster. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kapiva"
+    ]
+  },
+  "neysa": {
+    "context": "NEYSA is most strongly associated with WomenTrouser, and is also commonly seen in WomensApparelSet, GirlDress, GirlComboSet, GirlSweatshirt, and InfantComboSet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "neysa"
+    ]
+  },
+  "sleepwell": {
+    "context": "Sleepwell is most strongly associated with BedMattress, and is also commonly seen in Pillow, ShopsyPillow, and BabyPillow. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sleepwell"
+    ]
+  },
+  "aroma magic": {
+    "context": "Aroma Magic is most strongly associated with FacialKit, and is also commonly seen in Sunscreen, FaceCreamAndGel, Facewash, EyeCare, and Toner. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "aroma magic"
+    ]
+  },
+  "bru": {
+    "context": "BRU is primarily associated with Coffee. Treat queries mentioning this brand as brand-led queries for Coffee.",
+    "keywords": [
+      "bru"
+    ]
+  },
+  "allen solly": {
+    "context": "Allen Solly is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, MensCasualShirt, MensPoloTShirt, MensJacket, and CoupleWatch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "allen solly"
+    ]
+  },
+  "complan": {
+    "context": "COMPLAN is most strongly associated with KidsNutritionDrinkMix, and is also commonly seen in AdultNutritionDrinkMix. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "complan"
+    ]
+  },
+  "pansari": {
+    "context": "Pansari is most strongly associated with Rice, and is also commonly seen in OtherCookingOil, CandiesMouthFresheners, Tea, WheatFlour, and RagiFlour. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pansari"
+    ]
+  },
+  "w": {
+    "context": "W is ambiguous. W is a clothing brand for women. If used default to clothing as category and women as gender. W can also mean watt and and when it does it doesn't represent the brand.",
+    "keywords": [
+      "w"
+    ]
+  },
+  "3 roses": {
+    "context": "3 Roses is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "3 roses"
+    ]
+  },
+  "highlander": {
+    "context": "HIGHLANDER is most strongly associated with MensCasualShirt, and is also commonly seen in MensJean, MensCasualTrouser, MensFormalShirt, MensCargo, and MensSweatshirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "highlander"
+    ]
+  },
+  "nova plus": {
+    "context": "Nova Plus is most strongly associated with Iron, and is also commonly seen in ShopsyIron. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nova plus"
+    ]
+  },
+  "puma": {
+    "context": "Puma is primarily a footwear/sportswear brand.",
+    "keywords": [
+      "puma"
+    ]
+  },
+  "johnson's baby": {
+    "context": "JOHNSON'S BABY is most strongly associated with BabyComboGiftSet, and is also commonly seen in MassageOil, BabyShampoo, LotionCream, Wipe, and BabyBodyWash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "johnson's baby"
+    ]
+  },
+  "emami": {
+    "context": "EMAMI is most strongly associated with HairOil, and is also commonly seen in FaceCreamAndGel, Grooming, Talc, BodyPainRelief, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "emami"
+    ]
+  },
+  "bournvita": {
+    "context": "Bournvita is primarily a milk drink mix brand and is also used as a generic name for milk drink mixes in India. If the query is just \"bournvita\" without other qualifiers or category info, treat milk drink mixes as the core category.",
+    "keywords": [
+      "bournvita",
+      "bonvita"
+    ]
+  },
+  "redmi": {
+    "context": "Redmi is primarily a mobile electronics brand that also sells earbuds and other electronics accessories.",
+    "keywords": [
+      "redmi"
+    ]
+  },
+  "tata": {
+    "context": "Tata is most strongly associated with Tea, and is also commonly seen in InverterBattery, Salt, OtherPulses, SpicesMasala, and Poha. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tata"
+    ]
+  },
+  "stayfree": {
+    "context": "STAYFREE is primarily associated with SanitaryPad. Treat queries mentioning this brand as brand-led queries for SanitaryPad.",
+    "keywords": [
+      "stayfree"
+    ]
+  },
+  "nilkamal": {
+    "context": "Nilkamal is most strongly associated with CupboardsAndAlmirahs, and is also commonly seen in Bed, ClosetAndWardrobe, ShoeRack, OutdoorAndCafeteriaChair, and Stool. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nilkamal"
+    ]
+  },
+  "daawat": {
+    "context": "Daawat is most strongly associated with Rice, and is also commonly seen in ReadyMeals, ReadyMixes, and CondimentSet. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "daawat"
+    ]
+  },
+  "kindle": {
+    "context": "Kindle is most strongly associated with TabletWithoutCallFacility, and is also commonly seen in HosePipe, Faucet, WashingMachineHoses, OtherHardware, and ShowerHead. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kindle"
+    ]
+  },
+  "neutrogena": {
+    "context": "NEUTROGENA is most strongly associated with Sunscreen, and is also commonly seen in FaceCreamAndGel, Facewash, ComboAndKit, SkinTreatment, and EyeCare. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "neutrogena"
+    ]
+  },
+  "samsung": {
+    "context": "Samsung is a multi-category brand (mobiles, TVs, fridges, washing machines, ACs, tablets, wearables). Use the product keyword as category when present. When query has only brand + opaque alphanumeric model codes and no recognizable product word, use category 'electronics'.",
+    "keywords": [
+      "samsung"
+    ]
+  },
+  "waghbakri": {
+    "context": "Waghbakri is most strongly associated with Tea, and is also commonly seen in Sugar. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "waghbakri"
+    ]
+  },
+  "fortune": {
+    "context": "FORTUNE is most strongly associated with OtherCookingOil, and is also commonly seen in SunflowerOil, DishWasherDetergent, WheatFlour, Sugar, and Besan. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "fortune"
+    ]
+  },
+  "timex": {
+    "context": "TIMEX is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, CoupleWatch, WatchCombo, WristWatch, and Smartwatch. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "timex"
+    ]
+  },
+  "veet": {
+    "context": "Veet is most strongly associated with HairRemoval, and is also commonly seen in WomenTrimmer, ComboAndKit, and ShopsyHairRemoval. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "veet"
+    ]
+  },
+  "everteen": {
+    "context": "everteen is most strongly associated with SanitaryPad, and is also commonly seen in ShopsySanitaryPad, HairRemoval, Pantyliner, ComboAndKit, and MenstrualCups. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "everteen"
+    ]
+  },
+  "bellavita": {
+    "context": "BellaVita is primarily a fragrance and personal-care brand. If the query is just the brand then the category is grooming and gender is both men and women, and the route if required is beauty_personal_care.",
+    "keywords": [
+      "bellavita",
+      "bella vita",
+      "belavita",
+      "bela vita"
+    ]
+  },
+  "chemist at play": {
+    "context": "Chemist at Play is most strongly associated with BodyWash, and is also commonly seen in Facewash, FaceSerums, RollOn, Lipbalm, and BodyLotion. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "chemist at play"
+    ]
+  },
+  "ferrero rocher": {
+    "context": "FERRERO ROCHER is most strongly associated with Chocolates, and is also commonly seen in Food&NutritionCombo and ShopsyChocolates. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "ferrero rocher"
+    ]
+  },
+  "giordano": {
+    "context": "GIORDANO is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, MensCasualShirt, MensJean, MensPoloTShirt, and MenSunglass. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "giordano"
+    ]
+  },
+  "guess": {
+    "context": "GUESS is most strongly associated with MenWristWatch, and is also commonly seen in WomenWristWatch, Handbags, SlingBag, Totes, and Suitcase. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "guess"
+    ]
+  },
+  "prestige": {
+    "context": "Prestige is most strongly associated with InductionCooktop, and is also commonly seen in PressureCooker, GasStove, JuicerMixerGrinder, Faucet, and PanAndTawa. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "prestige"
+    ]
+  },
+  "surya": {
+    "context": "SURYA is most strongly associated with Chimney, and is also commonly seen in GeyserWaterHeater, InductionCooktop, GasStove, ElectricCookingHeater, and Bulb. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "surya"
+    ]
+  },
+  "tcl": {
+    "context": "TCL is primarily a television/TV brand. Default category is 'tv', not 'mobile'. brand_name='TCL'.",
+    "keywords": [
+      "tcl"
+    ]
+  },
+  "u.s. polo assn. denim co.": {
+    "context": "U.S. Polo Assn. Denim Co. is most strongly associated with MensJean, and is also commonly seen in MensPoloTShirt, MensCasualShirt, MensJacket, MensRoundAndOthersTShirt, and MensCargo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "u.s. polo assn. denim co."
+    ]
+  },
+  "adidas originals": {
+    "context": "ADIDAS ORIGINALS is most strongly associated with SpSneakers, and is also commonly seen in WomenCasualShoeMisc, SpSlides, SpCasualOthers, SpRunningShoes, and SpCasMisc. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "adidas originals"
+    ]
+  },
+  "crompton": {
+    "context": "Crompton is most strongly associated with Fan, and is also commonly seen in AirCooler, JuicerMixerGrinder, GeyserWaterHeater, WaterPump, and Tubelight. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "crompton"
+    ]
+  },
+  "anchor": {
+    "context": "ANCHOR is most strongly associated with ElectricDoorBell, and is also commonly seen in ExtensionCords, MensSockUnbranded, Fan, ElectricalSocket, and TailoringEmbroidery. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "anchor"
+    ]
+  },
+  "ao smith": {
+    "context": "AO Smith is most strongly associated with GeyserWaterHeater, and is also commonly seen in WaterPurifier and PlumbingPipes. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "ao smith"
+    ]
+  },
+  "daikin": {
+    "context": "Daikin is primarily associated with AirConditioner. Treat queries mentioning this brand as brand-led queries for AirConditioner.",
+    "keywords": [
+      "daikin"
+    ]
+  },
+  "logitech": {
+    "context": "Logitech is most strongly associated with LaptopKeyboard, and is also commonly seen in Mouse, MotionController, Webcam, GamingMouse, and WiredEarphone. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "logitech"
+    ]
+  },
+  "tata tea gold": {
+    "context": "Tata Tea Gold is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "tata tea gold"
+    ]
+  },
+  "doctor's choice": {
+    "context": "DOCTOR'S CHOICE is most strongly associated with Oats, and is also commonly seen in JamsSpreads, Muesli, WeightGainers, Food&NutritionCombo, and Creatine. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "doctor's choice"
+    ]
+  },
+  "nutrovally": {
+    "context": "NutroVally is most strongly associated with EdibleSeeds, and is also commonly seen in Dates, Tea, Condiments, DipsSaucesPastes, and Oats. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nutrovally"
+    ]
+  },
+  "raaga professional": {
+    "context": "RAAGA PROFESSIONAL is most strongly associated with FacePack, and is also commonly seen in Sunscreen, Shampoo, FacialKit, HairColor, and HairSerum. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "raaga professional"
+    ]
+  },
+  "swiss beauty": {
+    "context": "SWISS BEAUTY is most strongly associated with Primer, and is also commonly seen in Lipstick, Foundation, Concealer, Highlighter, and Blush. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "swiss beauty"
+    ]
+  },
+  "sunfeast": {
+    "context": "Sunfeast is most strongly associated with CookiesBiscuits, and is also commonly seen in Noodles and ShopsyCookiesBiscuits. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "sunfeast"
+    ]
+  },
+  "tata tea premium": {
+    "context": "Tata Tea Premium is primarily associated with Tea. Treat queries mentioning this brand as brand-led queries for Tea.",
+    "keywords": [
+      "tata tea premium"
+    ]
+  },
+  "adidas": {
+    "context": "Adidas is primarily a footwear/sportswear brand.",
+    "keywords": [
+      "adidas"
+    ]
+  },
+  "mohey": {
+    "context": "Mohey is primarily associated with WomenSari. Treat queries mentioning this brand as brand-led queries for WomenSari.",
+    "keywords": [
+      "mohey"
+    ]
+  },
+  "nova": {
+    "context": "NOVA is most strongly associated with Trimmer, and is also commonly seen in HairStraightener, HairDryer, EggCooker, WomenTrimmer, and ImmersionRod. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nova"
+    ]
+  },
+  "butterfly": {
+    "context": "Butterfly is most strongly associated with JuicerMixerGrinder, and is also commonly seen in PressureCooker, GasStove, WetGrinder, Chopper, and MixerGrinderAccessory. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "butterfly"
+    ]
+  },
+  "dixcy scott originals": {
+    "context": "Dixcy Scott Originals is most strongly associated with MensBrief, and is also commonly seen in MensVest, MensThermal, MensTrackPant, MensShort, and BoyShort. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dixcy scott originals"
+    ]
+  },
+  "kurlon": {
+    "context": "KURLON is primarily associated with BedMattress. Treat queries mentioning this brand as brand-led queries for BedMattress.",
+    "keywords": [
+      "kurlon"
+    ]
+  },
+  "mokobara": {
+    "context": "Mokobara is most strongly associated with Suitcase, and is also commonly seen in Backpack, Totes, MessengerBag, TravelOrganizer, and Briefcase. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mokobara"
+    ]
+  },
+  "indian terrain": {
+    "context": "INDIAN TERRAIN is most strongly associated with MensCasualTrouser, and is also commonly seen in MensCasualShirt, MensPoloTShirt, MensSweatshirt, MensBlazer, and MensJean. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "indian terrain"
+    ]
+  },
+  "lloyd": {
+    "context": "Lloyd is a television, AC, and home appliances brand. brand_name='Lloyd'.",
+    "keywords": [
+      "lloyd"
+    ]
+  },
+  "mamypoko": {
+    "context": "MamyPoko is most strongly associated with Diaper, and is also commonly seen in ShopsyDiaper, AdultDiapers, NA, DiaperRack, and Wipe. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mamypoko"
+    ]
+  },
+  "iffalcon": {
+    "context": "iFFALCON is a television/TV brand (sub-brand of TCL). Default category is 'tv'. brand_name='iFFALCON'.",
+    "keywords": [
+      "iffalcon",
+      "ifalcon"
+    ]
+  },
+  "faces canada": {
+    "context": "FACES CANADA is most strongly associated with Highlighter, and is also commonly seen in Lipstick, Compact, Primer, Foundation, and Kajal. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "faces canada"
+    ]
+  },
+  "jk": {
+    "context": "JK is most strongly associated with CarTyre, and is also commonly seen in SpicesMasala, BikeTyre, Paper, EdibleSeeds, and CopierPaper. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "jk"
+    ]
+  },
+  "the derma co": {
+    "context": "The Derma Co is most strongly associated with FaceSerums, and is also commonly seen in Facewash, Sunscreen, FaceCreamAndGel, EyeCare, and ComboAndKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "the derma co"
+    ]
+  },
+  "kent": {
+    "context": "KENT is most strongly associated with WaterPurifier, and is also commonly seen in AirFryer, InductionCooktop, HandBlender, VacuumCleaner, and ElectricKettle. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "kent"
+    ]
+  },
+  "lego": {
+    "context": "LEGO is most strongly associated with LearningToy, and is also commonly seen in ModelBulidinKit. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "lego"
+    ]
+  },
+  "lenovo": {
+    "context": "Lenovo is primarily a laptop/computing and tablet electronics brand.",
+    "keywords": [
+      "lenovo"
+    ]
+  },
+  "tata simply better": {
+    "context": "Tata Simply Better is most strongly associated with OtherCookingOil, and is also commonly seen in SunflowerOil, Cashews, NutDryFruitAssortedMix, DriedFruitsandBerries, and Almonds. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "tata simply better"
+    ]
+  },
+  "reliance": {
+    "context": "Reliance is most strongly associated with Television, and is also commonly seen in AssembledPC, WashingMachineDryer, AirCooler, RoomHeater, and Router. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "reliance"
+    ]
+  },
+  "wonderland": {
+    "context": "WONDERLAND is most strongly associated with Almonds, and is also commonly seen in Cashews, NutDryFruitAssortedMix, Walnuts, Raisins, and Pistachios. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "wonderland"
+    ]
+  },
+  "cadbury": {
+    "context": "Cadbury is most strongly associated with Chocolates, and is also commonly seen in ValentineGiftSet, FestiveGiftBox, CandiesMouthFresheners, KidsNutritionDrinkMix, and Food&NutritionCombo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "cadbury"
+    ]
+  },
+  "hot wheels": {
+    "context": "HOT WHEELS is most strongly associated with VehiclePullAlong, and is also commonly seen in ToySport, SchoolSet, BodySpray, SchoolWaterBottle, and ActionFigure. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "hot wheels"
+    ]
+  },
+  "luvit": {
+    "context": "LuvIt is most strongly associated with Chocolates, and is also commonly seen in CandiesMouthFresheners, PottyBox, WafersWaffles, and FestiveGiftBox. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "luvit"
+    ]
+  },
+  "oppo": {
+    "context": "Oppo is primarily a mobile electronics brand that also sells earbuds, speakers, and other electronics accessories.",
+    "keywords": [
+      "oppo"
+    ]
+  },
+  "dollar bigboss": {
+    "context": "Dollar Bigboss is most strongly associated with MensVest, and is also commonly seen in MensBrief, ShopsyMenBrief, BoyInnerwear, ShopsyMenVest, and MensBriefUnbranded. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "dollar bigboss"
+    ]
+  },
+  "mountain dew": {
+    "context": "Mountain Dew is primarily associated with general marketplace categories. Treat queries mentioning this brand as brand-led queries for general marketplace categories.",
+    "keywords": [
+      "mountain dew"
+    ]
+  },
+  "britannia": {
+    "context": "BRITANNIA is most strongly associated with CookiesBiscuits, and is also commonly seen in ShopsyCookiesBiscuits, Rusks, and WafersWaffles. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "britannia"
+    ]
+  },
+  "nyle": {
+    "context": "Nyle is most strongly associated with Shampoo, and is also commonly seen in BodyLotion and ShopsyShampoo. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "nyle"
+    ]
+  },
+  "pintola": {
+    "context": "Pintola is most strongly associated with JamsSpreads, and is also commonly seen in Oats, Muesli, CookiesBiscuits, ShopsyJamsSpreads, and ShopsyOats. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "pintola"
+    ]
+  },
+  "being human": {
+    "context": "BEING HUMAN is most strongly associated with MensJean, and is also commonly seen in MensCasualShirt, MensRoundAndOthersTShirt, MensPoloTShirt, MensCargo, and MensSweatshirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "being human"
+    ]
+  },
+  "levi's": {
+    "context": "LEVI'S is most strongly associated with MensJean, and is also commonly seen in MensCasualShirt, WomenJean, MensBrief, MensCasualTrouser, and MensRoundAndOthersTShirt. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "levi's"
+    ]
+  },
+  "globus": {
+    "context": "Globus is most strongly associated with WomenDress, and is also commonly seen in WomenEthnicSet, WomenTop, WomenJumpsuit, ShopsyWrenchSet, and WomenEthnicDress. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "globus"
+    ]
+  },
+  "haldiram's": {
+    "context": "Haldiram's is most strongly associated with SweetsMithai, and is also commonly seen in SavouriesNamkeens, ShopsySavouriesNamkeens, ShopsySweetsMithai, Ghee, and ReadyMeals. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "haldiram's"
+    ]
+  },
+  "happilo": {
+    "context": "Happilo is most strongly associated with Cashews, and is also commonly seen in Almonds, Dates, Walnuts, Pistachios, and NutDryFruitAssortedMix. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "happilo"
+    ]
+  },
+  "ajanta": {
+    "context": "AJANTA is most strongly associated with WallClock, and is also commonly seen in OpFormal, OpSandal, OpLoafers, OpSneakers, and TableClock. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "ajanta"
+    ]
+  },
+  "mysore sandal": {
+    "context": "MYSORE SANDAL is most strongly associated with Soap, and is also commonly seen in Talc, ShopsySoap, BabySoap, BodyWash, and IncenseStick. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "mysore sandal"
+    ]
+  },
+  "margo": {
+    "context": "Margo is most strongly associated with Soap, and is also commonly seen in Handwash. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "margo"
+    ]
+  },
+  "story@home": {
+    "context": "Story@home is most strongly associated with LivingRoomCurtain, and is also commonly seen in Bedsheet, CurtainAccessories, BathTowel, Blanket, and SlipCover. When this brand appears with a product keyword, use the product family to determine the exact category.",
+    "keywords": [
+      "story@home"
+    ]
+  },
+  "boult": {
+    "context": "Boult is primarily an electronics/audio brand for earbuds, headphones, and wearables.",
+    "keywords": [
+      "boult"
+    ]
+  },
+  "surf_excel": {
+    "context": "Surf Excel is primarily a detergent brand. Category depends on qualifier: with 'powder' or 'washing powder' → 'detergent powder', with 'liquid' → 'liquid detergent', without qualifier → 'detergent'.",
+    "keywords": [
+      "surf excel",
+      "surf"
+    ]
+  },
+  "comfort_liquid": {
+    "context": "Comfort is a brand (brand_present=true, brand_name=Comfort) that sells fabric softener. Treat fabric softener as the core category.",
+    "keywords": [
+      "comfort liquid"
+    ]
+  },
+  "comfort": {
+    "context": "Comfort is a brand (brand_present=true, brand_name=Comfort) that sells fabric softener. Apply this ONLY if the query is just \"comfort\" alone or \"comfort\" followed only by quantity words (e.g., 1 litre, 500ml, 2L). If the query contains any product noun like pillows, mattress, bedsheet, shoes, slippers, jeans, etc., IGNORE this context entirely — \"comfort\" is being used as an adjective, not a brand.",
+    "keywords": [
+      "comfort"
+    ]
+  },
+  "red_tape": {
+    "context": "Red Tape is commonly a footwear/fashion brand.",
+    "keywords": [
+      "red tape"
+    ]
+  },
+  "paragon": {
+    "context": "Paragon is commonly a footwear brand.",
+    "keywords": [
+      "paragon"
+    ]
+  },
+  "blue_star": {
+    "context": "Blue Star is an air conditioner/AC brand. brand_name='Blue Star'.",
+    "keywords": [
+      "blue star"
+    ]
+  },
+  "voltas_beko": {
+    "context": "Voltas Beko is a home appliances brand for washing machines, dryers, refrigerators, and dishwashers. The full brand name is 'Voltas Beko' (not just 'Beko' or 'Voltas'). brand_name='Voltas Beko'.",
+    "keywords": [
+      "voltas beko"
+    ]
+  },
+  "i_kall": {
+    "context": "I Kall is a mobile phone brand. The full brand name is 'I Kall' (not just 'Kall'). brand_name='I Kall'.",
+    "keywords": [
+      "i kall",
+      "ikall"
+    ]
+  },
+  "cmf_by_nothing": {
+    "context": "CMF by Nothing is primarily a mobile phone brand (sub-brand of Nothing) that also sells earbuds and smartwatches. The full brand name is 'CMF by Nothing' (not just 'CMF' or 'Nothing'). brand_name='CMF by Nothing'.",
+    "keywords": [
+      "cmf by nothing",
+      "cmf"
+    ]
+  },
+  "marq_by_flipkart": {
+    "context": "MarQ by Flipkart is a home appliances and electronics brand (Flipkart's own brand) for ACs, TVs, and monitors. The full brand name is 'MarQ by Flipkart' (not just 'MarQ' or 'Flipkart'). brand_name='MarQ by Flipkart'.",
+    "keywords": [
+      "marq by flipkart",
+      "marq"
+    ]
+  },
+  "tab": {
+    "context": "'Tab' or 'tablet' when mentioned with a brand refers to a tablet device, not a mobile phone. Classify the category as 'tablet'.",
+    "keywords": [
+      "tab",
+      "tablet"
+    ]
+  },
+  "mobile_case": {
+    "context": "'case' is ambiguous (suitcase, pencil case, etc.). When 'case' appears with any mobile phone brand or the word 'mobile'/'phone', classify category as 'back cover' instead of 'case'. Also extract alphanumeric_code from the model if present.",
+    "keywords": [
+      "case",
+      "cases",
+      "casee"
+    ]
+  },
+  "watch_disambiguation": {
+    "context": "watch+electronics brand or 'smart'/'bluetooth'/'digital'→smartwatch. Traditional brand (Titan,Fastrack,Casio,Sonata)→watch. watch+accessory word→keep 'watch' prefix: watch strap, watch band, watch screen protector, watch tempered glass, watch charger, watch stand.",
+    "keywords": [
+      "watch",
+      "watches",
+      "smartwatch",
+      "smartwatches"
+    ]
+  },
+  "charger_disambiguation": {
+    "context": "'charger' is ambiguous. When 'charger' appears with any mobile phone brand or the word 'mobile'/'phone', classify category as 'mobile charger'. If with 'watch'/'smartwatch', classify as 'smartwatch charger'. If with 'laptop', classify as 'laptop charger'. If with 'tab'/'tablet', classify as 'tablet charger'. Without device context, keep as 'charger'.",
+    "keywords": [
+      "charger",
+      "chager",
+      "chgner"
+    ]
+  },
+  "charger_cable_disambiguation": {
+    "context": "'charger cable' is a specific accessory distinct from 'charger'. When 'charger cable' appears with 'watch'/'smartwatch', classify category as 'smartwatch charger cable'. When with any mobile phone brand or the word 'mobile'/'phone', classify as 'mobile charger cable'. When with 'camera'/'dslr', classify as 'camera charger cable'. Without device context, keep as 'charger cable'.",
+    "keywords": [
+      "charger cable"
+    ]
+  },
+  "battery_disambiguation": {
+    "context": "'battery' is ambiguous (AA battery, car battery, bike battery, etc.). When 'battery' appears with any mobile phone brand or the word 'mobile'/'phone', classify category as 'mobile battery'. If with 'bike'/'motorcycle'/'scooter', classify as 'bike battery'. If with 'laptop', classify as 'laptop battery'. If with 'tab'/'tablet', classify as 'tablet battery'. Without device context, keep as 'battery'.",
+    "keywords": [
+      "battery",
+      "batery",
+      "batterie",
+      "batter",
+      "battary"
+    ]
+  },
+  "screen_protector_disambiguation": {
+    "context": "When 'watch' or 'smartwatch' is in the query, category MUST start with 'watch': 'watch tempered glass', 'watch screen protector', 'watch screen guard'. This applies regardless of brand. With 'tab'/'tablet', prefix with 'tablet'. Without device context, keep as-is.",
+    "keywords": [
+      "tempered glass",
+      "screen protector",
+      "screen guard"
+    ]
+  },
+  "camera_lens_protector": {
+    "context": "Camera lens protector, camera glass, or camera ring when mentioned with a mobile phone brand or model is a mobile camera lens protector, not a mobile phone. Classify the category as 'camera lens protector'.",
+    "keywords": [
+      "camera lens protector",
+      "camera glass",
+      "camera ring",
+      "camera safety",
+      "camera protection",
+      "camara glas",
+      "camera glas"
+    ]
+  },
+  "camera_lens": {
+    "context": "Camera lens is a mobile accessory ONLY when mentioned alongside a mobile phone brand (e.g., Vivo, Oppo, Redmi, Samsung, Poco, Infinix, Motorola) or a phone model name or the word 'mobile'/'phone'. In that case, classify as 'mobile accessory'. If camera lens is mentioned with a camera brand (e.g., Sony, Canon, Nikon) or alongside words like 'dslr', 'digital camera', classify as 'camera lens' instead.",
+    "keywords": [
+      "camera lens",
+      "camara lens",
+      "camera lans",
+      "camera lan",
+      "back camera",
+      "front camera"
+    ]
+  },
+  "galaxy": {
+    "context": "'Galaxy' can refer to Samsung's sub-brand OR a generic word (galaxy chocolate, galaxy print, galaxy projector). Only treat as Samsung brand when used with electronics context: phone models (Galaxy S24, Galaxy A15, Galaxy M34, Galaxy Z Flip), 'watch' (Galaxy Watch→smartwatch), 'buds' (Galaxy Buds→earbuds), 'tab'/'tablet' (Galaxy Tab→tablet), or with the word 'samsung'. If 'galaxy' appears with non-electronics words (chocolate, print, saree, projector, bedsheet, theme), it is NOT Samsung — brand_present=false.",
+    "keywords": [
+      "galaxy"
+    ]
+  },
+  "pixel": {
+    "context": "Google Pixel is a sub-brand of Google. Pixel spans multiple product categories: phones (Pixel 9, Pixel 8a), smartwatches (Pixel Watch), earbuds (Pixel Buds), and tablets (Pixel Tablet). When 'pixel' appears with 'watch', classify as 'smartwatch'. When with 'buds', classify as 'earbuds'. When with 'tab' or 'tablet', classify as 'tablet'. When 'pixel' appears alone or with a model number, classify as 'mobile'. brand_name='Google'.",
+    "keywords": [
+      "pixel"
+    ]
+  },
+  "crocs": {
+    "context": "Crocs is the brand. It should default to route footwear, gender both male and female and kids, and category footwear. It can also be treated as a visual query if that information is needed.",
+    "keywords": [
+      "crocs",
+      "crocks"
+    ]
+  }
+}
