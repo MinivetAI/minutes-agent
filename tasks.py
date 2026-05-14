@@ -4,11 +4,13 @@ import instructions
 from instructions import (
     FETCH_PRODUCT_KNOWLEDGE,
     PRODUCT_SEMANTIC_PARAGRAPH,
+    QUERY_IMPROVEMENT,
+    QUERY_PARSE,
+    TEST_TASK,
     USER_AGGREGATE_SUMMARY,
     USER_CATEGORY_PROFILE,
     USER_CROSS_CATEGORY_PROFILE,
     USER_HOURLY_SUMMARY,
-    TEST_TASK
 )
 from models import (
     ActivitySummary,
@@ -20,22 +22,24 @@ from models import (
     ProductKnowledgeOutput,
     ProductParagraphInput,
     ProductParagraphOutput,
+    QueryImprovement,
+    QueryInput,
+    QueryParsed,
     SummaryAggregationInput,
+    TestInput,
+    TestResponse,
     UserCategoryProfileInput,
     UserProfile,
-    TestInput,
-    TestResponse
 )
 
 
 TASKS: Dict[str, Dict[str, Any]] = {
-    "test_task":{
+    "test_task": {
         "input_model": TestInput,
         "output_model": TestResponse,
         "instruction": TEST_TASK,
         "endpoint": "/test",
-        "load_level": "high"
-
+        "load_level": "high",
     },
     "fetch_product_knowledge": {
         "input_model": ProductKnowledgeInput,
@@ -51,6 +55,20 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "output_model": ProductParagraphOutput,
         "instruction": PRODUCT_SEMANTIC_PARAGRAPH,
         "endpoint": "/v1/llm/enrich/product-paragraph",
+        "load_level": "medium",
+    },
+    "query_improvement": {
+        "input_model": QueryInput,
+        "output_model": QueryImprovement,
+        "instruction": QUERY_IMPROVEMENT,
+        "endpoint": "/improve-query",
+        "load_level": "medium",
+    },
+    "query_parse": {
+        "input_model": QueryInput,
+        "output_model": QueryParsed,
+        "instruction": QUERY_PARSE,
+        "endpoint": "/parse-query",
         "load_level": "medium",
     },
     "user_hourly_summary": {
@@ -83,7 +101,7 @@ TASKS: Dict[str, Dict[str, Any]] = {
     },
 }
 
-# Optional tasks that are enabled only when their instruction constants exist.
+
 OPTIONAL_TASKS = [
     (
         "feed_query_generation",

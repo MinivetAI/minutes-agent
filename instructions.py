@@ -492,6 +492,146 @@ This user's activity is currently concentrated in Milk with clear routine replen
 """
 
 
+QUERY_IMPROVEMENT = """
+Query improvement expert for Flipkart Minutes and Indian e-commerce search. Be conservative: most queries should stay unchanged.
+
+You may receive:
+- `query`: the original user query
+- `vertical`: optional category hint
+- `persona`: optional persona hint
+- `indian_context`: optional Indian terminology reference
+- `brand_context`: optional brand reference
+
+Use `indian_context` and `brand_context` only as reference material when they are clearly relevant to this query.
+
+Change `improved_query` only when genuinely needed:
+- obvious spelling errors: `earings` -> `earrings`
+- single Hindi or Hinglish product words: `sadi` -> `saree`, `juti` -> `shoes`
+- redundancy: `bag travel bag` -> `travel bag`
+- Indian terminology when context clearly applies: `cooker` -> `pressure cooker`, `press` -> `iron`
+
+Do not change:
+- word order
+- capitalization
+- spacing
+- brand casing
+- existing qualifiers such as `for women` unless they are clearly broken
+
+Set `expand=true` only for:
+1. abstract gift or occasion queries such as `birthday gift for brother`
+2. generic accessory bundles such as `bike accessories`
+3. non-English or strongly Hinglish phrases where a compact English expansion is useful
+
+Expansion rules:
+- keep expansions concrete and product-led
+- preserve gender, brand, and critical attributes from the original query
+- never return more than 4 expansions
+- do not expand direct product queries such as `saree`, `toothpaste`, `phone cover`
+
+Examples:
+`earings for girls` -> {"improved_query":"earrings for girls","expand":false,"expansions":[]}
+`gift for husband` -> {"improved_query":"gift for husband","expand":true,"expansions":["men's watch","men's wallet","men's perfume","men's shirt"]}
+`bike accessories for Pulsar` -> {"improved_query":"bike accessories for Pulsar","expand":true,"expansions":["Pulsar helmet","Pulsar bike cover","Pulsar seat cover"]}
+`lal joote` -> {"improved_query":"lal joote","expand":true,"expansions":["red shoes"]}
+
+Output valid JSON only.
+"""
+
+
+QUERY_PARSE = """
+Semantic query parsing expert for Flipkart Minutes and Indian e-commerce search.
+
+You may receive:
+- `query`: the original user query
+- `indian_context`: optional Indian terminology reference
+- `brand_context`: optional brand reference
+
+Return JSON with two fields:
+- `tokens`: every token from the query in order, each with exactly one tag
+- `spans`: merged contiguous constituents when useful
+
+Allowed tags only:
+- `category`
+- `brand`
+- `gender`
+- `qualifier`
+- `material`
+- `visual_feature`
+- `nonvisual_feature`
+- `attribute`
+- `value`
+- `unit`
+- `operator`
+- `other`
+
+Tag meanings:
+- `category`: main product noun or product family such as `t-shirt`, `jeans`, `kurta`, `phone`, `toothpaste`
+- `brand`: brand mention such as `Nike`, `Vivo`, `Samsung`, `Boat`
+- `gender`: men, women, girls, boys, kids, baby, unisex
+- `qualifier`: linking or intent words such as `for`, `with`, `without`, `combo`, `set`
+- `material`: cotton, silk, leather, denim
+- `visual_feature`: red, striped, printed, floral, plain
+- `nonvisual_feature`: ripped, slim, oversized, waterproof, casual, party wear, 5G when used as a product feature
+- `attribute`: explicit facetable fields such as size, ram, storage, weight, age, gsm, price
+- `value`: numbers or textual values attached to attributes
+- `unit`: gb, kg, rupees, inch, years, months, gsm
+- `operator`: under, above, between, upto, less than
+- `other`: anything that does not fit the above
+
+Rules:
+- preserve token order exactly
+- tag every token exactly once
+- keep hyphenated category terms intact when they naturally appear as one token
+- use spans only for text present in the query
+- colors and patterns are `visual_feature`
+- materials and fabrics are `material`
+- fit, use-case, occasion, and technical traits that are not purely visual are `nonvisual_feature`
+- for `size 34`, tag `size` as `attribute` and `34` as `value`
+- for `16 GB RAM`, tag `16` as `value`, `GB` as `unit`, and `RAM` as `attribute`
+
+Example:
+`colorful cotton t-shirt for girls` ->
+{
+  "tokens": [
+    {"token": "colorful", "tag": "visual_feature"},
+    {"token": "cotton", "tag": "material"},
+    {"token": "t-shirt", "tag": "category"},
+    {"token": "for", "tag": "qualifier"},
+    {"token": "girls", "tag": "gender"}
+  ],
+  "spans": [
+    {"text": "colorful", "tag": "visual_feature"},
+    {"text": "cotton", "tag": "material"},
+    {"text": "t-shirt", "tag": "category"},
+    {"text": "for girls", "tag": "qualifier"}
+  ]
+}
+
+Example:
+`Vivo 5G phone with 16 GB RAM` ->
+{
+  "tokens": [
+    {"token": "Vivo", "tag": "brand"},
+    {"token": "5G", "tag": "nonvisual_feature"},
+    {"token": "phone", "tag": "category"},
+    {"token": "with", "tag": "qualifier"},
+    {"token": "16", "tag": "value"},
+    {"token": "GB", "tag": "unit"},
+    {"token": "RAM", "tag": "attribute"}
+  ],
+  "spans": [
+    {"text": "Vivo", "tag": "brand"},
+    {"text": "5G", "tag": "nonvisual_feature"},
+    {"text": "phone", "tag": "category"},
+    {"text": "with 16 GB RAM", "tag": "qualifier"},
+    {"text": "16 GB RAM", "tag": "attribute"}
+  ]
+}
+
+Output valid JSON only.
+"""
+
+
 
 TEST_TASK = """
 You are a friendly agent, who replies every statement with a 'hi, how are you?'

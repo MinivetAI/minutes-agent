@@ -1,0 +1,74 @@
+{
+  "cooker": {
+    "context": "In India, 'cooker' alone usually means a pressure cooker. However, this does NOT apply to compound terms like 'milk cooker', 'rice cooker', 'induction cooker', 'slow cooker', 'egg cooker', 'solar cooker' - these are all distinct products and should NOT be changed to pressure cooker.",
+    "keywords": ["cooker"]
+  },
+  "induction": {
+    "context": "For induction cooktops/stoves, customers often need induction-compatible vessels with a magnetic/induction base. 'Induction cooker' typically means an induction cooktop/stove, not a pressure cooker.",
+    "keywords": ["induction", "induction stove", "induction cooktop"]
+  },
+  "ladies_suit": {
+    "context": "In northern India, 'ladies suit' or 'suit' for women means salwar kameez/salwar suit, not a western business suit. This includes 'suit set', 'cotton suit', 'party wear suit' for women.",
+    "keywords": ["ladies suit", "suit for women", "suit set", "salwar suit"]
+  },
+  "press": {
+    "context": "In Indian English, 'press' commonly means a clothing iron/iron box. 'Electric press' or 'steam press' refer to clothing irons. Do NOT apply this to 'bench press', 'french press', 'garlic press' which are different products.",
+    "keywords": ["press", "clothes press", "electric press", "steam press"]
+  },
+  "bike": {
+    "context": "In India, 'bike' typically means a motorcycle/motorbike, not a bicycle. For bicycles, Indians use 'cycle' or 'bicycle'. 'Sports bike' or 'bike accessories' usually refer to motorcycles.",
+    "keywords": ["bike", "sports bike", "bike accessories"]
+  },
+  "fridge": {
+    "context": "In Indian English, 'fridge' is the common colloquial term for refrigerator. Same product, just informal usage.",
+    "keywords": ["fridge"]
+  },
+  "mixie": {
+    "context": "In South India, 'mixie' or 'mixi' is the colloquial term for a mixer grinder. When user searches 'mixie', they mean 'mixer grinder'. Do NOT change 'mixer' or 'mixer grinder' - those are already correct terms.",
+    "keywords": ["mixie", "mixi"]
+  },
+  "geyser": {
+    "context": "In India, 'geyser' refers to a water heater (instant or storage type), not the natural hot spring. Used for heating water for bathing.",
+    "keywords": ["geyser"]
+  },
+  "ac": {
+    "context": "In Indian usage, 'AC' commonly refers to air conditioner. Very standard abbreviation in product searches.",
+    "keywords": ["ac"]
+  },
+  "inverter": {
+    "context": "In India, 'inverter' typically means a home inverter/UPS system that provides backup power during electricity cuts, not a power converter. 'Inverter AC' is a different product (energy-efficient air conditioner).",
+    "keywords": ["inverter", "home inverter"]
+  },
+  "tiffin": {
+    "context": "In Indian English, 'tiffin' or 'tiffin box' means a lunch box or food container, typically stainless steel, used to carry meals.",
+    "keywords": ["tiffin", "tiffin box"]
+  },
+  "almirah": {
+    "context": "In Indian English, 'almirah' or 'almira' means a wardrobe or cupboard, typically a freestanding furniture piece for storing clothes.",
+    "keywords": ["almirah", "almira"]
+  },
+  "payal": {
+    "context": "In Indian usage, 'payal' refers to anklets worn as jewelry (silver or gold), not footwear.",
+    "keywords": ["payal", "anklet", "anklets"]
+  },
+  "bangles": {
+    "context": "In Indian usage, 'bangle', 'bangles', 'chudi', or 'churiyan' refer to wrist jewelry, not clothing.",
+    "keywords": ["bangle", "bangles", "bangals", "chudi", "churiyan"]
+  },
+  "girls_kids": {
+    "context": "In Indian shopping queries, 'girls' often refers to kids/children (not adults). For clothing/accessories, consider kids categories alongside women's categories when 'girls' is mentioned.",
+    "keywords": ["girls", "girl"]
+  },
+  "chain": {
+    "context": "In Indian usage, 'chain' commonly refers to a jewelry chain/neck chain, not a tool chain.",
+    "keywords": ["chain", "neck chain", "chain for women", "chain for men"]
+  },
+  "namaz_topi": {
+    "context": "In India, 'namaz topi' or 'namaz cap' refers to a prayer cap worn by Muslims during prayer. Sometimes 'topi' alone is used for the same item. Queries like 'namaz topi' in this sense should generally be rewritten to 'prayer cap'. This is worn by men only and should be a query with gender male or boys",
+    "keywords": ["namaz topi", "topi namaz", "namaz", "namaaz"]
+  },
+  "laddu_gopal": {
+    "context": "In India, 'Laddu Gopal' or 'Ladoo Gopal' refers to a small idol of baby Krishna. When users search for 'laddu gopal dress' or 'laddu gopal dresses', they mean deity dresses (clothes for the idol), NOT regular clothing. The category should be 'deity dress', not 'dress'.",
+    "keywords": ["laddu gopal", "ladoo gopal"]
+  }
+}
