@@ -1,74 +1,122 @@
 {
   "cooker": {
-    "context": "In India, 'cooker' alone usually means a pressure cooker. However, this does NOT apply to compound terms like 'milk cooker', 'rice cooker', 'induction cooker', 'slow cooker', 'egg cooker', 'solar cooker' - these are all distinct products and should NOT be changed to pressure cooker.",
-    "keywords": ["cooker"]
+    "context": "In India, 'cooker' alone usually means a pressure cooker. This does NOT apply to compound terms like 'milk cooker', 'rice cooker', 'egg cooker', 'electric cooker', or 'induction cooker', which are distinct products.",
+    "keywords": ["cooker", "pressure cooker"]
   },
   "induction": {
-    "context": "For induction cooktops/stoves, customers often need induction-compatible vessels with a magnetic/induction base. 'Induction cooker' typically means an induction cooktop/stove, not a pressure cooker.",
-    "keywords": ["induction", "induction stove", "induction cooktop"]
+    "context": "'Induction cooker' typically means an induction cooktop/stove. Queries with 'induction base' usually refer to cookware compatible with induction stoves.",
+    "keywords": ["induction", "induction stove", "induction cooktop", "induction base"]
   },
   "ladies_suit": {
-    "context": "In northern India, 'ladies suit' or 'suit' for women means salwar kameez/salwar suit, not a western business suit. This includes 'suit set', 'cotton suit', 'party wear suit' for women.",
-    "keywords": ["ladies suit", "suit for women", "suit set", "salwar suit"]
+    "context": "In Indian shopping usage, 'ladies suit' or 'suit' for women usually means salwar suit/salwar kameez/ethnic kurta set, not a western business suit.",
+    "keywords": ["ladies suit", "suit for women", "salwar suit", "salwar kameez", "kurta set", "kurti set"]
   },
   "press": {
-    "context": "In Indian English, 'press' commonly means a clothing iron/iron box. 'Electric press' or 'steam press' refer to clothing irons. Do NOT apply this to 'bench press', 'french press', 'garlic press' which are different products.",
-    "keywords": ["press", "clothes press", "electric press", "steam press"]
+    "context": "In Indian English, 'press' can mean a clothing iron/steam iron in household context. Do not force this mapping for known product phrases like 'garlic press' or 'french press'.",
+    "keywords": ["press", "clothes press", "steam press", "electric press"]
   },
   "bike": {
-    "context": "In India, 'bike' typically means a motorcycle/motorbike, not a bicycle. For bicycles, Indians use 'cycle' or 'bicycle'. 'Sports bike' or 'bike accessories' usually refer to motorcycles.",
+    "context": "In India, 'bike' typically means motorcycle/motorbike. For bicycles, users usually say 'cycle' or 'bicycle'.",
     "keywords": ["bike", "sports bike", "bike accessories"]
   },
   "fridge": {
-    "context": "In Indian English, 'fridge' is the common colloquial term for refrigerator. Same product, just informal usage.",
-    "keywords": ["fridge"]
+    "context": "In Indian English, 'fridge' is the common colloquial term for refrigerator.",
+    "keywords": ["fridge", "refrigerator"]
   },
   "mixie": {
-    "context": "In South India, 'mixie' or 'mixi' is the colloquial term for a mixer grinder. When user searches 'mixie', they mean 'mixer grinder'. Do NOT change 'mixer' or 'mixer grinder' - those are already correct terms.",
+    "context": "In South India, 'mixie' or 'mixi' is the colloquial term for mixer grinder.",
     "keywords": ["mixie", "mixi"]
   },
   "geyser": {
-    "context": "In India, 'geyser' refers to a water heater (instant or storage type), not the natural hot spring. Used for heating water for bathing.",
-    "keywords": ["geyser"]
+    "context": "In India, 'geyser' refers to a water heater (instant or storage).",
+    "keywords": ["geyser", "water heater"]
   },
   "ac": {
-    "context": "In Indian usage, 'AC' commonly refers to air conditioner. Very standard abbreviation in product searches.",
-    "keywords": ["ac"]
+    "context": "In Indian usage, 'AC' commonly refers to air conditioner. In some catalog phrases like 'AC blanket', it can also mean blanket suited for air-conditioned rooms.",
+    "keywords": ["ac", "air conditioner", "a c", "a/c"]
   },
   "inverter": {
-    "context": "In India, 'inverter' typically means a home inverter/UPS system that provides backup power during electricity cuts, not a power converter. 'Inverter AC' is a different product (energy-efficient air conditioner).",
-    "keywords": ["inverter", "home inverter"]
+    "context": "In India, 'inverter' usually means a home power-backup inverter/UPS, not a generic power converter. 'Inverter AC' is a separate air-conditioner feature.",
+    "keywords": ["inverter", "home inverter", "inverter battery", "ups"]
   },
   "tiffin": {
-    "context": "In Indian English, 'tiffin' or 'tiffin box' means a lunch box or food container, typically stainless steel, used to carry meals.",
-    "keywords": ["tiffin", "tiffin box"]
+    "context": "In Indian English, 'tiffin' or 'tiffin box' means lunch box/meal container used to carry food.",
+    "keywords": ["tiffin", "tiffin box", "lunch box"]
   },
   "almirah": {
-    "context": "In Indian English, 'almirah' or 'almira' means a wardrobe or cupboard, typically a freestanding furniture piece for storing clothes.",
+    "context": "In Indian English, 'almirah' or 'almira' means wardrobe/cupboard used for storage.",
     "keywords": ["almirah", "almira"]
   },
   "payal": {
-    "context": "In Indian usage, 'payal' refers to anklets worn as jewelry (silver or gold), not footwear.",
+    "context": "In Indian usage, 'payal' refers to anklet jewelry, not footwear.",
     "keywords": ["payal", "anklet", "anklets"]
   },
   "bangles": {
-    "context": "In Indian usage, 'bangle', 'bangles', 'chudi', or 'churiyan' refer to wrist jewelry, not clothing.",
-    "keywords": ["bangle", "bangles", "bangals", "chudi", "churiyan"]
+    "context": "In Indian usage, 'bangle', 'bangles', 'chudi', or 'churiyan' refer to wrist jewelry.",
+    "keywords": ["bangle", "bangles", "chudi", "churiyan"]
   },
   "girls_kids": {
-    "context": "In Indian shopping queries, 'girls' often refers to kids/children (not adults). For clothing/accessories, consider kids categories alongside women's categories when 'girls' is mentioned.",
+    "context": "In Indian shopping queries, 'girls' often refers to kids categories (not only adult women). Consider children categories where relevant.",
     "keywords": ["girls", "girl"]
   },
   "chain": {
-    "context": "In Indian usage, 'chain' commonly refers to a jewelry chain/neck chain, not a tool chain.",
-    "keywords": ["chain", "neck chain", "chain for women", "chain for men"]
+    "context": "In Indian queries, 'chain' may refer to jewelry chain/neck chain, but can also mean key chain or bike chain. Use nearby words to resolve intent.",
+    "keywords": ["chain", "neck chain", "key chain", "bike chain"]
   },
   "namaz_topi": {
-    "context": "In India, 'namaz topi' or 'namaz cap' refers to a prayer cap worn by Muslims during prayer. Sometimes 'topi' alone is used for the same item. Queries like 'namaz topi' in this sense should generally be rewritten to 'prayer cap'. This is worn by men only and should be a query with gender male or boys",
-    "keywords": ["namaz topi", "topi namaz", "namaz", "namaaz"]
+    "context": "'Namaz topi' or 'namaz cap' refers to a Muslim prayer cap. Rewrite toward prayer-cap terminology where appropriate.",
+    "keywords": ["namaz topi", "topi namaz", "prayer cap", "namaaz topi"]
   },
   "laddu_gopal": {
-    "context": "In India, 'Laddu Gopal' or 'Ladoo Gopal' refers to a small idol of baby Krishna. When users search for 'laddu gopal dress' or 'laddu gopal dresses', they mean deity dresses (clothes for the idol), NOT regular clothing. The category should be 'deity dress', not 'dress'.",
-    "keywords": ["laddu gopal", "ladoo gopal"]
+    "context": "'Laddu Gopal' or 'Ladoo Gopal' refers to baby Krishna idol context. Queries like 'laddu gopal dress' typically mean deity dress, not regular clothing.",
+    "keywords": ["laddu gopal", "ladoo gopal", "laddu gopal dress"]
+  },
+  "kurta_kurti": {
+    "context": "'Kurta'/'kurti' terms in Indian apparel usually map to ethnic wear families (women ethnic sets, kurtas, men kurtas).",
+    "keywords": ["kurta", "kurti", "kurta set", "kurti set"]
+  },
+  "dupatta": {
+    "context": "'Dupatta' is a distinct ethnic apparel item and is commonly bundled with salwar/kurta sets in Indian fashion.",
+    "keywords": ["dupatta"]
+  },
+  "rakhi": {
+    "context": "'Rakhi' refers to Raksha Bandhan thread and related festive gifting products.",
+    "keywords": ["rakhi", "raksha bandhan"]
+  },
+  "agarbatti": {
+    "context": "'Agarbatti' means incense sticks used in pooja/spiritual use.",
+    "keywords": ["agarbatti", "incense stick", "agarbatti stand"]
+  },
+  "pooja_items": {
+    "context": "'Pooja' terms usually map to worship essentials such as pooja thali, diya, havan items, and altar accessories.",
+    "keywords": ["pooja", "puja", "pooja thali", "havan"]
+  },
+  "atta": {
+    "context": "In Indian grocery queries, 'atta' usually means wheat flour (chakki atta), with related variants like multigrain atta.",
+    "keywords": ["atta", "chakki atta", "wheat atta"]
+  },
+  "besan": {
+    "context": "'Besan' refers to gram flour/chickpea flour in Indian cooking context.",
+    "keywords": ["besan", "gram flour"]
+  },
+  "dal": {
+    "context": "'Dal' in Indian grocery context usually means pulses/lentils (toor, moong, masoor, chana, etc.).",
+    "keywords": ["dal", "dall", "lentils", "pulses"]
+  },
+  "poha": {
+    "context": "'Poha' refers to flattened rice and related ready-to-cook variants.",
+    "keywords": ["poha", "flattened rice"]
+  },
+  "suji_rava": {
+    "context": "'Suji'/'sooji'/'rava' all refer to semolina in Indian grocery context.",
+    "keywords": ["suji", "sooji", "rava", "semolina"]
+  },
+  "bindi_sindoor": {
+    "context": "'Bindi' and 'sindoor' are traditional Indian beauty/marital-symbol products and should map to those specific categories.",
+    "keywords": ["bindi", "sindoor", "kumkum"]
+  },
+  "lehenga": {
+    "context": "'Lehenga'/'lehenga choli' refer to ethnic festive wear categories for women/girls.",
+    "keywords": ["lehenga", "lehenga choli"]
   }
 }
