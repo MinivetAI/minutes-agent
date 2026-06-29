@@ -285,6 +285,177 @@ class CrossCategoryProfileInput(BaseModel):
 class UserProfile(BaseModel):
     profile: str = Field(description="Timeless characterization of user's preferences")
 
+
+class Daypart(str, Enum):
+    MORNING = "morning"
+    AFTERNOON = "afternoon"
+    EVENING = "evening"
+    NIGHT = "night"
+    UNKNOWN = "unknown"
+
+
+class DayType(str, Enum):
+    WEEKDAY = "weekday"
+    WEEKEND = "weekend"
+    UNKNOWN = "unknown"
+
+
+class MissionConfidence(str, Enum):
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
+
+
+class MissionFrequency(str, Enum):
+    RECURRING = "recurring"
+    OCCASIONAL = "occasional"
+    EMERGING = "emerging"
+
+
+class MissionStrength(str, Enum):
+    PRIMARY = "primary"
+    SECONDARY = "secondary"
+    EMERGING = "emerging"
+
+
+class MissionShift(str, Enum):
+    REINFORCED = "reinforced"
+    EMERGING = "emerging"
+    DECLINING = "declining"
+
+
+class TemporalContext(BaseModel):
+    daypart: Daypart = Field(description="Coarse time bucket for the activity")
+    day_type: DayType = Field(description="Whether the activity happened on a weekday or weekend")
+
+
+class OrderedMission(BaseModel):
+    mission_id: str = Field(description="Mission id attached to the ordered product")
+    description: str = Field(description="Short mission description or summary")
+
+
+class MissionOrder(BaseModel):
+    product_name: str = Field(description="Ordered product name")
+    missions: List[OrderedMission] = Field(description="Missions attached to this ordered product")
+
+
+class MissionHourlySummaryInput(BaseModel):
+    temporal_context: TemporalContext = Field(description="Temporal bucket for this one-hour activity window")
+    orders: List[MissionOrder] = Field(description="Orders placed in this hour")
+
+
+class MissionSignal(BaseModel):
+    mission_id: str = Field(description="Mission id observed in the activity")
+    confidence: MissionConfidence = Field(description="Confidence that this mission represents the user's intent in this window")
+    evidence_products: List[str] = Field(
+        default_factory=list,
+        description="Product names that support this mission signal"
+    )
+
+
+class MissionHourlySummaryOutput(BaseModel):
+    temporal_context: TemporalContext = Field(description="Temporal bucket for this one-hour activity window")
+    summary: str = Field(description="Short summary of the mission behavior in this hour")
+    mission_signals: List[MissionSignal] = Field(description="Mission signals observed in this hour")
+    dominant_missions: List[str] = Field(description="Most important mission ids for this hour")
+
+
+class MissionDailySummaryInput(BaseModel):
+    day_type: DayType = Field(description="Whether this daily summary is for a weekday or weekend")
+    hourly_summaries: List[MissionHourlySummaryOutput] = Field(
+        description="Compressed hourly mission summaries for this day"
+    )
+
+
+class TemporalMissionPattern(BaseModel):
+    daypart: Daypart = Field(description="Coarse time bucket where the mission appears")
+    mission_id: str = Field(description="Mission id for this temporal pattern")
+    confidence: MissionConfidence = Field(description="Confidence in this temporal mission pattern")
+    evidence: List[str] = Field(
+        default_factory=list,
+        description="Short evidence phrases from lower-level summaries"
+    )
+
+
+class MissionDailySummaryOutput(BaseModel):
+    day_type: DayType = Field(description="Whether this daily summary is for a weekday or weekend")
+    summary: str = Field(description="Short summary of the user's mission behavior for the day")
+    temporal_mission_patterns: List[TemporalMissionPattern] = Field(
+        description="Mission patterns by daypart for this day"
+    )
+    dominant_missions: List[str] = Field(description="Most important mission ids for this day")
+
+
+class MissionMonthlySummaryInput(BaseModel):
+    daily_summaries: List[MissionDailySummaryOutput] = Field(
+        description="Compressed daily mission summaries for the month"
+    )
+
+
+class TemporalMissionProfileItem(BaseModel):
+    day_type: DayType = Field(description="Weekday/weekend bucket where this mission usually applies")
+    daypart: Daypart = Field(description="Time bucket where this mission usually applies")
+    mission_id: str = Field(description="Mission id for this stable temporal profile item")
+    frequency: MissionFrequency = Field(description="How often this temporal mission pattern appears")
+    confidence: MissionConfidence = Field(description="Confidence in this monthly pattern")
+    evidence: List[str] = Field(
+        default_factory=list,
+        description="Short evidence phrases from daily summaries"
+    )
+
+
+class MissionMonthlySummaryOutput(BaseModel):
+    summary: str = Field(description="Short monthly summary of stable temporal mission behavior")
+    temporal_mission_profile: List[TemporalMissionProfileItem] = Field(
+        description="Stable mission profile by day type and daypart"
+    )
+    dominant_missions: List[str] = Field(description="Most important mission ids for the month")
+
+
+class MissionGlobalProfileInput(BaseModel):
+    hourly_summaries: List[MissionHourlySummaryOutput] = Field(
+        default_factory=list,
+        description="Recent compressed hourly mission summaries"
+    )
+    daily_summaries: List[MissionDailySummaryOutput] = Field(
+        default_factory=list,
+        description="Recent compressed daily mission summaries"
+    )
+    monthly_summaries: List[MissionMonthlySummaryOutput] = Field(
+        default_factory=list,
+        description="Longer-term compressed monthly mission summaries"
+    )
+
+
+class GlobalTemporalMissionProfileItem(BaseModel):
+    day_type: DayType = Field(description="Weekday/weekend bucket where this mission should apply")
+    daypart: Daypart = Field(description="Time bucket where this mission should apply")
+    mission_id: str = Field(description="Mission id for this global temporal profile item")
+    strength: MissionStrength = Field(description="Primary, secondary, or emerging importance")
+    frequency: MissionFrequency = Field(description="How often this temporal mission pattern appears")
+    confidence: MissionConfidence = Field(description="Confidence in this global temporal profile item")
+    personalization_hint: str = Field(description="How downstream ranking or feed personalization should use this signal")
+
+
+class RecentMissionShift(BaseModel):
+    mission_id: str = Field(description="Mission id whose status changed or was reinforced")
+    daypart: Daypart = Field(description="Time bucket for the shift")
+    day_type: DayType = Field(description="Weekday/weekend bucket for the shift")
+    shift: MissionShift = Field(description="Whether the signal is reinforced, emerging, or declining")
+    reason: str = Field(description="Short reason grounded in recent summaries")
+
+
+class MissionGlobalProfileOutput(BaseModel):
+    profile: str = Field(description="Global mission-based user profile summary")
+    temporal_mission_profile: List[GlobalTemporalMissionProfileItem] = Field(
+        description="Actionable global mission profile by temporal bucket"
+    )
+    dominant_missions: List[str] = Field(description="Top mission ids across the user profile")
+    recent_mission_shifts: List[RecentMissionShift] = Field(
+        default_factory=list,
+        description="Recent signals that reinforce, introduce, or weaken mission patterns"
+    )
+
 class ReasonType(str, Enum):
     SIMILAR = "similar"
     SUBSTITUTES = "substitutes"
