@@ -17,8 +17,7 @@ Current tasks:
 - `user_category_profile` -> `POST /user/category-profile`
 - `user_cross_category_profile` -> `POST /user/cross-category-profile`
 - `user_mission_hourly_summary` -> `POST /user/mission-hourly-summary`
-- `user_mission_daily_summary` -> `POST /user/mission-daily-summary`
-- `user_mission_monthly_summary` -> `POST /user/mission-monthly-summary`
+- `user_mission_aggregate_summary` -> `POST /user/mission-aggregate-summary`
 - `user_mission_global_profile` -> `POST /user/mission-global-profile`
 - `test_task` -> `POST /test`
 
@@ -45,7 +44,7 @@ To run only the mission-profile tasks:
 
 ```bash
 python app.py \
-  --tasks user_mission_hourly_summary,user_mission_daily_summary,user_mission_monthly_summary,user_mission_global_profile \
+  --tasks user_mission_hourly_summary,user_mission_aggregate_summary,user_mission_global_profile \
   --provider qwen \
   --vllm-url http://rtx-5.dev.internal:8000/v1/ \
   --model qwen3-35b \
@@ -68,5 +67,6 @@ This reads representative products from `/home/aditya/Minivet/minutes/data/minut
 - The current implementation is intentionally small and task-driven.
 - Query improvement and parsing borrow the task shape from `shopsy-agent` and use local Indian and brand context files when available.
 - Mission-profile tasks use a compressed hierarchy: raw orders only at hourly
-  level, hourly summaries for daily, daily summaries for monthly, and
-  compressed hourly/daily/monthly summaries for the global profile.
+  level; daily/monthly aggregation follows the food-agent shape with
+  `granularity` plus `summaries`; global profile follows the food-agent horizon
+  field names `hourlySummaries`, `dailySummaries`, and `monthlySummaries`.

@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -360,10 +360,12 @@ class MissionHourlySummaryOutput(BaseModel):
     dominant_missions: List[str] = Field(description="Most important mission ids for this hour")
 
 
-class MissionDailySummaryInput(BaseModel):
-    day_type: DayType = Field(description="Whether this daily summary is for a weekday or weekend")
-    hourly_summaries: List[MissionHourlySummaryOutput] = Field(
-        description="Compressed hourly mission summaries for this day"
+class MissionAggregateSummaryInput(BaseModel):
+    granularity: Granularity = Field(
+        description="Target aggregation level: 'daily' aggregates hourly mission summaries, 'monthly' aggregates daily mission summaries"
+    )
+    summaries: List[Dict[str, Any]] = Field(
+        description="Lower-granularity mission summaries to aggregate"
     )
 
 
@@ -374,21 +376,6 @@ class TemporalMissionPattern(BaseModel):
     evidence: List[str] = Field(
         default_factory=list,
         description="Short evidence phrases from lower-level summaries"
-    )
-
-
-class MissionDailySummaryOutput(BaseModel):
-    day_type: DayType = Field(description="Whether this daily summary is for a weekday or weekend")
-    summary: str = Field(description="Short summary of the user's mission behavior for the day")
-    temporal_mission_patterns: List[TemporalMissionPattern] = Field(
-        description="Mission patterns by daypart for this day"
-    )
-    dominant_missions: List[str] = Field(description="Most important mission ids for this day")
-
-
-class MissionMonthlySummaryInput(BaseModel):
-    daily_summaries: List[MissionDailySummaryOutput] = Field(
-        description="Compressed daily mission summaries for the month"
     )
 
 
@@ -404,24 +391,33 @@ class TemporalMissionProfileItem(BaseModel):
     )
 
 
-class MissionMonthlySummaryOutput(BaseModel):
-    summary: str = Field(description="Short monthly summary of stable temporal mission behavior")
-    temporal_mission_profile: List[TemporalMissionProfileItem] = Field(
-        description="Stable mission profile by day type and daypart"
+class MissionAggregateSummaryOutput(BaseModel):
+    summary: str = Field(description="Short summary of aggregate mission behavior")
+    day_type: Optional[DayType] = Field(
+        default=None,
+        description="Present for daily aggregation when the child hourly summaries imply weekday/weekend"
     )
-    dominant_missions: List[str] = Field(description="Most important mission ids for the month")
+    temporal_mission_patterns: List[TemporalMissionPattern] = Field(
+        default_factory=list,
+        description="Daily mission patterns by daypart; mainly used when granularity is daily"
+    )
+    temporal_mission_profile: List[TemporalMissionProfileItem] = Field(
+        default_factory=list,
+        description="Monthly stable mission profile by day type and daypart; mainly used when granularity is monthly"
+    )
+    dominant_missions: List[str] = Field(description="Most important mission ids for the aggregate window")
 
 
 class MissionGlobalProfileInput(BaseModel):
-    hourly_summaries: List[MissionHourlySummaryOutput] = Field(
+    hourlySummaries: List[MissionHourlySummaryOutput] = Field(
         default_factory=list,
         description="Recent compressed hourly mission summaries"
     )
-    daily_summaries: List[MissionDailySummaryOutput] = Field(
+    dailySummaries: List[MissionAggregateSummaryOutput] = Field(
         default_factory=list,
         description="Recent compressed daily mission summaries"
     )
-    monthly_summaries: List[MissionMonthlySummaryOutput] = Field(
+    monthlySummaries: List[MissionAggregateSummaryOutput] = Field(
         default_factory=list,
         description="Longer-term compressed monthly mission summaries"
     )

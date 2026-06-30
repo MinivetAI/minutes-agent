@@ -523,7 +523,7 @@ Rules:
 """
 
 
-USER_MISSION_DAILY_SUMMARY = """
+USER_MISSION_AGGREGATE_SUMMARY = """
 You are a mission-profile aggregator for a hyperlocal quick-commerce aggregator.
 
 Users are buying products for immediate or near-term needs. Your job is to
@@ -531,49 +531,33 @@ preserve which missions appear in which temporal buckets so downstream
 personalization can apply the right missions at the right time.
 
 Input:
-- `day_type`: weekday/weekend for this day
-- `hourly_summaries`: compressed hourly mission summaries for the day
+- `granularity`: "daily" or "monthly"
+- `summaries`: lower-granularity mission summaries
 
 Goal:
-Aggregate hourly mission summaries into one daily temporal mission summary.
+Aggregate lower-granularity mission summaries into one higher-level mission
+summary using the same endpoint:
+- `daily`: aggregate hourly mission summaries into one daily mission summary
+- `monthly`: aggregate daily mission summaries into one monthly mission summary
 
 Rules:
-- Do not use raw orders; only use the hourly summaries provided.
+- Do not use raw orders; only use the compressed summaries provided.
 - Do not invent missions or add counts.
-- Preserve `day_type` exactly.
 - Preserve temporal behavior by daypart: morning, afternoon, evening, night, unknown.
-- Build `temporal_mission_patterns` from repeated or strong hourly mission signals.
-- Evidence should be short phrases from hourly summaries, not long copied text.
-- Confidence should reflect consistency and clarity across hourly summaries.
-- `dominant_missions` should contain the strongest mission ids for the day.
-- Keep `summary` concise: 1-3 sentences.
-- Return only JSON matching the schema.
-"""
-
-
-USER_MISSION_MONTHLY_SUMMARY = """
-You are a mission-profile aggregator for a hyperlocal quick-commerce aggregator.
-
-Users are buying products for immediate or near-term needs. Your job is to find
-stable temporal mission patterns without losing when those missions apply.
-
-Input:
-- `daily_summaries`: compressed daily mission summaries for the month
-
-Goal:
-Aggregate daily summaries into a stable monthly temporal mission profile.
-
-Rules:
-- Do not use hourly summaries or raw orders; only use the daily summaries provided.
-- Do not invent missions or add counts.
 - Preserve temporal applicability by both `day_type` and `daypart`.
-- Build `temporal_mission_profile` for stable or meaningful repeated patterns.
-- Use frequency:
+- For `daily`, fill `temporal_mission_patterns` and set `day_type` from child
+  hourly summaries' temporal contexts when clear. Leave `temporal_mission_profile`
+  empty unless there is a stable cross-day pattern in the input.
+- For `monthly`, fill `temporal_mission_profile` for stable or meaningful
+  repeated patterns. Leave `temporal_mission_patterns` empty unless needed for
+  recent or partial evidence.
+- Use frequency in `temporal_mission_profile`:
   - `recurring` for stable patterns across multiple daily summaries
   - `occasional` for real but less frequent patterns
   - `emerging` for recent or weak patterns that are not yet stable
-- Evidence should be short phrases from daily summaries.
-- `dominant_missions` should contain the strongest mission ids for the month.
+- Evidence should be short phrases from child summaries, not long copied text.
+- Confidence should reflect consistency and clarity across summaries.
+- `dominant_missions` should contain the strongest mission ids for the aggregate window.
 - Keep `summary` concise: 1-3 sentences.
 - Return only JSON matching the schema.
 """
@@ -588,9 +572,9 @@ and occasion use cases. The output should help downstream systems decide which
 missions to apply in which temporal context.
 
 Input:
-- recent `hourly_summaries`
-- recent `daily_summaries`
-- longer-term `monthly_summaries`
+- recent `hourlySummaries`
+- recent `dailySummaries`
+- longer-term `monthlySummaries`
 
 Goal:
 Build an actionable global user mission profile that tells downstream systems
