@@ -1,0 +1,23 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend afternoon contained one unit each of Syrup, Cheese, and Condiments. The basket breadth is narrow, consisting of three distinct categories. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Syrup",
+        "Cheese",
+        "Condiments"
+      ],
+      "combination_text": "Syrup, Cheese, and Condiments were purchased together in a single transaction.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for condiments and dairy products to accompany a meal.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. No durable behavior patterns can be inferred from this single data point.",
+  "overall_confidence": "low"
+}

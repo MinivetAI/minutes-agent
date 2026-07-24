@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-05",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-05 (weekday), a single order was placed in the afternoon. The basket contained 6 items across three categories: Vegetables (4 units), Breads (1 unit), and Dips Sauces Pastes (1 unit). This combination is compatible with preparing a vegetable-based dish with bread and dips, but represents an isolated transaction rather than a durable preference. Confidence in any behavioral pattern is low due to the lack of repetition across independent dates.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.074,
+      "lift": 3.857,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Dips Sauces Pastes",
+        "Vegetables"
+      ],
+      "combination_text": "Dips Sauces Pastes and Vegetables were purchased together in this order.",
+      "support": 0.074,
+      "lift": 3.857,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a meal involving vegetables, bread, and dips.",
+  "uncertainty_text": "This is a single observed order on one date. Stable preferences or routines cannot be inferred from this isolated transaction. Confidence in any behavioral pattern is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low"
+}

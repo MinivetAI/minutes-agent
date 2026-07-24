@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Tide Naturals Lemon & Chandan Detergent Powder (1 kg each) in the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a small-pack laundry detergent powder, typically used for immediate household replenishment or urgent laundry needs.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or scent preferences cannot be established from this evidence alone.",
+  "overall_confidence": "low"
+}

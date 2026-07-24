@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-15 (weekday), the user placed one order of Safal Frozen Green Peas (200 g) during the evening. This purchase occurred in a daypart where the user's activity is slightly below the population baseline (30.27%). The product is a frozen vegetable ingredient used for convenient, small-batch home cooking. This is a single observed transaction; no durable preference or routine can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Safal Frozen Green Peas (200 g) was placed during the evening on a weekday. The purchase occurred in the evening, a period where this user's activity is slightly below the population baseline (30.27%). The product is a frozen vegetable ingredient used for convenient, small-batch home cooking.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no durable preference or routine can be established from this isolated event.",
+  "overall_confidence": "low"
+}

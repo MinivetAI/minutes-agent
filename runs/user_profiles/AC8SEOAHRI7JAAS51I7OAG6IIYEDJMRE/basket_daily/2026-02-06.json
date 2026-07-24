@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-06, a weekday, a single order was placed in the afternoon. The basket contained two items: 2 units of Milk and 1 unit of Savouries Namkeens. This represents a narrow basket with a breadth of 2 categories. The combination of Milk and Savouries Namkeens was observed. No other products were purchased or added to cart in this session. The user may be assembling a snack or light meal component involving dairy and savory accompaniments. This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and Savouries Namkeens were purchased together in this order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be assembling a snack or light meal component involving dairy and savory accompaniments.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

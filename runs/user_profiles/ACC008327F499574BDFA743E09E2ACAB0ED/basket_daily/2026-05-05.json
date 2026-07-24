@@ -1,0 +1,93 @@
+{
+  "date": "2026-05-05",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-05 (weekday), a single order was placed in the afternoon. The basket consisted exclusively of Vegetables, totaling 6 units across 4 distinct products. This observation is compatible with a general need for fresh produce or meal preparation ingredients, but no specific intent is confirmed. As this is a single observed order, it represents an isolated observation rather than a durable behavior pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were co-ordered in 2 instances.",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "DipsSaucesPastes",
+        "Vegetables"
+      ],
+      "combination_text": "DipsSaucesPastes and Vegetables were co-ordered in 2 instances.",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were co-ordered in 2 instances.",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "SpicesMasala"
+      ],
+      "combination_text": "SavouriesNamkeens and SpicesMasala were co-ordered in 1 instance.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were co-ordered in 1 instance.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Fruits"
+      ],
+      "combination_text": "CurdYogurt and Fruits were co-ordered in 1 instance.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "IceCreams",
+        "Vegetables"
+      ],
+      "combination_text": "IceCreams and Vegetables were co-ordered in 1 instance.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "DipsSaucesPastes"
+      ],
+      "combination_text": "Breads and DipsSaucesPastes were co-ordered in 1 instance.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "General need for fresh produce or meal preparation ingredients.",
+  "uncertainty_text": "This is a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. No durable behavior pattern is established.",
+  "overall_confidence": "low"
+}

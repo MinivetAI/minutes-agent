@@ -1,0 +1,18 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased Amul cheese products on two independent dates (2026-03-22 and 2026-03-31). The brand Amul appears on both dates, meeting the repetition bar for stable preference. The specific variants differed (200 g slices vs. 100 g), so the stable claim applies to the brand level rather than a single variant. Both purchases occurred in the afternoon, establishing a consistent daypart pattern across independent dates. No other cheese brands or products were observed.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user purchased Amul cheese products on two independent dates in March 2026, indicating a stable preference for this brand.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Only two independent dates were observed in this month. While the brand repetition supports a medium-confidence stable preference, the specific variant preference (200 g vs. 100 g) cannot be determined as stable due to the difference in products. The afternoon timing is consistent but based on a small sample size.",
+  "overall_confidence": "medium"
+}

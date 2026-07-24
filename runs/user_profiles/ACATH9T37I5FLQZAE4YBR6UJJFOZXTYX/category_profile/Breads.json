@@ -1,0 +1,34 @@
+{
+  "category": "Breads",
+  "profile_text": "The user exhibits a slow replenishment cycle for breads, with purchases observed across six independent dates spanning January to June 2026. The primary observed product is Modern Supreme Sandwich Bread (400 g), appearing on three independent dates (2026-01-30, 2026-04-xx, 2026-06-25), establishing a medium-confidence brand preference. A single observation of Britannia Bombay Pav Bread (250 g) and one generic/unspecified bread order are noted but do not form stable preferences. Purchases occur on weekdays and weekends, in morning, afternoon, and night dayparts, indicating no single stable timing pattern. The category supports needs for immediate consumption items like breakfast, sandwiches, and toast.",
+  "brand_preferences": [
+    {
+      "brand": "Modern Supreme",
+      "preference_text": "Observed on three independent dates (Jan, Apr, Jun 2026).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 30.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-06-25",
+    "predicted_next_purchase_date": "2026-07-25",
+    "replenishment_text": "The user typically purchases breads approximately every 30 days, with the next purchase estimated around 2026-07-25.",
+    "confidence": "medium",
+    "evidence_count": 6,
+    "independent_date_count": 6
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by six completed orders across the observed period.",
+  "substitution_text": "No stable substitution pattern identified; the user has purchased different brands (Modern Supreme, Britannia) and unspecified variants.",
+  "price_value_text": "No explicit price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Replenishment of standard packaged breads for immediate consumption needs such as breakfast, sandwiches, or toast.",
+  "overall_confidence": "medium"
+}

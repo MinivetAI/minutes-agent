@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Cauliflower 400-600g (1 unit) placed on 2026-04-09 in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon, a period with 25.26% population share compared to 32.46% in the morning. The item is a fresh vegetable typically used for immediate meal preparation.",
+  "uncertainty_text": "Single observation; no evidence of repeated purchasing behavior or specific brand loyalty. No browsing or search data available to assess pre-purchase intent.",
+  "overall_confidence": "low"
+}

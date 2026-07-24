@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-19",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-19 (weekday), one unit of bread (BABHMCY6GJYZ9CZQ) was purchased during the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). As this is a single observed transaction, it does not establish a stable preference or routine for bread purchases.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One unit of bread (BABHMCY6GJYZ9CZQ) was purchased. This occurred during a period with lower population share (0.2526) relative to morning (0.3246) and evening (0.3027).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for bread purchases.",
+  "overall_confidence": "low"
+}

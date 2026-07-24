@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-02 (weekday), one order of Tata Sampann High in Fibre Thick Poha (0.5 kg) was placed during the morning. This timing aligns with the category's 32.46% population share for morning purchases. The product is a staple breakfast ingredient suitable for quick Indian meals. This is a single observed order; it does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Tata Sampann High in Fibre Thick Poha (0.5 kg) was placed during the morning on a weekday. This timing aligns with the category's 32.46% population share for morning purchases. The product is a staple breakfast ingredient suitable for quick Indian meals. This is a single observed order; it does not establish a stable preference or routine.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

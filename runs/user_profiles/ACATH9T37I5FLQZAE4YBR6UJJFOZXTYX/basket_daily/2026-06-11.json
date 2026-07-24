@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-11",
+  "day_type": "weekday",
+  "summary_text": "On this weekday night, a single order was placed containing dairy staples (Milk, Curd Yogurt), fresh produce (Vegetables), and items addressing specific needs including pediatric care (Baby Cereal) and symptom management (Cough medicine), alongside beverages (Aerated Drinks, Fruit Drinks). This basket is compatible with a household need for daily nutrition and fresh ingredients, supplemented by targeted care items. As this is a single observed order, it does not establish a durable preference or routine.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a household need for daily nutrition and fresh ingredients, supplemented by pediatric care (Baby Cereal) and symptom management (Cough medicine).",
+  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

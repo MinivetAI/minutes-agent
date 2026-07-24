@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of Baby Potato (280–320 g), Onion (400–450 g), and Fresh Lemon (3 pieces).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The items are fresh produce staples typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-18",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-18 (weekday), the user purchased 2 units of Surf Excel Detergent Bar 80 g during the morning. This is a small-format laundry detergent bar suitable for hand-washing clothes and spot-cleaning. The order occurred during a morning window where user activity is above the population baseline (32.46%). The product is a compact, low-ticket item suitable for quick top-ups or emergency hand-washing needs. This is a single observation on one date; durable brand or product preferences cannot yet be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Surf Excel Detergent Bar 80 g. This is a small-format laundry detergent bar suitable for hand-washing clothes and spot-cleaning. The order occurred during a morning window where user activity is above the population baseline (32.46%). The product is a compact, low-ticket item suitable for quick top-ups or emergency hand-washing needs.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; durable brand or product preferences cannot yet be established.",
+  "overall_confidence": "low"
+}

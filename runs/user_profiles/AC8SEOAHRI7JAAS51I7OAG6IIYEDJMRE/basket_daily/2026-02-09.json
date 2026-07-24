@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-09, a weekday, a single order was placed in the afternoon. The basket contained five items across four categories: Breads (1), Curd Yogurt (2 distinct products), Cheese (1), and Vegetables (1). This combination suggests a compatible need for basic dairy and fresh produce staples alongside bread. No durable preferences or recurring patterns can be inferred from this single observed order.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for basic breakfast or snack components including dairy, fresh produce, and bread.",
+  "uncertainty_text": "This is a single observed order on one date. No durable preferences or recurring patterns can be inferred. Confidence in any behavioral pattern is low.",
+  "overall_confidence": "low"
+}

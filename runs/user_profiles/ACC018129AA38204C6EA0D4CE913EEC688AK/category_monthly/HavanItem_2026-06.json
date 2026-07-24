@@ -1,0 +1,26 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased Anandam Deepam Oil on two independent dates (2026-06-02 and 2026-06-18). This recurrence meets the threshold for a stable preference claim. The user also exhibits a consistent purchasing pattern during the morning daypart on weekdays.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Anandam",
+      "claim_text": "The user has purchased Anandam Deepam Oil on two independent dates in June 2026, indicating a stable brand preference for this lamp oil.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Anandam Deepam Oil",
+      "claim_text": "The user has purchased Anandam Deepam Oil on two independent dates in June 2026, indicating a stable product preference for this specific lamp oil.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The evidence is limited to two purchases in a single month. While the repetition supports a medium-confidence stable preference for the brand and product, the short observation window limits the ability to confirm long-term routine or volume expectations.",
+  "overall_confidence": "medium"
+}

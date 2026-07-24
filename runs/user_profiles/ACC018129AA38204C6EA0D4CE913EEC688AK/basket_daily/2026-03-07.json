@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-07",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-07 (weekend), a single order was placed in the evening. The basket contained one unit each of Rusk, Milk, and Wheat Flour. This combination is compatible with basic breakfast or baking needs. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Rusk",
+        "Milk",
+        "Wheat Flour"
+      ],
+      "combination_text": "Rusk, Milk, and Wheat Flour were purchased together in a single order.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of Rusk, Milk, and Wheat Flour suggests a need for basic breakfast components or baking ingredients.",
+  "uncertainty_text": "This is a single observation from one independent date. Stable preferences or routine behaviors cannot be inferred from this data alone.",
+  "overall_confidence": "low"
+}

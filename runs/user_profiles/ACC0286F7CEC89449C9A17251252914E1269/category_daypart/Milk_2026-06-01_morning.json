@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Amul A2 Buffalo Pasteurised Milk 500 ml.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The product is a standard dairy item suitable for immediate consumption or cooking.",
+  "uncertainty_text": "This is a single observed order; no stable brand or product preference can be established from this window alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-16 (weekday), the user purchased 1 pack of English Oven Buns (150 g) during the evening. This order occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% share). The product is a small, packaged bakery item suited for immediate consumption or short-horizon use, such as a quick meal component or snack. This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 pack of English Oven Buns (150 g) during the evening on a weekday. The order occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% share). The product is a small, packaged bakery item suited for immediate consumption or short-horizon use, such as a quick meal component or snack.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

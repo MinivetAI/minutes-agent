@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user placed two orders for Pampers Complete Skin Comfort Pant Diapers XL (56 Count), one on May 4 and another on May 28. Both orders occurred on weekdays in the afternoon. The recurrence of this specific brand, product, and size across two independent dates indicates a stable preference for this item, despite the low volume of orders in the category. The afternoon timing is consistent with the user's observed pattern but is less common than morning or evening purchases in the general population.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Pampers Complete Skin Comfort Pant Diapers XL (56 Count)",
+      "claim_text": "The user has a stable preference for Pampers Complete Skin Comfort Pant Diapers XL (56 Count), evidenced by purchases on two independent dates (May 4 and May 28).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and product preference is stable across two dates, the overall category volume is low. The specific driver for the timing (afternoon) or the interval between orders is not fully explained by the data alone.",
+  "overall_confidence": "medium"
+}

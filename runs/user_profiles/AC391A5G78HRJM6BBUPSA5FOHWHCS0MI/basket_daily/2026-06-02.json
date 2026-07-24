@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-02",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, a single evening order was placed containing 12 distinct items across 11 categories. The basket reflects a restocking of household essentials, including dairy (Milk, Buttermilk), cooking fats (Ghee, Other Cooking Oil), pantry staples (Sugar), personal care (Toothpaste, Shampoo, Conditioner, Handwash), cleaning supplies (Toilet Cleaner, Bathroom Floor Cleaner), and snacks (Cookies Biscuits).",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk were purchased together in this order.",
+      "support": 0.138,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking household essentials including dairy, cooking fats, cleaning agents, and personal hygiene items.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

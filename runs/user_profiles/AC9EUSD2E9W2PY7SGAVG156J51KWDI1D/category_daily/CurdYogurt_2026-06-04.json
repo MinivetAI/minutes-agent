@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-04",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Masti Dahi Plain Curd (200 ml) was purchased in the morning. The small 200 ml pack suggests immediate consumption or a top-up need rather than bulk stocking. This occurred during a time when this category has a population share of 0.3246. Single observation; cannot establish stable brand preference or routine behavior.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Amul Masti Dahi Plain Curd (200 ml) purchased in the morning. The small 200 ml pack suggests immediate consumption or a top-up need rather than bulk stocking. This occurred during a time when this category has a population share of 0.3246. Single observation; cannot establish stable brand preference or routine behavior.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable brand preference or routine behavior.",
+  "overall_confidence": "low"
+}

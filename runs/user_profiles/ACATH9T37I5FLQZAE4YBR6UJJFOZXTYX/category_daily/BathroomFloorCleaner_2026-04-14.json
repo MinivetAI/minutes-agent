@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-14 (weekday), the user purchased one unit of Domex Floor Cleaner Regular 1 L during the evening. This timing aligns with the population baseline (30.27% share). The product is a standard liquid floor cleaner intended for routine home cleaning and wet-area sanitation. This is a single observed transaction; it does not establish a stable preference, routine, or brand loyalty. The specific trigger for this purchase (e.g., stockout, pre-guest cleanup, or routine restock) cannot be determined from this data alone.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or brand loyalty. The specific trigger for this purchase (e.g., stockout, pre-guest cleanup, or routine restock) cannot be determined from this data alone.",
+  "overall_confidence": "low"
+}

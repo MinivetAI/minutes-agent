@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-30 (weekday), one order of Haldiram's Boondi 200 g was placed in the afternoon. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Haldiram's Boondi 200 g was placed in the afternoon. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26%). The product is a shelf-stable, ready-to-eat savoury snack.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

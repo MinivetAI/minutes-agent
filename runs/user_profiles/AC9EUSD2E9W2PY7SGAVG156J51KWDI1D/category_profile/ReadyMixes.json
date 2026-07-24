@@ -1,0 +1,40 @@
+{
+  "category": "Ready Mixes",
+  "profile_text": "The user has a single observed purchase of a chicken biryani ready mix. This isolated transaction suggests a need for convenient meal assembly for a traditional dish but does not establish a stable brand or product preference.",
+  "brand_preferences": [
+    {
+      "brand": "Suhana",
+      "preference_text": "Suhana was observed in one purchase on 2026-06-01. A single observation does not establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Suhana Chicken Biryani Mix (50 g) was purchased once on 2026-06-01. A single observation does not establish a stable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-01",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion when the need arises.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior is evident from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior is observed.",
+  "mission_generation_text": "Convenient meal assembly for traditional dishes with minimal prep effort.",
+  "overall_confidence": "low"
+}

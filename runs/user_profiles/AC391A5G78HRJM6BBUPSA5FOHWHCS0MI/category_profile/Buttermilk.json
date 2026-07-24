@@ -1,0 +1,26 @@
+{
+  "category": "Buttermilk",
+  "profile_text": "Buttermilk is a dairy ingredient typically used for cooking or baking. The user has purchased buttermilk on two independent dates (June and July 2026), both during the evening on weekdays. This timing is compatible with dinner preparation or evening meal consumption. Evidence is limited to two transactions; no stable routine or brand preference is established.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-20",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-07-20. Cadence is unknown based on limited evidence.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in buttermilk has resulted in completed purchases on observed dates.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior observed.",
+  "mission_generation_text": "Supports cooking or baking needs, particularly for evening meal preparation.",
+  "overall_confidence": "low"
+}

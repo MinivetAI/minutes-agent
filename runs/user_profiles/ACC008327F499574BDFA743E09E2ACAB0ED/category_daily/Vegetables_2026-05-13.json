@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-13 (weekday), the user purchased one unit of unbranded fresh Bottle Gourd (400–600 g) in the afternoon. This single observation supports a low-confidence inference that the user bought a fresh vegetable suitable for immediate meal preparation. The purchase occurred during a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). No stable brand or product preferences can be established from this single date.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one unit of unbranded fresh Bottle Gourd (400–600 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established. It is unclear if this was a routine staple purchase or a replacement for a stockout.",
+  "overall_confidence": "low"
+}

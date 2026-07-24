@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Amul Butterscotch Tricone 120 ml ice cream cones on two independent dates (2026-04-07 and 2026-04-24). This repetition establishes a stable preference for this specific brand, flavor, and format. The purchases occurred on weekdays, once in the evening and once in the afternoon, indicating flexible timing within the daypart spectrum rather than a rigid daily routine. The product serves as a single-serve frozen dessert for immediate indulgence.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Amul Butterscotch Tricone 120 ml",
+      "claim_text": "The user has a stable preference for Amul Butterscotch Tricone 120 ml ice cream cones, evidenced by purchases on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The preference is limited to the observed product and month. No other ice cream brands, flavors, or formats were purchased in this period to establish broader category preferences.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-28",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-28, a single order was placed in the evening. The basket contained one unit each of Toilet Cleaner, Aerated Drinks, and Paneer Tofu. This narrow basket spans three distinct categories: cleaning supplies, beverages, and dairy alternatives. The combination of household maintenance items with food and drink suggests a compatible need for general household replenishment and refreshment, but no specific meal or event intent is proven. As this is a single observed order, it represents an observation rather than a durable preference pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Toilet Cleaner",
+        "Aerated Drinks",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Toilet Cleaner, Aerated Drinks, and Paneer Tofu were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for household cleaning supplies, beverages, and dairy alternatives.",
+  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this isolated event. Claims about user preference or routine are not supported by the evidence.",
+  "overall_confidence": "low"
+}

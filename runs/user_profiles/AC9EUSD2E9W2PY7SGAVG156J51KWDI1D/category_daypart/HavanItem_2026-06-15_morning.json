@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 25 g pack of Swastik Premium Pure Camphor, a product typically used for aarti, daily pooja, or quick fragrance refresh.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning on a weekday, a time when morning activity share (32.46%) is the highest among population dayparts. The product serves a general utility for ritual readiness or space freshening.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or category.",
+  "overall_confidence": "low"
+}

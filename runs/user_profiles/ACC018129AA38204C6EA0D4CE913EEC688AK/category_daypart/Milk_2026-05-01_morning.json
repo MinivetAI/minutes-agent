@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Nandini Shubham Pasteurised Standardised Milk (500 ml) was placed on 2026-05-01 in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a standard 500 ml pasteurised milk pack, typically used for immediate household consumption such as breakfast, tea, or cooking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

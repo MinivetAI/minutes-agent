@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "One order of Kurkure Playz Puffcorn Yummy Cheese (80 g) was placed. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning on a weekend. This timing is consistent with the population baseline, which shows a 32.46% share of activity in the morning. The product is a cheese-flavoured puffcorn snack, typically used for immediate snacking or casual consumption.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

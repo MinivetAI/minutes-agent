@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-13, a single order was placed in the evening. The basket contained one unit of a product from the 'Dips Sauces Pastes' category and one unit from the 'Breads' category. This narrow basket of two distinct categories suggests a compatible need for a snack or light meal component. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Dips Sauces Pastes"
+      ],
+      "combination_text": "Breads and Dips Sauces Pastes were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Breads and Dips Sauces Pastes is compatible with a need for a quick snack, appetizer, or light evening meal component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents a specific transactional event rather than a durable preference or routine. No stable patterns can be inferred from this single data point.",
+  "overall_confidence": "low"
+}

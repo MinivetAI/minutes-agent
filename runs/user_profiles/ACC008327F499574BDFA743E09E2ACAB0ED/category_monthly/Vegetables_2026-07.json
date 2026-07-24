@@ -1,0 +1,18 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased fresh vegetables on two independent dates (2026-07-04 and 2026-07-09). Unbranded fresh onions appeared on both dates, meeting the repetition bar for stable preference. Unbranded fresh bottle gourd appeared only on 2026-07-09 and is excluded from stable claims. Both orders occurred in the evening, establishing a repeated daypart pattern aligned with the population baseline. No other vegetables recurred.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "unbranded fresh onion",
+      "claim_text": "The user has purchased unbranded fresh onions on two independent dates in July 2026, indicating a stable preference for this staple vegetable.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on only two independent purchase dates in July 2026. While onions show a stable pattern, the limited date count prevents high-confidence assertions about long-term routine. Bottle gourd was observed only once and does not constitute a stable preference.",
+  "overall_confidence": "medium"
+}

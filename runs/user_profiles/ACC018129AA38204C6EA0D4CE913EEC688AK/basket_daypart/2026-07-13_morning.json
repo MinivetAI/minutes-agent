@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-07-13 in the morning on a weekday. The basket contains three items: one unit of Dish Cleaning Gel, one unit of Milk, and one unit of Curd Yogurt. The combination of Milk and Curd Yogurt is supported by category pair evidence with a support of 0.125, confidence of 0.5, and lift of 2.0. The inclusion of Dish Cleaning Gel is an isolated observation within this order. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order. This pairing is supported by evidence with a support of 0.125, confidence of 0.5, and lift of 2.0.",
+      "support": 0.125,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Milk and Curd Yogurt suggests a need for dairy staples, while Dish Cleaning Gel indicates a need for household cleaning supplies.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

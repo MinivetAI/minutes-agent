@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of unbranded fresh bottle gourd (400–600 g) and one unit of unbranded fresh onions (1.95–2.05 kg) during an evening weekday shopping session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening on a weekday, aligning with the population baseline where evening shares 30.27% of activity (slightly below the morning peak of 32.46%). The items are staple fresh produce: bottle gourd is a light vegetable often used in quick preparations, while the near-2 kg onion pack serves as a bulk kitchen base for multiple meals.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine for these specific vegetables or this timing.",
+  "overall_confidence": "low"
+}

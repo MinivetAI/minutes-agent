@@ -1,0 +1,93 @@
+{
+  "date": "2026-04-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-24 (weekday), a single evening order was placed consisting exclusively of six distinct vegetable items. The basket is narrow in breadth, containing only the Vegetables category. This observation is compatible with preparing a vegetable-based meal or side dishes. As this is a single observed order, it represents an isolated observation rather than a durable behavior pattern. No durable preferences or routine behaviors can be inferred from this isolated event.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "Milk"
+      ],
+      "combination_text": "CookiesBiscuits and Milk",
+      "support": 0.211,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.105,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "Cheese"
+      ],
+      "combination_text": "ButterMargarine and Cheese",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "PaneerTofu"
+      ],
+      "combination_text": "ButterMargarine and PaneerTofu",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "Poha"
+      ],
+      "combination_text": "ButterMargarine and Poha",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "ButterMargarine and SavouriesNamkeens",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "Vegetables"
+      ],
+      "combination_text": "ButterMargarine and Vegetables",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a vegetable-based meal or side dishes.",
+  "uncertainty_text": "This is a single observed order on one date. No durable preferences or routine behaviors can be inferred from this isolated event. Category pair evidence reflects population-level statistics, not this specific user's history.",
+  "overall_confidence": "low"
+}

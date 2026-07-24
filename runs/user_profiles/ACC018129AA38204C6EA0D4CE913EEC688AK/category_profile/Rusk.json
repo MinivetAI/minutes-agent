@@ -1,0 +1,40 @@
+{
+  "category": "Rusk",
+  "profile_text": "On 2026-03-07 (weekend), the user purchased one 182 g pack of Britannia Toastea Milk Atta Rusk during the evening. This purchase aligns with the product's common use as a tea-time snack. The evening activity share (0.3027) is comparable to the morning baseline (0.3246).",
+  "brand_preferences": [
+    {
+      "brand": "Britannia",
+      "preference_text": "Purchased on 2026-03-07. This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Purchased one 182 g pack of Britannia Toastea Milk Atta Rusk on 2026-03-07. This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-07",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-03-07. Cadence is unknown based on a single observation.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction on 2026-03-07.",
+  "substitution_text": "No evidence of substitution behavior; only one brand and product variant were observed.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior; only one purchase was observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Shopping for a tea-time snack or breakfast accompaniment, specifically a milk-atta rusk product.",
+  "overall_confidence": "low"
+}

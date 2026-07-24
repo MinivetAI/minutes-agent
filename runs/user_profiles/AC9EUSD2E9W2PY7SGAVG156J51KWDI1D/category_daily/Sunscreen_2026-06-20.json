@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-20",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-20 (weekend), the user purchased 1 unit of Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50 PA++++ (50 g) during the afternoon. This facial sunscreen with Vitamin C and E suggests a need for immediate sun protection or routine replenishment. The order occurred in the afternoon, a time when the user's activity (25.26% share) is less frequent than the population baseline for morning (32.46%) and evening (30.27%) slots. This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time discovery, a replacement for a depleted item, or part of a broader skincare regimen.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50 PA++++ (50 g) during the afternoon on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time discovery, a replacement for a depleted item, or part of a broader skincare regimen.",
+  "overall_confidence": "low"
+}

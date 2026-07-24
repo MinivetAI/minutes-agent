@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-26 (weekday), a single order was placed in the morning daypart. The basket contained seven items across seven distinct categories: Sunflower Oil, Ready Mixes, Soya Products, Other Pulses, Vegetables (quantity 2), Milk, and Curd Yogurt. This combination reflects a mix of pantry staples (oils, mixes, pulses) and fresh dairy and produce, suggesting a need for basic meal preparation ingredients including cooking oil, protein sources, and fresh vegetables. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The order suggests a need for basic meal preparation ingredients, including cooking oil, protein sources (soya, pulses, dairy), and fresh vegetables.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
+  "overall_confidence": "low"
+}

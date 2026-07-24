@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one unit each of Tomato Hybrid (450–550 g), Tinda (500 g), and Onion (1 kg) during the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.3% share vs. 32.5% for mornings). The items are fresh, unbranded staples typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

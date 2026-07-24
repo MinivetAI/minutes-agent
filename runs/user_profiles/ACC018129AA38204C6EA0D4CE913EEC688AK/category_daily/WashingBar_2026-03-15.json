@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-15",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased 2 units of Rin Detergent Bar 140 g during the afternoon. This purchase occurred when the user's activity was below the population baseline for this daypart (population afternoon share: 0.2526). The item is a low-ticket, high-frequency household staple, suggesting immediate laundry needs or stock replenishment. This is a single observation on one date; durable brand preference or routine cannot be established from this window alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 2 units of Rin Detergent Bar 140 g. Activity was below the population baseline for this daypart (population afternoon share: 0.2526).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; durable brand preference or routine cannot be established from this window alone.",
+  "overall_confidence": "low"
+}

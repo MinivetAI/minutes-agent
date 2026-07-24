@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-20",
+  "day_type": "weekday",
+  "summary_text": "On this weekday evening, the user purchased three unbranded fresh vegetable items: Lady’s Finger (Bhindi/Okra) 250 g, Fresh New Crop Potato 0.95–1.05 kg, and Haricot Beans 240-260 g. This single observed order suggests a need for fresh ingredients suitable for immediate cooking, such as stir-fries, curries, or mixed-vegetable dishes. The purchase timing aligns with the population baseline for evening shopping (share 0.3027).",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased Lady’s Finger (Bhindi/Okra) 250 g, Fresh New Crop Potato 0.95–1.05 kg, and Haricot Beans 240-260 g.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or routine patterns cannot be established.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Honey",
+  "profile_text": "In June 2026, one order of Zandu Pure Honey (1 kg) was placed on a weekend evening. This single observation does not establish a stable preference or routine for this category within the month.",
+  "brand_preferences": [
+    {
+      "brand": "Zandu",
+      "preference_text": "Zandu was observed in one order on 2026-06-13. This single observation does not establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Zandu Pure Honey (1 kg) was observed in one order on 2026-06-13. This single observation does not establish a stable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-13",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Supports general food preparation or sweetening needs.",
+  "overall_confidence": "low"
+}

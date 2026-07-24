@@ -1,0 +1,26 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user ordered Amul Malai Paneer 200 g on two independent dates (2026-06-04 and 2026-06-15). This repetition establishes a stable preference for this specific brand and variant. The orders occurred on weekdays, once in the afternoon and once in the morning, showing no consistent daypart pattern relative to the population baseline. The product is a fresh dairy cooking ingredient used for immediate meal preparation.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul paneer, evidenced by purchases on 2 independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Malai Paneer 200 g",
+      "claim_text": "The user has a stable preference for Amul Malai Paneer 200 g, evidenced by purchases on 2 independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user's ordering timing varies between morning and afternoon on weekdays, preventing the establishment of a stable daypart preference. No other brands or products were observed.",
+  "overall_confidence": "medium"
+}

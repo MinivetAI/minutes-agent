@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 150 g pack of Britannia Cheeze Dipped Cookies in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a ready-to-eat, indulgent snack suitable for immediate consumption.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

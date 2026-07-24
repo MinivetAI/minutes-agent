@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-26",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-26 (weekend), the user purchased one 400 g pouch of Quaker plain wholegrain oats during the afternoon. This timing aligns with a lower population share (0.2526) compared to the morning baseline (0.3246). The product serves as a basic pantry staple for hot breakfasts or cooking. This is a single observation; no stable preference or routine can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 400 g pouch of Quaker plain wholegrain oats. This occurred during the afternoon on a weekend, a time with lower population share (0.2526) compared to the morning baseline (0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable preference or routine.",
+  "overall_confidence": "low"
+}

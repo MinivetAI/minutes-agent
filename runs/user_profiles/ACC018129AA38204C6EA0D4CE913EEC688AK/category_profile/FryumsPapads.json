@@ -1,0 +1,26 @@
+{
+  "category": "Fryums Papads",
+  "profile_text": "The user demonstrates a fast replenishment cycle for Fryums Papads, purchasing approximately every 6 days. In July 2026, the user bought three different products (IYER'S Pani Puri Papad Fryums, DNV Appalam, ATISH PAPAD Pani Puri Ready to Fry) on three separate dates. No single brand or product variant was repeated, so no stable brand or product preference is established. All purchases occurred in the evening, aligning with the high population share for evening shopping in this category. This timing suggests a routine for snack preparation or tea-time consumption.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 6.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-16",
+    "predicted_next_purchase_date": "2026-07-22",
+    "replenishment_text": "The user purchases this category approximately every 6 days, indicating a fast replenishment cycle.",
+    "confidence": "low",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by three completed transactions in July 2026.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior is established due to the lack of repeated purchases of the same product or brand.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific brands or products are avoided; however, the user does not show a stable preference for any single brand or variant, trying different options each time.",
+  "mission_generation_text": "Supports regular snack preparation and tea-time consumption needs.",
+  "overall_confidence": "low"
+}

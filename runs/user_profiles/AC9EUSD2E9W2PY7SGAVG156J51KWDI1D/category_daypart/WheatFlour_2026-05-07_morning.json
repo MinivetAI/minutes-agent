@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Aashirvaad Select Atta (1 kg packs), a premium whole-wheat flour positioned for softer rotis and trial purchases.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed during the morning on a weekday, a time when this category shows a 32.46% population share. The purchase of small 1 kg packs suggests a short-replenishment need, a stockout at home, or a trial of the premium variant rather than a bulk household restock.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for the Aashirvaad brand or the premium whole-wheat segment over time.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of Fresh New Crop Potato (0.95\u20131.05 kg), an unbranded fresh tuber vegetable.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.5% share). The product is a perishable staple suitable for immediate meal preparation or weekly stock replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific culinary intent (e.g., frying vs. boiling) is unknown.",
+  "overall_confidence": "low"
+}

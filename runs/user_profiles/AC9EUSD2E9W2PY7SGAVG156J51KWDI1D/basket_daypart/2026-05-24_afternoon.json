@@ -1,0 +1,11 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-05-24 in the afternoon on a weekend. The basket contains six distinct items across six different categories: Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health. The order exhibits low basket breadth, with one unit purchased from each category. No products were bought together in a way that suggests a specific meal or functional grouping beyond general household replenishment. The `shopping_need_text` is compatible with general household stocking and personal consumption.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "General household replenishment and personal consumption.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The provided `category_pair_evidence` refers to population-level co-ordering statistics for categories (Milk, Vegetables, Breads, etc.) that were not present in this specific order; therefore, no lift/support numbers are applied to this basket's internal structure.",
+  "overall_confidence": "low"
+}

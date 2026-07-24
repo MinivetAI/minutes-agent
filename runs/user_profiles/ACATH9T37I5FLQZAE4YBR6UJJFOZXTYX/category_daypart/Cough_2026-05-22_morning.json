@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of VICKS Double Power Cough Drops Warming Ginger (25 tablets) was placed. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekday, a time when the user's activity (32.46% share) is above the population baseline for this daypart. The product is a portable, single-serve throat lozenge, suggesting a need for quick, on-the-go relief from throat irritation or mild cough symptoms during the workday or commute.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an immediate reaction to symptoms. A single order does not establish a stable preference for VICKS or cough drops specifically.",
+  "overall_confidence": "low"
+}

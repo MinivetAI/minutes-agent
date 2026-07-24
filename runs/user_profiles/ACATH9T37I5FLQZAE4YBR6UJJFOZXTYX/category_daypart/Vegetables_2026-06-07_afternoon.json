@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one order of fresh vegetables including coriander leaves, curry leaves, onions, baby potatoes, and lady's finger (okra).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekend, a time when population share is 0.2526 (lower than the morning baseline of 0.3246). The items are fresh, perishable cooking staples and herbs, suggesting a same-day meal preparation need.",
+  "uncertainty_text": "No browsing or search data is available to determine if this was a planned purchase or a last-minute fix. No repeated orders are observed to establish stable preferences.",
+  "overall_confidence": "low"
+}

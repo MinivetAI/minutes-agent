@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-02 (weekday), the user placed one order of Amul Malai Paneer 200 g in the morning. This timing aligns with a period of above-baseline activity (32.46%). The product is a fresh dairy ingredient suitable for immediate cooking. This is a single observation on one date; no stable brand or product preferences can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Amul Malai Paneer 200 g was placed in the morning, a time when this user's activity is above the population baseline (32.46%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

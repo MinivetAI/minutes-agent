@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 14 distinct fresh vegetable items in a single order on a weekend morning: Bottle Gourd, Onion, Cluster Beans, Methi Fenugreek Leaves, Carrot, Broad Beans, Fresh New Crop Potato, Baby Potato, Portion Pumpkin Cut, Spinach Leaves, Coriander Leaves, Sweet Potato, Green Capsicum, and Spring Onion.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed during the morning daypart, which aligns with the population baseline share of 0.3246 for this time slot. The basket consists entirely of unbranded, fresh, loose-weight produce, indicating a focus on immediate meal preparation and ingredient replenishment rather than brand loyalty or long-term pantry stocking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference for this specific combination of vegetables or this shopping time. The high variety suggests a comprehensive restock or a specific multi-dish meal plan, but the underlying motivation (e.g., hosting, weekly prep, or specific recipe) cannot be determined from this single event.",
+  "overall_confidence": "low"
+}

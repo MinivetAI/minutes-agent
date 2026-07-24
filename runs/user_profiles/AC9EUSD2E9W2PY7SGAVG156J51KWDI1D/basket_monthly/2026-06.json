@@ -1,0 +1,25 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user placed 11 independent orders, predominantly on weekdays and during the morning daypart. The basket composition is characterized by a high frequency of dairy (Milk) and grain-based staples (Breads, Wheat Flour), often combined with fresh produce (Vegetables) or convenience items. While Milk and Breads appear together in multiple orders, this behavior is not yet established as a stable, recurring pattern due to the lack of repetition across independent dates for specific category sets. Shopping needs vary from basic meal preparation to specific ceremonial requirements and personal care restocking.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Milk and Breads were purchased together in multiple independent orders (2026-06-01, 2026-06-03, 2026-06-08, 2026-06-26), indicating a frequent co-occurrence in this month.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Milk and Vegetables were purchased together in multiple independent orders (2026-06-08, 2026-06-15, 2026-06-21, 2026-06-28), indicating a frequent co-occurrence in this month.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Milk and Wheat Flour were purchased together in multiple independent orders (2026-06-08, 2026-06-15, 2026-06-28), indicating a frequent co-occurrence in this month.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The observed orders suggest needs for basic meal preparation (breakfast, cooking with dairy and grains), restocking of daily staples, and occasional specific needs such as religious ceremonies (2026-06-15) or personal care (2026-06-20).",
+  "uncertainty_text": "All patterns described are based on single observations per date. No durable preferences, stable routines, or recurring habits can be confirmed. The co-occurrence of Milk with Breads, Vegetables, and Wheat Flour is noted across multiple dates but does not meet the threshold for stable pattern classification. Specific items like ritual goods (2026-06-15) or batteries (2026-06-16) are isolated cases.",
+  "overall_confidence": "low"
+}

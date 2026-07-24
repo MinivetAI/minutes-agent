@@ -1,0 +1,23 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, shopping activity was observed on three independent dates (2026-02-08, 2026-02-10, 2026-02-14). The user purchased Vegetables on all three dates, establishing a stable, high-confidence pattern for this category. Other categories, including Cookies Biscuits, Savouries Namkeens, Sweets Mithai, Breads, DipsSaucesPastes, Milk, Fruits, CurdYogurt, IceCreams, and SpicesMasala, were purchased only on single dates and do not form stable monthly patterns. Daypart behavior is mixed, with purchases occurring in the afternoon and night on weekends, and in the afternoon on a weekday. No consistent daypart preference can be established from this sparse data.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [
+    {
+      "behavior_text": "Vegetables",
+      "circumstance_text": "Purchased on 2026-02-08, 2026-02-10, and 2026-02-14.",
+      "confidence": "high"
+    }
+  ],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Vegetables are a recurring purchase across the month, appearing in every observed order.",
+      "confidence": "high"
+    }
+  ],
+  "shopping_need_text": "Basic vegetable procurement; snack or treat consumption; preparation of vegetable-focused meals.",
+  "uncertainty_text": "Non-vegetable categories (Cookies Biscuits, Savouries Namkeens, Sweets Mithai, Breads, DipsSaucesPastes, Milk, Fruits, CurdYogurt, IceCreams, SpicesMasala) were purchased only on isolated dates. No stable preferences or routines can be inferred for these categories. Daypart and day-type patterns are inconsistent due to limited data points.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,23 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased cooking oils on three independent dates. Dhara Kachi Ghani Mustard Oil appeared on all three dates (2026-02-03, 2026-02-21, 2026-02-28), establishing a stable preference. Fortune Soya Health Refined Soyabean Oil appeared only on 2026-02-03, representing a single-date observation. Purchases occurred in the morning on a weekday and in the evening on two weekends.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Dhara Kachi Ghani Mustard Oil",
+      "claim_text": "Dhara Kachi Ghani Mustard Oil was purchased on three independent dates in February 2026, indicating a stable preference for this brand and product type.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Fortune Soya Health Refined Soyabean Oil was purchased on a single date (2026-02-03) and does not meet the threshold for a stable preference claim.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While Dhara Kachi Ghani Mustard Oil shows a stable pattern across three dates, the purchase of Fortune Soya Health Refined Soyabean Oil is based on a single observation and does not indicate a recurring preference.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-27 in the evening on a weekday contains one unit of Fruits and one unit of Milk. The basket breadth is narrow, comprising two distinct categories. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Fruits",
+        "Milk"
+      ],
+      "combination_text": "Fruits and Milk were purchased together in this single observed order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket contains fresh produce and dairy, which may be compatible with a need for basic meal ingredients or daily sustenance.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, `overall_confidence` is low. No durable preferences, routines, or stable patterns can be inferred. The provided `category_pair_evidence` does not contain support/confidence/lift data for the specific combination of Fruits and Milk purchased in this order; thus, those metrics are null for this combination. The supplied evidence for other category pairs (e.g., Milk/Vegetables, CookiesBiscuits/Milk) is not reflected in this specific order's composition.",
+  "overall_confidence": "low"
+}

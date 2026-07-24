@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-24 (weekday), the user purchased one 300 g loaf of Baker's Loaf Whole Wheat Bread during the morning. This order aligns with the user's typical morning activity share (32.5% vs 32.5% baseline). The product is a ready-to-use sliced bread suitable for breakfast or sandwich preparation. This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 300 g loaf of Baker's Loaf Whole Wheat Bread during the morning on a weekday. The order occurred in the morning, a period where this user's activity (32.5% share) is above the population baseline (32.5% vs 32.5% baseline share indicates alignment with typical morning activity levels, though the baseline is 0.3246 which is the share itself). The product is a ready-to-use sliced bread suitable for breakfast or sandwich preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "overall_confidence": "low"
+}

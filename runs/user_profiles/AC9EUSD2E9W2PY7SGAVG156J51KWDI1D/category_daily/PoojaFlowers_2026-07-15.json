@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-15 (weekday), the user purchased 1 unit of FFWHM4DBGGSG7GHN and 1 unit of FFWHM4DBA2E8U64D from the Pooja Flowers category during the evening. This timing aligns with the population baseline share of 0.3027 for evening orders. This is a single observed transaction; durable preferences or routine behaviors cannot be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of FFWHM4DBGGSG7GHN and 1 unit of FFWHM4DBA2E8U64D from the Pooja Flowers category during the evening on a weekday. This timing aligns with the population baseline share of 0.3027 for evening orders.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; durable preferences or routine behaviors cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,24 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-04-18 in the afternoon on a weekend. The basket contains four distinct items: Butter Margarine, Savouries Namkeens, Breads, and Spices Masala. This represents a single observation of basket breadth (4 items) and category combination (Butter Margarine, Savouries Namkeens, Breads, Spices Masala). No durable behavior pattern can be established from this single date.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Butter Margarine",
+        "Savouries Namkeens",
+        "Breads",
+        "Spices Masala"
+      ],
+      "combination_text": "Butter Margarine, Savouries Namkeens, Breads, and Spices Masala were purchased together in one order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchased items (Breads, Butter Margarine, Spices Masala, Savouries Namkeens) are compatible with a need for preparing or consuming savory snacks or light meals.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences, routine behaviors, or durable patterns cannot be inferred. The `category_pair_evidence` provided relates to different categories (Milk, Vegetables, WheatFlour, Chocolates, CurdYogurt) not present in this specific order, so no lift/support numbers from that evidence are applied to the observed basket.",
+  "overall_confidence": "low"
+}

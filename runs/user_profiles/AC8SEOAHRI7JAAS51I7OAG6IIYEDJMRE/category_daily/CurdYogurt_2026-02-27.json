@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-27 (weekday), the user purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the evening. This timing aligns with a period of slightly lower activity relative to the population baseline (32.46% morning vs. 30.27% evening). The product is a small, single-serve functional dairy item suitable for immediate consumption or as a meal component. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

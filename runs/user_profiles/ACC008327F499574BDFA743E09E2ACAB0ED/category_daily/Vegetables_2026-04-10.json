@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-10 (weekday), the user purchased fresh vegetables in the evening, including 2 units of Local Tomato (450-550g), 2 units of Bottle Gourd (400–600 g), 1 unit of Onion (1 kg), 1 unit of Local Cucumber (1 kg), and 1 unit of Long Cucumber (500 g). This single observed order indicates a replenishment need for perishable meal ingredients, potentially for same-day cooking, salads, or raita. The specific meal plan or household size driving this combination is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased fresh vegetables (tomatoes, bottle gourd, onions, cucumbers) in the evening. This timing aligns with a population evening share of 0.3027.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established. The specific meal plan or household size driving this combination is unknown.",
+  "overall_confidence": "low"
+}

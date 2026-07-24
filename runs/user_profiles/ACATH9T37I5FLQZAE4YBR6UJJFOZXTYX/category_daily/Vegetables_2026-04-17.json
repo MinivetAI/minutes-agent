@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-17",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased a comprehensive assortment of fresh produce and herbs during the afternoon. The order included 15 distinct items totaling approximately 4.5–5.0 kg, featuring onions, potatoes, tomatoes, carrots, beetroot, cauliflower, okra, cucumber, baby corn, methi, mint, coriander, and lemons. This single observation suggests a need for immediate meal preparation or kitchen replenishment, but it does not establish a stable weekly shopping pattern or specific household size.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased a large variety of fresh vegetables and herbs (onions, potatoes, tomatoes, carrots, beetroot, cauliflower, okra, cucumber, baby corn, methi, mint, coriander, lemons) totaling ~4.5–5.0 kg. This occurred during a weekday afternoon, a time with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This summary is based on a single date (2026-04-17). It is unclear if this represents a planned weekly shop or an urgent mid-week top-up. Specific recipes or household composition cannot be inferred from the product mix alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-21",
+  "day_type": "weekend",
+  "summary_text": "On the weekend of 2026-02-21, the user purchased one 190–210 g pack of fresh whole garlic during the evening. This purchase aligns with the population baseline share of 0.3027 for the evening daypart. The product is a fresh produce item typically used as an aromatic base for cooking. No browsing or cart activity was recorded to indicate prior interest or comparison. A single order does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 190–210 g pack of fresh whole garlic during the evening on a weekend. The purchase occurred in the evening, aligning with the population baseline share of 0.3027 for this daypart. The product is a fresh produce item typically used as an aromatic base for cooking.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or cart activity was recorded to indicate prior interest or comparison. A single order does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

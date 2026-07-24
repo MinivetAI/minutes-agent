@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One unit of bread (BABHMCY6GJYZ9CZQ) was purchased during the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a staple food item.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for bread purchases.",
+  "overall_confidence": "low"
+}

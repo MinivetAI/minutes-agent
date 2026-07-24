@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-10 (weekday), one order of Parag Toned Milk 500 ml was placed during the morning. This timing aligns with the population’s most common daypart for this category (share 0.3246). The product is a small-format packaged dairy milk, compatible with immediate household consumption such as for tea/coffee or daily dietary needs. This is a single observed order; it is not yet established whether this reflects a stable, recurring preference or a one-time need. No browsing or cart activity was recorded to indicate prior interest or hesitation.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Parag Toned Milk 500 ml was placed during the morning on a weekday. This timing aligns with the population’s most common daypart for this category (share 0.3246). The product is a small-format packaged dairy milk, compatible with immediate household consumption such as for tea/coffee or daily dietary needs. This is a single observed order; it is not yet established whether this reflects a stable, recurring preference or a one-time need. No browsing or cart activity was recorded to indicate prior interest or hesitation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this reflects a stable, recurring preference or a one-time need. No browsing or cart activity was recorded to indicate prior interest or hesitation.",
+  "overall_confidence": "low"
+}

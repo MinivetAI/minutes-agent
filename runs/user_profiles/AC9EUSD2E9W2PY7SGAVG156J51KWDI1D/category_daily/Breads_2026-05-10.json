@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-10",
+  "day_type": "weekend",
+  "summary_text": "On the evening of this weekend, the user purchased one 450 g pack of Britannia Breakfast Slice White Bread. This single order suggests a need for a quick breakfast or sandwich staple, but it does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 450 g pack of Britannia Breakfast Slice White Bread during the evening on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time restock or part of a recurring habit.",
+  "overall_confidence": "low"
+}

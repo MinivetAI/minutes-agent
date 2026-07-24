@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-06",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-06 (weekend), a single order was placed in the evening. The basket contained two units of Milk (products MLKHFR86MWXUZBYT and MLKHFR86C8QNQPT8) and one unit of Cookies Biscuits (product CKBEVK8PRZGJXTQK). This order-building behavior reflects a combination of dairy and snack categories, compatible with a need for dairy products and dry snacks. As this is a single observation on one date, durable preferences cannot be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk were co-ordered.",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "Milk"
+      ],
+      "combination_text": "CookiesBiscuits and Milk were co-ordered.",
+      "support": 0.211,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were co-ordered.",
+      "support": 0.105,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "Cheese"
+      ],
+      "combination_text": "ButterMargarine and Cheese were co-ordered.",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "PaneerTofu"
+      ],
+      "combination_text": "ButterMargarine and PaneerTofu were co-ordered.",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "Poha"
+      ],
+      "combination_text": "ButterMargarine and Poha were co-ordered.",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "ButterMargarine and SavouriesNamkeens were co-ordered.",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ButterMargarine",
+        "Vegetables"
+      ],
+      "combination_text": "ButterMargarine and Vegetables were co-ordered.",
+      "support": 0.053,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Need for dairy products and dry snacks.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

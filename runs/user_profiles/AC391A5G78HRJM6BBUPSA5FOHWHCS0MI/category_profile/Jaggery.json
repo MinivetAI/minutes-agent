@@ -1,0 +1,40 @@
+{
+  "category": "Jaggery",
+  "profile_text": "A single observed purchase of Dhampur Green Organic Jaggery Powder (800 g) on 2026-02-18 during the evening. This order represents a concrete observation of a convenient, ready-to-use natural sweetener, avoiding the handling required for block jaggery. The evening timing aligns with a population share (0.3027) comparable to the morning baseline (0.3246). This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing powder over block form or this brand over others is unknown.",
+  "brand_preferences": [
+    {
+      "brand": "Dhampur",
+      "preference_text": "Observed once on 2026-02-18.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Observed once on 2026-02-18.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-18",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase when the user decides to buy, as evidenced by the completed transaction on 2026-02-18.",
+  "substitution_text": "No substitution patterns observed from a single order.",
+  "price_value_text": "No price/value behavior established from a single order.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Shopping for a convenient, ready-to-use natural sweetener for home cooking or baking.",
+  "overall_confidence": "low"
+}

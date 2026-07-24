@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 400–450g pack of unbranded fresh potatoes.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when the user's activity is below the population baseline share of 0.2526. The product is a fresh staple tuber suitable for immediate cooking or stockout replacement.",
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "category": "Garbage Bags",
+  "profile_text": "In May 2026, the user purchased one 15-unit pack of Flipkart Supermart Compostable Medium Garbage Bags on a weekend afternoon. This single transaction represents a specific need for weekend household waste management rather than a stable preference.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-24",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction.",
+  "substitution_text": "No substitution behavior observed; only one brand/product was purchased.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports routine household waste management needs, specifically for weekend disposal.",
+  "overall_confidence": "low"
+}

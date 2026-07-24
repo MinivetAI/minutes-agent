@@ -1,0 +1,26 @@
+{
+  "category": "Flour",
+  "profile_text": "A single purchase of flour was observed on 2026-06-04 in the morning on a weekday. This is an isolated transaction; durable preferences, brand loyalty, or routine usage cannot be established from this date alone.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase, though only once.",
+  "substitution_text": "No substitution patterns observed due to single transaction.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports general baking or cooking needs requiring flour as an ingredient.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 500 ml pouch of Gowardhan Pure Cow Ghee during the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period where this user's activity is less frequent than the population baseline (25.3% share vs. 32.5% for morning and 30.3% for evening). The product is a standard cooking fat used for home cooking and traditional food preparation.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference for the Gowardhan brand or the pouch format. It is unclear if this was a planned restock or an immediate need driven by running out of ghee.",
+  "overall_confidence": "low"
+}

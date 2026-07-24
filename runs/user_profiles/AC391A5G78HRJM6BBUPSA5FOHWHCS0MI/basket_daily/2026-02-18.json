@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-18",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-18 (weekday), the user placed two separate orders across different dayparts. The morning order contained a single unit of an unmapped product (GHEGYK6HGFZ3QFPG) from the Unmapped-GHE category, consistent with general grocery replenishment. The evening order contained two items: one unit of Sugar and one unit of an unmapped product (Unmapped-JGR), suggesting basic household replenishment of staples or general grocery items. No category combinations were observed in the morning order. The evening order featured a combination of Sugar and Unmapped-JGR. As this analysis is based on a single observed date, stable preferences, recurring habits, or durable behavioral patterns cannot be inferred. The product categories are largely unmapped, preventing specific need identification beyond general grocery context.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Sugar",
+        "Unmapped-JGR"
+      ],
+      "combination_text": "Sugar and Unmapped-JGR were purchased together in the observed order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "General grocery replenishment compatible with the purchased items.",
+  "uncertainty_text": "This analysis is based on a single observed date. Stable patterns, preferences, or habitual behaviors cannot be inferred. The product categories are unmapped, preventing specific need identification beyond general grocery context.",
+  "overall_confidence": "low"
+}

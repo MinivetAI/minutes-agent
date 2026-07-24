@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-20",
+  "day_type": "weekday",
+  "summary_text": "A single order was placed on 2026-07-20 in the evening on a weekday. The basket contains three distinct items: one unit of Cookies Biscuits, one unit of Buttermilk, and one unit of Face Cream And Gel. The order exhibits low breadth, spanning three unrelated categories (Snacks, Dairy, and Personal Care). The shopping need is compatible with a general evening refreshment or self-care need, but the inclusion of personal care items alongside food does not indicate a specific meal or event. A single order is an observation, not a durable preference.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Buttermilk"
+      ],
+      "combination_text": "Cookies Biscuits and Buttermilk were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Face Cream And Gel"
+      ],
+      "combination_text": "Cookies Biscuits and Face Cream And Gel were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Buttermilk",
+        "Face Cream And Gel"
+      ],
+      "combination_text": "Buttermilk and Face Cream And Gel were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for a snack and a dairy product, possibly accompanied by a personal care item, consistent with an evening routine or immediate consumption.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, stable patterns, or recurring behaviors can be inferred. The category_pair_evidence provided reflects population-level statistics for other categories (Washing, Milk, Vegetables, Spices) and does not match the specific items in this order (Cookies, Buttermilk, Face Cream); therefore, no lift/support values from the evidence are applied to this basket's combinations.",
+  "overall_confidence": "low"
+}

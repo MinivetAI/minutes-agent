@@ -1,0 +1,9 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased one unit of Dabur Honey Squeezy 2 x 225 g on a single weekend date (2026-05-02) during the morning. This transaction represents a single observation and does not establish a stable preference, routine, or brand loyalty. The product is a convenience-oriented honey SKU designed for easy dispensing, suitable for immediate household use such as breakfast or tea preparation. The specific reason for choosing this format or the specific use case cannot be determined from this order alone.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this format (e.g., convenience vs. price) or the specific use case (e.g., tea vs. remedy) cannot be determined from this order alone.",
+  "overall_confidence": "low"
+}

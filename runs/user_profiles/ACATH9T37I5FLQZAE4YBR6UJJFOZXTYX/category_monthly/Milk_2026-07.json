@@ -1,0 +1,23 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased milk on two independent dates (2026-07-02 and 2026-07-04). Both orders occurred in the morning, a daypart where 32.46% of the population is active. The user bought Amul Cow Milk on the first date and Amul Taaza Pasteurised Toned Milk on the second. While both are Amul brand products, the specific variants differ (Cow Milk vs. Taaza Toned Milk). Because the specific product variant is not identical across dates, no single product variant meets the repetition bar for stable preference. However, the brand 'Amul' appears on 2 independent dates, meeting the threshold for stable brand preference. The timing pattern (morning) is consistent across both dates.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for the Amul brand, evidenced by purchases on 2 independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "No significant trend changes are observed as the dataset is limited to two dates in a single month.",
+      "confidence": "high"
+    }
+  ],
+  "uncertainty_text": "Stable product-level preferences cannot be established because the specific milk variants purchased on the two dates differ. Confidence in brand preference is medium due to repetition across two dates.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased milk on three independent dates. Amul Taaza Pasteurised Toned Milk (500 ml) was ordered on two dates (2026-05-27 and 2026-05-31), meeting the threshold for a stable preference. Parag Toned Milk 500 ml was purchased on one date (2026-05-22) and is recorded as a single-date observation. The user's ordering activity spans both weekdays and weekends, with purchases occurring in the morning and evening.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "Amul Taaza Pasteurised Toned Milk (500 ml) is a stable preference, supported by purchases on 2 independent dates in May 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Parag Toned Milk 500 ml was observed on only one date in May 2026; this single observation does not establish a durable preference or routine.",
+  "overall_confidence": "medium"
+}

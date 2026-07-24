@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-09 (weekday), the user purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product serves as a staple for everyday cooking. As this is a single observation on one date, it does not establish a stable brand preference or routine buying pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation on one date; cannot establish stable brand preference or routine buying patterns.",
+  "overall_confidence": "low"
+}

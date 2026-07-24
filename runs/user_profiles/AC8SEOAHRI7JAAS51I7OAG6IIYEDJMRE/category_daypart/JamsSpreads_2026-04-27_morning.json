@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Del Monte Eggless Mayonnaise 700 g was placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. The product is a ready-to-use condiment suitable for immediate meal assembly such as sandwiches or salads.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for mayonnaise or this specific brand.",
+  "overall_confidence": "low"
+}

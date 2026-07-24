@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-04",
+  "day_type": "weekday",
+  "summary_text": "One unit of flour was purchased during the morning on a weekday. The purchase occurred in the morning, a time when this category represents 32.46% of population activity. This is a single observed transaction; durable preferences or routine usage cannot be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One unit of flour was purchased during the morning on a weekday. The purchase occurred in the morning, a time when this category represents 32.46% of population activity. This is a single observed transaction; durable preferences or routine usage cannot be established from this date alone.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; durable preferences or routine usage cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

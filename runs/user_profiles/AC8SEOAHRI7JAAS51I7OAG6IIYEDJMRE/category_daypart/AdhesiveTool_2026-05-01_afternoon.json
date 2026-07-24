@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of FEVIKWIK Advanced 3g Instant Glue, a fast-setting cyanoacrylate adhesive intended for quick, multi-surface household repairs.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The product is a general utility item for urgent, on-the-spot fixes of broken or loose household items.",
+  "uncertainty_text": "This is a single observed order; durable brand preference or recurring repair habits cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

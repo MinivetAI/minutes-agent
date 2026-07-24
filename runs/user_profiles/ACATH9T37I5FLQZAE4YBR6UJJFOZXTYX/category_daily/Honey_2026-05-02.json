@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-02",
+  "day_type": "weekend",
+  "summary_text": "On 2026-05-02 (weekend), the user purchased one unit of Dabur Honey Squeezy 2 x 225 g during the morning. This order occurred in the morning, a time when this user's activity is 32.46% of their total weekly share (population baseline). The product is a convenience-oriented honey SKU designed for easy dispensing, suitable for immediate household use such as breakfast or tea preparation. This is a single observed transaction on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this format (e.g., convenience vs. price) or the specific use case (e.g., tea vs. remedy) cannot be determined from this order alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one unit of Dabur Honey Squeezy 2 x 225 g during the morning on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this format (e.g., convenience vs. price) or the specific use case (e.g., tea vs. remedy) cannot be determined from this order alone.",
+  "overall_confidence": "low"
+}

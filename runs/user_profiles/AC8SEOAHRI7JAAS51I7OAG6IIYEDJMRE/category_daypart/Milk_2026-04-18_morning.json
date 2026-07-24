@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 500 ml pouch of Mother Dairy Toned Milk and one 500 ml pouch of Mother Dairy Cow Milk.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought during the morning on a weekend, a time when morning=0.3246 of the population is active. The products are short-shelf-life dairy staples typically used for immediate household consumption such as breakfast, tea, or coffee.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific SKUs or the brand.",
+  "overall_confidence": "low"
+}

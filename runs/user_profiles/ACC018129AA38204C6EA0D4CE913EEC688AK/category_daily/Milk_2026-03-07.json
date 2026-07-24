@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-07",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-07 (weekend), the user purchased one 1 L pack of Nandini Shubham Pasteurised Standardised Milk during the evening. This single order suggests a potential need for a standard household dairy item, possibly for breakfast, tea, or cooking, but does not yet establish a stable brand preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 1 L pack of Nandini Shubham Pasteurised Standardised Milk during the evening on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for the Nandini brand or a one-time replenishment need.",
+  "overall_confidence": "low"
+}

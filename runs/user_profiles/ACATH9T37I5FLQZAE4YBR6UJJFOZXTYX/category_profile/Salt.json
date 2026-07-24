@@ -1,0 +1,26 @@
+{
+  "category": "Salt",
+  "profile_text": "The user has purchased salt twice in 2026 (April and June), indicating a basic household replenishment need for a cooking staple. However, the purchases were for different brands (Tata Salt Lite vs. Tata Salt Superlite) and different product variants (Iodized Low Sodium vs. Superlite Low Sodium). Because these are two distinct brands and variants observed on separate dates, no single brand or product variant has reached the threshold for a stable preference (which requires repetition of the *same* value). The user's behavior suggests they are open to different low-sodium salt options or are testing specific product features, but no durable brand loyalty or specific product preference is established. The timing varies (afternoon in April, morning in June), and no consistent cadence or daypart preference is evident.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-03",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-06-03. Cadence is unknown based on the provided data.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by two completed transactions.",
+  "substitution_text": null,
+  "price_value_text": "No specific price/value behavior is established; purchases were for standard 1 kg packs of low-sodium salt.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No clear preference for a single brand or variant is established due to the switch between Tata Salt Lite and Tata Salt Superlite across the two observed dates.",
+  "mission_generation_text": "Routine household replenishment for a cooking staple ingredient.",
+  "overall_confidence": "low"
+}

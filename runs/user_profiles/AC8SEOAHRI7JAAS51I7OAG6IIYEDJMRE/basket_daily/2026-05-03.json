@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-03",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, two separate orders were placed during distinct dayparts. The morning order consisted of a narrow basket containing one unit each of Spices Masala and Fruits, suggesting a need for basic cooking ingredients and fresh produce. The afternoon order included two units of Ice Creams and four units of Aerated Drinks, indicating a need for chilled desserts and beverages. No durable preferences or stable patterns can be established from this single date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Spices Masala",
+        "Fruits"
+      ],
+      "combination_text": "Spices Masala and Fruits were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Ice Creams",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Ice Creams and Aerated Drinks were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for basic pantry staples and fresh fruit in the morning, and chilled desserts and beverages in the afternoon.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be established. The category pair evidence provided does not include the specific categories purchased in these orders, so no lift or support metrics are available for these specific combinations.",
+  "overall_confidence": "low"
+}

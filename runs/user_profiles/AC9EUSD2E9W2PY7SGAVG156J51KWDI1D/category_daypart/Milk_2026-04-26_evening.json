@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Amul Moti Toned Milk 450 ml during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting a timing consistent with general evening activity patterns. The product is a long-life, ambient-stable milk in a small 450 ml pack, typically used for immediate consumption needs such as tea, coffee, or cooking where fresh chilled milk is unavailable or inconvenient.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific brand or format. It is unclear if this was a one-time solution to a stockout or part of a broader habit.",
+  "overall_confidence": "low"
+}

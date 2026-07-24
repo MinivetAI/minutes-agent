@@ -1,0 +1,9 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, the user purchased aerated drinks on two independent dates. On 2026-01-30 (weekday), a 7UP Soft Drink PET Bottle 750 ml was bought in the morning. On 2026-01-31 (weekend), a 750 ml bottle of Sprite and a 750 ml bottle of Coca-Cola Original Taste were purchased in the evening. The 7UP brand appears on one date, while Sprite and Coca-Cola each appear on one date. No single brand or product variant recurs across 2 or more independent dates within this month. Consequently, no stable preference claims can be established for specific brands or products. The morning purchase on a weekday and the evening purchase on a weekend represent distinct, single-date observations. The morning activity aligns with a population baseline above average (32.46%), while the evening activity aligns with the population baseline (share 0.3027).",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "With only one observed order per brand/product variant in this month, it is not possible to determine if these represent stable preferences or one-time purchases for immediate needs. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

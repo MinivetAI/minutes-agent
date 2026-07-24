@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Kiwi Dranex Drain Cleaner Powder (50 g) to address household drain blockages in sinks or basins.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when the user is slightly less active than the population baseline (25.3% vs 32.5% morning share), suggesting an immediate need rather than routine browsing.",
+  "uncertainty_text": "Single observation; cannot establish durable brand or category preference.",
+  "overall_confidence": "low"
+}

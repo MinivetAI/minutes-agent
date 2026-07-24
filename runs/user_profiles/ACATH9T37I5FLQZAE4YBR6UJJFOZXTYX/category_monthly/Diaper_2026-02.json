@@ -1,0 +1,34 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased Pampers Complete Skin Comfort Pants on three independent dates (2026-02-12, 2026-02-27, and 2026-02-28). The recurrence of this brand and product line across multiple dates establishes a stable preference, despite variations in size (L vs. XL) and pack count (64 vs. 56). The user also demonstrated a consistent ordering pattern, placing all three orders on weekdays or weekends but specifically during the afternoon or evening dayparts, with no orders recorded in the morning or night.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Pampers",
+      "claim_text": "The user has a stable preference for Pampers diapers, evidenced by purchases on 2026-02-12, 2026-02-27, and 2026-02-28.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Pampers Complete Skin Comfort Pants",
+      "claim_text": "The user has a stable preference for Pampers Complete Skin Comfort Pants, evidenced by purchases on 2026-02-12, 2026-02-27, and 2026-02-28.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Pampers Complete Skin Comfort Pant Diapers",
+      "claim_text": "The user has a stable preference for Pampers Complete Skin Comfort Pant Diapers, evidenced by purchases on 2026-02-12, 2026-02-27, and 2026-02-28.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user purchased two different sizes (L and XL) and two different pack counts (64 and 56) within the same month. While the brand and product line are stable, the specific size and pack configuration may vary based on the child's growth or immediate stock needs.",
+  "overall_confidence": "high"
+}

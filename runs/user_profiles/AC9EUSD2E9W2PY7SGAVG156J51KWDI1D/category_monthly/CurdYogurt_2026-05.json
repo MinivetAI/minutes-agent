@@ -1,0 +1,34 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased plain curd on three independent dates (May 1, May 7, and May 22). All purchases were for the Amul Masti brand, specifically plain curd variants, and all occurred in the morning on weekdays. The user bought a 390 ml pack on May 1 and 200 ml packs on May 7 and May 22. The consistent timing and brand selection across three independent dates establish a stable preference for Amul Masti plain curd, with high confidence due to the repetition spanning multiple dates. The morning daypart pattern is also stable, supported by three independent observations.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul Masti",
+      "claim_text": "The user has a stable preference for Amul Masti plain curd, evidenced by purchases on three independent dates in May 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Masti Plain Curd",
+      "claim_text": "The user consistently purchases Amul Masti plain curd variants (200 ml and 390 ml) across three independent dates in May 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Masti Dahi Plain Curd 200 ml",
+      "claim_text": "The user purchased the 200 ml variant of Amul Masti Dahi Plain Curd on two independent dates (May 7 and May 22) in May 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and product type show stable preference, the specific pack size varies (390 ml vs 200 ml), indicating flexibility in quantity rather than a rigid single-variant preference. The small pack sizes suggest immediate consumption or top-up needs rather than bulk stocking.",
+  "overall_confidence": "high"
+}

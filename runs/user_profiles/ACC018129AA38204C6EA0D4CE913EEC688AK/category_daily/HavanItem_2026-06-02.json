@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-02 (weekday), the user purchased one 420 g pouch of Anandam Deepam Oil, a lamp oil product used for diya and deepam lighting in spiritual or pooja contexts. This order occurred during the morning daypart, a time when the user's activity is above the population baseline for this daypart (32.46%). The product serves a general utility for immediate religious preparation or lamp refilling. This is a single observation on one date; it does not establish a durable brand preference or routine. It is unclear if this was a replacement for a stockout, a specific preparation for an event, or part of a regular maintenance purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 420 g pouch of Anandam Deepam Oil, a lamp oil product used for diya and deepam lighting in spiritual or pooja contexts. This order occurred during the morning daypart, a time when the user's activity is above the population baseline for this daypart (32.46%). The product serves a general utility for immediate religious preparation or lamp refilling. This is a single observation on one date; it does not establish a durable brand preference or routine. It is unclear if this was a replacement for a stockout, a specific preparation for an event, or part of a regular maintenance purchase.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a durable brand preference or routine. It is unclear if this was a replacement for a stockout, a specific preparation for an event, or part of a regular maintenance purchase.",
+  "overall_confidence": "low"
+}

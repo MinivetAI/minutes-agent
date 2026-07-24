@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Paper Boat Swing Plus Lush Lychee Juicer Drink (600 ml) in the Fruit Drinks category.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday. The timing aligns with the population baseline where morning activity is the most common daypart (32.46%). The product is a ready-to-drink beverage, suggesting an immediate thirst-quenching or convenience need.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

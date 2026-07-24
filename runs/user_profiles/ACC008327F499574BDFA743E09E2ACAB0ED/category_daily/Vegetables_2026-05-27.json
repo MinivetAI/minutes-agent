@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-27 (weekday), the user purchased fresh bell peppers during the evening. The order included one pack of unbranded red and yellow bell peppers (2 units) and one 250g pack of unbranded green bell peppers. This evening activity aligns with the population baseline (30.27% share). The items are consistent with immediate meal preparation, such as salads or stir-fries.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased unbranded red/yellow and green bell peppers.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for these specific brands or product types, nor does it indicate a recurring routine.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-27 (weekday), the user purchased one 100 g pack of Amul Pasteurised Salted Butter during the morning. This timing aligns with a 32.46% population share for this category on weekdays. The product is a standard kitchen butter suitable for everyday spreading, cooking, or baking. This is a single observed order; durable brand or format preferences cannot be established from this one date.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 100 g pack of Amul Pasteurised Salted Butter. This timing aligns with a 32.46% population share for this category on weekdays. The product is a standard kitchen butter suitable for everyday spreading, cooking, or baking.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or format preferences cannot be established from this one date.",
+  "overall_confidence": "low"
+}

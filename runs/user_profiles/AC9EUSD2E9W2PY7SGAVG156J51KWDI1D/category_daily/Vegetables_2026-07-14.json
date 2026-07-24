@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-14 (weekday), the user purchased one unit of Fresh New Crop Potato (0.95\u20131.05 kg), an unbranded fresh tuber vegetable, during the afternoon. This afternoon order aligns with a period of lower-than-baseline activity for this user (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a perishable staple suitable for immediate meal preparation or short-term kitchen stock replenishment. This single observed transaction does not establish a stable preference, routine, or durable brand loyalty. The specific culinary intent (e.g., frying vs. boiling) is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one unit of Fresh New Crop Potato (0.95\u20131.05 kg), an unbranded fresh tuber vegetable.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or durable brand loyalty. The specific culinary intent (e.g., frying vs. boiling) is unknown.",
+  "overall_confidence": "low"
+}

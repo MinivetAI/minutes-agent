@@ -1,0 +1,12 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, ten independent orders were placed across weekdays and weekends, primarily in the morning, afternoon, and evening dayparts. The baskets were generally narrow, ranging from single-item purchases to five-item combinations. Categories observed include Sweets Mithai, Return Gift Accessory, Face Cream And Gel, Sunscreen, Lotion Cream, Chips, Noodles, Body Lotion, Curd Yogurt, Sugar, Bathroom Floor Cleaner, Shampoo, Butter Margarine, Savouries Namkeens, Breads, Spices Masala, Sunflower Oil, Milk, Dish Cleaning Gel, Coffee, Vegetables, Dips Sauces Pastes, Chocolates, and Fruit Drinks. No durable preferences, routine behaviors, or stable patterns can be inferred from this single month of data, as each order occurred on a distinct date. Confidence in any inferred behavior pattern is low.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The observed orders are compatible with a variety of immediate needs, including celebration/gifting, personal skincare maintenance, simple meal or snack preparation, home hygiene, basic household replenishment, and cooking needs. No single need dominates the month.",
+  "uncertainty_text": "This analysis is based on ten independent orders, each occurring on a separate date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from these single-date observations. Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` are not used because no category combination or daypart behavior was observed across multiple independent dates. The `category_pair_evidence` provided in daily summaries relates to population-level statistics for other categories and does not establish stable co-ordering for the specific items purchased in these isolated orders. Overall confidence is low.",
+  "overall_confidence": "low"
+}

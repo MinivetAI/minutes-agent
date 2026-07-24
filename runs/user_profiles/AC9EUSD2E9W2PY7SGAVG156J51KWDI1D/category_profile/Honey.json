@@ -1,0 +1,40 @@
+{
+  "category": "Honey",
+  "profile_text": "A single observed purchase of Patanjali Pure Honey 250 g on a weekday morning in March 2026. This isolated event does not establish a stable brand preference, recurring cadence, or routine. The user may be using this as a ready-to-use sweetener for beverages or breakfasts, but no durable habit is confirmed.",
+  "brand_preferences": [
+    {
+      "brand": "Patanjali",
+      "preference_text": "Observed in a single order; insufficient evidence to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Patanjali Pure Honey 250 g observed in a single order; insufficient evidence to establish a stable product preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-30",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single observation; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase in the observed instance.",
+  "substitution_text": "No evidence of substitution behavior from a single order.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior from a single order.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Immediate pantry replenishment or use as a sweetener for beverages and breakfasts.",
+  "overall_confidence": "low"
+}

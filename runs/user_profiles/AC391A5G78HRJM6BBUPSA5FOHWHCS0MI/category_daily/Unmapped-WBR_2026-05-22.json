@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-22",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-22 (weekday), the user purchased 2 units of Surf excel Detergent Bar 250 g. This order was observed during the morning daypart, a time when morning activity represents 32.46% of the population baseline. The product is a 250 g washing bar format intended for manual spot-cleaning and hand-wash laundry use, serving general utility for urgent stain treatment, quick sink-side washing, and last-minute cleaning of clothes or household fabric items. This is a single observed order; durable preferences, routine habits, or specific household needs cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Surf excel Detergent Bar 250 g, a 250 g washing bar format intended for manual spot-cleaning and hand-wash laundry use. Observed during a morning session on a weekday, a time when morning activity represents 32.46% of the population baseline. The product serves general utility for urgent stain treatment, quick sink-side washing, and last-minute cleaning of clothes or household fabric items.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences, routine habits, or specific household needs cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

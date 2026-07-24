@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Nestl\u00e9 Milkybar 22.5 g bars.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during a weekday morning, a time when this category represents 32.46% of population activity. The items are small-format, ready-to-eat confectionery bars suited for immediate snacking or impulse consumption.",
+  "uncertainty_text": "This is a single-observation window; durable brand or flavor preferences cannot be established from this one order.",
+  "overall_confidence": "low"
+}

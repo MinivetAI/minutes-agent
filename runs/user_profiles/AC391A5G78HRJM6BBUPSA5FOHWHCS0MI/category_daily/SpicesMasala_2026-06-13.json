@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-13",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-13 (weekend), the user purchased one 100 g pack of Zoff whole cumin seeds (jeera) during the evening. This purchase aligns with the population baseline evening share of 0.3027. The product serves a general utility for meal preparation, such as seasoning dishes or preparing spice water. This is a single observed order on one date; it does not establish a durable preference, routine, or recurring need for cumin seeds or this specific brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 100 g pack of Zoff whole cumin seeds (jeera) during the evening on a weekend. The product is a whole spice intended for tempering, roasting, or grinding in everyday Indian cooking.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference, routine, or recurring need for cumin seeds or this specific brand.",
+  "overall_confidence": "low"
+}

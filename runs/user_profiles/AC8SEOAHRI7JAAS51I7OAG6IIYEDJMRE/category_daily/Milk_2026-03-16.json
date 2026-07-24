@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-16 (weekday), the user purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) during the evening. This timing aligns with the high population share (0.3027) for milk purchases in the evening, suggesting a typical daily replenishment pattern for immediate kitchen use such as tea, coffee, or breakfast preparation. This is a single observed order; it is not yet established whether this represents a stable preference for Amul or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) during the evening on a weekday. This timing aligns with the high population share (0.3027) for milk purchases in the evening, suggesting a typical daily replenishment pattern for immediate kitchen use such as tea, coffee, or breakfast preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for Amul or a one-time need.",
+  "overall_confidence": "low"
+}

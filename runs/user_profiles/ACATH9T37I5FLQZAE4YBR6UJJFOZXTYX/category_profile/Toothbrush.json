@@ -1,0 +1,40 @@
+{
+  "category": "Toothbrush",
+  "profile_text": "The user demonstrates a stable preference for Colgate toothbrushes, specifically the ZigZag Medium variant, based on purchases on two independent dates in June 2026. Both transactions occurred on weekends, with one in the morning and one in the afternoon. This pattern suggests a routine refresh or replacement need. No other brands or variants were observed.",
+  "brand_preferences": [
+    {
+      "brand": "Colgate",
+      "preference_text": "Stable preference for Colgate, evidenced by purchases on 2 independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Colgate ZigZag Medium Toothbrush, evidenced by purchases on 2 independent dates in June 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-27",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-06-27. Cadence is unknown.",
+    "confidence": "medium",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions on two independent dates.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Routine oral hygiene maintenance and toothbrush replacement.",
+  "overall_confidence": "medium"
+}

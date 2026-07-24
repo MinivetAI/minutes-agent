@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-01 (weekday), the user purchased one 140 g pack of Britannia Romance Nut and Raisin Cake during the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a packaged sweet cake suitable for immediate snacking or tea-time treats. This is a single observation; no stable preference or routine can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 140 g pack of Britannia Romance Nut and Raisin Cake during the afternoon weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable preference or routine.",
+  "overall_confidence": "low"
+}

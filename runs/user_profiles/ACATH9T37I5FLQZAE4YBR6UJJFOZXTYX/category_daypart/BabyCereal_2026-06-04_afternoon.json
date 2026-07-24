@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) in the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this category is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246). The product is a complementary infant food, typically used for feeding infants aged 6–24 months.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., replenishment, trial, or gift) is unknown.",
+  "overall_confidence": "low"
+}

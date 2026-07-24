@@ -1,0 +1,52 @@
+{
+  "category": "Milk",
+  "profile_text": "The user demonstrates a high-confidence, stable preference for Parag Toned Milk 500 ml, evidenced by purchases across five independent dates in April 2026 and one in June 2026. A medium-confidence stable preference exists for Amul Taaza Pasteurised Toned Milk (500 ml), supported by two independent dates in May 2026. The user exhibits a fast replenishment cadence (every 4 days on average), with the last purchase on 2026-06-02 and the next predicted around 2026-06-06. Purchases typically occur in the evening and on weekdays, though weekend and morning purchases have also been observed. The user buys small-format (500 ml) packaged milk suitable for immediate household consumption.",
+  "brand_preferences": [
+    {
+      "brand": "Parag",
+      "preference_text": "The user has a stable preference for Parag, evidenced by purchases on 5 independent dates in April 2026 and 1 in June 2026.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    },
+    {
+      "brand": "Amul",
+      "preference_text": "The user has a stable preference for Amul, evidenced by purchases on 2 independent dates in May 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Parag Toned Milk 500 ml, evidenced by purchases on 5 independent dates in April 2026 and 1 in June 2026.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 2 independent dates in May 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 4.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-06-02",
+    "predicted_next_purchase_date": "2026-06-06",
+    "replenishment_text": "The user purchases this category approximately every 4 days, indicating a fast replenishment cycle.",
+    "confidence": "high",
+    "evidence_count": 10,
+    "independent_date_count": 10
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions across different brands and products.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior (e.g., discount sensitivity, premium positioning) is established from the supplied evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty was found.",
+  "mission_generation_text": "Supports daily household nutrition needs, specifically for immediate consumption of small-format (500 ml) packaged milk.",
+  "overall_confidence": "high"
+}

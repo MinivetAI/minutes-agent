@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One unit of flour was purchased during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this category represents 32.46% of population activity.",
+  "uncertainty_text": "This is a single observed transaction; durable preferences or routine usage cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

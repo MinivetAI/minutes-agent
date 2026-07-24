@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-07",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-07 (weekday), the user purchased one 100 g pouch of Society Regular Indian Leaf Tea during the morning. This single order aligns with the population morning baseline share of 32.46% and may indicate routine household replenishment or immediate breakfast preparation needs. No stable brand or product preference is established from this single observation.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 100 g pouch of Society Regular Indian Leaf Tea during the morning on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable brand or product preference.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased VICKS Double Power Cough Drops Warming Ginger on two independent dates (2026-05-12 and 2026-05-22). This repetition establishes a stable preference for this specific product variant. The user also exhibits a pattern of purchasing this item on weekdays, appearing in both morning and night-time dayparts, though the night-time purchase is less common for the user than the population baseline.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "VICKS Double Power Cough Drops Warming Ginger",
+      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on two independent dates in May 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The preference is based on two orders in a single month. While the repetition supports a medium-confidence stable preference, the short observation window limits the ability to confirm long-term habit formation.",
+  "overall_confidence": "medium"
+}

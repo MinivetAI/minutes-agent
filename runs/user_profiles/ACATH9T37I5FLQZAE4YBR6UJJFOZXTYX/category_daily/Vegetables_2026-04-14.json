@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-14 (weekday), the user purchased fresh vegetable staples during the evening: one loose onion (400–450 g), one pack of fresh coriander leaves (100 g), and one pack of baby potatoes (280–320 g). This evening timing aligns with the population baseline share of 0.3027 for this daypart. The items are unbranded produce typically used for immediate meal preparation or as cooking base ingredients. This is a single observed order on one date; it does not establish a stable or recurring preference, and the specific meal context is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased fresh vegetable staples (onion, coriander, baby potatoes) during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference. The specific meal context or reason for purchase is not known.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-31",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-31, a single order was placed during the afternoon. The basket contained five distinct items: Breads, Sugar, Cheese, Butter Margarine, and Tea. This combination is compatible with a need for basic pantry staples and breakfast or dining essentials. No durable behavior pattern is established from this single observation.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Sugar",
+        "Cheese",
+        "Butter Margarine",
+        "Tea"
+      ],
+      "combination_text": "Breads, Sugar, Cheese, Butter Margarine, and Tea were purchased together in one order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a need for basic breakfast or snack preparation items, including breads, dairy spreads, and tea.",
+  "uncertainty_text": "This analysis is based on a single observed order on 2026-03-31. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

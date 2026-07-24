@@ -1,0 +1,26 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased Del Monte Baked Beans 450 g on two independent dates (2026-02-08 and 2026-02-15). Both purchases occurred on weekends during the morning daypart. The product is a shelf-stable, ready-to-eat pantry item suitable for quick meal components or backup sides.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Del Monte",
+      "claim_text": "The user purchased Del Monte products on 2 independent dates in February 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Del Monte Baked Beans 450 g",
+      "claim_text": "The user purchased Del Monte Baked Beans 450 g on 2 independent dates in February 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent purchase dates. No browsing, search, or cart-add activity was observed for this category in this window.",
+  "overall_confidence": "medium"
+}

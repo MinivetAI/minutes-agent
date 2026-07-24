@@ -1,0 +1,25 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, two independent orders were placed on different dates (2026-01-24 and 2026-01-30). Both orders included Curd Yogurt and Vegetables. The first order was a weekend morning purchase of Milk, Curd Yogurt, and Vegetables. The second was a weekday afternoon purchase of Curd Yogurt, Vegetables, and Savouries Namkeens. Due to the limited number of observations (two independent dates), stable recurring patterns cannot be confirmed. The co-occurrence of Curd Yogurt and Vegetables appears in both orders, but this is insufficient to establish a durable preference or routine. No abandonment patterns are repeated across independent dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Curd Yogurt and Vegetables were purchased together in two independent orders (2026-01-24 and 2026-01-30).",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Milk was purchased in the first order (2026-01-24) but not in the second.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Savouries Namkeens were purchased in the second order (2026-01-30) but not in the first.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "Basic meal components including dairy, fresh produce, and potentially snacks.",
+  "uncertainty_text": "Analysis is based on only two independent dates. Stable preferences, recurring daypart behaviors, or durable category combinations cannot be inferred. The co-occurrence of Curd Yogurt and Vegetables is observed twice but does not meet the threshold for a stable pattern. Isolated instances of Milk (2026-01-24) and Savouries Namkeens (2026-01-30) are noted but not part of a repeated behavior. No abandonment patterns were repeated across independent dates; therefore, no abandonment patterns are included in the stable list.",
+  "overall_confidence": "low"
+}

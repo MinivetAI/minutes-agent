@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-04",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-04 (weekend), one order of Flour (1 unit) was placed in the afternoon. This timing aligns with the population baseline share of 0.2526 for this daypart. The product is a general baking staple. This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Flour (1 unit) placed on 2026-07-04 in the afternoon. This timing aligns with the population baseline share of 0.2526 for this daypart. The product is a general baking staple. This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
+  "overall_confidence": "low"
+}

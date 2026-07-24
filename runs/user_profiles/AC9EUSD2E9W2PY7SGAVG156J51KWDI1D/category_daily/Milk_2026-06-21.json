@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-21",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-21 (weekend), the user purchased 2 units of Amul Cow Milk 500 ml during the morning. This fresh pasteurised liquid dairy staple is typically used for immediate needs such as tea, coffee, or breakfast preparation. The morning daypart has a population share of 0.3246 for this category. This is a single observed order on one date; it does not establish a stable or recurring preference. The specific reason for the purchase (e.g., routine replenishment vs. guest service) cannot be determined from this evidence alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml during the morning on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference. The specific reason for the purchase (e.g., routine replenishment vs. guest service) cannot be determined from this evidence alone.",
+  "overall_confidence": "low"
+}

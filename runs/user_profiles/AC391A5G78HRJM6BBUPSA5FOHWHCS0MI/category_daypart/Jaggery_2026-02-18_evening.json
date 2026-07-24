@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 800 g pack of Dhampur Green Organic Jaggery Powder, a fine powdered organic sweetener intended for convenient mixing in cooking or beverages.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the evening on a weekday, a time when population share (0.3027) is comparable to the morning baseline (0.3246). The product serves as a convenient, ready-to-use natural sweetener, avoiding the handling required for block jaggery.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing powder over block form or this brand over others is unknown.",
+  "overall_confidence": "low"
+}

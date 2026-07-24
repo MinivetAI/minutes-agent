@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One unit of Nestle Cerelac Wheat Apple Baby Food Cereal (350 g) was purchased.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when this category is less common than morning or evening based on population baselines (afternoon share 0.2526 vs morning 0.3246). The product is a standard infant cereal intended for babies 6+ months.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

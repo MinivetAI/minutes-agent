@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-08",
+  "day_type": "weekend",
+  "summary_text": "On 2026-02-08 (weekend), a single order was placed in the morning. The basket contained one unit each of Breads, Canned Food, and Eggs. Order-building behavior was minimal, with no repeated add-to-cart or search activity observed. The combination of these items is compatible with a need for basic meal preparation, such as breakfast or a simple lunch, but no specific intent is confirmed beyond the purchase itself. This analysis is based on a single observed order on one date; no durable preferences, routine behaviors, or stable patterns can be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Canned Food",
+        "Eggs"
+      ],
+      "combination_text": "Breads, Canned Food, and Eggs were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Breads, Canned Food, and Eggs is compatible with a need for basic food staples or simple meal ingredients.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not indicate that these specific pairs were present in this single order.",
+  "overall_confidence": "low"
+}

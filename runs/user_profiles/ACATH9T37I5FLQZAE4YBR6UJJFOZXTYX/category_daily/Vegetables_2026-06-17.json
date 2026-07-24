@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-17",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased six unbranded fresh vegetables: Potato (400–450g), Onion (400–450 g), Carrot (500 g), Baby Potato (280–320 g), White Cucumber (400-500 g), and Beetroot (250-350g). This single order, observed during a weekday morning, suggests a need for immediate meal preparation ingredients or a quick top-up of kitchen staples. This is a single observed order; it does not establish a stable or recurring preference for these specific items or this category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased six unbranded fresh vegetables: Potato (400–450g), Onion (400–450 g), Carrot (500 g), Baby Potato (280–320 g), White Cucumber (400-500 g), and Beetroot (250-350g). Ordered during a weekday morning, a time with high population share (32.46%). The basket consists of loose-weight fresh produce, suggesting a need for immediate meal preparation ingredients or a quick top-up of kitchen staples.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for these specific items or this category.",
+  "overall_confidence": "low"
+}

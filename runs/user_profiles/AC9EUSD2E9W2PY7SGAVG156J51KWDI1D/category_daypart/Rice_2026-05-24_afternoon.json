@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 1 kg pack of Devaaya Biryani Basmati Rice.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekend, a timing that aligns with the population baseline where afternoon activity (0.2526) is lower than morning (0.3246) and evening (0.3027) shares. The product is a premium, long-grain basmati rice positioned for biryani-style cooking, suggesting a specific meal preparation need rather than a generic staple replenishment.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for the Devaaya brand or biryani rice over other types. The specific reason for choosing this premium variant over a standard staple is unknown.",
+  "overall_confidence": "low"
+}

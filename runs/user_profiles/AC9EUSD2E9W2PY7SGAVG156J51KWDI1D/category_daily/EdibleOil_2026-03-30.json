@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-30 (weekday), one unit of edible oil (EDOET83CVGZJEVB5) was purchased during the morning. This purchase aligns with the morning daypart, which represents 32.46% of population activity for this category. This is a single observed transaction; no durable brand or product preferences can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One unit of edible oil (EDOET83CVGZJEVB5) was purchased during the morning on a weekday. This timing coincides with a period where this category represents 32.46% of population activity.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no durable brand or product preferences can be established from this isolated event.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-03-21",
+  "day_type": "weekend",
+  "summary_text": "On the afternoon of this weekend, the user purchased seven fresh vegetable items: beetroot, coriander leaves, an unidentified vegetable product (VEGGF7EXB3KWXAGJ), fresh mint leaves, fresh lemons, onions, and baby potatoes. All items were unbranded fresh produce, typically used for immediate cooking, garnishing, or meal preparation. The order was placed in the afternoon on a weekend. The basket consists of perishable fresh vegetables and herbs, suggesting a need for immediate ingredient replenishment for same-day cooking or meal completion rather than bulk stocking. The specific identity and use case for the product 'VEGGF7EXB3KWXAGJ' are unknown. As this is a single observed order, it is not possible to determine if these items represent a stable preference or a one-time specific meal need.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "The specific identity and use case for the product 'VEGGF7EXB3KWXAGJ' are unknown. As this is a single observed order, it is not possible to determine if these items represent a stable preference or a one-time specific meal need.",
+  "overall_confidence": "low"
+}

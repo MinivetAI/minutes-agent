@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-07",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-07 (weekday), the user purchased one 0.5 kg pack of Tata Sampann Fine Besan during the morning. This product is a staple cooking ingredient for everyday Indian recipes and snacks. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 0.5 kg pack of Tata Sampann Fine Besan. Ordered during the morning on a weekday, a time when population share is 0.3246.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

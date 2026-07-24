@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-16 (weekday), the user purchased one unit of HyFun Fries Straight Cut 425 g during the evening. This order aligns with the population baseline for evening activity (share 0.3027). The product is a frozen side dish intended for quick cooking, suggesting a need for a fast, convenient meal component or snack. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one unit of HyFun Fries Straight Cut 425 g (frozen French fries) during the evening on a weekday. The order occurred in the evening, a period where this user's activity aligns with the population baseline (evening share 0.3027). The product is a frozen side dish intended for quick cooking, suggesting a need for a fast, convenient meal component or snack.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

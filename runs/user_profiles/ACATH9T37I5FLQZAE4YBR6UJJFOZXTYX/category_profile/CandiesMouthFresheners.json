@@ -1,0 +1,26 @@
+{
+  "category": "Candies Mouth Fresheners",
+  "profile_text": "A single order of Delight Nuts Premium Orange Candy (130 g) was placed on a weekday morning in June 2026. This isolated observation does not establish a stable brand or product preference, nor does it indicate a recurring routine. No browsing or search history is available to determine if this was a planned purchase or an impulse buy.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-03",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was a single isolated event on 2026-06-03.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category is not reliably converted to purchase based on available evidence; only one completed purchase is observed with no prior search or cart activity to indicate a funnel.",
+  "substitution_text": null,
+  "price_value_text": "No price or value behavior can be inferred from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the category is simply under-observed.",
+  "mission_generation_text": "Supports immediate oral freshness or a sweet snack need.",
+  "overall_confidence": "low"
+}

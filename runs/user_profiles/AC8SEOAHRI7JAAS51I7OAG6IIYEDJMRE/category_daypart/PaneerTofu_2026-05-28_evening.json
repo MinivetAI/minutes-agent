@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Mother Dairy Fresh Paneer 200 g placed in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a packaged fresh dairy item typically used for immediate cooking needs or meal preparation.",
+  "uncertainty_text": "This is a single observed order on one date; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent beyond the product's general utility.",
+  "overall_confidence": "low"
+}

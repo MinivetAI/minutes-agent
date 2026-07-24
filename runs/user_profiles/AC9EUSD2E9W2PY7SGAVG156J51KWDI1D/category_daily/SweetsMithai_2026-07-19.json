@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-19",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased one 200 g box of Amul Kaju Katri, a boxed Indian dry-fruit sweet, during the morning. This morning activity is above the population baseline (0.3246). The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting. This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 200 g box of Amul Kaju Katri, a boxed Indian dry-fruit sweet. This morning activity is above the population baseline (0.3246). The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
+  "overall_confidence": "low"
+}

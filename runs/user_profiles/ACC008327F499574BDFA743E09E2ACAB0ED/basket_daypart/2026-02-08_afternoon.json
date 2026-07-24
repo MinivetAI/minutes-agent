@@ -1,0 +1,92 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-02-08 in the afternoon on a weekend. The basket contains three items, all from the Cookies Biscuits category (CKBGZ4PUFUZ5NZC3, CKBF6TF7HC44PY5F, CKBGYG6EAP5QMSF3), with a quantity of 1 each. The order-building behavior is limited to a single category purchase. The shopping_need_text is compatible with a snack or treat need. As this is a single observed order, it is an isolated observation and not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "DipsSaucesPastes",
+        "Vegetables"
+      ],
+      "combination_text": "DipsSaucesPastes and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "SpicesMasala"
+      ],
+      "combination_text": "SavouriesNamkeens and SpicesMasala",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Fruits"
+      ],
+      "combination_text": "CurdYogurt and Fruits",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "IceCreams",
+        "Vegetables"
+      ],
+      "combination_text": "IceCreams and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "DipsSaucesPastes"
+      ],
+      "combination_text": "Breads and DipsSaucesPastes",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Snack or treat",
+  "uncertainty_text": "This is a single observed order on one date. It is an isolated observation and not a durable behavior pattern. No stable preferences can be inferred from this single data point.",
+  "overall_confidence": "low"
+}

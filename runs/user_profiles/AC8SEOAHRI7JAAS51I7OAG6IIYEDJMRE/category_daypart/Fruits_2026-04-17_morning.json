@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Musk Melon Kajari and 1 unit of Muskmelon 600 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when the user's activity is 0.3246 of the population baseline. The items are fresh, ready-to-eat fruits, suggesting an immediate need for breakfast, snacking, or refreshing hydration.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for muskmelons.",
+  "overall_confidence": "low"
+}

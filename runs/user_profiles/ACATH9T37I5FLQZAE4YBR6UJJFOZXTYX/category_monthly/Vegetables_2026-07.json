@@ -1,0 +1,66 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased fresh, unbranded vegetables on three independent dates (2026-07-02, 2026-07-04, 2026-07-08). All purchases occurred in the morning, a timing pattern supported by three independent dates. Onions were purchased on two independent dates (2026-07-02 and 2026-07-08). Baby potatoes were purchased on two independent dates (2026-07-02 and 2026-07-04). Beetroot was purchased on two independent dates (2026-07-02 and 2026-07-04). Other items (bitter gourd, carrot, cluster beans, cauliflower, hybrid tomatoes, green amaranth, broad beans, coriander) appeared on single dates only. The consistent morning timing and repeated purchases of onions, baby potatoes, and beetroot indicate stable preferences for these items and this shopping window.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "unbranded",
+      "claim_text": "The user consistently purchases unbranded fresh vegetables.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Onion",
+      "claim_text": "The user repeatedly purchases onions.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Baby Potato",
+      "claim_text": "The user repeatedly purchases baby potatoes.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Beetroot",
+      "claim_text": "The user repeatedly purchases beetroot.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Onion",
+      "claim_text": "The user repeatedly purchases onions.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Baby Potato",
+      "claim_text": "The user repeatedly purchases baby potatoes.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Beetroot",
+      "claim_text": "The user repeatedly purchases beetroot.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Single observations for specific vegetable varieties (e.g., bitter gourd, carrots, tomatoes) do not establish stable preferences. The user's specific culinary intent for these items is unknown.",
+  "overall_confidence": "medium"
+}

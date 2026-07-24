@@ -1,0 +1,34 @@
+{
+  "category": "Rx Medicine",
+  "profile_text": "A single order of Levocet Syrup 60 ml (Levocet brand) was placed on 2026-02-07 during the evening on a weekend. No browsing events (search, view, cart-add) were recorded. Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference. It is unknown whether this was a one-time need, a refill, or part of a broader pattern of allergy management.",
+  "brand_preferences": [
+    {
+      "brand": "Levocet",
+      "preference_text": "Levocet was observed in one order on 2026-02-07. Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-07",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-02-07. Cadence is unknown due to a single observation; no recurring pattern is established.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase when an order is placed, but no browsing interest was recorded to indicate comparison or hesitation prior to this single transaction.",
+  "substitution_text": "No substitution behavior observed; only one brand and product variant were present in the single order.",
+  "price_value_text": "No price or value behavior observed beyond the single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected beyond the lack of pre-purchase browsing.",
+  "mission_generation_text": "Shopping needs supported by this category profile include managing acute or chronic symptoms requiring prescription medication, specifically allergy management as suggested by the product type (Levocet Syrup).",
+  "overall_confidence": "low"
+}

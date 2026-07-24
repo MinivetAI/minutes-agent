@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-04",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-04 (weekend), the user purchased one 500 g pack of Wheel Active 2 in 1 Clean and Fresh Detergent Powder in the morning. This timing aligns with the population baseline where morning activity is the most common period (32.46%). The product is a small-format, budget-friendly laundry detergent suitable for urgent replenishment or short-term needs. This is a single observed transaction on one date; it does not establish a durable brand preference or routine. It is unclear if this represents a one-time need or the start of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 500 g pack of Wheel Active 2 in 1 Clean and Fresh Detergent Powder. This timing aligns with the population baseline where morning activity is the most common period (32.46%). The product is a small-format, budget-friendly laundry detergent suitable for urgent replenishment or short-term needs. This is a single observed transaction on one date; it does not establish a durable brand preference or routine. It is unclear if this represents a one-time need or the start of a recurring habit.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a durable brand preference or routine. It is unclear if this represents a one-time need or the start of a recurring habit.",
+  "overall_confidence": "low"
+}

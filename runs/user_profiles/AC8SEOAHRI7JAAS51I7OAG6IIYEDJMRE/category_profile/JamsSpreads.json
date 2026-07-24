@@ -1,0 +1,26 @@
+{
+  "category": "Jams Spreads",
+  "profile_text": "No completed purchases or stable preferences were observed for Jams Spreads in the provided evidence. The only recorded transaction was for mayonnaise, which falls outside this category. Interest or intent for jams and spreads is not evidenced.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": null,
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No purchase history exists for this category to establish a cadence.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "No evidence of interest (search/view/cart) or purchase exists for this category; conversion status is undetermined due to lack of activity.",
+  "substitution_text": "No substitution patterns observed due to lack of purchase history.",
+  "price_value_text": "No price or value behavior observed due to lack of purchase history.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance; simply no activity recorded for this category.",
+  "mission_generation_text": "No specific shopping needs can be inferred for Jams Spreads based on the available evidence.",
+  "overall_confidence": "low"
+}

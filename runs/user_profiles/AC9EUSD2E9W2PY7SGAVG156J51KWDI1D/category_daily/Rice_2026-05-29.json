@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-29",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-29 (weekday), one order of Daawat Rozana Gold Basmati Rice (5 kg) was placed in the morning. This morning activity aligns with the user's above-baseline population share (32.5%). The purchase represents a single observation of a staple food item suitable for household restocking. No durable brand or product preferences can be established from this single date.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Daawat Rozana Gold Basmati Rice (5 kg) was placed. This timing coincides with a period of above-baseline activity (32.5% share).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

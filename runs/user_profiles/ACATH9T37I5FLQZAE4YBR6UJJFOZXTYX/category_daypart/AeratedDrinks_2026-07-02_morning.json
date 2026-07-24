@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning (32.5% population share), a time associated with quick, impulse-friendly refreshment or immediate thirst quenching.",
+  "uncertainty_text": "Single observation; cannot establish durable brand preference or routine behavior.",
+  "overall_confidence": "low"
+}

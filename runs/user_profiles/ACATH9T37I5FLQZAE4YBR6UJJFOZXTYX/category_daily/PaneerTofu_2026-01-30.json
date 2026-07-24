@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-30 (weekday), one order of Amul Malai Paneer 200 g was placed in the morning. This is a single observation on one date; no stable preferences or recurring patterns can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Amul Malai Paneer 200 g was placed in the morning. The order occurred in the morning, a time with a population share of 0.3246. The product is a fresh dairy ingredient typically used for immediate cooking needs.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable preferences or recurring patterns can be established.",
+  "overall_confidence": "low"
+}

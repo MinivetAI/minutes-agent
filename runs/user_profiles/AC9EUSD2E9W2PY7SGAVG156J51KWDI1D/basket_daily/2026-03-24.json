@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-24",
+  "day_type": "weekday",
+  "summary_text": "A single order was placed on 2026-03-24 during the morning on a weekday. The basket contains three items: 2 units of Soya Products, 1 unit of Spices Masala, and 1 unit of Milk. The order-building behavior involves purchasing a mix of protein sources (soya, milk) and flavoring agents (spices). The shopping need text describes a need for basic meal preparation ingredients compatible with the basket, such as cooking a savory dish. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Soya Products",
+        "Spices Masala",
+        "Milk"
+      ],
+      "combination_text": "Soya Products, Spices Masala, and Milk were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Need for basic cooking ingredients including protein and seasoning.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The category_pair_evidence provided reflects population-level co-occurrence statistics and does not necessarily reflect the specific intent or pairing logic of this single user's basket beyond the fact that Milk was purchased.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-30 (weekday), the user purchased fresh cauliflower (400-600g) and unpeeled green peas (1kg) during an afternoon shopping session. This single order suggests a need for immediate home cooking ingredients, consistent with the lower population share for fresh produce purchases during weekday afternoons compared to morning or evening peaks.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased fresh cauliflower and green peas during an afternoon session on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for these specific vegetables or this brand (Unbranded).",
+  "overall_confidence": "low"
+}

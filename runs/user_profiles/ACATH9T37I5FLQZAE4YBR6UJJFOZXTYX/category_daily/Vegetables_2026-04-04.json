@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-04",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-04 (weekend), the user purchased eight unbranded fresh vegetable items in the afternoon: Baby Potato, Spinach Leaves, Bitter Gourd, Coriander Leaves, Beetroot, Brinjal, Onion, and Green Capsicum. This single order suggests a same-day cooking need or replenishment of perishable ingredients for immediate household use. No browsing or search history is available to determine if this was a planned purchase or an urgent top-up. As this is a single observed order, it is not possible to establish stable brand or product preferences.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased eight unbranded fresh vegetable items: Baby Potato, Spinach Leaves, Bitter Gourd, Coriander Leaves, Beetroot, Brinjal, Onion, and Green Capsicum. The order was placed in the afternoon on a weekend, a time when population share is lower than the morning baseline (0.2526 vs 0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an urgent top-up. As this is a single observed order, it is not possible to establish stable brand or product preferences.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of unbranded fresh onions in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The product is a basic cooking staple, suggesting a need for meal preparation ingredients.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for onions or morning shopping.",
+  "overall_confidence": "low"
+}

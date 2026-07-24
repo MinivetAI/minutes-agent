@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-30",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased staple pantry items during the afternoon: one 200 g pack of MAI RASOI Whole Peanuts and one 500 g pack of Classic Yellow Moong Dal Split. This single transaction suggests a need for home cooking or snacking ingredients, but does not establish a durable brand or product preference.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 200 g pack of MAI RASOI Whole Peanuts and one 500 g pack of Classic Yellow Moong Dal Split.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable brand or product preference. It is unclear if these items were part of a planned restock or an immediate need.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of boAt Rockerz 110 Wireless Neckband Earphones (Deep Purple) during the night on a weekend. The product is a wireless Bluetooth neckband-style earphone featuring 40-hour playback, fast charging, and low-latency mode.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred during the night, a period with lower population share (0.1202) compared to morning (0.3246) and evening (0.3027). The product serves general utility for personal audio, calls, and media consumption, with features like long battery life and low latency supporting use cases such as commuting or gaming.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type. No browsing or funnel events were recorded to indicate prior interest or comparison behavior.",
+  "overall_confidence": "low"
+}

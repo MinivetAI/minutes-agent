@@ -1,0 +1,32 @@
+{
+  "category": "Fruits",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for Tender Coconut (fresh whole fruit) within the Fruits category, evidenced by purchases across five independent dates in May and June 2026. Purchases consistently involve 2 units per order. While May purchases occurred in the evening (weekday) and morning (weekend), June purchases were exclusively in the morning on weekdays, suggesting a potential shift toward a stable morning daypart pattern. The user exhibits a fast replenishment cadence, purchasing approximately every 2.5 days.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Tender Coconut (fresh whole fruit), evidenced by purchases on 5 independent dates across May and June 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 2.5,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-06-10",
+    "predicted_next_purchase_date": "2026-06-12",
+    "replenishment_text": "The user purchases this category approximately every 2.5 days, classified as a fast replenishment cycle. The last purchase was on 2026-06-10, with the next predicted purchase around 2026-06-12.",
+    "confidence": "high",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, with consistent transaction history across multiple dates.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior evidence was provided in the summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals were detected.",
+  "mission_generation_text": "Regular replenishment of fresh whole fruit, specifically tender coconut, for daily consumption or hydration needs.",
+  "overall_confidence": "high"
+}

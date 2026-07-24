@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt, a standard household iodized table salt intended for everyday cooking and seasoning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The product is a non-negotiable pantry staple used for immediate meal prep and replenishment.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference or routine for this specific brand or product type.",
+  "overall_confidence": "low"
+}

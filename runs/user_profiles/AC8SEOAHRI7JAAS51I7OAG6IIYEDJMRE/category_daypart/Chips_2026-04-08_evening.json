@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) was placed during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening snacking or tea-time consumption patterns.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for the brand or specific flavor, nor does it indicate whether this is a routine purchase or a one-time trial.",
+  "overall_confidence": "low"
+}

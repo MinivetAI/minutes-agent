@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Fortune Sugar 1 kg (white refined sugar) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period where the user's activity aligns with the population baseline share of 0.3027. The product is a standard 1 kg pack of white sugar, a low-involvement pantry staple typically used for daily cooking, tea, or coffee preparation.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a planned pantry refill or a last-minute need.",
+  "overall_confidence": "low"
+}

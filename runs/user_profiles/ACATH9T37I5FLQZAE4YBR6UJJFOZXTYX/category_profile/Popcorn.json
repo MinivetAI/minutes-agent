@@ -1,0 +1,40 @@
+{
+  "category": "Popcorn",
+  "profile_text": "A single observed purchase of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2) on 2026-06-04 (weekday afternoon). This transaction represents a concrete observation of a ready-to-pop microwave snack, suitable for quick, low-effort consumption. The order occurred during a weekday afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "brand_preferences": [
+    {
+      "brand": "ACT II",
+      "preference_text": "Observed in a single transaction on 2026-06-04. This is a single observation and does not establish a stable preference or routine.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Observed purchase of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2) on 2026-06-04. This is a single observation and does not establish a stable preference or routine.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase on 2026-06-04.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Shopping for a quick, low-effort microwave snack.",
+  "overall_confidence": "low"
+}

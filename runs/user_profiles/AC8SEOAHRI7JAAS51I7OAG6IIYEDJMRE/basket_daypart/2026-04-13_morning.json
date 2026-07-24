@@ -1,0 +1,23 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on a weekday morning included one unit each of a concentrate, an aerated drink, and two distinct vegetable items. The basket breadth is narrow, covering three categories: Concentrates, Aerated Drinks, and Vegetables. This specific combination does not align with the high-support category pairs provided in the evidence (which primarily involve Breads, CurdYogurt, and Milk), suggesting a unique or isolated purchasing instance rather than a pattern derived from the supplied co-order statistics. The order-building behavior is a simple, single-transaction acquisition of ready-to-use or fresh items.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Concentrates",
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Concentrates, Aerated Drinks, and Vegetables were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of a concentrate, an aerated drink, and vegetables is compatible with a need for immediate beverage preparation and fresh food ingredients for a meal or snack.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The provided category pair evidence (involving Breads, CurdYogurt, Milk) does not match the categories in this specific order, so no support/confidence/lift metrics from that evidence apply to this basket.",
+  "overall_confidence": "low"
+}

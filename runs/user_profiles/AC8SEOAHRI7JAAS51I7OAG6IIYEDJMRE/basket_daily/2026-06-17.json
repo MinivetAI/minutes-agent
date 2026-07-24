@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-17 (evening, weekday), a single order was placed containing 10 units across two categories: Milk (7 units) and Chips (7 units). The basket consisted of 7 distinct milk products and 2 distinct chip products. No other categories were purchased. The shopping need is compatible with a need for dairy and snack items.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Chips"
+      ],
+      "combination_text": "Milk and Chips were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A need for milk and chips.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference, routine, or stable pattern. The category_pair_evidence provided does not include evidence for the Milk-Chips combination observed in this order; therefore, support/confidence/lift for this specific pair is null. The provided category pair evidence (e.g., Breads-CurdYogurt, CurdYogurt-Vegetables) reflects broader population or historical data not present in this specific transaction.",
+  "overall_confidence": "low"
+}

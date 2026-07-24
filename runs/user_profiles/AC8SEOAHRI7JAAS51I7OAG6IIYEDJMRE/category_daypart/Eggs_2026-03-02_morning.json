@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 6-unit pack of Hen Fruit white chicken eggs.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when this category has a 32.46% population share. The product is a basic fresh egg pack suitable for immediate cooking or breakfast needs.",
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

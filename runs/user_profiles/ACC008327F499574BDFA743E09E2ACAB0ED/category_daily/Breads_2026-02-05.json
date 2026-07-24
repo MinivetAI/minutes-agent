@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-05",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-05 (weekday), the user purchased one 600 g loaf of Britannia Sandwich Bread in the afternoon. This single observed order serves as a standard household staple for immediate sandwich or toast preparation. No stable brand preference or routine can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 600 g loaf of Britannia Sandwich Bread. This is a single observed order on one date; no stable brand preference or routine can be established from this isolated event.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no stable brand preference or routine can be established from this isolated event.",
+  "overall_confidence": "low"
+}

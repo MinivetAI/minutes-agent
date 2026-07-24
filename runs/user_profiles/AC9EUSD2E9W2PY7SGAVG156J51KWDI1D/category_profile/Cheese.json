@@ -1,0 +1,40 @@
+{
+  "category": "Cheese",
+  "profile_text": "The user has purchased cheese on three independent dates (March, May, and July 2026), establishing a slow replenishment cadence of approximately 55.5 days. The only observed brand is Go Plain, appearing on all three dates, which supports a medium-confidence brand preference. The user consistently ordered the Go Plain Processed Cheese Block 200 g. Purchases occurred on weekday mornings and one weekend evening. No search, view, or cart activity was recorded, so this is not a discovery candidate. The user's need is for a firm, melting cheese suitable for cooking, grating, or snacking.",
+  "brand_preferences": [
+    {
+      "brand": "Go Plain",
+      "preference_text": "The user has purchased Go Plain cheese on three independent dates (March, May, and July 2026), indicating a stable brand preference.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has purchased the Go Plain Processed Cheese Block 200 g on three independent dates.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 55.5,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-19",
+    "predicted_next_purchase_date": "2026-09-12",
+    "replenishment_text": "The user typically purchases cheese every 55.5 days, classified as a slow cadence. The last purchase was on 2026-07-19, and the next purchase is predicted for approximately 2026-09-12.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as all observed interactions resulted in completed orders.",
+  "substitution_text": "No substitution behavior observed; the user consistently purchased the same product.",
+  "price_value_text": "No explicit price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "The user requires a firm, melting cheese suitable for cooking, grating, or snacking, replenished on a slow, recurring basis.",
+  "overall_confidence": "medium"
+}

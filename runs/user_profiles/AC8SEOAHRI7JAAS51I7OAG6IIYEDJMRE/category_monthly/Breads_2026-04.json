@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user placed 10 orders in the Breads category. While Baker's Loaf Whole Wheat Bread was purchased once on 2026-04-02, Naturbaked Zero Maida Whole Wheat Bread 300 g was purchased on 9 independent dates (2026-04-06, 08, 14, 15, 17, 18, 25, 28, 30). This recurrence establishes a stable preference for the Naturbaked brand and variant. The user's ordering timing is varied, occurring in the morning, afternoon, evening, and night, with no single daypart dominating the pattern. Orders were placed on both weekdays and weekends.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Naturbaked",
+      "claim_text": "The user has a stable preference for Naturbaked bread, evidenced by purchases on 9 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 9,
+      "independent_date_count": 9
+    },
+    {
+      "dimension": "product",
+      "value": "Naturbaked Zero Maida Whole Wheat Bread 300 g",
+      "claim_text": "The user has a stable preference for Naturbaked Zero Maida Whole Wheat Bread 300 g, evidenced by purchases on 9 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 9,
+      "independent_date_count": 9
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Baker's Loaf Whole Wheat Bread was purchased only once (2026-04-02) and does not meet the threshold for a stable preference claim. The user's ordering times vary across all dayparts (morning, afternoon, evening, night) and day types (weekday, weekend), preventing the establishment of a consistent daily or weekly routine pattern.",
+  "overall_confidence": "high"
+}

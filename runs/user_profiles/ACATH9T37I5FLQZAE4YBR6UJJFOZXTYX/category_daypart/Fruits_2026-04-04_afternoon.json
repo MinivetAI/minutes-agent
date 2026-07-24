@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Sindhura mangoes (fresh fruit) in the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a fresh, perishable fruit typically consumed immediately or within a short timeframe.",
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or variety preference can be established. The specific reason for choosing this variety or timing is unknown.",
+  "overall_confidence": "low"
+}

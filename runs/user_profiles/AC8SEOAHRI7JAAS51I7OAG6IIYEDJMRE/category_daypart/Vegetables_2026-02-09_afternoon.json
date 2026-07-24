@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 500 g pack of unbranded fresh methi (fenugreek) leaves without roots.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered in the afternoon on a weekday, a time with lower population share (0.2526) compared to the morning baseline (0.3246). The product is a fresh, perishable leafy green typically used for immediate cooking.",
+  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable preference for methi or this specific brand format.",
+  "overall_confidence": "low"
+}

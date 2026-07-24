@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Del Monte Baked Beans 450 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a shelf-stable, ready-to-eat pantry item suitable for quick meal components.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "overall_confidence": "low"
+}

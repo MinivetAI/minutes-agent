@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased five unbranded fresh vegetables: one onion (400–450 g), one English cucumber (500 g), one carrot (500 g), one baby potato (280–320 g), and one beetroot (250–350 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the afternoon on a weekend, a time when population share is lower than the morning baseline (0.2526 vs 0.3246). The items are fresh, unbranded root and salad vegetables typically used for immediate meal preparation, suggesting a need to replenish household stock or complete a same-day cooking plan.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. The specific recipes or meals for which these ingredients were intended are unknown.",
+  "overall_confidence": "low"
+}

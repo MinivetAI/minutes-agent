@@ -1,0 +1,25 @@
+{
+  "date": "2026-02-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-23 during the evening weekday, a single order was placed containing four items: SCMFK8YZYZZMACFZ (Spices Masala), SATET96PTFPYSQWM (Salt), PTFFSFHZPJ9AHZGT (Paneer Tofu), and FLREU6Z6FZDGBF2H (Corn Flour). The basket exhibits narrow breadth, consisting of one unit each from four distinct categories. The combination of Spices Masala, Salt, Paneer Tofu, and Corn Flour is compatible with preparing a specific meal or dish, such as a paneer-based recipe requiring thickening and seasoning. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Spices Masala",
+        "Salt",
+        "Paneer Tofu",
+        "Corn Flour"
+      ],
+      "combination_text": "Single order containing Spices Masala, Salt, Paneer Tofu, and Corn Flour.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchased items (Spices Masala, Salt, Paneer Tofu, and Corn Flour) are compatible with cooking a paneer dish that requires seasoning and thickening.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided relates to other categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, support/confidence/lift values are not applicable to this basket's internal combination.",
+  "overall_confidence": "low"
+}

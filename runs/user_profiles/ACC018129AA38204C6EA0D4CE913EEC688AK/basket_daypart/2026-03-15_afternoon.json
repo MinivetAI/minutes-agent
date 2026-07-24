@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single afternoon weekend order containing one Havan Item, one Washing Powder, one Cake Pastry, and two Washing Bars. The basket reflects a mix of household maintenance (cleaning supplies, ritual items) and a single food item (Cake Pastry). No durable behavior patterns are established from this single observation.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Havan Item",
+        "Washing Bar"
+      ],
+      "combination_text": "Havan Item and Washing Bar were purchased together in this order.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be preparing for a weekend household routine involving cleaning and a specific ritual or cultural practice, alongside a single indulgence or meal component.",
+  "uncertainty_text": "This analysis is based on a single order on 2026-03-15. No repeated behaviors or stable preferences can be inferred. The category pair evidence provided (e.g., Havan Item/Washing Bar) reflects historical co-occurrence statistics but does not confirm this specific user's intent beyond the observed purchase.",
+  "overall_confidence": "low"
+}

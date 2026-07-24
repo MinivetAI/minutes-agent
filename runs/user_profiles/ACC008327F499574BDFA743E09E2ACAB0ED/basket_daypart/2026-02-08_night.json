@@ -1,0 +1,22 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-02-08 during the night on a weekend. The basket contains two items: one unit of Savouries Namkeens and one unit of Sweets Mithai. This represents a narrow basket breadth with two distinct snack-related categories purchased together. The `shopping_need_text` is compatible with a desire for ready-to-eat snacks or sweet treats.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Sweets Mithai"
+      ],
+      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Snacking or sweet treat consumption.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

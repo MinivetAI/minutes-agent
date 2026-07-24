@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Amul Gold Milk 500 ml (fresh liquid milk) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity (0.3027 share) is comparable to the population baseline for evening (0.3027) and slightly lower than the morning baseline (0.3246). The product is a fresh liquid milk intended for immediate culinary use such as tea, coffee, or cooking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product size.",
+  "overall_confidence": "low"
+}

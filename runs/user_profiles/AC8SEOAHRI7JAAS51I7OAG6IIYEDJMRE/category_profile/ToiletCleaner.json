@@ -1,0 +1,41 @@
+{
+  "category": "Toilet Cleaner",
+  "profile_text": "The user has demonstrated interest in toilet cleaning products on two independent dates (May 2026 and July 2026), purchasing two different brands (Harpic and Flipkart Supermart) in 2 x 1 L packs. Due to the low frequency and lack of brand repetition, no stable brand preference or routine is established. The user buys this category for household bathroom hygiene maintenance.",
+  "brand_preferences": [
+    {
+      "brand": "Harpic",
+      "preference_text": "Purchased once on 2026-05-28. Single observation; no durable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Flipkart Supermart",
+      "preference_text": "Purchased once on 2026-07-05. Single observation; no durable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-05",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was on 2026-07-05.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on all observed occasions.",
+  "substitution_text": "The user has purchased two different brands (Harpic and Flipkart Supermart) in separate orders, indicating openness to brand substitution or lack of strong brand loyalty.",
+  "price_value_text": "No specific price sensitivity or value behavior observed beyond standard pack sizes (2 x 1 L).",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. Low confidence in predicting future behavior due to sparse history.",
+  "mission_generation_text": "Supports routine household bathroom hygiene maintenance and disinfection needs.",
+  "overall_confidence": "low"
+}

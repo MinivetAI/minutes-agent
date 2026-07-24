@@ -1,0 +1,93 @@
+{
+  "date": "2026-02-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-27 (weekday), two distinct orders were placed across different dayparts. The morning order included 10 items across four categories: Vegetables (5 items), Milk (2 items), Curd Yogurt (2 items), and Savouries Namkeens (1 item). This basket suggests a need for fresh produce and dairy staples, potentially for daily meal preparation or breakfast components. The afternoon order consisted of a single item: Diapers (1 item), compatible with infant care replenishment. No carts were abandoned in either session.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "AeratedDrinks",
+        "Vegetables"
+      ],
+      "combination_text": "AeratedDrinks and Vegetables",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "BabyCereal",
+        "Vegetables"
+      ],
+      "combination_text": "BabyCereal and Vegetables",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The morning basket suggests a need for fresh produce and dairy staples, potentially for daily meal preparation or breakfast components. The afternoon order is compatible with diaper replenishment for infant care.",
+  "uncertainty_text": "This analysis is based on single observed orders on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The category pair evidence provided reflects population-level co-occurrence statistics and does not prove this specific user's intent or future behavior.",
+  "overall_confidence": "low"
+}

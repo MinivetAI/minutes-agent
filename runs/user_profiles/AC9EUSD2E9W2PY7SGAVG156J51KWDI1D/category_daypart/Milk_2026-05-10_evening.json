@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 500 ml pack of Gokul Pasteurised Cow Milk and one 500 ml pack of Amul Taaza Pasteurised Toned Milk during an evening session on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% of population activity is in the evening). The products are small-format fresh dairy staples typically used for immediate consumption, such as tea, coffee, or breakfast preparation.",
+  "uncertainty_text": "This is a single-observation window; it is not yet established whether this represents a stable preference for these specific brands or a one-time replenishment need.",
+  "overall_confidence": "low"
+}

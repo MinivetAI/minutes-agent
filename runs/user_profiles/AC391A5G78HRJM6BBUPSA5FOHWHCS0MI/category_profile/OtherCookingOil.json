@@ -1,0 +1,34 @@
+{
+  "category": "Other Cooking Oil",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for Dhara Kachi Ghani Mustard Oil, evidenced by purchases across three independent dates in February 2026 and a repeat purchase in July 2026. This brand is the primary driver of the category's slow replenishment cadence (approx. 25 days). Other brands (Fortune, Bail Kolhu) appear only as single-date observations and do not constitute stable preferences. The user buys these oils in convenient pouch formats (1 L, 750 g) for routine kitchen replenishment.",
+  "brand_preferences": [
+    {
+      "brand": "Dhara",
+      "preference_text": "Dhara Kachi Ghani Mustard Oil was purchased on three independent dates in February 2026 and again in July 2026, establishing a stable, high-confidence preference.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 25.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-14",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "The user typically replenishes this category every 25 days, with the next purchase estimated around 2026-08-08 based on this average cadence.",
+    "confidence": "high",
+    "evidence_count": 7,
+    "independent_date_count": 7
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions across different months.",
+  "substitution_text": "No stable substitution pattern identified; the user primarily returns to Dhara but has occasionally tried Fortune and Bail Kolhu on single dates.",
+  "price_value_text": "The user purchases standard pouch formats (1 L, 750 g), suggesting a preference for convenient, value-oriented packaging for everyday cooking.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. Single-date purchases of Fortune and Bail Kolhu are treated as isolated observations rather than emerging preferences.",
+  "mission_generation_text": "Routine kitchen replenishment for everyday Indian cooking needs.",
+  "overall_confidence": "high"
+}

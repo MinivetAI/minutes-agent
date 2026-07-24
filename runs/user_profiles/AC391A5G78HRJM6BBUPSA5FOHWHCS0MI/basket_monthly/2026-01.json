@@ -1,0 +1,12 @@
+{
+  "month": "2026-01",
+  "summary_text": "On 2026-01-29, a weekday, a single order was placed in the morning. The basket contained three items: one unit of Milk, one unit of Unmapped-CND, and one unit of Unmapped-TPS. The user may be restocking basic dairy and miscellaneous household or personal care items. This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. The presence of Unmapped-CND and Unmapped-TPS limits specific category interpretation.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The user may be restocking basic dairy and miscellaneous household or personal care items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. The presence of Unmapped-CND and Unmapped-TPS limits specific category interpretation.",
+  "overall_confidence": "low"
+}

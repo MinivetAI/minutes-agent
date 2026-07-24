@@ -1,0 +1,103 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-01 (morning, weekday) containing four items: two distinct vegetable products, one paneer/tofu product, and one milk product. The basket reflects a basic meal-preparation need compatible with these ingredients. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Vegetables",
+        "Paneer Tofu",
+        "Milk"
+      ],
+      "combination_text": "Vegetables, Paneer Tofu, and Milk were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables are a co-ordered pair.",
+      "support": 0.167,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables are a co-ordered pair.",
+      "support": 0.167,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk are a co-ordered pair.",
+      "support": 0.125,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "ReadyMeals",
+        "Vegetables"
+      ],
+      "combination_text": "ReadyMeals and Vegetables are a co-ordered pair.",
+      "support": 0.125,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Chips",
+        "CurdYogurt"
+      ],
+      "combination_text": "Chips and CurdYogurt are a co-ordered pair.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Chips",
+        "Vegetables"
+      ],
+      "combination_text": "Chips and Vegetables are a co-ordered pair.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "OtherPulses"
+      ],
+      "combination_text": "CurdYogurt and OtherPulses are a co-ordered pair.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "HavanItem",
+        "WashingBar"
+      ],
+      "combination_text": "HavanItem and WashingBar are a co-ordered pair.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of vegetables, paneer/tofu, and milk suggests a need for ingredients to prepare a home-cooked meal.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category co-occurrence are derived from aggregate evidence but cannot be attributed to durable user preferences or routines based on this single instance.",
+  "overall_confidence": "low"
+}

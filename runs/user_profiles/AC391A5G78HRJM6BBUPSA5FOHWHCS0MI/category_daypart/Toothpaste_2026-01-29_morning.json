@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Colgate Strong Teeth Toothpaste (300 g) in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a period with a population share of 0.3246. The product is a routine oral-care staple.",
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

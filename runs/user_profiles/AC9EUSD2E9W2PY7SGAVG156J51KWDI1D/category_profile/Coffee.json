@@ -1,0 +1,40 @@
+{
+  "category": "Coffee",
+  "profile_text": "The user has purchased Continental Malgudi 60 Degree Filter Coffee (200 g pouch) on two independent dates (2026-04-26 and 2026-06-03), both in the evening. This establishes a stable preference for this specific brand and product variant. Purchases occurred on a weekend and a weekday, with no consistent daypart preference relative to the population baseline (evening activity is slightly below the morning baseline). Cadence is unknown based on the two-month span. The product is a traditional South Indian filter coffee powder for decoction-style brewing, supporting a need for daily household staple replenishment.",
+  "brand_preferences": [
+    {
+      "brand": "Continental Malgudi",
+      "preference_text": "Stable preference for Continental Malgudi coffee, observed on two independent dates (April and June 2026).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Continental Malgudi 60 Degree Filter Coffee Pouch 200 g, observed on two independent dates.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-03",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-06-03; cadence is unknown, so next purchase date cannot be estimated.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by two completed transactions for the same product.",
+  "substitution_text": "No evidence of substitution; the user consistently purchased the same brand and product variant.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior; only one pack size and brand observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Replenishment of a daily household staple (South Indian filter coffee powder) for decoction-style brewing.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,12 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, five independent orders were placed across weekdays and weekends, primarily in the evening and morning dayparts. The baskets consistently included Milk and Vegetables, often alongside Spices Masala, indicating a recurring need for basic meal preparation ingredients. Additional items varied by order, including baking staples (Flour), household cleaning supplies (Washing Bar, Washing Powder, Soap), personal care items (Condom, Soap), and snacks (Cookies Biscuits). No durable, repeated daypart behavior or stable basket-building patterns were established due to the lack of repetition across independent dates for specific category combinations beyond the frequent co-occurrence of Milk and Vegetables. Abandoned cart patterns were not observed.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The user has a need for basic grocery staples, specifically dairy and fresh produce, for meal preparation. Additional needs include household cleaning, personal care, and occasional snacks or baking ingredients.",
+  "uncertainty_text": "This analysis is based on five independent orders. While Milk and Vegetables appear together in multiple orders, this does not constitute a stable, recurring preference pattern requiring the use of terms like 'routine' or 'stable' without further evidence of consistent behavior across more dates or specific dayparts. The Unmapped-AFS, Unmapped-SPP, and Unmapped-CMF categories lack specific product identification, limiting precise intent inference. No abandoned carts were recorded across any daypart.",
+  "overall_confidence": "low"
+}

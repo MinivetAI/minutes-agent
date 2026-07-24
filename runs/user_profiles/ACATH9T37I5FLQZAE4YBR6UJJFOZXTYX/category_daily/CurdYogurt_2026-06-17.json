@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-17 (weekday), the user purchased 2 units of Amul Masti Dahi Plain Curd (200 ml) during the morning. This order occurred during a period representing 32.46% of the user's total weekly volume. The product is a small-pack plain dairy staple, typically used for immediate consumption or as a component of everyday meals. This is a single observed order; durable preferences or routine habits cannot be established from this window alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Amul Masti Dahi Plain Curd (200 ml).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences or routine habits cannot be established from this window alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-02, a weekday, a single order was placed in the evening. The basket consisted exclusively of six distinct vegetable products, with one unit of each. The purchase demonstrates narrow breadth, focusing solely on the Vegetables category. This behavior is compatible with a need for fresh produce preparation.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables were co-ordered in 4 instances across the evidence set.",
+      "support": 0.167,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were co-ordered in 4 instances across the evidence set.",
+      "support": 0.167,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk were co-ordered in 3 instances across the evidence set.",
+      "support": 0.125,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "ReadyMeals",
+        "Vegetables"
+      ],
+      "combination_text": "ReadyMeals and Vegetables were co-ordered in 3 instances across the evidence set.",
+      "support": 0.125,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Chips",
+        "CurdYogurt"
+      ],
+      "combination_text": "Chips and CurdYogurt were co-ordered in 2 instances across the evidence set.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Chips",
+        "Vegetables"
+      ],
+      "combination_text": "Chips and Vegetables were co-ordered in 2 instances across the evidence set.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "OtherPulses"
+      ],
+      "combination_text": "CurdYogurt and OtherPulses were co-ordered in 2 instances across the evidence set.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "HavanItem",
+        "WashingBar"
+      ],
+      "combination_text": "HavanItem and WashingBar were co-ordered in 2 instances across the evidence set.",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of fresh produce.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

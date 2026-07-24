@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-27",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased one 800 ml pouch of Amul Plain Curd (dahi) during the morning. This purchase occurred during a time when 32.46% of the population is active in the Curd Yogurt category. The product is a standard fresh dairy item typically used for immediate household consumption, such as meals, raita, or side dishes. This is a single observation on one date; it does not establish a stable preference for the Amul brand or this specific pack size. No browsing or search activity was recorded to indicate comparison or discovery intent.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 800 ml pouch of Amul Plain Curd (dahi).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the Amul brand or this specific pack size. No browsing or search activity was recorded to indicate comparison or discovery intent.",
+  "overall_confidence": "low"
+}

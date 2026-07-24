@@ -1,0 +1,26 @@
+{
+  "category": "Flour",
+  "profile_text": "The user has purchased flour three times across independent dates (March, April, and July 2026), establishing a slow replenishment cadence of approximately 53.5 days. Purchases consistently occurred on weekdays in the afternoon. No brand preference is established due to the absence of brand data in the summaries. No discovery signals (search/view/cart) were recorded.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 53.5,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": "2026-08-31",
+    "replenishment_text": "The user buys flour roughly every 53.5 days, with the next purchase estimated around August 31, 2026.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as all observed search/view/cart activity is absent and all recorded interest resulted in completed orders.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports routine baking or cooking needs requiring flour as a staple ingredient.",
+  "overall_confidence": "medium"
+}

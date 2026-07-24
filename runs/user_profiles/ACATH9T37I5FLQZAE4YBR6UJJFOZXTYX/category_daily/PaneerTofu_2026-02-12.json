@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-12",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-12 (weekday), one order of Amul Malai Paneer 200 g was placed in the afternoon. This timing is less common for this category compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a fresh dairy ingredient typically used for immediate cooking. This is a single observation on one date; no stable brand or product preferences can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Amul Malai Paneer 200 g was placed in the afternoon. This timing is less common for this category compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a fresh dairy ingredient typically used for immediate cooking. This is a single observation on one date; no stable brand or product preferences can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

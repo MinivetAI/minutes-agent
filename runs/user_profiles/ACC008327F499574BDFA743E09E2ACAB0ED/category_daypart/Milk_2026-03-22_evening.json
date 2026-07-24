@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 5 units of Amul Taaza Pasteurised Toned Milk (500 ml) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time with significant population share (30.27%) for this category, suggesting a routine replenishment or immediate-use purchase for evening/night consumption or next-day breakfast preparation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a stable preference for Amul or this specific product format, or if it was a one-time need.",
+  "overall_confidence": "low"
+}

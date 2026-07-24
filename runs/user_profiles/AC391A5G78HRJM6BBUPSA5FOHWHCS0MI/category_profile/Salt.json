@@ -1,0 +1,40 @@
+{
+  "category": "Salt",
+  "profile_text": "In February 2026, the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt on a weekend evening. This single order does not establish a durable preference or routine. It is unclear if this represents a planned replenishment or an immediate need due to running out of stock.",
+  "brand_preferences": [
+    {
+      "brand": "Tata",
+      "preference_text": "Tata was observed in one independent date (2026-02-28). This single observation does not establish a durable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Tata Salt Free Flowing Iodised Salt (1 kg pack) was purchased once on 2026-02-28. This single order does not establish a durable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-28",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Supports basic cooking and food seasoning needs.",
+  "overall_confidence": "low"
+}

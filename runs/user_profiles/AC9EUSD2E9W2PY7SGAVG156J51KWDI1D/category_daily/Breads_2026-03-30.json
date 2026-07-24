@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-30 (weekday), the user purchased 1 unit of Britannia Breakfast Slice White Bread 450 g during the morning. This purchase aligns with a population morning share of 0.3246 and suggests a need for immediate meal continuity or convenience for breakfast or sandwiches. This is a single observed order; durable preferences or habitual buying patterns cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Britannia Breakfast Slice White Bread 450 g. This timing aligns with a population morning share of 0.3246, suggesting a need for immediate meal continuity or convenience.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

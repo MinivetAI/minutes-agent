@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Amul A2 Buffalo Pasteurised Milk 500 ml in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time with 30.27% population share, suggesting a timing compatible with dinner preparation or next-day breakfast needs.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or routine.",
+  "overall_confidence": "low"
+}

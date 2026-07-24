@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 L pack of Aashirvaad Svasti Pure Cow Ghee.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the afternoon on a weekday, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The product is a routine kitchen staple used for daily cooking, tadka, or sweets.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time replenishment or part of a recurring habit.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one pack of Scotch-Brite Stainless Steel & Scrub Pad Combo and one pack of Flipkart Supermart Scrub Pad Medium (Pack of 3) during the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time when the user's activity was 0.2526 relative to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The items are general-purpose household cleaning accessories intended for scrubbing cookware, sinks, and other hard surfaces.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or format preferences cannot be established. It is unclear whether the user prefers the specific Scotch-Brite brand, the Flipkart Supermart private label, or both, or if this was a one-time restock.",
+  "overall_confidence": "low"
+}

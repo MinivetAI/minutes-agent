@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-03",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased edible oils during the morning daypart, specifically one 2-litre bottle of Fortune Soya Health Refined Soyabean Oil and two 1-litre pouches of Dhara Kachi Ghani Mustard Oil. These items are routine kitchen staples suitable for immediate cooking needs such as frying and sautéing. This single observation does not establish stable preferences or routine habits.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 2-litre bottle of Fortune Soya Health Refined Soyabean Oil and two 1-litre pouches of Dhara Kachi Ghani Mustard Oil. These items are routine kitchen staples for immediate cooking needs such as frying and sautéing.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable preferences or routine habits.",
+  "overall_confidence": "low"
+}

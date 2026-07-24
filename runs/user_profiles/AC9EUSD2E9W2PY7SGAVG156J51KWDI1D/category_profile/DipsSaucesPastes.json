@@ -1,0 +1,40 @@
+{
+  "category": "Dips Sauces Pastes",
+  "profile_text": "In April 2026, the user placed one order for Ching's Secret Dark Soy Sauce (210 g) on a weekday morning. This single observation indicates an immediate cooking need for Indo-Chinese dishes, such as stir-fries or fried rice, rather than a stable preference. The morning timing aligns with the population baseline, where morning activity accounts for 32.46% of share for this category.",
+  "brand_preferences": [
+    {
+      "brand": "Ching's Secret",
+      "preference_text": "Observed in one order.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Ching's Secret Dark Soy Sauce (210 g) observed in one order.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-27",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Immediate cooking need for Indo-Chinese dishes, such as stir-fries or fried rice.",
+  "overall_confidence": "low"
+}

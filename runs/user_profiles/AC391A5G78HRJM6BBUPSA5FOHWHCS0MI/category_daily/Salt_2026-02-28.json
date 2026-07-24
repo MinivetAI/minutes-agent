@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-28",
+  "day_type": "weekend",
+  "summary_text": "On the evening of 2026-02-28 (weekend), the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt. This is a standard household iodized table salt intended for everyday cooking and replenishment. The purchase occurred during the evening, a time when the user's activity was 0.3027 relative to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). This is a single observed order; it does not establish a durable preference or routine. It is unclear if this represents a planned replenishment or an immediate need due to running out of stock.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt during the evening on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine. It is unclear if this represents a planned replenishment or an immediate need due to running out of stock.",
+  "overall_confidence": "low"
+}

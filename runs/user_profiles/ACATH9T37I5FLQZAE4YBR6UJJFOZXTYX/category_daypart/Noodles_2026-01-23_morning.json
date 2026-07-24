@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 12-pack of Maggi 2-Minute Masala Instant Noodles (70 g sachets) during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning (32.5% population baseline share) on a weekday. The product is a high-urgency convenience item, typically used for quick meals or snacks when time is limited.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable, recurring preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-23 (weekday), a single order was placed in the morning daypart. The basket contained one unit each of Milk, Vegetables, Noodles, and Breads. This combination of items is compatible with the preparation of a simple meal involving dairy, fresh produce, carbohydrates, and grains. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a simple meal involving dairy, fresh produce, carbohydrates, and grains.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or recurring pattern.",
+  "overall_confidence": "low"
+}

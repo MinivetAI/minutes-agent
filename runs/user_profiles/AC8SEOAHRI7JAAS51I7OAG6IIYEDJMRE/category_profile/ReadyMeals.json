@@ -1,0 +1,26 @@
+{
+  "category": "Ready Meals",
+  "profile_text": "The user has placed two distinct orders in the Ready Meals category: HyFun Fries Straight Cut 425 g on a weekday evening in February 2026, and Safal Frozen Green Peas 500 g on a weekend afternoon in March 2026. These purchases indicate a need for convenient, quick-cooking meal components or side dishes. Due to the limited number of transactions and lack of repeated brand or product purchases, no stable brand preferences or recurring routines are established.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-21",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established; last purchase was on 2026-03-21.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases, indicating reliable conversion from interest to purchase.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior observed beyond standard transactional purchases.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases were completed.",
+  "mission_generation_text": "Shopping needs supported by this category profile include acquiring convenient, quick-cooking meal components or side dishes for fast meal preparation.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Parwal (250 g), an unbranded fresh pointed gourd, was purchased in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a fresh, perishable vegetable suitable for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific transaction.",
+  "overall_confidence": "low"
+}

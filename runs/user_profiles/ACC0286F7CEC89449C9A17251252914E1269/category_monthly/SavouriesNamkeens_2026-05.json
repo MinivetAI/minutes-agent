@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased savouries namkeens on two independent dates (2026-05-01 and 2026-05-20), both occurring on weekdays during the evening. The evening timing aligns with the population baseline (evening share 0.3027), suggesting a pattern compatible with tea-time snacking or immediate hunger relief. While the user bought different specific items on each date, the brand 'Gopal Namkeen' appears on both dates (Ratlami Sev on 05-01 and Vanela Gathiya on 05-20), meeting the repetition bar for stable preference. The specific product variants (Ratlami Sev, Methi Mathri, Vanela Gathiya) and the secondary brand (Indie Flavors by Flipkart) appear only once each and are excluded from stable lists.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Gopal Namkeen",
+      "claim_text": "The user has purchased Gopal Namkeen products on two independent dates in May 2026 (Ratlami Sev on 2026-05-01 and Vanela Gathiya on 2026-05-20). This repetition across independent dates supports a stable brand preference with at least medium confidence.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Specific product variants and the Indie Flavors brand appear only on single dates, so no stable preference can be established for them. The user's preference is limited to the Gopal Namkeen brand based on the two observed dates.",
+  "overall_confidence": "medium"
+}

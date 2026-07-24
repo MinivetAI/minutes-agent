@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Pilgrim Red Vine Night Creme Gel (50 g), a night face moisturizer.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when the user's activity is less common than the population baseline for morning (0.3246) and evening (0.3027) sessions. The product is a night-use moisturizer, suggesting the purchase was made for future overnight application rather than immediate daytime use.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

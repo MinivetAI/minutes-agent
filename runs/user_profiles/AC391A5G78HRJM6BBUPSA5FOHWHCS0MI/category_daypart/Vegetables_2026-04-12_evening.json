@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one unit of Potato 400–450g (fresh, loose vegetable) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a fresh staple tuber used as a cooked vegetable or base ingredient, typically suited for immediate meal preparation or stockout replacement.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference, routine, or recurring need for potatoes. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

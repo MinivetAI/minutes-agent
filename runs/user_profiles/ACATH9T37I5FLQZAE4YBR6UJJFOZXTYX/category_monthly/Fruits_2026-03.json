@@ -1,0 +1,23 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased Watermelon Kiran on two independent dates (2026-03-15 and 2026-03-27). This repetition establishes a stable preference for this specific product variant. The user also exhibits a pattern of purchasing this item during both evening and afternoon dayparts, indicating flexible timing rather than a strict routine. No other fruits were observed.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Watermelon Kiran",
+      "claim_text": "The user has a stable preference for Watermelon Kiran, evidenced by purchases on two independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased Watermelon Kiran in both the evening (weekend) and afternoon (weekday) during March 2026, suggesting no single dominant daypart preference for this item within this month.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "This analysis is based on only two purchase events in March 2026. While the repetition of Watermelon Kiran supports a medium-confidence stable preference, the small sample size limits the ability to generalize broader fruit preferences or long-term habits.",
+  "overall_confidence": "medium"
+}

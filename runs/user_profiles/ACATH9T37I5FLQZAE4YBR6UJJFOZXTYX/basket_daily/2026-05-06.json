@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-06 (weekday), a single order was placed in the afternoon. The basket contained 6 items: 4 units of Vegetables, 1 unit of Sweets Mithai, and 1 unit of Aerated Drinks. The order-building behavior indicates a primary focus on fresh produce, supplemented by a single sweet item and a single beverage. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Vegetables",
+        "Sweets Mithai"
+      ],
+      "combination_text": "Vegetables and Sweets Mithai were purchased together in this single order.",
+      "support": 0.0,
+      "lift": 0.0,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Vegetables and Aerated Drinks were purchased together in this single order.",
+      "support": 0.0,
+      "lift": 0.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of fresh vegetables, a sweet treat, and a carbonated beverage is compatible with a general household grocery restock or a casual meal preparation that includes a snack or dessert component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, `overall_confidence` is low. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not indicate that this specific user has a stable preference for those pairings; it merely notes that those categories appear together frequently in the broader dataset.",
+  "overall_confidence": "low"
+}

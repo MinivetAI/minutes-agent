@@ -1,0 +1,42 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend afternoon included one unit each of Canned Food, Breads, and Vegetables, alongside four units of Curd Yogurt (split across two product SKUs). The basket reflects a basic grocery need compatible with staple food items. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Canned Food",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Canned Food and Curd Yogurt were purchased together in this order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Staple food replenishment.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not durable.",
+  "overall_confidence": "low"
+}

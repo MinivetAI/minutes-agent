@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-12",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-12 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Milk, 1 unit of Ready Meals, 2 units of Chocolates, 1 unit of Breads, 1 unit of Aerated Drinks, and 1 unit of Vegetables. This combination includes staple ingredients (Milk, Breads, Vegetables) alongside convenience items (Ready Meals, Chocolates, Aerated Drinks). The presence of Milk, Breads, and Vegetables is compatible with preparing home-cooked meals or breakfasts, while Ready Meals and Chocolates suggest a need for quick options or treats. This is a single observed order; it does not establish a durable preference or routine. The specific combination of convenience and staple items may reflect a one-time need rather than a stable shopping pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of Milk, Breads, and Vegetables is compatible with preparing home-cooked meals or breakfasts, while Ready Meals and Chocolates suggest a need for quick options or treats.",
+  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine. The specific combination of convenience and staple items may reflect a one-time need rather than a stable shopping pattern.",
+  "overall_confidence": "low"
+}

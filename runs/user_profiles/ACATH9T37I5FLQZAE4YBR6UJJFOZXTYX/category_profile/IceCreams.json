@@ -1,0 +1,40 @@
+{
+  "category": "Ice Creams",
+  "profile_text": "The user demonstrates a stable, medium-confidence preference for Amul Butterscotch Tricone 120 ml ice cream cones, evidenced by purchases on two independent dates in April 2026. This specific product serves as a single-serve frozen dessert for immediate indulgence. Purchases occurred on weekdays, once in the evening and once in the afternoon, indicating flexible timing within the daypart spectrum rather than a rigid daily routine. No other ice cream brands, flavors, or formats were purchased in this period to establish broader category preferences. Replenishment cadence is unknown based on the limited evidence.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Stable preference for Amul, evidenced by purchases on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Amul Butterscotch Tricone 120 ml, evidenced by purchases on two independent dates in April 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-24",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-04-24. Cadence is unknown due to insufficient data to establish a regular interval.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions for the preferred product.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently purchased the same specific product variant.",
+  "price_value_text": "No explicit price or value behavior evidence provided.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has a clear, repeated purchase of a single item.",
+  "mission_generation_text": "Shopping needs supported by this category profile include acquiring single-serve frozen desserts for immediate personal indulgence, specifically favoring the Amul Butterscotch Tricone format.",
+  "overall_confidence": "medium"
+}

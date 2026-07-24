@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 250 g pack of Unbranded Litchi Without Stems.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246). The item is a fresh, ready-to-eat fruit suitable for immediate consumption or snacking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for litchi or fresh fruits in general.",
+  "overall_confidence": "low"
+}

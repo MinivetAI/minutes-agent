@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Amul Cow Milk 500 ml and 1 unit of Amul Mithai Mate Sweetened Condensed Milk 200 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The products are fresh dairy staples and a shelf-stable sweetening ingredient, suggesting immediate household replenishment or preparation needs.",
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
+  "overall_confidence": "low"
+}

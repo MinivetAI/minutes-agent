@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-01-30 in the afternoon on a weekday. The basket contains two distinct categories: Ice Creams (4 units across 4 different products) and Vegetables (2 units across 2 different products). The order-building behavior shows a mix of indulgent and staple items purchased together in one transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Ice Creams",
+        "Vegetables"
+      ],
+      "combination_text": "Ice Creams and Vegetables were purchased together in this order.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of ice cream and vegetables suggests a need for both immediate indulgence and meal preparation ingredients.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

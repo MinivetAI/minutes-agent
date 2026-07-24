@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 668 g pack of Britannia Toastea Premium Elaichi Rusk, a wheat-based, cardamom-flavored baked snack positioned as a tea-time companion.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred on a weekend morning, a time when population share for this category is 0.3246. The product serves as a quick, ready-to-eat snack for tea or coffee.",
+  "uncertainty_text": "This is a single observed transaction; durable brand or flavor preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

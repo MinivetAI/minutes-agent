@@ -1,0 +1,12 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, four independent orders were placed, all occurring on weekends except for one weekday afternoon. The user purchased basic breakfast staples (Rusk, Milk, Wheat Flour), household cleaning and ritual items (Havan Item, Washing Powder, Washing Bars), morning beverage and produce (Tea, Vegetables), and meal ingredients (Other Pulses, Curd Yogurt). No category combinations, dayparts, or product types were repeated across independent dates. Consequently, no stable behavioral patterns, routine preferences, or recurring abandonment behaviors can be established. All observations are treated as isolated instances.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The observed needs include basic breakfast preparation, household cleaning and ritual maintenance, morning beverage and fresh produce consumption, and legume/dairy meal preparation. These needs are inferred from single, non-repeated orders.",
+  "uncertainty_text": "All observed behaviors are based on single independent dates. No repeated daypart behavior, basket-building patterns, category combinations, or shopping needs were identified across multiple dates. Isolated observations include: Rusk/Milk/Wheat Flour (2026-03-07), Havan Item/Washing Bar (2026-03-15), Tea/Vegetables (2026-03-29), and Curd Yogurt/Other Pulses (2026-03-30). No abandonment patterns were repeated across independent dates.",
+  "overall_confidence": "low"
+}

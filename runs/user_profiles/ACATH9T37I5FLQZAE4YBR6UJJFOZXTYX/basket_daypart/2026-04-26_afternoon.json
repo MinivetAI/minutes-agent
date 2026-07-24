@@ -1,0 +1,32 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "On 2026-04-26 (afternoon, weekend), a single order was placed containing 12 items across 8 categories. The basket included 1 Lotion Cream, 5 Vegetables, 2 Milk, 3 Savouries Namkeens, 1 Poha, 1 Spices Masala, 1 Oats, and 1 Other Pulses. The order-building behavior shows a mix of staple food items (vegetables, milk, spices, grains) and a personal care item (lotion).",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for meal preparation involving vegetables, milk, and spices, along with a snack (savouries) and a personal care item (lotion).",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

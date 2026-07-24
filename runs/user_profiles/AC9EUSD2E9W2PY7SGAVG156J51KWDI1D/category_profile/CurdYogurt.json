@@ -1,0 +1,40 @@
+{
+  "category": "Curd Yogurt",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for Amul Masti plain curd, evidenced by purchases across four independent dates (May 1, May 7, May 22, and June 4). This preference is anchored in morning weekday purchasing behavior. While the user also purchased a different brand (Mother Dairy) in June, the repetition of Amul Masti establishes it as the primary preferred brand. The user exhibits flexibility in pack size, ordering both 200 ml and 390 ml variants, suggesting needs for immediate consumption or meal pairing rather than bulk stocking. The observed cadence of 15 days indicates a medium-frequency replenishment routine.",
+  "brand_preferences": [
+    {
+      "brand": "Amul Masti",
+      "preference_text": "The user has a stable preference for Amul Masti plain curd, evidenced by purchases on four independent dates (May 1, May 7, May 22, June 4).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user consistently purchases Amul Masti plain curd variants (200 ml and 390 ml) across multiple independent dates.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 15.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-06-26",
+    "predicted_next_purchase_date": "2026-07-11",
+    "replenishment_text": "The user typically replenishes this category every 15 days, with the next purchase estimated around 2026-07-11.",
+    "confidence": "high",
+    "evidence_count": 8,
+    "independent_date_count": 8
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions without preceding search or cart-add hesitation.",
+  "substitution_text": null,
+  "price_value_text": "The user purchases small, single-serve or small family-size packs (200 ml, 390 ml), indicating a preference for immediate consumption or top-up needs rather than bulk value buying.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior detected. The user shows flexibility in pack size and has occasionally tried alternative brands (Mother Dairy), but returns to the preferred brand.",
+  "mission_generation_text": "Supports daily nutritional needs, meal preparation (e.g., raita, marinades), and immediate consumption as a breakfast or snack staple.",
+  "overall_confidence": "high"
+}

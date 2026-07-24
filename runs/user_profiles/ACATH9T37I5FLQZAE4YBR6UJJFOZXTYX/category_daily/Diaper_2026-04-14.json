@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-14 (weekday), the user purchased two distinct pant-style diaper products during the evening: one 4-piece pack of Pampers Premium Care Pants (Size M) and one 56-count pack of Pampers Complete Skin Comfort Pant Diapers (Size XL). This evening activity aligns with the population baseline (30.27% share). The simultaneous purchase of two different sizes suggests a restocking or size-up event for a growing child, likely addressing immediate household needs or preparing for overnight use.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable, recurring preference or routine. The specific reason for choosing these two sizes simultaneously (e.g., managing a child in transition, stocking for multiple children, or replacing a stockout) is not established.",
+  "overall_confidence": "low"
+}

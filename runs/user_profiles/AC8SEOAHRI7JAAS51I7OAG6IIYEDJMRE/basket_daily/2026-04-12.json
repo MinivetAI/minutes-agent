@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-12",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-12 (weekend), a single order was placed during the evening. The basket contained two items from the Ice Creams category: 1 unit of ICEHBDZ2SARBNR7H and 1 unit of ICEH2DJ7EJWSFFVK. No other categories were purchased, and no abandoned carts were recorded for this daypart. The purchase is compatible with a need for a dessert or a sweet treat. This analysis is based on a single observed order on one date, representing an observation rather than a durable preference or stable pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Ice Creams"
+      ],
+      "combination_text": "Ice Creams",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of ice cream is compatible with a need for a dessert or a sweet treat.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior is evident.",
+  "overall_confidence": "low"
+}

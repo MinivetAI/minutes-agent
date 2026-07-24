@@ -1,0 +1,53 @@
+{
+  "profile_text": "The user\u2019s shopping behavior is characterized by sporadic, ad-hoc purchases across a wide variety of categories, with no durable routines or stable preferences established across the observed period. While certain category pairs\u2014specifically Breads with Curd Yogurt, Curd Yogurt with Vegetables, Curd Yogurt with Milk, and Breads with Vegetables\u2014appear repeatedly in April 2026, these combinations do not persist into subsequent months (May\u2013July 2026), where basket composition becomes highly variable and isolated. In May 2026, items like Aerated Drinks, Milk, and Cookies Biscuits appear frequently but are paired with different categories each time, indicating no stable co-occurrence. The user\u2019s basket breadth ranges from narrow, single-purpose purchases (e.g., Ice Creams, Toothbrush, specific cleaning supplies) to broader meal-prep baskets including dairy, bakery, fresh produce, and pantry staples. Daypart activity is distributed across morning, afternoon, evening, and night, with no consistent timing pattern. The user demonstrates a need for basic meal components, household maintenance items, and occasional indulgences, but the specific combination of needs varies significantly by date.",
+  "behavior_patterns": [],
+  "daypart_behavior": [],
+  "basket_structure_text": "Baskets are typically narrow, often containing 1\u20135 distinct items, though occasional multi-category baskets appear. There is no consistent basket size or structure. Purchases span dairy (Milk, Curd Yogurt, Cheese, Paneer Tofu), bakery (Breads, Rusks), fresh produce (Vegetables, Fruits), pantry staples (Canned Food, Spices, Rice, Flour), snacks (Chips, Cookies, Savouries), beverages (Aerated Drinks), and household/personal care items (Cleaning supplies, Toothbrush).",
+  "circumstance_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt are purchased together in multiple independent orders.",
+      "support": 7.0,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables are purchased together in multiple independent orders.",
+      "support": 4.0,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk are purchased together in multiple independent orders.",
+      "support": 3.0,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables are purchased together in multiple independent orders.",
+      "support": 3.0,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "mission_generation_text": "The user requires basic meal components including dairy, bakery items, and fresh produce, along with occasional household supplies and snacks. Specific needs vary by date, ranging from breakfast preparation to general pantry replenishment and light refreshments.",
+  "uncertainty_text": "Analysis is based on 17 orders across 15 independent dates in March 2026, 14 independent orders in April 2026, 8 in May 2026, 3 in June 2026, and 4 in July 2026. While category pairs such as Breads/Curd Yogurt and Curd Yogurt/Vegetables appear repeatedly in April 2026, they do not repeat in subsequent months, preventing the establishment of a stable, long-term routine. In May 2026, frequent purchases of Aerated Drinks, Milk, and Cookies Biscuits lack consistent pairing, indicating isolated needs rather than stable preferences. No abandonment patterns were repeated across independent dates. The overall confidence is low because stable patterns are limited to a single month and do not persist across the broader observation window.",
+  "overall_confidence": "low"
+}

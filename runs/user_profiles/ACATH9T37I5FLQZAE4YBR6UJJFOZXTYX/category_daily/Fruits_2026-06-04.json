@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-04 (weekday), the user purchased 1 unit of Watermelon Kiran (fresh watermelon) in the afternoon. This order occurred during a period with a 25.26% population share, which is slightly below the morning peak (32.46%) and evening share (30.27%). The product is a fresh fruit item typically used for immediate consumption or hydration. This is a single observed order on one date; durable preferences, habitual buying patterns, or specific use cases (e.g., household size, event hosting) cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Watermelon Kiran (fresh watermelon).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences, habitual buying patterns, or specific use cases (e.g., household size, event hosting) cannot be established.",
+  "overall_confidence": "low"
+}

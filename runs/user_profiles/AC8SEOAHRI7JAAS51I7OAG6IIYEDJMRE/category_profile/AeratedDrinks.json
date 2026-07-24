@@ -1,0 +1,40 @@
+{
+  "category": "Aerated Drinks",
+  "profile_text": "The user demonstrates a high-confidence, stable preference for Coca-Cola Diet Coke Can 300 ml, observed on four independent dates in May 2026, typically purchased in the afternoon. This specific product represents a durable habit within the category. In contrast, other items such as Diet Coke, Sprite, Original Taste Coke, and Appy Fizz were purchased on single dates across April and June, indicating exploratory or situational buying without established routine. The user exhibits a fast replenishment cadence (every 4 days on average), with the last purchase on 2026-06-27 and a predicted next purchase around 2026-07-01. No discovery signals (search/view without purchase) were observed; all interest converted to transactions.",
+  "brand_preferences": [
+    {
+      "brand": "Coca-Cola",
+      "preference_text": "Stable preference for Coca-Cola brand, evidenced by repeated purchases of Diet Coke variants across multiple dates.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Coca-Cola Diet Coke Can 300 ml, observed on four independent dates in May 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 4.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-06-27",
+    "predicted_next_purchase_date": "2026-07-01",
+    "replenishment_text": "The user purchases aerated drinks approximately every 4 days, indicating a fast replenishment cycle.",
+    "confidence": "high",
+    "evidence_count": 9,
+    "independent_date_count": 9
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Aerated Drinks reliably converts to purchase; no unmet interest or discovery signals were observed.",
+  "substitution_text": "The user shows flexibility in non-preferred items (e.g., switching between Sprite, Appy Fizz, and other Coke variants), suggesting low substitution friction for non-core items, but high stickiness for the preferred Diet Coke Can.",
+  "price_value_text": "No explicit price or value behavior data was provided.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance patterns identified. Single-date purchases of Sprite and Appy Fizz do not indicate avoidance, only lack of stable preference.",
+  "mission_generation_text": "Routine refreshment and hydration needs, with a specific habitual reliance on Diet Coke for immediate consumption, supplemented by occasional variety-seeking or situational purchases of other carbonated beverages.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Paneer Tofu",
+  "profile_text": "The user demonstrates a stable preference for Mother Dairy Fresh Paneer (200 g), evidenced by repeated purchases across March and April 2026. Purchases occur with a slow cadence (approx. every 23 days), typically on weekends or weekdays, with timing varying between afternoon, evening, and night. The user relies on this specific packaged fresh dairy item for immediate cooking needs or meal preparation.",
+  "brand_preferences": [
+    {
+      "brand": "Mother Dairy",
+      "preference_text": "The user has ordered Mother Dairy Fresh Paneer on multiple independent dates in March and April 2026, indicating a stable preference for this brand within the Paneer Tofu category.",
+      "confidence": "medium",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has ordered Mother Dairy Fresh Paneer 200 g on multiple independent dates in March and April 2026, indicating a stable preference for this specific product.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 23.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-05",
+    "predicted_next_purchase_date": "2026-07-28",
+    "replenishment_text": "The user purchases this category approximately every 23 days, classified as a slow cadence. The last purchase was on 2026-07-05, with the next predicted purchase around 2026-07-28.",
+    "confidence": "medium",
+    "evidence_count": 7,
+    "independent_date_count": 7
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions for the preferred product.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently purchases the same brand and product variant.",
+  "price_value_text": "No explicit price or value behavior observed in the supplied summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has completed purchases consistently for the preferred brand/product.",
+  "mission_generation_text": "Supports immediate cooking needs and meal preparation, particularly for weekend or weekday dinners requiring fresh dairy ingredients.",
+  "overall_confidence": "medium"
+}

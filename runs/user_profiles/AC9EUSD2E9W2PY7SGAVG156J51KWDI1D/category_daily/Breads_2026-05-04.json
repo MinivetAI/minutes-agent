@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04 (weekday), the user purchased one 350 g loaf of Britannia Sandwich Bread during the morning. This order occurred in a daypart where the user's activity is 32.46% of their total (population baseline). The product is a mass-market sliced white bread, typically used for immediate breakfast needs, quick sandwiches, or toast. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 350 g loaf of Britannia Sandwich Bread during the morning on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

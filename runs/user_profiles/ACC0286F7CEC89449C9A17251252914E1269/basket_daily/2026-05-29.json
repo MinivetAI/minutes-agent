@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-29",
+  "day_type": "weekday",
+  "summary_text": "On this weekday evening, a single order was placed containing one unit of Butter Margarine and one unit of Curd Yogurt. This combination reflects a basic dairy-focused need, potentially for breakfast preparation, cooking, or immediate consumption. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Butter Margarine",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Butter Margarine and Curd Yogurt were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk are frequently co-ordered (support: 0.421, lift: 1.206), suggesting a common dairy pairing, though Milk was not in this specific basket.",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk are frequently co-ordered (support: 0.211, lift: 1.357), indicating a common snack/dairy pairing, though neither was in this specific basket.",
+      "support": 0.211,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Butter Margarine and Curd Yogurt is compatible with a need for basic dairy staples, potentially for breakfast preparation, cooking, or immediate consumption.",
+  "uncertainty_text": "This analysis is based on a single observed order on 2026-05-29. No durable preferences, routines, or stable patterns can be inferred from this single data point. The category pair evidence provided reflects population-level co-ordering statistics, not this specific user's history.",
+  "overall_confidence": "low"
+}

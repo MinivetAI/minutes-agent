@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when milk buying is less common than the population baseline morning (0.3246) or evening (0.3027) peaks, but aligns with the afternoon share (0.2526). The product is a small-format, single-use liquid milk intended for immediate kitchen consumption such as tea, coffee, or breakfast.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type. The specific reason for the afternoon timing or the choice of this specific brand over others is not established.",
+  "overall_confidence": "low"
+}

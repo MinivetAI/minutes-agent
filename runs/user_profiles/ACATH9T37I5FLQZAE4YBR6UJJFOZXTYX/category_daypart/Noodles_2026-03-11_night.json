@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 12-pack of Maggi 2-Minute Masala Instant Noodles (70 g sachets) during the night on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred at night on a weekday, a time when population share (12.02%) is lower than morning (32.46%), afternoon (25.26%), or evening (30.27%). The product is a high-urgency convenience item, typically used for quick meals or snacks when immediate appetite or stockout replacement is needed.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the night-time purchase (e.g., late craving vs. planned stock-up) cannot be determined from this evidence alone.",
+  "overall_confidence": "low"
+}

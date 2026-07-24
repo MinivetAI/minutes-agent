@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-07",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-07 (weekday), the user purchased one unit of Chef's Basket Instant Macaroni Pasta (400 g) during the evening. This evening order aligns with the user's activity share (100% of observed share) and the population baseline for this daypart (30.27%). The product is a quick-cook, home-use pasta suitable for fast meals or snacks. This is a single observation on one date; no durable brand or product preference can be established. It is unclear if this was a one-time convenience purchase or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one unit of Chef's Basket Instant Macaroni Pasta (400 g) during the evening on a weekday. This evening order aligns with the user's activity share (100% of observed share) and the population baseline for this daypart (30.27%). The product is a quick-cook, home-use pasta suitable for fast meals or snacks.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preference can be established. It is unclear if this was a one-time convenience purchase or part of a recurring habit.",
+  "overall_confidence": "low"
+}

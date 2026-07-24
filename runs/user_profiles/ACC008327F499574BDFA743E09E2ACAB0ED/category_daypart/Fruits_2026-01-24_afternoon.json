@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Unbranded Sapota Chikoo 500 g (fresh sapota fruit) during an afternoon shopping session on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a fresh fruit item typically used for immediate consumption, snacking, or dessert.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this specific fruit or brand.",
+  "overall_confidence": "low"
+}

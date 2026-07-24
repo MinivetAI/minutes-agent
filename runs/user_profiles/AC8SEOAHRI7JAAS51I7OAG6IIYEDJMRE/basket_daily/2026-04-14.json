@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-14, a weekday, a single order was placed in the morning. The basket contained one unit each of Curd Yogurt, Breads, and Fruits, representing a small basket breadth with three distinct categories. The combination of Breads and Curd Yogurt has a support of 0.129, confidence of 0.346, and lift of 0.969 based on co-order evidence. The shopping need text suggests a simple breakfast or light meal preparation compatible with these items. As this is a single observed order, it is an observation, not a durable preference.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order. Population-level evidence shows a support of 0.129, confidence of 0.346, and lift of 0.969 for this pair.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a simple breakfast or light meal involving dairy and grain products.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or recurring patterns can be inferred.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-16 (weekday), the user purchased one 200 g pack of Safal Frozen Green Peas during the morning. This single observation supports a concrete need for a frozen vegetable ingredient for convenient, small-batch home cooking. No stable brand or product preference can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 200 g pack of Safal Frozen Green Peas. This is a single observation on one date; no stable brand or product preference can be established.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established.",
+  "overall_confidence": "low"
+}

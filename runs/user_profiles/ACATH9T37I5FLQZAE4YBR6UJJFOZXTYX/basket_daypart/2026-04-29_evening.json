@@ -1,0 +1,11 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "On 2026-04-29 during the evening weekday, a single order was placed containing 10 items. The basket is heavily weighted toward Vegetables (6 units), accompanied by two units of Milk, one unit of Curd Yogurt, and one unit of Aerated Drinks. This represents a single observation of a vegetable-centric grocery trip with dairy and beverage additions.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of fresh vegetables, milk, and curd yogurt is compatible with preparing home-cooked meals or daily household sustenance.",
+  "uncertainty_text": "This analysis is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "category": "Savouries Namkeens",
+  "profile_text": "The user demonstrates a fast-paced replenishment cycle for savouries namkeens, with purchases occurring approximately every 6.5 days. Recent behavior is characterized by high variety and exploratory purchasing rather than brand loyalty. In March 2026, the user made four distinct purchases across different brands (Haldiram's, Bikano, Khari Foods) and product types (traditional fried snacks, roasted makhana), indicating a preference for diverse snacking options or specific product needs rather than a single staple. The most recent purchase in April 2026 was a small, portioned pack of Farmley Tangy Tomato Roasted Makhana, aligning with evening snacking habits. No single brand or product has been repeated enough to establish a stable preference.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 6.5,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-04-08",
+    "predicted_next_purchase_date": "2026-04-14",
+    "replenishment_text": "The user typically purchases this category every 6.5 days, classified as a fast replenishment cycle.",
+    "confidence": "medium",
+    "evidence_count": 7,
+    "independent_date_count": 7
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by seven completed transactions across independent dates.",
+  "substitution_text": "The user frequently substitutes brands and product types (e.g., switching between Haldiram's, Bikano, Khari Foods, and Farmley), indicating high openness to substitution based on variety, format, or specific flavor needs.",
+  "price_value_text": "The user purchases a range of pack sizes, from small 20 g portioned packs (Farmley) to standard 200 g packs (Haldiram's), suggesting flexibility in price points and pack sizes based on immediate snacking needs.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. The lack of repeated brand purchases suggests no strong brand loyalty, but rather a preference for variety or specific product attributes (e.g., roasted vs. fried, specific flavors).",
+  "mission_generation_text": "Supports regular, frequent snacking needs, including portioned immediate consumption (evening snacks) and diverse traditional or alternative snack options (fried namkeens, roasted makhana).",
+  "overall_confidence": "medium"
+}

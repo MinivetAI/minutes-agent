@@ -1,0 +1,12 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, a single order was observed on a weekend afternoon. The basket contained Glass Cleaner and Washing Powder, suggesting routine household cleaning or laundry maintenance. Due to the lack of repetition across independent dates, no stable preferences, daypart behaviors, or category combinations can be confirmed as durable patterns.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "Routine household cleaning or laundry maintenance.",
+  "uncertainty_text": "This is a single observed order; durable preferences or stable patterns cannot be inferred from this isolated event.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,39 @@
+{
+  "category": "Sunscreen",
+  "profile_text": "The user has purchased sunscreen twice in 2026 (April and June), both times buying the Dot & Key brand. The first purchase was a 30 g face sunscreen in the evening; the second was a 50 g variant in the afternoon. Both were single-unit orders on weekend dates. Evidence is limited to two independent dates, preventing the establishment of a stable routine or high-confidence preference. The user appears to be testing or using this specific brand for daily facial protection, possibly valuing brightening claims and zero-white-cast finishes, but the pattern is not yet established enough to predict future behavior with certainty.",
+  "brand_preferences": [
+    {
+      "brand": "Dot & Key",
+      "preference_text": "The user has purchased Dot & Key sunscreen on two independent dates (2026-04-05 and 2026-06-20). This repetition across two months suggests an emerging preference, but with only two data points, confidence is medium. The user may be exploring this brand for facial protection.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-20",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict the next purchase. The last purchase was on 2026-06-20. Without a established routine, the timing of the next purchase is unknown.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "The user has converted interest into purchase for Dot & Key sunscreen on two occasions. While the brand shows emerging preference, the low volume and lack of consistent cadence mean this is not yet a reliable recurring purchase pattern.",
+  "substitution_text": "No substitution behavior observed. The user purchased the same brand (Dot & Key) but different pack sizes (30 g and 50 g) on different dates. It is unclear if the user substitutes between pack sizes or if this reflects changing needs.",
+  "price_value_text": "No explicit price or value behavior observed. The user purchased two different pack sizes of the same brand, which may indicate flexibility in pack size preference or testing different quantities.",
+  "emerging_preferences": [
+    {
+      "preference_text": "The user purchased Dot & Key sunscreen on two independent dates in 2026. This suggests an emerging preference for this brand for facial protection, particularly for its brightening and zero-white-cast claims. However, with only two purchases, this is not yet a stable routine.",
+      "confidence": "medium"
+    }
+  ],
+  "avoidance_or_uncertainty_text": "No avoidance behavior observed. The user has purchased from this category twice. The uncertainty lies in whether this is a stable routine or a temporary trial.",
+  "mission_generation_text": "The user likely needs daily facial sun protection, possibly for commuting or outdoor activities, with a preference for products that offer brightening benefits and a non-greasy finish. The purchase of different pack sizes suggests the user may be adjusting quantity based on usage rate or availability.",
+  "overall_confidence": "low"
+}

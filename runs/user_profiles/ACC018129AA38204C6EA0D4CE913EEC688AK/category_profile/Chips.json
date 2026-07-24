@@ -1,0 +1,34 @@
+{
+  "category": "Chips",
+  "profile_text": "The user demonstrates a stable preference for the brand Lay's, evidenced by purchases on two independent dates in March 2026. In July 2026, a single purchase of Lay's American Style Cream and Onion Chips was observed. The user exhibits a slow replenishment cadence, with the last purchase recorded in July 2026.",
+  "brand_preferences": [
+    {
+      "brand": "Lay's",
+      "preference_text": "The user has a stable preference for Lay's chips, evidenced by purchases on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 65.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-11",
+    "predicted_next_purchase_date": "2026-09-14",
+    "replenishment_text": "The user buys chips approximately every 65 days, a slow cadence. The last purchase was on 2026-07-11, with the next predicted around 2026-09-14.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions on multiple dates.",
+  "substitution_text": "The user has tried multiple Lay's variants (India's Magic Masala, Hot and Sweet Chilli, American Style Cream and Onion) across different dates, indicating openness to flavor substitution within the preferred brand.",
+  "price_value_text": "No specific price or value behavior is established from the supplied evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific avoidance or uncertainty signals are present beyond the single observation in July 2026 not establishing a new stable pattern.",
+  "mission_generation_text": "Restocking snack supplies for immediate consumption, such as satisfying instant cravings, taking a short break, or serving as a light, no-prep addition to a meal or hangout.",
+  "overall_confidence": "medium"
+}

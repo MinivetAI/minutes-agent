@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-15, a weekday, a single order was placed in the morning. The basket contained 10 distinct items across 8 categories: Wheat Flour, Havan Item, Chocolates, Indian Sweets, Pooja Flowers, Savouries Namkeens (2 items), Milk (2 units), Butter Margarine, and Aerated Drinks. The combination of Havan Items, Pooja Flowers, and Indian Sweets suggests a basket compatible with a religious or ceremonial need, alongside standard grocery staples like milk, flour, and snacks. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "WheatFlour"
+      ],
+      "combination_text": "Milk and Wheat Flour",
+      "support": 0.1,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Chocolates",
+        "Milk"
+      ],
+      "combination_text": "Chocolates and Milk",
+      "support": 0.1,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Breads",
+        "ButterMargarine"
+      ],
+      "combination_text": "Breads and Butter Margarine",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables",
+      "support": 0.06,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket includes specific ritual items (Havan Item, Pooja Flowers) and offerings (Indian Sweets, Chocolates), suggesting a need compatible with a religious ceremony or festival, supplemented by daily staples (Milk, Wheat Flour, Butter) and snacks (Savouries, Aerated Drinks).",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine. The presence of ritual items is specific to this instance and may not recur.",
+  "overall_confidence": "low"
+}

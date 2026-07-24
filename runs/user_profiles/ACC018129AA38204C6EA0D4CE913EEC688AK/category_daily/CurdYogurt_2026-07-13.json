@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-13 (weekday), the user purchased one 200 g pack of Nandini Plain Curd in the morning. This timing aligns with a 32.46% population share for this category during morning hours. The product is a small, single-serve chilled dairy staple, typically used immediately for meals or to replace a stockout. This is a single observation on one date; it does not establish a stable brand preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 200 g pack of Nandini Plain Curd. This timing aligns with a 32.46% population share for this category during morning hours. The product is a small, single-serve chilled dairy staple, typically used immediately for meals or to replace a stockout.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or routine.",
+  "overall_confidence": "low"
+}

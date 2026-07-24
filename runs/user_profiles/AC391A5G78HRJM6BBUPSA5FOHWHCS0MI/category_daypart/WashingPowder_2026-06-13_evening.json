@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Tide Naturals Lemon & Chandan Detergent Powder (1 kg) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a 1 kg hand-wash laundry detergent powder, typically used for immediate household replenishment or finishing a wash load.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or scent preferences cannot be established. It is unclear if this was a one-time replacement or part of a recurring routine.",
+  "overall_confidence": "low"
+}

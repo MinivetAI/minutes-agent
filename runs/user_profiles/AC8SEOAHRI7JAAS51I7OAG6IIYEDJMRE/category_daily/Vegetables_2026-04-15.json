@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-15 (weekday), the user purchased one unit of Unbranded Cauliflower (400-600g) during the evening. This timing aligns with the population evening share of 30.27%, suggesting use for dinner preparation or same-day meal planning. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one unit of Unbranded Cauliflower (400-600g) during the evening on a weekday. The order occurred in the evening, a period with 30.27% population share, suggesting a timing consistent with dinner preparation or same-day meal planning.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

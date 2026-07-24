@@ -1,0 +1,25 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user placed eight separate orders across weekdays and weekends, primarily in the afternoon. The baskets were narrow, typically containing 1\u20135 distinct items. Purchases spanned beverages (Aerated Drinks), dairy (Milk, Curd Yogurt, Paneer Tofu), snacks (Cookies Biscuits, Chips), fresh produce (Fruits, Vegetables), pantry staples (Canned Food, Spices Masala, Other Cooking Oil), and household/cleaning items (Adhesive Tool, Glass Cleaner, Toilet Cleaner). No durable preferences, stable routines, or recurring habits can be inferred from this single month of data, as each order represents an isolated observation. Confidence in any inferred user behavior is low.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Aerated Drinks appear in five separate orders (May 1, 3, 9, 28, 30), but due to the lack of repetition in other categories or consistent daypart behavior, this does not constitute a stable preference.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Milk appears in three separate orders (May 4, 13, 26, 30), but the accompanying categories vary significantly (Cooking Oil/Cookies; Curd Yogurt/Cookies; Fruits/Cookies; Cookies/Chips/Canned Food), indicating no stable category combination.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Cookies Biscuits appear in four separate orders (May 4, 13, 26, 30), but are paired with different categories each time, preventing the identification of a stable basket-building pattern.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The user demonstrates a need for a mix of ready-to-consume beverages, dairy products, snacks, fresh produce, pantry staples, and occasional household cleaning or repair items. The specific combination of items varies widely across orders, suggesting ad-hoc shopping needs rather than a structured routine.",
+  "uncertainty_text": "This analysis is based on eight independent orders across May 2026. While multiple orders exist, no category combination, daypart behavior, or product preference is repeated across independent dates in a way that establishes a stable pattern. For example, Aerated Drinks were purchased on May 1, 3, 9, 28, and 30, but never with the same other categories. Milk was purchased on May 4, 13, 26, and 30, but with different companions each time. Cookies Biscuits were purchased on May 4, 13, 26, and 30, again with varying companions. Without repeated co-occurrence of specific categories or consistent timing, no durable preferences or routines can be confirmed. All confidence levels are low.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 450 g pack of Britannia Breakfast Slice White Bread. This is a standard packaged white sliced bread intended for everyday breakfast and sandwich use.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. The population baseline indicates afternoon activity is less common (25.26%) compared to morning (32.46%) and evening (30.27%). The product serves immediate meal continuity needs, such as breakfast or sandwiches, driven by convenience and same-day consumption.",
+  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference, a routine repurchase, or a one-time convenience buy. No browsing or search data was provided to indicate prior interest or comparison.",
+  "overall_confidence": "low"
+}

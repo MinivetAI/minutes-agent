@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-24",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased one 200 g pack of Bolas Raw Chia Seeds. This single order, observed on a weekend afternoon, represents a general-purpose pantry staple intended for use as a topping, soak-in ingredient, or mix-in for breakfasts and recipes. The specific motivation for this purchase (e.g., meal prep, stockout, or recipe requirement) is unknown. This single observation does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 200 g pack of Bolas Raw Chia Seeds on a weekend afternoon. This timing aligns with population activity that is lower than the morning baseline (0.2526 vs 0.3246) but higher than the night baseline (0.1202).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase is unknown.",
+  "overall_confidence": "low"
+}

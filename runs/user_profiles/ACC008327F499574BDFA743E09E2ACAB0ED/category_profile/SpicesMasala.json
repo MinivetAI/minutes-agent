@@ -1,0 +1,40 @@
+{
+  "category": "Spices Masala",
+  "profile_text": "In January 2026, the user purchased one 0.5 g pack of EVEREST Saffron (Kesar) on a weekday afternoon. This single observation does not establish a stable preference for the EVEREST brand or saffron specifically, nor does it indicate a recurring routine.",
+  "brand_preferences": [
+    {
+      "brand": "EVEREST",
+      "preference_text": "The user purchased EVEREST Saffron (Kesar) on one date in January 2026. This single observation does not establish a stable preference for the EVEREST brand.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased one 0.5 g pack of EVEREST Saffron (Kesar) on one date in January 2026. This single observation does not establish a stable preference for saffron specifically.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-01-23",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Shopping for specific spice ingredients, such as saffron, for culinary use.",
+  "overall_confidence": "low"
+}

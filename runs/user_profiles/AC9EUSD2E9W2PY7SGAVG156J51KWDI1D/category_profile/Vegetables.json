@@ -1,0 +1,42 @@
+{
+  "category": "Vegetables",
+  "profile_text": "The user demonstrates a stable, high-frequency engagement with fresh vegetables, purchasing on a fast cadence (every ~6 days) with a strong preference for morning shopping on weekdays. While no single brand is preferred (all purchases are unbranded/local), specific product preferences have emerged for culinary staples: onions and cucumbers in May, and coriander leaves in July. The user buys a variety of fresh produce, including potatoes, holy tulsi, lady's finger, capsicum, and sweet corn, but only coriander leaves, onions, and cucumbers show repeated purchase behavior across independent dates.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "Unbranded onions (1 kg or 1.95–2.05 kg packs)",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Local cucumbers",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Coriander Leaves 100 g (fresh herb)",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 6.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-21",
+    "predicted_next_purchase_date": "2026-07-27",
+    "replenishment_text": "The user typically purchases vegetables every 6 days, with the next expected purchase around 2026-07-27.",
+    "confidence": "high",
+    "evidence_count": 20,
+    "independent_date_count": 20
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by consistent high-frequency buying across multiple months.",
+  "substitution_text": "No specific brand loyalty exists; the user accepts unbranded or local variants of staple vegetables (onions, cucumbers, coriander) without apparent substitution friction.",
+  "price_value_text": "The user consistently purchases unbranded or local produce, suggesting a preference for value-oriented or standard fresh produce options rather than premium branded variants.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific items are avoided; however, many vegetable types (mushrooms, gourd, lady's finger, capsicum, sweet corn) appear only as single-date observations, indicating variable culinary needs rather than stable routine.",
+  "mission_generation_text": "Routine replenishment of fresh culinary staples and herbs for daily meal preparation, with a focus on morning shopping windows.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Other Pulses",
+  "profile_text": "In February 2026, the user placed one order of Tata Sampann Yellow Moong Dal Split (500 g) on a weekday morning. This single observation does not establish a stable preference or routine for this category.",
+  "brand_preferences": [
+    {
+      "brand": "Tata Sampann",
+      "preference_text": "Tata Sampann was observed in one order in February 2026. A single observation does not establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Tata Sampann Yellow Moong Dal Split (500 g) was observed in one order in February 2026. A single observation does not establish a stable product preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-26",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction.",
+  "substitution_text": "No substitution patterns observed due to single purchase.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Shopping for legumes and pulses, specifically yellow moong dal, for meal preparation.",
+  "overall_confidence": "low"
+}

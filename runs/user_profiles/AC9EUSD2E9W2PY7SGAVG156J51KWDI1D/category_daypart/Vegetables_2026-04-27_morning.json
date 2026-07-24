@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 packs of unbranded Fresh Curry Leaves (50 g each) and 1 pack of unbranded Fresh New Crop Potato (0.95\u20131.05 kg).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during a weekday morning, a time when 32.46% of the population shops. The items are fresh, perishable staples (potatoes) and specific culinary aromatics (curry leaves), suggesting immediate meal preparation or replenishment of essential cooking ingredients.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific items or brands.",
+  "overall_confidence": "low"
+}

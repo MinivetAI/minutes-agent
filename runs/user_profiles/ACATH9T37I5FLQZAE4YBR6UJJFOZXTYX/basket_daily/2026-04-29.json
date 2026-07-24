@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-29",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-29, a weekday, a single order was placed during the evening daypart. The basket contained 10 items, primarily Vegetables (6 units), accompanied by Milk (2 units), Curd Yogurt (1 unit), and Aerated Drinks (1 unit). This represents a single observation of a vegetable-centric grocery trip with dairy and beverage additions. The combination of fresh vegetables, milk, and curd yogurt is compatible with preparing home-cooked meals or daily household sustenance. This analysis is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Vegetables",
+        "Milk",
+        "Curd Yogurt",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Vegetables, Milk, Curd Yogurt, and Aerated Drinks",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of fresh vegetables, milk, and curd yogurt is compatible with preparing home-cooked meals or daily household sustenance.",
+  "uncertainty_text": "This analysis is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low"
+}

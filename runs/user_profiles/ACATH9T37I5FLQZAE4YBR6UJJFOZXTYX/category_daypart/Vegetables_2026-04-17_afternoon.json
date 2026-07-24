@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 15 distinct fresh vegetable and herb items totaling approximately 4.5–5.0 kg, including onions (small and bulk), potatoes (baby and new crop), tomatoes, carrots, beetroot, cauliflower, okra, cucumber, baby corn, methi, mint, coriander, and lemons.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during an afternoon weekday, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The basket consists entirely of unbranded, perishable fresh produce and herbs, indicating a comprehensive same-day meal preparation or urgent kitchen replenishment need rather than bulk stocking.",
+  "uncertainty_text": "Cannot determine if this represents a planned weekly shop or an urgent mid-week top-up due to the single-date observation. Cannot infer specific recipes or household size from the product mix alone.",
+  "overall_confidence": "low"
+}

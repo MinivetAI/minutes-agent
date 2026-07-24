@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Watermelon Kiran (fresh fruit) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting a timing consistent with post-dinner or late-day consumption needs for fresh produce.",
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

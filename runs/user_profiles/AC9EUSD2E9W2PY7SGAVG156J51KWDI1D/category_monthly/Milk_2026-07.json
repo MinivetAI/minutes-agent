@@ -1,0 +1,31 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased fresh cow milk across seven independent dates. Chitale Cow Milk 500 ml was ordered on three dates (2026-07-04, 2026-07-06, 2026-07-21), and Amul Cow Milk 500 ml was ordered on four dates (2026-07-14, 2026-07-16, 2026-07-17, 2026-07-19). Both brands meet the repetition bar for stable preference. Chitale purchases occurred exclusively in the morning, while Amul purchases spanned morning, afternoon, and evening, with a concentration on weekdays. A single order of Amul Mithai Mate Sweetened Condensed Milk 200 g was also observed on 2026-07-14.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Chitale",
+      "claim_text": "Chitale Cow Milk 500 ml was purchased on 3 independent dates (2026-07-04, 2026-07-06, 2026-07-21), establishing a stable preference.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "Amul Cow Milk 500 ml was purchased on 4 independent dates (2026-07-14, 2026-07-16, 2026-07-17, 2026-07-19), establishing a stable preference.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Chitale purchases were consistently timed in the morning, whereas Amul purchases occurred across morning, afternoon, and evening periods.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "Amul Mithai Mate Sweetened Condensed Milk 200 g was observed on a single date (2026-07-14) and does not establish a stable preference.",
+  "overall_confidence": "medium"
+}

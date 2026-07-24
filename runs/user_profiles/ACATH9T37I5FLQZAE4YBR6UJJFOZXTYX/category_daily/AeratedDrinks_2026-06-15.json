@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-15",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased one 750 ml Sprite PET bottle during the morning. This single order represents a ready-to-serve, chilled lemon-lime carbonated soft drink for immediate refreshment. The timing aligns with the population baseline, where morning accounts for 32.46% of activity. This observation does not establish a stable preference or routine for aerated drinks.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for Sprite or aerated drinks in the morning.",
+  "overall_confidence": "low"
+}

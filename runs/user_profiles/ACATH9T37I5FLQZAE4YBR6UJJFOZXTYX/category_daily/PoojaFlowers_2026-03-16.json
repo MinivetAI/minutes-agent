@@ -1,0 +1,9 @@
+{
+  "date": "2026-03-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-16 (weekday), the user purchased one unit of Fresh Orange Marigold Flowers (100 g), an unbranded loose-cut flower SKU, during the morning daypart. This purchase aligns with the user's higher-than-baseline activity level (0.3246 share) for this specific time window. The product is a fresh-cut flower typically used for immediate ritual purposes, temple offerings, or festive decoration. No browsing events (search, view, cart) were recorded for this category in this window, leaving the intent (planned vs. last-minute) uncertain. With only one observed order, it is not possible to establish a stable preference for this specific flower type or brand.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or a last-minute need. With only one observed order, it is not possible to establish a stable preference for this specific flower type or brand (unbranded).",
+  "overall_confidence": "low"
+}

@@ -830,6 +830,8 @@ Grounding rules:
 - Product-use descriptions explain the product; they do not prove why this user ordered it.
 - Do not infer demographics, household composition, personality, health status, life stage, guests, events, or occasions.
 - A single order is an observation, not a durable preference. Stable or high-confidence preferences require repetition across independent dates.
+- This floor is not also a ceiling: once the SAME value (brand, product, variant, daypart, etc.) has appeared on 2 or more independent dates, that repetition has already been met — do not re-describe it as "a single observation," "isolated," or "insufficient" at that point. Confidence should scale up with how many independent dates support it: 2-3 independent dates supports at least `medium`; 4 or more independent dates, or repetition spanning multiple months, supports `high`. Do not withhold that confidence merely because no explicit "routine" was documented in words — the repeated dates are the documentation.
+- A category or window can have more than one genuinely supported value at once (e.g., a user who regularly buys two different milk brands). Judge each value's confidence only by its own independent-date count; never downgrade or omit one value's confidence merely because other values also appear in the same category or window — "no single value dominates" is not a reason to call every value low-confidence.
 - Daypart, daily, and monthly summaries can describe the same underlying order. Never count the same order again merely because it appears at several waterfall levels.
 - Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` require evidence from at least two independent dates. When only one date is represented, do not use those words anywhere in the output and keep stable-pattern lists empty.
 - For a single observed order, describe only the observed product, quantity, timing, and a possible compatible need. Never state that the user `requires`, `prefers`, or habitually buys it.
@@ -837,16 +839,30 @@ Grounding rules:
 - Ordered unit count and product pack size are different concepts; never convert one into the other.
 - Preserve morning, afternoon, evening, night, weekday, and weekend exactly.
 - Write concise, concrete shopper language. State uncertainty directly instead of inventing an explanation.
+- A view is the weakest evidence; a search is stronger and carries explicit stated intent; an add-to-cart is stronger still; a purchase is the strongest. Never narrate a view, search, or cart-add with the same certainty language used for a purchase.
+- Repeated add-to-cart without a purchase is evidence of interest, not preference, and not proof of any specific blocker (price, stock, hesitation) — offer a cause only as a labeled hypothesis, never as fact.
+- Repeated search or product-page viewing with zero purchases is unmet interest, a discovery signal, and never grounds to suppress a category.
+- Every claim-bearing block carries `evidence_count` and `independent_date_count` alongside its confidence — these are aggregate counts, not order or event identifiers, and must be copied from supplied evidence, not guessed.
+- Daypart, day-type, and cadence claims are anchored to a supplied baseline (population daypart share, or the user's own supplied cadence) — never an unanchored adjective you choose yourself.
+- Deterministic counts, cadences, support/confidence/lift numbers, and cadence classifications arrive as input. Explain what they mean; never calculate, re-derive, round, or invent them, and never emit a numeric score or ranking weight of your own.
 """
 
 
 USER_CATEGORY_DAYPART_SUMMARY = f"""
-You summarize one user's purchases in one Minutes category and one daypart.
+You summarize one user's activity in one Minutes category and one daypart. This
+activity may include completed orders, or only funnel evidence (search, product
+views, cart-adds, cart-removes) with zero orders — a category can be represented
+purely by browsing.
 
 Write:
-- `summary_text`: what was actually bought;
-- `preference_claims`: only preference signals supported by repetition; for one order use an empty list or low confidence;
-- `shopping_context_text`: observed timing and the products' general utility without claiming the user's reason;
+- `summary_text`: what was actually bought and/or browsed;
+- `preference_claims`: only preference signals supported by repetition; for one order or one session use an empty list or low confidence. For `dimension: brand`, `value` must be copied exactly from a product's supplied `brand` field — never parsed, guessed, or extracted from `product_name`; when `brand` is null for every product in this window, do not emit a brand claim.
+- `funnel_signal`: set only when `funnel_events` were supplied.
+  - `highest_stage_reached` must exactly match the strongest stage literally present in `funnel_events`/orders (purchased > added_to_cart > searched > viewed; removed_from_cart never outranks an earlier stronger stage in the same window) — do not guess beyond what is present.
+  - `converted` is true only when `order_count > 0` or a `purchased` funnel event is present.
+  - `signal_text` describes what happened; never assert a reason for non-conversion.
+  - Leave `funnel_signal` null when no `funnel_events` were supplied.
+- `shopping_context_text`: observed timing (anchored to `population_daypart_share` when present) and the products' general utility, without claiming the user's reason;
 - `uncertainty_text`: what cannot yet be established;
 - `overall_confidence`: confidence in the behavioral summary.
 
@@ -865,11 +881,16 @@ supplied date and day type.
 
 
 USER_CATEGORY_MONTHLY_SUMMARY = f"""
-Combine the supplied daily summaries for one category and month. Promote only
-preferences repeated across independent dates into `stable_preference_claims`.
+Combine the supplied daily summaries for one category and month. A brand,
+product, or variant that recurs on 2 or more of this month's independent dates
+has already met the repetition bar for `stable_preference_claims` — promote it
+there with confidence scaled to how many dates support it (2-3: at least
+medium; 4+: high), even when other values also appear in the same month.
+"Each date is technically one order" is not a reason to leave a
+multiply-recurring value out of `stable_preference_claims` or to cap it at low.
 Preserve repeated daypart and weekday/weekend patterns, describe genuine changes
-in `trend_claims`, and keep isolated observations out of stable lists. Echo the
-supplied month.
+in `trend_claims`, and keep only truly single-date observations out of stable
+lists. Echo the supplied month.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -880,8 +901,35 @@ Build an actionable profile for exactly one Minutes product category.
 Recent daypart summaries describe current affinity, daily summaries describe
 repeated recent behavior, and monthly summaries establish stability. Keep stable
 and emerging preferences distinct. Capture supported brand, product or variant,
-ordered-quantity, explicit pack-size, timing, replenishment, substitution, and
-price/value behavior. Return empty lists or null when evidence is absent.
+ordered-quantity, explicit pack-size, timing, substitution, and price/value
+behavior. Return empty lists or null when evidence is absent.
+
+`brand_preferences`: build only from `dimension: brand` claims already present
+in the supplied summaries (which themselves came from the catalog `brand`
+field, never from parsing a product name). A brand repeated across independent
+dates earns a `brand_preferences` entry; a brand seen once stays out of this
+list or carries `low` confidence. Confidence scales with independent-date count
+(2-3 dates: at least `medium`; 4+ dates or repetition spanning multiple months:
+`high`) — never downgrade a brand's confidence just because other brands also
+appear in the category; a user can have more than one genuinely preferred
+brand at once, and each is judged on its own evidence, not relative to the
+others. Do not name a brand that never appeared as a supplied `brand` value.
+
+`replenishment`: `cadence_days`, `cadence_class`, `last_purchase_date`, and
+`predicted_next_purchase_date` must be copied exactly from the supplied
+`observed_cadence_days` / `observed_cadence_class` / `observed_last_purchase_date` /
+`observed_predicted_next_purchase_date` (null/`unknown` when not supplied) —
+never computed, classified, rounded, added, or guessed; you are not doing math
+or bucketing here, only transcribing it. Write `replenishment_text` as what
+that number means in words, and treat `predicted_next_purchase_date` as an
+approximate estimate from average cadence, not a guarantee the item is due
+exactly then.
+
+`discovery_candidate`: set only when the category shows repeated search/view/cart
+interest without a completed purchase; otherwise null. `conversion_text` always
+describes whether interest in this category reliably becomes a purchase, for
+every category, whether or not it is a discovery candidate.
+
 `mission_generation_text` should describe shopping needs supported by this
 category profile, not invent an event.
 {PROFILE_GROUNDING_RULES}
@@ -889,20 +937,34 @@ category profile, not invent an event.
 
 
 USER_BASKET_DAYPART_SUMMARY = f"""
-Summarize the complete orders placed in one daypart without splitting products
-that were bought together. Describe basket breadth, categories bought together,
-and concrete order-building behavior. `shopping_need_text` may describe a need
-compatible with the basket but must not claim hidden intent. A single order is
-not a durable behavior pattern. Echo daypart and day type.
+Summarize the complete orders, and any assembled-but-abandoned carts, placed in
+one daypart without splitting products that were bought (or cart-added) together.
+Describe basket breadth, categories bought together, and concrete order-building
+behavior. `shopping_need_text` may describe a need compatible with the basket but
+must not claim hidden intent. A single order is not a durable behavior pattern.
+
+`category_combinations`: when `category_pair_evidence` is supplied, copy its
+`support`/`lift` numbers exactly into the matching combination entries — never
+compute or estimate these yourself; leave them null when no matching evidence
+was supplied.
+
+`abandonment_patterns`: describe each `abandoned_carts` entry — what was
+assembled and not checked out — without guessing why (price, stock, and
+hesitation are never asserted as the cause). Leave empty when no carts were
+abandoned.
+
+Echo daypart and day type.
 {PROFILE_GROUNDING_RULES}
 """
 
 
 USER_BASKET_DAILY_SUMMARY = f"""
 Combine the supplied daypart basket summaries for one date. Preserve daypart
-differences and complete-order meaning. Describe the day's behavior and category
-combinations without assigning a fixed user type or shopping mode. Echo the date
-and day type.
+differences and complete-order meaning. Carry forward `category_combinations`
+(with their `support`/`lift` numbers) as `category_combination_patterns`, and
+carry forward each daypart's `abandonment_patterns` into this day's
+`abandonment_patterns`. Describe the day's behavior and category combinations
+without assigning a fixed user type or shopping mode. Echo the date and day type.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -910,8 +972,10 @@ and day type.
 USER_BASKET_MONTHLY_SUMMARY = f"""
 Combine daily basket summaries for one month. Keep only repeated daypart
 behavior, basket-building patterns, category combinations, and shopping needs in
-stable fields. Put genuine changes in `trend_claims` and keep isolated orders in
-the uncertainty text. Echo the supplied month.
+stable fields. Promote `abandonment_patterns` into the monthly stable list only
+when the same categories are abandoned across independent dates; otherwise leave
+them out of the stable list and note the isolated case in `uncertainty_text`.
+Put genuine changes in `trend_claims`. Echo the supplied month.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -920,8 +984,10 @@ USER_BASKET_PROFILE = f"""
 Build the user's stable basket-building profile from recent daypart summaries,
 daily summaries, and monthly summaries. Explain what the user repeatedly buys
 together, typical basket breadth, timing behavior, and observed circumstances.
-Use open-ended behavioral text; never assign fixed shopping modes or personality
-labels. `mission_generation_text` should state shopping needs supported by basket
+Carry forward the supported `category_combination_patterns` and
+`abandonment_patterns` from the monthly summaries. Use open-ended behavioral
+text; never assign fixed shopping modes or personality labels.
+`mission_generation_text` should state shopping needs supported by basket
 evidence.
 {PROFILE_GROUNDING_RULES}
 """
@@ -929,10 +995,44 @@ evidence.
 
 USER_GLOBAL_PROFILE = f"""
 Combine all supplied category profiles and the basket profile into one stable
-Minutes shopping profile. `category_preference_text` must represent every
-supplied category, not only the strongest one. Keep cross-category behavior and
-repeated non-event shopping needs concise and actionable for semantic retrieval.
-Recent summaries may adjust current affinity but cannot erase stable evidence.
+Minutes shopping profile. This call has exactly two inputs — the category
+profiles and the basket profile — plus recent summaries for freshness; do not
+treat any other source as authoritative.
+
+`category_preference_text` must represent every supplied category profile, not
+only the strongest one. Keep cross-category behavior and repeated non-event
+shopping needs concise and actionable for semantic retrieval. Recent summaries
+may adjust current affinity but cannot erase stable evidence.
+
+`coverage_text`: state plainly whether this profile covers all of the user's
+categories or only a subset. If `total_category_count` is null or equal to the
+number of supplied `category_profiles`, say this covers all of them. If
+`total_category_count` is larger, say this profile details the
+`len(category_profiles)` best-evidenced categories out of `total_category_count`
+total, and name the omitted count — never guess what the omitted categories are
+or claim the profile is complete when it isn't.
+
+`replenishment_summary_text`: compare cadence across every supplied category
+profile, using only each category profile's own `replenishment.cadence_days` /
+`cadence_class` — never a number you compute yourself. Name any
+`cadence_class: unknown` categories explicitly rather than omitting them.
+
+`structured_signals`: one typed entry per notable claim (e.g.
+`replenishment_cadence`, `discovery_candidate`, `cart_recovery`,
+`cross_category_pattern`). Every entry must declare which input(s) produced it
+via `source`. Use `source: category_profile+basket_profile` (and
+`signal_type: cross_category_pattern`) only when both a category profile and the
+basket profile independently support the same claim; otherwise use the single
+source that actually produced it. Never include a numeric score, weight, or
+rank on any entry — `confidence` is the only measure of how well-evidenced a
+signal is. Discovery and cart-recovery signals describe unmet interest and must
+never be used to justify suppressing a category.
+
+Turning these signals into an actual ranked, weighted feed is the Feed
+Service's job at request time, not this task's — it already has the
+deterministic numbers (cadence, lift/support, funnel-conversion rates) it
+supplied as input to the category and basket pipelines, and it applies
+real-time context (inventory, serviceability, active missions) on top.
 
 Events, celebrations, guests, matchday, seasons, and life-stage interpretations
 must remain outside this stable global profile; they belong in request-time
@@ -955,4 +1055,46 @@ requested daypart is uncertainty, not negative evidence; stable category
 preferences are a valid backoff. Check that products fit both the user profile
 and their selected mission. Return concise strengths and concrete issues.
 `verdict` must be `good` or `needs_iteration`.
+"""
+
+
+OCCASION_EVENT_OCCURRENCE_SUMMARY = f"""
+Summarize one user's behavior during one occurrence of an occasion (a festival,
+a match, a guest visit) supplied by an authoritative calendar. This is a
+different kind of evidence from ordinary funnel/order activity: it exists only
+to compare this occasion window against the user's own ordinary baseline.
+
+The occasion identity (`occasion_type`, `occasion_name`) is authoritative and
+supplied — do not question or reinterpret it. You may assess whether each
+supplied basket is actually related to the occasion (the input's
+`occasion_relationship` already reflects that assessment); you must never infer
+that an occasion was active from product behavior alone.
+
+Write:
+- `occurrence_summary_text`: what happened during this occurrence;
+- `behavior_delta_text`: how this differed from the supplied `ordinary_baseline_text`;
+- `category_shifts`: categories whose demand appeared to differ from the ordinary baseline, with confidence;
+- `uncertainty_text`: what one occurrence cannot establish;
+- `overall_confidence`: confidence in this occurrence summary; one occurrence alone should not exceed `medium`.
+
+Echo `occasion_type` exactly.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_OCCASION_EVENT_PROFILE = f"""
+Build the user's stable profile for one occasion type from its accumulated
+occurrence summaries. This profile is never merged into the global profile; it
+is supplied separately, only when the same occasion is active again.
+
+Write:
+- `profile_text`: how the user's behavior changes during this occasion, relative to their ordinary behavior;
+- `category_signals`: categories that become more or less relevant during this occasion, each requiring repetition across independent occurrences before using words like `repeated` or `stable`;
+- `mission_generation_text`: occasion-specific shopping needs, explicitly framed as an overlay, not a replacement for the user's stable preferences;
+- `uncertainty_text`: what remains unknown, including when evidence is too thin to apply this profile confidently.
+
+If the supplied occurrence summaries show no meaningful pattern, keep
+`category_signals` empty and `overall_confidence` low rather than inventing one.
+Echo `occasion_type` exactly.
+{PROFILE_GROUNDING_RULES}
 """

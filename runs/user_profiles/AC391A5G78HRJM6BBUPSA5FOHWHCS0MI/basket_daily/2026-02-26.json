@@ -1,0 +1,12 @@
+{
+  "date": "2026-02-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-26, a weekday, a single order was placed in the afternoon. The basket contained two distinct items: one unit of SMPFUHM82QPRBMR8 (Unmapped-SMP) and one unit of FCWGPEEJ6K7HYHWU (Unmapped-FCW). The order was completed without cart abandonment. Due to the unmapped nature of these categories, no specific category combination patterns or abandonment patterns from the supplied evidence apply to this order. The behavior is consistent with a general need for household supplies or specific ingredients, but the lack of category mapping prevents a more precise need description. This analysis is based on a single observed order on one independent date; therefore, no durable preferences, stable patterns, or recurring behaviors can be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of one unit of an unmapped product (SMPFUHM82QPRBMR8) and one unit of another unmapped product (FCWGPEEJ6K7HYHWU) is compatible with a general need for household supplies or specific ingredients, but the unmapped nature of the categories prevents a more specific need description.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, no durable preferences, stable patterns, or recurring behaviors can be inferred. The confidence in any inferred user behavior is low. The specific products are unmapped, preventing alignment with the provided category pair evidence.",
+  "overall_confidence": "low"
+}

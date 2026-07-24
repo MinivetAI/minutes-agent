@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Nestlé Cerelac Wheat Apple Carrot Baby Food Cereal (300 g) on two independent dates: 2026-04-07 (evening) and 2026-04-20 (afternoon). Both purchases occurred on weekdays. The recurrence of this specific product across two independent dates establishes a stable preference for this item, with medium confidence. No other products, brands, or variants were observed in this category during this month. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Nestlé Cerelac Wheat Apple Carrot Baby Food Cereal (300 g)",
+      "claim_text": "The user has a stable preference for Nestlé Cerelac Wheat Apple Carrot Baby Food Cereal (300 g), evidenced by purchases on 2026-04-07 and 2026-04-20.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "No browsing history is available to determine if these were planned restocks or immediate needs. The preference is limited to a single product variant.",
+  "overall_confidence": "medium"
+}

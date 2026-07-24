@@ -1,0 +1,40 @@
+{
+  "category": "Wheat Flour",
+  "profile_text": "The user demonstrates a stable, medium-confidence preference for Aashirvaad brand wheat flour, specifically the Select Atta variant in 1 kg packs. Purchases are concentrated in the morning daypart and occur with a regular cadence. This category supports routine household cooking needs, specifically for preparing rotis.",
+  "brand_preferences": [
+    {
+      "brand": "Aashirvaad",
+      "preference_text": "The user has purchased Aashirvaad flour on multiple independent dates across March, May, and June 2026, establishing a stable preference with medium confidence.",
+      "confidence": "medium",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user consistently purchases Aashirvaad Select Atta (1 kg) across multiple independent dates, indicating a stable preference for this specific product and pack size with medium confidence.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 15.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-06-28",
+    "predicted_next_purchase_date": "2026-07-13",
+    "replenishment_text": "The user typically purchases this category every 15 days, with the next purchase estimated around 2026-07-13.",
+    "confidence": "medium",
+    "evidence_count": 6,
+    "independent_date_count": 6
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by six completed transactions across independent dates.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently selects the same brand and variant.",
+  "price_value_text": "The user purchases a premium whole-wheat flour variant (Select Atta), suggesting a preference for quality or specific texture (softer rotis) over standard options, though explicit price sensitivity is not established.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the pattern is consistent and stable.",
+  "mission_generation_text": "Routine household cooking needs, specifically for preparing rotis.",
+  "overall_confidence": "medium"
+}

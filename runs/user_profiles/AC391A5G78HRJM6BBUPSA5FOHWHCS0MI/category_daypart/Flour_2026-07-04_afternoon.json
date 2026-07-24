@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Flour (1 unit) placed on 2026-07-04 in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline share of 0.2526 for this daypart. The product is a general baking staple.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
+  "overall_confidence": "low"
+}

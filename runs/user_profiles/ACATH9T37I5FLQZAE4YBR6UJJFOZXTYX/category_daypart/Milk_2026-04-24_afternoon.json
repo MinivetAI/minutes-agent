@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 5-pack of Yakult Fermented Milk Drink and one 500 ml pack of Amul Taaza Pasteurised Toned Milk.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the afternoon on a weekday, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246). The items are small-format dairy products suited for immediate consumption or short-horizon kitchen use.",
+  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

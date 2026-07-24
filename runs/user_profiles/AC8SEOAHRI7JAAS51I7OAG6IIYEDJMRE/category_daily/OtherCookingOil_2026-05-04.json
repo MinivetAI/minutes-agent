@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04 (weekday), the user purchased one 1-litre bottle of Dalda Groundnut Oil during the afternoon. This general-purpose cooking oil serves as a pantry replenishment item for daily cooking needs. The order occurred during a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1-litre bottle of Dalda Groundnut Oil. This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+  "overall_confidence": "low"
+}

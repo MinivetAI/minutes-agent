@@ -1,0 +1,40 @@
+{
+  "category": "Paneer Tofu",
+  "profile_text": "The user demonstrates a stable preference for Amul brand paneer, specifically the Malai Paneer 200 g variant, with purchases recorded across multiple months (February and June 2026). Purchases occur on weekdays with variable timing (morning, afternoon, and night), indicating flexible meal preparation needs rather than a rigid daily routine. The user buys this fresh dairy ingredient for immediate cooking. Cadence is approximately every 17 days.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Stable preference for Amul paneer, evidenced by purchases on multiple independent dates in February and June 2026.",
+      "confidence": "medium",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Amul Malai Paneer 200 g, evidenced by purchases on multiple independent dates in February and June 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 17.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-02",
+    "predicted_next_purchase_date": "2026-07-19",
+    "replenishment_text": "The user typically purchases this category every 17 days, with the next purchase estimated around 2026-07-19.",
+    "confidence": "medium",
+    "evidence_count": 8,
+    "independent_date_count": 8
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions for the preferred brand and variant.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently selects the same brand and variant.",
+  "price_value_text": "No explicit price or value behavior observed in the supplied summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has completed purchases repeatedly.",
+  "mission_generation_text": "Supports immediate meal preparation needs for fresh dairy-based cooking, likely for weekday dinners or lunches requiring quick ingredient assembly.",
+  "overall_confidence": "medium"
+}

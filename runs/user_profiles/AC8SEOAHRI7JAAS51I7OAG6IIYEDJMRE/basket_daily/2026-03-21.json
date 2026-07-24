@@ -1,0 +1,25 @@
+{
+  "date": "2026-03-21",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-21 (weekend), two distinct orders were placed across different dayparts. The afternoon order contained four distinct items: Ready Mixes, Paneer Tofu, Rice, and Ready Meals, combining a staple carbohydrate with protein and convenience options. The evening order consisted exclusively of four distinct items from the Fruits category. No durable preference pattern can be established from this single observation.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Ready Mixes",
+        "Paneer Tofu",
+        "Rice",
+        "Ready Meals"
+      ],
+      "combination_text": "Single order containing Ready Mixes, Paneer Tofu, Rice, and Ready Meals.",
+      "support": 0.0,
+      "lift": 0.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for a convenient, ready-to-eat or easy-to-prepare meal involving rice and protein (afternoon), and a need for fresh fruit items (evening).",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this single data point. Claims of stability require evidence from at least two independent dates.",
+  "overall_confidence": "low"
+}

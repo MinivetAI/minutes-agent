@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Coriander Leaves 100 g (Unbranded) in the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh herb typically used for cooking or garnishing, suggesting a need for immediate culinary use.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this product or category.",
+  "overall_confidence": "low"
+}

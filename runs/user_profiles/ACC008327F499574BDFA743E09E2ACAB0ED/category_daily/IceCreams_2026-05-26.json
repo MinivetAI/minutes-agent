@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-26 (weekday), the user purchased two single-serve ice cream sticks during the evening: one Amul Mango Duetz Gold (60 ml) and one Vadilal Almond Choco Crunch Badabite (80 ml). This timing aligns with the high population share for evening purchases (0.3027), suggesting a post-dinner or late-day indulgence. The selection of ready-to-eat, individual portions indicates a need for immediate, personal consumption rather than bulk storage. As this is a single observation on one date, it does not yet establish a stable preference for these specific brands (Amul, Vadilal) or flavors (mango, almond/chocolate).",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased two single-serve ice cream sticks (Amul Mango Duetz Gold 60 ml, Vadilal Almond Choco Crunch Badabite 80 ml) during the evening on a weekday. This aligns with the high population share for evening purchases (0.3027), suggesting a post-dinner or late-day indulgence.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether the user prefers these specific brands (Amul, Vadilal) or flavors (mango, almond/chocolate) over others, or if this represents a stable routine.",
+  "overall_confidence": "low"
+}

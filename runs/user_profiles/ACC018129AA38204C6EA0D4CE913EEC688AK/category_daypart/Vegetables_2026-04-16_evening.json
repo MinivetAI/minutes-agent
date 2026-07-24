@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 250 g pack of unbranded fresh amla (Indian gooseberry) and one small unbranded fresh coconut during an evening shopping session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526). The items are fresh produce typically used for immediate culinary preparation or home remedies, suggesting an urgent or same-day need rather than bulk stock-up.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference for amla or coconut, nor does it indicate whether these items are part of a recurring routine or a one-time specific recipe requirement.",
+  "overall_confidence": "low"
+}

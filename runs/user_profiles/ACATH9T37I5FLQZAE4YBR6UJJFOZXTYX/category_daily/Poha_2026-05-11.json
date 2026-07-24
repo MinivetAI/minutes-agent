@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-11",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-11 (weekday), the user placed one order of Classic Medium Poha 1 kg in the afternoon. This timing is less common for this user than the population baseline (25.26% share). The product is a basic pantry staple used for quick meals or snacks. This is a single observation on one date; it does not establish a stable preference or routine for this category.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Classic Medium Poha 1 kg placed in the afternoon. This timing is less common for this user than the population baseline (25.26% share).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this category.",
+  "overall_confidence": "low"
+}

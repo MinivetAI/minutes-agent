@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-24",
+  "day_type": "weekend",
+  "summary_text": "On 2026-01-24 (weekend), the user purchased one 3-piece pack of unbranded fresh lemons in the afternoon. This afternoon order aligns with a period of lower-than-baseline activity (25.3% share vs. 32.5% morning share). The item is a basic produce product suitable for immediate culinary uses like seasoning, drinks, or salads. This single transaction does not establish a stable preference for lemons, unbranded produce, or afternoon shopping habits.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 3-piece pack of unbranded fresh lemons during the afternoon on a weekend. This timing falls within a lower-activity window relative to the population baseline (25.3% share vs. 32.5% morning share).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for lemons, unbranded produce, or afternoon shopping habits.",
+  "overall_confidence": "low"
+}

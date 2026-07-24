@@ -1,0 +1,12 @@
+{
+  "date": "2026-05-24",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, two separate orders were placed during the morning and afternoon dayparts. The morning order consisted of four items across four categories: Sugar, Vegetables, Chocolates, and Aerated Drinks. The afternoon order contained six items across six categories: Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health. Both orders reflect general household replenishment and personal consumption needs. No durable preferences or recurring habits can be inferred from this single date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "General household replenishment and personal consumption.",
+  "uncertainty_text": "This analysis is based on a single observed date (2026-05-24). No durable behavior patterns, stable preferences, or recurring habits can be inferred. The evidence represents two independent orders on one date.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 packs of Fortune 1 kg white refined sugar during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline (0.3246) but higher than afternoon (0.2526) and night (0.1202). The product is a standard white sugar staple, typically used for daily household cooking, tea/coffee preparation, or baking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening timing (e.g., immediate need vs. planned stocking) is unknown.",
+  "overall_confidence": "low"
+}

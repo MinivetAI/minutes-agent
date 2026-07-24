@@ -1,0 +1,92 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-06-27 in the afternoon on a weekend. The basket contains 17 items across 8 categories, dominated by Vegetables (9 units), with single units of Milk, Curd Yogurt, Fruits, Aerated Drinks, Indian Sweets, Toothbrush, and Diaper. The order-building behavior reflects a broad, multi-category basket typical of a general grocery run, combining fresh produce, dairy, beverages, and household/personal care items. `shopping_need_text` describes a need for general household replenishment compatible with the basket.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables were purchased together.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "General household replenishment including fresh produce, dairy, and personal care items.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-19",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-19 (weekday), a single order was placed in the afternoon. The basket contained seven items across five categories: Vegetables (3 units), Chips (1), Curd Yogurt (1), Savouries Namkeens (1), and Breads (1). This observation is compatible with a meal-preparation or snack-combination need, such as a home-cooked meal or light dinner setup. No durable behavior patterns or recurring habits can be inferred from this single date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be preparing a meal or snack combination involving fresh vegetables, dairy, and savory accompaniments.",
+  "uncertainty_text": "This is a single observed order on one date. Stable preferences or recurring habits cannot be determined from this evidence alone.",
+  "overall_confidence": "low"
+}

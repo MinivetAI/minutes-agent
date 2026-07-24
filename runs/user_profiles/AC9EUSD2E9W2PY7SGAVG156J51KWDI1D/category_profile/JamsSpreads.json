@@ -1,0 +1,26 @@
+{
+  "category": "Jams Spreads",
+  "profile_text": "A single observed order of Saffola Peanut Butter with Jaggery, Crunchy (350 g) on a weekday morning in July 2026. This product serves as a pantry spread for quick breakfasts or snacks. No stable preferences, routine, or brand loyalty can be established from this single data point.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-06",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this specific instance.",
+  "substitution_text": "No substitution patterns observed due to single order.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports immediate breakfast or snack needs with a convenient, ready-to-eat spread.",
+  "overall_confidence": "low"
+}

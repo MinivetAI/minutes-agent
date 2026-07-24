@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-04",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, a single order was placed during the morning daypart. The basket contained one unit of sugar, two units of curd yogurt, one unit of wheat flour, two units of spices masala, and one unit of vegetables. This combination of pantry staples and fresh ingredients is compatible with preparing a home-cooked meal or breakfast items. The analysis is based on a single observed order on one date; stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of sugar, curd yogurt, wheat flour, spices, and vegetables is compatible with preparing a home-cooked meal or breakfast items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

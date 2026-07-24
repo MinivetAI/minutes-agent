@@ -1,0 +1,52 @@
+{
+  "category": "Washing Bar",
+  "profile_text": "The user demonstrates a stable, slow-cadence replenishment pattern for laundry detergent bars, with purchases spanning five independent dates from February to July 2026. The primary brand preference is Surf excel, observed across four independent dates (Feb, Apr, May, Jul), establishing a high-confidence preference for this brand in the detergent bar format. A secondary, lower-confidence interest exists for Rin, observed on one independent date (Jun). The user typically purchases standard 250 g packs of Surf excel (ordered quantities of 2-3 units) and occasionally larger multi-packs (e.g., 4x1000g of Rin). Purchases occur across morning, evening, and afternoon dayparts, with no single dominant timing, though morning activity aligns with population baselines. The category serves a clear replenishment mission for manual spot-cleaning and hand-wash laundry tasks.",
+  "brand_preferences": [
+    {
+      "brand": "Surf excel",
+      "preference_text": "High-confidence preference established across four independent purchase dates (2026-02-09, 2026-04-20, 2026-05-22, 2026-07-04).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "brand": "Rin",
+      "preference_text": "Low-confidence interest based on a single observed purchase on 2026-06-28.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Surf excel Detergent Bar 250 g is the primary product, observed in four independent orders with ordered quantities of 2 or 3 units.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "Rin Detergent Bars (1000 g pack of 4) observed in one independent order.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 27.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-07-31",
+    "replenishment_text": "The user purchases this category approximately every 27 days, classified as a slow-replenishment item. The last purchase was on 2026-07-04, with the next predicted purchase around 2026-07-31.",
+    "confidence": "high",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase; all observed search/view/cart behaviors (if any) are not present, but all five independent dates represent completed transactions, indicating high conversion from intent to purchase.",
+  "substitution_text": "The user substitutes between Surf excel and Rin brands, suggesting flexibility in brand choice while maintaining the detergent bar format. No specific substitution pattern is dominant.",
+  "price_value_text": "No explicit price or value behavior is observed. The user purchases standard 250 g packs and occasional larger multi-packs, indicating standard value-seeking without extreme discount dependency.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The category shows consistent, stable replenishment behavior.",
+  "mission_generation_text": "Replenishment of manual laundry detergent for spot-cleaning, hand-washing delicate items, or urgent stain treatment.",
+  "overall_confidence": "high"
+}

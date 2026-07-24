@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-04 (weekday), the user purchased one 50 g pack of Aashirvaad Poppy Seeds (khus khus/posto) in the morning. This order occurred during a period when the user's activity is 32.46% of their total population baseline. The product is a niche whole spice often purchased to fill an immediate gap in a recipe or pantry. This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 50 g pack of Aashirvaad Poppy Seeds (khus khus/posto).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

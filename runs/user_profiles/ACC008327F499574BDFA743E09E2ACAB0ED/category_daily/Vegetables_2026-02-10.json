@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-10 (weekday), the user purchased fresh vegetables during the afternoon, a time when the population share is 0.2526. The order included 2 units of Local Tomato (1 kg) and 2 units of Cauliflower (400-600g). These items are consistent with immediate household cooking needs. This is a single observation on one date; no stable preferences or routine patterns can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 2 units of Local Tomato (1 kg) and 2 units of Cauliflower (400-600g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable preferences or routine patterns can be established.",
+  "overall_confidence": "low"
+}

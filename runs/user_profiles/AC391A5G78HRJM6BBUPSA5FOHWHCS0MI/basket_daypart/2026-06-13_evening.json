@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-06-13 in the evening on a weekend. The basket contains seven distinct items across diverse categories: Flour, Tea, Spices Masala, Washing Powder, Shampoo, Honey, and Washing Bar. The shopper purchased one unit of each item. The shopping_need_text suggests a need for household staples, including cooking ingredients (Flour, Spices Masala, Honey, Tea) and cleaning/hygiene supplies (Washing Powder, Washing Bar, Shampoo).",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "WashingBar",
+        "WashingPowder"
+      ],
+      "combination_text": "Washing Bar and Washing Powder were purchased together in this order.",
+      "support": 0.172,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking household essentials for cooking and personal hygiene.",
+  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

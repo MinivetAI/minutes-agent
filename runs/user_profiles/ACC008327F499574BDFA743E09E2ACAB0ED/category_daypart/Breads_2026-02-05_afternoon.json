@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 600 g loaf of Britannia Sandwich Bread.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the afternoon on a weekday, a time when population share is lower than morning or evening peaks; the product serves as a standard household staple for immediate sandwich or toast preparation.",
+  "uncertainty_text": "This is a single observed order on one date; no stable brand preference or routine can be established from this isolated event.",
+  "overall_confidence": "low"
+}

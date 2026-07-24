@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of a single-serve 44.9 g pack of Lay's India's Magic Masala Chips, a spiced potato chip snack, purchased during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity aligns with the population baseline (evening share 0.3027). The product is a ready-to-eat, single-serve snack, typically suited for immediate consumption or impulse cravings.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, flavor, or snack category over time.",
+  "overall_confidence": "low"
+}

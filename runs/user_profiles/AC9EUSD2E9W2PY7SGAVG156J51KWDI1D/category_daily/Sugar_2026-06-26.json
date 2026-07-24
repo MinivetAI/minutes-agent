@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-26",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased one 100 g pack of Nanihaal Mishri Dana Sugar (white sugar) during the morning. This single observation is consistent with restocking staples for daily beverage preparation or immediate kitchen use, a pattern seen in 32.5% of population activity during this time. No stable brand preference or recurring purchase pattern can be established from this single order.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 100 g pack of Nanihaal Mishri Dana Sugar (white sugar). This timing aligns with morning restocking for daily beverage preparation or immediate kitchen use, consistent with 32.5% of population activity.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable brand preference or recurring purchase patterns.",
+  "overall_confidence": "low"
+}

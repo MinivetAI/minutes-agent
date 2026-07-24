@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of Coriander Leaves (100 g), Baby Potato (280–320 g), and Onion (400–450 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when the user's activity is 0.3246 relative to the population baseline. The items are fresh, unbranded produce staples typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "overall_confidence": "low"
+}

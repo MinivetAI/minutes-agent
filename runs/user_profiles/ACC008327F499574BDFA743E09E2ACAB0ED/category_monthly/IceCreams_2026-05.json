@@ -1,0 +1,9 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased ice cream on two independent dates, but no single brand, product, or variant recurred across both orders. The first order (2026-05-08) involved two 300 ml tubs of Frubon ice cream (Shahi Rabri Kulfi and Litchi Faluda) during a night-time session. The second order (2026-05-26) involved two single-serve sticks from different brands (Amul Mango Duetz Gold and Vadilal Almond Choco Crunch Badabite) during the evening. Because no value repeated across independent dates, no stable preference claims can be established for brands or products. The daypart patterns (night and evening) also appear only once each, so no stable daypart preference is claimed. The user demonstrates interest in immediate-consumption formats (tubs and sticks) on weekdays, but this is based on single observations per date.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "No brands, products, or dayparts recurred across the two independent dates in May 2026. Therefore, no stable preferences can be inferred. The observed behaviors are limited to single-date observations.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user ordered Too Yumm! Sour Cream and Onion Veggie Stix (35 g) on two independent dates (2026-02-24 and 2026-02-27). This repetition establishes a stable preference for this specific brand and variant. The orders occurred on weekdays, once in the afternoon and once in the morning, indicating flexible timing rather than a fixed daily routine. No other savoury namkeen brands or variants were observed in this month.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Too Yumm!",
+      "claim_text": "The user has a stable preference for Too Yumm! savoury snacks, evidenced by purchases on 2 independent dates in February 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Too Yumm! Sour Cream and Onion Veggie Stix (35 g)",
+      "claim_text": "The user has a stable preference for Too Yumm! Sour Cream and Onion Veggie Stix (35 g), evidenced by purchases on 2 independent dates in February 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two orders in February 2026. While the repetition supports a stable preference for the specific product, the limited sample size (2 dates) caps confidence at medium. No other savoury namkeen products were observed, so no comparative trends or alternative stable preferences can be established.",
+  "overall_confidence": "medium"
+}

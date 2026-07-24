@@ -1,0 +1,40 @@
+{
+  "category": "Sunflower Oil",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for Fortune Sunlite Refined Sunflower Oil, purchasing the 800 g pouch variant across four independent dates (Feb, Apr, May, Jul 2026). Purchases occur at a slow cadence (approx. every 58 days), typically in single-unit quantities. The user buys this specific brand consistently, indicating a durable preference rather than incidental trial.",
+  "brand_preferences": [
+    {
+      "brand": "Fortune",
+      "preference_text": "Fortune is the user's established brand for Sunflower Oil, evidenced by purchases on four independent dates (2026-02, 2026-04, 2026-05, 2026-07).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user consistently purchases Fortune Sunlite Refined Sunflower Oil in the 800 g pouch format.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 58.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-17",
+    "predicted_next_purchase_date": "2026-09-13",
+    "replenishment_text": "The user buys Sunflower Oil approximately every 58 days, classifying this as a slow-replenishment category. The next purchase is estimated around 2026-09-13.",
+    "confidence": "high",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Sunflower Oil reliably converts to purchase; the user has completed four transactions for this category.",
+  "substitution_text": "No evidence of substitution; the user consistently selects the Fortune brand and 800 g pouch size.",
+  "price_value_text": "No explicit price or value behavior observed; purchases are consistent in unit count (1) and pack size (800 g).",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty detected; the user has a clear, repeated purchase pattern.",
+  "mission_generation_text": "Routine kitchen replenishment for everyday cooking, frying, and meal preparation.",
+  "overall_confidence": "high"
+}

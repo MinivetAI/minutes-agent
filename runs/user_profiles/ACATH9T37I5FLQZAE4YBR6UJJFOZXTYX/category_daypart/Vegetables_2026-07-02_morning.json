@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of Baby Potato (280–320 g), Beetroot (250–350 g), and Onion (400–450 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The items are fresh, unbranded vegetables commonly used as base ingredients or for immediate same-day cooking.",
+  "uncertainty_text": "Single observation on one date; cannot establish stable preferences, recurring habits, or specific meal intent beyond general utility.",
+  "overall_confidence": "low"
+}

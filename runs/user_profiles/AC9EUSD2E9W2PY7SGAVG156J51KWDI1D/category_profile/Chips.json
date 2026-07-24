@@ -1,0 +1,40 @@
+{
+  "category": "Chips",
+  "profile_text": "The user demonstrates a high-confidence, stable preference for CRAX brand chips, specifically purchasing CRAX Cheese Balls Puff Snacks (65 g) across multiple independent dates in April and May 2026. Purchases occurred on five independent dates total, with cadence evidence supporting a medium-class replenishment cycle. The user also purchased Beyond Snack Kerala Banana Peri Peri Chips once in April, which does not constitute a stable preference. Timing is flexible, occurring in mornings, afternoons, and evenings on both weekdays and weekends, aligning with population baselines for morning and evening consumption. The product serves as a single-serve savory snack for immediate consumption or impulse hunger. No search, view, or cart activity was recorded, indicating purchases were likely planned or habitual rather than discovery-driven.",
+  "brand_preferences": [
+    {
+      "brand": "CRAX",
+      "preference_text": "The user purchased CRAX products on 5 independent dates (2 in April, 3 in May), establishing a high-confidence stable preference.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased CRAX Cheese Balls Puff Snacks 65 g on 5 independent dates, establishing a high-confidence stable preference for this specific product.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 9.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-05-24",
+    "predicted_next_purchase_date": "2026-06-02",
+    "replenishment_text": "The user's average purchase cadence is 9.0 days, classified as medium frequency. The last purchase was on 2026-05-24, with the next predicted purchase estimated around 2026-06-02 based on this average interval.",
+    "confidence": "high",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by five completed transactions across two months without preceding search or cart activity.",
+  "substitution_text": "No evidence of substitution behavior was found; the user consistently purchased the same CRAX product variant.",
+  "price_value_text": "No explicit price or value behavior data was provided.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty was found.",
+  "mission_generation_text": "Shopping needs supported by this category include acquiring single-serve savory snacks for immediate consumption, impulse hunger, or flexible timing consumption across different dayparts.",
+  "overall_confidence": "high"
+}

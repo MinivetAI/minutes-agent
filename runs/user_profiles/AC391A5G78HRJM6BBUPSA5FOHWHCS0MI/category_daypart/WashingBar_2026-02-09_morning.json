@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Surf excel Detergent Bar 250 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed during the morning on a weekday, a time when this category represents 32.46% of population activity. The purchase involved a standard detergent bar format, typically used for manual spot-cleaning or hand-wash laundry needs.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this specific brand or product format.",
+  "overall_confidence": "low"
+}

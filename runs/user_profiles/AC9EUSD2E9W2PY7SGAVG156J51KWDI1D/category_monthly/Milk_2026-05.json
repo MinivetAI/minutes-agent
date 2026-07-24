@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased fresh, small-format (500 ml) liquid milk across multiple dates, primarily during the morning daypart on weekdays. The user engaged with three distinct brands: Amul, Gokul, and Chitale. Amul appeared on three independent dates (May 4, May 7, May 13), establishing a stable preference with high confidence. Chitale appeared on three independent dates (May 18, May 22, May 29), also establishing a stable preference with high confidence. Gokul appeared on a single date (May 10) and is excluded from stable preference claims. The morning daypart is a stable pattern, supported by purchases on five independent dates (May 4, 7, 13, 18, 22, 29), with high confidence.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul milk, observed on three independent dates in May 2026 (May 4, May 7, May 13). Purchases included Amul Taaza Pasteurised Toned Milk and Amul Cow Milk, typically in the morning.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "brand",
+      "value": "Chitale",
+      "claim_text": "The user has a stable preference for Chitale Cow Milk, observed on three independent dates in May 2026 (May 18, May 22, May 29). Purchases ranged from 2 to 3 units of the 500 ml pack.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Gokul milk was purchased on a single date (May 10) and does not meet the threshold for stable preference. The user's specific reason for switching between Amul and Chitale is not established.",
+  "overall_confidence": "high"
+}

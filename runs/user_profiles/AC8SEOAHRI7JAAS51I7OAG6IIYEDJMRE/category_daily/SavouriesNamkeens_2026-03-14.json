@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-14",
+  "day_type": "weekend",
+  "summary_text": "On the weekend of 2026-03-14, the user purchased 1 unit of Haldiram's All In One 200 g, a packaged Indian namkeen mixture, during the evening. This timing aligns with the high population share (0.3027) for savouries namkeens in the evening, suggesting a possible fit for evening snacking or tea-time consumption. This is a single observed order; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase for immediate consumption.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Haldiram's All In One 200 g during the evening on a weekend. This timing aligns with the high population share (0.3027) for savouries namkeens in the evening, suggesting a possible fit for evening snacking or tea-time consumption.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase for immediate consumption.",
+  "overall_confidence": "low"
+}

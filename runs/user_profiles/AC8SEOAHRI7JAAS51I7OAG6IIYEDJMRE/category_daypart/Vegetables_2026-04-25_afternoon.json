@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Tinda 500g (unbranded fresh vegetable) during the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period with a 0.2526 population share, slightly lower than the morning (0.3246) and evening (0.3027) baselines. The product is a perishable fresh vegetable typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for tinda or fresh vegetables in general.",
+  "overall_confidence": "low"
+}

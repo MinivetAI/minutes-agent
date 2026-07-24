@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 100 g pouch of Society Regular Indian Leaf Tea during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning (32.46% population baseline share) on a weekday, consistent with routine household replenishment or immediate breakfast preparation needs.",
+  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable brand or product preference.",
+  "overall_confidence": "low"
+}

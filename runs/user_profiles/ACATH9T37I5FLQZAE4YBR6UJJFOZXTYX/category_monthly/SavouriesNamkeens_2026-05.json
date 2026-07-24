@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased savoury namkeens on four independent dates. Bikaji Chowpati Bhelpuri (110 g) was purchased on two dates (2026-05-02 and 2026-05-12), meeting the repetition bar for stable preference. Other products (Too Yumm! Veggie Stix, Pajaka Chiwda, Rajam Mix Farsan) appeared on single dates and are excluded from stable preference lists. The user’s activity spans morning, afternoon, and night sessions, with no single daypart dominating the pattern.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Bikaji",
+      "claim_text": "Bikaji is a stable preference, supported by purchases on 2 independent dates (2026-05-02, 2026-05-12).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Bikaji Chowpati Bhelpuri 110 g",
+      "claim_text": "Bikaji Chowpati Bhelpuri 110 g is a stable preference, supported by purchases on 2 independent dates (2026-05-02, 2026-05-12).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Other products in this category were purchased on single dates only. No stable preferences can be established for Too Yumm!, Pajaka, or Rajam based on this month's evidence.",
+  "overall_confidence": "medium"
+}

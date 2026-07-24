@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-06 (weekday), one order of Naturbaked Zero Maida Whole Wheat Bread 300 g was placed in the morning. The product is a packaged whole wheat bread, typically used for quick breakfasts, toast, or sandwiches. This is a single observed order on one date; it does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread 300 g placed in the morning. The order occurred in the morning, a period with a population share of 0.3246. The product is a packaged whole wheat bread, typically used for quick breakfasts, toast, or sandwiches.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

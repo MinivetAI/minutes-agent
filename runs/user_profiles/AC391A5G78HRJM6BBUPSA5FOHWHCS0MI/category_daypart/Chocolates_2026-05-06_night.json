@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Sapphire Premium Butter Toffee Truffles 300 g during the night on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred at night on a weekday, a time when this user's activity is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a premium, shelf-stable confectionery suitable for immediate consumption, casual sharing, or as a convenient sweet option.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., personal indulgence, gifting, or household stock) cannot be determined from this single event.",
+  "overall_confidence": "low"
+}

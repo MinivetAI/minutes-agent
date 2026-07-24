@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-12",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-12 (weekday), the user purchased one 1 L carton of Real Activ 100% Apple Juice in the afternoon. This timing aligns with a period when fruit drinks are less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a ready-to-drink fruit juice suitable for immediate consumption or quick pantry replenishment. This is a single observed order; it does not establish a stable preference or routine for this user.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1 L carton of Real Activ 100% Apple Juice. This timing aligns with a period when fruit drinks are less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a ready-to-drink fruit juice suitable for immediate consumption or quick pantry replenishment. This is a single observed order; it does not establish a stable preference or routine for this user.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this user.",
+  "overall_confidence": "low"
+}

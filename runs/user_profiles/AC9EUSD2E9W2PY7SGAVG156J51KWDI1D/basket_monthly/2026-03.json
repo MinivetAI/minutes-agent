@@ -1,0 +1,12 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, five independent orders were placed, all on weekdays. Three orders occurred in the morning daypart, one at night, and one in the morning. The baskets varied significantly in composition, ranging from single-category purchases (Aerated Drinks) to multi-category meal-preparation sets (Dairy, Produce, Nuts, Spices) and pantry restocking (Flour, Oil, Breads, Dairy). No abandoned carts were recorded across any of the five dates. Due to the lack of repeated category combinations or product purchases across independent dates, no stable behavioral patterns, daypart preferences, or category affinities can be established. Each order represents an isolated observation.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "Isolated instances of meal preparation involving dairy, produce, and savory ingredients; beverage consumption; and basic pantry or breakfast staple replenishment.",
+  "uncertainty_text": "All observations are based on single, independent orders. No category combinations, daypart timings, or product purchases were repeated across multiple dates. Therefore, no durable preferences, routines, or stable patterns can be inferred. The high-confidence population-level category pairings (e.g., Milk/Vegetables) noted in individual summaries reflect general market statistics and do not indicate a specific, repeated user behavior in this month.",
+  "overall_confidence": "low"
+}

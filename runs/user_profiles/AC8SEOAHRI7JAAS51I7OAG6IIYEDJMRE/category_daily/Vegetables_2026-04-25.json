@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-25",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-25 (weekend), the user purchased 1 unit of Tinda 500g (unbranded fresh vegetable) during the afternoon. This order occurred in a daypart with a 0.2526 population share, slightly lower than morning (0.3246) and evening (0.3027) baselines. The product is a perishable fresh vegetable typically used for immediate meal preparation. This is a single observed order; it does not establish a stable preference or routine for tinda or fresh vegetables in general.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Tinda 500g (unbranded fresh vegetable).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for tinda or fresh vegetables in general.",
+  "overall_confidence": "low"
+}

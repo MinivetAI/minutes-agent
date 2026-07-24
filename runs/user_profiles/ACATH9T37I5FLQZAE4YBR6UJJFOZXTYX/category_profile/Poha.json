@@ -1,0 +1,26 @@
+{
+  "category": "Poha",
+  "profile_text": "The user has purchased Poha four times across independent dates in 2026, establishing a slow replenishment cadence of approximately 52 days. Purchases have occurred in the morning and afternoon on both weekdays and weekends. Three different brands (Fortune, Classic, Tata Sampann) and two pack sizes (500 g, 1 kg) were observed, but no single brand or product variant has been repeated on multiple independent dates, so no stable brand or product preference is established. The category serves as a pantry staple for quick Indian meals or snacks.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 52.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-02",
+    "predicted_next_purchase_date": "2026-08-23",
+    "replenishment_text": "The user typically purchases this category every 52 days, with the next purchase estimated around 2026-08-23.",
+    "confidence": "medium",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed orders across independent dates.",
+  "substitution_text": "No specific substitution pattern is established; the user has purchased different brands and variants without a consistent replacement behavior.",
+  "price_value_text": "No consistent price or value preference is established; purchases included both 500 g and 1 kg packs from different brands.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports needs for quick-prep breakfasts, light snacks, or basic pantry staples for Indian meals.",
+  "overall_confidence": "medium"
+}

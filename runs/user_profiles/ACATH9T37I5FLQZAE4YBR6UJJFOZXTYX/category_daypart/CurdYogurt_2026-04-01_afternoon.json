@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Masti Dahi Plain Curd (200 ml) in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon, a time when this category is less common than morning or evening for the general population (afternoon share 0.2526 vs morning 0.3246). The product is a small, single-serve plain curd suitable for immediate consumption or pairing with meals.",
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preference can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

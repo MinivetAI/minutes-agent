@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased seven unbranded fresh vegetable items: Red Carrot (500 g), Coriander Leaves (90-100 g), Onion - Sambhar (250 g), Spinach Leaves (200 g), Onion (400–450 g), Baby Potato (280–320 g), and Broad Beans (240-260 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening on a weekend, a time when population share (0.3027) is comparable to the morning baseline (0.3246). The basket consists entirely of fresh, unbranded produce and herbs, suggesting an urgent top-up for immediate meal preparation or cooking of multiple dishes requiring these specific ingredients.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this evening timing.",
+  "overall_confidence": "low"
+}

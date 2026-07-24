@@ -1,0 +1,18 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased Nestlé CERELAC infant cereals on three independent dates (2026-03-17, 2026-03-21, 2026-03-27). The brand Nestlé CERELAC appears on all three dates, establishing a stable preference. The user bought the Wheat Apple Carrot variant on two separate dates (03-17 and 03-27) and a multi-pack containing Ragi Apple and Rice Vegetables variants on one date (03-21). While the brand is stable, the specific flavor variants are not repeated on independent dates (Wheat Apple Carrot appears twice, but Ragi Apple and Rice Vegetables appear only once each in this month's data). Therefore, only the brand level meets the repetition bar for stable preference. The user purchased in the morning on one weekday and in the afternoon on one weekday and one weekend, showing no consistent daypart pattern across independent dates.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Nestlé CERELAC",
+      "claim_text": "The user has a stable preference for Nestlé CERELAC infant cereals, evidenced by purchases on 3 independent dates in March 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Specific flavor preferences (Wheat Apple Carrot, Ragi Apple, Rice Vegetables) cannot be established as stable because they do not recur on 2 or more independent dates. The Wheat Apple Carrot variant appears on two dates, but the other variants appear only once. Daypart preferences are inconsistent across the month.",
+  "overall_confidence": "high"
+}

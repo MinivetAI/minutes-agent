@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during a weekday morning, a time when population share is 32.46%. The product is a mid-small pack of refined cooking oil, typically used for routine kitchen replenishment or quick replacement for same-day cooking needs.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference or routine.",
+  "overall_confidence": "low"
+}

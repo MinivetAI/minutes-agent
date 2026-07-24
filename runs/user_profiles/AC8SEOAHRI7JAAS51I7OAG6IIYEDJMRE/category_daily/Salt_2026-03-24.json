@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-24 (weekday), the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt in the afternoon. This standard household iodized table salt is intended for everyday cooking and seasoning. The order occurred during a lower-population daypart (0.2526) compared to morning (0.3246) and evening (0.3027) peaks. This single observed order does not establish a stable, recurring preference or routine for this specific brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt, a standard household iodized table salt intended for everyday cooking and seasoning.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference or routine for this specific brand or product type.",
+  "overall_confidence": "low"
+}

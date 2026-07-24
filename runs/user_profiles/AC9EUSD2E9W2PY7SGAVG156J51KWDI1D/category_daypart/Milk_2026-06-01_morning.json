@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 3 units of Chitale Cow Milk 500 ml (full cream cow milk) in the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning (32.46% population share), a time often associated with breakfast or immediate household needs. The product is a small-pack fresh milk SKU suitable for same-day use, tea, coffee, or cooking.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established. The specific reason for choosing this brand or pack size is unknown.",
+  "overall_confidence": "low"
+}

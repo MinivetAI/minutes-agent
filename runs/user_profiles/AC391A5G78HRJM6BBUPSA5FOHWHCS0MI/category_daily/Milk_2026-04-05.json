@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-05",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-05 (weekend), the user purchased 1 unit of Parag Toned Milk 500 ml during the night. This timing is less common for this user than the population baseline (night share 0.1202 vs. morning 0.3246, evening 0.3027). The product is a small-format packaged milk suitable for immediate household use or short-term consumption. This is a single observed order; durable preferences, routine timing, or household size cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "Purchased 1 unit of Parag Toned Milk 500 ml during the night on a weekend. This timing is less common for this user than the population baseline (night share 0.1202 vs. morning 0.3246, evening 0.3027). The product is a small-format packaged milk suitable for immediate household use or short-term consumption.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences, routine timing, or household size cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

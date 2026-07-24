@@ -1,0 +1,26 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on two independent dates (2026-07-02 and 2026-07-04). Both orders occurred in the morning, establishing a consistent daypart pattern. The product is a small, single-serve plain curd pack, typically used for immediate consumption or as a staple ingredient in daily meals. The morning timing aligns with the population baseline, where morning activity accounts for 32.46% of activity for this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Amul Masti Dahi Plain Curd (200 ml)",
+      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), observed on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for the Amul brand, observed on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Confidence is medium because the preference is supported by 2 independent dates. No browsing events (search, view, cart) were recorded to indicate if this was a planned or spontaneous purchase.",
+  "overall_confidence": "medium"
+}

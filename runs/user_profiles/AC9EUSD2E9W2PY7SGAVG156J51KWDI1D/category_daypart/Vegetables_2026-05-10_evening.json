@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one unit each of Bottle Gourd (400\u2013600 g) and Lady\u2019s Finger (250 g) during the evening on a weekend. Both items are unbranded fresh vegetables, typically used for same-day home cooking.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The items are fresh produce intended for immediate culinary use, consistent with evening meal preparation or late-day grocery replenishment.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. It is unclear if these specific vegetables are preferred over others or if this was a one-time need.",
+  "overall_confidence": "low"
+}

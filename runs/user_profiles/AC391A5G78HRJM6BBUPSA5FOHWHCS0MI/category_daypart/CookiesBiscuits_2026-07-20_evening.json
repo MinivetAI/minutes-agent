@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 pack (870 g) of Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening on a weekday, aligning with the population baseline where evening share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526). The product is a sweet, premium-style cookie with nut inclusions, typically used for tea-time snacking or pantry replenishment.",
+  "uncertainty_text": "This is a single observed order; durable preferences, frequency, or specific usage occasions (e.g., guest serving vs. personal snack) cannot be established.",
+  "overall_confidence": "low"
+}

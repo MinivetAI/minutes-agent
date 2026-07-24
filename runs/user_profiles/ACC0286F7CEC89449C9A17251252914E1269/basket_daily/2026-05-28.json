@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-28",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-28 (weekday), a single order was placed in the evening. The basket contained Cookies Biscuits (2 units), Milk (2 units), and Ice Creams (1 unit). This represents a single observation; stable preferences cannot be inferred from one date. The combination of Cookies Biscuits and Milk aligns with a known co-order pattern (Support: 0.211, Confidence: 1.0, Lift: 1.357, Co-order count: 4). The inclusion of Ice Creams suggests a compatible need for a dessert or snack, but no specific intent is proven. No abandoned carts were recorded.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk were purchased together in this order. This pairing matches the supplied evidence with Support: 0.211, Confidence: 1.0, and Lift: 1.357 (Co-order count: 4).",
+      "support": 0.211,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be looking for a snack or dessert combination, specifically pairing a dry good (cookies) with a beverage (milk) and a frozen treat (ice cream).",
+  "uncertainty_text": "This is a single order on one date. Confidence in any durable preference or routine is low. The category pair evidence for Cookies Biscuits and Milk is high confidence based on historical data, but this specific instance is a single observation.",
+  "overall_confidence": "low"
+}

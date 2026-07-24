@@ -1,0 +1,40 @@
+{
+  "category": "Cheese",
+  "profile_text": "The user demonstrates a stable, medium-confidence preference for the Amul brand in the cheese category, supported by purchases across March and April 2026. Within this brand, there is a specific stable preference for Amul Plain Processed Cheese Slices (200 g), observed on two independent dates in April 2026. Purchases occur on weekdays with flexible timing (morning or afternoon), aligning with the user's observed 8.5-day cadence. The product serves as a convenient, portion-controlled item for quick meals or snacks.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "The user has a stable preference for the Amul brand in the cheese category, evidenced by purchases on multiple independent dates in March and April 2026.",
+      "confidence": "medium",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Amul Plain Processed Cheese Slices (200 g), evidenced by purchases on two independent dates in April 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 8.5,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-04-09",
+    "predicted_next_purchase_date": "2026-04-17",
+    "replenishment_text": "The user typically purchases cheese every 8.5 days, with the next purchase estimated around 2026-04-17.",
+    "confidence": "medium",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed orders for Amul cheese products.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior is established from the supplied evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user consistently purchases Amul products.",
+  "mission_generation_text": "Shopping needs supported by this category profile include restocking convenient, portion-controlled dairy items for quick weekday meals or snacks.",
+  "overall_confidence": "medium"
+}

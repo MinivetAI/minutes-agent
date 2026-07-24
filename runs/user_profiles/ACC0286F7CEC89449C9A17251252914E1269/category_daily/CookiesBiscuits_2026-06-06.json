@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-06",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-06 (weekend), the user purchased 1 pack of Britannia Milk Bikis Cream Sandwich Biscuit (188 g) during the evening. This purchase aligns with the evening daypart, which has a high population share (0.3027) for the Cookies Biscuits category, suggesting a typical snack or tea-time context. This is a single observation on one date; it is not yet established as a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 pack of Britannia Milk Bikis Cream Sandwich Biscuit (188 g) during the evening on a weekend. This timing aligns with the evening daypart, which has a high population share (0.3027) for this category, suggesting a typical snack or tea-time context.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet established as a stable preference or routine.",
+  "overall_confidence": "low"
+}

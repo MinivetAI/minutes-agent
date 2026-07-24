@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Coriander Leaves 100 g (Unbranded) was placed during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with 30.27% population share, indicating typical evening activity timing. The product is a fresh herb used for cooking and finishing dishes, suggesting a need for immediate culinary use.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this product or category.",
+  "overall_confidence": "low"
+}

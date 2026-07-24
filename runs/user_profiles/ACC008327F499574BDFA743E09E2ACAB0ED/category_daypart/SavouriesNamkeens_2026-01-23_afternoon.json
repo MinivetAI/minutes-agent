@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 75 g pack of Bingo Tedhe Medhe Masala Tadka snack sticks.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered in the afternoon on a weekday, a time when population share (25.26%) is lower than morning (32.46%) and evening (30.27%), suggesting a non-peak, potentially impulsive or break-time snack need.",
+  "uncertainty_text": "This is a single observation; no repeated purchases or browsing patterns are available to establish stable brand or flavor preferences.",
+  "overall_confidence": "low"
+}

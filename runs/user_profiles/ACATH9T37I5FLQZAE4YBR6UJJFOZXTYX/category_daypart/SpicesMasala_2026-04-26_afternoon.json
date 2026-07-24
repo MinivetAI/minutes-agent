@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Everest Cumin Powder 100 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekend, a time when population share is lower than morning or evening peaks. The item is a standard pantry staple for Indian cooking, suggesting a routine replenishment need.",
+  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences. No browsing or cart activity observed to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

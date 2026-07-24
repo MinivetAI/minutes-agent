@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-09 (weekday), the user purchased 2 units of Tender Coconut (fresh whole fruit) in the morning. This purchase aligns with the morning daypart, which has a 32.46% population share. Tender coconut is a fresh, perishable fruit typically used for immediate hydration and refreshment. This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for tender coconuts.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Tender Coconut (fresh whole fruit).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for tender coconuts.",
+  "overall_confidence": "low"
+}

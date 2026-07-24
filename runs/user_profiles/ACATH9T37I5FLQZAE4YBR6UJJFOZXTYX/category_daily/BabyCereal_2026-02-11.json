@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-11",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-11 (weekday), the user purchased 1 unit of Nestle Cerelac Wheat Apple Baby Food Cereal (350 g) in the afternoon. This timing aligns with a period where this category is purchased less frequently than the population baseline (25.26% share vs. 32.46% for morning). The product is a standard infant food item. This is a single observed transaction; durable brand or flavor preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Nestle Cerelac Wheat Apple Baby Food Cereal (350 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; durable brand or flavor preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

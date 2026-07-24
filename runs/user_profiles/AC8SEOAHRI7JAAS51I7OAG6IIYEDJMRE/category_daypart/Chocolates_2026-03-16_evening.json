@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 19 g Nestlé KitKat Choco Coated Wafer Bar during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with a 0.3027 population share, making it a common time for this type of activity. The product is a small, single-serve snack intended for immediate consumption or impulse gratification.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

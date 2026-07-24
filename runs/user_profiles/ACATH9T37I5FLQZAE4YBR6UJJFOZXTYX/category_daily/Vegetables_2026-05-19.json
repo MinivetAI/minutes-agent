@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-19",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-19 (weekday), the user purchased one unit each of Baby Potato (280–320 g), Onion (400–450 g), and Fresh Lemon (3 pieces) during the afternoon. This afternoon order aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The items are fresh produce staples typically used for immediate meal preparation. This is a single observed order; it does not establish a stable preference or routine for these specific vegetables.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one unit each of Baby Potato (280–320 g), Onion (400–450 g), and Fresh Lemon (3 pieces).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

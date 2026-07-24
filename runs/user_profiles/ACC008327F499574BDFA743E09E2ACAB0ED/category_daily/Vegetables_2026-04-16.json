@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-16",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased a basket of fresh, unbranded vegetables including pumpkin, cucumber, ginger, potatoes, bitter gourd, onion, and tomato during the morning. This timing aligns with the population's highest shopping share (32.46%). The items are fresh, perishable staples typically used for immediate meal preparation. No browsing or search data is available to determine if this was a planned or urgent purchase. No brand preferences are evident as all items are unbranded.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased a basket of fresh, unbranded vegetables including pumpkin, cucumber, ginger, potatoes, bitter gourd, onion, and tomato. This timing aligns with the population's highest shopping share (32.46%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or search data is available to determine if this was a planned or urgent purchase. No brand preferences are evident as all items are unbranded.",
+  "overall_confidence": "low"
+}

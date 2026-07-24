@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-20 (weekday), the user purchased 1 unit of Vicco Turmeric Skin Cream (50 g) in the evening. This timing aligns with general evening activity patterns, which have a 30.27% population share. The product is a daily-use Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief. This is a single observed order on one date; durable preferences, brand loyalty, or specific skin concerns cannot be established. The user's specific reason for choosing this product or timing is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Vicco Turmeric Skin Cream (50 g) in the evening. This timing aligns with general evening activity patterns, which have a 30.27% population share. The product is a daily-use Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or specific skin concerns cannot be established. The user's specific reason for choosing this product or timing is unknown.",
+  "overall_confidence": "low"
+}

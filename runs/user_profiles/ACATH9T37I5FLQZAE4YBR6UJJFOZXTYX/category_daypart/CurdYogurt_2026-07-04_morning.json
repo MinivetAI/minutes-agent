@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Amul Masti Dahi Plain Curd (200 ml).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered in the morning on a weekend, a time when the user is more active than the population baseline (32.5% of population activity). The product is a small-pack plain dairy staple, typically used for immediate meal pairing or topping up household supplies.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine habits cannot be established.",
+  "overall_confidence": "low"
+}

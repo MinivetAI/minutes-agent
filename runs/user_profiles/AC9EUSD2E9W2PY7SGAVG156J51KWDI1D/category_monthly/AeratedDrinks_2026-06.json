@@ -1,0 +1,74 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased aerated drinks on two independent dates (2026-06-12 and 2026-06-15). Both orders occurred on weekdays during the morning, a timing pattern that aligns with above-baseline morning activity (32.46%). The user bought a 1.25 L PET bottle of Thums Up on the first date and a 500 ml PET bottle of Campa Cola on the second. While the specific brands differ, the consistent timing and day-type establish a stable preference for morning weekday purchases in this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Thums Up",
+      "claim_text": "The user purchased Thums Up on 2026-06-12. This is a single observation for this brand in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "brand",
+      "value": "Campa Cola",
+      "claim_text": "The user purchased Campa Cola on 2026-06-15. This is a single observation for this brand in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "1.25 L PET bottle of Thums Up carbonated cola soft drink",
+      "claim_text": "The user purchased a 1.25 L PET bottle of Thums Up on 2026-06-12. This is a single observation for this specific product variant in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Campa Cola PET Plastic Bottle 500 ml",
+      "claim_text": "The user purchased a Campa Cola PET Plastic Bottle 500 ml on 2026-06-15. This is a single observation for this specific product variant in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "brand",
+      "value": "Thums Up",
+      "claim_text": "The user purchased Thums Up on 2026-06-12. This is a single observation for this brand in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "brand",
+      "value": "Campa Cola",
+      "claim_text": "The user purchased Campa Cola on 2026-06-15. This is a single observation for this brand in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "1.25 L PET bottle of Thums Up carbonated cola soft drink",
+      "claim_text": "The user purchased a 1.25 L PET bottle of Thums Up on 2026-06-12. This is a single observation for this specific product variant in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Campa Cola PET Plastic Bottle 500 ml",
+      "claim_text": "The user purchased a Campa Cola PET Plastic Bottle 500 ml on 2026-06-15. This is a single observation for this specific product variant in this month.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "No single brand or product variant was purchased on more than one independent date in June 2026. Therefore, no stable brand or product preferences can be established. The only stable pattern identified is the timing of purchases (morning, weekday).",
+  "overall_confidence": "low"
+}

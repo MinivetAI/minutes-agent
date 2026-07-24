@@ -1,0 +1,12 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, two independent orders were observed. On a weekend evening, the user purchased basic meal components (vegetables, bread, milk). On a weekday morning, the user purchased a car air freshener. No category combinations, dayparts, or product preferences were repeated across these independent dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "Basic meal components (vegetables, bread, dairy) and vehicle interior maintenance.",
+  "uncertainty_text": "All observed behaviors are based on single independent dates. No durable preferences, routines, or stable category combinations can be inferred. The evening daypart and the combination of Breads, Vegetables, and Milk are isolated to 2026-07-04. The morning daypart and Car Air Freshener purchase are isolated to 2026-07-09.",
+  "overall_confidence": "low"
+}

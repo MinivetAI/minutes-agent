@@ -1,0 +1,26 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased fresh cow milk (500 ml) on 9 independent dates, alternating between Chitale and Amul brands. Both brands appeared on multiple independent dates, establishing stable preferences for each. Purchases occurred almost exclusively in the morning daypart, with one evening purchase, and spanned both weekdays and weekends.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Chitale",
+      "claim_text": "The user purchased Chitale Cow Milk 500 ml on 5 independent dates (2026-06-01, 2026-06-12, 2026-06-15, 2026-06-26, 2026-06-28).",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user purchased Amul Cow Milk 500 ml on 4 independent dates (2026-06-03, 2026-06-08, 2026-06-16, 2026-06-21).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user alternates between two major milk brands without a single dominant preference. The specific reason for brand switching or selection on any given date is unknown.",
+  "overall_confidence": "high"
+}

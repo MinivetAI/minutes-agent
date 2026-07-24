@@ -1,0 +1,40 @@
+{
+  "category": "Chocolates",
+  "profile_text": "The user exhibits a stable, high-frequency purchasing pattern for chocolates, buying approximately every 7 days. There is a clear, medium-confidence preference for Nestlé Milkybar, specifically the 22.5 g bar variant, which has been purchased on two independent dates in June 2026. This is accompanied by variety-seeking behavior, evidenced by a single purchase of a different Nestlé variant (Choo Strawberry Flavour Treats) and prior purchases of other brands (Cadbury) and formats (wafer bars, gift packs). Purchases consistently occur in the morning, across both weekdays and weekends, suggesting a routine for immediate snacking or quick sweet treats rather than occasion-specific gifting.",
+  "brand_preferences": [
+    {
+      "brand": "Nestlé",
+      "preference_text": "The user has a stable preference for Nestlé, evidenced by purchases on 2026-06-12 and 2026-06-21.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Nestlé Milkybar 22.5 g bars, evidenced by purchases on 2026-06-12 and 2026-06-21.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 7.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-06-21",
+    "predicted_next_purchase_date": "2026-06-28",
+    "replenishment_text": "The user buys chocolates roughly every 7 days, with the next purchase estimated around 2026-06-28.",
+    "confidence": "medium",
+    "evidence_count": 6,
+    "independent_date_count": 6
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by consistent transaction history across multiple months.",
+  "substitution_text": "The user shows variety-seeking behavior within the brand (e.g., switching from 22.5 g bars to 80 g treats) and across brands (Nestlé to Cadbury), indicating openness to substitution based on format or flavor novelty.",
+  "price_value_text": "Purchases include small, single-serve formats (22.5 g bars) and shareable bite-sized treats (80 g), suggesting a focus on immediate consumption and impulse snacking rather than bulk value.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. Prior purchases of Cadbury and other Nestlé formats indicate a broad interest in the category, with the current stable preference focused on Nestlé Milkybar 22.5 g bars.",
+  "mission_generation_text": "Routine replenishment of daily chocolate snacks, with potential for variety-seeking within the preferred brand or format.",
+  "overall_confidence": "medium"
+}

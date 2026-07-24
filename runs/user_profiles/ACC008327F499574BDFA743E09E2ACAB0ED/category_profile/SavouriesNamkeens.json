@@ -1,0 +1,26 @@
+{
+  "category": "Savouries Namkeens",
+  "profile_text": "The user has made three distinct purchases of savoury namkeens across January, February, and May 2026, establishing a slow replenishment cadence of approximately 49 days. Preferences are not yet stable, as each purchase involved a different brand (Bingo, Bhujialalji, Haldiram's) and product variant, with no single brand or product repeated across independent dates. Purchases occurred at varied times (weekday afternoon, weekend night, weekday morning), indicating flexible timing rather than a fixed routine. The user is open to various shelf-stable, ready-to-eat snack options for immediate consumption or tea-time accompaniment.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 49.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-05-01",
+    "predicted_next_purchase_date": "2026-06-19",
+    "replenishment_text": "The user typically repurchases this category every 49 days, with the next purchase estimated around 2026-06-19.",
+    "confidence": "low",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably results in completed purchases, as all observed search/view/cart activities (if any) are not present; the profile is based entirely on three completed transactions.",
+  "substitution_text": null,
+  "price_value_text": "No specific price sensitivity or value behavior can be established from the current evidence, as only three isolated transactions at varying pack sizes (75 g, 150 g, 210 g) are recorded.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No brands or products are currently avoided. The lack of repeated brand selection suggests the user is exploring options rather than adhering to a specific brand loyalty.",
+  "mission_generation_text": "Supports immediate snacking needs, such as tea-time accompaniments, break-time hunger, or crunchy snacks between meals.",
+  "overall_confidence": "low"
+}

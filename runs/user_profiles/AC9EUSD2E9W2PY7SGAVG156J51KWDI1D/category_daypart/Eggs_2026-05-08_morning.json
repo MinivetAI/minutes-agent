@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Premium Agrros Hen White Eggs 6-Pack placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday, a time when the user's activity (100%) exceeds the population baseline for morning (32.46%). The item is a basic fresh-food grocery staple.",
+  "uncertainty_text": "This is a single observation on one date; no repeated behavior is established to confirm a stable preference for this brand or format.",
+  "overall_confidence": "low"
+}

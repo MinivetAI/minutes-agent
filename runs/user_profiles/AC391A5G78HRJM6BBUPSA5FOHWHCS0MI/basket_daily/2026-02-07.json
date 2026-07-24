@@ -1,0 +1,12 @@
+{
+  "date": "2026-02-07",
+  "day_type": "weekend",
+  "summary_text": "On this weekend date, a single order was placed during the night daypart. The basket was narrow, containing one unit of an Unmapped-ACC product. The observed behavior is compatible with acquiring a specific accessory or personal care item, but no broader meal or household need is evidenced by this single transaction. No durable preferences, routines, or stable patterns can be inferred from this isolated observation.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Acquisition of a specific accessory or unmapped personal item.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred. The `category_pair_evidence` provided reflects population-level co-occurrence statistics across multiple dates and is not derived from this specific user's basket.",
+  "overall_confidence": "low"
+}

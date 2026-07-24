@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-03 (weekday), the user purchased one 2 x 1 L pack of Flipkart Supermart Home Essentials Floor and Bathroom Cleaner Phenyl during the evening. This purchase aligns with a general-purpose phenyl-style cleaner for routine floor and bathroom maintenance. The evening timing is consistent with population norms (0.3027 share). As this is a single observation on one date, durable brand preference or routine cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 2 x 1 L pack of Flipkart Supermart Home Essentials Floor and Bathroom Cleaner Phenyl. This is a single observation on one date; durable brand preference or routine cannot be established.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; durable brand preference or routine cannot be established.",
+  "overall_confidence": "low"
+}

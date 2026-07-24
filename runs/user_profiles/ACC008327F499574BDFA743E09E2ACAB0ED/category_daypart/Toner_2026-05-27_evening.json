@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 120 ml bottle of Dabur Premium Rose Skin Women toner during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a time when the user's activity (100% of observed activity) aligns with the population baseline share of 30.27% for this daypart. The product is a facial toner, typically used for skin refreshing or cleansing.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the Dabur brand or rose-based toners specifically, nor does it indicate a routine.",
+  "overall_confidence": "low"
+}

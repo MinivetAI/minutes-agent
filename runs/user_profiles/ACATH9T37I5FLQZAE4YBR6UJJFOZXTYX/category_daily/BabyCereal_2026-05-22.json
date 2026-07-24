@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-22",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-22 (weekday), the user purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) in the morning. This purchase aligns with a morning activity pattern that is 32.46% more likely than the population baseline. The product serves as a complementary infant cereal, suggesting a need for an age-appropriate feeding option during a morning routine. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for choosing this brand or flavor over others is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for choosing this brand or flavor over others is unknown.",
+  "overall_confidence": "low"
+}

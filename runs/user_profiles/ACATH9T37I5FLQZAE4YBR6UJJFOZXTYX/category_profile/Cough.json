@@ -1,0 +1,40 @@
+{
+  "category": "Cough",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for the VICKS brand and specifically the VICKS Double Power Cough Drops Warming Ginger variant, evidenced by purchases across February, May, and June 2026. The product is used as a portable, fast-acting throat lozenge for immediate, on-the-go relief of cough or throat irritation. Purchases occur primarily on weekdays, with timing varying between afternoon and night. The user buys in variable quantities (single packs to multi-packs), suggesting needs fluctuate based on immediate symptom severity or stock levels. The observed cadence is approximately every 11.5 days.",
+  "brand_preferences": [
+    {
+      "brand": "VICKS",
+      "preference_text": "The user has a stable preference for VICKS cough drops, evidenced by purchases on 3 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on 3 independent dates in February 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 11.5,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-06-11",
+    "predicted_next_purchase_date": "2026-06-22",
+    "replenishment_text": "The user typically repurchases this category every 11.5 days, with the next purchase estimated around 2026-06-22.",
+    "confidence": "high",
+    "evidence_count": 7,
+    "independent_date_count": 7
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as all observed search/view/cart activity (none recorded) and all brand/product interests have resulted in completed transactions.",
+  "substitution_text": null,
+  "price_value_text": "The user purchases variable quantities (1 to 4 packs), indicating flexibility in spend based on immediate need or stock levels rather than a fixed budget constraint per trip.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No browsing, search, or cart activity was recorded in June 2026, indicating no hesitation or comparison behavior was observed for this specific product.",
+  "mission_generation_text": "Shopping needs supported by this category profile include portable, fast-acting throat relief for cough or throat irritation, typically purchased on weekdays for immediate use or stock replenishment.",
+  "overall_confidence": "high"
+}

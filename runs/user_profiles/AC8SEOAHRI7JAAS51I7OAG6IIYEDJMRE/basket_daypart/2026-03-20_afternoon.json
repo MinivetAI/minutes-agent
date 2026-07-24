@@ -1,0 +1,33 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single afternoon weekday order containing one unit each of Ghee, Savouries Namkeens, and Milk. The basket reflects a basic staple combination compatible with a simple meal or snack preparation need.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Ghee",
+        "Savouries Namkeens",
+        "Milk"
+      ],
+      "combination_text": "Ghee, Savouries Namkeens, and Milk were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Milk and Savouries Namkeens were co-purchased.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of Ghee, Savouries Namkeens, and Milk is compatible with preparing a simple savory snack or meal component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated event.",
+  "overall_confidence": "low"
+}

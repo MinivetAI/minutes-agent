@@ -1,0 +1,14 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased rice on two independent dates: a 1 kg pack of Devaaya Biryani Basmati Rice on a weekend afternoon and a 5 kg pack of Daawat Rozana Gold Basmati Rice on a weekday morning. Because each brand and product variant appeared on only one date, no stable brand or product preferences are established. The user’s ordering activity is split between a premium, specific-use rice (Devaaya) and a standard household staple (Daawat), with no single value dominating. The user’s morning activity aligns with an above-baseline population share (32.5%).",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased two different rice brands (Devaaya and Daawat) on separate dates in May 2026, indicating varied product selection rather than a single dominant brand preference.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "This analysis is based on only two independent orders. No brand or product variant recurred across multiple dates, so stable preferences cannot be inferred. The specific reasons for choosing a premium biryani rice versus a standard staple remain unknown.",
+  "overall_confidence": "low"
+}

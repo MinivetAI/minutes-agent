@@ -1,0 +1,40 @@
+{
+  "category": "Digestive Health",
+  "profile_text": "The user has a single observed purchase of a psyllium husk fiber supplement for digestive support or constipation relief. No stable brand preference, routine, or recurring pattern is established from this single transaction.",
+  "brand_preferences": [
+    {
+      "brand": "Baidyanath",
+      "preference_text": "Observed in one transaction on 2026-05-24. Single observation does not establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Baidyanath Isabgol 200 g (1 unit) purchased on 2026-05-24. Single observation does not establish a stable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-24",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": null,
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty beyond the single transaction.",
+  "mission_generation_text": "Supports immediate digestive health needs, such as constipation relief or fiber supplementation.",
+  "overall_confidence": "low"
+}

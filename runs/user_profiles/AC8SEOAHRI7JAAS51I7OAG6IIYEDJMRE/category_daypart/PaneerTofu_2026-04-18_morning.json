@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 200 g pack of Mother Dairy Fresh Paneer.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekend, a time when 32.46% of the population typically shops. The product serves as a convenient, ready-to-cook protein source for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

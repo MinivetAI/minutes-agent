@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-30 (weekday), a single order was placed in the morning daypart. The basket contained 5 units of Chocolates (packaged as 3 + 2), 1 unit of Fruit Drinks, 1 unit of Milk, and 1 unit of Chips. The order spans four categories: Chocolates, Fruit Drinks, Milk, and Chips. The combination includes snack items (Chocolates, Chips, Fruit Drinks) alongside a staple dairy item (Milk). No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Chocolates",
+        "Milk"
+      ],
+      "combination_text": "Chocolates and Milk were purchased together in this order.",
+      "support": 0.1,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a need for immediate snacking or a light breakfast, combining sweet treats and dairy.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

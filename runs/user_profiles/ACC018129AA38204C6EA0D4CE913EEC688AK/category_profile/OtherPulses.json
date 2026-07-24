@@ -1,0 +1,26 @@
+{
+  "category": "Other Pulses",
+  "profile_text": "The user has made two distinct purchases in the Other Pulses category in March 2026 (Classic Brown Chana Whole and MAI RASOI Whole Peanuts/Classic Yellow Moong Dal Split). No brand, product, or variant repeated across independent dates, so no stable brand or product preferences can be established. The purchases suggest general pantry replenishment or meal preparation needs, but the lack of repetition prevents inference of durable habits.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-30",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-03-30. Cadence is unknown based on limited evidence.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases, indicating reliable conversion from interest to purchase.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior can be inferred due to the lack of repeated purchasing patterns for specific items.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. The lack of repeated purchases for specific items means preferences are not yet established.",
+  "mission_generation_text": "General pantry replenishment or meal preparation needs.",
+  "overall_confidence": "low"
+}

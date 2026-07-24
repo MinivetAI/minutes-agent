@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-11",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-11 (weekday), the user purchased one unbranded fresh onion (400–450 g) during the night. This purchase occurred at a time when the user's activity (12.02% share) is less common than the population baseline for morning (32.46%) or evening (30.27%). The product is a standard kitchen staple, suggesting a need for a basic cooking ingredient. This is a single observed order; it does not establish a stable preference or routine for onions or night-time shopping.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "One unbranded fresh onion (400–450 g) was purchased during the night on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for onions or night-time shopping.",
+  "overall_confidence": "low"
+}

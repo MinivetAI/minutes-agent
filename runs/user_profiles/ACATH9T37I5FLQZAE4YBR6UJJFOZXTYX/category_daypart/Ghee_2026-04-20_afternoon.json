@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Gowardhan Pure Cow Ghee 500 ml Plastic Bottle.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when this category shows lower-than-average population share (25.26% vs. 32.46% morning baseline). The product is a standard household kitchen staple.",
+  "uncertainty_text": "Single observation; cannot establish stable brand preference or routine replenishment patterns.",
+  "overall_confidence": "low"
+}

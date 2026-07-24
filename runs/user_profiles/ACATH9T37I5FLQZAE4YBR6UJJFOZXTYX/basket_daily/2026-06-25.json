@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-25",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-25 (weekday), a single order was placed during the morning daypart. The basket contained six items across five categories: Aerated Drinks, Vegetables, Milk, Baby Cereal, and Breads. Quantities included 2 units of Milk and single units of all other products. No carts were abandoned in this daypart. The observed combination of Milk and Vegetables has a support of 0.525, confidence of 0.97, and lift of 1.038. The combination of Baby Cereal and Vegetables has a support of 0.246, confidence of 0.938, and lift of 1.003. This order is compatible with a need for basic household staples and infant nutrition, but represents a one-time observation.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for daily food staples including dairy, produce, and infant nutrition.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

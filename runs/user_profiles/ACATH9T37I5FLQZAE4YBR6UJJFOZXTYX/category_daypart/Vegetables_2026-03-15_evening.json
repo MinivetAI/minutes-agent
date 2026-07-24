@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased five unbranded fresh produce items: Beetroot (250-350g), Green Capsicum (250g), Local Tomato (1kg), Red Carrot (500g), and Fresh Lemon (3 pieces).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the evening on a weekend, a time when population share (0.3027) is comparable to the morning baseline (0.3246). The basket consists of staple fresh vegetables and a citrus fruit, suggesting immediate utility for same-day meal preparation or replenishment of kitchen stock.",
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned list or an urgent top-up. As this is a single observed order, durable brand or product preferences cannot be established.",
+  "overall_confidence": "low"
+}

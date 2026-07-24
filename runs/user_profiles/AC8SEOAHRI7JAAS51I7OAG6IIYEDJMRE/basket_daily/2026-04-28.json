@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-28",
+  "day_type": "weekday",
+  "summary_text": "A single order placed on 2026-04-28 during the night on a weekday. The basket contains dairy and bakery items: 2 units of Curd Yogurt, 1 unit of Paneer Tofu, and 1 unit of Breads. This combination is compatible with a need for breakfast or snack components.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Curd Yogurt and Paneer Tofu were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Breads and Paneer Tofu were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for dairy and bread products, potentially for breakfast or light meals.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns are not stable or recurring.",
+  "overall_confidence": "low"
+}

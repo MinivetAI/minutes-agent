@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-10 (weekday), the user purchased one 25-tablet pack of VICKS Double Power Cough Drops Warming Ginger in the afternoon. This single order provides portable, on-the-go throat-soothing relief suitable for work or travel. The afternoon timing aligns with population baseline activity (25.26%), which is lower than morning (32.46%) and evening (30.27%). This observation does not establish a stable preference, routine, or recurring need for this specific brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 25-tablet pack of VICKS Double Power Cough Drops Warming Ginger. This single order provides portable, on-the-go throat-soothing relief suitable for work or travel. The afternoon timing aligns with population baseline activity (25.26%), which is lower than morning (32.46%) and evening (30.27%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific brand or product type.",
+  "overall_confidence": "low"
+}

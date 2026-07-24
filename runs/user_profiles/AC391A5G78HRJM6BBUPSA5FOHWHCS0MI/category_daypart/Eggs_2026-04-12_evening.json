@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 10-unit pack of Eggoz white hen eggs during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% share). The product is a standard fresh egg pack, typically used for breakfast, cooking, or baking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category.",
+  "overall_confidence": "low"
+}

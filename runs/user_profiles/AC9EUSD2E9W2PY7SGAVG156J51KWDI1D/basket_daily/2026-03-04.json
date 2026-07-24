@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-04, a single order was placed in the morning on a weekday. The basket contained four items across four distinct categories: Curd Yogurt (1 unit), Vegetables (2 units), Cashews (1 unit), and Spices Masala (1 unit). The order-building behavior reflects a single transaction combining dairy, produce, nuts, and flavorings. No carts were abandoned. The `shopping_need_text` describes a compatible need for meal preparation or snack assembly involving dairy, fresh produce, and savory ingredients.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.06,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a meal or snack involving dairy, fresh produce, and savory ingredients.",
+  "uncertainty_text": "This observation is based on a single order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

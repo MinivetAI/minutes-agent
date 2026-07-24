@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-20 (weekday), the user purchased one 400–450g pack of fresh loose potatoes during the evening. This purchase aligns with the evening daypart, which has a population share of 0.3027, comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526) or night (0.1202). The product is a fresh staple tuber used for immediate cooking or meal preparation. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time stockout replacement.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time stockout replacement.",
+  "overall_confidence": "low"
+}

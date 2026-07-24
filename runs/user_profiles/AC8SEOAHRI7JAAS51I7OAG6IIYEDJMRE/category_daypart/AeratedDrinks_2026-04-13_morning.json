@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Coca-Cola Diet Coke Can 300 ml.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The product is a single-serve chilled carbonated beverage, typically used for immediate refreshment or a quick break.",
+  "uncertainty_text": "This is a single observation on one date; durable brand or flavor preferences cannot be established.",
+  "overall_confidence": "low"
+}

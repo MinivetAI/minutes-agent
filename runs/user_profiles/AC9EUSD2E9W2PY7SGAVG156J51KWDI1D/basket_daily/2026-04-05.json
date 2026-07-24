@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-05",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-05 (weekend), a single order was placed during the evening daypart. The basket contained three personal care items: one Face Cream And Gel, one Sunscreen, and one Lotion Cream. The purchase exhibits narrow breadth, consisting exclusively of skincare products. The observed combination is compatible with a need for daily skin protection and hydration. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Face Cream And Gel",
+        "Sunscreen",
+        "Lotion Cream"
+      ],
+      "combination_text": "Face Cream And Gel, Sunscreen, and Lotion Cream were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Daily skin care maintenance, specifically protection and moisturization.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` supplied relates to grocery categories (Milk, Vegetables, Breads, etc.) and does not match the skincare categories in the observed order; therefore, no lift/support numbers from that evidence are applied to this basket.",
+  "overall_confidence": "low"
+}

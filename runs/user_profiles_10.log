@@ -1,0 +1,347 @@
+  ! failed [('basket_daypart', '2026-05-13_afternoon')]: POST /user/basket/daypart-summary returned HTTP 502: {"detail":{"task":"user_basket_daypart_summary","error_type":"parse_error","message":"Expecting value: line 13 column 2815 (char 3510)"}}
+  ! failed [('basket_daypart', '2026-03-03_evening')]: POST /user/basket/daypart-summary returned HTTP 502: {"detail":{"task":"user_basket_daypart_summary","error_type":"parse_error","message":"Expecting value: line 13 column 2867 (char 3392)"}}
+  ! failed [('basket_daypart', '2026-03-26_evening')]: POST /user/basket/daypart-summary returned HTTP 502: {"detail":{"task":"user_basket_daypart_summary","error_type":"parse_error","message":"Expecting value: line 13 column 2847 (char 3488)"}}
+  ! failed [('basket_daypart', '2026-04-16_evening')]: POST /user/basket/daypart-summary returned HTTP 502: {"detail":{"task":"user_basket_daypart_summary","error_type":"parse_error","message":"Expecting value: line 13 column 2806 (char 3499)"}}
+  ! failed [('category_monthly', 'CurdYogurt_2026-07')]: POST /user/category/monthly-summary returned HTTP 500: Internal Server Error
+  ! failed [('category_profile', 'Milk')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'Vegetables')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'CurdYogurt')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'CookiesBiscuits')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'SavouriesNamkeens')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'ButterMargarine')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'Buttermilk')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'IceCreams')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'Poha')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'PaneerTofu')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'Cheese')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'RavaSooji')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_profile', 'Pasta')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_profile',)]: <urlopen error [Errno 61] Connection refused>
+[ACC0286F7CEC89449C9A17251252914E1269] insufficient evidence for a global profile (category_profiles=0, basket_profile=missing); skipping global profile
+  ! failed [('category_daypart', 'Vegetables_2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-02-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-03-22_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-04-04_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-05-18_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-05-20_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-05-22_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-06-04_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-06-24_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-07-01_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-07-04_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Vegetables_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-02-21_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-02-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-03-16_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-05-15_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-05-18_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-06-24_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-07-01_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-07-04_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CurdYogurt_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-03-29_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SpicesMasala_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-02-08_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-06-26_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherPulses_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-02-12_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-02-21_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-02-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-03-16_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-03-29_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-04-03_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-04-04_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-06-05_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Milk_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-02-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-06-26_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'OtherCookingOil_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-02-21_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-03-16_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-04-03_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-04-24_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-04-27_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-05-15_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PaneerTofu_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-02-08_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-03-29_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-04-27_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-07-11_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chocolates_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CookiesBiscuits_2026-07-11_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Maida_2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Maida_2026-02-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Maida_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Maida_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-02-08_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-04-24_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-07-01_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SavouriesNamkeens_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chips_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chips_2026-02-21_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chips_2026-05-18_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Chips_2026-05-20_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pulses_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pulses_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pulses_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pulses_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pulses_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rice_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rice_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rice_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rice_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rice_2026-06-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rice_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Sugar_2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Sugar_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Sugar_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Sugar_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Sugar_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Popcorn_2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Popcorn_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Tea_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Tea_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Tea_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Tea_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'ButterMargarine_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'ButterMargarine_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'ButterMargarine_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'ButterMargarine_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DryFruits_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DryFruits_2026-06-24_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DryFruits_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Jaggery_2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Jaggery_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Jaggery_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'RavaSooji_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'RavaSooji_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'RavaSooji_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DipsSaucesPastes_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DipsSaucesPastes_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Eggs_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Eggs_2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Eggs_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Noodles_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Noodles_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Noodles_2026-04-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Dates_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Dates_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Dates_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rusks_2026-04-24_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rusks_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Rusks_2026-07-11_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Napkin_2026-06-05_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Napkin_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Napkin_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CakePastry_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'FryumsPapads_2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'FryumsPapads_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'WheatFlour_2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'WheatFlour_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SanitaryPad_2026-02-08_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SanitaryPad_2026-04-05_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'JamsSpreads_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'JamsSpreads_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Raisins_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Raisins_2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'WashingPowder_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'WashingPowder_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'MilkMilkPowder_2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'MilkMilkPowder_2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'IceCreams_2026-02-12_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Deodorant_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Deodorant_2026-05-18_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Poha_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Poha_2026-06-26_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Handwash_2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Handwash_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'IncenseStick_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'IncenseStick_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Flour_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Flour_2026-07-11_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SoyaProducts_2026-06-26_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SoyaProducts_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Shampoo_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'PerfumeForMen_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'NutDryFruitAssortedMix_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'SweetsMithai_2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Breads_2026-03-16_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DairyNoteBook_2026-04-05_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Soap_2026-04-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'ReadyMeals_2026-04-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'CommonCold_2026-04-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'ComboAndKit_2026-04-27_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Ghee_2026-04-27_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'DishCleaningGel_2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'FacePack_2026-05-15_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'BakingIngredientsDecoratives_2026-05-18_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Batteries_2026-05-20_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Fruits_2026-05-22_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'BathTowel_2026-06-04_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'HairOil_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Toothpaste_2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Trimmer_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pantyliner_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Almonds_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'FaceWash_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pistachios_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'EdibleSeeds_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Pasta_2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Toner_2026-07-11_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'BodyLotion_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'BodyWash_2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-08_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-12_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-13_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-21_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-26_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-02-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-03-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-03-16_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-03-22_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-03-29_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-03_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-04_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-05_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-11_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-24_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-04-27_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-05-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-05-15_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-05-18_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-05-20_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-05-22_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-04_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-05_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-10_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-20_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-24_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-26_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-01_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-04_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-10_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-11_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-16_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-20_morning')]: <urlopen error [Errno 61] Connection refused>
+[ACC0380DD722D8D4708BF7A06E00B2AFD51T] insufficient evidence for a global profile (category_profiles=0, basket_profile=missing); skipping global profile
+  ! failed [('category_daypart', 'Cigarettes_2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'Cigarettes_2026-07-16_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'AeratedDrinks_2026-06-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'AeratedDrinks_2026-06-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('category_daypart', 'AeratedDrinks_2026-06-29_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-07_afternoon')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-28_evening')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-06-29_night')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-05_morning')]: <urlopen error [Errno 61] Connection refused>
+  ! failed [('basket_daypart', '2026-07-16_morning')]: <urlopen error [Errno 61] Connection refused>
+[ACC038777A20D5A47D18B41523C0F9D499C] insufficient evidence for a global profile (category_profiles=0, basket_profile=missing); skipping global profile
+Computing population daypart baseline from /Users/anmol.garg/Documents/git/minutes-agent/Input/sample_1000_users_payloads.json ...
+Population daypart share: {'morning': 0.3246, 'afternoon': 0.2526, 'evening': 0.3027, 'night': 0.1202}
+Loading catalog from /Users/anmol.garg/Documents/git/minutes-agent/Input/minutes_catalog.tsv ...
+Catalog loaded: 76350 products
+[AC391A5G78HRJM6BBUPSA5FOHWHCS0MI] 29 orders across 39 categories; processing 39 categories
+[AC391A5G78HRJM6BBUPSA5FOHWHCS0MI] stage daypart: 122 calls
+[AC391A5G78HRJM6BBUPSA5FOHWHCS0MI] stage daily: 121 calls
+[AC391A5G78HRJM6BBUPSA5FOHWHCS0MI] stage monthly: 79 calls
+[AC391A5G78HRJM6BBUPSA5FOHWHCS0MI] stage profile: 40 calls
+[AC391A5G78HRJM6BBUPSA5FOHWHCS0MI] global profile written to runs/user_profiles/AC391A5G78HRJM6BBUPSA5FOHWHCS0MI_global_profile.json
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] 70 orders across 46 categories; processing 46 categories
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] stage daypart: 268 calls
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] stage daily: 258 calls
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] stage monthly: 116 calls
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] stage profile: 47 calls
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] global profile will detail the 40 best-evidenced of 46 categories.
+  included: ['Breads', 'CurdYogurt', 'CannedFood', 'AeratedDrinks', 'Milk', 'Vegetables', 'Fruits', 'PaneerTofu', 'SavouriesNamkeens', 'Cheese', 'Sugar', 'Chips', 'IceCreams', 'ReadyMixes', 'CookiesBiscuits', 'Eggs', 'Flour', 'DipsSaucesPastes', 'ButterMargarine', 'Lassi', 'Buttermilk', 'SpicesMasala', 'ScrubPad', 'ReadyMeals', 'Chocolates', 'Rice', 'Rusks', 'WheatFlour', 'GlassCleaner', 'ToiletCleaner', 'DishWashingBar', 'OtherPulses', 'FruitDrinks', 'BathroomFloorCleaner', 'Syrup', 'Condiments', 'Salt', 'DishCleaningGel', 'OtherCookingOil', 'Ghee']
+  omitted:  ['Tea', 'Toothbrush', 'Concentrates', 'JamsSpreads', 'AdhesiveTool', 'ExtensionCords']
+[AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE] global profile written to runs/user_profiles/AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE_global_profile.json
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] 50 orders across 61 categories; processing 61 categories
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] stage daypart: 244 calls
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] stage daily: 242 calls
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] stage monthly: 128 calls
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] stage profile: 62 calls
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] global profile will detail the 40 best-evidenced of 61 categories.
+  included: ['Milk', 'Vegetables', 'Breads', 'CurdYogurt', 'SpicesMasala', 'ButterMargarine', 'Chips', 'SunflowerOil', 'IndianSweets', 'Chocolates', 'SavouriesNamkeens', 'WheatFlour', 'AeratedDrinks', 'Noodles', 'PoojaFlowers', 'PaneerTofu', 'Cheese', 'Sugar', 'IncenseStick', 'Fruits', 'FaceCreamAndGel', 'SoyaProducts', 'Salt', 'SweetsMithai', 'Sunscreen', 'Coffee', 'FruitDrinks', 'Rice', 'ReadyMeals', 'ScrubPad', 'CookiesBiscuits', 'OtherPulses', 'Handwash', 'Cashews', 'EdibleOil', 'Honey', 'ReturnGiftAccessory', 'LotionCream', 'BodyLotion', 'BathroomFloorCleaner']
+  omitted:  ['Shampoo', 'DipsSaucesPastes', 'Besan', 'Tea', 'OtherCookingOil', 'Eggs', 'EdibleSeeds', 'GarbageBags', 'HairOil', 'Flour', 'HavanItem', 'Batteries', 'JamsSpreads', 'Kajal', 'Sindoor', 'Rusks', 'ReadyMixes', 'CornFlour', 'DishCleaningGel', 'DigestiveHealth', 'Dhoop']
+[AC9EUSD2E9W2PY7SGAVG156J51KWDI1D] global profile written to runs/user_profiles/AC9EUSD2E9W2PY7SGAVG156J51KWDI1D_global_profile.json
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] 61 orders across 52 categories; processing 52 categories
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] stage daypart: 372 calls
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] stage daily: 371 calls
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] stage monthly: 151 calls
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] stage profile: 53 calls
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] global profile will detail the 40 best-evidenced of 52 categories.
+  included: ['Vegetables', 'Milk', 'CurdYogurt', 'AeratedDrinks', 'Diaper', 'BabyCereal', 'SavouriesNamkeens', 'Cough', 'Noodles', 'CakePastry', 'Jaggery', 'RavaSooji', 'Fruits', 'Pasta', 'PaneerTofu', 'Breads', 'Poha', 'SpicesMasala', 'Chocolates', 'Ghee', 'LotionCream', 'Honey', 'Toothbrush', 'Chips', 'IceCreams', 'ReadyMeals', 'FruitDrinks', 'Oats', 'Allopathy', 'OtherPulses', 'Salt', 'GrainsMillets', 'DrainOpener', 'Vitamins', 'RxMedicine', 'FeedingNursing', 'PoojaFlowers', 'DipsSaucesPastes', 'BathroomFloorCleaner', 'KitchenRoll']
+  omitted:  ['SweetsMithai', 'MopSet', 'Condiments', 'WashingPowder', 'CandiesMouthFresheners', 'PastesPurees', 'CookiesBiscuits', 'IndianSweets', 'Tea', 'SanitaryPad', 'RiceRiceProducts', 'Popcorn']
+[ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX] global profile written to runs/user_profiles/ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX_global_profile.json
+[ACC008327F499574BDFA743E09E2ACAB0ED] 27 orders across 17 categories; processing 17 categories
+[ACC008327F499574BDFA743E09E2ACAB0ED] stage daypart: 70 calls
+[ACC008327F499574BDFA743E09E2ACAB0ED] stage daily: 66 calls
+[ACC008327F499574BDFA743E09E2ACAB0ED] stage monthly: 36 calls
+[ACC008327F499574BDFA743E09E2ACAB0ED] stage profile: 18 calls
+[ACC008327F499574BDFA743E09E2ACAB0ED] global profile written to runs/user_profiles/ACC008327F499574BDFA743E09E2ACAB0ED_global_profile.json
+[ACC00878788FD5A48D4A6411998D98B1D9E] 1 orders across 1 categories; processing 1 categories
+[ACC00878788FD5A48D4A6411998D98B1D9E] stage daypart: 2 calls
+[ACC00878788FD5A48D4A6411998D98B1D9E] stage daily: 2 calls
+[ACC00878788FD5A48D4A6411998D98B1D9E] stage monthly: 2 calls
+[ACC00878788FD5A48D4A6411998D98B1D9E] stage profile: 2 calls
+[ACC00878788FD5A48D4A6411998D98B1D9E] global profile written to runs/user_profiles/ACC00878788FD5A48D4A6411998D98B1D9E_global_profile.json
+[ACC018129AA38204C6EA0D4CE913EEC688AK] 24 orders across 31 categories; processing 31 categories
+[ACC018129AA38204C6EA0D4CE913EEC688AK] stage daypart: 96 calls
+[ACC018129AA38204C6EA0D4CE913EEC688AK] stage daily: 88 calls
+[ACC018129AA38204C6EA0D4CE913EEC688AK] stage monthly: 53 calls
+[ACC018129AA38204C6EA0D4CE913EEC688AK] stage profile: 32 calls
+[ACC018129AA38204C6EA0D4CE913EEC688AK] global profile written to runs/user_profiles/ACC018129AA38204C6EA0D4CE913EEC688AK_global_profile.json
+[ACC0286F7CEC89449C9A17251252914E1269] 19 orders across 13 categories; processing 13 categories
+[ACC0286F7CEC89449C9A17251252914E1269] stage daypart: 63 calls
+[ACC0286F7CEC89449C9A17251252914E1269] stage daily: 63 calls
+[ACC0286F7CEC89449C9A17251252914E1269] stage monthly: 23 calls
+[ACC0286F7CEC89449C9A17251252914E1269] stage profile: 14 calls
+[ACC0380DD722D8D4708BF7A06E00B2AFD51T] 37 orders across 71 categories; processing 71 categories
+[ACC0380DD722D8D4708BF7A06E00B2AFD51T] stage daypart: 244 calls
+[ACC0380DD722D8D4708BF7A06E00B2AFD51T] stage daily: 0 calls
+[ACC0380DD722D8D4708BF7A06E00B2AFD51T] stage monthly: 0 calls
+[ACC0380DD722D8D4708BF7A06E00B2AFD51T] stage profile: 0 calls
+[ACC038777A20D5A47D18B41523C0F9D499C] 7 orders across 2 categories; processing 2 categories
+[ACC038777A20D5A47D18B41523C0F9D499C] stage daypart: 10 calls
+[ACC038777A20D5A47D18B41523C0F9D499C] stage daily: 0 calls
+[ACC038777A20D5A47D18B41523C0F9D499C] stage monthly: 0 calls
+[ACC038777A20D5A47D18B41523C0F9D499C] stage profile: 0 calls
+Done: 7 succeeded, 3 failed/skipped out of 10 users. Output: runs/user_profiles

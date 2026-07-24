@@ -1,0 +1,40 @@
+{
+  "category": "Curd Yogurt",
+  "profile_text": "The user demonstrates a high-confidence, stable preference for Mother Dairy branded curd, with a specific, recurring focus on the Advanced Probiotic Plain 200 g variant. This preference is supported by repeated purchases across multiple months (January through April 2026). While the user also occasionally purchases the Classic Plain 390 g variant, the probiotic 200 g cup is the dominant stable item. Purchases occur across all dayparts and day types, indicating flexibility in timing rather than a rigid routine. The user buys in multi-unit quantities (e.g., 2-3 units), suggesting regular household consumption or stocking for immediate use.",
+  "brand_preferences": [
+    {
+      "brand": "Mother Dairy",
+      "preference_text": "The user has a stable preference for Mother Dairy curd, evidenced by purchases on 2+ independent dates across January, February, March, and April 2026.",
+      "confidence": "high",
+      "evidence_count": 19,
+      "independent_date_count": 19
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Mother Dairy Advanced Probiotic Plain Curd 200 g, evidenced by purchases on 5+ independent dates in March and April 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 5.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-05",
+    "predicted_next_purchase_date": "2026-07-10",
+    "replenishment_text": "The user typically repurchases this category every 5 days, classified as a fast-replenishing item. The last purchase was on 2026-07-05, with the next expected around 2026-07-10.",
+    "confidence": "high",
+    "evidence_count": 24,
+    "independent_date_count": 24
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by consistent transaction history across multiple months without unfulfilled cart or search activity.",
+  "substitution_text": "The user shows flexibility between Mother Dairy Classic Plain (390 g) and Advanced Probiotic Plain (200 g) variants, often purchasing both in the same basket or across close dates, suggesting these are interchangeable staples rather than strict substitutes.",
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident; the user consistently purchases premium probiotic variants alongside standard plain curd, indicating a focus on product type/function over price minimization.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance patterns detected. The user's behavior is consistent with a regular household staple.",
+  "mission_generation_text": "Regular household consumption of dairy staples, specifically probiotic curd for digestive health and plain curd for meal accompaniment (e.g., raita, breakfast).",
+  "overall_confidence": "high"
+}

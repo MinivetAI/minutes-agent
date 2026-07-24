@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 tender coconuts and 1 pack (500 g) of sapota (chikoo) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time with high population share (0.3027) for this category, suggesting a convenient top-up or immediate refreshment need rather than a planned morning stock-up.",
+  "uncertainty_text": "This is a single-observation window; it is not yet established whether this represents a stable preference for fresh tropical fruits or a one-time hydration/snack need.",
+  "overall_confidence": "low"
+}

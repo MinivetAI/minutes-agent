@@ -1,0 +1,11 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-02-18 (morning, weekday) containing one unit of an unmapped product (GHEGYK6HGFZ3QFPG). No other products were purchased or added to cart. The basket breadth is minimal, consisting of a single item from the Unmapped-GHE category. No category combinations were observed in this specific transaction. The `shopping_need_text` is compatible with general grocery replenishment but cannot be specified further due to the lack of product detail. A single order is an observation, not a durable preference.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "General grocery replenishment compatible with the purchased item.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable patterns, preferences, or habitual behaviors cannot be inferred. The product category is unmapped, preventing specific need identification beyond general grocery context.",
+  "overall_confidence": "low"
+}

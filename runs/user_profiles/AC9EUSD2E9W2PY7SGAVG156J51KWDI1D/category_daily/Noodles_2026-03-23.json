@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-23 (weekday), the user purchased one 272 g pack of Sunfeast YiPPee! Magic Masala with Added Veggies instant noodles during the morning. This order occurred at a time when the population share is 0.3246. The product serves as a convenient, quick-preparation meal option suitable for urgent hunger or when time is short. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 272 g pack of Sunfeast YiPPee! Magic Masala with Added Veggies instant noodles. This is a convenient, quick-preparation meal option suitable for urgent hunger or when time is short.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

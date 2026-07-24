@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) on four independent dates (2026-05-02, 2026-05-04, 2026-05-14, and 2026-05-22). This product appears consistently across the month, indicating a stable preference for this specific brand and variant as a complementary infant food. Purchases occurred across different dayparts (morning, afternoon, night) and day types (weekend and weekdays), suggesting the timing is driven by immediate feeding needs or convenience rather than a fixed daily routine. No browsing or search activity was recorded for this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Nestlé Cerelac Wheat Apple Carrot Cereal (300 g)",
+      "claim_text": "The user has a stable preference for Nestlé Cerelac Wheat Apple Carrot Cereal (300 g), purchasing this specific brand and variant on four independent dates in May 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the product choice is stable, the timing of purchases varies significantly (morning, afternoon, night) and spans both weekdays and a weekend. This variability prevents the establishment of a fixed daily or weekly routine for *when* the product is ordered, though the *what* is consistent. The specific nutritional or taste drivers for choosing this variant over others are not evidenced beyond the purchase itself.",
+  "overall_confidence": "high"
+}

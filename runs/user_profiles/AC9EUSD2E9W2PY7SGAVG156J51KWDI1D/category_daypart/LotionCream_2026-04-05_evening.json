@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 60 g pack of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) relative to other dayparts. The product is a baby moisturizer intended for quick relief of dry or irritated facial skin.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

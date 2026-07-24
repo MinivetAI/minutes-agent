@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-22",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-22 (weekday), a single morning order included five items: one Cough product, one Baby Cereal, and three distinct Vegetable products. The basket reflects a mix of health-related, infant nutrition, and fresh produce needs. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Cough",
+        "Vegetables"
+      ],
+      "combination_text": "Cough and Vegetables were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a need for household health management (cough relief), infant feeding (baby cereal), and fresh meal preparation (vegetables).",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. It represents an observation, not a durable preference or routine. Stable patterns require evidence from at least two independent dates.",
+  "overall_confidence": "low"
+}

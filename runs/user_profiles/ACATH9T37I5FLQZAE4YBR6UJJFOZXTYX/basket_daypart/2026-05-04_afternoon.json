@@ -1,0 +1,52 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-04 (afternoon, weekday) included 2 units of Milk, 1 unit each of Diaper, Vegetables, Baby Cereal, and Fruits. The basket reflects a compatible need for household staples and baby care items. This is a single observed order; it does not establish a durable preference pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order. Population evidence shows a support of 0.525, confidence of 0.97, and lift of 1.038 based on 32 co-orders.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order. Population evidence shows a support of 0.262, confidence of 1.0, and lift of 1.07 based on 16 co-orders.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order. Population evidence shows a support of 0.246, confidence of 0.938, and lift of 1.003 based on 15 co-orders.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together in this order. Population evidence shows a support of 0.213, confidence of 1.0, and lift of 1.07 based on 13 co-orders.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user likely has a need for daily nutrition (milk, vegetables, fruits) and baby care supplies (diapers, baby cereal).",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or recurring patterns can be inferred.",
+  "overall_confidence": "low"
+}

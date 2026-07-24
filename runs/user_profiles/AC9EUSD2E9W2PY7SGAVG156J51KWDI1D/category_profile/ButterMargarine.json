@@ -1,0 +1,34 @@
+{
+  "category": "Butter Margarine",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for the Amul brand within the Butter Margarine category, evidenced by purchases across four independent months (February, May, June, July 2026). The user exhibits a slow replenishment cadence, averaging approximately 34 days between purchases. Product format varies between 100 g and 200 g packs, with no single pack size dominating the history. Purchases occur across both weekdays and weekends, and morning and evening dayparts, indicating flexible timing driven by household need rather than a rigid schedule. The product is used for standard kitchen tasks such as spreading and cooking.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Amul is the user's established brand for Butter Margarine, appearing in purchases across four independent months (Feb, May, Jun, Jul 2026).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 34.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-19",
+    "predicted_next_purchase_date": "2026-08-22",
+    "replenishment_text": "The user typically repurchases this category every 34 days, classified as a slow cadence. The last purchase was on 2026-07-19, with the next expected around 2026-08-22.",
+    "confidence": "high",
+    "evidence_count": 6,
+    "independent_date_count": 6
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase; the user has completed transactions on all observed dates of interest.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently purchases Amul brand products.",
+  "price_value_text": "No explicit price sensitivity or value-seeking behavior is evident; the user purchases both 100 g and 200 g formats, suggesting format choice is driven by immediate need or availability rather than strict unit-price optimization.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Restocking staple kitchen ingredients for daily cooking and breakfast preparation.",
+  "overall_confidence": "high"
+}

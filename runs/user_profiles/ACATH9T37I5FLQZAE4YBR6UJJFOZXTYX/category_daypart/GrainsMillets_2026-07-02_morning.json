@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 500 g pack of Rajdhani Sabudana Sago.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the morning on a weekday, a time when the user is more active than the population baseline (32.5% of population activity vs. 32.5% share). The product is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

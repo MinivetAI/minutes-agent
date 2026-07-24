@@ -1,0 +1,26 @@
+{
+  "category": "Spices Masala",
+  "profile_text": "The user demonstrates a stable, medium-frequency replenishment pattern for Spices Masala, with purchases occurring approximately every 14.5 days. Recent behavior indicates a broad, utilitarian approach to this category, involving multiple distinct brands (Everest, Zoff, Maggi, Goldiee) and product variants (turmeric, chili powder, cumin seeds, coriander powder, kasoori methi, chaat masala) without any single brand or product recurring across independent dates. This suggests the user buys specific spices as needed for meal preparation rather than adhering to a fixed brand loyalty or routine for a single item. The most recent activity was a multi-item restock in July 2026.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 14.5,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-07-18",
+    "replenishment_text": "The user typically purchases Spices Masala every 14.5 days, with the next purchase estimated around 2026-07-18.",
+    "confidence": "medium",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Spices Masala reliably converts to purchase, as evidenced by multiple completed transactions across different months and brands.",
+  "substitution_text": null,
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is established due to the variety of brands and pack sizes purchased.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user actively purchases a wide range of spice items.",
+  "mission_generation_text": "Supports routine meal preparation and cooking needs, specifically for seasoning and flavoring Indian dishes with core staples like turmeric, chili, cumin, and coriander.",
+  "overall_confidence": "medium"
+}

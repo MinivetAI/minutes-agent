@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-20, a single afternoon weekday order was placed containing 11 items across 8 categories. The basket included staples (Milk, Rava Sooji, Ghee, Salt), fresh produce (4 units of Vegetables), dairy (2 units of Curd Yogurt), household supplies (Kitchen Roll), and an infant food item (Baby Cereal). The combination of these items suggests a need for daily meal preparation involving dairy and vegetables, alongside basic household maintenance and infant feeding supplies. This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for daily meal preparation involving dairy and vegetables, along with basic household maintenance and infant feeding supplies.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
+  "overall_confidence": "low"
+}

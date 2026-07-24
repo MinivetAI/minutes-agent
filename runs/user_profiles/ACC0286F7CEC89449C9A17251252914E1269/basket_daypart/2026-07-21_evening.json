@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-07-21 in the evening on a weekday. The basket contains 2 units of Milk and 1 unit of Curd Yogurt. This represents a narrow basket breadth focused on dairy products. The combination of Milk and Curd Yogurt is supported by category pair evidence with a support of 0.421, confidence of 0.889, and lift of 1.206, based on 8 co-order instances. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Milk and Curd Yogurt were purchased together in this order. This pairing has a support of 0.421, confidence of 0.889, and lift of 1.206, observed in 8 co-orders.",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Milk and Curd Yogurt is compatible with a need for dairy staples or breakfast components.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or routine behaviors cannot be inferred from this single instance. Confidence in this specific basket composition is low due to the lack of repetition across multiple dates.",
+  "overall_confidence": "low"
+}

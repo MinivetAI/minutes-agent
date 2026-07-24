@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 Small Coconut (fresh produce) during the morning on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time with a population share of 0.3246. The product is a fresh coconut, typically used for immediate cooking, ritual offerings, or recipes requiring whole ingredients.",
+  "uncertainty_text": "This is a single observed order; no durable preferences or recurring habits can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

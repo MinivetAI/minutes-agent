@@ -1,0 +1,9 @@
+{
+  "month": "2026-02",
+  "summary_text": "One order of Levocet Syrup 60 ml (Levocet brand) was placed during the evening on a weekend. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference. It is unknown whether this was a one-time need, a refill, or part of a broader pattern of allergy management. No browsing intent was captured to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

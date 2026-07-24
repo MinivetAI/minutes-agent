@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-05",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-05 (weekend), the user purchased 1 Small Coconut (fresh produce) during the morning. This single order occurred in a daypart with a population share of 0.3246. The product is a fresh coconut, typically used for immediate cooking, ritual offerings, or recipes requiring whole ingredients. This is a single observed order; no durable preferences or recurring habits can be established from this evidence alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 Small Coconut (fresh produce) during the morning on a weekend. The order occurred in the morning, a time with a population share of 0.3246. The product is a fresh coconut, typically used for immediate cooking, ritual offerings, or recipes requiring whole ingredients.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no durable preferences or recurring habits can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

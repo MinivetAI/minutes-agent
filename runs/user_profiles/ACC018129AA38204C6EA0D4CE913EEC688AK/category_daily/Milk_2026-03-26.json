@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-26 (weekday), the user ordered Nandini Shubham Pasteurised Standardised Milk (500 ml) in the evening. This single observation occurred during a daypart where population share (0.3027) is comparable to morning (0.3246). The 500 ml pack size suggests a short-term top-up or immediate consumption need rather than bulk stocking. No stable brand or product preference can be established yet.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Nandini Shubham Pasteurised Standardised Milk (500 ml).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Amul Taaza Pasteurised Toned Milk on 8 independent dates. The brand and product variant appeared consistently across the month, meeting the repetition bar for stable preference. Confidence is high, supported by 8 independent dates. The user also purchased Yakult Fermented Milk Drink on one date. Daypart patterns show purchases in the morning, afternoon, and evening, with no single dominant time established due to the variety of times observed. Trend claims are limited as the product choice remained stable throughout the month.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul milk products, evidenced by purchases on 8 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 8 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While Amul Taaza is a stable preference, the specific pack sizes vary (500 ml single, 500 ml multi-pack, 1 L pack), and dayparts vary (morning, afternoon, evening). No single daypart or pack size combination is stable enough to claim a routine. Yakult was purchased only once and is not a stable preference.",
+  "overall_confidence": "high"
+}

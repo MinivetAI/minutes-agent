@@ -1,0 +1,31 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased fresh vegetables on three independent dates (2026-02-05, 2026-02-10, 2026-02-14). Cauliflower was purchased on two of these dates (2026-02-10 and 2026-02-14), meeting the repetition bar for stable preference. All three purchases occurred in the afternoon, establishing a consistent daypart pattern. Tomatoes were purchased on two dates (2026-02-10 and 2026-02-14), also meeting the repetition bar. Coriander, green peas, onions, potatoes, and the dessert were single-date observations and are excluded from stable lists.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Cauliflower",
+      "claim_text": "The user has a stable preference for Cauliflower, evidenced by purchases on 2026-02-10 and 2026-02-14.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Tomato",
+      "claim_text": "The user has a stable preference for Tomatoes, evidenced by purchases on 2026-02-10 and 2026-02-14.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user consistently shops for vegetables in the afternoon across all three observed dates in February 2026.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "This analysis is based on three independent orders. While Cauliflower and Tomatoes show stable preference, other vegetables like Coriander, Green Peas, Onions, and Potatoes were purchased only once and do not yet indicate a stable habit. The inclusion of Red Carrot Halwa on 2026-02-14 suggests occasional meal-prep or hosting needs, but this is a single observation.",
+  "overall_confidence": "medium"
+}

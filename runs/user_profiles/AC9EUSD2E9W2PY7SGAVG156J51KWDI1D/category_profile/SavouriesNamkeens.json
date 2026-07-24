@@ -1,0 +1,40 @@
+{
+  "category": "Savouries Namkeens",
+  "profile_text": "The user demonstrates a stable, medium-confidence preference for Haldiram's Mini Bhakarwadi 200 g, observed across three independent dates (May and July 2026). This specific product is the only item with repeated purchase evidence. Other brands (Chitale Bandhu, Balaji Wafers, Daadi's, Prabhuji, Let's Try) appear only once and do not form stable preferences. Purchases occur primarily in the morning on weekdays, aligning with population baselines. The user buys ready-to-eat, shelf-stable snacks for immediate consumption or tea-time accompaniment. Cadence is observed at 20 days.",
+  "brand_preferences": [
+    {
+      "brand": "Haldiram's",
+      "preference_text": "Haldiram's is a stable preference, observed on 3 independent dates (May 2026: 2 dates, July 2026: 1 date).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Haldiram's Mini Bhakarwadi 200 g is a stable preference, observed on 3 independent dates.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 20.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-19",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "The user typically purchases this category every 20 days. The last purchase was on 2026-07-19, and the next purchase is estimated around 2026-08-08.",
+    "confidence": "medium",
+    "evidence_count": 6,
+    "independent_date_count": 6
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by multiple completed orders for specific products without preceding search or cart activity.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently repurchases the same specific variant (Haldiram's Mini Bhakarwadi 200 g) when a stable preference is observed.",
+  "price_value_text": "No explicit price or value sensitivity evidence found in the summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. Other brands (Chitale Bandhu, Balaji, Daadi's, Prabhuji, Let's Try) were purchased once but do not constitute stable preferences.",
+  "mission_generation_text": "Restocking shelf-stable, ready-to-eat savory snacks for immediate consumption, tea-time accompaniment, or quick hunger relief.",
+  "overall_confidence": "medium"
+}

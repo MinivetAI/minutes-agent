@@ -1,0 +1,32 @@
+{
+  "category": "Adhesive Tool",
+  "profile_text": "In May 2026, the user purchased one unit of FEVIKWIK Advanced 3g Instant Glue on a single weekday (2026-05-01) during the afternoon. This fast-setting cyanoacrylate adhesive is a general utility item for quick, multi-surface household repairs. The purchase occurred during a lower-population daypart (0.2526) compared to morning (0.3246) and evening (0.3027) peaks. As this is a single observed order, durable brand preference or recurring repair habits cannot be established from this isolated event.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "FEVIKWIK Advanced 3g Instant Glue",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-01",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase when the user has an immediate repair need, as evidenced by the completed transaction.",
+  "substitution_text": "No substitution behavior observed; single brand purchase.",
+  "price_value_text": "No price sensitivity or value behavior observed from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports immediate, quick-fix household repairs requiring multi-surface adhesion.",
+  "overall_confidence": "low"
+}

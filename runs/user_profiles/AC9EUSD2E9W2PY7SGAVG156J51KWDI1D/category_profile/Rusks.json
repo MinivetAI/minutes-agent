@@ -1,0 +1,40 @@
+{
+  "category": "Rusks",
+  "profile_text": "A single observed purchase of Britannia Toastea Butter Rusk (183 g) on 2026-07-19 during a morning session. This order does not establish a stable preference, routine, or durable brand loyalty. The product is a baked tea-time rusk snack, typically used as a crisp companion for tea or coffee.",
+  "brand_preferences": [
+    {
+      "brand": "Britannia",
+      "preference_text": "Observed in a single order on 2026-07-19.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Britannia Toastea Butter Rusk (183 g) observed in a single order on 2026-07-19.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-19",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Tea-time snack or breakfast accompaniment.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Aashirvaad Shudh Chakki Atta 5 kg (1 unit) placed in the afternoon on a weekday. No browsing, search, or cart activity was observed for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a family-size staple for everyday roti making, suggesting a routine replenishment need.",
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date. It is not yet established whether this represents a stable preference for the Aashirvaad brand or a one-time purchase. No browsing intent signals are available to contextualize the decision.",
+  "overall_confidence": "low"
+}

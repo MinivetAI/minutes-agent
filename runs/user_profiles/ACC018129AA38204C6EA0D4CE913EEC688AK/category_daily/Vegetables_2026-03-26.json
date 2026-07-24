@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-26 (weekday), the user purchased five unbranded fresh vegetable items during the evening: Small Coconut, English Cucumber (500 g), Bathua Saag (250 g), Onion (400–450 g), and Spinach with roots (200 g). This single observation suggests immediate meal preparation or household stock replacement. No browsing or search data is available to determine if this was a planned or spontaneous purchase. No brand preferences can be inferred as all items are unbranded.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased five unbranded fresh vegetable items: Small Coconut, English Cucumber (500 g), Bathua Saag (250 g), Onion (400–450 g), and Spinach with roots (200 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or search data is available to determine if this was a planned or spontaneous purchase. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low"
+}

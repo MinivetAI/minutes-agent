@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 400 g pouch of Quaker plain wholegrain oats.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought during the afternoon on a weekend, a time with lower population share (0.2526) compared to the morning baseline (0.3246). The product is a basic pantry staple for hot breakfasts or cooking.",
+  "uncertainty_text": "Single observation; cannot establish stable preference or routine.",
+  "overall_confidence": "low"
+}

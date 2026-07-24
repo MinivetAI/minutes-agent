@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the afternoon on a weekend, a timing that aligns with the population baseline where afternoon activity (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a staple grocery item intended for everyday cooking.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

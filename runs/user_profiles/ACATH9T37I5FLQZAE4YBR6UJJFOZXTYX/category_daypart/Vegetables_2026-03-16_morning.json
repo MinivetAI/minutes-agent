@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unbranded Baby Potato (280–320 g) and one unbranded Sweet Potato (450–550 g) during a morning weekday session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline), suggesting a standard morning shopping window. The products are fresh root vegetables typically used for immediate cooking, roasting, or boiling, indicating a need for staple produce replenishment.",
+  "uncertainty_text": "No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is unclear if this represents a routine habit or a one-time need.",
+  "overall_confidence": "low"
+}

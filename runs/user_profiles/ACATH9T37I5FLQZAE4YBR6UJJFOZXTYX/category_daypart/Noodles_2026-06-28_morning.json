@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "One order of MAGGI 2-Minute Masala Instant Noodles (420 g) was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekend. The product is a family-sized, quick-cook instant noodle pack, typically used for fast meals or snacks.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or a spontaneous need. A single order does not establish a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

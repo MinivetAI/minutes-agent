@@ -1,0 +1,19 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one Kinder JOY Pink Bites 20 g and one Kinder JOY Blue Bites 20 g during the afternoon on a weekday.",
+  "preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Kinder JOY",
+      "claim_text": "The user purchased two items from the Kinder JOY brand in this session.",
+      "confidence": "low",
+      "evidence_count": 2,
+      "independent_date_count": 1
+    }
+  ],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The products are single-serve, portion-controlled chocolate confections, typically used for immediate sweet cravings or quick, individual indulgences.",
+  "uncertainty_text": "This is a single-observation window; it is not yet established whether the user has a stable preference for the Kinder JOY brand or this specific portioned format versus other chocolate types or pack sizes.",
+  "overall_confidence": "low"
+}

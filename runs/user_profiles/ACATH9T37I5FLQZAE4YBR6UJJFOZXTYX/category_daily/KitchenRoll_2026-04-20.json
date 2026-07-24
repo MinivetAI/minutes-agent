@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-20 (weekday), the user purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) in the afternoon. This order occurred during a daypart where the user's activity was below the population baseline share (25.26%). The product is a disposable household consumable for immediate kitchen cleanup needs. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) in the afternoon on a weekday. The order occurred in the afternoon, a time when the user's activity was below the population baseline share (25.26%). The product is a disposable household consumable for immediate kitchen cleanup needs.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

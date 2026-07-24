@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 100 g pack of yellow Holi color powder and one 100 g pack of green Holi color powder, both from the brand Cock.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekday, a time when the user's activity is above the population baseline (32.46%). The products are festive color powders (gulal) intended for Holi celebrations, suggesting immediate preparation for the upcoming festival.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference or a recurring shopping pattern for Holi colors.",
+  "overall_confidence": "low"
+}

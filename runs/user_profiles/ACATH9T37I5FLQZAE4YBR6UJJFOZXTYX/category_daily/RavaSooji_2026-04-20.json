@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-20 (weekday), the user purchased 1 unit of Fortune Suji 500 g (semolina/sooji) during the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (25.26% share vs. 32.46% for morning). The product is a small-pack staple flour, compatible with immediate cooking needs such as breakfast, snacks, or dessert prep. This is a single observed order; it does not establish a stable preference or routine for this category. It is unclear if this was a one-time top-up or part of a broader habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Fortune Suji 500 g (semolina/sooji) during the afternoon on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category. It is unclear if this was a one-time top-up or part of a broader habit.",
+  "overall_confidence": "low"
+}

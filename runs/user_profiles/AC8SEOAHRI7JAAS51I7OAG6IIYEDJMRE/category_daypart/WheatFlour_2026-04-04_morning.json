@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 5 kg pack of Fortune Chakki Fresh Atta, a whole-wheat flour intended for routine household cooking such as rotis and parathas.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred on a weekend morning, a time when population activity is moderately high (32.46% share). The product is a standard household staple, suggesting a routine restock for immediate meal preparation rather than a discovery or specialty purchase.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference or habit. The specific reason for choosing this brand over others on this occasion is unknown.",
+  "overall_confidence": "low"
+}

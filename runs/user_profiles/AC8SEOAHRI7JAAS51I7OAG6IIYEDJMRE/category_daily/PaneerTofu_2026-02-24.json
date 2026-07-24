@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-24 (weekday), the user placed one order of Mother Dairy Fresh Paneer 200 g in the morning. This timing aligns with a 32.46% population share for morning purchases. The product is a packaged fresh dairy item suitable for immediate cooking needs. This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g placed in the morning. This timing aligns with a 32.46% population share for morning purchases. The product is a packaged fresh dairy item suitable for immediate cooking needs.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,32 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-25 in the morning on a weekday. The basket contains 8 items across 4 categories: Vegetables (4 units), Milk (2 units), Pasta (2 units), and Savouries Namkeens (1 unit). The purchase includes a mix of fresh produce, dairy, dry staples, and snacks. `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic meal preparation components (vegetables, pasta, milk) and a snack (savouries).",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. Confidence in behavioral inference is low.",
+  "overall_confidence": "low"
+}

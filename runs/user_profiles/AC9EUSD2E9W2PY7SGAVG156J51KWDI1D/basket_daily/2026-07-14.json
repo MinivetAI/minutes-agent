@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-14, a weekday, a single order was placed in the afternoon. The basket contained five items across four categories: Milk (2 units of one product, 1 unit of another), Breads (1 unit), Vegetables (1 unit), and Spices Masala (1 unit). The combination of staple dairy, bread, produce, and flavoring agents is compatible with a meal preparation need involving dairy, bread, and vegetables, potentially seasoned with spices. This analysis is based on a single observed order on one date; stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Meal preparation involving dairy, bread, and vegetables.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

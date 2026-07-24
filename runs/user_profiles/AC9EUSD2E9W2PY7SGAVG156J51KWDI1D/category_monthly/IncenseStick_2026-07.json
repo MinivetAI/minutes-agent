@@ -1,0 +1,18 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased MANGALDEEP Dhuno Cup (12 cups) on two independent dates (2026-07-04 and 2026-07-21). This repetition meets the threshold for a stable preference. The user also consistently purchases this item during the morning daypart on both a weekend and a weekday, indicating a stable timing pattern. The product is a devotional incense item used for home worship or prayer rituals.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "MANGALDEEP Dhuno Cup (12 cups)",
+      "claim_text": "The user has a stable preference for MANGALDEEP Dhuno Cup (12 cups), observed on 2 independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This summary is based on two independent purchase dates. No other products or brands were observed in this category during this month.",
+  "overall_confidence": "medium"
+}

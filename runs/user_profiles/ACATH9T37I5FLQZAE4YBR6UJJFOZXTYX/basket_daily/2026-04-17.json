@@ -1,0 +1,93 @@
+{
+  "date": "2026-04-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-17 (weekday), a single afternoon order was placed. The basket was heavily weighted toward Vegetables (14 items), accompanied by Chocolates (2 items), Pasta (2 items), Aerated Drinks (1 item), Curd Yogurt (2 items), and Milk (1 item). No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together in this order.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for meal preparation involving vegetables and pasta, supplemented with dairy products (milk, curd yogurt) and snacks (chocolates, aerated drinks).",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

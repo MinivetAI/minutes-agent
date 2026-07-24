@@ -1,0 +1,62 @@
+{
+  "category": "Breads",
+  "profile_text": "The user maintains a high-frequency, stable routine for purchasing bread, primarily focusing on whole wheat loaves and brown breads. The most consistent long-term preference is for Naturbaked Zero Maida Whole Wheat Bread (300 g), which was purchased on 12 independent dates across March and April 2026. Baker's Loaf Whole Wheat Bread (300 g) was also a stable preference in March (4 dates) but appeared only once in April, suggesting a shift or secondary status. In July 2026, the user established a new stable preference for Bonn High Fibre Brown Bread (400 g) on 2 independent dates. The user buys bread approximately every 2 days, with no single dominant daypart or day-type, indicating flexible timing driven by immediate consumption needs rather than a fixed schedule.",
+  "brand_preferences": [
+    {
+      "brand": "Naturbaked",
+      "preference_text": "Stable preference for Naturbaked bread, evidenced by purchases on 12 independent dates across March and April 2026.",
+      "confidence": "high",
+      "evidence_count": 12,
+      "independent_date_count": 12
+    },
+    {
+      "brand": "Baker's Loaf",
+      "preference_text": "Stable preference for Baker's Loaf in March 2026 (4 independent dates); single observation in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Naturbaked Zero Maida Whole Wheat Bread 300 g, purchased on 9 independent dates in April 2026 and 3 in March 2026.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "Stable preference for Baker's Loaf Whole Wheat Bread 300 g, purchased on 4 independent dates in March 2026.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "Stable preference for Bonn High Fibre Brown Bread 400 g, purchased on 2 independent dates in July 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 2.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-13",
+    "predicted_next_purchase_date": "2026-07-15",
+    "replenishment_text": "The user purchases bread approximately every 2 days, indicating a fast-replenishment routine driven by daily consumption needs.",
+    "confidence": "high",
+    "evidence_count": 26,
+    "independent_date_count": 26
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by consistent repeat orders across multiple months and brands.",
+  "substitution_text": "The user substitutes between whole wheat brands (Naturbaked, Baker's Loaf) and product types (brown bread) based on availability or specific fiber needs, but maintains a consistent preference for whole grain formats.",
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident; the user prioritizes specific brands and whole wheat formats over generic options.",
+  "emerging_preferences": [
+    {
+      "preference_text": "Emerging preference for Bonn High Fibre Brown Bread 400 g, observed on 2 independent dates in July 2026.",
+      "confidence": "medium"
+    }
+  ],
+  "avoidance_or_uncertainty_text": "Single-observation items such as English Oven Buns, Indian-style flatbreads (Kulcha), and Harvest Gold Atta Burger Buns were not repurchased, indicating they were one-time needs or trials rather than stable preferences.",
+  "mission_generation_text": "Supports daily dietary needs for staple carbohydrates, specifically whole wheat and high-fiber breads, with flexible timing for morning, afternoon, evening, or night consumption.",
+  "overall_confidence": "high"
+}

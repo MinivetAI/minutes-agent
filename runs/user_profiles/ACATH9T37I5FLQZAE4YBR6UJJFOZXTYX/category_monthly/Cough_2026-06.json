@@ -1,0 +1,26 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased VICKS Double Power Cough Drops Warming Ginger on two independent dates (2026-06-04 and 2026-06-11). This repetition meets the threshold for a stable preference claim. The user bought a single 25-tablet pack on a weekday afternoon and four packs on a weekday night. The afternoon timing is below the population average for this category, while the night timing is lower than morning, afternoon, or evening shares. The product serves as a portable, fast-acting throat lozenge for immediate, on-the-go relief of cough or throat irritation. No browsing, search, or cart activity was recorded for this category in this window.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "VICKS",
+      "claim_text": "The user has a stable preference for the VICKS brand in the Cough category, evidenced by purchases on two independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "VICKS Double Power Cough Drops Warming Ginger",
+      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on two independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The stable preference is based on only two independent dates. The user's timing varies between afternoon and night, and the quantity purchased varied significantly (1 pack vs. 4 packs), indicating the specific need or stock level may fluctuate. No browsing or cart behavior was observed to indicate comparison or hesitation.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-20 (weekday), the user purchased one 500 g pouch of Fortune Suji (semolina/sooji) during the evening. This single observation occurred in the evening, a daypart with significant population share (30.27%) for this category, suggesting a routine or planned top-up rather than a purely spontaneous late-night discovery. This is a single observation on one date; it is not yet established whether this is a recurring preference for this specific brand or product size, or if the user has other stable brands or pack sizes they typically buy.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 500 g pouch of Fortune Suji (semolina/sooji) during an evening shopping session on a weekday. This is a single observation on one date; it is not yet established whether this is a recurring preference for this specific brand or product size, or if the user has other stable brands or pack sizes they typically buy.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a recurring preference for this specific brand or product size, or if the user has other stable brands or pack sizes they typically buy.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,34 @@
+{
+  "category": "Eggs",
+  "profile_text": "The user has a stable, slow-cadence replenishment pattern for eggs, with purchases occurring approximately every 24.5 days. The most recent purchase was on 2026-03-29, with the next predicted around 2026-04-22. Evidence supports a preference for the brand Hen Fruit Farm, observed across multiple independent dates. The user typically purchases in the morning, often on weekends, and buys standard fresh egg packs (e.g., 6-unit packs) suitable for immediate breakfast or household stock. There is no evidence of discovery interest or substitution behavior.",
+  "brand_preferences": [
+    {
+      "brand": "Hen Fruit Farm",
+      "preference_text": "The user has purchased Hen Fruit Farm eggs on multiple independent dates, indicating a stable brand preference.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 24.5,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-03-29",
+    "predicted_next_purchase_date": "2026-04-22",
+    "replenishment_text": "The user buys eggs roughly every 24.5 days, classified as a slow replenishment cycle. The last purchase was on 2026-03-29, and the next is estimated for 2026-04-22.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions on multiple dates.",
+  "substitution_text": "No evidence of substitution behavior was observed.",
+  "price_value_text": "No specific price or value sensitivity was explicitly documented beyond the purchase of standard fresh egg packs.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals were detected.",
+  "mission_generation_text": "The user shops for eggs to support immediate breakfast needs, quick cooking, and general household stock replenishment on a slow, recurring cycle.",
+  "overall_confidence": "medium"
+}

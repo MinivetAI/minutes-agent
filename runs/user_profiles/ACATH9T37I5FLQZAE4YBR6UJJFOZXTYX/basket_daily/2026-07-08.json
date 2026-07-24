@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-08 (weekday), a single order was placed during the morning daypart. The basket contained seven items across three categories: Vegetables (5 items, 6 units total), Ready Meals (1 item), and Jaggery (1 item). The purchase focused primarily on fresh produce, supplemented by a single prepared meal and a sweetener. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Vegetables",
+        "Ready Meals"
+      ],
+      "combination_text": "Vegetables and Ready Meals were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Jaggery"
+      ],
+      "combination_text": "Vegetables and Jaggery were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of multiple vegetable varieties, a ready meal, and jaggery is compatible with preparing a home-cooked meal or assembling ingredients for a specific dish that includes both fresh produce and a sweet component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents a specific shopping instance rather than a durable preference or routine. Category pair evidence (e.g., Milk/Vegetables) is not present in this specific order, so no lift/confidence metrics from the `category_pair_evidence_support_confidence_lift` list apply to the products actually bought in this basket.",
+  "overall_confidence": "low"
+}

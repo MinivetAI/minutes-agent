@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one unit of KURKURE Playz Puffcorn Yummy Cheese (80 g), a cheese-flavoured corn puff snack. One additional chips product (CHPHK5F28WGW2UNS) was also ordered, though its specific identity is not provided.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "This order occurred on a weekend morning. The population baseline indicates that 32.46% of chip purchases happen in the morning, making this a common timing for this category. The purchased item is a light, crunchy snack typically associated with immediate cravings or casual snacking rather than meal replacement.",
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date. It is not yet established whether this represents a stable preference for cheese-flavoured puffcorns or a one-time purchase. The specific identity and brand of the second ordered product (CHPHK5F28WGW2UNS) are unknown.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Other Cooking Oil",
+  "profile_text": "In May 2026, the user purchased one 1-litre bottle of Dalda Groundnut Oil on a single weekday (2026-05-04) during the afternoon. This general-purpose cooking oil serves as a pantry replenishment item for daily cooking needs. The order occurred during a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). As this is a single observed order, it does not establish a stable or recurring preference for this brand or product type.",
+  "brand_preferences": [
+    {
+      "brand": "Dalda",
+      "preference_text": "Purchased once on 2026-05-04.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Purchased one 1-litre bottle of Dalda Groundnut Oil on 2026-05-04.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-05-04; no cadence established.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Pantry replenishment for daily cooking needs.",
+  "overall_confidence": "low"
+}

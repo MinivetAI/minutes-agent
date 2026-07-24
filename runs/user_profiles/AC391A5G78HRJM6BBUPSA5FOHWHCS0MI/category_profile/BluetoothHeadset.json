@@ -1,0 +1,40 @@
+{
+  "category": "Bluetooth Headset",
+  "profile_text": "A single observed purchase of a boAt neckband-style earphone on 2026-02-07. No recurring pattern, brand loyalty, or routine is established. The user's need for personal audio utility is confirmed by this one transaction, but no stable preference or replenishment cadence can be inferred.",
+  "brand_preferences": [
+    {
+      "brand": "boAt",
+      "preference_text": "Observed in a single purchase on 2026-02-07. Insufficient repetition to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "boAt Rockerz 110 Wireless Neckband Earphones (Deep Purple) purchased once on 2026-02-07. No repeated selection observed.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-07",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established; last purchase was on 2026-02-07. Next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase on 2026-02-07. No prior browsing or cart activity was recorded to indicate hesitation or unmet interest.",
+  "substitution_text": "No repeated brand or product selection observed; substitution behavior cannot be determined.",
+  "price_value_text": "No repeated purchase history to establish price sensitivity or value perception.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty beyond the lack of repeated engagement.",
+  "mission_generation_text": "Personal audio utility for calls and media consumption, as evidenced by the neckband-style earphone purchase.",
+  "overall_confidence": "low"
+}

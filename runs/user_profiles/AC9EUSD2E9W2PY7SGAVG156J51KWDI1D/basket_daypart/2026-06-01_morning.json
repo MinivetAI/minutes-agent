@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-06-01 (morning, weekday) contained three items: 3 units of Milk, 1 unit of Breads, and 1 unit of Ready Mixes. The basket exhibits narrow breadth, combining dairy, grain, and baking ingredients. This specific combination is compatible with a need for breakfast preparation or baking. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Breads"
+      ],
+      "combination_text": "Milk and Breads were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a meal involving dairy and baked goods, such as breakfast or baking.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

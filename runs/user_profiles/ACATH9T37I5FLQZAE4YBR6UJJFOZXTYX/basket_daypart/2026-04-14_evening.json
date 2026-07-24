@@ -1,0 +1,42 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-14 during the evening weekday. The basket contains 10 items across five categories: Vegetables (3 items), Fruits (2 items), Aerated Drinks (2 items), Diapers (2 items), and Bathroom Floor Cleaner (1 item). The shopper purchased a mix of fresh produce, beverages, and household/personal care items in one transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Vegetables",
+        "Fruits"
+      ],
+      "combination_text": "Vegetables and Fruits were purchased together in this order.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Diaper"
+      ],
+      "combination_text": "Vegetables and Diaper were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for replenishing fresh produce, beverages, and essential household or personal care items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Dettol Original Liquid Hand Wash Refill Pouch 675 ml placed in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting timing consistent with general household activity patterns rather than a distinct morning or night-specific routine. The product is a liquid hand wash refill, indicating a need to replenish daily hygiene supplies.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a planned replenishment or an urgent stockout replacement.",
+  "overall_confidence": "low"
+}

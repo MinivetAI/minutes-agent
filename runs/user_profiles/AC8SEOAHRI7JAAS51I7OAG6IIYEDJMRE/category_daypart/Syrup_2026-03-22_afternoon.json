@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Puramate Pancake Syrup Maple Syrup (300 ml) was placed. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred on a weekend afternoon, a time when population share (25.26%) is lower than the morning (32.46%) and evening (30.27%) peaks. The product is a table-ready syrup for breakfast items like pancakes or waffles, suggesting a same-meal or quick-replacement need-state rather than bulk cooking preparation.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for the brand or product type.",
+  "overall_confidence": "low"
+}

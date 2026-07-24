@@ -1,0 +1,26 @@
+{
+  "category": "Sugar",
+  "profile_text": "The user demonstrates a stable, low-frequency interest in sugar, purchasing on two independent dates in June 2026. This behavior supports a general category preference but does not establish loyalty to a specific brand or variant, as each appeared only once. Purchases occurred on weekdays in both morning and evening windows. The user buys both bulk (1 kg) and small (100 g) formats, suggesting flexible pantry management rather than a rigid routine.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 55.5,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-06-09",
+    "predicted_next_purchase_date": "2026-08-03",
+    "replenishment_text": "The user typically purchases sugar approximately every 55.5 days, classified as a slow-replenishment item. The last purchase was on 2026-06-09, with the next estimated purchase around 2026-08-03 based on this average cadence.",
+    "confidence": "medium",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by completed transactions on two independent dates.",
+  "substitution_text": "No specific brand or variant substitution patterns are established, as each observed brand and pack size appeared on only one independent date.",
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is established for this category based on the observed transactions.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has completed purchases.",
+  "mission_generation_text": "Routine pantry replenishment for cooking, tea, or coffee preparation.",
+  "overall_confidence": "medium"
+}

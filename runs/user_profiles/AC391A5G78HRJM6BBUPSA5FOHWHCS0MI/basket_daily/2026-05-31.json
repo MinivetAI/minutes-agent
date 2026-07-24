@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-31",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket was narrow, containing one unit of Fruits and one unit of Milk. This represents a single observation of purchasing fresh produce and dairy products together.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Fruits",
+        "Milk"
+      ],
+      "combination_text": "Fruits and Milk were purchased together in this single order.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for fresh produce and dairy products.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Therefore, `overall_confidence` is low. No durable behavior patterns can be inferred from this single data point.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of SUPERPLUM Sindhura Mango and Watermelon Kiran during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting a timing consistent with after-work or post-dinner consumption needs for fresh fruit.",
+  "uncertainty_text": "Confidence is low as this represents a single observed transaction on one date; durable preferences or habitual patterns cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

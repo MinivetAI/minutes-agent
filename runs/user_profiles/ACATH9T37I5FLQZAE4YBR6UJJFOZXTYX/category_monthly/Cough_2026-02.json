@@ -1,0 +1,34 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased VICKS Double Power Cough Drops Warming Ginger on three independent dates (2026-02-10, 2026-02-11, and 2026-02-24). This recurrence establishes a stable preference for this specific brand and variant. All three purchases occurred on weekdays in the afternoon, indicating a consistent timing pattern for portable, on-the-go throat relief.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "VICKS",
+      "claim_text": "The user has a stable preference for VICKS cough drops, evidenced by purchases on 3 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "VICKS Double Power Cough Drops Warming Ginger",
+      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on 3 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "brand",
+      "value": "VICKS Double Power",
+      "claim_text": "The user has a stable preference for the VICKS Double Power line, evidenced by purchases on 3 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "No other brands or product variants appeared in this category during February 2026. The consistent afternoon weekday timing suggests a routine for portable relief, but no other behavioral shifts or new product introductions were observed.",
+  "overall_confidence": "high"
+}

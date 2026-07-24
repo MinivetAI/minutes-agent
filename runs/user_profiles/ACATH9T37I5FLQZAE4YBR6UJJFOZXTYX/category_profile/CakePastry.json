@@ -1,0 +1,40 @@
+{
+  "category": "Cake Pastry",
+  "profile_text": "The user demonstrates a recurring interest in packaged, shelf-stable sweet cakes, primarily for snacking or tea-time treats. Evidence spans February through April 2026, with a strong preference for the Britannia brand, specifically the Romance Nut and Raisin Cake variant. Purchases have occurred on both weekdays and weekends, typically in the afternoon, though one evening purchase of a Monginis muffin was also observed. The user exhibits a fast replenishment cadence, suggesting regular consumption of this category.",
+  "brand_preferences": [
+    {
+      "brand": "Britannia",
+      "preference_text": "The user purchased Britannia products on 5 independent dates (Feb, Mar, Apr 2026), indicating a stable preference.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased Britannia Romance Nut and Raisin Cake (140 g) on 4 independent dates (Feb 24, Mar 21, Mar 27, Apr 7), indicating a stable preference for this specific item.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 6.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-04-07",
+    "predicted_next_purchase_date": "2026-04-13",
+    "replenishment_text": "The user buys this category approximately every 6 days, classified as a fast replenishment cycle. The last purchase was on April 7, 2026, with the next expected around April 13, 2026.",
+    "confidence": "high",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, with multiple completed transactions observed across three months.",
+  "substitution_text": null,
+  "price_value_text": "The user purchases standard packaged cakes (140 g) and muffins, suggesting a focus on accessible, shelf-stable options rather than premium or fresh bakery items.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. The single purchase of a Monginis Choco Muffin in April does not establish a stable preference for that brand or product type.",
+  "mission_generation_text": "Restocking shelf-stable sweet cakes for immediate snacking, tea-time accompaniments, or quick desserts.",
+  "overall_confidence": "high"
+}

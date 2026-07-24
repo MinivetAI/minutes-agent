@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) was placed in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a single-serve, crunchy savoury snack suitable for immediate consumption or impulse snacking.",
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or flavour preference can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,47 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased milk products on four independent dates. Amul Taaza Pasteurised Toned Milk (500 ml) was ordered on three dates (2026-03-14, 2026-03-16, 2026-03-20), establishing a stable preference. Alt Co. Oat Milk Drink (180 ml) was purchased on one date (2026-03-24) and does not meet the threshold for stable preference. The user’s milk purchasing activity is concentrated in the evening and afternoon on weekdays, with one weekend evening purchase.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul milk, evidenced by purchases on 3 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 3 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "brand",
+      "value": "Alt Co.",
+      "claim_text": "No stable preference established for Alt Co. in this month; only one independent date observed.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Alt Co. Oat Milk Drink (180 ml)",
+      "claim_text": "No stable preference established for Alt Co. Oat Milk Drink (180 ml) in this month; only one independent date observed.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased Amul milk in the evening on a weekend (2026-03-14) and on weekdays (2026-03-16, 2026-03-20), and in the afternoon on a weekday (2026-03-20). The user also purchased Alt Co. Oat Milk in the morning on a weekday (2026-03-24).",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "The Alt Co. Oat Milk purchase is a single observation and does not indicate a stable preference or routine. The Amul preference is supported by 3 dates, indicating at least medium confidence, but the specific driver (e.g., taste, price, availability) is not determined by the evidence.",
+  "overall_confidence": "medium"
+}

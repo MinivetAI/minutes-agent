@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of unbranded loose onions and one 1 kg pack of local cucumbers. Both are fresh, unbranded staple vegetables typically used for immediate meal preparation, such as cooking bases or fresh salads/raita.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred on a weekday morning, a time when morning share (0.3246) is the highest among population dayparts. The items are high-frequency, low-cost fresh produce staples, suggesting a routine replenishment or immediate meal-prep need rather than a planned bulk buy.",
+  "uncertainty_text": "With only one observed order on a single date, it is not possible to establish stable brand preferences, recurring purchase cadences, or specific dietary habits. The specific meal context (e.g., lunch vs. dinner prep) is unknown.",
+  "overall_confidence": "low"
+}

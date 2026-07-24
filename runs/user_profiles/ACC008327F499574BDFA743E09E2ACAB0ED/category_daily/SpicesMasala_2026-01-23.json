@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-23 (weekday), the user purchased one 0.5 g pack of EVEREST Saffron (Kesar) in the afternoon. This timing is less common than the population baseline evening (0.3027) or morning (0.3246) shares, though above the night share (0.1202). The product is a small-format premium spice ingredient typically used for color and aroma in specific dishes. This is a single observation on one date; it does not establish a stable preference for the EVEREST brand or saffron specifically, nor does it indicate a recurring routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 0.5 g pack of EVEREST Saffron (Kesar).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the EVEREST brand or saffron specifically, nor does it indicate a recurring routine.",
+  "overall_confidence": "low"
+}

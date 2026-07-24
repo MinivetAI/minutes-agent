@@ -1,0 +1,9 @@
+{
+  "date": "2026-05-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-01 (weekday), the user purchased one 1 kg pack of unbranded loose onions and one 1 kg pack of local cucumbers. This order occurred during the morning daypart, a time when the population morning share (0.3246) is highest. The items are fresh, unbranded staple vegetables, suggesting a need for immediate meal preparation, such as cooking bases or fresh salads/raita. With only one observed order on a single date, it is not possible to establish stable brand preferences, recurring purchase cadences, or specific dietary habits.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "With only one observed order on a single date, it is not possible to establish stable brand preferences, recurring purchase cadences, or specific dietary habits. The specific meal context (e.g., lunch vs. dinner prep) is unknown.",
+  "overall_confidence": "low"
+}

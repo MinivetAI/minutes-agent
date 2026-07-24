@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of DHARA Kachi Ghani Mustard Oil (1 L plastic bottle) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population activity (30.27% share). The product is a household cooking staple used for everyday preparation.",
+  "uncertainty_text": "This is a single observed transaction; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

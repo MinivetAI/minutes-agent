@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of FFWHM4DBGGSG7GHN and 1 unit of FFWHM4DBA2E8U64D from the Pooja Flowers category during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart.",
+  "uncertainty_text": "This is a single observed transaction; durable preferences or routine behaviors cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

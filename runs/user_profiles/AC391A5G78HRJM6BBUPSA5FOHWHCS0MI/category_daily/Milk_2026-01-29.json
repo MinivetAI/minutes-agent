@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-29",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-29 (weekday), the user purchased 1 unit of Parag Toned Milk 500 ml during the morning. This single observed order suggests a need for immediate household replenishment or consumption. No stable long-term preference or routine can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Parag Toned Milk 500 ml. This timing aligns with a population share of 0.3246 for this daypart.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences, routine habits, or specific use cases (e.g., tea vs. cooking) cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

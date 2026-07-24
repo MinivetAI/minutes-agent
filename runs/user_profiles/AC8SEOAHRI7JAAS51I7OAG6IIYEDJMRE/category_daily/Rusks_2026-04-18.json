@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-18",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-18 (weekend), the user placed one order of Britannia Toastea Premium Elaichi Rusk (668 g) during the morning daypart. This purchase occurred on a weekend morning, a time when the user's activity (100%) is higher than the population baseline for morning (32.46%). The product is a tea-time baked snack, typically used as a companion for chai or a quick snack. This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Britannia Toastea Premium Elaichi Rusk (668 g) was placed on a weekend morning. The purchase occurred on a weekend morning, a time when the user's activity (100%) is higher than the population baseline for morning (32.46%). The product is a tea-time baked snack, typically used as a companion for chai or a quick snack. This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

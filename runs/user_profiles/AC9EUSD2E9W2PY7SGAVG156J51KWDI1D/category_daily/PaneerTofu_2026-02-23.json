@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-23 (weekday), one order of Amul Malai Paneer 200 g was placed in the evening. The evening timing aligns with a 30.27% population share, suggesting a possible need for dinner preparation or last-minute meal planning. This is a single observed transaction; no browsing history or repeat purchases are available to establish brand loyalty, flavor preference, or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Amul Malai Paneer 200 g placed in the evening. The timing is consistent with dinner preparation or last-minute meal planning needs, given the 30.27% population share for this daypart.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish brand loyalty, flavor preference, or routine.",
+  "overall_confidence": "low"
+}

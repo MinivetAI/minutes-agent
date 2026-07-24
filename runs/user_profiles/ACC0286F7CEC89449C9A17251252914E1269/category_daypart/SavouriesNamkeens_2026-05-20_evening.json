@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 200 g pack of Indie Flavors by Flipkart Methi Mathri and one 250 g pack of GOPAL NAMKEEN Vanela Gathiya during an evening shopping session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting a timing aligned with tea-time snacking or immediate hunger relief rather than bulk weekly stocking.",
+  "uncertainty_text": "This is a single-observation window; it is not yet established whether the user prefers these specific brands or if this represents a stable routine.",
+  "overall_confidence": "low"
+}

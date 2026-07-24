@@ -1,0 +1,18 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased SAMHHWDWYZ2DTSST (Indian Sweets) on two independent dates (2026-07-15 and 2026-07-21). This repetition meets the threshold for a stable preference claim. The product was purchased on weekdays, during both evening and morning dayparts. The evening purchase aligns with high population activity (30.27% share), suggesting possible post-dinner consumption or social gifting. The morning purchase aligns with the population baseline (32.46% share). No other Indian Sweets brands or variants were observed. No browsing or cart activity was recorded prior to the morning purchase.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "SAMHHWDWYZ2DTSST",
+      "claim_text": "The user has a stable preference for SAMHHWDWYZ2DTSST (Indian Sweets), observed on 2 independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent purchase dates in July 2026. While the repetition establishes a stable preference for this specific product, the sample size is small. The user's broader preferences within the Indian Sweets category or other categories are not established by this data. The specific motivation (e.g., personal consumption vs. gifting) remains inferred from timing patterns rather than explicit statement.",
+  "overall_confidence": "medium"
+}

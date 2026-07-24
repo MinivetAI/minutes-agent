@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Local Tomato (450-550g), 2 units of Bottle Gourd (400–600 g), 1 unit of Onion (1 kg), 1 unit of Local Cucumber (1 kg), and 1 unit of Long Cucumber (500 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Evening weekday purchase anchored to a population evening share of 0.3027. The basket consists of unbranded fresh vegetables (tomatoes, bottle gourd, onions, cucumbers) typically used for immediate same-day cooking, salads, or raita, indicating a replenishment need for perishable meal ingredients.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established. The specific meal plan or household size driving this combination is unknown.",
+  "overall_confidence": "low"
+}

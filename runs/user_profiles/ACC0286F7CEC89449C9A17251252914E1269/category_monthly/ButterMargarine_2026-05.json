@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased Amul Salted Butter 100 g on two independent dates (2026-05-01 and 2026-05-29). This repetition establishes a stable preference for this specific brand and variant. The purchases occurred on weekdays during the evening, a pattern consistent with the user's activity baseline and population norms for this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul butter, evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Salted Butter 100 g",
+      "claim_text": "The user has a stable preference for Amul Salted Butter 100 g, evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and product preference is stable across two dates, the small sample size (2 dates) limits the confidence to medium. It is unclear if this represents a long-term routine or a short-term need for this specific small-format item.",
+  "overall_confidence": "medium"
+}

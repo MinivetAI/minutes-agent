@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-21",
+  "day_type": "weekend",
+  "summary_text": "On the weekend of 2026-03-21, the user purchased one 1.1 kg pack of Kissan Fresh Tomato Ketchup during the afternoon. This large-format condiment is typically used for dipping, spreading, or as an accompaniment to meals and snacks. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1.1 kg pack of Kissan Fresh Tomato Ketchup. This large-format condiment is typically used for dipping, spreading, or as an accompaniment to meals and snacks. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

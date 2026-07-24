@@ -1,0 +1,32 @@
+{
+  "category": "Ready Meals",
+  "profile_text": "The user demonstrates a stable, medium-confidence preference for Safal Frozen Green Peas (200 g), evidenced by purchases on two independent dates in July 2026. A single purchase of product RMDHJCDY47ZHHYYZ on 2026-07-20 is an isolated observation and does not indicate a stable preference. Purchases occurred in the evening and morning, with no consistent daypart pattern established. The user exhibits a medium cadence for this category, with a predicted next purchase around 2026-07-28.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Safal Frozen Green Peas (200 g), evidenced by purchases on two independent dates in July 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 8.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-20",
+    "predicted_next_purchase_date": "2026-07-28",
+    "replenishment_text": "The user typically purchases Ready Meals every 8.0 days, classified as a medium cadence. The last purchase was on 2026-07-20, with the next predicted purchase estimated around 2026-07-28.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Ready Meals reliably converts to purchase, as evidenced by three completed transactions in July 2026.",
+  "substitution_text": "No specific substitution behavior is evident; the user purchases distinct items (Safal Frozen Green Peas and RMDHJCDY47ZHHYYZ) without clear replacement patterns.",
+  "price_value_text": "No explicit price or value behavior is described in the evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "The purchase of RMDHJCDY47ZHHYYZ was a single observation; it is unclear if this represents a one-time convenience need or the start of a new habit. No stable daypart preference is established due to inconsistent timing (evening and morning).",
+  "mission_generation_text": "Shopping needs supported by this category include acquiring convenient, pre-prepared meals or frozen vegetable components for quick meal assembly.",
+  "overall_confidence": "medium"
+}

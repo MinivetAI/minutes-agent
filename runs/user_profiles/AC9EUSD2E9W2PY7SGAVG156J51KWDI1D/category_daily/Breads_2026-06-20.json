@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-20",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-20 (weekend), the user purchased one 450 g pack of Britannia Breakfast Slice White Bread in the afternoon. This single order suggests an immediate need for convenient, same-day consumption items like breakfast or sandwiches. The afternoon timing is less common for this category compared to morning (32.46%) and evening (30.27%) baselines (25.26%). As this is the only observed order on this date, it is unclear whether this reflects a stable preference or a one-time convenience purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 450 g pack of Britannia Breakfast Slice White Bread. This timing is less common than morning or evening baselines.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference, a routine repurchase, or a one-time convenience buy. No browsing or search data was provided to indicate prior interest or comparison.",
+  "overall_confidence": "low"
+}

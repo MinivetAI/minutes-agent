@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 100 g pack of Zoff whole cumin seeds (jeera) during the evening on a weekend. The product is a whole spice intended for tempering, roasting, or grinding in everyday Indian cooking.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product serves a general utility for meal preparation, such as seasoning dishes or preparing spice water.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference, routine, or recurring need for cumin seeds or this specific brand.",
+  "overall_confidence": "low"
+}

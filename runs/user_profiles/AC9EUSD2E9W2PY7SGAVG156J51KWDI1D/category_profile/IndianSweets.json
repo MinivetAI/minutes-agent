@@ -1,0 +1,32 @@
+{
+  "category": "Indian Sweets",
+  "profile_text": "The user demonstrates a stable, high-frequency purchasing pattern for Indian Sweets, specifically the product SAMHHWDWYZ2DTSST. This preference is supported by four independent purchase dates across June and July 2026, establishing a consistent routine. Purchases occur primarily in the morning, with one evening instance, aligning with population activity peaks for both dayparts. The user buys this specific product repeatedly, indicating a durable preference rather than a one-time trial.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for SAMHHWDWYZ2DTSST (Indian Sweets), evidenced by purchases on four independent dates across June and July 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 6.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-21",
+    "predicted_next_purchase_date": "2026-07-27",
+    "replenishment_text": "The user purchases this category approximately every 6 days, classified as a fast-replenishment item. The last purchase was on 2026-07-21, with the next predicted purchase around 2026-07-27 based on this average cadence.",
+    "confidence": "high",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed transactions on independent dates without preceding unfulfilled search or cart activity.",
+  "substitution_text": "No substitution behavior observed; the user consistently purchases the same product variant (SAMHHWDWYZ2DTSST) across all observed dates.",
+  "price_value_text": "No explicit price or value sensitivity data provided; purchasing frequency suggests consistent willingness to buy at current price points.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user's behavior is consistent and repeatable.",
+  "mission_generation_text": "Supports regular personal consumption or social gifting of traditional Indian sweets, with timing suggesting both daily breakfast/snack occasions (morning) and post-dinner or social occasions (evening).",
+  "overall_confidence": "high"
+}

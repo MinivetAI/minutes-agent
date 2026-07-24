@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-28",
+  "day_type": "weekday",
+  "summary_text": "One order of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) in the Savouries Namkeens category during the afternoon on a weekday.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) in the Savouries Namkeens category during the afternoon on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or flavour preference can be established. No browsing or funnel data is available to assess interest levels prior to purchase.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-26 (weekday), the user purchased one 48 g pack of Lay's Hot and Sweet Chilli Chips during the evening. This timing aligns with the population baseline for evening activity (30.27%), suggesting a typical after-work or dinner-time snack occasion. As this is a single observation on one date, it is not yet established whether this is a recurring preference for this specific flavor or brand, or if the user has other chip preferences.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 48 g pack of Lay's Hot and Sweet Chilli Chips during the evening on a weekday. This timing aligns with the population baseline for evening activity (30.27%), suggesting a typical after-work or dinner-time snack occasion.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a recurring preference for this specific flavor or brand, or if the user has other chip preferences.",
+  "overall_confidence": "low"
+}

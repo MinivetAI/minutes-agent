@@ -1,0 +1,45 @@
+{
+  "category": "Pasta",
+  "profile_text": "The user demonstrates a stable, high-frequency preference for Maggi Pazzta instant pasta, specifically the Cheese Macaroni variant, with a secondary stable preference for the Cheesy Tomato Twist variant. Purchases occur roughly every two weeks, typically on weekdays, with timing shifting between morning, afternoon, and evening. The user relies on these products for quick, low-effort meals or snacks.",
+  "brand_preferences": [
+    {
+      "brand": "Maggi Pazzta",
+      "preference_text": "Maggi Pazzta is the user's primary pasta brand, evidenced by purchases across four independent dates (March and April 2026) and a single date in January and May 2026. The repetition across multiple months and dates establishes a high-confidence stable preference.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) is a stable favorite, purchased on three independent dates in April 2026 and one date in May 2026. This variant is the most frequently ordered item in the category.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) is a stable secondary preference, purchased on two independent dates in March 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 13.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-05-02",
+    "predicted_next_purchase_date": "2026-05-15",
+    "replenishment_text": "The user typically repurchases pasta every 13 days, with the next purchase estimated around May 15, 2026.",
+    "confidence": "medium",
+    "evidence_count": 8,
+    "independent_date_count": 8
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, with multiple completed transactions observed across several months.",
+  "substitution_text": "The user substitutes between two specific Maggi Pazzta variants (Cheese Macaroni and Cheesy Tomato Twist) but remains within the same brand, indicating brand loyalty with variant flexibility.",
+  "price_value_text": "The user consistently selects instant, single-serve pasta options, suggesting a preference for convenience and low preparation effort over traditional dry pasta, likely prioritizing speed and ease of cooking.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance patterns detected. The user's behavior is consistent with a routine need for quick meals.",
+  "mission_generation_text": "Supports needs for quick, convenient, low-effort meals or snacks, particularly when time is limited or when seeking a fast, single-serve option.",
+  "overall_confidence": "medium"
+}

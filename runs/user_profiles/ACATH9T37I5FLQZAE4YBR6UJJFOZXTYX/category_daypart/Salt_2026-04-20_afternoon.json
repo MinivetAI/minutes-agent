@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Tata Salt Lite Iodized Low Sodium Salt (1 kg) placed in the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The product is a household staple intended for daily cooking, suggesting a routine top-up or replacement need.",
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable preference or routine behavior.",
+  "overall_confidence": "low"
+}

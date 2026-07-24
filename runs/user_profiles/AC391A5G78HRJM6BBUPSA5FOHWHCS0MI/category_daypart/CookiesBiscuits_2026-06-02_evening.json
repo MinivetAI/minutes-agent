@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 486 g pack of Cremica Jeera Lite Sweet & Salty Biscuit during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a value-oriented, cumin-flavoured salted tea biscuit, typically used for immediate tea-time stocking, quick snacking, or household top-ups.",
+  "uncertainty_text": "This is a single observed order; durable preferences, routine buying patterns, or specific motivations (e.g., guest hosting vs. personal snacking) cannot be established from this evidence alone.",
+  "overall_confidence": "low"
+}

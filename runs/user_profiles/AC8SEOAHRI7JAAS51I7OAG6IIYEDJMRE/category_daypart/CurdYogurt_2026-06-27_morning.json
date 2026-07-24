@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased two 200 g cups of Mother Dairy Advanced Probiotic Plain Curd and one 390.01 g pack of Mother Dairy Classic Plain Curd during a morning session on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.5%). The products are immediate-consumption dairy staples, typically used as meal accompaniments or quick digestive aids.",
+  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable preference for Mother Dairy or probiotic variants, or if it was a one-time need for immediate curd.",
+  "overall_confidence": "low"
+}

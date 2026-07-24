@@ -1,0 +1,40 @@
+{
+  "category": "Besan",
+  "profile_text": "In February 2026, the user purchased one 1 kg pack of FORTUNE Besan (gram flour) on a weekday morning. This single transaction does not establish a stable preference or routine for this brand or category.",
+  "brand_preferences": [
+    {
+      "brand": "FORTUNE",
+      "preference_text": "The user purchased FORTUNE Besan on one observed date. This single observation does not establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased one 1 kg pack of FORTUNE Besan on one observed date. This single observation does not establish a stable product preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-03",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Shopping for basic cooking ingredients, specifically gram flour for general culinary use.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-07-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-06 (weekday), the user purchased 2 units of Chitale Cow Milk 500 ml (full cream cow milk) during the morning. This timing aligns with the user's morning activity level, which is 0.3246 relative to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a small-pack fresh dairy item suitable for immediate household use such as tea, coffee, or breakfast. This is a single observed order; durable brand preference or routine cannot be established from this isolated event.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand preference or routine cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

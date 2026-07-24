@@ -1,0 +1,9 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased Pooja Flowers on two independent dates (2026-07-15 and 2026-07-21). No single brand, product, or variant recurred across these dates; each order contained distinct items. Consequently, no stable preference claims can be established for specific products. The user ordered during the evening on a weekday and during the morning on a weekday. These are single-date observations for each specific product instance.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Evidence is limited to two independent dates with no recurring products. Durable preferences or routine behaviors for specific items cannot be established.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 0.5 kg pack of Rajdhani Select Sooji (semolina) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this category is purchased 30.27% of the time by the population baseline (compared to 32.46% in the morning). The product is a staple pantry ingredient for Indian cooking, suitable for quick replenishment of savory or sweet preparations.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific brand or product size.",
+  "overall_confidence": "low"
+}

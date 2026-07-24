@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased five unbranded fresh vegetable items: Small Coconut, English Cucumber 500 g, Bathua Saag 250 g, Onion 400–450 g, and Spinach with roots 200 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246). The basket consists of fresh produce staples and seasonal greens, suggesting immediate meal preparation or replacement of household stock.",
+  "uncertainty_text": "No browsing or search data is available to determine if this was a planned or spontaneous purchase. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low"
+}

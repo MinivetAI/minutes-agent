@@ -1,0 +1,23 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-02-09 (morning, weekday) contained three items: two units of an Unmapped-WBR product, one unit of an Unmapped-WSP product, and three units of Pulses. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Unmapped-WBR",
+        "Unmapped-WSP",
+        "Pulses"
+      ],
+      "combination_text": "Unmapped-WBR, Unmapped-WSP, and Pulses were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic pantry staples or cooking ingredients, specifically pulses and unmapped household or food items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

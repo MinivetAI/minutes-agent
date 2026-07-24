@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of McCain Aloo Tikki 760 g (1 unit) placed on 2026-07-08 in the morning. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning (0.3246 population share), which is a less common time for ready meal purchases compared to evening (0.3027) or morning-adjacent afternoon slots. The product is a frozen, ready-to-cook item, suggesting a need for convenience or a quick meal solution, potentially for later consumption or immediate preparation.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for McCain or aloo tikki specifically. The timing (morning) is atypical for ready meals, but the reason for this timing is unknown.",
+  "overall_confidence": "low"
+}

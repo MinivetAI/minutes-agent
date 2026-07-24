@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "One order of Hen Fruit Protein Max White Eggs (6 Units) was placed during the morning on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The product is a basic fresh egg pack, typically used for immediate cooking needs or breakfast preparation.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

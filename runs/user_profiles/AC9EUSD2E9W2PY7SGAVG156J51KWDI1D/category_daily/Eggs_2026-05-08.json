@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-08 (weekday), the user placed one order of Premium Agrros Hen White Eggs 6-Pack in the morning. This purchase occurred during a time when the user's activity (100%) exceeds the population baseline for morning (32.46%). The item is a basic fresh-food grocery staple. This is a single observation on one date; no repeated behavior is established to confirm a stable preference for this brand or format.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Premium Agrros Hen White Eggs 6-Pack placed in the morning. Purchased during the morning on a weekday, a time when the user's activity (100%) exceeds the population baseline for morning (32.46%). The item is a basic fresh-food grocery staple.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no repeated behavior is established to confirm a stable preference for this brand or format.",
+  "overall_confidence": "low"
+}

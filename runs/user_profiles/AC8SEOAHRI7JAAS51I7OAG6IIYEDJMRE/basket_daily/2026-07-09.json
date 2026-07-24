@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-09",
+  "day_type": "weekday",
+  "summary_text": "A single order was placed on 2026-07-09 in the afternoon on a weekday. The basket contains 8 items across 6 categories: Vegetables, Flour, Scrub Pad, Rice, Wheat Flour, Sugar, and Milk. The order-building behavior includes purchasing staple dry goods (Rice, Sugar, two types of Flour) alongside fresh produce (Vegetables) and a dairy item (Milk), plus non-food cleaning supplies (two Scrub Pads). The shopping need text describes a need compatible with the basket but must not claim hidden intent.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and CurdYogurt",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and SavouriesNamkeens",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CannedFood",
+        "CurdYogurt"
+      ],
+      "combination_text": "CannedFood and CurdYogurt",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking household staples including cooking ingredients, dairy, and cleaning supplies.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not durable or stable.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,72 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single evening weekday order containing one unit each of Havan Item, Curd Yogurt, Fryums Papads, and Vegetables. The basket reflects a compatible need for meal components and ritual items, with no evidence of durable preference patterns from this isolated transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order. This pairing aligns with population-level evidence showing a support of 0.167, confidence of 0.667, and lift of 1.6 based on 4 co-orders.",
+      "support": 0.167,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Havan Item",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Havan Item and Curd Yogurt were purchased together in this order. No specific population-level pair evidence was supplied for this exact combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Havan Item",
+        "Fryums Papads"
+      ],
+      "combination_text": "Havan Item and Fryums Papads were purchased together in this order. No specific population-level pair evidence was supplied for this exact combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Havan Item",
+        "Vegetables"
+      ],
+      "combination_text": "Havan Item and Vegetables were purchased together in this order. No specific population-level pair evidence was supplied for this exact combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Fryums Papads"
+      ],
+      "combination_text": "Curd Yogurt and Fryums Papads were purchased together in this order. No specific population-level pair evidence was supplied for this exact combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Fryums Papads",
+        "Vegetables"
+      ],
+      "combination_text": "Fryums Papads and Vegetables were purchased together in this order. No specific population-level pair evidence was supplied for this exact combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of vegetables, curd yogurt, and fryums suggests a need for meal preparation components, while the Havan Item indicates a need for ritual or ceremonial supplies.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or routine behaviors cannot be inferred from this isolated transaction.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one each of Onion (400–450 g), Sweet Potato (450–550 g), Beetroot (250–350 g), and Baby Potato (280–320 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekend, a time when population share is 0.3246. The items are unbranded fresh root vegetables and tubers, suggesting a need for immediate meal preparation or pantry replenishment of basic cooking ingredients.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this shopping time.",
+  "overall_confidence": "low"
+}

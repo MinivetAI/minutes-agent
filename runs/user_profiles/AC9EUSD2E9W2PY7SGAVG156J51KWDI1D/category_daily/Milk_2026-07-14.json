@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-14",
+  "day_type": "weekday",
+  "summary_text": "On this weekday afternoon, the user purchased 2 units of Amul Cow Milk 500 ml and 1 unit of Amul Mithai Mate Sweetened Condensed Milk 200 g. This afternoon timing aligns with a population share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) peaks. The combination of fresh dairy and a shelf-stable sweetening ingredient suggests immediate household replenishment or preparation needs. Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml and 1 unit of Amul Mithai Mate Sweetened Condensed Milk 200 g.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
+  "overall_confidence": "low"
+}

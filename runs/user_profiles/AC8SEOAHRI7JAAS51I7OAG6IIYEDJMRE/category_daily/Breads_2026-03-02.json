@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-02 (weekday), the user purchased one 300 g loaf of Naturbaked Zero Maida Whole Wheat Bread during the morning. This product is a packaged whole wheat bread, typically used for quick breakfasts, toast, or sandwiches. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 300 g loaf of Naturbaked Zero Maida Whole Wheat Bread during the morning on a weekday. The order occurred in the morning, a period where this user's activity is 32.46% of their total (population baseline).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,23 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased ice cream on two independent dates. On the evening of 2026-04-12 (weekend), the user bought one 1 L tub of Amul Tiramisu Gold Ice Cream and one 500 ml tub of Go Zero Mango Mad Over Mango Guilt Free Ice Cream. On 2026-04-30 (weekday), the user purchased one 1 L tub of Amul Cookies & Cream Gold Ice Cream during the night. The Amul brand appears on both dates, meeting the repetition bar for stable preference. The Go Zero product appears only once. Daypart patterns show purchases in the evening and night.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has purchased Amul ice cream on two independent dates (2026-04-12 and 2026-04-30), indicating a stable preference for this brand.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased ice cream in the evening on a weekend (2026-04-12) and at night on a weekday (2026-04-30).",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "With only two orders in the month, specific flavor preferences beyond the brand level are not yet stable. The Go Zero Mango Mad Over Mango Guilt Free Ice Cream was purchased only once.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Baby Cereal",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for the Nestlé CERELAC brand, evidenced by purchases across six independent months (January–July 2026). The specific variant 'Nestlé Cerelac Wheat Apple Carrot Cereal (300 g)' is a recurring stable preference, appearing on multiple independent dates in April, May, and June. The user also purchased 'Nestle Cerelac Wheat Apple Baby Food Cereal (350 g)' in February. While the brand is stable, specific flavor preferences beyond Wheat Apple Carrot are not established as stable due to limited repetition. Purchases occur across various dayparts (morning, afternoon, evening, night) and day types (weekday, weekend), indicating timing is driven by immediate feeding needs rather than a fixed routine. The observed cadence is approximately every 11 days.",
+  "brand_preferences": [
+    {
+      "brand": "Nestlé CERELAC",
+      "preference_text": "The user has a stable preference for Nestlé CERELAC infant cereals, evidenced by purchases on multiple independent dates spanning January through July 2026.",
+      "confidence": "high",
+      "evidence_count": 16,
+      "independent_date_count": 16
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Nestlé Cerelac Wheat Apple Carrot Cereal (300 g), evidenced by purchases on multiple independent dates in April, May, and June 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 11.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-07-15",
+    "replenishment_text": "The user typically purchases this category every 11 days, with the next purchase estimated around 2026-07-15.",
+    "confidence": "medium",
+    "evidence_count": 16,
+    "independent_date_count": 16
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions without preceding search or cart-add activity.",
+  "substitution_text": null,
+  "price_value_text": null,
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. Specific flavor preferences other than Wheat Apple Carrot are not established as stable.",
+  "mission_generation_text": "Shopping needs supported by this category profile include routine replenishment of complementary infant cereals for babies aged 6+ months, focusing on nutrient-fortified options like Wheat Apple Carrot and Wheat Apple variants to support early feeding stages.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Eggs",
+  "profile_text": "Based on a single observation in May 2026, the user purchased Premium Agrros Hen White Eggs 6-Pack on a weekday morning. No stable preference, routine, or recurring cadence is established for this category based on the available evidence.",
+  "brand_preferences": [
+    {
+      "brand": "Premium Agrros",
+      "preference_text": "Observed in one order on 2026-05-08. Single observation; no stable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Premium Agrros Hen White Eggs 6-Pack observed in one order on 2026-05-08. Single observation; no stable preference established.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-08",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-05-08. Cadence is unknown based on a single observation; no predicted next purchase date can be established.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase in the observed window.",
+  "substitution_text": "No evidence of substitution behavior; only one brand and product variant observed.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior; only one transaction observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one positive purchase observed.",
+  "mission_generation_text": "Routine household food replenishment for breakfast or cooking ingredients.",
+  "overall_confidence": "low"
+}

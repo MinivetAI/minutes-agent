@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-16 (weekday), the user purchased one 19 g Nestl\u00e9 KitKat Choco Coated Wafer Bar during the evening. This timing aligns with a common period for this activity, with a population share of 0.3027. The product is a small, single-serve snack suitable for immediate consumption or impulse gratification. This is a single observed order and does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 19 g Nestl\u00e9 KitKat Choco Coated Wafer Bar during the evening on a weekday. This timing aligns with a common period for this activity, with a population share of 0.3027. The product is a small, single-serve snack suitable for immediate consumption or impulse gratification.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

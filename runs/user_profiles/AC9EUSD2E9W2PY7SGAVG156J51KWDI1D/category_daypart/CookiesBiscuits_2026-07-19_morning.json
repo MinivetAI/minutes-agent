@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "One order placed on 2026-07-19 in the morning containing Pran Potata Spicy Biscuit (75 g) and Britannia Cheeze Dipped Cookies (150 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekend, a time when morning share (0.3246) is the highest among population dayparts. The items are ready-to-eat savory and sweet snack biscuits, suitable for immediate consumption or casual snacking.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "overall_confidence": "low"
+}

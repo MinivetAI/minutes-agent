@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-19",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-19 (weekend), two separate orders were placed. The morning order consisted of ready-to-eat snack items: Savouries Namkeens (3 units), Cookies Biscuits (2 units), Sweets Mithai (1 unit), and Rusks (1 unit), compatible with a need for immediate consumption or tea-time accompaniments. The evening order contained basic meal ingredients: Cheese (1 unit), Milk (2 units), Butter Margarine (1 unit), Breads (1 unit), and Vegetables (1 unit), compatible with a need for breakfast components or basic meal preparation. No durable preferences or stable patterns can be established from this single date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Cookies Biscuits",
+        "Sweets Mithai",
+        "Rusks"
+      ],
+      "combination_text": "Savouries Namkeens, Cookies Biscuits, Sweets Mithai, and Rusks were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Butter Margarine"
+      ],
+      "combination_text": "Milk and Butter Margarine were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Cheese",
+        "Milk"
+      ],
+      "combination_text": "Cheese and Milk were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for immediate consumption snacks or items suitable for tea/coffee breaks in the morning, and basic meal preparation or breakfast components in the evening.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. The category pair evidence provided (Milk/Vegetables, etc.) does not match the categories in the morning order, so no lift/support values from that evidence are applied there. No durable preferences or stable patterns can be inferred from this single date.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-25",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-25 (weekend), a single order was placed in the afternoon. The basket contained two items: one unit of Butter Margarine and one unit of Sunflower Oil. The order-building behavior was a simple, single-step purchase with no associated cart abandonment. The combination of these two cooking fats is compatible with basic food preparation or cooking needs. This analysis is based on a single observed order on one date; no durable preferences, routine behaviors, or stable patterns can be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Butter Margarine",
+        "Sunflower Oil"
+      ],
+      "combination_text": "Butter Margarine and Sunflower Oil were purchased together in this single observed order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic cooking or food preparation needs.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided relates to other categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values from that evidence are applied to this basket.",
+  "overall_confidence": "low"
+}

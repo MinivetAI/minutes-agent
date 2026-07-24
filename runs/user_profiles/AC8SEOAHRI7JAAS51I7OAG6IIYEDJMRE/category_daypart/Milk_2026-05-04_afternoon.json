@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Cow Milk 500 ml was placed in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when milk buying is less common than the population baseline for morning (0.3246) or evening (0.3027) but aligns with the afternoon share (0.2526). The product is a fresh, short-shelf-life dairy staple typically used for immediate consumption or preparation.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the afternoon timing (e.g., immediate need vs. planned replenishment) is not established.",
+  "overall_confidence": "low"
+}

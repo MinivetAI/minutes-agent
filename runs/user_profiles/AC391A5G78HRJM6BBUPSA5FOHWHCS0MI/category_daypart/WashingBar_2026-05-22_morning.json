@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Surf excel Detergent Bar 250 g, a laundry washing soap bar format intended for manual spot-cleaning and hand-wash use.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed during the morning on a weekday, a period representing 32.46% of population activity. The purchase reflects a replenishment need for everyday washing tasks, specifically for urgent stain treatment or quick sink-side cleaning.",
+  "uncertainty_text": "Confidence is low as this is a single observed order on one date; durable preferences or routine habits cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

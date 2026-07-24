@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-21",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased fresh vegetable ingredients during the morning daypart, a time when 32.46% of the population is active. The order included one 250 g pack of Unbranded Green Capsicum and one 200 g pack of Urban Harvest Sweet Corn Kernels. These items suggest immediate utility for meal preparation. This is a single observed order on one date; durable preferences or routine buying patterns cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased fresh vegetable ingredients (Green Capsicum, Sweet Corn Kernels) during a weekday morning, a time when 32.46% of the population is active. Items suggest immediate utility for meal preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or routine buying patterns cannot be established.",
+  "overall_confidence": "low"
+}

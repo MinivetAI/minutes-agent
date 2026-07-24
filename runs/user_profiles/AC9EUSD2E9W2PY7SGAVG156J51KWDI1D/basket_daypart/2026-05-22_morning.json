@@ -1,0 +1,32 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-22 (morning, weekday) included 1 unit of Wheat Flour, 3 units of Milk, and 1 unit of Curd Yogurt. The basket reflects a basic staple combination compatible with meal preparation needs. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "WheatFlour"
+      ],
+      "combination_text": "Milk and Wheat Flour were purchased together in this order.",
+      "support": 0.1,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of flour, milk, and yogurt is compatible with breakfast or baking preparation needs.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

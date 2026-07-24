@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Joy Honey & Almonds Nourishing Skin Cream (200 ml), a rich moisturizer positioned for dry to normal skin, during a night-time session on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred at night on a weekend, a time when the user's activity (12.02% share) is significantly lower than the population baseline for morning (32.46%) and evening (30.27%). The product is a general-purpose nourishing cream suitable for daily moisturizing and addressing dry skin.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for the Joy brand or this specific product type, or if it was a one-time replenishment or trial.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-24 (weekday), the user purchased one 400–450g pack of unbranded fresh potatoes in the afternoon. This afternoon purchase occurred during a period of below-baseline activity (population share 0.2526). The item is a fresh staple tuber suitable for immediate cooking or stockout replacement. This is a single observed order on one date; no durable brand or product preferences can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 400–450g pack of unbranded fresh potatoes. This afternoon purchase occurred during a period of below-baseline activity (population share 0.2526). The item is a fresh staple tuber suitable for immediate cooking or stockout replacement.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

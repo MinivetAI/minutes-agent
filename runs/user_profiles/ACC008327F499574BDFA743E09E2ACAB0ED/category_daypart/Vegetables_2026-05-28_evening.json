@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased a single order of fresh, unbranded vegetables including Lady’s Finger, Potato, Organic Cabbage, Onion, and English Cucumber.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246). The items are fresh produce staples typically used for immediate meal preparation or same-day cooking.",
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific brand 'VEGF7EZ6NTGSCA9Y' is unidentifiable.",
+  "overall_confidence": "low"
+}

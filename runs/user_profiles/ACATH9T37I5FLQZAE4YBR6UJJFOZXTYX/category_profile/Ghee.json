@@ -1,0 +1,34 @@
+{
+  "category": "Ghee",
+  "profile_text": "The user has purchased Ghee on three independent dates (Jan, Feb, Apr 2026), establishing a slow replenishment cadence of approximately 41 days. The only observed brand is Gowardhan, appearing across all three months, which supports a medium-confidence brand preference. Purchases have consistently occurred on weekday afternoons, though this timing is below the population baseline. The user buys 500 ml units, specifically in both bottle and pouch formats. As there are no repeated search/view/cart events without purchase, this is not a discovery candidate; interest reliably converts to purchase.",
+  "brand_preferences": [
+    {
+      "brand": "Gowardhan",
+      "preference_text": "Gowardhan is the sole observed brand, appearing on three independent dates (Jan, Feb, Apr 2026), supporting a medium-confidence preference.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 41.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-04-20",
+    "predicted_next_purchase_date": "2026-05-31",
+    "replenishment_text": "The user purchases Ghee approximately every 41 days, classified as a slow replenishment cycle. The last purchase was on 2026-04-20, with the next predicted purchase around 2026-05-31 based on this average cadence.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Ghee reliably converts to purchase; there is no evidence of repeated viewing or searching without buying.",
+  "substitution_text": "No repeated substitution patterns observed; the user has purchased Gowardhan exclusively.",
+  "price_value_text": "No explicit price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior observed.",
+  "mission_generation_text": "Routine replenishment of cooking fat for home cooking and traditional food preparation.",
+  "overall_confidence": "medium"
+}

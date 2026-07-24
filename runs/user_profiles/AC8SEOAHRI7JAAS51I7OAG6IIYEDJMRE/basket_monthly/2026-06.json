@@ -1,0 +1,17 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, three independent orders were placed on separate weekdays and one weekend. The baskets were distinct in composition, with no repeated category combinations or daypart behaviors observed across multiple dates. Consequently, no stable shopping patterns, routine dayparts, or durable category preferences can be established. All observed behaviors are isolated to single dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Three separate orders were placed in June 2026, occurring on two weekdays (evening and afternoon) and one weekend (morning).",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The observed needs are specific to individual transactions: dairy and snacks on 2026-06-17; electrical and produce items on 2026-06-24; and dairy, beverages, and cleaning supplies on 2026-06-27.",
+  "uncertainty_text": "All evidence derives from single independent dates. No category combinations, daypart timings, or product categories were repeated across multiple orders. Therefore, no stable patterns, routines, or durable preferences can be inferred. The `abandonment_patterns` list is empty as no categories were abandoned across independent dates.",
+  "overall_confidence": "low"
+}

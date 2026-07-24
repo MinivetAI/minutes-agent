@@ -1,0 +1,22 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-11 during the night on a weekday. The basket contains six items across six distinct categories: Lotion Cream, Pasta, Noodles, Milk, Vegetables, and Oats. The order-building behavior shows a mix of staple food items (Pasta, Noodles, Milk, Oats) and fresh produce (Vegetables), alongside a personal care item (Lotion Cream). The shopping_need_text describes a need compatible with the basket, such as stocking up on basic meal ingredients and fresh produce for the coming days, but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking on basic meal ingredients and fresh produce.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

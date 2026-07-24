@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "One order of Tata Tea Kanan Devan Classic Tea Pouch 500 g was placed during the morning on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when the user's activity is 0.3246 relative to the population baseline. The product is a standard household tea refill, typically used for daily brewing or restocking.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable brand preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

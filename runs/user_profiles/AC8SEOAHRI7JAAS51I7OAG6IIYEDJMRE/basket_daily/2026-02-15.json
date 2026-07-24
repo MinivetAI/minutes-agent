@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-15",
+  "day_type": "weekend",
+  "summary_text": "On 2026-02-15 (weekend), a single order was placed in the morning. The basket contained two distinct items: one unit of Canned Food and one unit of Curd Yogurt. This narrow basket breadth suggests a basic pantry or breakfast replenishment need. No other dayparts were observed for this date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Canned Food",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Canned Food and Curd Yogurt were purchased together in this order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Replenishment of staple food items.",
+  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

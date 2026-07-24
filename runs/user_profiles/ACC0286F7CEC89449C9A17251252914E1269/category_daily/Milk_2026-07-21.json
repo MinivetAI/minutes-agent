@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-21",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-21 (weekday), the user purchased 2 units of Amul Gold Milk 500 ml during the evening. This single observed order does not establish a stable preference or routine for this brand or product size.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 2 units of Amul Gold Milk 500 ml during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product size.",
+  "overall_confidence": "low"
+}

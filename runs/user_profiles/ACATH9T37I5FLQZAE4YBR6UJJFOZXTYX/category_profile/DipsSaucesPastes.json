@@ -1,0 +1,40 @@
+{
+  "category": "Dips Sauces Pastes",
+  "profile_text": "In March 2026, the user purchased one 1.1 kg pack of Kissan Fresh Tomato Ketchup on a weekend afternoon. This large-format condiment is typically used for dipping, spreading, or as an accompaniment to meals and snacks. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "brand_preferences": [
+    {
+      "brand": "Kissan",
+      "preference_text": "Kissan was observed in one transaction in March 2026. This single observation does not establish a stable preference or routine.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Kissan Fresh Tomato Ketchup (1.1 kg pack) was purchased once on a weekend afternoon in March 2026. This single observation does not establish a stable preference or routine.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-21",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Supports meal accompaniment, dipping, and snacking needs.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,12 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user placed eight separate orders across weekdays and weekends, spanning morning, afternoon, evening, and night dayparts. The baskets were generally narrow, focusing on basic cooking staples such as Flour, Edible Oil, Pulses, Rice, Sugar, and Salt, alongside various unmapped household or personal items. No durable preferences, recurring habits, or stable behavioral patterns can be inferred from this data, as each order occurred on an independent date with no repeated category combinations or daypart behaviors observed across multiple dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The observed orders are compatible with general household replenishment and basic meal preparation needs, specifically involving cooking staples and unmapped household items.",
+  "uncertainty_text": "All observed behaviors are based on single, independent orders. No category combinations, daypart timings, or shopping needs were repeated across multiple dates. Therefore, no stable patterns, routines, or durable preferences can be established. Abandonment patterns are not included in the stable list as no categories were abandoned across independent dates.",
+  "overall_confidence": "low"
+}

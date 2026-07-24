@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 5 packs of DORITOS Cheese Flavour Nachos (45 g) and 2 packs of DORITOS Sweet Chilli Nachos (75 g) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening snacking or convenience needs. The products are single-serve, grab-and-go snacks suited for immediate consumption, impulse buying, or quick add-ons during a food run.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these two flavors or quantities is unknown.",
+  "overall_confidence": "low"
+}

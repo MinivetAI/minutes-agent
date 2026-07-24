@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 400–450g pack of fresh loose potatoes during a night-time session on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred at night on a weekend, a period where this user's activity is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a fresh staple tuber, typically used for immediate cooking or as a base ingredient.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for potatoes. It is unclear if this was a one-time top-up or part of a broader habit.",
+  "overall_confidence": "low"
+}

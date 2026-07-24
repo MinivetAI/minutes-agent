@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-08 (weekday), two separate orders were placed: one in the morning and one in the evening. The morning order included Breads, Curd Yogurt, Ready Mix, and Cheese, suggesting a possible need for breakfast or light meal components. The evening order contained Milk, Savouries Namkeens, Chips, and Butter Margarine, compatible with a need for evening snacks or light refreshments. As these are single observations on one date, no durable preferences or stable patterns can be inferred; overall confidence is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order. This pair has a support of 0.129, confidence of 0.346, and lift of 0.969, with a co-order count of 9.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and Savouries Namkeens were purchased together in this order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be assembling ingredients for a simple breakfast or light meal (morning) and/or seeking evening snacks or light refreshments (evening).",
+  "uncertainty_text": "This analysis is based on single orders on one date. No durable preferences or recurring patterns can be inferred. The confidence in any behavioral pattern is low.",
+  "overall_confidence": "low"
+}

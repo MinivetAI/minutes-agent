@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-06 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Milk, 1 unit of Fruits, 1 unit of Vegetables, and 1 unit of Jams Spreads. This combination of items is compatible with a basic breakfast or meal-preparation need. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order. In the broader population evidence, this pair has a support of 0.3, confidence of 0.517, and lift of 1.293, based on 15 co-orders.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user likely has a need for basic breakfast or meal ingredients, specifically dairy, produce, and spreads.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in inferred user behavior is low.",
+  "overall_confidence": "low"
+}

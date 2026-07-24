@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Ching's Secret Dark Soy Sauce (210 g) was placed. This is a bottled condiment used to add color, saltiness, and savory depth to Indo-Chinese dishes like stir-fries, noodles, and fried rice.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing is consistent with the population baseline, where morning activity accounts for 32.46% of share, making it the most common time for this category. The product serves an immediate cooking utility, likely for preparing a meal such as noodles or fried rice.",
+  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference, a routine pantry restock, or a one-time need. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

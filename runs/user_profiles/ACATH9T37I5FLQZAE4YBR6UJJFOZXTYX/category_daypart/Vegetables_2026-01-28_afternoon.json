@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of fresh vegetables placed in the afternoon on a weekday, containing one unbranded onion (400–450 g) and one unbranded baby potato (280–320 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed during the afternoon, a period where this user's activity is below the population baseline (25.26% share vs. 32.46% for morning). The items are standard fresh produce staples typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-16 (weekday), the user placed one order of Bhagyalakshmi Rice Flour 1 kg during the evening. This purchase aligns with the population baseline for evening activity (30.27%). The product is a staple flour suitable for regional cooking, gluten-free preparation, or general baking. This is a single observation on one date; it is not yet established whether this represents a recurring preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Bhagyalakshmi Rice Flour 1 kg was placed during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a recurring preference or a one-time need.",
+  "overall_confidence": "low"
+}

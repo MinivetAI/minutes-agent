@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 2.25 L bottle of Pepsi cola soft drink.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekend, a time when morning activity is above the population baseline (0.3246). The product is a large-format carbonated beverage typically used for immediate refreshment or sharing.",
+  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

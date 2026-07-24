@@ -1,0 +1,23 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-08 (morning, weekday) contained one unit each of EDOET83CGGHPBAAV (Other Cooking Oil), EEGGHSB2FQZEHBG2 (Eggs), and SNSETFPYRCWWPHAA (Savouries Namkeens). This combination suggests a need for basic cooking ingredients and snack items. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Other Cooking Oil",
+        "Eggs",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Other Cooking Oil, Eggs, and Savouries Namkeens were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a need for basic cooking staples and ready-to-eat savory snacks.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

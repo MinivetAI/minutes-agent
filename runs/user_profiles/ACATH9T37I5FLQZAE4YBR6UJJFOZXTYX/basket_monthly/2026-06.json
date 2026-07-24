@@ -1,0 +1,12 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user placed 12 independent orders across weekdays and weekends, with a strong concentration in the morning daypart (6 orders) and afternoon/evening (4 orders). The basket composition is consistently dominated by Vegetables, appearing in every single order with high unit counts (ranging from 2 to 9 units). This is frequently paired with Dairy (Milk, Curd Yogurt) and Baby Care (Diaper, Baby Cereal). Other recurring categories include Snacks (Chips, Savouries, Cookies) and Beverages (Aerated Drinks). The user also made isolated purchases of personal care items (Toothbrush, Sanitary Pad) and specific food items (Paneer Tofu, Rice, Noodles). No stable, repeated daypart behavior or durable category combinations can be established because each order represents a unique, independent observation without repetition of specific product-level or daypart-level patterns across multiple dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The user demonstrates a consistent need for fresh produce (Vegetables) and household staples (Dairy, Baby Care, Snacks) across multiple independent shopping trips. The presence of Vegetables in every order suggests it is a core household requirement. The mix of items indicates a need for general grocery replenishment, infant nutrition, and occasional personal care.",
+  "uncertainty_text": "All patterns described are based on single observations per date. While Vegetables appear in every order, this is a category-level observation; specific product brands, variants, or precise daypart timings (e.g., 'always morning') are not repeated enough to form a stable habit. Category combinations like 'Milk and Vegetables' appear in multiple orders, but because the user buys different items on different dates, these are not yet confirmed as a stable, exclusive routine. Abandoned carts were not recorded in any order, so no abandonment patterns are noted.",
+  "overall_confidence": "low"
+}

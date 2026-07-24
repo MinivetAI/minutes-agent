@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-04",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, a single order was placed during the morning daypart. The basket contained 2 units of Milk, 1 unit of Dhoop, 2 units of Scrub Pad, and 1 unit of Incense Stick. This combination includes a dairy staple, household cleaning supplies, and religious items. The presence of Dhoop and Incense Sticks alongside groceries suggests a compatible need for home maintenance or ritual preparation, but this is not definitively proven by this single transaction. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Dhoop",
+        "Scrub Pad",
+        "Incense Stick"
+      ],
+      "combination_text": "Milk, Dhoop, Scrub Pad, Incense Stick",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking of daily consumables (Milk) alongside cleaning supplies (Scrub Pad) and religious items (Dhoop, Incense Stick).",
+  "uncertainty_text": "This analysis is based on a single observed order on one weekend morning. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. The presence of religious items alongside groceries is noted as a compatible need but not as a confirmed habitual preference.",
+  "overall_confidence": "low"
+}

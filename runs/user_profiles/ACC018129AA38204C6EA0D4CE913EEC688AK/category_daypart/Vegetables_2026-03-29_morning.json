@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 100 g of unbranded fresh coriander leaves and 100 g of unbranded fresh mint leaves.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased on a weekend morning, a time when this user's activity is above the population baseline (32.5%). The items are fresh culinary herbs typically used for immediate cooking, garnishing, or finishing dishes.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for these specific herbs or a one-time need.",
+  "overall_confidence": "low"
+}

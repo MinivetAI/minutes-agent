@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04 (weekday), the user purchased one 100 g pack of Amul Pasteurised Salted Butter during the morning. This timing aligns with a 32.46% population share for this category on weekdays. The product is a standard small-format salted butter suitable for immediate kitchen use. This is a single observed order; durable brand or format preferences cannot be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 100 g pack of Amul Pasteurised Salted Butter. This timing aligns with a 32.46% population share for this category on weekdays. The product is a standard small-format salted butter suitable for immediate kitchen use.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or format preferences cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

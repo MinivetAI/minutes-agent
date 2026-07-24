@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 200 g pouch of Continental Malgudi 60 Degree Filter Coffee, a chicory-blended South Indian filter coffee powder, during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this category represents 30.27% of population activity (baseline: morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a traditional decoction-style coffee powder, typically used for daily morning brewing routines.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening purchase (e.g., stock replenishment vs. immediate need) is not determined.",
+  "overall_confidence": "low"
+}

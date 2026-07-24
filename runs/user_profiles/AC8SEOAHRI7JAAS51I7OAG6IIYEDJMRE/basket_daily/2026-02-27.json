@@ -1,0 +1,25 @@
+{
+  "date": "2026-02-27",
+  "day_type": "weekday",
+  "summary_text": "A single order placed on 2026-02-27 in the evening on a weekday. The basket contains four distinct items across four categories: Ready Mixes (1), Other Pulses (1), Curd Yogurt (2), and Sugar (1). The purchase combines a baking or cooking base (Ready Mixes, Sugar, Pulses) with a dairy component (Curd Yogurt).",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Ready Mixes",
+        "Other Pulses",
+        "Curd Yogurt",
+        "Sugar"
+      ],
+      "combination_text": "Ready Mixes, Other Pulses, Curd Yogurt, and Sugar were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of Ready Mixes, Sugar, Pulses, and Curd Yogurt is compatible with preparing a home-cooked meal or dessert that involves mixing dry ingredients and using yogurt as an ingredient or side.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference, routine, or stable pattern. The `category_pair_evidence` provided does not contain pairs matching the specific categories in this order (Ready Mixes, Other Pulses, Sugar), so no support/confidence/lift values from that evidence are applied to this basket's internal combination.",
+  "overall_confidence": "low"
+}

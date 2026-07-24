@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 750 ml bottle of Thums Up (carbonated cola) and one 750 ml bottle of 7UP (lemon-lime soda) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are immediate-refreshment beverages suitable for quick consumption or sharing.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established from this evidence alone.",
+  "overall_confidence": "low"
+}

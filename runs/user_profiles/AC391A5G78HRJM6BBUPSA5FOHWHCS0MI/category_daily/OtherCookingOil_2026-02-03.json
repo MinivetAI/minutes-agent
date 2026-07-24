@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-03 (weekday), the user purchased one 2-litre bottle of Fortune Soya Health Refined Soyabean Oil and two 1-litre pouches of Dhara Kachi Ghani Mustard Oil during a morning session. This order reflects a replenishment need for routine kitchen staples used in everyday cooking, frying, and meal preparation. As this is a single observed order, durable brand or product-type preferences cannot be established, and it is unclear if this represents a typical purchasing pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 2-litre bottle of Fortune Soya Health Refined Soyabean Oil and two 1-litre pouches of Dhara Kachi Ghani Mustard Oil. The order occurred in the morning (32.5% population share) on a weekday, suggesting a replenishment need for immediate or near-term household use.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or product-type preferences cannot be established. It is unclear if the user typically buys these specific brands or if this was a one-time purchase.",
+  "overall_confidence": "low"
+}

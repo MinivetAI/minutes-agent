@@ -1,0 +1,33 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-12 during the night on a weekday. The basket contains 11 items across 6 categories: Savouries Namkeens (3 units), Chips (2 units), Vegetables (2 units), Aerated Drinks (1 unit), Cough (2 units), and Breads (1 unit). The combination of savory snacks, chips, and aerated drinks suggests a compatible need for evening snacking or entertainment, while the inclusion of vegetables and bread indicates a separate need for meal preparation. The presence of cough medicine suggests a specific health need for the shopper or household. No carts were abandoned.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Chips",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Savouries Namkeens, Chips, and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Breads"
+      ],
+      "combination_text": "Vegetables and Breads were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with an evening snack session (savouries, chips, aerated drinks) and meal preparation (vegetables, breads), alongside a specific need for cough relief.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference, routine, or stable pattern. The presence of cough medicine indicates a specific health need but does not prove chronic conditions or long-term health status. The combination of snack and grocery items may reflect a single shopping trip for multiple needs, but this is not a recurring behavior pattern based on this evidence alone.",
+  "overall_confidence": "low"
+}

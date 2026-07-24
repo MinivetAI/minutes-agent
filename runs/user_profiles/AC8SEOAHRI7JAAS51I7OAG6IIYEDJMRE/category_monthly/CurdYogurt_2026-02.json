@@ -1,0 +1,34 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased Mother Dairy curd products on five independent dates. Mother Dairy Classic Plain Curd (390 g) was purchased on four dates (02-09, 02-15, 02-18, 02-23), and Mother Dairy Advanced Probiotic Plain Curd (200 g) was purchased on four dates (02-09, 02-18, 02-23, 02-27). Both variants appear consistently across the month, indicating stable preferences for these specific Mother Dairy items. Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, with no single dominant time window.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Mother Dairy",
+      "claim_text": "The user purchased Mother Dairy branded curd on 5 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Classic Plain Curd (390 g)",
+      "claim_text": "The user purchased Mother Dairy Classic Plain Curd (390 g) on 4 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Advanced Probiotic Plain Curd (200 g)",
+      "claim_text": "The user purchased Mother Dairy Advanced Probiotic Plain Curd (200 g) on 4 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The evidence covers five independent dates in February 2026. While brand and product preferences are established as high confidence due to repetition, the variety of dayparts (morning, afternoon, evening) and day types (weekday, weekend) prevents the identification of a single stable daypart or weekday/weekend pattern. The specific functional need (e.g., probiotic vs. classic) varies by order, so no single variant preference is dominant over the other.",
+  "overall_confidence": "high"
+}

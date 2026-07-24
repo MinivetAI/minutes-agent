@@ -1,0 +1,23 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user made three independent purchases in the Ready Meals category. Safal Frozen Green Peas (200 g) was purchased on two independent dates (2026-07-04 and 2026-07-16), establishing a stable preference for this specific product. A separate ready meal product (RMDHJCDY47ZHHYYZ) was purchased once on 2026-07-20; this is a single observation and does not indicate a stable preference. Purchases occurred in the evening and morning, with no consistent daypart pattern established across the month.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Safal Frozen Green Peas (200 g)",
+      "claim_text": "The user has a stable preference for Safal Frozen Green Peas (200 g), evidenced by purchases on two independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "A single purchase of a ready meal product (RMDHJCDY47ZHHYYZ) was made on 2026-07-20. This is an isolated observation and does not indicate a recurring trend or stable preference for this specific item.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While Safal Frozen Green Peas shows a stable pattern across two dates, the ready meal product (RMDHJCDY47ZHHYYZ) was purchased only once. It is unclear if this represents a one-time convenience need or the start of a new habit. The daypart patterns (evening and morning) are inconsistent across the month, so no stable daypart preference can be claimed.",
+  "overall_confidence": "medium"
+}

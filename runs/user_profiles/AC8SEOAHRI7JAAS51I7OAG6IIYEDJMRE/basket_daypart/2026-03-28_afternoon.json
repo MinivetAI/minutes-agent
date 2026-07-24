@@ -1,0 +1,92 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend afternoon included Paneer Tofu, Buttermilk, and two items from the Breads category. The basket reflects a simple meal-preparation need compatible with these ingredients. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and CurdYogurt",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and SavouriesNamkeens",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CannedFood",
+        "CurdYogurt"
+      ],
+      "combination_text": "CannedFood and CurdYogurt",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user purchased Paneer Tofu, Buttermilk, and Breads, suggesting a need for ingredients to prepare a meal or snack.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns observed here are not confirmed as stable preferences.",
+  "overall_confidence": "low"
+}

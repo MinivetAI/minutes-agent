@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-14",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased fresh vegetables (Green Peas, Cauliflower, Onion, Tomato, Potato) and a ready-to-eat dessert (Red Carrot Halwa). The combination suggests a meal-prep or hosting scenario requiring base ingredients and a dessert component. This is a single observation; no stable long-term preference can be inferred.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased fresh vegetables (Green Peas, Cauliflower, Onion, Tomato, Potato) and Red Carrot Halwa. This order was placed on a weekend afternoon, a time when population share (25.26%) is lower than morning (32.46%) and evening (30.27%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned shopping and urgent replenishment. The specific meal plan or occasion for the halwa is unknown.",
+  "overall_confidence": "low"
+}

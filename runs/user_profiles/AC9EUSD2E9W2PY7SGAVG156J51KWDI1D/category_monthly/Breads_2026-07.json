@@ -1,0 +1,26 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased bread on four independent dates. Britannia Breakfast Slice White Bread 450 g was purchased on three dates (2026-07-14, 2026-07-19, 2026-07-21), establishing a stable preference. Britannia Sandwich Bread 350 g was purchased on one date (2026-07-15). Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, indicating flexible timing rather than a fixed routine.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Britannia",
+      "claim_text": "The user has a stable preference for Britannia bread, evidenced by purchases on 4 independent dates.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Britannia Breakfast Slice White Bread 450 g",
+      "claim_text": "The user has a stable preference for Britannia Breakfast Slice White Bread 450 g, evidenced by purchases on 3 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Britannia Sandwich Bread 350 g was purchased on only one date; this single observation does not establish a stable preference or routine.",
+  "overall_confidence": "medium"
+}

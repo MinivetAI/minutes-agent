@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of Baby Potato, Beetroot, Sweet Potato, and Onion. All items were unbranded fresh vegetables, consistent with a same-day cooking or meal-prep need.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. The population baseline indicates this daypart is less common (25.26%) compared to evening (30.27%) and morning (32.46%). The products are fresh, unbranded staples typically used for immediate home cooking.",
+  "uncertainty_text": "No browsing or search history was provided, so the path to purchase is unknown. As this is a single observed order, no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

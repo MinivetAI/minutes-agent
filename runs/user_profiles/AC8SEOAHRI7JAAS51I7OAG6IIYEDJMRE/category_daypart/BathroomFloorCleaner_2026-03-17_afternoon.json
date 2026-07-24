@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1-litre pack of Lizol Citrus Disinfectant Surface & Floor Cleaner.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered in the afternoon on a weekday, a time with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a ready-to-use liquid cleaner for floors and surfaces, typically used for routine hygiene or spill cleanup.",
+  "uncertainty_text": "This is a single observed order; no repeated behavior or stable preference pattern can be established.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,42 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased buttermilk on two independent dates: Amul Probiotic Buttermilk on a weekday afternoon and Mother Dairy Probiotic Tadka Buttermilk on a weekend afternoon. Both orders occurred in the afternoon, a timing that aligns with the population pattern where afternoon share (0.2526) is lower than morning (0.3246) and evening (0.3027). The products are ready-to-drink chilled dairy beverages, suitable for immediate consumption or as a light meal accompaniment. No single brand or variant recurred across multiple dates; therefore, no stable preference claims are established for specific products. The consistent afternoon timing across both independent dates supports a stable preference for afternoon consumption within this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Amul Probiotic Buttermilk 440 ml",
+      "claim_text": "The user purchased Amul Probiotic Buttermilk 440 ml on 2026-03-03. This is a single observed order; durable preferences or routine behavior cannot be established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Probiotic Tadka Buttermilk 270 ml",
+      "claim_text": "The user purchased Mother Dairy Probiotic Tadka Buttermilk 270 ml on 2026-03-28. This is a single observed order; durable preferences or routine behavior cannot be established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Probiotic Buttermilk",
+      "claim_text": "The user purchased probiotic buttermilk variants on two independent dates (2026-03-03 and 2026-03-28). This repetition supports a stable preference for probiotic buttermilk variants.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Afternoon",
+      "claim_text": "The user purchased buttermilk in the afternoon on two independent dates (2026-03-03 and 2026-03-28). This repetition supports a stable preference for afternoon consumption.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or routine behavior cannot be established.",
+  "overall_confidence": "low"
+}

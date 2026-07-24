@@ -1,0 +1,40 @@
+{
+  "category": "Milk",
+  "profile_text": "The user demonstrates a stable, recurring preference for Nandini brand milk, specifically the Shubham Pasteurised Standardised variant. Purchases have occurred across multiple months (March, April, May, July 2026) with a consistent cadence of approximately 19 days. While the brand and product are stable, pack size varies between 1 L and 500 ml, suggesting flexible purchasing based on immediate household needs (e.g., standard replenishment vs. short-term top-up). Purchases occur primarily on weekdays, with timing split between evening and morning dayparts, aligning with both population norms and specific household routines for breakfast or cooking.",
+  "brand_preferences": [
+    {
+      "brand": "Nandini",
+      "preference_text": "Stable preference evidenced by purchases on multiple independent dates across March and July 2026.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Nandini Shubham Pasteurised Standardised Milk, evidenced by purchases on multiple independent dates.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 19.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-16",
+    "predicted_next_purchase_date": "2026-08-04",
+    "replenishment_text": "The user typically purchases this category every 19 days. The last purchase was on 2026-07-16, with the next expected around 2026-08-04 based on this average cadence.",
+    "confidence": "high",
+    "evidence_count": 6,
+    "independent_date_count": 6
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions across multiple months.",
+  "substitution_text": "No evidence of substitution behavior; the user consistently selects the same brand and product variant.",
+  "price_value_text": "Pack size varies (1 L vs. 500 ml) across independent dates, indicating flexible purchasing based on immediate need rather than a fixed pack-size preference.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases are consistent and recurring.",
+  "mission_generation_text": "Supports routine household needs for direct consumption (breakfast, tea) and cooking, with pack size selection driven by immediate inventory levels or short-term usage needs.",
+  "overall_confidence": "high"
+}

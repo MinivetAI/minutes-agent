@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 280 g pack of Maggi 2-Minute Favourite Masala Taste Instant Noodles.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when population share is 0.2526 (lower than the morning peak of 0.3246). The product is a fast, familiar instant noodle suitable for quick snacks or light meals.",
+  "uncertainty_text": "This is a single observed order; durable brand or taste preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

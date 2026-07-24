@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "On 2026-02-18 during the evening weekday, the user placed a single order containing two items: one unit of Sugar and one unit of Unmapped-JGR. The basket breadth is narrow, consisting of only two distinct categories. The `shopping_need_text` suggests a basic household replenishment need compatible with these staple or unmapped grocery items. As this is a single observed order, it represents an isolated transaction rather than a durable preference pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Sugar",
+        "Unmapped-JGR"
+      ],
+      "combination_text": "Sugar and Unmapped-JGR were purchased together in the observed order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic household replenishment of staple or general grocery items.",
+  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this isolated event. The `category_pair_evidence` provided reflects population-level co-ordering statistics for other categories (e.g., Milk/Vegetables, CookiesBiscuits/Milk) but does not apply to the specific products purchased in this order.",
+  "overall_confidence": "low"
+}

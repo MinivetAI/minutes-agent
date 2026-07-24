@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 6-unit pack of Hen Fruit Farm Hen White Eggs during the morning on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a basic fresh egg pack, typically used for immediate breakfast, quick cooking, or household stock replenishment.",
+  "uncertainty_text": "This is a single observed order from one date; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

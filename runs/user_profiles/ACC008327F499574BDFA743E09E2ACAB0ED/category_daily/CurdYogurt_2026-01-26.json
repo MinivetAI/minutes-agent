@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-26 (weekday), the user ordered one unit of Saras Plain Curd 200 g in the evening. This timing aligns with a period of slightly below-baseline activity (30.3% share). The product is a small, immediate-use dairy item suitable for same-day meal pairing or consumption. This is a single observation on one date; no stable brand or product preference can be established yet.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Saras Plain Curd 200 g.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,32 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-17 in the morning on a weekday. The basket contains six items across four categories: Baby Cereal, Vegetables, Milk, and Paneer Tofu. The user purchased one unit each of a baby cereal, milk, paneer/tofu, and three distinct vegetable products. This represents a single observation of a mixed-basket order containing both infant-specific items and general grocery staples.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic meal preparation components, including infant nutrition (baby cereal) and fresh ingredients (vegetables, milk, paneer/tofu).",
+  "uncertainty_text": "This is a single observed order on one date. No durable preferences or recurring patterns can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

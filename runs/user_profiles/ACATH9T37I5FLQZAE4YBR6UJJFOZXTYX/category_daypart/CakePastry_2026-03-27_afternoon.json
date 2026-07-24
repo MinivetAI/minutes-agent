@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Britannia Romance Nut and Raisin Cake (140 g) in the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share vs. 32.46% for morning). The product is a packaged, shelf-stable sweet cake, typically used for immediate snacking, tea-time treats, or quick desserts.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

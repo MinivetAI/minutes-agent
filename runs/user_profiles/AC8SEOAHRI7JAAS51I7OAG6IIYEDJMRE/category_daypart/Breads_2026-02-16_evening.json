@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 300 g loaf of Naturbaked Zero Maida Whole Wheat Bread during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period where the user's activity (100% of observed share) is slightly below the population baseline for this time slot (30.27%). The product is a packaged whole wheat bread, typically used for quick breakfasts, toast, or sandwiches.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

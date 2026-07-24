@@ -1,0 +1,18 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased Tender Coconut (fresh whole fruit) on three independent dates (2026-06-08, 2026-06-09, and 2026-06-10). Each purchase consisted of 2 units and occurred in the morning on a weekday. The repetition of this specific product across multiple independent dates establishes a stable preference. The consistent timing indicates a stable morning daypart pattern for this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Tender Coconut (fresh whole fruit)",
+      "claim_text": "The user has a stable preference for Tender Coconut (fresh whole fruit), evidenced by purchases on 3 independent dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This summary is based on three independent purchase dates. No other products or variants were observed in this category for this month.",
+  "overall_confidence": "high"
+}

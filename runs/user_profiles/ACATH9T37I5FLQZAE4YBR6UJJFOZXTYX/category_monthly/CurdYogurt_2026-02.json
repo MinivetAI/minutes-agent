@@ -1,0 +1,34 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased Amul Masti Plain Curd on five independent dates (2026-02-10, 11, 20, 24, 27). The 200 ml pack size appeared on four of these dates, and the brand Amul Masti appeared on all five. This repetition across multiple independent dates establishes a stable preference for this brand and pack size, with high confidence due to the frequency of recurrence (5 dates). The user also purchased a 390 ml pack on one date. Purchases occurred primarily in the afternoon on weekdays, with one morning purchase. The afternoon timing is less common for this user than the morning baseline. The small pack sizes suggest immediate consumption or meal pairing rather than bulk stocking.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul Masti",
+      "claim_text": "The user has a stable preference for Amul Masti curd, evidenced by purchases on 5 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Masti Dahi Plain Curd 200 ml",
+      "claim_text": "The user has a stable preference for the 200 ml pack of Amul Masti Dahi Plain Curd, evidenced by purchases on 4 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Masti Plain Curd 390 ml",
+      "claim_text": "The user purchased Amul Masti Plain Curd 390 ml on one date. This is a single observation and does not establish a stable preference for this specific pack size.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and 200 ml pack size show stable preference due to repetition, the 390 ml pack was purchased only once. The user's preference for afternoon purchases is noted but is less common than morning activity for this user. No browsing or cart activity was recorded to indicate comparison or hesitation for any of the orders.",
+  "overall_confidence": "high"
+}

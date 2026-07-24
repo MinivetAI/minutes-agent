@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-01 (weekday), the user purchased one 200 g pack of Gopal Namkeen Ratlami Sev during the evening. This single order represents a ready-to-eat savoury snack, potentially for a tea-time craving or quick salty bite. The evening timing aligns with the population baseline (evening share 0.3027).",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 200 g pack of Gopal Namkeen Ratlami Sev. This is a single observed order on one date; it does not establish a durable brand preference or a recurring habit for this category.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference or a recurring habit for this category.",
+  "overall_confidence": "low"
+}

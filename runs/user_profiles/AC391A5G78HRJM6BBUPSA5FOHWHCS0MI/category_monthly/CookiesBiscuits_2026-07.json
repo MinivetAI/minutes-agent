@@ -1,0 +1,26 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased Sunfeast Mom's Magic cookies on two independent dates (2026-07-04 and 2026-07-20). The brand Sunfeast Mom's Magic recurs across these dates, meeting the repetition bar for stable preference. The specific variant 'Ghee Roasted Cashew & Almond Cookies' appears on both dates (in multiple packs on the first date and a single pack on the second), supporting a stable preference for this specific product line. The 'Cashew & Almond Cookies' (544 g) appears only on the first date and is excluded from stable lists. Purchases occurred in the afternoon (weekend) and evening (weekday), reflecting the user's own cadence rather than a single dominant daypart. No other brands or variants show repetition.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Sunfeast Mom's Magic",
+      "claim_text": "The user has a stable preference for Sunfeast Mom's Magic cookies, evidenced by purchases on 2026-07-04 and 2026-07-20.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies",
+      "claim_text": "The user has a stable preference for Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies, evidenced by purchases on 2026-07-04 (2 packs) and 2026-07-20 (1 pack).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent orders in July 2026. While the brand and specific variant show stable preference due to repetition, the sample size is small. No other brands or variants were observed repeatedly.",
+  "overall_confidence": "medium"
+}

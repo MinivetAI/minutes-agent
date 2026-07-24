@@ -1,0 +1,40 @@
+{
+  "category": "Shampoo",
+  "profile_text": "A single observed purchase of Pilgrim Australian Tea Tree Hair Shampoo (200 ml) on 2026-04-09 (weekday, afternoon). This timing aligns with a period of lower activity for this user compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The purchase suggests a restock or replacement need for scalp care. As this is a single observed order, durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "brand_preferences": [
+    {
+      "brand": "Pilgrim",
+      "preference_text": "Pilgrim was observed in one independent date (2026-04-09).",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Pilgrim Australian Tea Tree Hair Shampoo (200 ml) was observed in one independent date (2026-04-09).",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-09",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-04-09. Cadence is unknown based on a single observation, so no predicted next purchase date can be established.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction on 2026-04-09.",
+  "substitution_text": "No substitution behavior observed; only one brand and product variant were purchased.",
+  "price_value_text": "No price or value behavior observed beyond the single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Restock or replacement need for scalp care and anti-dandruff cleansing.",
+  "overall_confidence": "low"
+}

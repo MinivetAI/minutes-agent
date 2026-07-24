@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-27 (weekday), the user purchased 1 unit of Watermelon Kiran (fresh watermelon) in the afternoon. This single observation suggests a need for immediate consumption or hydration. The afternoon timing falls within a non-peak shopping window (25.26% population share) compared to evening (30.27%) or morning (32.46%). No durable preferences or stable patterns can be established from this single date.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Watermelon Kiran (fresh watermelon).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific reason for purchasing this specific watermelon variant or the timing is unknown.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on 8 independent dates. The brand and product variant recur consistently across the month, establishing a stable preference. Purchases occurred primarily in the afternoon (6 dates) and once in the evening (1 date) and morning (1 date). All transactions were on weekdays. The user bought 2 units on 6 dates, 1 unit on 1 date, and 1 unit on 1 date. The product is a small-format, single-use liquid milk pack suitable for immediate kitchen use, such as tea, coffee, or breakfast.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user repeatedly purchased Amul brand milk in February 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "The user repeatedly purchased Amul Taaza Pasteurised Toned Milk (500 ml) in February 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user's preference for this specific brand and product variant is supported by 8 independent dates. While the afternoon is the most common daypart, purchases also occurred in the morning and evening, indicating flexibility in timing rather than a rigid daily routine. No other milk brands or variants were observed in this month.",
+  "overall_confidence": "high"
+}

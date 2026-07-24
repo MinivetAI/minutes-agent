@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 750 ml Sprite PET bottle, a lemon-lime carbonated soft drink, during a weekday morning session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when the user's activity (1 order) aligns with the population baseline where morning accounts for 32.46% of activity. The product serves as a ready-to-serve, chilled beverage for immediate refreshment.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for Sprite or aerated drinks in the morning.",
+  "overall_confidence": "low"
+}

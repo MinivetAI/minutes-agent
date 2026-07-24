@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 L pouch of Fortune Premium Kachi Ghani Pure Mustard Oil.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The product is a single-pack cooking oil intended for everyday kitchen use.",
+  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on three independent dates (2026-05-04, 2026-05-11, and 2026-05-14). This recurrence across multiple dates establishes a stable preference for this specific brand and variant. The user also exhibits a pattern of purchasing on weekdays, with activity observed in both the afternoon and night dayparts.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul milk, evidenced by purchases on 3 independent dates.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 3 independent dates.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and product preference is stable due to repetition, the timing varies between afternoon and night, and the daypart pattern is not consistent across all dates (two afternoons, one night).",
+  "overall_confidence": "medium"
+}

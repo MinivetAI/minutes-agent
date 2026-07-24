@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Mother Dairy Fresh Paneer (200 g) on two independent dates (2026-04-18 and 2026-04-28). The product appears on both dates, meeting the repetition bar for stable preference. The user also exhibited a pattern of shopping during the night on a weekday and during the morning and afternoon on a weekend.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Mother Dairy",
+      "claim_text": "The user has a stable preference for Mother Dairy paneer, evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Fresh Paneer (200 g)",
+      "claim_text": "The user has a stable preference for Mother Dairy Fresh Paneer (200 g), evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on only two independent dates in April 2026. While the repetition of Mother Dairy Fresh Paneer supports a medium-confidence stable preference, the limited date range means this pattern may not persist beyond this month.",
+  "overall_confidence": "medium"
+}

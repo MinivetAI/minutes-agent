@@ -1,0 +1,40 @@
+{
+  "category": "Honey",
+  "profile_text": "The user has purchased honey on three independent dates (March, April, May 2026), establishing a slow replenishment cadence of approximately 21 days. Dabur is the only observed brand, appearing on all three dates, which supports a medium-confidence brand preference. The user consistently selects the 'Squeezy' format, specifically the '2 x 225 g' pack size in the most recent two months, indicating a preference for this specific convenience-oriented variant. Purchases have occurred on both weekends and weekdays, with no strong daypart dominance established from this limited evidence. No discovery signals (search/view without purchase) are present.",
+  "brand_preferences": [
+    {
+      "brand": "Dabur",
+      "preference_text": "Dabur is the sole observed brand across three independent purchase dates (2026-03-21, 2026-04-21, 2026-05-02), supporting a medium-confidence preference.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has repeatedly purchased the 'Dabur Honey Squeezy' format. While the pack size varied in March (800g total), the user selected the '2 x 225 g' variant in both April and May, suggesting a stable preference for this specific pack size.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 21.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-05-02",
+    "predicted_next_purchase_date": "2026-05-23",
+    "replenishment_text": "The user purchases honey approximately every 21 days, classified as a slow replenishment cycle. The next purchase is estimated around 2026-05-23.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase; all observed search/view/cart behaviors (if any) are not present, and all observed interactions resulted in completed transactions.",
+  "substitution_text": "No substitution behavior observed. The user consistently selects the squeezy format, indicating a preference for convenience over jar formats.",
+  "price_value_text": "No explicit price sensitivity or value-seeking behavior can be determined from the provided summaries. The user has purchased different pack sizes (800g total vs. 450g total), but the unit price comparison is not provided.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports routine household needs for a sweetener or breakfast condiment, likely for tea, coffee, or direct consumption, given the convenience-oriented squeezy format.",
+  "overall_confidence": "medium"
+}

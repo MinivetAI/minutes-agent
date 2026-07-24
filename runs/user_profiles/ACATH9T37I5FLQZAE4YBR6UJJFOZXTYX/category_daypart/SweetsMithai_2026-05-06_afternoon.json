@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Daadi's Jaggery Coconut Burfi (200 g) in the Sweets Mithai category.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a ready-to-eat boxed Indian sweet suitable for immediate consumption or gifting.",
+  "uncertainty_text": "Single observation does not establish durable brand or flavor preferences. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased white sliced bread on two independent weekend dates. The brand Britannia appeared on both dates (2026-04-18 and 2026-04-26), meeting the repetition bar for stable preference. Purchases occurred in the afternoon and evening, both on weekends, aligning with the population baseline for evening activity (30.27% share).",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Britannia",
+      "claim_text": "The user purchased Britannia bread on two independent dates in April 2026 (2026-04-18 and 2026-04-26).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent orders in April 2026. While the brand Britannia recurs, the specific product variants (Breakfast Slice vs. Sandwich Bread) differ, and the sample size is limited to this single month.",
+  "overall_confidence": "medium"
+}

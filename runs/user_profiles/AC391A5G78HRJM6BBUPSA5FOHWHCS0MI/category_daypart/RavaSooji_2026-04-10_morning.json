@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Rajdhani Select Sooji (0.5 kg packs) in the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this category represents 32.46% of population activity. The product is a staple pantry ingredient for immediate cooking needs.",
+  "uncertainty_text": "This is a single observed transaction; durable brand or usage preferences cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 50 g pack of Aashirvaad Poppy Seeds (khus khus/posto) in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. The product is a niche whole spice often purchased to fill an immediate gap in a recipe or pantry.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

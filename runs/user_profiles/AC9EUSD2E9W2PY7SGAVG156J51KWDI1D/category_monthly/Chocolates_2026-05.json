@@ -1,0 +1,9 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased two distinct chocolate items on separate dates: a Nestlé MUNCH Max wafer bar on a weekday morning and a Cadbury Celebrations gift pack on a weekend morning. No brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preferences or routine patterns are established for this category in this month.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Each observed purchase occurred on a single, independent date. Without repetition across multiple dates, it is not possible to distinguish between a durable preference, a one-time impulse, or a specific occasion-driven need. The user's behavior in this category during May 2026 is characterized by isolated transactions rather than a consistent pattern.",
+  "overall_confidence": "low"
+}

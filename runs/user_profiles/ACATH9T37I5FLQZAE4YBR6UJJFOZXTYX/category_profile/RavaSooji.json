@@ -1,0 +1,34 @@
+{
+  "category": "Rava Sooji",
+  "profile_text": "The user has purchased Fortune brand Rava Sooji (semolina) on three independent dates (March, April, and June 2026), establishing a stable brand preference. Purchases occurred in small 500 g packs, typically for immediate cooking needs like breakfast or snacks. The user buys this item on a slow cadence (approx. every 37 days), with the last purchase on 2026-06-03 and the next predicted around 2026-07-10.",
+  "brand_preferences": [
+    {
+      "brand": "Fortune",
+      "preference_text": "Fortune is the user's established brand for Rava Sooji, supported by purchases on three independent dates (2026-03-21, 2026-04-20, 2026-06-03).",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 37.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-06-03",
+    "predicted_next_purchase_date": "2026-07-10",
+    "replenishment_text": "The user buys Rava Sooji on a slow cadence, approximately every 37 days. The last purchase was on 2026-06-03, and the next is predicted around 2026-07-10.",
+    "confidence": "high",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Rava Sooji reliably converts to purchase; the user has completed orders for this category on multiple occasions.",
+  "substitution_text": "No specific substitution behavior observed; the user consistently purchases the Fortune brand.",
+  "price_value_text": "The user purchases small 500 g packs, suggesting a preference for immediate-use quantities rather than bulk storage.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports immediate cooking needs for breakfast, snacks, or dessert preparation using staple semolina flour.",
+  "overall_confidence": "high"
+}

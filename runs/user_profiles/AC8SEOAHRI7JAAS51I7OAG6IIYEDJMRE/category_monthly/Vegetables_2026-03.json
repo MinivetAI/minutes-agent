@@ -1,0 +1,34 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased cauliflower twice (on 2026-03-24 and 2026-03-26). While the brand varied (Unbranded vs. Branded), the product type (Cauliflower 400-600g) and daypart (morning) recurred across two independent dates. This repetition supports a stable preference for cauliflower in the morning, with medium confidence. No other vegetable categories or brands showed sufficient repetition to establish stable claims.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Cauliflower 400-600g",
+      "claim_text": "The user has a stable preference for Cauliflower 400-600g, observed on two independent dates (2026-03-24, 2026-03-26).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Unbranded Cauliflower 400-600g",
+      "claim_text": "The user purchased Unbranded Cauliflower 400-600g on one date (2026-03-24). This is a single observation and does not establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Cauliflower 400-600g (Branded)",
+      "claim_text": "The user purchased Branded Cauliflower 400-600g on one date (2026-03-26). This is a single observation and does not establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user's vegetable purchasing in March 2026 was limited to cauliflower. The variation in brand (Unbranded vs. Branded) prevents a stable brand-level claim, but the product-level and daypart-level patterns are supported by two independent dates.",
+  "overall_confidence": "medium"
+}

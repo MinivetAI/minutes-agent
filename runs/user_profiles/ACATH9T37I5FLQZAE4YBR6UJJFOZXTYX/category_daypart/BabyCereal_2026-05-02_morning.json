@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "One order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekend, a time when population activity is moderately high (32.46% share). The product serves as a complementary infant food, likely for immediate replenishment or introduction to solids.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned search or an impulse replenishment. A single order does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

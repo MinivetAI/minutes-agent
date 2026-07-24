@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 3 units of Sunfeast Mom's Magic Cashew & Almond Cookies (544 g) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical tea-time or snack consumption windows.",
+  "uncertainty_text": "Single observation limits inference to this specific instance; durable preferences or routine cannot be established.",
+  "overall_confidence": "low"
+}

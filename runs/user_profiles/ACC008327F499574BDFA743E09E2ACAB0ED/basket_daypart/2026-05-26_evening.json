@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-26 in the evening on a weekday. The basket contains three distinct items, all from the Ice Creams category (ICEHHHCZHKTF3HQJ, ICEHBDZ2YHKYNTNX, ICEHAHKTCPAKSZX8), with a quantity of 1 for each. The order-building behavior is narrow, focusing exclusively on ice cream products. The shopping_need_text is compatible with a desire for ice cream treats. No other categories were purchased in this order.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Ice Creams",
+        "Vegetables"
+      ],
+      "combination_text": "Ice Creams and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Desire for ice cream treats.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

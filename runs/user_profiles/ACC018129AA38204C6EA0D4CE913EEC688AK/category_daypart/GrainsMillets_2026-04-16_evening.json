@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 500 g pack of Varalakshmi Nylon Sago (sabudana) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity (1 order) aligns with the population baseline for this daypart (30.27% share), which is comparable to the morning share (32.46%) and higher than afternoon or night shares. Sago is a staple starch ingredient typically used for fasting foods, quick snacks, or specific recipes requiring a non-sticky texture.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference or routine for sago. It is unclear if this was a planned pantry restock, a specific recipe requirement, or a one-time need.",
+  "overall_confidence": "low"
+}

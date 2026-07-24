@@ -1,0 +1,54 @@
+{
+  "date": "2026-03-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-24 (weekday), two separate orders were placed across different dayparts. The morning order included one unit each of Milk, Vegetables, and Breads, covering three distinct categories. The afternoon order included one unit of Flour, two units of Curd Yogurt, and one unit of Salt, also spanning three distinct categories. These observations are compatible with meal preparation needs involving dairy, fresh produce, baked goods, and basic cooking ingredients. No durable preferences, routines, or stable patterns can be inferred from this single date. Confidence in any behavioral inference is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in the morning order.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in the morning order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in the morning order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Flour",
+        "Curd Yogurt",
+        "Salt"
+      ],
+      "combination_text": "Flour, Curd Yogurt, and Salt were purchased together in the afternoon order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a simple meal or snack involving dairy, fresh produce, and baked goods (morning); basic home cooking or baking preparation (afternoon).",
+  "uncertainty_text": "This analysis is based on a single observed date with two independent orders. No durable preferences, routines, or stable patterns can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low"
+}

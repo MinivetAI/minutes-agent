@@ -1,0 +1,23 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased aerated drinks on four independent dates (2026-04-08, 2026-04-14, 2026-04-17, 2026-04-29). Sprite was purchased on three of these dates (04-08, 04-14, 04-29), meeting the repetition bar for stable preference. Coca-Cola was purchased on one date (04-17), remaining a single-date observation. Purchases occurred on weekdays across morning, afternoon, and evening dayparts, aligning with population baselines for those times.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Sprite",
+      "claim_text": "The user has a stable preference for Sprite, evidenced by purchases on three independent dates in April 2026 (04-08, 04-14, 04-29).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Coca-Cola was purchased on a single date (2026-04-17) in the afternoon. This is an isolated observation and does not indicate a stable preference.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While Sprite shows a stable pattern across three dates, the user also purchased Coca-Cola once. The overall brand preference is not exclusive to Sprite, but Sprite is the only brand with sufficient repetition to claim stability. Single-date observations (Coca-Cola) are excluded from stable lists.",
+  "overall_confidence": "medium"
+}

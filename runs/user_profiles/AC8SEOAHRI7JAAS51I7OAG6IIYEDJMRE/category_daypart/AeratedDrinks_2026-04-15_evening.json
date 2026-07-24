@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Sprite PET Bottle 750 ml (lemon-lime carbonated soft drink) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening consumption patterns for ready-to-drink refreshment.",
+  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

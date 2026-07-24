@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-03 (weekday), the user purchased one order of a single-serve 44.9 g pack of Lay's India's Magic Masala Chips during the evening. This purchase aligns with the population baseline for evening activity (share 0.3027). The product is a ready-to-eat, spiced potato chip snack suited for immediate consumption or impulse cravings. This is a single observation on one date; it does not establish a stable preference for this brand, flavor, or snack category over time.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of a single-serve 44.9 g pack of Lay's India's Magic Masala Chips purchased during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, flavor, or snack category over time.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,18 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased Nestle Cerelac Wheat Apple Baby Food Cereal (350 g) on two independent dates (2026-02-11 and 2026-02-24). Both transactions occurred on weekdays in the afternoon. The recurrence of this specific product across two independent dates establishes a stable preference, supported by medium confidence. The afternoon timing is less frequent for this category compared to the population baseline (25.26% share vs. 32.46% for morning). No other products or brands were observed in this category during this month.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Nestle Cerelac Wheat Apple Baby Food Cereal (350 g)",
+      "claim_text": "The user has a stable preference for Nestle Cerelac Wheat Apple Baby Food Cereal (350 g), evidenced by purchases on two independent dates in February 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent purchase events in February 2026. While the repetition supports a stable preference for the specific product variant, the sample size is limited to a single month and two transactions.",
+  "overall_confidence": "medium"
+}

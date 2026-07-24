@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-02-21 in the evening on a weekend. The basket contains two items: one unit of Edible Oil and one unit of Vegetables. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Edible Oil",
+        "Vegetables"
+      ],
+      "combination_text": "Edible Oil and Vegetables were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of edible oil and vegetables is compatible with preparing a home-cooked meal.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or routine. Broader category pair evidence (e.g., Milk/Vegetables) exists in the dataset but does not match the specific products in this order.",
+  "overall_confidence": "low"
+}

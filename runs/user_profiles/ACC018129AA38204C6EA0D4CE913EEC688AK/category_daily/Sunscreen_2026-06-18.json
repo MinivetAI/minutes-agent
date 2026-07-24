@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-18",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-18 (weekday), the user purchased one 5 ml trial-size of WishCare Niacinamide Oil Balance Fluid Sunscreen SPF 50 PA++++ during the morning. This facial sunscreen is positioned for oily skin with oil-control features. The small format suggests immediate top-up needs or travel use. This is a single observation on one date; durable brand preference, skin-type confirmation, or routine usage patterns cannot yet be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 5 ml trial-size of WishCare Niacinamide Oil Balance Fluid Sunscreen SPF 50 PA++++, a facial sunscreen positioned for oily skin with oil-control and comfort features. Ordered during a weekday morning, a time anchored to a population baseline share of 0.3246 for this daypart. The product is a small-format, daily-use facial sun-protection item suitable for immediate top-up needs or travel.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; durable brand preference, skin-type confirmation, or routine usage patterns cannot yet be established.",
+  "overall_confidence": "low"
+}

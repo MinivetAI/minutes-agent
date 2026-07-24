@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Nandini Plain Curd 200 g during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time with 30.27% population share for this category, suggesting a timing compatible with dinner preparation or immediate consumption needs rather than morning routine stocking.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether Nandini is a preferred brand or if this represents a recurring habit versus an isolated need.",
+  "overall_confidence": "low"
+}

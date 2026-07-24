@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-02 (weekday), the user purchased 2 packs of Fortune 1 kg white refined sugar during the evening. This timing aligns with a population share of 0.3027, which is slightly below the morning baseline (0.3246) but higher than afternoon (0.2526) and night (0.1202). The product is a standard white sugar staple, typically used for daily household cooking, tea/coffee preparation, or baking. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening timing (e.g., immediate need vs. planned stocking) is unknown.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening timing (e.g., immediate need vs. planned stocking) is unknown.",
+  "overall_confidence": "low"
+}

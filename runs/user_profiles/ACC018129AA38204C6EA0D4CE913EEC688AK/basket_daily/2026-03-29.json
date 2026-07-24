@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-29",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-29 (weekend), a single order was placed in the morning. The basket contained one unit of Tea and two units of Vegetables. This combination is compatible with morning beverage preparation and fresh produce for cooking. No other dayparts were observed.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Tea",
+        "Vegetables"
+      ],
+      "combination_text": "Tea and Vegetables were purchased together in this single order.",
+      "support": 1.0,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of tea and vegetables is compatible with a need for morning beverage preparation and fresh produce for cooking.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

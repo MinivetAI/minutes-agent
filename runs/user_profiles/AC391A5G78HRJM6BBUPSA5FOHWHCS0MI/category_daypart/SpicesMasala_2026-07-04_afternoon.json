@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one order of four Spices Masala items: Everest Turmeric Powder 200 g, Everest Tikhalal Hot & Red Chilli Powder 100 g, Zoff Cumin Seeds 100 g, and Everest Coriander Powder 200 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The products are core Indian cooking staples (turmeric, chilli powder, cumin seeds, coriander powder) typically used for daily meal preparation, suggesting a restock or immediate cooking need.",
+  "uncertainty_text": "Only one independent date is observed; durable preferences or routine behavior cannot be established. No browsing or funnel data is available to assess consideration or hesitation.",
+  "overall_confidence": "low"
+}

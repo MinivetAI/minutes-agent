@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Local Cucumber (Unbranded) in the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh vegetable typically used for immediate consumption in salads or meal prep.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
+  "overall_confidence": "low"
+}

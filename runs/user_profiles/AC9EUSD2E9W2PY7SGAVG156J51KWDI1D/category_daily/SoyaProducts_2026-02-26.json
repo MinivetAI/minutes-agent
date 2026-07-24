@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-26 (weekday), the user purchased one unit of Fortune Mini Soya Chunks 200 g during the morning. This order occurred when the category represented 32.46% of population activity. The product is a packaged soy-based staple used as a vegetarian protein ingredient for everyday cooking. This is a single observed transaction; durable brand preference or routine usage cannot be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one unit of Fortune Mini Soya Chunks 200 g. The product is a packaged soy-based staple used as a vegetarian protein ingredient for everyday cooking.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; durable brand preference or routine usage cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of Vim Floor Cleaner Ultra Pro Lemon 1 L, a ready-to-use liquid floor cleaner with lemon fragrance, during the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time when this user's activity is below the population baseline (25.26% share). The product serves a general household hygiene utility for regular mopping and spot cleaning.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference, routine, or durable brand loyalty. The specific trigger for this purchase (e.g., running out of stock, immediate spill, or planned cleaning) is unknown.",
+  "overall_confidence": "low"
+}

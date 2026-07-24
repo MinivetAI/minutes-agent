@@ -1,0 +1,42 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend morning included 3 units of Lassi, 3 units of Curd Yogurt, and 1 unit of Breads. The basket reflects a breakfast or light meal need compatible with dairy and bread products. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order. In the broader population evidence, this pair has a support of 0.129, confidence of 0.346, and lift of 0.969, based on 9 co-orders.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Lassi"
+      ],
+      "combination_text": "Curd Yogurt and Lassi were purchased together in this order. No specific category pair evidence was supplied for this combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Lassi"
+      ],
+      "combination_text": "Breads and Lassi were purchased together in this order. No specific category pair evidence was supplied for this combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for breakfast items or light dairy-based meals.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring behaviors cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

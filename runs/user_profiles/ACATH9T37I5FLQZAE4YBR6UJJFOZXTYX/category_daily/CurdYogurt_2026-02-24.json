@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-24 (weekday), the user purchased one 200 ml pack of Amul Masti Dahi Plain Curd in the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than morning (0.3246) and evening (0.3027). The small pack size suggests immediate consumption or topping up a household shortfall for everyday meals. This is a single observation; stable brand or product preferences cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 200 ml pack of Amul Masti Dahi Plain Curd. The small pack suggests immediate consumption or topping up a household shortfall for everyday meals.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences.",
+  "overall_confidence": "low"
+}

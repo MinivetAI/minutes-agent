@@ -1,0 +1,40 @@
+{
+  "category": "Curd Yogurt",
+  "profile_text": "Based on a single observed order on 2026-02-22, the user purchased 1 unit of Amul Masti Plain Curd 390 ml during the evening. This is an isolated transaction; no durable brand, product, or routine preferences can be established. It is unclear if this was a one-time need or part of a recurring habit.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Amul was observed in a single order on 2026-02-22. As this is only one independent date, it does not yet establish a durable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Amul Masti Plain Curd 390 ml was observed in a single order on 2026-02-22. As this is only one independent date, it does not yet establish a durable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-22",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion for this specific instance.",
+  "substitution_text": "No substitution behavior observed due to single purchase.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports immediate consumption needs for plain curd/yogurt.",
+  "overall_confidence": "low"
+}

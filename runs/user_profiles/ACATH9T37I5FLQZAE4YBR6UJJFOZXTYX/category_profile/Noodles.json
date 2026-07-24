@@ -1,0 +1,34 @@
+{
+  "category": "Noodles",
+  "profile_text": "The user has purchased Maggi brand noodles across five independent dates in 2026, indicating a stable, albeit slow, recurring preference for this specific brand. Purchases have occurred on both weekdays and weekends, across morning, evening, and night dayparts, suggesting the timing is driven by immediate convenience needs rather than a fixed schedule. The user buys both single sachets and multi-packs (12-pack and 420g), indicating flexible pack-size selection based on immediate need. There is no evidence of search or cart activity without purchase, so this is not a discovery candidate.",
+  "brand_preferences": [
+    {
+      "brand": "Maggi",
+      "preference_text": "Maggi is the only brand observed in this category, appearing on 5 independent dates (Jan, Mar, Apr, May, Jun 2026). This repetition across multiple months establishes a high-confidence stable preference for this brand within the Noodles category.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 41.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-06-28",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "The user purchases Noodles approximately every 41 days, classified as a slow cadence. The last purchase was on 2026-06-28, with the next predicted purchase around 2026-08-08 based on this average interval.",
+    "confidence": "high",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as all observed search/view/cart behaviors (if any existed) are not present; all observed interactions are completed purchases.",
+  "substitution_text": "No evidence of substitution behavior. The user consistently purchases Maggi brand noodles.",
+  "price_value_text": "No explicit price or value behavior observed. Purchases include both single sachets and bulk packs, suggesting flexibility in pack-size selection rather than a strict price-driven strategy.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. The user has consistently purchased Maggi brand noodles.",
+  "mission_generation_text": "Supports needs for quick, high-urgency meals or snacks when time is limited, often purchased as a convenience item for immediate consumption or short-term stocking.",
+  "overall_confidence": "high"
+}

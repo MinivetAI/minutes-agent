@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-20",
+  "day_type": "weekday",
+  "summary_text": "A single order was placed on 2026-02-20 in the afternoon on a weekday. The basket contains 8 items across three categories: Vegetables (6 units), Milk (1 unit), and Curd Yogurt (2 units). The order-building behavior shows a concentration on fresh dairy and produce, with a high proportion of vegetable items relative to other categories. The shopping need text describes a need for fresh dairy and vegetable ingredients, compatible with the observed basket but not claiming hidden intent. A single order is not a durable behavior pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking fresh dairy and vegetable ingredients for meal preparation.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not stable or recurring.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-05-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-13 (weekday), the user purchased 1 unit of Amul Cow Milk 500 ml in the evening. This is a fresh, short-shelf-life dairy staple typically used for immediate consumption or preparation. The evening timing aligns with population share (0.3027), which is comparable to morning (0.3246).",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "Confidence is low because this is a single observed order on one date; durable preferences or routine behavior cannot be established.",
+  "overall_confidence": "low"
+}

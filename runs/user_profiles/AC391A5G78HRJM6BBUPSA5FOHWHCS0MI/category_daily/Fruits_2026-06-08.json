@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-08 (weekday), the user purchased 2 units of Tender Coconut (fresh whole fruit) in the morning. This order occurred during a period with a population share of 0.3246. The product is a fresh, perishable hydration fruit typically used for immediate refreshment or snacking. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Tender Coconut (fresh whole fruit) in the morning. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "overall_confidence": "low"
+}

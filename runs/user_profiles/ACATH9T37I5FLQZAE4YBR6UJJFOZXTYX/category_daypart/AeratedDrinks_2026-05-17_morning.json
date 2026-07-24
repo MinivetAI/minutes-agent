@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 250 ml Appy Fizz PET bottle, a single-serve sparkling fruit-flavoured carbonated beverage.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred on a weekend morning, a time when morning activity is above the population baseline (32.46%). The product serves as an immediate, single-serve refreshment or treat.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established.",
+  "overall_confidence": "low"
+}

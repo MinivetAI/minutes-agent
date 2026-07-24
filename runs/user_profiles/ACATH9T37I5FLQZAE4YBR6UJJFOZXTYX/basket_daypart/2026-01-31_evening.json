@@ -1,0 +1,42 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-01-31 in the evening on a weekend. The basket contains 11 items across four categories: Vegetables (7 units), Aerated Drinks (2 units), Curd Yogurt (1 unit), and Diaper (1 unit). The order-building behavior shows a strong concentration on fresh produce, supplemented by a dairy item and a beverage. A single diaper was also included. No carts were abandoned. This single observation does not establish a durable preference pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for fresh produce and basic household staples, including a dairy product and a beverage, compatible with a single evening shopping trip.",
+  "uncertainty_text": "This is a single observed order on one date. It does not indicate a stable or recurring preference. Confidence in any inferred behavior pattern is low.",
+  "overall_confidence": "low"
+}

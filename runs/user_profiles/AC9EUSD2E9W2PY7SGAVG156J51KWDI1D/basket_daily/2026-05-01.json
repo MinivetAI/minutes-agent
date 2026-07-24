@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-01, a single order was placed in the morning. The basket contained six items across five categories: Curd Yogurt, Vegetables (2 distinct products), Incense Stick, Breads, and Cheese. The combination of Breads, Vegetables, and Curd Yogurt aligns with a compatible need for a simple meal or snack preparation. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.06,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a simple meal or snack involving dairy, bread, and vegetables.",
+  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

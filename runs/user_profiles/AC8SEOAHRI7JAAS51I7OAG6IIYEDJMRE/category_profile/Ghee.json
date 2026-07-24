@@ -1,0 +1,40 @@
+{
+  "category": "Ghee",
+  "profile_text": "In March 2026, the user purchased one 1 L pack of Aashirvaad Svasti Pure Cow Ghee on 2026-03-20 (weekday) in the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) peaks. The product serves as a kitchen staple for cooking, tadka, or sweets. This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time replenishment or part of a recurring habit.",
+  "brand_preferences": [
+    {
+      "brand": "Aashirvaad",
+      "preference_text": "Aashirvaad was observed in one purchase on 2026-03-20. This single observation does not establish a stable preference or routine.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Aashirvaad Svasti Pure Cow Ghee (1 L pack) was purchased on 2026-03-20. This single observation does not establish a stable preference or routine.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-20",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-03-20. Cadence is unknown based on a single observed order; it is unclear if this is a one-time replenishment or part of a recurring habit.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction on 2026-03-20.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Kitchen staple for cooking, tadka, or sweets.",
+  "overall_confidence": "low"
+}

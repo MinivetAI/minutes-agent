@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-08",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-08 (weekend), a single order was placed in the afternoon. The basket contained one unit of Canned Food and one unit of Fruits. This combination is compatible with a need for pantry staples and fresh produce. No stable preferences or recurring patterns can be inferred from this single observation.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Canned Food",
+        "Fruits"
+      ],
+      "combination_text": "Canned Food and Fruits were purchased together in this single observed order.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket of Canned Food and Fruits is compatible with a need for pantry staples and fresh produce.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. Therefore, `overall_confidence` is `low`.",
+  "overall_confidence": "low"
+}

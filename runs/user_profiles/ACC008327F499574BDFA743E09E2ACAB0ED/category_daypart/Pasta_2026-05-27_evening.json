@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 400 g pack of Flipkart Supermart Fusilli pasta and one 400 g pack of Flipkart Supermart Penne pasta during an evening weekday session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity (1 order) aligns with the population baseline for this daypart (30.27% share). The products are standard dry pasta shapes (fusilli and penne) from the Flipkart Supermart brand, typically used as quick-cook meal bases for dinners or lunches.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference for Flipkart Supermart or a specific shape preference for fusilli or penne over other pasta types. It is unclear if this represents a routine pantry restock or a one-off meal preparation.",
+  "overall_confidence": "low"
+}

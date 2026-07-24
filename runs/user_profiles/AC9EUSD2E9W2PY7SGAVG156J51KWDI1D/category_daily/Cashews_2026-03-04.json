@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-04 (weekday), the user purchased 1 unit of Classic Whole Cashews (200 g) in the morning. This order occurred during a time when this user's activity is 32.46% of their total population baseline. The product is a plain, whole cashew nut pack, typically used as a pantry staple for snacking, cooking, or recipe use. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., immediate need, recipe, stocking up) is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Classic Whole Cashews (200 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., immediate need, recipe, stocking up) is unknown.",
+  "overall_confidence": "low"
+}

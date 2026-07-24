@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-15 (weekday), the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) in the morning. This timing aligns with a period where the category represents 32.46% of population activity. This is a single observed transaction; no durable brand or product preference can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One unit of SAMHHWDWYZ2DTSST (Indian Sweets) was purchased. This occurred during a time when the category represents 32.46% of population activity.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no durable brand or product preference can be established from this isolated event.",
+  "overall_confidence": "low"
+}

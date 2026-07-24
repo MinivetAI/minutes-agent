@@ -1,0 +1,25 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user placed 17 distinct orders across 15 independent dates, with two dates (2026-03-21 and 2026-03-24) containing multiple orders. The shopping behavior is characterized by narrow, single-purpose baskets (e.g., Eggs/Breads, Dairy staples, Snacks) and occasional multi-category meal-prep baskets. No durable preferences, recurring habits, or stable behavioral patterns can be inferred from this single month of data, as every observed pattern is isolated to a single date or transaction. The overall confidence in any inferred user behavior is low.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user demonstrated varied basket breadth, ranging from narrow 2-item baskets (e.g., Eggs/Breads on 2026-03-02 and 2026-03-29) to broader 5-item baskets (e.g., 2026-03-14 and 2026-03-31).",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Dairy products (Curd Yogurt, Milk, Buttermilk) were purchased on multiple independent dates (2026-03-03, 2026-03-14, 2026-03-24, 2026-03-25, 2026-03-28), but specific combinations (e.g., Yogurt/Buttermilk vs. Yogurt/Canned Food) did not repeat across dates.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Breads were purchased on 6 independent dates (2026-03-02, 2026-03-14, 2026-03-16, 2026-03-24, 2026-03-27, 2026-03-29, 2026-03-31), but always paired with different categories (Eggs, Milk, Vegetables, Dips, Cheese, etc.), preventing the identification of a stable pairing preference.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The user has a need for basic meal components (dairy, breads, vegetables, eggs), pantry staples (canned food, sugar, tea), and occasional snack items (chips, savouries, chocolates). Specific needs vary by date, including breakfast preparation, light refreshments, and general household maintenance.",
+  "uncertainty_text": "This analysis is based on 17 orders across 15 independent dates. No durable preferences, recurring habits, or stable behavioral patterns can be inferred. Every observed category combination, daypart behavior, and shopping need is isolated to a single date or transaction. Claims of stability require evidence from at least two independent dates. The overall confidence is low because the evidence represents only one month of isolated observations.",
+  "overall_confidence": "low"
+}

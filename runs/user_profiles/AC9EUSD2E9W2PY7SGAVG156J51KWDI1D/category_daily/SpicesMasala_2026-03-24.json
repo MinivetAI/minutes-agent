@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-24 (weekday), the user purchased 1 unit of EVEREST Chicken Masala 100 g in the morning. This purchase aligns with the category's 32.46% population share during morning hours on weekdays. The product is a spice blend for chicken curries, suggesting a meal preparation context. This is a single observed order; it does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of EVEREST Chicken Masala 100 g. This timing aligns with the category's 32.46% population share on weekdays.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

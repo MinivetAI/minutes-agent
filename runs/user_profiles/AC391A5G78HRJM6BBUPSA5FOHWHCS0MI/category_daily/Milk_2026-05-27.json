@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-27 (weekday), one order of Amul Taaza Pasteurised Toned Milk (500 ml) was placed in the evening. This timing aligns with a population share of 0.3027, indicating it is a common period for this activity. The product is a small-format liquid milk intended for immediate kitchen use, such as tea, coffee, or breakfast. This is a single observation on one date; it does not establish a stable preference or routine. It is unclear if this represents a one-time need or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml) placed in the evening. This timing aligns with a population share of 0.3027, indicating it is a common period for this activity. The product is a small-format liquid milk intended for immediate kitchen use, such as tea, coffee, or breakfast.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine. It is unclear if this represents a one-time need or part of a recurring habit.",
+  "overall_confidence": "low"
+}

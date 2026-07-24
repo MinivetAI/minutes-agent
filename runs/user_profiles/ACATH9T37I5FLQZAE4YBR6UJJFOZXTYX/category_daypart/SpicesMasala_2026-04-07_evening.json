@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Vandevi Compounded Asafoetida 50 g placed in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with 30.27% population share, suggesting timing consistent with general evening activity levels. The product is a culinary spice used for flavoring, indicating a likely immediate meal-prep need.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

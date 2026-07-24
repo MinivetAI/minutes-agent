@@ -1,0 +1,85 @@
+{
+  "category": "Vegetables",
+  "profile_text": "The user maintains a high-frequency, fast cadence for purchasing fresh, unbranded vegetables, driven by recurring needs for perishable meal ingredients. Stable preferences are established for staple cooking bases (onions, tomatoes, cucumbers) and specific aromatics/produce (cauliflower, bottle gourd, bitter gourd, pumpkin, ginger, potatoes), with onions and tomatoes showing the strongest repetition across multiple months. The user also demonstrates a stable preference for the ready-to-eat snack 'Chilli Bajji (250 g)'. Shopping timing has evolved from consistent afternoon purchases in early months to a mix of morning and evening slots, with recent July purchases occurring in the evening. All vegetable purchases are unbranded, indicating a preference for generic fresh produce over specific brands.",
+  "brand_preferences": [
+    {
+      "brand": "Unbranded",
+      "preference_text": "The user consistently purchases unbranded fresh produce, evidenced by purchases across multiple independent dates in January, April, and July 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for onions, evidenced by purchases on 2026-04-10, 2026-04-16, 2026-04-23, 2026-07-04, and 2026-07-09.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for tomatoes, evidenced by purchases on 2026-02-10, 2026-02-14, 2026-04-10, 2026-04-16, and 2026-04-23.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for cucumber (including Local and Long varieties), evidenced by purchases on 2026-04-10, 2026-04-16, and 2026-04-23.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for cauliflower, evidenced by purchases on 2026-02-10, 2026-02-14, and 2026-03-17.",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "The user has a stable preference for bottle gourd, evidenced by purchases on 2026-04-10, 2026-04-23, and 2026-05-28 (single date, but repeated in April/July context implies stability, though strictly April/July shows 2 dates: 04-10, 04-23, 07-09 is single. Wait, 04-10 and 04-23 are two dates. 07-09 is third. So 3 dates total across months? No, 04-10, 04-23, 07-09. That is 3 independent dates. Confidence should be high? The summary says 04-10 and 04-23 are medium. 07-09 is single. Let's stick to the summary's explicit claims or aggregate. Summary for April says Bottle Gourd is medium (2 dates). Summary for July says Bottle Gourd is single. Total 3 dates. I will list it as medium to be conservative with the explicit 'medium' from April, or high if I aggregate. The prompt says 'Judge each value's confidence only by its own independent-date count'. 3 dates = high. However, the summary text for April explicitly calls it medium. I will follow the evidence count. 3 dates. High confidence.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for potatoes, evidenced by purchases on 2026-04-16, 2026-04-23, and 2026-05-28 (single date). Total 3 dates? 04-16, 04-23, 05-28. Yes. High confidence.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for ginger, evidenced by purchases on 2026-03-17, 2026-04-16, and 2026-04-23.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "The user has a stable preference for bitter gourd, evidenced by purchases on 2026-04-16 and 2026-04-23.",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "The user has a stable preference for pumpkin, evidenced by purchases on 2026-04-16 and 2026-04-23.",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "The user has a stable preference for Chilli Bajji (250 g), evidenced by purchases on 2026-05-05 and 2026-05-08.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 6.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": "2026-07-15",
+    "replenishment_text": "The user purchases vegetables approximately every 6 days, classified as a fast cadence. The last purchase was on 2026-07-09, with the next predicted around 2026-07-15.",
+    "confidence": "high",
+    "evidence_count": 17,
+    "independent_date_count": 17
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, with consistent transaction history across multiple months and no observed cart-abandonment or search-only patterns for the core vegetable items.",
+  "substitution_text": null,
+  "price_value_text": "The user exclusively purchases unbranded fresh produce, suggesting a preference for value-oriented or generic fresh items rather than premium branded variants.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "Specific daypart preferences have shifted from consistent afternoon shopping in January-February to a mix of morning and evening in April, with recent July purchases occurring in the evening. Single-observation items (e.g., lemons, peas, bell peppers, lady's finger) do not indicate stable preference.",
+  "mission_generation_text": "Recurring need for fresh, perishable ingredients for daily meal preparation, including base vegetables (onions, tomatoes, potatoes), aromatics (ginger, coriander), and specific seasonal produce (bottle gourd, bitter gourd, pumpkin). Occasional interest in ready-to-eat snacks (Chilli Bajji).",
+  "overall_confidence": "high"
+}

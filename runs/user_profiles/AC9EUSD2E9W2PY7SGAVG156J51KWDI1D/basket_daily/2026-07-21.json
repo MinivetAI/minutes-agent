@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-21",
+  "day_type": "weekday",
+  "summary_text": "A single order placed on 2026-07-21 in the morning on a weekday. The basket contains 10 items across 7 categories: Vegetables (2 units), Milk (2 units), Indian Sweets (1 unit), Pooja Flowers (2 units), Incense Stick (1 unit), Breads (1 unit), and Fruits (1 unit). The purchase combines daily staples (vegetables, milk, breads, fruits) with items associated with religious or ceremonial practice (Pooja Flowers, Incense Stick, Indian Sweets).",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for daily meal preparation and potential religious observance or home ritual setup.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. The presence of Pooja Flowers and Incense Sticks may indicate a specific occasion, but this cannot be confirmed from a single transaction.",
+  "overall_confidence": "low"
+}

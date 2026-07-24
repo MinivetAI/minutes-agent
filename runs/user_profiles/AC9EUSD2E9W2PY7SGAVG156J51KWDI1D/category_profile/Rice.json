@@ -1,0 +1,26 @@
+{
+  "category": "Rice",
+  "profile_text": "The user has purchased rice on two independent dates in May 2026, selecting two different brands (Devaaya and Daawat) and two different pack sizes (1 kg and 5 kg). No single brand or product variant has recurred, so stable brand or product preferences are not established. The user’s ordering activity is split between a premium, specific-use rice (Devaaya Biryani Basmati Rice) and a standard household staple (Daawat Rozana Gold Basmati Rice). The user’s morning activity aligns with an above-baseline population share (32.5%).",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-29",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established; last purchase was on 2026-05-29.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase; the user has completed purchases on two independent dates.",
+  "substitution_text": "No stable substitution pattern established; the user has selected different brands and pack sizes on separate dates.",
+  "price_value_text": "The user has purchased both a premium product (Devaaya) and a standard staple (Daawat), indicating varied price sensitivity or use-case requirements rather than a single price-tier preference.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected; the user has completed purchases.",
+  "mission_generation_text": "Supports needs for specific-use cooking (e.g., biryani) and general household staple replenishment.",
+  "overall_confidence": "low"
+}

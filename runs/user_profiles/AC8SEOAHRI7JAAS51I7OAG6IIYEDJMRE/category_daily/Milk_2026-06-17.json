@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-17 (weekday), the user purchased seven ready-to-drink items in the Milk category during the evening. The order included six single-serve flavored milkshakes (180 ml) from HERSHEY'S (Cookies N Creme, Vanilla, Chocolate, Strawberry, Almond) and one Cavin's Kaju Butterscotch Milkshake, alongside one 410 ml pack of Parag Super Regular pasteurized milk. The purchase occurred in the evening on a weekday, a time when population share (0.3027) is comparable to the morning share (0.3246). The basket is dominated by immediate-consumption, indulgent dairy drinks (milkshakes) and a small-format everyday milk, suggesting a mix of impulse craving and routine replenishment. This is a single observed order; durable brand or flavor preferences cannot be established. It is unclear whether the mix of flavored shakes and plain milk reflects a household with varied needs or a single indulgent occasion.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased seven ready-to-drink items in the Milk category during the evening on a weekday. The order included six single-serve flavored milkshakes (180 ml) from HERSHEY'S (Cookies N Creme, Vanilla, Chocolate, Strawberry, Almond) and one Cavin's Kaju Butterscotch Milkshake, alongside one 410 ml pack of Parag Super Regular pasteurized milk.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established. It is unclear whether the mix of flavored shakes and plain milk reflects a household with varied needs or a single indulgent occasion.",
+  "overall_confidence": "low"
+}

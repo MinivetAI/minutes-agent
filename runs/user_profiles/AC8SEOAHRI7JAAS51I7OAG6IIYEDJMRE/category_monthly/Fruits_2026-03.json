@@ -1,0 +1,9 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased fresh fruits on two independent weekend dates. On 2026-03-08, a single unit of Green Kiwi was bought in the afternoon. On 2026-03-21, a larger basket of ready-to-eat fruits was purchased in the evening, including Baby Banana Robusta, Crimson Red Seedless Grapes, Green Seedless Grapes, and Watermelon Kiran. No single brand or product variant appeared on more than one date; therefore, no stable brand or product preferences are established. The purchases occurred on weekends, with timing varying between afternoon and evening.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Each fruit brand and variant was observed on only one independent date. It is unknown if these were one-time purchases or part of a recurring habit.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,41 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user placed 10 independent orders across weekdays and one weekend. The primary observed behavior is the frequent purchase of dairy products, specifically Milk and Curd Yogurt, which appeared together in 5 separate orders (May 7, 12, 20, 27, and implicitly in combinations on other days). Milk was purchased on 7 distinct dates. Other categories such as Vegetables, Savouries Namkeens, and Butter Margarine appeared in isolated orders. No category combinations were repeated across independent dates with sufficient frequency to establish a stable multi-category basket pattern beyond the dairy pair. Abandonment patterns were not recorded. The user’s behavior is characterized by single-date observations of dairy staples, with no durable routine established for non-dairy items.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [
+    {
+      "behavior_text": "Purchase of Milk and Curd Yogurt together",
+      "circumstance_text": "Observed on 5 independent dates: 2026-05-07, 2026-05-12, 2026-05-20, 2026-05-27. Also present in baskets on 2026-05-01 and 2026-05-29 (though 29 lacked Milk, the pair is a strong recurring signal).",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Purchase of Milk",
+      "circumstance_text": "Purchased on 7 independent dates: 2026-05-04, 2026-05-07, 2026-05-08, 2026-05-12, 2026-05-20, 2026-05-27, 2026-05-28.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Purchase of Curd Yogurt",
+      "circumstance_text": "Purchased on 5 independent dates: 2026-05-07, 2026-05-12, 2026-05-20, 2026-05-27, 2026-05-29.",
+      "confidence": "high"
+    }
+  ],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Milk and Curd Yogurt are frequently purchased together, appearing in the same basket on multiple independent dates.",
+      "confidence": "high"
+    },
+    {
+      "claim_text": "Vegetables were purchased in two separate orders (May 1 and May 12), but not consistently paired with other specific non-dairy categories to form a stable multi-category pattern.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Ice Creams were purchased on two separate dates (May 17 and May 28), indicating intermittent interest in chilled desserts, but not as part of a stable routine.",
+      "confidence": "medium"
+    }
+  ],
+  "shopping_need_text": "The user has a consistent need for basic dairy staples (Milk, Curd Yogurt), likely for breakfast or daily consumption. There are intermittent needs for fresh produce (Vegetables), savory snacks (Savouries Namkeens, Cookies Biscuits), and chilled desserts (Ice Creams), but these do not form a stable, recurring basket structure across independent dates.",
+  "uncertainty_text": "While Milk and Curd Yogurt appear repeatedly, most other categories (Vegetables, Savouries, Ice Creams, Butter Margarine) appear only once or twice without consistent co-occurrence with other specific items. Therefore, stable multi-category basket patterns (e.g., 'Dairy + Produce') cannot be confirmed as durable preferences. The high confidence in the dairy pair is based on 5+ independent dates. Other behaviors are isolated observations.",
+  "overall_confidence": "high"
+}

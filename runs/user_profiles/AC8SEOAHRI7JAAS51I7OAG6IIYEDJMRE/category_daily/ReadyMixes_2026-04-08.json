@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-08 (weekday), the user purchased one 500 g pack of Vaidyam Ragi Idly Dosa Batter, a millet-based ready-to-cook batter for South Indian breakfasts. This order occurred during the morning, a time when the user's activity is 32.46% more likely than average compared to the population baseline. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 500 g pack of Vaidyam Ragi Idly Dosa Batter, a millet-based ready-to-cook batter for South Indian breakfasts. This order occurred during the morning, a time when the user's activity is 32.46% more likely than average compared to the population baseline.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

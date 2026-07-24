@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-28",
+  "day_type": "weekend",
+  "summary_text": "On the weekend of 2026-06-28, the user purchased 2 units of Chitale Cow Milk 500 ml (full cream cow milk) during the morning. This purchase aligns with the morning daypart, which accounts for 32.46% of the user's total weekly volume. The product is a small-pack dairy item typically used for immediate household needs such as tea, coffee, or breakfast. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Chitale Cow Milk 500 ml (full cream cow milk).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

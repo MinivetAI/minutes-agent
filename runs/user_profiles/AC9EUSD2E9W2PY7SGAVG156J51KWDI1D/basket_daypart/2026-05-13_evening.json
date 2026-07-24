@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-13 in the evening on a weekday contained one unit of Sunflower Oil and one unit of Milk. The basket breadth is narrow, comprising two distinct categories. The `shopping_need_text` describes a basic food replenishment need compatible with these items. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Sunflower Oil"
+      ],
+      "combination_text": "Milk and Sunflower Oil were purchased together in this single observed order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic food replenishment.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences cannot be inferred from this single data point. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not confirm that this specific user has a durable preference for those specific category pairs beyond this single instance.",
+  "overall_confidence": "low"
+}

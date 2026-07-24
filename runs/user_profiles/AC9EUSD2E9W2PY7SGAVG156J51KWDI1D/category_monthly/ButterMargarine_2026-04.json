@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Amul butter on two independent dates (2026-04-18 and 2026-04-25). Both orders occurred on weekends in the afternoon. The user bought a 100 g salted butter block on the first date and a 200 g salted butter block on the second. While the brand (Amul) and product type (salted butter) are consistent, the pack sizes differ (100 g vs 200 g). The timing (weekend afternoons) is consistent across both dates, though this timing is less common than the population baseline for this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user purchased Amul butter on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Salted Butter",
+      "claim_text": "The user purchased salted butter on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user purchased two different pack sizes (100 g and 200 g) of the same brand and type. It is unclear if the user has a specific pack size preference or if they are adjusting quantity based on need. The consistent weekend afternoon timing is noted, but the sample size is small.",
+  "overall_confidence": "medium"
+}

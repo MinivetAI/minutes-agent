@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-27 (weekday), the user purchased one order of fresh vegetables during the morning. The order included Cluster Beans, Onion, Coriander Leaves, Baby Potato, and Local Tomato. This timing aligns with a population share of 0.3246 for morning purchases. The items are fresh produce staples typically used for immediate meal preparation. This is a single observed order; durable preferences or routine buying patterns cannot be established from this data alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one order of fresh vegetables including Cluster Beans, Onion, Coriander Leaves, Baby Potato, and Local Tomato. Ordered during the morning on a weekday, a time when population share is 0.3246. The items are fresh produce staples typically used for immediate meal preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this data alone.",
+  "overall_confidence": "low"
+}

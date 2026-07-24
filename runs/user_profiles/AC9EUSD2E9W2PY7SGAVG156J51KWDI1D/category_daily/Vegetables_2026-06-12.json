@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-12",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-12 (weekday), the user purchased 2 units of Local Cucumber (Unbranded) in the morning. This purchase occurred during a morning period where the user's activity is above the population baseline (32.46%). The product is a fresh vegetable typically used for immediate consumption in salads or meal prep. This is a single observed order; it does not establish a stable preference or routine for this category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Local Cucumber (Unbranded). Activity is above the population baseline (32.46%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
+  "overall_confidence": "low"
+}

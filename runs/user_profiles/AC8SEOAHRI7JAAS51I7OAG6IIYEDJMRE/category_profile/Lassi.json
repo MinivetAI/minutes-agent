@@ -1,0 +1,40 @@
+{
+  "category": "Lassi",
+  "profile_text": "The user has purchased Amul Sweet Lassi 250 ml on two independent dates (2026-06-27 and 2026-07-05), both during morning sessions on weekends. This indicates a specific interest in this brand and format, though the cadence is unknown. The user buys this ready-to-drink chilled dairy beverage for immediate consumption or refreshment.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Amul is the only brand observed in this category, purchased on two independent dates (2026-06-27 and 2026-07-05).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Amul Sweet Lassi 250 ml was purchased on two independent dates (2026-06-27 and 2026-07-05).",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-05",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-07-05. Cadence is unknown, so no predicted next purchase date can be established.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on two independent dates.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "The user purchases Lassi for immediate consumption or a quick refreshment break, typically during morning sessions on weekends.",
+  "overall_confidence": "low"
+}

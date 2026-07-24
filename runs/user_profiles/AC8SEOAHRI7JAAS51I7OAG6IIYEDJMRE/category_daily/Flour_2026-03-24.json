@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-24",
+  "day_type": "weekday",
+  "summary_text": "One unit of flour was purchased in the afternoon. This purchase occurred during a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). No browsing or search activity was recorded to indicate discovery or comparison. A single order does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One unit of flour was purchased in the afternoon.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or search activity was recorded to indicate discovery or comparison. A single order does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

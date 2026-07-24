@@ -1,0 +1,9 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased one 600 g pack of unbranded Muskmelon on a single weekday (2026-07-06) during the morning. This order occurred in a daypart representing 32.46% of the user's total activity (population baseline). The product is a fresh, ready-to-eat fruit, compatible with immediate consumption such as a breakfast add-on or snack. The specific reason for this purchase is unknown.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established. The specific reason for this purchase (e.g., immediate hunger, stockout, recipe ingredient) is unknown.",
+  "overall_confidence": "low"
+}

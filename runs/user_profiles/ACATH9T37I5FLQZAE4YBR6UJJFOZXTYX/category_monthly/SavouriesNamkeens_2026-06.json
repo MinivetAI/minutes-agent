@@ -1,0 +1,9 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user placed two independent orders in the Savouries Namkeens category. One order was for Haldiram's Moong Dal 200 g on a weekday morning, and the other was for Bikaji Chowpati Bhelpuri 110 g on a weekend afternoon. Each product appeared on only one date, so no stable brand or product preferences can be established from this month's evidence. The user's ordering times (weekday morning and weekend afternoon) do not form a consistent daypart pattern across multiple dates.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This month contains only two independent orders, each for a different product. No brand, product, or variant recurred on 2 or more dates, so no stable preferences or routines can be inferred. The observed dayparts (morning, afternoon) and day types (weekday, weekend) are isolated events and do not indicate a consistent pattern.",
+  "overall_confidence": "low"
+}

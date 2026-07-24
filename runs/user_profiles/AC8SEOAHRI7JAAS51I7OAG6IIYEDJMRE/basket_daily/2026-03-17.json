@@ -1,0 +1,12 @@
+{
+  "date": "2026-03-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-17, a weekday, a single order was placed in the afternoon. The basket contained two distinct items: one unit of Bathroom Floor Cleaner and one unit of Sugar. The basket breadth is narrow, comprising two unrelated categories (cleaning supplies and a food ingredient). No durable preference pattern can be inferred from this single observation. The purchase of bathroom floor cleaner suggests a need for cleaning or maintaining bathroom hygiene. The purchase of sugar suggests a need for food preparation or sweetening. These needs are compatible with the observed basket but do not imply a broader household routine. This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be established from this isolated event. Confidence in any inferred user behavior is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of bathroom floor cleaner suggests a need for cleaning or maintaining bathroom hygiene. The purchase of sugar suggests a need for food preparation or sweetening. These needs are compatible with the observed basket but do not imply a broader household routine.",
+  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be established from this isolated event. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

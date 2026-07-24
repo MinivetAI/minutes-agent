@@ -1,0 +1,32 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "On 2026-01-24 (morning, weekend), a single order was placed containing 2 units of Milk, 2 units of Curd Yogurt, and 1 unit of Vegetables. The basket exhibits narrow breadth, covering three categories: Dairy (Milk, Curd Yogurt) and Produce (Vegetables). The combination of Curd Yogurt and Vegetables is supported by co-order evidence (Support: 0.114, Lift: 1.4), indicating these items are frequently purchased together in the population. The combination of Milk and Curd Yogurt also appears in the evidence (Support: 0.086, Lift: 0.988). No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order. Population evidence shows a Support of 0.114, Confidence of 0.32, and Lift of 1.4 for this pair.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Milk and Curd Yogurt were purchased together in this order. Population evidence shows a Support of 0.086, Confidence of 0.24, and Lift of 0.988 for this pair.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The order suggests a need for basic dairy staples and fresh produce, potentially for meal preparation or daily consumption.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring behaviors cannot be inferred from this single data point. The category pair evidence reflects population-level co-occurrence statistics, not necessarily the specific intent of this user beyond the items purchased.",
+  "overall_confidence": "low"
+}

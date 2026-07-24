@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend morning contained one unit each of Spices Masala and Fruits. This represents a narrow basket with two distinct categories. The combination of Spices Masala and Fruits is not supported by the provided category pair evidence, which focuses on dairy, bread, and vegetable co-occurrences. The order suggests a need for basic cooking ingredients and fresh produce, but no specific meal intent can be inferred from this single transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Spices Masala",
+        "Fruits"
+      ],
+      "combination_text": "Spices Masala and Fruits were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for basic pantry staples and fresh fruit, compatible with a simple meal preparation or snack.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be established. The category pair evidence provided does not include the specific categories purchased in this order (Spices Masala, Fruits), so no lift or support metrics are available for this specific combination.",
+  "overall_confidence": "low"
+}

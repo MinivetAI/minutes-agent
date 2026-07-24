@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased milk on three independent dates. Amul Taaza Pasteurised Toned Milk (500 ml) was ordered on two dates (2026-04-08 and 2026-04-09), establishing a stable preference for this specific brand and variant. Mother Dairy products (Toned Milk and Cow Milk, 500 ml each) were purchased together on a single date (2026-04-18); this represents a distinct, single-observation preference for the Mother Dairy brand within this month. Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, indicating no single dominant timing pattern.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul milk, evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Mother Dairy products were purchased on only one date in this month, so no stable preference is established for that brand. The user's timing varies across dayparts and day types, preventing the identification of a consistent routine.",
+  "overall_confidence": "medium"
+}

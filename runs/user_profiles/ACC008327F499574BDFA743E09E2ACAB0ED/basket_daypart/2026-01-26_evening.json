@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-01-26 in the evening on a weekday. The basket contains three items: two units of a product in the Fruits category, one unit of Curd Yogurt, and one additional unit of a product in the Fruits category. The order-building behavior shows a combination of fresh produce and dairy. The `shopping_need_text` compatible with this basket is a need for fresh fruit and dairy products.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Fruits",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Fruits and Curd Yogurt were purchased together in this order.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Need for fresh fruit and dairy products.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

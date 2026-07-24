@@ -1,0 +1,18 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) on two independent dates: a weekday (2026-06-15) and a weekend (2026-06-21). Both transactions occurred in the morning. The recurrence of this specific product across two independent dates establishes a stable preference, supported by the repetition itself rather than a single isolated event. The timing aligns with the category's higher population activity during morning hours (32.46% share).",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "SAMHHWDWYZ2DTSST",
+      "claim_text": "The user has a stable preference for SAMHHWDWYZ2DTSST (Indian Sweets), evidenced by purchases on two independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent purchase events in June 2026. No other products or brands were observed in this category during this month.",
+  "overall_confidence": "medium"
+}

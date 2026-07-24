@@ -1,0 +1,9 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased two distinct bakery items on separate weekdays: a Britannia Romance Nut and Raisin Cake in the afternoon and a Monginis Choco Muffin in the evening. Both purchases are single-date observations, preventing the establishment of stable brand or product preferences. The user's activity occurred during afternoon and evening dayparts, which are periods of lower population share compared to morning.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Each product (Britannia Romance Nut and Raisin Cake, Monginis Choco Muffin) was observed on only one independent date. No brand, product, or variant recurred across 2 or more dates. Therefore, no stable preferences or routines can be established for this category in this month.",
+  "overall_confidence": "low"
+}

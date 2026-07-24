@@ -27,6 +27,8 @@ Current tasks:
 - `user_basket_profile` -> `POST /user/basket/profile`
 - `user_global_profile` -> `POST /user/global-profile`
 - `user_feed_quality_review` -> `POST /user/feed-quality-review`
+- `user_occasion_event_occurrence_summary` -> `POST /user/occasion/occurrence-summary`
+- `user_occasion_event_profile` -> `POST /user/occasion/profile`
 - `user_mission_hourly_summary` -> `POST /user/mission-hourly-summary`
 - `user_mission_aggregate_summary` -> `POST /user/mission-aggregate-summary`
 - `user_mission_global_profile` -> `POST /user/mission-global-profile`

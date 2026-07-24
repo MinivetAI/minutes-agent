@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-13, a weekday, a single order was placed in the afternoon. The basket contained four items across three categories: one unit of Cookies Biscuits, three units of Curd Yogurt (from two distinct SKUs), and one unit of Milk. The observed combination suggests a need for dairy products and a snack. No other products were added to cart or purchased in this session.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A need for dairy products (yogurt and milk) and a biscuit snack.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this single data point. The category pair evidence provided reflects population-level statistics and does not confirm this specific user's habitual behavior.",
+  "overall_confidence": "low"
+}

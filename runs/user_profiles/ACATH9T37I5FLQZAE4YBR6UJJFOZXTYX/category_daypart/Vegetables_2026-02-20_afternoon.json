@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of Baby Potato, Onion, Cauliflower, an unidentified vegetable product (VEGGF7EXB3KWXAGJ), Red Carrot, and Coriander Leaves. The basket consists entirely of unbranded fresh produce and herbs, indicating a same-day meal preparation need.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The selection of basic cooking staples (potato, onion, carrot, cauliflower) and a finishing herb (coriander) suggests an immediate kitchen replenishment for daily cooking rather than bulk stocking.",
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or a reactive fix for missing ingredients. The specific identity and use case of the product 'VEGGF7EXB3KWXAGJ' are unknown.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased a mixed basket of fresh produce and one ready-to-eat dessert: Green Peas Unpeeled 1kg, Cauliflower 400-600g, Onion 1.95-2.05 kg, Red Carrot Halwa, Local Tomato 450-550g, and Fresh New Crop Potato 0.95–1.05 kg.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed on a weekend afternoon, a time when population share (25.26%) is lower than morning (32.46%) and evening (30.27%). The basket combines immediate cooking staples (onions, potatoes, tomatoes, cauliflower, peas) with a large-format ready sweet (Red Carrot Halwa), suggesting a meal-prep or hosting scenario requiring both base ingredients and a dessert component.",
+  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned shopping and urgent replenishment. The specific meal plan or occasion for the halwa is unknown.",
+  "overall_confidence": "low"
+}

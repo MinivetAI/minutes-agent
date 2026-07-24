@@ -1,0 +1,14 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased fresh vegetables on two independent dates (2026-04-26 and 2026-04-27). The orders included unbranded fresh onions, fresh curry leaves, and fresh potatoes. No single brand or product variant recurred across these dates; each item was purchased only once. Consequently, no stable preference claims can be established for specific products or brands. The user demonstrated a pattern of purchasing fresh, unbranded culinary staples across both weekday and weekend dayparts (morning and evening).",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased fresh vegetables on two independent dates in April 2026, indicating consistent engagement with this category over the month.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "No specific brand or product variant was purchased more than once, so stable preferences for individual items cannot be determined. The observed purchases may reflect general meal preparation needs rather than specific brand loyalty.",
+  "overall_confidence": "medium"
+}

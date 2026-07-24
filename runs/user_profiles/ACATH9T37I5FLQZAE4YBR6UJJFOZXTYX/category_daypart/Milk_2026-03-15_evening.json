@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) during the evening on a weekend. This is a small-format, single-use or short-horizon purchase of plain liquid milk, typically used for immediate consumption such as tea, coffee, breakfast, or basic dairy preparation.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% of activity is evening vs. 32.46% morning). The product is a quick-replenishment item for immediate kitchen use rather than a bulk stock-up.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or habitual brand loyalty for Amul or this specific milk format. It is unclear if this was a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low"
+}

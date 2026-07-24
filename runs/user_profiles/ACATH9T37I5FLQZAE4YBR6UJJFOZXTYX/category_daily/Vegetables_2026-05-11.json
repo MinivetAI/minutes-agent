@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-11",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-11 (weekday), the user purchased one order of unbranded fresh vegetables during the afternoon. The order included 1x Onion (400–450 g) and 1x Baby Potato (280–320 g). These items are standard fresh cooking staples typically used as base ingredients for immediate meal preparation. This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent beyond general utility.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of unbranded fresh vegetables: 1x Onion (400–450 g) and 1x Baby Potato (280–320 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent beyond general utility.",
+  "overall_confidence": "low"
+}

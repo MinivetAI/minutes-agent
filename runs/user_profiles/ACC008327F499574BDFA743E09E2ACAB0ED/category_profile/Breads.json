@@ -1,0 +1,26 @@
+{
+  "category": "Breads",
+  "profile_text": "Evidence for Breads is limited to two isolated purchases on independent dates (February and July 2026) with no established routine or stable preference. The user bought one 600 g loaf of Britannia Sandwich Bread on a weekday afternoon in February and one 400 g loaf of English Oven Zero Maida 100% High Fiber Atta Bread on a weekend evening in July. These single observations do not support claims of brand loyalty, recurring cadence, or specific dietary preference (e.g., high-fiber vs. standard).",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was 2026-07-04.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Breads has resulted in completed purchases on two separate occasions, indicating reliable conversion from interest to purchase when the item is selected.",
+  "substitution_text": "No evidence of substitution patterns; two different brands and product types were purchased on separate dates.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior; purchases occurred on different days with different products.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only positive purchase events are recorded.",
+  "mission_generation_text": "Supports immediate household needs for sandwich preparation or toast, with no specific dietary or event-driven mission identified beyond general staple consumption.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "category": "Other Pulses",
+  "profile_text": "A single observed purchase of Fortune Chana Dal Split (500 g) on 2026-02-09 (weekday, morning). No stable brand or product preferences can be established from this single order. Replenishment timing is unknown.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-09",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was on 2026-02-09.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution patterns observed.",
+  "price_value_text": "No price/value behavior established from a single order.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports routine household staple needs for simple home meals.",
+  "overall_confidence": "low"
+}

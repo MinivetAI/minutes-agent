@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 3 kg pack of Tide Naturals Lemon and Chandan Detergent Powder.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekend, a time when the user's activity was below the population baseline for this daypart (population afternoon share: 0.2526). The product is a general-use laundry detergent powder suitable for routine household cleaning.",
+  "uncertainty_text": "This is a single observed transaction; durable brand preference or routine usage patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

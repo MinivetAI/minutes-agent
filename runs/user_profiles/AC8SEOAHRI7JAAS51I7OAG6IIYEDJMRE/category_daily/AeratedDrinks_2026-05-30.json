@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-30",
+  "day_type": "weekend",
+  "summary_text": "On 2026-05-30 (weekend), the user purchased 2 units of Coca-Cola Diet Coke Can 300 ml in the afternoon. This single-serve carbonated beverage is typically associated with immediate refreshment or snack pairing. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed order; it does not establish a stable preference or routine for Diet Coke or aerated drinks in general.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 2 units of Coca-Cola Diet Coke Can 300 ml. This single-serve carbonated beverage is typically associated with immediate refreshment or snack pairing. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Diet Coke or aerated drinks in general.",
+  "overall_confidence": "low"
+}

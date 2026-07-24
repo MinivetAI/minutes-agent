@@ -1,0 +1,26 @@
+{
+  "category": "Ready Meals",
+  "profile_text": "The user purchases ready meals with a slow cadence (approx. every 46 days), with the most recent purchase on 2026-07-08. Evidence spans three independent dates in April and July 2026, involving distinct products (McCain Veggie Burger Patty, ITC Master Chef Desi Style Chicken Patty, McCain Aloo Tikki) and brands (McCain, ITC). No single brand or product has repeated across independent dates, so no stable brand or product preference is established. Purchases occur across different dayparts (evening, afternoon, morning) and include both vegetarian and non-vegetarian options. The user demonstrates interest in convenient, ready-to-cook frozen options.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 46.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-08",
+    "predicted_next_purchase_date": "2026-08-23",
+    "replenishment_text": "The user typically purchases this category approximately every 46 days. The last purchase was on 2026-07-08, and the next purchase is estimated around 2026-08-23 based on this average cadence.",
+    "confidence": "low",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by three completed transactions across independent dates.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior is evident from the supplied evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; however, the lack of repetition prevents identification of stable preferences.",
+  "mission_generation_text": "Shopping needs supported by this category include convenient, ready-to-cook meal options for quick preparation, covering both vegetarian and non-vegetarian choices.",
+  "overall_confidence": "low"
+}

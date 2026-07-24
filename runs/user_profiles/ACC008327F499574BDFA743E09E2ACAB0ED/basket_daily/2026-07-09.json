@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-09 (weekday), a single order was placed during the morning daypart. The basket was narrow, containing one item: AIREJ6WHFJBSHHMR (Car Air Freshener). This single product falls within the Car Air Freshener category. The observed behavior is compatible with vehicle interior maintenance or freshness needs. As this represents a single observation from one independent date, no durable behavior patterns, stable preferences, or recurring routines are inferred. Confidence in inferred user behavior is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Car Air Freshener"
+      ],
+      "combination_text": "Car Air Freshener",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Vehicle interior maintenance or freshness.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Confidence in any inferred user behavior is low. No repeated patterns, routines, or stable preferences can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

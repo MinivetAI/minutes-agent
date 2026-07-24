@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-06-03 in the evening on a weekday contained one unit of Breads, two units of Milk, and one unit of Coffee. The basket demonstrates breadth across three distinct categories: Breads, Milk, and Coffee. The combination of Breads and Milk is supported by co-order evidence (Support: 0.26, Confidence: 0.722, Lift: 1.245, Co-order count: 13). The inclusion of Coffee alongside these staples suggests a compatible need for breakfast or morning meal components, though this specific combination (Breads/Milk/Coffee) is not explicitly quantified in the provided pair evidence. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order. This pairing is supported by historical co-order evidence with Support: 0.26, Confidence: 0.722, and Lift: 1.245 (Co-order count: 13).",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for basic breakfast or morning meal items, specifically bread, milk, and coffee.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

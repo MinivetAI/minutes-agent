@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-07",
+  "day_type": "weekend",
+  "summary_text": "On 2026-02-07 (weekend), a single order was placed in the evening. The basket contained one unit of Aerated Drinks, one unit of Fruit Drinks, and one unit of Rx Medicine. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Fruit Drinks"
+      ],
+      "combination_text": "Aerated Drinks and Fruit Drinks were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Rx Medicine"
+      ],
+      "combination_text": "Aerated Drinks and Rx Medicine were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruit Drinks",
+        "Rx Medicine"
+      ],
+      "combination_text": "Fruit Drinks and Rx Medicine were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of beverages and a prescription medication suggests a need for hydration and health management, potentially related to recovery or daily maintenance, compatible with the specific products observed.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or routine. Stable patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

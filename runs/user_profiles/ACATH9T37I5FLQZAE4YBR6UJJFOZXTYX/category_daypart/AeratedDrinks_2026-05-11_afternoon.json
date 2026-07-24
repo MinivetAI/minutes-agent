@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one multi-pack (8 x 250 ml) of Sprite plastic bottles, a lemon-lime carbonated soft drink, during the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a convenience-pack of ready-to-drink carbonated beverages, typically used for immediate refreshment, individual serving, or household stocking.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Sprite or aerated drinks. No browsing or search activity was recorded to indicate prior interest or comparison.",
+  "overall_confidence": "low"
+}

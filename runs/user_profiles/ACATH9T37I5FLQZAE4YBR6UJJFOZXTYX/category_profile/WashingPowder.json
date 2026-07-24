@@ -1,0 +1,26 @@
+{
+  "category": "Washing Powder",
+  "profile_text": "In June 2026, the user purchased one 500 g pouch of Surf Excel Easy Wash Detergent Powder on a weekday morning. This compact pack size suggests a short-refill cycle or urgent top-up need, suitable for same-day wash loads or quick refreshes of school/office clothes. The order occurred during a time when 32.46% of the population is active. As this is a single observed order on one date, durable brand preference or routine buying patterns cannot be established. The specific reason for choosing the 500 g pack over larger formats (e.g., stockout, travel, small household) is not confirmed.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-03",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution evidence observed.",
+  "price_value_text": "No price/value behavior established from a single order.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Supports immediate laundry needs, such as refreshing school or office clothes or handling a small, urgent wash load.",
+  "overall_confidence": "low"
+}

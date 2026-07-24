@@ -1,0 +1,26 @@
+{
+  "category": "Fruit Drinks",
+  "profile_text": "The user has made two isolated purchases of fruit drinks in 2026: a 1 L pack of Real Masala Pomegranate Juice in February and a 10-pack of Frooti Mango Drinks in June. These single-observation orders do not establish a stable brand preference, routine, or cadence. The user appears to buy ready-to-serve fruit beverages for immediate consumption or stocking, with no consistent timing or brand loyalty evident.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-11",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was on 2026-06-11.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on two separate occasions, indicating that when the user seeks fruit drinks, they typically convert to a purchase.",
+  "substitution_text": null,
+  "price_value_text": "No consistent price or value behavior established due to lack of repeated purchasing patterns.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases were completed.",
+  "mission_generation_text": "Shopping needs supported by this category include immediate thirst quenching, stocking ready-to-drink beverages for quick consumption, or seeking flavored fruit-based refreshments.",
+  "overall_confidence": "low"
+}

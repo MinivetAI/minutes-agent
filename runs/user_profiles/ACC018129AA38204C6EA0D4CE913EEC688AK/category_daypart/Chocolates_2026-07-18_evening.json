@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 51 g Cadbury Dairy Milk Silk Fruit & Nut Valentine’s Gift Pack in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a small, ready-to-gift premium chocolate bar, suggesting a use case for an immediate sweet treat or a last-minute celebratory gesture.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product type, or daypart.",
+  "overall_confidence": "low"
+}

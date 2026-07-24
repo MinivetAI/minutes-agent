@@ -1,0 +1,17 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, three independent orders were placed on weekdays and one weekend day. Purchases were narrow, typically containing 2–3 items. Afternoon and evening dayparts were observed. Categories included Savouries Namkeens, Spices Masala, Fruits, Vegetables, and Curd Yogurt. No category or product appeared on more than one independent date; therefore, no stable daily basket-building patterns, category combinations, or shopping needs can be confirmed as durable preferences. Abandonment patterns are excluded as no categories were abandoned across independent dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Fruits were purchased on two independent dates (2026-01-24 and 2026-01-26), indicating repeated interest in this category within the month.",
+      "confidence": "medium"
+    }
+  ],
+  "shopping_need_text": "General need for fresh produce, dairy, and savory snack ingredients.",
+  "uncertainty_text": "All observed behaviors are based on single-date observations for specific category combinations (Savouries Namkeens/Spices Masala, Fruits/Vegetables, Fruits/Curd Yogurt). No durable routine or stable preference can be inferred from this limited evidence. The repeated purchase of Fruits is noted as a trend claim but does not constitute a stable pattern without further repetition.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Diaper",
+  "profile_text": "The user maintains a high-confidence, stable preference for Pampers Complete Skin Comfort Pant Diapers, specifically the XL size with 56-count packs. Purchases occur with a fast cadence (approximately every 7 days), indicating a routine restock for infant hygiene needs. The user primarily shops during weekday afternoons and mornings, with no significant hesitation or comparison behavior observed.",
+  "brand_preferences": [
+    {
+      "brand": "Pampers",
+      "preference_text": "The user has a stable preference for Pampers diapers, evidenced by purchases on 18 independent dates spanning January through June 2026.",
+      "confidence": "high",
+      "evidence_count": 18,
+      "independent_date_count": 18
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Pampers Complete Skin Comfort Pant Diapers (XL, 56 Count), evidenced by purchases on 10+ independent dates across multiple months.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 7.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-06-27",
+    "predicted_next_purchase_date": "2026-07-04",
+    "replenishment_text": "The user purchases this category approximately every 7 days, classifying it as a fast-replenishing item. The last purchase was on 2026-06-27, with the next estimated purchase around 2026-07-04.",
+    "confidence": "high",
+    "evidence_count": 18,
+    "independent_date_count": 18
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase; the user has a history of completed orders without observed browsing or cart-addition hesitation.",
+  "substitution_text": "No evidence of brand or product substitution was observed; the user consistently selects Pampers Complete Skin Comfort Pant Diapers.",
+  "price_value_text": "No explicit price or value sensitivity data was provided in the summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior or uncertainty signals were detected.",
+  "mission_generation_text": "Routine restocking of disposable diapers for infant hygiene and skin comfort management.",
+  "overall_confidence": "high"
+}

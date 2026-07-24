@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-19",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-19 (weekend), the user purchased 1 unit of Britannia Toastea Butter Rusk (183 g) during a morning session. This order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a baked tea-time rusk snack, typically used as a crisp companion for tea or coffee. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or pack size over alternatives is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Britannia Toastea Butter Rusk (183 g) during a morning session on a weekend. The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product serves a general utility as a quick, crisp snack for tea-time consumption.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or pack size over alternatives is unknown.",
+  "overall_confidence": "low"
+}

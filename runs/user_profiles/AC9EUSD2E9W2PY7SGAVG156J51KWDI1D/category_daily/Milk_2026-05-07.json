@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-07",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-07 (weekday), the user purchased 2 units of Amul Cow Milk 500 ml during the morning daypart. This fresh pasteurised liquid dairy staple was acquired in a session where 32.5% of population activity occurs, aligning with timing for breakfast or tea preparation needs. This single observed order does not establish a stable, recurring preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml during a morning session on a weekday. The purchase occurred in the morning (32.5% of population activity), aligning with timing for breakfast or tea preparation needs involving fresh dairy.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable, recurring preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one pack of three SENSODYNE Sensitive Soft toothbrushes.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the afternoon on a weekend, a time when population share is lower than morning or evening peaks. The purchase reflects a utility-first need for oral care replacement or restocking.",
+  "uncertainty_text": "Single observation does not establish stable preferences or routine behavior.",
+  "overall_confidence": "low"
+}

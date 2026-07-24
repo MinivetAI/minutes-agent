@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one unit of POND'S Super Light Gel Moisturiser 200 ml, a gel-based, oil-free face moisturizer.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekend, a time when the user's activity was below the population baseline for this daypart (25.26%). The product serves a general utility as a daily hydrator for skin care routines.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this purchase (e.g., replacement, trial, or immediate need) cannot be determined from this evidence alone.",
+  "overall_confidence": "low"
+}

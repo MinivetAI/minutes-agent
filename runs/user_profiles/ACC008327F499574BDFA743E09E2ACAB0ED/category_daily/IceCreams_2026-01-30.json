@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-30",
+  "day_type": "weekday",
+  "summary_text": "On this weekday afternoon, the user purchased four single-serve 125 ml Amul ice cream cups: Butterscotch Gold, Rajbhog, Chocolate Brownie, and Fruit N Nut Fantasy. This order represents a single observation of immediate indulgence or post-meal treats, with no established durable brand preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased four single-serve 125 ml Amul ice cream cups (Butterscotch Gold, Rajbhog, Chocolate Brownie, Fruit N Nut Fantasy) on a weekday afternoon.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single-observation window; it is not yet established whether Amul is a durable brand preference or if this represents a one-time variety purchase across different flavors.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Savouries Namkeens",
+  "profile_text": "The user demonstrates a stable, high-frequency purchasing pattern for Savouries Namkeens, anchored by a fast replenishment cadence. There are two distinct, stable brand preferences: Too Yumm! (specifically Sour Cream and Onion Veggie Stix) and Bikaji (specifically Chowpati Bhelpuri). These preferences are supported by repeated purchases across multiple months (Feb–May), establishing them as durable habits rather than isolated trials. The user also exhibits exploratory behavior, occasionally purchasing single-occasion items from other brands like Haldiram's and Pajaka. Timing is flexible, with purchases occurring on weekdays and weekends, and across morning, afternoon, and evening dayparts, suggesting the category serves as a general flexible snack rather than a tied-to-specific-event item.",
+  "brand_preferences": [
+    {
+      "brand": "Too Yumm!",
+      "preference_text": "Stable preference for Too Yumm! savoury snacks, evidenced by purchases on multiple independent dates in February and March 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "brand": "Bikaji",
+      "preference_text": "Stable preference for Bikaji savoury snacks, evidenced by purchases on multiple independent dates in April and May 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Too Yumm! Sour Cream and Onion Veggie Stix (35 g), evidenced by purchases on multiple independent dates in February and March 2026.",
+      "examples": [],
+      "confidence": "high"
+    },
+    {
+      "preference_text": "Stable preference for Bikaji Chowpati Bhelpuri 110 g, evidenced by purchases on multiple independent dates in April and May 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 5.5,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-06-07",
+    "predicted_next_purchase_date": "2026-06-12",
+    "replenishment_text": "The user purchases this category approximately every 5.5 days, classified as a fast replenishment cycle. The last purchase was on 2026-06-07, with the next predicted purchase around 2026-06-12.",
+    "confidence": "high",
+    "evidence_count": 15,
+    "independent_date_count": 15
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by the high volume of completed transactions across multiple months and brands.",
+  "substitution_text": "The user shows flexibility between two main brands (Too Yumm! and Bikaji) and occasionally substitutes with other brands (Haldiram's, Pajaka) on single dates, indicating openness to variety within the savoury namkeen segment.",
+  "price_value_text": "No explicit price or value behavior data is provided in the summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. Single-occasion purchases (e.g., Haldiram's Moong Dal, Pajaka Chiwda) are noted but do not form stable patterns.",
+  "mission_generation_text": "Supports regular, flexible snacking needs, including ready-to-eat chaat mixes and veggie stix, consumed throughout the day and week without a rigid daily routine.",
+  "overall_confidence": "high"
+}

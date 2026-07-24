@@ -1,0 +1,40 @@
+{
+  "category": "Other Flours",
+  "profile_text": "In April 2026, the user placed one order of Bhagyalakshmi Rice Flour 1 kg on a weekday evening. This is a single observation and does not establish a recurring preference or stable pattern.",
+  "brand_preferences": [
+    {
+      "brand": "Bhagyalakshmi",
+      "preference_text": "Observed in one order on 2026-04-16.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Bhagyalakshmi Rice Flour 1 kg ordered on 2026-04-16.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-16",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single observation.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Shopping for baking or cooking ingredients, specifically rice flour.",
+  "overall_confidence": "low"
+}

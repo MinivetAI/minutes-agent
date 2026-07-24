@@ -1,0 +1,40 @@
+{
+  "category": "Other Pulses",
+  "profile_text": "A single purchase of FORTUNE Rajma Chithra Whole (500 g) was observed on 2026-02-27 in the evening. This represents a one-time transaction for a staple dry pulse, likely for home cooking or stock replenishment. No repeated behavior, brand loyalty, or cadence patterns are established.",
+  "brand_preferences": [
+    {
+      "brand": "FORTUNE",
+      "preference_text": "Observed in a single purchase on 2026-02-27.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "FORTUNE Rajma Chithra Whole 500 g was purchased once on 2026-02-27.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-27",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was on 2026-02-27.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports needs for home cooking ingredients, specifically staple dry pulses for meal preparation.",
+  "overall_confidence": "low"
+}

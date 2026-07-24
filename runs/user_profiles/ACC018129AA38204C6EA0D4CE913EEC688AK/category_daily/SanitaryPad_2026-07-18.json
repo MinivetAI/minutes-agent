@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-18",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-18 (weekend), the user purchased sanitary pads in two distinct dayparts. In the morning, they bought 1 pack of PLUSH Cotton Sanitary Pads with Disposable Pouches (30-pad assortment), a general-use item featuring pure U.S. cotton and discreet disposal. In the evening, they purchased 1 pack of Whisper Ultra Bindazzz Nights XXL sanitary pads (7 count), a night-use product indicating a need for overnight protection or heavy-flow management. The morning purchase aligns with the user's typical activity share (32.46% of total), while the evening purchase occurred during a period of significant population activity (30.27% share).",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 pack of PLUSH Cotton Sanitary Pads with Disposable Pouches (30-pad assortment).",
+      "confidence": "low"
+    },
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 pack of Whisper Ultra Bindazzz Nights XXL sanitary pads (7 count).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or recurring purchase pattern for PLUSH, Whisper, cotton-based pads, or night-use pads specifically. It is unknown if these were one-time trials, switches from previous brands, or routine restocks.",
+  "overall_confidence": "low"
+}

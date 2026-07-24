@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 40 g Snickers Peanut Filled Chocolate Bar in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period with lower population share (0.2526) compared to the morning (0.3246) and evening (0.3027). The product is a single-serve, nutty chocolate bar typically used for immediate hunger interruption or a quick, substantial treat.",
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
+  "overall_confidence": "low"
+}

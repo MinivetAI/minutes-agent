@@ -1,0 +1,31 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased chocolates on three independent dates (2026-06-12, 2026-06-15, 2026-06-21). The brand Nestlé Milkybar appears on two of these dates (12th and 21st), meeting the repetition bar for stable preference. The variant '22.5 g bars' also appears on two dates. The user also purchased a distinct variant, 'Choo Strawberry Flavour Treats Bars (80 g)', on one date. Purchases occurred in the morning on both weekdays and weekends. The 22.5 g bars are small-format, ready-to-eat items suited for immediate snacking or impulse consumption. The 80 g treats are shareable, bite-sized confectionery with a playful element.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Nestlé Milkybar",
+      "claim_text": "The user has a stable preference for Nestlé Milkybar, evidenced by purchases on 2026-06-12 and 2026-06-21.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Nestlé Milkybar 22.5 g bars",
+      "claim_text": "The user has a stable preference for Nestlé Milkybar 22.5 g bars, evidenced by purchases on 2026-06-12 and 2026-06-21.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased a different variant, NESTLÉ Milkybar Choo Strawberry Flavour Treats Bars (80 g), on 2026-06-15, indicating variety-seeking within the brand or category on that specific date.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "The preference for the 22.5 g bars is based on two dates; the strawberry treat is a single-observation event. No durable preference can be established for the strawberry variant.",
+  "overall_confidence": "medium"
+}

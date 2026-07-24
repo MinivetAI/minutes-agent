@@ -1,0 +1,14 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user placed two independent orders for Spices Masala. On 2026-04-07 (weekday, evening), one unit of Vandevi Compounded Asafoetida 50 g was purchased. On 2026-04-26 (weekend, afternoon), one unit of Everest Cumin Powder 100 g was purchased. No single brand, product, or variant recurred across multiple dates; each item was observed only once. Consequently, no stable preferences or routine patterns are established for this category in this month.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased two different spice products (Vandevi Compounded Asafoetida and Everest Cumin Powder) on separate dates in April 2026, indicating varied purchasing behavior rather than a consistent brand or product preference.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "Each product was observed on only one independent date. Single observations do not establish stable preferences, routines, or brand loyalty. The user may be testing different products or fulfilling specific, non-recurring meal needs.",
+  "overall_confidence": "low"
+}

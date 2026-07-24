@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "On 2026-06-16 (morning, weekday), the user placed one complete order containing 2 units of Milk and 1 unit of Batteries. The basket breadth is narrow, spanning two distinct categories: Dairy (Milk) and Household/Electronics (Batteries). The `shopping_need_text` suggests a need for basic dairy staples and replacement power sources. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Batteries"
+      ],
+      "combination_text": "Milk and Batteries were purchased together in this single observed order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking of dairy products and replacement of batteries.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, `overall_confidence` is low. No durable preferences, routines, or stable patterns can be inferred. The category pair evidence provided (e.g., Milk/Vegetables) reflects population-level co-occurrence statistics and does not indicate that this specific user purchased those items together in this order.",
+  "overall_confidence": "low"
+}

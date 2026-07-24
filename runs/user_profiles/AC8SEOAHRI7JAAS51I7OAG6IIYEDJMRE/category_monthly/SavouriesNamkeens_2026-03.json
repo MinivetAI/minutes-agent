@@ -1,0 +1,14 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased savouries namkeens on four independent dates (2026-03-12, 2026-03-14, 2026-03-20, 2026-03-25). The purchases span both weekdays and weekends, and occur in both afternoon and evening dayparts. No single brand, product, or variant appeared on more than one date; therefore, no stable brand or product preferences are established. The user demonstrated interest in a variety of namkeen types, including traditional fried snacks (Bikano, Haldiram's) and a roasted makhana alternative (Khari Foods).",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased savouries namkeens on four independent dates in March 2026, indicating consistent engagement with this category throughout the month.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "Each purchase involved a different brand and product variant. Without repetition of specific items across multiple dates, it is not possible to determine a durable brand or product preference. The variety of products suggests exploratory purchasing or diverse snacking needs rather than a fixed routine.",
+  "overall_confidence": "low"
+}

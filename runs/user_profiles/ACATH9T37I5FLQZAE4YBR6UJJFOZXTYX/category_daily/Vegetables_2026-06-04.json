@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-04 (weekday), the user purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during an afternoon session. This afternoon period has a 25.26% population share, suggesting a mid-day or post-lunch shopping window. The items are fresh, unbranded vegetables commonly used as base ingredients for immediate cooking or meal preparation. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during an afternoon weekday session. This afternoon period has a 25.26% population share, suggesting a mid-day or post-lunch shopping window. The items are fresh, unbranded vegetables commonly used as base ingredients for immediate cooking or meal preparation. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

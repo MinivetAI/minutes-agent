@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one Amul Mango Duetz Gold Ice Cream Stick (60 ml) and one Vadilal Almond Choco Crunch Badabite Ice Cream (80 ml) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time with high population share (0.3027) for this category, suggesting alignment with typical post-dinner or late-day indulgence patterns. The products are single-serve, ready-to-eat frozen treats, indicating a desire for immediate, individual consumption rather than bulk storage.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether the user prefers these specific brands (Amul, Vadilal) or flavors (mango, almond/chocolate) over others, or if this represents a stable routine.",
+  "overall_confidence": "low"
+}

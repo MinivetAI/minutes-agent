@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-24 (weekday), the user purchased six fresh vegetable items in a single evening order: Organic Ginger (100 g), Green Capsicum (250 g), Organic Potato (500 g), Coriander Leaves (100 g), Local Tomato (1 kg), and English Cucumber (500 g). The basket consists entirely of unbranded fresh produce staples and garnishes, suggesting immediate meal preparation or stock replenishment for daily cooking. The order was placed in the evening, a time when population share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526).",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased six fresh vegetable items in a single order: Organic Ginger (100 g), Green Capsicum (250 g), Organic Potato (500 g), Coriander Leaves (100 g), Local Tomato (1 kg), and English Cucumber (500 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific meal intent or reason for this combination of items is unknown.",
+  "overall_confidence": "low"
+}

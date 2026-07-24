@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-10 (weekday), the user purchased one unit each of Potato (400–450g) and Onion (400–450g) in the morning. This order occurred during a morning period with above-baseline activity (32.46%). The items are fresh, loose-weight staples typically used as immediate cooking bases or for quick meal preparation. This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one unit each of Potato (400–450g) and Onion (400–450g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

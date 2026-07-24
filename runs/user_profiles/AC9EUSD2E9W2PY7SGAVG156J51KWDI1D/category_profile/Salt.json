@@ -1,0 +1,41 @@
+{
+  "category": "Salt",
+  "profile_text": "The user has purchased salt twice in 2026 (February and May), indicating a basic household replenishment need for cooking and seasoning. However, the purchases were made on different dates, during different dayparts (weekday evening vs. weekend afternoon), and from different brands (Tata vs. Aashirvaad). This limited evidence does not yet establish a stable brand preference, routine cadence, or specific timing habit. The user is likely maintaining a basic pantry staple but has not demonstrated a consistent pattern strong enough to predict future behavior with high confidence.",
+  "brand_preferences": [
+    {
+      "brand": "Tata",
+      "preference_text": "Purchased once in February 2026. Insufficient repetition to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Aashirvaad",
+      "preference_text": "Purchased once in May 2026. Insufficient repetition to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-24",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-05-24. Cadence is unknown based on limited evidence; no reliable prediction for next purchase can be made.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in salt has resulted in completed purchases on two separate occasions, indicating that when the user seeks this item, they typically complete the transaction.",
+  "substitution_text": null,
+  "price_value_text": "No specific price sensitivity or value-seeking behavior can be inferred from the two observed transactions.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty regarding this category.",
+  "mission_generation_text": "Routine household replenishment for cooking and food preparation.",
+  "overall_confidence": "low"
+}

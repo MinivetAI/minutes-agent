@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one pack of Flipkart Supermart Scrub Sponge Medium (Pack of 2) in the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.26% share). The product is a basic utility item for routine household cleaning.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category.",
+  "overall_confidence": "low"
+}

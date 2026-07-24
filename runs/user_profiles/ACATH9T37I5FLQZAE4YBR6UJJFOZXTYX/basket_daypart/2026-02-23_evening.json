@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-02-23 during the evening weekday. The basket contains one unit of Feeding Nursing product, one unit of Milk, and four units of Vegetables. The shopping need text suggests a need for basic meal ingredients and infant care supplies, compatible with the observed products. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation and infant care supplies.",
+  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during a night-time weekday session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred at night on a weekday, a period with lower population share (12.02%) compared to morning (32.46%), evening (30.27%), and afternoon (25.26%). The items are fresh vegetable staples typically used for immediate meal preparation, such as roasting, boiling, or as a base for curries and gravies.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for these specific vegetables or this shopping time.",
+  "overall_confidence": "low"
+}

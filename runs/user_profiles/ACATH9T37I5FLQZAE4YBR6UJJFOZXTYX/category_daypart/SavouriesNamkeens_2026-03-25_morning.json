@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Haldiram's Moong Dal 200 g, a packaged Indian namkeen snack, during a morning session on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The product is a shelf-stable, ready-to-eat savoury snack, typically used for immediate cravings, tea-time accompaniment, or quick office/home snacking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this purchase (e.g., immediate craving vs. pantry restocking) is unknown.",
+  "overall_confidence": "low"
+}

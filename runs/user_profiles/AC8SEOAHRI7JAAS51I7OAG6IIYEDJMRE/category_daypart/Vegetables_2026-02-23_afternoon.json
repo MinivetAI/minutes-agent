@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased Tinda 500g and Colocasia Arvi 250g, two fresh, unbranded vegetables intended for immediate cooking.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The products are perishable fresh vegetables, suggesting a need for same-day meal preparation or restocking of immediate cooking ingredients.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

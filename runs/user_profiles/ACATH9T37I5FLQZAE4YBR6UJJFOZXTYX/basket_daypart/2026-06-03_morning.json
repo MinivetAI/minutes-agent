@@ -1,0 +1,92 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-06-03 (morning, weekday) containing 14 distinct items across 8 categories. The basket is dominated by Vegetables (7 units), with single units of Fruits, Rava Sooji, Lotion Cream, Salt, Washing Powder, Savouries Namkeens, and Candies Mouth Fresheners. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "AeratedDrinks",
+        "Vegetables"
+      ],
+      "combination_text": "AeratedDrinks and Vegetables",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "Vegetables"
+      ],
+      "combination_text": "SavouriesNamkeens and Vegetables",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "BabyCereal",
+        "Vegetables"
+      ],
+      "combination_text": "BabyCereal and Vegetables",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic meal preparation ingredients (vegetables, fruits, rava sooji, salt) and household maintenance items (washing powder, lotion cream), along with snack items (savouries, candies).",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as category associations are derived from population-level evidence (category_pair_evidence) and do not reflect a stable, durable preference for this specific user. The user's specific intent beyond the visible items is unknown.",
+  "overall_confidence": "low"
+}

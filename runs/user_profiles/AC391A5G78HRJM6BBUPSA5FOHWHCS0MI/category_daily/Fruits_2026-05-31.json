@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-31",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased 1 unit of Tender Coconut (fresh whole fruit) during the morning. This fresh, perishable item is typically used for immediate refreshment or as a light snack. The purchase occurred in a daypart with a population share of 0.3246. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Tender Coconut (fresh whole fruit).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

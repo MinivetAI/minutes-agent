@@ -1,0 +1,23 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased fresh vegetables on six independent dates. Cauliflower (400-600g) was the most frequent item, appearing on five separate dates (April 4, 6, 9, 13, and 15), establishing a stable preference. Tinda (500g) was purchased once on April 25. Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, indicating flexible timing rather than a rigid daily routine.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Cauliflower 400-600g",
+      "claim_text": "The user has a stable preference for Cauliflower 400-600g, evidenced by purchases on five independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Cauliflower purchases spanned multiple dayparts (morning, afternoon, evening) and day types (weekday, weekend), suggesting the user buys this item based on immediate meal needs rather than a fixed shopping schedule.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While cauliflower shows a clear stable pattern, other vegetables like Tinda and Tomatoes appear only once. No brand loyalty is established for cauliflower as the 'Unbranded' variant appears once, but the product type itself is consistent. No browsing or search data is available to distinguish between planned and impulse purchases.",
+  "overall_confidence": "medium"
+}

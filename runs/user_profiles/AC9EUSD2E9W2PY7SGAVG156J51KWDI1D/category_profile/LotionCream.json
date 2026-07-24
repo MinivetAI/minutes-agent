@@ -1,0 +1,40 @@
+{
+  "category": "Lotion Cream",
+  "profile_text": "In April 2026, the user purchased one 60 g pack of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies on a single weekend date (2026-04-05) during the evening. This order occurred in the evening, a period with high population share (0.3027) relative to other dayparts. The product is a baby moisturizer intended for quick relief of dry or irritated facial skin. As this is a single observed order, it does not establish a stable preference or routine for this brand or product type.",
+  "brand_preferences": [
+    {
+      "brand": "Mamaearth",
+      "preference_text": "Observed in one order on 2026-04-05.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Observed one 60 g pack of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies on 2026-04-05.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-05",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Supports the need for baby skin moisturization and relief of dry or irritated facial skin.",
+  "overall_confidence": "low"
+}

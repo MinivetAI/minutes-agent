@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Classic Whole Cashews (200 g) in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. The product is a plain, whole cashew nut pack, typically used as a pantry staple for snacking, cooking, or recipe use.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., immediate need, recipe, stocking up) is unknown.",
+  "overall_confidence": "low"
+}

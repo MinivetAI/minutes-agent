@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-14 (weekday), the user purchased one unit each of SUPERPLUM Sindhura Mango and Watermelon Kiran during the evening. This timing aligns with the 30.27% population share for evening purchases, suggesting a potential need for fresh fruit after work or dinner. Confidence is low as this represents a single observed transaction on one date; durable preferences or habitual patterns cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one unit each of SUPERPLUM Sindhura Mango and Watermelon Kiran during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Confidence is low as this represents a single observed transaction on one date; durable preferences or habitual patterns cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

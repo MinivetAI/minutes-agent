@@ -1,0 +1,11 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-07-07 in the evening on a weekday. The basket contains three items: Curd Yogurt, Milk, and Pasta. The user combined dairy staples (Curd Yogurt and Milk) with a dry staple (Pasta).",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of dairy products and pasta suggests a need for ingredients to prepare a meal, such as a pasta dish with a yogurt-based sauce or a side of yogurt.",
+  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

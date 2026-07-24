@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-07",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-07 (weekday), the user purchased a single order of fresh vegetables and herbs in the evening. The basket included Coriander Leaves, Fresh New Crop Potato, Brinjal Nagpur, Dill Leaf, Beetroot, Carrot, Bottle Gourd, and Baby Potato. This evening activity aligns with the population baseline share (0.3027). The selection of unbranded fresh produce suggests immediate meal preparation or same-day cooking needs rather than long-term pantry stocking. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established. The specific culinary intent is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased fresh vegetables and herbs (Coriander Leaves, Fresh New Crop Potato, Brinjal Nagpur, Dill Leaf, Beetroot, Carrot, Bottle Gourd, Baby Potato) in the evening.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
+  "overall_confidence": "low"
+}

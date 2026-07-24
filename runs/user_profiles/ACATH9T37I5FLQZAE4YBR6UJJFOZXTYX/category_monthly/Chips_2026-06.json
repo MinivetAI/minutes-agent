@@ -1,0 +1,23 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user placed three independent orders in the Chips category. The purchases occurred on two weekends (June 7 and June 28) and one weekday (June 17). The orders were spread across morning and afternoon dayparts. Three distinct products were observed: CHPHK5F28WGW2UNS (ordered on June 7 and June 28), TAALI Protein Puffs Cheese Balls (ordered on June 17), and KURKURE Playz Puffcorn Yummy Cheese (ordered on June 28). Because CHPHK5F28WGW2UNS appeared on two independent dates, it meets the threshold for a stable preference claim. The other products appeared only once and remain single-date observations.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "CHPHK5F28WGW2UNS",
+      "claim_text": "The user has a stable preference for product CHPHK5F28WGW2UNS, observed on two independent dates (2026-06-07 and 2026-06-28).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user's chip purchasing activity in June 2026 was distributed across both weekdays and weekends, with orders on June 7 (weekend), June 17 (weekday), and June 28 (weekend).",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "Confidence is limited because the month contains only three independent orders. While one product (CHPHK5F28WGW2UNS) shows repetition, the other two products (TAALI Protein Puffs, KURKURE Playz) are single-date observations and do not yet indicate a stable preference. The variety of products suggests the user is exploring different types of chips rather than adhering to a single brand or flavor profile.",
+  "overall_confidence": "low"
+}

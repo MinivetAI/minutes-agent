@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-12",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-12 (weekday), the user purchased fresh, unbranded cooking staples—specifically an onion (400–450 g), coriander leaves (100 g), and green chillies (70–80 g)—during an evening session. This evening purchase aligns with a population daypart share of 0.3027, which is comparable to morning (0.3246) and higher than afternoon (0.2526). These items are consistent with immediate meal preparation or finishing dishes. As this is a single observed order, it is not yet established whether this represents a stable preference or a one-time cooking need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased fresh, unbranded cooking staples (onion, coriander, green chillies) during an evening weekday session. This timing aligns with a population daypart share of 0.3027, which is comparable to morning (0.3246) and higher than afternoon (0.2526).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time cooking need.",
+  "overall_confidence": "low"
+}

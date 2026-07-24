@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Tender Coconut (fresh whole fruit) during the morning on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a period with a population share of 0.3246. The product is a fresh, perishable hydration fruit typically used for immediate refreshment or as a light snack.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

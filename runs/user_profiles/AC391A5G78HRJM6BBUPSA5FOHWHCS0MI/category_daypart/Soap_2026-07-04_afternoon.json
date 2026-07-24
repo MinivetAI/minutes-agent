@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one pack of Cinthol Lime Bath Soap (4 x 150 g) during the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26% share). The product is a standard household bathing soap, suggesting a routine replenishment need for personal or family hygiene.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable brand preference or a stable shopping routine. It is unclear if this was a planned restock or an immediate need.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-01-23 (morning, weekday) containing 9 items across 6 categories: Pasta (2 units), Vegetables (3 units total across 3 distinct products), Noodles (1 unit), Poha (1 unit), Fruits (1 unit), and Savouries Namkeens (2 units). The basket exhibits moderate breadth with a mix of staple carbohydrates (pasta, noodles, poha) and fresh produce (vegetables, fruits), supplemented by savory snacks. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The order suggests a need for meal preparation involving carbohydrates and fresh ingredients, along with a snack item.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 8-pack of 250 ml Sprite plastic bottles and one 750 ml Sprite PET bottle in the Aerated Drinks category during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are ready-to-drink carbonated lemon-lime soft drinks, typically used for immediate refreshment, chilling, or serving with meals.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand preference or habitual purchasing patterns cannot be established from this evidence alone.",
+  "overall_confidence": "low"
+}

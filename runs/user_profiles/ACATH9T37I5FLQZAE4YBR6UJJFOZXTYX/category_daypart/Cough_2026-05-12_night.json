@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 packs of VICKS Double Power Cough Drops Warming Ginger (25 tablets each) during a night-time shopping session on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred at night, a time when this user's activity is less common than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a portable, fast-acting lozenge for throat soothing, suitable for immediate relief during evening or night hours.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for VICKS brand cough drops or night-time purchasing behavior.",
+  "overall_confidence": "low"
+}

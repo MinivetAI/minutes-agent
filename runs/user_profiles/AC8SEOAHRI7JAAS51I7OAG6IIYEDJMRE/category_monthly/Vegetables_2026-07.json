@@ -1,0 +1,9 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased two distinct vegetable items on separate dates: unbranded fresh onions on 2026-07-06 and Parwal (pointed gourd) on 2026-07-09. No brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preferences are established for this category in this month.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Each vegetable item was observed on only one independent date. Single-date observations do not establish stable preferences or routines. Confidence in inferred user behavior is low due to the lack of repetition.",
+  "overall_confidence": "low"
+}

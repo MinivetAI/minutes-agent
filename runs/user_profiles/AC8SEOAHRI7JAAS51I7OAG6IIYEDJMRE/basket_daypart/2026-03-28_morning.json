@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend morning included 3 units of Curd Yogurt, 1 unit each of Dips Sauces Pastes, Rusks, and Canned Food. The basket breadth covers four distinct categories. The combination of Canned Food and Curd Yogurt appears in the evidence with a support of 0.057, confidence of 0.444, and lift of 1.244. The presence of Rusks alongside Dips Sauces Pastes and Curd Yogurt suggests a compatible need for breakfast or snack items, though this specific combination is not explicitly supported by the provided pair evidence. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Canned Food",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Canned Food and Curd Yogurt were purchased together in this order. This pair has a support of 0.057, confidence of 0.444, and lift of 1.244 based on co-order evidence.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be stocking up on breakfast or snack components, combining dairy, savory spreads, and dry goods.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

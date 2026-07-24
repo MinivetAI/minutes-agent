@@ -1,0 +1,12 @@
+{
+  "month": "2026-06",
+  "summary_text": "The month of 2026-06 consists of five independent orders across weekdays and one weekend. No category combinations, daypart behaviors, or shopping needs are repeated across independent dates. All observed patterns are isolated to single dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The observed orders are compatible with general household replenishment, including dairy, pantry staples, cleaning supplies, personal care, fresh produce, and cooking ingredients. No specific need is confirmed as recurring.",
+  "uncertainty_text": "All evidence represents single observed orders on independent dates. Durable preferences, stable routines, or recurring habits cannot be inferred. Category pair evidence reflects population-level statistics and does not indicate repeated co-purchase by this user. No abandonment patterns are stable across independent dates.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 300 g pack of iD Fresh Classic Pancake Batter, a ready-to-cook batter for making pancakes quickly at home.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the afternoon on a weekend, a time when population share is lower than the morning baseline (0.2526 vs 0.3246). The product offers a convenience solution for fast, low-effort cooking without measuring ingredients.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

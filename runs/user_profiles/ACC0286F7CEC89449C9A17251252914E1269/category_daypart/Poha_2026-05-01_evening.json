@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Fortune Thick Poha 500 g in the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this category is purchased 30.27% of the time relative to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a shelf-stable staple used for quick-cook breakfast or snack preparations.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable brand preference or routine. The specific reason for the evening purchase (e.g., immediate meal prep vs. stock-up) is not determined.",
+  "overall_confidence": "low"
+}

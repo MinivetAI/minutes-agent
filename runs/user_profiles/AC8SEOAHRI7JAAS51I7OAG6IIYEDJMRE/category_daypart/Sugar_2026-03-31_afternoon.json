@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of Fortune white sugar. The product is a standard pantry staple for household sweetening and cooking.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday. This timing is less common than the population baseline for this category, which shows a higher share of activity in the morning (0.3246) and evening (0.3027). The product serves a general utility as a basic ingredient for daily meals and beverages.",
+  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference for the Fortune brand or a one-time need to replenish sugar. No browsing or search history was provided to indicate prior interest or comparison.",
+  "overall_confidence": "low"
+}

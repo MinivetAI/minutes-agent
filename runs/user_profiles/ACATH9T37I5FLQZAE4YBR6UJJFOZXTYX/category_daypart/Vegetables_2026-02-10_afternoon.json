@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased six unbranded fresh vegetable items: Local Tomato (450-550g), Onion (400–450 g), Brinjal Varikatri (250 g), Organic Bottle Gourd, Baby Potato (280–320 g), and Coriander Leaves (100 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed on a weekday afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket consists of perishable, unbranded fresh produce staples typically used for immediate same-day cooking or meal preparation.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or routine habits cannot be established. The specific meal plan or reason for this combination of vegetables is unknown.",
+  "overall_confidence": "low"
+}

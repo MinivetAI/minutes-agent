@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased 4 units of Coca-Cola Diet Coke Can 300 ml.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered in the afternoon on a weekend, a time when population share is 0.2526. The product is a single-serve carbonated soft drink, typically used for immediate refreshment or as a quick beverage add-on.",
+  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this window alone.",
+  "overall_confidence": "low"
+}

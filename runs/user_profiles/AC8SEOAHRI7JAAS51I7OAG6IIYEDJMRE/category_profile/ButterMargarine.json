@@ -1,0 +1,40 @@
+{
+  "category": "Butter Margarine",
+  "profile_text": "The user demonstrates a stable preference for Amul brand butter, specifically the Pasteurised Salted Butter 100 g variant, with purchases recorded on two independent dates in April 2026. This repetition establishes a medium-confidence preference for both the brand and the specific product variant. Purchases have occurred on weekdays, with timing varying between morning and evening, indicating flexible scheduling within the weekday window rather than a fixed daily habit. The user's replenishment cadence is observed at 13.5 days (medium class), with the last purchase on 2026-04-27 and a predicted next purchase around 2026-05-10. No discovery signals (search/view/cart without purchase) were observed for this category.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Stable preference for Amul, evidenced by purchases on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Amul Pasteurised Salted Butter 100 g, evidenced by purchases on two independent dates in April 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 13.5,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-04-27",
+    "predicted_next_purchase_date": "2026-05-10",
+    "replenishment_text": "The user typically repurchases this category every 13.5 days, with the next purchase estimated around 2026-05-10 based on this average cadence.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably results in completed purchases, as evidenced by the transition from observation to purchase on multiple independent dates.",
+  "substitution_text": "No evidence of substitution behavior or alternative brand/product switching was observed.",
+  "price_value_text": "No explicit price or value sensitivity data was provided for this category.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals were detected.",
+  "mission_generation_text": "Supports routine kitchen needs for cooking and baking, specifically requiring salted butter in small, immediate-use formats.",
+  "overall_confidence": "medium"
+}

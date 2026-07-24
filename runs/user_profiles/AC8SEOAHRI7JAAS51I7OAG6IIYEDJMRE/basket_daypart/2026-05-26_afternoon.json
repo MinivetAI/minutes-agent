@@ -1,0 +1,92 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single afternoon weekday order containing one unit each of Fruits, Milk, and Cookies Biscuits. This specific combination does not appear in the provided category pair evidence, so no lift or support metrics apply to this exact basket. The order reflects a basic grocery need compatible with a single meal or snack preparation.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and CurdYogurt are frequently co-ordered.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables are frequently co-ordered.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk are frequently co-ordered.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables are frequently co-ordered.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables are frequently co-ordered.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and SavouriesNamkeens are frequently co-ordered.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CannedFood",
+        "CurdYogurt"
+      ],
+      "combination_text": "CannedFood and CurdYogurt are frequently co-ordered.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk are frequently co-ordered.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be preparing a simple meal or snack involving dairy, fruit, and baked goods.",
+  "uncertainty_text": "This is a single observed order on one date. No durable preferences or stable patterns can be inferred. The category pair evidence provided reflects population-level statistics, not necessarily this specific user's history.",
+  "overall_confidence": "low"
+}

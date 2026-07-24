@@ -1,0 +1,40 @@
+{
+  "category": "Sweets Mithai",
+  "profile_text": "In May 2026, the user placed one order for Daadi's Jaggery Coconut Burfi (200 g) on a weekday afternoon. This single observation does not establish durable brand, flavor, or routine preferences. The purchase supports an immediate consumption or gifting need for a ready-to-eat Indian sweet.",
+  "brand_preferences": [
+    {
+      "brand": "Daadi's",
+      "preference_text": "Observed in one order (2026-05-06). Single observation does not establish a durable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Daadi's Jaggery Coconut Burfi (200 g) observed in one order (2026-05-06). Single observation does not establish a durable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-06",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single observation; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase in the observed instance.",
+  "substitution_text": null,
+  "price_value_text": "No price or value behavior established from a single observation.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
+  "mission_generation_text": "Shopping for ready-to-eat Indian sweets for immediate consumption or gifting.",
+  "overall_confidence": "low"
+}

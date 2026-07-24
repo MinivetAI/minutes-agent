@@ -1,0 +1,40 @@
+{
+  "category": "Washing Powder",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for the Tide brand in Washing Powder, evidenced by purchases across five independent months (February through July 2026). The specific product variant is consistently Tide Naturals Lemon & Chandan Detergent Powder. Pack sizes vary between 1 kg and 3 kg, with ordered quantities ranging from 1 to 2 units per transaction. Purchases occur across weekdays and weekends, and morning, afternoon, and evening dayparts, indicating flexible timing driven by household replenishment needs rather than a rigid schedule. The observed cadence is slow (27 days), with the last purchase on 2026-07-04 and a predicted next purchase around 2026-07-31.",
+  "brand_preferences": [
+    {
+      "brand": "Tide",
+      "preference_text": "The user consistently purchases Tide brand washing powder across multiple independent dates, establishing a stable brand preference.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user repeatedly selects Tide Naturals Lemon & Chandan Detergent Powder, indicating a stable product preference.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 27.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-07-31",
+    "replenishment_text": "The user purchases this category approximately every 27 days, classified as a slow replenishment cycle. The last purchase was on 2026-07-04, with the next expected around 2026-07-31.",
+    "confidence": "high",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by five completed transactions across independent dates.",
+  "substitution_text": "No evidence of brand or product substitution; the user consistently selects the same brand and variant.",
+  "price_value_text": "Pack sizes vary (1 kg and 3 kg) and quantities vary (1-2 units), suggesting the user prioritizes immediate household needs or specific pack availability over a fixed bulk-buy strategy.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has a clear, repeated purchase history.",
+  "mission_generation_text": "Supports ongoing household laundry needs, specifically for cleaning clothes with a preferred lemon and chandan scent profile.",
+  "overall_confidence": "high"
+}

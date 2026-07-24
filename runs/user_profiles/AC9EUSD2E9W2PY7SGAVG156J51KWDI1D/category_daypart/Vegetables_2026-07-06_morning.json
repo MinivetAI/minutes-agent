@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Coriander Leaves 100 g (fresh herb) in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a period with a population share of 0.3246. The product is a fresh herb typically used for cooking or garnishing.",
+  "uncertainty_text": "This is a single observed order on one date; no durable preference or routine can be established.",
+  "overall_confidence": "low"
+}

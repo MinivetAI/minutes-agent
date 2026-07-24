@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one pack (20\u201330 g) of Holy Tulsi Leaves (unbranded fresh herb) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% of population activity is in the evening vs. 32.46% in the morning). The product is a perishable fresh herb typically used for immediate religious offerings or culinary purposes.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for holy basil. The specific intent (religious vs. culinary) is inferred from product type but not confirmed by user behavior.",
+  "overall_confidence": "low"
+}

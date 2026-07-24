@@ -1,0 +1,43 @@
+{
+  "category": "Vegetables",
+  "profile_text": "The user demonstrates a stable, high-frequency engagement with fresh, unbranded vegetable staples, purchasing approximately every 6 days. Recent behavior in July 2026 shows a consistent routine of buying core cooking ingredients—specifically onions, green chillies, potatoes, haricot beans, and coriander leaves—across multiple independent dates. Purchases occur primarily during weekday evenings and weekends, supporting immediate meal preparation needs. No specific brands are preferred; preferences are defined by product type and recurrence.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "Onion",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Green Chilli",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Fresh New Crop Potato",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Haricot Beans",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Coriander Leaves",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": null,
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by 11 independent purchase dates across March, April, May, and July 2026.",
+  "substitution_text": "No specific brand loyalty exists; the user substitutes freely among unbranded fresh produce variants based on availability and immediate culinary need.",
+  "price_value_text": "No specific price sensitivity or value-brand preference is established; purchases consist of standard fresh produce staples.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific items are avoided. Single-date observations for spinach, mushrooms, okra, lemon, garlic, and mint indicate occasional interest but not stable preference.",
+  "mission_generation_text": "Supports regular home cooking and meal preparation requiring fresh, basic vegetable ingredients such as aromatics, legumes, and root vegetables.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-20 (weekday), the user purchased 1 pack (870 g) of Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies in the evening. This timing aligns with the population baseline where evening share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526). The product is a sweet, premium-style cookie with nut inclusions, typically used for tea-time snacking or pantry replenishment. This is a single observed order; durable preferences, frequency, or specific usage occasions (e.g., guest serving vs. personal snack) cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 pack (870 g) of Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies. This timing aligns with the population baseline where evening share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences, frequency, or specific usage occasions (e.g., guest serving vs. personal snack) cannot be established.",
+  "overall_confidence": "low"
+}

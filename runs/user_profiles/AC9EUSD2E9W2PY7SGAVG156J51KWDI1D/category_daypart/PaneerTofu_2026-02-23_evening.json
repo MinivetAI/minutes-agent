@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Malai Paneer 200 g placed in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting timing consistent with dinner preparation or last-minute meal planning needs.",
+  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish brand loyalty, flavor preference, or routine.",
+  "overall_confidence": "low"
+}

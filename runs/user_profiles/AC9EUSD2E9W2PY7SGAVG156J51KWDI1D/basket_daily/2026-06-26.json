@@ -1,0 +1,129 @@
+{
+  "date": "2026-06-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-26 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Milk, 1 unit of Curd Yogurt, 1 unit of Sugar, and 1 unit of Breads. This combination of dairy staples, a carbohydrate source, and a sweetener suggests a need for basic morning meal preparation. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Milk and Curd Yogurt were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Sugar"
+      ],
+      "combination_text": "Milk and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Sugar"
+      ],
+      "combination_text": "Breads and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Sugar"
+      ],
+      "combination_text": "Curd Yogurt and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads, Milk, and Curd Yogurt were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk",
+        "Sugar"
+      ],
+      "combination_text": "Breads, Milk, and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt",
+        "Sugar"
+      ],
+      "combination_text": "Breads, Curd Yogurt, and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Curd Yogurt",
+        "Sugar"
+      ],
+      "combination_text": "Milk, Curd Yogurt, and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk",
+        "Curd Yogurt",
+        "Sugar"
+      ],
+      "combination_text": "Breads, Milk, Curd Yogurt, and Sugar were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic morning meal components, specifically dairy and bread-based items.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns are not stable or recurring.",
+  "overall_confidence": "low"
+}

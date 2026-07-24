@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-03, a weekday, a single order was placed in the afternoon. The basket contained 4 units of Curd Yogurt and 1 unit of Buttermilk, representing a narrow focus on dairy products. The order was completed without abandoned carts. This observation is compatible with a need for dairy staples but does not establish a durable preference or recurring habit due to the single-date evidence.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Buttermilk"
+      ],
+      "combination_text": "Curd Yogurt and Buttermilk were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A need for dairy products, specifically yogurt and buttermilk.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The overall_confidence is low because the evidence represents only one independent date.",
+  "overall_confidence": "low"
+}

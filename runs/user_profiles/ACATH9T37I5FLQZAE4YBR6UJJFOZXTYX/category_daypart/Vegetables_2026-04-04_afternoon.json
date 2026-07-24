@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased eight unbranded fresh vegetable items: Baby Potato, Spinach Leaves, Bitter Gourd, Coriander Leaves, Beetroot, Brinjal, Onion, and Green Capsicum.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the afternoon on a weekend, a time when population share is lower than the morning baseline (0.2526 vs 0.3246). The basket consists entirely of fresh, unbranded produce staples and herbs, suggesting a same-day cooking need or a replenishment of perishable ingredients for immediate household use.",
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an urgent top-up. As this is a single observed order, it is not possible to establish stable brand or product preferences.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-25",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-25, a single order was placed in the afternoon. The basket contained 2 units of Milk, 1 unit of Ghee, and 4 units of Vegetables. This combination of dairy staples and fresh produce is compatible with basic meal preparation or household provisioning. Because this is a single observed order on one date, durable preferences or stable patterns cannot be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation or household provisioning involving dairy and vegetables.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

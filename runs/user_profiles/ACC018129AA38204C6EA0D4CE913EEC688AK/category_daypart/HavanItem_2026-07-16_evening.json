@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 420 g pouch of Anandam Deepam Oil, a lamp oil product used for diya and deepam lighting.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening on a weekday, a time when the user's activity (30.3% share) is near the population baseline (30.27%), suggesting standard evening timing rather than a distinct deviation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or routine for lamp oil purchases.",
+  "overall_confidence": "low"
+}

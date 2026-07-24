@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-11",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-11 (weekday), the user purchased one multi-pack (8 x 250 ml) of Sprite plastic bottles during the afternoon. This is a single observed order of a lemon-lime carbonated soft drink, typically used for immediate refreshment or individual serving. No browsing or search activity was recorded to indicate prior interest or comparison. This single order does not establish a stable preference or routine for Sprite or aerated drinks.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one multi-pack (8 x 250 ml) of Sprite plastic bottles during the afternoon on a weekday. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Sprite or aerated drinks. No browsing or search activity was recorded to indicate prior interest or comparison.",
+  "overall_confidence": "low"
+}

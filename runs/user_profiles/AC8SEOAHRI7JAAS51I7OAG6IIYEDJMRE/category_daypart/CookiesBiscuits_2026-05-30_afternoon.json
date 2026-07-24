@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Britannia 50-50 Golmaal Salted Biscuit (170 g) was placed in the afternoon on a weekend. No browsing, search, or cart activity was recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekend, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The product is a light, salted snack biscuit suitable for quick munching, tea breaks, or desk snacking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. No browsing or funnel data is available to determine if this was a planned purchase or a result of discovery.",
+  "overall_confidence": "low"
+}

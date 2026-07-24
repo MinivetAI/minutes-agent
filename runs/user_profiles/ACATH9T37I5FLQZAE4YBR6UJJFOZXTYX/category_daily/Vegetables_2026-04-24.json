@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-24 (weekday), the user placed one order in the Vegetables category during the afternoon. The order consisted of Fresh New Crop Potato (0.95–1.05 kg). This purchase occurred in the afternoon, a time when population activity is lower than the morning baseline (0.2526 vs 0.3246). The item is a fresh, perishable staple suitable for immediate meal preparation. No browsing or search history is available to determine if this was a planned purchase or an impulse buy. No other products were viewed or added to the cart in this window.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Fresh New Crop Potato (0.95–1.05 kg) in the Vegetables category.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an impulse buy. No other products were viewed or added to the cart in this window.",
+  "overall_confidence": "low"
+}

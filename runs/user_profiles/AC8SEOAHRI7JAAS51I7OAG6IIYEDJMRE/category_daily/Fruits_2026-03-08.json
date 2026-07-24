@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-08",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-08 (weekend), the user purchased 1 unit of Green Kiwi (unbranded fresh fruit) during the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a fresh fruit item suitable for immediate consumption or use in meals. This is a single observed order; no durable brand or product preferences can be established. It is unknown if this was a one-time purchase or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Green Kiwi (unbranded fresh fruit).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no durable brand or product preferences can be established. It is unknown if this was a one-time purchase or part of a recurring habit.",
+  "overall_confidence": "low"
+}

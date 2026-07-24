@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-04",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-04 (weekend), the user purchased Coriander Leaves (100 g), Onion (400–450 g), and Potato (400–450 g) during an evening shopping session. This timing aligns with a high population share (0.3027) for vegetable purchases in the evening. The items are fresh, unbranded staples typically used for immediate meal preparation or as cooking base ingredients. This is a single observation on one date; no durable brand or product preferences can be established, and the specific meal or recipe intent is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased Coriander Leaves (100 g), Onion (400–450 g), and Potato (400–450 g) during an evening shopping session on a weekend. This timing aligns with a high population share (0.3027) for vegetable purchases in the evening. The items are fresh, unbranded staples typically used for immediate meal preparation or as cooking base ingredients.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific meal or recipe intent is unknown.",
+  "overall_confidence": "low"
+}

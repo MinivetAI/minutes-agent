@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-26",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, one order of Johnson's Baby Lotion 500 ml was placed in the afternoon. This product is a general-use baby moisturizer intended for daily skin care. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26%). This is a single observation on one date; no durable brand or product preferences can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Johnson's Baby Lotion 500 ml was placed in the afternoon. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

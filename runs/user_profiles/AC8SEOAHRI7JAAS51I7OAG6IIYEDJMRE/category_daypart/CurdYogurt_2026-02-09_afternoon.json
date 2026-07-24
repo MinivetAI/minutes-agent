@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 390 g pack of Mother Dairy Classic Plain Curd and one 200 g cup of Mother Dairy Advanced Probiotic Plain Curd.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the afternoon on a weekday, a time when population share (0.2526) is lower than the evening peak (0.3027). The items are everyday dairy staples suitable for immediate meal accompaniment or household replenishment.",
+  "uncertainty_text": "Single observation does not establish stable brand or format preferences; cannot determine if this reflects a routine habit or a one-off need.",
+  "overall_confidence": "low"
+}

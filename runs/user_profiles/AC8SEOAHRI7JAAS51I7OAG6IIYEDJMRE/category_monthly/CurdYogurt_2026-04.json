@@ -1,0 +1,23 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Curd Yogurt on 9 independent dates. The primary stable preference is Mother Dairy Advanced Probiotic Plain Curd 200 g, which appeared on 7 of these dates (04-02, 04-04, 04-08, 04-09, 04-14, 04-15, 04-18, 04-28). This recurrence supports a high-confidence stable preference claim. A secondary stable preference is established for Mother Dairy Classic Plain Curd 390 g, appearing on 1 date (04-25) alongside the primary item, but as it only appears on one date, it remains a single-date observation in the stable list context unless it recurs. However, looking closely, Mother Dairy Classic Plain Curd 390 g appears only on 04-25. Heritage Livo Mango Flavored Yogurt appears only on 04-08. Therefore, only Mother Dairy Advanced Probiotic Plain Curd 200 g meets the repetition bar for stable preference. The user shops across all dayparts (morning, afternoon, evening, night) and both weekdays and weekends, showing no single dominant daypart pattern, though morning purchases are frequent. The overall confidence is high due to the volume and repetition of the primary product.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Advanced Probiotic Plain Curd 200 g",
+      "claim_text": "The user has a stable preference for Mother Dairy Advanced Probiotic Plain Curd 200 g, observed on 7 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 7,
+      "independent_date_count": 7
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased Heritage Livo Mango Flavored Yogurt on 2026-04-08 and Mother Dairy Classic Plain Curd 390 g on 2026-04-25, but these items did not recur in the month.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While Mother Dairy Advanced Probiotic Plain Curd 200 g is a stable preference, other products like Heritage Livo Mango Flavored Yogurt and Mother Dairy Classic Plain Curd 390 g were purchased only once and do not form stable patterns. Daypart and day-type patterns are mixed across the month.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-07-09",
+  "day_type": "weekday",
+  "summary_text": "On this weekday evening, a single order was placed containing one item from Fryums Papads and one from Havan Item. The basket is narrow, consisting of two distinct categories with no overlap with the provided category pair evidence. The purchase suggests a need for snack items and ritual or ceremonial supplies, compatible with the specific products bought. This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Fryums Papads and Havan Item suggests a need for snack items and ritual or ceremonial supplies, compatible with the specific products bought.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 packs of Bikaji Chowpati Bhelpuri (110 g) and 1 pack of Too Yumm! Sour Cream and Onion Veggie Stix (35 g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed during the night on a weekday, a period with lower population share (0.1202) compared to morning (0.3246) and evening (0.3027). The items are ready-to-eat savoury snacks suitable for immediate consumption, such as late-night cravings or quick impulse snacking.",
+  "uncertainty_text": "This is a single observed order; durable brand or flavour preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

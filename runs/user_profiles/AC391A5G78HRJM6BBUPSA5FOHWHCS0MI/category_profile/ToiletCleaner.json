@@ -1,0 +1,40 @@
+{
+  "category": "Toilet Cleaner",
+  "profile_text": "In June 2026, the user purchased one 600 ml bottle of Harpic Power Plus Original Liquid Toilet Cleaner on a single weekday (2026-06-02) during the evening. This timing aligns with the high population share (0.3027) for this category in the evening, suggesting behavior consistent with general bathroom hygiene staple purchasing patterns. As this is a single observed order, it is not yet established whether this represents a stable preference or a one-time replacement need.",
+  "brand_preferences": [
+    {
+      "brand": "Harpic",
+      "preference_text": "Harpic was purchased once on 2026-06-02. This is a single observation; it is not yet established whether this represents a stable preference or a one-time replacement need.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Harpic Power Plus Original Liquid Toilet Cleaner (600 ml) was purchased once on 2026-06-02. This is a single observation; it is not yet established whether this represents a stable preference or a one-time replacement need.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-02",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction on 2026-06-02.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Supports routine bathroom hygiene maintenance.",
+  "overall_confidence": "low"
+}

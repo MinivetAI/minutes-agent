@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 3 Nestl\u00e9 Classic Rich & Creamy Milk Treat Bars and 2 Cadbury Dairy Milk Milkinis Bars during a morning weekday session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time with a population share of 0.3246. The products are small, single-serve milk chocolate bars typically used for immediate cravings or quick sweet treats.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established.",
+  "overall_confidence": "low"
+}

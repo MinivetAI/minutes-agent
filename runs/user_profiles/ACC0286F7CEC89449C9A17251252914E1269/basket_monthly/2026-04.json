@@ -1,0 +1,12 @@
+{
+  "month": "2026-04",
+  "summary_text": "On 2026-04-24 (weekday), a single evening order was placed consisting exclusively of six distinct vegetable items. The basket is narrow in breadth, containing only the Vegetables category. This observation is compatible with preparing a vegetable-based meal or side dishes. As this is a single observed order, it represents an isolated observation rather than a durable behavior pattern. No durable preferences or routine behaviors can be inferred from this isolated event.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "Preparation of a vegetable-based meal or side dishes.",
+  "uncertainty_text": "This is a single observed order on one date. No durable preferences or routine behaviors can be inferred from this isolated event. Category pair evidence reflects population-level statistics, not this specific user's history.",
+  "overall_confidence": "low"
+}

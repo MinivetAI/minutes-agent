@@ -1,0 +1,26 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased eggs on two independent dates: a 6-unit pack of Hen Fruit white chicken eggs on a weekday morning (2026-03-02) and Hen Fruit Protein Max White Eggs (6 Units) on a weekend morning (2026-03-29). Both orders occurred during the morning daypart, which aligns with the user's typical morning activity volume (32.46% of weekly volume). The user consistently buys 6-unit packs of Hen Fruit brand eggs, indicating a stable preference for this brand and pack size across both weekday and weekend contexts.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Hen Fruit",
+      "claim_text": "The user purchased Hen Fruit brand eggs on two independent dates in March 2026 (2026-03-02 and 2026-03-29), establishing a stable preference for this brand.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "pack_size",
+      "value": "6-unit pack",
+      "claim_text": "The user purchased 6-unit packs of eggs on two independent dates in March 2026, establishing a stable preference for this pack size.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user's egg purchasing behavior is limited to two dates in March 2026. While the brand and pack size are stable across these dates, the limited sample size prevents high-confidence assertions about long-term routine or specific product variant preferences (e.g., 'Protein Max' vs. standard white eggs).",
+  "overall_confidence": "medium"
+}

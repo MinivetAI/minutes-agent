@@ -1,0 +1,26 @@
+{
+  "category": "Aerated Drinks",
+  "profile_text": "The user demonstrates a stable, recurring need for carbonated soft drinks, purchasing approximately every 19 days. Purchases are consistently made on weekdays during the morning. The user has bought from multiple brands (Thums Up, Pepsi, Campa Cola) and various pack sizes (500 ml, 750 ml, 1.25 L, 2.25 L) without establishing a durable preference for any single brand or product variant. This suggests a functional need for immediate refreshment or sharing, satisfied by available options rather than brand loyalty.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 19.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-06-15",
+    "predicted_next_purchase_date": "2026-07-04",
+    "replenishment_text": "The user typically purchases aerated drinks every 19 days, with the next purchase estimated around 2026-07-04.",
+    "confidence": "medium",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed transactions across independent dates.",
+  "substitution_text": "The user frequently substitutes between brands (Thums Up, Pepsi, Campa Cola) and pack sizes, indicating low brand loyalty and high flexibility in product selection.",
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident; purchases range from small single-serve sizes to large family-format bottles.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Routine refreshment and hydration needs, likely for immediate consumption or small social sharing, aligned with weekday morning schedules.",
+  "overall_confidence": "medium"
+}

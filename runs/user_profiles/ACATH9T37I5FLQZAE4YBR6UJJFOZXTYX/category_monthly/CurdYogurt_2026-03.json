@@ -1,0 +1,26 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased Amul Masti Dahi Plain Curd on three independent dates (2026-03-04, 2026-03-15, and 2026-03-27). The recurrence of this specific brand and product line across multiple dates establishes a stable preference, despite variations in pack size (200 ml vs. 390 ml) and daypart (morning, afternoon, evening). The user also demonstrated a pattern of purchasing on both weekdays and weekends.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul products, evidenced by purchases on 3 independent dates.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Masti Dahi Plain Curd",
+      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd, evidenced by purchases on 3 independent dates.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and product line are stable, the specific pack size (200 ml vs. 390 ml) varied across dates, indicating flexibility in quantity or immediate need rather than a rigid pack-size preference.",
+  "overall_confidence": "high"
+}

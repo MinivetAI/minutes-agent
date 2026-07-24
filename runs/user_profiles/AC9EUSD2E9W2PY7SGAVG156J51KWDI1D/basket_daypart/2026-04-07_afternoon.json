@@ -1,0 +1,52 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-07 in the afternoon on a weekday. The basket contains six items across four categories: Chips (2 units), Noodles (1 unit), Body Lotion (1 unit), Curd Yogurt (1 unit), and Sugar (1 unit). The combination of savory snacks (Chips, Noodles) with a dairy product (Curd Yogurt) and a sweetener (Sugar) is compatible with a need for a simple meal or snack preparation. Body Lotion is an unrelated personal care item. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Chips",
+        "Noodles"
+      ],
+      "combination_text": "Chips and Noodles were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Chips",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Chips and Curd Yogurt were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Noodles",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Noodles and Curd Yogurt were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Sugar"
+      ],
+      "combination_text": "Curd Yogurt and Sugar were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic food items for immediate consumption or simple preparation, alongside a personal care item.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It does not represent a durable preference, routine, or stable pattern. The provided category pair evidence (e.g., Milk/Vegetables) does not match the categories in this specific order, so no lift/support values are applied to the observed combinations.",
+  "overall_confidence": "low"
+}

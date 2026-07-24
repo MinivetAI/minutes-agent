@@ -1,0 +1,48 @@
+{
+  "category": "Jaggery",
+  "profile_text": "The user demonstrates a stable, slow-cadence purchasing pattern for jaggery, with purchases occurring approximately every 31 days. Evidence spans four independent dates (April through July 2026), establishing a recurring kitchen need for sweetening or cooking. While the user has engaged with multiple brands (Jivana, Organic Tattva, Safe Harvest) and formats (block, powder), no single brand or product variant has achieved high-confidence preference status due to the variety of choices; however, the consistent repurchasing behavior confirms a durable category-level habit. Purchases are consistently timed for morning sessions, often on weekends, suggesting planned shopping or routine replenishment. The user is open to different formats (block vs. powder) and brands, indicating flexibility rather than strict brand loyalty.",
+  "brand_preferences": [
+    {
+      "brand": "Organic Tattva",
+      "preference_text": "The user has purchased Organic Tattva jaggery powder on two independent dates (June and July 2026), indicating a medium-confidence preference for this brand within the category.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "brand": "Jivana",
+      "preference_text": "The user purchased Jivana sugarcane jaggery on one date (April 2026). This is a single observation and does not establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Safe Harvest",
+      "preference_text": "The user purchased Safe Harvest Powder Jaggery on one date (May 2026). This is a single observation and does not establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 31.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-08",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "The user typically repurchases jaggery every 31 days, with the next purchase estimated around August 8, 2026.",
+    "confidence": "high",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in jaggery reliably converts to purchase, as evidenced by four completed transactions across independent dates without prior browsing or cart abandonment signals.",
+  "substitution_text": null,
+  "price_value_text": "The user purchases jaggery in standard pack sizes (450 g, 500 g) from multiple brands, suggesting a focus on utility and availability rather than extreme price sensitivity or premium-only positioning.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior detected. The user's engagement is consistent and positive.",
+  "mission_generation_text": "Routine kitchen replenishment for natural sweetening and cooking ingredients, likely for daily meal preparation or beverage enhancement.",
+  "overall_confidence": "high"
+}

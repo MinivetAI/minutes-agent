@@ -1,0 +1,40 @@
+{
+  "category": "Sugar",
+  "profile_text": "The user demonstrates a stable preference for Fortune brand white sugar, evidenced by purchases on multiple independent dates across February, March, April, and July 2026. The user consistently orders 1 kg packs, typically in quantities of one per transaction. Purchases occur on both weekdays and weekends, with a noted tendency for afternoon timing on weekdays and morning timing on weekends, aligning with general household pantry restocking needs for daily sweetening (tea, coffee, cooking).",
+  "brand_preferences": [
+    {
+      "brand": "Fortune",
+      "preference_text": "The user has a stable preference for Fortune sugar, evidenced by purchases on 2026-03-17, 2026-03-31, 2026-04-04, and 2026-07-09.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user consistently purchases Fortune white sugar in 1 kg packs.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 16.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": "2026-07-25",
+    "replenishment_text": "The user typically replenishes sugar every 16 days, with the next purchase estimated around 2026-07-25.",
+    "confidence": "medium",
+    "evidence_count": 5,
+    "independent_date_count": 5
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in sugar reliably converts to purchase, as evidenced by multiple completed transactions across different months.",
+  "substitution_text": "No evidence of brand switching or substitution; the user consistently selects Fortune brand.",
+  "price_value_text": "No explicit price or value sensitivity data observed; purchases are consistent with standard 1 kg pack pricing.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has a clear, repeated preference for a specific brand and pack size.",
+  "mission_generation_text": "Routine household pantry restocking for daily sweetening needs such as tea, coffee, and cooking.",
+  "overall_confidence": "medium"
+}

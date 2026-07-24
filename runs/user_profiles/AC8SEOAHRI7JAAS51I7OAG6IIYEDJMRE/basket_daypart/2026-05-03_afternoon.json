@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-05-03 in the afternoon on a weekend. The basket contains two distinct product groups purchased together: two units of Ice Creams (one unit each of two different SKUs) and four units of Aerated Drinks. No other categories were included in this transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Ice Creams",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Ice Creams and Aerated Drinks were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of ice cream and aerated drinks is compatible with a need for chilled desserts and beverages, potentially for immediate consumption or a casual treat.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `category_pair_evidence` provided relates to other categories (Breads, CurdYogurt, Vegetables, Milk, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values are applied to the Ice Creams/Aerated Drinks combination.",
+  "overall_confidence": "low"
+}

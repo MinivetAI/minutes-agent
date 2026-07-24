@@ -1,0 +1,46 @@
+{
+  "month": "2026-04",
+  "summary_text": "The month of 2026-04 consists of 14 independent shopping observations across weekdays and weekends, with activity distributed across morning, afternoon, evening, and night dayparts. The user frequently purchases Breads and Curd Yogurt together, a combination that appears in multiple independent orders. Other recurring category appearances include Vegetables, Milk, and Cheese, often purchased alongside dairy or bakery items. Single-item or narrow-basket purchases (e.g., Ice Creams, Canned Food, Toothbrush) occur on separate dates without forming a stable multi-category pattern. No category abandonment patterns are repeated across independent dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [
+    {
+      "behavior_text": "Breads and Curd Yogurt are purchased together in multiple independent orders.",
+      "circumstance_text": "Observed on 2026-04-02, 2026-04-08, 2026-04-14, 2026-04-15, 2026-04-18, 2026-04-25, and 2026-04-28.",
+      "confidence": "low"
+    },
+    {
+      "behavior_text": "Curd Yogurt and Vegetables are purchased together in multiple independent orders.",
+      "circumstance_text": "Observed on 2026-04-02, 2026-04-09, 2026-04-15, and 2026-04-25.",
+      "confidence": "low"
+    },
+    {
+      "behavior_text": "Curd Yogurt and Milk are purchased together in multiple independent orders.",
+      "circumstance_text": "Observed on 2026-04-09, 2026-04-18, and 2026-04-25.",
+      "confidence": "low"
+    },
+    {
+      "behavior_text": "Breads and Vegetables are purchased together in multiple independent orders.",
+      "circumstance_text": "Observed on 2026-04-06, 2026-04-15, and 2026-04-25.",
+      "confidence": "low"
+    }
+  ],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Ice Creams were purchased on two independent dates (2026-04-12 and 2026-04-30), but not consistently paired with the same categories.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Canned Food was purchased on three independent dates (2026-04-06, 2026-04-19, 2026-04-25), but not consistently paired with the same categories.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Aerated Drinks were purchased on two independent dates (2026-04-13 and 2026-04-30), but not consistently paired with the same categories.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "Restocking basic food staples including dairy (Curd Yogurt, Milk, Cheese, Paneer Tofu), bakery items (Breads, Rusks), and fresh produce (Vegetables, Fruits). Occasional purchases of cleaning supplies, personal care items, and indulgence items (Ice Creams, Aerated Drinks, Savouries) are also observed.",
+  "uncertainty_text": "This analysis is based on 14 independent observed orders. While certain category pairs (Breads/Curd Yogurt, Curd Yogurt/Vegetables, etc.) appear repeatedly, the overall confidence in durable user preference is low because each order is treated as a single observation. No category abandonment patterns were repeated across independent dates; isolated abandonments are not included in the stable list. Single-item purchases (e.g., Toothbrush, Canned Food, Ice Creams) do not establish stable multi-category habits. The user's behavior reflects a mix of routine grocery replenishment and isolated, specific needs.",
+  "overall_confidence": "low"
+}

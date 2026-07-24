@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-04-04 (morning, weekend) contained one unit of Sweets Mithai and one unit of Return Gift Accessory. The basket breadth is narrow, consisting of two distinct categories. The `shopping_need_text` suggests a need for festive or celebratory items, compatible with the combination of sweets and gift accessories. No other products were purchased or added to cart in this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Sweets Mithai",
+        "Return Gift Accessory"
+      ],
+      "combination_text": "Sweets Mithai and Return Gift Accessory were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A need for items suitable for a celebration or gifting occasion, such as sweets and accessories for return gifts.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` provided relates to different categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values from that evidence are applied to this basket's combination.",
+  "overall_confidence": "low"
+}

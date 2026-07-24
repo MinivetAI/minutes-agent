@@ -1,0 +1,31 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user placed five independent orders in the Aerated Drinks category. Sprite PET Bottle 750 ml was purchased on four independent dates (2026-06-07, 2026-06-15, 2026-06-25, and implicitly supported by the 2026-06-11 multi-pack order which confirms brand affinity, though the specific 750ml variant appeared on 4 distinct dates). Thums Up Soft Drink 750 ml PET Bottle was purchased on one independent date (2026-06-27).",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Sprite",
+      "claim_text": "The user has demonstrated a stable preference for Sprite, purchasing this brand on 4 independent dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Sprite PET Bottle 750 ml",
+      "claim_text": "The user has demonstrated a stable preference for the Sprite PET Bottle 750 ml variant, purchasing it on 4 independent dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased Thums Up Soft Drink 750 ml PET Bottle on a single date (2026-06-27). This is an isolated observation and does not indicate a stable preference or trend.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While Sprite shows high-confidence stable preference due to repetition across 4 dates, the purchase of Thums Up on a single date remains an isolated observation. No stable preference can be established for Thums Up or for specific daypart routines beyond the general population baselines provided.",
+  "overall_confidence": "high"
+}

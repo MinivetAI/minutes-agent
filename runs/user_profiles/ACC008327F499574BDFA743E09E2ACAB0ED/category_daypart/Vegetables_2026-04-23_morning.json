@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased a set of fresh, unbranded vegetables including bottle gourd, onion, cucumber, potato, tomato, and ginger, alongside two unidentified vegetable items.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during a weekday morning, a time when morning activity is above the population baseline (32.5%). The basket consists of perishable fresh produce staples, suggesting immediate meal preparation needs.",
+  "uncertainty_text": "Confidence is low as this is a single observed order on one date. The two unidentified products (VEGGF7EXB3KWXAGJ, VEGF7EZ6NTGSCA9Y) prevent a complete description of the basket composition.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 250 g pack of Green Capsicum, one 400–450 g pack of Onion, and one 280–320 g pack of Baby Potato.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The items are fresh, unbranded vegetables commonly used as immediate meal ingredients or base components for cooking.",
+  "uncertainty_text": "Single observation on one date; cannot establish stable preferences, recurring habits, or specific meal intent beyond general utility.",
+  "overall_confidence": "low"
+}

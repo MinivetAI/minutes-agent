@@ -1,0 +1,26 @@
+{
+  "category": "Vitamins",
+  "profile_text": "In January 2026, the user placed one order for Eno Lemon Antacid Powder (30 g) on a weekday morning. This purchase occurred during a time window where the user's activity (32.46% share) is above the population baseline for this daypart. The product is a fast-acting antacid powder, typically used for immediate relief from acidity or heartburn, suggesting a need for quick digestive relief during the start of the day or after a morning meal. No browsing, search, or cart activity was observed for this category in this window.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-01-30",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category is not observed; only a single completed purchase is recorded, so conversion behavior is not established beyond this one transaction.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed beyond the single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Immediate relief from digestive discomfort such as acidity or heartburn, particularly during the morning or after a meal.",
+  "overall_confidence": "low"
+}

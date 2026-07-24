@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-17 (weekday), the user placed one order of Amul Malai Paneer 200 g in the morning. This purchase aligns with the category's population activity pattern, where 32.46% of activity occurs in the morning on weekdays. The product is a fresh dairy ingredient used for cooking. This is a single observed transaction; no browsing history or repeat purchases are available to establish brand loyalty or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Amul Malai Paneer 200 g placed in the morning. Purchased during the morning on a weekday, a time when this category sees 32.46% of population activity. The product is a fresh dairy ingredient used for cooking.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish brand loyalty or routine.",
+  "overall_confidence": "low"
+}

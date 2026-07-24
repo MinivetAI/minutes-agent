@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-17",
+  "day_type": "weekend",
+  "summary_text": "On 2026-05-17 (weekend), the user purchased one 500 g pack of Rajdhani Sabudana Sago in the morning. This timing aligns with a period where the user is 0.3246 times more likely to shop in the Grains Millets category than the average population. The product is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 500 g pack of Rajdhani Sabudana Sago. This timing aligns with a period where the user is 0.3246 times more likely to shop in the Grains Millets category than the average population. The product is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

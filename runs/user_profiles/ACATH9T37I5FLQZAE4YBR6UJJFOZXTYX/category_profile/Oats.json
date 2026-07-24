@@ -1,0 +1,40 @@
+{
+  "category": "Oats",
+  "profile_text": "The user has purchased oats on two independent dates (March 11, 2026, and April 2026). Both orders were for Quaker brand plain wholegrain oats in 400 g pouches. The March purchase occurred at night, while the April purchase was on a weekend afternoon. As there is no evidence of repeated search, view, or cart activity without purchase, this is not a discovery candidate. The user's cadence is unknown based on the two observed dates.",
+  "brand_preferences": [
+    {
+      "brand": "Quaker",
+      "preference_text": "Quaker is the only brand observed in this category, appearing on two independent dates (March 11, 2026, and April 2026).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Quaker Oats Pouch 400 g (plain wholegrain oats) was purchased on two independent dates.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-26",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "The last purchase was on 2026-04-26. Cadence is unknown, so no predicted next purchase date can be established.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on two independent dates, indicating reliable conversion from interest to purchase.",
+  "substitution_text": "No substitution behavior observed; only Quaker brand products were purchased.",
+  "price_value_text": "No price or value behavior data available.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Supports breakfast preparation and general cooking needs for pantry staples.",
+  "overall_confidence": "low"
+}

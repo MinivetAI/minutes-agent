@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Dhara Kachi Ghani Mustard Oil Pouch 1 L during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening shopping habits. The product is a 1-litre pouch of mustard oil, a staple for everyday Indian cooking tasks like tadka and frying.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this specific brand or product type.",
+  "overall_confidence": "low"
+}

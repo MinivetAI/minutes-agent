@@ -1,0 +1,93 @@
+{
+  "date": "2026-04-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-15 (weekday), a single evening order was placed containing four items across four distinct categories: Aerated Drinks, Breads, Vegetables, and Curd Yogurt. The basket included two units of Curd Yogurt and one unit each of the other items. This represents a single observation of product selection without evidence of a recurring pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order. In the broader evidence base, this pair has a support of 0.129, confidence of 0.346, and lift of 0.969, with a co-order count of 9.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order. In the broader evidence base, this pair has a support of 0.114, confidence of 0.32, and lift of 1.4, with a co-order count of 8.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were not purchased together in this order. In the broader evidence base, this pair has a support of 0.086, confidence of 0.24, and lift of 0.988, with a co-order count of 6.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order. In the broader evidence base, this pair has a support of 0.086, confidence of 0.231, and lift of 1.01, with a co-order count of 6.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were not purchased together in this order. In the broader evidence base, this pair has a support of 0.057, confidence of 0.235, and lift of 1.029, with a co-order count of 4.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and SavouriesNamkeens were not purchased together in this order. In the broader evidence base, this pair has a support of 0.057, confidence of 0.235, and lift of 2.353, with a co-order count of 4.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CannedFood",
+        "Curd Yogurt"
+      ],
+      "combination_text": "CannedFood and Curd Yogurt were not purchased together in this order. In the broader evidence base, this pair has a support of 0.057, confidence of 0.444, and lift of 1.244, with a co-order count of 4.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were not purchased together in this order. In the broader evidence base, this pair has a support of 0.057, confidence of 0.154, and lift of 0.633, with a co-order count of 4.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic meal components or snacks, combining a beverage (Aerated Drinks) with staple food items (Breads, Vegetables, Curd Yogurt).",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or recurring patterns can be inferred.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-11",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, a single order of Lay’s American Style Cream and Onion Chips (40 g) was purchased during the morning daypart. This small-format, vegetarian potato chip snack is typically used for immediate consumption, such as satisfying instant cravings, taking a short break, or serving as a light, no-prep addition to a meal or hangout. This represents a single observation on one date and does not establish a stable preference, routine, or brand loyalty; it is unclear if this is a one-time impulse buy or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Lay’s American Style Cream and Onion Chips (40 g) was purchased. This small-format, vegetarian potato chip snack is typically used for immediate consumption, such as satisfying instant cravings, taking a short break, or serving as a light, no-prep addition to a meal or hangout. This represents a single observation on one date and does not establish a stable preference, routine, or brand loyalty; it is unclear if this is a one-time impulse buy or part of a recurring habit.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this is a one-time impulse buy or part of a recurring habit.",
+  "overall_confidence": "low"
+}

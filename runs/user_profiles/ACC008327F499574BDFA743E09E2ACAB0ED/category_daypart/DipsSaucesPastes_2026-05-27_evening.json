@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 850 g pack of Tops Tomato Ketchup during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this category has a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a large-format everyday condiment suitable for immediate meal accompaniment or kitchen stock-up.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
+  "overall_confidence": "low"
+}

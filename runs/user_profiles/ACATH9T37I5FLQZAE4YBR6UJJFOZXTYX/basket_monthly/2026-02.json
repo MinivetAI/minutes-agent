@@ -1,0 +1,64 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user placed orders on 10 independent dates, predominantly on weekdays in the afternoon or evening. The basket composition is heavily anchored by Vegetables and Milk, which appear together in 8 of the 10 orders. Curd Yogurt is a frequent companion to these staples, appearing in 6 orders. Additional categories observed include Diaper, Baby Cereal, Cough medicine, and various snacks or beverages. No abandoned carts were recorded across any daypart. The behavior suggests a focus on fresh produce, dairy, and infant care, with occasional health-related purchases.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [
+    {
+      "behavior_text": "Vegetables and Milk are purchased together in the same order on 8 independent dates (2026-02-10, 2026-02-11, 2026-02-12, 2026-02-20, 2026-02-23, 2026-02-24, 2026-02-25, 2026-02-27).",
+      "circumstance_text": "Weekday afternoons and evenings.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Curd Yogurt is purchased alongside Vegetables on 5 independent dates (2026-02-10, 2026-02-11, 2026-02-20, 2026-02-24, 2026-02-27).",
+      "circumstance_text": "Weekday afternoons.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Curd Yogurt is purchased alongside Milk on 5 independent dates (2026-02-10, 2026-02-11, 2026-02-20, 2026-02-24, 2026-02-27).",
+      "circumstance_text": "Weekday afternoons.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Diaper is purchased on 3 independent dates (2026-02-12, 2026-02-27, 2026-02-28).",
+      "circumstance_text": "Weekdays and weekends.",
+      "confidence": "medium"
+    },
+    {
+      "behavior_text": "Baby Cereal is purchased on 2 independent dates (2026-02-11, 2026-02-24).",
+      "circumstance_text": "Weekdays.",
+      "confidence": "medium"
+    },
+    {
+      "behavior_text": "Cough medicine is purchased on 2 independent dates (2026-02-10, 2026-02-24).",
+      "circumstance_text": "Weekdays.",
+      "confidence": "medium"
+    }
+  ],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Aerated Drinks and Fruit Drinks were purchased together on 2026-02-07, but this combination did not recur in subsequent orders.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Savouries Namkeens were purchased on 2026-02-24 and 2026-02-27, but not on other dates.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Ghee was purchased on 2026-02-25, but not on other dates.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Feeding Nursing supplies were purchased on 2026-02-23, but not on other dates.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Rx Medicine was purchased on 2026-02-07, but not on other dates.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The user demonstrates a recurring need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), likely for daily meal preparation. There is also a recurring need for infant care supplies (Diaper, Baby Cereal) and occasional health-related items (Cough medicine).",
+  "uncertainty_text": "Cough medicine was purchased on 2026-02-10 and 2026-02-24, but not on other dates; this isolated recurrence does not establish a stable health management routine. Rx Medicine (2026-02-07), Feeding Nursing (2026-02-23), Ghee (2026-02-25), and Savouries Namkeens (2026-02-24, 2026-02-27) appeared on limited dates and are not included in stable patterns. Aerated Drinks and Fruit Drinks were only observed together on 2026-02-07.",
+  "overall_confidence": "medium"
+}

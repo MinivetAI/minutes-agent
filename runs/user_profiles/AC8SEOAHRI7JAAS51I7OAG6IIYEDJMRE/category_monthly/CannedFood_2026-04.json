@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Del Monte Baked Beans 450 g on three independent dates (2026-04-06, 2026-04-19, and 2026-04-25). This repetition establishes a stable preference for this specific brand and product variant. The user also exhibits a consistent shopping pattern, with purchases occurring during the morning on two dates and the afternoon on one date, indicating a flexible but recurring engagement with this category.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Del Monte",
+      "claim_text": "The user has a stable preference for Del Monte brand canned food, evidenced by purchases on 3 independent dates.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Del Monte Baked Beans 450 g",
+      "claim_text": "The user has a stable preference for Del Monte Baked Beans 450 g, evidenced by purchases on 3 independent dates.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the brand and product preference is stable, the daypart varies (morning vs. afternoon), so no single daypart preference is established as stable.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,9 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user purchased milk on two independent dates (2026-02-06 and 2026-02-18), both on weekdays. The user bought Amul Taaza Pasteurised Toned Milk (500 ml) on the first date and a mix of Amul Lactose Free Milk (250 ml) and Mother Dairy Cow Milk (500 ml) on the second. While the brand 'Amul' appears on both dates, the specific product variants differ (Taaza Toned vs. Lactose Free), and a different brand (Mother Dairy) appears on the second date. No single brand, product, or variant recurs on 2 or more independent dates. Therefore, no stable preference claims are established. The user's purchasing behavior is characterized by single-date observations for specific items, with no evidence of a routine or stable preference for any specific milk brand or variant. Purchases occurred in the afternoon and morning, respectively, with no consistent daypart pattern established across the month.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The evidence consists of two independent orders on different dates. No brand, product, or variant appears on both dates. The specific dietary needs, brand loyalty, or routine driving these purchases are not established. The afternoon timing on 2026-02-06 is less common than the population baseline morning or evening peaks, but this is based on a single observation. The mix of lactose-free and regular milk on 2026-02-18 suggests a need for both immediate consumption and a safe, portable option, but this is inferred from product types, not confirmed user intent.",
+  "overall_confidence": "low"
+}

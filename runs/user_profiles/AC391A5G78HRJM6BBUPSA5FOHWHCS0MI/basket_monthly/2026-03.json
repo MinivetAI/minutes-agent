@@ -1,0 +1,12 @@
+{
+  "month": "2026-03",
+  "summary_text": "A single order was placed on 2026-03-11 during the evening on a weekday. The basket contains 3 units of Cookies Biscuits and 1 unit of an Unmapped-GHE product. No abandoned carts were recorded for this daypart.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The purchase of Cookies Biscuits suggests a need for a snack or dessert item. The Unmapped-GHE product's specific use is unknown, but its inclusion alongside cookies may indicate a general grocery restock or a specific meal component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The Unmapped-GHE category lacks descriptive context, limiting the ability to define the full scope of the shopping need. Category pair evidence from other dates (e.g., Milk/Vegetables) is not reflected in this specific basket and should not be assumed to apply here.",
+  "overall_confidence": "low"
+}

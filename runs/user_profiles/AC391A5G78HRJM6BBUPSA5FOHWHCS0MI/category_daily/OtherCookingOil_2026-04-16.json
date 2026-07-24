@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-16 (weekday), the user purchased 2 units of Dhara Kachi Ghani Mustard Oil Pouch 1 L during the evening. This timing aligns with the high population share (0.3027) for this category in the evening. The product is a 1-litre pouch of mustard oil, a staple for everyday Indian cooking tasks like tadka and frying. This is a single observed order on one date; it does not establish a stable preference or routine for this specific brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 2 units of Dhara Kachi Ghani Mustard Oil Pouch 1 L during the evening on a weekday. This timing aligns with the high population share (0.3027) for this category in the evening. The product is a 1-litre pouch of mustard oil, a staple for everyday Indian cooking tasks like tadka and frying.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this specific brand or product type.",
+  "overall_confidence": "low"
+}

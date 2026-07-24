@@ -1,0 +1,52 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-04-12 during the evening on a weekend. The basket contains 8 items across 6 categories: Spices Masala (2 units), Cookies Biscuits (2 units), Unmapped-CMF (1 unit), Eggs (1 unit), Milk (1 unit), and Vegetables (1 unit). The shopper combined savory cooking ingredients (Spices, Vegetables, Eggs, Milk) with snack items (Cookies).",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.172,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk were purchased together in this order.",
+      "support": 0.138,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Spices Masala",
+        "Vegetables"
+      ],
+      "combination_text": "Spices Masala and Vegetables were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Spices Masala"
+      ],
+      "combination_text": "Cookies Biscuits and Spices Masala were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for preparing a meal involving vegetables and spices, accompanied by milk and eggs, with cookies as a snack or dessert component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category pairings are observed here but do not indicate stable, recurring preferences or durable behavior patterns without evidence from multiple independent dates.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Dhoop",
+  "profile_text": "A single observed purchase of Cycle Pure incense stems on a weekend morning in July 2026. This isolated transaction suggests an immediate need for traditional aromatic fragrance for puja or spiritual rituals but does not establish a stable preference, routine, or brand loyalty. No recurring cadence or substitution behavior is evident.",
+  "brand_preferences": [
+    {
+      "brand": "Cycle Pure",
+      "preference_text": "Observed in a single transaction; insufficient evidence to establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Cycle Pure Stem Sambrani Ishta 14N incense stems observed in a single transaction.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase, though based on a single transaction.",
+  "substitution_text": "No substitution behavior observed due to lack of repeated purchasing patterns.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
+  "mission_generation_text": "Supports immediate needs for traditional aromatic fragrance for puja or spiritual rituals.",
+  "overall_confidence": "low"
+}

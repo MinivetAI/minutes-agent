@@ -1,0 +1,26 @@
+{
+  "category": "Sugar",
+  "profile_text": "The user purchases sugar for household sweetening and beverage preparation. Evidence shows a slow replenishment cycle with purchases spanning multiple months, but no single brand or product variant has been repeated on independent dates to establish a stable preference. Purchases have included both 1 kg and 100 g packs from different brands.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 40.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-06-26",
+    "predicted_next_purchase_date": "2026-08-05",
+    "replenishment_text": "The user typically replenishes this category approximately every 40 days, classified as a slow cycle. The last purchase was on 2026-06-26, with the next expected around 2026-08-05.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably results in completed purchases, as evidenced by three distinct transactions across April, May, and June 2026.",
+  "substitution_text": "No evidence of brand or product substitution patterns; purchases vary by brand and pack size without a consistent replacement pattern.",
+  "price_value_text": "No evidence of specific price sensitivity or value-seeking behavior; purchases include both bulk (1 kg) and small (100 g) formats.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. The user buys sugar but does not show a stable preference for a specific brand or format.",
+  "mission_generation_text": "Restocking household sweeteners for daily cooking and beverage preparation.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,9 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased fresh vegetables on one observed date (2026-03-17). The order included Fresh Ginger, Cauliflower, Tinda, Bottle Gourd, and two unbranded vegetable SKUs. This single order does not establish a stable preference or routine for these specific items or for weekday evening shopping.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables or this evening timing. The two unbranded SKUs (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ) lack descriptive names, so their specific identity and utility are unknown.",
+  "overall_confidence": "low"
+}

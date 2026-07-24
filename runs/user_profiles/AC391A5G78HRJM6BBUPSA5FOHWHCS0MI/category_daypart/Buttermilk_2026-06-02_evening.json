@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One unit of buttermilk was purchased during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time period with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526) and night (0.1202) shares. Buttermilk is a dairy ingredient typically used for cooking or baking.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for buttermilk purchases.",
+  "overall_confidence": "low"
+}

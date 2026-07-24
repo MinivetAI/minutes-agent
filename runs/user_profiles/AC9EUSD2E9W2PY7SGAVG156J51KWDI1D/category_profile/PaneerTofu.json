@@ -1,0 +1,41 @@
+{
+  "category": "Paneer Tofu",
+  "profile_text": "The user has purchased Paneer Tofu on three independent dates (2026-02, 2026-05, 2026-07), establishing a slow replenishment cadence of approximately 71 days. Purchases have been for 200 g blocks, primarily from the brand Gowardhan (2 of 3 dates), with one instance of Amul. Timing varies between weekday mornings and evenings, suggesting flexible meal planning for immediate cooking needs like curries. No stable brand preference is confirmed due to the split between two brands, though Gowardhan appears more frequently. No discovery signals (search/cart without purchase) were observed.",
+  "brand_preferences": [
+    {
+      "brand": "Gowardhan",
+      "preference_text": "Purchased on 2 independent dates (2026-05, 2026-07).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "brand": "Amul",
+      "preference_text": "Purchased on 1 independent date (2026-02).",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 71.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-15",
+    "predicted_next_purchase_date": "2026-09-24",
+    "replenishment_text": "The user typically purchases this category every 71 days, with the next purchase estimated around 2026-09-24.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably results in completed purchases; no unmet interest or cart-abandonment patterns were observed.",
+  "substitution_text": "No explicit substitution behavior observed; purchases were direct for specific brands (Gowardhan, Amul).",
+  "price_value_text": "No explicit price sensitivity or value-seeking behavior observed in the transaction history.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports immediate meal preparation needs, such as cooking curries or stir-fries, with a focus on fresh dairy blocks for quick consumption.",
+  "overall_confidence": "medium"
+}

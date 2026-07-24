@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-09",
+  "day_type": "weekend",
+  "summary_text": "On 2026-05-09 (weekend), the user purchased one unit each of Tomato Hybrid (450–550 g), Tinda (500 g), and Onion (1 kg) during the afternoon. This afternoon order aligns with the user's below-baseline activity for this daypart (25.3% share vs. 32.5% population baseline). The items are fresh, unbranded staples typically used for immediate meal preparation. This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one unit each of Tomato Hybrid (450–550 g), Tinda (500 g), and Onion (1 kg).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

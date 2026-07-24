@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 600 g pack of unbranded Muskmelon during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a fresh, ready-to-eat fruit, typically used for immediate consumption such as a breakfast add-on or snack.",
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established. The specific reason for this purchase (e.g., immediate hunger, stockout, recipe ingredient) is unknown.",
+  "overall_confidence": "low"
+}

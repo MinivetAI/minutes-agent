@@ -1,0 +1,72 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-06-27 in the morning on a weekend. The basket contains dairy products (Curd Yogurt, Lassi), a beverage (Aerated Drinks), and a household item (Glass Cleaner). The user purchased 2 units of Curd Yogurt, 2 units of Lassi, 1 unit of Aerated Drinks, 1 unit of Curd Yogurt (different product ID), and 1 unit of Glass Cleaner. This represents a small basket with moderate breadth (4 distinct categories). The combination of dairy items and a cleaning product suggests a need for household replenishment or meal preparation components, but no specific intent beyond the visible items can be confirmed. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Lassi"
+      ],
+      "combination_text": "Curd Yogurt and Lassi were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Curd Yogurt and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Glass Cleaner"
+      ],
+      "combination_text": "Curd Yogurt and Glass Cleaner were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Lassi",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Lassi and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Lassi",
+        "Glass Cleaner"
+      ],
+      "combination_text": "Lassi and Glass Cleaner were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Glass Cleaner"
+      ],
+      "combination_text": "Aerated Drinks and Glass Cleaner were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for dairy products and a household cleaning supply, potentially for daily consumption and home maintenance.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'repeated', 'routine', or 'stable' cannot be inferred. The `category_pair_evidence` provided in the input does not contain pairs matching the specific categories purchased in this single order (Curd Yogurt/Lassi, Curd Yogurt/Aerated Drinks, etc.), so support/confidence/lift values are null for the observed combinations. The provided evidence pairs (e.g., Breads/Curd Yogurt) were not present in this specific transaction.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-26 (weekday), the user purchased 1 pack of Britannia 50-50 Golmaal Salted Biscuit (170 g) in the afternoon. This timing aligns with a population afternoon share of 0.2526. The product is a light, golden-baked cracker-style biscuit positioned as a sweet-and-salty fusion snack with kala jeera notes, suitable for a quick tea break or desk snack. This is a single observed order on one date; no durable preference or routine can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 pack of Britannia 50-50 Golmaal Salted Biscuit (170 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no durable preference or routine can be established.",
+  "overall_confidence": "low"
+}

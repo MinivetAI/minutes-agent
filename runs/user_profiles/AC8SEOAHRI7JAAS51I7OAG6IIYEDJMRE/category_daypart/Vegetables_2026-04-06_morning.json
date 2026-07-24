@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of a single fresh cauliflower head (400-600g) placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday, a time when 32.46% of the population shops, suggesting a routine or planned meal preparation need for a fresh vegetable.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this is a recurring preference or a one-time need.",
+  "overall_confidence": "low"
+}

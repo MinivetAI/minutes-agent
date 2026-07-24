@@ -1,0 +1,9 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased cooking oils on two independent dates. On 2026-07-04 (weekend), 2 units of Bail Kolhu Refined Mustard Oil Pouch 1 L were bought in the afternoon. On 2026-07-14 (weekday), one 750 g pouch of Fortune Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil were purchased in the evening. These purchases indicate routine kitchen replenishment for everyday cooking needs. The afternoon timing on the weekend aligns with lower population activity compared to the morning baseline (0.2526 vs 0.3246). The evening timing on the weekday aligns with the population baseline share of 0.3027 for evening purchases. The items are standard all-purpose cooking oils in convenient pouch formats, consistent with immediate kitchen replenishment or same-day meal prep.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
+  "overall_confidence": "low"
+}

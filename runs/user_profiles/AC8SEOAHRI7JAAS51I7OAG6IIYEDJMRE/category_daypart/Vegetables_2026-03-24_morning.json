@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Unbranded Cauliflower 400-600g (1 unit) placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning (32.5% population share), suggesting an immediate kitchen-fill need for a fresh vegetable, likely for same-day cooking or a side dish.",
+  "uncertainty_text": "Single observation; no evidence of repeated purchasing behavior or specific brand loyalty.",
+  "overall_confidence": "low"
+}

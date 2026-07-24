@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Pasteurised Salted Butter 100 g in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the evening, a time with high population share (0.3027) for this category, suggesting a routine kitchen replenishment or last-minute cooking need.",
+  "uncertainty_text": "Single observation; cannot establish stable brand preference or routine behavior.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-27 (weekday), the user purchased one 850 g pack of Tops Tomato Ketchup during the evening. This purchase occurred in the evening, a daypart where this category has a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a large-format everyday condiment suitable for immediate meal accompaniment or kitchen stock-up. This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 850 g pack of Tops Tomato Ketchup during the evening on a weekday. This purchase occurred in the evening, a daypart where this category has a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a large-format everyday condiment suitable for immediate meal accompaniment or kitchen stock-up. This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
+  "overall_confidence": "low"
+}

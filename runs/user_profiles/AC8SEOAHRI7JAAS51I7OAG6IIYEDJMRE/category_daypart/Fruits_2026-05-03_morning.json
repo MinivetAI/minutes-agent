@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Musk Melon Kajari (fresh whole muskmelon) in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekend, a time when morning share (0.3246) is the highest among population dayparts. The item is a fresh produce good suitable for immediate home consumption, snacking, or breakfast.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 800 ml pouch of Amul Plain Curd (dahi) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.3% share), suggesting a non-routine or specific timing for this fresh dairy top-up.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or routine for Amul curd.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased fresh muskmelons on two independent dates (2026-04-14 and 2026-04-17). Musk Melon Kajari appeared on both dates, meeting the repetition bar for stable preference. Muskmelon 600 g appeared only on 2026-04-17 and is excluded from stable lists. All purchases occurred in the morning on weekdays.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Musk Melon Kajari",
+      "claim_text": "The user has a stable preference for Musk Melon Kajari, evidenced by purchases on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Muskmelon 600 g was observed on a single date and does not meet the threshold for stable preference. No other products or patterns were repeated across independent dates.",
+  "overall_confidence": "medium"
+}

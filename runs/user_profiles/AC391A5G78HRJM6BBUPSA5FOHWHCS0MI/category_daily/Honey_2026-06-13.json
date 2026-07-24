@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-13",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-13 (weekend), one order of Zandu Pure Honey (1 kg) was placed during the evening. This timing aligns with a period holding a 30.27% population share for this activity. The product is a standard pantry staple, typically used for tea, breakfast, or general household consumption. Confidence is low because this is the only observed order on this date; it is not yet clear if this represents a stable preference or a one-time stockout-driven purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Zandu Pure Honey (1 kg) was placed during the evening on a weekend. This timing aligns with a period holding a 30.27% population share for this activity. The product is a standard pantry staple, typically used for tea, breakfast, or general household consumption.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Confidence is low because this is the only observed order on this date; it is not yet clear if this represents a stable preference or a one-time stockout-driven purchase.",
+  "overall_confidence": "low"
+}

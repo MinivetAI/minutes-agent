@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-07",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-07 (weekday), the user purchased one 1 kg pack of Fortune white sugar during the afternoon. This timing aligns with a period where population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product serves as a standard pantry staple for household sweetening. This single observation does not establish a stable preference or routine for this brand or category.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1 kg pack of Fortune white sugar during the afternoon on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

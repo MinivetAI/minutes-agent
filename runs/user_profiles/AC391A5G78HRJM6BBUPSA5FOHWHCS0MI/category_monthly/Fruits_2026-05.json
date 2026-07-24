@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased Tender Coconut (fresh whole fruit) on two independent dates (2026-05-27 and 2026-05-31). This repetition meets the threshold for a stable preference. The user also exhibited a pattern of purchasing this item on both a weekday (evening) and a weekend (morning), indicating no strict daypart or day-type constraint.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Tender Coconut (fresh whole fruit)",
+      "claim_text": "The user has a stable preference for Tender Coconut (fresh whole fruit), evidenced by purchases on 2 independent dates in May 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The preference is based on only two orders in this month; longer-term stability cannot be confirmed.",
+  "overall_confidence": "medium"
+}

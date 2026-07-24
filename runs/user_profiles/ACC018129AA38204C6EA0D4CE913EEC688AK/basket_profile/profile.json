@@ -1,0 +1,43 @@
+{
+  "profile_text": "The user’s shopping profile is characterized by a high-frequency, recurring need for fresh vegetables, which appear in six independent orders during July 2026. This core need is frequently supported by complementary meal ingredients, specifically Ready Meals (observed in three independent dates) and Curd Yogurt (observed in two independent dates). The user also demonstrates a stable, medium-confidence preference for Havan Items, purchased on two independent dates in June 2026. While the user engages in routine household maintenance (cleaning supplies, laundry) and ritualistic purchases, these items appear sporadically across different months and dates without forming a consistent, repeated combination. The user’s basket breadth varies from narrow (exclusively vegetables) to moderate (vegetables paired with dairy or ready meals). Timing behavior shows a concentration of vegetable and meal-related purchases in the evening daypart during July, while earlier months show mixed timing including weekday mornings and weekend afternoons. No stable category combinations or daypart routines are established for non-vegetable items due to lack of repetition across independent dates.",
+  "behavior_patterns": [],
+  "daypart_behavior": [],
+  "basket_structure_text": "The user’s basket is anchored by fresh vegetables, which serve as the primary recurring item. This anchor is often paired with Ready Meals to create a convenient meal solution, or with Curd Yogurt to support dairy-based meal preparation. Havan Items appear as a separate, recurring ritualistic purchase. Other categories such as cleaning supplies, laundry detergents, and other dairy products (Milk) appear in isolated instances or sporadic orders, contributing to basket breadth but not forming stable co-purchase patterns with the core vegetable anchor.",
+  "circumstance_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Vegetables",
+        "Ready Meals"
+      ],
+      "combination_text": "Vegetables and Ready Meals are frequently purchased together, suggesting a need for quick meal preparation using fresh ingredients alongside convenience foods.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Vegetables and Curd Yogurt are co-purchased on multiple independent dates, indicating a pattern of combining fresh produce with dairy staples for meal preparation.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Milk and Curd Yogurt are purchased together on two independent dates in July 2026, suggesting a routine acquisition of dairy staples.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "mission_generation_text": "The user requires a reliable supply of fresh vegetables for home-cooked meals, often supplemented by Ready Meals for convenience or Curd Yogurt for dairy-based dishes. There is also a recurring need for Havan Items for ritualistic purposes. Secondary needs include household cleaning and laundry maintenance, though these are not tied to a specific recurring schedule or combination with the primary vegetable purchases.",
+  "uncertainty_text": "While vegetable purchasing is a high-confidence stable pattern, other behaviors such as cleaning, laundry, and specific dairy combinations are based on fewer independent dates or sporadic occurrences. The user’s timing behavior (daypart) is not stable across all categories, with vegetables appearing in the evening but other items in mornings or weekends. No demographic, household size, or specific life-stage inferences can be made from this evidence.",
+  "overall_confidence": "medium"
+}

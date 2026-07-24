@@ -515,9 +515,56 @@ class PreferenceDimension(str, Enum):
     PRICE = "price"
 
 
+class CadenceClass(str, Enum):
+    FAST = "fast"
+    MEDIUM = "medium"
+    SLOW = "slow"
+    UNKNOWN = "unknown"
+
+
+class FunnelStage(str, Enum):
+    VIEWED = "viewed"
+    SEARCHED = "searched"
+    ADDED_TO_CART = "added_to_cart"
+    REMOVED_FROM_CART = "removed_from_cart"
+    PURCHASED = "purchased"
+
+
+# Fixed evidence-strength prior: a view is not equivalent evidence to a purchase,
+# and no stage may be narrated with the certainty of a stronger one.
+FUNNEL_STAGE_WEIGHT = {
+    FunnelStage.VIEWED: 0.1,
+    FunnelStage.SEARCHED: 0.2,
+    FunnelStage.ADDED_TO_CART: 0.4,
+    FunnelStage.REMOVED_FROM_CART: -0.2,
+    FunnelStage.PURCHASED: 1.0,
+}
+
+
+class FunnelEvent(BaseModel):
+    stage: FunnelStage = Field(description="Funnel stage this event represents")
+    product_name: Optional[str] = Field(default=None, description="Product viewed, cart-adjusted, or purchased")
+    query_text: Optional[str] = Field(default=None, description="Search query text, when stage is searched")
+    view_count: Optional[int] = Field(default=None, ge=1, description="Number of views in this window, when stage is viewed")
+    quantity: Optional[int] = Field(default=None, ge=1, description="Units affected, when stage is added_to_cart")
+
+
+class FunnelSignal(BaseModel):
+    highest_stage_reached: FunnelStage = Field(
+        description="Strongest funnel stage present in the supplied evidence; must exactly reflect the supplied events and order_count, never inferred beyond what is present"
+    )
+    converted: bool = Field(description="Whether a purchase occurred in this window")
+    signal_text: str = Field(description="What the funnel evidence shows, without inventing a cause for non-conversion")
+    confidence: ProfileConfidence = Field(description="Confidence in this funnel signal")
+
+
 class CategoryProductEvidence(BaseModel):
     product_name: str = Field(description="User-visible ordered product name")
     category: str = Field(description="Minutes product category")
+    brand: Optional[str] = Field(
+        default=None,
+        description="Catalog brand for this product; the only source for brand_preferences — never parsed or guessed from product_name",
+    )
     product_type: Optional[str] = Field(
         default=None,
         description="Readable product type or variant family when available",
@@ -538,10 +585,18 @@ class CategoryDaypartSummaryInput(BaseModel):
     date: str = Field(description="Calendar date in YYYY-MM-DD format")
     daypart: Daypart = Field(description="Morning, afternoon, evening, night, or unknown")
     day_type: DayType = Field(description="Weekday, weekend, or unknown")
-    order_count: int = Field(ge=1, description="Orders contributing category evidence")
+    population_daypart_share: Dict[str, float] = Field(
+        default_factory=dict,
+        description="Population daypart share baseline (morning/afternoon/evening/night), for anchoring timing claims",
+    )
+    order_count: int = Field(ge=0, default=0, description="Orders contributing category evidence; may be zero when only funnel evidence is present")
     products: List[CategoryProductEvidence] = Field(
-        min_length=1,
-        description="Ordered products in this category and daypart",
+        default_factory=list,
+        description="Ordered products in this category and daypart, when order_count > 0",
+    )
+    funnel_events: List[FunnelEvent] = Field(
+        default_factory=list,
+        description="Search, view, cart-add, and cart-remove evidence for this category and daypart",
     )
 
 
@@ -550,6 +605,8 @@ class PreferenceClaim(BaseModel):
     value: str = Field(description="Observed brand, product, variant, size, quantity, or price signal")
     claim_text: str = Field(description="Natural-language preference signal")
     confidence: ProfileConfidence = Field(description="Confidence in the preference, not merely the purchase fact")
+    evidence_count: int = Field(default=0, ge=0, description="Aggregate count of supporting observations")
+    independent_date_count: int = Field(default=0, ge=0, description="Distinct dates supporting this claim")
 
 
 class CategoryDaypartSummaryOutput(BaseModel):
@@ -559,6 +616,10 @@ class CategoryDaypartSummaryOutput(BaseModel):
     preference_claims: List[PreferenceClaim] = Field(
         default_factory=list,
         description="Tentative preference signals; empty is valid for one-off activity",
+    )
+    funnel_signal: Optional[FunnelSignal] = Field(
+        default=None,
+        description="What the funnel evidence (search/view/cart/purchase) shows for this window",
     )
     shopping_context_text: str = Field(
         description="Observed timing and general product utility without inventing the user's reason"
@@ -625,6 +686,25 @@ class CategoryMonthlySummaryOutput(BaseModel):
 
 class CategoryProfileInput(BaseModel):
     category: str = Field(description="Minutes product category")
+    observed_cadence_days: Optional[float] = Field(
+        default=None,
+        description="This user's own median days between purchases in this category, computed upstream from order timestamps; never derived by the LLM",
+    )
+    observed_cadence_evidence_count: int = Field(default=0, ge=0, description="Purchases underlying observed_cadence_days")
+    observed_cadence_independent_date_count: int = Field(default=0, ge=0, description="Distinct purchase dates underlying observed_cadence_days")
+    observed_cadence_class: CadenceClass = Field(
+        default=CadenceClass.UNKNOWN,
+        description="Classified upstream from observed_cadence_days by a fixed threshold; the LLM echoes this, it never classifies the number itself",
+    )
+    observed_last_purchase_date: Optional[str] = Field(
+        default=None,
+        description="This user's most recent purchase date in this category (YYYY-MM-DD), computed upstream",
+    )
+    observed_predicted_next_purchase_date: Optional[str] = Field(
+        default=None,
+        description="observed_last_purchase_date + observed_cadence_days, computed upstream by simple date arithmetic; "
+        "null whenever observed_cadence_days is null. The LLM echoes this, it never adds the days itself.",
+    )
     recent_daypart_summaries: List[CategoryDaypartSummaryOutput] = Field(default_factory=list)
     recent_daily_summaries: List[CategoryDailySummaryOutput] = Field(default_factory=list)
     monthly_summaries: List[CategoryMonthlySummaryOutput] = Field(default_factory=list)
@@ -634,6 +714,8 @@ class BrandPreference(BaseModel):
     brand: str = Field(description="Brand name")
     preference_text: str = Field(description="What the evidence says about this brand")
     confidence: ProfileConfidence = Field(description="Confidence in the brand preference")
+    evidence_count: int = Field(default=0, ge=0, description="Aggregate count of supporting purchases")
+    independent_date_count: int = Field(default=0, ge=0, description="Distinct dates supporting this preference")
 
 
 class ProductPreference(BaseModel):
@@ -652,12 +734,46 @@ class QuantityPreference(BaseModel):
 class TimingPreference(BaseModel):
     daypart_or_day_type: str = Field(description="Daypart or weekday/weekend bucket")
     preference_text: str = Field(description="Observed timing behavior")
+    affinity_ratio: Optional[float] = Field(
+        default=None,
+        description="User share divided by supplied population baseline share for this bucket; echoed from input, not computed by the LLM",
+    )
     confidence: ProfileConfidence = Field(description="Confidence in the timing preference")
 
 
 class EmergingPreference(BaseModel):
     preference_text: str = Field(description="Recent but not yet stable preference")
     confidence: ProfileConfidence = Field(description="Confidence in the emerging signal")
+
+
+class ReplenishmentCadence(BaseModel):
+    cadence_days: Optional[float] = Field(
+        default=None,
+        description="Echoed from CategoryProfileInput.observed_cadence_days; null when no cadence can be established",
+    )
+    cadence_class: CadenceClass = Field(description="Echoed/classified from the supplied cadence; unknown when cadence_days is null")
+    last_purchase_date: Optional[str] = Field(
+        default=None,
+        description="Echoed from CategoryProfileInput.observed_last_purchase_date",
+    )
+    predicted_next_purchase_date: Optional[str] = Field(
+        default=None,
+        description="Echoed from CategoryProfileInput.observed_predicted_next_purchase_date. This is an approximate "
+        "date from average cadence, not a live due/not-due claim — the Feed Service should recompute due-ness at "
+        "request time from its own freshest last-purchase-date, per the profile/serving division of labor.",
+    )
+    replenishment_text: str = Field(description="What the cadence means, in words; never a re-derivation of the number")
+    confidence: ProfileConfidence = Field(description="Confidence in this replenishment cadence")
+    evidence_count: int = Field(default=0, ge=0, description="Aggregate count of supporting purchases")
+    independent_date_count: int = Field(default=0, ge=0, description="Distinct dates supporting this cadence")
+
+
+class DiscoveryCandidate(BaseModel):
+    is_candidate: bool = Field(description="Whether this category shows unconverted interest worth surfacing as discovery")
+    candidate_text: str = Field(description="What the search/view/cart evidence shows, without a purchase")
+    confidence: ProfileConfidence = Field(description="Confidence in this discovery signal")
+    evidence_count: int = Field(default=0, ge=0, description="Aggregate count of supporting funnel events")
+    independent_date_count: int = Field(default=0, ge=0, description="Distinct dates supporting this signal")
 
 
 class CategoryProfileOutput(BaseModel):
@@ -667,7 +783,17 @@ class CategoryProfileOutput(BaseModel):
     product_preferences: List[ProductPreference] = Field(default_factory=list)
     quantity_preferences: List[QuantityPreference] = Field(default_factory=list)
     temporal_preferences: List[TimingPreference] = Field(default_factory=list)
-    replenishment_text: Optional[str] = Field(default=None)
+    replenishment: Optional[ReplenishmentCadence] = Field(
+        default=None,
+        description="This category's replenishment cadence; null only when observed_cadence_days was not supplied",
+    )
+    discovery_candidate: Optional[DiscoveryCandidate] = Field(
+        default=None,
+        description="Set when this category shows repeated, unconverted search/view/cart interest; null when purchases convert reliably",
+    )
+    conversion_text: str = Field(
+        description="Whether observed interest in this category reliably becomes a purchase"
+    )
     substitution_text: Optional[str] = Field(default=None)
     price_value_text: Optional[str] = Field(default=None)
     emerging_preferences: List[EmergingPreference] = Field(default_factory=list)
@@ -686,11 +812,27 @@ class BasketOrder(BaseModel):
     products: List[BasketProduct] = Field(min_length=1, description="Products bought together")
 
 
+class CategoryPairEvidence(BaseModel):
+    categories: List[str] = Field(description="The two (or more) categories in this pair/set")
+    support: float = Field(description="Co-occurrence support, computed upstream")
+    confidence: float = Field(description="Conditional co-occurrence confidence, computed upstream")
+    lift: float = Field(description="Co-occurrence lift, computed upstream")
+    co_order_count: int = Field(ge=0, description="Orders containing this combination")
+
+
 class BasketDaypartSummaryInput(BaseModel):
     date: str = Field(description="Calendar date in YYYY-MM-DD format")
     daypart: Daypart = Field(description="Morning, afternoon, evening, night, or unknown")
     day_type: DayType = Field(description="Weekday, weekend, or unknown")
-    orders: List[BasketOrder] = Field(min_length=1, description="Complete orders in this daypart")
+    orders: List[BasketOrder] = Field(default_factory=list, description="Complete orders in this daypart")
+    abandoned_carts: List[BasketOrder] = Field(
+        default_factory=list,
+        description="Carts assembled but not checked out in this daypart",
+    )
+    category_pair_evidence: List[CategoryPairEvidence] = Field(
+        default_factory=list,
+        description="Precomputed category/product-pair support, confidence, and lift for this user",
+    )
 
 
 class BehaviorPattern(BaseModel):
@@ -702,7 +844,17 @@ class BehaviorPattern(BaseModel):
 class CategoryCombination(BaseModel):
     categories: List[str] = Field(description="Categories bought together")
     combination_text: str = Field(description="How these categories appear together")
+    support: Optional[float] = Field(default=None, description="Echoed from supplied category_pair_evidence")
+    lift: Optional[float] = Field(default=None, description="Echoed from supplied category_pair_evidence")
     confidence: ProfileConfidence = Field(description="Confidence in this combination")
+
+
+class AbandonmentPattern(BaseModel):
+    categories: List[str] = Field(description="Categories present in the abandoned cart")
+    abandonment_text: str = Field(description="What was assembled and not checked out, without a guessed reason")
+    confidence: ProfileConfidence = Field(description="Confidence in this abandonment pattern")
+    evidence_count: int = Field(default=0, ge=0, description="Aggregate count of supporting abandoned carts")
+    independent_date_count: int = Field(default=0, ge=0, description="Distinct dates supporting this pattern")
 
 
 class BasketDaypartSummaryOutput(BaseModel):
@@ -711,6 +863,7 @@ class BasketDaypartSummaryOutput(BaseModel):
     basket_summary_text: str = Field(description="Cohesive summary of the complete orders")
     behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
     category_combinations: List[CategoryCombination] = Field(default_factory=list)
+    abandonment_patterns: List[AbandonmentPattern] = Field(default_factory=list)
     shopping_need_text: str = Field(description="Shopping need compatible with the basket, without claiming intent")
     uncertainty_text: str = Field(description="What cannot be inferred from these orders")
     overall_confidence: ProfileConfidence = Field(description="Overall confidence")
@@ -725,11 +878,18 @@ class BasketDailySummaryInput(BaseModel):
 class DaypartBehavior(BaseModel):
     daypart: Daypart = Field(description="Daypart observed")
     behavior_text: str = Field(description="Shopping behavior in this daypart")
+    affinity_ratio: Optional[float] = Field(
+        default=None,
+        description="User share divided by supplied population baseline share for this daypart; echoed from input, not computed by the LLM",
+    )
     confidence: ProfileConfidence = Field(description="Confidence in this behavior")
 
 
 class CombinationPattern(BaseModel):
+    categories: List[str] = Field(default_factory=list, description="Categories in this recurring combination")
     combination_text: str = Field(description="Repeated or notable category combination")
+    support: Optional[float] = Field(default=None, description="Echoed from supplied category_pair_evidence")
+    lift: Optional[float] = Field(default=None, description="Echoed from supplied category_pair_evidence")
     confidence: ProfileConfidence = Field(description="Confidence in this pattern")
 
 
@@ -740,6 +900,7 @@ class BasketDailySummaryOutput(BaseModel):
     daypart_behavior: List[DaypartBehavior] = Field(default_factory=list)
     behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
     category_combination_patterns: List[CombinationPattern] = Field(default_factory=list)
+    abandonment_patterns: List[AbandonmentPattern] = Field(default_factory=list)
     shopping_need_text: str = Field(description="Shopping needs compatible with the day's baskets")
     uncertainty_text: str = Field(description="What this day cannot establish")
     overall_confidence: ProfileConfidence = Field(description="Overall confidence")
@@ -756,6 +917,7 @@ class BasketMonthlySummaryOutput(BaseModel):
     stable_daypart_behavior: List[DaypartBehavior] = Field(default_factory=list)
     stable_behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
     category_combination_patterns: List[CombinationPattern] = Field(default_factory=list)
+    abandonment_patterns: List[AbandonmentPattern] = Field(default_factory=list)
     trend_claims: List[TrendClaim] = Field(default_factory=list)
     shopping_need_text: str = Field(description="Repeated shopping needs supported by the month")
     uncertainty_text: str = Field(description="What the monthly baskets cannot establish")
@@ -781,6 +943,7 @@ class BasketProfileOutput(BaseModel):
     basket_structure_text: str = Field(description="Typical basket breadth and composition")
     circumstance_patterns: List[CircumstancePattern] = Field(default_factory=list)
     category_combination_patterns: List[CombinationPattern] = Field(default_factory=list)
+    abandonment_patterns: List[AbandonmentPattern] = Field(default_factory=list)
     mission_generation_text: str = Field(description="Shopping needs supported by basket behavior")
     uncertainty_text: str = Field(description="Basket behavior that remains unknown")
     overall_confidence: ProfileConfidence = Field(description="Overall profile confidence")
@@ -791,16 +954,53 @@ class GlobalProfileInput(BaseModel):
     basket_profile: BasketProfileOutput
     recent_summaries: List[str] = Field(
         default_factory=list,
-        description="Recent clean category or basket summaries, newest last",
+        description="Recent clean category or basket daypart/daily summary text, newest last, for freshness weighting",
     )
+    total_category_count: Optional[int] = Field(
+        default=None,
+        description="This user's total category count, supplied only when it exceeds len(category_profiles) — "
+        "meaning the calling service capped this call to the best-evidenced categories (by confidence and "
+        "evidence depth, not purchase volume) for a heavy-tail user and omitted the rest. Null or equal to "
+        "len(category_profiles) means nothing was omitted.",
+    )
+
+
+class StructuredSignalSource(str, Enum):
+    CATEGORY_PROFILE = "category_profile"
+    BASKET_PROFILE = "basket_profile"
+    CATEGORY_AND_BASKET_PROFILE = "category_profile+basket_profile"
+
+
+class StructuredSignal(BaseModel):
+    signal_type: str = Field(
+        description="e.g. replenishment_cadence, discovery_candidate, cart_recovery, cross_category_pattern; open-ended, not a fixed enum"
+    )
+    category_or_mission: str = Field(description="The category or mission concept this signal is about")
+    confidence: ProfileConfidence = Field(description="Confidence in this signal; never a numeric score")
+    source: StructuredSignalSource = Field(
+        description="Which input(s) produced this signal; cross_category_pattern requires both"
+    )
+    rationale_text: str = Field(description="What supports this signal")
 
 
 class GlobalProfileOutput(BaseModel):
     profile_text: str = Field(description="Stable global shopping profile")
-    category_preference_text: str = Field(description="Cross-category preference synthesis")
+    category_preference_text: str = Field(
+        description="Cross-category preference synthesis; must represent every supplied category profile, not only the strongest"
+    )
+    coverage_text: str = Field(
+        description="States whether this profile covers all of the user's categories or only the best-evidenced "
+        "subset; when total_category_count exceeds the supplied category_profiles, names the omitted count "
+        "without inventing what those categories are"
+    )
     basket_context_text: str = Field(description="Basket-building behavior synthesis")
-    cross_category_patterns: List[str] = Field(default_factory=list)
-    stable_mission_tendencies: List[str] = Field(default_factory=list)
+    replenishment_summary_text: str = Field(
+        description="Cadence comparison across every supplied category profile; compares only cadence_days/cadence_class already supplied, never invents a number"
+    )
+    structured_signals: List[StructuredSignal] = Field(
+        default_factory=list,
+        description="Typed, traceable claims for the Feed Service to score and rank; no numeric strength/weight belongs here",
+    )
     mission_generation_text: str = Field(description="Stable shopping needs for mission retrieval")
     uncertainty_text: str = Field(description="Global unknowns and confidence boundaries")
     overall_confidence: ProfileConfidence = Field(description="Overall global confidence")
@@ -836,6 +1036,76 @@ class FeedQualityReviewOutput(BaseModel):
     verdict: str = Field(description="good or needs_iteration")
     strengths: List[str] = Field(default_factory=list)
     issues: List[str] = Field(default_factory=list)
+
+
+# Occasion-event overlay pipeline: a separate, distinct kind of evidence from
+# funnel/interaction events. Never merged into the stable global profile.
+
+
+class OccasionRelationship(str, Enum):
+    UNRELATED = "unrelated"
+    POSSIBLY_RELATED = "possibly_related"
+    LIKELY_RELATED = "likely_related"
+
+
+class OccasionBasketSummaryRef(BaseModel):
+    daypart: Daypart = Field(description="Daypart of this basket")
+    basket_summary_text: str = Field(description="Cohesive summary of the order during the occasion window")
+    occasion_relationship: OccasionRelationship = Field(
+        description="Whether this basket appears related to the occasion; the LLM assesses this, it never invents an active occasion"
+    )
+
+
+class OccasionEventOccurrenceSummaryInput(BaseModel):
+    occasion_type: str = Field(description="Authoritative occasion type supplied by the calendar service")
+    occasion_name: str = Field(description="Human-readable occasion name")
+    basket_summaries: List[OccasionBasketSummaryRef] = Field(
+        min_length=1, description="Basket evidence during this one occasion occurrence"
+    )
+    ordinary_baseline_text: str = Field(
+        description="What the user's ordinary (non-occasion) behavior looks like, for comparison"
+    )
+
+
+class CategoryShift(BaseModel):
+    category: str = Field(description="Category showing a shift during the occasion")
+    shift_text: str = Field(description="How this category's demand differed from the ordinary baseline")
+    confidence: ProfileConfidence = Field(description="Confidence in this shift")
+
+
+class OccasionEventOccurrenceSummaryOutput(BaseModel):
+    occasion_type: str = Field(description="Echoed occasion type")
+    occurrence_summary_text: str = Field(description="What happened during this occurrence")
+    behavior_delta_text: str = Field(description="How this differed from the user's ordinary baseline")
+    category_shifts: List[CategoryShift] = Field(default_factory=list)
+    uncertainty_text: str = Field(description="What one occurrence cannot establish")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class UserOccasionEventProfileInput(BaseModel):
+    occasion_type: str = Field(description="The occasion type this profile is for")
+    occurrence_summaries: List[OccasionEventOccurrenceSummaryOutput] = Field(
+        min_length=1, description="Accumulated occurrence summaries for this occasion type"
+    )
+
+
+class CategorySignal(BaseModel):
+    category: str = Field(description="Category relevant during this occasion")
+    preference_text: str = Field(description="How this category's relevance changes during the occasion")
+    confidence: ProfileConfidence = Field(description="Confidence in this signal")
+    evidence_count: int = Field(default=0, ge=0, description="Aggregate count of supporting occurrences")
+    independent_date_count: int = Field(default=0, ge=0, description="Distinct occurrence dates supporting this signal")
+
+
+class UserOccasionEventProfileOutput(BaseModel):
+    occasion_type: str = Field(description="Echoed occasion type")
+    profile_text: str = Field(description="How the user's behavior changes during this occasion")
+    category_signals: List[CategorySignal] = Field(default_factory=list)
+    mission_generation_text: str = Field(
+        description="Occasion-specific shopping needs; applied only as an overlay, never merged into the global profile"
+    )
+    uncertainty_text: str = Field(description="What this occasion profile cannot establish")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
 
 
 class ReasonType(str, Enum):

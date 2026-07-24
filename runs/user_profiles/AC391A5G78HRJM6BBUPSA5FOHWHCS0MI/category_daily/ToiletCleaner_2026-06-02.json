@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-02 (weekday), the user purchased one 600 ml bottle of Harpic Power Plus Original Liquid Toilet Cleaner during the evening. This timing aligns with the high population share (0.3027) for this category in the evening, suggesting behavior consistent with general bathroom hygiene staple purchasing patterns. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replacement need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 600 ml bottle of Harpic Power Plus Original Liquid Toilet Cleaner during the evening, a period with high population share (0.3027) for this category.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replacement need.",
+  "overall_confidence": "low"
+}

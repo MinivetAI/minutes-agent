@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-09 (weekday), the user purchased 1 pack of Amul A+ Processed Cheese Slices (200 g) in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a convenient, portion-controlled dairy item typically used for quick meals like sandwiches or snacks. This is a single observed order; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 pack of Amul A+ Processed Cheese Slices (200 g) in the afternoon on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

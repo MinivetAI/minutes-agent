@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 500 ml bottle of Gowardhan Pure Cow Ghee.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when the user's activity was below the population baseline for this daypart (25.26%). The product is a standard household kitchen staple used for cooking and food preparation.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for the Gowardhan brand or a routine afternoon shopping habit.",
+  "overall_confidence": "low"
+}

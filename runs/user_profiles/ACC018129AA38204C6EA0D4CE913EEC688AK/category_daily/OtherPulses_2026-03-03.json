@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-03 (weekday), a single order of Classic Brown Chana Whole (500 g) was placed during the evening. This timing aligns with a high population share (0.3027) for Other Pulses in the evening. The purchase suggests a need for pantry replenishment or meal preparation. As this is a single observation on one date, no stable brand or product preferences can be established, and it is unclear if this was a one-time stockout refill or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Classic Brown Chana Whole (500 g) was placed during the evening on a weekday. This timing aligns with a high population share (0.3027) for Other Pulses in the evening. The purchase suggests a need for pantry replenishment or meal preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established. It is unclear if this was a one-time stockout refill or part of a recurring habit.",
+  "overall_confidence": "low"
+}

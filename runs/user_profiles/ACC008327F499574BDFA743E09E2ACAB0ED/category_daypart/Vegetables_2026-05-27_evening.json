@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one pack of unbranded red and yellow bell peppers (2 units) and one 250g pack of unbranded green bell peppers during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity (1 order) aligns with the population baseline for this daypart (30.27% share). The items are fresh produce typically used for immediate meal preparation, such as salads, stir-fries, or cooking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for these specific brands or product types, nor does it indicate a recurring routine.",
+  "overall_confidence": "low"
+}

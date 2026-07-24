@@ -1,0 +1,42 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-01-30 in the afternoon on a weekday. The basket contains four items across three categories: two units of Curd Yogurt, one unit of Vegetables, and one unit of Savouries Namkeens. The shopping need text suggests a need for basic meal components or snacks compatible with this combination. As this is a single observed order, it represents an observation rather than a durable preference pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Curd Yogurt and Savouries Namkeens were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Vegetables and Savouries Namkeens were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal components or snacks.",
+  "uncertainty_text": "This is a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. No durable behavior pattern can be inferred from this single instance.",
+  "overall_confidence": "low"
+}

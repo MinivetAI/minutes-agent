@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-26",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-26 (weekend), the user purchased 3 units of Bikaji Chowpati Bhelpuri 110 g during the afternoon. This packaged Indian savoury snack is a ready-to-eat chaat-style mix suitable for immediate snacking. The afternoon timing aligns with a period of lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This single observed order does not establish a stable or recurring preference for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 3 units of Bikaji Chowpati Bhelpuri 110 g, a packaged Indian savoury snack, during the afternoon on a weekend. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a ready-to-eat chaat-style mix, typically used for immediate snacking or impulse hunger.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+  "overall_confidence": "low"
+}

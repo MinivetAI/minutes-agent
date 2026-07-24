@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "One order of Flour (1 unit) placed during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a staple baking ingredient.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-09 (weekday), a single order of Parwal (250 g), an unbranded fresh pointed gourd, was purchased in the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than morning (0.3246) and evening (0.3027). The product is a fresh, perishable vegetable suitable for immediate meal preparation. This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific transaction.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Parwal (250 g) was purchased in the afternoon.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific transaction.",
+  "overall_confidence": "low"
+}

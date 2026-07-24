@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-01 (weekday), the user purchased one unit of VEGGF7EXB3KWXAGJ and two units of unbranded fresh bottle gourd (400–600 g) during a morning session. This morning purchase aligns with the category's 32.46% population activity share for this daypart. The items are fresh produce suitable for immediate meal preparation. This is a single observed transaction; no stable brand or product preferences can be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one unit of VEGGF7EXB3KWXAGJ and two units of unbranded fresh bottle gourd (400–600 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no stable brand or product preferences can be established from this isolated event.",
+  "overall_confidence": "low"
+}

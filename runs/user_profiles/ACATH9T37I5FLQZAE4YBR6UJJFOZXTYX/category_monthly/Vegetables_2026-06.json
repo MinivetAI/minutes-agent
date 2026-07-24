@@ -1,0 +1,58 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased fresh, unbranded vegetables across 12 independent dates. The most consistent pattern involves the recurring purchase of baby potatoes and onions, which appeared together on 8 separate dates (2026-06-04, 2026-06-07, 2026-06-10, 2026-06-11, 2026-06-15, 2026-06-17, 2026-06-21, 2026-06-23, 2026-06-25, 2026-06-28). While the specific items varied in other orders (including tomatoes, coriander, spinach, carrots, and gourds), the baby potato and onion pair represents a stable, high-frequency staple. Shopping activity is distributed across morning, afternoon, and night dayparts, with a notable concentration in the morning on weekdays and weekends. There are no significant trend shifts; the behavior reflects a consistent need for immediate meal preparation ingredients.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Baby Potato (280–320 g)",
+      "claim_text": "Baby potatoes were purchased on 8 independent dates in June 2026, indicating a stable preference for this specific fresh produce staple.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
+    {
+      "dimension": "product",
+      "value": "Onion (400–450 g)",
+      "claim_text": "Onions were purchased on 8 independent dates in June 2026, indicating a stable preference for this specific fresh produce staple.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
+    {
+      "dimension": "product",
+      "value": "Coriander Leaves",
+      "claim_text": "Coriander leaves were purchased on 2 independent dates (2026-06-03, 2026-06-07), indicating a stable preference for this herb.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Beetroot",
+      "claim_text": "Beetroot was purchased on 2 independent dates (2026-06-15, 2026-06-17), indicating a stable preference for this root vegetable.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Sweet Potato",
+      "claim_text": "Sweet potato was purchased on 2 independent dates (2026-06-15, 2026-06-27), indicating a stable preference for this root vegetable.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Spinach",
+      "claim_text": "Spinach was purchased on 2 independent dates (2026-06-03, 2026-06-27), indicating a stable preference for this leafy green.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While baby potatoes and onions show high-confidence stability due to their appearance on 8 independent dates, other vegetables like tomatoes, carrots, and gourds appeared only once and are excluded from stable claims. The user's vegetable selection varies significantly in composition across dates, suggesting flexible meal planning rather than a fixed recipe routine for non-staple items.",
+  "overall_confidence": "high"
+}

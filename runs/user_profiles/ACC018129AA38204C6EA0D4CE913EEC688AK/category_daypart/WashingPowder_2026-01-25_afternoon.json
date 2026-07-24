@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 500 g pack of Wheel Active 2 in 1 Clean and Fresh Detergent Powder.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon on a weekend, a timing that aligns with the population baseline where afternoon activity (25.26%) is less dominant than morning (32.46%) or evening (30.27%). The 500 g pack size suggests a small top-up or urgent replenishment need rather than a bulk stock-up.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable brand preference or routine. It is unclear if this is a one-time switch, a trial, or part of a recurring habit.",
+  "overall_confidence": "low"
+}

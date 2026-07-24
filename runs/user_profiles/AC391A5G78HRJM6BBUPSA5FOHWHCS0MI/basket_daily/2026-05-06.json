@@ -1,0 +1,12 @@
+{
+  "date": "2026-05-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-06 during the night on a weekday, the user placed a single order containing 1 unit of Chocolates. No abandoned carts were recorded. The basket breadth is narrow, consisting of a single category. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for a sweet treat or snack.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Therefore, `overall_confidence` is low. No durable behavior patterns, repeated habits, or stable preferences can be inferred from this single data point.",
+  "overall_confidence": "low"
+}

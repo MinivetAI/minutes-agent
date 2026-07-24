@@ -1,0 +1,18 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased fresh, unbranded vegetables on four independent dates. Local Tomato, Lady’s Finger, Local Cucumber, and Bottle Gourd each appeared on a single date and do not meet the repetition threshold for stable preference. Unbranded fresh onions appeared on two independent dates (2026-06-21 and 2026-06-28), meeting the repetition bar for stable preference with medium confidence. All purchases occurred in the morning, a daypart where the user’s activity is generally above the population baseline (32.46%), though one instance on 2026-06-28 was below baseline. No other stable patterns or trends are supported by the evidence.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Unbranded fresh onions",
+      "claim_text": "The user purchased unbranded fresh onions on two independent dates in June 2026 (2026-06-21 and 2026-06-28), indicating a stable preference with medium confidence.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Confidence is limited to medium for onions due to only two independent dates. Other vegetables (Tomato, Lady’s Finger, Cucumber, Bottle Gourd) were observed on single dates only and are excluded from stable preference lists. Morning timing is consistent but not stable enough to claim a routine beyond the observed dates.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,29 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, three independent orders were placed, all occurring during the morning daypart on weekdays and weekends. The user consistently purchased fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) across multiple dates. A single order included baby food (Baby Cereal), while another included ready meals and jaggery. No stable category combinations or daypart behaviors can be confirmed as durable preferences due to the low number of independent dates (3 total, but only 2 share the core Milk/Vegetables/Curd Yogurt pattern, and even that is limited to 2 dates). Abandonment patterns are not included in the stable list as no categories were abandoned across independent dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Vegetables were purchased in all three independent orders (2026-07-02, 2026-07-04, 2026-07-08).",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Milk was purchased in two independent orders (2026-07-02, 2026-07-04).",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Curd Yogurt was purchased in two independent orders (2026-07-02, 2026-07-04).",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "All three orders occurred during the morning daypart.",
+      "confidence": "medium"
+    }
+  ],
+  "shopping_need_text": "The user demonstrates a recurring need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) across multiple shopping instances. Additional needs include breakfast components (Poha, Grains Millets) and baby food (Baby Cereal) in specific instances.",
+  "uncertainty_text": "This analysis is based on only three independent dates. While Vegetables, Milk, and Curd Yogurt appear in multiple orders, the sample size is insufficient to establish high-confidence stable routines or predict future behavior with certainty. The presence of Baby Cereal in only one order and Ready Meals/Jaggery in another prevents these from being classified as stable patterns. The consistent morning daypart timing is noted but based on a small sample.",
+  "overall_confidence": "low"
+}

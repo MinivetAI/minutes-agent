@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-13 (weekday), the user purchased one 0.75 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon) during the morning. This purchase aligns with morning activity that is above the population baseline (32.5%). The product is a standard household cleaning item used for hand-washing utensils. This is a single observation on one date; it does not establish a stable preference for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 0.75 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon) on a weekday morning. The purchase occurred in the morning, a time when morning activity is above the population baseline (32.5%). The product is a standard household cleaning item used for hand-washing utensils.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

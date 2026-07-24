@@ -1,0 +1,40 @@
+{
+  "category": "Conditioner",
+  "profile_text": "The user has purchased L'Oréal Paris Total Repair 5 Conditioner on two independent dates (January and June 2026). While the brand appears twice, the purchases are separated by five months and lack a defined cadence, preventing the establishment of a high-confidence stable preference or routine. The product is used for damaged-hair repair and general hair care maintenance.",
+  "brand_preferences": [
+    {
+      "brand": "L'Oréal Paris",
+      "preference_text": "Purchased on two independent dates (Jan and Jun 2026), but the long gap and lack of cadence suggest occasional use rather than a strong, routine-driven preference.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "L'Oréal Paris Total Repair 5 Conditioner (175 ml) was purchased on two independent dates. The consistent selection of this specific variant suggests a known compatibility with its damaged-hair repair function, though the irregular timing prevents classifying it as a strict routine.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-02",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No regular cadence is established; the last purchase was on 2026-06-02, with no predicted next date due to unknown frequency.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions for the observed brand and product.",
+  "substitution_text": null,
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident from the single-variant, low-frequency purchases.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior is observed. The user's specific hair concerns beyond 'damaged/dry' are not explicitly stated, and the long gap between purchases means the current stock status is unknown.",
+  "mission_generation_text": "Supports regular hair washing routines focused on repairing damage, improving smoothness, and managing dryness or brittleness.",
+  "overall_confidence": "low"
+}

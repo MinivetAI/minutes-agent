@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 415 g bottle of Kissan Sweet & Spicy Sauce, a tomato-based condiment typically used for dipping snacks or adding flavor to meals.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (25.26%) is lower than the morning (32.46%) and evening (30.27%) peaks. The product serves an immediate utility for quick meal accompaniments or snacking.",
+  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

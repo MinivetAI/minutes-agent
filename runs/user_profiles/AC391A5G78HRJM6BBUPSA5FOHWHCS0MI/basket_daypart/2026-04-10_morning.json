@@ -1,0 +1,11 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-10 in the morning on a weekday. The basket contains six items across five categories: Flour (2 units), Milk (1 unit), Spices Masala (1 unit), Vegetables (2 units total, split across two products), and an Unmapped-SPP item (1 unit). The order-building behavior shows a combination of staple baking ingredients (Flour) with fresh produce and flavorings (Vegetables, Spices Masala, Milk).",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with preparing a home-cooked meal or baking that requires fresh ingredients and basic pantry staples.",
+  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine. No abandoned carts were recorded for this daypart.",
+  "overall_confidence": "low"
+}

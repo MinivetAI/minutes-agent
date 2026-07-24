@@ -1,0 +1,18 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, the user purchased Mother Dairy curd products on two independent dates (2026-01-24 and 2026-01-30). The brand Mother Dairy appears on both dates, meeting the repetition bar for stable preference. The specific variants differ (Advanced Probiotic Plain 200g on 2026-01-24; Classic Plain 390g and Advanced Probiotic Plain 200g on 2026-01-30), so stable preference is assigned to the brand level rather than specific variants. The user ordered during the morning on a weekend and during the afternoon on a weekday, showing no consistent daypart pattern across the two dates. No other brands or products recurred.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Mother Dairy",
+      "claim_text": "The user has a stable preference for Mother Dairy curd, evidenced by purchases on 2 independent dates in January 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Stable preference is established only at the brand level due to recurrence across two dates. Specific product variants (Classic vs. Advanced Probiotic) and daypart preferences cannot be determined as stable patterns because they do not recur consistently across the observed dates.",
+  "overall_confidence": "medium"
+}

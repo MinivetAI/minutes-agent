@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-08 (weekday), a single morning order included 2 units of Milk, 2 units of Vegetables, 1 unit of Breads, and 1 unit of Wheat Flour. This basket demonstrates breadth across four categories: Dairy (Milk), Produce (Vegetables), Bakery (Breads), and Pantry Staples (Wheat Flour). The combination of Milk, Vegetables, and Breads aligns with common co-ordering patterns observed in the evidence, specifically the high-confidence link between Breads and Milk (Confidence: 0.722, Lift: 1.245) and the strong lift between Breads and Vegetables (Lift: 1.528). The inclusion of Wheat Flour alongside Milk reflects a less frequent but positively lifted association (Lift: 1.724). This single transaction represents a compatible need for basic meal preparation ingredients but does not establish a durable preference pattern due to the lack of repetition across independent dates.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order. This pair has a support of 0.3, confidence of 0.517, and lift of 1.293 based on 15 co-orders.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order. This pair has a support of 0.26, confidence of 0.722, and lift of 1.245 based on 13 co-orders.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order. This pair has a support of 0.22, confidence of 0.611, and lift of 1.528 based on 11 co-orders.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Wheat Flour"
+      ],
+      "combination_text": "Milk and Wheat Flour were purchased together in this order. This pair has a support of 0.1, confidence of 0.172, and lift of 1.724 based on 5 co-orders.",
+      "support": 0.1,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket contains ingredients suitable for basic meal preparation, such as baking or cooking with fresh produce and dairy.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or recurring patterns can be inferred.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-21",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased one 1.95\u20132.05 kg pack of unbranded fresh onions in the morning. This timing aligns with above-baseline morning activity (32.46%). The product serves as a staple kitchen ingredient for everyday cooking. This single order does not establish a stable or recurring preference for onions or this specific pack size.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 1.95\u20132.05 kg pack of unbranded fresh onions. This occurred during a period of above-baseline morning activity (32.46%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for onions or this specific pack size.",
+  "overall_confidence": "low"
+}

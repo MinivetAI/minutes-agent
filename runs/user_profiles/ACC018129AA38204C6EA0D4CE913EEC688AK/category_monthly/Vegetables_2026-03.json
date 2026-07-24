@@ -1,0 +1,14 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased fresh vegetables on three independent dates (2026-03-03, 2026-03-26, 2026-03-29). The purchases consisted of unbranded fresh produce, including legumes, root vegetables, leafy greens, and culinary herbs. No specific brand or product variant recurred across multiple dates; each order contained a distinct set of items. Consequently, no stable preference claims can be established for specific products or brands. The user demonstrated a consistent pattern of purchasing fresh vegetables during the evening daypart on two dates and the morning daypart on one date. All observations are based on single-date evidence for specific items, resulting in low confidence for any specific product preference.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased fresh vegetables on three independent dates in March 2026, indicating consistent engagement with this category.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "Specific product preferences cannot be determined as no brand or variant appeared on more than one date. The user's specific culinary needs for each order are unknown.",
+  "overall_confidence": "low"
+}

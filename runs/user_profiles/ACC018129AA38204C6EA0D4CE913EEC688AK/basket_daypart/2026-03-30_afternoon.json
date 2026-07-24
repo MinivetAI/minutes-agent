@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-30 in the afternoon on a weekday. The basket contains three items: two from Other Pulses (PLSH7F95AHYQ2GUR, PLSFX3HBGGZZ9E8E) and one from Curd Yogurt (CUYGK2CDY5FDC8ZS). This represents a narrow basket breadth with two categories. The combination of Curd Yogurt and Other Pulses is supported by category pair evidence (Support: 0.083, Confidence: 0.333, Lift: 4.0). The order-building behavior is a simple purchase of pantry staples and dairy. The `shopping_need_text` may describe a need for basic meal ingredients compatible with this basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Other Pulses"
+      ],
+      "combination_text": "Curd Yogurt and Other Pulses",
+      "support": 0.083,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation involving dairy and legumes.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

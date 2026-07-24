@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-27 (weekday), one order of Britannia Bombay Pav Bread 250 g was placed in the afternoon. This timing aligns with a population daypart share (0.2526) lower than morning (0.3246) and evening (0.3027). The product is a soft, freshness-sensitive pav bread suitable for immediate meal components like vada pav or bhaji-pav. A single observation does not establish stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Britannia Bombay Pav Bread 250 g placed in the afternoon. Purchased in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a soft, freshness-sensitive pav bread suitable for immediate meal components like vada pav or bhaji-pav.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation does not establish stable preference or routine. No browsing or cart activity recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

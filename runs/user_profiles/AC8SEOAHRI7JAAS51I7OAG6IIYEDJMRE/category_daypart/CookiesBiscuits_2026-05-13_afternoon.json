@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 pack of Britannia NutriChoice Zero Cookies Biscuit (91.7 g) in the afternoon on a weekday. No browsing or cart activity was recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user’s category activity is less frequent than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a health-positioned biscuit, typically used for quick snacks, tea-time pairing, or office desk snacking.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for this brand or product type. No browsing or cart signals were present to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

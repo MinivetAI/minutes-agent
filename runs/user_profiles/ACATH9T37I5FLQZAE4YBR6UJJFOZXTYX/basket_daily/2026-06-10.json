@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-10 (weekday), a single order was placed in the afternoon. The basket contained one unit of a Diaper product and two distinct Vegetable products. This combination reflects a basic household replenishment need, pairing baby care essentials with fresh produce. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Replenishment of baby care supplies and fresh produce.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

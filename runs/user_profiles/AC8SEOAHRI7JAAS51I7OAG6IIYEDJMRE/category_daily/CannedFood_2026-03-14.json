@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-14",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-14 (weekend), the user purchased one 450 g can of Del Monte Baked Beans during the evening. This evening activity is slightly below the population baseline (30.27%). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for a convenient meal component or backup food source. This is a single observed order on one date; it does not establish a stable preference or routine for Del Monte brand or canned baked beans specifically.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 450 g can of Del Monte Baked Beans during the evening on a weekend. The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27%). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for a convenient meal component or backup food source.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for Del Monte brand or canned baked beans specifically.",
+  "overall_confidence": "low"
+}

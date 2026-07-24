@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-16 (weekday), the user purchased 2 units of Amul Cow Milk 500 ml during the morning. This timing aligns with a period when 32.46% of the population is active. The product is a fresh, short-shelf-life dairy staple typically used for immediate needs like tea, coffee, or breakfast preparation. This is a single observed order on one date; durable preferences or routine habits cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml. This is a single observed order on one date; durable preferences or routine habits cannot be established.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or routine habits cannot be established.",
+  "overall_confidence": "low"
+}

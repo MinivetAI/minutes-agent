@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 1000 g pack of 4 Rin Detergent Bars (laundry washing bars) during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a manual laundry detergent bar, typically used for quick fixes, hand-washing specific items like uniforms or workwear, or addressing urgent cleaning needs without waiting for a larger grocery run.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific brand or product type.",
+  "overall_confidence": "low"
+}

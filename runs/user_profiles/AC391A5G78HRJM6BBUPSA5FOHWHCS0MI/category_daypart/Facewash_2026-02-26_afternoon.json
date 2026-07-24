@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Plum Green Tea Pore Cleansing Oil-Control Face Wash (100 ml) in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday; this timing is less common than the population baseline for morning (0.3246) or evening (0.3027) face wash activity, though it aligns with the afternoon baseline share of 0.2526. The product is a daily cleanser for oily/acne-prone skin, suggesting an immediate need for oil control or pore cleansing.",
+  "uncertainty_text": "Single observation; cannot establish stable preferences, routine, or brand loyalty. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

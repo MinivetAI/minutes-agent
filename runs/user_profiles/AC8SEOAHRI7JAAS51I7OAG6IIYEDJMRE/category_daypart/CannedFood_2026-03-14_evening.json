@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 450 g can of Del Monte Baked Beans during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27%). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for a convenient meal component or backup food source.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for Del Monte brand or canned baked beans specifically.",
+  "overall_confidence": "low"
+}

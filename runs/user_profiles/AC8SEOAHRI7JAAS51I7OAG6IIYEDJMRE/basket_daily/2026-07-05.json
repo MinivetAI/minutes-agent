@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-05",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, three separate orders were placed across morning, afternoon, and evening dayparts. The morning order focused on breakfast-compatible items, including dairy and breads. The afternoon order was narrow, containing household cleaning and shelf-stable food. The evening order included dairy and tofu products. No abandoned carts were recorded in any daypart. Because this analysis is based on a single observed date, stable preferences or recurring behaviors cannot be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt were purchased together in the morning order. In the broader population evidence, this pair has a support of 0.129, confidence of 0.346, and lift of 0.969, based on 9 co-orders.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Lassi"
+      ],
+      "combination_text": "Curd Yogurt and Lassi were purchased together in the morning order. No specific category pair evidence was supplied for this combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Lassi"
+      ],
+      "combination_text": "Breads and Lassi were purchased together in the morning order. No specific category pair evidence was supplied for this combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Canned Food",
+        "Toilet Cleaner"
+      ],
+      "combination_text": "Canned Food and Toilet Cleaner were purchased together in the afternoon order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Breads and Curd Yogurt",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and SavouriesNamkeens",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CannedFood",
+        "Curd Yogurt"
+      ],
+      "combination_text": "CannedFood and Curd Yogurt",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for breakfast items, household cleaning supplies, and dairy-based meal components.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring behaviors cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

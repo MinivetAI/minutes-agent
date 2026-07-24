@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Amul Plain Processed Cheese Slices (200 g) was placed in the afternoon on a weekend. No browsing or cart activity was observed.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.3% share vs. 32.5% for morning and 30.3% for evening). The product is a convenience-oriented processed cheese item suitable for quick meal assembly or snacking.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable preference or routine. The user's specific intent (e.g., immediate meal prep vs. stocking up) is unknown.",
+  "overall_confidence": "low"
+}

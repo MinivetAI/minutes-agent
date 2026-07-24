@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-28",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-28 (weekday), the user purchased one 60 ml Amul Aamras Kulfi Ice Cream Stick during the evening. This single-serve frozen dairy dessert in a mango-aamras flavor was bought as a grab-and-go indulgence suitable for immediate consumption or post-meal dessert needs. The purchase timing aligns with the population baseline for evening activity (share 0.3027).",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 60 ml Amul Aamras Kulfi Ice Cream Stick during the evening on a weekday. This is a single observation on one date; it does not establish a stable preference for this brand, flavor, or format. It is unclear if this is a one-time impulse purchase or part of a recurring habit.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, flavor, or format. It is unclear if this is a one-time impulse purchase or part of a recurring habit.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one Godrej Aer Twist Cool Surf Blue Car Freshener (45 g) in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred on a weekday morning, a time when the user's activity (32.46% share) is above the population baseline for this daypart. The product is a gel-based dashboard freshener designed for quick cabin scent control.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand or scent, nor does it indicate a recurring routine.",
+  "overall_confidence": "low"
+}

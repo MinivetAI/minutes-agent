@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-07",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, one order of Chips (Product: CHPHK5F28WGW2UNS, Quantity: 1) was placed in the afternoon. This purchase occurred during a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). As this is a single observation on one date, no stable preferences or routine behaviors can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Chips (Product: CHPHK5F28WGW2UNS, Quantity: 1) was placed in the afternoon. This purchase occurred during a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no stable preferences or routine behaviors can be established.",
+  "overall_confidence": "low"
+}

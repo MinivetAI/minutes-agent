@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-03 (weekday), one order of Fortune Suji 500 g (1 unit) was placed in the morning. The order occurred in the morning (32.46% population share), a time often associated with breakfast preparation or immediate meal planning. The product is a small-pack staple (500 g) suitable for quick top-ups or specific dish requirements like breakfast snacks or desserts. No browsing events (search, view, cart) were recorded for this category in this window. No browsing history is available to determine if this was a planned purchase or an immediate need. A single order does not establish a stable preference or routine for this brand or category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Fortune Suji 500 g (1 unit) placed in the morning on a weekday. The order occurred in the morning (32.46% population share), a time often associated with breakfast preparation or immediate meal planning. The product is a small-pack staple (500 g) suitable for quick top-ups or specific dish requirements like breakfast snacks or desserts. No browsing events (search, view, cart) were recorded for this category in this window. No browsing history is available to determine if this was a planned purchase or an immediate need. A single order does not establish a stable preference or routine for this brand or category.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an immediate need. A single order does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

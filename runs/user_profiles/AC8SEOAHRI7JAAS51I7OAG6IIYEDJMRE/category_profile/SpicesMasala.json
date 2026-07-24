@@ -1,0 +1,41 @@
+{
+  "category": "Spices Masala",
+  "profile_text": "The user has demonstrated interest in replenishing kitchen staples for meal preparation, specifically purchasing cumin seeds, coriander powder, and green cardamom. Purchases have occurred on weekends during morning sessions, a time of above-baseline activity. However, with only two independent dates of evidence and no clear cadence, these observations represent isolated transactions rather than a stable routine or strong brand preference.",
+  "brand_preferences": [
+    {
+      "brand": "Zoff",
+      "preference_text": "Zoff was observed in purchases on two independent dates (2026-04-04 and 2026-05-03), indicating a repeated selection. This repetition supports a medium-confidence preference for this brand within the category.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "brand": "Tata Sampann",
+      "preference_text": "Tata Sampann was observed in a purchase on one independent date (2026-04-04). A single observation does not establish a durable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-03",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence has been established; the last purchase was on 2026-05-03, but the next purchase date is unknown due to lack of a stable pattern.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on all observed dates, indicating that when the user engages with Spices Masala, it reliably converts to a purchase.",
+  "substitution_text": null,
+  "price_value_text": "The user has purchased both standard pack sizes (100 g, 200 g) and small-format packs (25 g), suggesting flexibility in pack size selection based on immediate need rather than a strict price-volume strategy.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or strong uncertainty; however, the lack of a defined cadence means future timing is uncertain.",
+  "mission_generation_text": "Replenishing essential aromatic ingredients and cooking staples for home meal preparation.",
+  "overall_confidence": "low"
+}

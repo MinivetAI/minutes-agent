@@ -1,0 +1,12 @@
+{
+  "month": "2026-02",
+  "summary_text": "In February 2026, the user placed nine independent orders across weekdays and weekends, primarily in the morning and afternoon dayparts. The basket composition consistently featured dairy products (Milk, Curd Yogurt, Cheese, Paneer Tofu) and staple carbohydrates (Breads, Ready Mixes, Canned Food). Specific category combinations such as Milk with Savouries Namkeens, Breads with Curd Yogurt, and Curd Yogurt with Vegetables appeared in isolated transactions. No single category combination or daypart behavior was repeated across multiple independent dates. Consequently, no stable behavioral patterns, routine basket-building habits, or durable preferences can be inferred. All observed behaviors are treated as single-date observations compatible with basic meal preparation or pantry replenishment needs.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The observed purchases are compatible with needs for basic meal components, including dairy, fresh produce, breads, and pantry staples for home cooking or simple meals.",
+  "uncertainty_text": "All evidence represents single independent dates. No repeated behaviors, stable preferences, or recurring patterns are evident. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

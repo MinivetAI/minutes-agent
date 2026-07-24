@@ -1,0 +1,89 @@
+{
+  "profile_text": "The user maintains a stable, high-frequency routine for fresh vegetables (onions, potatoes, beans, aromatics) and fast-replenishment Fryums Papads, anchoring immediate meal preparation and tea-time snacking. Dairy staples are a core recurring need, with stable preferences for Nandini brand Milk (Shubham variant) and Curd Yogurt (Plain, 200g), typically purchased on weekdays across morning and evening dayparts. Ritualistic needs are met through stable, slow-cadence purchases of Havan Items (Anandam lamp oil). Routine household maintenance is supported by stable, slow-cadence purchases of Bathroom Floor Cleaner (Flipkart Supermart Home Essentials) and Washing Powder (Wheel Active 2 in 1, 500g). Snack and treat preferences include stable, slow-cadence purchases of Lay's Chips and Cadbury Dairy Milk, with flexible timing. Ready Meals (Safal Frozen Green Peas) show a medium-cadence, stable preference for quick meal assembly. Several categories (Cake Pastry, Chocolates, Washing Bar, Other Pulses, Spices Masala, Wheat Flour, Salt, Fruits, Tea, Incense Stick, Other Flours, Grains Millets, Paneer Tofu, Rava Sooji, Liquid Dispenser, Dips Sauces Pastes, Savouries Namkeens, Dish Cleaning Gel, Sanitary Pad, Glass Cleaner, Rusk, Sunscreen) are represented by single-date observations or isolated events, indicating functional needs or trials without established durable habits, brand loyalty, or recurring cadence.",
+  "category_preference_text": "Vegetables: High-frequency, unbranded staples (onions, potatoes, beans, coriander) for home cooking, primarily weekday evenings/weekends. Fryums Papads: Fast replenishment (~6 days), evening timing, no stable brand/product preference. Milk: Stable preference for Nandini Shubham Pasteurised Standardised (1L/500ml), weekday mornings/evenings, ~19-day cadence. Curd Yogurt: Stable preference for Nandini Plain Curd 200g, weekday mornings/evenings, ~17-day cadence. Havan Items: Stable preference for Anandam Deepam Oil 420g pouch, weekday evenings, ~21-day cadence. Bathroom Floor Cleaner: Stable preference for Flipkart Supermart Home Essentials phenyl/jasmine (2x1L/5L), flexible timing, ~61.5-day cadence. Washing Powder: Stable preference for Wheel Active 2 in 1 Clean and Fresh 500g, weekends, ~80-day cadence. Chips: Stable preference for Lay's (incl. American Style Cream & Onion), slow cadence. Ready Meals: Stable preference for Safal Frozen Green Peas 200g, medium cadence (~8 days), flexible dayparts. Cake Pastry: Stable preference for Britannia Gobbles Choco Chill, flexible timing. Chocolates: Stable preference for Cadbury Dairy Milk (incl. Silk Fruit & Nut), flexible timing. Other categories (Washing Bar, Other Pulses, Spices Masala, Wheat Flour, Salt, Fruits, Tea, Incense Stick, Other Flours, Grains Millets, Paneer Tofu, Rava Sooji, Liquid Dispenser, Dips Sauces Pastes, Savouries Namkeens, Dish Cleaning Gel, Sanitary Pad, Glass Cleaner, Rusk, Sunscreen) show single-date observations or isolated events with no stable brand, product, or cadence preference established.",
+  "coverage_text": "This profile covers all of the user's categories.",
+  "basket_context_text": "The user’s basket is anchored by fresh vegetables, frequently paired with Ready Meals for quick meal assembly or Curd Yogurt for dairy-based preparation. Milk and Curd Yogurt are also co-purchased on multiple dates, reinforcing dairy staples. Havan Items appear as a separate, recurring ritualistic purchase. Cleaning and laundry categories (Bathroom Floor Cleaner, Washing Powder) appear sporadically without stable co-purchase patterns with the core vegetable anchor.",
+  "replenishment_summary_text": "The user exhibits a fast replenishment cycle for Fryums Papads (6 days). Medium cadence is observed for Milk (19 days), Curd Yogurt (17 days), and Ready Meals (8 days). Slow cadence characterizes Havan Items (21 days), Chips (65 days), Bathroom Floor Cleaner (61.5 days), and Washing Powder (80 days). Cake Pastry, Chocolates, Washing Bar, Other Pulses, Spices Masala, Wheat Flour, Salt, Fruits, Tea, Incense Stick, Other Flours, Grains Millets, Paneer Tofu, Rava Sooji, Liquid Dispenser, Dips Sauces Pastes, Savouries Namkeens, Dish Cleaning Gel, Sanitary Pad, Glass Cleaner, Rusk, and Sunscreen have unknown cadence classes.",
+  "structured_signals": [
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Fryums Papads",
+      "confidence": "low",
+      "source": "category_profile",
+      "rationale_text": "Fast replenishment cycle (~6 days) observed across three independent dates in July 2026."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Milk",
+      "confidence": "high",
+      "source": "category_profile",
+      "rationale_text": "Stable medium cadence (~19 days) with high confidence based on 6 independent dates across multiple months."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Curd Yogurt",
+      "confidence": "medium",
+      "source": "category_profile",
+      "rationale_text": "Stable medium cadence (~17 days) with medium confidence based on 6 independent dates."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Ready Meals",
+      "confidence": "medium",
+      "source": "category_profile",
+      "rationale_text": "Stable medium cadence (~8 days) with medium confidence based on 3 independent dates."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Havan Items",
+      "confidence": "medium",
+      "source": "category_profile",
+      "rationale_text": "Stable slow cadence (~21 days) with medium confidence based on 6 independent dates."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Bathroom Floor Cleaner",
+      "confidence": "high",
+      "source": "category_profile",
+      "rationale_text": "Stable slow cadence (~61.5 days) with high confidence based on 3 independent dates."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Washing Powder",
+      "confidence": "medium",
+      "source": "category_profile",
+      "rationale_text": "Stable slow cadence (~80 days) with medium confidence based on 3 independent dates."
+    },
+    {
+      "signal_type": "replenishment_cadence",
+      "category_or_mission": "Chips",
+      "confidence": "medium",
+      "source": "category_profile",
+      "rationale_text": "Stable slow cadence (~65 days) with medium confidence based on 3 independent dates."
+    },
+    {
+      "signal_type": "cross_category_pattern",
+      "category_or_mission": "Vegetables + Ready Meals",
+      "confidence": "medium",
+      "source": "category_profile+basket_profile",
+      "rationale_text": "Vegetables and Ready Meals are frequently purchased together, suggesting a need for quick meal preparation using fresh ingredients alongside convenience foods."
+    },
+    {
+      "signal_type": "cross_category_pattern",
+      "category_or_mission": "Vegetables + Curd Yogurt",
+      "confidence": "medium",
+      "source": "category_profile+basket_profile",
+      "rationale_text": "Vegetables and Curd Yogurt are co-purchased on multiple independent dates, indicating a pattern of combining fresh produce with dairy staples for meal preparation."
+    },
+    {
+      "signal_type": "cross_category_pattern",
+      "category_or_mission": "Milk + Curd Yogurt",
+      "confidence": "medium",
+      "source": "category_profile+basket_profile",
+      "rationale_text": "Milk and Curd Yogurt are purchased together on two independent dates in July 2026, suggesting a routine acquisition of dairy staples."
+    }
+  ],
+  "mission_generation_text": "The user requires a reliable supply of fresh vegetables for home-cooked meals, often supplemented by Ready Meals for convenience or Curd Yogurt for dairy-based dishes. There is also a recurring need for Havan Items for ritualistic purposes. Secondary needs include household cleaning and laundry maintenance, though these are not tied to a specific recurring schedule or combination with the primary vegetable purchases.",
+  "uncertainty_text": "While vegetable purchasing is a high-confidence stable pattern, other behaviors such as cleaning, laundry, and specific dairy combinations are based on fewer independent dates or sporadic occurrences. The user’s timing behavior (daypart) is not stable across all categories, with vegetables appearing in the evening but other items in mornings or weekends. No demographic, household size, or specific life-stage inferences can be made from this evidence.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-02-25 in the afternoon on a weekday. The basket contains 2 units of Milk, 1 unit of Ghee, and 4 units of Vegetables. The order-building behavior shows a combination of dairy staples and fresh produce. The `shopping_need_text` compatible with this basket is basic meal preparation or household provisioning involving dairy and vegetables.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation or household provisioning involving dairy and vegetables.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

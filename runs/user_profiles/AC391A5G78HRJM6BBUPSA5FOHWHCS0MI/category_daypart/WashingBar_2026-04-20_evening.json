@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 3 units of Surf excel Detergent Bar 250 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed during the evening on a weekday, a time when the user's activity is slightly below the population baseline (0.3027). The purchase consists of a standard laundry replenishment item intended for manual spot-cleaning or hand-wash tasks.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product format.",
+  "overall_confidence": "low"
+}

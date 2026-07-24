@@ -1,0 +1,26 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user ordered Amul Plain Processed Cheese Slices (200 g) on two independent dates (2026-04-08 and 2026-04-09). This recurrence establishes a stable preference for this specific product and brand. The orders occurred on weekdays, once in the morning and once in the afternoon, indicating flexible timing within the daypart window rather than a rigid single-hour routine. The product serves as a convenience item for quick meal assembly or snacking.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Amul Plain Processed Cheese Slices (200 g)",
+      "claim_text": "The user has a stable preference for Amul Plain Processed Cheese Slices (200 g), evidenced by purchases on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for the Amul brand in the cheese category, evidenced by purchases on two independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The stable preference is based on only two dates; a larger sample size would increase confidence in the stability of this preference.",
+  "overall_confidence": "medium"
+}

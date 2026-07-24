@@ -1,0 +1,40 @@
+{
+  "category": "Dips Sauces Pastes",
+  "profile_text": "The user demonstrates a stable preference for VEEBA brand ketchup, evidenced by purchases on two independent dates in March 2026. A single recent order of Maggi Rich Tomato Ketchup was observed in July 2026, but this isolated event does not establish a durable brand preference or routine. The user exhibits a slow replenishment cadence, with purchases spaced approximately 54 days apart.",
+  "brand_preferences": [
+    {
+      "brand": "VEEBA",
+      "preference_text": "Stable preference for VEEBA, evidenced by purchases on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for VEEBA Tomato Chef’s Special Ketchup, evidenced by purchases on 2 independent dates in March 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 54.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-13",
+    "predicted_next_purchase_date": "2026-09-05",
+    "replenishment_text": "The user typically repurchases this category every 54 days, classified as a slow cadence.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions for both VEEBA and Maggi products.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior is established; observed items include a large-format household condiment (960 g).",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior is observed. The single July 2026 purchase of Maggi does not override the stable VEEBA preference but indicates openness to other brands in the category.",
+  "mission_generation_text": "Restocking household condiments for snacks and meals, with a primary reliance on VEEBA brand ketchup and occasional substitution or variety seeking with other brands like Maggi.",
+  "overall_confidence": "medium"
+}

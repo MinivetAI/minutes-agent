@@ -1,0 +1,40 @@
+{
+  "category": "Incense Stick",
+  "profile_text": "The user demonstrates a stable preference for MANGALDEEP brand incense, specifically the Dhuno Cup variant, with purchases observed on two independent dates in July 2026. A single prior purchase of a Cycle brand product in May 2026 is noted but does not yet constitute a stable brand preference due to lack of repetition. Purchases occur consistently in the morning, aligning with the user's above-baseline activity for this daypart. The category serves devotional or home fragrance needs, with a slow replenishment cadence of approximately 40.5 days.",
+  "brand_preferences": [
+    {
+      "brand": "MANGALDEEP",
+      "preference_text": "The user has a stable preference for MANGALDEEP brand incense, observed on 2 independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for MANGALDEEP Dhuno Cup (12 cups), observed on 2 independent dates in July 2026.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 40.5,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-21",
+    "predicted_next_purchase_date": "2026-08-30",
+    "replenishment_text": "The user purchases this category approximately every 40.5 days, classified as a slow replenishment cycle. The last purchase was on 2026-07-21, with the next expected around 2026-08-30.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions on multiple independent dates.",
+  "substitution_text": "No evidence of substitution behavior; the user has purchased specific variants (Cycle Lavender, MANGALDEEP Dhuno Cup) without observed switching patterns within the same brand or category scope.",
+  "price_value_text": "No explicit price or value sensitivity data observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior observed. The May 2026 purchase of Cycle brand incense is an isolated observation and does not indicate a stable preference or uncertainty regarding brand choice.",
+  "mission_generation_text": "Supports routine home fragrance maintenance and devotional or prayer rituals requiring ambient scenting.",
+  "overall_confidence": "medium"
+}

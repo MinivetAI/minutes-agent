@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-21",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-21 (weekend), the user purchased one loose unbranded onion (400–450 g) and one unbranded baby potato (280–320 g) during a morning session. This timing aligns with the user's above-baseline morning activity (32.46% share). These fresh, unbranded kitchen staples are typically used for immediate meal preparation or to replenish household stock. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one loose unbranded onion (400–450 g) and one unbranded baby potato (280–320 g) during a morning session on a weekend. This timing aligns with the user's above-baseline morning activity (32.46% share).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

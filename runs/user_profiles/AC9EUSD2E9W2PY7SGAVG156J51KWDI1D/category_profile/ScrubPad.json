@@ -1,0 +1,41 @@
+{
+  "category": "Scrub Pad",
+  "profile_text": "A single observed purchase of general-purpose cleaning accessories (sponge wipes and scrub pads) on a weekend morning. No stable brand preference, cadence, or recurring pattern is established from this single transaction.",
+  "brand_preferences": [
+    {
+      "brand": "Flipkart Supermart",
+      "preference_text": "Observed in a single transaction on 2026-07-04. No repeated evidence to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Scotch-Brite",
+      "preference_text": "Observed in a single transaction on 2026-07-04. No repeated evidence to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence observed; last purchase was on 2026-07-04.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
+  "substitution_text": null,
+  "price_value_text": "No repeated price or value behavior observed to establish a pattern.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
+  "mission_generation_text": "Routine household surface maintenance and spill cleanup.",
+  "overall_confidence": "low"
+}

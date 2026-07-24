@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-15 (weekday), the user purchased one 200 g pack of Balaji Wafers Aloo Sev and one 200 g pack of Haldiram's Mini Bhakarwadi in the Savouries Namkeens category during a morning session. This timing aligns with a period where the category represents 32.46% of population activity. The items are ready-to-eat salty snacks typically associated with tea-time or immediate craving satisfaction. This is a single observed order on one date; it does not establish a stable preference or routine for this category or these specific brands.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 200 g pack of Balaji Wafers Aloo Sev and one 200 g pack of Haldiram's Mini Bhakarwadi. This timing aligns with a period where the category represents 32.46% of population activity. The items are ready-to-eat salty snacks typically associated with tea-time or immediate craving satisfaction.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or these specific brands.",
+  "overall_confidence": "low"
+}

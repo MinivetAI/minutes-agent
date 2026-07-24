@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 750 ml bottle of Sprite (lemon-lime) and one 750 ml bottle of Coca-Cola Original Taste (cola).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the evening on a weekend, a time when the user's activity aligns with the population baseline (evening share 0.3027). The items are ready-to-drink carbonated beverages in single-serve PET formats, typically used for immediate refreshment or as meal companions.",
+  "uncertainty_text": "No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is not possible to determine if this represents a stable preference for these specific brands or a one-time purchase for immediate needs.",
+  "overall_confidence": "low"
+}

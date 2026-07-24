@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of Bonn High Fibre Brown Bread 400 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246). The product is a packaged brown bread loaf, typically used for breakfast, sandwiches, or toast, suggesting a need for a staple food item for immediate or next-day consumption.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this evening purchase (e.g., stockout, meal planning) is not determined.",
+  "overall_confidence": "low"
+}

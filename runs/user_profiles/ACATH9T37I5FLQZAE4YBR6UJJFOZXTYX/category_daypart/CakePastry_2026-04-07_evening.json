@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One order of a Monginis Choco Muffin (132 g) was placed during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity is slightly below the population baseline (30.27%). The product is a ready-to-eat packaged bakery item, typically used for immediate consumption as a snack or dessert.",
+  "uncertainty_text": "This is a single observation on one date; no durable brand or flavor preference can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

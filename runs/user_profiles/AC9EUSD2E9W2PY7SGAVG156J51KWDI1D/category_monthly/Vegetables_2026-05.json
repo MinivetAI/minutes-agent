@@ -1,0 +1,31 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased fresh, unbranded vegetables across five independent dates. Onions were the most frequently observed item, appearing on three separate dates (May 1, May 18, and May 24), establishing a stable preference for this staple ingredient. Cucumbers appeared on two independent dates (May 1 and May 24), meeting the threshold for a stable preference. Other items, including button mushrooms, bottle gourd, and lady’s finger, were observed on single dates and are excluded from stable preference claims. The user’s vegetable shopping is heavily concentrated in the morning daypart, with four of the five orders occurring in the morning, aligning with the population baseline where morning share is highest (0.3246). One evening purchase occurred on a weekend. No specific brand loyalty is evident, as all purchases were unbranded or local.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Onions (unbranded, 1 kg packs or 1.95–2.05 kg pack)",
+      "claim_text": "The user has a stable preference for unbranded onions, observed on three independent dates (2026-05-01, 2026-05-18, 2026-05-24).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Cucumbers (local)",
+      "claim_text": "The user has a stable preference for local cucumbers, observed on two independent dates (2026-05-01, 2026-05-24).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Vegetable purchases are predominantly morning events, with 4 out of 5 orders occurring in the morning daypart, consistent with the population baseline where morning share is highest (0.3246).",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While onions and cucumbers show stable patterns, other vegetable types (mushrooms, gourd, lady's finger) were single-date observations. The user's preference for unbranded/local produce is consistent but limited to this category.",
+  "overall_confidence": "medium"
+}

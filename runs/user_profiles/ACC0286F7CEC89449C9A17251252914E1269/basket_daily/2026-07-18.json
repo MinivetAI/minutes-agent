@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-18",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-18 (weekend), a single order was placed during the evening daypart. The basket contained dairy staples: 1 unit of Curd Yogurt and 2 units of Milk. This reflects a basic dairy replenishment need. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Replenishment of fresh dairy products.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

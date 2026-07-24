@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Smith & Jones Ginger Garlic Paste (200 g) was placed in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (25.3% share vs. 32.5% for mornings). The product is a ready-to-use cooking base for Indian dishes, suggesting a need for immediate meal preparation without fresh ingredient prep.",
+  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific item.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-18",
+  "day_type": "weekend",
+  "summary_text": "On this weekend evening, the user purchased one 51 g Cadbury Dairy Milk Silk Fruit & Nut Valentine’s Gift Pack. This single observation aligns with the population baseline evening share of 0.3027 and suggests a use case for an immediate sweet treat or a last-minute celebratory gesture. This is a single observation on one date; it does not establish a stable preference for this brand, product type, or daypart.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 51 g Cadbury Dairy Milk Silk Fruit & Nut Valentine’s Gift Pack in the evening.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product type, or daypart.",
+  "overall_confidence": "low"
+}

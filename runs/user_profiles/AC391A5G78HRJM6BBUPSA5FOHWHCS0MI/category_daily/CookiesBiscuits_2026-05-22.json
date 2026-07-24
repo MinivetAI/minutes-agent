@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-22",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-22 (weekday), the user purchased 2 units of Sunfeast Mom's Magic Cashew & Almond Cookies (544 g) in the morning. This is a ready-to-eat, tea-time biscuit pack, potentially for immediate snacking, tea breaks, or household stock. This is a single observed order on one date; durable preferences, routine habits, or specific use cases (e.g., hosting vs. personal snack) cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Sunfeast Mom's Magic Cashew & Almond Cookies (544 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences, routine habits, or specific use cases (e.g., hosting vs. personal snack) cannot be established.",
+  "overall_confidence": "low"
+}

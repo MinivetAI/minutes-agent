@@ -1,0 +1,32 @@
+{
+  "category": "Buttermilk",
+  "profile_text": "The user has purchased buttermilk on two independent dates in March 2026, establishing a stable preference for probiotic buttermilk variants and afternoon consumption. No single brand or specific product variant has been repeated across multiple dates, so no durable brand or product preference is established. The user is open to different brands (Amul, Mother Dairy) and variants (Probiotic, Tadka) within the probiotic buttermilk segment. Purchases occur consistently in the afternoon, aligning with a pattern of ready-to-drink chilled dairy consumption, potentially as a light meal accompaniment or refreshment. Cadence is unknown based on the limited data.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased probiotic buttermilk variants on two independent dates (2026-03-03 and 2026-03-28). This repetition supports a stable preference for probiotic buttermilk variants.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-28",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-03-28. Cadence is unknown; no predicted next purchase date can be estimated.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in buttermilk reliably becomes a purchase, as evidenced by completed transactions on two independent dates.",
+  "substitution_text": "The user has purchased different brands (Amul, Mother Dairy) and variants (Probiotic, Tadka) without a single dominant preference, indicating openness to substitution within the probiotic buttermilk segment.",
+  "price_value_text": "No specific price or value behavior is evident from the limited data.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance behavior is evident. The user has not established a preference for a specific brand or non-probiotic variant.",
+  "mission_generation_text": "Shopping for ready-to-drink chilled dairy beverages, specifically probiotic buttermilk, likely for immediate consumption or as a light accompaniment, typically purchased in the afternoon.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "summary_text": "Purchased 1 unit of Bhujialalji Aloo Bhujia 150 g, a packaged Indian namkeen/snack in the aloo bhujia style, during the night on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred during the night, a period with lower population share (0.1202) compared to morning (0.3246), afternoon (0.2526), and evening (0.3027). The product is a shelf-stable, ready-to-eat savoury snack, typically associated with immediate snacking needs such as tea-time or hunger between meals.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-03 (weekday), the user purchased one order of fresh, unbranded vegetables in the evening. The basket included Haricot Beans (240-260 g), Carrot Local (240-260g), Baby Corn (100 g, quantity 2), and White Radish (500 g). This single observation suggests a need for immediate meal preparation, consistent with the evening daypart where population share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526).",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased fresh, unbranded vegetables (Haricot Beans, Carrot Local, Baby Corn, White Radish) on 2026-03-03. This is a single observed order; it does not establish a stable preference.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for these specific vegetables or brands. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Milk",
+  "profile_text": "The user demonstrates a stable, recurring preference for Amul brand milk, specifically the Taaza Pasteurised Toned variant in 500 ml packs. This preference is supported by purchases across multiple months (March, April, May 2026) and a consistent cadence of approximately every 12 days. While the user occasionally purchases other brands (Mother Dairy, Alt Co., HERSHEY'S) or variants (Lactose Free, Cow Milk, flavored shakes), these appear as single-observation deviations or distinct needs rather than stable routines. The user typically buys in the afternoon, though timing has varied in earlier months. The primary need is regular household replenishment of standard dairy staples.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "The user has a stable preference for Amul milk, evidenced by purchases on multiple independent dates spanning March, April, and May 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on multiple independent dates in March, April, and May 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 12.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": "2026-07-21",
+    "replenishment_text": "The user typically purchases milk every 12 days, with the next purchase estimated around 2026-07-21.",
+    "confidence": "medium",
+    "evidence_count": 16,
+    "independent_date_count": 16
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by 16 observed transactions across 16 independent dates.",
+  "substitution_text": "The user substitutes between Amul variants (Taaza Toned, Lactose Free, Cow Milk) and occasionally other brands (Mother Dairy, Alt Co.), suggesting flexibility in brand and specific product type while maintaining a core preference for standard toned milk.",
+  "price_value_text": "No explicit price or value behavior is established. The user purchases both standard pasteurized milk and premium/specialty items (Lactose Free, Oat Milk, flavored shakes), indicating no single price-tier constraint.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No specific avoidance behavior is established. Single-observation purchases of Mother Dairy, Alt Co., and HERSHEY'S do not indicate a pattern of avoidance or strong emerging preference for those specific items.",
+  "mission_generation_text": "Regular household replenishment of staple dairy products, specifically pasteurized toned milk, likely for daily consumption.",
+  "overall_confidence": "medium"
+}

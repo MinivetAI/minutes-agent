@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one order of eight unbranded fresh vegetables on a weekday afternoon: Sweet Potato, Baby Potato, Beetroot, Spinach with roots, Green Capsicum, Broad Beans, Onion, and Coriander Leaves.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed during the afternoon on a weekday, a time when population share is 0.2526 (lower than the morning peak of 0.3246 and evening peak of 0.3027). The basket consists entirely of fresh, unbranded root vegetables, leafy greens, and aromatics, suggesting a same-day cooking mission or urgent replenishment of perishable staples rather than bulk stocking.",
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned list or an ad-hoc discovery. No brand preferences can be inferred as all items are unbranded. No repeat orders are observed to establish stable habits.",
+  "overall_confidence": "low"
+}

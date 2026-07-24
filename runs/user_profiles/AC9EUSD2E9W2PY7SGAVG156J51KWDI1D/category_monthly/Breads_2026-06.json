@@ -1,0 +1,23 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased bread on six independent dates. Britannia Breakfast Slice White Bread (450 g) was purchased on five dates (06-01, 06-03, 06-08, 06-20, 06-26), and Britannia Sandwich Bread (350 g) was purchased on one date (06-12). The recurrence of the 450 g variant across five independent dates establishes a stable preference for this specific product, while the 350 g variant remains a single-date observation. Purchases occurred primarily during the morning daypart on weekdays, with one afternoon purchase on a weekend.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Britannia Breakfast Slice White Bread 450 g",
+      "claim_text": "The user has a stable preference for Britannia Breakfast Slice White Bread (450 g), evidenced by purchases on five independent dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased a different variant, Britannia Sandwich Bread (350 g), on a single date (06-12). This is an isolated observation and does not indicate a stable preference or routine for this specific variant.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While the 450 g variant shows high-confidence stability due to five independent purchases, the single purchase of the 350 g variant on 06-12 is an isolated event. No other brands or product types were observed in this category during this month.",
+  "overall_confidence": "high"
+}

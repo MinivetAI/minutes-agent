@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-24 (weekday), a single order was placed during the morning daypart. The basket contained one unit of Paneer Tofu and one unit of Breads. There were no abandoned carts. The combination of these items is compatible with a basic meal preparation need involving a protein source and a carbohydrate base. This analysis is based on a single observed order on one independent date; no durable preferences, routines, or stable patterns can be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Breads and Paneer Tofu were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be preparing a simple meal or snack requiring a protein source (Paneer Tofu) and a carbohydrate base (Breads).",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable preferences, routines, or stable patterns can be inferred. The `category_pair_evidence` provided describes population-level co-ordering statistics and does not reflect this specific user's history or intent beyond this single transaction.",
+  "overall_confidence": "low"
+}

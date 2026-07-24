@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Cadbury Bournvita Biscuits Pack (37.2 g) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% of population activity is in the evening). The product is a small-pack snack biscuit, typically used for immediate consumption, such as a quick break or tiffin gap.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

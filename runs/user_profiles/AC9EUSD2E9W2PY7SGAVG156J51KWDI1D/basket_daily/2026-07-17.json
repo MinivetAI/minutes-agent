@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-17",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-17 (weekday), a single order was placed during the morning daypart. The basket contained Savouries Namkeens (1 unit), Sunflower Oil (1 unit), and Milk (2 units). The purchase spans three distinct categories: a snack item, a cooking staple, and a dairy product. The observed combination suggests a need for basic household provisions and a snack. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Sunflower Oil",
+        "Milk"
+      ],
+      "combination_text": "Savouries Namkeens, Sunflower Oil, and Milk were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for basic pantry staples and a snack item.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The category combination evidence reflects population-level co-ordering statistics and does not necessarily reflect the specific intent or frequency of this individual user's behavior beyond this single transaction.",
+  "overall_confidence": "low"
+}

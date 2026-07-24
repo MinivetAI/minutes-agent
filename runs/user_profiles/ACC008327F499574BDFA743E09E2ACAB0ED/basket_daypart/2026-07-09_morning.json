@@ -1,0 +1,11 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-07-09 (morning, weekday) contained one item: AIREJ6WHFJBSHHMR (Car Air Freshener). The basket breadth is narrow, consisting of a single product category (Car Air Freshener). No other categories were purchased in this order. The `shopping_need_text` is compatible with vehicle maintenance or interior freshness but does not imply hidden intent beyond the product's function. As this is a single observation, no durable behavior patterns or stable preferences are inferred.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Vehicle interior maintenance or freshness.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Confidence in any inferred user behavior is low. No repeated patterns, routines, or stable preferences can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

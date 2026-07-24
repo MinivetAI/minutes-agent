@@ -1,0 +1,11 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-05-17 during the night on a weekend consisted of one item: 1 unit of ICEHAKZ6VMPNHDTF from the Ice Creams category. This represents a narrow, single-category basket. The `shopping_need_text` compatible with this purchase is a desire for a chilled dessert or snack. No other products were bought or added to cart in this session.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A desire for a chilled dessert or snack.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this isolated event. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low"
+}

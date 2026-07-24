@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased fresh loose potatoes (400–450g) on five independent dates: 2026-04-05, 2026-04-10, 2026-04-12, 2026-04-16, and 2026-04-20. Onions were purchased once on 2026-04-10. The user’s vegetable shopping spans all dayparts (morning, evening, night) and both weekdays and weekends, with no single daypart or day-type dominating the pattern. Potatoes are a fresh staple tuber used for immediate cooking or as a base ingredient.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Potato (400–450g, fresh, loose)",
+      "claim_text": "The user purchased fresh loose potatoes (400–450g) on five independent dates in April 2026, indicating a stable preference for this product.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Onions were purchased only once (2026-04-10) and do not meet the threshold for a stable preference claim. The user’s vegetable shopping occurs across varied dayparts and day types, so no specific timing pattern is established as stable.",
+  "overall_confidence": "high"
+}

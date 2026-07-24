@@ -1,0 +1,23 @@
+{
+  "category": "Fruits",
+  "profile_text": "The user demonstrates a stable preference for Sapota (chikoo), having purchased it on two independent dates in January 2026. Tender coconut was purchased once and does not constitute a stable preference. Purchases occurred in the afternoon and evening. No brand preferences are established as no brand-level data was provided. Cadence is unknown based on limited evidence.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased Sapota (chikoo) on two independent dates (2026-01-24 and 2026-01-26), indicating a stable preference for this fruit.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": null,
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, evidenced by completed transactions for Sapota (chikoo) and Tender coconut.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Routine replenishment of fresh fruit, specifically Sapota (chikoo), for personal consumption.",
+  "overall_confidence": "medium"
+}

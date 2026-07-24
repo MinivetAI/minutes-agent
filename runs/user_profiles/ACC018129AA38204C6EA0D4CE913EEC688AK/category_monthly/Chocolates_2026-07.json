@@ -1,0 +1,18 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user purchased chocolates on two independent weekend dates. Cadbury Dairy Milk appeared on both dates (26 g bar on 07-11 and Silk Fruit & Nut pack on 07-18), meeting the repetition bar for stable preference. The user also purchased a Cadbury Dairy Milk Silk Fruit & Nut Valentine’s Gift Pack on 07-18, which is a single-date observation. Daypart patterns show purchases on both weekend mornings and evenings, but each daypart occurred on only one date, so no stable daypart preference is established.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Cadbury Dairy Milk",
+      "claim_text": "Cadbury Dairy Milk was purchased on 2 independent dates (2026-07-11 and 2026-07-18), indicating a stable preference.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Cadbury Dairy Milk Silk Fruit & Nut Valentine’s Gift Pack was purchased on a single date (2026-07-18) and does not establish a stable preference. Daypart patterns (morning and evening) each occurred on only one date, so no stable daypart preference is established.",
+  "overall_confidence": "medium"
+}

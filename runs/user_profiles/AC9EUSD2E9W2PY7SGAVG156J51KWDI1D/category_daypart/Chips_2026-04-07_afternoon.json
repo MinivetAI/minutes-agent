@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks and one 70 g pack of Beyond Snack Kerala Banana Peri Peri Chips.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the afternoon on a weekday, a time when this user's activity is below the population baseline (25.26%). The items are single-serve savoury snacks suitable for immediate consumption or quick cravings.",
+  "uncertainty_text": "This is a single observed order; durable brand or flavour preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

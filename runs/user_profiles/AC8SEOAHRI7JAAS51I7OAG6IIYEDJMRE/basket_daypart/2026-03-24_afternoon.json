@@ -1,0 +1,23 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-24 in the afternoon on a weekday. The basket contains three items: one unit of Flour, two units of Curd Yogurt, and one unit of Salt. This represents a single observation of basket breadth (3 distinct categories) and does not establish a durable preference pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Flour",
+        "Curd Yogurt",
+        "Salt"
+      ],
+      "combination_text": "Flour, Curd Yogurt, and Salt were purchased together in a single transaction.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of flour, curd yogurt, and salt is compatible with basic home cooking or baking preparation.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Stable patterns, repeated behaviors, or durable preferences cannot be inferred from this single observation. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

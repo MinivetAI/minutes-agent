@@ -1,0 +1,52 @@
+{
+  "category": "Wheat Flour",
+  "profile_text": "The user has purchased wheat flour on two independent dates (April 2026 and July 2026), but the brands differ (Fortune vs. Aashirvaad) and the timing varies (weekend morning vs. weekday afternoon). This pattern does not yet establish a stable brand preference or recurring routine. Purchases are sporadic with no defined cadence.",
+  "brand_preferences": [
+    {
+      "brand": "Fortune",
+      "preference_text": "Purchased once in April 2026. Single observation; low confidence.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Aashirvaad",
+      "preference_text": "Purchased once in July 2026. Single observation; low confidence.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Fortune Chakki Fresh Atta (5 kg) purchased once in April 2026.",
+      "examples": [],
+      "confidence": "low"
+    },
+    {
+      "preference_text": "Aashirvaad Shudh Chakki Atta (5 kg) purchased once in July 2026.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-07-09. No cadence data available to predict next purchase.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on two separate occasions, indicating reliable conversion from intent to purchase when the user decides to buy.",
+  "substitution_text": null,
+  "price_value_text": "Both observed purchases were for 5 kg packs. No specific price sensitivity or value-seeking behavior is evident from the limited data.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance. The user has not established a routine, making future behavior uncertain.",
+  "mission_generation_text": "Restocking staple baking ingredients for home cooking or baking needs.",
+  "overall_confidence": "low"
+}

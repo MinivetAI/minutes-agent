@@ -1,0 +1,40 @@
+{
+  "category": "Toothbrush",
+  "profile_text": "A single observed purchase of SENSODYNE Sensitive Soft toothbrushes on 2026-07-04 indicates a utility-first need for oral care replacement. No stable preferences, routines, or brand loyalty can be inferred from this isolated transaction.",
+  "brand_preferences": [
+    {
+      "brand": "SENSODYNE",
+      "preference_text": "Observed in a single purchase on 2026-07-04. Insufficient evidence to establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "One pack of three SENSODYNE Sensitive Soft toothbrushes purchased on 2026-07-04. Single observation does not establish a durable product preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Routine oral care maintenance and replacement of worn toothbrushes.",
+  "overall_confidence": "low"
+}

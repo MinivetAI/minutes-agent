@@ -1,0 +1,26 @@
+{
+  "category": "Chocolates",
+  "profile_text": "In March 2026, the user purchased two distinct chocolate items on separate dates: Ferrero Rocher Truffles on a weekday afternoon and a Nestlé KitKat bar on a weekday evening. Each item was observed on only one independent date, so no stable brand or product preferences are established for this category this month.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-16",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established; last purchase was on 2026-03-16.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions for both observed items.",
+  "substitution_text": "No substitution patterns observed; distinct brands and products were purchased on separate dates.",
+  "price_value_text": "No price or value behavior established due to lack of repeated purchasing patterns.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty detected; purchases were completed.",
+  "mission_generation_text": "Shopping needs supported by this category profile include immediate snacking (KitKat) and potential gifting or special occasion treats (Ferrero Rocher), though specific intent cannot be confirmed without further repetition.",
+  "overall_confidence": "low"
+}

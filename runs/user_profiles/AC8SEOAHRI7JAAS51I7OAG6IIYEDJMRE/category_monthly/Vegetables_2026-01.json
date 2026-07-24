@@ -1,0 +1,9 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, the user purchased two distinct vegetable items on separate dates: Gourmet Garden Organic Cauliflower on a weekend morning and unbranded fresh Bottle Gourd on a weekday afternoon. Because each product appeared on only one independent date, no stable brand or product preferences can be established. The user demonstrated interest in both organic cauliflower and fresh bottle gourd, but these remain single-observation purchases without evidence of a recurring routine.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Each vegetable item was purchased on a single independent date. No durable brand or product preferences can be established from this evidence.",
+  "overall_confidence": "low"
+}

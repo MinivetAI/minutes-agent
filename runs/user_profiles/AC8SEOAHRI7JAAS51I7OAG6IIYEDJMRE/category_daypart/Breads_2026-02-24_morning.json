@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Naturbaked Zero Maida Whole Wheat Bread 300 g placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning (32.46% population share), a time when ready-to-use breakfast or snack bases like toast or sandwich bread are commonly acquired.",
+  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences.",
+  "overall_confidence": "low"
+}

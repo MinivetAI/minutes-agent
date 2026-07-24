@@ -1,0 +1,34 @@
+{
+  "category": "Toothpaste",
+  "profile_text": "The user has purchased toothpaste on three independent dates (Jan, Jun, Jul 2026), establishing a stable but slow replenishment cycle (~78 days). Colgate is the only observed brand, appearing on all three dates, supporting a medium-confidence brand preference. The user has bought multiple pack sizes (200g, 300g, 500g multi-pack), indicating flexibility in quantity rather than a strict size preference. Purchases occurred on weekdays and weekends, in mornings, evenings, and afternoons, showing no strong daypart constraint. The primary need is routine oral care maintenance.",
+  "brand_preferences": [
+    {
+      "brand": "Colgate",
+      "preference_text": "Colgate is the only brand observed across three independent purchase dates (Jan, Jun, Jul 2026), indicating a stable preference for this brand in the toothpaste category.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 78.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-09-20",
+    "replenishment_text": "The user typically replenishes toothpaste every 78 days, classified as a slow cycle. The last purchase was on 2026-07-04, with the next predicted purchase around 2026-09-20 based on this average cadence.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in toothpaste reliably converts to purchase, as evidenced by three completed transactions across different months.",
+  "substitution_text": "The user has purchased different pack sizes (200g, 300g, 500g) of the same brand, suggesting openness to varying quantities or multi-packs rather than strict size loyalty.",
+  "price_value_text": "The purchase of a 500g multi-pack in July suggests a practical, value-oriented restock behavior, though earlier purchases were single units. No explicit price sensitivity is established beyond this single bulk-buy observation.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user consistently purchases the same brand but varies pack size.",
+  "mission_generation_text": "Routine oral hygiene maintenance and household supply replenishment.",
+  "overall_confidence": "medium"
+}

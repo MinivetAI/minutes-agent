@@ -1,0 +1,34 @@
+{
+  "category": "Dish Cleaning Gel",
+  "profile_text": "In 2026-07, the user purchased one 0.75 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon) on a weekday morning. This purchase aligns with morning activity that is above the population baseline (32.5%). The product is a standard household cleaning item used for hand-washing utensils. This is a single observation on one date; it does not establish a stable preference for this brand or product type.",
+  "brand_preferences": [
+    {
+      "brand": "Flipkart Supermart",
+      "preference_text": "The user purchased Flipkart Supermart Dish Cleaning Gel (Lemon) on one date in July 2026. This is a single observation and does not establish a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-13",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict the next purchase date.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "The user completed a purchase for this category, indicating that interest in this category reliably becomes a purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "The user has a need for hand-washing utensils, satisfied by a standard household dish cleaning gel.",
+  "overall_confidence": "low"
+}

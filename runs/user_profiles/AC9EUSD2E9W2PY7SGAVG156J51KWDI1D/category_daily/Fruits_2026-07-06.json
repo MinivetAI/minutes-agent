@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-06",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-06 (weekday), a single order of Banana Robusta 4 Units was placed in the morning. This purchase aligns with the observed morning daypart activity (32.5% of population activity), a time when fresh fruit is commonly bought for immediate consumption or breakfast. As this is a single observation, it does not establish stable preferences or repeat purchase patterns.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Banana Robusta 4 Units (fresh bananas) placed in the morning. Purchased in the morning (32.5% of population activity), a time when fresh fruit is commonly bought for immediate consumption or breakfast.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; cannot establish stable preferences or repeat purchase patterns.",
+  "overall_confidence": "low"
+}

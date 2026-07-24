@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-19",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-19 (weekday), a single order of Too Yumm! Lightly Salted Chips (50 g) was placed in the afternoon. This single-serve, lightly salted potato chip pack is suitable for a quick, individual snack. This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Too Yumm! Lightly Salted Chips (50 g) in the afternoon. The product is a single-serve, lightly salted potato chip pack, suitable for a quick, individual snack.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,25 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-05-30 in the afternoon on a weekend. The basket contains five items across five distinct categories: Cookies Biscuits (1), Aerated Drinks (2), Chips (1), Canned Food (1), and Milk (1). The purchase reflects a mix of snack items (Cookies Biscuits, Chips, Aerated Drinks) and pantry staples (Canned Food, Milk). No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Aerated Drinks",
+        "Chips",
+        "Canned Food",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits, Aerated Drinks, Chips, Canned Food, and Milk were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of snack items (Cookies Biscuits, Chips, Aerated Drinks) and staples (Canned Food, Milk) is compatible with a need for immediate snacking or a casual meal component, alongside basic pantry replenishment.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior is evident to support claims of routine or preference.",
+  "overall_confidence": "low"
+}

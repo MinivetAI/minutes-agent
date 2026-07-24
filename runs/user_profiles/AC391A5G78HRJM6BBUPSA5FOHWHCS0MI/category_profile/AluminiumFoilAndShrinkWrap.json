@@ -1,0 +1,40 @@
+{
+  "category": "Aluminium Foil And Shrink Wrap",
+  "profile_text": "Based on a single observed order, the user purchased a 72 m roll of Flipkart Supermart Aluminium Foil on a weekend night. This suggests an immediate kitchen utility need, such as covering leftovers or lining cooking trays, rather than a planned bulk restock. No stable brand preference, routine, or durable loyalty is established from this single data point.",
+  "brand_preferences": [
+    {
+      "brand": "Flipkart Supermart",
+      "preference_text": "The user purchased this brand in a single observed order. This is an isolated observation and does not indicate a stable preference or routine.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased a 72 m roll of aluminium foil in a single observed order. This is an isolated observation and does not indicate a stable preference or routine.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-05",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict future purchases.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase in the observed data.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Immediate kitchen utility needs, such as covering leftovers or lining cooking trays.",
+  "overall_confidence": "low"
+}

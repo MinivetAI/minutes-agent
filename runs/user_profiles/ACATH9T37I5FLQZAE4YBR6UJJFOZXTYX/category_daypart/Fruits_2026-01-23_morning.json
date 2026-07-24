@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 180 g pack of Fresh Mahabaleshwar Strawberries (unbranded) during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a small-pack fresh fruit, typically used for immediate consumption, such as a snack, breakfast add-on, or quick dessert.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate craving, guest serving, trial) cannot be determined from this single event.",
+  "overall_confidence": "low"
+}

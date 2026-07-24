@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Tender Coconut (fresh whole fruit) on 2026-06-09 in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning (32.46% population share), a time often associated with starting the day or mid-morning refreshment. Tender coconut is a fresh, perishable fruit typically used for immediate hydration and refreshment.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for tender coconuts.",
+  "overall_confidence": "low"
+}

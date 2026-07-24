@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 300 g pack of Nestle Cerelac Ragi Apple Baby Food Cereal and one 300 g pack of Nestle Cerelac Rice Vegetables Baby Food Cereal.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed on a weekend afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The products are infant complementary cereals intended for babies 6–24 months, suggesting a need for immediate, age-appropriate feeding options or restocking of baby food supplies.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these two variants over others is unknown.",
+  "overall_confidence": "low"
+}

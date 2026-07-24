@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-15 (weekday), the user placed one order of Campa Cola PET Plastic Bottle 500 ml (1 unit) in the morning. This occurred during a time when the user's activity is above the population baseline (32.46%). The product is a single-serve carbonated cola beverage, typically used for immediate refreshment or meal pairing. This is a single observation on one date; it does not establish a stable preference or routine for aerated drinks or the Campa brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Campa Cola PET Plastic Bottle 500 ml (1 unit) placed in the morning. This occurred during a time when the user's activity is above the population baseline (32.46%). The product is a single-serve carbonated cola beverage, typically used for immediate refreshment or meal pairing.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for aerated drinks or the Campa brand.",
+  "overall_confidence": "low"
+}

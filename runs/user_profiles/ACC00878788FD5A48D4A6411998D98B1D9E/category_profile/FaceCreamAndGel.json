@@ -1,0 +1,26 @@
+{
+  "category": "Face Cream And Gel",
+  "profile_text": "Based on a single observed order on 2026-07-05, the user purchased one unit of Joy Honey & Almonds Nourishing Skin Cream (200 ml) during the night. This is an isolated observation; there is insufficient evidence to establish stable brand or product preferences, recurring patterns, or a defined replenishment cadence.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-05",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase in the observed window.",
+  "substitution_text": "No substitution patterns observed due to single purchase.",
+  "price_value_text": "No price or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
+  "mission_generation_text": "Routine facial skincare maintenance.",
+  "overall_confidence": "low"
+}

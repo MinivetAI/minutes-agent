@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-10 (weekday), a single order was placed in the evening. The basket contained one unit of Curd Yogurt and one unit of Milk. This represents a narrow basket breadth with two dairy-related categories purchased together. The shopping need may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Restocking dairy staples for immediate consumption or meal preparation.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or routine behaviors cannot be inferred from this isolated event.",
+  "overall_confidence": "low"
+}

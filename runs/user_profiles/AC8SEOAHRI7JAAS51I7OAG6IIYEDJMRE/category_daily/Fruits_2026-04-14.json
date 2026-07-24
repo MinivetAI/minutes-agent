@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-14 (weekday), the user purchased 1 unit of Musk Melon Kajari (fresh whole muskmelon) in the morning. This fresh produce item is suitable for immediate home consumption, snacking, or breakfast. The order occurred during a period with a population share of 0.3246. This is a single observation on one date; durable preferences or routine behavior cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 1 unit of Musk Melon Kajari (fresh whole muskmelon).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behavior cannot be established.",
+  "overall_confidence": "low"
+}

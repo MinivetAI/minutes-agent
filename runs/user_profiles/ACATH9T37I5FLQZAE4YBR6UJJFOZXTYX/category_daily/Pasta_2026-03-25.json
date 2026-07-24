@@ -1,0 +1,9 @@
+{
+  "date": "2026-03-25",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased two single-serve instant pasta items: one 75 g pack of Maggi Pazzta Cheese Macaroni and one 68.5 g pack of Maggi Pazzta Cheesy Tomato Twist. This order occurred during the morning, a daypart where pasta purchases are less common than the population baseline (morning share 0.3246). The specific items selected are quick-cook options suitable for fast snacks or light sides. Because this is a single observed order on one date, durable brand or flavor preferences cannot be established.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established.",
+  "overall_confidence": "low"
+}

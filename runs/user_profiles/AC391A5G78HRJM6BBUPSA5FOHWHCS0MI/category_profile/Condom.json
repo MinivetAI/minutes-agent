@@ -1,0 +1,26 @@
+{
+  "category": "Condom",
+  "profile_text": "A single observed purchase of a delay-focused, ultra-thin lubricated condom in April 2026. This isolated event does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this delay-focused, ultra-thin product over other options is unknown.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-20",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution patterns observed from a single order.",
+  "price_value_text": "No price/value pattern established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports personal sexual health and protection needs.",
+  "overall_confidence": "low"
+}

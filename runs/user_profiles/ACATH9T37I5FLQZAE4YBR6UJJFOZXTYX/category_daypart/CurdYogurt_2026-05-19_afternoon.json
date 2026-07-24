@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 200 ml pack of Amul Masti Dahi Plain Curd.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when population share is 0.2526 (lower than the morning peak of 0.3246). The small 200 ml pack suggests immediate consumption or topping up a household shortfall for everyday meals.",
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an immediate need. No other orders in this category are observed to establish a stable preference.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-05",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user placed a single-item order during the night daypart. The basket was narrow, containing only one product category: Face Cream And Gel. The specific observation was 1 unit of Face Cream And Gel. This behavior is compatible with a need for facial skincare maintenance or moisturization. Because this is a single observation from one date, stable preferences, routines, or durable behavioral patterns cannot be inferred. Confidence in any inferred user behavior is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Face Cream And Gel"
+      ],
+      "combination_text": "Face Cream And Gel",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of a face cream and gel is compatible with a need for facial skincare maintenance or moisturization.",
+  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, routines, or durable behavioral patterns cannot be inferred from this isolated event. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

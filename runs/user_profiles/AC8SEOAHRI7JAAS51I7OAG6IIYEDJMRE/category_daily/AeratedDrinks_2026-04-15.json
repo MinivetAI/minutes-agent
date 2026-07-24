@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-15",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-15 (weekday), the user purchased 1 unit of Sprite PET Bottle 750 ml (lemon-lime carbonated soft drink) during the evening. This purchase aligns with the high population share (0.3027) for Aerated Drinks in the evening daypart, suggesting a typical pattern for ready-to-drink refreshment. This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Sprite PET Bottle 750 ml (lemon-lime carbonated soft drink).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

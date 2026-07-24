@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-01 (morning, weekday) containing Vegetables (2 units of VEGFBE9JZWXHDRZ8, 1 unit of VEGGF7EXB3KWXAGJ) and Savouries Namkeens (1 unit of SNSF6KYDNQDGBVJV). The basket reflects a basic meal-preparation need compatible with these ingredients. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a meal or snack involving vegetables and savory accompaniments.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

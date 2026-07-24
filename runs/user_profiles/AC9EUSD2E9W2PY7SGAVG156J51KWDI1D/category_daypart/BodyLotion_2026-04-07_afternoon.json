@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 120 ml NIVEA Aloe Hydration Light Lotion Moisturizer.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered in the afternoon on a weekday, a time when the user's activity is less common than the population baseline (25.3% share vs. 32.5% morning share). The product is a lightweight, daily-use body moisturizer intended for quick hydration.",
+  "uncertainty_text": "This is a single observed order; durable preferences or routine usage patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

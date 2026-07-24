@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 20 ml pack of Nasoclear Nasal Spray, a saline nasal spray for moisturizing and clearing blocked or dry nasal passages.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening on a weekday, a time when population share (0.3027) is comparable to the morning baseline (0.3246). The product is a general utility item for immediate nasal relief, often used for congestion or dryness.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., acute cold, allergy, travel) cannot be determined from the transaction alone.",
+  "overall_confidence": "low"
+}

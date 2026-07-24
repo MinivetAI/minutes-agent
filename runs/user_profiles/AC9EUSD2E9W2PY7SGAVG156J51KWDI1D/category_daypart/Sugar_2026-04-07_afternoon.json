@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of Fortune white sugar.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a standard pantry staple for household sweetening.",
+  "uncertainty_text": "Single observation does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

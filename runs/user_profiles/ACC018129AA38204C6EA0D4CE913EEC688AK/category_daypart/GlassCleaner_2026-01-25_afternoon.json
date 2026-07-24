@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased one pack of Flipkart Supermart Super Shine Glass and Surface Cleaner (3 x 500 ml) during the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time when the user's activity was below the population baseline (25.26% share). The product is a general-purpose cleaner for glass and smooth surfaces, suitable for routine home maintenance or quick cleaning tasks.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this brand or product type represents a stable preference or a one-time replenishment need.",
+  "overall_confidence": "low"
+}

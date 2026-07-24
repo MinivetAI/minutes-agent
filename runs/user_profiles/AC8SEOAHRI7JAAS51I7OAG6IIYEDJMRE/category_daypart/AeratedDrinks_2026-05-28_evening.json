@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "One Appy Fizz 250 ml PET Bottle was purchased in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the evening on a weekday, a time when the user's activity aligns with the population baseline (evening share 0.3027). The product is a single-serve sparkling fruit drink, typically used for immediate refreshment or as a convenient, individual-sized treat.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Appy Fizz or aerated drinks in general.",
+  "overall_confidence": "low"
+}

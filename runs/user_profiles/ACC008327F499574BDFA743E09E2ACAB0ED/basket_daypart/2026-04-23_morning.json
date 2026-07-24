@@ -1,0 +1,92 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-23 in the morning on a weekday consisted entirely of Vegetables (8 items total: 2 units of VEGFBE9JZWXHDRZ8, and 1 unit each of VEGF7FJ5UVTDPSRH, VEGGF7EXB3KWXAGJ, VEGHFRZ3GHKTHCZG, VEGG6FK9GFUZ3J8E, VEGF7FJ5GHASHZJT, VEGHFRZ36J6QJZKZ, and VEGF7EZ6NTGSCA9Y). No other categories were purchased in this transaction. The basket breadth is limited to a single category. This single observation is compatible with a need for vegetable ingredients but does not establish a durable preference or routine.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "DipsSaucesPastes",
+        "Vegetables"
+      ],
+      "combination_text": "DipsSaucesPastes and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "SpicesMasala"
+      ],
+      "combination_text": "SavouriesNamkeens and SpicesMasala",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Fruits"
+      ],
+      "combination_text": "CurdYogurt and Fruits",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "IceCreams",
+        "Vegetables"
+      ],
+      "combination_text": "IceCreams and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "DipsSaucesPastes"
+      ],
+      "combination_text": "Breads and DipsSaucesPastes",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Vegetable ingredients for meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routines cannot be established.",
+  "overall_confidence": "low"
+}

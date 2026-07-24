@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 200 g pack of Safal Frozen Green Peas.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The product is a frozen vegetable ingredient used for convenient, small-batch home cooking.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established.",
+  "overall_confidence": "low"
+}

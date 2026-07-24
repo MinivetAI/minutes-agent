@@ -1,0 +1,34 @@
+{
+  "category": "Batteries",
+  "profile_text": "A single observed purchase of Duracell Ultra AAA alkaline batteries (4-count) on 2026-06-16 (weekday, morning). This transaction reflects an immediate utility need for replacing depleted cells in small electronics or appliances. No browsing, cart, or search activity was recorded. Cadence is unknown based on this single data point.",
+  "brand_preferences": [
+    {
+      "brand": "Duracell",
+      "preference_text": "Observed in a single transaction on 2026-06-16. Insufficient repetition to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-16",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-06-16. Cadence is unknown due to lack of repeated purchase history.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value sensitivity data observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Immediate utility need for replacing depleted cells in small electronics or appliances.",
+  "overall_confidence": "low"
+}

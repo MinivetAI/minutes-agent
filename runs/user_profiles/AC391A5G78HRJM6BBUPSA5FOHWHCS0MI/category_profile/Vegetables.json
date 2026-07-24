@@ -1,0 +1,23 @@
+{
+  "category": "Vegetables",
+  "profile_text": "The user demonstrates a high-confidence, stable preference for fresh loose potatoes (400–450g), purchasing this specific product on five independent dates in April 2026. This behavior establishes a fast replenishment cadence (every 4 days). While onions were purchased once in April, this single observation does not constitute a stable preference. Shopping occurs across all dayparts and days of the week, indicating flexible timing driven by immediate cooking needs rather than a fixed schedule.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for fresh loose potatoes (400–450g), purchased on five independent dates in April 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": null,
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by multiple completed transactions for the preferred product.",
+  "substitution_text": "No specific substitution patterns are established; the user consistently returns to the same potato product.",
+  "price_value_text": "No specific price sensitivity or value-seeking behavior is established for this category based on the provided evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Restocking fresh vegetable staples for immediate cooking and meal preparation.",
+  "overall_confidence": "high"
+}

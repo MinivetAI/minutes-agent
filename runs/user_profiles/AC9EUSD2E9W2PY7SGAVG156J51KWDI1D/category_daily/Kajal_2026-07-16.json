@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-16 (weekday), the user purchased one unit of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) during the evening. This timing aligns with the user's relatively high evening activity share (0.3027) compared to the population baseline. The product is an everyday eye makeup item positioned for reliable, smudgeproof wear. This is a single observed order; no repeated behavior or browsing history is available to establish stable preferences or brand loyalty.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one unit of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) during the evening on a weekday. This timing aligns with the user's relatively high evening activity share (0.3027) compared to the population baseline.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; no repeated behavior or browsing history is available to establish stable preferences or brand loyalty.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-09 (weekday), the user purchased one 100 g pack of DNV Appalam (plain papad) during the evening. This purchase aligns with the evening daypart, which accounts for 30.27% of population activity in this category. The product is a dry, shelf-stable accompaniment typically fried or roasted, suggesting a need for a quick, crunchy side to complete a meal. This is a single observed order on one date; it does not establish a stable preference for the DNV brand or this specific product type over time.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 100 g pack of DNV Appalam (plain papad) during the evening on a weekday. This purchase aligns with the evening daypart, which accounts for 30.27% of population activity in this category. The product is a dry, shelf-stable accompaniment typically fried or roasted, suggesting a need for a quick, crunchy side to complete a meal.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for the DNV brand or this specific product type over time.",
+  "overall_confidence": "low"
+}

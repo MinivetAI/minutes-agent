@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased cookies and biscuits on four independent dates (2026-05-04, 2026-05-13, 2026-05-26, 2026-05-30). All purchases occurred on weekdays except for one weekend order, and all four orders were placed in the afternoon. The user purchased three distinct products: Britannia Good Day Cashew Cookies, Britannia NutriChoice Zero Cookies Biscuit, and Britannia 50-50 Golmaal Salted Biscuit. The Britannia 50-50 Golmaal Salted Biscuit was purchased on two independent dates (2026-05-26 and 2026-05-30), meeting the repetition bar for stable preference. The other two products appeared only once. The afternoon daypart pattern is consistent across all four dates. The user's afternoon activity is below the population baseline (25.26% share).",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Britannia 50-50 Golmaal Salted Biscuit",
+      "claim_text": "The user purchased Britannia 50-50 Golmaal Salted Biscuit on two independent dates in May 2026, indicating a stable preference for this specific variant.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "brand",
+      "value": "Britannia",
+      "claim_text": "The user purchased Britannia-branded cookies on all four independent dates in May 2026, indicating a stable preference for this brand.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the user purchased three different products, only one product (Britannia 50-50 Golmaal Salted Biscuit) and one brand (Britannia) met the repetition threshold for stable preference. The other two products (Good Day Cashew, NutriChoice Zero) were single-date observations and are excluded from stable preference lists. The afternoon daypart pattern is stable across all dates.",
+  "overall_confidence": "medium"
+}

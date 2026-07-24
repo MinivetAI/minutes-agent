@@ -1,0 +1,9 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased two distinct chocolate items on separate dates: Ferrero Rocher Truffles on a weekday afternoon and a Nestlé KitKat bar on a weekday evening. Each item was observed on only one independent date, so no stable brand or product preferences are established for this category this month.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Evidence is limited to two single-date observations. No brand, product, or variant recurred across 2 or more independent dates, so no stable preferences can be inferred. The user may have different needs for each purchase (e.g., gifting vs. snacking), but this cannot be confirmed without further repetition.",
+  "overall_confidence": "low"
+}

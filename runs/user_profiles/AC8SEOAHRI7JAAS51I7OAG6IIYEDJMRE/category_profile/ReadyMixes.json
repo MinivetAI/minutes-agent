@@ -1,0 +1,55 @@
+{
+  "category": "Ready Mixes",
+  "profile_text": "The user demonstrates a recurring, medium-cadence purchasing pattern for ready-to-cook mixes, primarily for breakfast and dessert applications. Evidence spans four independent dates across February, March, and April 2026, indicating a stable habit rather than isolated trials. The user engages with multiple brands (The Select Aisle, iD Fresh, Khetika, Vaidyam) and product types (custard powder, pancake batter, chilla batter, idly/dosa batter), suggesting a preference for variety or specific meal needs rather than loyalty to a single brand. Purchases occur across different dayparts (morning, afternoon, evening) and days (weekday, weekend), reflecting flexible timing driven by immediate meal preparation needs.",
+  "brand_preferences": [
+    {
+      "brand": "The Select Aisle",
+      "preference_text": "Purchased once on 2026-02-27. Single observation; no stable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "iD Fresh",
+      "preference_text": "Purchased once on a weekend afternoon in March 2026. Single observation; no stable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Khetika",
+      "preference_text": "Purchased once on a weekday morning in March 2026. Single observation; no stable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "brand": "Vaidyam",
+      "preference_text": "Purchased once on 2026-04-08. Single observation; no stable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 13.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-04-08",
+    "predicted_next_purchase_date": "2026-04-21",
+    "replenishment_text": "The user typically purchases Ready Mixes every 13 days, with the next purchase estimated around 2026-04-21.",
+    "confidence": "medium",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Ready Mixes reliably converts to purchase, as evidenced by four completed transactions across independent dates.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior observed; purchases span various pack sizes (100 g to 1 kg) and brands.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports quick breakfast preparation (pancakes, chilla, idly/dosa) and dessert making (custard), prioritizing convenience and speed over from-scratch cooking.",
+  "overall_confidence": "medium"
+}

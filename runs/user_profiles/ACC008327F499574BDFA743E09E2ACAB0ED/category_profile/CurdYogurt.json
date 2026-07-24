@@ -1,0 +1,26 @@
+{
+  "category": "Curd Yogurt",
+  "profile_text": "In January 2026, the user ordered one unit of Saras Plain Curd 200 g on a single date (2026-01-26). This is an isolated observation; no stable brand or product preference can be established. The order occurred in the evening, a daypart with slightly below-baseline activity (30.3% share).",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-01-26",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value pattern established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Routine replenishment of plain curd/yogurt for immediate consumption or cooking.",
+  "overall_confidence": "low"
+}

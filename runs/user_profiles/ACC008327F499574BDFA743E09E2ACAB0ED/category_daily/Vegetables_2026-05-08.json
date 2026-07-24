@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-08",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased a single order of fresh vegetables and aromatics: Onion (1 kg), Local Tomato (1 kg), Fresh New Crop Potato (0.95–1.05 kg), Fresh Ginger (70–80 g), and Coriander Leaves (100 g). This order also included Chilli Bajji (250 g). The combination of base ingredients (onion, tomato, potato, ginger, coriander) suggests preparation for a meal, while the inclusion of a ready-to-eat snack indicates immediate consumption needs. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased a single order of fresh vegetables and aromatics: Onion (1 kg), Local Tomato (1 kg), Fresh New Crop Potato (0.95–1.05 kg), Fresh Ginger (70–80 g), and Coriander Leaves (100 g). This order also included Chilli Bajji (250 g). The combination of base ingredients suggests preparation for a meal, while the inclusion of a ready-to-eat snack indicates immediate consumption needs. This is a single observation on one date; no durable brand or product preferences can be established.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
+  "overall_confidence": "low"
+}

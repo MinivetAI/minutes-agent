@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-08",
+  "day_type": "weekend",
+  "summary_text": "On 2026-02-08 (weekend), the user purchased 1 unit of Bhujialalji Aloo Bhujia 150 g during the night. This purchase occurred in a daypart with lower population share (0.1202) compared to morning (0.3246), afternoon (0.2526), and evening (0.3027). The product is a shelf-stable, ready-to-eat savoury snack, compatible with immediate snacking needs such as tea-time or hunger between meals. This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "Purchased 1 unit of Bhujialalji Aloo Bhujia 150 g during the night on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

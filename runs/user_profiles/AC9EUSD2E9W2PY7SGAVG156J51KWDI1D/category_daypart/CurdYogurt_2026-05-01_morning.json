@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Masti Plain Curd 390 ml.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The product is a single-serve household pack of plain curd, typically used for immediate consumption or as an ingredient in dishes like raita or kadhi.",
+  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

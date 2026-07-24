@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Unbranded Button Mushroom (190-210 g) during a morning weekday session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. The product is a fresh vegetable ingredient typically used for quick-cooking meals such as stir-fries, curries, or soups.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for button mushrooms or morning vegetable shopping.",
+  "overall_confidence": "low"
+}

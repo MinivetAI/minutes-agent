@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Mother Dairy Toned Milk 500 ml was placed in the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.26% share vs. 32.46% for morning). The product is a small-pack, short-shelf-life dairy staple suitable for immediate consumption.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., tea, cooking, or household stock) cannot be determined from the transaction alone.",
+  "overall_confidence": "low"
+}

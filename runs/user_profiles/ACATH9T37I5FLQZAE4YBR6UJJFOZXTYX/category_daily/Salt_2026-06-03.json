@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-03 (weekday), the user purchased one 1 kg pack of Tata Salt Superlite, a low-sodium iodized cooking salt, during a morning session. This morning activity accounts for 32.46% of the user's total weekly share. The purchase suggests a routine household replenishment need for a staple cooking ingredient. As this is a single observed order on one date, it does not establish a stable preference or routine; it is unclear if this represents a permanent switch to low-sodium salt or a one-time trial.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 1 kg pack of Tata Salt Superlite, a low-sodium iodized cooking salt, during a weekday morning session. This morning activity accounts for 32.46% of the user's total weekly share. The purchase suggests a routine household replenishment need for a staple cooking ingredient. As this is a single observed order on one date, it does not establish a stable preference or routine; it is unclear if this represents a permanent switch to low-sodium salt or a one-time trial.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. It is unclear if this represents a permanent switch to low-sodium salt or a one-time trial.",
+  "overall_confidence": "low"
+}

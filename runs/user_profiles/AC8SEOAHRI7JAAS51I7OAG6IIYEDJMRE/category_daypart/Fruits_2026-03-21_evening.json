@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 500 g pack of Baby Banana Robusta, one 250 g pack of Crimson Red Seedless Grapes, one 500 g pack of Green Seedless Grapes, and one unit of Watermelon Kiran.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the evening on a weekend, a time when population activity is high (30.27% share). The products are fresh, ready-to-eat fruits, suggesting a need for immediate consumption, snacking, or quick household replenishment rather than bulk stocking.",
+  "uncertainty_text": "No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is unclear if this represents a one-time need or a recurring habit.",
+  "overall_confidence": "low"
+}

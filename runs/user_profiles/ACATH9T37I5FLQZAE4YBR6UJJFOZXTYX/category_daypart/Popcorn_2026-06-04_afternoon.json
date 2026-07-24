@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a ready-to-pop microwave snack, suitable for quick, low-effort consumption.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

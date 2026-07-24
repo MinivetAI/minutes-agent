@@ -1,0 +1,18 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased fresh fruit items on three independent dates. Unbranded Litchi Without Stems was purchased on two separate dates (2026-06-03 and 2026-06-27), establishing a stable preference for this specific item. Watermelon Kiran was purchased on one date (2026-06-04) and remains a single-date observation. Purchases occurred in the morning and afternoon on weekdays, and in the afternoon on a weekend.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Unbranded Litchi Without Stems",
+      "claim_text": "The user has a stable preference for Unbranded Litchi Without Stems, evidenced by purchases on two independent dates in June 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Watermelon Kiran was observed on a single date; no stable preference or routine can be established for this item. The specific reasons for choosing litchi or watermelon (e.g., seasonal availability, taste preference) are unknown.",
+  "overall_confidence": "medium"
+}

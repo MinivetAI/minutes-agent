@@ -1,0 +1,40 @@
+{
+  "category": "Tea",
+  "profile_text": "The user has a single observed purchase of Tata Tea Agni Strong Leaf Black Tea (250 g pouch) on a weekday afternoon in March 2026. This timing is less frequent than the population baseline. Due to the single observation, no stable brand preference, routine, or replenishment cadence can be established.",
+  "brand_preferences": [
+    {
+      "brand": "Tata Tea",
+      "preference_text": "Observed in one order on 2026-03-31. Single observation does not establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Tata Tea Agni Strong Leaf Black Tea (250 g pouch) observed in one order on 2026-03-31. Single observation does not establish a stable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-31",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Cadence is unknown based on a single purchase on 2026-03-31; no predicted next purchase date can be estimated.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase.",
+  "substitution_text": "No evidence of substitution behavior; only one product observed.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior beyond the single observed transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Supports regular home brewing needs for black tea.",
+  "overall_confidence": "low"
+}

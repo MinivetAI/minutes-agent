@@ -1,0 +1,40 @@
+{
+  "category": "Car Air Freshener",
+  "profile_text": "In July 2026, the user purchased one Godrej Aer Twist Cool Surf Blue Car Freshener (45 g) on a weekday morning. This single observation does not establish a stable preference or recurring routine for this brand or scent.",
+  "brand_preferences": [
+    {
+      "brand": "Godrej Aer",
+      "preference_text": "Purchased once on 2026-07-09. Single observation; no stable preference established.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Purchased one Godrej Aer Twist Cool Surf Blue Car Freshener (45 g) on 2026-07-09. Single observation; no stable preference established.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase on 2026-07-09.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No repeated brand or product evidence to establish substitution patterns.",
+  "price_value_text": "No repeated purchase evidence to establish price sensitivity or value behavior.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty beyond the single purchase.",
+  "mission_generation_text": "Maintaining a pleasant scent in the vehicle.",
+  "overall_confidence": "low"
+}

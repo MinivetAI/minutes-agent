@@ -1,0 +1,32 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-12 in the evening on a weekday. The basket contains 8 items across three categories: Vegetables (4 distinct products, 1 unit each), Milk (1 product, 2 units), and Curd Yogurt (1 product, 1 unit). The order-building behavior shows a combination of fresh produce and dairy staples. The shopping_need_text compatible with this basket is a requirement for basic meal ingredients, specifically fresh vegetables and dairy proteins.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.421,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.105,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation requiring fresh vegetables and dairy staples.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

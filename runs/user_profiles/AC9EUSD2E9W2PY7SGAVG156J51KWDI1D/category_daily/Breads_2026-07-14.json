@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-14",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-14 (weekday), the user purchased 1 unit of Britannia Breakfast Slice White Bread 450 g in the afternoon. This is a standard packaged white sliced bread intended for everyday breakfast and sandwich use. The order occurred in the afternoon, a time when this category is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246). This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for purchasing in the afternoon rather than the more common morning window is not established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Britannia Breakfast Slice White Bread 450 g. The order occurred in the afternoon on a weekday, a time when this category is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for purchasing in the afternoon rather than the more common morning window is not established.",
+  "overall_confidence": "low"
+}

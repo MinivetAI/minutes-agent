@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-04 (morning, weekday) containing 2 units of Buttermilk and 2 units of Milk. The basket is narrow, consisting solely of dairy beverages. The `shopping_need_text` may describe a need for breakfast dairy or hydration compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Buttermilk",
+        "Milk"
+      ],
+      "combination_text": "Buttermilk and Milk were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Possible need for morning dairy consumption or breakfast ingredients.",
+  "uncertainty_text": "This is a single observation on one date. Confidence is low. No stable patterns can be inferred from one order.",
+  "overall_confidence": "low"
+}

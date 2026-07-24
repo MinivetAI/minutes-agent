@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-10 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Fruits. No other products were purchased or added to cart in this session. The basket breadth is narrow, consisting of a single category. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Fruits"
+      ],
+      "combination_text": "Fruits",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Fruits is compatible with a need for fresh produce or snack items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this single data point. Category pair evidence (e.g., WashingBar/WashingPowder) reflects population-level co-occurrence statistics and does not indicate that these items were bought together in this specific order.",
+  "overall_confidence": "low"
+}

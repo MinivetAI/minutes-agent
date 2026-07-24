@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Delight Nuts Premium Orange Candy 130 g was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekday. The population baseline indicates that 32.46% of activity in this category happens in the morning. The product is a small, portable orange-flavoured candy, typically used for immediate freshness or a quick sweet treat.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Cookies Biscuits",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for the Britannia brand in the Cookies Biscuits category, having purchased Britannia products on four independent dates in May 2026. Within this brand, the Britannia 50-50 Golmaal Salted Biscuit shows a medium-confidence stable preference, appearing on two independent dates. Other Britannia products (Good Day Cashew Cookies, NutriChoice Zero) were single-observation purchases. The user consistently orders in the afternoon on weekdays, with a cadence of approximately 9 days. Mission generation is driven by routine snacking or household stocking needs.",
+  "brand_preferences": [
+    {
+      "brand": "Britannia",
+      "preference_text": "The user purchased Britannia-branded cookies on all four independent dates in May 2026, indicating a stable preference for this brand.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased Britannia 50-50 Golmaal Salted Biscuit on two independent dates in May 2026, indicating a stable preference for this specific variant.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 9.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-05-30",
+    "predicted_next_purchase_date": "2026-06-08",
+    "replenishment_text": "The user typically purchases this category every 9 days, with the next purchase estimated around 2026-06-08.",
+    "confidence": "medium",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by four completed transactions across independent dates.",
+  "substitution_text": null,
+  "price_value_text": "No specific price or value behavior evidence found.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Routine replenishment of afternoon snack items, specifically salted biscuits and cookies, for household consumption.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 245.5 g pack of Parle Kismi Assorted Toffee during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time with high population share (0.3027) for this category, suggesting alignment with typical evening snacking or after-meal consumption patterns. The product is a ready-to-eat assorted toffee pack, generally used for impulse snacking, sharing, or mouth freshening.",
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or flavor preference can be established. The specific reason for this purchase (e.g., immediate craving vs. stocking up) is unknown.",
+  "overall_confidence": "low"
+}

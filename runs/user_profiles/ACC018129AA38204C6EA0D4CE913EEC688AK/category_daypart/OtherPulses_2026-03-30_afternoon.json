@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 200 g pack of MAI RASOI Whole Peanuts and one 500 g pack of Classic Yellow Moong Dal Split.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed during an afternoon weekday session, a time when population activity is lower than the morning baseline (0.2526 vs 0.3246). The items are staple pantry ingredients (whole peanuts and split moong dal) typically used for home cooking or snacking.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a durable brand or product preference. It is unclear if these items were part of a planned restock or an immediate need.",
+  "overall_confidence": "low"
+}

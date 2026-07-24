@@ -1,0 +1,62 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-07-19 in the evening on a weekend. The basket contains five items across four categories: Cheese, Milk, Butter Margarine, Breads, and Vegetables. The user purchased 1 unit of Cheese, 2 units of Milk, 1 unit of Butter Margarine, 1 unit of Breads, and 1 unit of Vegetables. This represents a single observation of a basket containing dairy staples (Milk, Cheese, Butter) alongside bread and vegetables, compatible with a need for basic meal ingredients or breakfast components. No durable behavior pattern can be established from this single order.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Butter Margarine"
+      ],
+      "combination_text": "Milk and Butter Margarine were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Cheese",
+        "Milk"
+      ],
+      "combination_text": "Cheese and Milk were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation or breakfast components.",
+  "uncertainty_text": "This is a single observed order on one date. No durable preferences or stable patterns can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low"
+}

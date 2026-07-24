@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-26",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-26 (weekend), the user purchased 1 kg of unbranded fresh onions during the evening. This timing aligns with the population baseline share of 0.3027 for evening purchases. The product is a basic cooking staple, suggesting a need for meal preparation ingredients. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 kg of unbranded fresh onions during the evening on a weekend. This timing aligns with the population baseline share of 0.3027 for this daypart. The product is a basic cooking staple, suggesting a need for meal preparation ingredients.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

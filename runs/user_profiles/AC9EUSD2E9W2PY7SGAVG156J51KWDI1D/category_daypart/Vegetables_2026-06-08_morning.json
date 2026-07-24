@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit each of Local Tomato (450-550g) and Lady\u2019s Finger (480\u2013520g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The items are fresh, unbranded produce staples typically used for immediate same-day cooking or meal assembly.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing.",
+  "overall_confidence": "low"
+}

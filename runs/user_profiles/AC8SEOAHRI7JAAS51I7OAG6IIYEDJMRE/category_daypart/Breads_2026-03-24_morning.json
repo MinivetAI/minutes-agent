@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 300 g loaf of Baker's Loaf Whole Wheat Bread during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a period where this user's activity (32.5% share) is above the population baseline (32.5% vs 32.5% baseline share indicates alignment with typical morning activity levels, though the baseline is 0.3246 which is the share itself). The product is a ready-to-use sliced bread suitable for breakfast or sandwich preparation.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "overall_confidence": "low"
+}

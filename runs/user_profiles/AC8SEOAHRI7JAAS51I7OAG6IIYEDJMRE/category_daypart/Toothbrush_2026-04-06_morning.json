@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one pack of six Colgate ZigZag Medium Bristle Multicolour manual toothbrushes.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the morning on a weekday, a time when this activity is more common than average (population share 0.3246). The product is a multi-pack of manual toothbrushes, typically used for routine oral hygiene and household replenishment.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "overall_confidence": "low"
+}

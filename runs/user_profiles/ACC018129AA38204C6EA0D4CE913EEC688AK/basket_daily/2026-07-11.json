@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-11",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-11 (weekend), a single order was placed during the morning daypart. The basket contained one unit each of Savouries Namkeens, Chocolates, and Chips. This combination is compatible with a need for snack items or casual treats. No durable pattern is established from this single date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Chocolates",
+        "Chips"
+      ],
+      "combination_text": "Savouries Namkeens, Chocolates, and Chips were purchased together in a single transaction.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of savouries, chocolates, and chips is compatible with a need for snack items or casual treats.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences, routines, or durable behavioral patterns cannot be inferred from this isolated event. Confidence is low.",
+  "overall_confidence": "low"
+}

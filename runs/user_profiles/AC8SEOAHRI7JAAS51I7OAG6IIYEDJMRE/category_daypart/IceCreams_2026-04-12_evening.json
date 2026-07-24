@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 1 L tub of Amul Tiramisu Gold Ice Cream and one 500 ml tub of Go Zero Mango Mad Over Mango Guilt Free Ice Cream during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical post-dinner or leisure dessert consumption patterns on a weekend.",
+  "uncertainty_text": "With only one observed order, it is not possible to determine if these specific brands or flavors represent a stable preference or a one-time indulgence.",
+  "overall_confidence": "low"
+}

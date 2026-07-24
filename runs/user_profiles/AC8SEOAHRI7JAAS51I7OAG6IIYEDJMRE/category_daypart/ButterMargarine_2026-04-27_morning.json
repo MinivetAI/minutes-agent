@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 100 g pack of Amul Pasteurised Salted Butter.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought during the morning on a weekday, a time when this category has a 32.46% population share. The product is a standard kitchen butter suitable for everyday spreading, cooking, or baking.",
+  "uncertainty_text": "This is a single observed order; durable brand or format preferences cannot be established from this one date.",
+  "overall_confidence": "low"
+}

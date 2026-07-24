@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-27",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-27 (weekend), one unit of Indian Sweets (Product ID: SAMHHWDWYZ2DTSST) was purchased during the afternoon. This timing aligns with a period of lower population share (0.2526) compared to the morning (0.3246) and evening (0.3027). The product is a sweet food item. This single observed transaction does not establish a stable preference or routine for Indian Sweets.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One unit of Indian Sweets was purchased during the afternoon on a weekend. This timing corresponds to a lower population share (0.2526) relative to the morning (0.3246) and evening (0.3027).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for Indian Sweets.",
+  "overall_confidence": "low"
+}

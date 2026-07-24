@@ -1,0 +1,52 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-08 (morning, weekday) contained one unit each of Milk, Vegetables (2 items), Other Pulses, Curd Yogurt, and Aerated Drinks. The basket reflects a basic meal-preparation or breakfast-and-lunch need, combining dairy, produce, and a beverage. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for basic breakfast or lunch components, including dairy, fresh produce, and a beverage.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
+  "overall_confidence": "low"
+}

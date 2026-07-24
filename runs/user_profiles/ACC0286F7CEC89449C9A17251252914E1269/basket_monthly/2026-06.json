@@ -1,0 +1,28 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user placed three independent orders on 2026-06-01 (weekday, morning), 2026-06-02 (weekday, evening), and 2026-06-06 (weekend, evening). Each order contained both Cookies Biscuits and Milk. This repetition across three independent dates establishes a stable pattern for these two categories and their co-occurrence. No other categories appeared in more than one order, and no other dayparts or category combinations were repeated. Abandonment patterns are not included in the stable list as no categories were abandoned across multiple independent dates.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [
+    {
+      "behavior_text": "Regularly purchases Cookies Biscuits and Milk together.",
+      "circumstance_text": "Observed on 2026-06-01, 2026-06-02, and 2026-06-06.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Purchases Cookies Biscuits.",
+      "circumstance_text": "Observed on 2026-06-01, 2026-06-02, and 2026-06-06.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Purchases Milk.",
+      "circumstance_text": "Observed on 2026-06-01, 2026-06-02, and 2026-06-06.",
+      "confidence": "high"
+    }
+  ],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "Snack and dairy refreshment.",
+  "uncertainty_text": "Isolated observations of CurdYogurt (2026-06-01), Vegetables (2026-06-01, 2026-06-06), ButterMargarine (2026-06-01, 2026-06-06), Cheese (2026-06-01, 2026-06-06), PaneerTofu (2026-06-01, 2026-06-06), Poha (2026-06-01, 2026-06-06), and SavouriesNamkeens (2026-06-01, 2026-06-06) do not form stable patterns across independent dates. These items appeared in combination with other categories in single orders or were not repeated in a way that suggests a durable preference for those specific items outside the Cookies Biscuits/Milk core.",
+  "overall_confidence": "high"
+}

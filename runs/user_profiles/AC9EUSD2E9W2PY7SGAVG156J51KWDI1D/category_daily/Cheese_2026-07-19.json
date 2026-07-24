@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-19",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-19 (weekend), the user purchased one 200 g block of Go Plain Processed Cheese in the evening. This firm, melting cheese is suitable for cooking, grating, or snacking. The order occurred during a time when the user's activity is slightly below the population baseline for this daypart (30.27%). This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 200 g block of Go Plain Processed Cheese, a firm, melting cheese suitable for cooking, grating, or snacking. The order occurred in the evening on a weekend, a time when the user's activity is slightly below the population baseline for this daypart (30.27%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

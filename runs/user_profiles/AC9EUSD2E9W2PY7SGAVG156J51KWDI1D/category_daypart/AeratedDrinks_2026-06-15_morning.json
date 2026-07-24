@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Campa Cola PET Plastic Bottle 500 ml (1 unit) placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a single-serve carbonated cola beverage, typically used for immediate refreshment or meal pairing.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for aerated drinks or the Campa brand.",
+  "overall_confidence": "low"
+}

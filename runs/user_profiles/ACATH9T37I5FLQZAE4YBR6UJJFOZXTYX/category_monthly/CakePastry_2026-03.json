@@ -1,0 +1,34 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user placed two orders in the Cake Pastry category. Both purchases were for Britannia Romance Nut and Raisin Cake (140 g), occurring on a weekend (2026-03-21) and a weekday (2026-03-27). Both orders were placed in the afternoon, a time when this user's activity is below the population baseline (25.26% share). The product is a packaged, shelf-stable sweet cake, typically used for immediate snacking, tea-time treats, or quick desserts.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Britannia",
+      "claim_text": "The user purchased Britannia products on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Britannia Romance Nut and Raisin Cake (140 g)",
+      "claim_text": "The user purchased Britannia Romance Nut and Raisin Cake (140 g) on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "brand",
+      "value": "Romance",
+      "claim_text": "The user purchased Romance brand products on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

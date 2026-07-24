@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-10 (weekday), a single afternoon purchase included six unbranded fresh vegetable items: Local Tomato (450-550g), Onion (400–450 g), Brinjal Varikatri (250 g), Organic Bottle Gourd, Baby Potato (280–320 g), and Coriander Leaves (100 g). This order represents a collection of perishable staples compatible with immediate same-day cooking or meal preparation. The afternoon timing aligns with a population share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) shares. As this is a single observed order on one date, durable preferences, brand loyalty, or routine habits cannot be established, and the specific meal plan or reason for this combination is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased six unbranded fresh vegetable items: Local Tomato (450-550g), Onion (400–450 g), Brinjal Varikatri (250 g), Organic Bottle Gourd, Baby Potato (280–320 g), and Coriander Leaves (100 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or routine habits cannot be established. The specific meal plan or reason for this combination of vegetables is unknown.",
+  "overall_confidence": "low"
+}

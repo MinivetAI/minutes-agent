@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-11",
+  "day_type": "weekday",
+  "summary_text": "One order of Nestle Cerelac Ragi Apple Baby Food Cereal (300 g) placed during the night on a weekday. The purchase occurred at night, a time with lower population share (0.1202) compared to morning (0.3246), evening (0.3027), and afternoon (0.2526). The product is an infant complementary cereal intended for babies 6–24 months, suggesting a need for immediate feeding stock or a quick meal option for an infant.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the night-time purchase (e.g., urgent need, travel, or routine variation) is not established.",
+  "overall_confidence": "low"
+}

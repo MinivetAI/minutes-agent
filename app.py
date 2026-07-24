@@ -123,8 +123,12 @@ def build_server(provider: str, vllm_url: str, model: str, max_concurrent: int) 
         base_url=vllm_url,
         model=model,
         max_concurrent=max_concurrent,
-        extra_payload={"chat_template_kwargs": {"enable_thinking": False}},
     )
+
+
+# vLLM/Qwen-specific chat-template knob to disable "thinking" mode; not a
+# constructor argument on LLMServer, so it is threaded through per-Task below.
+QWEN_EXTRA_PAYLOAD = {"chat_template_kwargs": {"enable_thinking": False}}
 
 
 def _default_max_tokens(task_name: str):
@@ -197,6 +201,7 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
             server=server,
             repair=config.get("repair", 1),
             max_tokens=config.get("max_tokens", _default_max_tokens(task_name)),
+            extra=QWEN_EXTRA_PAYLOAD if provider == "qwen" else None,
         )
         tasks[task_name] = task
 

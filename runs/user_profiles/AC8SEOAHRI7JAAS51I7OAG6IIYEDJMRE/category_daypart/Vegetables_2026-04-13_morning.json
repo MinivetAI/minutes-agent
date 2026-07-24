@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one fresh cauliflower head (400-600g) and one portion of local tomatoes (450-550g) during a morning weekday session.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the morning, a time when this user's activity is above the population baseline (32.5% share). The items are standard fresh produce staples typically used for immediate meal preparation, such as curries, sides, or salads.",
+  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable routine or a one-time replenishment need.",
+  "overall_confidence": "low"
+}

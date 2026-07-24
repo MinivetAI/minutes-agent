@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Amul Salted Butter 100 g in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening on a weekday, which aligns with the population baseline for this category (evening share 0.3027). The product is a small-format salted butter, typically used for immediate household needs such as breakfast preparation, cooking, or spreading.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable brand preference or a one-time stockout recovery.",
+  "overall_confidence": "low"
+}

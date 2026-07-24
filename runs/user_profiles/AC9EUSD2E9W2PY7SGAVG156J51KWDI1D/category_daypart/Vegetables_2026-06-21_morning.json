@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 1.95\u20132.05 kg pack of unbranded fresh onions.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekend, a time when morning activity is above the population baseline (32.46%). The product is a staple kitchen ingredient typically used as a base for everyday cooking.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for onions or this specific pack size.",
+  "overall_confidence": "low"
+}

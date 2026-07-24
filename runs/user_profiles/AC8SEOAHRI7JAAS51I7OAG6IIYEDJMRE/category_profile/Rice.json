@@ -1,0 +1,40 @@
+{
+  "category": "Rice",
+  "profile_text": "The user has purchased rice on two independent dates (March and July 2026), both involving a 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice. While the brand appears twice, the purchases are separated by several months and lack a defined cadence, preventing the establishment of a stable routine or high-confidence preference. Purchases occurred on both weekends and weekdays, indicating no strong daypart constraint.",
+  "brand_preferences": [
+    {
+      "brand": "India Gate",
+      "preference_text": "India Gate was observed in two independent months (March and July 2026). This repetition supports a medium-confidence preference, though the long gap between purchases prevents a high-confidence classification.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "India Gate All Rounder Feast Rozzana Basmati Rice (1 kg pack) was purchased on two independent dates. This repetition supports a medium-confidence preference for this specific product variant.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-09",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict the next purchase date.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has reliably converted to purchase on all observed occasions.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Routine household food supply for staple grain consumption.",
+  "overall_confidence": "low"
+}

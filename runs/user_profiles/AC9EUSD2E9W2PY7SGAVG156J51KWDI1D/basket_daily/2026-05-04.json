@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04 (weekday), a single order was placed during the morning daypart. The basket contained Vegetables (2 units), Milk (1 unit), Breads (1 unit), and Butter Margarine (1 unit), covering four distinct categories. This combination of items is compatible with a breakfast or morning meal preparation need. The observed order represents a single data point; durable preferences or stable patterns cannot be inferred from this evidence alone.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Morning meal preparation",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

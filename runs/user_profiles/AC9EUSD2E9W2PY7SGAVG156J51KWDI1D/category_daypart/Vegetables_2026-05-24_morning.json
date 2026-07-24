@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one order of fresh vegetables on a weekend morning, consisting of a 1.95\u20132.05 kg pack of unbranded onions and two local cucumbers.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this category represents 32.46% of population activity. The items are staple fresh produce typically used as base ingredients for cooking or immediate consumption in salads.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

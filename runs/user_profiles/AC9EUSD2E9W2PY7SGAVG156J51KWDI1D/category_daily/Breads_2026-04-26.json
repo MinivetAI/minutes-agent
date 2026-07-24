@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-26",
+  "day_type": "weekend",
+  "summary_text": "On 2026-04-26 (weekend), the user purchased 1 loaf of Britannia Sandwich Bread 350 g during the evening. This order aligns with the population baseline for evening activity (30.27% share). The product is a standard sliced white bread loaf, compatible with immediate household needs such as sandwiches, toast, or quick meals. This is a single observed order on one date; it does not establish a stable preference, routine, or recurring habit for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 loaf of Britannia Sandwich Bread 350 g during the evening on a weekend. This order aligns with the population baseline for evening activity (30.27% share). The product is a standard sliced white bread loaf, compatible with immediate household needs such as sandwiches, toast, or quick meals.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring habit for this brand or product type.",
+  "overall_confidence": "low"
+}

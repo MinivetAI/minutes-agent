@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-29",
+  "day_type": "weekend",
+  "summary_text": "On 2026-03-29 (weekend), one order of Hen Fruit Protein Max White Eggs (6 Units) was placed during the morning. This purchase aligns with the user's morning activity, which represents 32.46% of their total weekly volume. The product is a basic fresh egg pack, typically used for immediate cooking needs or breakfast preparation. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Hen Fruit Protein Max White Eggs (6 Units) was placed during the morning on a weekend. This purchase aligns with the user's morning activity, which represents 32.46% of their total weekly volume. The product is a basic fresh egg pack, typically used for immediate cooking needs or breakfast preparation. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

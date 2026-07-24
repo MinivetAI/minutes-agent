@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Pampers Complete Skin Comfort Pant Diapers XL 56 Count.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased in the afternoon on a weekday, a timing that is less common than the population baseline for this category (afternoon share 0.2526 vs morning 0.3246). The product is a disposable pant-style diaper pack for older babies/toddlers, typically used for restocking, overnight coverage, or managing leaks.",
+  "uncertainty_text": "This is a single observed order; durable brand or size preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

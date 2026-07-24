@@ -1,0 +1,72 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-06-04 (morning, weekday) containing one unit each of Curd Yogurt, Hair Oil, Spices Masala, and Flour. The basket spans four distinct categories: Dairy, Personal Care, Cooking Ingredients, and Grains. The `shopping_need_text` describes a need compatible with preparing a meal or basic household supplies, but this single observation does not establish a durable preference pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Flour"
+      ],
+      "combination_text": "Curd Yogurt and Flour were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Hair Oil"
+      ],
+      "combination_text": "Curd Yogurt and Hair Oil were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Spices Masala"
+      ],
+      "combination_text": "Curd Yogurt and Spices Masala were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Flour",
+        "Hair Oil"
+      ],
+      "combination_text": "Flour and Hair Oil were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Flour",
+        "Spices Masala"
+      ],
+      "combination_text": "Flour and Spices Masala were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Hair Oil",
+        "Spices Masala"
+      ],
+      "combination_text": "Hair Oil and Spices Masala were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket contains items for food preparation (Curd Yogurt, Spices Masala, Flour) and personal care (Hair Oil). This combination is compatible with a need to restock basic kitchen staples and personal hygiene items.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Therefore, `overall_confidence` is low. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The provided `category_pair_evidence` reflects population-level co-ordering statistics and does not match the specific categories in this single order (e.g., Milk, Vegetables, Breads were not purchased), so no lift/support values from that evidence are applied to this basket's internal combinations.",
+  "overall_confidence": "low"
+}

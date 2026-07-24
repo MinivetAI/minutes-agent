@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-08 (weekday), the user purchased one 1 L pouch of Fortune Premium Kachi Ghani Pure Mustard Oil during the morning. This single order, observed at a time when the population share is 0.3246, indicates a one-time acquisition of a single-pack cooking oil for everyday kitchen use. No durable preferences or routine buying patterns can be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 1 L pouch of Fortune Premium Kachi Ghani Pure Mustard Oil during the morning on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

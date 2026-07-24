@@ -6,6 +6,7 @@ import instructions
 from instructions import (
     FETCH_PRODUCT_KNOWLEDGE,
     MISSION_SEMANTIC_DOCUMENT,
+    OCCASION_EVENT_OCCURRENCE_SUMMARY,
     PRODUCT_SEMANTIC_PARAGRAPH,
     QUERY_IMPROVEMENT,
     QUERY_PARSE,
@@ -27,6 +28,7 @@ from instructions import (
     USER_MISSION_AGGREGATE_SUMMARY,
     USER_MISSION_GLOBAL_PROFILE,
     USER_MISSION_HOURLY_SUMMARY,
+    USER_OCCASION_EVENT_PROFILE,
 )
 from models import (
     ActivitySummary,
@@ -61,6 +63,8 @@ from models import (
     MissionHourlySummaryOutput,
     MissionSemanticDocumentInput,
     MissionSemanticDocumentOutput,
+    OccasionEventOccurrenceSummaryInput,
+    OccasionEventOccurrenceSummaryOutput,
     ProductKnowledgeFetchedOutput,
     ProductKnowledgeInput,
     ProductKnowledgeOutput,
@@ -73,6 +77,8 @@ from models import (
     TestInput,
     TestResponse,
     UserCategoryProfileInput,
+    UserOccasionEventProfileInput,
+    UserOccasionEventProfileOutput,
     UserProfile,
 )
 
@@ -206,6 +212,7 @@ def _prepare_category_daypart(input_dict: Dict[str, Any]) -> Dict[str, Any]:
             {
                 "product": product.get("product_name"),
                 "category": _humanize_catalog(product.get("category")),
+                "brand": product.get("brand"),
                 "product_type": _humanize_catalog(product.get("product_type")),
                 "quantity": product.get("quantity"),
                 "what_it_is": _clean_text(product.get("product_paragraph")),
@@ -214,14 +221,30 @@ def _prepare_category_daypart(input_dict: Dict[str, Any]) -> Dict[str, Any]:
                 ),
             }
         )
+    funnel_events = []
+    for event in input_dict.get("funnel_events") or []:
+        funnel_events.append(
+            {
+                "stage": _scalar(event.get("stage")),
+                "product": event.get("product_name"),
+                "search_query": event.get("query_text"),
+                "view_count": event.get("view_count"),
+                "quantity": event.get("quantity"),
+            }
+        )
+    population_daypart_share = input_dict.get("population_daypart_share") or {}
     return {
         "category": _humanize_catalog(input_dict.get("category")),
         "shopping_moment": (
             f"{input_dict.get('date')} | {_scalar(input_dict.get('daypart'))} | "
             f"{_scalar(input_dict.get('day_type'))}"
         ),
-        "observed_orders": input_dict.get("order_count"),
+        "population_daypart_baseline": ", ".join(
+            f"{daypart}={share}" for daypart, share in population_daypart_share.items()
+        ),
+        "observed_orders": input_dict.get("order_count") or 0,
         "products_ordered": _render_readable(products),
+        "funnel_events_search_view_cart": _render_readable(funnel_events),
     }
 
 
@@ -276,8 +299,21 @@ def _prepare_category_monthly(input_dict: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _prepare_category_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    observed_cadence_days = input_dict.get("observed_cadence_days")
     return {
         "category": _humanize_catalog(input_dict.get("category")),
+        "observed_cadence_days": (
+            observed_cadence_days if observed_cadence_days is not None else "unknown"
+        ),
+        "observed_cadence_evidence_count": input_dict.get("observed_cadence_evidence_count") or 0,
+        "observed_cadence_independent_date_count": (
+            input_dict.get("observed_cadence_independent_date_count") or 0
+        ),
+        "observed_cadence_class": _scalar(input_dict.get("observed_cadence_class")) or "unknown",
+        "observed_last_purchase_date": input_dict.get("observed_last_purchase_date") or "unknown",
+        "observed_predicted_next_purchase_date": (
+            input_dict.get("observed_predicted_next_purchase_date") or "unknown"
+        ),
         "recent_daypart_summaries": _render_readable(
             input_dict.get("recent_daypart_summaries") or []
         ),
@@ -295,6 +331,12 @@ def _prepare_basket_daypart(input_dict: Dict[str, Any]) -> Dict[str, Any]:
             f"{_scalar(input_dict.get('day_type'))}"
         ),
         "complete_orders": _render_readable(input_dict.get("orders") or []),
+        "abandoned_carts_not_checked_out": _render_readable(
+            input_dict.get("abandoned_carts") or []
+        ),
+        "category_pair_evidence_support_confidence_lift": _render_readable(
+            input_dict.get("category_pair_evidence") or []
+        ),
     }
 
 
@@ -331,14 +373,68 @@ def _prepare_basket_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+# Fields the global-profile prompt actually needs from each category profile.
+# The rest (brand/product/quantity/temporal preference detail, substitution and
+# price text, avoidance/uncertainty prose) is useful at the category level but
+# is not cross-category synthesis material, and it dominates the size of this
+# call's input: one full CategoryProfileOutput is ~2900 chars, of which these
+# fields are only ~1600 — a category count near the cap (e.g. 40) times the
+# full object risks exceeding the model's context window well before the
+# output max_tokens budget is even reached.
+_GLOBAL_PROFILE_CATEGORY_FIELDS = (
+    "category",
+    "profile_text",
+    "replenishment",
+    "discovery_candidate",
+    "conversion_text",
+    "mission_generation_text",
+    "overall_confidence",
+)
+
+
 def _prepare_global_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    category_profiles = input_dict.get("category_profiles") or []
+    compact_category_profiles = [
+        {field: profile.get(field) for field in _GLOBAL_PROFILE_CATEGORY_FIELDS}
+        for profile in category_profiles
+    ]
+    total_category_count = input_dict.get("total_category_count")
+    omitted = (total_category_count - len(category_profiles)) if total_category_count else 0
     return {
-        "category_profiles": _render_readable(input_dict.get("category_profiles") or []),
+        "category_profiles": _render_readable(compact_category_profiles),
         "basket_profile": _render_readable(input_dict.get("basket_profile") or {}),
         "recent_summaries": "\n".join(
             f"- {_clean_text(summary)}"
             for summary in (input_dict.get("recent_summaries") or [])
             if _clean_text(summary)
+        ),
+        "category_coverage": (
+            f"{len(category_profiles)} of {total_category_count} total categories supplied here "
+            f"({omitted} lower-evidence categories omitted from this call)"
+            if omitted > 0
+            else f"all {len(category_profiles)} of this user's categories are supplied here"
+        ),
+    }
+
+
+def _prepare_occasion_event_occurrence(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "occasion_type": input_dict.get("occasion_type", ""),
+        "occasion_name": input_dict.get("occasion_name", ""),
+        "occasion_basket_evidence": _render_readable(
+            input_dict.get("basket_summaries") or []
+        ),
+        "ordinary_baseline_not_occasion": _clean_text(
+            input_dict.get("ordinary_baseline_text")
+        ),
+    }
+
+
+def _prepare_user_occasion_event_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "occasion_type": input_dict.get("occasion_type", ""),
+        "occurrence_summaries": _render_readable(
+            input_dict.get("occurrence_summaries") or []
         ),
     }
 
@@ -444,7 +540,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_CATEGORY_DAYPART_SUMMARY,
         "endpoint": "/user/category/daypart-summary",
         "load_level": "medium",
-        "max_tokens": 900,
+        "max_tokens": 2500,
+        "repair": 3,
         "prepare_input": _prepare_category_daypart,
     },
     "user_category_daily_summary": {
@@ -453,7 +550,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_CATEGORY_DAILY_SUMMARY,
         "endpoint": "/user/category/daily-summary",
         "load_level": "medium",
-        "max_tokens": 1000,
+        "max_tokens": 2500,
+        "repair": 3,
         "prepare_input": _prepare_category_daily,
     },
     "user_category_monthly_summary": {
@@ -462,7 +560,11 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_CATEGORY_MONTHLY_SUMMARY,
         "endpoint": "/user/category/monthly-summary",
         "load_level": "medium",
-        "max_tokens": 1100,
+        # Scales with how many active days the category had this month (up to
+        # ~28-31), each contributing claims/patterns/trends; this is the
+        # heaviest per-category stage short of the profile/global steps.
+        "max_tokens": 3500,
+        "repair": 3,
         "prepare_input": _prepare_category_monthly,
     },
     "user_category_preference_profile": {
@@ -471,7 +573,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_CATEGORY_PREFERENCE_PROFILE,
         "endpoint": "/user/category/preference-profile",
         "load_level": "medium",
-        "max_tokens": 1400,
+        "max_tokens": 3500,
+        "repair": 3,
         "prepare_input": _prepare_category_profile,
     },
     "user_basket_daypart_summary": {
@@ -480,7 +583,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_BASKET_DAYPART_SUMMARY,
         "endpoint": "/user/basket/daypart-summary",
         "load_level": "medium",
-        "max_tokens": 1000,
+        "max_tokens": 3000,
+        "repair": 3,
         "prepare_input": _prepare_basket_daypart,
     },
     "user_basket_daily_summary": {
@@ -489,7 +593,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_BASKET_DAILY_SUMMARY,
         "endpoint": "/user/basket/daily-summary",
         "load_level": "medium",
-        "max_tokens": 1000,
+        "max_tokens": 3000,
+        "repair": 3,
         "prepare_input": _prepare_basket_daily,
     },
     "user_basket_monthly_summary": {
@@ -498,7 +603,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_BASKET_MONTHLY_SUMMARY,
         "endpoint": "/user/basket/monthly-summary",
         "load_level": "medium",
-        "max_tokens": 1100,
+        "max_tokens": 3500,
+        "repair": 3,
         "prepare_input": _prepare_basket_monthly,
     },
     "user_basket_profile": {
@@ -507,7 +613,8 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_BASKET_PROFILE,
         "endpoint": "/user/basket/profile",
         "load_level": "medium",
-        "max_tokens": 1400,
+        "max_tokens": 3500,
+        "repair": 3,
         "prepare_input": _prepare_basket_profile,
     },
     "user_global_profile": {
@@ -516,7 +623,12 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "instruction": USER_GLOBAL_PROFILE,
         "endpoint": "/user/global-profile",
         "load_level": "medium",
-        "max_tokens": 1400,
+        # Output size scales with category count: category_preference_text and
+        # replenishment_summary_text must cover every supplied category, and
+        # some users in the sample have 90+ distinct categories (p99 = 68).
+        # 1700 truncates well before that; sized here for the heavy tail.
+        "max_tokens": 6000,
+        "repair": 3,
         "prepare_input": _prepare_global_profile,
     },
     "user_feed_quality_review": {
@@ -527,6 +639,24 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "load_level": "medium",
         "max_tokens": 700,
         "prepare_input": _prepare_feed_quality_review,
+    },
+    "user_occasion_event_occurrence_summary": {
+        "input_model": OccasionEventOccurrenceSummaryInput,
+        "output_model": OccasionEventOccurrenceSummaryOutput,
+        "instruction": OCCASION_EVENT_OCCURRENCE_SUMMARY,
+        "endpoint": "/user/occasion/occurrence-summary",
+        "load_level": "medium",
+        "max_tokens": 900,
+        "prepare_input": _prepare_occasion_event_occurrence,
+    },
+    "user_occasion_event_profile": {
+        "input_model": UserOccasionEventProfileInput,
+        "output_model": UserOccasionEventProfileOutput,
+        "instruction": USER_OCCASION_EVENT_PROFILE,
+        "endpoint": "/user/occasion/profile",
+        "load_level": "medium",
+        "max_tokens": 1100,
+        "prepare_input": _prepare_user_occasion_event_profile,
     },
     "user_mission_hourly_summary": {
         "input_model": MissionHourlySummaryInput,

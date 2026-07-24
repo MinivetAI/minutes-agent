@@ -1,0 +1,37 @@
+{
+  "category": "Fruits",
+  "profile_text": "The user demonstrates a stable preference for bananas, evidenced by purchases on two independent dates in July 2026. Orders were placed on weekdays during the morning daypart. The user has purchased both standard unit-based bananas (Banana Robusta, 4 Units) and pre-packaged baby bananas (Baby Banana Robusta, 500 g), indicating flexibility in pack format or an intent to try different options. No brand preference is established as no specific brand dimension was supplied in the evidence. Replenishment timing is unknown.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "Banana Robusta",
+      "examples": [],
+      "confidence": "medium"
+    },
+    {
+      "preference_text": "Baby Banana Robusta",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-21",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-07-21. Cadence is unknown based on the available evidence.",
+    "confidence": "medium",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed orders on two independent dates.",
+  "substitution_text": "The user has purchased both loose/unit-based bananas and pre-packaged baby bananas, suggesting no strict preference for a single pack format or size.",
+  "price_value_text": "No specific price or value behavior is evident from the supplied evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "It is unclear if the user prefers one specific size or pack format over the other, or if they are trying different options.",
+  "mission_generation_text": "Restocking fresh fruit, specifically bananas, for regular consumption.",
+  "overall_confidence": "medium"
+}

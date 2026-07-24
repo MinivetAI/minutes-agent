@@ -1,0 +1,40 @@
+{
+  "category": "Extension Cords",
+  "profile_text": "The user purchased one Portronics Power Plate 11 4-Socket Extension Board (1500W, 2m cable) on 2026-06-24. This product serves as a power-conversion and device-protection accessory to expand outlet capacity for electronics or appliances. The purchase occurred during the afternoon. No repeated activity is observed to establish brand or product type preference.",
+  "brand_preferences": [
+    {
+      "brand": "Portronics",
+      "preference_text": "The user purchased Portronics products in this category on 1 independent date.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user purchased Portronics Power Plate 11 4-Socket Extension Board (1500W, 2m cable) on 1 independent date.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-24",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "The last purchase was on 2026-06-24. Cadence is unknown based on 1 independent date.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
+  "substitution_text": null,
+  "price_value_text": "No repeated price or value behavior is observed to establish a pattern.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an immediate need.",
+  "mission_generation_text": "Expanding outlet capacity for electronics or appliances.",
+  "overall_confidence": "low"
+}

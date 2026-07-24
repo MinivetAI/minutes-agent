@@ -1,0 +1,40 @@
+{
+  "category": "Sunflower Oil",
+  "profile_text": "In March 2026, the user purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil on a weekday morning. This timing aligns with a population share of 32.46% for weekday mornings. The product is a mid-small pack of refined cooking oil, typically used for routine kitchen replenishment or quick replacement for same-day cooking needs. This is a single observed order on one date; it does not establish a durable brand preference or routine.",
+  "brand_preferences": [
+    {
+      "brand": "Fortune",
+      "preference_text": "Fortune was observed in one order on one date.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Fortune Sunlite Refined Sunflower Oil (800 g pouch) was observed in one order on one date.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-26",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-03-26. Cadence is unknown based on a single observation.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution evidence observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Routine kitchen replenishment or quick replacement for same-day cooking needs.",
+  "overall_confidence": "low"
+}

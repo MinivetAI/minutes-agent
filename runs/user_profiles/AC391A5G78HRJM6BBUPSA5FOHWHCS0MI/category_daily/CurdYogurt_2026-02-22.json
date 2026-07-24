@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-22",
+  "day_type": "weekend",
+  "summary_text": "On 2026-02-22 (weekend), the user purchased 1 unit of Amul Masti Plain Curd 390 ml during the evening. This is a single observed order on one date; no durable brand or product preferences can be established. It is unclear if this was a one-time need or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Amul Masti Plain Curd 390 ml during the evening on a weekend. The order occurred in the evening, a time with 30.27% population share, slightly below the morning baseline of 32.46%. The product is a ready-to-eat dairy item typically used for immediate meal accompaniment or recipe preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established. It is unclear if this was a one-time need or part of a recurring habit.",
+  "overall_confidence": "low"
+}

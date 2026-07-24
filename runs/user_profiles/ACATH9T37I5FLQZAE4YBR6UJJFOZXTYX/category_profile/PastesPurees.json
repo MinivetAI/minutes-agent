@@ -1,0 +1,40 @@
+{
+  "category": "Pastes Purees",
+  "profile_text": "A single observed purchase of Smith & Jones Ginger Garlic Paste (200 g) on 2026-06-07 (weekend, afternoon). This ready-to-use cooking base suggests a need for immediate meal preparation for Indian dishes without fresh ingredient prep. No stable brand or product preferences are established due to lack of repeat transactions. No recurring cadence is detected.",
+  "brand_preferences": [
+    {
+      "brand": "Smith & Jones",
+      "preference_text": "Observed in a single transaction on 2026-06-07. Insufficient evidence to establish a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Smith & Jones Ginger Garlic Paste (200 g) observed in a single transaction on 2026-06-07. Insufficient evidence to establish a stable preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-07",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence detected; last purchase was on 2026-06-07.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase for the observed item.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Immediate meal preparation for Indian dishes requiring a ready-to-use cooking base.",
+  "overall_confidence": "low"
+}

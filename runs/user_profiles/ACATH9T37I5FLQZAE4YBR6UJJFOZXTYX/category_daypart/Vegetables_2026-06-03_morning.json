@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased seven fresh vegetable items: an unbranded product (VEGGF7EXB3KWXAGJ), baby potatoes, local tomatoes, cleaned coriander leaves, sponge gourd, onions, and spinach with roots.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday, a time when the user's activity is 0.3246 of the population baseline. The items are perishable fresh produce staples typically used for immediate same-day cooking.",
+  "uncertainty_text": "This is a single observed order; durable preferences or specific meal intents cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

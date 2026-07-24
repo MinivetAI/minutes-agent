@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-18",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-18 (weekend), the user placed two separate orders across different dayparts. The morning order consisted of a single item: Sanitary Pad (quantity 1). The evening order contained two items: one unit of Sanitary Pad and one unit of Chocolates. No abandoned carts were recorded in either daypart. The basket breadth was narrow in both instances. The combination of sanitary pads and chocolates does not form a coherent meal or household restocking pattern in this single instance. Confidence in any inferred user behavior is low due to the lack of repetition across independent dates.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Sanitary Pad",
+        "Chocolates"
+      ],
+      "combination_text": "Sanitary Pad and Chocolates were purchased together in this single order.",
+      "support": 1.0,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Personal hygiene maintenance (morning); potential snack or treat desire alongside hygiene needs (evening).",
+  "uncertainty_text": "This analysis is based on a single observed date. No durable preferences, routines, or stable patterns can be inferred from this isolated event. Confidence in any behavioral inference is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low"
+}

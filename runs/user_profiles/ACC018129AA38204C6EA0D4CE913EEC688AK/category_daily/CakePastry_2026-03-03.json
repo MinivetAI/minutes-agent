@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-03 (weekday), the user purchased one 100 g Britannia Gobbles Choco Chill Cake in the evening. This small-pack chocolate cake is positioned as an indulgent ready-to-eat snack. The evening timing aligns with population patterns where weekday evening share (30.27%) is comparable to morning (32.46%) and higher than afternoon (25.26%), suggesting a typical after-work or post-dinner window for a quick treat. This is a single observation on one date and does not establish a stable preference for this brand, product type, or evening timing.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 100 g Britannia Gobbles Choco Chill Cake, a small-pack chocolate cake positioned as an indulgent ready-to-eat snack. The evening timing aligns with population patterns where weekday evening share (30.27%) is comparable to morning (32.46%) and higher than afternoon (25.26%), suggesting a typical after-work or post-dinner window for a quick treat.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product type, or evening timing.",
+  "overall_confidence": "low"
+}

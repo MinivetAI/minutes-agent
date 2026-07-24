@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of UTTAM SUGAR Sulphurfree Sugar during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting timing consistent with general evening activity patterns. The product is a standard 1 kg consumer pack of refined white sugar, typically used for everyday kitchen needs such as tea, coffee, or baking.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or category. The specific reason for this purchase (e.g., stockout, recipe need) is not determined.",
+  "overall_confidence": "low"
+}

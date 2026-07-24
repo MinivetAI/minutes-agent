@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of flour (1 unit) placed in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a time when this category is less common than the population baseline (25.26% share vs. 32.46% for morning).",
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or a discovery-driven one. No brand preference can be established from a single item.",
+  "overall_confidence": "low"
+}

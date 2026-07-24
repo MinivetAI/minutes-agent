@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-22",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, a single order was placed in the afternoon. The basket was narrow, containing one unit each of Syrup, Cheese, and Condiments. This specific combination of categories was observed in this single transaction.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Syrup",
+        "Cheese",
+        "Condiments"
+      ],
+      "combination_text": "Syrup, Cheese, and Condiments were purchased together in a single transaction.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for condiments and dairy products to accompany a meal.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. No durable behavior patterns can be inferred from this single data point.",
+  "overall_confidence": "low"
+}

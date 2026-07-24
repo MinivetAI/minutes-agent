@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-27",
+  "day_type": "weekend",
+  "summary_text": "On 2026-06-27 (weekend), the user purchased one Thums Up Soft Drink 750 ml PET Bottle in the afternoon. This single observation occurred during a time when population share is lower than morning or evening peaks. No browsing history or repeat orders are available to establish preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Thums Up Soft Drink 750 ml PET Bottle. Purchased in the afternoon on a weekend, a time when population share is lower than morning or evening peaks. Single observation; no browsing history or repeat orders to establish preference or routine.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Single observation; no browsing history or repeat orders to establish preference or routine.",
+  "overall_confidence": "low"
+}

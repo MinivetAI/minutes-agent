@@ -1,0 +1,40 @@
+{
+  "category": "Bathroom Floor Cleaner",
+  "profile_text": "A single observed purchase of a bathroom disinfectant cleaner on 2026-06-02. No stable routine or brand preference is established.",
+  "brand_preferences": [
+    {
+      "brand": "Harpic",
+      "preference_text": "Observed in one purchase on 2026-06-02.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "One 1 L bottle of Harpic Bathroom Disinfectant Cleaner Floral purchased on 2026-06-02.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-02",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
+  "mission_generation_text": "Routine cleaning and disinfection of bathroom floors, tiles, and sinks.",
+  "overall_confidence": "low"
+}

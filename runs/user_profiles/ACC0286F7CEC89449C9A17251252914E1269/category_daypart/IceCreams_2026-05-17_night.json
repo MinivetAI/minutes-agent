@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 700 ml tub of Kwality Wall's The Dairy Factory Chocochip Ice Cream during a night-time session on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred at night on a weekend, a time when population share (12.02%) is lower than morning (32.46%), afternoon (25.26%), or evening (30.27%). The product is a family-format frozen dessert suitable for immediate consumption or sharing.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a durable preference for this brand, flavor, or night-time shopping habit.",
+  "overall_confidence": "low"
+}

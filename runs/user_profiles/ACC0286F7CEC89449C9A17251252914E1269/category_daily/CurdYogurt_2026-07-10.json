@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-10 (weekday), the user purchased one 800 ml pouch of Amul Plain Curd (dahi) during the evening. This purchase occurred in the evening, a time when this user's activity is slightly less common than the population baseline (30.3% of population activity is in the evening vs. 32.5% in the morning). The product is a standard fresh dairy item typically used for immediate meal preparation or household consumption. This is a single observed order on one date; it does not establish a stable brand preference or routine purchasing pattern for Amul curd.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 800 ml pouch of Amul Plain Curd (dahi) during the evening on a weekday. This purchase occurred in the evening, a time when this user's activity is slightly less common than the population baseline (30.3% of population activity is in the evening vs. 32.5% in the morning). The product is a standard fresh dairy item typically used for immediate meal preparation or household consumption. This is a single observed order on one date; it does not establish a stable brand preference or routine purchasing pattern for Amul curd.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or routine purchasing pattern for Amul curd.",
+  "overall_confidence": "low"
+}

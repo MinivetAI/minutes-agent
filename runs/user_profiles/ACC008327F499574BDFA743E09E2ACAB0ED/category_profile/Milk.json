@@ -1,0 +1,34 @@
+{
+  "category": "Milk",
+  "profile_text": "The user has purchased milk on three independent dates (2026-03-22, 2026-05-13, 2026-07-04), establishing a slow replenishment cadence of approximately 52 days. Amul is the only brand observed across these dates, appearing in every transaction, which supports a medium-confidence brand preference. The user typically buys Amul Taaza Pasteurised Toned Milk, often in 500 ml packs, with occasional 1 L packs. Purchases occur in the evening and afternoon, aligning with general population activity for this category. The last purchase was on 2026-07-04, with the next predicted around 2026-08-25. This pattern supports routine household replenishment for immediate kitchen use (tea, coffee, breakfast).",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "Amul is the only brand observed across three independent purchase dates (March, May, July 2026), supporting a medium-confidence preference for this brand in the Milk category.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 52.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-08-25",
+    "replenishment_text": "The user purchases milk approximately every 52 days, classified as a slow replenishment cycle. The last purchase was on 2026-07-04, and the next is estimated for 2026-08-25 based on this average cadence.",
+    "confidence": "medium",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase; the user has completed transactions on all three observed dates without prior unfulfilled cart or search activity.",
+  "substitution_text": "No explicit substitution behavior observed. The user consistently selects Amul Taaza Pasteurised Toned Milk, suggesting a stable product preference within the brand.",
+  "price_value_text": "No explicit price sensitivity or value-seeking behavior observed in the purchase history.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user has consistently purchased the same brand and similar product formats across the observed period.",
+  "mission_generation_text": "Routine household replenishment for daily kitchen use, specifically for beverages like tea and coffee, or breakfast preparation.",
+  "overall_confidence": "medium"
+}

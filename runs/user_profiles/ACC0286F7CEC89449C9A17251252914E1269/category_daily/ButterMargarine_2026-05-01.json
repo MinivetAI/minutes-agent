@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-01 (weekday), the user purchased 1 unit of Amul Salted Butter 100 g during the evening. This single observation does not establish a stable brand or product preference. The purchase timing aligns with the user's activity baseline, which is near the population peak in the morning (0.3246) and slightly lower in the evening (0.3027). The small-format salted butter may support immediate cooking or spreading needs, but it is unclear if this was a routine restock, a specific recipe requirement, or a trial of the 100 g pack size.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Amul Salted Butter 100 g during the evening on a weekday.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; no stable brand or product preferences can be established. It is unclear if this was a routine restock, a specific recipe requirement, or a trial of the 100 g pack size.",
+  "overall_confidence": "low"
+}

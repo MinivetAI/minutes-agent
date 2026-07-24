@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Daawat Rozana Gold Basmati Rice (5 kg) was placed in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.5% share). The product is a staple food item suitable for household restocking.",
+  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established from this evidence alone.",
+  "overall_confidence": "low"
+}

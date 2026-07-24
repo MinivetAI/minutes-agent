@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-25",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-25 (weekday), a single order of fresh vegetables was placed in the morning. The purchase included 100 g Coriander Leaves, 400–450 g Onion, 280–320 g Baby Potato, and 500 g Carrot. This timing aligns with the population morning share (0.3246), which is the highest among dayparts. These items are fresh, unbranded produce staples typically used for immediate meal preparation or as cooking base ingredients. This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this timing.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased fresh vegetable staples (Coriander Leaves, Onion, Baby Potato, Carrot) in the morning on a weekday. This timing coincides with the highest population daypart share (0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this timing.",
+  "overall_confidence": "low"
+}

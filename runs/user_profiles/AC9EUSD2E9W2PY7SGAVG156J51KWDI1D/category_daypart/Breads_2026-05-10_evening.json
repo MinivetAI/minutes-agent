@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 450 g pack of Britannia Breakfast Slice White Bread during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity (0.3027 share) is slightly below the population average for this daypart (0.3246 morning share is highest, but evening is also high at 0.3027). The product is a standard, convenience-oriented white bread loaf intended for immediate breakfast or sandwich use, suggesting a need for quick meal continuity or restocking a staple item.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time restock or part of a recurring habit.",
+  "overall_confidence": "low"
+}

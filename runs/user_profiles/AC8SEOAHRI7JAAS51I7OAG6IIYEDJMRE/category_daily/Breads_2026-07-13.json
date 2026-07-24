@@ -1,0 +1,9 @@
+{
+  "date": "2026-07-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-13 (weekday), the user purchased one order of Bonn High Fibre Brown Bread 400 g in the evening. This is a packaged brown bread loaf, typically used for breakfast, sandwiches, or toast, suggesting a need for a staple food item for immediate or next-day consumption. The evening purchase occurred at a time when population share (0.3027) is comparable to morning (0.3246). This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this evening purchase (e.g., stockout, meal planning) is not determined.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this evening purchase (e.g., stockout, meal planning) is not determined.",
+  "overall_confidence": "low"
+}

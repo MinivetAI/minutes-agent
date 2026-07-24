@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this category represents 32.46% of population activity. The product is a single-serve savory snack, typically used for immediate consumption or impulse hunger.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

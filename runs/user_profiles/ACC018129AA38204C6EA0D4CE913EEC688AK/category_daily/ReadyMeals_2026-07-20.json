@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-20 (weekday), the user placed one order of a ready meal product (RMDHJCDY47ZHHYYZ) during the evening. This timing aligns with typical dinner-time consumption patterns, as the evening daypart represents 30.27% of population activity for this category. This is a single observed transaction; it is unclear if this reflects a stable preference or a one-time convenience need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of a ready meal product (RMDHJCDY47ZHHYYZ) placed during the evening on a weekday. The purchase occurred in the evening, a time when this category represents 30.27% of population activity, suggesting alignment with typical dinner-time consumption patterns.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "Confidence is low as this is a single observed transaction; it is unclear if this reflects a stable preference or a one-time convenience need.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-05-03",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased two 500 ml ice cream tubs from Go Zero during the afternoon: one Mango Mad Over Mango flavor and one Chocolate Mocha Brownie Fudge flavor. These are ready-to-eat frozen desserts suitable for immediate indulgence or sharing at home. The population baseline indicates afternoon purchases are less common (25.26%) compared to evening (30.27%) and morning (32.46%). This is a single observed order on one date; durable brand or flavor preferences cannot be established, and the specific reason for choosing these flavors or the Go Zero brand is unknown.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these flavors or the Go Zero brand is unknown.",
+  "overall_confidence": "low"
+}

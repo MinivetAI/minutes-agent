@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Haldiram's Mini Bhakarwadi 200 g was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning on a weekday. The population baseline indicates morning activity is common (32.46% share). The product is a ready-to-eat savoury snack, typically used for immediate consumption, tea-time accompaniment, or pantry stocking.",
+  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

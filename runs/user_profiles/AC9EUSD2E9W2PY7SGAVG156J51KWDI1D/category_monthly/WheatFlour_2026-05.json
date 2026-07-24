@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased Aashirvaad Select Atta (1 kg) on two independent dates (2026-05-07 and 2026-05-22), both occurring on weekdays during the morning. The recurrence of this specific brand and pack size across two dates supports a stable preference claim with medium confidence. The consistent timing aligns with morning shopping patterns, which have a 32.5% population share. No other brands or variants appeared in this category during the month.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Aashirvaad",
+      "claim_text": "The user purchased Aashirvaad Select Atta on two independent dates in May 2026, indicating a stable preference for this brand with medium confidence.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Aashirvaad Select Atta (1 kg)",
+      "claim_text": "The user purchased Aashirvaad Select Atta (1 kg packs) on two independent dates in May 2026, indicating a stable preference for this specific product with medium confidence.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The stable preference is based on only two dates in a single month. While the repetition meets the threshold for medium confidence, the limited temporal span means this pattern may not yet represent a long-term routine.",
+  "overall_confidence": "medium"
+}

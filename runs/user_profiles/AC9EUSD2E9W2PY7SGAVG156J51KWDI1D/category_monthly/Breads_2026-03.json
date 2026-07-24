@@ -1,0 +1,26 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased Britannia Breakfast Slice White Bread 450 g on two independent dates (2026-03-23 and 2026-03-30). Both purchases occurred on weekdays during the morning, aligning with a population morning share of 0.3246. The product is a standard packaged white sliced bread intended for everyday breakfast and sandwich use, suggesting a need for immediate meal continuity or convenience. The recurrence of this specific brand and variant across two independent dates establishes a stable preference, supported by the repetition of the weekday morning daypart pattern.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Britannia",
+      "claim_text": "The user has a stable preference for Britannia bread, evidenced by purchases on 2026-03-23 and 2026-03-30.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Britannia Breakfast Slice White Bread 450 g",
+      "claim_text": "The user has a stable preference for Britannia Breakfast Slice White Bread 450 g, evidenced by purchases on 2026-03-23 and 2026-03-30.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The stable preference is based on two independent dates. No other brands or products were observed in this category during this month.",
+  "overall_confidence": "medium"
+}

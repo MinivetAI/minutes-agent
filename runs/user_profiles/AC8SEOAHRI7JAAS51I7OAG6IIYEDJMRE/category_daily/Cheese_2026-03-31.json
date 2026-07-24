@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-31",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-31 (weekday), the user purchased 1 unit of Amul Plain Processed Cheese Slices 100 g in the afternoon. This order occurred during a period of below-baseline activity (25.26%). The product is a convenience item suitable for quick meal assembly. This is a single observed order; durable preferences or routine buying patterns cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Amul Plain Processed Cheese Slices 100 g. Ordered in the afternoon on a weekday, a time when the user's activity is below the population baseline for this period (25.26%). The product is a convenience item suitable for quick meal assembly.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

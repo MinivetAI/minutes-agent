@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1-litre bottle of Dalda Groundnut Oil, a general-purpose cooking oil for everyday Indian meals.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product serves as a pantry replenishment item for daily cooking needs.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+  "overall_confidence": "low"
+}

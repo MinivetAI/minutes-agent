@@ -1,0 +1,93 @@
+{
+  "date": "2026-05-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-27 (weekday), a single order was placed in the evening. The basket contained 7 items across 6 categories: Vegetables (2 items), Pasta (2 items), Hair Removal (1 item), Toner (1 item), and Dips Sauces Pastes (1 item). The combination of Vegetables, Pasta, and Dips Sauces Pastes suggests a meal preparation need. The inclusion of Hair Removal and Toner products indicates a personal care component within the same transaction. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "DipsSaucesPastes",
+        "Vegetables"
+      ],
+      "combination_text": "Dips Sauces Pastes and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "SpicesMasala"
+      ],
+      "combination_text": "Savouries Namkeens and Spices Masala",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Fruits"
+      ],
+      "combination_text": "Curd Yogurt and Fruits",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "IceCreams",
+        "Vegetables"
+      ],
+      "combination_text": "Ice Creams and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Breads",
+        "DipsSaucesPastes"
+      ],
+      "combination_text": "Breads and Dips Sauces Pastes",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user likely has a need for meal preparation involving vegetables, pasta, and dips, alongside personal care needs for hair removal and skin toning.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low"
+}

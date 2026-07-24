@@ -1,0 +1,63 @@
+{
+  "date": "2026-05-02",
+  "day_type": "weekend",
+  "summary_text": "On 2026-05-02 (weekend), a single observed order was placed during the morning daypart. The basket contained 14 items across 7 categories: Vegetables (4 units), Fruits (4 units), Curd Yogurt (2 units), Savouries Namkeens (2 units), Pasta (2 units), Aerated Drinks (1 unit), Honey (1 unit), and Baby Cereal (1 unit). The mix of fresh produce, dairy, pantry staples, and snacks is compatible with a need for general household grocery replenishment, potentially including infant nutrition, but this is a single observation and does not indicate a durable preference or household composition.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together in this order.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket composition suggests a need for general household grocery replenishment, covering fresh produce, dairy, and pantry items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

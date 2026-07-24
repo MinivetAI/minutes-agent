@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-24",
+  "day_type": "weekend",
+  "summary_text": "On 2026-05-24 (weekend), the user purchased 1 unit of Aashirvaad Iodized Salt 1 kg during the afternoon. This afternoon period has a lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a basic pantry staple used for everyday cooking. This is a single observed transaction; durable brand preference or habitual buying patterns cannot be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 unit of Aashirvaad Iodized Salt 1 kg during the afternoon on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; durable brand preference or habitual buying patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

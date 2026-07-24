@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of Baby Potato 280–320 g (unbranded fresh vegetable) during a morning session on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh vegetable suitable for immediate cooking.",
+  "uncertainty_text": "This is a single observed order; no durable preferences or recurring habits can be established from this isolated event.",
+  "overall_confidence": "low"
+}

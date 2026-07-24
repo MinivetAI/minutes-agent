@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-05",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-05 (weekday), the user purchased one 415 g bottle of Kissan Sweet & Spicy Sauce in the afternoon. This tomato-based condiment serves an immediate utility for quick meal accompaniments or snacking. The afternoon timing aligns with a period where population share (25.26%) is lower than morning (32.46%) and evening (30.27%) peaks. This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 415 g bottle of Kissan Sweet & Spicy Sauce. This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low"
+}

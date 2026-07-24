@@ -1,0 +1,26 @@
+{
+  "category": "Syrup",
+  "profile_text": "A single observed purchase of Puramate Pancake Syrup Maple Syrup (300 ml) on a weekend afternoon in March 2026. No browsing history or repeated purchase patterns are present to establish brand loyalty, product preference, or replenishment cadence.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-03-22",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was a single isolated event.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category is not tracked via browsing; the single observed event was a direct purchase, so conversion from interest to purchase cannot be evaluated due to lack of pre-purchase signals.",
+  "substitution_text": "No evidence of substitution behavior or brand switching.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior beyond the single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance signals detected; however, the lack of repeated interaction means true preference remains uncertain.",
+  "mission_generation_text": "Supports immediate breakfast preparation needs, specifically for pancakes or waffles, likely as a table-ready condiment for a weekend meal.",
+  "overall_confidence": "low"
+}

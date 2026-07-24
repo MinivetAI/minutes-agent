@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-30",
+  "day_type": "weekday",
+  "summary_text": "A single order placed on a weekday night containing one unit each of Breads, Ice Creams, and Aerated Drinks. The basket exhibits narrow breadth, combining a staple food item with two distinct indulgence or beverage categories. This specific combination is not supported by the provided category pair evidence, which highlights associations between Breads and CurdYogurt, Vegetables, or Milk, but does not include Ice Creams or Aerated Drinks.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Ice Creams",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Breads, Ice Creams, and Aerated Drinks were purchased together in a single transaction.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Breads alongside Ice Creams and Aerated Drinks is compatible with a need for a quick, ready-to-eat evening snack or dessert, potentially involving bread-based items paired with sweet and carbonated refreshments.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The category pair evidence provided does not contain pairs involving Ice Creams or Aerated Drinks, so no lift or support metrics are available for the specific combination purchased.",
+  "overall_confidence": "low"
+}

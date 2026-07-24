@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-03",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-03 (weekday), the user purchased one 1 kg pack of FORTUNE Besan (gram flour) during the morning. This purchase aligns with the user's morning activity level, which is 32.46% of their total daily share (population baseline). The product is a staple cooking ingredient typically used for savory snacks, batters, or sweets. This is a single observed transaction; it does not establish a stable preference or routine for this brand or category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 1 kg pack of FORTUNE Besan (gram flour).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

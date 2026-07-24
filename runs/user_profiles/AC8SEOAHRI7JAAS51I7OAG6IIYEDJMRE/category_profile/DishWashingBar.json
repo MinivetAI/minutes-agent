@@ -1,0 +1,40 @@
+{
+  "category": "Dish Washing Bar",
+  "profile_text": "On 2026-04-02 (weekday), the user purchased 2 units of Vim Dishwash Bar 110 g in the afternoon. This afternoon purchase aligns with an immediate household replenishment need for handwashing utensils. The timing is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246). As this is a single observed order on one date, durable brand preference or routine cannot be established.",
+  "brand_preferences": [
+    {
+      "brand": "Vim",
+      "preference_text": "Vim was observed in one purchase on 2026-04-02. As this is a single observation, it does not yet establish a durable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Vim Dishwash Bar 110 g was purchased in a quantity of 2 units on 2026-04-02. This single order does not establish a stable product preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-02",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchase was on 2026-04-02. Cadence is unknown based on a single observation, so no predicted next purchase date can be established.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this observed instance.",
+  "substitution_text": "No evidence of substitution behavior; only one brand and product variant were observed.",
+  "price_value_text": "No explicit price or value behavior observed in the supplied evidence.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user completed a purchase.",
+  "mission_generation_text": "Supports immediate household replenishment needs for handwashing utensils.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a time with high population share (0.3027) for this category, suggesting a routine or immediate consumption need for a meal or snack.",
+  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

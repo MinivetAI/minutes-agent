@@ -1,0 +1,11 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend night containing one unit of an Unmapped-ACC product. The basket is narrow, consisting of a single item and category. The `shopping_need_text` is compatible with acquiring an accessory or personal care item, but no broader meal or household need is evidenced by this single transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Acquisition of a specific accessory or unmapped personal item.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred. The `category_pair_evidence` provided reflects population-level co-occurrence statistics across multiple dates and is not derived from this specific user's basket.",
+  "overall_confidence": "low"
+}

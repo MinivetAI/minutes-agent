@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Amul Cow Milk 500 ml.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the morning on a weekday, a time when morning=0.3246 of the population is active. The product is a fresh, short-shelf-life dairy staple typically used for immediate consumption or preparation.",
+  "uncertainty_text": "Single observation on one date; cannot establish stable preferences or routine behavior.",
+  "overall_confidence": "low"
+}

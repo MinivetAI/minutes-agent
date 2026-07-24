@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-02 (weekday), the user purchased 1 unit of Parag Toned Milk 500 ml during the evening. This timing aligns with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than afternoon (0.2526) and night (0.1202). The product is a packaged dairy item suitable for immediate household consumption or replenishment. This is a single observed order; it does not establish a stable preference or routine. The specific reason for the evening timing or the choice of this specific brand/size is not established.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the evening timing or the choice of this specific brand/size is not established.",
+  "overall_confidence": "low"
+}

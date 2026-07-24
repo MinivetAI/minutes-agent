@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Amul Plain Curd Pouch 800 ml during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly less common than the population baseline (evening share 0.3027 vs morning 0.3246). The product is a standard fresh dairy item typically used for immediate household consumption or meal preparation.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference for the Amul brand or the 800 ml pouch format over other options.",
+  "overall_confidence": "low"
+}

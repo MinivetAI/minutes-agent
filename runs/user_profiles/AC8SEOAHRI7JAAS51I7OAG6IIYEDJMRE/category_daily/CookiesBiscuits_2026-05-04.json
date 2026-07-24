@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04 (weekday), the user purchased 1 pack of Britannia Good Day Cashew Cookies (82.7 g) in the afternoon. This is a ready-to-eat sweet biscuit, typically used for immediate snacking or tea-time accompaniment. The purchase occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). This is a single observed order; it does not establish a stable preference or routine for this category or brand. The specific reason for choosing this item over other cookies or biscuits is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased 1 pack of Britannia Good Day Cashew Cookies (82.7 g).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand. The specific reason for choosing this item over other cookies or biscuits is unknown.",
+  "overall_confidence": "low"
+}

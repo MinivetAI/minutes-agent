@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-02 (weekday), one order of flour (1 unit) was placed in the afternoon. This timing is less common than the population baseline (25.26% share vs. 32.46% for morning). No browsing or search history is available to determine if this was a planned purchase or a discovery-driven one. No brand preference can be established from a single item.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of flour (1 unit) placed in the afternoon.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or a discovery-driven one. No brand preference can be established from a single item.",
+  "overall_confidence": "low"
+}

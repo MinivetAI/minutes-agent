@@ -1,0 +1,42 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-16 during the evening on a weekday. The basket contains three distinct categories: Milk (1 unit), Edible Oil (2 units), and Vegetables (1 unit). No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order. This pairing has a support of 0.172, confidence of 0.5, and lift of 2.417 based on 5 co-order instances.",
+      "support": 0.172,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Edible Oil"
+      ],
+      "combination_text": "Milk and Edible Oil were purchased together in this order. No specific pair evidence was supplied for this combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Edible Oil",
+        "Vegetables"
+      ],
+      "combination_text": "Edible Oil and Vegetables were purchased together in this order. No specific pair evidence was supplied for this combination.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for basic meal preparation ingredients, specifically dairy, cooking fat, and fresh produce.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

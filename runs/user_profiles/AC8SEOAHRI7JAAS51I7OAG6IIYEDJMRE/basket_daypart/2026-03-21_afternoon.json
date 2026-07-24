@@ -1,0 +1,24 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-03-21 in the afternoon on a weekend. The basket contains four distinct items: one unit each of Ready Mixes, Paneer Tofu, Rice, and Ready Meals. The purchase combines a staple carbohydrate (Rice) with protein sources (Paneer Tofu) and convenience or prepared food options (Ready Mixes, Ready Meals). This specific combination is compatible with a need for a quick, self-contained meal solution that minimizes preparation time while providing varied textures and flavors. No durable preference pattern can be established from this single observation.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Ready Mixes",
+        "Paneer Tofu",
+        "Rice",
+        "Ready Meals"
+      ],
+      "combination_text": "Single order containing Ready Mixes, Paneer Tofu, Rice, and Ready Meals.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for a convenient, ready-to-eat or easy-to-prepare meal involving rice and protein, compatible with the purchased items.",
+  "uncertainty_text": "This is a single observed order on one date. It does not indicate a stable or recurring preference. The category pair evidence provided (e.g., Breads/CurdYogurt) does not match the categories in this specific order, so no lift/support values are applied to this basket's internal combinations.",
+  "overall_confidence": "low"
+}

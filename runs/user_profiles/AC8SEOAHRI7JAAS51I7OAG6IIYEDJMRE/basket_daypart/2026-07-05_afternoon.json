@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend afternoon contained one unit of Toilet Cleaner and one unit of Canned Food. The basket breadth is narrow, consisting of two distinct categories. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Canned Food",
+        "Toilet Cleaner"
+      ],
+      "combination_text": "Canned Food and Toilet Cleaner were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket may reflect a need for household cleaning supplies and shelf-stable food items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` are not used because only one date is represented. `overall_confidence` is `low` because the evidence represents only one independent date.",
+  "overall_confidence": "low"
+}

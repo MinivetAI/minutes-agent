@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Baby Banana Robusta 500 g (fresh bananas) placed on 2026-07-21 in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning, a period with a population share of 0.3246. The product is a small, 500 g pack of fresh bananas, typically used for immediate consumption, breakfast, or as a quick snack top-up.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine for this specific product or category.",
+  "overall_confidence": "low"
+}

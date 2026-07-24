@@ -1,0 +1,9 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased distinct spice items on three separate dates: Maggi Masala-ae-Magic Vegetable Masala on a weekday morning, Goldiee Kasoori Methi and Ashok Turmeric Powder on a weekend evening, and Everest Chaat Masala on a weekday evening. Each brand and product variant appeared only once. No brand, product, or variant recurred across 2 or more independent dates. Therefore, no stable preferences or routines are established for this category in this month.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Each observed purchase (Maggi Masala-ae-Magic, Goldiee Kasoori Methi, Ashok Turmeric Powder, Everest Chaat Masala) occurred on a single independent date. Without repetition across multiple dates, these observations reflect one-time needs or isolated purchases rather than stable preferences. Confidence in any specific brand or product preference is low.",
+  "overall_confidence": "low"
+}

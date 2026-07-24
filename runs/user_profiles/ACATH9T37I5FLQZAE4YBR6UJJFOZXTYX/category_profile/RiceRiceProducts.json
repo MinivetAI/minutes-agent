@@ -1,0 +1,26 @@
+{
+  "category": "Rice Rice Products",
+  "profile_text": "The user placed a single order for Saffola Masala Oats Peppy Tomato (38 g) on a weekend in June 2026. This product is a single-serve instant savory oats mix, typically used as a quick snack or light meal replacement. No browsing events (search, view, cart) were recorded for this category in this window. A single order does not establish a stable preference for this brand or product type.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-06-28",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was on 2026-06-28.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category is not observed; no browsing or search activity is recorded to indicate unmet interest or discovery potential.",
+  "substitution_text": "No substitution patterns observed due to single purchase event.",
+  "price_value_text": "No price sensitivity or value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance; however, the single purchase does not indicate a durable preference or routine.",
+  "mission_generation_text": "Provides a quick, single-serve savory snack or light meal replacement option.",
+  "overall_confidence": "low"
+}

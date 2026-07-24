@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-27 (weekday), the user purchased one 30 g pack of Veet Pure Hair Removal Cream for Normal Skin during the evening. This purchase aligns with the evening daypart, which has a high population share (0.3027) for Hair Removal. The product is a fast-acting, at-home depilatory cream suitable for quick grooming fixes on legs, arms, or bikini line, potentially addressing last-minute needs or trial use. This is a single observed order; it does not establish a durable brand preference or routine. It is unclear if this is a one-time trial, an emergency top-up, or part of a recurring regimen.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 30 g pack of Veet Pure Hair Removal Cream for Normal Skin during the evening on a weekday. This timing aligns with the evening daypart, which has a high population share (0.3027) for this category. The product is a fast-acting, at-home depilatory cream intended for quick grooming fixes on legs, arms, or bikini line, suitable for last-minute needs or trial use.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a durable brand preference or routine. It is unclear if this is a one-time trial, an emergency top-up, or part of a recurring regimen.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-01",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user purchased fresh cauliflower, cucumbers, and onions during the afternoon. This timing falls within a period of below-baseline activity (25.26% share). The items suggest an immediate need for fresh meal preparation or a quick top-up of kitchen staples. This single transaction does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one fresh cauliflower head, two local cucumbers, and a small pack of onions. This activity occurred during a period where the user's share is below the population baseline (25.26%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

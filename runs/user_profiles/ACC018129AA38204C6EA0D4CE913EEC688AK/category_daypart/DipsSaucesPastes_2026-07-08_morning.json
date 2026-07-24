@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Ordered 1 unit of Del Monte Tomato Classic Blend Ketchup 750 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during a weekday morning, a time when 32.46% of the population's shopping activity occurs. The item is a standard family-size condiment suitable for everyday meals or snacks.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-13",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-13 (weekday), the user placed one order of Dabur Hommade Lemoneez 250 ml (concentrated lemon juice) in the morning. This timing aligns with above-baseline morning activity (32.5%). The product serves as a convenient kitchen staple for immediate lemon flavor needs in beverages or cooking. This is a single observed transaction; durable brand or category preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Dabur Hommade Lemoneez 250 ml was placed in the morning, a time when this user's activity is above the population baseline (32.5%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction; durable brand or category preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

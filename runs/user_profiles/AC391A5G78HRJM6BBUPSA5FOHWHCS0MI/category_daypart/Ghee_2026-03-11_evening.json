@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 900 ml carton of Gyan Ghee during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27%). The product is a standard, shelf-stable cooking fat suitable for general kitchen use.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time restocking need.",
+  "overall_confidence": "low"
+}

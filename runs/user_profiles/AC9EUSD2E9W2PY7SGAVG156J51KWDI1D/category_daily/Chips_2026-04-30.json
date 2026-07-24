@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-30",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-30 (weekday), the user purchased one 65 g pack of CRAX Cheese Balls Puff Snacks during the morning. This purchase occurred in a daypart where the user's activity is below the population baseline (32.5%). The product is a single-serve savory snack, potentially for immediate consumption or impulse hunger. This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or morning shopping habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks. This occurred during a time when the user's activity is below the population baseline (32.5%).",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or morning shopping habit.",
+  "overall_confidence": "low"
+}

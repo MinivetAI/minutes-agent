@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased Apple Red Delicious (2 Units), Watermelon Kiran (1 Unit), and Banana Robusta (3 Units) in a single order. No browsing or cart activity was recorded.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred on a weekend morning, a time when morning activity is above the population baseline (32.46%). The products are fresh, ready-to-eat fruits typically used for immediate consumption, such as breakfast, snacks, or quick hydration.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific fruits or this shopping time.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-29",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased fresh culinary herbs during the morning daypart, which is a period of above-baseline activity (32.5%). The order included 100 g of unbranded fresh coriander leaves and 100 g of unbranded fresh mint leaves. These items are typically used for immediate cooking, garnishing, or finishing dishes. This is a single observed order; it is not yet established whether this represents a stable preference for these specific herbs or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 100 g of unbranded fresh coriander leaves and 100 g of unbranded fresh mint leaves. These items are typically used for immediate cooking, garnishing, or finishing dishes.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for these specific herbs or a one-time need.",
+  "overall_confidence": "low"
+}

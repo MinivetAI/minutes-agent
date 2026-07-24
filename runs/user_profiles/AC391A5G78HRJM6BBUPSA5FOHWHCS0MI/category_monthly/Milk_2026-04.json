@@ -1,0 +1,34 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Parag Toned Milk 500 ml on five independent dates (2026-04-05, 2026-04-10, 2026-04-12, 2026-04-16, 2026-04-20). This product has met the repetition bar for stable preference claims with high confidence due to support across 5 independent dates. The user also exhibits a stable preference pattern for purchasing this item during the evening (3 occurrences) and on weekdays (3 occurrences), though the single weekend night purchase prevents a fully exclusive weekday/evening routine claim. The product is a small-format packaged milk suitable for immediate household consumption.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Parag Toned Milk 500 ml",
+      "claim_text": "The user has a stable preference for Parag Toned Milk 500 ml, evidenced by purchases on 5 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "dimension": "product",
+      "value": "Parag Toned Milk 500 ml",
+      "claim_text": "The user typically purchases Parag Toned Milk 500 ml during the evening, with 3 out of 5 April purchases occurring in this daypart.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Parag Toned Milk 500 ml",
+      "claim_text": "The user typically purchases Parag Toned Milk 500 ml on weekdays, with 3 out of 5 April purchases occurring on weekdays.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the product preference is stable, the daypart and day-type patterns are not exclusive (e.g., one weekend night purchase exists), so they are described as typical rather than routine. No browsing or cart activity was recorded to indicate prior interest or hesitation for any of these orders.",
+  "overall_confidence": "high"
+}

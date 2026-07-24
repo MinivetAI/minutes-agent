@@ -1,0 +1,34 @@
+{
+  "category": "Rava Sooji",
+  "profile_text": "The user has purchased Rava Sooji on two independent dates (2026-02-22 and 2026-04-10), establishing a low-confidence pattern for this staple pantry ingredient. Purchases occurred in the evening (weekend) and morning (weekday), aligning with population activity shares. The user has shown a preference for the Rajdhani Select brand, appearing on both observed dates. No stable routine or recurring cadence is established due to the limited date span and lack of explicit cadence data.",
+  "brand_preferences": [
+    {
+      "brand": "Rajdhani Select",
+      "preference_text": "The user purchased Rajdhani Select Sooji on two independent dates (2026-02-22 and 2026-04-10). This repetition across independent dates supports a medium-confidence preference for this brand within the Rava Sooji category.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-10",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "The last purchase was on 2026-04-10. Cadence is unknown based on the supplied evidence, so no predicted next purchase date can be provided.",
+    "confidence": "low",
+    "evidence_count": 2,
+    "independent_date_count": 2
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in completed purchases on all observed dates; there is no evidence of unmet interest or abandoned carts for this category.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No specific price sensitivity or value-seeking behavior can be inferred from the supplied summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Replenishment of staple pantry ingredients for Indian cooking preparations.",
+  "overall_confidence": "low"
+}

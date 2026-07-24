@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-02-23 in the afternoon on a weekday. The basket contains four items: two from the Vegetables category and two from the Curd Yogurt category. The order-building behavior shows a direct purchase of these specific items without intermediate cart abandonment. The basket breadth is narrow, limited to two distinct categories. This single observation is compatible with a need for basic meal ingredients or fresh dairy and produce, but does not indicate a durable preference or routine.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for fresh produce and dairy products, potentially for immediate meal preparation or daily consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'repeated', 'routine', or 'stable' are not applicable. Confidence is low due to the lack of historical data.",
+  "overall_confidence": "low"
+}

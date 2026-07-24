@@ -1,0 +1,11 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-24 (morning, weekday) included one unit each of Milk, Vegetables, and Breads. The basket breadth covers three distinct categories. The combination of Breads and Vegetables was observed in this order; the supporting evidence for this pair shows a support of 0.086, confidence of 0.231, and lift of 1.01, based on a co-order count of 6. The combination of Milk and Vegetables was also present; the supporting evidence for this pair shows a support of 0.057, confidence of 0.235, and lift of 1.029, based on a co-order count of 4. The combination of Breads and Milk was present; the supporting evidence for this pair shows a support of 0.057, confidence of 0.154, and lift of 0.633, based on a co-order count of 4. This single order is compatible with a breakfast or light meal preparation need.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a simple meal or snack involving dairy, fresh produce, and baked goods.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low"
+}

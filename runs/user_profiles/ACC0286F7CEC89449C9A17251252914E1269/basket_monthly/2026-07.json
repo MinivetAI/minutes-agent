@@ -1,0 +1,32 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, five independent orders were placed, all occurring in the evening daypart. Four of these orders (2026-07-04, 2026-07-10, 2026-07-18, 2026-07-21) consisted exclusively of dairy staples, specifically Milk and Curd Yogurt. One order (2026-07-07) combined dairy with Pasta. One order (2026-07-04) included vegetables and other non-dairy items. No abandoned carts were recorded for any of the observed dayparts.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [
+    {
+      "behavior_text": "Evening Daypart Purchases",
+      "circumstance_text": "All five observed orders were placed in the evening.",
+      "confidence": "high"
+    },
+    {
+      "behavior_text": "Dairy Staple Replenishment",
+      "circumstance_text": "Milk and Curd Yogurt were purchased together in four independent orders (2026-07-04, 2026-07-10, 2026-07-18, 2026-07-21).",
+      "confidence": "high"
+    }
+  ],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Pasta was purchased alongside dairy staples on 2026-07-07.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Vegetables were purchased alongside dairy and other items on 2026-07-04.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "Replenishment of fresh dairy staples (Milk, Curd Yogurt) and occasional meal preparation ingredients (Pasta, Vegetables).",
+  "uncertainty_text": "Vegetables and Pasta were observed only once each; these are isolated cases and do not form stable patterns. No abandoned carts were recorded, so no abandonment patterns are listed.",
+  "overall_confidence": "high"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04, a weekday, a single order was placed in the afternoon. The basket contained three distinct items: one unit of Milk, one unit of Other Cooking Oil, and one unit of Cookies Biscuits. No abandoned carts were recorded for this daypart. The purchase is compatible with a general household grocery restock need. This analysis is based on a single observed order on one independent date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Other Cooking Oil",
+        "Cookies Biscuits"
+      ],
+      "combination_text": "Milk, Other Cooking Oil, and Cookies Biscuits were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Milk, Other Cooking Oil, and Cookies Biscuits is compatible with a general household grocery restock need.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

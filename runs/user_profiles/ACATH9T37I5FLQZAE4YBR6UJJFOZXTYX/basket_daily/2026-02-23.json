@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-23 (weekday), a single order was placed during the evening. The basket contained one unit of Feeding Nursing, one unit of Milk, and four units of Vegetables. The observed combination of Milk and Vegetables has a support of 0.525. No abandoned carts were recorded for this daypart. This is a single observed order; durable preferences cannot be inferred.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Basic meal preparation and infant care supplies.",
+  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

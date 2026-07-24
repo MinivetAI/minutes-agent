@@ -1,0 +1,92 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-28 in the evening on a weekday consisted entirely of six distinct vegetable items. No other categories were purchased in this transaction. The basket reflects a focused need for fresh produce, with no evidence of complementary items like breads, dips, or milk in this specific instance, despite historical co-ordering signals.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Historical data shows Breads and Vegetables are frequently ordered together.",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "DipsSaucesPastes",
+        "Vegetables"
+      ],
+      "combination_text": "Historical data shows DipsSaucesPastes and Vegetables are frequently ordered together.",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Historical data shows Milk and Vegetables are frequently ordered together.",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "SpicesMasala"
+      ],
+      "combination_text": "Historical data shows SavouriesNamkeens and SpicesMasala are frequently ordered together.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Historical data shows Fruits and Vegetables are frequently ordered together.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Fruits"
+      ],
+      "combination_text": "Historical data shows CurdYogurt and Fruits are frequently ordered together.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "IceCreams",
+        "Vegetables"
+      ],
+      "combination_text": "Historical data shows IceCreams and Vegetables are frequently ordered together.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "DipsSaucesPastes"
+      ],
+      "combination_text": "Historical data shows Breads and DipsSaucesPastes are frequently ordered together.",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user has a need for fresh vegetables.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low"
+}

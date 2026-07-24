@@ -1,0 +1,26 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on a weekend morning included one unit each of Tea, Sanitary Pad, Chips (2 units), Noodles, Rice Rice Products, and Vegetables (2 units). The basket breadth covers 5 distinct categories: Tea, Sanitary Pad, Chips, Noodles, Rice Rice Products, and Vegetables. The combination of Tea, Sanitary Pad, Chips, Noodles, Rice, and Vegetables suggests a compatible need for basic household staples and quick meal components. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Tea",
+        "Sanitary Pad",
+        "Chips",
+        "Noodles",
+        "Rice Rice Products",
+        "Vegetables"
+      ],
+      "combination_text": "Tea, Sanitary Pad, Chips, Noodles, Rice Rice Products, and Vegetables were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The products purchased are compatible with a need for basic food staples and personal care items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

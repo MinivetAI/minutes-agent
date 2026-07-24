@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-10",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-10 (weekday), the user purchased 1 unit of Amul Gold Full Cream Milk 1 L during the evening. This single observation does not establish a stable long-term preference for this brand or format.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased 1 unit of Amul Gold Full Cream Milk 1 L during the evening on a weekday. This is a single observed order on one date; it does not establish a stable preference for the Amul brand or this specific product format over time.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for the Amul brand or this specific product format over time.",
+  "overall_confidence": "low"
+}

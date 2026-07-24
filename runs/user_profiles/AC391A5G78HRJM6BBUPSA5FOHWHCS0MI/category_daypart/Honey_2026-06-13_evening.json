@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "One order of Zandu Pure Honey (1 kg) was placed during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period with a 30.27% population share, indicating a common time for this activity. The product is a standard pantry staple, typically used for tea, breakfast, or general household consumption.",
+  "uncertainty_text": "Confidence is low because this is the only observed order on this date; it is not yet clear if this represents a stable preference or a one-time stockout-driven purchase.",
+  "overall_confidence": "low"
+}

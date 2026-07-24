@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "summary_text": "Purchased one 190–210 g pack of fresh whole garlic during the evening on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, aligning with the population baseline share of 0.3027 for this daypart. The product is a fresh produce item typically used as an aromatic base for cooking.",
+  "uncertainty_text": "No browsing or cart activity was recorded to indicate prior interest or comparison. A single order does not establish a stable preference or routine.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-01",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-01, a weekday, a single order was placed in the afternoon. The basket contained three distinct items: two units of an aerated drink, one unit of canned food, and one adhesive tool. This single observation suggests a potential need for hydration, shelf-stable food, and a minor household repair or craft item, but it does not indicate a durable preference or routine.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Canned Food",
+        "Adhesive Tool"
+      ],
+      "combination_text": "Aerated Drinks, Canned Food, and Adhesive Tool were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for ready-to-consume beverages and shelf-stable food items, along with a tool for adhesion or assembly.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not match the specific categories in this user's single order; therefore, no lift/support values are applied to this specific basket's internal combination.",
+  "overall_confidence": "low"
+}

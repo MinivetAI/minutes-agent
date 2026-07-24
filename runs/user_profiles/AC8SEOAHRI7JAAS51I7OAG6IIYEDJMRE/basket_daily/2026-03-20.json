@@ -1,0 +1,34 @@
+{
+  "date": "2026-03-20",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, a single afternoon order was placed containing one unit each of Ghee, Savouries Namkeens, and Milk. This combination is compatible with preparing a simple savory snack or meal component. The observed behavior is limited to this single transaction.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Ghee",
+        "Savouries Namkeens",
+        "Milk"
+      ],
+      "combination_text": "Ghee, Savouries Namkeens, and Milk were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Milk and Savouries Namkeens were co-purchased.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of Ghee, Savouries Namkeens, and Milk is compatible with preparing a simple savory snack or meal component.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated event.",
+  "overall_confidence": "low"
+}

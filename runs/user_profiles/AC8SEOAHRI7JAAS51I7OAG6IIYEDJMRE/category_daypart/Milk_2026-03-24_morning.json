@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 180 ml pack of Alt Co. Oat Milk Drink, a single-serve plant-based milk beverage.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the morning on a weekday, a time when the user's activity is 32.46% more likely than average compared to the population baseline. The product is a small-pack, on-the-go dairy alternative, suggesting an immediate need for a quick, portable beverage or a trial-sized dairy substitute rather than bulk household stocking.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for oat milk, the Alt Co. brand, or morning shopping habits. It is unclear if this was a one-time trial, a replacement for a stockout, or part of a broader dietary shift.",
+  "overall_confidence": "low"
+}

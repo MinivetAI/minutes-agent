@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-10",
+  "day_type": "weekday",
+  "summary_text": "A single order placed on 2026-02-10 in the afternoon on a weekday. The basket contains 10 items across 5 categories: Vegetables (6 items), Milk (2 units), Curd Yogurt (1 item), Drain Opener (2 units), and Cough (1 item). The primary category combination is Vegetables paired with Milk and Curd Yogurt. A compatible shopping need is replenishing fresh produce and dairy staples, alongside household maintenance and personal care.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Replenishment of fresh produce, dairy, and household/personal care items.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

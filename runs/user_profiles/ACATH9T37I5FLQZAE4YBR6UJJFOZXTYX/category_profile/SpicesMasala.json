@@ -1,0 +1,26 @@
+{
+  "category": "Spices Masala",
+  "profile_text": "The user demonstrates a slow, recurring purchasing pattern for Spices Masala, with orders spaced approximately every 23 days. Recent activity includes a variety of specific spice products (Everest Jaljira, Vandevi Asafoetida, Everest Cumin, Snapin Oregano) across March, April, and May 2026. While the cadence is stable, no single brand or product has been repeated on multiple independent dates, indicating varied purchasing behavior rather than a durable brand or product preference. Purchases occur across different dayparts (evening, afternoon) and days of the week.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 23.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-05-28",
+    "predicted_next_purchase_date": "2026-06-20",
+    "replenishment_text": "The user typically repurchases Spices Masala every 23 days, with the next purchase estimated around 2026-06-20.",
+    "confidence": "medium",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed orders across independent dates.",
+  "substitution_text": "No specific substitution patterns identified; the user purchases distinct products (Jaljira, Asafoetida, Cumin, Oregano) on separate occasions.",
+  "price_value_text": "No specific price or value behavior identified beyond standard unit purchases.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
+  "mission_generation_text": "Supports routine culinary needs for flavoring, digestion, and specific dish preparation (e.g., pizza snacks, after-meal refreshment) through varied spice selections.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Haldiram's Khatta Meetha 200 g, a packaged Indian namkeen snack mix, placed in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26%). The product is a ready-to-eat savory snack suitable for immediate consumption, such as a tea-time treat or quick munching.",
+  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or brand loyalty. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

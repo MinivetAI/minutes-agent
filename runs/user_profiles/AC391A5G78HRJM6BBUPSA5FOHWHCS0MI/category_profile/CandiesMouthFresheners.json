@@ -1,0 +1,26 @@
+{
+  "category": "Candies Mouth Fresheners",
+  "profile_text": "A single observed purchase of Parle Kismi Assorted Toffee on 2026-04-12 (evening, weekend). No stable brand or flavor preferences are established due to single-date evidence. Cadence is unknown.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-12",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established; last purchase was on 2026-04-12.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase.",
+  "substitution_text": "No substitution patterns observed.",
+  "price_value_text": "No price/value behavior established from single observation.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Immediate need for mouth freshening or after-meal snacking.",
+  "overall_confidence": "low"
+}

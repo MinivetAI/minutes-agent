@@ -1,0 +1,18 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased fresh fruits across three independent dates. Watermelon Kiran was the most recurrent item, appearing on three separate dates (2026-05-02, 2026-05-04, and 2026-05-17), establishing a stable preference. Other fruits, including Apple Red Delicious, Banana Robusta, and Muskmelon, appeared only once and are excluded from stable claims. Shopping activity occurred on both weekdays and weekends, with purchases in the morning and afternoon.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Watermelon Kiran",
+      "claim_text": "The user has a stable preference for Watermelon Kiran, evidenced by purchases on three independent dates in May 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "Single-date observations for Apple Red Delicious, Banana Robusta, and Muskmelon do not support stable preference claims. Confidence in specific product preferences beyond Watermelon Kiran is low due to lack of repetition.",
+  "overall_confidence": "medium"
+}

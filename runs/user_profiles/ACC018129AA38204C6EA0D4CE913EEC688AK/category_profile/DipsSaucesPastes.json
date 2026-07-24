@@ -1,0 +1,40 @@
+{
+  "category": "Dips Sauces Pastes",
+  "profile_text": "Based on a single observation on 2026-07-08, the user purchased one unit of Del Monte Tomato Classic Blend Ketchup (750 g) during a weekday morning. This is an isolated event; no stable brand, product, or routine preference can be established from this data alone.",
+  "brand_preferences": [
+    {
+      "brand": "Del Monte",
+      "preference_text": "Del Monte was observed in one purchase on 2026-07-08. With only a single independent date, this is an isolated observation and does not yet indicate a stable brand preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Del Monte Tomato Classic Blend Ketchup 750 g was purchased once on 2026-07-08. This is a single observation and does not establish a durable product preference.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-07-08",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence data is available to predict a next purchase date; the last known purchase was on 2026-07-08.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase in the observed window, indicating that when the user engages with this category, they are likely to convert to a transaction.",
+  "substitution_text": "No evidence of substitution behavior is available from a single purchase event.",
+  "price_value_text": "No evidence of price sensitivity or value-seeking behavior is available from a single purchase event.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty is present.",
+  "mission_generation_text": "Supports everyday meal preparation and condiment needs for standard family meals or snacks.",
+  "overall_confidence": "low"
+}

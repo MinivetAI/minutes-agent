@@ -1,0 +1,40 @@
+{
+  "category": "Milk",
+  "profile_text": "The user maintains a high-confidence, stable preference for Amul brand milk, specifically the Taaza Pasteurised Toned Milk (500 ml) variant, supported by repeated purchases across February through June 2026. While July showed a slight variation in product variant (introducing Amul Cow Milk), the brand preference for Amul remains stable. Purchases occur with high frequency (fast cadence, ~3 days) and flexible timing across all dayparts and days of the week, indicating a routine need for immediate kitchen use (tea, coffee, breakfast) rather than a rigid scheduled event. The user is a consistent buyer with no evidence of unmet interest or discovery behavior.",
+  "brand_preferences": [
+    {
+      "brand": "Amul",
+      "preference_text": "The user has a stable preference for Amul brand milk, evidenced by purchases on multiple independent dates spanning February to July 2026.",
+      "confidence": "high",
+      "evidence_count": 31,
+      "independent_date_count": 31
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 29 independent dates from February to June 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 3.0,
+    "cadence_class": "fast",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-07-07",
+    "replenishment_text": "The user purchases milk approximately every 3 days, indicating a fast-replenishing staple item.",
+    "confidence": "high",
+    "evidence_count": 33,
+    "independent_date_count": 33
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase; the user has a history of completed transactions for Amul milk products across multiple months.",
+  "substitution_text": "The user has shown flexibility in product variant within the Amul brand (e.g., switching between Taaza Toned Milk and Cow Milk in July), suggesting potential openness to substitution among Amul milk SKUs, though Taaza Toned Milk remains the primary stable preference.",
+  "price_value_text": "No explicit price or value behavior is observed in the supplied summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user consistently purchases milk.",
+  "mission_generation_text": "Supports immediate daily kitchen needs such as preparing tea, coffee, or breakfast items requiring fresh liquid milk.",
+  "overall_confidence": "high"
+}

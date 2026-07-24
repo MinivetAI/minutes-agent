@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Rajam Snacks Mix Farsan 400 g, a vegetarian Indian savoury snack mix (namkeen/farsan) from Rajam Snacks.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline, which shows a 25.26% share for afternoon activity (compared to 32.46% in the morning and 30.27% in the evening). The product is a ready-to-eat salty snack mix, typically used for immediate consumption with tea or as a quick pantry staple.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate craving vs. pantry restocking) cannot be determined from this single data point.",
+  "overall_confidence": "low"
+}

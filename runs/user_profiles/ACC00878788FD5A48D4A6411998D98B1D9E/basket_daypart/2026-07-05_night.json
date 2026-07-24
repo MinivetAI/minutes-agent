@@ -1,0 +1,11 @@
+{
+  "daypart": "night",
+  "day_type": "weekend",
+  "basket_summary_text": "A single-item order placed on a weekend night consisting of 1 unit of Face Cream And Gel. The basket breadth is narrow, containing only one product category. This represents a single observation of behavior.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of a face cream and gel is compatible with a need for facial skincare maintenance or moisturization.",
+  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, routines, or durable behavioral patterns cannot be inferred from this isolated event. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 pack of Britannia Good Day Cashew Cookies (82.7 g) in the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The product is a ready-to-eat sweet biscuit, typically used for immediate snacking or tea-time accompaniment.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand. The specific reason for choosing this item over other cookies or biscuits is unknown.",
+  "overall_confidence": "low"
+}

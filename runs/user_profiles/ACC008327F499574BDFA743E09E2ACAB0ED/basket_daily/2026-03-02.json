@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-02",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-02 (weekday), a single order was placed in the morning. The basket contained two products from the 'Holi Color' category and one from 'Sweets Mithai'. This combination suggests preparation for Holi festival activities, but as this is the only observed transaction, it represents a single observation rather than a stable preference or routine.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Holi Color",
+        "Sweets Mithai"
+      ],
+      "combination_text": "Holi Color and Sweets Mithai were purchased together in this single order.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation for Holi festival activities, indicated by the purchase of Holi colors and sweets.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low"
+}

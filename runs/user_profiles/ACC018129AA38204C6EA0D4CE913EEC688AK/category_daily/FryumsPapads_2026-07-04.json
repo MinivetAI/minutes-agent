@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-04",
+  "day_type": "weekend",
+  "summary_text": "On 2026-07-04 (weekend), the user purchased one pack of IYER'S Pani Puri Papad Fryums (300 g, Pack of 2) during the evening. This purchase aligns with the high population share for evening shopping (0.3027) in this category, suggesting a potential fit for evening snacking or tea-time preparation. The product serves as a ready-to-fry base for chaat.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased IYER'S Pani Puri Papad Fryums (300 g, Pack of 2) during the evening on a weekend.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-18",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-18 (weekday), a single order was placed during the morning daypart. The basket contained five distinct items across five categories: Savouries Namkeens, Paneer Tofu, Milk, Chips, and Vegetables. Quantities included two units of Milk and single units of the other four products. The combination of Milk and Vegetables was observed, consistent with category pair evidence showing a support of 0.3, confidence of 0.517, and lift of 1.293. The inclusion of Savouries Namkeens and Chips suggests a snack or side-dish component, while Paneer Tofu and Milk may indicate breakfast or cooking ingredients. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a need for morning meal preparation or a light breakfast including dairy, fresh produce, and savory snacks.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

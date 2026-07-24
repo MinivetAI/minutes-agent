@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Baker's Loaf Whole Wheat Bread (300 g) was placed in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.26% share vs. 32.46% for morning). The product is a ready-to-use sliced bread suitable for immediate meal assembly or snacks.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

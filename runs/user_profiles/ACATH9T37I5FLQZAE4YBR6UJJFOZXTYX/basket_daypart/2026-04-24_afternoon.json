@@ -1,0 +1,52 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-24 in the afternoon on a weekday. The basket contains seven items across six categories: Vegetables, Diaper, Curd Yogurt, Milk (two distinct products), Ice Creams, and Ready Meals. The order-building behavior shows a mix of staple household goods (diapers, milk, yogurt, vegetables) and convenience/indulgence items (ready meals, ice cream).",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for daily household staples including dairy, produce, and baby care, alongside prepared food and snacks.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as 'repeated' or 'stable' are not applicable. Confidence in inferred user behavior is low due to the lack of longitudinal data.",
+  "overall_confidence": "low"
+}

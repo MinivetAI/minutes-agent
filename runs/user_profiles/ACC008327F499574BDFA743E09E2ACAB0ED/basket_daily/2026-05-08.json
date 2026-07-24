@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-08",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-08 (weekday), the user placed two separate orders across different dayparts. The morning order consisted exclusively of six distinct vegetable products (one unit each), indicating a narrow focus on fresh produce. The night order contained two items from the Ice Creams category (one unit each), suggesting a separate need for a sweet treat or dessert. No abandoned carts were recorded for either daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "DipsSaucesPastes",
+        "Vegetables"
+      ],
+      "combination_text": "DipsSaucesPastes and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.074,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "SpicesMasala"
+      ],
+      "combination_text": "SavouriesNamkeens and SpicesMasala",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Fruits"
+      ],
+      "combination_text": "CurdYogurt and Fruits",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "IceCreams",
+        "Vegetables"
+      ],
+      "combination_text": "IceCreams and Vegetables",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "DipsSaucesPastes"
+      ],
+      "combination_text": "Breads and DipsSaucesPastes",
+      "support": 0.037,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Ice Creams"
+      ],
+      "combination_text": "Ice Creams",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The morning purchase of multiple vegetable varieties is compatible with a need for fresh ingredients, potentially for meal preparation. The night purchase of ice cream is compatible with a need for a dessert or sweet treat.",
+  "uncertainty_text": "This analysis is based on a single order on one date for each daypart. Patterns such as co-ordering with other categories are derived from aggregate evidence but were not observed in these specific transactions. Confidence in specific user preferences is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,14 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased aerated drinks on three independent dates (2026-04-13, 2026-04-15, 2026-04-30). No single brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preference claims can be established for specific items. The purchases span morning, evening, and night dayparts, with no consistent daypart pattern emerging from the three distinct events. All observations are treated as single-date events with low confidence.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased aerated drinks on three separate weekdays in April 2026, but the specific brands and products varied each time (Diet Coke, Sprite, Original Taste Coke), indicating no recurring brand or flavor preference was established during this month.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "All purchases occurred on different dates with different products. No value (brand, product, variant, or daypart) appeared on 2 or more independent dates. Therefore, durable preferences or stable patterns cannot be inferred. Confidence is low due to the lack of repetition.",
+  "overall_confidence": "low"
+}

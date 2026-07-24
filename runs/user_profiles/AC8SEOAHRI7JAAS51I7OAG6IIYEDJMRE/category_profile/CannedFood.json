@@ -1,0 +1,40 @@
+{
+  "category": "Canned Food",
+  "profile_text": "The user demonstrates a stable, high-confidence preference for Del Monte brand canned food, specifically baked beans in 450 g packs. Purchases have occurred consistently across multiple months (February through July 2026) with a medium cadence of approximately 11 days. The user shops flexibly across morning, afternoon, and evening dayparts, primarily on weekends, indicating a need for convenient, shelf-stable meal components or backup pantry supplies rather than a rigid daily routine.",
+  "brand_preferences": [
+    {
+      "brand": "Del Monte",
+      "preference_text": "Stable preference for Del Monte brand canned food, evidenced by purchases on multiple independent dates across February, March, April, May, and July 2026.",
+      "confidence": "high",
+      "evidence_count": 13,
+      "independent_date_count": 13
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "Stable preference for Del Monte Baked Beans 450 g, evidenced by purchases on multiple independent dates across February, March, April, May, and July 2026.",
+      "examples": [],
+      "confidence": "high"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 11.0,
+    "cadence_class": "medium",
+    "last_purchase_date": "2026-07-05",
+    "predicted_next_purchase_date": "2026-07-16",
+    "replenishment_text": "The user typically repurchases this category every 11 days, with the next purchase estimated around 2026-07-16 based on this average cadence.",
+    "confidence": "high",
+    "evidence_count": 11,
+    "independent_date_count": 11
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions for the preferred brand and product without observed browsing or cart-add barriers.",
+  "substitution_text": "No evidence of brand or product substitution; the user consistently selects Del Monte Baked Beans 450 g.",
+  "price_value_text": "No explicit price or value behavior observed in the supplied summaries.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user's behavior is consistent and repeatable.",
+  "mission_generation_text": "Shopping needs supported by this category include maintaining a stock of shelf-stable, ready-to-eat pantry items for quick meal components or backup food supplies.",
+  "overall_confidence": "high"
+}

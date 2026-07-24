@@ -1,0 +1,25 @@
+{
+  "month": "2026-07",
+  "summary_text": "In July 2026, the user placed eight independent orders across weekdays and weekends, primarily during morning and evening dayparts. The basket composition consistently includes dairy staples (Milk) and fresh produce (Vegetables), often paired with breads or other meal ingredients. Religious or ceremonial items (Pooja Flowers, Incense Stick, Dhoop) appear in separate transactions, sometimes mixed with groceries, suggesting a compatible need for ritual preparation that is not definitively proven as a habitual routine from this single month of data. Personal care items (Kajal, Sindoor) and snacks appear in isolated instances. No abandoned carts were recorded. Due to the lack of repetition across independent dates for specific category combinations or daypart behaviors, no stable patterns are established.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "Milk and Vegetables appear together in multiple independent orders (2026-07-06, 2026-07-14, 2026-07-16, 2026-07-19, 2026-07-21).",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Breads and Milk appear together in multiple independent orders (2026-07-14, 2026-07-19, 2026-07-21).",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Breads and Vegetables appear together in multiple independent orders (2026-07-14, 2026-07-19, 2026-07-21).",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The observed orders suggest a need for daily meal preparation involving dairy, breads, and vegetables. There are also isolated instances of needs for religious or ceremonial items (flowers, incense) and personal grooming (makeup), but these do not form a stable, recurring pattern across the month.",
+  "uncertainty_text": "This analysis is based on eight independent orders on eight different dates. While Milk and Vegetables, Breads and Milk, and Breads and Vegetables co-occur frequently, the specific daypart behaviors, category combinations involving religious items, and personal care purchases are not repeated in a way that establishes a durable preference or routine. The presence of religious items alongside groceries is noted as a compatible need but not as a confirmed habitual preference. Confidence in inferred user behavior is low because stable patterns require repetition of specific behaviors across independent dates, which is not fully met for most category combinations beyond the basic grocery staples.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Bathroom Floor Cleaner",
+  "profile_text": "The user demonstrates a stable, slow-cadence purchasing pattern for bathroom floor cleaners, with purchases spanning March, June, and July 2026. The primary brand observed is Flipkart Supermart Home Essentials, appearing across three independent dates, supporting a medium-to-high confidence preference for this specific private-label brand. The user buys phenyl-style cleaners, often in jasmine fragrance, with pack sizes varying between 2 x 1 L and 5 L. Purchases occur on weekdays and weekends, during both morning and evening sessions, indicating flexible timing aligned with general population norms rather than a rigid daily routine. The last purchase was on 2026-07-04, with the next predicted around 2026-09-03 based on a ~61.5-day cadence.",
+  "brand_preferences": [
+    {
+      "brand": "Flipkart Supermart Home Essentials",
+      "preference_text": "The user has purchased this brand on three independent dates (March, June, July 2026), indicating a stable preference for this private-label phenyl cleaner.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    }
+  ],
+  "product_preferences": [
+    {
+      "preference_text": "The user consistently purchases phenyl-style bathroom and floor cleaners, specifically in jasmine fragrance variants when available.",
+      "examples": [],
+      "confidence": "medium"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 61.5,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-07-04",
+    "predicted_next_purchase_date": "2026-09-03",
+    "replenishment_text": "The user purchases this category approximately every 61.5 days, classified as a slow-replenishment item. The last purchase was on July 4, 2026, and the next is estimated for early September 2026.",
+    "confidence": "high",
+    "evidence_count": 3,
+    "independent_date_count": 3
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by three completed transactions across multiple months.",
+  "substitution_text": "The user has shown flexibility in pack size (2 x 1 L vs. 5 L) and specific product name (Home Essentials vs. Supermart Bathroom and Floor Cleaner), suggesting openness to brand-internal variants or size substitutions within the same phenyl cleaner type.",
+  "price_value_text": "The user purchases a private-label brand (Flipkart Supermart Home Essentials), which typically indicates a value-oriented approach, though specific price points are not provided to confirm sensitivity.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases are consistent.",
+  "mission_generation_text": "Routine maintenance of bathroom and floor surfaces using phenyl-based disinfectants/cleaners.",
+  "overall_confidence": "high"
+}

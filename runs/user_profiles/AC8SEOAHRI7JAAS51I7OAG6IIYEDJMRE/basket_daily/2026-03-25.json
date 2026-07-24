@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-25",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-25, a single order was placed during the evening weekday. The basket contained one unit of Chips, two units of Curd Yogurt, and one unit of Savouries Namkeens. This combination of a snack category, a dairy item, and a savory snack is compatible with a need for evening snacks or light refreshments. This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior across independent dates is available to confirm consistent habits.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Chips",
+        "Curd Yogurt",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Chips, Curd Yogurt, and Savouries Namkeens were purchased together in a single transaction.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The combination of chips, curd yogurt, and savouries namkeens is compatible with a need for evening snacks or light refreshments.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior across independent dates is available to confirm consistent habits.",
+  "overall_confidence": "low"
+}

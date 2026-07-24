@@ -1,0 +1,32 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-22 (morning, weekday) containing five products across four categories: Cookies Biscuits (2 units), Washing Powder (2 units), Washing Bar (2 units), Chips (1 unit), and Milk (1 unit). The basket combines household cleaning supplies (Washing Powder and Washing Bar) with food items (Cookies Biscuits, Chips, and Milk). The combination of Washing Bar and Washing Powder is supported by co-order evidence (Support: 0.172, Confidence: 1.0, Lift: 5.8). The combination of Cookies Biscuits and Milk is supported by co-order evidence (Support: 0.138, Confidence: 0.571, Lift: 1.657). Chips and Milk do not have specific pair evidence in the supplied data. This single order suggests a compatible need for household maintenance and basic food staples, but represents a single observation rather than a durable pattern.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "WashingBar",
+        "WashingPowder"
+      ],
+      "combination_text": "Washing Bar and Washing Powder were purchased together.",
+      "support": 0.172,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk were purchased together.",
+      "support": 0.138,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket indicates a need for household cleaning supplies and basic food staples including dairy and snacks.",
+  "uncertainty_text": "This is a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

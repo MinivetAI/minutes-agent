@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Amul Masti Plain Curd 390 ml placed in the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a ready-to-eat refrigerated curd, typically used for immediate consumption, meal accompaniment (e.g., raita, kadhi), or tiffin packing.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time need or part of a broader pattern.",
+  "overall_confidence": "low"
+}

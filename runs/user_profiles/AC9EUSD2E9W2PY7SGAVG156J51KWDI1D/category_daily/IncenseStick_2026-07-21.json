@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-21",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-21 (weekday), the user purchased one pack of MANGALDEEP Dhuno Cup (12 cups), a ready-to-burn devotional incense product. The order occurred in the morning, a time when population share is 0.3246. The product is a devotional item typically used for home worship or prayer rituals. No browsing or cart activity was observed. This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one pack of MANGALDEEP Dhuno Cup (12 cups) in the morning on a weekday. The order occurred at a time when population share is 0.3246. The product is a devotional item typically used for home worship or prayer rituals. No browsing or cart activity was observed.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

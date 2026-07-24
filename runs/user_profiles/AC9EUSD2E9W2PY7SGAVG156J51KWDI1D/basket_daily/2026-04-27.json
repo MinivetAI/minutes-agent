@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-27, a weekday, a single order was placed in the morning. The basket contained three items: two units of vegetable product VEGG8E6EKRGGZGHH, one unit of vegetable product VEGG6FK9GFUZ3J8E, and one unit from the Dips Sauces Pastes category (SAKEUB52E9RV7H9B). The order exhibits narrow basket breadth, consisting entirely of vegetables and a dip/sauce. This combination is compatible with a need for meal preparation components, such as a vegetable-based dish with a condiment. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Vegetables",
+        "Dips Sauces Pastes"
+      ],
+      "combination_text": "Vegetables and Dips Sauces Pastes were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may have a need for fresh produce and accompanying condiments for a meal.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. The category pair evidence provided (e.g., Milk/Vegetables) reflects population-level co-occurrence statistics and does not indicate that these specific categories were purchased in this specific order.",
+  "overall_confidence": "low"
+}

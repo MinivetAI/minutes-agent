@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekend",
+  "summary_text": "Purchased one Colgate ZigZag Medium Toothbrush in the morning.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 0.3246 relative to the population baseline. The product is a manual adult toothbrush with medium bristles, a flexible neck, and a tongue cleaner, typically used for daily oral hygiene and deep cleaning between teeth and along the gumline.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

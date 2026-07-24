@@ -1,0 +1,42 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-03-21 in the afternoon on a weekend. The basket contains 15 items across 8 categories: Vegetables (6 units), Baby Cereal (2 units), Cake Pastry, Aerated Drinks, Rava Sooji, Dips Sauces Pastes, Honey, and Diaper (1 unit each). The order-building behavior shows a mix of staple produce, baby care items, and pantry staples. The presence of Vegetables, Baby Cereal, and Diapers suggests a need compatible with household provisioning for a young child and general meal preparation. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Vegetables",
+        "Baby Cereal"
+      ],
+      "combination_text": "Vegetables and Baby Cereal were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Diaper"
+      ],
+      "combination_text": "Vegetables and Diaper were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket is compatible with a need for household grocery replenishment, specifically involving fresh produce, baby food staples, and basic pantry items.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. Confidence in inferred user behavior is low.",
+  "overall_confidence": "low"
+}

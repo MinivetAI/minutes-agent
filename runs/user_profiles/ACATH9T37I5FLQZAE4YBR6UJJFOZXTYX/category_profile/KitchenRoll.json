@@ -1,0 +1,26 @@
+{
+  "category": "Kitchen Roll",
+  "profile_text": "In April 2026, the user purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) on 2026-04-20. This was a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-20",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior established from a single order.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Household cleaning and surface maintenance needs.",
+  "overall_confidence": "low"
+}

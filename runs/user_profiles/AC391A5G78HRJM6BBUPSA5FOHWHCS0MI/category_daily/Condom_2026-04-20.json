@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-20",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-20 (weekday), the user purchased one unit of Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom (10-count pack) during the evening. This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this delay-focused, ultra-thin product over other options is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one unit of Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom (10-count pack) during the evening on a weekday. The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (0.3027 for evening vs. 0.3246 for morning). The product is a high-immediacy item typically used for contraception and disease prevention, with specific features targeting delay and thinness.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this delay-focused, ultra-thin product over other options is unknown.",
+  "overall_confidence": "low"
+}

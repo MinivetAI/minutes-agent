@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-16",
+  "day_type": "weekday",
+  "summary_text": "On 2026-07-16 (weekday), the user purchased one 420 g pouch of Anandam Deepam Oil in the evening. This evening order aligns with the user's typical activity share (30.3% vs. population baseline 30.27%). This is a single observation and does not establish a stable brand preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Purchased one 420 g pouch of Anandam Deepam Oil. This is a single observation on one date; it does not establish a stable brand preference or routine for lamp oil purchases.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or routine for lamp oil purchases.",
+  "overall_confidence": "low"
+}

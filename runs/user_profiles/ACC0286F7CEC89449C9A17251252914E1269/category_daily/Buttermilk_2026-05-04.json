@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-05-04 (weekday), the user purchased 2 units of Amul Probiotic Buttermilk 440 ml during the morning. This purchase aligns with a population daypart share of 32.46% for buttermilk in the morning. The item is a ready-to-drink chilled beverage, suggesting an immediate need for refreshment or a light, functional dairy option, potentially for breakfast or a mid-morning break. This is a single observation on one date; it is not yet established as a stable preference or routine. The specific reason for choosing this probiotic variant over other buttermilk types is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Amul Probiotic Buttermilk 440 ml. This is a single observation on one date; it is not yet established as a stable preference or routine.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; it is not yet established as a stable preference or routine. The specific reason for choosing this probiotic variant over other buttermilk types is unknown.",
+  "overall_confidence": "low"
+}

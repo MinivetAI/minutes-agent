@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "One order of Too Yumm! Lightly Salted Chips (50 g) in the afternoon.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the afternoon on a weekday. The product is a single-serve, lightly salted potato chip pack, suitable for a quick, individual snack.",
+  "uncertainty_text": "This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "overall_confidence": "low"
+}

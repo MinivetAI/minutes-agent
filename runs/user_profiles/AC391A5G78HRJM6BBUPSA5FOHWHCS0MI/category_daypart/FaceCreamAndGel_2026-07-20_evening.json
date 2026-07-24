@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Vicco Turmeric Skin Cream (50 g) in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting timing consistent with general evening activity patterns. The product is a daily-use Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or specific skin concerns cannot be established. The user's specific reason for choosing this product or timing is unknown.",
+  "overall_confidence": "low"
+}

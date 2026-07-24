@@ -1,0 +1,9 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased two distinct pulse products on separate dates: Tata Sampann Yellow Moong Dal Split on a weekday morning and Classic Black Masoor Dal Whole on a weekend afternoon. Each product appeared on only one independent date, so no stable brand or product preference is established. The weekday morning purchase aligns with high population activity, while the weekend afternoon purchase is less common relative to the population baseline. No browsing events were recorded for either order.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "With only one observed order per product, no durable brand or product preference can be established. It is unclear if these were direct search-and-buy transactions or results of prior discovery.",
+  "overall_confidence": "low"
+}

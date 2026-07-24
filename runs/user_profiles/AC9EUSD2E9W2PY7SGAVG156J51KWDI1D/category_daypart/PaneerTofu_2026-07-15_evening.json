@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 200 g block of Gowardhan Classic Block Paneer during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a time when this category is purchased at a rate (0.3027) slightly below the morning baseline (0.3246) but higher than afternoon (0.2526) and night (0.1202). The product is a fresh dairy block suitable for immediate cooking applications such as curries or stir-fries.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for the Gowardhan brand or paneer tofu as a recurring category. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "overall_confidence": "low"
+}

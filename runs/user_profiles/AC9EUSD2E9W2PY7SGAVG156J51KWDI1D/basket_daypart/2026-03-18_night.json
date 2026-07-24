@@ -1,0 +1,21 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-18 during the night on a weekday. The basket contains 3 units of Aerated Drinks. No other categories were purchased in this transaction. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Aerated Drinks"
+      ],
+      "combination_text": "Aerated Drinks",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of aerated drinks is compatible with a need for a refreshing beverage or a casual snack accompaniment.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. It does not establish a durable preference, routine, or stable pattern. The category pair evidence provided (e.g., Milk/Vegetables) reflects population-level co-ordering statistics and is not derived from this specific user's transaction history.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased four unbranded fresh vegetable items: a small 400–450 g onion, a 280–320 g baby potato, a 500 g carrot, and a bulk 1.95–2.05 kg onion pack.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the afternoon on a weekday, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The mix of small-quantity fresh produce and a larger bulk onion pack suggests a need to replenish immediate cooking ingredients while also restocking a staple for future meals.",
+  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned shopping and urgent, last-minute needs. The specific meal context or household size cannot be determined from this single transaction.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 360 g pack of McCain Veggie Burger Patty in the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, a period where this user's activity (0.3027) is slightly below the population baseline share (0.3246). The product is a frozen, ready-to-cook item intended for home preparation, suggesting a need for convenient meal assembly.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

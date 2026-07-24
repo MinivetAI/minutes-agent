@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-06",
+  "day_type": "weekday",
+  "summary_text": "On this weekday, the user placed one order in the morning for a single fresh cauliflower head (400-600g). This purchase aligns with a planned meal preparation need for a fresh vegetable, consistent with the morning shopping behavior of 32.46% of the population. This is a single observation; it is not yet established whether this is a recurring preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of a single fresh cauliflower head (400-600g) placed in the morning.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation; it is not yet established whether this is a recurring preference or a one-time need.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,26 @@
+{
+  "category": "Other Cooking Oil",
+  "profile_text": "A single observed purchase of a 1 L pouch of Fortune Premium Kachi Ghani Pure Mustard Oil on 2026-05-08 (weekday) during the morning. This order supports a basic need for everyday kitchen cooking oil. No durable preferences, routine buying patterns, or brand loyalty can be established from this single date alone.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-08",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution patterns observed due to single purchase.",
+  "price_value_text": "No price/value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports routine everyday kitchen cooking needs.",
+  "overall_confidence": "low"
+}

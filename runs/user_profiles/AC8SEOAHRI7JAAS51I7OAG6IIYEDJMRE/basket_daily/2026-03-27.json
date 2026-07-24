@@ -1,0 +1,93 @@
+{
+  "date": "2026-03-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-27, a weekday, a single order was placed in the morning. The basket contained one unit of a product from the 'Dips Sauces Pastes' category and one unit from the 'Breads' category. The order-building behavior was minimal, consisting of a single transaction with no additional items added to cart or viewed prior to purchase. The shopping need is compatible with a simple meal component or snack preparation, such as pairing a dip with bread, but this is an observation of the purchased items, not an inference of intent. As this is a single observed order, it does not establish a durable preference or routine.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and CurdYogurt",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SavouriesNamkeens"
+      ],
+      "combination_text": "Milk and SavouriesNamkeens",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "CannedFood",
+        "CurdYogurt"
+      ],
+      "combination_text": "CannedFood and CurdYogurt",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A simple meal component or snack preparation, such as pairing a dip with bread.",
+  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Stable patterns require evidence from at least two independent dates.",
+  "overall_confidence": "low"
+}

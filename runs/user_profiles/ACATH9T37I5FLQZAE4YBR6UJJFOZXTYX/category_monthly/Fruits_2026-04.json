@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased fresh fruit on two independent dates. Sindhura mangoes (including the SUPERPLUM variant) were bought on both 2026-04-04 and 2026-04-14, establishing a stable preference. Watermelon Kiran was purchased only on 2026-04-14. Purchases occurred in the afternoon and evening, with no single daypart dominating the small sample size.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Sindhura mangoes",
+      "claim_text": "The user has a stable preference for Sindhura mangoes, evidenced by purchases on 2026-04-04 and 2026-04-14.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The sample size is small (2 independent dates). While Sindhura mangoes show a stable pattern, the user's broader fruit preferences are not fully defined. Watermelon Kiran is a single-date observation and is excluded from stable claims.",
+  "overall_confidence": "medium"
+}

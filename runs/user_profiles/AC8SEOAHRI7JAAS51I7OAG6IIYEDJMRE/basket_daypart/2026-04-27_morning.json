@@ -1,0 +1,22 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-27 (morning, weekday) containing one unit of Butter Margarine and one unit of Jams Spreads. The basket breadth is narrow, consisting of two items from two distinct categories. The combination of Butter Margarine and Jams Spreads suggests a compatible need for breakfast or snack components, though this is a single observation and not a durable preference.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Butter Margarine",
+        "Jams Spreads"
+      ],
+      "combination_text": "Butter Margarine and Jams Spreads were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchased items (Butter Margarine, Jams Spreads) are compatible with a breakfast or light meal preparation need.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `category_pair_evidence` provided relates to other categories (Breads, CurdYogurt, Vegetables, Milk, etc.) and does not apply to the specific items in this order.",
+  "overall_confidence": "low"
+}

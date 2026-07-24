@@ -1,0 +1,26 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user ordered Mother Dairy Fresh Paneer 200 g on two independent dates (2026-03-21 and 2026-03-28). Both orders occurred on weekends in the afternoon. The product is a packaged fresh dairy item typically used for immediate cooking needs or meal preparation.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Mother Dairy",
+      "claim_text": "The user has ordered Mother Dairy Fresh Paneer 200 g on two independent dates in March 2026, indicating a stable preference for this brand within the Paneer Tofu category.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Fresh Paneer 200 g",
+      "claim_text": "The user has ordered Mother Dairy Fresh Paneer 200 g on two independent dates in March 2026, indicating a stable preference for this specific product.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on two independent orders in March 2026. No other brands or products were observed in this category during this month.",
+  "overall_confidence": "medium"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one unit of Lakm\u00e9 9-5 Eyeconic Kajal Deep Black (0.35 g) during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity (0.3246 morning, 0.2526 afternoon, 0.3027 evening, 0.1202 night) shows a relatively high share of activity compared to the population baseline (evening share 0.3027 is the second highest after morning). The product is an everyday eye makeup item positioned for reliable, smudgeproof wear.",
+  "uncertainty_text": "This is a single observed order; no repeated behavior or browsing history is available to establish stable preferences or brand loyalty.",
+  "overall_confidence": "low"
+}

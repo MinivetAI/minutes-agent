@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Bikaji Chowpati Bhelpuri 110 g, a packaged Indian savoury snack.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Observed on a weekend afternoon, a time when this category shows lower-than-average population share (25.26%) compared to morning (32.46%) and evening (30.27%). The product is a ready-to-eat chaat-style mix, typically used for immediate snacking or impulse hunger.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

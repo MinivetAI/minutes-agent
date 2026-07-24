@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-18",
+  "day_type": "weekend",
+  "summary_text": "On this weekend, the user purchased Mother Dairy Fresh Paneer (200 g) during both the morning and afternoon. The morning purchase aligns with a time when 32.46% of the population typically shops, while the afternoon order occurred during a period of lower activity for this user (0.2526 share) compared to the population baseline for morning (0.3246) and evening (0.3027). The product serves as a convenient, ready-to-cook protein source for immediate meal preparation.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed transaction across two dayparts on one date; it does not establish a stable preference or routine for this brand or category.",
+  "overall_confidence": "low"
+}

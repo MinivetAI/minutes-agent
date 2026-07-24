@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-04-12 in the afternoon on a weekend. The basket contains 9 items across 4 categories: Vegetables (6 items), Savouries Namkeens (2 items), Pasta (1 item), and Breads (1 item). The order-building behavior shows a strong focus on fresh produce, with vegetables comprising the majority of the item count. Savouries Namkeens were purchased alongside vegetables, consistent with observed co-ordering patterns. No other categories were included in this specific transaction.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The user may be preparing a meal or snack involving fresh vegetables and savory accompaniments, supplemented by pasta and bread.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) in the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a time when the user's activity was below the population baseline share (25.26%). The product is a disposable household consumable for immediate kitchen cleanup needs.",
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

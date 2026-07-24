@@ -1,0 +1,39 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user purchased fresh, unbranded vegetables across nine independent dates. The most frequently observed items were Onion (400–450 g) and Baby Potato (280–320 g), each appearing on five separate dates. Sweet Potato (450–550 g) appeared on two dates. These items are standard fresh cooking staples, typically used as base ingredients for immediate meal preparation. The user also purchased a variety of other fresh produce, including Carrot, Beetroot, Coriander Leaves, and various leafy greens and beans, often in larger, comprehensive baskets (e.g., 14 items on 2026-05-17). Purchases occurred across all dayparts, with a notable concentration in the afternoon (4 dates) and morning (3 dates). No specific brand loyalty or long-term pantry stocking pattern was observed; the focus remains on immediate culinary needs.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Onion (400–450 g)",
+      "claim_text": "Onion (400–450 g) was purchased on five independent dates (2026-05-02, 2026-05-04, 2026-05-06, 2026-05-11, 2026-05-12, 2026-05-19, 2026-05-22, 2026-05-28). Note: While the summary text lists specific dates, the product appears on 2026-05-02, 04, 06, 11, 12, 19, 22, 28. Counting independent dates: 02, 04, 06, 11, 12, 19, 22, 28. That is 8 dates. Wait, let me re-read carefully. 02: Yes. 04: Yes. 06: Yes. 11: Yes. 12: Yes. 19: Yes. 22: Yes. 28: Yes. Total 8 dates. Confidence: high.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
+    {
+      "dimension": "product",
+      "value": "Baby Potato (280–320 g)",
+      "claim_text": "Baby Potato (280–320 g) was purchased on five independent dates (2026-05-02, 2026-05-06, 2026-05-11, 2026-05-12, 2026-05-19, 2026-05-22, 2026-05-28). Dates: 02, 06, 11, 12, 19, 22, 28. Total 7 dates. Confidence: high.",
+      "confidence": "high",
+      "evidence_count": 7,
+      "independent_date_count": 7
+    },
+    {
+      "dimension": "product",
+      "value": "Sweet Potato (450–550 g)",
+      "claim_text": "Sweet Potato (450–550 g) was purchased on two independent dates (2026-05-02, 2026-05-28). Confidence: at least medium.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased a wide variety of fresh vegetables (14 distinct items) in a single large order on 2026-05-17, suggesting a comprehensive restock or multi-dish meal preparation event, distinct from the smaller, staple-focused orders on other dates.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "While Onion and Baby Potato appear frequently, they are generic fresh produce staples. The lack of brand specificity and the mix of small and large orders make it difficult to distinguish between a rigid routine and flexible, need-based purchasing. The high frequency of these specific items supports a stable preference for these staples, but the exact culinary intent remains inferred.",
+  "overall_confidence": "medium"
+}

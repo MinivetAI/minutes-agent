@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 960 g bottle of Maggi Rich Tomato Ketchup in the evening.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a large-format household condiment typically used for snacks and meals.",
+  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
+  "overall_confidence": "low"
+}

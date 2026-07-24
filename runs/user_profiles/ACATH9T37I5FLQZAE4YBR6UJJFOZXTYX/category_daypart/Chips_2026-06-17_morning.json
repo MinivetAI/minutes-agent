@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of TAALI Protein Puffs Cheese Balls (60 g) in the Chips category during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 0.3246 relative to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a protein-focused, roasted savory snack, typically used for immediate crunchy snacking or between-meal hunger.",
+  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

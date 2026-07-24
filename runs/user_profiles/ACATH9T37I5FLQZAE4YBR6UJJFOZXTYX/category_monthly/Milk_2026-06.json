@@ -1,0 +1,31 @@
+{
+  "month": "2026-06",
+  "summary_text": "In June 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on four independent dates (2026-06-11, 2026-06-17, 2026-06-25, and 2026-06-27). This recurrence across multiple dates establishes a stable preference for this specific brand and variant. The user also demonstrates a consistent daypart pattern, with purchases occurring in the morning on three dates and in the night and afternoon on one date each. While the morning timing aligns with the population baseline, the night and afternoon purchases represent genuine variation in timing. The product is a small-format, single-use liquid milk SKU typically used for immediate consumption such as tea, coffee, or breakfast.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul milk, evidenced by purchases on 4 independent dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 4 independent dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user's milk purchases in June 2026 occurred across multiple dayparts: morning (3 dates), night (1 date), and afternoon (1 date). While morning aligns with the population baseline (32.5% share), the presence of night and afternoon purchases indicates genuine variation in timing rather than a strict single-daypart routine.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "This summary is based on four independent purchase dates in June 2026. No other milk brands or variants were observed in this month.",
+  "overall_confidence": "high"
+}

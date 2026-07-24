@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-27 (weekday), a single order of FORTUNE Rajma Chithra Whole 500 g was placed in the evening. This product is a staple dry pulse used for home cooking, suggesting a need for dinner preparation or stock replenishment. This is a single observation on one date; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of FORTUNE Rajma Chithra Whole 500 g placed in the evening. The order occurred in the evening, a period with high population activity (30.27% share). The product is a staple dry pulse used for home cooking, suggesting a need for dinner preparation or stock replenishment.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation on one date; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-03-03 in the afternoon on a weekday. The basket contains 4 units of Curd Yogurt and 1 unit of Buttermilk. This represents a narrow basket breadth focused on dairy products. The order-building behavior is a single transaction with no abandoned carts. The `shopping_need_text` is compatible with a need for dairy staples.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Buttermilk"
+      ],
+      "combination_text": "Curd Yogurt and Buttermilk were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "A need for dairy products, specifically yogurt and buttermilk.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `overall_confidence` is low because the evidence represents only one independent date.",
+  "overall_confidence": "low"
+}

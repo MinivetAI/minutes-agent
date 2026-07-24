@@ -1,0 +1,18 @@
+{
+  "month": "2026-04",
+  "summary_text": "In April 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on 8 independent dates. This product meets the repetition bar for stable preference, with high confidence supported by 8 independent dates. Purchases occurred on both weekdays and weekends, with timing varying across morning, afternoon, and evening dayparts. The product is a small, single-serve plain curd suitable for immediate consumption or pairing with meals. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Amul Masti Dahi Plain Curd (200 ml)",
+      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on 8 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "While the product preference is stable, the timing of purchases varies across morning, afternoon, and evening on both weekdays and weekends, indicating no single consistent daypart or day-type routine for this category in this month.",
+  "overall_confidence": "high"
+}

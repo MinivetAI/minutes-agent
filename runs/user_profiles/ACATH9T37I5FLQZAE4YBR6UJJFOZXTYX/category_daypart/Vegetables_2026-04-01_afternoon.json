@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one fresh cauliflower head, two local cucumbers, and a small pack of onions during the afternoon on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The items are immediate kitchen staples for fresh meal preparation, suggesting a same-day cooking need or a quick top-up of fresh produce.",
+  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "overall_confidence": "low"
+}

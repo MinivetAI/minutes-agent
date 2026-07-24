@@ -1,0 +1,14 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased fresh, unbranded vegetables across eight independent dates. The basket consistently features staple produce for immediate meal preparation, including onions, baby potatoes, carrots, and coriander leaves. While individual items appear frequently, no single brand or specific product variant recurs on 2 or more independent dates to meet the threshold for a stable preference claim. Daypart activity is observed in the morning, afternoon, and night, with no single daypart dominating sufficiently to establish a stable routine based on the provided evidence.",
+  "stable_preference_claims": [],
+  "temporal_patterns": [],
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased fresh, unbranded vegetables on 8 independent dates in March 2026, indicating consistent engagement with this category.",
+      "confidence": "high"
+    }
+  ],
+  "uncertainty_text": "No single product, brand, or variant appears on 2 or more independent dates; therefore, no stable preferences can be established. Daypart patterns are fragmented across morning, afternoon, and night, preventing the identification of a stable shopping routine.",
+  "overall_confidence": "low"
+}

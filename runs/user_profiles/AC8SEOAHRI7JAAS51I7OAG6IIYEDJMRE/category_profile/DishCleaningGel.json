@@ -1,0 +1,26 @@
+{
+  "category": "Dish Cleaning Gel",
+  "profile_text": "A single observed purchase of a large-format dish cleaning gel on a weekend afternoon. No stable routine or brand preference is established.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-04-18",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single transaction; next purchase date is unknown.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior established from a single transaction.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Routine manual dishwashing for household cleaning.",
+  "overall_confidence": "low"
+}

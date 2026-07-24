@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Chilli Bajji (250 g), 2 units of Local Tomato (450-550g), 1 unit of an unidentified vegetable product, and 1 unit of Onion (1 kg).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Purchased during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket combines a ready-to-eat spicy snack (Chilli Bajji) with fresh cooking staples (tomatoes, onions), suggesting a mix of immediate consumption and meal preparation needs.",
+  "uncertainty_text": "The specific identity of the third vegetable product (VEGGF7EXB3KWXAGJ) is unknown. No browsing or search data is available to determine if these items were planned or impulse buys.",
+  "overall_confidence": "low"
+}

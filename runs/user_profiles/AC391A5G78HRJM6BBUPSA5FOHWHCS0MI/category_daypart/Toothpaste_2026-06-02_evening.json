@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased 1 unit of Colgate Strong Teeth Toothpaste 200 g.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Ordered during the evening on a weekday, a time when 30.27% of the population typically shops in this category. The product is a standard fluoride toothpaste for everyday oral care, suggesting a routine replacement need.",
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

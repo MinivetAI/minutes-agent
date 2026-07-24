@@ -1,0 +1,10 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt during the evening on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity (0.3027) is slightly below the population baseline for morning (0.3246) but comparable to the afternoon (0.2526). The product is a standard household staple for everyday cooking and seasoning.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replenishment need.",
+  "overall_confidence": "low"
+}

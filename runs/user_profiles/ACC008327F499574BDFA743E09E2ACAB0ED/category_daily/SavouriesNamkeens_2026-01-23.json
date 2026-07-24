@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-23",
+  "day_type": "weekday",
+  "summary_text": "On 2026-01-23 (weekday), the user purchased one 75 g pack of Bingo Tedhe Medhe Masala Tadka snack sticks in the afternoon. This afternoon purchase aligns with a non-peak population share (25.26% vs. morning 32.46% and evening 30.27%), suggesting a break-time or impulsive snack need. This is a single observation; no repeated purchases or browsing patterns are available to establish stable brand or flavor preferences.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 75 g pack of Bingo Tedhe Medhe Masala Tadka snack sticks. This afternoon purchase aligns with a non-peak population share (25.26% vs. morning 32.46% and evening 30.27%), suggesting a break-time or impulsive snack need.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observation; no repeated purchases or browsing patterns are available to establish stable brand or flavor preferences.",
+  "overall_confidence": "low"
+}

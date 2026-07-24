@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased one 1 L carton of Real Activ 100% Apple Juice.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "Bought in the afternoon on a weekday, a time when this category is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a ready-to-drink fruit juice suitable for immediate consumption or quick pantry replenishment.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this user.",
+  "overall_confidence": "low"
+}

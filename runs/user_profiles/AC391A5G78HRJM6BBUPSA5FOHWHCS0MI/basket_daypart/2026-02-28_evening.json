@@ -1,0 +1,22 @@
+{
+  "daypart": "evening",
+  "day_type": "weekend",
+  "basket_summary_text": "A single order placed on 2026-02-28 in the evening (weekend) contained Edible Oil (quantity 2) and Salt (quantity 1). The basket breadth is narrow, consisting of two distinct categories. No abandoned carts were recorded for this daypart.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Edible Oil",
+        "Salt"
+      ],
+      "combination_text": "Edible Oil and Salt were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of Edible Oil and Salt is compatible with a need for basic cooking ingredients or pantry replenishment.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as 'repeated', 'routine', or 'stable' are not applicable. The category pair evidence provided (e.g., Milk/Vegetables) does not match the products in this specific order, so no lift/support values are applied to the observed basket.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "Purchased 2 units of Coca-Cola Diet Coke Can 300 ml in the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a single-serve carbonated beverage, typically associated with immediate refreshment or snack pairing.",
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Diet Coke or aerated drinks in general.",
+  "overall_confidence": "low"
+}

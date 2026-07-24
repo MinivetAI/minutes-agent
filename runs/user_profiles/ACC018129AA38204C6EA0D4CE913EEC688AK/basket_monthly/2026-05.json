@@ -1,0 +1,12 @@
+{
+  "month": "2026-05",
+  "summary_text": "On 2026-05-01 (weekday), a single order was placed during the morning daypart. The basket contained four items: two distinct vegetable products, one paneer/tofu product, and one milk product. This combination suggests a basic meal-preparation need compatible with these ingredients. No abandoned carts were recorded for this daypart.",
+  "stable_daypart_behavior": [],
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [],
+  "abandonment_patterns": [],
+  "trend_claims": [],
+  "shopping_need_text": "The purchase of vegetables, paneer/tofu, and milk suggests a need for ingredients to prepare a home-cooked meal.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category co-occurrence are derived from aggregate evidence but cannot be attributed to durable user preferences or routines based on this single instance.",
+  "overall_confidence": "low"
+}

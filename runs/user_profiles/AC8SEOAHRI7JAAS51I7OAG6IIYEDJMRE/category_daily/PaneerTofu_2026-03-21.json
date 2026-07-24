@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-21",
+  "day_type": "weekend",
+  "summary_text": "One order of Mother Dairy Fresh Paneer 200 g placed in the afternoon on a weekend. The order occurred in the afternoon, a time when this category is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246 and evening 0.3027). The product is a packaged fresh dairy item typically used for immediate cooking needs. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g placed in the afternoon on a weekend. The order occurred in the afternoon, a time when this category is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246 and evening 0.3027). The product is a packaged fresh dairy item typically used for immediate cooking needs. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "overall_confidence": "low"
+}

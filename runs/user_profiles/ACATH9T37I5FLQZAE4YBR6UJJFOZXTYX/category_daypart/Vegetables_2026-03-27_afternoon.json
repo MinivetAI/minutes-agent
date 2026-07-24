@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "summary_text": "Purchased six unbranded fresh vegetable items: Cluster Beans (240-260g), Coriander Leaves (100g), Baby Potato (280–320g), Onion (400–450g), Local Tomato (1 kg), and Brinjal Bharta (250g).",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order was placed on a weekday afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket consists of fresh, time-sensitive produce staples typically used for immediate home cooking, suggesting a need to replenish ingredients for same-day meal preparation.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this timing.",
+  "overall_confidence": "low"
+}

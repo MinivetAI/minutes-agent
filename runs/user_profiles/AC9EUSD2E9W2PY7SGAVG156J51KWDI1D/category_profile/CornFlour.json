@@ -1,0 +1,32 @@
+{
+  "category": "Corn Flour",
+  "profile_text": "A single observed purchase of corn starch powder in February 2026. No stable brand preference, routine, or recurring need is established.",
+  "brand_preferences": [],
+  "product_preferences": [
+    {
+      "preference_text": "Purchased one 100 g pack of WeiKFiELD Corn Starch Powder.",
+      "examples": [],
+      "confidence": "low"
+    }
+  ],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-02-23",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "No cadence established from a single order.",
+    "confidence": "low",
+    "evidence_count": 0,
+    "independent_date_count": 0
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price/value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
+  "mission_generation_text": "Supports general cooking and baking needs, specifically for thickening and binding.",
+  "overall_confidence": "low"
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-27",
+  "day_type": "weekday",
+  "summary_text": "On 2026-03-27 (weekday), the user purchased one 900 g pack of VEEBA Tomato Chef\u2019s Special Ketchup during the morning. This timing aligns with a high population share period (32.46%). The large-format condiment is suitable for regular household meal preparation. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased one 900 g pack of VEEBA Tomato Chef\u2019s Special Ketchup. This timing aligns with a high population share period (32.46%). The large-format condiment is suitable for regular household meal preparation.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "overall_confidence": "low"
+}

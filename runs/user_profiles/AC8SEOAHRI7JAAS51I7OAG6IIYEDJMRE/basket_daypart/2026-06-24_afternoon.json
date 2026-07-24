@@ -1,0 +1,11 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-06-24 in the afternoon on a weekday contained one Extension Cord and one Vegetable. The basket breadth is narrow, comprising two distinct categories: Extension Cords and Vegetables. The `category_pair_evidence` does not contain entries for this specific pair (Extension Cords and Vegetables), so no support/lift data is available for this combination. The order-building behavior is a single transaction with no abandoned carts.",
+  "behavior_patterns": [],
+  "category_combinations": [],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The purchase of an Extension Cord and a Vegetable suggests a need for electrical connectivity and fresh produce, potentially for home maintenance or cooking, compatible with the items bought.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, `overall_confidence` is low. No durable preferences, routines, or stable patterns can be inferred from this single data point. Claims about user behavior are limited to the specific products and timing observed.",
+  "overall_confidence": "low"
+}

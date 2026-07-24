@@ -1,0 +1,9 @@
+{
+  "date": "2026-04-29",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-29 (weekday), the user purchased 1 unit of Sprite PET Bottle 750 ml (lemon-lime carbonated soft drink) during the evening. This single order represents an immediate refreshment or thirst-quenching need. The evening timing aligns with a population share of 0.3027, which is comparable to the morning share (0.3246) and higher than the afternoon (0.2526) and night (0.1202) shares. This observation does not establish a stable preference, routine, or durable brand loyalty.",
+  "daypart_patterns": [],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate thirst, meal accompaniment, or stock-up) cannot be determined from this single event.",
+  "overall_confidence": "low"
+}

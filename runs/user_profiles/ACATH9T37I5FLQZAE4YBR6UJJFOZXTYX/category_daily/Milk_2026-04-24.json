@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-24",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-24 (weekday), the user purchased one 5-pack of Yakult Fermented Milk Drink and one 500 ml pack of Amul Taaza Pasteurised Toned Milk during the afternoon. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs morning 0.3246). The items are small-format dairy products suited for immediate consumption or short-horizon kitchen use. This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 5-pack of Yakult Fermented Milk Drink and one 500 ml pack of Amul Taaza Pasteurised Toned Milk. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs morning 0.3246). The items are small-format dairy products suited for immediate consumption or short-horizon kitchen use.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "overall_confidence": "low"
+}

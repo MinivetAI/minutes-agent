@@ -1,0 +1,41 @@
+{
+  "category": "Noodles",
+  "profile_text": "The user has purchased Noodles four times across independent dates in March, April, May, and June 2026, establishing a slow replenishment cadence of approximately 33 days. Purchases have included Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) on three separate occasions and Maggi 2-Minute Favourite Masala Taste Instant Noodles (280 g) once. While Sunfeast appears on multiple dates, the variety of brands and specific variants, combined with the slow cadence, suggests a flexible approach to quick-preparation meals rather than a rigid brand loyalty. Orders have occurred on both weekdays and weekends, in the morning and afternoon/evening, indicating the category serves as a convenient option for urgent hunger or light meals when time is short.",
+  "brand_preferences": [
+    {
+      "brand": "Sunfeast",
+      "preference_text": "Sunfeast is the most frequently observed brand, appearing on three independent dates (March, May, June 2026).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "brand": "Maggi",
+      "preference_text": "Maggi was observed on one independent date (April 2026).",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": 33.0,
+    "cadence_class": "slow",
+    "last_purchase_date": "2026-06-28",
+    "predicted_next_purchase_date": "2026-07-31",
+    "replenishment_text": "The user typically purchases Noodles every 33 days, with the next purchase estimated around July 31, 2026.",
+    "confidence": "medium",
+    "evidence_count": 4,
+    "independent_date_count": 4
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in Noodles reliably converts to purchase, as evidenced by four completed transactions across the observed period.",
+  "substitution_text": "The user has substituted between Sunfeast and Maggi brands, and between different Sunfeast variants, indicating flexibility in brand and specific product choice within the Noodles category.",
+  "price_value_text": "No explicit price or value behavior is observed; purchases appear driven by convenience and quick preparation needs.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Shopping for Noodles supports needs for convenient, quick-preparation meals, suitable for urgent hunger or when time is short.",
+  "overall_confidence": "medium"
+}

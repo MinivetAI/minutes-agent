@@ -1,0 +1,26 @@
+{
+  "month": "2026-05",
+  "summary_text": "In May 2026, the user placed two orders for Haldiram's Mini Bhakarwadi 200 g, both on weekdays in the morning. The recurrence of this specific brand and variant across two independent dates indicates a stable preference for this product, supported by medium confidence. The consistent timing (weekday mornings) aligns with the population baseline where morning activity is common (32.46% share). No other brands or products were observed in this category during this month.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Haldiram's",
+      "claim_text": "Haldiram's is a stable preference, observed on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Haldiram's Mini Bhakarwadi 200 g",
+      "claim_text": "Haldiram's Mini Bhakarwadi 200 g is a stable preference, observed on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "No browsing history (search, view, or cart-add) was recorded for this category in this window, so it is unclear if these were planned purchases or impulse buys. However, the repetition of the specific product across two dates supports a stable preference despite the lack of pre-purchase intent signals.",
+  "overall_confidence": "medium"
+}

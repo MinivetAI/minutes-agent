@@ -1,0 +1,15 @@
+{
+  "date": "2026-02-26",
+  "day_type": "weekday",
+  "summary_text": "On 2026-02-26 (weekday), the user purchased one 1 L bottle of L'Oréal Paris Total Repair 5 Shampoo in the afternoon. This restorative hair-cleansing product is intended for damaged or weak hair. The purchase occurred during a time when the user's activity was below the population baseline for this daypart (25.26% share). This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or size over alternatives is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "Purchased one 1 L bottle of L'Oréal Paris Total Repair 5 Shampoo, a restorative hair-cleansing product for damaged or weak hair.",
+      "confidence": "low"
+    }
+  ],
+  "preference_claims": [],
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or size over alternatives is unknown.",
+  "overall_confidence": "low"
+}

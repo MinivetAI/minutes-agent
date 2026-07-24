@@ -1,0 +1,10 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekend",
+  "summary_text": "One order of Chitale Bandhu Patal Poha Chivda (200 g) placed in the afternoon on a weekend.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The order occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a shelf-stable savoury snack, typically used for tea-time accompaniment or quick hunger relief.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., immediate hunger, tea-time, hosting) is not confirmed.",
+  "overall_confidence": "low"
+}

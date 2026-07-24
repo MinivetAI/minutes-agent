@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-09",
+  "day_type": "weekday",
+  "summary_text": "On 2026-04-09, a single order was placed in the afternoon. The basket contained one unit of Bathroom Floor Cleaner and one unit of Shampoo. This narrow basket reflects a specific need for home hygiene and personal grooming. No abandoned carts were recorded for this daypart.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Bathroom Floor Cleaner",
+        "Shampoo"
+      ],
+      "combination_text": "Bathroom Floor Cleaner and Shampoo were purchased together in a single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Need for home cleaning and personal hygiene products.",
+  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, recurring patterns, or durable behavioral traits cannot be inferred from this single data point. The `category_pair_evidence` provided relates to other categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values are applied to the observed basket.",
+  "overall_confidence": "low"
+}

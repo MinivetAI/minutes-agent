@@ -1,0 +1,92 @@
+{
+  "daypart": "evening",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-04-20 in the evening on a weekday. The basket contains 10 items across 8 categories, indicating a broad shopping need that includes household cleaning supplies, food staples, and personal care. The user purchased 1 unit of Milk, 3 units of Washing Bar, 1 unit of Washing Powder, 1 unit of Soap, 1 unit of Vegetables, 1 unit of Condom, 2 units of Spices Masala, and 1 unit of Cookies Biscuits.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "WashingBar",
+        "WashingPowder"
+      ],
+      "combination_text": "Washing Bar and Washing Powder were purchased together in this order.",
+      "support": 0.172,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.172,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk were purchased together in this order.",
+      "support": 0.138,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "Milk",
+        "SpicesMasala"
+      ],
+      "combination_text": "Milk and Spices Masala were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "low"
+    },
+    {
+      "categories": [
+        "SpicesMasala",
+        "Vegetables"
+      ],
+      "combination_text": "Spices Masala and Vegetables were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "SpicesMasala"
+      ],
+      "combination_text": "Cookies Biscuits and Spices Masala were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "WashingBar"
+      ],
+      "combination_text": "Cookies Biscuits and Washing Bar were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "medium"
+    },
+    {
+      "categories": [
+        "CookiesBiscuits",
+        "WashingPowder"
+      ],
+      "combination_text": "Cookies Biscuits and Washing Powder were purchased together in this order.",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "medium"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for household replenishment, covering cleaning agents (washing bars, powder, soap), food items (milk, vegetables, spices, cookies), and personal care (condoms).",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category associations are observed only in this instance and do not indicate stable or recurring preferences.",
+  "overall_confidence": "low"
+}

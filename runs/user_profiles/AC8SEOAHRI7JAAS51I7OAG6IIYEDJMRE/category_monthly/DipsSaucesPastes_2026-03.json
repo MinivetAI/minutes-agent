@@ -1,0 +1,26 @@
+{
+  "month": "2026-03",
+  "summary_text": "In March 2026, the user purchased VEEBA Tomato Chef’s Special Ketchup on two independent dates (2026-03-27 and 2026-03-28). This repetition meets the threshold for a stable preference claim. The user also consistently purchases this item during the morning, a daypart with high population share (32.46%).",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "VEEBA",
+      "claim_text": "The user has a stable preference for VEEBA, evidenced by purchases on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "VEEBA Tomato Chef’s Special Ketchup",
+      "claim_text": "The user has a stable preference for VEEBA Tomato Chef’s Special Ketchup, evidenced by purchases on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "No trends or single-date observations are reported as stable preferences. The evidence is limited to two dates in one month.",
+  "overall_confidence": "medium"
+}

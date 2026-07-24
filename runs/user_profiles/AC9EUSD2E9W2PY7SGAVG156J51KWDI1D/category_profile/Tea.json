@@ -1,0 +1,26 @@
+{
+  "category": "Tea",
+  "profile_text": "In May 2026, the user purchased one 100 g pouch of Society Regular Indian Leaf Tea on a weekday morning. This single order aligns with the population morning baseline share of 32.46% and may indicate routine household replenishment or immediate breakfast preparation needs. No stable brand or product preference is established from this single observation.",
+  "brand_preferences": [],
+  "product_preferences": [],
+  "quantity_preferences": [],
+  "temporal_preferences": [],
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "last_purchase_date": "2026-05-07",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Last purchased on 2026-05-07; cadence is unknown based on a single observation.",
+    "confidence": "low",
+    "evidence_count": 1,
+    "independent_date_count": 1
+  },
+  "discovery_candidate": null,
+  "conversion_text": "Interest in this category has resulted in a completed purchase.",
+  "substitution_text": "No substitution behavior observed.",
+  "price_value_text": "No price or value behavior observed.",
+  "emerging_preferences": [],
+  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
+  "mission_generation_text": "Supports immediate breakfast preparation or routine household replenishment.",
+  "overall_confidence": "low"
+}

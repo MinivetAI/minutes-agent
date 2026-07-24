@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-04",
+  "day_type": "weekday",
+  "summary_text": "On 2026-06-04 (weekday), a single afternoon order was placed containing 9 items across 8 categories. The basket combined fresh produce (Vegetables, Fruits), dairy/protein (Curd Yogurt, Paneer Tofu), baby care (Baby Cereal, Diaper), and convenience/snack items (Popcorn, Cough). This single observation suggests a need for household staples including fresh food, baby care items, and specific health or snack products. No stable patterns or durable preferences can be inferred from this single date.",
+  "daypart_behavior": [],
+  "behavior_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "The basket suggests a need for household staples including fresh food, baby care items, and specific health or snack products.",
+  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "overall_confidence": "low"
+}

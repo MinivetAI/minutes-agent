@@ -1,0 +1,22 @@
+{
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "basket_summary_text": "A single order placed on 2026-05-28 in the afternoon on a weekday. The basket contains seven items across five categories: Vegetables (3 units), Diaper (1), Spices Masala (1), Aerated Drinks (1), and Condiments (1). The shopping_need_text is compatible with preparing a meal that includes fresh produce and seasoning, alongside household essentials like diapers and a beverage.",
+  "behavior_patterns": [],
+  "category_combinations": [
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high"
+    }
+  ],
+  "abandonment_patterns": [],
+  "shopping_need_text": "Preparation of a meal involving fresh vegetables and spices, combined with routine household replenishment of diapers and beverages.",
+  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "overall_confidence": "low"
+}

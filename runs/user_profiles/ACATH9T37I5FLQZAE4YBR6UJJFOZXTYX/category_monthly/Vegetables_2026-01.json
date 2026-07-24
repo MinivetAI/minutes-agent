@@ -1,0 +1,34 @@
+{
+  "month": "2026-01",
+  "summary_text": "In January 2026, the user purchased fresh vegetables across four independent dates (2026-01-23, 2026-01-28, 2026-01-30, 2026-01-31). Baby Potato (280–320 g) appeared on all four dates, establishing a stable preference with high confidence. Onion (400–450 g) appeared on two dates (2026-01-28, 2026-01-31), establishing a stable preference with at least medium confidence. Coriander Leaves appeared on two dates (2026-01-23, 2026-01-31), establishing a stable preference with at least medium confidence. Other items (Organic Green Chilli, Cleaned Coriander Leaves, Red Carrot, Onion - Sambhar, Spinach Leaves, Broad Beans) appeared only once and are excluded from stable preference claims. Daypart patterns show activity in the morning (above population baseline) and evening (comparable to morning baseline).",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Baby Potato (280–320 g)",
+      "claim_text": "The user has a stable preference for Baby Potato (280–320 g), observed on four independent dates in January 2026.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Onion (400–450 g)",
+      "claim_text": "The user has a stable preference for Onion (400–450 g), observed on two independent dates in January 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Coriander Leaves",
+      "claim_text": "The user has a stable preference for Coriander Leaves (including Cleaned Coriander Leaves), observed on two independent dates in January 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "This analysis is based on four independent orders in January 2026. While Baby Potato, Onion, and Coriander Leaves show stable patterns, other vegetables were purchased only once and do not establish recurring habits. The user's intent for these items is consistent with immediate meal preparation needs.",
+  "overall_confidence": "medium"
+}

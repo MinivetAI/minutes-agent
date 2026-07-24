@@ -1,0 +1,10 @@
+{
+  "daypart": "night",
+  "day_type": "weekday",
+  "summary_text": "Purchased 2 units of Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) during a night-time session on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred at night on a weekday, a time when this category represents 12.02% of population activity (lower than morning, afternoon, or evening peaks). The product is an instant, quick-cook pasta variant, typically used for convenient, low-effort meals or snacks.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low"
+}

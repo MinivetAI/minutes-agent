@@ -1,0 +1,10 @@
+{
+  "daypart": "morning",
+  "day_type": "weekday",
+  "summary_text": "One order of Parag Toned Milk 500 ml (packaged dairy milk) was placed during the morning on a weekday.",
+  "preference_claims": [],
+  "funnel_signal": null,
+  "shopping_context_text": "The purchase occurred in the morning, a period with a population share of 0.3246, indicating it aligns with the most common time for this category. The product is a small-format (500 ml) packaged milk, typically used for immediate household consumption, such as for tea/coffee or daily dietary needs.",
+  "uncertainty_text": "This is a single observed order; it is not yet established whether this reflects a stable, recurring preference or a one-time need. No browsing or cart activity was recorded to indicate prior interest or hesitation.",
+  "overall_confidence": "low"
+}
