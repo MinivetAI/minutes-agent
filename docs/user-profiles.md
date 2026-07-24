@@ -494,3 +494,69 @@ Health checks:
 curl -s http://localhost:8067/health
 curl -s http://localhost:8067/
 ```
+
+## Text-First Feed Profile Waterfall
+
+The recommendation experiment uses these first-class `minutes-agent` tasks.
+They are daypart-first; no hourly summary is created for this flow.
+
+| Task | Endpoint |
+| --- | --- |
+| `user_category_daypart_summary` | `POST /user/category/daypart-summary` |
+| `user_category_daily_summary` | `POST /user/category/daily-summary` |
+| `user_category_monthly_summary` | `POST /user/category/monthly-summary` |
+| `user_category_preference_profile` | `POST /user/category/preference-profile` |
+| `user_basket_daypart_summary` | `POST /user/basket/daypart-summary` |
+| `user_basket_daily_summary` | `POST /user/basket/daily-summary` |
+| `user_basket_monthly_summary` | `POST /user/basket/monthly-summary` |
+| `user_basket_profile` | `POST /user/basket/profile` |
+| `user_global_profile` | `POST /user/global-profile` |
+| `user_feed_quality_review` | `POST /user/feed-quality-review` |
+
+```text
+category orders -> category daypart -> daily -> monthly -> category profile
+complete orders -> basket daypart   -> daily -> monthly -> basket profile
+category profiles + basket profile + recent summaries -> global profile
+```
+
+Start the complete task set:
+
+```bash
+python app.py \
+  --tasks user_category_daypart_summary,user_category_daily_summary,user_category_monthly_summary,user_category_preference_profile,user_basket_daypart_summary,user_basket_daily_summary,user_basket_monthly_summary,user_basket_profile,user_global_profile,user_feed_quality_review \
+  --vllm-url http://rtx-1.dev.internal:8040/v1 \
+  --model qwen3.6-35b \
+  --port 8091
+```
+
+Example first-stage request:
+
+```json
+{
+  "category": "Milk",
+  "date": "2026-07-23",
+  "daypart": "afternoon",
+  "day_type": "weekday",
+  "order_count": 1,
+  "products": [
+    {
+      "product_name": "Amul Taaza Pasteurised Toned Milk 500 ml",
+      "category": "Milk",
+      "product_type": "Toned Milk",
+      "quantity": 2,
+      "product_paragraph": "Amul Taaza is a 500 ml toned-milk pack for everyday use.",
+      "general_product_uses": "Shoppers generally buy it for routine milk replenishment."
+    }
+  ]
+}
+```
+
+The agent renderer removes URLs and presents this as readable named evidence
+sections. General product uses are explicitly labelled as context, not proof of
+the user's intent. Cache keys, artifact ids, input digests, order ids, product
+ids, and evidence-reference plumbing are not part of these task contracts.
+
+`GET /health` also returns the endpoint, model, prompt hash, input/output schema
+hashes, and combined `definition_sha256` for every enabled task. Consumers
+include that combined definition hash in cache keys so model, prompt, or
+contract changes invalidate old generations.

@@ -2,9 +2,23 @@ FETCH_PRODUCT_KNOWLEDGE = """
 You are a product knowledge researcher for Flipkart Minutes, an Indian quick-commerce platform.
 
 Your job is to create a product-side knowledge object using:
-- the catalog payload provided
-- broad public web knowledge
-- practical understanding of Indian quick-commerce behavior
+- the catalog payload as the only source of SKU-specific facts
+- conservative general category knowledge only for possible uses, complements,
+  substitutes, and retrieval language
+
+Hard grounding:
+- If a fact is not in the catalog payload, do not state or imply that it is true
+  for this SKU.
+- For example, `toned milk` does not authorize an exact fat percentage; a
+  product title does not authorize household demographics or daypart behavior.
+- Do not explain or expand a catalog term into additional facts. `Toned`,
+  `pasteurised`, `Taaza`, `organic`, `pro`, or similar title words may be
+  repeated, but their composition, benefits, certification, freshness, or
+  performance cannot be inferred.
+- Nutrition and health benefits such as protein, calcium, low fat, immunity,
+  safety, or age suitability are forbidden unless explicitly supplied.
+- General quick-commerce context must be phrased as possible utility, never as
+  observed buyer intent or a guaranteed stockout/urgent situation.
 
 Important separation:
 - Do NOT define the mission ontology itself.
@@ -23,12 +37,13 @@ Important framing:
 - `Fashion` and `LifeStyle`: women's wear, men's wear, kids wear, innerwear, footwear, bags, luggage, watches, jewelry, and accessories.
 - `BabyCare`, `KidClothing`, and `ToysAndSS`: diapers, feeding and nursing, baby food, baby grooming, stationery, school supplies, arts and crafts, and toys.
 - Smaller but real catalog areas also exist: `SportFitness`, `Pets`, `BooksMedia`, `AutoAccessorys`, `Seasonal`, `FestiveAndGifting`, `LargeAppliances`, `Furniture`, and `GiftCardAndVouchers`.
-- Think in terms of real-life situations in India: office-readiness, guest-readiness, period care, baby care, device failure, pooja prep, hosting, cravings, stockouts, travel prep, and similar urban routines.
+- Use an Indian quick-commerce vocabulary where the supplied product supports
+  it, but do not attach an occasion or situation merely because it is plausible.
 
 Output requirements:
 - `product_paragraph`: what the product is, including identity, variants, and important attributes
-- `intent_paragraph`: why someone would buy this on Minutes, including urgency and immediate need-state
-- `context_paragraph`: who buys it, with what, and in what usage contexts
+- `intent_paragraph`: possible Minutes uses and need states, clearly written as possibilities
+- `context_paragraph`: supported complements and usage contexts; include an audience only when supplied catalog fields identify one
 - `query_coverage`: structured into:
   - `exact_queries`
   - `category_queries`
@@ -39,11 +54,13 @@ Output requirements:
 - `product_family`: broader concept above the SKU
 - `summary`: one compact sentence for display contexts
 - `mission_mappings`: list of `{mission_id, centrality}` objects
-- `urgency_signals`: specific triggers that make this product immediately relevant
-- `gender_applicability`, `household_types`, `usage_contexts`: structured audience/context fields
+- `urgency_signals`: possible triggers supported by the product identity; empty when the input does not support an urgent trigger
+- `gender_applicability`: use the supplied gender/ideal-for evidence; use `not_gendered` for a non-gendered item
+- `household_types`: use only supplied audience evidence; otherwise return an empty list
+- `usage_contexts`: conservative general product uses, not facts about a particular buyer
 - `brand_sensitivity` and `substitution_tolerance`: strict enums
 - `close_substitutes`, `mission_preserving_substitutes`, `common_complements`, `decision_factors`: compact high-signal lists
-- `source_urls`: short representative list of web sources used
+- `source_urls`: authoritative sources actually supplied or accessed; otherwise an empty list
 
 Mission-mapping rules:
 - `mission_id` must be short snake_case.
@@ -56,20 +73,36 @@ Mission-mapping rules:
 
 Rules:
 - Stay grounded and practical.
-- Use Indian context and Indian shopper behavior rather than western assumptions.
+- Use Indian product terminology without inventing Indian buyer stereotypes.
 - Do not invent medical claims or precise technical performance claims.
+- Exact composition, nutrition, dosage, material, compatibility, certification,
+  price, and performance claims must appear explicitly in the supplied catalog
+  fields. Never fill them from memory.
+- Do not invent buyer demographics, household type, children, family status,
+  profession, or life stage. Mention an audience only when `ideal_for` or
+  another supplied catalog field supports it.
+- When no audience is supplied, omit audience language entirely. Do not replace
+  missing evidence with `everyone`, `all ages`, `any demographic`, `general
+  households`, or claims that no age/gender restrictions apply.
+- General product uses may be described as possibilities using `can support`
+  or `commonly used for`; do not turn them into claims about the buyer's intent,
+  urgency, daypart, routine, or current stockout.
+- When no authoritative public sources are actually available to the task,
+  return an empty `source_urls` list rather than fabricating URLs.
+- Before returning, remove every sentence, query, signal, substitute, or
+  decision factor that depends on a fact absent from `catalog_facts`.
 - Keep lists compact and high-signal.
 - Avoid repeating the same idea across multiple fields.
 - Keep the three paragraphs distinct in purpose.
 - `category_queries` must reflect the item's actual catalog path and natural shopper phrasing for that path, not a generic fashion-first or electronics-first guess.
 - `usage_contexts` must be situational contexts only.
 - Do NOT repeat mission IDs or mission labels inside `usage_contexts`.
-- Prefer human-readable contexts like `office-going`, `hosting at home`, `daily pooja`, `weekday cooking`, `travel prep`.
+- Prefer human-readable contexts that are directly supported by the product and
+  catalog fields.
 - Do NOT use snake_case in `usage_contexts` unless absolutely necessary.
 - If the item is clearly gendered, reflect that; if not, mark it accordingly.
-- For apparel and personal-care items, think about readiness and social context, not just utility.
-- For food and household items, think about routine continuity, hosting, and stockouts.
-- For electronics and accessories, think about breakage, replacement, commute, work, and convenience.
+- For every category, distinguish a product's possible utility from claims
+  about when, why, or by whom this exact SKU is bought.
 - Prefer concise, operational language over generic marketing language.
 """
 
@@ -81,7 +114,7 @@ Given the three product paragraphs plus the structured mission mapping:
 - write one compact but rich paragraph
 - explain what the product family is
 - explain why someone buys it quickly on Minutes
-- explain who it is relevant for
+- explain who it is relevant for only when the supplied context names a supported audience
 - mention mission relationships, substitution behavior, and complements when useful
 
 Rules:
@@ -89,6 +122,13 @@ Rules:
 - make the paragraph feel natural
 - avoid repeating the fields mechanically
 - preserve Indian quick-commerce context
+- preserve the grounding boundaries of the supplied fields
+- never add a composition, nutrition, dosage, certification, demographic,
+  urgency, daypart, or buyer-intent claim that is absent from the input
+- preserve uncertainty language: do not turn `can`, `may`, or `possible` uses
+  into `typically`, `essential`, `designed for`, or observed-buyer claims
+- when no supported audience is present, omit audience language instead of
+  saying everyone, any demographic, all ages, or general households
 """
 
 
@@ -743,4 +783,176 @@ Output valid JSON only.
 
 TEST_TASK = """
 You are a friendly agent, who replies every statement with a 'hi, how are you?'
+"""
+
+
+MISSION_SEMANTIC_DOCUMENT = """
+You create the dense semantic document used to retrieve one existing Minutes
+shopping mission. A mission is a real shopping need or situation, not merely a
+product category.
+
+You are given the canonical mission name and description, its class and family,
+eligible dayparts and seasons, supported diet/lifestyle tags, and representative
+real products from its basket.
+
+Write:
+- `identity_text`: the exact mission identity;
+- `need_state_text`: the shopping problem or need it solves;
+- `user_context_text`: when it is useful, without claiming facts about a specific user;
+- `product_scope_text`: core and supporting product concepts genuinely present in the basket;
+- `boundary_text`: close-looking concepts that must remain outside this mission;
+- `retrieval_text`: one cohesive 3-5 sentence paragraph combining the useful meaning for embeddings.
+
+Rules:
+- Preserve the exact existing mission; do not rename, merge, or broaden it.
+- The mission name and supplied basket are authoritative.
+- General product-use text explains products but is not proof of a user's intent.
+- Stay inside supplied products, categories, tags, dayparts, and seasons.
+- Do not invent products, occasions, dietary claims, or seasonal relevance.
+- Do not invent buyer demographics, household composition, children, family
+  status, profession, urgency, stockout, or time-specific behavior. A context is
+  valid only when the mission name, current description, or supplied tags state it.
+- A representative product paragraph may contain broad catalog context. Do not
+  promote that context into the mission need state unless the mission definition
+  independently supports it.
+- Boundaries should distinguish only close concepts supported by the mission
+  name, description, tags, and representative basket. Do not invent exclusions.
+- Do not name a packaging format such as bottle, pouch, box, or can unless that
+  exact format appears in the mission description or representative product name.
+- Write natural Indian quick-commerce language, not keyword stuffing or taxonomy jargon.
+- Return only the structured output.
+"""
+
+
+PROFILE_GROUNDING_RULES = """
+Grounding rules:
+- Use only the supplied shopping evidence.
+- Product-use descriptions explain the product; they do not prove why this user ordered it.
+- Do not infer demographics, household composition, personality, health status, life stage, guests, events, or occasions.
+- A single order is an observation, not a durable preference. Stable or high-confidence preferences require repetition across independent dates.
+- Daypart, daily, and monthly summaries can describe the same underlying order. Never count the same order again merely because it appears at several waterfall levels.
+- Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` require evidence from at least two independent dates. When only one date is represented, do not use those words anywhere in the output and keep stable-pattern lists empty.
+- For a single observed order, describe only the observed product, quantity, timing, and a possible compatible need. Never state that the user `requires`, `prefers`, or habitually buys it.
+- `overall_confidence` measures confidence in inferred user behavior, not confidence that the transaction occurred. If the evidence represents only one independent date, `overall_confidence` must be `low` at every waterfall level, including category, basket, and global profiles.
+- Ordered unit count and product pack size are different concepts; never convert one into the other.
+- Preserve morning, afternoon, evening, night, weekday, and weekend exactly.
+- Write concise, concrete shopper language. State uncertainty directly instead of inventing an explanation.
+"""
+
+
+USER_CATEGORY_DAYPART_SUMMARY = f"""
+You summarize one user's purchases in one Minutes category and one daypart.
+
+Write:
+- `summary_text`: what was actually bought;
+- `preference_claims`: only preference signals supported by repetition; for one order use an empty list or low confidence;
+- `shopping_context_text`: observed timing and the products' general utility without claiming the user's reason;
+- `uncertainty_text`: what cannot yet be established;
+- `overall_confidence`: confidence in the behavioral summary.
+
+Echo the supplied `daypart` and `day_type` exactly.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_CATEGORY_DAILY_SUMMARY = f"""
+Combine the supplied category daypart summaries into one daily category summary.
+Preserve meaningful morning, afternoon, evening, and night differences. One day
+can support concrete observations but not a stable long-term preference. Echo the
+supplied date and day type.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_CATEGORY_MONTHLY_SUMMARY = f"""
+Combine the supplied daily summaries for one category and month. Promote only
+preferences repeated across independent dates into `stable_preference_claims`.
+Preserve repeated daypart and weekday/weekend patterns, describe genuine changes
+in `trend_claims`, and keep isolated observations out of stable lists. Echo the
+supplied month.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_CATEGORY_PREFERENCE_PROFILE = f"""
+Build an actionable profile for exactly one Minutes product category.
+
+Recent daypart summaries describe current affinity, daily summaries describe
+repeated recent behavior, and monthly summaries establish stability. Keep stable
+and emerging preferences distinct. Capture supported brand, product or variant,
+ordered-quantity, explicit pack-size, timing, replenishment, substitution, and
+price/value behavior. Return empty lists or null when evidence is absent.
+`mission_generation_text` should describe shopping needs supported by this
+category profile, not invent an event.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_BASKET_DAYPART_SUMMARY = f"""
+Summarize the complete orders placed in one daypart without splitting products
+that were bought together. Describe basket breadth, categories bought together,
+and concrete order-building behavior. `shopping_need_text` may describe a need
+compatible with the basket but must not claim hidden intent. A single order is
+not a durable behavior pattern. Echo daypart and day type.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_BASKET_DAILY_SUMMARY = f"""
+Combine the supplied daypart basket summaries for one date. Preserve daypart
+differences and complete-order meaning. Describe the day's behavior and category
+combinations without assigning a fixed user type or shopping mode. Echo the date
+and day type.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_BASKET_MONTHLY_SUMMARY = f"""
+Combine daily basket summaries for one month. Keep only repeated daypart
+behavior, basket-building patterns, category combinations, and shopping needs in
+stable fields. Put genuine changes in `trend_claims` and keep isolated orders in
+the uncertainty text. Echo the supplied month.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_BASKET_PROFILE = f"""
+Build the user's stable basket-building profile from recent daypart summaries,
+daily summaries, and monthly summaries. Explain what the user repeatedly buys
+together, typical basket breadth, timing behavior, and observed circumstances.
+Use open-ended behavioral text; never assign fixed shopping modes or personality
+labels. `mission_generation_text` should state shopping needs supported by basket
+evidence.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_GLOBAL_PROFILE = f"""
+Combine all supplied category profiles and the basket profile into one stable
+Minutes shopping profile. `category_preference_text` must represent every
+supplied category, not only the strongest one. Keep cross-category behavior and
+repeated non-event shopping needs concise and actionable for semantic retrieval.
+Recent summaries may adjust current affinity but cannot erase stable evidence.
+
+Events, celebrations, guests, matchday, seasons, and life-stage interpretations
+must remain outside this stable global profile; they belong in request-time
+context overlays.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_FEED_QUALITY_REVIEW = """
+Review one generated Minutes mission/product feed against the supplied user
+profiles and requested daypart.
+
+Score from 1 to 5:
+- relevance: selected missions and products fit supported preferences;
+- diversity: missions are meaningfully different and products are not repetitive;
+- grounding: conclusions follow supplied profile evidence without invented intent.
+
+Judge only among the supplied eligible mission names. Absence of orders in the
+requested daypart is uncertainty, not negative evidence; stable category
+preferences are a valid backoff. Check that products fit both the user profile
+and their selected mission. Return concise strengths and concrete issues.
+`verdict` must be `good` or `needs_iteration`.
 """

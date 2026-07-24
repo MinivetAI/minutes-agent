@@ -10,12 +10,23 @@ Current tasks:
 
 - `fetch_product_knowledge` -> `POST /v1/llm/knowledge/fetch-product`
 - `product_semantic_paragraph` -> `POST /v1/llm/enrich/product-paragraph`
+- `mission_semantic_document` -> `POST /v1/llm/mission/semantic-document`
 - `query_improvement` -> `POST /improve-query`
 - `query_parse` -> `POST /parse-query`
 - `user_hourly_summary` -> `POST /user/hourly-summary`
 - `user_aggregate_summary` -> `POST /user/aggregate-summary`
 - `user_category_profile` -> `POST /user/category-profile`
 - `user_cross_category_profile` -> `POST /user/cross-category-profile`
+- `user_category_daypart_summary` -> `POST /user/category/daypart-summary`
+- `user_category_daily_summary` -> `POST /user/category/daily-summary`
+- `user_category_monthly_summary` -> `POST /user/category/monthly-summary`
+- `user_category_preference_profile` -> `POST /user/category/preference-profile`
+- `user_basket_daypart_summary` -> `POST /user/basket/daypart-summary`
+- `user_basket_daily_summary` -> `POST /user/basket/daily-summary`
+- `user_basket_monthly_summary` -> `POST /user/basket/monthly-summary`
+- `user_basket_profile` -> `POST /user/basket/profile`
+- `user_global_profile` -> `POST /user/global-profile`
+- `user_feed_quality_review` -> `POST /user/feed-quality-review`
 - `user_mission_hourly_summary` -> `POST /user/mission-hourly-summary`
 - `user_mission_aggregate_summary` -> `POST /user/mission-aggregate-summary`
 - `user_mission_global_profile` -> `POST /user/mission-global-profile`

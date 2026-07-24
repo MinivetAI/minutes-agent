@@ -452,6 +452,392 @@ class MissionGlobalProfileOutput(BaseModel):
         description="Recent signals that reinforce, introduce, or weaken mission patterns"
     )
 
+
+class MissionSemanticProduct(BaseModel):
+    product_name: str = Field(description="User-visible product name")
+    category: str = Field(description="Readable Minutes product category")
+    general_product_uses: Optional[str] = Field(
+        default=None,
+        description="General product use or buying context; not evidence about a specific user",
+    )
+
+
+class MissionSemanticDocumentInput(BaseModel):
+    mission_name: str = Field(description="Existing canonical mission name")
+    current_description: str = Field(
+        default="",
+        description="Existing mission description",
+    )
+    mission_class: str = Field(description="Category or event mission class")
+    family: str = Field(description="Mission family used for diversity")
+    dayparts: List[str] = Field(default_factory=list)
+    seasons: List[str] = Field(default_factory=list)
+    diet_tags: List[str] = Field(default_factory=list)
+    lifestyle_tags: List[str] = Field(default_factory=list)
+    representative_products: List[MissionSemanticProduct] = Field(
+        default_factory=list,
+        description="Representative real products from the mission basket",
+    )
+
+
+class MissionSemanticDocumentOutput(BaseModel):
+    identity_text: str = Field(description="What this exact mission represents")
+    need_state_text: str = Field(description="Shopping need the mission solves")
+    user_context_text: str = Field(
+        description="When the mission is useful without inventing user facts"
+    )
+    product_scope_text: str = Field(
+        description="Core and supporting product concepts in scope"
+    )
+    boundary_text: str = Field(
+        description="Concepts and products that must remain outside the mission"
+    )
+    retrieval_text: str = Field(
+        description="One cohesive dense paragraph for embedding retrieval"
+    )
+
+
+# Text-first user-profile waterfall used by Minutes feed personalization.
+
+
+class ProfileConfidence(str, Enum):
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
+
+
+class PreferenceDimension(str, Enum):
+    BRAND = "brand"
+    PRODUCT = "product"
+    VARIANT = "variant"
+    PACK_SIZE = "pack_size"
+    ORDERED_QUANTITY = "ordered_quantity"
+    PRICE = "price"
+
+
+class CategoryProductEvidence(BaseModel):
+    product_name: str = Field(description="User-visible ordered product name")
+    category: str = Field(description="Minutes product category")
+    product_type: Optional[str] = Field(
+        default=None,
+        description="Readable product type or variant family when available",
+    )
+    quantity: int = Field(ge=1, description="Units ordered in this order")
+    product_paragraph: Optional[str] = Field(
+        default=None,
+        description="What the product is; factual product description",
+    )
+    general_product_uses: Optional[str] = Field(
+        default=None,
+        description="Why shoppers generally buy it; context only, never proof of this user's intent",
+    )
+
+
+class CategoryDaypartSummaryInput(BaseModel):
+    category: str = Field(description="Minutes product category")
+    date: str = Field(description="Calendar date in YYYY-MM-DD format")
+    daypart: Daypart = Field(description="Morning, afternoon, evening, night, or unknown")
+    day_type: DayType = Field(description="Weekday, weekend, or unknown")
+    order_count: int = Field(ge=1, description="Orders contributing category evidence")
+    products: List[CategoryProductEvidence] = Field(
+        min_length=1,
+        description="Ordered products in this category and daypart",
+    )
+
+
+class PreferenceClaim(BaseModel):
+    dimension: PreferenceDimension = Field(description="Preference dimension")
+    value: str = Field(description="Observed brand, product, variant, size, quantity, or price signal")
+    claim_text: str = Field(description="Natural-language preference signal")
+    confidence: ProfileConfidence = Field(description="Confidence in the preference, not merely the purchase fact")
+
+
+class CategoryDaypartSummaryOutput(BaseModel):
+    daypart: Daypart = Field(description="Daypart summarized")
+    day_type: DayType = Field(description="Weekday/weekend bucket summarized")
+    summary_text: str = Field(description="What the user bought in this category and daypart")
+    preference_claims: List[PreferenceClaim] = Field(
+        default_factory=list,
+        description="Tentative preference signals; empty is valid for one-off activity",
+    )
+    shopping_context_text: str = Field(
+        description="Observed timing and general product utility without inventing the user's reason"
+    )
+    uncertainty_text: str = Field(description="What the evidence cannot establish")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class CategoryDailySummaryInput(BaseModel):
+    category: str = Field(description="Minutes product category")
+    date: str = Field(description="Calendar date in YYYY-MM-DD format")
+    day_type: DayType = Field(description="Weekday, weekend, or unknown")
+    daypart_summaries: List[CategoryDaypartSummaryOutput] = Field(
+        min_length=1,
+        description="Category summaries for the day's observed dayparts",
+    )
+
+
+class DaypartPattern(BaseModel):
+    daypart: Daypart = Field(description="Daypart where the pattern was observed")
+    pattern_text: str = Field(description="Natural-language description of the observed pattern")
+    confidence: ProfileConfidence = Field(description="Confidence in the pattern")
+
+
+class CategoryDailySummaryOutput(BaseModel):
+    date: str = Field(description="Date summarized")
+    day_type: DayType = Field(description="Weekday/weekend bucket summarized")
+    summary_text: str = Field(description="Cohesive category summary for the date")
+    daypart_patterns: List[DaypartPattern] = Field(default_factory=list)
+    preference_claims: List[PreferenceClaim] = Field(default_factory=list)
+    uncertainty_text: str = Field(description="What remains unknown after this day")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class CategoryMonthlySummaryInput(BaseModel):
+    category: str = Field(description="Minutes product category")
+    month: str = Field(description="Month in YYYY-MM format")
+    daily_summaries: List[CategoryDailySummaryOutput] = Field(
+        min_length=1,
+        description="Daily category summaries for the month",
+    )
+
+
+class TemporalPattern(BaseModel):
+    daypart_or_day_type: str = Field(description="Daypart or weekday/weekend bucket")
+    pattern_text: str = Field(description="Repeated timing pattern")
+    confidence: ProfileConfidence = Field(description="Confidence in this repeated pattern")
+
+
+class TrendClaim(BaseModel):
+    claim_text: str = Field(description="Observed change or reinforcement across time")
+    confidence: ProfileConfidence = Field(description="Confidence in the trend")
+
+
+class CategoryMonthlySummaryOutput(BaseModel):
+    month: str = Field(description="Month summarized")
+    summary_text: str = Field(description="Cohesive monthly category summary")
+    stable_preference_claims: List[PreferenceClaim] = Field(default_factory=list)
+    temporal_patterns: List[TemporalPattern] = Field(default_factory=list)
+    trend_claims: List[TrendClaim] = Field(default_factory=list)
+    uncertainty_text: str = Field(description="What the monthly evidence cannot establish")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class CategoryProfileInput(BaseModel):
+    category: str = Field(description="Minutes product category")
+    recent_daypart_summaries: List[CategoryDaypartSummaryOutput] = Field(default_factory=list)
+    recent_daily_summaries: List[CategoryDailySummaryOutput] = Field(default_factory=list)
+    monthly_summaries: List[CategoryMonthlySummaryOutput] = Field(default_factory=list)
+
+
+class BrandPreference(BaseModel):
+    brand: str = Field(description="Brand name")
+    preference_text: str = Field(description="What the evidence says about this brand")
+    confidence: ProfileConfidence = Field(description="Confidence in the brand preference")
+
+
+class ProductPreference(BaseModel):
+    preference_text: str = Field(description="Preferred product, form, or attribute")
+    examples: List[str] = Field(default_factory=list, description="Explicit product examples from the input")
+    confidence: ProfileConfidence = Field(description="Confidence in this product preference")
+
+
+class QuantityPreference(BaseModel):
+    dimension: str = Field(description="ordered_quantity, explicit_pack_size, or basket_variety")
+    value: str = Field(description="Observed quantity or size value")
+    preference_text: str = Field(description="Natural-language quantity preference")
+    confidence: ProfileConfidence = Field(description="Confidence in this quantity preference")
+
+
+class TimingPreference(BaseModel):
+    daypart_or_day_type: str = Field(description="Daypart or weekday/weekend bucket")
+    preference_text: str = Field(description="Observed timing behavior")
+    confidence: ProfileConfidence = Field(description="Confidence in the timing preference")
+
+
+class EmergingPreference(BaseModel):
+    preference_text: str = Field(description="Recent but not yet stable preference")
+    confidence: ProfileConfidence = Field(description="Confidence in the emerging signal")
+
+
+class CategoryProfileOutput(BaseModel):
+    category: str = Field(description="Minutes product category profiled")
+    profile_text: str = Field(description="Actionable category preference profile")
+    brand_preferences: List[BrandPreference] = Field(default_factory=list)
+    product_preferences: List[ProductPreference] = Field(default_factory=list)
+    quantity_preferences: List[QuantityPreference] = Field(default_factory=list)
+    temporal_preferences: List[TimingPreference] = Field(default_factory=list)
+    replenishment_text: Optional[str] = Field(default=None)
+    substitution_text: Optional[str] = Field(default=None)
+    price_value_text: Optional[str] = Field(default=None)
+    emerging_preferences: List[EmergingPreference] = Field(default_factory=list)
+    avoidance_or_uncertainty_text: str = Field(description="Preference boundaries and unknowns")
+    mission_generation_text: str = Field(description="Shopping needs this profile can support")
+    overall_confidence: ProfileConfidence = Field(description="Overall category-profile confidence")
+
+
+class BasketProduct(BaseModel):
+    product_name: str = Field(description="User-visible ordered product name")
+    category: str = Field(description="Minutes product category")
+    quantity: int = Field(ge=1, description="Units ordered")
+
+
+class BasketOrder(BaseModel):
+    products: List[BasketProduct] = Field(min_length=1, description="Products bought together")
+
+
+class BasketDaypartSummaryInput(BaseModel):
+    date: str = Field(description="Calendar date in YYYY-MM-DD format")
+    daypart: Daypart = Field(description="Morning, afternoon, evening, night, or unknown")
+    day_type: DayType = Field(description="Weekday, weekend, or unknown")
+    orders: List[BasketOrder] = Field(min_length=1, description="Complete orders in this daypart")
+
+
+class BehaviorPattern(BaseModel):
+    behavior_text: str = Field(description="Observed shopping behavior")
+    circumstance_text: str = Field(description="Observed circumstance or timing, without invented intent")
+    confidence: ProfileConfidence = Field(description="Confidence in the behavior")
+
+
+class CategoryCombination(BaseModel):
+    categories: List[str] = Field(description="Categories bought together")
+    combination_text: str = Field(description="How these categories appear together")
+    confidence: ProfileConfidence = Field(description="Confidence in this combination")
+
+
+class BasketDaypartSummaryOutput(BaseModel):
+    daypart: Daypart = Field(description="Daypart summarized")
+    day_type: DayType = Field(description="Weekday/weekend bucket summarized")
+    basket_summary_text: str = Field(description="Cohesive summary of the complete orders")
+    behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
+    category_combinations: List[CategoryCombination] = Field(default_factory=list)
+    shopping_need_text: str = Field(description="Shopping need compatible with the basket, without claiming intent")
+    uncertainty_text: str = Field(description="What cannot be inferred from these orders")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class BasketDailySummaryInput(BaseModel):
+    date: str = Field(description="Calendar date in YYYY-MM-DD format")
+    day_type: DayType = Field(description="Weekday, weekend, or unknown")
+    daypart_summaries: List[BasketDaypartSummaryOutput] = Field(min_length=1)
+
+
+class DaypartBehavior(BaseModel):
+    daypart: Daypart = Field(description="Daypart observed")
+    behavior_text: str = Field(description="Shopping behavior in this daypart")
+    confidence: ProfileConfidence = Field(description="Confidence in this behavior")
+
+
+class CombinationPattern(BaseModel):
+    combination_text: str = Field(description="Repeated or notable category combination")
+    confidence: ProfileConfidence = Field(description="Confidence in this pattern")
+
+
+class BasketDailySummaryOutput(BaseModel):
+    date: str = Field(description="Date summarized")
+    day_type: DayType = Field(description="Weekday/weekend bucket summarized")
+    summary_text: str = Field(description="Cohesive basket summary for the date")
+    daypart_behavior: List[DaypartBehavior] = Field(default_factory=list)
+    behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
+    category_combination_patterns: List[CombinationPattern] = Field(default_factory=list)
+    shopping_need_text: str = Field(description="Shopping needs compatible with the day's baskets")
+    uncertainty_text: str = Field(description="What this day cannot establish")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class BasketMonthlySummaryInput(BaseModel):
+    month: str = Field(description="Month in YYYY-MM format")
+    daily_summaries: List[BasketDailySummaryOutput] = Field(min_length=1)
+
+
+class BasketMonthlySummaryOutput(BaseModel):
+    month: str = Field(description="Month summarized")
+    summary_text: str = Field(description="Cohesive monthly basket summary")
+    stable_daypart_behavior: List[DaypartBehavior] = Field(default_factory=list)
+    stable_behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
+    category_combination_patterns: List[CombinationPattern] = Field(default_factory=list)
+    trend_claims: List[TrendClaim] = Field(default_factory=list)
+    shopping_need_text: str = Field(description="Repeated shopping needs supported by the month")
+    uncertainty_text: str = Field(description="What the monthly baskets cannot establish")
+    overall_confidence: ProfileConfidence = Field(description="Overall confidence")
+
+
+class BasketProfileInput(BaseModel):
+    recent_daypart_summaries: List[BasketDaypartSummaryOutput] = Field(default_factory=list)
+    recent_daily_summaries: List[BasketDailySummaryOutput] = Field(default_factory=list)
+    monthly_summaries: List[BasketMonthlySummaryOutput] = Field(default_factory=list)
+
+
+class CircumstancePattern(BaseModel):
+    circumstance_text: str = Field(description="Observed shopping circumstance")
+    observed_behavior_text: str = Field(description="What the user does in that circumstance")
+    confidence: ProfileConfidence = Field(description="Confidence in the pattern")
+
+
+class BasketProfileOutput(BaseModel):
+    profile_text: str = Field(description="Actionable basket-building profile")
+    behavior_patterns: List[BehaviorPattern] = Field(default_factory=list)
+    daypart_behavior: List[DaypartBehavior] = Field(default_factory=list)
+    basket_structure_text: str = Field(description="Typical basket breadth and composition")
+    circumstance_patterns: List[CircumstancePattern] = Field(default_factory=list)
+    category_combination_patterns: List[CombinationPattern] = Field(default_factory=list)
+    mission_generation_text: str = Field(description="Shopping needs supported by basket behavior")
+    uncertainty_text: str = Field(description="Basket behavior that remains unknown")
+    overall_confidence: ProfileConfidence = Field(description="Overall profile confidence")
+
+
+class GlobalProfileInput(BaseModel):
+    category_profiles: List[CategoryProfileOutput] = Field(min_length=1)
+    basket_profile: BasketProfileOutput
+    recent_summaries: List[str] = Field(
+        default_factory=list,
+        description="Recent clean category or basket summaries, newest last",
+    )
+
+
+class GlobalProfileOutput(BaseModel):
+    profile_text: str = Field(description="Stable global shopping profile")
+    category_preference_text: str = Field(description="Cross-category preference synthesis")
+    basket_context_text: str = Field(description="Basket-building behavior synthesis")
+    cross_category_patterns: List[str] = Field(default_factory=list)
+    stable_mission_tendencies: List[str] = Field(default_factory=list)
+    mission_generation_text: str = Field(description="Stable shopping needs for mission retrieval")
+    uncertainty_text: str = Field(description="Global unknowns and confidence boundaries")
+    overall_confidence: ProfileConfidence = Field(description="Overall global confidence")
+
+
+class FeedReviewMission(BaseModel):
+    mission_name: str = Field(description="Selected mission name")
+    family: str = Field(description="Mission family")
+    semantic_score: float = Field(description="Profile-to-mission semantic score")
+
+
+class FeedReviewProduct(BaseModel):
+    product_name: str = Field(description="Selected product name")
+    category: str = Field(description="Minutes category")
+    semantic_score: float = Field(description="Profile-to-product semantic score")
+
+
+class FeedQualityReviewInput(BaseModel):
+    daypart: Daypart
+    global_profile: GlobalProfileOutput
+    category_profiles: List[CategoryProfileOutput] = Field(default_factory=list)
+    basket_profile: BasketProfileOutput
+    recent_summaries: List[str] = Field(default_factory=list)
+    eligible_mission_names: List[str] = Field(default_factory=list)
+    selected_missions: List[FeedReviewMission] = Field(default_factory=list)
+    selected_products: List[FeedReviewProduct] = Field(default_factory=list)
+
+
+class FeedQualityReviewOutput(BaseModel):
+    relevance_score: int = Field(ge=1, le=5)
+    diversity_score: int = Field(ge=1, le=5)
+    grounding_score: int = Field(ge=1, le=5)
+    verdict: str = Field(description="good or needs_iteration")
+    strengths: List[str] = Field(default_factory=list)
+    issues: List[str] = Field(default_factory=list)
+
+
 class ReasonType(str, Enum):
     SIMILAR = "similar"
     SUBSTITUTES = "substitutes"

@@ -1,4 +1,5 @@
 import argparse
+import hashlib
 import json
 import logging
 import os
@@ -118,7 +119,12 @@ def build_server(provider: str, vllm_url: str, model: str, max_concurrent: int) 
             max_concurrent=max_concurrent,
         )
 
-    return LLMServer(base_url=vllm_url, model=model, max_concurrent=max_concurrent)
+    return LLMServer(
+        base_url=vllm_url,
+        model=model,
+        max_concurrent=max_concurrent,
+        extra_payload={"chat_template_kwargs": {"enable_thinking": False}},
+    )
 
 
 def _default_max_tokens(task_name: str):
@@ -129,8 +135,45 @@ def _default_max_tokens(task_name: str):
     return None
 
 
+def _sha256_json(value: Any) -> str:
+    serialized = json.dumps(
+        value,
+        ensure_ascii=False,
+        separators=(",", ":"),
+        sort_keys=True,
+    )
+    return hashlib.sha256(serialized.encode("utf-8")).hexdigest()
+
+
+def _task_definitions(enabled_tasks: Dict, model: str) -> Dict[str, Dict[str, Any]]:
+    definitions: Dict[str, Dict[str, Any]] = {}
+    for task_name, config in enabled_tasks.items():
+        prompt = config["instruction"].strip()
+        input_schema = config["input_model"].model_json_schema()
+        output_schema = config["output_model"].model_json_schema()
+        fingerprint_source = {
+            "task": task_name,
+            "endpoint": config["endpoint"],
+            "model": model,
+            "prompt": prompt,
+            "input_schema": input_schema,
+            "output_schema": output_schema,
+            "max_tokens": config.get("max_tokens", _default_max_tokens(task_name)),
+        }
+        definitions[task_name] = {
+            "endpoint": config["endpoint"],
+            "model": model,
+            "prompt_sha256": hashlib.sha256(prompt.encode("utf-8")).hexdigest(),
+            "input_schema_sha256": _sha256_json(input_schema),
+            "output_schema_sha256": _sha256_json(output_schema),
+            "definition_sha256": _sha256_json(fingerprint_source),
+        }
+    return definitions
+
+
 def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, max_concurrent: int):
     task_names = list(enabled_tasks.keys())
+    task_definitions = _task_definitions(enabled_tasks, model)
 
     app = FastAPI(
         title="Flipkart Minutes Multi-Task LLM API",
@@ -171,7 +214,9 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
                             brand_payload = brand_context.retrieve(query)
                             if brand_payload:
                                 input_dict["brand_context"] = brand_payload
-                    result = await tasks[task_name].do(input_dict)
+                    prepare = config.get("prepare_input")
+                    payload = prepare(input_dict) if prepare else input_dict
+                    result = await tasks[task_name].do(payload)
                     if result is None:
                         raise HTTPException(status_code=500, detail=f"Failed to process {task_name}")
                     if config.get("drop_fields"):
@@ -230,7 +275,11 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
 
     @app.get("/health")
     async def health():
-        return {"status": "healthy", "tasks": task_names}
+        return {
+            "status": "healthy",
+            "tasks": task_names,
+            "task_definitions": task_definitions,
+        }
 
     @app.on_event("shutdown")
     async def _shutdown():
