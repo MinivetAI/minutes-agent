@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One unit of edible oil (EDOET83CVGZJEVB5) was purchased during the morning on a weekday.",
+  "summary_text": "One unit of edible oil (product EDOET83CVGZJEVB5) was purchased on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this category represents 32.46% of population activity.",
-  "uncertainty_text": "This is a single observed transaction; no durable brand or product preferences can be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchasing activity is above the population baseline (32.46%). The product is a staple cooking ingredient.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as no brand information was provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

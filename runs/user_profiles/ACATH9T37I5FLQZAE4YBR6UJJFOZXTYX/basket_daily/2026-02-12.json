@@ -1,7 +1,7 @@
 {
   "date": "2026-02-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-12, a weekday, a single order was placed in the afternoon. The basket contained 8 items across 4 categories: Milk (2 units), Vegetables (4 units across 4 distinct products), Paneer Tofu (1 unit), and Diaper (1 unit). The order-building behavior shows a mix of staple dairy, fresh produce, a specific protein alternative, and a baby care essential. No carts were abandoned.",
+  "summary_text": "On 2026-02-12 (weekday), a single afternoon order included Milk (2 units), Diaper (1 unit), Paneer Tofu (1 unit), and Vegetables (4 units across 3 SKUs). This combination suggests a need for daily household staples and fresh ingredients, potentially for meal preparation. The presence of Milk and Vegetables aligns with a common co-ordering pattern observed in this user's history.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,37 +13,9 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables co-order evidence exists but was not present in this specific order.",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk co-order evidence exists but was not present in this specific order.",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "AeratedDrinks",
-        "Vegetables"
-      ],
-      "combination_text": "AeratedDrinks and Vegetables co-order evidence exists but was not present in this specific order.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -53,41 +25,20 @@
       "combination_text": "Diaper and Vegetables were purchased together in this order.",
       "support": 0.262,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
-      ],
-      "combination_text": "SavouriesNamkeens and Vegetables co-order evidence exists but was not present in this specific order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "BabyCereal",
-        "Vegetables"
-      ],
-      "combination_text": "BabyCereal and Vegetables co-order evidence exists but was not present in this specific order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables co-order evidence exists but was not present in this specific order.",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for daily household staples including dairy, fresh produce, and baby care items.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Restocking daily household essentials including fresh produce, dairy, and baby care supplies.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-12"
+    ],
+    "first_seen_at": "2026-02-12T14:29:35",
+    "last_seen_at": "2026-02-12T14:29:35"
+  }
 }

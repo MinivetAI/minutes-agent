@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One order of CRAX Aloo Mota Chips Classic Salted (70 g) was placed in the evening. No browsing or cart activity was recorded for this category in this window.",
+  "summary_text": "One order of CRAX Aloo Mota Chips Classic Salted 70 g (1 unit) placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline for this daypart (30.27%). The product is a small, single-serve potato chip pack, typically used for immediate snacking, tea-time, or quick hunger fixes.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening shares 30.27% of activity (comparable to morning's 32.46%). The product is a single-serve, salty potato snack typically used for immediate consumption or quick snacking.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or routine for the user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

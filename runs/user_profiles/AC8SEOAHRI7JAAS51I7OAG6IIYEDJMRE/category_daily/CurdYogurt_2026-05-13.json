@@ -1,9 +1,17 @@
 {
   "date": "2026-05-13",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-13 (weekday), the user purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd (200 g) and 1 unit of Mother Dairy Classic Plain Curd (390.01 g) during the afternoon. This timing is less common for this user than the population baseline (25.26% share). The products are immediate-consumption dairy staples, potentially used as meal accompaniments or quick digestive aids. This is a single observed transaction; durable brand or product-type preferences cannot be established from this date alone.",
+  "summary_text": "On 2026-05-13 (weekday), the user purchased Mother Dairy curd products in the afternoon. The order included 2 units of 200 g probiotic plain curd and 1 unit of 390.01 g classic plain curd. This timing aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less frequent than evening (0.3027) or morning (0.3246). The products are immediate-consumption dairy staples, typically used as meal accompaniments or quick digestive aids. This is a single observation on one date. It is not yet established whether the user prefers Mother Dairy over other brands, prefers probiotic variants, or has a consistent afternoon shopping habit. No durable brand or product preference can be confirmed from this single order.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand or product-type preferences cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers Mother Dairy over other brands, prefers probiotic variants, or has a consistent afternoon shopping habit. No durable brand or product preference can be confirmed from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-13"
+    ],
+    "first_seen_at": "2026-05-13T11:51:47",
+    "last_seen_at": "2026-05-13T11:51:47"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on three independent dates (2026-03-23, 2026-03-24, and 2026-03-30). This recurrence establishes a stable preference for this specific brand and product variant. The purchases occurred exclusively in the morning on weekdays, indicating a consistent daypart and day-type pattern. The user bought 1 unit on the first two dates and 2 units on the third, suggesting a need for small-format liquid milk suitable for immediate kitchen use (e.g., tea, coffee, breakfast).",
+  "summary_text": "In March 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on three independent dates (2026-03-23, 2026-03-24, 2026-03-30). All orders occurred in the morning on weekdays, aligning with the population baseline where morning purchases account for 32.46% of activity. The product is a small-format, single-use liquid milk pack suitable for immediate consumption such as tea, coffee, or breakfast. The recurrence of this specific brand and variant across multiple dates indicates a stable preference.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user has a stable preference for Amul milk, evidenced by purchases on 3 independent dates in March 2026.",
+      "claim_text": "The user has purchased Amul milk on 3 independent dates in March 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -13,7 +13,15 @@
     {
       "dimension": "product",
       "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
-      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 3 independent dates in March 2026.",
+      "claim_text": "The user has purchased Amul Taaza Pasteurised Toned Milk (500 ml) on 3 independent dates in March 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "pack_size",
+      "value": "500 ml",
+      "claim_text": "The user has purchased 500 ml milk packs on 3 independent dates in March 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,6 +29,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No uncertainty regarding the stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), as it was purchased on 3 independent dates. The pattern is limited to March 2026.",
-  "overall_confidence": "high"
+  "uncertainty_text": "No other brands or product variants were observed in this window. The pattern is limited to morning purchases on weekdays.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-23T09:42:20",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

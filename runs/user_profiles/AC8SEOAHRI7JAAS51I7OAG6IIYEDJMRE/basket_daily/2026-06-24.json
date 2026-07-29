@@ -1,12 +1,56 @@
 {
   "date": "2026-06-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-24, a weekday, a single order was placed in the afternoon. The basket was narrow, containing one Extension Cord and one Vegetable. This represents a single transaction with no abandoned carts. The combination of electrical connectivity supplies and fresh produce suggests a need for home maintenance or cooking, compatible with the items bought. Because this is based on a single observed order on one independent date, overall confidence is low. No durable preferences, routines, or stable patterns can be inferred.",
+  "summary_text": "On 2026-06-24 (weekday), a single afternoon order contained one Extension Cord and one Vegetable. The basket is narrow, comprising two distinct categories with no overlap in typical food groupings. The presence of an Extension Cord alongside Vegetables suggests a mixed-purpose purchase, potentially for home maintenance or utility needs alongside fresh food procurement. No other products were included in this transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of an Extension Cord and a Vegetable suggests a need for electrical connectivity and fresh produce, potentially for home maintenance or cooking, compatible with the items bought.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, overall_confidence is low. No durable preferences, routines, or stable patterns can be inferred from this single data point. Claims about user behavior are limited to the specific products and timing observed.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Extension Cords",
+        "Vegetables"
+      ],
+      "combination_text": "Extension Cords and Vegetables were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables are frequently co-ordered.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 8,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "CurdYogurt"
+      ],
+      "combination_text": "Breads and CurdYogurt are frequently co-ordered.",
+      "support": 0.129,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 9,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "The user may have a need for fresh produce and electrical supplies, possibly for immediate consumption and home utility maintenance.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'frequently co-ordered' for CurdYogurt/Vegetables and Breads/CurdYogurt are derived from aggregate evidence counts (8 and 9 respectively) but are anchored to this single observed window for the purpose of this summary. Without evidence from multiple independent dates, these cannot be confirmed as stable user preferences or routines. The specific combination of Extension Cords and Vegetables is an isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-24"
+    ],
+    "first_seen_at": "2026-06-24T13:23:16",
+    "last_seen_at": "2026-06-24T13:23:16"
+  }
 }

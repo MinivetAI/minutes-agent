@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Watermelon Kiran (fresh watermelon) in the afternoon.",
+  "summary_text": "One unit of Watermelon Kiran (fresh watermelon) was purchased.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period with 25.26% population share, suggesting a non-peak shopping window compared to evening (30.27%) or morning (32.46%). The product is a fresh fruit item typically used for immediate consumption or hydration.",
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific reason for purchasing this specific watermelon variant or the timing is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping, though it aligns with the afternoon baseline share of 0.2526. The product is a fresh fruit typically used for immediate consumption or hydration.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific fruit, brand, or shopping time. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-27T12:01:27",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

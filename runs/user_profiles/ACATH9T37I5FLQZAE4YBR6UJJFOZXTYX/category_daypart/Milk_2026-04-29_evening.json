@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 500 ml and one 1 L pack of Amul Taaza pasteurised toned milk during the evening on a weekday.",
+  "summary_text": "One order of Amul Taaza milk products (500 ml and 1 L packs) purchased in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when this category's share (0.3027) is comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526). The products are standard fresh milk packs intended for immediate household consumption, such as tea, coffee, or breakfast preparation.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for Amul or this specific pack size combination.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekday evening. This timing contrasts with the population baseline, which shows the highest share of milk purchases in the morning (32.46%) and evening (30.27%), suggesting this purchase may have been driven by an immediate need or a deviation from typical morning-centric milk replenishment habits.",
+  "uncertainty_text": "It is not yet established whether this evening timing is a one-off occurrence or part of a broader pattern, as there is only one observed order. It is also unclear if the user prefers the 500 ml or 1 L pack size, or if they consistently buy the Amul brand, given the lack of historical data.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-29T20:12:12",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

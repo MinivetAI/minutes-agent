@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-04 (morning, weekday) included 9 items across 5 categories: Pasta, Curd Yogurt, Vegetables, Milk, and Savouries Namkeens. The basket featured a high proportion of fresh produce (3 units of Vegetables) and dairy staples (2 units each of Milk and Curd Yogurt), alongside a single unit of Pasta and Savouries Namkeens. This combination is compatible with a need for preparing a meal involving dairy-based components and fresh vegetables, possibly accompanied by a snack or side.",
+  "basket_summary_text": "A single morning weekday order on 2026-03-04 containing Pasta, Curd Yogurt, Vegetables, Milk, and Savouries Namkeens. The basket includes multiple units of Milk (2) and Curd Yogurt (2), along with single units of Pasta, Savouries Namkeens, and three separate Vegetable items. This combination suggests a need for a complete meal preparation or a mixed grocery run including dairy, produce, and snacks.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,44 +9,59 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were ordered together.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Vegetables were ordered together.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Milk"
       ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Milk were ordered together.",
       "support": 0.344,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Savouries Namkeens",
         "Vegetables"
       ],
-      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "combination_text": "Savouries Namkeens and Vegetables were ordered together.",
       "support": 0.246,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for meal preparation involving dairy and fresh vegetables, potentially with a savory snack component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not durable or stable.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal or stocking up on breakfast and snack items, given the inclusion of dairy, vegetables, and savory snacks.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-04"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-04T10:11:44"
+  }
 }

@@ -1,40 +1,27 @@
 {
-  "category": "Popcorn",
-  "profile_text": "A single observed purchase of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2) on 2026-06-04 (weekday afternoon). This transaction represents a concrete observation of a ready-to-pop microwave snack, suitable for quick, low-effort consumption. The order occurred during a weekday afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "brand_preferences": [
-    {
-      "brand": "ACT II",
-      "preference_text": "Observed in a single transaction on 2026-06-04. This is a single observation and does not establish a stable preference or routine.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Observed purchase of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2) on 2026-06-04. This is a single observation and does not establish a stable preference or routine.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Popcorn",
+  "summary_text": "In June 2026, one order of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2) was placed on a weekday afternoon. This timing is less common than the population baseline for afternoon (0.2526) compared to morning (0.3246) or evening (0.3027). The product is a microwave popcorn snack, typically used for quick, low-effort snacking. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, flavor, or product type, or if it was an isolated purchase.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "Preference boundaries and unknowns for this category, including anything the supplied summaries cannot establish.",
+  "retrieval_text": "Single observation of ACT II Instant Popcorn Cooker Cheese Flavor (210 g, pack of 2) ordered on a weekday afternoon in June 2026; insufficient evidence to establish stable brand, variant, or daypart preferences.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single purchase on 2026-06-04.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Popcorn yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Shopping for a quick, low-effort microwave snack.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-04T11:20:07"
+  }
 }

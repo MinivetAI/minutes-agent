@@ -1,15 +1,23 @@
 {
   "date": "2026-07-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-14 (weekday), the user purchased one 750 g pouch of Fortune Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil during the evening. This timing aligns with the population baseline share of 0.3027 for evening purchases. The items are standard all-purpose cooking oils in convenient pouch formats, consistent with immediate kitchen replenishment or same-day meal prep. This is a single observed order on one date; it does not establish a stable or recurring preference for these specific brands or oil types.",
+  "summary_text": "On 2026-07-14 (weekday), the user placed one order in the evening containing one 750 g pouch of Fortune Soya Health Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil. This single observation suggests immediate kitchen replenishment or same-day meal prep. Confidence is low as this is an isolated event from one date.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 750 g pouch of Fortune Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil during the evening on a weekday.",
+      "pattern_text": "One order placed on 2026-07-14 in the evening containing one 750 g pouch of Fortune Soya Health Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific brands or oil types.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers these specific brands (Fortune, Dhara) or oil types (soyabean, mustard) over others, or if this timing reflects a stable routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T16:43:51",
+    "last_seen_at": "2026-07-14T16:43:51"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Amul Malai Paneer 200 g was placed in the morning.",
+  "summary_text": "One order of Amul Malai Paneer 200 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh dairy ingredient typically used for immediate cooking needs.",
-  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The purchase aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh dairy ingredient typically used for immediate cooking needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine purchase, or a one-time need. No other products or brands were observed in this window to establish broader habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

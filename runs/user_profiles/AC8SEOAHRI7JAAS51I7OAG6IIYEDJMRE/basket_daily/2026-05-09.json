@@ -1,7 +1,7 @@
 {
   "date": "2026-05-09",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-09 (weekend), a single order was placed in the afternoon. The basket contained three distinct categories: Aerated Drinks (3 units), Glass Cleaner (1 unit), and Vegetables (3 units). This combination is compatible with general household restocking, including beverages, cleaning supplies, and fresh vegetables for cooking. No stable preferences or recurring patterns can be inferred from this single data point.",
+  "summary_text": "On 2026-05-09 (weekend), a single order was placed in the afternoon. The basket contained 3 Aerated Drinks, 1 Glass Cleaner, and 3 units of Vegetables (across three distinct product SKUs). This mix of beverage, cleaning supply, and fresh produce is compatible with general household replenishment or meal preparation. Confidence is low as this represents a single observation on one date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -11,14 +11,59 @@
         "Glass Cleaner",
         "Vegetables"
       ],
-      "combination_text": "Aerated Drinks, Glass Cleaner, and Vegetables were purchased together in this single order.",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
+      "combination_text": "Aerated Drinks, Glass Cleaner, and Vegetables were bought together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables have a historical co-order pattern.",
+      "support": 0.114,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables have a historical co-order pattern.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables have a historical co-order pattern.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for general household restocking, including beverages, cleaning supplies, and fresh vegetables for cooking.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point. Confidence in inferred user behavior is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Household replenishment including fresh produce, beverages, and cleaning supplies.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low for all behavioral inferences.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-09"
+    ],
+    "first_seen_at": "2026-05-09T13:20:37",
+    "last_seen_at": "2026-05-09T13:20:37"
+  }
 }

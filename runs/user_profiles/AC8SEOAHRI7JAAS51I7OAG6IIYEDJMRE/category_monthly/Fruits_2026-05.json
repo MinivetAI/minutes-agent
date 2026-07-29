@@ -1,9 +1,18 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased fresh fruits on two independent dates: Musk Melon Kajari on a weekend morning and Unbranded Litchi Without Stems on a weekday afternoon. Each item appeared only once, so no stable preferences or recurring patterns are established for this category.",
+  "summary_text": "In May 2026, the user ordered two distinct fresh fruit items on separate dates: a Musk Melon Kajari on a weekend morning and Litchi Without Stems on a weekday afternoon. Both orders represent single-date observations for their respective products, with no repetition across independent dates to establish a stable preference for either specific fruit, brand, or format. Daypart and day-type patterns are also based on single observations each, preventing the identification of a consistent routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each fruit item was observed on only one independent date. No durable preferences or habitual buying patterns can be established for Musk Melon Kajari or Unbranded Litchi Without Stems based on this evidence.",
-  "overall_confidence": "low"
+  "uncertainty_text": "The evidence consists of two independent orders for different products on different days. Because no brand, product, variant, daypart, or day-type recurs on 2 or more independent dates, no stable preferences or patterns can be claimed. Confidence in any specific user behavior regarding fruit selection is low due to the lack of repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-03",
+      "2026-05-26"
+    ],
+    "first_seen_at": "2026-05-03T09:48:47",
+    "last_seen_at": "2026-05-26T15:40:38"
+  }
 }

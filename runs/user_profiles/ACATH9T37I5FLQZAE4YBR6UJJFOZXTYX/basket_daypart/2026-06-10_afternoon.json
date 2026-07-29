@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-10 in the afternoon on a weekday contains one unit each of a Diaper product and two distinct Vegetable products. The basket reflects a basic household replenishment need, combining baby care essentials with fresh produce. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-06-10 in the afternoon on a weekday contains one unit each of a Diaper product (DPRF5RYGJVQQXXY7) and two Vegetable products (VEGHCM6M8MFYPVHK, VEGF7FJ55X7JEW8Y). The basket includes items from two categories: Diaper and Vegetables. This specific combination of Diapers and Vegetables is observed in this single order. The `category_pair_evidence` indicates that Diapers and Vegetables have been co-ordered 16 times historically with a support of 0.262, confidence of 1.0, and lift of 1.07, but this specific instance is a single observation. No other categories from the provided evidence list (Milk, CurdYogurt, AeratedDrinks, SavouriesNamkeens, BabyCereal, Fruits) are present in this order.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Diaper",
         "Vegetables"
       ],
-      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "combination_text": "Diaper and Vegetables",
       "support": 0.262,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Replenishment of baby care supplies and fresh produce.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of diapers and vegetables suggests a need for household essentials and fresh food preparation.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this data alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T15:41:36",
+    "last_seen_at": "2026-06-10T15:41:36"
+  }
 }

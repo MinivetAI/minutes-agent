@@ -1,15 +1,17 @@
 {
   "date": "2026-04-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-10 (weekday), the user purchased 2 units of Rajdhani Select Sooji (0.5 kg packs) in the morning. This timing aligns with the category's population activity share of 32.46% during morning hours. The product serves as a staple pantry ingredient for immediate cooking needs. This is a single observed transaction; durable brand or usage preferences cannot be established from this date alone.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Rajdhani Select Sooji (0.5 kg packs).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered Rajdhani Select Sooji (0.5 kg packs, quantity 2) during the morning daypart. This timing aligns with a population share of 32.46% for this category in the morning, suggesting the purchase supports immediate cooking needs for staple pantry ingredients. As this is a single observation on one date, it does not establish a stable brand preference or recurring routine.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand or usage preferences cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-10"
+    ],
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }

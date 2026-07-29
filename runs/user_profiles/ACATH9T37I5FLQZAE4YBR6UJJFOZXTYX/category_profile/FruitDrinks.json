@@ -1,26 +1,27 @@
 {
-  "category": "Fruit Drinks",
-  "profile_text": "The user has made two isolated purchases of fruit drinks in 2026: a 1 L pack of Real Masala Pomegranate Juice in February and a 10-pack of Frooti Mango Drinks in June. These single-observation orders do not establish a stable brand preference, routine, or cadence. The user appears to buy ready-to-serve fruit beverages for immediate consumption or stocking, with no consistent timing or brand loyalty evident.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Fruit Drinks",
+  "summary_text": "The user has made two isolated purchases of fruit drinks in separate months (Feb 2026 and Jun 2026), involving different brands (Real, Frooti) and product forms (juice, mango drink). No recurring pattern, brand loyalty, or specific product preference is established from this limited evidence.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Insufficient evidence to determine acceptable substitutions or boundaries. The user has purchased both juice and flavored fruit drinks, suggesting openness to different fruit drink types, but no specific alternative preferences are confirmed.",
+  "uncertainty_text": "Preference boundaries are largely unknown. The two orders represent different brands, product types (juice vs. flavored drink), and dayparts (evening vs. night). It is unclear if the user has a stable preference for any specific brand, variant, or timing. The low frequency of purchase makes it difficult to distinguish between habitual consumption and one-time needs.",
+  "retrieval_text": "User has purchased Real Masala Pomegranate Juice 1 L (evening, weekend) and Frooti Mango Drink 150 ml Pack of 10 (night, weekday) in separate months. No single brand, product, or daypart shows repeated evidence to establish a stable preference. Purchases are isolated observations with low confidence in any specific habit.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-11",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-06-11.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for FruitDrinks yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on two separate occasions, indicating that when the user seeks fruit drinks, they typically convert to a purchase.",
-  "substitution_text": null,
-  "price_value_text": "No consistent price or value behavior established due to lack of repeated purchasing patterns.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases were completed.",
-  "mission_generation_text": "Shopping needs supported by this category include immediate thirst quenching, stocking ready-to-drink beverages for quick consumption, or seeking flavored fruit-based refreshments.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

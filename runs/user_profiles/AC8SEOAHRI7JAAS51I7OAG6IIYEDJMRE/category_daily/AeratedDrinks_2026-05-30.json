@@ -1,15 +1,23 @@
 {
   "date": "2026-05-30",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-30 (weekend), the user purchased 2 units of Coca-Cola Diet Coke Can 300 ml in the afternoon. This single-serve carbonated beverage is typically associated with immediate refreshment or snack pairing. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed order; it does not establish a stable preference or routine for Diet Coke or aerated drinks in general.",
+  "summary_text": "On this weekend, the user ordered Aerated Drinks once, specifically 2 Coca-Cola Diet Coke Cans (300 ml) in the afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), but represents a common window for immediate refreshment or snack pairing. The product is a single-serve, chilled carbonated beverage, typically used for immediate consumption or quick refreshment breaks. This is a single observation on one date. It is not yet established whether the user prefers Diet Coke over other cola variants, prefers the 300 ml can size over larger formats, or has a recurring weekend afternoon shopping habit. No brand or product preference can be confirmed from this isolated instance.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 2 units of Coca-Cola Diet Coke Can 300 ml. This single-serve carbonated beverage is typically associated with immediate refreshment or snack pairing. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246).",
+      "pattern_text": "One order of 2 Coca-Cola Diet Coke Cans (300 ml) placed on a weekend afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), but represents a common window for immediate refreshment or snack pairing. The product is a single-serve, chilled carbonated beverage, typically used for immediate consumption or quick refreshment breaks. This is a single observation on one date. It is not yet established whether the user prefers Diet Coke over other cola variants, prefers the 300 ml can size over larger formats, or has a recurring weekend afternoon shopping habit. No brand or product preference can be confirmed from this isolated instance.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Diet Coke or aerated drinks in general.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers Diet Coke over other cola variants, prefers the 300 ml can size over larger formats, or has a recurring weekend afternoon shopping habit. No brand or product preference can be confirmed from this isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-30T13:06:02",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

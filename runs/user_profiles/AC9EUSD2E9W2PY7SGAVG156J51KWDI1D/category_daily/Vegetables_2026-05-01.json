@@ -1,9 +1,17 @@
 {
   "date": "2026-05-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-01 (weekday), the user purchased one 1 kg pack of unbranded loose onions and one 1 kg pack of local cucumbers. This order occurred during the morning daypart, a time when the population morning share (0.3246) is highest. The items are fresh, unbranded staple vegetables, suggesting a need for immediate meal preparation, such as cooking bases or fresh salads/raita. With only one observed order on a single date, it is not possible to establish stable brand preferences, recurring purchase cadences, or specific dietary habits.",
+  "summary_text": "One order of vegetables placed on a weekday morning, containing 1 kg of unbranded onions and 1 kg of unbranded local cucumbers. The order occurred in the morning, a time that aligns with the population baseline where morning shares 32.46% of activity. The items are fresh, unbranded staples typically used for immediate meal preparation or basic kitchen replenishment.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "With only one observed order on a single date, it is not possible to establish stable brand preferences, recurring purchase cadences, or specific dietary habits. The specific meal context (e.g., lunch vs. dinner prep) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "With only one observed order, it is not possible to establish stable brand preferences, recurring daypart habits, or specific meal intentions. The purchase may be an isolated need rather than a routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T08:07:58",
+    "last_seen_at": "2026-05-01T08:07:58"
+  }
 }

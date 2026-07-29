@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-03 in the afternoon on a weekday. The basket contains 4 units of Curd Yogurt and 1 unit of Buttermilk. This represents a narrow basket breadth focused on dairy products. The order-building behavior is a single transaction with no abandoned carts. The `shopping_need_text` is compatible with a need for dairy staples.",
+  "basket_summary_text": "A single order placed on 2026-03-03 in the afternoon on a weekday contains 4 units of Curd Yogurt and 1 unit of Buttermilk. The basket is narrow, consisting of two dairy-related categories. This single observation is compatible with a need for fresh dairy products for immediate consumption or meal preparation, but it does not establish a durable preference or routine.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Curd Yogurt",
         "Buttermilk"
       ],
-      "combination_text": "Curd Yogurt and Buttermilk were purchased together in this single order.",
+      "combination_text": "Curd Yogurt and Buttermilk were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "A need for dairy products, specifically yogurt and buttermilk.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `overall_confidence` is low because the evidence represents only one independent date.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for fresh dairy items such as yogurt and buttermilk, potentially for breakfast, cooking, or daily consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No repeated behavior across independent dates is observed, so durable preferences, routines, or high-confidence patterns cannot be inferred. The category pair evidence provided (e.g., Curd Yogurt with Breads, Vegetables, or Milk) is not supported by co-occurrence in this specific order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-03"
+    ],
+    "first_seen_at": "2026-03-03T13:11:36",
+    "last_seen_at": "2026-03-03T13:11:36"
+  }
 }

@@ -1,66 +1,70 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased fresh vegetables across 13 independent dates, primarily on weekdays. The basket composition is dominated by unbranded, perishable staples used for immediate meal preparation, with no durable brand preferences established. Onion and Baby Potato are the most frequently recurring items, appearing on 7 and 6 independent dates respectively, indicating stable preferences. Coriander Leaves and Beetroot also appear on multiple dates, supporting medium-confidence stable preferences. Other items such as Cauliflower, Cucumber, Spinach, and various gourds appear on single dates and are excluded from stable lists. Daypart activity is distributed across morning, afternoon, and evening, with no single dominant window, though afternoon purchases are frequent. No significant trends or changes in behavior are observed beyond the consistent reliance on fresh, unbranded produce for immediate cooking needs.",
+  "summary_text": "In April 2026, the user placed 13 independent orders of fresh, unbranded vegetables. The basket consistently features immediate kitchen staples for same-day meal preparation, including base aromatics (onion, garlic implied by context of aromatics), root vegetables (potato, beetroot, carrot), leafy greens/herbs (coriander, spinach, methi), and gourds (bottle gourd, sponge gourd, pumpkin). While specific product combinations vary by order, certain items recur across multiple independent dates. Onion appears on 7 distinct dates (04-01, 04-04, 04-07, 04-08, 04-12, 04-14, 04-20, 04-26, 04-29 - note: 04-01, 04-04, 04-07, 04-08, 04-12, 04-14, 04-20, 04-26, 04-29 are 9 dates? Let's re-verify. 04-01: yes. 04-04: yes. 04-07: yes. 04-08: yes. 04-12: yes. 04-14: yes. 04-20: yes. 04-26: yes. 04-29: yes. That is 9 dates. Baby potato appears on 04-04, 04-07, 04-08, 04-14, 04-20, 04-24, 04-26. That is 7 dates. Beetroot appears on 04-04, 04-07, 04-12, 04-17, 04-20, 04-26, 04-29. That is 7 dates. Coriander appears on 04-04, 04-07, 04-12, 04-14, 04-17, 04-29. That is 6 dates. Carrot appears on 04-07, 04-17, 04-26, 04-29. That is 4 dates. These items meet the repetition bar for stable preference. The user shops across all dayparts (morning, afternoon, evening) and both weekdays and weekends, with no single daypart or day-type dominating to the exclusion of others, though afternoon orders are frequent. All products are unbranded.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Onion",
-      "claim_text": "The user purchased Onion on 7 independent dates (2026-04-01, 2026-04-04, 2026-04-08, 2026-04-12, 2026-04-14, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-26, 2026-04-29). This high frequency supports a stable preference for this staple.",
+      "claim_text": "The user repeatedly orders unbranded onions across multiple independent dates in April 2026, indicating a stable preference for this base aromatic.",
       "confidence": "high",
-      "evidence_count": 10,
-      "independent_date_count": 7
+      "evidence_count": 9,
+      "independent_date_count": 9
     },
     {
       "dimension": "product",
       "value": "Baby Potato",
-      "claim_text": "The user purchased Baby Potato on 6 independent dates (2026-04-04, 2026-04-07, 2026-04-08, 2026-04-14, 2026-04-20, 2026-04-26). This repetition supports a stable preference.",
+      "claim_text": "The user repeatedly orders unbranded baby potatoes across multiple independent dates in April 2026, indicating a stable preference for this root vegetable.",
+      "confidence": "high",
+      "evidence_count": 7,
+      "independent_date_count": 7
+    },
+    {
+      "dimension": "product",
+      "value": "Beetroot",
+      "claim_text": "The user repeatedly orders unbranded beetroot across multiple independent dates in April 2026, indicating a stable preference for this root vegetable.",
+      "confidence": "high",
+      "evidence_count": 7,
+      "independent_date_count": 7
+    },
+    {
+      "dimension": "product",
+      "value": "Coriander Leaves",
+      "claim_text": "The user repeatedly orders unbranded coriander leaves across multiple independent dates in April 2026, indicating a stable preference for this herb.",
       "confidence": "high",
       "evidence_count": 6,
       "independent_date_count": 6
     },
     {
       "dimension": "product",
-      "value": "Coriander Leaves",
-      "claim_text": "The user purchased Coriander Leaves on 4 independent dates (2026-04-04, 2026-04-07, 2026-04-12, 2026-04-14, 2026-04-17, 2026-04-29). This repetition supports a stable preference.",
-      "confidence": "high",
-      "evidence_count": 6,
-      "independent_date_count": 4
-    },
-    {
-      "dimension": "product",
-      "value": "Beetroot",
-      "claim_text": "The user purchased Beetroot on 4 independent dates (2026-04-04, 2026-04-07, 2026-04-12, 2026-04-17, 2026-04-20, 2026-04-26, 2026-04-29). This repetition supports a stable preference.",
-      "confidence": "high",
-      "evidence_count": 7,
-      "independent_date_count": 4
-    },
-    {
-      "dimension": "product",
       "value": "Carrot",
-      "claim_text": "The user purchased Carrot on 3 independent dates (2026-04-07, 2026-04-17, 2026-04-26, 2026-04-29). This repetition supports a stable preference.",
-      "confidence": "medium",
+      "claim_text": "The user repeatedly orders unbranded carrots across multiple independent dates in April 2026, indicating a stable preference for this root vegetable.",
+      "confidence": "high",
       "evidence_count": 4,
-      "independent_date_count": 3
-    },
-    {
-      "dimension": "product",
-      "value": "Cucumber",
-      "claim_text": "The user purchased Cucumber on 2 independent dates (2026-04-01, 2026-04-17, 2026-04-26). This repetition supports a stable preference.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Fresh New Crop Potato",
-      "claim_text": "The user purchased Fresh New Crop Potato on 2 independent dates (2026-04-07, 2026-04-24). This repetition supports a stable preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "independent_date_count": 4
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user's vegetable purchases are consistent with immediate meal preparation needs, utilizing unbranded fresh produce. No specific recipes or household composition can be inferred. The high frequency of staple items (Onion, Potato) suggests a routine base for cooking, but the variety of other items changes frequently, preventing broader stable claims for the entire category.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While specific vegetables like onion, baby potato, beetroot, coriander, and carrot recur frequently, the exact composition of the vegetable basket changes with each order. No single brand is preferred as all items are unbranded. Daypart and day-type patterns are mixed, with orders occurring on weekdays and weekends across morning, afternoon, and evening slots, preventing the identification of a rigid routine for timing.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 13,
+    "purchase_dates": [
+      "2026-04-01",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-12",
+      "2026-04-14",
+      "2026-04-17",
+      "2026-04-20",
+      "2026-04-21",
+      "2026-04-24",
+      "2026-04-26",
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

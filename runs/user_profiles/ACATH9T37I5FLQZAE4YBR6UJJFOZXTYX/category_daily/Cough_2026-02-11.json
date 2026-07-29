@@ -1,9 +1,17 @@
 {
   "date": "2026-02-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-11 (weekday), the user purchased one 25-tablet pack of VICKS Double Power Cough Drops Warming Ginger in the afternoon. This timing is less common than the population baseline for this category (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product offers quick, on-the-go relief for throat irritation or mild cough, suitable for immediate use during the workday or while traveling. This is a single observed order; durable brand or flavor preferences cannot be established. It is unclear if this purchase was for immediate symptom relief or proactive stocking.",
+  "summary_text": "On 2026-02-11 (weekday), a single order of VICKS Double Power Cough Drops Warming Ginger (25 tablets) was placed in the afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a portable, fast-acting lozenge typically used for immediate throat soothing during the day. This is a single observation on one date. It is not yet established whether this represents a stable preference for VICKS brand, cough drops specifically, or ginger-flavored variants, or if it was a one-time response to acute symptoms.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established. It is unclear if this purchase was for immediate symptom relief or proactive stocking.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for VICKS brand, cough drops specifically, or ginger-flavored variants, or if it was a one-time response to acute symptoms.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-11"
+    ],
+    "first_seen_at": "2026-02-11T13:33:53",
+    "last_seen_at": "2026-02-11T13:33:53"
+  }
 }

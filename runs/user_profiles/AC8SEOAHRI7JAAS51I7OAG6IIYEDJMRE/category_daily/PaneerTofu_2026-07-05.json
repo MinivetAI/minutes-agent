@@ -1,15 +1,23 @@
 {
   "date": "2026-07-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-05 (weekend), one order of Mother Dairy Fresh Paneer 200 g was placed in the evening. This timing aligns with the high population share (0.3027) for evening purchases in this category, suggesting a possible need for last-minute ingredient preparation for a weekend meal. This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
+  "summary_text": "On this weekend, the user placed one order of Mother Dairy Fresh Paneer 200 g during the evening. This timing aligns with the population baseline for Paneer Tofu in the evening (0.3027). The product is a packaged fresh dairy item suitable for immediate cooking needs, such as last-minute meal prep or adding protein to a planned dish. This is a single observation from one date; it is not yet established whether the user prefers this specific brand, has a recurring weekend evening routine for this category, or if this was an isolated need.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g placed in the evening on a weekend. The order occurred in the evening, a time with high population share (0.3027) for this category, suggesting alignment with typical evening meal preparation or last-minute ingredient needs.",
+      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g placed on a weekend evening. This timing is consistent with typical population behavior for Paneer Tofu in the evening (baseline 0.3027). The product is a packaged fresh dairy item generally used for immediate cooking needs, such as last-minute meal prep or adding protein to a planned dish.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers this specific brand, has a recurring weekend evening routine for this category, or if this was an isolated need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T20:16:51",
+    "last_seen_at": "2026-07-05T20:16:51"
+  }
 }

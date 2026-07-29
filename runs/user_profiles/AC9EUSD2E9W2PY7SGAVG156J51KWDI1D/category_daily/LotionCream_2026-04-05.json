@@ -1,15 +1,23 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-05 (weekend), the user purchased one 60 g pack of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies during the evening. This order occurred in the evening, a period with high population share (0.3027) relative to other dayparts. The product is a baby moisturizer intended for quick relief of dry or irritated facial skin. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-04-05 (weekend), the user ordered Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies (60 g) in the evening. This single observation aligns with the common evening purchase pattern (30.27% population baseline). The product is a baby face cream/moisturizer, typically used for daily skin care or soothing dry/irritated facial skin. As this is a single observation on one date, it is not yet established whether this is a recurring purchase, a one-time need, or part of a stable brand preference.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 60 g pack of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies during the evening on a weekend. The order occurred in the evening, a period with high population share (0.3027) relative to other dayparts. The product is a baby moisturizer intended for quick relief of dry or irritated facial skin. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+      "pattern_text": "One order of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies (60 g) in the evening on a weekend. This aligns with the common evening purchase pattern (30.27% population baseline).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring purchase, a one-time need, or part of a stable brand preference.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-05T19:34:40"
+  }
 }

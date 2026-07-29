@@ -1,52 +1,40 @@
 {
-  "category": "Aerated Drinks",
-  "profile_text": "The user demonstrates a high-confidence, stable preference for Sprite, purchasing it repeatedly across multiple months (April through July 2026) and on numerous independent dates. Appy Fizz is a secondary stable preference, evidenced by repeated purchases in May 2026. Other brands like Coca-Cola and Thums Up appear only as single-date observations and do not constitute stable preferences. The user buys both single bottles (750 ml) and multi-packs, with a strong tendency toward the 750 ml PET bottle format. Purchases occur across all dayparts (morning, afternoon, evening, night) and both weekdays and weekends, indicating flexible timing rather than a rigid routine. The observed cadence is fast (every 5 days on average).",
-  "brand_preferences": [
-    {
-      "brand": "Sprite",
-      "preference_text": "Stable preference for Sprite, evidenced by purchases on multiple independent dates across April, May, June, and July 2026.",
-      "confidence": "high",
-      "evidence_count": 11,
-      "independent_date_count": 11
-    },
-    {
-      "brand": "Appy Fizz",
-      "preference_text": "Stable preference for Appy Fizz, evidenced by purchases on two independent dates in May 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for Sprite PET Bottle 750 ml, evidenced by purchases on multiple independent dates across April, May, and June 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "Stable preference for Appy Fizz PET Bottle 250 ml, evidenced by purchases on two independent dates in May 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Aerated Drinks",
+  "summary_text": "The user demonstrates a clear, stable preference for Sprite, with high-confidence evidence spanning April, May, and June 2026 (11 independent dates). Appy Fizz is a secondary stable preference with medium confidence (2 independent dates in May). The user frequently purchases the 750 ml PET bottle format, particularly for Sprite. Brand selection varies, with single observations of Coca-Cola, 7UP, and Thums Up. No stable daypart or day-type routine is established due to varied ordering times.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Sprite",
+        "preference_text": "The user has a stable, high-confidence preference for Sprite, observed across 11 independent dates from April through June 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Sprite brand and does not extend to other carbonated soft drink brands like Coca-Cola or Thums Up, which have only been observed once."
+      },
+      {
+        "brand": "Appy Fizz",
+        "preference_text": "The user has a stable, medium-confidence preference for Appy Fizz, observed on two independent dates in May 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to Appy Fizz and does not extend to other fruit-flavored carbonated drinks or other aerated drink brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Sprite is the primary stable choice. Appy Fizz is an acceptable alternative observed on multiple dates. Other brands like Coca-Cola, 7UP, and Thums Up have been purchased but only as single observations, indicating they are not stable substitutes or primary preferences.",
+  "uncertainty_text": "While Sprite and Appy Fizz preferences are stable, the user's ordering timing is highly variable (morning, afternoon, evening, night, weekday, weekend), preventing the establishment of a habitual shopping time. It is unclear if the user prefers specific Sprite variants beyond the 750 ml PET bottle, as other variants have not been repeated. The single observations of Coca-Cola, 7UP, and Thums Up do not establish a pattern of brand switching or specific taste preferences for those items.",
+  "retrieval_text": "The user exhibits a high-confidence, stable preference for the brand Sprite, evidenced across 11 independent dates in April, May, and June 2026, frequently purchasing the 750 ml PET bottle format. A secondary, medium-confidence preference exists for Appy Fizz, observed on two independent dates in May 2026. Ordering behavior is characterized by brand variety with no stable daypart or day-type routine, as purchases occur across all times of day and week. Single observations of Coca-Cola, 7UP, and Thums Up indicate these are not primary stable preferences.",
   "replenishment": {
     "cadence_days": 5.0,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-07-02",
     "predicted_next_purchase_date": "2026-07-07",
-    "replenishment_text": "The user purchases aerated drinks approximately every 5 days, classified as a fast cadence. The last purchase was on 2026-07-02, with the next predicted purchase around 2026-07-07.",
-    "confidence": "high",
-    "evidence_count": 21,
-    "independent_date_count": 21
+    "replenishment_text": "AeratedDrinks is reordered roughly every 5 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions for preferred brands and products.",
-  "substitution_text": "The user shows flexibility between brands (e.g., Sprite vs. Appy Fizz) and formats (single bottle vs. multi-pack), but maintains a strong primary preference for Sprite. Single-date purchases of other brands (Coca-Cola, Thums Up) suggest occasional substitution or trial rather than a shift in core preference.",
-  "price_value_text": "The user purchases both single 750 ml bottles and multi-packs (e.g., Sprite 8x250 ml), indicating openness to bulk purchasing options, likely for value or convenience.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. Single-date purchases of Coca-Cola and Thums Up are treated as isolated observations, not emerging preferences.",
-  "mission_generation_text": "Supports immediate refreshment and casual beverage consumption. The fast cadence and varied dayparts suggest integration into daily routines for hydration and enjoyment rather than specific event-based needs.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 21,
+    "independent_date_count": 21,
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

@@ -1,23 +1,19 @@
 {
   "date": "2026-03-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-16, a weekday, a single order was placed in the morning. The basket contained four items: two distinct vegetable products, one diaper, and one pooja flower. This combination reflects a mixed need covering fresh produce, baby care, and religious items. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On this weekday, a single order was placed in the morning. The basket contained one unit each of Vegetables, Diaper, and Pooja Flowers, with the vegetable category comprising two distinct items. This single observation is compatible with a need for fresh produce and basic household or personal care items. No durable preferences, routines, or stable patterns can be inferred from this isolated event.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Vegetables",
-        "Diaper"
-      ],
-      "combination_text": "Vegetables and Diaper were purchased together in this order.",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user purchased fresh vegetables, a diaper, and pooja flowers, suggesting a need for daily household supplies, baby care, and religious observance.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "Procurement of fresh vegetables and basic household or personal care items.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated event.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T09:10:05",
+    "last_seen_at": "2026-03-16T09:10:05"
+  }
 }

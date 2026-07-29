@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In 2026-07, the user purchased one 3 kg pack of Tide Naturals Lemon and Chandan Detergent Powder on a weekend afternoon. This single transaction does not establish a stable brand preference or routine pattern.",
+  "summary_text": "In July 2026, one order of Tide Naturals Lemon and Chandan Detergent Powder (3 kg) was placed on a weekend afternoon. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, though evening (30.27%) and morning (32.46%) are more common. The product is a general-use laundry detergent powder, indicating a need for routine household replenishment or immediate stain removal for daily wear. No stable brand or product preferences can be established from a single order. It is unknown if this is a one-time purchase or part of a recurring routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand preference or routine usage patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No stable brand or product preferences can be established from a single order. It is unknown if this is a one-time purchase or part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-04-30",
   "day_type": "weekday",
-  "summary_text": "A single order placed on a weekday night containing one unit each of Breads, Ice Creams, and Aerated Drinks. The basket exhibits narrow breadth, combining a staple food item with two distinct indulgence or beverage categories. This specific combination is not supported by the provided category pair evidence, which highlights associations between Breads and CurdYogurt, Vegetables, or Milk, but does not include Ice Creams or Aerated Drinks.",
+  "summary_text": "On 2026-04-30 (weekday), a single order was placed during the night. The basket contained one unit each of Breads, Ice Creams, and Aerated Drinks. This specific combination of categories was not supported by the supplied category pair evidence, which focuses on combinations involving CurdYogurt, Vegetables, Milk, and SavouriesNamkeens. The order reflects a single observation of purchasing staple bread alongside dessert and beverage items. The combination is compatible with a need for a quick evening snack or dessert, or a simple meal component with a drink. This inference is based on a single order on one independent date. No durable preference or routine can be established from this window alone. Confidence is low.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -11,14 +11,23 @@
         "Ice Creams",
         "Aerated Drinks"
       ],
-      "combination_text": "Breads, Ice Creams, and Aerated Drinks were purchased together in a single transaction.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Breads, Ice Creams, and Aerated Drinks",
+      "support": 0.0,
+      "lift": 0.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Breads alongside Ice Creams and Aerated Drinks is compatible with a need for a quick, ready-to-eat evening snack or dessert, potentially involving bread-based items paired with sweet and carbonated refreshments.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The category pair evidence provided does not contain pairs involving Ice Creams or Aerated Drinks, so no lift or support metrics are available for the specific combination purchased.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of bread, ice cream, and aerated drinks is compatible with a need for a quick evening snack or dessert, or a simple meal component with a drink.",
+  "uncertainty_text": "This inference is based on a single order on one independent date. No durable preference or routine can be established from this window alone. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T21:23:36",
+    "last_seen_at": "2026-04-30T21:23:36"
+  }
 }

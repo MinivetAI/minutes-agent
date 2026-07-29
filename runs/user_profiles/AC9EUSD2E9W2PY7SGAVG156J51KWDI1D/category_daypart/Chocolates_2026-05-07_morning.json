@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 3 units of Nestl\u00e9 MUNCH Max Coated Crunchy Wafer Bar (38.5 g) in the Chocolates category during a weekday morning session.",
+  "summary_text": "One order of 3 Nestlé MUNCH Max Coated Crunchy Wafer Bars (38.5 g each) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a single-serve coated wafer bar, typically used for immediate sweet snacking, break-time treats, or quick indulgence rather than planned dessert consumption.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty for Nestl\u00e9 or wafer bars. The specific motivation for this purchase (e.g., immediate craving vs. stocking up) is not established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchases are less common than the population baseline (morning share 0.3246). The products are single-serve coated wafer bars, typically used for immediate sweet snacking or quick breaks.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or morning timing. No other orders are available to confirm if this is a routine or an isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

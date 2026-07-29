@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased one 500 g pouch of Surf Excel Easy Wash Detergent Powder on a weekday morning. This compact pack size suggests a short-refill cycle or urgent top-up need, suitable for same-day wash loads or quick refreshes of school/office clothes. The order occurred during a time when 32.46% of the population is active. As this is a single observed order on one date, durable brand preference or routine buying patterns cannot be established. The specific reason for choosing the 500 g pack over larger formats (e.g., stockout, travel, small household) is not confirmed.",
+  "summary_text": "In June 2026, the user purchased Surf Excel Easy Wash Detergent Powder 500 g on a weekday morning. This timing aligns with the population baseline where morning shares (0.3246) are the highest among dayparts. The product is a compact 500 g hand-wash detergent, typically used for urgent laundry needs, quick refreshes, or short-term stock replenishment. This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time urgent need, or part of a broader brand preference. No other products or brands were observed in this window.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine buying patterns cannot be established. The specific reason for choosing the 500 g pack over larger formats (e.g., stockout, travel, small household) is not confirmed.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time urgent need, or part of a broader brand preference. No other products or brands were observed in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

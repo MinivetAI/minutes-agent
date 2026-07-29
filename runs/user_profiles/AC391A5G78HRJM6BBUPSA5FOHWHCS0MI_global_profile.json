@@ -1,299 +1,51 @@
 {
-  "profile_text": "The user maintains a high-confidence, stable preference for Parag Toned Milk (500 ml) and Amul Taaza Pasteurised Toned Milk (500 ml), with a fast replenishment cadence (every 4 days) and a tendency to purchase in the evening on weekdays. In Other Cooking Oil, the user exhibits a high-confidence, stable preference for Dhara Kachi Ghani Mustard Oil, replenishing slowly (every 25 days). For Washing Bar, the user shows a high-confidence preference for Surf excel Detergent Bar 250 g, with a slow replenishment cycle (every 27 days) and flexible timing across dayparts. The user has a high-confidence, stable preference for Tender Coconut (fresh whole fruit), buying 2 units per order with a fast cadence (every 2.5 days), recently shifting to morning weekday purchases. In Washing Powder, the user consistently selects Tide Naturals Lemon & Chandan Detergent Powder (1–3 kg packs) with a slow replenishment cycle (every 27 days) and flexible timing. Ghee purchases are stable but brand-flexible (Gyan, Mother Dairy) with a slow cadence (every 52 days). The user has a high-confidence, stable preference for fresh loose potatoes (400–450g) with a fast replenishment cadence (every 4 days). Cookies Biscuits show a medium-confidence stable preference for Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies, with a slow cadence (every 24 days). Spices Masala is purchased with medium confidence on a medium cadence (every 14.5 days), involving multiple brands (Everest, Zoff, Maggi, Goldiee) without single-brand loyalty. Toothpaste shows a medium-confidence stable preference for Colgate with a slow cadence (every 78 days). Shampoo has a medium-confidence stable preference for L'Oréal Paris with a slow cadence (every 53.5 days). Sugar is purchased with medium confidence on a slow cadence (every 55.5 days). Rava Sooji, Soap, Buttermilk, and Flour show low-confidence patterns with unknown cadences. Single-observation categories include Other Pulses, Besan, Jaggery, Poha, Curd Yogurt, Salt, Aluminium Foil And Shrink Wrap, Sanitary Pad, Candies Mouth Fresheners, Eggs, Condom, Chocolates, Chips, Toilet Cleaner, Bathroom Floor Cleaner, Tea, Honey, Face Cream And Gel, Conditioner, Bluetooth Headset, Facewash, Handwash, and Toothbrush.",
-  "category_preference_text": "Milk: High-confidence stable preference for Parag Toned Milk 500 ml (6 independent dates) and Amul Taaza Pasteurised Toned Milk 500 ml (2 independent dates). Fast replenishment (4 days). Evening/weekday dominant. Other Cooking Oil: High-confidence stable preference for Dhara Kachi Ghani Mustard Oil (4 independent dates). Slow replenishment (25 days). Washing Bar: High-confidence stable preference for Surf excel Detergent Bar 250 g (4 independent dates). Slow replenishment (27 days). Flexible dayparts. Fruits: High-confidence stable preference for Tender Coconut (5 independent dates). Fast replenishment (2.5 days). Recent shift to morning weekday purchases. Washing Powder: High-confidence stable preference for Tide Naturals Lemon & Chandan Detergent Powder (5 independent dates). Slow replenishment (27 days). Flexible dayparts. Ghee: Medium-confidence stable preference for Gyan (2 dates) and low-confidence for Mother Dairy (1 date). Slow replenishment (52 days). Vegetables: High-confidence stable preference for fresh loose potatoes (400–450g) (5 independent dates). Fast replenishment (4 days). Flexible dayparts. Cookies Biscuits: Medium-confidence stable preference for Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies (2 independent dates). Slow replenishment (24 days). Spices Masala: Medium-confidence, broad brand usage (Everest, Zoff, Maggi, Goldiee) with no single brand loyalty. Medium replenishment (14.5 days). Toothpaste: Medium-confidence stable preference for Colgate (3 independent dates). Slow replenishment (78 days). Shampoo: Medium-confidence stable preference for L'Oréal Paris (2 independent dates). Slow replenishment (53.5 days). Sugar: Medium-confidence, flexible pack sizes. Slow replenishment (55.5 days). Rava Sooji: Low-confidence, medium-confidence brand preference for Rajdhani Select (2 dates). Cadence unknown. Soap: Low-confidence, medium-confidence brand preference for Cinthol (2 dates). Cadence unknown. Buttermilk: Low-confidence, evening weekday purchases. Cadence unknown. Flour: Low-confidence, weekend purchases. Cadence unknown. Other categories (Other Pulses, Besan, Jaggery, Poha, Curd Yogurt, Salt, Aluminium Foil And Shrink Wrap, Sanitary Pad, Candies Mouth Fresheners, Eggs, Condom, Chocolates, Chips, Toilet Cleaner, Bathroom Floor Cleaner, Tea, Honey, Face Cream And Gel, Conditioner, Bluetooth Headset, Facewash, Handwash, Toothbrush) are single-observation or low-confidence with unknown cadences.",
-  "coverage_text": "This profile covers all of the user's categories.",
-  "basket_context_text": "Baskets are typically narrow (1–4 categories). Milk and Vegetables or Fruits appear together occasionally but not as a stable, repeated pattern. Household cleaning and personal care items appear in separate or mixed orders without consistent co-occurrence patterns.",
-  "replenishment_summary_text": "The user exhibits a fast replenishment cadence for Milk (4 days) and Fruits (2.5 days). Other categories show slow replenishment: Other Cooking Oil (25 days), Washing Bar (27 days), Washing Powder (27 days), Cookies Biscuits (24 days), Ghee (52 days), Toothpaste (78 days), Shampoo (53.5 days), and Sugar (55.5 days). Spices Masala has a medium replenishment cadence (14.5 days). Rava Sooji, Soap, Buttermilk, Flour, and all single-observation categories have unknown cadence classes.",
-  "structured_signals": [
+  "summary_text": "This shopper is a routine-driven household purchaser anchored by a high-confidence, recurring combination of Milk, Vegetables, Spices Masala, and Cookies Biscuits, particularly evident in April 2026. The user demonstrates stable brand loyalty in specific categories, most notably Dhara Kachi Ghani mustard oil and Sunfeast Mom's Magic cookies, while exhibiting flexible, need-based purchasing for personal care, cleaning supplies, and other staples where no single brand dominates. The profile reflects a mix of durable meal-prep habits and sporadic replenishment of non-food items, with no consistent daypart or day-type routine established across the broader category set.",
+  "daypart_understanding": [],
+  "basket_understanding": [
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Milk",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Fast replenishment cadence (4 days) supported by 10 independent dates."
+      "relationship_text": "Milk and Vegetables are consistently purchased together, appearing in every order across five independent dates in April 2026.",
+      "recommendation_use_text": "Suggest Vegetables when Milk is in the basket, and vice versa, as this is a high-confidence staple combination.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Fruits",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Fast replenishment cadence (2.5 days) supported by 5 independent dates."
+      "relationship_text": "Spices Masala and Vegetables were purchased together in four out of five orders in April 2026.",
+      "recommendation_use_text": "Suggest Spices Masala when Vegetables are in the basket, as this is a high-confidence cooking pair.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Other Cooking Oil",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (25 days) supported by 7 independent dates."
+      "relationship_text": "Cookies Biscuits and Milk were purchased together in three orders in April 2026.",
+      "recommendation_use_text": "Suggest Cookies Biscuits when Milk is in the basket, as this is a high-confidence snack/dairy pair.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Washing Bar",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (27 days) supported by 5 independent dates."
+      "relationship_text": "Spices Masala and Milk were purchased together in three orders in April 2026.",
+      "recommendation_use_text": "Suggest Spices Masala when Milk is in the basket, as this is a high-confidence combination.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Washing Powder",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (27 days) supported by 5 independent dates."
+      "relationship_text": "Cookies Biscuits and Spices Masala were purchased together in three orders in April 2026.",
+      "recommendation_use_text": "Suggest Spices Masala when Cookies Biscuits are in the basket, as this is a high-confidence combination.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Ghee",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (52 days) supported by 3 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Vegetables",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "Fast replenishment cadence (4 days) supported by 5 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Cookies Biscuits",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (24 days) supported by 7 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Spices Masala",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "Medium replenishment cadence (14.5 days) supported by 5 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Toothpaste",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (78 days) supported by 3 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Shampoo",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (53.5 days) supported by 3 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Sugar",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "Slow replenishment cadence (55.5 days) supported by 2 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Rava Sooji",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Soap",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Buttermilk",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Flour",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Other Pulses",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Besan",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Jaggery",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Poha",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Curd Yogurt",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Salt",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Aluminium Foil And Shrink Wrap",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Sanitary Pad",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Candies Mouth Fresheners",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Eggs",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Condom",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chocolates",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chips",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Toilet Cleaner",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Bathroom Floor Cleaner",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Tea",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Honey",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Face Cream And Gel",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Conditioner",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Bluetooth Headset",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Facewash",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Handwash",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Toothbrush",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Cadence class is unknown based on supplied evidence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Milk and Vegetables",
-      "confidence": "low",
-      "source": "basket_profile",
-      "rationale_text": "Milk and Vegetables appear together in multiple orders, but not enough independent dates to establish a stable, recurring pattern."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Milk and Fruits",
-      "confidence": "low",
-      "source": "basket_profile",
-      "rationale_text": "Milk and Fruits appear together in two specific instances, but not enough independent dates to establish a stable, recurring pattern."
+      "relationship_text": "Fruits and Milk were purchased together on two independent dates in May 2026.",
+      "recommendation_use_text": "Suggest Fruits when Milk is in the basket, as this is a medium-confidence fresh food pair.",
+      "confidence": "medium"
     }
   ],
-  "mission_generation_text": "The user has needs for basic grocery staples, including dairy, fresh produce, and cooking ingredients (flour, oil, spices), as well as household cleaning supplies and personal care items. Occasional needs for snacks (cookies) and specific single items (oral care, condoms) are also observed. These needs are compatible with the observed orders but are not established as stable or recurring requirements.",
-  "uncertainty_text": "This analysis is based on 26 independent orders across seven months. While certain items (Milk, Vegetables, Flour, Oil) appear frequently, they do not co-occur in the same basket across multiple independent dates in a way that establishes a stable pattern. No daypart, day-type, or category combination behavior is repeated across independent dates. Therefore, no durable preferences, routine behaviors, or stable patterns can be inferred. The presence of Unmapped categories (CND, TPS, GHE, AFS, SPP, CMF) limits specific intent inference for some items. Overall confidence is low for all inferred behaviors.",
-  "overall_confidence": "low"
+  "shopping_style": {
+    "frequency_segment": "occasional",
+    "basket_size_segment": null,
+    "brand_loyalty_level": null,
+    "substitution_tolerance_level": null,
+    "large_basket_tendency": null,
+    "multi_quantity_tendency": null,
+    "deal_seeking": null,
+    "price_sensitivity": null
+  },
+  "uncertainty_text": "Stable preferences for specific brands in personal care (e.g., toothpaste, shampoo, facewash), cleaning supplies (e.g., washing powder, toilet cleaner), and many cooking staples (e.g., sugar, ghee, flour) are unknown due to lack of repetition across independent dates. The user's daypart and day-type behaviors are distributed without a dominant routine, making specific timing-based recommendations uncertain. While Milk is a frequent anchor, its specific role (e.g., breakfast vs. cooking) is not definitively established beyond its co-occurrence with other categories. Pack size preferences beyond observed instances are not established for most categories.",
+  "retrieval_text": "The user exhibits a strong, high-confidence routine of purchasing Milk alongside Vegetables, Spices Masala, and Cookies Biscuits, with these categories co-occurring across five independent dates in April 2026. A medium-confidence pattern links Milk with Fruits, observed on two independent dates in May 2026. Brand loyalty is stable and high-confidence for Dhara Kachi Ghani mustard oil (purchased on three independent dates in February 2026) and medium-confidence for Sunfeast Mom's Magic cookies (purchased on two independent dates in July 2026). Other categories show flexible or single-observation purchasing: Surf Excel washing bars appear across multiple months but lack a single dominant routine; Amul milk and Tide Naturals detergent powder show medium-confidence brand preference based on limited repetition; Colgate toothpaste, L'Oréal hair care, and Cinthol soap appear across multiple months but with varying variants and no consistent timing or brand repetition sufficient for high confidence. Many categories including sugar, ghee, flour, pulses, and personal care items remain low-confidence or single-observation, indicating need-based rather than habitual purchasing. No consistent daypart or day-type routine is established across the full category set.",
+  "user_id": "AC391A5G78HRJM6BBUPSA5FOHWHCS0MI",
+  "profile_type": "global",
+  "updated_at": "2026-07-29T05:13:48.621650"
 }

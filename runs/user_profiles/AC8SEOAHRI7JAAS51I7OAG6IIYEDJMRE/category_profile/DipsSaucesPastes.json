@@ -1,40 +1,40 @@
 {
-  "category": "Dips Sauces Pastes",
-  "profile_text": "The user demonstrates a stable preference for VEEBA brand ketchup, evidenced by purchases on two independent dates in March 2026. A single recent order of Maggi Rich Tomato Ketchup was observed in July 2026, but this isolated event does not establish a durable brand preference or routine. The user exhibits a slow replenishment cadence, with purchases spaced approximately 54 days apart.",
-  "brand_preferences": [
+  "category_name": "Dips Sauces Pastes",
+  "summary_text": "The user has demonstrated a stable preference for Veeba brand ketchup in March 2026, purchasing Veeba Tomato Chef’s Special Ketchup (900 g) on two independent dates. In July 2026, a single observation of Maggi Rich Tomato Ketchup (960 g) was recorded. The user shops primarily in the morning for Veeba products, aligning with population baselines, while the Maggi purchase occurred in the evening.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Veeba",
+        "preference_text": "Stable preference for Veeba brand ketchup, evidenced by purchases on two independent dates in March 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Veeba brand within the ketchup sub-category and does not extend to other dips, sauces, or pastes."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "VEEBA",
-      "preference_text": "Stable preference for VEEBA, evidenced by purchases on 2 independent dates in March 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for VEEBA Tomato Chef’s Special Ketchup, evidenced by purchases on 2 independent dates in March 2026.",
-      "examples": [],
+      "daypart": "morning",
+      "behavior_text": "Purchases of Veeba ketchup occurred in the morning, consistent with the population baseline for this category.",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "Veeba and Maggi are both tomato ketchup products; the user has shown stable preference for Veeba but has also purchased Maggi, suggesting potential openness to alternative ketchup brands, though Veeba remains the primary observed preference.",
+  "uncertainty_text": "Preference for Maggi is based on a single observation and cannot be confirmed as a stable habit. The user's broader preferences for other dips, sauces, or pastes beyond ketchup are unknown. Long-term stability beyond March 2026 is not established.",
+  "retrieval_text": "User exhibits a medium-confidence stable preference for Veeba brand ketchup, specifically Veeba Tomato Chef’s Special Ketchup (900 g), evidenced by purchases on two independent dates in March 2026. Shopping for this brand occurs in the morning, aligning with population baselines. A single, low-confidence observation of Maggi Rich Tomato Ketchup (960 g) was recorded in July 2026 during the evening, indicating potential but unconfirmed openness to alternative ketchup brands. No stable preferences are established for other dips, sauces, or pastes.",
   "replenishment": {
     "cadence_days": 54.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-13",
     "predicted_next_purchase_date": "2026-09-05",
-    "replenishment_text": "The user typically repurchases this category every 54 days, classified as a slow cadence.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "DipsSaucesPastes is reordered roughly every 54 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions for both VEEBA and Maggi products.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior is established; observed items include a large-format household condiment (960 g).",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior is observed. The single July 2026 purchase of Maggi does not override the stable VEEBA preference but indicates openness to other brands in the category.",
-  "mission_generation_text": "Restocking household condiments for snacks and meals, with a primary reliance on VEEBA brand ketchup and occasional substitution or variety seeking with other brands like Maggi.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-03-27T08:20:23",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

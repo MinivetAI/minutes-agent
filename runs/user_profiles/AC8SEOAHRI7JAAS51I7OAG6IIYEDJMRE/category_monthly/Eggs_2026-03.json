@@ -1,19 +1,19 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased eggs on two independent dates: a 6-unit pack of Hen Fruit white chicken eggs on a weekday morning (2026-03-02) and Hen Fruit Protein Max White Eggs (6 Units) on a weekend morning (2026-03-29). Both orders occurred during the morning daypart, which aligns with the user's typical morning activity volume (32.46% of weekly volume). The user consistently buys 6-unit packs of Hen Fruit brand eggs, indicating a stable preference for this brand and pack size across both weekday and weekend contexts.",
+  "summary_text": "In March 2026, the user ordered Hen Fruit Protein Max White Eggs (6 Units) on two independent dates: a weekday morning (2026-03-02) and a weekend morning (2026-03-29). The recurrence of this specific brand and pack size across two dates supports a stable preference claim. The user consistently shops for eggs in the morning, a daypart where their activity is below the population baseline (32.46%) on weekdays but aligns with the population baseline on weekends. No other egg brands or variants were observed in this month.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Hen Fruit",
-      "claim_text": "The user purchased Hen Fruit brand eggs on two independent dates in March 2026 (2026-03-02 and 2026-03-29), establishing a stable preference for this brand.",
+      "claim_text": "The user has a stable preference for Hen Fruit eggs, evidenced by orders on 2026-03-02 and 2026-03-29.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
-      "dimension": "pack_size",
-      "value": "6-unit pack",
-      "claim_text": "The user purchased 6-unit packs of eggs on two independent dates in March 2026, establishing a stable preference for this pack size.",
+      "dimension": "product",
+      "value": "Hen Fruit Protein Max White Eggs (6 Units)",
+      "claim_text": "The user has a stable preference for Hen Fruit Protein Max White Eggs in 6-unit packs, evidenced by orders on 2026-03-02 and 2026-03-29.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user's egg purchasing behavior is limited to two dates in March 2026. While the brand and pack size are stable across these dates, the limited sample size prevents high-confidence assertions about long-term routine or specific product variant preferences (e.g., 'Protein Max' vs. standard white eggs).",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two independent orders in March 2026. While the brand and product variant show stable preference, the sample size is limited to this single month.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-02",
+      "2026-03-29"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-29T09:00:25"
+  }
 }

@@ -1,40 +1,34 @@
 {
-  "category": "Salt",
-  "profile_text": "In March 2026, the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt on a weekday afternoon. This standard household iodized table salt is intended for everyday cooking and seasoning. The order occurred during a lower-population daypart (0.2526) compared to morning (0.3246) and evening (0.3027) peaks. This single observed order does not establish a stable, recurring preference or routine for this specific brand or product type.",
-  "brand_preferences": [
-    {
-      "brand": "Tata Salt",
-      "preference_text": "Tata Salt was observed in one order in March 2026. This single observation does not establish a stable, recurring preference or routine for this brand.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Tata Salt Free Flowing Iodised Salt (1 kg pack) was observed in one order in March 2026. This single observation does not establish a stable, recurring preference or routine for this product.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Salt",
+  "summary_text": "In March 2026, the user ordered Tata Salt Free Flowing Iodised Salt 1 kg on one weekday (2026-03-24) in the afternoon. This timing aligns with the population baseline for afternoon purchases (0.2526), which is less common than morning (0.3246) or evening (0.3027) baselines. As this is a single observation, no stable preference or routine is established for this brand or product variant.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Tata Salt",
+        "preference_text": "Tata Salt Free Flowing Iodised Salt 1 kg",
+        "confidence": "low",
+        "boundary_text": "Preference is limited to the specific Free Flowing Iodised variant and 1 kg pack size observed; does not extend to other Tata Salt products or brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available; single observation does not establish acceptable alternatives or boundaries.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for this brand or a one-time replenishment need. No other brands, variants, or daypart patterns have been observed to establish routine or stability.",
+  "retrieval_text": "User ordered Tata Salt Free Flowing Iodised Salt 1 kg on 2026-03-24 in the afternoon, a single observation with low confidence; no stable brand preference, variant routine, or substitution pattern established beyond this specific product instance.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-24",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict the next purchase date.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Salt yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Supports everyday cooking and seasoning needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-24T12:26:50",
+    "last_seen_at": "2026-03-24T12:26:50"
+  }
 }

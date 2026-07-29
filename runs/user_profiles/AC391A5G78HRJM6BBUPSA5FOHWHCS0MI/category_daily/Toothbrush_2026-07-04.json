@@ -1,9 +1,23 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), the user purchased one pack of three SENSODYNE Sensitive Soft toothbrushes during the afternoon. This single observation reflects a utility-first need for oral care replacement or restocking, ordered during a time when population share is lower than morning or evening peaks. No stable preferences or routine behaviors can be inferred from this single date.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user placed one order for Sensodyne Sensitive Soft Toothbrush Pack of 3 (1 unit) during the afternoon. This timing aligns with the user's typical afternoon activity levels, which are comparable to the population baseline, rather than the less frequent morning or evening windows. The purchase reflects a utility-first need for oral care replacement or stocking, consistent with the product's design for gentle cleaning and routine maintenance. This is a single observation on one date; it does not establish a stable preference for the SENSODYNE brand, the specific soft-bristle variant, or the pack-of-3 format. It is unclear if this represents a one-time need or the start of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Sensodyne Sensitive Soft Toothbrush Pack of 3 (1 unit) placed on a weekend afternoon. This timing aligns with the user's typical afternoon activity levels, which are comparable to the population baseline, rather than the less frequent morning or evening windows. The purchase reflects a utility-first need for oral care replacement or stocking, consistent with the product's design for gentle cleaning and routine maintenance. This is a single observation on one date; it does not establish a stable preference for the SENSODYNE brand, the specific soft-bristle variant, or the pack-of-3 format. It is unclear if this represents a one-time need or the start of a recurring habit.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation does not establish stable preferences or routine behavior.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the SENSODYNE brand, the specific soft-bristle variant, or the pack-of-3 format. It is unclear if this represents a one-time need or the start of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:46:46",
+    "last_seen_at": "2026-07-04T11:46:46"
+  }
 }

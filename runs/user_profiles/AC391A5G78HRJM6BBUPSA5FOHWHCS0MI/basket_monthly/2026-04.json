@@ -1,12 +1,120 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, five independent orders were placed across weekdays and weekends, primarily in the evening and morning dayparts. The baskets consistently included Milk and Vegetables, often alongside Spices Masala, indicating a recurring need for basic meal preparation ingredients. Additional items varied by order, including baking staples (Flour), household cleaning supplies (Washing Bar, Washing Powder, Soap), personal care items (Condom, Soap), and snacks (Cookies Biscuits). No durable, repeated daypart behavior or stable basket-building patterns were established due to the lack of repetition across independent dates for specific category combinations beyond the frequent co-occurrence of Milk and Vegetables. Abandoned cart patterns were not observed.",
+  "summary_text": "Across five independent dates in April 2026, the user placed orders on two weekends and three weekdays. Orders occurred in the morning, evening, and night dayparts. The basket consistently included Milk and Vegetables, appearing in all five orders. Spices Masala and Vegetables appeared together in four orders. Cookies Biscuits and Milk appeared together in three orders. Spices Masala and Milk appeared together in three orders. Cookies Biscuits and Spices Masala appeared together in three orders. Washing Bar and Washing Powder appeared together in one order. The user also purchased Rava Sooji, Sanitary Pads, Eggs, Other Cooking Oil, and personal care items (Condom, Soap) on specific dates. Due to the variety of dayparts and the single-observation nature of most category combinations, no stable daily routine or high-confidence preference is established, though the Milk-Vegetables pair shows consistent co-occurrence.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in every order across the month.",
+      "support": 0.172,
+      "lift": 2.417,
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "categories": [
+        "Spices Masala",
+        "Vegetables"
+      ],
+      "combination_text": "Spices Masala and Vegetables were purchased together in four orders.",
+      "support": 0.103,
+      "lift": 2.9,
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Milk"
+      ],
+      "combination_text": "Cookies Biscuits and Milk were purchased together in three orders.",
+      "support": 0.138,
+      "lift": 1.657,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Spices Masala",
+        "Milk"
+      ],
+      "combination_text": "Spices Masala and Milk were purchased together in three orders.",
+      "support": 0.103,
+      "lift": 1.74,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Spices Masala"
+      ],
+      "combination_text": "Cookies Biscuits and Spices Masala were purchased together in three orders.",
+      "support": 0.103,
+      "lift": 2.486,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Washing Bar",
+        "Washing Powder"
+      ],
+      "combination_text": "Washing Bar and Washing Powder were purchased together in one order.",
+      "support": 0.172,
+      "lift": 5.8,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Washing Bar"
+      ],
+      "combination_text": "Cookies Biscuits and Washing Bar were purchased together in one order.",
+      "support": 0.103,
+      "lift": 2.486,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Washing Powder"
+      ],
+      "combination_text": "Cookies Biscuits and Washing Powder were purchased together in one order.",
+      "support": 0.103,
+      "lift": 2.486,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
   "trend_claims": [],
-  "shopping_need_text": "The user has a need for basic grocery staples, specifically dairy and fresh produce, for meal preparation. Additional needs include household cleaning, personal care, and occasional snacks or baking ingredients.",
-  "uncertainty_text": "This analysis is based on five independent orders. While Milk and Vegetables appear together in multiple orders, this does not constitute a stable, recurring preference pattern requiring the use of terms like 'routine' or 'stable' without further evidence of consistent behavior across more dates or specific dayparts. The Unmapped-AFS, Unmapped-SPP, and Unmapped-CMF categories lack specific product identification, limiting precise intent inference. No abandoned carts were recorded across any daypart.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user demonstrates a consistent need for basic meal preparation ingredients (Milk, Vegetables, Spices Masala, Eggs, Rava Sooji, Cooking Oil) and occasional household cleaning supplies (Washing Bar, Washing Powder) and personal care items (Sanitary Pads, Condom, Soap).",
+  "uncertainty_text": "While the Milk-Vegetables combination is observed on all five independent dates, the variety of other items and the spread of dayparts (morning, evening, night) and day types (weekday, weekend) suggest that specific routines are not yet established for non-food categories or specific meal types. Confidence in the Milk-Vegetables relationship is high due to repetition; confidence in other patterns is lower due to fewer independent date supports.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-04-05",
+      "2026-04-10",
+      "2026-04-12",
+      "2026-04-16",
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

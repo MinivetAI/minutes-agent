@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "One order of Chips (Product: CHPHK5F28WGW2UNS, Quantity: 1) was placed in the afternoon.",
+  "summary_text": "One order of Chips (Product: CHPHK5F28WGW2UNS, Quantity: 1) placed on 2026-06-07.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a snack item.",
-  "uncertainty_text": "This is a single observation on one date; no stable preferences or routine behaviors can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, slightly lower than the morning (32.46%) and evening (30.27%) peaks. The product is a snack item, typically consumed as a casual food.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference, a routine, or an isolated purchase. No brand preference can be established as no brand data is provided for this product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-07"
+    ],
+    "first_seen_at": "2026-06-07T12:10:26",
+    "last_seen_at": "2026-06-07T12:10:26"
+  }
 }

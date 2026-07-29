@@ -1,11 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-07-09 (morning, weekday) contained one item: AIREJ6WHFJBSHHMR (Car Air Freshener). The basket breadth is narrow, consisting of a single product category (Car Air Freshener). No other categories were purchased in this order. The `shopping_need_text` is compatible with vehicle maintenance or interior freshness but does not imply hidden intent beyond the product's function. As this is a single observation, no durable behavior patterns or stable preferences are inferred.",
+  "basket_summary_text": "A single order placed on 2026-07-09 (morning, weekday) containing one unit of AIREJ6WHFJBSHHMR (Car Air Freshener). This is an isolated observation with no other products in the basket. No category combinations are supported by this specific order. The `category_pair_evidence` supplied describes associations between categories like Breads, Vegetables, and Milk, but these categories were not present in this order; therefore, no lift/support numbers from that evidence apply to this basket. The order-building behavior is a single-item purchase.",
   "behavior_patterns": [],
   "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Vehicle interior maintenance or freshness.",
-  "uncertainty_text": "This analysis is based on a single order from one independent date. Confidence in any inferred user behavior is low. No repeated patterns, routines, or stable preferences can be established from this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of a car air freshener is compatible with a need to improve or maintain the scent of a vehicle interior.",
+  "uncertainty_text": "This is a single observation on one independent date. No durable preferences, routines, or category affinities can be inferred. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T08:13:52",
+    "last_seen_at": "2026-07-09T08:13:52"
+  }
 }

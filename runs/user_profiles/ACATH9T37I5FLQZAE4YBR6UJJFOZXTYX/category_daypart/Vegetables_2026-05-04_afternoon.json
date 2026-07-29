@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Unbranded Onion (400–450 g) placed in the afternoon on a weekday.",
+  "summary_text": "One order of Unbranded Onion (400–450 g) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking.",
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date; no repeated behavior or browsing history is available to establish a stable preference or routine.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a time when this category is purchased less frequently than the population baseline morning (0.3246) or evening (0.3027) peaks, though still above the night share (0.1202). The product is a fresh, unbranded kitchen staple typically used as a base ingredient for cooking.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, regular cadence, or specific meal context for this user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T13:09:05",
+    "last_seen_at": "2026-05-04T13:09:05"
+  }
 }

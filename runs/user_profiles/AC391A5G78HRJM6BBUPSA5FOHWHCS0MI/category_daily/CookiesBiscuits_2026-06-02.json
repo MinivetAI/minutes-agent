@@ -1,15 +1,17 @@
 {
   "date": "2026-06-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-02 (weekday), the user purchased one 486 g pack of Cremica Jeera Lite Sweet & Salty Biscuit during the evening. This timing aligns with the population baseline share of 0.3027 for evening purchases. The product is a value-oriented, cumin-flavoured salted tea biscuit, compatible with immediate tea-time stocking, quick snacking, or household top-ups. This is a single observed order; durable preferences, routine buying patterns, or specific motivations cannot be established from this evidence alone.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased one 486 g pack of Cremica Jeera Lite Sweet & Salty Biscuit during the evening on a weekday.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-06-02 (weekday), the user ordered Cremica Jeera Lite Sweet & Salty Biscuit (486 g) in the evening. This single observation aligns with the population baseline, where evening activity accounts for 30.27% of orders. The product is a value-oriented, cumin-flavoured salted biscuit, typically used for tea-time snacking or household stocking. This is a single observation on one date; it does not establish a stable brand preference, recurring purchase routine, or consistent daypart habit. It is unclear if this is a one-time trial, a replacement purchase, or part of a broader pattern.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences, routine buying patterns, or specific motivations (e.g., guest hosting vs. personal snacking) cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring purchase routine, or consistent daypart habit. It is unclear if this is a one-time trial, a replacement purchase, or part of a broader pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased milk products on one observed date (2026-06-17). The order included six single-serve flavored milkshakes (180 ml) from HERSHEY'S (Cookies N Creme, Vanilla, Chocolate, Strawberry, Almond) and one Cavin's Kaju Butterscotch Milkshake, alongside one 410 ml pack of Parag Super Regular pasteurized milk. The purchase occurred in the evening on a weekday. Because this is a single observed order, durable brand or flavor preferences cannot be established.",
+  "summary_text": "One order of seven ready-to-drink dairy items: four HERSHEY'S milkshakes (Cookies N Creme, Vanilla, Chocolate, Strawberry, Almond), one Cavin's Kaju Butterscotch Milkshake, and one Parag Super Regular Milk. Ordered in the evening on a weekday. The mix of single-serve indulgent milkshakes and a small-format regular milk suggests a combination of immediate sweet cravings and a quick household dairy top-up.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established. It is unclear whether the mix of flavored shakes and plain milk reflects a household with varied needs or a single indulgent occasion.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T17:01:04",
+    "last_seen_at": "2026-06-17T17:01:04"
+  }
 }

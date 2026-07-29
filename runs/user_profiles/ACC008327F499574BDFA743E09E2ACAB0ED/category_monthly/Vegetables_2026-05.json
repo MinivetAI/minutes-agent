@@ -1,27 +1,27 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased fresh vegetables across six independent dates, primarily on weekdays. The basket consistently included base cooking ingredients such as onions, tomatoes, potatoes, and aromatics like ginger and coriander, alongside specific fresh produce items. While no single brand or specific product variant appeared on two or more independent dates to establish a stable brand preference, the user demonstrated a recurring pattern of purchasing fresh, unbranded vegetables suitable for immediate meal preparation. The user also purchased Chilli Bajji on two separate dates, indicating a repeated interest in this ready-to-eat snack item within the vegetable category context.",
-  "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "Chilli Bajji (250 g)",
-      "claim_text": "The user purchased Chilli Bajji (250 g) on two independent dates (2026-05-05 and 2026-05-08). This repetition supports a medium-confidence stable preference for this ready-to-eat snack item.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
+  "summary_text": "In May 2026, the user placed six independent orders of vegetables, primarily on weekdays. The basket composition varied significantly across dates, ranging from basic cooking staples (onions, tomatoes, potatoes, ginger, coriander) to specific fresh produce items (bottle gourd, capsicum, lady’s finger, cabbage, cucumber) and ready-to-eat snacks (chilli bajji). No single brand, specific product variant, or daypart pattern recurs across two or more independent dates; therefore, no stable brand, product, or timing preferences can be established. The observed items are consistent with immediate meal preparation needs.",
+  "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased fresh bell peppers (red/yellow and green) on a single date (2026-05-27). This is a single observation and does not establish a stable preference or trend for bell peppers.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "The user purchased Lady’s Finger, Organic Cabbage, and English Cucumber on a single date (2026-05-28). This is a single observation and does not establish a stable preference for these specific items.",
+      "claim_text": "The user purchased fresh vegetables on six independent dates in May 2026, with no single product or brand appearing on more than one date.",
       "confidence": "low"
     }
   ],
-  "uncertainty_text": "No stable brand or product preferences can be established for fresh vegetables (e.g., bottle gourd, onions, tomatoes, potatoes, bell peppers, lady's finger) as each specific item or brand appeared on only one independent date. The user's intent for specific dishes is unknown. The purchase of Chilli Bajji is noted as a repeated item, but its role (snack vs. ingredient) is inferred from its description as a ready-to-eat snack.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This analysis is based on six single-date observations. No brand, product, or daypart preference has been established because no value recurs across multiple independent dates. The variety of items suggests flexible shopping behavior rather than a fixed routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 6,
+    "purchase_dates": [
+      "2026-05-01",
+      "2026-05-05",
+      "2026-05-08",
+      "2026-05-13",
+      "2026-05-27",
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-01T09:44:21",
+    "last_seen_at": "2026-05-28T20:47:05"
+  }
 }

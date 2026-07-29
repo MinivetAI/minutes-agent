@@ -1,93 +1,116 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20, a weekday, a single order was placed in the evening. The basket contained 10 items across 8 categories, reflecting a broad shopping need that included household cleaning supplies, food staples, and personal care. The user purchased 1 unit of Milk, 3 units of Washing Bar, 1 unit of Washing Powder, 1 unit of Soap, 1 unit of Vegetables, 1 unit of Condom, 2 units of Spices Masala, and 1 unit of Cookies Biscuits. This analysis is based on a single observed order on one date. Patterns such as category associations are observed only in this instance and do not indicate stable or recurring preferences.",
+  "summary_text": "On this weekday evening, a single order was placed containing household cleaning supplies, dairy, produce, snacks, and personal care items. The basket included one unit of milk, three washing bars, one washing powder, one soap, one vegetable item, one condom, two spice masala packs, and one cookies/biscuits item. This represents a single observation of product use compatible with general household maintenance and meal preparation needs.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "WashingBar",
-        "WashingPowder"
+        "Washing Bar",
+        "Washing Powder"
       ],
-      "combination_text": "Washing Bar and Washing Powder were purchased together in this order.",
+      "combination_text": "Washing Bar and Washing Powder were ordered together.",
       "support": 0.172,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were ordered together.",
       "support": 0.172,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "CookiesBiscuits",
+        "Cookies Biscuits",
         "Milk"
       ],
-      "combination_text": "Cookies Biscuits and Milk were purchased together in this order.",
+      "combination_text": "Cookies Biscuits and Milk were ordered together.",
       "support": 0.138,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Milk",
-        "SpicesMasala"
+        "Spices Masala"
       ],
-      "combination_text": "Milk and Spices Masala were purchased together in this order.",
+      "combination_text": "Milk and Spices Masala were ordered together.",
       "support": 0.103,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "SpicesMasala",
+        "Spices Masala",
         "Vegetables"
       ],
-      "combination_text": "Spices Masala and Vegetables were purchased together in this order.",
+      "combination_text": "Spices Masala and Vegetables were ordered together.",
       "support": 0.103,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "CookiesBiscuits",
-        "SpicesMasala"
+        "Cookies Biscuits",
+        "Spices Masala"
       ],
-      "combination_text": "Cookies Biscuits and Spices Masala were purchased together in this order.",
+      "combination_text": "Cookies Biscuits and Spices Masala were ordered together.",
       "support": 0.103,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "CookiesBiscuits",
-        "WashingBar"
+        "Cookies Biscuits",
+        "Washing Bar"
       ],
-      "combination_text": "Cookies Biscuits and Washing Bar were purchased together in this order.",
+      "combination_text": "Cookies Biscuits and Washing Bar were ordered together.",
       "support": 0.103,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "CookiesBiscuits",
-        "WashingPowder"
+        "Cookies Biscuits",
+        "Washing Powder"
       ],
-      "combination_text": "Cookies Biscuits and Washing Powder were purchased together in this order.",
+      "combination_text": "Cookies Biscuits and Washing Powder were ordered together.",
       "support": 0.103,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for household replenishment, covering cleaning agents (washing bars, powder, soap), food items (milk, vegetables, spices, cookies), and personal care (condoms).",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category associations are observed only in this instance and do not indicate stable or recurring preferences.",
-  "overall_confidence": "low"
+  "shopping_need_text": "General household replenishment including cleaning, food preparation, and personal care.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences or routine behaviors cannot be determined from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

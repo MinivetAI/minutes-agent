@@ -1,15 +1,23 @@
 {
   "date": "2026-03-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-16 (weekday), the user purchased one 19 g Nestl\u00e9 KitKat Choco Coated Wafer Bar during the evening. This timing aligns with a common period for this activity, with a population share of 0.3027. The product is a small, single-serve snack suitable for immediate consumption or impulse gratification. This is a single observed order and does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-03-16 (weekday), the user purchased one order of Nestlé KitKat Choco Coated Wafer Bars (19 g) in the Chocolates category during the evening. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning baseline (32.46%) and higher than afternoon (25.26%) or night (12.02%). The product is a single-serve, compact chocolate wafer bar, typically associated with immediate snacking or a quick sweet treat. This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific brand, product, or timing. No other orders are available to confirm repetition or routine.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 19 g Nestl\u00e9 KitKat Choco Coated Wafer Bar during the evening on a weekday. This timing aligns with a common period for this activity, with a population share of 0.3027. The product is a small, single-serve snack suitable for immediate consumption or impulse gratification.",
+      "pattern_text": "One order of Nestlé KitKat Choco Coated Wafer Bars (19 g) in the Chocolates category. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning baseline (32.46%) and higher than afternoon (25.26%) or night (12.02%). The product is a single-serve, compact chocolate wafer bar, typically associated with immediate snacking or a quick sweet treat.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific brand, product, or timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T16:39:47",
+    "last_seen_at": "2026-03-16T16:39:47"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50 PA++++ (30 g), a face sunscreen with brightening claims and a zero-white-cast finish.",
+  "summary_text": "One unit of Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50 PA++++ (30 g) was purchased on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the evening on a weekend, a time when population share is 0.3027 (comparable to morning's 0.3246). The product is a daily-use facial sun protection item, often purchased for immediate outdoor or commuting needs or as a refill.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or routine usage patterns cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening purchases (0.3027) are nearly as common as morning purchases (0.3246). The product is a face sunscreen with brightening claims, typically used for daily UV protection and cosmetic finish.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-05T19:34:40"
+  }
 }

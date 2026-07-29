@@ -1,40 +1,27 @@
 {
-  "category": "Sindoor",
-  "profile_text": "In July 2026, the user purchased one unit of Lotus Make-Up Divine Dew Herbal Sindoor (shade 21 Love Drop Red, 8 g) on a single weekday (2026-07-16) during the evening. This is a single observed order and does not establish a stable preference or recurring habit for this brand or product type.",
-  "brand_preferences": [
-    {
-      "brand": "Lotus Make-Up",
-      "preference_text": "The user purchased Lotus Make-Up Sindoor once on 2026-07-16. This single observation does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user purchased Lotus Make-Up Divine Dew Herbal Sindoor (shade 21 Love Drop Red, 8 g) once on 2026-07-16. This single observation does not establish a stable preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sindoor",
+  "summary_text": "Based on a single observation on 2026-07-16, the user purchased one unit of Lotus Make-Up Divine Dew Herbal Sindoor (8 g) in the evening. This is an isolated event; no stable brand, product, or routine preference can be established from this evidence alone.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are evident from this single observation.",
+  "uncertainty_text": "This category profile is based on a single order. It is unknown whether the user has a preferred brand, specific product variant, or regular purchasing cadence. The purchase may represent a one-time need, a trial, or the start of a habit, but this cannot be determined from the current evidence.",
+  "retrieval_text": "Single observed purchase of Lotus Make-Up Divine Dew Herbal Sindoor (8 g) on 2026-07-16 in the evening; insufficient evidence to establish brand preference, product variant stability, or recurring cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-16",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict the next purchase date.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Sindoor yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "The user completed a purchase for this category, indicating that interest in this category reliably becomes a purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Supports personal grooming and cultural ritual needs associated with sindoor application.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-07-16T18:39:03",
+    "last_seen_at": "2026-07-16T18:39:03"
+  }
 }

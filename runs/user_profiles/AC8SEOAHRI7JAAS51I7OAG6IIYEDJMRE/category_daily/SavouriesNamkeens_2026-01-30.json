@@ -1,15 +1,23 @@
 {
   "date": "2026-01-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-30 (weekday), one order of Haldiram's Boondi 200 g was placed in the afternoon. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "summary_text": "On this weekday, the user ordered Haldiram's Boondi 200 g (1 unit) in the afternoon. This timing aligns with a period of lower purchase frequency for this product compared to morning or evening windows. The item is a shelf-stable, ready-to-eat savoury staple, suggesting a need for a quick snack or pantry replenishment. This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product, or timing. The specific reason for the purchase (e.g., immediate consumption vs. stocking up) cannot be determined from order history alone.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Haldiram's Boondi 200 g was placed in the afternoon. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26%). The product is a shelf-stable, ready-to-eat savoury snack.",
+      "pattern_text": "One order of Haldiram's Boondi 200 g (1 unit) placed on a weekday afternoon. This timing aligns with a period of lower purchase frequency for this product compared to morning or evening windows. The item is a shelf-stable, ready-to-eat savoury staple, suggesting a need for a quick snack or pantry replenishment. This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product, or timing. The specific reason for the purchase (e.g., immediate consumption vs. stocking up) cannot be determined from order history alone.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product, or timing. The specific reason for the purchase (e.g., immediate consumption vs. stocking up) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T13:30:25",
+    "last_seen_at": "2026-01-30T13:30:25"
+  }
 }

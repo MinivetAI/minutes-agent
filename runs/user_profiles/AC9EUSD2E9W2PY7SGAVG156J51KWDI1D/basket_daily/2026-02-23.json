@@ -1,7 +1,7 @@
 {
   "date": "2026-02-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-23 during the evening weekday, a single order was placed containing four items: SCMFK8YZYZZMACFZ (Spices Masala), SATET96PTFPYSQWM (Salt), PTFFSFHZPJ9AHZGT (Paneer Tofu), and FLREU6Z6FZDGBF2H (Corn Flour). The basket exhibits narrow breadth, consisting of one unit each from four distinct categories. The combination of Spices Masala, Salt, Paneer Tofu, and Corn Flour is compatible with preparing a specific meal or dish, such as a paneer-based recipe requiring thickening and seasoning. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-02-23 (weekday), a single order was placed in the evening. The basket contained Spices Masala, Salt, Paneer Tofu, and Corn Flour. This combination suggests a need for ingredients to prepare a specific meal, likely involving a paneer-based dish requiring thickening or binding agents. No other orders are present in this window to establish a pattern.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -12,14 +12,23 @@
         "Paneer Tofu",
         "Corn Flour"
       ],
-      "combination_text": "Single order containing Spices Masala, Salt, Paneer Tofu, and Corn Flour.",
+      "combination_text": "Spices Masala, Salt, Paneer Tofu, and Corn Flour were ordered together.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchased items (Spices Masala, Salt, Paneer Tofu, and Corn Flour) are compatible with cooking a paneer dish that requires seasoning and thickening.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided relates to other categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, support/confidence/lift values are not applicable to this basket's internal combination.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Ingredients for cooking a meal, potentially a paneer dish requiring spices and a thickening agent like corn flour.",
+  "uncertainty_text": "This is a single observation from one date. No durable preferences, routines, or stable patterns can be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-02-23T19:01:08"
+  }
 }

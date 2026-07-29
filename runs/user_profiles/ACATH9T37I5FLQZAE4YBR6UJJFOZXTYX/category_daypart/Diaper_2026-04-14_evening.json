@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 4-piece pack of Pampers Premium Care Pants (Size M) and one 56-count pack of Pampers Complete Skin Comfort Pant Diapers (Size XL) during the evening.",
+  "summary_text": "One order of Pampers diapers (one 4-piece pack of size M pants and one 56-count pack of size XL pants) placed in the evening on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed during the evening, a time when the user's activity aligns with the population baseline (30.27% share). The purchase of two different sizes of pant-style diapers suggests a restocking or size-up event for a growing child, likely addressing immediate household needs or preparing for overnight use.",
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable, recurring preference or routine. The specific reason for choosing these two sizes simultaneously (e.g., managing a child in transition, stocking for multiple children, or replacing a stockout) is not established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are general-use baby care items typically needed for immediate hygiene or restocking.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, size requirements, or routine purchasing patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

@@ -1,22 +1,31 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-01 (morning, weekday) containing Vegetables (2 units of VEGFBE9JZWXHDRZ8, 1 unit of VEGGF7EXB3KWXAGJ) and Savouries Namkeens (1 unit of SNSF6KYDNQDGBVJV). The basket reflects a basic meal-preparation need compatible with these ingredients. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-05-01 in the morning on a weekday. The basket contains Vegetables (2 units of VEGFBE9JZWXHDRZ8, 1 unit of VEGGF7EXB3KWXAGJ) and Savouries Namkeens (1 unit of SNSF6KYDNQDGBVJV). This combination suggests a need for fresh produce paired with savory snacks or accompaniments. No other categories were purchased in this order.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
+        "Vegetables",
+        "SavouriesNamkeens"
       ],
-      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this single order.",
+      "combination_text": "Vegetables and Savouries Namkeens were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a meal or snack involving vegetables and savory accompaniments.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Need for fresh vegetables and savory snacks.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T09:44:21",
+    "last_seen_at": "2026-05-01T09:44:21"
+  }
 }

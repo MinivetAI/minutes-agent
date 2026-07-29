@@ -1,9 +1,23 @@
 {
   "date": "2026-05-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-27 (weekday), the user purchased 1 unit of Tender Coconut (fresh whole fruit) during the evening. This timing aligns with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526) or night (0.1202). The product is a fresh, perishable fruit typically used for immediate hydration or refreshment. This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for tender coconuts.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user purchased one Tender Coconut (unbranded fresh fruit) in the evening. This timing aligns with the population baseline where evening purchases (30.27%) are nearly as common as morning purchases (32.46%). The product is a fresh, perishable item typically used for immediate hydration or refreshment. This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated instance. No brand preference can be inferred as the product is unbranded.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of 1 Tender Coconut (unbranded fresh fruit) placed in the evening. This timing aligns with the population baseline where evening purchases (30.27%) are nearly as common as morning purchases (32.46%). The product is a fresh, perishable item typically used for immediate hydration or refreshment.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for tender coconuts.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated instance. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-27"
+    ],
+    "first_seen_at": "2026-05-27T18:10:42",
+    "last_seen_at": "2026-05-27T18:10:42"
+  }
 }

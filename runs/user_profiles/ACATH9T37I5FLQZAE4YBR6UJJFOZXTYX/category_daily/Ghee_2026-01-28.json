@@ -1,9 +1,23 @@
 {
   "date": "2026-01-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-28 (weekday), the user purchased one 500 ml bottle of Gowardhan Pure Cow Ghee in the afternoon. This purchase occurred during a daypart where the user's activity was below the population baseline (25.26%). The product is a standard household kitchen staple used for cooking and food preparation. This is a single observed transaction; it does not establish a stable preference for the Gowardhan brand or a routine afternoon shopping habit.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-01-28 (weekday), the user ordered one unit of Gowardhan Pure Cow Ghee 500 ml Plastic Bottle in the afternoon. This afternoon placement is less common for this user than the population baseline (user afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a standard household kitchen staple used for cooking and food preparation. This is a single observation on one date; it is not yet established whether this brand or product format represents a stable preference, a one-time trial, or part of a recurring routine. No other independent dates are available to confirm repetition.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Gowardhan Pure Cow Ghee 500 ml Plastic Bottle (quantity: 1) placed on a weekday afternoon. This afternoon placement is less common for this user than the population baseline (user afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for the Gowardhan brand or a routine afternoon shopping habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product format represents a stable preference, a one-time trial, or part of a recurring routine. No other independent dates are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-28"
+    ],
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-01-28T12:24:24"
+  }
 }

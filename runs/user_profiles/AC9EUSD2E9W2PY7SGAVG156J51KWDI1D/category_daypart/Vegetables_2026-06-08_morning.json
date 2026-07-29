@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit each of Local Tomato (450-550g) and Lady\u2019s Finger (480\u2013520g).",
+  "summary_text": "One order of fresh vegetables placed on a weekday morning, containing one unit each of Local Tomato (450-550g) and Lady’s Finger (480–520g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The items are fresh, unbranded produce staples typically used for immediate same-day cooking or meal assembly.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning, a time when morning share (0.3246) is the highest among population dayparts. The items are fresh, perishable vegetables typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a regular habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-08"
+    ],
+    "first_seen_at": "2026-06-08T09:51:39",
+    "last_seen_at": "2026-06-08T09:51:39"
+  }
 }

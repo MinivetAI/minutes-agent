@@ -1,32 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-17 in the morning on a weekday. The basket contains six items across four categories: Baby Cereal, Vegetables, Milk, and Paneer Tofu. The user purchased one unit each of a baby cereal, milk, paneer/tofu, and three distinct vegetable products. This represents a single observation of a mixed-basket order containing both infant-specific items and general grocery staples.",
+  "basket_summary_text": "A single order placed on 2026-03-17 in the morning on a weekday. The basket contains one unit each of Baby Cereal, Milk, and three distinct Vegetable items, plus one Paneer Tofu. This represents a single observation of a mixed basket including baby food, dairy, and fresh produce.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Baby Cereal",
-        "Vegetables"
-      ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic meal preparation components, including infant nutrition (baby cereal) and fresh ingredients (vegetables, milk, paneer/tofu).",
-  "uncertainty_text": "This is a single observed order on one date. No durable preferences or recurring patterns can be established from this evidence alone.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of baby cereal, milk, and vegetables is compatible with preparing a meal for an infant or young child, or stocking up on basic breakfast and meal ingredients.",
+  "uncertainty_text": "This is a single order on one date. No durable preference or routine can be established from this isolated observation. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T07:31:13",
+    "last_seen_at": "2026-03-17T07:31:13"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-05-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-28 (weekday), the user purchased one 2 x 1 L pack of Harpic Original Disinfectant Toilet Cleaner during the evening. This order aligns with population evening share (0.3027), which is comparable to the morning baseline (0.3246). The product serves as a household consumable for regular toilet bowl cleaning and disinfection. This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-28 (weekday), the user ordered Harpic Original Disinfectant Toilet Cleaner (2 x 1 L pack) during the evening. This timing aligns with the population baseline share of 0.3027 for weekday evenings. The product is a household consumable used for regular toilet bowl cleaning and disinfection. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this is a one-time replenishment or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Harpic Original Disinfectant Toilet Cleaner (2 x 1 L pack) placed on a weekday evening. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a household consumable used for regular toilet bowl cleaning and disinfection. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this is a one-time replenishment or part of a recurring habit.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this is a one-time replenishment or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T19:07:27",
+    "last_seen_at": "2026-05-28T19:07:27"
+  }
 }

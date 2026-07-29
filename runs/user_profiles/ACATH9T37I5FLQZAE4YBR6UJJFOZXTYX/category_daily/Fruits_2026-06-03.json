@@ -1,15 +1,23 @@
 {
   "date": "2026-06-03",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-03 (weekday), the user purchased one 250 g pack of Unbranded Litchi Without Stems in the morning. This item serves as a fresh, ready-to-eat snack or fruit component. The order occurred during a time when this user's activity is 32.46% of their total (population baseline). This is a single observation on one date; no durable preferences, brand loyalty, or routine habits can be established. The specific reason for choosing litchi (e.g., seasonal craving, guest preparation, or personal preference) is unknown.",
+  "summary_text": "On 2026-06-03 (weekday), the user ordered one unit of Litchi Without Stems 250 g in the morning. This fresh, ready-to-eat fruit suggests a need for immediate consumption or a light snack. The order occurred during a daypart where the user's activity aligns with the population baseline (32.46% of orders). This is a single observation on one date; it does not establish a stable preference for litchi, fresh fruits, or morning shopping habits. No brand preference can be inferred as the product is unbranded.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 250 g pack of Unbranded Litchi Without Stems. The product is a fresh, stemless fruit pack positioned for convenient, immediate consumption.",
+      "pattern_text": "One order of Litchi Without Stems 250 g (1 unit) placed on a weekday morning. The order occurred in the morning, a daypart where the user's activity aligns with the population baseline (32.46% of orders). The product is a fresh, ready-to-eat fruit item, suggesting a need for immediate consumption or a light snack.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable preferences, brand loyalty, or routine habits can be established. The specific reason for choosing litchi (e.g., seasonal craving, guest preparation, or personal preference) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for litchi, fresh fruits, or morning shopping habits. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

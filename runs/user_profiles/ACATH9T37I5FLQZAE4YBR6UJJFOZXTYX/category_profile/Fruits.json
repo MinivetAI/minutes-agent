@@ -1,57 +1,51 @@
 {
-  "category": "Fruits",
-  "profile_text": "The user demonstrates a stable, recurring preference for fresh, perishable fruits, with a high-confidence stable preference for Watermelon Kiran and medium-confidence stable preferences for Sindhura mangoes and Unbranded Litchi Without Stems. Purchases are distributed across morning, afternoon, and evening dayparts on both weekdays and weekends, indicating flexible timing rather than a strict routine. The user buys specific branded variants (Watermelon Kiran, Sindhura) and unbranded items (Litchi), often in small, ready-to-eat formats (e.g., 250 g litchi, 180 g strawberries). There is no evidence of discovery interest (search/view/cart without purchase); all observed interest has converted to purchase.",
-  "brand_preferences": [
+  "category_name": "Fruits",
+  "summary_text": "The user demonstrates a stable, medium-confidence preference for specific fresh fruit variants, primarily Watermelon Kiran and Litchi Without Stems 250 g, each observed on two independent dates across March–June 2026. A stable morning purchasing pattern is also established for the category, supported by two independent dates in May 2026. The user also shows a stable preference for the brand 'Sindhura Mango' on two dates in April 2026. Other fruits like Strawberries and generic Mangoes appear as single observations. The user buys fresh, perishable fruits for immediate consumption, with timing varying between morning, afternoon, and evening, though morning shows a slight stable concentration.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Sindhura Mango",
+        "preference_text": "The user has a stable preference for Sindhura Mango, observed on two independent dates in April 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Sindhura Mango variety/brand and does not extend to other mango brands or fruit types."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Watermelon Kiran",
+        "preference_text": "The user has a stable preference for Watermelon Kiran, observed on two independent dates in March 2026 and two in May 2026.",
+        "confidence": "medium"
+      },
+      {
+        "variant": "Litchi Without Stems 250 g",
+        "preference_text": "The user has a stable preference for Litchi Without Stems 250 g, observed on two independent dates in June 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Watermelon Kiran",
-      "preference_text": "The user has a stable preference for Watermelon Kiran, evidenced by purchases on multiple independent dates spanning March, May, and June 2026.",
-      "confidence": "high",
-      "evidence_count": 5,
-      "independent_date_count": 5
-    },
-    {
-      "brand": "Sindhura",
-      "preference_text": "The user has a stable preference for Sindhura mangoes, evidenced by purchases on two independent dates in April 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "daypart": "morning",
+      "behavior_text": "The user has a stable preference for purchasing fruits in the morning, observed on two independent dates in May 2026.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Watermelon Kiran, evidenced by purchases on multiple independent dates spanning March, May, and June 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "The user has a stable preference for Sindhura mangoes, evidenced by purchases on two independent dates in April 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Unbranded Litchi Without Stems, evidenced by purchases on two independent dates in June 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user accepts a variety of fresh fruits including watermelon, litchi, mango, strawberries, and coconut. No specific substitution boundaries are established beyond the stable preferences for Watermelon Kiran and Litchi Without Stems 250 g; other fruits appear as single observations or one-time purchases.",
+  "uncertainty_text": "While Watermelon Kiran and Litchi Without Stems 250 g have stable preferences, the user's overall fruit consumption is diverse, with many items (e.g., Strawberries, generic Mangoes, Apples, Bananas) appearing only once. It is unclear if the user has a broad preference for all fresh fruits or if these are occasional exploratory purchases. The morning pattern is stable but based on only two dates; other dayparts (afternoon, evening) are also used, indicating flexibility. No stable brand preference exists for Watermelon or Litchi as they are often unbranded or brand-specific in ways not repeated across different product types.",
+  "retrieval_text": "The user exhibits a stable, medium-confidence preference for fresh fruit variants Watermelon Kiran and Litchi Without Stems 250 g, each purchased on two independent dates across March–June 2026. A stable morning purchasing pattern is also established for the category, supported by two independent dates in May 2026. The user also shows a stable preference for the brand Sindhura Mango on two dates in April 2026. The user buys fresh, perishable fruits for immediate consumption, with timing varying between morning, afternoon, and evening, though morning shows a slight stable concentration. Other fruits like Strawberries and generic Mangoes appear as single observations.",
   "replenishment": {
     "cadence_days": 12.5,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-07-02",
     "predicted_next_purchase_date": "2026-07-14",
-    "replenishment_text": "The user typically purchases fruits every 12.5 days, with the next purchase estimated around 2026-07-14.",
-    "confidence": "medium",
-    "evidence_count": 13,
-    "independent_date_count": 13
+    "replenishment_text": "Fruits is reordered roughly every 12 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; all observed search, view, or cart activity (if any) is not present, and all observed interest has resulted in completed orders.",
-  "substitution_text": "The user purchases specific branded variants (Watermelon Kiran, Sindhura) and unbranded items (Litchi, Strawberries), suggesting a preference for specific product identities rather than generic substitutes. However, the presence of both branded and unbranded items indicates some flexibility in brand loyalty depending on the specific fruit type.",
-  "price_value_text": "The user purchases a range of fruits, including premium items like strawberries and litchi, as well as common items like watermelon and mangoes. No explicit price sensitivity or value-seeking behavior is evident from the provided summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty. The user consistently purchases fresh fruits across multiple months.",
-  "mission_generation_text": "The user shops for fresh, ready-to-eat fruits for immediate consumption, snacking, or household replenishment, with a focus on specific preferred varieties like watermelon, mangoes, and litchi.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 13,
+    "independent_date_count": 13,
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

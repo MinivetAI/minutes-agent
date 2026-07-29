@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of a single fresh cauliflower head (400-600g) placed in the morning.",
+  "summary_text": "One order of Cauliflower 400-600g (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when 32.46% of the population shops, suggesting a routine or planned meal preparation need for a fresh vegetable.",
-  "uncertainty_text": "This is a single observation; it is not yet established whether this is a recurring preference or a one-time need.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchasing activity is below the population baseline (32.5%). The purchase represents an immediate kitchen-fill need for a fresh vegetable, likely for same-day cooking such as a side dish, soup, or roasting.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, product preference, or recurring routine. It is unclear if this is a one-time meal-specific need or part of a broader vegetable purchasing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-06"
+    ],
+    "first_seen_at": "2026-04-06T09:42:07",
+    "last_seen_at": "2026-04-06T09:42:07"
+  }
 }

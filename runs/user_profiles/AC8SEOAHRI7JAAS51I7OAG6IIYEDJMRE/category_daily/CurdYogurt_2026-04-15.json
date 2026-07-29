@@ -1,9 +1,23 @@
 {
   "date": "2026-04-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-15 (weekday), the user purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the evening. This timing aligns with a population evening share of 0.3027 for this category. The product is a small, single-serve refrigerated dairy item suitable for immediate consumption or as a quick meal add-on. This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-15 (weekday), the user ordered 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g in the evening. This timing aligns with the population baseline where evening accounts for 30.27% of activity. The product is a single-serve probiotic curd, typically used for immediate consumption as a snack or meal component. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific functional need beyond the immediate utility of the product.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "Ordered 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g in the evening on a weekday. This timing aligns with the population baseline where evening accounts for 30.27% of activity (slightly lower than the morning share of 32.46%). The product is a single-serve probiotic curd, typically used for immediate consumption as a snack or meal component.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific functional need beyond the immediate utility of the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-15"
+    ],
+    "first_seen_at": "2026-04-15T19:45:37",
+    "last_seen_at": "2026-04-15T19:45:37"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased one 200 g pouch of Continental Malgudi 60 Degree Filter Coffee on a single weekday (2026-06-03) during the evening. This purchase aligns with the evening daypart, which represents 30.27% of population activity for this category (baseline: morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a chicory-blended South Indian filter coffee powder, traditionally used for daily morning brewing. As this is a single observed order on one date, it does not establish a stable preference or routine; the specific reason for the evening purchase (e.g., stock replenishment vs. immediate need) is not determined.",
+  "summary_text": "In June 2026, the user ordered Continental Malgudi 60 Degree Filter Coffee Pouch 200 g on one weekday evening. This single observation aligns with the population baseline for evening purchases (30.27%). As there is only one independent date, no stable preference or recurring pattern can be established for this brand or product.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening purchase (e.g., stock replenishment vs. immediate need) is not determined.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This assessment is based on a single order on 2026-06-03. It is not yet established whether this represents a stable preference for Continental Malgudi or if the purchase was driven by immediate stock replenishment needs.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T16:24:08",
+    "last_seen_at": "2026-06-03T16:24:08"
+  }
 }

@@ -3,8 +3,15 @@
   "day_type": "weekday",
   "summary_text": "One order of Saras Plain Curd 200 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered in the evening on a weekday, a time when the user's activity is slightly below the population baseline (30.3% share). The product is a small, immediate-use dairy item suitable for same-day meal pairing or consumption.",
-  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the evening on a weekday. This timing is consistent with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%). The product is a small, plain dairy pack suitable for immediate consumption or meal pairing.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Saras brand, a routine for evening curd purchases, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-26"
+    ],
+    "first_seen_at": "2026-01-26T19:26:36",
+    "last_seen_at": "2026-01-26T19:26:36"
+  }
 }

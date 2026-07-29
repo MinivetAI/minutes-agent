@@ -1,40 +1,34 @@
 {
-  "category": "Sugar",
-  "profile_text": "The user demonstrates a stable preference for Fortune brand white sugar, evidenced by purchases on multiple independent dates across February, March, April, and July 2026. The user consistently orders 1 kg packs, typically in quantities of one per transaction. Purchases occur on both weekdays and weekends, with a noted tendency for afternoon timing on weekdays and morning timing on weekends, aligning with general household pantry restocking needs for daily sweetening (tea, coffee, cooking).",
-  "brand_preferences": [
-    {
-      "brand": "Fortune",
-      "preference_text": "The user has a stable preference for Fortune sugar, evidenced by purchases on 2026-03-17, 2026-03-31, 2026-04-04, and 2026-07-09.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user consistently purchases Fortune white sugar in 1 kg packs.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sugar",
+  "summary_text": "The user has demonstrated a stable preference for the Fortune brand in the Sugar category, with orders recorded on two independent dates in March 2026. A single additional order for Fortune Sugar 1 kg was observed in July 2026. Earlier in February 2026, a single order for Uttam Sugar was placed. The user typically purchases 1 kg packs.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Fortune",
+        "preference_text": "The user has a stable preference for Fortune sugar, evidenced by orders on two independent dates in March 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is established for 1 kg packs of standard white sugar; it does not extend to other brands or unverified pack sizes."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Fortune sugar is the established preferred brand. Uttam Sugar was purchased once in February 2026, indicating it is an acceptable alternative, though no stable preference for it has been established.",
+  "uncertainty_text": "The preference for Fortune is based on two orders in March 2026 and one in July 2026. It is unclear if the user has a preference for other sugar variants (e.g., brown sugar, organic) or different pack sizes. The July order was a single observation, so the consistency of the afternoon timing or weekday preference beyond March is not fully established.",
+  "retrieval_text": "The user shows a stable preference for Fortune brand sugar, supported by orders on two independent dates in March 2026 and a single order in July 2026. The user typically buys 1 kg packs of standard white sugar. Uttam Sugar was purchased once in February 2026, suggesting it is an acceptable alternative. The user's timing varies, with afternoon purchases in March and a morning purchase in July.",
   "replenishment": {
     "cadence_days": 16.0,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-07-09",
     "predicted_next_purchase_date": "2026-07-25",
-    "replenishment_text": "The user typically replenishes sugar every 16 days, with the next purchase estimated around 2026-07-25.",
-    "confidence": "medium",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "Sugar is reordered roughly every 16 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in sugar reliably converts to purchase, as evidenced by multiple completed transactions across different months.",
-  "substitution_text": "No evidence of brand switching or substitution; the user consistently selects Fortune brand.",
-  "price_value_text": "No explicit price or value sensitivity data observed; purchases are consistent with standard 1 kg pack pricing.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has a clear, repeated preference for a specific brand and pack size.",
-  "mission_generation_text": "Routine household pantry restocking for daily sweetening needs such as tea, coffee, and cooking.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

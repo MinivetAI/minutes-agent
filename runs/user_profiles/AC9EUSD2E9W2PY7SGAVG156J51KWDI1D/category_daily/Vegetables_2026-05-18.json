@@ -1,9 +1,23 @@
 {
   "date": "2026-05-18",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-18 (weekday), the user purchased one 1 kg pack of unbranded fresh onions during the morning. This single transaction suggests a need for meal preparation ingredients. The purchase occurred in the morning, a period where this user's activity is below the population baseline (32.5%).",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-18 (weekday), the user ordered one unit of Onion 1 kg (Unbranded) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking or raw preparation. This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific product, brand, or timing, or if it was an isolated purchase driven by immediate meal needs.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Onion 1 kg (Unbranded) on 2026-05-18. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking or raw preparation. This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific product, brand, or timing, or if it was an isolated purchase driven by immediate meal needs.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it is not yet possible to establish a stable preference for onions or a consistent morning shopping routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific product, brand, or timing, or if it was an isolated purchase driven by immediate meal needs.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-18"
+    ],
+    "first_seen_at": "2026-05-18T10:21:16",
+    "last_seen_at": "2026-05-18T10:21:16"
+  }
 }

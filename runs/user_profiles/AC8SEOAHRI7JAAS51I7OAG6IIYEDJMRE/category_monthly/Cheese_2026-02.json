@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased Amul A+ Processed Cheese Slices (200 g) on a single weekday in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a convenient, portion-controlled dairy item typically used for quick meals like sandwiches or snacks. As this is a single observed order, no stable preference or routine is established.",
+  "summary_text": "In February 2026, the user purchased Amul A+ Processed Cheese Slices (200 g) on one weekday afternoon. This single observation does not establish a stable brand or product preference, nor does it indicate a routine. The purchase occurred during a weekday afternoon, a time when population purchasing share (0.2526) is lower than morning (0.3246) and evening (0.3027).",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; no stable brand or product preference can be established. It is unclear if this purchase was for immediate consumption, routine replenishment, or a specific one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-09T13:05:05"
+  }
 }

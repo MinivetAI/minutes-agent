@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One order of Bonn High Fibre Brown Bread 400 g.",
+  "summary_text": "One order of Bonn High Fibre Brown Bread 400 g placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246). The product is a packaged brown bread loaf, typically used for breakfast, sandwiches, or toast, suggesting a need for a staple food item for immediate or next-day consumption.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this evening purchase (e.g., stockout, meal planning) is not determined.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening (0.3027) is nearly as common as morning (0.3246) for bread purchases. The product is a packaged brown bread, typically used for breakfast, sandwiches, or toast, suggesting a need for a staple food item for immediate or near-future consumption.",
+  "uncertainty_text": "This is a single observation on one date, so it is not possible to determine if this represents a stable preference, a routine, or a one-time need. No brand or product preference can be established from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-13"
+    ],
+    "first_seen_at": "2026-07-13T18:04:49",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

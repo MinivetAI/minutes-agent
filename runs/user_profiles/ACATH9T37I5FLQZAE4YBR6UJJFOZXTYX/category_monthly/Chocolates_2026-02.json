@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "On 2026-02-24 (weekday), the user purchased one 40 g Snickers Peanut Filled Chocolate Bar in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to the morning (0.3246) and evening (0.3027). The product is a single-serve, nutty chocolate bar, potentially used for immediate hunger interruption or a quick treat. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "summary_text": "In February 2026, the user purchased one Snickers Peanut Filled Chocolate Bar (40 g) on a single weekday in the afternoon. This timing is less common for this user than the population baseline. As this is a single observation, it is not yet established whether this represents a stable preference or an isolated purchase.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

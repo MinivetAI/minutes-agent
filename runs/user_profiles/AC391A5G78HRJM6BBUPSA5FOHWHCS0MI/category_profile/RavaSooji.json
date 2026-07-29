@@ -1,34 +1,34 @@
 {
-  "category": "Rava Sooji",
-  "profile_text": "The user has purchased Rava Sooji on two independent dates (2026-02-22 and 2026-04-10), establishing a low-confidence pattern for this staple pantry ingredient. Purchases occurred in the evening (weekend) and morning (weekday), aligning with population activity shares. The user has shown a preference for the Rajdhani Select brand, appearing on both observed dates. No stable routine or recurring cadence is established due to the limited date span and lack of explicit cadence data.",
-  "brand_preferences": [
-    {
-      "brand": "Rajdhani Select",
-      "preference_text": "The user purchased Rajdhani Select Sooji on two independent dates (2026-02-22 and 2026-04-10). This repetition across independent dates supports a medium-confidence preference for this brand within the Rava Sooji category.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Rava Sooji",
+  "summary_text": "The user has placed two orders for Rava Sooji in 2026: one in February (Rajdhani Select Sooji, 0.5 kg, weekend evening) and one in April (Rajdhani Select Sooji, 0.5 kg, quantity 2, weekday morning). Both orders feature the Rajdhani brand. The April order included a quantity of 2, suggesting a slight bulk purchase or immediate multi-use need. Timing varies between evening and morning, aligning with general population patterns for this category.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Rajdhani",
+        "preference_text": "Rajdhani is the only brand observed for Rava Sooji, appearing in both February and April 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is based on two independent dates; it does not yet establish a high-confidence routine or exclude other brands for future purchases."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The user has only purchased Rava Sooji, with no observed orders for alternative grains or flours in this context.",
+  "uncertainty_text": "Confidence is low due to the small number of observations (two independent dates). It is unclear if the user has a stable routine, as the dayparts (evening vs. morning) and quantities (1 vs. 2) vary. The preference for Rajdhani is noted but not yet confirmed as a strong, exclusive loyalty given the limited data span.",
+  "retrieval_text": "User purchased Rajdhani Select Sooji 0.5 kg in February 2026 (weekend evening) and April 2026 (weekday morning, quantity 2). Both orders support the Rajdhani brand with medium confidence based on two independent dates. No stable daypart or pack size preference is established due to variation in timing and quantity. No substitution behavior observed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-10",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "The last purchase was on 2026-04-10. Cadence is unknown based on the supplied evidence, so no predicted next purchase date can be provided.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for RavaSooji yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on all observed dates; there is no evidence of unmet interest or abandoned carts for this category.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No specific price sensitivity or value-seeking behavior can be inferred from the supplied summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Replenishment of staple pantry ingredients for Indian cooking preparations.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-22T18:05:44",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }

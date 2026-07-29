@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 175 ml bottle of L'Oréal Paris Total Repair 5 Conditioner, a damaged-hair repairing product, during a morning session on a weekday.",
+  "summary_text": "One order of L'Oréal Paris Total Repair 5 Conditioner (175 ml) on 2026-01-29.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning activity (32.46%) is the most frequent daypart share. The product is a general-use hair care item intended for regular washing routines to address dryness, brittleness, or split ends.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for the L'Oréal Paris brand or the Total Repair 5 line specifically, nor does it indicate a recurring routine. The user's specific hair concerns or whether this was a replacement for a depleted item cannot be determined from this single data point.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a damaged-hair repairing conditioner, typically used to restore softness and manageability after shampooing.",
+  "uncertainty_text": "This is a single observation from one date; no stable brand or product preference can be established. It is unknown whether this purchase was a replacement for a depleted item, a trial of a new product, or part of a regular routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-29"
+    ],
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-01-29T09:00:23"
+  }
 }

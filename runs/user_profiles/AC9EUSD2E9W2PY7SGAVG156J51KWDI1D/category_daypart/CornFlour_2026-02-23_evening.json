@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 100 g pack of WeiKFiELD Corn Starch Powder during the evening on a weekday.",
+  "summary_text": "One order of Weikfield Corn Starch Powder (100 g) placed in the evening on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (0.3027). The product is a pantry staple used for thickening and binding in cooking and baking.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a pantry staple used as a thickening and binding agent for cooking and baking.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-02-23T19:01:08"
+  }
 }

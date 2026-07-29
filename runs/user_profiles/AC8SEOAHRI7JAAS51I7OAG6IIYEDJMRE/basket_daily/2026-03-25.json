@@ -1,7 +1,7 @@
 {
   "date": "2026-03-25",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-25, a single order was placed during the evening weekday. The basket contained one unit of Chips, two units of Curd Yogurt, and one unit of Savouries Namkeens. This combination of a snack category, a dairy item, and a savory snack is compatible with a need for evening snacks or light refreshments. This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior across independent dates is available to confirm consistent habits.",
+  "summary_text": "On this weekday evening, a single order was placed containing Chips, Curd Yogurt, and Savouries Namkeens. This combination is compatible with a snacking or light evening meal occasion. As this represents a single observation from one independent date, stable preferences or routine behaviors cannot be inferred from this window alone.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -11,14 +11,23 @@
         "Curd Yogurt",
         "Savouries Namkeens"
       ],
-      "combination_text": "Chips, Curd Yogurt, and Savouries Namkeens were purchased together in a single transaction.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Chips, Curd Yogurt, and Savouries Namkeens",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of chips, curd yogurt, and savouries namkeens is compatible with a need for evening snacks or light refreshments.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior across independent dates is available to confirm consistent habits.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Snacking or light evening meal.",
+  "uncertainty_text": "This is a single observation from one independent date. Stable preferences or routine behaviors cannot be inferred from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

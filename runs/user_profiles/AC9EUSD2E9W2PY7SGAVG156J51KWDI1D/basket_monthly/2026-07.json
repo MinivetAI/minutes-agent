@@ -1,25 +1,84 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user placed eight independent orders across weekdays and weekends, primarily during morning and evening dayparts. The basket composition consistently includes dairy staples (Milk) and fresh produce (Vegetables), often paired with breads or other meal ingredients. Religious or ceremonial items (Pooja Flowers, Incense Stick, Dhoop) appear in separate transactions, sometimes mixed with groceries, suggesting a compatible need for ritual preparation that is not definitively proven as a habitual routine from this single month of data. Personal care items (Kajal, Sindoor) and snacks appear in isolated instances. No abandoned carts were recorded. Due to the lack of repetition across independent dates for specific category combinations or daypart behaviors, no stable patterns are established.",
+  "summary_text": "This month features nine independent order dates, predominantly on weekdays, with orders occurring in the morning, afternoon, and evening. Milk is the most frequently observed product, appearing in eight of the nine orders across various dayparts. Vegetables appear in five orders, and Breads appear in four orders. Category combinations such as Milk with Vegetables, Breads with Milk, and Breads with Vegetables recur across multiple independent dates, indicating stable co-occurrence patterns for meal preparation staples. Other categories like Savouries Namkeens, Incense Sticks, and Pooja Flowers appear in multiple orders but do not form consistent multi-category bundles beyond their individual recurrence. No single daypart or category combination dominates to the exclusion of others; the user demonstrates varied shopping needs ranging from daily sustenance to ritual maintenance and snacking. Due to the lack of repeated behavior for specific brand preferences or complex multi-item routines beyond the staple combinations, overall confidence in inferred stable preferences remains low.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
+  "category_combination_patterns": [
     {
-      "claim_text": "Milk and Vegetables appear together in multiple independent orders (2026-07-06, 2026-07-14, 2026-07-16, 2026-07-19, 2026-07-21).",
-      "confidence": "low"
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order. Historical evidence shows these categories are co-ordered with a support of 0.3, confidence of 0.517, and lift of 1.293.",
+      "support": 0.3,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 4,
+      "independent_date_count": 4
     },
     {
-      "claim_text": "Breads and Milk appear together in multiple independent orders (2026-07-14, 2026-07-19, 2026-07-21).",
-      "confidence": "low"
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order. Historical evidence shows these categories are co-ordered with a support of 0.26, confidence of 0.722, and lift of 1.245.",
+      "support": 0.26,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
     },
     {
-      "claim_text": "Breads and Vegetables appear together in multiple independent orders (2026-07-14, 2026-07-19, 2026-07-21).",
-      "confidence": "low"
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order. Historical evidence shows these categories are co-ordered with a support of 0.22, confidence of 0.611, and lift of 1.528.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
     }
   ],
-  "shopping_need_text": "The observed orders suggest a need for daily meal preparation involving dairy, breads, and vegetables. There are also isolated instances of needs for religious or ceremonial items (flowers, incense) and personal grooming (makeup), but these do not form a stable, recurring pattern across the month.",
-  "uncertainty_text": "This analysis is based on eight independent orders on eight different dates. While Milk and Vegetables, Breads and Milk, and Breads and Vegetables co-occur frequently, the specific daypart behaviors, category combinations involving religious items, and personal care purchases are not repeated in a way that establishes a durable preference or routine. The presence of religious items alongside groceries is noted as a compatible need but not as a confirmed habitual preference. Confidence in inferred user behavior is low because stable patterns require repetition of specific behaviors across independent dates, which is not fully met for most category combinations beyond the basic grocery staples.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "Milk appears in 8 out of 9 independent order dates, indicating a high-frequency staple need across morning, afternoon, and evening dayparts.",
+      "confidence": "high"
+    },
+    {
+      "claim_text": "Vegetables appear in 5 out of 9 independent order dates, often paired with Milk and Breads, suggesting a recurring need for fresh produce in meal preparation.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Breads appear in 4 out of 9 independent order dates, frequently co-occurring with Milk and Vegetables.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Incense Sticks and Pooja Flowers appear in multiple orders (2026-07-04, 2026-07-15, 2026-07-21), suggesting a recurring need for ritual items, though not always in the same basket configuration.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Savouries Namkeens appear in 3 independent orders (2026-07-17, 2026-07-19 morning), often paired with other snack items like Cookies Biscuits or Rusks.",
+      "confidence": "medium"
+    }
+  ],
+  "shopping_need_text": "The user demonstrates a recurring need for basic household staples, particularly Milk, Vegetables, and Breads, often purchased together for meal preparation. There is also a recurring need for ritual items (Incense Sticks, Pooja Flowers) and snack items (Savouries Namkeens, Cookies Biscuits, Sweets Mithai). The variety of dayparts and category combinations suggests flexible shopping behavior rather than a rigid routine.",
+  "uncertainty_text": "While staple combinations (Milk/Vegetables/Breads) show stable co-occurrence across multiple dates, specific brand preferences, complex multi-item routines, and daypart-specific habits are not sufficiently repeated to establish high-confidence stable patterns. The presence of ritual and snack items is noted but lacks consistent bundling evidence. Overall confidence in inferred user behavior is low due to the single-observation nature of most specific product-category bundles.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 9,
+    "purchase_dates": [
+      "2026-07-04",
+      "2026-07-06",
+      "2026-07-14",
+      "2026-07-15",
+      "2026-07-16",
+      "2026-07-17",
+      "2026-07-19",
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-04T08:48:45",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

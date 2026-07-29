@@ -1,133 +1,44 @@
 {
   "date": "2026-07-05",
   "day_type": "weekend",
-  "summary_text": "On this weekend, three separate orders were placed across morning, afternoon, and evening dayparts. The morning order focused on breakfast-compatible items, including dairy and breads. The afternoon order was narrow, containing household cleaning and shelf-stable food. The evening order included dairy and tofu products. No abandoned carts were recorded in any daypart. Because this analysis is based on a single observed date, stable preferences or recurring behaviors cannot be inferred.",
+  "summary_text": "On this weekend, orders were placed across three distinct dayparts: morning, afternoon, and evening. The morning basket combined Lassi, Curd Yogurt, and Breads, suggesting a need for a quick morning meal or snack. The afternoon order was narrow, containing one unit each of Toilet Cleaner and a Canned Food item, indicating separate needs for household cleaning and food storage. The evening basket included one unit each of Curd Yogurt and Paneer Tofu, compatible with a need for dairy and protein sources for meal preparation. All observations are based on single orders from this single date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Breads",
-        "CurdYogurt"
-      ],
-      "combination_text": "Breads and Curd Yogurt were purchased together in the morning order. In the broader population evidence, this pair has a support of 0.129, confidence of 0.346, and lift of 0.969, based on 9 co-orders.",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Lassi"
-      ],
-      "combination_text": "Curd Yogurt and Lassi were purchased together in the morning order. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Lassi"
-      ],
-      "combination_text": "Breads and Lassi were purchased together in the morning order. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Canned Food",
-        "Toilet Cleaner"
-      ],
-      "combination_text": "Canned Food and Toilet Cleaner were purchased together in the afternoon order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
         "Curd Yogurt"
       ],
-      "combination_text": "Breads and Curd Yogurt",
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
-        "Vegetables"
+        "Paneer Tofu"
       ],
-      "combination_text": "Curd Yogurt and Vegetables",
-      "support": 0.114,
+      "combination_text": "Curd Yogurt and Paneer Tofu were purchased together in a single order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "Curd Yogurt"
-      ],
-      "combination_text": "CannedFood and Curd Yogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for breakfast items, household cleaning supplies, and dairy-based meal components.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring behaviors cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The day's orders reflect needs for a quick morning meal (morning), household cleaning and food storage (afternoon), and dairy/protein for meal preparation (evening).",
+  "uncertainty_text": "All inferences are based on a single order per daypart on one independent date. Stable preferences, routines, or durable behavior patterns cannot be determined from these isolated observations.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-05T20:16:51"
+  }
 }

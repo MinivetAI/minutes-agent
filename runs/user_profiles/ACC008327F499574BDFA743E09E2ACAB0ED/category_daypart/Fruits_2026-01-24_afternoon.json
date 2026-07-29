@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 2 units of Unbranded Sapota Chikoo 500 g (fresh sapota fruit) during an afternoon shopping session on a weekend.",
+  "summary_text": "One order of Sapota Chikoo (2 units of 500 g packs) purchased on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a fresh fruit item typically used for immediate consumption, snacking, or dessert.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this specific fruit or brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when the user's activity aligns with the population baseline (afternoon share 0.2526). The purchase consists of fresh fruit, suggesting a need for immediate consumption or home replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this specific fruit, brand, or timing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-24T14:45:43"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "One order of Modern Supreme Sandwich Bread 400 g placed in the afternoon on a weekend.",
+  "summary_text": "One order of Modern Supreme Sandwich Bread 400 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26%). The product is a standard packaged sandwich bread, typically used for immediate meal needs such as breakfast, quick sandwiches, or toast.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category or brand. No browsing or search history was provided to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, but aligns with the afternoon share (0.2526). The product is a standard packaged sandwich bread, typically used for immediate meal needs such as breakfast, quick sandwiches, or toast.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product, or timing over other options. No stable routine or recurring pattern can be inferred from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T14:17:36",
+    "last_seen_at": "2026-04-12T14:17:36"
+  }
 }

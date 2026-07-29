@@ -1,23 +1,44 @@
 {
   "date": "2026-05-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-01, a single order was placed in the morning. The basket contained six items across five categories: Curd Yogurt, Vegetables (2 distinct products), Incense Stick, Breads, and Cheese. The combination of Breads, Vegetables, and Curd Yogurt aligns with a compatible need for a simple meal or snack preparation. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-05-01 (weekday), a single order was placed in the morning. The basket included six items across five categories: Vegetables (2 items), Curd Yogurt, Incense Stick, Breads, and Cheese. Category combinations observed were Vegetables with Breads, and Curd Yogurt with Vegetables. The presence of incense sticks alongside food items is noted, but specific intent is unknown. This is a single observation; stable preferences or routine behaviors cannot be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
+        "Vegetables",
+        "Breads"
+      ],
+      "combination_text": "Vegetables and Breads were bought together in this order.",
+      "support": 0.22,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Vegetables were bought together in this order.",
       "support": 0.06,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a simple meal or snack involving dairy, bread, and vegetables.",
-  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal involving vegetables and bread, possibly with yogurt and cheese, and purchased incense sticks, potentially for a morning ritual or household use.",
+  "uncertainty_text": "This is a single observation on one date. Stable preferences or routine behaviors cannot be inferred from this isolated order. The presence of incense sticks alongside food items is noted but its specific intent (e.g., religious, aromatic, or gift) is unknown.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T08:07:58",
+    "last_seen_at": "2026-05-01T08:07:58"
+  }
 }

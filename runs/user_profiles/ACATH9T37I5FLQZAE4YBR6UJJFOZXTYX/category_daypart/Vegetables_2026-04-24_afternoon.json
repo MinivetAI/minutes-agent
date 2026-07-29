@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Fresh New Crop Potato (0.95–1.05 kg) in the Vegetables category.",
+  "summary_text": "One order of Fresh New Crop Potato (0.95–1.05 kg) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when population activity is lower than the morning baseline (0.2526 vs 0.3246). The item is a fresh, perishable staple suitable for immediate meal preparation.",
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an impulse buy. No other products were viewed or added to the cart in this window.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246). The product is a fresh, perishable staple typically used for immediate meal preparation or weekly stock replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this reflects a stable preference for this specific product, brand, or timing. No other vegetable purchases or repeat orders are visible in this window to confirm routine behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-24T13:00:27",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

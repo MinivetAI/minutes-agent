@@ -1,9 +1,17 @@
 {
   "date": "2026-05-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-12 (weekday), the user purchased savoury namkeens during the night. The order included 2 packs of Bikaji Chowpati Bhelpuri (110 g) and 1 pack of Too Yumm! Sour Cream and Onion Veggie Stix (35 g). This night-time purchase on a weekday aligns with a period of lower population share (0.1202) compared to morning (0.3246) and evening (0.3027). The items are ready-to-eat savoury snacks suitable for immediate consumption, such as late-night cravings or quick impulse snacking. This is a single observed order; durable brand or flavour preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-05-12 (weekday), one order was placed at night containing 2 packs of Bikaji Chowpati Bhelpuri 110 g and 1 pack of Too Yumm! Sour Cream and Onion Veggie Stix 35 g. This timing aligns with the population baseline, where night purchases represent 12.02% of activity, making it less common than morning (32.46%), afternoon (25.26%), or evening (30.27%) slots. The products are ready-to-eat savory snacks typically used for immediate hunger relief, late-night cravings, or quick snacking without preparation. This is a single observation from one date. It is not yet established whether the user prefers these specific brands, flavors, or snack formats over others, or if this night-time ordering is a recurring pattern.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavour preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers these specific brands, flavors, or snack formats over others, or if this night-time ordering is a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-12"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-12T23:10:32"
+  }
 }

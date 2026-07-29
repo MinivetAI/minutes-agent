@@ -1,15 +1,23 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-05 (weekend), the user purchased 1 unit of Parag Toned Milk 500 ml during the night. This timing is less common for this user than the population baseline (night share 0.1202 vs. morning 0.3246, evening 0.3027). The product is a small-format packaged milk suitable for immediate household use or short-term consumption. This is a single observed order; durable preferences, routine timing, or household size cannot be established from this isolated event.",
+  "summary_text": "On this weekend, the user ordered one unit of Parag Toned Milk 500 ml during the night. This timing is less common than the population baseline for milk purchases, which shows a higher share of orders in the morning (0.3246), evening (0.3027), and afternoon (0.2526), with night being the least frequent period (0.1202). The product is a small-format packaged milk, typically used for immediate household consumption or short-term needs. This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for the Parag brand, a specific milk type, or a one-time need. No recurring pattern can be established from this single data point.",
   "daypart_patterns": [
     {
       "daypart": "night",
-      "pattern_text": "Purchased 1 unit of Parag Toned Milk 500 ml during the night on a weekend. This timing is less common for this user than the population baseline (night share 0.1202 vs. morning 0.3246, evening 0.3027). The product is a small-format packaged milk suitable for immediate household use or short-term consumption.",
+      "pattern_text": "One order of Parag Toned Milk 500 ml (quantity: 1) placed on a weekend night. This timing is less common than the population baseline for milk purchases, which shows a higher share of orders in the morning (0.3246), evening (0.3027), and afternoon (0.2526), with night being the least frequent period (0.1202). The product is a small-format packaged milk, typically used for immediate household consumption or short-term needs. This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for the Parag brand, a specific milk type, or a one-time need. No recurring pattern can be established from this single data point.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences, routine timing, or household size cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for the Parag brand, a specific milk type, or a one-time need. No recurring pattern can be established from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-05T21:57:18"
+  }
 }

@@ -1,19 +1,35 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased VICKS Double Power Cough Drops Warming Ginger on three independent dates (2026-02-10, 2026-02-11, and 2026-02-24). This recurrence establishes a stable preference for this specific brand and variant. All three purchases occurred on weekdays in the afternoon, indicating a consistent timing pattern for portable, on-the-go throat relief.",
+  "summary_text": "In February 2026, the user ordered VICKS Double Power Cough Drops Warming Ginger (25 tablets) on three independent dates (2026-02-10, 2026-02-11, and 2026-02-24). This repetition across multiple weekdays establishes a stable preference for this specific brand and variant. All three orders occurred in the afternoon, indicating a consistent purchasing pattern for this product during that daypart.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "VICKS",
-      "claim_text": "The user has a stable preference for VICKS cough drops, evidenced by purchases on 3 independent dates in February 2026.",
+      "claim_text": "The user has ordered VICKS products on 3 independent dates in February 2026, indicating a stable preference for this brand.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "VICKS Double Power Cough Drops Warming Ginger",
-      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on 3 independent dates in February 2026.",
+      "value": "VICKS Double Power Cough Drops Warming Ginger (25 tablets)",
+      "claim_text": "The user has ordered VICKS Double Power Cough Drops Warming Ginger (25 tablets) on 3 independent dates in February 2026, indicating a stable preference for this specific product.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "variant",
+      "value": "Warming Ginger",
+      "claim_text": "The user has ordered the Warming Ginger variant of VICKS Double Power Cough Drops on 3 independent dates in February 2026, indicating a stable preference for this flavor profile.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "pack_size",
+      "value": "25 tablets",
+      "claim_text": "The user has ordered the 25 tablets pack size of VICKS Double Power Cough Drops on 3 independent dates in February 2026, indicating a stable preference for this pack size.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,7 +37,7 @@
     {
       "dimension": "brand",
       "value": "VICKS Double Power",
-      "claim_text": "The user has a stable preference for the VICKS Double Power line, evidenced by purchases on 3 independent dates in February 2026.",
+      "claim_text": "The user has ordered VICKS Double Power products on 3 independent dates in February 2026, indicating a stable preference for this sub-brand line.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -29,6 +45,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No other brands or product variants appeared in this category during February 2026. The consistent afternoon weekday timing suggests a routine for portable relief, but no other behavioral shifts or new product introductions were observed.",
-  "overall_confidence": "high"
+  "uncertainty_text": "This summary is based on 3 independent orders in February 2026. The repeated purchases of the same specific product variant suggest a stable preference rather than a one-time acute need.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-07-13",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-13 (weekday), the user purchased one order of Bonn High Fibre Brown Bread 400 g in the evening. This is a packaged brown bread loaf, typically used for breakfast, sandwiches, or toast, suggesting a need for a staple food item for immediate or next-day consumption. The evening purchase occurred at a time when population share (0.3027) is comparable to morning (0.3246). This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this evening purchase (e.g., stockout, meal planning) is not determined.",
+  "summary_text": "On 2026-07-13 (weekday), one order of Bonn High Fibre Brown Bread 400 g was placed in the evening. This timing aligns with the population baseline, where evening purchases (0.3027) are nearly as common as morning purchases (0.3246) for bread. The product is a packaged brown bread, typically used for breakfast, sandwiches, or toast, suggesting a need for a staple food item for immediate or near-future consumption. This is a single observation on one date, so it is not possible to determine if this represents a stable preference, a routine, or a one-time need. No brand or product preference can be established from this single data point.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this evening purchase (e.g., stockout, meal planning) is not determined.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so it is not possible to determine if this represents a stable preference, a routine, or a one-time need. No brand or product preference can be established from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-13"
+    ],
+    "first_seen_at": "2026-07-13T18:04:49",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

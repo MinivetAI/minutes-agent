@@ -1,7 +1,7 @@
 {
   "date": "2026-02-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-06, a weekday, a single order was placed in the afternoon. The basket contained two items: 2 units of Milk and 1 unit of Savouries Namkeens. This represents a narrow basket with a breadth of 2 categories. The combination of Milk and Savouries Namkeens was observed. No other products were purchased or added to cart in this session. The user may be assembling a snack or light meal component involving dairy and savory accompaniments. This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
+  "summary_text": "On 2026-02-06 (weekday), a single order was placed in the afternoon. The basket contained 2 units of Milk and 1 unit of Savouries Namkeens. This combination reflects a purchase of a dairy staple alongside a snack item. This single observation is compatible with a need for immediate consumption or a simple meal component, but does not establish a durable preference pattern.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,11 +13,20 @@
       "combination_text": "Milk and Savouries Namkeens were purchased together in this order.",
       "support": 0.057,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be assembling a snack or light meal component involving dairy and savory accompaniments.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for a quick snack or a simple meal component combining dairy and savory items.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences cannot be determined from this limited evidence.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-06"
+    ],
+    "first_seen_at": "2026-02-06T12:36:19",
+    "last_seen_at": "2026-02-06T12:36:19"
+  }
 }

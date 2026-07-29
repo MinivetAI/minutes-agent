@@ -1,9 +1,23 @@
 {
   "date": "2026-04-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-28 (weekday), the user purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the night. This timing is less common for this category compared to the population baseline (night share 0.1202 vs morning 0.3246). The product is a single-serve probiotic curd suitable for immediate consumption or as a meal component. This is a single observed order on one date; durable preferences or habitual patterns cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered Mother Dairy Advanced Probiotic Plain Curd 200 g (quantity: 2) during the night. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, aligning with the lower population share for night (0.1202). The product is a small, single-serve probiotic curd suitable for immediate consumption or as a quick meal component. Confidence in any specific brand or product preference is low because this is the only observed order. It is not yet established whether this is a habitual choice or an isolated purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "One order of Mother Dairy Advanced Probiotic Plain Curd 200 g (quantity: 2) placed on a weekday night. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, aligning with the lower population share for night (0.1202).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Confidence in any specific brand or product preference is low because this is the only observed order. It is not yet established whether this is a habitual choice or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-28"
+    ],
+    "first_seen_at": "2026-04-28T21:50:01",
+    "last_seen_at": "2026-04-28T21:50:01"
+  }
 }

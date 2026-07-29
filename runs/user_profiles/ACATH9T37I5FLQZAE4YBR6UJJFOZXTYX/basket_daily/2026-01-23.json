@@ -1,7 +1,7 @@
 {
   "date": "2026-01-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-23 (weekday), a single order was placed during the morning daypart. The basket contained 9 items across 6 categories: Pasta (2 units), Vegetables (3 units total across 3 distinct products), Noodles (1 unit), Poha (1 unit), Fruits (1 unit), and Savouries Namkeens (2 units). The order reflects a mix of staple carbohydrates and fresh produce, supplemented by savory snacks. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-01-23 (weekday), a single order was placed in the morning daypart. The basket included staple carbohydrates (Pasta, Noodles, Poha), fresh produce (Vegetables, Fruits), and Savouries Namkeens. This combination suggests a need for meal preparation or snack assembly involving multiple food groups, specifically combining dry staples with fresh vegetables and savory accompaniments.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,11 +13,20 @@
       "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
       "support": 0.246,
       "lift": null,
-      "confidence": "high"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order suggests a need for meal preparation involving carbohydrates and fresh ingredients, along with a snack item.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Preparation of a meal or snack combining staple carbohydrates with fresh vegetables and savory snacks.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

@@ -1,11 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-08 (morning, weekday) contained 2 units of Fruits. No other products were purchased or added to cart in this session. The basket breadth is limited to one category (Fruits).",
+  "basket_summary_text": "A single order placed on a weekday morning containing 2 units of Fruits. The basket is narrow, consisting of only one product category. No other categories were purchased in this order, so no category combinations are observed for this specific transaction.",
   "behavior_patterns": [],
   "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Fruits is compatible with a need for fresh produce consumption.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The provided `category_pair_evidence` reflects population-level co-order statistics and does not apply to this specific user's single-item basket.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of fresh fruit suggests a need for healthy snacks or ingredients for immediate consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one date. It is not sufficient to establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-08"
+    ],
+    "first_seen_at": "2026-06-08T07:54:36",
+    "last_seen_at": "2026-06-08T07:54:36"
+  }
 }

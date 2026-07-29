@@ -1,11 +1,55 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-24 (morning, weekday) included one unit each of Milk, Vegetables, and Breads. The basket breadth covers three distinct categories. The combination of Breads and Vegetables was observed in this order; the supporting evidence for this pair shows a support of 0.086, confidence of 0.231, and lift of 1.01, based on a co-order count of 6. The combination of Milk and Vegetables was also present; the supporting evidence for this pair shows a support of 0.057, confidence of 0.235, and lift of 1.029, based on a co-order count of 4. The combination of Breads and Milk was present; the supporting evidence for this pair shows a support of 0.057, confidence of 0.154, and lift of 0.633, based on a co-order count of 4. This single order is compatible with a breakfast or light meal preparation need.",
+  "basket_summary_text": "A single order placed on 2026-03-24 in the morning on a weekday contains one unit each of Milk, Vegetables, and Breads. This combination reflects a basic breakfast or meal-prep need compatible with these staple items. No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
-  "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a simple meal or snack involving dairy, fresh produce, and baked goods.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence in any behavioral inference is low.",
-  "overall_confidence": "low"
+  "category_combinations": [
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "support": 0.086,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "Milk"
+      ],
+      "combination_text": "Breads and Milk were purchased together in this order.",
+      "support": 0.057,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "The basket contains Milk, Vegetables, and Breads, which are compatible with a breakfast or morning meal preparation need.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or routine behaviors can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T07:53:10",
+    "last_seen_at": "2026-03-24T07:53:10"
+  }
 }

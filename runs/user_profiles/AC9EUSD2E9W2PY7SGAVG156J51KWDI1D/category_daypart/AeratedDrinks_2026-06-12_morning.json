@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1.25 L PET bottle of Thums Up carbonated cola soft drink.",
+  "summary_text": "One order of Thums Up Soft Drink 1.25 L PET Bottle.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when morning activity is above the population baseline (32.46%). The product is a large-format carbonated beverage typically used for immediate refreshment or sharing.",
-  "uncertainty_text": "This is a single observed transaction; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered on a weekday morning. This timing is consistent with the population baseline where morning accounts for 32.46% of activity. The product is a carbonated cola beverage in a 1.25 L PET bottle, typically used for immediate refreshment or sharing.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Thums Up, aerated drinks, or morning purchasing habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

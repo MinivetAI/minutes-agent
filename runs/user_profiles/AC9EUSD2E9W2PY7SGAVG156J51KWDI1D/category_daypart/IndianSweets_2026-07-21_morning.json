@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One unit of SAMHHWDWYZ2DTSST (Indian Sweets) was purchased. No browsing or cart activity was observed.",
+  "summary_text": "One order of Indian Sweets (Product: SAMHHWDWYZ2DTSST, Quantity: 1) was completed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning on a weekday. This timing is consistent with the population baseline, where morning activity accounts for 32.46% of volume. The product is a sweet food item.",
-  "uncertainty_text": "This is a single observed transaction on one date. It is not yet possible to establish a stable preference, routine, or recurring need for Indian Sweets. The specific brand or flavor preference cannot be determined from the product ID alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, which aligns with the population baseline where morning accounts for 32.46% of activity. The product is a sweet food item, generally used for consumption or gifting.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference, a routine, or an isolated purchase. No brand preference can be inferred as no brand data is provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

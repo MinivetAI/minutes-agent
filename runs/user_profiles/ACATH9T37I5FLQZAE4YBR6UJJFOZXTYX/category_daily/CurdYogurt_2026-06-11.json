@@ -1,9 +1,17 @@
 {
   "date": "2026-06-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-11 (weekday), the user purchased 2 units of Amul Masti Dahi Plain Curd (200 ml packs) during the night. This daypart represents 12.02% of population activity, which is lower than morning, afternoon, or evening. The small 200 ml pack size suggests immediate consumption needs, such as pairing with a meal or topping up a household shortfall, rather than bulk stocking. This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for the night-time purchase (e.g., immediate meal need vs. convenience) is not established.",
+  "summary_text": "On 2026-06-11 (weekday), the user ordered Amul Masti Dahi Plain Curd (200 ml), quantity 2, during the night. This timing is less common for this category compared to morning, afternoon, or evening (population night share 0.1202 vs. morning 0.3246). The small 200 ml pack size suggests a need for immediate, single-serve consumption or topping up a short-term shortfall rather than bulk stocking. This is a single observation on one date; it does not establish a stable preference for Amul, plain curd, or night-time ordering. It is unclear if this was a one-off need or part of a recurring pattern.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for the night-time purchase (e.g., immediate meal need vs. convenience) is not established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for Amul, plain curd, or night-time ordering. It is unclear if this was a one-off need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

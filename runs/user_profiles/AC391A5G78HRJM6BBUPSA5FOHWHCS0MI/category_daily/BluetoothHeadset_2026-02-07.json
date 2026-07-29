@@ -1,9 +1,23 @@
 {
   "date": "2026-02-07",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-07 (weekend), the user purchased 1 unit of boAt Rockerz 110 Wireless Neckband Earphones (Deep Purple) during the night. This Bluetooth neckband-style earphone features 40-hour playback, fast charging, and low-latency mode, serving general utility for personal audio, calls, and media consumption. The order occurred during the night, a period with lower population share (0.1202) compared to morning (0.3246) and evening (0.3027). This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type. No browsing or funnel events were recorded to indicate prior interest or comparison behavior.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-07 (weekend), the user ordered one boAt Rockerz 110 Wireless Neckband Earphones during the night. This timing is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a personal audio device with long battery life and low-latency features, generally used for music, calls, or media consumption. This is a single observation on one date; it does not establish a stable preference for the brand, product type, or timing. It is unclear if this was a replacement for a lost/damaged item, a new purchase, or a gift.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "One order of boAt Rockerz 110 Wireless Neckband Earphones (quantity: 1) placed on a weekend night. This timing is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a personal audio device with long battery life and low-latency features, generally used for music, calls, or media consumption. This is a single observation on one date; it does not establish a stable preference for the brand, product type, or timing. It is unclear if this was a replacement for a lost/damaged item, a new purchase, or a gift.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type. No browsing or funnel events were recorded to indicate prior interest or comparison behavior.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the brand, product type, or timing. It is unclear if this was a replacement for a lost/damaged item, a new purchase, or a gift.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-07"
+    ],
+    "first_seen_at": "2026-02-07T21:22:18",
+    "last_seen_at": "2026-02-07T21:22:18"
+  }
 }

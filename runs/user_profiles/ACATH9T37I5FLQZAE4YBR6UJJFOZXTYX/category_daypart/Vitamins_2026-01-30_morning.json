@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Eno Lemon Antacid Powder (30 g) was placed in the morning. No browsing, search, or cart activity was observed for this category in this window.",
+  "summary_text": "One order of Eno Lemon Antacid Powder (30 g) placed in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning on a weekday, a time when the user's activity (32.46% share) is above the population baseline for this daypart. The product is a fast-acting antacid powder, typically used for immediate relief from acidity or heartburn, suggesting a need for quick digestive relief during the start of the day or after a morning meal.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for antacids. It is unclear if this was a one-time need or part of a recurring pattern. No browsing intent (search/views) was recorded, so the user's discovery process or comparison behavior is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchasing activity is above the population baseline (32.5% of population activity vs. 25.3% afternoon, 30.3% evening, 12.0% night). The product is a fast-acting antacid powder, typically used for immediate relief from acidity or heartburn, suggesting a need for quick digestive relief during the start of the day or after a morning meal.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader pattern of digestive health management. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

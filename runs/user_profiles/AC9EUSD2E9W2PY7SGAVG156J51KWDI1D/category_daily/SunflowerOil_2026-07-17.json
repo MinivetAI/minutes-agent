@@ -1,9 +1,17 @@
 {
   "date": "2026-07-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-17 (weekday), the user purchased one unit of Fortune Sunlite Refined Sunflower Oil 800 g Pouch during the morning. This daypart has a 32.46% population share. The product is a refined sunflower cooking oil suitable for everyday cooking, frying, or meal prep. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-07-17 (weekday), one order of Fortune Sunlite Refined Sunflower Oil 800 g Pouch was placed in the morning. This mid-small pack is typically used for routine kitchen replenishment or quick replacement of cooking oil. The population baseline indicates morning purchases are common (32.46%). This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was a one-time need.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-17"
+    ],
+    "first_seen_at": "2026-07-17T10:33:18",
+    "last_seen_at": "2026-07-17T10:33:18"
+  }
 }

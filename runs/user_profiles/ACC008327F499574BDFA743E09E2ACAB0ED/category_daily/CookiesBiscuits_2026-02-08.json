@@ -1,9 +1,17 @@
 {
   "date": "2026-02-08",
   "day_type": "weekend",
-  "summary_text": "On this weekend afternoon, the user purchased three distinct biscuit products in a single order: a 400 g shareable pack of Karachi Bakery Fruit & Nut Cookies, a 70 g pack of Britannia Little Hearts Classic Crunch biscuits, and a 108 g pack of Sunfeast Dark Fantasy Bourbon biscuits. This mix suggests immediate individual indulgence alongside household stocking or sharing, consistent with weekend snacking or tea-time preparation. The order occurred during a daypart with lower population share than the morning baseline (0.2526 vs 0.3246).",
+  "summary_text": "On 2026-02-08 (weekend), one order was placed in the afternoon containing one 400 g pack of Karachi Bakery Fruit & Nut Cookies, one 70 g pack of Britannia Little Hearts Classic Crunch Biscuits, and one 108 g pack of Sunfeast Dark Fantasy Bourbon Biscuits. The afternoon is a period of moderate population activity for this category (25.26% share). These items are general-purpose tea-time snacks and sweet biscuits suitable for immediate consumption or casual hosting. This is a single observation on one date; no stable brand, product, or daypart preference can be established. It is unclear whether this represents a routine habit or a one-time purchase.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a durable brand preference or a recurring routine. The specific motivation for choosing these three particular brands and sizes simultaneously is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preference can be established. It is unclear whether this represents a routine habit or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T11:31:34",
+    "last_seen_at": "2026-02-08T11:31:34"
+  }
 }

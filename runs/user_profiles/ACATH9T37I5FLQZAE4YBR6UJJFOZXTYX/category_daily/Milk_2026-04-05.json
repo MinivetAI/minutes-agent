@@ -1,9 +1,17 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-05 (weekend), the user purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) in the morning. This purchase aligns with the user's morning activity pattern, which accounts for 32.46% of their total weekly volume. The product is a small-format, single-use liquid milk suitable for immediate kitchen consumption, such as tea, coffee, or breakfast. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-04-05 (weekend), the user purchased one unit of Amul Taaza Pasteurised Toned Milk (500 ml) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small-format liquid milk suitable for immediate kitchen use, such as breakfast or tea preparation. This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or specific usage pattern beyond the immediate purchase.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or specific usage pattern beyond the immediate purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-04-05T10:50:30"
+  }
 }

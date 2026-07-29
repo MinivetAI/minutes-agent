@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Chitale Cow Milk 500 ml.",
+  "summary_text": "One order of Chitale Cow Milk 500 ml (quantity: 2) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the morning on a weekday, a time when this category has a 32.46% population share. The product is a small-pack fresh milk SKU suitable for immediate household use such as tea, coffee, or breakfast.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchases are less frequent than the population baseline (morning share 0.3246). The product is a small-pack fresh milk SKU, typically used for immediate household needs such as tea, coffee, or breakfast preparation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time urgent purchase or the start of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-18"
+    ],
+    "first_seen_at": "2026-05-18T10:21:16",
+    "last_seen_at": "2026-05-18T10:21:16"
+  }
 }

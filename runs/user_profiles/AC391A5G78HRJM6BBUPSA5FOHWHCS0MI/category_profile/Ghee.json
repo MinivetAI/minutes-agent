@@ -1,41 +1,27 @@
 {
-  "category": "Ghee",
-  "profile_text": "The user demonstrates a stable, slow-paced replenishment pattern for ghee, with purchases occurring approximately every 52 days. Evidence spans three independent dates (February, March, and June 2026), indicating a recurring household need for shelf-stable dairy fat used in everyday Indian cooking. While the user has purchased from two different brands (Gyan and Mother Dairy) across these dates, the brand preference is not yet stable enough to assign high confidence to a single brand; both appear as supported options with medium confidence based on their individual appearance counts. The user buys various pack sizes (450 ml, 900 ml, 1 L) and times purchases on weekdays, often in the evening. There is no evidence of unmet interest or discovery behavior; all observed interactions resulted in completed purchases.",
-  "brand_preferences": [
-    {
-      "brand": "Gyan",
-      "preference_text": "Purchased on two independent dates (2026-02-18 and 2026-03-xx), indicating a supported but not yet dominant brand preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "Mother Dairy",
-      "preference_text": "Purchased on one independent date (2026-06-02). As a single observation, it does not establish a stable preference, but it is a supported brand in the user's history.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Ghee",
+  "summary_text": "The user has purchased ghee on three separate occasions across February, March, and June 2026. The orders include Gyan Ghee (450 ml and 900 ml cartons) and Mother Dairy Buffalo Ghee (1 L tetrapack). Each order represents a single observation on an independent date; no stable brand preference, routine, or recurring pattern is established from this evidence.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased both Gyan and Mother Dairy brands, as well as carton and tetrapack formats. However, with only one order per brand and format observed, it is not possible to determine if these are interchangeable preferences or distinct, non-substitutable choices. No substitution boundaries can be established.",
+  "uncertainty_text": "This profile is based on three isolated orders across different months. It is unknown if the user has a stable brand preference (Gyan vs. Mother Dairy), a preferred pack size (450 ml, 900 ml, or 1 L), or a consistent shopping daypart. The specific need driving these purchases (e.g., routine restocking vs. specific recipe requirement) cannot be determined.",
+  "retrieval_text": "User purchased Gyan Ghee 450 ml Carton in Feb 2026, Gyan Ghee 900 ml Carton in Mar 2026, and Mother Dairy Buffalo Ghee Tetrapack 1 L in Jun 2026. All orders were single-unit purchases on weekdays. No stable brand or format preference is established due to lack of repetition.",
   "replenishment": {
     "cadence_days": 52.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-02",
     "predicted_next_purchase_date": "2026-07-24",
-    "replenishment_text": "The user typically replenishes this category every 52 days, classified as a slow cadence. The last purchase was on 2026-06-02, and the next purchase is estimated around 2026-07-24 based on this average interval.",
-    "confidence": "high",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Ghee is reordered roughly every 52 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; all observed search, view, or cart activities (if any) are not present, but all observed interactions resulted in completed transactions.",
-  "substitution_text": "The user has purchased from multiple brands (Gyan, Mother Dairy) and pack sizes (450 ml, 900 ml, 1 L), indicating flexibility in brand and size selection rather than strict substitution patterns.",
-  "price_value_text": "No explicit price or value behavior is observed in the summaries. Purchases span different pack sizes, suggesting value is derived from utility and availability rather than a specific price point.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty. The user consistently completes purchases when buying ghee.",
-  "mission_generation_text": "Supports routine household cooking needs, specifically for everyday Indian food preparation, finishing dishes, or maintaining a pantry staple of shelf-stable dairy fat.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-02-18T08:25:35",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

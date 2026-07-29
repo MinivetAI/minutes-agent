@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased Apple Red Delicious (2 Units), Watermelon Kiran (1 Unit), and Banana Robusta (3 Units) in a single order. No browsing or cart activity was recorded.",
+  "summary_text": "One order of fresh fruits including Apple Red Delicious (2 units), Watermelon Kiran (1 unit), and Banana Robusta (3 units), plus one additional fruit item (FRTGNSSYPUVEHFEQ).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekend morning, a time when morning activity is above the population baseline (32.46%). The products are fresh, ready-to-eat fruits typically used for immediate consumption, such as breakfast, snacks, or quick hydration.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific fruits or this shopping time.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekend. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are fresh, ready-to-eat fruits typically used for immediate consumption, such as snacks or breakfast components.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of fruits, the morning timing, or the weekend day-type represents a stable preference or routine. No brand preferences can be inferred as all visible brands are 'Unbranded'.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-02"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

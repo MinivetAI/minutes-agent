@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of flour (1 unit) placed in the afternoon.",
+  "summary_text": "One order of Flour (1 unit) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time when this category is less common than the population baseline (25.26% share vs. 32.46% for morning).",
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or a discovery-driven one. No brand preference can be established from a single item.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline where afternoon accounts for 25.26% of activity (compared to 32.46% in the morning). The product is a general baking staple.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or specific baking intent.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-02"
+    ],
+    "first_seen_at": "2026-04-02T12:16:18",
+    "last_seen_at": "2026-04-02T12:16:18"
+  }
 }

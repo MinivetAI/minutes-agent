@@ -1,47 +1,46 @@
 {
-  "category": "Milk",
-  "profile_text": "The user demonstrates a high-confidence, stable preference for fresh cow milk, specifically in 500 ml formats. They regularly purchase from two distinct brands, Amul and Chitale, alternating between them across multiple months (March through July 2026). Purchases are frequent, with a fast cadence averaging 3.5 days. The primary shopping window is weekday mornings, though Amul purchases also occur in afternoons and evenings. The user buys small-format liquid milk suitable for immediate kitchen use, such as beverages or breakfast.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "Stable preference for Amul milk, evidenced by purchases on multiple independent dates across March, May, June, and July 2026.",
-      "confidence": "high",
-      "evidence_count": 14,
-      "independent_date_count": 14
-    },
-    {
-      "brand": "Chitale",
-      "preference_text": "Stable preference for Chitale milk, evidenced by purchases on multiple independent dates across May, June, and July 2026.",
-      "confidence": "high",
-      "evidence_count": 11,
-      "independent_date_count": 11
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for 500 ml fresh cow milk formats, specifically Amul Taaza Pasteurised Toned Milk and Chitale Cow Milk, observed repeatedly across multiple months.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Milk",
+  "summary_text": "The user demonstrates a stable, high-frequency preference for fresh cow milk in 500 ml packs, primarily from the brands Chitale and Amul. Evidence spans from February 2026 through July 2026, with Chitale and Amul each appearing on multiple independent dates across several months, establishing high confidence for both brands. The 500 ml pack size is the dominant format, observed consistently in June and July. While morning ordering was prominent in earlier months (March, May, June), July data shows varied timing across morning, afternoon, and evening, indicating that while brand and product type are stable, specific daypart routines have become less rigid or are context-dependent. No other brands or pack sizes have reached stable preference status.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Chitale",
+        "preference_text": "The user has a stable preference for Chitale milk, observed on multiple independent dates across May, June, and July 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to Chitale fresh cow milk in 500 ml packs; it does not extend to Chitale's other product lines or different pack sizes."
+      },
+      {
+        "brand": "Amul",
+        "preference_text": "The user has a stable preference for Amul milk, observed on multiple independent dates across March, May, June, and July 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to Amul fresh cow milk in 500 ml packs; it does not extend to Amul's long-life or condensed milk variants."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [
+      {
+        "pack_size": "500 ml",
+        "preference_text": "The user consistently orders milk in 500 ml packs, particularly evident in June and July 2026 where this was the exclusive format observed.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user substitutes between Chitale and Amul fresh cow milk (500 ml) without a single dominant brand, indicating these two are acceptable alternatives. Other brands like Gokul have appeared but only once, suggesting they are not primary substitutes. Long-life or condensed milk variants (e.g., Amul Moti, Amul Mithai Mate) are not established substitutes for the fresh cow milk preference.",
+  "uncertainty_text": "While brand (Chitale, Amul) and product type (fresh cow milk, 500 ml) are stable, the user's ordering timing (daypart and day-type) lacks a consistent pattern in recent months (July), with purchases occurring in the morning, afternoon, and evening. It is unclear if the user has a specific need for fresh milk at certain times or if timing is flexible. The user's preference for fresh milk over long-life milk is established, but the specific trigger for choosing Chitale vs. Amul on any given date is not determined.",
+  "retrieval_text": "The user exhibits a stable preference for fresh cow milk in 500 ml packs, primarily from brands Chitale and Amul, with high-confidence evidence spanning multiple independent dates from March through July 2026. Chitale and Amul are both frequently purchased, with Chitale appearing on 5+ dates in June and Amul on 4+ dates in June and July, indicating no single brand dominance but a strong category loyalty to these two. The 500 ml pack size is the consistent format. While morning ordering was prevalent in earlier months, recent behavior in July shows varied timing across morning, afternoon, and evening, suggesting flexibility in daypart preference. Substitution between Chitale and Amul is common, while other brands or milk types (long-life, condensed) are not established preferences.",
   "replenishment": {
     "cadence_days": 3.5,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-07-21",
     "predicted_next_purchase_date": "2026-07-24",
-    "replenishment_text": "The user purchases milk approximately every 3.5 days, indicating a fast replenishment cycle consistent with daily fresh milk consumption.",
-    "confidence": "high",
-    "evidence_count": 29,
-    "independent_date_count": 29
+    "replenishment_text": "Milk is reordered roughly every 4 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, with completed transactions observed on 29 independent dates across six months.",
-  "substitution_text": "The user substitutes between Amul and Chitale brands without abandoning the category, suggesting brand flexibility rather than product substitution.",
-  "price_value_text": "No explicit price or value behavior data is available in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "Gokul milk was purchased on a single date (May 10) and does not establish a stable preference. Amul Mithai Mate Sweetened Condensed Milk was observed on a single date and does not establish a stable preference.",
-  "mission_generation_text": "Supports daily nutritional needs for beverages (tea, coffee) and breakfast preparation, requiring frequent restocking of fresh, small-format liquid milk.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 29,
+    "independent_date_count": 29,
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased 2 units of Chitale Cow Milk 500 ml in the morning. This timing aligns with a 32.46% population share for this category during morning hours. The small-pack fresh milk SKU is suitable for immediate household use such as tea, coffee, or breakfast. This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Chitale Cow Milk 500 ml (quantity: 2) during the morning. This single transaction suggests a need for immediate household use, such as for breakfast or tea, rather than bulk stocking. The timing aligns with the population baseline where morning activity accounts for 32.46% of activity. As this is an isolated observation on one date, no stable preference or routine can be confirmed.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Chitale Cow Milk 500 ml (quantity: 2) placed on a weekend morning. The purchase of small-pack fresh milk suggests a need for immediate household use, such as for breakfast or tea, rather than bulk stocking.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, pack size, or timing over other options. No stable routine or recurring pattern can be confirmed from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T08:48:45",
+    "last_seen_at": "2026-07-04T08:48:45"
+  }
 }

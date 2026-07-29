@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased four unbranded fresh vegetable items: Red Carrot (500 g), Coriander Leaves (100 g), Onion (400–450 g), and Baby Potato (280–320 g).",
+  "summary_text": "One order of unbranded fresh vegetables placed on a weekday evening, containing Red Carrot (500 g), Coriander Leaves (100 g), Onion (400–450 g), and Baby Potato (280–320 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246). The basket consists of basic fresh produce staples (onion, potato, carrot, coriander) typically used for immediate meal preparation or cooking base ingredients.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening on a weekday. This timing aligns with the population baseline where evening accounts for 30.27% of activity, slightly below the morning share (32.46%) but higher than afternoon (25.26%) and night (12.02%). The products are fresh, unbranded staples typically used for immediate meal preparation, suggesting a need to replenish ingredients for cooking.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific items, a routine evening shopping habit, or a one-time urgent top-up. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T17:46:26",
+    "last_seen_at": "2026-02-23T17:46:26"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Baby Banana Robusta 500 g (fresh bananas) placed on 2026-07-21 in the morning.",
+  "summary_text": "One order of Baby Banana Robusta 500 g (fresh bananas) on 2026-07-21.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a period with a population share of 0.3246. The product is a small, 500 g pack of fresh bananas, typically used for immediate consumption, breakfast, or as a quick snack top-up.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine for this specific product or category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small, fresh fruit pack typically used for immediate consumption, breakfast, or quick snack replenishment.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific banana type, brand, or morning timing. No other products or dates are available to determine broader fruit preferences or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

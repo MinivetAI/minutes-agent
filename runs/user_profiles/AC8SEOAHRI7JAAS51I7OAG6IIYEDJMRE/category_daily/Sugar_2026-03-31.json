@@ -1,9 +1,17 @@
 {
   "date": "2026-03-31",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-31 (weekday), the user purchased one 1 kg pack of Fortune white sugar in the afternoon. This timing is less common than the population baseline, which shows a higher share of activity in the morning (0.3246) and evening (0.3027). The product serves a general utility as a basic ingredient for daily meals and beverages.",
+  "summary_text": "On this weekday, the user purchased one unit of Fortune Sugar (1 kg) during the afternoon. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a standard white sugar staple, typically used for daily cooking, sweetening beverages, or baking. This is a single observation on one date; it is not yet established whether the user prefers the Fortune brand over other sugar brands, or if this afternoon timing reflects a stable habit rather than a one-time need.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference for the Fortune brand or a one-time need to replenish sugar. No browsing or search history was provided to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers the Fortune brand over other sugar brands, or if this afternoon timing reflects a stable habit rather than a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-31T11:33:41",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 2 units of Mother Dairy Probiotic Tadka Buttermilk (270 ml) in the afternoon.",
+  "summary_text": "Ordered 2 units of Mother Dairy Probiotic Tadka Buttermilk (270 ml) on 2026-03-28.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed on a weekend afternoon, a time when this category has a population share of 0.2526. The product is a ready-to-drink probiotic beverage, suggesting a need for immediate, convenient refreshment or a savory drink option.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for choosing this probiotic variant over plain buttermilk is not established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) but aligns with the afternoon share (0.2526). The product is a ready-to-drink probiotic beverage, suggesting a need for immediate, convenient refreshment or a savory drink option.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference for this brand or product, or if the user typically buys buttermilk at different times or brands.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T12:56:25",
+    "last_seen_at": "2026-03-28T12:56:25"
+  }
 }

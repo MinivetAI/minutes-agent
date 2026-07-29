@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-09 in the afternoon on a weekday contained one unit of Bathroom Floor Cleaner and one unit of Shampoo. The basket breadth is narrow, consisting of two distinct personal care and home maintenance categories. The `shopping_need_text` describes a need for home hygiene and personal grooming compatible with the basket. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-04-09 in the afternoon on a weekday contained one unit of Bathroom Floor Cleaner and one unit of Shampoo. This represents a single-observation basket with no repeated category combinations or durable behavior patterns established in this window.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,11 +12,20 @@
       "combination_text": "Bathroom Floor Cleaner and Shampoo were purchased together in a single order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Need for home cleaning and personal hygiene products.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, recurring patterns, or durable behavioral traits cannot be inferred from this single data point. The `category_pair_evidence` provided relates to other categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values are applied to the observed basket.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Bathroom Floor Cleaner and Shampoo suggests a need for household cleaning and personal hygiene products.",
+  "uncertainty_text": "This analysis is based on a single order from one daypart. No repeated behavior patterns, stable preferences, or durable habits can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T14:22:40",
+    "last_seen_at": "2026-04-09T14:22:40"
+  }
 }

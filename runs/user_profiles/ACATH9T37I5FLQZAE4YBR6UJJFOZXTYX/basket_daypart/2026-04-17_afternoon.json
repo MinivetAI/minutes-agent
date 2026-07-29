@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-17 in the afternoon on a weekday. The basket is heavily weighted toward Vegetables (14 items), accompanied by Chocolates (2 items), Pasta (2 items), Aerated Drinks (1 item), Curd Yogurt (2 items), and Milk (1 item). No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single afternoon weekday order on 2026-04-17 containing a large quantity of vegetables (14 units across 13 distinct SKUs), accompanied by pasta, chocolates, milk, curd yogurt, and aerated drinks. The basket suggests a need for meal preparation involving vegetable-heavy dishes (e.g., pasta with vegetables) and accompanying dairy and snacks. Due to the single observation, this represents an isolated event rather than a stable pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,7 +12,9 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -22,7 +24,9 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -32,7 +36,9 @@
       "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.344,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -42,51 +48,20 @@
       "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
       "support": 0.328,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Diaper",
-        "Vegetables"
-      ],
-      "combination_text": "Diaper and Vegetables were purchased together in this order.",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Vegetables"
-      ],
-      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Baby Cereal",
-        "Vegetables"
-      ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables were purchased together in this order.",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for meal preparation involving vegetables and pasta, supplemented with dairy products (milk, curd yogurt) and snacks (chocolates, aerated drinks).",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal involving vegetables and pasta, with accompanying dairy products and snacks.",
+  "uncertainty_text": "This is a single observation on one date. Stable preferences or routine behaviors cannot be inferred from this data alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

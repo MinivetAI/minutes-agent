@@ -1,26 +1,27 @@
 {
-  "category": "Washing Powder",
-  "profile_text": "In June 2026, the user purchased one 500 g pouch of Surf Excel Easy Wash Detergent Powder on a weekday morning. This compact pack size suggests a short-refill cycle or urgent top-up need, suitable for same-day wash loads or quick refreshes of school/office clothes. The order occurred during a time when 32.46% of the population is active. As this is a single observed order on one date, durable brand preference or routine buying patterns cannot be established. The specific reason for choosing the 500 g pack over larger formats (e.g., stockout, travel, small household) is not confirmed.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Washing Powder",
+  "summary_text": "In June 2026, the user purchased Surf Excel Easy Wash Detergent Powder 500 g on a weekday morning. This timing aligns with the population baseline where morning shares (0.3246) are the highest among dayparts. The product is a compact 500 g hand-wash detergent, typically used for urgent laundry needs, quick refreshes, or short-term stock replenishment. This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time urgent need, or part of a broader brand preference. No other products or brands were observed in this window.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns observed; only one brand and product variant were purchased in this window.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time urgent need, or part of a broader brand preference. No other products or brands were observed in this window.",
+  "retrieval_text": "In June 2026, the user purchased Surf Excel Easy Wash Detergent Powder 500 g on a weekday morning, a timing that aligns with the population baseline where morning shares are highest. This single observation involves a compact 500 g hand-wash detergent, typically used for urgent laundry needs, quick refreshes, or short-term stock replenishment. No other products or brands were observed in this window, and it is not yet established whether this is a recurring habit, a one-time urgent need, or part of a broader brand preference.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-03",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for WashingPowder yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price/value behavior established from a single order.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports immediate laundry needs, such as refreshing school or office clothes or handling a small, urgent wash load.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

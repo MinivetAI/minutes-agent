@@ -1,40 +1,46 @@
 {
-  "category": "Diaper",
-  "profile_text": "The user maintains a high-confidence, stable preference for Pampers Complete Skin Comfort Pant Diapers, specifically the XL size with 56-count packs. Purchases occur with a fast cadence (approximately every 7 days), indicating a routine restock for infant hygiene needs. The user primarily shops during weekday afternoons and mornings, with no significant hesitation or comparison behavior observed.",
-  "brand_preferences": [
-    {
-      "brand": "Pampers",
-      "preference_text": "The user has a stable preference for Pampers diapers, evidenced by purchases on 18 independent dates spanning January through June 2026.",
-      "confidence": "high",
-      "evidence_count": 18,
-      "independent_date_count": 18
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Pampers Complete Skin Comfort Pant Diapers (XL, 56 Count), evidenced by purchases on 10+ independent dates across multiple months.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 7.0,
-    "cadence_class": "fast",
-    "last_purchase_date": "2026-06-27",
-    "predicted_next_purchase_date": "2026-07-04",
-    "replenishment_text": "The user purchases this category approximately every 7 days, classifying it as a fast-replenishing item. The last purchase was on 2026-06-27, with the next estimated purchase around 2026-07-04.",
-    "confidence": "high",
-    "evidence_count": 18,
-    "independent_date_count": 18
+  "category_name": "Diaper",
+  "summary_text": "The user demonstrates a strong, stable preference for Pampers diapers, specifically the Complete Skin Comfort Pant Diapers in XL size (56 count). This preference is supported by consistent ordering across six months (January–June 2026), with high-confidence evidence in February and June, and medium-to-high confidence in other months. While early months showed variation in size (L/XL) and daypart, recent behavior (May–June) stabilizes on XL size and afternoon/weekday timing. No other brands or significant product variants have been observed.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Pampers",
+        "preference_text": "The user consistently purchases Pampers diapers across multiple months, with high-confidence support in February and June 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Pampers brand within the diaper category and does not extend to other diaper brands such as Huggies or Luvs."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Pampers Complete Skin Comfort Pant Diapers XL (56 Count)",
+        "preference_text": "The user has a stable preference for the Complete Skin Comfort Pant Diapers in XL size with 56 count, supported by high-confidence evidence in June 2026 and consistent ordering in May and April.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; the user has a history of completed orders without observed browsing or cart-addition hesitation.",
-  "substitution_text": "No evidence of brand or product substitution was observed; the user consistently selects Pampers Complete Skin Comfort Pant Diapers.",
-  "price_value_text": "No explicit price or value sensitivity data was provided in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior or uncertainty signals were detected.",
-  "mission_generation_text": "Routine restocking of disposable diapers for infant hygiene and skin comfort management.",
-  "overall_confidence": "high"
+  "daypart_understanding": [
+    {
+      "daypart": "afternoon",
+      "behavior_text": "The user frequently orders diapers in the afternoon, particularly in recent months (May and June), where afternoon was the dominant daypart.",
+      "confidence": "medium"
+    }
+  ],
+  "substitution_text": "The user has exclusively ordered Pampers Complete Skin Comfort products. No evidence suggests acceptance of other brands or different product lines (e.g., Pampers Swaddlers) as substitutes within this category.",
+  "uncertainty_text": "While the brand and specific variant are stable, the exact cadence (e.g., weekly vs. bi-weekly) is not explicitly defined by the summaries, though frequency appears regular. The user's flexibility with size (L to XL) in earlier months suggests size preference is driven by child growth rather than a fixed static size, though XL is the current stable choice. No other dayparts or brands are established as acceptable alternatives.",
+  "retrieval_text": "The user exhibits a high-confidence stable preference for Pampers Complete Skin Comfort Pant Diapers in XL size (56 count). This preference is evidenced by consistent ordering across six months (Jan–Jun 2026), with particularly strong support in February and June 2026. Recent behavior in May and June shows a concentration on this specific variant, often ordered on weekdays in the afternoon. No other diaper brands or significant product variants have been observed, indicating a narrow and stable brand loyalty to Pampers within the Complete Skin Comfort line.",
+  "replenishment": {
+    "cadence_days": 7,
+    "cadence_class": "fast",
+    "predicted_next_purchase_date": "2026-07-04",
+    "replenishment_text": "Diaper is reordered roughly every 7 days."
+  },
+  "evidence": {
+    "evidence_count": 18,
+    "independent_date_count": 18,
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

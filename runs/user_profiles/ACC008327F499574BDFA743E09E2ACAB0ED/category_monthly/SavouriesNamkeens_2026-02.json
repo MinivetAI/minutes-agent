@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased 1 unit of Bhujialalji Aloo Bhujia 150 g on a single date (2026-02-08). This is an isolated observation; no stable brand or product preferences can be established from this single order. The purchase occurred during the night on a weekend, a daypart with lower population share (0.1202) compared to other times of day. The product is a shelf-stable, ready-to-eat savoury snack, compatible with immediate snacking needs such as tea-time or hunger between meals.",
+  "summary_text": "On 2026-02-08 (weekend), the user placed one order of Bhujialalji Aloo Bhujia 150 g (1 unit) during the night. This occurred during a period of lower-than-average activity for this daypart relative to the population baseline. The product is a shelf-stable, ready-to-eat savoury snack, suitable for immediate consumption such as tea-time or between-meal snacking. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a specific craving, a household stock replenishment, or a one-time purchase.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a specific craving, a household stock replenishment, or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T22:18:01",
+    "last_seen_at": "2026-02-08T22:18:01"
+  }
 }

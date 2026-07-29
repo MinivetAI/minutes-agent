@@ -1,15 +1,17 @@
 {
   "date": "2026-05-30",
   "day_type": "weekend",
-  "summary_text": "On the weekend of 2026-05-30, the user purchased one 450 g can of Del Monte Baked Beans during the afternoon. This order occurred in a daypart where the user's activity is below the population baseline (25.26% share). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for convenient meal components or backup food supplies. This is a single observed order; it does not establish a stable preference or routine for canned baked beans. No browsing or cart activity was recorded to indicate prior interest or comparison.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased one 450 g can of Del Monte Baked Beans during the afternoon on a weekend. The order occurred in a daypart where the user's activity is below the population baseline (25.26% share). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for convenient meal components or backup food supplies. This is a single observed order; it does not establish a stable preference or routine for canned baked beans. No browsing or cart activity was recorded to indicate prior interest or comparison.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased Del Monte Baked Beans (450 g) during the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares. The product is a shelf-stable canned item, typically used as a convenient pantry staple or quick meal component. This is a single observation on one date. It is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific use cases (e.g., breakfast vs. dinner side) based on this isolated transaction.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for canned baked beans. No browsing or cart activity was recorded to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific use cases (e.g., breakfast vs. dinner side) based on this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-30T13:06:02",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-05-24",
   "day_type": "weekend",
-  "summary_text": "On a weekend morning, the user purchased one order of fresh vegetables, specifically a 1.95\u20132.05 kg pack of unbranded onions and two local cucumbers. This timing aligns with the category's population activity share of 32.46% for mornings. The items are staple fresh produce typically used as base ingredients for cooking or immediate consumption in salads. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user placed one order of fresh vegetables in the morning, a daypart where their activity is below the population baseline (32.46%). The order contained one pack of unbranded onions (1.95–2.05 kg) and two local cucumbers. These items are fresh produce staples typically used for immediate meal preparation, such as cooking bases or salads. This is a single observation on one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific recipe intentions.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of fresh vegetables placed on a weekend morning, containing one pack of unbranded onions (1.95–2.05 kg) and two local cucumbers. The order occurred in the morning, a time when this user's activity is below the population baseline (32.46%). The items are fresh produce staples typically used for immediate meal preparation, such as cooking bases or salads.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific recipe intentions.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

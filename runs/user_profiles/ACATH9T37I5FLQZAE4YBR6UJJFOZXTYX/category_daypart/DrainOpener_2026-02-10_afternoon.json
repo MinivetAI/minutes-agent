@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Kiwi Dranex Drain Cleaner Powder (50 g) to address household drain blockages in sinks or basins.",
+  "summary_text": "One order of Kiwi Dranex Drain Cleaner Powder (50 g), quantity 2, purchased on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when the user is slightly less active than the population baseline (25.3% vs 32.5% morning share), suggesting an immediate need rather than routine browsing.",
-  "uncertainty_text": "Single observation; cannot establish durable brand or category preference.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is below the population baseline share for this daypart (0.2526 vs. morning 0.3246 and evening 0.3027). The products are drain openers typically used for urgent household plumbing fixes, such as clearing slow or blocked kitchen sinks or bathroom drains.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Kiwi brand, a recurring need for drain maintenance, or a one-time incident response.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-10"
+    ],
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-02-10T11:33:22"
+  }
 }

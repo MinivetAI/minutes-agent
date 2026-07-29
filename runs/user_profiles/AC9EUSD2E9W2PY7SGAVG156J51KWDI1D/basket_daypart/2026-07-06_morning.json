@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-07-06 (morning, weekday) included 2 units of Milk, 1 unit of Fruits, 1 unit of Vegetables, and 1 unit of Jams Spreads. The basket reflects a basic breakfast or meal-preparation need compatible with these items. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-07-06 in the morning on a weekday included Milk (2 units), Fruits (1 unit), Vegetables (1 unit), and Jams Spreads (1 unit). This represents a single observation of basket breadth across four categories. The combination of Milk and Vegetables was observed in this order; supporting evidence from the broader dataset indicates this pair has a support of 0.3, confidence of 0.517, and lift of 1.293, based on 15 co-orders. No other category pairs from this specific order appear in the supplied category pair evidence. As this is the only order in this window, no stable patterns or routine behaviors can be established.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order. In the broader population evidence, this pair has a support of 0.3, confidence of 0.517, and lift of 1.293, based on 15 co-orders.",
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user likely has a need for basic breakfast or meal ingredients, specifically dairy, produce, and spreads.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in inferred user behavior is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket suggests a need for basic breakfast or meal preparation components, including dairy, fresh produce, and spreads.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-06T09:15:29"
+  }
 }

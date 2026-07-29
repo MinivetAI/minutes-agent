@@ -1,25 +1,78 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user placed 11 independent orders, predominantly on weekdays and during the morning daypart. The basket composition is characterized by a high frequency of dairy (Milk) and grain-based staples (Breads, Wheat Flour), often combined with fresh produce (Vegetables) or convenience items. While Milk and Breads appear together in multiple orders, this behavior is not yet established as a stable, recurring pattern due to the lack of repetition across independent dates for specific category sets. Shopping needs vary from basic meal preparation to specific ceremonial requirements and personal care restocking.",
+  "summary_text": "In June 2026, the user placed 11 orders across 11 independent dates, predominantly on weekdays (8) and mornings (7). The most consistent category combination is Milk and Breads, observed on 4 independent dates (2026-06-01, 2026-06-03, 2026-06-08, 2026-06-26), supporting a stable breakfast or morning meal preparation pattern. Milk appears in 9 of 11 orders, indicating high-frequency purchase. Vegetables appear in 4 orders (2026-06-08, 2026-06-12, 2026-06-21, 2026-06-28), often paired with Milk or Breads, suggesting regular produce shopping. Wheat Flour appears in 3 orders (2026-06-04, 2026-06-08, 2026-06-15, 2026-06-28), indicating recurring baking or cooking needs. Other categories like Ready Mixes, Coffee, Curd Yogurt, and Chocolates appear sporadically. No other category combinations recur across 2+ independent dates. Shopping needs are primarily for daily staples (dairy, bread, produce, flour) with occasional indulgence or ceremonial items.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
+  "category_combination_patterns": [
     {
-      "claim_text": "Milk and Breads were purchased together in multiple independent orders (2026-06-01, 2026-06-03, 2026-06-08, 2026-06-26), indicating a frequent co-occurrence in this month.",
-      "confidence": "low"
+      "categories": [
+        "Milk",
+        "Breads"
+      ],
+      "combination_text": "Milk and Breads",
+      "support": 0.26,
+      "lift": 1.245,
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
     },
     {
-      "claim_text": "Milk and Vegetables were purchased together in multiple independent orders (2026-06-08, 2026-06-15, 2026-06-21, 2026-06-28), indicating a frequent co-occurrence in this month.",
-      "confidence": "low"
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.3,
+      "lift": 1.293,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "claim_text": "Milk and Wheat Flour were purchased together in multiple independent orders (2026-06-08, 2026-06-15, 2026-06-28), indicating a frequent co-occurrence in this month.",
-      "confidence": "low"
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables",
+      "support": 0.22,
+      "lift": 1.528,
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "WheatFlour"
+      ],
+      "combination_text": "Milk and Wheat Flour",
+      "support": 0.1,
+      "lift": 1.724,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
-  "shopping_need_text": "The observed orders suggest needs for basic meal preparation (breakfast, cooking with dairy and grains), restocking of daily staples, and occasional specific needs such as religious ceremonies (2026-06-15) or personal care (2026-06-20).",
-  "uncertainty_text": "All patterns described are based on single observations per date. No durable preferences, stable routines, or recurring habits can be confirmed. The co-occurrence of Milk with Breads, Vegetables, and Wheat Flour is noted across multiple dates but does not meet the threshold for stable pattern classification. Specific items like ritual goods (2026-06-15) or batteries (2026-06-16) are isolated cases.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "The user demonstrates a stable need for breakfast staples, specifically Milk and Breads, which co-occur on 4 independent dates. There is a recurring need for fresh produce (Vegetables) and baking/cooking staples (Wheat Flour, Ready Mixes), often purchased alongside dairy. Occasional needs include personal care (Sunscreen, Face Cream), ceremonial items (Havan Items, Pooja Flowers), and indulgences (Chocolates, Indian Sweets, Aerated Drinks).",
+  "uncertainty_text": "While the Milk-Breads combination is supported by 4 independent dates, other patterns are based on fewer observations. The presence of diverse categories (ceremonial, personal care, indulgences) suggests varied needs that do not form stable, recurring combinations beyond the core staples. Confidence in non-staple patterns remains lower due to limited repetition.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 11,
+    "purchase_dates": [
+      "2026-06-01",
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-08",
+      "2026-06-12",
+      "2026-06-15",
+      "2026-06-16",
+      "2026-06-20",
+      "2026-06-21",
+      "2026-06-26",
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-01T09:14:21",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

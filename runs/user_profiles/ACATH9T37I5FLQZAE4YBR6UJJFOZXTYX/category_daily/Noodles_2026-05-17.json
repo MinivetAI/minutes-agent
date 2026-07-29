@@ -1,15 +1,23 @@
 {
   "date": "2026-05-17",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-17 (weekend), the user purchased one 12-pack of Maggi 2-Minute Masala Instant Noodles (70 g sachets) during the morning. This morning purchase aligns with a period where the user's activity is 32.46% of their total (population baseline). The product is a high-urgency convenience item, typically used for quick meals or snacks. This is a single observed order on one date; it does not establish a stable preference or routine for Maggi noodles or morning noodle purchases.",
+  "summary_text": "On 2026-05-17 (weekend), the user purchased Maggi 2-Minute Masala Instant Noodles (70 g x 12) during the morning daypart. This order occurred on a weekend morning, a time when this daypart represents 32.46% of the population's shopping activity. The product is a multipack of instant noodles, typically used for quick, convenient meals or snacks. This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand or product preference can be established from this single order.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 12-pack of Maggi 2-Minute Masala Instant Noodles (70 g sachets) during the morning on a weekend. This morning purchase aligns with a period where the user's activity is 32.46% of their total (population baseline). The product is a high-urgency convenience item, typically used for quick meals or snacks. This is a single observed order on one date; it does not establish a stable preference or routine for Maggi noodles or morning noodle purchases.",
+      "pattern_text": "One order of Maggi 2-Minute Masala Instant Noodles (70 g x 12) purchased on a weekend morning. This order occurred on a weekend morning, a time when this daypart represents 32.46% of the population's shopping activity. The product is a multipack of instant noodles, typically used for quick, convenient meals or snacks. This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand or product preference can be established from this single order.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for Maggi noodles or morning noodle purchases.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand or product preference can be established from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

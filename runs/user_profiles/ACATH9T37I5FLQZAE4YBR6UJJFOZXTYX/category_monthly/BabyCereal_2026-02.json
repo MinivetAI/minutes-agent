@@ -1,11 +1,11 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased Nestle Cerelac Wheat Apple Baby Food Cereal (350 g) on two independent dates (2026-02-11 and 2026-02-24). Both transactions occurred on weekdays in the afternoon. The recurrence of this specific product across two independent dates establishes a stable preference, supported by medium confidence. The afternoon timing is less frequent for this category compared to the population baseline (25.26% share vs. 32.46% for morning). No other products or brands were observed in this category during this month.",
+  "summary_text": "In February 2026, the user purchased Nestle Cerelac Wheat Apple Baby Food Cereal (350 g) on two independent dates (2026-02-11 and 2026-02-24). Both purchases occurred on weekdays in the afternoon. The recurrence of this specific product across two dates supports a stable preference claim for this item, with medium confidence. The afternoon timing is consistent across both observations, though it aligns with the population afternoon baseline share (0.2526) rather than the more common morning or evening baselines. No other baby cereal products or brands were observed in this window.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Nestle Cerelac Wheat Apple Baby Food Cereal (350 g)",
-      "claim_text": "The user has a stable preference for Nestle Cerelac Wheat Apple Baby Food Cereal (350 g), evidenced by purchases on two independent dates in February 2026.",
+      "claim_text": "The user has purchased Nestle Cerelac Wheat Apple Baby Food Cereal (350 g) on two independent dates in February 2026, indicating a stable preference for this specific product.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +13,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two independent purchase events in February 2026. While the repetition supports a stable preference for the specific product variant, the sample size is limited to a single month and two transactions.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the product recurrence supports a stable preference for the specific item, the limited observation window (two dates) and lack of other product variety prevent broader conclusions about category loyalty or routine depth. The afternoon timing is consistent but not distinct from population baselines.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-11",
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-11T13:33:53",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

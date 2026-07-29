@@ -1,9 +1,23 @@
 {
   "date": "2026-06-27",
   "day_type": "weekend",
-  "summary_text": "One order of Colin Glass and Surface Cleaner Liquid Refill (1 L) placed on a weekend morning. The order occurred on a weekend morning, a time when the user's activity is 0.3246 of the population baseline for this daypart. The product is a household cleaning refill intended for regular maintenance of glass and multi-surface areas.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user purchased one unit of Colin Glass and Surface Cleaner Liquid Refill (1 L) during the morning. This timing aligns with the population baseline, where morning purchases (32.46%) are the most common daypart share, slightly higher than afternoon (25.26%) and evening (30.27%). The product is a household cleaning refill intended for regular maintenance of glass and multi-surfaces. This is a single observation on one date. It is not yet established whether this represents a stable brand preference for Colin, a routine for this specific product, or a one-time restock need. No other orders in this window support a durable preference claim.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Colin Glass and Surface Cleaner Liquid Refill (1 L) placed on a weekend morning. This timing aligns with the population baseline, where morning purchases (32.46%) are the most common daypart share, slightly higher than afternoon (25.26%) and evening (30.27%). The product is a household cleaning refill intended for regular maintenance of glass and multi-surfaces. This is a single observation on one date. It is not yet established whether this represents a stable brand preference for Colin, a routine for this specific product, or a one-time restock need. No other orders in this window support a durable preference claim.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference for Colin, a routine for this specific product, or a one-time restock need. No other orders in this window support a durable preference claim.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T10:28:03",
+    "last_seen_at": "2026-06-27T10:28:03"
+  }
 }

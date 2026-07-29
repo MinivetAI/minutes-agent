@@ -1,9 +1,17 @@
 {
   "date": "2026-06-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-12 (weekday), the user purchased 2 units of Nestlé Milkybar 22.5 g bars during the morning. This timing aligns with population activity where this category represents 32.46% of activity. The items are small-format, ready-to-eat confectionery bars suited for immediate snacking or impulse consumption. This is a single-observation window; durable brand or flavor preferences cannot be established from this one order.",
+  "summary_text": "One order of 2 Nestlé Milkybar 22.5 g bars, ordered in the morning on a weekday. The population baseline for morning orders is 0.3246. The products are small, ready-to-eat milk chocolate bars suited for immediate snacking or a quick sweet fix.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single-observation window; durable brand or flavor preferences cannot be established from this one order.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; no stable brand or product preference can be established yet.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

@@ -1,26 +1,27 @@
 {
-  "category": "Garbage Bags",
-  "profile_text": "In May 2026, the user purchased one 15-unit pack of Flipkart Supermart Compostable Medium Garbage Bags on a weekend afternoon. This single transaction represents a specific need for weekend household waste management rather than a stable preference.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Garbage Bags",
+  "summary_text": "One order of Flipkart Supermart Compostable Medium Garbage Bag (15 units) on 2026-05-24. The order occurred in the afternoon on a weekend. This timing aligns with the population baseline where afternoon (0.2526) is less common than morning (0.3246) and evening (0.3027). The product is a household consumable used for waste disposal in bins, suggesting an immediate need to replace a liner or manage household waste.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Insufficient evidence to determine acceptable substitutions or boundaries. The single observed order does not establish whether the user would accept non-compostable bags, different brands, or different sizes.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, size, or compostable material over other options, or if this represents a recurring habit. No stable brand, variant, or daypart preference can be inferred from this isolated event.",
+  "retrieval_text": "A single order of Flipkart Supermart Compostable Medium Garbage Bag (15 units) was placed on 2026-05-24 in the afternoon on a weekend. This represents an immediate need for waste disposal liners. Due to the lack of repetition across independent dates, no stable brand preference, variant choice, or recurring daypart pattern can be established for this category.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-24",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for GarbageBags yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction.",
-  "substitution_text": "No substitution behavior observed; only one brand/product was purchased.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports routine household waste management needs, specifically for weekend disposal.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

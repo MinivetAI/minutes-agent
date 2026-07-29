@@ -1,15 +1,23 @@
 {
   "date": "2026-01-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-30 (weekday), the user purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) in the morning. This purchase aligns with the category's population activity pattern, where 32.46% of activity occurs in the morning. The product is a nutrient-fortified complementary infant cereal, typically used as a ready-to-feed option for babies aged 6+ months. This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-01-30 (weekday), one order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) was purchased in the morning. This single observation is compatible with early-day feeding needs or routine replenishment for a baby aged 6+ months. No other orders are available to confirm repetition or brand loyalty.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g).",
+      "pattern_text": "One order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) purchased in the morning on a weekday. This timing is compatible with early-day feeding needs or routine replenishment. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or routine.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or routine. No other orders are available to confirm repetition or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

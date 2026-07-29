@@ -1,15 +1,17 @@
 {
   "date": "2026-07-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-06 (weekday), the user purchased 1 unit of Coriander Leaves 100 g (fresh herb) in the morning. This order occurred during a period with a population share of 0.3246. The product is a fresh herb typically used for cooking or garnishing. This is a single observed order on one date; no durable preference or routine can be established.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Coriander Leaves 100 g (fresh herb).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered Coriander Leaves (100 g) during the morning. This single observation of a fresh herb used for cooking or garnishing does not establish a stable preference or routine.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable preference or routine can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-06T09:15:29"
+  }
 }

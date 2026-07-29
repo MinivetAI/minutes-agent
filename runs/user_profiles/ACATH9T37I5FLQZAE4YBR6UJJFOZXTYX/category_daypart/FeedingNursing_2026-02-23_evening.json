@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one pack of four LuvLap anti-colic fast-flow replacement teats for baby bottles during the evening.",
+  "summary_text": "One order of LuvLap Anti-Colic Essential Teat/Nipple (Pack of 4) placed in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, indicating typical timing for this activity. The product serves a functional need for feeding continuity, replacing worn or incompatible bottle nipples.",
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday evening, a time that aligns with the population baseline where evening shares 30.27% of activity (compared to 32.46% in the morning). The product is a replacement feeding accessory, suggesting a need to maintain feeding continuity for an infant.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a recurring need or a one-time replacement. No brand preference can be inferred from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T17:46:26",
+    "last_seen_at": "2026-02-23T17:46:26"
+  }
 }

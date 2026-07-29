@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Dabur Honey Squeezy 2 x 400 g (800 g total) on one weekend date (2026-03-21) in the afternoon. This single order does not establish a stable preference or routine for this product or brand. The afternoon timing is less frequent than the population baseline (25.26% share vs. 32.46% for morning).",
+  "summary_text": "In March 2026, the user placed one order for honey. The order consisted of Dabur Honey Squeezy 2 x 400 g (1 unit), purchased on a weekend afternoon. This timing aligns with the user's typical afternoon activity levels, which are comparable to the population baseline for that daypart. The product is a twin-pack of pure honey in a squeeze format, generally used for breakfast, beverages, or kitchen stock refills. As this is a single observation on one date, it is not yet established whether this represents a stable preference for the Dabur brand, the squeeze format, or a one-time stock refill. No other orders are available to confirm repetition or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for choosing the squeezy format over a jar is not confirmed.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Dabur brand, the squeeze format, or a one-time stock refill. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

@@ -1,93 +1,37 @@
 {
   "date": "2026-07-09",
   "day_type": "weekday",
-  "summary_text": "A single order was placed on 2026-07-09 in the afternoon on a weekday. The basket contains 8 items across 6 categories: Vegetables, Flour, Scrub Pad, Rice, Wheat Flour, Sugar, and Milk. The order-building behavior includes purchasing staple dry goods (Rice, Sugar, two types of Flour) alongside fresh produce (Vegetables) and a dairy item (Milk), plus non-food cleaning supplies (two Scrub Pads). The shopping need text describes a need compatible with the basket but must not claim hidden intent.",
+  "summary_text": "On 2026-07-09 (weekday), a single afternoon order included one unit each of Vegetables, Flour, Wheat Flour, Rice, Sugar, Milk, and two Scrub Pads. The basket combines pantry staples (flour, rice, sugar) with fresh produce (vegetables) and dairy (milk), alongside household cleaning supplies (scrub pads). This mix is compatible with a general household restock or meal preparation need.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
-        "CurdYogurt"
-      ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
+        "Vegetables",
+        "Flour",
+        "Wheat Flour",
+        "Rice",
+        "Sugar",
         "Milk",
-        "Vegetables"
+        "Scrub Pad"
       ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
+      "combination_text": "Vegetables, Flour, Wheat Flour, Rice, Sugar, Milk, and Scrub Pad",
+      "support": 1.0,
       "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking household staples including cooking ingredients, dairy, and cleaning supplies.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not durable or stable.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Household restock including fresh produce, baking/cooking staples, dairy, and cleaning supplies.",
+  "uncertainty_text": "This behavior is based on a single order on one date. Stable preferences or routine patterns cannot be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-04-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-08 (weekday), one order of Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) was placed during the evening. This timing aligns with the high population share (0.3027) for chips during evening hours, suggesting a potential fit for evening snacking or tea-time consumption. This single transaction does not establish a stable preference for the brand or flavor, nor does it indicate a routine purchase or one-time trial.",
+  "summary_text": "On 2026-04-08 (weekday), the user ordered Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) in the evening. This timing aligns with the population baseline where evening accounts for 30.27% of minutes. The product is a savory, crunchy snack suitable for immediate cravings or casual snacking. This is a single observation on one date; it does not establish a stable brand preference, flavor preference, or recurring evening snacking routine. It is unclear if this represents a habitual choice or a one-time impulse purchase.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "One order of Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) was placed during the evening on a weekday. This timing aligns with the high population share (0.3027) for chips during evening hours, suggesting a potential fit for evening snacking or tea-time consumption.",
+      "pattern_text": "One order of Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) placed on a weekday evening. The order occurred in the evening, which aligns with the population baseline where evening shares 30.27% of minutes (comparable to morning at 32.46% and higher than afternoon at 25.26%). The product is a savory, crunchy snack typically used for immediate cravings or casual snacking.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for the brand or specific flavor, nor does it indicate whether this is a routine purchase or a one-time trial.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, flavor preference, or recurring evening snacking routine. It is unclear if this represents a habitual choice or a one-time impulse purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T16:16:45",
+    "last_seen_at": "2026-04-08T16:16:45"
+  }
 }

@@ -1,229 +1,61 @@
 {
-  "profile_text": "The user maintains a high-frequency, stable routine for fresh produce and dairy staples, anchored by Vegetables (purchased every ~2.5 days, primarily morning/weekday) and Milk (Amul Taaza, every ~3 days, flexible timing). Curd Yogurt (Amul Masti Dahi 200 ml) is a fast-replenishing staple (every ~5 days), often co-occurring with Vegetables and Milk in the same basket. Infant care is a secondary stable pillar, with Pampers Complete Skin Comfort Pant Diapers (XL, 56-count) purchased every ~7 days (weekday afternoons/mornings) and Nestlé Cerelac Wheat Apple Carrot Cereal purchased every ~11 days. The user exhibits stable, fast-cadence preferences for snacks and beverages, specifically Too Yumm! and Bikaji Savouries (every ~5.5 days) and Sprite/Appy Fizz Aerated Drinks (every ~5 days). Medium-confidence stable preferences exist for Fruits (Watermelon Kiran, Sindhura mangoes, every ~12.5 days), Paneer Tofu (Amul Malai, every ~17 days), and Pasta (Maggi Pazzta Cheese Macaroni, every ~13 days). Slow-cadence, recurring needs include Noodles (Maggi, every ~41 days), Jaggery (every ~31 days), and Rava Sooji (Fortune, every ~37 days). The user demonstrates flexible, non-rigid timing for many categories, with daypart preferences varying by category (e.g., Vegetables/Milk morning bias vs. Diapers weekday afternoon bias). No single brand dominates all categories; preferences are specific to product variants (e.g., Amul for Milk/Curd, Pampers for Diapers, Nestlé for Cereal).",
-  "category_preference_text": "Vegetables: High-frequency, stable routine for fresh, unbranded staples (Onion, Baby Potato, Coriander, Beetroot, Sweet Potato), purchased every ~2.5 days, strong morning/weekday tendency. Milk: Stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), fast cadence (~3 days), flexible timing. Curd Yogurt: Stable preference for Amul Masti Dahi Plain Curd (200 ml), fast cadence (~5 days), flexible timing, often paired with Vegetables/Milk. Aerated Drinks: Stable preference for Sprite and Appy Fizz (750 ml PET), fast cadence (~5 days), flexible timing. Diaper: Stable preference for Pampers Complete Skin Comfort Pant Diapers (XL, 56-count), fast cadence (~7 days), weekday afternoon/morning bias. Baby Cereal: Stable preference for Nestlé Cerelac Wheat Apple Carrot Cereal (300 g), medium cadence (~11 days), flexible timing. Savouries Namkeens: Stable preferences for Too Yumm! (Sour Cream and Onion Veggie Stix) and Bikaji (Chowpati Bhelpuri), fast cadence (~5.5 days), flexible timing. Cough: Stable preference for VICKS Double Power Cough Drops Warming Ginger, medium cadence (~11.5 days), weekday afternoon/night bias. Noodles: Stable preference for Maggi brand, slow cadence (~41 days), flexible timing. Cake Pastry: Recurring interest in Britannia Romance Nut and Raisin Cake, fast cadence (~6 days), afternoon bias. Jaggery: Recurring need for natural sweetener, slow cadence (~31 days), morning/weekend bias. Rava Sooji: Stable preference for Fortune brand, slow cadence (~37 days), small pack sizes. Fruits: Stable preferences for Watermelon Kiran, Sindhura mangoes, and Unbranded Litchi, medium cadence (~12.5 days), flexible timing. Pasta: Stable preferences for Maggi Pazzta Cheese Macaroni and Cheesy Tomato Twist, medium cadence (~13 days), weekday bias. Paneer Tofu: Stable preference for Amul Malai Paneer (200 g), medium cadence (~17 days), weekday bias. Breads: Medium-confidence preference for Modern Supreme Sandwich Bread, slow cadence (~30 days), flexible timing. Poha: Recurring pantry staple, slow cadence (~52 days), flexible brand/size. Spices Masala: Recurring varied spice purchases, slow cadence (~23 days), flexible brand. Chocolates: Recurring single-serve treats, slow cadence (~38 days), weekday afternoon bias. Ghee: Medium-confidence preference for Gowardhan, slow cadence (~41 days), weekday afternoon bias. Lotion Cream: Recurring Johnson's Baby Lotion, slow cadence (~42 days), flexible timing. Honey: Medium-confidence preference for Dabur Squeezy, slow cadence (~21 days), flexible timing. Toothbrush: Stable preference for Colgate ZigZag Medium, cadence unknown. Chips: Stable preference for specific chip variant, frequent cadence (~10 days), flexible timing. Ice Creams: Medium-confidence preference for Amul Butterscotch Tricone, cadence unknown. Ready Meals: Recurring varied frozen meals, slow cadence (~46 days), flexible timing. Fruit Drinks: Isolated purchases, cadence unknown. Oats: Isolated Quaker purchases, cadence unknown. Allopathy: Isolated purchases, cadence unknown. Other Pulses: Isolated purchases, cadence unknown. Salt: Isolated low-sodium purchases, cadence unknown. Grains Millets: Isolated Rajdhani Sabudana purchases, cadence unknown. Drain Opener: Single observation, cadence unknown. Vitamins: Single observation, cadence unknown. Rx Medicine: Single observation, cadence unknown. Feeding Nursing: Single observation, cadence unknown. Pooja Flowers: Single observation, cadence unknown. Dips Sauces Pastes: Single observation, cadence unknown. Bathroom Floor Cleaner: Single observation, cadence unknown. Kitchen Roll: Single observation, cadence unknown.",
-  "coverage_text": "This profile details the 40 best-evidenced categories out of 52 total, omitting 12 lower-evidence categories.",
-  "basket_context_text": "The basket is consistently anchored by Vegetables, which appear in every observed order. Vegetables are frequently paired with Milk and Curd Yogurt, forming a core fresh-food/dairy cluster. Infant care items (Diaper, Baby Cereal) are recurring companions. Secondary categories like Savouries Namkeens, Aerated Drinks, and Fruits appear with moderate frequency. Shopping timing is variable across months, with no single stable daypart for the entire basket, though specific categories show daypart biases (e.g., Vegetables/Morning, Diapers/Weekday Afternoon).",
-  "replenishment_summary_text": "The user exhibits a fast replenishment cadence for Vegetables (~2.5 days), Milk (~3 days), Curd Yogurt (~5 days), Aerated Drinks (~5 days), Diapers (~7 days), Savouries Namkeens (~5.5 days), and Cake Pastry (~6 days). Medium cadence is observed for Baby Cereal (~11 days), Fruits (~12.5 days), Pasta (~13 days), Paneer Tofu (~17 days), Cough medicine (~11.5 days), and Spices Masala (~23 days). Slow cadence characterizes Noodles (~41 days), Jaggery (~31 days), Rava Sooji (~37 days), Breads (~30 days), Poha (~52 days), Chocolates (~38 days), Ghee (~41 days), Lotion Cream (~42 days), Honey (~21 days), and Ready Meals (~46 days). Toothbrush, Ice Creams, Fruit Drinks, Oats, Allopathy, Other Pulses, Salt, Grains Millets, Drain Opener, Vitamins, Rx Medicine, Feeding Nursing, Pooja Flowers, Dips Sauces Pastes, Bathroom Floor Cleaner, and Kitchen Roll have unknown cadence classes.",
-  "structured_signals": [
+  "summary_text": "This shopper is a high-frequency, utility-driven household provisioner with a stable core of fresh produce and dairy staples, anchored by a consistent need for infant care supplies. The profile is defined by strong brand loyalty in specific categories (Amul dairy, Pampers diapers, Nestlé CERELAC, VICKS, Sprite) contrasted with high flexibility and low brand loyalty in fresh produce, snacks, and pantry staples where unbranded or rotating options are preferred. Shopping behavior is flexible across weekdays and weekends, with no single dominant daypart, reflecting a need-based replenishment rhythm rather than a rigid routine. The basket is medium-sized, combining daily sustenance (vegetables, milk, curd) with periodic baby care and occasional treats or convenience items.",
+  "daypart_understanding": [],
+  "basket_understanding": [
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Vegetables",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases vegetables approximately every 2.5 days, classified as a fast cadence, with 57 independent dates of evidence."
+      "relationship_text": "Milk and Vegetables are consistently purchased together, appearing in nearly every month with high repetition.",
+      "recommendation_use_text": "Cross-sell dairy with produce or vice versa.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Milk",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases milk approximately every 3 days, classified as a fast cadence, with 33 independent dates of evidence."
+      "relationship_text": "Curd Yogurt and Vegetables are frequently co-purchased, showing stable cross-category association.",
+      "recommendation_use_text": "Bundle dairy desserts with fresh produce.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Curd Yogurt",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases curd yogurt approximately every 5 days, classified as a fast cadence, with 27 independent dates of evidence."
+      "relationship_text": "Curd Yogurt and Milk are regularly bought together, indicating a combined dairy restock.",
+      "recommendation_use_text": "Promote dairy bundles.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Diaper",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases diapers approximately every 7 days, classified as a fast cadence, with 18 independent dates of evidence."
+      "relationship_text": "Diapers and Vegetables are frequently purchased together, linking baby care with fresh food provisioning.",
+      "recommendation_use_text": "Target baby care shoppers with produce offers.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Baby Cereal",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases baby cereal approximately every 11 days, classified as a medium cadence, with 16 independent dates of evidence."
+      "relationship_text": "Aerated Drinks and Vegetables appear together on multiple independent dates, suggesting occasional beverage stocking with fresh food.",
+      "recommendation_use_text": "Cross-sell beverages with produce.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Savouries Namkeens",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases savouries namkeens approximately every 5.5 days, classified as a fast cadence, with 15 independent dates of evidence."
+      "relationship_text": "Fruits and Vegetables are regularly co-purchased, indicating a fresh food pairing.",
+      "recommendation_use_text": "Bundle fresh produce.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Aerated Drinks",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases aerated drinks approximately every 5 days, classified as a fast cadence, with 21 independent dates of evidence."
+      "relationship_text": "Baby Cereal and Vegetables are frequently bought together, linking infant nutrition with fresh food.",
+      "recommendation_use_text": "Target baby food shoppers with produce.",
+      "confidence": "high"
     },
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Fruits",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases fruits approximately every 12.5 days, classified as a medium cadence, with 13 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Pasta",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases pasta approximately every 13 days, classified as a medium cadence, with 8 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Paneer Tofu",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases paneer tofu approximately every 17 days, classified as a medium cadence, with 8 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Noodles",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases noodles approximately every 41 days, classified as a slow cadence, with 5 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Jaggery",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases jaggery approximately every 31 days, classified as a slow cadence, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Rava Sooji",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases rava sooji approximately every 37 days, classified as a slow cadence, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Breads",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases breads approximately every 30 days, classified as a slow cadence, with 6 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Poha",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases poha approximately every 52 days, classified as a slow cadence, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Spices Masala",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases spices masala approximately every 23 days, classified as a slow cadence, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chocolates",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases chocolates approximately every 38 days, classified as a slow cadence, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Ghee",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases ghee approximately every 41 days, classified as a slow cadence, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Lotion Cream",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases lotion cream approximately every 42 days, classified as a slow cadence, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Honey",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases honey approximately every 21 days, classified as a slow cadence, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Ready Meals",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user purchases ready meals approximately every 46 days, classified as a slow cadence, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Cough",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases cough medicine approximately every 11.5 days, classified as a medium cadence, with 7 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Cake Pastry",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases cake pastry approximately every 6 days, classified as a fast cadence, with 5 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chips",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases chips with an average cadence of 10 days, classified as a fast cadence, with 2 independent dates of evidence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Milk",
-      "confidence": "high",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Milk are frequently purchased together across multiple independent dates in February, April, and May, supported by both category stability and basket co-occurrence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Curd Yogurt",
-      "confidence": "high",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Curd Yogurt are frequently purchased together, particularly in February and April, supported by both category stability and basket co-occurrence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Baby Cereal",
-      "confidence": "medium",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Baby Cereal are frequently purchased together across multiple independent dates in March and May, supported by both category stability and basket co-occurrence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Savouries Namkeens",
-      "confidence": "medium",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Savouries Namkeens are frequently purchased together across multiple independent dates in March and May, supported by both category stability and basket co-occurrence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Aerated Drinks",
-      "confidence": "medium",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Aerated Drinks are frequently purchased together across multiple independent dates in March and May, supported by both category stability and basket co-occurrence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Fruits",
-      "confidence": "medium",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Fruits are frequently purchased together across multiple independent dates in March and May, supported by both category stability and basket co-occurrence."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables + Diaper",
-      "confidence": "medium",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "Vegetables and Diaper are frequently purchased together across multiple independent dates in March and May, supported by both category stability and basket co-occurrence."
+      "relationship_text": "Savouries Namkeens and Vegetables appear together on multiple dates, suggesting snack stocking with fresh food.",
+      "recommendation_use_text": "Cross-sell snacks with produce.",
+      "confidence": "medium"
     }
   ],
-  "mission_generation_text": "The user requires a reliable supply of fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) for daily household consumption. There is a recurring need for infant nutrition and care items (Baby Cereal, Diaper). The user also periodically replenishes snacks (Savouries Namkeens) and beverages (Aerated Drinks) and occasionally purchases fruits, pasta, paneer, or health-related items. Shopping timing is variable across months, with no single stable daypart for the entire basket, though specific categories show daypart biases (e.g., Vegetables/Morning, Diapers/Weekday Afternoon).",
-  "uncertainty_text": "While Vegetables are a stable anchor, specific product brands, variants, and precise daypart timings are not consistent enough to establish a rigid routine for all categories. Shopping times vary significantly across months. Infant care items (Diaper, Baby Cereal) appear frequently but not in every order, indicating intermittent rather than daily replenishment needs. Health items like Cough medicine appear on isolated dates and do not form a stable pattern. No stable abandonment behaviors were observed. Categories with unknown cadence classes (Toothbrush, Ice Creams, Fruit Drinks, Oats, Allopathy, Other Pulses, Salt, Grains Millets, Drain Opener, Vitamins, Rx Medicine, Feeding Nursing, Pooja Flowers, Dips Sauces Pastes, Bathroom Floor Cleaner, Kitchen Roll) have insufficient evidence to establish a recurring pattern.",
-  "overall_confidence": "high"
+  "shopping_style": {
+    "frequency_segment": "regular",
+    "basket_size_segment": null,
+    "brand_loyalty_level": null,
+    "substitution_tolerance_level": null,
+    "large_basket_tendency": null,
+    "multi_quantity_tendency": null,
+    "deal_seeking": null,
+    "price_sensitivity": null
+  },
+  "uncertainty_text": "While core staples (vegetables, milk, curd, diapers) are stable, the specific secondary items (e.g., specific vegetable varieties, snack brands, pasta variants) vary significantly by order. No single daypart dominates the shopping schedule, making timing-based recommendations less reliable. Brand loyalty is high in specific categories but absent in others, requiring category-specific strategy rather than a global brand preference. Confidence in specific product-level preferences outside the core staples is low due to fragmented evidence across many categories.",
+  "retrieval_text": "The user is a high-frequency grocery shopper with a stable, high-confidence preference for Amul brand dairy (Milk, Curd Yogurt, Paneer, Ice Cream) and Pampers diapers, indicating strong brand loyalty in these specific categories. Fresh vegetables are a universal staple, purchased on nearly every order date, with a preference for unbranded, fresh produce. Baby care is a recurring household need, evidenced by stable purchases of Nestlé CERELAC and Pampers. The user also shows a stable preference for Sprite in aerated drinks and VICKS in cough relief. Shopping behavior is flexible, occurring across weekdays and weekends with no single dominant daypart, though morning activity is noted in recent July orders. The basket typically combines fresh produce and dairy with baby care items, reflecting a broad household provisioning routine. Brand loyalty is mixed: high for Amul, Pampers, Nestlé, and Sprite; low for vegetables, snacks, and pantry staples where unbranded or rotating brands are preferred.",
+  "user_id": "ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX",
+  "profile_type": "global",
+  "updated_at": "2026-07-29T05:33:33.653930"
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-07-09",
   "day_type": "weekday",
-  "summary_text": "One order of Aashirvaad Shudh Chakki Atta 5 kg (1 unit) placed in the afternoon. No browsing, search, or cart activity was observed for this category in this window.",
+  "summary_text": "On 2026-07-09 (weekday), one order of Aashirvaad Shudh Chakki Atta 5 kg was placed in the afternoon. This family-size staple suggests a routine replenishment need for everyday roti making. The afternoon timing is less common than morning or evening baselines. This is a single observation on one date; it is not yet established whether this brand or pack size represents a stable preference or a one-time purchase.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Aashirvaad Shudh Chakki Atta 5 kg (1 unit) placed in the afternoon on a weekday. No browsing, search, or cart activity was observed for this category in this window.",
+      "pattern_text": "One order of Aashirvaad Shudh Chakki Atta 5 kg. The afternoon timing is less common than morning or evening baselines.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date. It is not yet established whether this represents a stable preference for the Aashirvaad brand or a one-time purchase. No browsing intent signals are available to contextualize the decision.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or pack size represents a stable preference or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

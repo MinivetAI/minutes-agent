@@ -1,7 +1,7 @@
 {
   "date": "2026-05-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-11 (weekday), a single order was placed in the afternoon. The basket contained seven items across six categories: Aerated Drinks, Chocolates, Milk, Poha, two distinct Vegetables products, and a Mop Set. This combination of fresh produce, dairy, pantry staples, snacks, and a cleaning supply is compatible with a general household restock need. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-05-11 (weekday), a single order was placed in the afternoon. The basket included one unit each of Aerated Drinks, Chocolates, Milk, Poha, two distinct Vegetables items, and a Mop Set, representing a mix of grocery staples and household cleaning supplies. The combination of Milk and Vegetables is supported by historical co-order evidence (Support: 0.525, Lift: 1.038). As this is a single observation on one date, no stable preferences or routines can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -12,82 +12,21 @@
       ],
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables co-ordered evidence exists but CurdYogurt was not in this basket.",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk co-ordered evidence exists but CurdYogurt was not in this basket.",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "AeratedDrinks",
-        "Vegetables"
-      ],
-      "combination_text": "AeratedDrinks and Vegetables co-ordered evidence exists and both were in this basket.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Diaper",
-        "Vegetables"
-      ],
-      "combination_text": "Diaper and Vegetables co-ordered evidence exists but Diaper was not in this basket.",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
-      ],
-      "combination_text": "SavouriesNamkeens and Vegetables co-ordered evidence exists but SavouriesNamkeens was not in this basket.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "BabyCereal",
-        "Vegetables"
-      ],
-      "combination_text": "BabyCereal and Vegetables co-ordered evidence exists but BabyCereal was not in this basket.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables co-ordered evidence exists but Fruits was not in this basket.",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
+      "lift": 1.038,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "General household restock including fresh produce, dairy, snacks, and cleaning supplies.",
-  "uncertainty_text": "This is a single observed order on one date. Patterns are not stable or recurring based on this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be restocking basic household groceries and cleaning supplies for immediate use.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences or routines cannot be determined from this limited evidence.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-11"
+    ],
+    "first_seen_at": "2026-05-11T13:24:35",
+    "last_seen_at": "2026-05-11T13:24:35"
+  }
 }

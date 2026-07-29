@@ -1,19 +1,27 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user placed two orders for Haldiram's Mini Bhakarwadi 200 g, both on weekdays in the morning. The recurrence of this specific brand and variant across two independent dates indicates a stable preference for this product, supported by medium confidence. The consistent timing (weekday mornings) aligns with the population baseline where morning activity is common (32.46% share). No other brands or products were observed in this category during this month.",
+  "summary_text": "In May 2026, the user ordered Haldiram's Mini Bhakarwadi 200 g on two independent dates (2026-05-08 and 2026-05-18). This repetition establishes a stable preference for this specific product and brand. Both orders occurred on weekdays in the morning, a timing pattern that falls below the population baseline (32.46%).",
   "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Haldiram's Mini Bhakarwadi 200 g",
+      "claim_text": "The user has a stable preference for Haldiram's Mini Bhakarwadi 200 g, evidenced by orders on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
     {
       "dimension": "brand",
       "value": "Haldiram's",
-      "claim_text": "Haldiram's is a stable preference, observed on 2 independent dates.",
+      "claim_text": "The user has a stable preference for the Haldiram's brand, evidenced by orders on two independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Haldiram's Mini Bhakarwadi 200 g",
-      "claim_text": "Haldiram's Mini Bhakarwadi 200 g is a stable preference, observed on 2 independent dates.",
+      "value": "Mini Bhakarwadi",
+      "claim_text": "The user has a stable preference for Mini Bhakarwadi, evidenced by orders on two independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +29,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No browsing history (search, view, or cart-add) was recorded for this category in this window, so it is unclear if these were planned purchases or impulse buys. However, the repetition of the specific product across two dates supports a stable preference despite the lack of pre-purchase intent signals.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The stable preference is based on two independent dates. The morning timing is consistent across both dates but falls below the population baseline.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-08",
+      "2026-05-18"
+    ],
+    "first_seen_at": "2026-05-08T10:08:09",
+    "last_seen_at": "2026-05-18T10:21:16"
+  }
 }

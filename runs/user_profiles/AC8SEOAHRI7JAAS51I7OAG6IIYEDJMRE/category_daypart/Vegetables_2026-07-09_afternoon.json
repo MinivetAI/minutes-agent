@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Parwal (250 g), an unbranded fresh pointed gourd, was purchased in the afternoon.",
+  "summary_text": "One order of Parwal (250 g) on 2026-07-09.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a fresh, perishable vegetable suitable for immediate meal preparation.",
-  "uncertainty_text": "This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific transaction.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline where afternoon shares 25.26% of activity, slightly below the morning peak (32.46%) and evening share (30.27%). The product is a fresh, unbranded vegetable suitable for immediate cooking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for parwal, a specific brand (none was supplied), or a one-time need for this ingredient.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

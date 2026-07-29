@@ -1,9 +1,17 @@
 {
   "date": "2026-07-21",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-21 (weekday), the user purchased one unit each of two distinct Pooja Flowers products during the morning. This timing aligns with a period where this category represents 32.46% of population activity. The products are floral items used for religious or ceremonial purposes. This is a single observed transaction on one date; it does not establish a stable preference or routine for this category.",
+  "summary_text": "On 2026-07-21 (weekday), the user placed one order of Pooja Flowers in the morning. The basket contained two distinct items (FFWHM4DBA2E8U64D and FFWHM4DBGGSG7GHN), each with a quantity of 1. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity for this category. The products are general-use floral items typically associated with religious or ceremonial practices. This is a single observation from one date; it is not yet possible to determine if this represents a stable preference, a routine, or a one-time need. No brand preferences can be established as brand data is not provided for these products.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine, or a one-time need. No brand preferences can be established as brand data is not provided for these products.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

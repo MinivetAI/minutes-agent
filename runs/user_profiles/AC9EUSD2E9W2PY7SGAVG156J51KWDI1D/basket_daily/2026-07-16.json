@@ -1,73 +1,34 @@
 {
   "date": "2026-07-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-16 (evening, weekday), a single order was placed containing four items across four distinct categories: Kajal, Sindoor, Vegetables, and Milk. The basket exhibits low breadth, mixing personal care (makeup) with fresh grocery staples. The combination of Milk and Vegetables in this order aligns with observed co-ordering patterns (Support: 0.3, Confidence: 0.517, Lift: 1.293), though the inclusion of Kajal and Sindoor represents a distinct personal care component not linked to the grocery pair in the provided evidence. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-07-16 (weekday), a single evening order was placed containing one unit each of Kajal, Sindoor, Vegetables, and Milk. This basket combines personal care items (Kajal, Sindoor) with fresh food staples (Vegetables, Milk). This is a single observation from one date; durable preferences or routine behaviors cannot be established from this window alone.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order. This pair has a Support of 0.3, Confidence of 0.517, and Lift of 1.293 based on 15 co-orders.",
-      "support": 0.3,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
         "Kajal",
-        "Sindoor"
-      ],
-      "combination_text": "Kajal and Sindoor were purchased together. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Kajal"
-      ],
-      "combination_text": "Milk and Kajal were purchased together. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Sindoor"
-      ],
-      "combination_text": "Milk and Sindoor were purchased together. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
+        "Sindoor",
         "Vegetables",
-        "Kajal"
+        "Milk"
       ],
-      "combination_text": "Vegetables and Kajal were purchased together. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Sindoor"
-      ],
-      "combination_text": "Vegetables and Sindoor were purchased together. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "combination_text": "Kajal, Sindoor, Vegetables, and Milk",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order suggests a need for daily meal preparation ingredients (Vegetables, Milk) alongside personal grooming items (Kajal, Sindoor).",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It does not indicate a stable or recurring preference. The co-ordering of Milk and Vegetables is supported by population-level evidence (Support: 0.3, Lift: 1.293), but the inclusion of makeup items is unique to this specific transaction.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Evening household replenishment covering personal grooming and fresh food ingredients.",
+  "uncertainty_text": "This is a single observation from one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-16"
+    ],
+    "first_seen_at": "2026-07-16T18:39:03",
+    "last_seen_at": "2026-07-16T18:39:03"
+  }
 }

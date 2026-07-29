@@ -1,32 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-07-08 (morning, weekday) containing seven items across three categories: Vegetables (5 items, 6 units total), Ready Meals (1 item), and Jaggery (1 item). The basket is narrow in breadth, focusing primarily on fresh produce with a single prepared meal and a sweetener. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekday morning containing one ready meal, four distinct vegetable items, and one jaggery product. The basket is narrow in breadth, focusing on immediate meal components (ready meal, vegetables) and a sweetener (jaggery). No other categories were purchased in this specific transaction.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Vegetables",
-        "Ready Meals"
-      ],
-      "combination_text": "Vegetables and Ready Meals were purchased together in this single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Jaggery"
-      ],
-      "combination_text": "Vegetables and Jaggery were purchased together in this single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of multiple vegetable varieties, a ready meal, and jaggery is compatible with preparing a home-cooked meal or assembling ingredients for a specific dish that includes both fresh produce and a sweet component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents a specific shopping instance rather than a durable preference or routine. Category pair evidence (e.g., Milk/Vegetables) is not present in this specific order, so no lift/confidence metrics from the `category_pair_evidence_support_confidence_lift` list apply to the products actually bought in this basket.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of a ready meal, fresh vegetables, and jaggery suggests a need for preparing or completing a home-cooked meal, potentially involving a savory dish with a sweet element or side.",
+  "uncertainty_text": "This is a single observation from one daypart. It does not establish a durable preference or routine. The presence of jaggery with a ready meal is an isolated combination in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-08"
+    ],
+    "first_seen_at": "2026-07-08T09:01:24",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

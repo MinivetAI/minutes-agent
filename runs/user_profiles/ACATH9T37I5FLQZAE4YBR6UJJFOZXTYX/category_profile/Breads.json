@@ -1,34 +1,27 @@
 {
-  "category": "Breads",
-  "profile_text": "The user exhibits a slow replenishment cycle for breads, with purchases observed across six independent dates spanning January to June 2026. The primary observed product is Modern Supreme Sandwich Bread (400 g), appearing on three independent dates (2026-01-30, 2026-04-xx, 2026-06-25), establishing a medium-confidence brand preference. A single observation of Britannia Bombay Pav Bread (250 g) and one generic/unspecified bread order are noted but do not form stable preferences. Purchases occur on weekdays and weekends, in morning, afternoon, and night dayparts, indicating no single stable timing pattern. The category supports needs for immediate consumption items like breakfast, sandwiches, and toast.",
-  "brand_preferences": [
-    {
-      "brand": "Modern Supreme",
-      "preference_text": "Observed on three independent dates (Jan, Apr, Jun 2026).",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 30.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-06-25",
-    "predicted_next_purchase_date": "2026-07-25",
-    "replenishment_text": "The user typically purchases breads approximately every 30 days, with the next purchase estimated around 2026-07-25.",
-    "confidence": "medium",
-    "evidence_count": 6,
-    "independent_date_count": 6
+  "category_name": "Breads",
+  "summary_text": "The user has purchased bread products across five months (Jan–Jun 2026), primarily Modern Supreme Sandwich Bread (400 g) and one instance of Britannia Bombay Pav Bread (250 g). Orders occurred on weekdays and weekends, in morning, afternoon, and night dayparts. Due to the lack of repetition of the same brand/product on multiple independent dates, no stable brand or product preference is established. The evidence suggests a general need for bread products for immediate meal components (breakfast, sandwiches, toast) rather than a specific brand loyalty.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by six completed orders across the observed period.",
-  "substitution_text": "No stable substitution pattern identified; the user has purchased different brands (Modern Supreme, Britannia) and unspecified variants.",
-  "price_value_text": "No explicit price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Replenishment of standard packaged breads for immediate consumption needs such as breakfast, sandwiches, or toast.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has purchased both sandwich bread and pav bread, suggesting flexibility in bread type based on immediate meal needs (e.g., sandwiches vs. other components), but no consistent substitution behavior is evident from the single-observation nature of each purchase.",
+  "uncertainty_text": "It is not established whether the user has a stable preference for Modern Supreme or Britannia brands, or for sandwich bread versus pav bread. The observed orders are isolated instances on different dates and dayparts, preventing the inference of a routine or consistent brand loyalty. The user's specific bread requirements (e.g., whole wheat, sourdough, specific pack sizes) remain unknown.",
+  "retrieval_text": "User purchased Modern Supreme Sandwich Bread (400 g) in Jan, Apr, May, and Jun 2026, and Britannia Bombay Pav Bread (250 g) in Mar 2026. Orders were placed on weekdays and weekends, in morning, afternoon, and night dayparts. No single brand or product variant was repeated on multiple independent dates, so no stable preference is confirmed. Purchases suggest a need for standard packaged breads for immediate meal use.",
+  "replenishment": {
+    "cadence_days": 30,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-07-25",
+    "replenishment_text": "Breads is reordered roughly every 30 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-06-25T08:44:56"
+  }
 }

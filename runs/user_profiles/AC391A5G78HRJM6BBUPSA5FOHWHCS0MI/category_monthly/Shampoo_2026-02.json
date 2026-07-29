@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased one 1 L bottle of L'Oréal Paris Total Repair 5 Shampoo on a single weekday (2026-02-26) during the afternoon. This restorative hair-cleansing product is intended for damaged or weak hair. The purchase occurred during a time when the user's activity was below the population baseline for this daypart (25.26% share). As this is a single observed order, it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or size over alternatives is unknown.",
+  "summary_text": "On 2026-02-26 (weekday), the user purchased L'Oréal Paris Total Repair 5 Shampoo (1 L) in the afternoon. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though it aligns with the afternoon baseline share of 0.2526. The product is a restorative shampoo for damaged hair, suggesting a need for hair care maintenance or replacement. This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No other brands or product types have been observed in this window to determine brand loyalty or category breadth.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or size over alternatives is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No other brands or product types have been observed in this window to determine brand loyalty or category breadth.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T13:28:19",
+    "last_seen_at": "2026-02-26T13:28:19"
+  }
 }

@@ -1,24 +1,33 @@
 {
   "date": "2026-02-22",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-22 (evening, weekend), the user placed one complete order containing Rice, Curd Yogurt, and Flour. This single transaction reflects a basic meal-preparation need compatible with these staple ingredients. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On this weekend, a single order was placed during the evening. The basket contained one unit each of Poha, Curd Yogurt, and Rava Sooji. This combination is compatible with preparing a meal or snack using these specific ingredients, such as for breakfast or a light dinner. No other products were included in this transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Rice",
+        "Poha",
         "Curd Yogurt",
-        "Flour"
+        "Rava Sooji"
       ],
-      "combination_text": "Rice, Curd Yogurt, and Flour were purchased together in a single order.",
-      "support": null,
+      "combination_text": "Poha, Curd Yogurt, and Rava Sooji were purchased together in a single order.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic cooking staples, specifically carbohydrates (Rice, Flour) and a dairy component (Curd Yogurt), likely for home meal preparation.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The category pair evidence provided (e.g., Milk/Vegetables) does not match the products in this specific order, so no lift/support values are applied to the observed combination.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for ingredients to prepare a meal or snack involving Poha, Curd Yogurt, and Rava Sooji.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns cannot be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-22"
+    ],
+    "first_seen_at": "2026-02-22T18:05:44",
+    "last_seen_at": "2026-02-22T18:05:44"
+  }
 }

@@ -1,34 +1,40 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user placed two separate orders for fresh bananas on independent dates (2026-07-06 and 2026-07-21). Both orders occurred on weekdays during the morning daypart. The first order was for Banana Robusta 4 Units, and the second was for Baby Banana Robusta 500 g. While the specific product variants differ, the consistent purchase of bananas across two independent dates establishes a stable preference for this fruit. The morning timing aligns with population norms for fresh fruit consumption.",
+  "summary_text": "In July 2026, the user ordered fresh bananas on two independent dates (2026-07-06 and 2026-07-21), both on weekdays and in the morning. The first order was for Banana Robusta (4 units), and the second was for Baby Banana Robusta 500 g. While the specific product variant and pack size changed, the core product category (Banana Robusta) and the ordering context (weekday morning) are consistent across both dates. The morning timing aligns with the population baseline where morning accounts for 32.46% of activity. Due to the repetition across two independent dates, a stable preference for Banana Robusta is established. The specific variant preference is less stable due to the change in pack/size description, but the brand/variety line is supported. The weekday morning pattern is also supported by two dates.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Banana Robusta",
-      "claim_text": "The user has a stable preference for Banana Robusta, evidenced by purchases on 2026-07-06 and 2026-07-21.",
+      "claim_text": "The user has a stable preference for Banana Robusta, evidenced by orders on 2026-07-06 and 2026-07-21.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Baby Banana Robusta",
-      "claim_text": "The user has a stable preference for Baby Banana Robusta, evidenced by purchases on 2026-07-06 and 2026-07-21.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Bananas",
-      "claim_text": "The user has a stable preference for bananas, evidenced by purchases on 2026-07-06 and 2026-07-21.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "value": "Baby Banana Robusta 500 g",
+      "claim_text": "The user ordered Baby Banana Robusta 500 g on 2026-07-21. This is a single observation for this specific variant description, but it falls under the broader stable Banana Robusta preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "The user purchased two different variants of bananas (standard and baby) on separate dates. It is unclear if the user prefers one specific size or pack format over the other, or if they are trying different options.",
-  "overall_confidence": "medium"
+  "trend_claims": [
+    {
+      "claim_text": "The user ordered Banana Robusta on two separate dates in July 2026, indicating a recurring interest in this fruit variety within the month.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While Banana Robusta is a stable preference, the specific pack size/variant shifted from a 4-unit pack to a 500g pack between the two dates. The user's preference for the exact packaging format is not yet established as stable, only the product type. The morning timing is consistent but aligns with general population baselines.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-06",
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

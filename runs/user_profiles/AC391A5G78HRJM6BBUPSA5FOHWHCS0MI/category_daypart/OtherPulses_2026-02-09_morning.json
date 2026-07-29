@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 3 units of Fortune Chana Dal Split 500 g.",
+  "summary_text": "One order of Fortune Chana Dal Split 500 g (quantity: 3) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The product is a routine household staple pulse sized for quick replenishment or simple home meals.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when morning purchases represent 32.46% of the population baseline. The products are everyday cooking staples suitable for routine household replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this reflects a specific meal need or a general habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T08:35:20",
+    "last_seen_at": "2026-02-09T08:35:20"
+  }
 }

@@ -1,40 +1,46 @@
 {
-  "category": "Cough",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for the VICKS brand and specifically the VICKS Double Power Cough Drops Warming Ginger variant, evidenced by purchases across February, May, and June 2026. The product is used as a portable, fast-acting throat lozenge for immediate, on-the-go relief of cough or throat irritation. Purchases occur primarily on weekdays, with timing varying between afternoon and night. The user buys in variable quantities (single packs to multi-packs), suggesting needs fluctuate based on immediate symptom severity or stock levels. The observed cadence is approximately every 11.5 days.",
-  "brand_preferences": [
-    {
-      "brand": "VICKS",
-      "preference_text": "The user has a stable preference for VICKS cough drops, evidenced by purchases on 3 independent dates in February 2026.",
-      "confidence": "high",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on 3 independent dates in February 2026.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Cough",
+  "summary_text": "The user demonstrates a stable, high-confidence preference for VICKS brand cough drops, specifically the Double Power line in the Warming Ginger variant, packaged in 25-tablet units. This preference is evidenced by repeated purchases across February, May, and June 2026. While the product choice is consistent, the purchasing timing varies between morning, afternoon, and night, with no single daypart dominating the behavior.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "VICKS",
+        "preference_text": "The user consistently selects VICKS brand for cough relief, with high-confidence evidence from three independent dates in February 2026 and medium-confidence evidence from May and June 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the VICKS brand and does not extend to other cough drop brands such as Halls or Ricola."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Warming Ginger",
+        "preference_text": "The user shows a stable preference for the Warming Ginger flavor profile within the VICKS Double Power line, observed across multiple months.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "25 tablets",
+        "preference_text": "The user predominantly purchases the 25-tablet pack size, which appears in all observed orders.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has shown no evidence of substituting other brands or variants in the Cough category. The consistent return to the same specific product suggests low tolerance for substitution within this category, though the specific need (cough relief) could theoretically be met by other brands if the preferred product were unavailable.",
+  "uncertainty_text": "While the product preference is stable, the purchasing timing is inconsistent, occurring in the morning, afternoon, and night across different dates. It is unclear if the user has a preferred time of day for purchasing or if timing is driven by immediate need or availability. Additionally, there is no evidence of purchasing other cough-related products (e.g., syrups, sprays) or other brands, leaving the breadth of the user's category engagement undefined.",
+  "retrieval_text": "The user exhibits a stable, high-confidence preference for VICKS brand cough drops, specifically the Double Power Warming Ginger variant in 25-tablet packs. This preference is grounded in repeated purchases across February, May, and June 2026, with evidence spanning multiple independent dates. The user consistently selects this specific brand and flavor profile, showing no evidence of substituting other brands or variants. Purchasing timing is variable, occurring in the morning, afternoon, and night, with no single daypart pattern established. The user's behavior indicates a strong loyalty to this specific product configuration for cough relief needs.",
   "replenishment": {
     "cadence_days": 11.5,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-06-11",
     "predicted_next_purchase_date": "2026-06-22",
-    "replenishment_text": "The user typically repurchases this category every 11.5 days, with the next purchase estimated around 2026-06-22.",
-    "confidence": "high",
-    "evidence_count": 7,
-    "independent_date_count": 7
+    "replenishment_text": "Cough is reordered roughly every 12 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as all observed search/view/cart activity (none recorded) and all brand/product interests have resulted in completed transactions.",
-  "substitution_text": null,
-  "price_value_text": "The user purchases variable quantities (1 to 4 packs), indicating flexibility in spend based on immediate need or stock levels rather than a fixed budget constraint per trip.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No browsing, search, or cart activity was recorded in June 2026, indicating no hesitation or comparison behavior was observed for this specific product.",
-  "mission_generation_text": "Shopping needs supported by this category profile include portable, fast-acting throat relief for cough or throat irritation, typically purchased on weekdays for immediate use or stock replenishment.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 7,
+    "independent_date_count": 7,
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

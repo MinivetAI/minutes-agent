@@ -1,9 +1,23 @@
 {
   "date": "2026-05-05",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-05 (weekday), the user purchased fresh cooking staples and a ready-to-eat snack during the afternoon. The basket included 2 units of Chilli Bajji (250 g), 2 units of Local Tomato (450-550g), 1 unit of an unidentified vegetable product, and 1 unit of Onion (1 kg). The combination suggests a mix of immediate consumption and meal preparation needs. The specific identity of the third vegetable product is unknown. No browsing or search data is available to determine if these items were planned or impulse buys.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-05 (weekday), the user placed one order in the afternoon containing Chilli Bajji (2 units), Local Tomato (2 units), an unidentified vegetable item (1 unit), and Onion 1 kg (1 unit). The afternoon timing aligns with a lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The basket combines a ready-to-eat spicy snack with fresh cooking staples, suggesting a mix of immediate consumption and meal preparation needs. This is a single observation on one date; it is not yet established whether the user prefers Chilli Bajji over other snacks, or if they regularly buy fresh tomatoes and onions in this specific combination. The identity of the third vegetable item is unknown.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order placed on 2026-05-05 in the afternoon containing Chilli Bajji (2 units), Local Tomato (2 units), an unidentified vegetable item (1 unit), and Onion 1 kg (1 unit).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "The specific identity of the third vegetable product (VEGGF7EXB3KWXAGJ) is unknown. No browsing or search data is available to determine if these items were planned or impulse buys.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers Chilli Bajji over other snacks, or if they regularly buy fresh tomatoes and onions in this specific combination. The identity of the third vegetable item is unknown.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-05"
+    ],
+    "first_seen_at": "2026-05-05T15:57:39",
+    "last_seen_at": "2026-05-05T15:57:39"
+  }
 }

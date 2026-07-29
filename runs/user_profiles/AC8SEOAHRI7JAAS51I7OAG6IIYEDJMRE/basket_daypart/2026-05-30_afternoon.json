@@ -1,25 +1,31 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-05-30 in the afternoon on a weekend. The basket contains five items across five distinct categories: Cookies Biscuits (1), Aerated Drinks (2), Chips (1), Canned Food (1), and Milk (1). The purchase reflects a mix of snack items (Cookies Biscuits, Chips, Aerated Drinks) and pantry staples (Canned Food, Milk). No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single afternoon weekend order containing five items across five distinct categories: Cookies Biscuits, Aerated Drinks, Chips, Canned Food, and Milk. The basket shows broad category breadth with no single category dominating the quantity. The combination of Canned Food and Milk appears in the supplied evidence with a support of 0.057, confidence of 0.444, and lift of 1.244, based on 4 co-order instances. No other category pairs from this specific order are matched in the supplied `category_pair_evidence`. This single observation does not establish a durable pattern or routine.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Cookies Biscuits",
-        "Aerated Drinks",
-        "Chips",
         "Canned Food",
         "Milk"
       ],
-      "combination_text": "Cookies Biscuits, Aerated Drinks, Chips, Canned Food, and Milk were purchased together in a single order.",
-      "support": null,
+      "combination_text": "Canned Food and Milk",
+      "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of snack items (Cookies Biscuits, Chips, Aerated Drinks) and staples (Canned Food, Milk) is compatible with a need for immediate snacking or a casual meal component, alongside basic pantry replenishment.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior is evident to support claims of routine or preference.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user ordered a mix of snacks (Cookies Biscuits, Chips, Aerated Drinks) and staples (Milk, Canned Food), potentially for immediate consumption or stocking up on non-perishable and dairy items during a weekend afternoon.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or high-confidence patterns can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-30T13:06:02",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

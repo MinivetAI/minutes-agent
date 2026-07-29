@@ -1,11 +1,11 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased fresh, unbranded vegetables on three independent dates (2026-04-10, 2026-04-16, 2026-04-23). The basket consistently included staple produce such as onions, tomatoes, cucumbers, and bottle gourd, indicating a recurring need for perishable meal ingredients. While the specific daypart varied (evening on 04-10, morning on 04-16 and 04-23), the morning purchase pattern is supported by two independent dates. No specific brand or variant preferences are established as all items are unbranded.",
+  "summary_text": "In April 2026, the user placed three independent orders for fresh vegetables, primarily on weekdays. The basket consistently included cooking staples such as onions, tomatoes, cucumbers, and bottle gourd, alongside potatoes and ginger. While the specific mix of items varied slightly between orders, the recurring presence of these core ingredients suggests a routine for immediate meal preparation. The user ordered in the morning on two independent dates (April 16 and April 23) and in the evening on one date (April 10).",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Onion",
-      "claim_text": "The user purchased onions on 2026-04-10, 2026-04-16, and 2026-04-23.",
+      "claim_text": "The user ordered onions on 3 independent dates in April 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Tomato",
-      "claim_text": "The user purchased tomatoes on 2026-04-10, 2026-04-16, and 2026-04-23.",
+      "claim_text": "The user ordered tomatoes on 3 independent dates in April 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,7 +21,7 @@
     {
       "dimension": "product",
       "value": "Cucumber",
-      "claim_text": "The user purchased cucumber (Local Cucumber, Long Cucumber, or generic) on 2026-04-10, 2026-04-16, and 2026-04-23.",
+      "claim_text": "The user ordered cucumbers on 3 independent dates in April 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -29,7 +29,7 @@
     {
       "dimension": "product",
       "value": "Bottle Gourd",
-      "claim_text": "The user purchased bottle gourd on 2026-04-10 and 2026-04-23.",
+      "claim_text": "The user ordered bottle gourd on 2 independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -37,7 +37,7 @@
     {
       "dimension": "product",
       "value": "Potato",
-      "claim_text": "The user purchased potatoes on 2026-04-16 and 2026-04-23.",
+      "claim_text": "The user ordered potatoes on 2 independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -45,39 +45,7 @@
     {
       "dimension": "product",
       "value": "Ginger",
-      "claim_text": "The user purchased ginger on 2026-04-16 and 2026-04-23.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Bitter Gourd",
-      "claim_text": "The user purchased bitter gourd on 2026-04-16 and 2026-04-23.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Pumpkin",
-      "claim_text": "The user purchased pumpkin on 2026-04-16 and 2026-04-23.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Local Tomato",
-      "claim_text": "The user purchased Local Tomato on 2026-04-10 and 2026-04-16.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Local Cucumber",
-      "claim_text": "The user purchased Local Cucumber on 2026-04-10 and 2026-04-23.",
+      "claim_text": "The user ordered ginger on 2 independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -85,27 +53,176 @@
     {
       "dimension": "product",
       "value": "Long Cucumber",
-      "claim_text": "The user purchased Long Cucumber on 2026-04-10 and 2026-04-23.",
+      "claim_text": "The user ordered long cucumber on 2 independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Unidentified Vegetable Items",
-      "claim_text": "The user purchased two unidentified vegetable items on 2026-04-23.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
+      "value": "Local Tomato",
+      "claim_text": "The user ordered local tomatoes on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Local Cucumber",
+      "claim_text": "The user ordered local cucumber on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Fresh New Crop Potato",
+      "claim_text": "The user ordered fresh new crop potato on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Fresh Ginger",
+      "claim_text": "The user ordered fresh ginger on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Bitter Gourd",
+      "claim_text": "The user ordered bitter gourd on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Pumpkin",
+      "claim_text": "The user ordered pumpkin on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Onion",
+      "claim_text": "The user ordered onions on 3 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Tomato",
+      "claim_text": "The user ordered tomatoes on 3 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Cucumber",
+      "claim_text": "The user ordered cucumbers on 3 independent dates in April 2026.",
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Bottle Gourd",
+      "claim_text": "The user ordered bottle gourd on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Potato",
+      "claim_text": "The user ordered potatoes on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Ginger",
+      "claim_text": "The user ordered ginger on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Long Cucumber",
+      "claim_text": "The user ordered long cucumber on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Local Tomato",
+      "claim_text": "The user ordered local tomatoes on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Local Cucumber",
+      "claim_text": "The user ordered local cucumber on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Fresh New Crop Potato",
+      "claim_text": "The user ordered fresh new crop potato on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Fresh Ginger",
+      "claim_text": "The user ordered fresh ginger on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Bitter Gourd",
+      "claim_text": "The user ordered bitter gourd on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Pumpkin",
+      "claim_text": "The user ordered pumpkin on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased fresh vegetables in the morning on two independent dates (2026-04-16, 2026-04-23), aligning with the population's highest shopping share (32.46% and 32.5% respectively).",
-      "confidence": "medium"
-    }
-  ],
-  "uncertainty_text": "This analysis is based on three independent orders. While staple vegetables recur, the lack of branded items prevents specific brand preference claims. The specific meal plans or household sizes driving these purchases are unknown.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of vegetables, the evening timing, or the unbranded nature of the produce represents a stable, recurring preference or a one-time meal-specific need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-10",
+      "2026-04-16",
+      "2026-04-23"
+    ],
+    "first_seen_at": "2026-04-10T20:42:42",
+    "last_seen_at": "2026-04-23T10:45:31"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased five fresh vegetable items in a single order: one pack of hybrid tomatoes (approx. 500 g), two bunches of green amaranth leaves (approx. 250 g each), one pack of broad beans (approx. 250 g), one pack of onions (approx. 425–500 g), and one pack of cleaned coriander leaves (approx. 90–100 g).",
+  "summary_text": "One order of fresh vegetables placed in the morning on a weekday, including tomato, amaranth greens, broad beans, onion, and coriander leaves.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed on a weekday morning, a time when population share is 0.3246. The basket consists entirely of fresh, unbranded produce staples typically used for immediate meal preparation, such as curries, gravies, and garnishes, suggesting a need to replenish ingredients for same-day cooking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekday, a time when the user's activity is below the population baseline (morning share 0.3246). The basket consists of fresh, unbranded produce items typically used for immediate meal preparation, such as curries or sabzis, suggesting a need for quick replenishment of cooking ingredients.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for morning vegetable shopping or a one-time urgent need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-08"
+    ],
+    "first_seen_at": "2026-07-08T09:01:24",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

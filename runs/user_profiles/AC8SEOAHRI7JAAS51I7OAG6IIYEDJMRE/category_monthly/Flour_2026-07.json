@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, one unit of flour was purchased on a weekday afternoon. This timing aligns with a period of lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). No browsing or search history is available to determine if this was a planned purchase or an immediate need. No brand preference can be established from a single item without brand data.",
+  "summary_text": "In July 2026, one order of flour (1 unit) was placed on a weekday afternoon. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) but more common than night (0.1202). As this is a single observation on one date, no stable brand, product, or timing preference can be established; it is unclear if this is a one-time need or part of a recurring pattern.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an immediate need. No brand preference can be established from a single item without brand data.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so no stable brand, product, or timing preference can be established. It is unclear if this is a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

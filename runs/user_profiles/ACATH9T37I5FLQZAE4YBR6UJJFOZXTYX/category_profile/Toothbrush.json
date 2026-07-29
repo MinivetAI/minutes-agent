@@ -1,40 +1,34 @@
 {
-  "category": "Toothbrush",
-  "profile_text": "The user demonstrates a stable preference for Colgate toothbrushes, specifically the ZigZag Medium variant, based on purchases on two independent dates in June 2026. Both transactions occurred on weekends, with one in the morning and one in the afternoon. This pattern suggests a routine refresh or replacement need. No other brands or variants were observed.",
-  "brand_preferences": [
-    {
-      "brand": "Colgate",
-      "preference_text": "Stable preference for Colgate, evidenced by purchases on 2 independent dates in June 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for Colgate ZigZag Medium Toothbrush, evidenced by purchases on 2 independent dates in June 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Toothbrush",
+  "summary_text": "In June 2026, the user purchased Colgate ZigZag Medium Toothbrush on two independent dates (2026-06-21 and 2026-06-27). This repetition meets the threshold for a stable preference. The user also purchased this item on a weekend on both occasions, establishing a weekend pattern. The first purchase was in the morning, and the second in the afternoon; while both are single-date dayparts, the recurrence of the product on weekends is the dominant stable signal.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Colgate",
+        "preference_text": "The user has purchased Colgate toothbrushes on two independent dates in June 2026, indicating a stable brand preference.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Colgate brand and does not extend to other toothbrush brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No alternative brands or product types are evidenced as acceptable substitutes. The user's consistent selection of Colgate suggests a boundary against switching to other brands within the current evidence window.",
+  "uncertainty_text": "While the product and brand show stable preference across two dates, the daypart pattern is mixed (one morning, one afternoon) and does not form a consistent daily routine claim beyond the weekend timing. The afternoon purchase on 2026-06-27 contrasts with the population baseline for toothbrushes, but as a single observation for that specific daypart, it is not a stable pattern.",
+  "retrieval_text": "The user demonstrates a stable medium-confidence preference for Colgate brand toothbrushes, specifically the ZigZag Medium variant, evidenced by purchases on two independent dates in June 2026. These transactions occurred on weekends, establishing a weekend-based replenishment pattern, though specific daypart timing varied between morning and afternoon. No other brands or product forms are supported as substitutes within this evidence window.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-27",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-06-27. Cadence is unknown.",
-    "confidence": "medium",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Toothbrush yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions on two independent dates.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Routine oral hygiene maintenance and toothbrush replacement.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-06-21T08:35:05",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

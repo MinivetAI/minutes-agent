@@ -1,22 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-08 in the evening on a weekday. The basket contains four distinct items: one unit each of Savouries Namkeens, Milk, Chips, and Butter Margarine. The order exhibits narrow breadth, combining a dairy staple (Milk) with a savory snack (Savouries Namkeens) and a spread (Butter Margarine), alongside a separate snack item (Chips). This combination is compatible with a need for evening snacks or light refreshments. As this is the only observed order, it represents a single observation rather than a durable preference pattern.",
+  "basket_summary_text": "A single order placed on 2026-04-08 in the evening on a weekday. The basket contains four distinct items: one unit each of a product from Savouries Namkeens, Milk, Chips, and Butter Margarine. This represents a single observation of basket breadth and category combination.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and Savouries Namkeens were purchased together in this order.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Evening snack or light refreshment.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of Milk, Butter Margarine, and Savouries Namkeens is compatible with a need for breakfast or snack components, though the specific intent is not confirmed by this single order.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T16:16:45",
+    "last_seen_at": "2026-04-08T16:16:45"
+  }
 }

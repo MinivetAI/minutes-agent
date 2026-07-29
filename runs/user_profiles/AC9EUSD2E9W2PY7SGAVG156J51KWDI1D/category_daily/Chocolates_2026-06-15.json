@@ -1,9 +1,23 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "One order of NESTLÉ Milkybar Choo Strawberry Flavour Treats Bars (80 g) in the Chocolates category. Purchased during the morning on a weekday, a time when this category represents 32.46% of population activity. The product is a shareable, bite-sized confectionery treat with a playful puzzle element, suitable for immediate snacking or impulse purchase.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-15 (weekday), the user purchased NESTLÉ Milkybar Choo Strawberry Flavour Treats Bars (80 g) in the morning. This single order aligns with the population baseline where morning activity accounts for 32.46% of transactions. The product is a small, shareable confectionery treat, likely purchased for an immediate sweet craving or quick snack. As this is the only observed order on this date, it represents a concrete observation rather than a stable long-term preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of NESTLÉ Milkybar Choo Strawberry Flavour Treats Bars (80 g) purchased in the morning on a weekday. This timing aligns with the population baseline where morning shares 32.46% of activity. The product is a small, shareable confectionery treat, typically used for immediate sweet cravings or as a quick snack. This is a single observation on one date; it is not yet established whether this represents a stable preference for this specific brand, product type, or morning timing.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no durable brand or flavor preference can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand, product type, or morning timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

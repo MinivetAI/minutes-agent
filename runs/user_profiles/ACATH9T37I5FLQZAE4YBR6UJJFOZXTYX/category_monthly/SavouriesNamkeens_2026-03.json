@@ -1,11 +1,11 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased savoury namkeens on three independent dates. Too Yumm! Sour Cream and Onion Veggie Stix appeared on two dates (March 4 and March 27), meeting the repetition bar for stable preference. Haldiram's Moong Dal appeared on one date (March 25) and is excluded from stable claims. Purchases occurred on weekdays, with timing split between morning and afternoon.",
+  "summary_text": "In March 2026, the user ordered savoury namkeens on three independent dates. Too Yumm! Sour Cream and Onion Veggie Stix (35 g) appeared on two dates (2026-03-04 and 2026-03-27), establishing a stable preference for this specific brand and variant. Haldiram's Moong Dal 200 g was ordered once on 2026-03-25 and remains a single-date observation. Purchases occurred on weekdays, with orders placed in both the morning and afternoon.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Too Yumm!",
-      "claim_text": "The user has a stable preference for Too Yumm! savoury snacks, evidenced by purchases on two independent dates in March 2026.",
+      "claim_text": "The user has a stable preference for Too Yumm! savoury snacks, evidenced by orders on two independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Too Yumm! Sour Cream and Onion Veggie Stix (35 g)",
-      "claim_text": "The user has a stable preference for Too Yumm! Sour Cream and Onion Veggie Stix, evidenced by purchases on two independent dates in March 2026.",
+      "claim_text": "The user has a stable preference for Too Yumm! Sour Cream and Onion Veggie Stix (35 g), evidenced by orders on two independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Haldiram's Moong Dal was purchased on a single date (March 25) and does not meet the repetition threshold for stable preference. No other brands or products recurred across multiple dates.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "Haldiram's Moong Dal 200 g was observed on a single date (2026-03-25) and does not meet the threshold for stable preference classification. No other values recurred across independent dates.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-25",
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

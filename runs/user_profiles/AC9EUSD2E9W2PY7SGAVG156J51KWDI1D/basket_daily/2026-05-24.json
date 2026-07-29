@@ -1,12 +1,108 @@
 {
   "date": "2026-05-24",
   "day_type": "weekend",
-  "summary_text": "On this weekend, two separate orders were placed during the morning and afternoon dayparts. The morning order consisted of four items across four categories: Sugar, Vegetables, Chocolates, and Aerated Drinks. The afternoon order contained six items across six categories: Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health. Both orders reflect general household replenishment and personal consumption needs. No durable preferences or recurring habits can be inferred from this single date.",
+  "summary_text": "On this weekend, two separate orders were placed: one in the morning and one in the afternoon. The morning order included five items across four categories (Sugar, Vegetables, Chocolates, Aerated Drinks), mixing staple ingredients with indulgent items. The afternoon order contained six distinct items across six categories (Chips, Edible Seeds, Garbage Bags, Rice, Salt, Digestive Health), combining snack foods, pantry staples, household utilities, and health supplements. No patterns or routines can be inferred from this single day's activity.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "General household replenishment and personal consumption.",
-  "uncertainty_text": "This analysis is based on a single observed date (2026-05-24). No durable behavior patterns, stable preferences, or recurring habits can be inferred. The evidence represents two independent orders on one date.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Sugar",
+        "Vegetables"
+      ],
+      "combination_text": "Sugar and Vegetables were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Sugar",
+        "Chocolates"
+      ],
+      "combination_text": "Sugar and Chocolates were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Sugar",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Sugar and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Chocolates"
+      ],
+      "combination_text": "Vegetables and Chocolates were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Chocolates",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Chocolates and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Chips",
+        "Edible Seeds",
+        "Garbage Bags",
+        "Rice",
+        "Salt",
+        "Digestive Health"
+      ],
+      "combination_text": "Single order containing Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "The morning order may reflect a need for basic meal preparation ingredients combined with immediate consumption items or treats. The afternoon order suggests replenishment of pantry staples, snacks, household supplies, and digestive health supplements.",
+  "uncertainty_text": "This analysis is based on a single day with two separate orders. No durable preferences, routines, or stable patterns can be inferred from this isolated observation. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

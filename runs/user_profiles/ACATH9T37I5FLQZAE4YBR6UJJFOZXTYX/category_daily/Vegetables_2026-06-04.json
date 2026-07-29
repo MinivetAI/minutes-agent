@@ -1,15 +1,17 @@
 {
   "date": "2026-06-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-04 (weekday), the user purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during an afternoon session. This afternoon period has a 25.26% population share, suggesting a mid-day or post-lunch shopping window. The items are fresh, unbranded vegetables commonly used as base ingredients for immediate cooking or meal preparation. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during an afternoon weekday session. This afternoon period has a 25.26% population share, suggesting a mid-day or post-lunch shopping window. The items are fresh, unbranded vegetables commonly used as base ingredients for immediate cooking or meal preparation. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On a weekday afternoon, the user ordered unbranded baby potatoes (280–320 g) and unbranded onions (400–450 g). This activity occurred during a period of below-baseline user engagement for this daypart (population afternoon share: 0.2526). The items represent fresh vegetable staples suitable for immediate meal preparation.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific culinary intent beyond the general utility of the products.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-04T11:20:07"
+  }
 }

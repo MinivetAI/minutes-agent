@@ -1,34 +1,27 @@
 {
-  "category": "Face Cream And Gel",
-  "profile_text": "The user has purchased face creams and gels on three independent dates (April and June 2026), establishing a slow replenishment cadence of approximately 38 days. Two distinct brands were observed: POND'S (appearing on two independent dates) and Pilgrim (appearing on one date). POND'S is the only brand with sufficient repetition to suggest a potential preference, though confidence remains limited by the small sample size. No stable product or variant preferences are established as each specific SKU appeared only once. The user buys these products for general skin hydration and care.",
-  "brand_preferences": [
-    {
-      "brand": "POND'S",
-      "preference_text": "POND'S was purchased on two independent dates (April 2026 and June 2026), indicating a repeated selection for this category.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Face Cream And Gel",
+  "summary_text": "The user has purchased face moisturizers in April and June 2026, specifically POND'S Super Light Gel Moisturiser and Pilgrim Red Vine Night Creme Gel. Evidence is limited to single observations per product/brand per month, preventing the establishment of stable brand or product preferences. No consistent daypart or weekday/weekend pattern is evident due to purchases occurring on different days and times.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has tried distinct brands (POND'S, Pilgrim) and product types (gel moisturiser, night creme gel) on separate occasions, but single observations do not indicate acceptable alternatives or boundaries.",
+  "uncertainty_text": "Stable brand, product, or routine preferences cannot be established as each item was purchased only once in the observed months. It is unclear if the user is trialing products, seeking diverse hydration options, or has a specific routine that is not yet repeated. No consistent timing pattern (daypart or day-type) is evident.",
+  "retrieval_text": "User purchased POND'S Super Light Gel Moisturiser (200 ml) in April 2026 (weekend evening) and June 2026 (afternoon), and Pilgrim Red Vine Night Creme Gel in April 2026 (weekday afternoon). Evidence consists of single observations per product per month; no stable brand preference, routine, or consistent daypart pattern is established due to lack of repetition across independent dates.",
   "replenishment": {
     "cadence_days": 38.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-20",
     "predicted_next_purchase_date": "2026-07-28",
-    "replenishment_text": "The user typically repurchases this category every 38 days, with the next purchase estimated around late July 2026.",
-    "confidence": "low",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "FaceCreamAndGel is reordered roughly every 38 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably results in completed purchases, as evidenced by three distinct transactions across two months.",
-  "substitution_text": "The user has purchased from two different brands (POND'S and Pilgrim), suggesting openness to brand substitution within the face cream/gel category.",
-  "price_value_text": "No specific price or value behavior can be inferred from the available evidence.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty was found.",
-  "mission_generation_text": "Supports ongoing skin hydration and daily skincare maintenance needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-06-20T13:13:50"
+  }
 }

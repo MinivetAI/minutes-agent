@@ -1,40 +1,27 @@
 {
-  "category": "Dish Cleaning Gel",
-  "profile_text": "The user purchased one 250 ml single-pack of Vim Dish Cleaning Gel Lemon on 2026-04-26 (evening, weekend). This is a single observed transaction; it does not establish a stable preference or recurring habit for this brand or product type.",
-  "brand_preferences": [
-    {
-      "brand": "Vim",
-      "preference_text": "Vim was observed in one transaction on 2026-04-26. This single observation does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Vim Dish Cleaning Gel Lemon (250 ml single-pack) was purchased on 2026-04-26. This single observation does not establish a stable preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Dish Cleaning Gel",
+  "summary_text": "In April 2026, one unit of Vim Dish Cleaning Gel Lemon (250 ml) was purchased on a weekend evening. This single observation does not establish a stable brand or product preference, and it is unknown if this is a routine replacement or a one-time purchase.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from a single observation.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unknown if this is a routine replacement or a one-time purchase.",
+  "retrieval_text": "A single order of Vim Dish Cleaning Gel Lemon (250 ml) was recorded on a weekend evening in April 2026. Due to the lack of repetition across independent dates, no stable brand, variant, or pack size preference can be inferred, and the user's typical cadence or substitution boundaries remain unknown.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-26",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-04-26. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for DishCleaningGel yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Routine household cleaning for immediate dishwashing needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-26T19:26:32"
+  }
 }

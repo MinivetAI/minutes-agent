@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-04 (weekend), the user purchased one 200 g box of Amul Kaju Katri, a boxed Indian dry-fruit sweet, during the morning. This timing aligns with a period where the Sweets Mithai category represents 32.46% of population activity. The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting.",
+  "summary_text": "In April 2026, the user placed one order of Amul Kaju Katri Box 200 g on a weekend morning. This timing falls below the population baseline for morning activity (share 0.3246). The product is a boxed Indian sweet suitable for immediate consumption, gifting, or festival needs. As this is a single observation on one date, no stable brand or product preference can be established, and it is unclear if this purchase was for a specific occasion, a one-time craving, or part of a broader habit.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for a specific occasion, a one-time craving, or part of a broader habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T08:10:57",
+    "last_seen_at": "2026-04-04T08:10:57"
+  }
 }

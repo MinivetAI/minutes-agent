@@ -1,92 +1,30 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-04-19 (morning, weekend) contained one unit of Canned Food. No other products were purchased or added to cart in this session. The basket breadth is narrow, consisting of a single category. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on a weekend morning containing one item from the Canned Food category. This isolated observation does not establish a durable shopping pattern or routine. The basket is narrow, consisting of a single product type.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Breads",
-        "CurdYogurt"
+        "Canned Food"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
+      "combination_text": "Canned Food",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for pantry staples or preserved foods.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or patterns can be inferred. The category pair evidence provided reflects population-level statistics, not necessarily the behavior of this specific user in this specific order, as the order only contained Canned Food.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for convenient, shelf-stable food items suitable for a weekend morning meal or snack.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or strong category associations can be inferred from this isolated event. The provided category pair evidence (e.g., Canned Food with CurdYogurt) reflects population-level trends or other orders, not this specific basket's composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-19"
+    ],
+    "first_seen_at": "2026-04-19T09:52:54",
+    "last_seen_at": "2026-04-19T09:52:54"
+  }
 }

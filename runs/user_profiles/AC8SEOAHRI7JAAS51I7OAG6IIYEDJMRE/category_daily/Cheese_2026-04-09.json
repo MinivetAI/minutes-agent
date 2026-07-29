@@ -1,9 +1,23 @@
 {
   "date": "2026-04-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-09 (weekday), one order of Amul Plain Processed Cheese Slices (200 g) was placed in the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (25.26% share vs. 32.46% for morning). The product is a convenience-oriented processed cheese item suitable for quick meal assembly or snacking. This is a single observed transaction; it does not establish a stable preference or routine for this category or brand.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-09 (weekday), one order of Amul Plain Processed Cheese Slices (200 g) was placed in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a ready-to-use processed cheese slice pack, typically utilized for quick meal assembly such as sandwiches or snacks. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, nor is it clear if the user typically shops for cheese in the afternoon versus other times.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Amul Plain Processed Cheese Slices (200 g) placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a ready-to-use processed cheese slice pack, typically utilized for quick meal assembly such as sandwiches or snacks.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, nor is it clear if the user typically shops for cheese in the afternoon versus other times.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T11:57:25",
+    "last_seen_at": "2026-04-09T11:57:25"
+  }
 }

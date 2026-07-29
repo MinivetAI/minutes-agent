@@ -1,93 +1,31 @@
 {
   "date": "2026-05-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-28, a weekday, a single order was placed in the evening. The basket consisted entirely of six distinct vegetable items. No other categories were purchased in this transaction. The basket reflects a focused need for fresh produce, with no evidence of complementary items like breads, dips, or milk in this specific instance, despite historical co-ordering signals.",
+  "summary_text": "On 2026-05-28 (weekday), a single order was placed in the evening. The basket consisted exclusively of six distinct products from the Vegetables category. No other categories were present, so no cross-category combinations were observed. This represents a narrow category focus on fresh produce, potentially for meal preparation. As this is a single observation on one date, durable preferences or routine behaviors cannot be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
         "Vegetables"
       ],
-      "combination_text": "Historical data shows Breads and Vegetables are frequently ordered together.",
-      "support": 0.074,
+      "combination_text": "Vegetables",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "DipsSaucesPastes",
-        "Vegetables"
-      ],
-      "combination_text": "Historical data shows DipsSaucesPastes and Vegetables are frequently ordered together.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Historical data shows Milk and Vegetables are frequently ordered together.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "SpicesMasala"
-      ],
-      "combination_text": "Historical data shows SavouriesNamkeens and SpicesMasala are frequently ordered together.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Historical data shows Fruits and Vegetables are frequently ordered together.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Fruits"
-      ],
-      "combination_text": "Historical data shows CurdYogurt and Fruits are frequently ordered together.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "IceCreams",
-        "Vegetables"
-      ],
-      "combination_text": "Historical data shows IceCreams and Vegetables are frequently ordered together.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "DipsSaucesPastes"
-      ],
-      "combination_text": "Historical data shows Breads and DipsSaucesPastes are frequently ordered together.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user has a need for fresh vegetables.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for fresh vegetables for meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T20:47:05",
+    "last_seen_at": "2026-05-28T20:47:05"
+  }
 }

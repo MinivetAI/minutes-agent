@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "On 2026-05-03, the user purchased two 500 ml ice cream tubs from Go Zero (Mango Mad Over Mango and Chocolate Mocha Brownie Fudge) during the afternoon. This is a single observed order on one date; durable brand or flavor preferences cannot be established, and the specific reason for choosing these flavors or the Go Zero brand is unknown.",
+  "summary_text": "In May 2026, the user purchased ice cream on one independent date (2026-05-03). The order consisted of two 500 ml tubs (Go Zero Mango and Go Zero Chocolate Mocha Brownie Fudge) bought on a weekend afternoon. As this is a single observation, no stable brand, product, or daypart preferences can be established for this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these flavors or the Go Zero brand is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This assessment is based on a single order on 2026-05-03. No durable preferences or patterns can be inferred from one transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-03"
+    ],
+    "first_seen_at": "2026-05-03T12:34:44",
+    "last_seen_at": "2026-05-03T12:34:44"
+  }
 }

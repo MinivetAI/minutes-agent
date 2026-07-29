@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom (10-count pack) during the evening on a weekday.",
+  "summary_text": "One order of Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom (1 unit).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (0.3027 for evening vs. 0.3246 for morning). The product is a high-immediacy item typically used for contraception and disease prevention, with specific features targeting delay and thinness.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this delay-focused, ultra-thin product over other options is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the evening on a weekday. This timing aligns with the population baseline for evening purchases (30.27%), which is the second most common time for this category after morning (32.46%). Condoms are typically high-immediacy items, often acquired shortly before anticipated use or to replace depleted stock.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this is a stable preference, a one-time need, or part of a recurring routine. No brand or product preference can be established from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

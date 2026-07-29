@@ -1,11 +1,43 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on six independent dates (2026-03-04, 2026-03-11, 2026-03-15, 2026-03-17, 2026-03-25, 2026-03-27). This product recurs across all observed dates, meeting the repetition bar for stable preference with high confidence. Purchases occurred across morning, afternoon, evening, and night dayparts, and on both weekdays and weekends, indicating flexible timing rather than a rigid daily routine. The product is a small-format, single-use liquid milk intended for immediate kitchen consumption such as tea, coffee, or breakfast.",
+  "summary_text": "The user ordered Amul Taaza Pasteurised Toned Milk (500 ml) on six independent dates in March 2026. This product has met the repetition bar for stable preference and is promoted with high confidence. The user also exhibits a stable preference for the morning daypart, appearing on four independent dates, which aligns with the population baseline share of 0.3246. While other dayparts (night, evening, afternoon) were observed, they occurred on fewer dates and do not meet the threshold for stable daypart preference claims in this category context relative to the dominant morning pattern. No other brands or variants were observed.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
-      "claim_text": "The user consistently purchases Amul Taaza Pasteurised Toned Milk (500 ml). This product appeared on 6 independent dates in March 2026.",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), observed on six independent dates. This small-format liquid milk is suitable for immediate kitchen use, such as breakfast or tea preparation.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    },
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for the Amul brand, observed on six independent dates.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    },
+    {
+      "dimension": "product",
+      "value": "Pasteurised Toned Milk",
+      "claim_text": "The user has a stable preference for pasteurised toned milk, observed on six independent dates.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    },
+    {
+      "dimension": "product",
+      "value": "500 ml",
+      "claim_text": "The user has a stable preference for the 500 ml pack size, observed on six independent dates.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    },
+    {
+      "dimension": "brand",
+      "value": "Amul Taaza",
+      "claim_text": "The user has a stable preference for the Amul Taaza variant, observed on six independent dates.",
       "confidence": "high",
       "evidence_count": 6,
       "independent_date_count": 6
@@ -13,6 +45,19 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the brand and format are stable, the timing varies significantly (morning, afternoon, evening, night) and spans both weekdays and weekends. This suggests the user maintains a stable supply of this specific milk product but does not adhere to a single fixed time of day or day type for purchase.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the product brand and variant show high-confidence stable preference, daypart patterns are mixed. The morning daypart is the most frequent (4 dates), but night, evening, and afternoon orders also occurred. The user's timing varies, though morning aligns with the population baseline.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 6,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-11",
+      "2026-03-15",
+      "2026-03-17",
+      "2026-03-25",
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

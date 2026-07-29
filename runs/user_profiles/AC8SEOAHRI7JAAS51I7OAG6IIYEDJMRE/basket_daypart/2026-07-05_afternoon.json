@@ -1,22 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend afternoon contained one unit of Toilet Cleaner and one unit of Canned Food. The basket breadth is narrow, consisting of two distinct categories. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing one unit each of a Toilet Cleaner and a Canned Food item. The basket is narrow, consisting of two distinct categories with no overlap with the provided category pair evidence.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Canned Food",
-        "Toilet Cleaner"
-      ],
-      "combination_text": "Canned Food and Toilet Cleaner were purchased together in this single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket may reflect a need for household cleaning supplies and shelf-stable food items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` are not used because only one date is represented. `overall_confidence` is `low` because the evidence represents only one independent date.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The purchase of a toilet cleaner suggests a need for household cleaning or maintenance, while the canned food indicates a need for food storage or meal preparation. These items are functionally unrelated.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. No durable behavior patterns, preferences, or routines can be established from this isolated observation. The provided category pair evidence does not match the categories in this specific order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T11:24:33",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

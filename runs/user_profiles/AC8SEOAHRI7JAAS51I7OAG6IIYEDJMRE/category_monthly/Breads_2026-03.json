@@ -1,43 +1,41 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased bread products on eight independent dates. The most consistent pattern involves whole wheat bread, specifically **Baker's Loaf Whole Wheat Bread (300 g)**, which was purchased on four independent dates (2026-03-24, 2026-03-27, 2026-03-31, and implicitly supported by the recurrence bar). **Naturbaked Zero Maida Whole Wheat Bread (300 g)** appeared on three independent dates (2026-03-02, 2026-03-14, 2026-03-29). Other items, including English Oven Buns and various kulcha breads, appeared on single dates and are excluded from stable preference claims. Daypart analysis shows purchases occurring in the morning, evening, and afternoon, with no single daypart dominating exclusively, though morning purchases are frequent. Weekday and weekend purchases are both present.",
+  "summary_text": "In March 2026, the user ordered breads on 8 independent dates. The user demonstrated a stable preference for Naturbaked Zero Maida Whole Wheat Bread (300 g), appearing on 3 independent dates (2026-03-02, 2026-03-14, 2026-03-29). The user also demonstrated a stable preference for Baker's Loaf Whole Wheat Bread (300 g), appearing on 3 independent dates (2026-03-24, 2026-03-27, 2026-03-31). Single-date observations include English Oven Buns (2026-03-16) and a mixed flatbread order including English Oven Masala Kulcha and The Health Factory Zero Maida Kulcha (2026-03-28).",
   "stable_preference_claims": [
     {
       "dimension": "brand",
-      "value": "Baker's Loaf",
-      "claim_text": "The user purchased Baker's Loaf Whole Wheat Bread on four independent dates in March 2026, indicating a stable preference for this brand within the bread category.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    },
-    {
-      "dimension": "brand",
       "value": "Naturbaked",
-      "claim_text": "The user purchased Naturbaked Zero Maida Whole Wheat Bread on three independent dates in March 2026, indicating a stable preference for this brand.",
+      "claim_text": "The user ordered Naturbaked Zero Maida Whole Wheat Bread (300 g) on 3 independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
-      "dimension": "product",
-      "value": "Whole Wheat Bread (300 g)",
-      "claim_text": "The user purchased 300 g whole wheat bread loaves on six independent dates (Baker's Loaf on 4 dates, Naturbaked on 3 dates, with overlap in product type but distinct brands), indicating a stable preference for this product format.",
-      "confidence": "high",
-      "evidence_count": 6,
-      "independent_date_count": 6
+      "dimension": "brand",
+      "value": "Baker's Loaf",
+      "claim_text": "The user ordered Baker's Loaf Whole Wheat Bread (300 g) on 3 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased English Oven Buns (150 g) on a single date (2026-03-16) and did not repurchase this item in March 2026. This represents a single-observation need rather than a stable preference.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "The user purchased Indian-style flatbreads (English Oven Masala Kulcha and The Health Factory Zero Maida Kulcha) on a single date (2026-03-28) and did not repurchase these items in March 2026. This represents a single-observation need.",
-      "confidence": "low"
-    }
-  ],
-  "uncertainty_text": "While whole wheat bread brands show stable repetition, the user also purchased buns and kulcha breads on single dates. The absence of repurchases for these items suggests they were one-time needs or trial purchases rather than stable preferences. Daypart patterns are mixed across morning, evening, and afternoon, preventing a single dominant daypart claim.",
-  "overall_confidence": "high"
+  "trend_claims": [],
+  "uncertainty_text": "Single-date observations for English Oven Buns and mixed flatbreads (English Oven Masala Kulcha, The Health Factory Zero Maida Kulcha) are excluded from stable preference lists as they appear on only one date each.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 8,
+    "purchase_dates": [
+      "2026-03-02",
+      "2026-03-14",
+      "2026-03-16",
+      "2026-03-24",
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29",
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

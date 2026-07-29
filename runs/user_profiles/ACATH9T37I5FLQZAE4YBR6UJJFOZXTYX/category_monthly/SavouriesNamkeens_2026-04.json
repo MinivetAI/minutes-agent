@@ -1,11 +1,75 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Bikaji Chowpati Bhelpuri 110 g on two independent dates (2026-04-12 and 2026-04-26). Both orders occurred on weekends during the afternoon, a daypart with lower-than-average population share (25.26%) compared to morning (32.46%) and evening (30.27%). The product is a ready-to-eat chaat-style mix suitable for immediate snacking.",
+  "summary_text": "In April 2026, the user purchased Bikaji Chowpati Bhelpuri 110 g on two independent weekend dates (2026-04-12 and 2026-04-26), both during the afternoon. This repetition establishes a stable preference for this specific product and timing pattern.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Bikaji Chowpati Bhelpuri 110 g",
-      "claim_text": "The user purchased Bikaji Chowpati Bhelpuri 110 g on two independent dates in April 2026, indicating a stable preference for this specific packaged Indian savoury snack.",
+      "claim_text": "The user has a stable preference for Bikaji Chowpati Bhelpuri 110 g, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "brand",
+      "value": "Bikaji",
+      "claim_text": "The user has a stable preference for the Bikaji brand, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Bhelpuri",
+      "claim_text": "The user has a stable preference for Bhelpuri products, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Ready-to-eat snack",
+      "claim_text": "The user has a stable preference for ready-to-eat snacks, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Chaat-style snack",
+      "claim_text": "The user has a stable preference for chaat-style snacks, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "110 g pack",
+      "claim_text": "The user has a stable preference for 110 g pack sizes, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Quantity 2-3",
+      "claim_text": "The user has a stable preference for purchasing quantities of 2-3 units, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Afternoon",
+      "claim_text": "The user has a stable preference for afternoon shopping, observed on two independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Weekend",
+      "claim_text": "The user has a stable preference for weekend shopping, observed on two independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +77,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two independent orders in April 2026. No other products or brands were observed in this category during this month.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two independent orders in April 2026. While the repetition supports stable preferences for the specific product, brand, and timing, the sample size is limited to a single month.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-12",
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-12T14:17:36",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

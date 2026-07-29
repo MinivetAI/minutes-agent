@@ -1,11 +1,11 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased aerated drinks on six independent dates. Sprite PET Bottle 750 ml was purchased on four independent dates (2026-05-02, 2026-05-06, 2026-05-11, 2026-05-12), establishing a stable preference. Appy Fizz PET Bottle 250 ml was purchased on two independent dates (2026-05-17, 2026-05-28), establishing a stable preference. The user also purchased a Sprite multi-pack on 2026-05-11, indicating a preference for bulk purchasing of Sprite. Daypart patterns show purchases in the morning, afternoon, and night, with no single daypart dominating. The user's activity in the afternoon is below the population baseline, while morning activity is above the population baseline.",
+  "summary_text": "In May 2026, the user ordered aerated drinks on six independent dates. Sprite was purchased on four separate dates (2026-05-02, 2026-05-06, 2026-05-11, 2026-05-12), establishing a stable preference. Appy Fizz was purchased on two separate dates (2026-05-17, 2026-05-28), also meeting the threshold for a stable preference. The user’s ordering activity spans morning, afternoon, and night dayparts, with no single daypart dominating the pattern sufficiently to claim a stable timing preference over the others. Trend claims are limited to the observation of these two specific brands appearing across multiple dates.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Sprite",
-      "claim_text": "The user has a stable preference for Sprite, evidenced by purchases on four independent dates in May 2026.",
+      "claim_text": "The user has a stable preference for Sprite, observed on four independent dates in May 2026.",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
@@ -13,38 +13,27 @@
     {
       "dimension": "brand",
       "value": "Appy Fizz",
-      "claim_text": "The user has a stable preference for Appy Fizz, evidenced by purchases on two independent dates in May 2026.",
+      "claim_text": "The user has a stable preference for Appy Fizz, observed on two independent dates in May 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Sprite PET Bottle 750 ml",
-      "claim_text": "The user has a stable preference for Sprite PET Bottle 750 ml, evidenced by purchases on four independent dates in May 2026.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    },
-    {
-      "dimension": "product",
-      "value": "Appy Fizz PET Bottle 250 ml",
-      "claim_text": "The user has a stable preference for Appy Fizz PET Bottle 250 ml, evidenced by purchases on two independent dates in May 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Sprite Multi-pack (8 x 250 ml)",
-      "claim_text": "The user purchased a Sprite multi-pack on one date in May 2026. This is a single observation and does not establish a stable preference for multi-packs.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user's preference for Sprite and Appy Fizz is established based on repeated purchases in May 2026. The purchase of a Sprite multi-pack is a single observation and does not indicate a stable preference for multi-packs. The user's daypart preferences are mixed, with purchases in the morning, afternoon, and night.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While Sprite and Appy Fizz show stable brand preferences, the user’s ordering times vary across morning, afternoon, and night, preventing a stable daypart preference claim. No other brands or products appeared on 2 or more independent dates.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 6,
+    "purchase_dates": [
+      "2026-05-02",
+      "2026-05-06",
+      "2026-05-11",
+      "2026-05-12",
+      "2026-05-17",
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-28T11:21:02"
+  }
 }

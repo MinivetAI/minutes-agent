@@ -1,92 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend afternoon containing 10 items across 6 categories. The basket is heavily weighted toward Vegetables (6 units), accompanied by one unit each of Savouries Namkeens, Pastes Purees, Aerated Drinks, and Chips. The `shopping_need_text` describes a compatible need for preparing a meal or snack involving fresh vegetables and condiments, paired with beverages and savory snacks.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing a large quantity of Vegetables (6 items), alongside one item each from Savouries Namkeens, Pastes Purees, Aerated Drinks, and Chips. The basket reflects a broad mix of fresh produce and snack/convenience items.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "AeratedDrinks",
-        "Vegetables"
-      ],
-      "combination_text": "AeratedDrinks and Vegetables",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Diaper",
-        "Vegetables"
-      ],
-      "combination_text": "Diaper and Vegetables",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
-      ],
-      "combination_text": "SavouriesNamkeens and Vegetables",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "BabyCereal",
-        "Vegetables"
-      ],
-      "combination_text": "BabyCereal and Vegetables",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a vegetable-based meal or snack with accompanying condiments, beverages, and savory sides.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Preparation of a meal involving fresh vegetables, possibly with savory accompaniments or snacks.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-07"
+    ],
+    "first_seen_at": "2026-06-07T12:10:26",
+    "last_seen_at": "2026-06-07T12:10:26"
+  }
 }

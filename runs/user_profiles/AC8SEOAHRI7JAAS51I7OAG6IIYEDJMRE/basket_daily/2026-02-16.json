@@ -1,12 +1,32 @@
 {
   "date": "2026-02-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-16 (weekday), a single order was placed during the evening. The basket contained one unit of Ready Meals and one unit of Breads. This represents a minimal basket breadth with two distinct categories purchased together. The combination of Ready Meals and Breads is an isolated observation from this single date; no durable preference or routine can be inferred from this single transaction. The purchase is compatible with a need for a quick or convenient meal solution, such as a sandwich or a simple dinner, requiring minimal preparation time. Confidence in any inferred user behavior is low.",
+  "summary_text": "On 2026-02-16 (weekday), a single order was placed in the evening. The basket contained one unit of Ready Meals and one unit of Breads. This combination represents a single observation of a meal-preparation need, compatible with a quick dinner or lunch solution. No other products were purchased in this window.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Ready Meals and Breads is compatible with a need for a quick or convenient meal solution, such as a sandwich or a simple dinner, requiring minimal preparation time.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Confidence in any inferred user behavior is low. No repeated behaviors, stable preferences, or recurring patterns are evident.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Ready Meals",
+        "Breads"
+      ],
+      "combination_text": "Ready Meals and Breads",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "Convenience-oriented meal preparation, likely for a single serving or small household, combining a prepared main dish with a staple bread component.",
+  "uncertainty_text": "This inference is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-16"
+    ],
+    "first_seen_at": "2026-02-16T16:36:28",
+    "last_seen_at": "2026-02-16T16:36:28"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekend",
-  "summary_text": "Purchased one 400–450g pack of fresh loose potatoes during a night-time session on a weekend.",
+  "summary_text": "One order of Potato 400–450g (1 unit) placed on a weekend night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekend, a period where this user's activity is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a fresh staple tuber, typically used for immediate cooking or as a base ingredient.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for potatoes. It is unclear if this was a one-time top-up or part of a broader habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend night, a time when night purchases represent 12.02% of the population baseline (evening is the dominant period at 30.27%). The product is a fresh staple tuber, typically used for immediate cooking or as a base ingredient.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established. It is unclear if this was a one-time top-up or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-05T21:57:18"
+  }
 }

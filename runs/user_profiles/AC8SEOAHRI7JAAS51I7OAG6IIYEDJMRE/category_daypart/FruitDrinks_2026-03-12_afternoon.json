@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1 L carton of Real Activ 100% Apple Juice.",
+  "summary_text": "One order of Real Activ 100% Apple Juice 1 L.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Bought in the afternoon on a weekday, a time when this category is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a ready-to-drink fruit juice suitable for immediate consumption or quick pantry replenishment.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this user.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased on a weekday afternoon. The timing is less common than the population baseline for this category, which shows a higher share of morning (0.3246) and evening (0.3027) purchases. The product is a ready-to-drink juice, suitable for immediate consumption or quick home replenishment.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this is a stable preference, a one-time need, or part of a recurring routine. No brand or product loyalty can be established from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-12"
+    ],
+    "first_seen_at": "2026-03-12T14:42:56",
+    "last_seen_at": "2026-03-12T14:42:56"
+  }
 }

@@ -1,52 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "On 2026-07-04 (afternoon, weekend), the user placed two distinct orders. The primary order contained 11 items across six categories: Washing Powder, Cookies Biscuits, Soap, Other Cooking Oil, Spices Masala, Washing Bar, and Flour. A second, separate order included oral care items: Toothbrush and Toothpaste. No carts were abandoned. The basket reflects a mix of household cleaning supplies, baking/cooking ingredients, and personal hygiene products.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing a mix of household cleaning supplies, baking ingredients, and personal care items. The basket includes washing powder, washing bars, soap, flour, multiple varieties of spices masala, cookies/biscuits, cooking oil, toothbrush, and toothpaste. This represents a broad, multi-category shopping trip likely for general household replenishment.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "WashingBar",
-        "WashingPowder"
-      ],
-      "combination_text": "Washing Bar and Washing Powder were purchased together in the same order.",
-      "support": 0.172,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CookiesBiscuits",
-        "SpicesMasala"
-      ],
-      "combination_text": "Cookies Biscuits and Spices Masala were purchased together in the same order.",
-      "support": 0.103,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "CookiesBiscuits",
-        "WashingBar"
-      ],
-      "combination_text": "Cookies Biscuits and Washing Bar were purchased together in the same order.",
-      "support": 0.103,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "CookiesBiscuits",
-        "WashingPowder"
-      ],
-      "combination_text": "Cookies Biscuits and Washing Powder were purchased together in the same order.",
-      "support": 0.103,
-      "lift": null,
-      "confidence": "medium"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for household maintenance (cleaning), meal preparation (baking/cooking ingredients), and personal hygiene. The combination of flour, spices, and oil may indicate baking or cooking activities, while the presence of biscuits could serve as a snack or ingredient. The separate oral care order indicates a routine hygiene need.",
-  "uncertainty_text": "This analysis is based on a single observed date (2026-07-04). Patterns such as category associations are observed in this specific instance and do not constitute stable, recurring preferences. The high confidence in the WashingBar/WashingPowder pair is derived from the provided evidence support, but the generalizability to future behavior is low due to the single-date observation.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "General household replenishment covering cleaning, cooking, and personal hygiene needs.",
+  "uncertainty_text": "This is a single observation from one date. No durable preferences or routine behaviors can be inferred from this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:46:46"
+  }
 }

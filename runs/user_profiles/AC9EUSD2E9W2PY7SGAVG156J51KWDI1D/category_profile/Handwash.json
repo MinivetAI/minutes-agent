@@ -1,34 +1,27 @@
 {
-  "category": "Handwash",
-  "profile_text": "In February 2026, the user purchased one 675 ml Dettol Skincare Germ Protection Liquid Hand Wash Refill on a weekend morning. This single order supports household hygiene continuity during a period with above-baseline activity (32.5%).",
-  "brand_preferences": [
-    {
-      "brand": "Dettol",
-      "preference_text": "Dettol was observed in one independent date (2026-02-28).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Handwash",
+  "summary_text": "In February 2026, the user placed one order for handwash. The order consisted of one unit of Dettol Skincare Germ Protection pH-Balanced Liquid Hand Wash Refill (675 ml), purchased on a weekend morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of handwash orders. The product is a refill, suggesting a restocking need for an existing dispenser. As this is a single observation on one date, it is not yet established whether this represents a recurring preference for Dettol or this specific refill format, or if it was a one-time restocking need.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences established from single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference for Dettol or this specific refill format, or if it was a one-time restocking need.",
+  "retrieval_text": "Single observation in February 2026 of one unit of Dettol Skincare Germ Protection pH-Balanced Liquid Hand Wash Refill (675 ml) purchased on a weekend morning, aligning with population baseline morning purchase share of 32.46%; product is a refill suggesting restocking need for existing dispenser, but insufficient evidence to establish recurring brand or format preference.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-28",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-02-28. Cadence is unknown based on a single observation; predicted next purchase date is unavailable.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Handwash yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction on 2026-02-28.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports household hygiene continuity.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

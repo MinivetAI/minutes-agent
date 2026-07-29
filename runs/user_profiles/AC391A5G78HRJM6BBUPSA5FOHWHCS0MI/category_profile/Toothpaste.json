@@ -1,34 +1,34 @@
 {
-  "category": "Toothpaste",
-  "profile_text": "The user has purchased toothpaste on three independent dates (Jan, Jun, Jul 2026), establishing a stable but slow replenishment cycle (~78 days). Colgate is the only observed brand, appearing on all three dates, supporting a medium-confidence brand preference. The user has bought multiple pack sizes (200g, 300g, 500g multi-pack), indicating flexibility in quantity rather than a strict size preference. Purchases occurred on weekdays and weekends, in mornings, evenings, and afternoons, showing no strong daypart constraint. The primary need is routine oral care maintenance.",
-  "brand_preferences": [
-    {
-      "brand": "Colgate",
-      "preference_text": "Colgate is the only brand observed across three independent purchase dates (Jan, Jun, Jul 2026), indicating a stable preference for this brand in the toothpaste category.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Toothpaste",
+  "summary_text": "The user has purchased Colgate Strong Teeth Toothpaste across three distinct months (January, June, and July 2026). Evidence includes a 300 g tube (weekday morning), a 200 g tube (weekday evening), and a 500 g combo pack (weekend afternoon). While the brand Colgate appears in all three observations, the specific variants, pack sizes, and dayparts vary significantly. With only one order per month and no repetition of the same specific product or timing pattern across independent dates, stable preferences for brand, variant, or routine cannot be established. Confidence is low.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Colgate",
+        "preference_text": "Colgate is the only brand observed in the user's toothpaste purchases across January, June, and July 2026. However, as each appearance represents a distinct order with varying product forms and timings, this indicates exposure rather than a confirmed stable preference.",
+        "confidence": "low",
+        "boundary_text": "This observation is limited to the Strong Teeth line; it does not establish a preference for other Colgate sub-lines (e.g., Total, Optic White) or other brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has purchased different pack sizes (200 g, 300 g, 500 g combo) and at different times, suggesting flexibility in purchase timing and size, but no specific alternative brands or products have been observed as substitutes.",
+  "uncertainty_text": "It is unclear if the user has a stable brand preference for Colgate or if these are isolated purchases. The variation in pack sizes (single tubes vs. combo pack) and dayparts (morning, evening, weekend afternoon) prevents the establishment of a consistent routine or preferred product format. Confidence in any specific brand, variant, or timing preference is low due to the lack of repetition of the same value across independent dates.",
+  "retrieval_text": "User purchased Colgate Strong Teeth Toothpaste in January (300 g, weekday morning), June (200 g, weekday evening), and July 2026 (500 g combo pack, weekend afternoon). Colgate is the only observed brand, but the specific product form, pack size, and daypart vary across these three independent months. No stable brand preference, variant preference, or routine timing can be established due to the lack of repetition of the same specific value across dates. Confidence is low.",
   "replenishment": {
     "cadence_days": 78.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": "2026-09-20",
-    "replenishment_text": "The user typically replenishes toothpaste every 78 days, classified as a slow cycle. The last purchase was on 2026-07-04, with the next predicted purchase around 2026-09-20 based on this average cadence.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Toothpaste is reordered roughly every 78 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in toothpaste reliably converts to purchase, as evidenced by three completed transactions across different months.",
-  "substitution_text": "The user has purchased different pack sizes (200g, 300g, 500g) of the same brand, suggesting openness to varying quantities or multi-packs rather than strict size loyalty.",
-  "price_value_text": "The purchase of a 500g multi-pack in July suggests a practical, value-oriented restock behavior, though earlier purchases were single units. No explicit price sensitivity is established beyond this single bulk-buy observation.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user consistently purchases the same brand but varies pack size.",
-  "mission_generation_text": "Routine oral hygiene maintenance and household supply replenishment.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-07-04T11:46:46"
+  }
 }

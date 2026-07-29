@@ -1,9 +1,18 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased fresh fruits on two independent weekend dates. On 2026-03-08, a single unit of Green Kiwi was bought in the afternoon. On 2026-03-21, a larger basket of ready-to-eat fruits was purchased in the evening, including Baby Banana Robusta, Crimson Red Seedless Grapes, Green Seedless Grapes, and Watermelon Kiran. No single brand or product variant appeared on more than one date; therefore, no stable brand or product preferences are established. The purchases occurred on weekends, with timing varying between afternoon and evening.",
+  "summary_text": "In March 2026, the user purchased fresh fruits on two independent weekend dates. On 2026-03-08, a single Green Kiwi (Unbranded) was bought in the afternoon. On 2026-03-21, a basket of Baby Banana Robusta, Crimson Red Seedless Grapes, Green Seedless Grapes, and Watermelon Kiran was purchased in the evening. No single product or brand appears on more than one date; therefore, no stable preference claims are established for specific items. The only recurring pattern is the purchase of fresh fruits on weekends, observed on two independent dates.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each fruit brand and variant was observed on only one independent date. It is unknown if these were one-time purchases or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Evidence is limited to two independent orders on separate weekends. No specific fruit, brand, or variant was repeated across dates, preventing the establishment of a stable product preference. The only consistent pattern is the timing (weekends).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-08",
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-08T11:29:06",
+    "last_seen_at": "2026-03-21T20:53:08"
+  }
 }

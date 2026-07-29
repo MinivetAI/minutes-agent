@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased seven fresh vegetable items totaling approximately 3.5–4.0 kg: Spring Onion (2 units), Beetroot, Sweet Potato, Baby Potato, Fresh Ginger, Onion, and Fresh New Crop Potato. All items were unbranded fresh produce.",
+  "summary_text": "One order of fresh vegetables including Spring Onion (2 units), Beetroot, Sweet Potato, Baby Potato, Fresh Ginger, Onion, and Fresh New Crop Potato.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during a weekday morning, a time when morning share (0.3246) is the highest among population dayparts. The basket consists entirely of fresh, perishable root vegetables and aromatics, suggesting immediate cooking needs or household stock replenishment rather than long-term storage.",
-  "uncertainty_text": "Single date observation; cannot establish stable preferences or routine. No funnel events provided to assess browsing intent or conversion barriers.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The basket consists of fresh root vegetables, aromatics, and alliums, consistent with urgent replenishment for immediate cooking or meal prep.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preference can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T09:52:23",
+    "last_seen_at": "2026-06-15T09:52:23"
+  }
 }

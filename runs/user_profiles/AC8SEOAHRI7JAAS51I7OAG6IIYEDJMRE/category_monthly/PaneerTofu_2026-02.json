@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user placed one order of Mother Dairy Fresh Paneer 200 g on a weekday morning. This single transaction aligns with a 32.46% population share for morning purchases. The product is a packaged fresh dairy item suitable for immediate cooking needs. Due to the lack of repeat purchases or browsing history, no stable preferences or specific cooking intents can be established.",
+  "summary_text": "In February 2026, the user purchased one unit of Mother Dairy Fresh Paneer 200 g on a single weekday (2026-02-24) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. As this is the only observed date, it is not yet established whether this is a recurring habit or a one-time need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time need, or part of a broader preference for this brand or product type.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T07:17:40",
+    "last_seen_at": "2026-02-24T07:17:40"
+  }
 }

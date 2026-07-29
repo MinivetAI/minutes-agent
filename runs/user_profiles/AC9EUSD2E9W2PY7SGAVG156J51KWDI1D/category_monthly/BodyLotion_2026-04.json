@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-07 (weekday), the user purchased one 120 ml NIVEA Aloe Hydration Light Lotion Moisturizer in the afternoon. This timing aligns with a period of lower-than-average activity for this user (25.3% share vs. 32.5% morning baseline). The product is a lightweight, daily-use body moisturizer intended for quick hydration. This is a single observed order; durable preferences or routine usage patterns cannot be established from this date alone.",
+  "summary_text": "On 2026-04-07 (weekday), the user ordered one unit of NIVEA Aloe Hydration Light Lotion Moisturizer 120 ml in the afternoon. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, slightly below the morning share (32.46%) but comparable to the evening share (30.27%). The product is a lightweight body moisturizer typically used for daily hydration or quick application. This is a single observation on one date. It is not yet established whether this represents a stable preference for the NIVEA brand, the specific aloe formulation, or a one-time need such as a stockout replacement or post-bath care.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or routine usage patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the NIVEA brand, the specific aloe formulation, or a one-time need such as a stockout replacement or post-bath care.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

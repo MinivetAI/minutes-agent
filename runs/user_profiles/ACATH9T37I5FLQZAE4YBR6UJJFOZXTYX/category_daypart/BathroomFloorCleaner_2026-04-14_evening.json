@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Domex Floor Cleaner Regular 1 L during the evening on a weekday.",
+  "summary_text": "One unit of Domex Floor Cleaner Regular 1 L was purchased in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity aligns with the population baseline (30.27% share). The product is a standard liquid floor cleaner intended for routine home cleaning and wet-area sanitation.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or brand loyalty. The specific trigger for this purchase (e.g., stockout, pre-guest cleanup, or routine restock) cannot be determined from this data alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday evening, a time when the user's activity aligns with the population baseline (evening share 0.3027). The product is a liquid floor cleaner intended for routine home cleaning and wet-area sanitation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Domex brand or a specific evening routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

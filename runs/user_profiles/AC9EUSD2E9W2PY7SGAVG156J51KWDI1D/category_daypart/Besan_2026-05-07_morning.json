@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 0.5 kg pack of Tata Sampann Fine Besan.",
+  "summary_text": "One order of Tata Sampann Fine Besan 0.5 kg.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The product is a staple cooking ingredient for everyday Indian recipes and snacks.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The population baseline indicates morning purchases are common (32.46%). The product is a small, kitchen-ready pack of gram flour, typically used for immediate cooking needs such as snacks or batters.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

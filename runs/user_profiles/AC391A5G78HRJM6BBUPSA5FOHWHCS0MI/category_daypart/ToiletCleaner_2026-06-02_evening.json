@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 600 ml bottle of Harpic Power Plus Original Liquid Toilet Cleaner during the evening.",
+  "summary_text": "One unit of Harpic Power Plus Original Liquid Toilet Cleaner (600 ml) was purchased on 2026-06-02.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with high population share (0.3027) for this category, suggesting a timing consistent with general user behavior for bathroom hygiene staples.",
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replacement need.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a liquid toilet cleaner designed for deep cleaning and disinfection, typically used for urgent replacement or addressing visible stains and grime.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time stockout replacement or the start of a regular purchasing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

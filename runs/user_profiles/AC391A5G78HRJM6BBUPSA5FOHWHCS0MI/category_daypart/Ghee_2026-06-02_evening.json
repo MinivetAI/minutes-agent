@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One order of Mother Dairy Buffalo Ghee Tetrapack 1 L (1 unit) placed in the evening.",
+  "summary_text": "One order of Mother Dairy Buffalo Ghee Tetrapack 1 L (quantity: 1) placed on 2026-06-02.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the evening on a weekday, a time when population share (0.3027) is comparable to morning (0.3246) and higher than afternoon (0.2526). The product is a practical, pantry-style replenishment item for everyday Indian cooking.",
-  "uncertainty_text": "This is a single observed transaction; no durable brand or product preference can be established. It is unclear if this was a planned replenishment or an urgent need for immediate meal preparation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening on a weekday. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%) and higher than afternoon (25.26%) or night (12.02%). The product is a standard 1-litre packaged ghee, typically used for everyday cooking and finishing in Indian cuisine.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product type, or timing over other options. No stable routine or recurring pattern can be confirmed from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

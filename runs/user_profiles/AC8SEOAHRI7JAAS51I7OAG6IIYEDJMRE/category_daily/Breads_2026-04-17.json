@@ -1,15 +1,23 @@
 {
   "date": "2026-04-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-17 (weekday), one order of Naturbaked Zero Maida Whole Wheat Bread 300 g was placed in the morning. This purchase aligns with the morning daypart, which has a population share of 0.3246. The product is a packaged whole wheat loaf suitable for quick breakfast or snack preparation. This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "summary_text": "On 2026-04-17 (weekday), the user ordered Naturbaked Zero Maida Whole Wheat Bread (300 g) in the morning. This single observation aligns with the population baseline for morning activity (32.46%). The product is a packaged whole wheat loaf, compatible with quick breakfasts, toast, or sandwiches. As this is the only observed date, it is not yet established whether this represents a stable preference for this specific brand, a general preference for whole wheat bread, or a one-time purchase.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread 300 g placed in the morning. Purchased during the morning on a weekday, a time when population share is 0.3246. The product is a packaged whole wheat loaf suitable for quick breakfast or snack preparation.",
+      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread (300 g) placed in the morning on a weekday. This timing aligns with the population baseline (32.46% of orders). The product is a packaged whole wheat loaf, typically used for quick breakfasts, toast, or sandwiches.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand, a general preference for whole wheat bread, or a one-time purchase. No other dates are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T09:11:18",
+    "last_seen_at": "2026-04-17T09:11:18"
+  }
 }

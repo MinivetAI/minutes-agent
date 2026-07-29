@@ -1,92 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single-item order of Diapers was placed in the afternoon on a weekday. The basket contains one product category (Diaper) with a quantity of 1. No other products were purchased or added to cart in this session. The `shopping_need_text` is compatible with diaper replenishment for infant care.",
+  "basket_summary_text": "A single order placed on 2026-02-27 in the afternoon on a weekday contains one item: a Diaper (Product DPRF5G49AGGX4ZPF). The basket breadth is narrow, consisting of a single product category. No other categories were purchased in this specific order. The `category_pair_evidence` supplied lists combinations involving Vegetables, Milk, CurdYogurt, and others, but none of these categories appear in the current order's product list. Therefore, no category combinations from the evidence list are supported by this specific transaction. The order-building behavior is a simple, single-item purchase. A compatible shopping need might be routine diaper replenishment for an infant or toddler, though this is inferred solely from the product type and not confirmed by additional context.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "AeratedDrinks",
-        "Vegetables"
-      ],
-      "combination_text": "AeratedDrinks and Vegetables",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Diaper",
-        "Vegetables"
-      ],
-      "combination_text": "Diaper and Vegetables",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
-      ],
-      "combination_text": "SavouriesNamkeens and Vegetables",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "BabyCereal",
-        "Vegetables"
-      ],
-      "combination_text": "BabyCereal and Vegetables",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Replenishment of infant care supplies.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. The category pair evidence provided reflects population-level co-occurrence statistics and does not prove this specific user's intent or future behavior.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Routine replenishment of baby care supplies, specifically diapers.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or multi-category basket patterns can be established from this isolated observation. The provided `category_pair_evidence` does not match the products in this order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T15:57:01",
+    "last_seen_at": "2026-02-27T15:57:01"
+  }
 }

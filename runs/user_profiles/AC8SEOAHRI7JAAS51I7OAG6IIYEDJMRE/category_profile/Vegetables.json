@@ -1,32 +1,39 @@
 {
-  "category": "Vegetables",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for Cauliflower (400-600g), purchased repeatedly across multiple months (March–April 2026) with flexible timing. Other vegetable purchases (Bottle Gourd, Methi, Tinda, Colocasia, Tomato, Onion, Parwal, Potato) are isolated observations without recurring patterns, indicating a need for immediate meal preparation ingredients rather than brand or product loyalty for those items.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Cauliflower 400-600g, evidenced by purchases on five independent dates in April 2026 and two in March 2026.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 9.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-07-09",
-    "predicted_next_purchase_date": "2026-07-18",
-    "replenishment_text": "The user typically purchases vegetables every 9 days, with the next purchase estimated around 2026-07-18.",
-    "confidence": "medium",
-    "evidence_count": 16,
-    "independent_date_count": 16
+  "category_name": "Vegetables",
+  "summary_text": "The user's vegetable purchasing behavior is characterized by a strong, stable preference for Cauliflower, specifically the 400-600g pack size, which has been observed repeatedly across multiple months (March, April) with high frequency. While other vegetables like Tinda, Bottle Gourd, and Leafy Greens appear sporadically, they lack the repetition required to establish stable preferences. Shopping timing is flexible, with orders occurring across morning, afternoon, and evening dayparts on both weekdays and weekends, though Cauliflower purchases often align with weekday mornings. No specific brand loyalty is established, as purchases are predominantly unbranded or generic fresh produce.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [
+      {
+        "pack_size": "400-600g",
+        "preference_text": "The 400-600g pack size is the dominant format for Cauliflower, the user's most frequently purchased vegetable item.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Cauliflower is typically ordered as a single unit per transaction.",
+        "confidence": "high"
+      }
+    ]
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by 16 independent purchase dates across the observed period.",
-  "substitution_text": "No stable brand preference exists for Cauliflower (purchased as both Unbranded and Branded), suggesting the user is open to substitution between brands or variants of the same product type.",
-  "price_value_text": "No specific price or value behavior is established; purchases include both unbranded and branded items, indicating flexibility in price sensitivity.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific vegetables are avoided; however, most items (e.g., Bottle Gourd, Methi, Tinda, Colocasia, Tomato, Onion, Parwal, Potato) appear only once, so no stable preference or avoidance can be claimed for them.",
-  "mission_generation_text": "The user requires fresh vegetables for immediate meal preparation, with a consistent need for Cauliflower as a staple ingredient and occasional needs for other fresh produce based on weekly menu planning.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "Cauliflower is the primary stable vegetable preference; other vegetables such as Tinda, Bottle Gourd, and Leafy Greens appear as occasional, non-recurring alternatives. No evidence suggests a preference for one specific vegetable over another outside of Cauliflower's established recurrence.",
+  "uncertainty_text": "While Cauliflower (400-600g) is a stable preference, the user's broader vegetable selection is highly variable, with many items (e.g., Onion, Potato, Tomato, Parwal) appearing only once. It is unclear if the user has stable preferences for other vegetable types beyond Cauliflower. Brand preferences are unknown as most purchases are unbranded. The lack of a dominant daypart pattern suggests flexible shopping habits rather than a rigid routine for the category as a whole.",
+  "retrieval_text": "The user demonstrates a high-confidence, stable preference for Cauliflower, specifically the 400-600g pack size, observed repeatedly across multiple months including March and April 2026, often ordered as a single unit. This preference is distinct from other vegetables like Tinda, Bottle Gourd, and Leafy Greens, which appear sporadically without recurrence. Purchases are predominantly unbranded fresh produce. Shopping timing is flexible, spanning morning, afternoon, and evening dayparts on both weekdays and weekends, with no single temporal pattern dominating the entire category, although Cauliflower orders frequently occur on weekday mornings.",
+  "replenishment": {
+    "cadence_days": 9,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-07-18",
+    "replenishment_text": "Vegetables is reordered roughly every 9 days."
+  },
+  "evidence": {
+    "evidence_count": 16,
+    "independent_date_count": 16,
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

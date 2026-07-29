@@ -1,12 +1,35 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user placed four independent orders across weekdays and one weekend. Orders occurred in the night, morning, and evening dayparts. The baskets ranged from narrow (single category) to moderate breadth (four categories). No durable, repeated behavior patterns, stable category combinations, or consistent shopping needs can be inferred because each order represents a single observation on an independent date. `overall_confidence` is low for all inferred behaviors.",
+  "summary_text": "Across four independent dates in May 2026, the user placed orders on three weekdays and one weekend. Daypart behavior was distributed across night, morning, and evening, with no single daypart dominating. The most consistent category combination observed was Fruits and Milk, appearing on two independent dates (2026-05-27 and 2026-05-31). Other categories (Chocolates, Cookies Biscuits, Washing Powder, Washing Bar, Chips) appeared only on single dates. No durable routines or high-confidence preferences can be established due to the limited repetition of specific items or broad category sets outside of the Fruits/Milk pair.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Fruits",
+        "Milk"
+      ],
+      "combination_text": "Fruits and Milk",
+      "support": 0.5,
+      "lift": 1.0,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "trend_claims": [],
-  "shopping_need_text": "The user may have needs for sweet treats, household cleaning supplies, basic food staples (dairy, snacks, produce), and general sustenance. These needs are compatible with the observed orders but are not established as stable or recurring requirements.",
-  "uncertainty_text": "This analysis is based on four independent orders on four separate dates. Stable or high-confidence preferences require repetition across independent dates. Therefore, `overall_confidence` is low. No durable behavior patterns, repeated habits, or stable preferences can be inferred from this single data point per date. Abandoned carts were not recorded in any order, so no abandonment patterns are present. The combination of Fruits and Milk appears in two independent dates (2026-05-27 and 2026-05-31), but because each is a single-order observation without repeated co-purchase evidence across multiple distinct transactions establishing a habit, it is not promoted to a stable pattern list; it remains an isolated observation of fresh produce and dairy purchasing.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The recurring combination of Fruits and Milk suggests a basic need for fresh produce and dairy, potentially for breakfast or light snacking. Other purchases indicate isolated needs for snacks (Chocolates, Cookies Biscuits, Chips) and household cleaning supplies (Washing Powder, Washing Bar).",
+  "uncertainty_text": "Analysis is based on four independent dates. Only the Fruits and Milk combination has sufficient repetition (2 dates) to support medium confidence. All other category observations are isolated to single dates, preventing inference of stable preferences or routines for those items. Daypart and day-type patterns are sparse and do not indicate a strong habitual bias.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-05-06",
+      "2026-05-22",
+      "2026-05-27",
+      "2026-05-31"
+    ],
+    "first_seen_at": "2026-05-06T21:34:17",
+    "last_seen_at": "2026-05-31T08:52:35"
+  }
 }

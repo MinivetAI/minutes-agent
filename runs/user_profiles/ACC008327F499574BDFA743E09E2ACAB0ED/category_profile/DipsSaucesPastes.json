@@ -1,26 +1,27 @@
 {
-  "category": "Dips Sauces Pastes",
-  "profile_text": "The user has made two isolated purchases in this category (February and May 2026) for different brands (Kissan, Tops) and product types (Sweet & Spicy Sauce, Tomato Ketchup). There is no evidence of a stable brand preference, recurring routine, or consistent daypart timing. The user appears to be exploring or fulfilling immediate, ad-hoc needs for condiments rather than following a established habit.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Dips Sauces Pastes",
+  "summary_text": "The user has made two isolated purchases in this category: Kissan Sweet & Spicy Sauce (415 g) in February 2026 and Tops Tomato Ketchup (850 g) in May 2026. Both were single-observation orders on weekdays, preventing the establishment of a stable brand preference, routine, or consistent daypart pattern.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established due to the lack of repeated purchasing behavior. The user has purchased from different brands (Kissan, Tops) and product types (Sweet & Spicy Sauce, Tomato Ketchup) on separate occasions, but this does not indicate a preference for one over the other as a substitute.",
+  "uncertainty_text": "It is unknown if the user has a preferred brand, specific product type (e.g., ketchup vs. spicy sauce), or pack size within this category. The two observed orders are too infrequent to determine if these are routine staples or isolated needs. No consistent daypart or cadence can be inferred.",
+  "retrieval_text": "User has purchased Kissan Sweet & Spicy Sauce (415 g) and Tops Tomato Ketchup (850 g) in this category, but only once each in February and May 2026 respectively, preventing identification of a stable brand preference, preferred pack size, or routine purchasing cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-27",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-05-27.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for DipsSaucesPastes yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases, but the lack of repetition prevents prediction of future conversion reliability.",
-  "substitution_text": "No evidence of substitution patterns; purchases are distinct brands and products.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior across multiple purchases.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases were completed.",
-  "mission_generation_text": "Immediate utility for meal accompaniments or snacking.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

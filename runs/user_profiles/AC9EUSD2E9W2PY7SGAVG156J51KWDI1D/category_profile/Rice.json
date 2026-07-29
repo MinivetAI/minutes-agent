@@ -1,26 +1,27 @@
 {
-  "category": "Rice",
-  "profile_text": "The user has purchased rice on two independent dates in May 2026, selecting two different brands (Devaaya and Daawat) and two different pack sizes (1 kg and 5 kg). No single brand or product variant has recurred, so stable brand or product preferences are not established. The user’s ordering activity is split between a premium, specific-use rice (Devaaya Biryani Basmati Rice) and a standard household staple (Daawat Rozana Gold Basmati Rice). The user’s morning activity aligns with an above-baseline population share (32.5%).",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Rice",
+  "summary_text": "In May 2026, the user ordered two distinct rice products on separate dates: Devaaya Biryani Basmati Rice (1 kg) on a weekend afternoon and Daawat Rozana Gold Basmati Rice (5 kg) on a weekday morning. Each product appeared on only one independent date, so no stable brand or product preference can be established. The timing reflects two isolated observations rather than a recurring routine.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Evidence is limited to two isolated orders of different brands (Devaaya and Daawat) on separate dates. No substitution pattern or brand loyalty is established; either brand may be acceptable depending on immediate need or availability.",
+  "uncertainty_text": "Preference boundaries are unknown due to lack of repetition. It is not possible to determine if the user prefers a specific brand, pack size, or rice type (e.g., Basmati vs. non-Basmati) or if these were one-off purchases. No stable routine or cadence can be inferred.",
+  "retrieval_text": "In May 2026, the user purchased Devaaya Biryani Basmati Rice (1 kg) on a weekend afternoon and Daawat Rozana Gold Basmati Rice (5 kg) on a weekday morning. These are two isolated observations on independent dates with no repetition, preventing the establishment of a stable brand preference, routine, or recurring need for either brand or pack size.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-29",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established; last purchase was on 2026-05-29.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Rice yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase; the user has completed purchases on two independent dates.",
-  "substitution_text": "No stable substitution pattern established; the user has selected different brands and pack sizes on separate dates.",
-  "price_value_text": "The user has purchased both a premium product (Devaaya) and a standard staple (Daawat), indicating varied price sensitivity or use-case requirements rather than a single price-tier preference.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected; the user has completed purchases.",
-  "mission_generation_text": "Supports needs for specific-use cooking (e.g., biryani) and general household staple replenishment.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-29T10:39:59"
+  }
 }

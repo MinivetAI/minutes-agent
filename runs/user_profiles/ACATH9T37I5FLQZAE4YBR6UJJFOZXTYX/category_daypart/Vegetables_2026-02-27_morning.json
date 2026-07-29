@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one order of fresh vegetables including Cluster Beans, Onion, Coriander Leaves, Baby Potato, and Local Tomato.",
+  "summary_text": "One order of fresh vegetables including Cluster Beans, Onion, Coriander Leaves, Baby Potato, and Local Tomato.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The items are fresh produce staples typically used for immediate meal preparation.",
-  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this data alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The population baseline shows morning accounts for 32.46% of orders. The items are fresh produce staples typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T09:25:34",
+    "last_seen_at": "2026-02-27T09:25:34"
+  }
 }

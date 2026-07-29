@@ -1,11 +1,19 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased VICKS Double Power Cough Drops Warming Ginger on two independent dates (2026-05-12 and 2026-05-22). This repetition establishes a stable preference for this specific product variant. The user also exhibits a pattern of purchasing this item on weekdays, appearing in both morning and night-time dayparts, though the night-time purchase is less common for the user than the population baseline.",
+  "summary_text": "On 2026-05-12 (weekday) and 2026-05-22 (weekday), the user ordered VICKS Double Power Cough Drops Warming Ginger (25 Tablets). The first order was placed at night, a timing with lower population share (0.1202) compared to morning (0.3246), afternoon (0.2526), and evening (0.3027). The second order was placed in the morning, aligning with the population baseline where morning represents the largest share of shopping activity. The product is a portable, fast-acting lozenge typically used for immediate throat soothing or mild cough relief. The recurrence of this specific brand and variant across two independent dates indicates a stable preference.",
   "stable_preference_claims": [
     {
+      "dimension": "brand",
+      "value": "VICKS",
+      "claim_text": "The user has ordered VICKS brand cough drops on two independent dates (2026-05-12 and 2026-05-22).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
       "dimension": "product",
-      "value": "VICKS Double Power Cough Drops Warming Ginger",
-      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on two independent dates in May 2026.",
+      "value": "VICKS Double Power Cough Drops Warming Ginger (25 Tablets)",
+      "claim_text": "The user has ordered VICKS Double Power Cough Drops Warming Ginger (25 Tablets) on two independent dates (2026-05-12 and 2026-05-22).",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The preference is based on two orders in a single month. While the repetition supports a medium-confidence stable preference, the short observation window limits the ability to confirm long-term habit formation.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The evidence consists of two orders on different weekdays. While the brand and product variant are stable, the timing varies between night and morning, preventing a single stable daypart claim.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-12",
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-22T09:10:49"
+  }
 }

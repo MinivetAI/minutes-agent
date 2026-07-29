@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Tender Coconut (fresh whole fruit) on 2026-06-09 in the morning.",
+  "summary_text": "Purchased 2 units of unbranded Tender Coconut.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning (32.46% population share), a time often associated with starting the day or mid-morning refreshment. Tender coconut is a fresh, perishable fruit typically used for immediate hydration and refreshment.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for tender coconuts.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. Tender coconut is a fresh, perishable fruit typically used for immediate hydration and refreshment.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference, a routine purchase, or an isolated incident. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-09"
+    ],
+    "first_seen_at": "2026-06-09T08:14:21",
+    "last_seen_at": "2026-06-09T08:14:21"
+  }
 }

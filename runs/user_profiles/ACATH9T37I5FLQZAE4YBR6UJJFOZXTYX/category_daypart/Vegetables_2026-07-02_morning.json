@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit each of Baby Potato (280–320 g), Beetroot (250–350 g), and Onion (400–450 g).",
+  "summary_text": "One order of unbranded fresh vegetables (Baby Potato, Beetroot, Onion) purchased in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The items are fresh, unbranded vegetables commonly used as base ingredients or for immediate same-day cooking.",
-  "uncertainty_text": "Single observation on one date; cannot establish stable preferences, recurring habits, or specific meal intent beyond general utility.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning (population share 0.3246) on a weekday. The items are fresh, unbranded vegetables typically used for immediate cooking or meal preparation.",
+  "uncertainty_text": "This is a single observation; no stable brand, product, or daypart preferences can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

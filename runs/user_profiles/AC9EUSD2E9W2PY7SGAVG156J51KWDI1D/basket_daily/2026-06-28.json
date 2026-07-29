@@ -1,7 +1,7 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On this weekend, a single order was placed in the morning. The basket contained items from five categories: Vegetables (2 distinct products), Milk (2 units), Wheat Flour, and Noodles. This combination suggests a basic meal-preparation need, integrating fresh produce, dairy, and staple carbohydrates. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket contained Vegetables, Milk, Wheat Flour, and Noodles, with quantities of one unit for Vegetables, Wheat Flour, and Noodles, and two units of Milk. This combination is compatible with preparing a meal involving vegetables and a starch base. No durable preference or routine can be inferred from this single observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,81 +13,20 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "WheatFlour"
-      ],
-      "combination_text": "Milk and Wheat Flour were purchased together in this order.",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk are a common pair in the population, but Breads were not in this order.",
-      "support": 0.26,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables are a common pair in the population, but Breads were not in this order.",
-      "support": 0.22,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Chocolates",
-        "Milk"
-      ],
-      "combination_text": "Chocolates and Milk are a common pair in the population, but Chocolates were not in this order.",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk are a common pair in the population, but CurdYogurt was not in this order.",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "ButterMargarine"
-      ],
-      "combination_text": "Breads and ButterMargarine are a common pair in the population, but neither were in this order.",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables are a common pair in the population, but CurdYogurt was not in this order.",
-      "support": 0.06,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user likely has a need for basic meal ingredients, specifically combining fresh produce, dairy, and dry staples for cooking.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. The category pair evidence reflects population-level statistics, not necessarily this specific user's habitual behavior beyond this single instance.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal that requires vegetables and a dairy component, alongside a starch source like flour or noodles.",
+  "uncertainty_text": "This is a single observation on one date; no durable preference or routine can be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:13:33",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

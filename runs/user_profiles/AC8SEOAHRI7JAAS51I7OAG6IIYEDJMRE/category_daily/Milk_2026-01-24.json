@@ -1,9 +1,23 @@
 {
   "date": "2026-01-24",
   "day_type": "weekend",
-  "summary_text": "On the morning of this weekend, the user purchased 2 units of Amul Lactose Free Milk 250 ml (UHT, lactose-free). This single-serve, ambient-stable pack is suitable for immediate consumption or grab-and-go utility. The order occurred during a period with a population share of 0.3246. As this is a single observed order on one date, durable preferences, habitual buying patterns, or specific dietary motivations (e.g., lactose intolerance vs. convenience) cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Amul Lactose Free Milk 250 ml (quantity: 2) during the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are single-serve, ambient-stable lactose-free milk packs, suitable for immediate consumption or quick restocking. This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or timing. The user's specific dietary needs or routine cannot be confirmed from this order alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Amul Lactose Free Milk 250 ml (quantity: 2) placed on a weekend morning. The order occurred in the morning, a time that aligns with the population baseline where morning accounts for 32.46% of activity. The products are single-serve, ambient-stable lactose-free milk packs, suitable for immediate consumption or quick restocking. This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or timing. The user's specific dietary needs or routine cannot be confirmed from this order alone.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, habitual buying patterns, or specific dietary motivations (e.g., lactose intolerance vs. convenience) cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or timing. The user's specific dietary needs or routine cannot be confirmed from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-01-24T10:29:17"
+  }
 }

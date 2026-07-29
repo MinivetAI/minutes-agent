@@ -1,15 +1,17 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-26 (weekend), the user purchased 1 kg of unbranded fresh onions during the evening. This timing aligns with the population baseline share of 0.3027 for evening purchases. The product is a basic cooking staple, suggesting a need for meal preparation ingredients. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased 1 kg of unbranded fresh onions during the evening on a weekend. This timing aligns with the population baseline share of 0.3027 for this daypart. The product is a basic cooking staple, suggesting a need for meal preparation ingredients.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-04-26 (weekend), the user placed one order of Onion 1 kg (Unbranded) in the evening. This timing aligns with the population baseline share of 0.3027 for evening orders. The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking or raw preparation. This is a single observation from one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a regular habit or a one-time need.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a regular habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-26T19:26:32"
+  }
 }

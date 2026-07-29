@@ -1,9 +1,23 @@
 {
   "date": "2026-05-10",
   "day_type": "weekend",
-  "summary_text": "On the evening of 2026-05-10 (weekend), the user purchased one 500 ml pack of Gokul Pasteurised Cow Milk and one 500 ml pack of Amul Taaza Pasteurised Toned Milk. This occurred during an evening session, a time when this user's activity is slightly below the population baseline (30.27% of population activity is in the evening). The products are small-format fresh dairy staples typically used for immediate consumption, such as tea, coffee, or breakfast preparation. This is a single-observation window; it is not yet established whether this represents a stable preference for these specific brands or a one-time replenishment need.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-10 (weekend), the user ordered milk products in the evening, including Gokul Pasteurised Cow Milk Saatvik 500 ml and Amul Taaza Pasteurised Toned Milk 500 ml. This single observation does not establish stable brand preferences or routine usage patterns.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of milk products in the evening, including Gokul Pasteurised Cow Milk Saatvik 500 ml and Amul Taaza Pasteurised Toned Milk 500 ml. This timing aligns with the population baseline for evening purchases (0.3027), which is comparable to the morning baseline (0.3246).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single-observation window; it is not yet established whether this represents a stable preference for these specific brands or a one-time replenishment need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date, so it is not yet possible to establish stable brand preferences, regular purchase cadence, or specific routine usage patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-10"
+    ],
+    "first_seen_at": "2026-05-10T19:01:33",
+    "last_seen_at": "2026-05-10T19:01:33"
+  }
 }

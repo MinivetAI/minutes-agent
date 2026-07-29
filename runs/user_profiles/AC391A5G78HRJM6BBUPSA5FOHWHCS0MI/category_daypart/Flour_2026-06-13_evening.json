@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "One order of Flour (1 unit) placed during the evening on a weekend.",
+  "summary_text": "One order of Flour (1 unit) placed on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a staple baking ingredient.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a durable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a general baking ingredient.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established. It is unclear if this represents a routine need or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-01-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-30 (weekday), the user purchased 2 units of Amul Masti Dahi Plain Curd (200 ml packs) during a morning session. This timing aligns with a period of above-baseline activity (32.46%). The purchase represents a single observation of a small-pack plain dairy staple, potentially for immediate meal pairing or household supply replenishment. No stable preference or routine is established.",
+  "summary_text": "On 2026-01-30 (weekday), the user ordered Amul Masti Dahi Plain Curd (200 ml), quantity 2, in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The small 200 ml pack size suggests immediate utility for same-day consumption, such as pairing with breakfast or lunch meals. This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time need. No stable brand or product preference can be confirmed from this single instance.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Amul Masti Dahi Plain Curd (200 ml packs).",
+      "pattern_text": "Ordered Amul Masti Dahi Plain Curd (200 ml), quantity 2. Timing aligns with population baseline (32.46% of activity). Small pack size suggests immediate utility for same-day consumption.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time need. No stable brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

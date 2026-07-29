@@ -1,26 +1,27 @@
 {
-  "category": "Flour",
-  "profile_text": "The user has purchased Flour on two independent dates (2026-06 and 2026-07), establishing a low-confidence pattern of purchase. No specific brand, product variant, or pack size is identified in the evidence. Purchases occurred on weekends, once in the evening and once in the afternoon. Cadence is unknown. No discovery signals (search/view/cart without purchase) were recorded.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Flour",
+  "summary_text": "In June and July 2026, the user purchased Flour once per month, with orders placed on a weekend evening and a weekend afternoon respectively. These are single observations on independent dates; no stable brand, product, or timing preferences can be established. It is unclear if this represents a routine need or one-time purchases.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. It is unknown which alternative baking ingredients or flour types are acceptable or preferred.",
+  "uncertainty_text": "This category is based on two isolated orders in consecutive months. No stable brand, product variant, or pack size preference has been established. The timing varies between evening and afternoon, preventing a consistent daypart pattern. It is unclear if this represents a routine need or one-time purchases.",
+  "retrieval_text": "The user purchased Flour in June 2026 (weekend evening) and July 2026 (weekend afternoon), with one unit ordered each time. These are single observations on independent dates, so no stable brand, product, or timing preference is established. It is unclear if this represents a routine need or one-time purchase.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Cadence is unknown; last purchase was on 2026-07-04.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Flour yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on two independent dates; interest reliably becomes a purchase.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports general baking needs, such as making bread, cakes, or pastries, based on the purchase of a staple baking ingredient.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

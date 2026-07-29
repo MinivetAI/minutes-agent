@@ -1,26 +1,27 @@
 {
-  "category": "Ice Creams",
-  "profile_text": "The user exhibits a slow replenishment cycle for ice cream, with purchases spaced approximately 58 days apart. Recent activity in May 2026 involved two separate orders on different weekdays: one night-time purchase of Frubon tubs and one evening purchase of single-serve sticks from Amul and Vadilal. No single brand, product, or daypart has repeated across independent dates to establish a stable preference or routine. The user demonstrates interest in immediate-consumption formats (tubs and sticks) but does not show a durable brand loyalty based on the current evidence.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Ice Creams",
+  "summary_text": "The user has purchased ice cream in January and May 2026. Evidence includes single-serve cups from Amul, tubs from Frubon, and sticks from Amul and Vadilal. Orders occurred on weekdays across afternoon, evening, and night dayparts. No single brand, product, or timing pattern has repeated enough to establish a stable preference.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established. The user has purchased from Amul, Frubon, and Vadilal, but each brand appeared on only one independent date, so no brand loyalty or substitution boundary can be defined.",
+  "uncertainty_text": "This category is based on limited evidence (two months, multiple independent dates but no repetition of specific brands or products). It is unknown if the user has a preferred brand, specific flavor profile, or consistent ordering time. The motivation (personal vs. social) is also unclear.",
+  "retrieval_text": "User has ordered ice cream from Amul (Butterscotch Gold, Rajbhog, Chocolate Brownie, Fruit N Nut Fantasy, Mango Duetz Gold), Frubon (Shahi Rabri Kulfi, Litchi Faluda), and Vadilal (Almond Choco Crunch Badabite) in January and May 2026. Orders included single-serve cups, tubs, and sticks. Purchases occurred on weekdays in the afternoon, evening, and night. No stable brand or product preference is established due to lack of repetition across independent dates.",
   "replenishment": {
     "cadence_days": 58.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-05-26",
     "predicted_next_purchase_date": "2026-07-23",
-    "replenishment_text": "The user typically purchases ice cream every 58 days, classifying this as a slow replenishment cycle. The last purchase was on 2026-05-26, with the next expected around 2026-07-23.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "IceCreams is reordered roughly every 58 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions on multiple independent dates.",
-  "substitution_text": "No stable substitution patterns identified; the user has purchased from different brands (Frubon, Amul, Vadilal) and formats (tubs, sticks) without recurrence.",
-  "price_value_text": "No specific price sensitivity or value behavior established due to lack of repeated purchase patterns for specific SKUs.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No brands or products have been avoided or shown as uncertain preferences; the lack of repetition simply prevents the establishment of stable preferences.",
-  "mission_generation_text": "The user shops for ice cream to satisfy immediate consumption needs, likely for personal enjoyment or cooling treats, given the format choices (tubs for home consumption, sticks for on-the-go or quick serving).",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-01-30T11:26:47",
+    "last_seen_at": "2026-05-26T20:29:04"
+  }
 }

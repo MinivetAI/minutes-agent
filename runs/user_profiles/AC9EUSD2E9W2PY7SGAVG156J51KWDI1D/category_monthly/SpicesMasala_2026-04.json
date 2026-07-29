@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-18 (weekend), one order of Ching's Secret Paneer Chilli Masala Mix (100 g) was placed in the afternoon. This order occurred during a daypart when this user's activity is below the population baseline (25.26%). The product is a convenience spice mix designed for quick, low-effort preparation of paneer chilli, suggesting a need for rapid meal assembly or a specific craving for Indo-Chinese cuisine. This is a single observation on one date; no durable brand or product preferences can be established. It is unknown if this was a one-time trial, a replacement for a stockout, or part of a broader cooking plan.",
+  "summary_text": "In April 2026, the user ordered Ching's Secret Paneer Chilli Masala Mix (100 g) on one weekend afternoon. This single observation suggests a need for rapid meal assembly or a specific craving for Indo-Chinese cuisine, but it does not establish a stable preference for this brand, product, or weekend afternoon ordering pattern.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. It is unknown if this was a one-time trial, a replacement for a stockout, or part of a broader cooking plan.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, this specific product, or weekend afternoon ordering patterns. It is unclear if this was a one-time trial, a replacement for a stockout, or part of a broader habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T13:46:20",
+    "last_seen_at": "2026-04-18T13:46:20"
+  }
 }

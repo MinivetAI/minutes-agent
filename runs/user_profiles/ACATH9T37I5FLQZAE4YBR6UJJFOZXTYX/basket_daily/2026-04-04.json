@@ -1,7 +1,7 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-04 (weekend), a single order was placed during the afternoon daypart. The basket contained 10 items across three categories: Curd Yogurt (2 units), Fruits (1 unit), and Vegetables (7 units). This represents a single shopping event focused on fresh produce and dairy staples, likely for meal preparation. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-04-04 (weekend), a single order was placed in the afternoon. The basket contained one unit of Fruits, two units of Curd Yogurt, and eight units of Vegetables. Category combinations observed include Curd Yogurt with Vegetables and Fruits with Vegetables. This represents a single observation; durable preferences cannot be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,24 +10,35 @@
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Vegetables were bought together in this order.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Fruits",
         "Vegetables"
       ],
-      "combination_text": "Fruits and Vegetables were purchased together in this order.",
-      "support": 0.213,
+      "combination_text": "Fruits and Vegetables were bought together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for fresh produce and dairy staples for meal preparation.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category affinity are observed here but cannot be confirmed as stable preferences without evidence from additional independent dates.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal or snack involving fresh produce and dairy.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T11:40:58",
+    "last_seen_at": "2026-04-04T11:40:58"
+  }
 }

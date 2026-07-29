@@ -1,9 +1,17 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-04 (weekend), the user purchased 1 pack of Vartanu Printed Party Bags (Multicolor, Pack of 2) in the morning. This disposable paper bag is used for presenting small gifts or favors, suggesting an immediate need for party or event packaging. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "summary_text": "On this weekend, the user ordered one unit of Vartanu Printed Party Bag (Multicolor, Pack of 2) in the Return Gift Accessory category. The order occurred in the morning, a timing that aligns with the population baseline where morning represents 32.46% of activity. The product is a paper party bag used for presenting small gifts or favors, suggesting an immediate need for celebratory packaging.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or weekend morning shopping habit. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T08:10:57",
+    "last_seen_at": "2026-04-04T08:10:57"
+  }
 }

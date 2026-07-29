@@ -1,15 +1,23 @@
 {
   "date": "2026-04-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-24 (weekday), the user purchased one 5-pack of Yakult Fermented Milk Drink and one 500 ml pack of Amul Taaza Pasteurised Toned Milk during the afternoon. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs morning 0.3246). The items are small-format dairy products suited for immediate consumption or short-horizon kitchen use. This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "summary_text": "On 2026-04-24 (weekday), the user purchased Yakult Fermented Milk Drink (5 x 65 ml) and Amul Taaza Pasteurised Toned Milk (500 ml) in the afternoon. This timing is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The items suggest an immediate replenishment need for daily consumption: a probiotic drink and a small-format fresh milk pack for short-horizon kitchen use. This is a single observation on one date. It is not yet established whether the user prefers Yakult over other probiotic brands, or Amul over other milk brands. It is also unclear if this afternoon timing is a stable habit or an isolated instance.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 5-pack of Yakult Fermented Milk Drink and one 500 ml pack of Amul Taaza Pasteurised Toned Milk. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs morning 0.3246). The items are small-format dairy products suited for immediate consumption or short-horizon kitchen use.",
+      "pattern_text": "One order of Yakult Fermented Milk Drink (5 x 65 ml) and Amul Taaza Pasteurised Toned Milk (500 ml). This timing is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The items suggest an immediate replenishment need for daily consumption: a probiotic drink and a small-format fresh milk pack for short-horizon kitchen use. This is a single observation on one date. It is not yet established whether the user prefers Yakult over other probiotic brands, or Amul over other milk brands. It is also unclear if this afternoon timing is a stable habit or an isolated instance.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers Yakult over other probiotic brands, or Amul over other milk brands. It is also unclear if this afternoon timing is a stable habit or an isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-24T13:00:27",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

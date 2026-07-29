@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice.",
+  "summary_text": "One order of India Gate All Rounder Feast Rozzana Basmati Rice (1 kg) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a staple grocery item for everyday cooking.",
-  "uncertainty_text": "Single observation on one date; cannot establish stable brand preference or routine buying patterns.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a standard 1 kg staple rice pack, typically used for daily meal preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as the brand 'INDIA GATE' appears only in this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

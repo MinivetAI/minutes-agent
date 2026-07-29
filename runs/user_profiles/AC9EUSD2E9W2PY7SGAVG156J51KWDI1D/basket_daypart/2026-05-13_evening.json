@@ -1,7 +1,7 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-13 in the evening on a weekday contained one unit of Sunflower Oil and one unit of Milk. The basket breadth is narrow, comprising two distinct categories. The `shopping_need_text` describes a basic food replenishment need compatible with these items. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-05-13 in the evening on a weekday contains one unit of Sunflower Oil and one unit of Milk. This represents a minimal basket breadth with two distinct categories. The combination of Milk and Sunflower Oil is not supported by the supplied category pair evidence, which focuses on Milk paired with Vegetables, Breads, WheatFlour, Chocolates, and CurdYogurt. The order reflects a basic grocery need compatible with meal preparation or staple replenishment.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Milk",
         "Sunflower Oil"
       ],
-      "combination_text": "Milk and Sunflower Oil were purchased together in this single observed order.",
+      "combination_text": "Milk and Sunflower Oil were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic food replenishment.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences cannot be inferred from this single data point. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not confirm that this specific user has a durable preference for those specific category pairs beyond this single instance.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Replenishment of basic cooking staples (oil) and a dairy staple (milk).",
+  "uncertainty_text": "This is a single observation from one date. No durable preference or routine can be inferred. The supplied category pair evidence does not include Sunflower Oil, so no lift or support data is available for the actual basket composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-13"
+    ],
+    "first_seen_at": "2026-05-13T18:37:50",
+    "last_seen_at": "2026-05-13T18:37:50"
+  }
 }

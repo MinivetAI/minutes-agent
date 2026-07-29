@@ -1,40 +1,34 @@
 {
-  "category": "Dips Sauces Pastes",
-  "profile_text": "In April 2026, the user placed one order for Ching's Secret Dark Soy Sauce (210 g) on a weekday morning. This single observation indicates an immediate cooking need for Indo-Chinese dishes, such as stir-fries or fried rice, rather than a stable preference. The morning timing aligns with the population baseline, where morning activity accounts for 32.46% of share for this category.",
-  "brand_preferences": [
-    {
-      "brand": "Ching's Secret",
-      "preference_text": "Observed in one order.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Ching's Secret Dark Soy Sauce (210 g) observed in one order.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Dips Sauces Pastes",
+  "summary_text": "In April 2026, the user purchased Ching's Secret Dark Soy Sauce (210 g) on one weekday morning. This timing aligns with the population baseline, where morning activity accounts for 32.46% of orders. The product is a condiment used to add color and savory depth to Indo-Chinese dishes. As this is a single observation, it is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for this brand or product type.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Ching's Secret",
+        "preference_text": "Purchased Ching's Secret Dark Soy Sauce in April 2026.",
+        "confidence": "low",
+        "boundary_text": "Preference is limited to the specific Dark Soy Sauce product observed; does not extend to other Ching's Secret products or other soy sauce brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available. The user's acceptance of alternative brands or product forms within the Dips Sauces Pastes category is unknown.",
+  "uncertainty_text": "This category profile is based on a single observation in April 2026. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for this brand or product type. No stable brand, variant, or daypart preferences can be confirmed.",
+  "retrieval_text": "User purchased Ching's Secret Dark Soy Sauce (210 g) on a weekday morning in April 2026, a timing consistent with population baselines. This single observation suggests a potential interest in condiments for Indo-Chinese cooking, but brand loyalty, product form preferences, and purchase cadence remain unconfirmed due to lack of repeated evidence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-27",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for DipsSaucesPastes yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Immediate cooking need for Indo-Chinese dishes, such as stir-fries or fried rice.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-27T08:10:36",
+    "last_seen_at": "2026-04-27T08:10:36"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-26 (weekend), the user purchased one 400 g pouch of Quaker plain wholegrain oats during the afternoon. This timing aligns with a lower population share (0.2526) compared to the morning baseline (0.3246). The product serves as a basic pantry staple for hot breakfasts or cooking. This is a single observation; no stable preference or routine can be established.",
+  "summary_text": "On 2026-04-26 (weekend), the user purchased Quaker Oats Pouch 400 g (plain wholegrain oats) during the afternoon. This single order suggests a need for pantry replenishment or meal preparation, consistent with the product's role as a staple breakfast ingredient. The purchase timing aligns with the user's typical afternoon activity levels, which are comparable to the population baseline for that daypart. No stable brand or product variant preference can be established from this isolated observation.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 400 g pouch of Quaker plain wholegrain oats. This occurred during the afternoon on a weekend, a time with lower population share (0.2526) compared to the morning baseline (0.3246).",
+      "pattern_text": "One order of Quaker Oats Pouch 400 g (plain wholegrain oats) placed on a weekend afternoon. The timing is consistent with the user's baseline afternoon activity, which is comparable to the population average for that daypart.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; cannot establish stable preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This summary is based on a single observed order. It is not possible to determine if this is a one-time purchase or part of a recurring routine. No brand preference or specific product variant preference can be established from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

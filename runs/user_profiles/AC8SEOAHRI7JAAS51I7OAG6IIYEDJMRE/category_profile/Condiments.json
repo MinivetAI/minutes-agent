@@ -1,26 +1,33 @@
 {
-  "category": "Condiments",
-  "profile_text": "A single observed purchase of a specific herb-based condiment suggests a general utility for enhancing pizza, pasta, or snacks at home. No stable brand preference, routine, or price sensitivity can be established from this isolated event.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Condiments",
+  "summary_text": "In March 2026, the user purchased On1y Pizza Oregano Poly Pot 80 g on a single date (2026-03-22). This is an isolated observation; no other condiment purchases are recorded in this window to establish brand loyalty or category breadth. The purchase occurred on a weekend afternoon, aligning with the population afternoon baseline share (0.2526). The product is a dry herb seasoning typically used for finishing pizzas, pasta, or snacks, suggesting a utility-driven purchase for immediate or near-term cooking needs.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit purchase observed.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established due to single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need. No other condiment purchases are visible in this window to determine brand loyalty or category breadth.",
+  "retrieval_text": "User purchased On1y Pizza Oregano Poly Pot 80 g on 2026-03-22 (weekend afternoon). Single observation; brand and product preference not yet established as stable.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-22",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established; last purchase was on 2026-03-22.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Condiments yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": null,
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
-  "mission_generation_text": "Supports general utility for enhancing pizza, pasta, or snacks at home.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-22T13:11:15",
+    "last_seen_at": "2026-03-22T13:11:15"
+  }
 }

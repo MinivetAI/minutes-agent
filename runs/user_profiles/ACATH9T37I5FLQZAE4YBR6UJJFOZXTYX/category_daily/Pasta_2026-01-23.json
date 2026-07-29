@@ -1,9 +1,23 @@
 {
   "date": "2026-01-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-23 (weekday), the user ordered 2 units of Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) during the morning. This purchase aligns with the category's higher population activity share of 32.46% in the morning on weekdays. The product is an instant pasta designed for quick preparation (approx. 5 minutes), suggesting a need for a convenient, low-effort meal or snack. No browsing or cart activity was recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-01-23 (weekday), the user ordered Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g), quantity 2, in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is an instant pasta designed for quick preparation, suggesting a need for a convenient, low-effort meal or snack. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product, or daypart. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Ordered Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g), quantity 2. Timing is consistent with the population baseline where morning accounts for 32.46% of activity. The product is an instant pasta designed for quick preparation, suggesting a need for a convenient, low-effort meal or snack. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product, or daypart. No other orders are available to confirm repetition or routine.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for choosing this item over other pasta options is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or daypart. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "On 2026-06-02 (weekday), the user purchased 1 unit of Colgate Strong Teeth Toothpaste 200 g during the evening. This timing aligns with a period when 30.27% of the population typically shops in this category. The product is a standard fluoride toothpaste for everyday oral care, suggesting a routine replacement need. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "In June 2026, the user ordered Colgate Strong Teeth Toothpaste 200 g on a single weekday in the evening. This timing aligns with population norms where evening purchases are common (30.27%). As this is a single observation, it is not yet established whether this represents a habitual preference for Colgate or this specific variant, or if the user typically buys toothpaste at a different time of day.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a habitual preference for Colgate or this specific variant, or if the user typically buys toothpaste at a different time of day.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

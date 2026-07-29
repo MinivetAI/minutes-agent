@@ -1,41 +1,27 @@
 {
-  "category": "Toilet Cleaner",
-  "profile_text": "The user has demonstrated interest in toilet cleaning products on two independent dates (May 2026 and July 2026), purchasing two different brands (Harpic and Flipkart Supermart) in 2 x 1 L packs. Due to the low frequency and lack of brand repetition, no stable brand preference or routine is established. The user buys this category for household bathroom hygiene maintenance.",
-  "brand_preferences": [
-    {
-      "brand": "Harpic",
-      "preference_text": "Purchased once on 2026-05-28. Single observation; no durable preference established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Flipkart Supermart",
-      "preference_text": "Purchased once on 2026-07-05. Single observation; no durable preference established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Toilet Cleaner",
+  "summary_text": "The user has purchased toilet cleaners on two separate occasions in May and July 2026. Evidence is limited to single observations per month, preventing the establishment of a stable brand preference, routine, or recurring cadence. Purchases included Harpic Original and Flipkart Supermart Lavender Liquid, both in 2 x 1 L packs, bought on weekday evenings and weekend afternoons respectively.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has purchased both a branded product (Harpic) and a private-label/value option (Flipkart Supermart), suggesting flexibility between brand loyalty and value-oriented choices, but this is based on isolated events.",
+  "uncertainty_text": "It is unclear if the user has a stable brand preference or a recurring cleaning routine. The two observed purchases are on different dates, involve different brands, and occur at different times of day (weekday evening vs. weekend afternoon), making it impossible to determine a consistent habit or primary brand from the current evidence.",
+  "retrieval_text": "User purchased toilet cleaners in May and July 2026, specifically Harpic Original Disinfectant (2 x 1 L) on a weekday evening and Flipkart Supermart Lavender Liquid (2 x 1 L) on a weekend afternoon. Evidence is limited to single observations per month, preventing the establishment of a stable brand preference, routine, or recurring cadence. Purchases suggest flexibility between branded and value-oriented options for bathroom hygiene maintenance.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-05",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-07-05.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for ToiletCleaner yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on all observed occasions.",
-  "substitution_text": "The user has purchased two different brands (Harpic and Flipkart Supermart) in separate orders, indicating openness to brand substitution or lack of strong brand loyalty.",
-  "price_value_text": "No specific price sensitivity or value behavior observed beyond standard pack sizes (2 x 1 L).",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. Low confidence in predicting future behavior due to sparse history.",
-  "mission_generation_text": "Supports routine household bathroom hygiene maintenance and disinfection needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-05-28T19:07:27",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

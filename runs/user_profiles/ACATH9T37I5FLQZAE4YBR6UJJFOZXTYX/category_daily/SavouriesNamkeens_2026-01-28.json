@@ -1,15 +1,23 @@
 {
   "date": "2026-01-28",
   "day_type": "weekday",
-  "summary_text": "One order of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) in the Savouries Namkeens category during the afternoon on a weekday.",
+  "summary_text": "On 2026-01-28 (weekday), the user ordered one unit of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a single-serve crunchy savoury snack, likely for immediate hunger relief or a light break. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time impulse purchase.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) in the Savouries Namkeens category during the afternoon on a weekday.",
+      "pattern_text": "One order of Too Yumm! Sour Cream and Onion Veggie Stix (35 g) placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a single-serve crunchy savoury snack, likely for immediate hunger relief or a light break.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or flavour preference can be established. No browsing or funnel data is available to assess interest levels prior to purchase.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time impulse purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-28"
+    ],
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-01-28T12:24:24"
+  }
 }

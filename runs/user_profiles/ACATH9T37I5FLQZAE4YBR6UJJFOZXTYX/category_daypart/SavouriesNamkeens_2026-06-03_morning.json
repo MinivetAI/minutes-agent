@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Haldiram's Moong Dal 200 g (1 unit) placed in the morning.",
+  "summary_text": "One order of Haldiram's Moong Dal 200 g (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when this category has a 32.46% population share. The product is a shelf-stable, ready-to-eat savoury snack, suitable for immediate consumption such as a tea-time bite or office break.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning shares 32.46% of activity. The product is a shelf-stable, ready-to-eat savoury snack, typically used for immediate consumption such as tea-time snacking or quick cravings.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a habitual morning snack habit or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

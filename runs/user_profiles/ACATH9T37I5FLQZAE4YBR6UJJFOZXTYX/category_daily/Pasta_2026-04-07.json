@@ -1,15 +1,17 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-07 (weekday), the user purchased one 75 g pack of Maggi Pazzta Cheese Macaroni Instant Pasta during the evening. This single order occurred in the evening, a daypart where this user's activity is slightly below the population baseline (30.27% of population activity is in the evening). The product is a single-serve, quick-cook instant pasta, compatible with fast snacks, late-evening cravings, or minimal-prep meals. This is a single observed order; it does not establish a stable preference or routine for this category or brand. It is unclear if this was a one-time need or part of a broader habit.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased one 75 g pack of Maggi Pazzta Cheese Macaroni Instant Pasta during the evening on a weekday. This is a single observed order; it does not establish a stable preference or routine for this category or brand. It is unclear if this was a one-time need or part of a broader habit.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-04-07 (weekday), the user purchased Maggi Pazzta Cheese Macaroni Instant Pasta (75 g, quantity 1) during the evening. This timing aligns with the population baseline where evening accounts for 30.27% of pasta purchases. The product is a quick-cook, single-serve instant pasta, suitable for fast snacks, side dishes, or immediate pantry top-ups. This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or consistent timing pattern.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand. It is unclear if this was a one-time need or part of a broader habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or consistent timing pattern. It is unclear if this represents a habitual preference for Maggi, instant pasta formats, or evening shopping specifically.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

@@ -1,19 +1,11 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased Naturbaked Zero Maida Whole Wheat Bread 300 g on five independent dates (2026-02-08, 2026-02-09, 2026-02-16, 2026-02-18, and 2026-02-24). This product has met the repetition bar for stable preference claims with high confidence, supported by five independent dates. The user also exhibits a stable preference for purchasing this item in the morning, observed on three independent dates (2026-02-08, 2026-02-18, 2026-02-24), supporting at least medium confidence for this daypart pattern. Purchases also occurred in the afternoon (2026-02-09) and evening (2026-02-16), but these are single-date observations within the month and do not form stable daypart patterns. The product is a packaged whole wheat loaf suitable for quick breakfasts, toast, or sandwiches.",
+  "summary_text": "The user purchased Naturbaked Zero Maida Whole Wheat Bread (300 g) on five independent dates in February 2026. This product has met the repetition bar for stable preference and is promoted with high confidence. Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, indicating flexible timing rather than a rigid daily routine. The product is a packaged whole wheat loaf typically used for quick breakfasts, toast, or sandwiches.",
   "stable_preference_claims": [
     {
       "dimension": "product",
-      "value": "Naturbaked Zero Maida Whole Wheat Bread 300 g",
-      "claim_text": "The user has a stable preference for Naturbaked Zero Maida Whole Wheat Bread 300 g, evidenced by purchases on five independent dates in February 2026.",
-      "confidence": "high",
-      "evidence_count": 5,
-      "independent_date_count": 5
-    },
-    {
-      "dimension": "product",
-      "value": "Naturbaked Zero Maida Whole Wheat Bread",
-      "claim_text": "The user has a stable preference for Naturbaked Zero Maida Whole Wheat Bread, evidenced by purchases on five independent dates in February 2026.",
+      "value": "Naturbaked Zero Maida Whole Wheat Bread (300 g)",
+      "claim_text": "The user has a stable preference for Naturbaked Zero Maida Whole Wheat Bread (300 g), supported by purchases on five independent dates.",
       "confidence": "high",
       "evidence_count": 5,
       "independent_date_count": 5
@@ -21,6 +13,18 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the product preference is stable, daypart patterns are mixed. Morning purchases are stable (3 dates), but afternoon and evening purchases are single-date observations. No other brands or variants were observed.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the brand and product are stable, the timing varies across dayparts (morning, afternoon, evening) and day types (weekday, weekend), suggesting the purchase is driven by need rather than a fixed daily habit.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-02-08",
+      "2026-02-09",
+      "2026-02-16",
+      "2026-02-18",
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-08T09:50:42",
+    "last_seen_at": "2026-02-24T07:17:40"
+  }
 }

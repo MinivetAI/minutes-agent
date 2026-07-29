@@ -1,26 +1,27 @@
 {
-  "category": "Vitamins",
-  "profile_text": "In January 2026, the user placed one order for Eno Lemon Antacid Powder (30 g) on a weekday morning. This purchase occurred during a time window where the user's activity (32.46% share) is above the population baseline for this daypart. The product is a fast-acting antacid powder, typically used for immediate relief from acidity or heartburn, suggesting a need for quick digestive relief during the start of the day or after a morning meal. No browsing, search, or cart activity was observed for this category in this window.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Vitamins",
+  "summary_text": "In January 2026, the user placed one order for Eno Lemon Antacid Powder (30 g) on a weekday morning. This single observation does not establish a routine or stable preference for this brand or product. The timing aligns with a period of above-baseline purchasing activity (32.5% of population activity).",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader pattern of digestive health management. No brand or product preference can be confirmed from this single instance.",
+  "retrieval_text": "Single observed order in January 2026 for Eno Lemon Antacid Powder (30 g) on a weekday morning; insufficient evidence to establish stable brand, product, or daypart preferences for the Vitamins category.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-01-30",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Vitamins yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category is not observed; only a single completed purchase is recorded, so conversion behavior is not established beyond this one transaction.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed beyond the single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Immediate relief from digestive discomfort such as acidity or heartburn, particularly during the morning or after a meal.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

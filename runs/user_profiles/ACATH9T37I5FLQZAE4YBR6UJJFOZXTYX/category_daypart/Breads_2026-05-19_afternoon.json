@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One unit of bread (BABHMCY6GJYZ9CZQ) was purchased during the afternoon on a weekday.",
+  "summary_text": "One order of bread (Product: BABHMCY6GJYZ9CZQ, Quantity: 1) was completed on 2026-05-19 in the afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a staple food item.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for bread purchases.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline where afternoon shares 25.26% of activity (compared to morning at 32.46%, evening at 30.27%, and night at 12.02%). The product is a staple food item typically used for daily meals.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference, a routine, or an isolated purchase. No brand preference can be inferred as no brand data is provided for this product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-19T13:19:43",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

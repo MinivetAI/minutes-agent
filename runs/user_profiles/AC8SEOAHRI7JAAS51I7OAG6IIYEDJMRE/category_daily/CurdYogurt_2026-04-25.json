@@ -1,9 +1,17 @@
 {
   "date": "2026-04-25",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-25 (weekend), the user purchased 3 units of Mother Dairy Advanced Probiotic Plain Curd (200 g) and 1 unit of Mother Dairy Classic Plain Curd (390 g) during the afternoon. This timing aligns with an immediate need for ready-to-eat dairy staples for a meal or snack, rather than bulk storage. The afternoon activity is less common for this user compared to the population baseline (25.3% share vs. 32.5% morning share).",
+  "summary_text": "On 2026-04-25 (weekend), one order of Mother Dairy curd products was placed in the afternoon. The basket included 3 units of 200 g Advanced Probiotic Plain Curd and 1 unit of 390 g Classic Plain Curd. This afternoon timing aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less frequent than morning (0.3246) or evening (0.3027). The products are ready-to-eat dairy staples typically used for immediate meals, snacks, or digestive support. This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific dietary motivations beyond the general utility of the items.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "With only one observed order on a single date, it is not possible to establish stable brand preferences, routine purchasing patterns, or specific dietary motivations (e.g., probiotic focus vs. general curd need).",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific dietary motivations beyond the general utility of the items.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-25T13:07:11",
+    "last_seen_at": "2026-04-25T13:07:11"
+  }
 }

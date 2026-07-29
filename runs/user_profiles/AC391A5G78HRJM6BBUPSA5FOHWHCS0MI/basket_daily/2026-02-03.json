@@ -1,23 +1,19 @@
 {
   "date": "2026-02-03",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-03 (weekday), a single order was placed during the morning daypart. The basket contained 4 items across 2 categories: Flour (1 unit) and Edible Oil (3 units total: 1 unit of EDOGSFZHWWMGGMCF and 2 units of EDOFZBEEGEC5GQPF). This represents a narrow basket breadth focused on staple cooking ingredients. The shopping need suggests a requirement for basic cooking staples, compatible with the purchased items. No other dayparts were observed for this date.",
+  "summary_text": "On 2026-02-03 (weekday), a single order was placed in the morning. The basket contained cooking essentials: one unit of Besan and three units of Other Cooking Oil (one unit of one variant, two units of another). This represents a narrow, single-category basket focused on pantry staples. The purchase suggests a need for basic ingredients for home cooking or meal preparation. This inference is based on a single order on one date and does not establish a durable preference or routine.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Flour",
-        "Edible Oil"
-      ],
-      "combination_text": "Flour and Edible Oil were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "A need for basic cooking staples, specifically flour and oil, is compatible with the purchased basket.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` supplied relates to other categories (Milk, Vegetables, SpicesMasala, CookiesBiscuits) and does not provide statistical support for the Flour/Edible Oil combination observed here.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The purchase of Besan and cooking oil suggests a need for basic ingredients for home cooking or meal preparation.",
+  "uncertainty_text": "This inference is based on a single order on one date. It does not establish a durable preference or routine. The provided category pair evidence (e.g., WashingBar/WashingPowder, Milk/Vegetables) does not match the categories in this specific order, so no lift or support values are applied to this basket's composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-03"
+    ],
+    "first_seen_at": "2026-02-03T07:37:45",
+    "last_seen_at": "2026-02-03T07:37:45"
+  }
 }

@@ -1,23 +1,33 @@
 {
-  "category": "Chips",
-  "profile_text": "The user demonstrates a stable preference for the product CHPHK5F28WGW2UNS, observed on two independent dates in June 2026. Purchases are frequent, with an average cadence of 10 days, and span varied dayparts (morning, afternoon, night) and day types (weekday, weekend), indicating flexible snacking needs rather than a rigid routine. Brand and product choices are diverse, including Let's Try, Lay’s, Too Yumm!, TAALI, and KURKURE, with no single brand showing repeated preference across independent dates. The most recent purchase was on 2026-07-04.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for product CHPHK5F28WGW2UNS, observed on two independent dates (2026-06-07 and 2026-06-28).",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": null,
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by multiple completed orders across different months and products.",
-  "substitution_text": "The user frequently substitutes between different brands and product types (e.g., potato chips, puffcorn, protein puffs) without a consistent pattern, suggesting openness to variety rather than strict brand loyalty.",
-  "price_value_text": "No specific price or value behavior is evident from the available evidence.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific avoidance or uncertainty patterns are identified.",
-  "mission_generation_text": "Supports immediate snacking and casual consumption needs, with purchases occurring across various times of day and days of the week.",
-  "overall_confidence": "medium"
+  "category_name": "Chips",
+  "summary_text": "The user has ordered chips across May, June, and July 2026. Evidence is sparse and fragmented: May showed two orders for small-format single-serve packs from different brands (Let's Try, Lay's, Too Yumm!) on weekdays, establishing a stable preference for small formats but no brand loyalty. June and July consisted of single, distinct orders for protein puffs and puffcorn snacks from different brands (TAALI, Kurkure) at varying times. No brand or specific product variant has repeated across independent dates, preventing stable brand or product preference claims. Overall confidence is low due to the lack of repetition.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [
+      {
+        "pack_size": "small-format (50-80 g)",
+        "preference_text": "The user has consistently ordered small-format, single-serve chip packs (57 g, 50 g, 80 g) across multiple dates in May 2026, suggesting a preference for immediate consumption or light snacking rather than bulk household stocking.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased standard chips, protein puffs, and puffcorn snacks. While these are all savory snacks, the lack of repetition in specific product types (e.g., no repeat of protein puffs or puffcorn) makes it unclear if these are direct substitutes for each other or distinct preferences. Standard chips appear to be the primary category anchor, with puffcorn/protein puffs as occasional variations.",
+  "uncertainty_text": "No stable brand preference exists as no brand has repeated across independent dates. Daypart patterns are inconsistent (weekdays vs. weekends, morning vs. afternoon vs. night), preventing a stable timing routine. The sample size is too small to determine if the user is exploring new snack types or if specific brands/products are genuinely preferred. It is unknown if the small-format preference extends to all chip types or is specific to certain brands.",
+  "retrieval_text": "User shows a stable medium-confidence preference for small-format, single-serve chip packs (50-80 g) based on two independent orders in May 2026, likely for immediate snacking. No stable brand preference is established as brands (Let's Try, Lay's, Too Yumm!, TAALI, Kurkure) appeared only once each across May, June, and July 2026. Daypart timing is inconsistent, with orders on weekdays and weekends, and in mornings, afternoons, and nights. The user has also purchased protein puffs and puffcorn snacks, but these did not repeat, so their status as substitutes or distinct preferences is uncertain.",
+  "replenishment": {
+    "cadence_days": 10,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-07-14",
+    "replenishment_text": "Chips is reordered roughly every 10 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

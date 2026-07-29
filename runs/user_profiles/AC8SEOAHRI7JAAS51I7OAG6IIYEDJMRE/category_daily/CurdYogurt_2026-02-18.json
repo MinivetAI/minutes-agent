@@ -1,9 +1,23 @@
 {
   "date": "2026-02-18",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-18 (weekday), the user purchased 3 units of Mother Dairy Advanced Probiotic Plain Curd (200 g) and 1 unit of Mother Dairy Classic Plain Curd (390 g) during the morning. This timing aligns with a population share of 0.3246 for morning purchases. The items are ready-to-eat dairy staples suitable for immediate consumption or meal accompaniment. This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-18 (weekday), the user purchased Mother Dairy curd products in the morning. The order included 3 units of 200 g Advanced Probiotic Plain Curd and 1 unit of 390 g Classic Plain Curd. This timing aligns with the population baseline where 32.46% of curd/yogurt purchases occur. The items are ready-to-eat dairy staples suitable for immediate consumption, such as a quick breakfast addition, a lunch/dinner side, or a digestive-friendly snack. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time urgent need or the start of a pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Mother Dairy curd products (3 units of 200 g Advanced Probiotic Plain Curd and 1 unit of 390 g Classic Plain Curd) purchased in the morning on a weekday. The order was placed in the morning, a time that aligns with the population baseline where 32.46% of curd/yogurt purchases occur. The items are ready-to-eat dairy staples suitable for immediate consumption, such as a quick breakfast addition, a lunch/dinner side, or a digestive-friendly snack. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time urgent need or the start of a pattern.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time urgent need or the start of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-18"
+    ],
+    "first_seen_at": "2026-02-18T08:18:12",
+    "last_seen_at": "2026-02-18T08:18:12"
+  }
 }

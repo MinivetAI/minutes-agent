@@ -1,15 +1,23 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-26 (weekend), the user purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) in the afternoon. This timing aligns with a period of lower-than-baseline activity (25.26% share vs. 32.46% for mornings). The product is a small-format, single-use liquid milk pack, typically used for immediate kitchen needs such as tea, coffee, or breakfast. This is a single observed order; it does not establish a stable preference or routine. It is unclear if this represents a one-time need or part of a recurring habit.",
+  "summary_text": "On this weekend, the user ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, specifically during the afternoon. This timing aligns with the population afternoon share (0.2526), though it is less common than the population morning (0.3246) and evening (0.3027) baselines. The product is a small-format, pasteurised milk suitable for immediate kitchen use such as tea, coffee, or breakfast. Confidence in any stable preference is low because this is the only observed order on this date.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml).",
+      "pattern_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, placed on a weekend afternoon. This timing aligns with the population afternoon share (0.2526), though it is less common than the population morning (0.3246) and evening (0.3027) baselines. The product is a small-format, pasteurised milk suitable for immediate kitchen use such as tea, coffee, or breakfast.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. It is unclear if this represents a one-time need or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Confidence in any stable preference is low because this is the only observed order on this date. It is not yet established whether the user prefers this specific brand, pack size, or timing over other options.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

@@ -1,26 +1,27 @@
 {
-  "category": "Chips",
-  "profile_text": "A single observed purchase of Chips (1 unit) in the morning on a weekday. No stable brand, product, or routine preferences can be established from this isolated event.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Chips",
+  "summary_text": "A single order of Chips (1 unit) was placed on 2026-05-22 (weekday) in the morning. This timing aligns with population activity patterns where this category represents 32.46% of activity. As this is a single observation on one date, no stable brand, product, or timing preference can be established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available from a single observation.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established. It is unknown if this represents a habitual purchase or a one-time need.",
+  "retrieval_text": "One order of Chips (1 unit) observed on 2026-05-22 (weekday) in the morning, aligning with population patterns where this category represents 32.46% of activity. No stable brand, product, or timing preference can be established from this single data point.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-22",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single transaction; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Chips yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution patterns observed.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Routine snacking or meal accompaniment.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-22T07:33:20",
+    "last_seen_at": "2026-05-22T07:33:20"
+  }
 }

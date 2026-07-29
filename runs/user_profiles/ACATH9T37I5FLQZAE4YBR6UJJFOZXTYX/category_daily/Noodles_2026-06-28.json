@@ -1,9 +1,17 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On the morning of this weekend, one order of MAGGI 2-Minute Masala Instant Noodles (420 g) was placed. No browsing events (search, view, cart-add) were recorded for this category in this window. The product is a family-sized, quick-cook instant noodle pack, typically used for fast meals or snacks. No browsing history is available to determine if this was a planned purchase or a spontaneous need. A single order does not establish a stable preference for this brand or product type.",
+  "summary_text": "On this weekend, the user purchased MAGGI 2-Minute Masala Instant Noodles (420 g) during the morning daypart. This single order represents a quick-cook, family-sized option suitable for immediate consumption. The purchase occurred at a time when morning buys constitute 32.46% of the population baseline. As this is the only observed order for this category on this date, it is unclear whether this reflects a routine preference, a one-time convenience buy, or part of broader stocking behavior.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or a spontaneous need. A single order does not establish a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this was a routine purchase, a one-time convenience buy, or part of a broader stocking behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

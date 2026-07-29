@@ -1,40 +1,52 @@
 {
-  "category": "Aerated Drinks",
-  "profile_text": "The user demonstrates a high-confidence, stable preference for Coca-Cola Diet Coke Can 300 ml, observed on four independent dates in May 2026, typically purchased in the afternoon. This specific product represents a durable habit within the category. In contrast, other items such as Diet Coke, Sprite, Original Taste Coke, and Appy Fizz were purchased on single dates across April and June, indicating exploratory or situational buying without established routine. The user exhibits a fast replenishment cadence (every 4 days on average), with the last purchase on 2026-06-27 and a predicted next purchase around 2026-07-01. No discovery signals (search/view without purchase) were observed; all interest converted to transactions.",
-  "brand_preferences": [
+  "category_name": "Aerated Drinks",
+  "summary_text": "The user demonstrates a stable, high-confidence preference for Coca-Cola Diet Coke 300 ml cans, evidenced by four independent purchases in May 2026, typically in the afternoon. Isolated observations include Sprite (April, June) and Appy Fizz (May), but these do not constitute stable preferences. The primary behavior is a recurring routine for Diet Coke, with no other durable brand or product patterns established.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Coca-Cola",
+        "preference_text": "The user has a stable preference for Coca-Cola branded aerated drinks, specifically Diet Coke, based on four independent purchase dates in May 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Diet Coke variant and does not extend to other Coca-Cola products like Original Taste or Sprite."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Diet Coke 300 ml can",
+        "preference_text": "The user consistently purchases Diet Coke in 300 ml can format, observed on four independent dates in May 2026.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "300 ml",
+        "preference_text": "The user prefers the 300 ml can pack size for Diet Coke, based on repeated purchases in May 2026.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Coca-Cola",
-      "preference_text": "Stable preference for Coca-Cola brand, evidenced by repeated purchases of Diet Coke variants across multiple dates.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for Coca-Cola Diet Coke Can 300 ml, observed on four independent dates in May 2026.",
-      "examples": [],
+      "daypart": "afternoon",
+      "behavior_text": "The user's repeated purchases of Coca-Cola Diet Coke 300 ml cans in May 2026 consistently occurred in the afternoon, aligning with the population baseline for this category.",
       "confidence": "high"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has shown isolated interest in Sprite (750 ml bottle) and Appy Fizz (250 ml PET), but these do not replace the primary Diet Coke preference. Sprite and Appy Fizz are acceptable alternatives for occasional variety but are not stable substitutes for the core Diet Coke routine.",
+  "uncertainty_text": "It is unknown if the user has a stable preference for Sprite or Appy Fizz, as these were observed only once. The user's preference for other Coca-Cola variants (e.g., Original Taste) or pack sizes (e.g., bottles) is not established. The consistency of the afternoon daypart preference is limited to the Diet Coke brand; other dayparts (morning, evening, night) were observed only in isolated instances.",
+  "retrieval_text": "The user exhibits a high-confidence, stable preference for Coca-Cola Diet Coke in 300 ml cans, with four independent purchases recorded in May 2026, consistently timed in the afternoon. This recurring pattern establishes a durable routine for this specific brand and variant. Isolated observations of Sprite (750 ml bottle) and Appy Fizz (250 ml PET) indicate occasional variety-seeking behavior but do not constitute stable preferences or routine substitutions for the primary Diet Coke habit.",
   "replenishment": {
     "cadence_days": 4.0,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-06-27",
     "predicted_next_purchase_date": "2026-07-01",
-    "replenishment_text": "The user purchases aerated drinks approximately every 4 days, indicating a fast replenishment cycle.",
-    "confidence": "high",
-    "evidence_count": 9,
-    "independent_date_count": 9
+    "replenishment_text": "AeratedDrinks is reordered roughly every 4 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Aerated Drinks reliably converts to purchase; no unmet interest or discovery signals were observed.",
-  "substitution_text": "The user shows flexibility in non-preferred items (e.g., switching between Sprite, Appy Fizz, and other Coke variants), suggesting low substitution friction for non-core items, but high stickiness for the preferred Diet Coke Can.",
-  "price_value_text": "No explicit price or value behavior data was provided.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance patterns identified. Single-date purchases of Sprite and Appy Fizz do not indicate avoidance, only lack of stable preference.",
-  "mission_generation_text": "Routine refreshment and hydration needs, with a specific habitual reliance on Diet Coke for immediate consumption, supplemented by occasional variety-seeking or situational purchases of other carbonated beverages.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 9,
+    "independent_date_count": 9,
+    "first_seen_at": "2026-04-13T09:26:45",
+    "last_seen_at": "2026-06-27T10:28:03"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "One order of Mother Dairy Classic Plain Curd (390.01 g) placed during the evening on a weekend.",
+  "summary_text": "One order of Mother Dairy Classic Plain Curd (390.01 g) placed on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a time when this user's activity is slightly less common than the population baseline (30.27% share). The product is a standard dairy staple typically used as an immediate accompaniment for meals, such as rice or spicy dishes, or for making raita.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening (0.3027) is nearly as common as morning (0.3246) for this category. The product is a plain curd staple, typically used as a meal accompaniment or digestive aid.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T20:16:51",
+    "last_seen_at": "2026-07-05T20:16:51"
+  }
 }

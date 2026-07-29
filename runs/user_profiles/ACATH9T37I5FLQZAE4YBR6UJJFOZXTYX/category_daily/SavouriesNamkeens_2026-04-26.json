@@ -1,15 +1,17 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-26 (weekend), the user purchased 3 units of Bikaji Chowpati Bhelpuri 110 g during the afternoon. This packaged Indian savoury snack is a ready-to-eat chaat-style mix suitable for immediate snacking. The afternoon timing aligns with a period of lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This single observed order does not establish a stable or recurring preference for this brand or product type.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased 3 units of Bikaji Chowpati Bhelpuri 110 g, a packaged Indian savoury snack, during the afternoon on a weekend. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a ready-to-eat chaat-style mix, typically used for immediate snacking or impulse hunger.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased Bikaji Chowpati Bhelpuri 110 g (quantity: 3) in the Savouries Namkeens category during the afternoon. This timing aligns with population baselines where afternoon shares are lower than morning and evening, suggesting leisure or impulse snacking rather than a strict routine. The product is a ready-to-eat chaat-style snack, typically used for immediate hunger relief or casual snacking. This is a single observation on one date; it is not yet established whether this represents a stable preference for the Bikaji brand, the Bhelpuri sub-category, or a one-time impulse purchase.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Bikaji brand, the Bhelpuri sub-category, or a one-time impulse purchase. No other dates are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

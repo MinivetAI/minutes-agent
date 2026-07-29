@@ -1,26 +1,40 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Mother Dairy Fresh Paneer (200 g) on two independent dates (2026-04-18 and 2026-04-28). The product appears on both dates, meeting the repetition bar for stable preference. The user also exhibited a pattern of shopping during the night on a weekday and during the morning and afternoon on a weekend.",
+  "summary_text": "In April 2026, the user ordered Mother Dairy Fresh Paneer 200 g on two independent dates (2026-04-18 and 2026-04-28). This repetition meets the threshold for a stable preference. The user also exhibited a pattern of ordering during the night on a weekday, which is less common than the population baseline for morning purchases.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Mother Dairy",
-      "claim_text": "The user has a stable preference for Mother Dairy paneer, evidenced by purchases on 2 independent dates.",
+      "claim_text": "The user has a stable preference for Mother Dairy paneer, evidenced by orders on two independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Mother Dairy Fresh Paneer (200 g)",
-      "claim_text": "The user has a stable preference for Mother Dairy Fresh Paneer (200 g), evidenced by purchases on 2 independent dates.",
+      "value": "Mother Dairy Fresh Paneer 200 g",
+      "claim_text": "The user has a stable preference for Mother Dairy Fresh Paneer 200 g, evidenced by orders on two independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "This analysis is based on only two independent dates in April 2026. While the repetition of Mother Dairy Fresh Paneer supports a medium-confidence stable preference, the limited date range means this pattern may not persist beyond this month.",
-  "overall_confidence": "medium"
+  "trend_claims": [
+    {
+      "claim_text": "The user ordered paneer on a weekday night (2026-04-28), a timing less common than the population baseline for morning purchases (night share 0.1202 vs. morning 0.3246).",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "The stable preference is based on only two independent dates. The night order on a weekday is a single observation and may not represent a consistent habit.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-18",
+      "2026-04-28"
+    ],
+    "first_seen_at": "2026-04-18T07:53:45",
+    "last_seen_at": "2026-04-28T21:50:01"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased bread items on three independent dates. Bonn High Fibre Brown Bread 400 g was purchased on two separate dates (2026-07-05 and 2026-07-13), establishing a stable preference for this specific product. Harvest Gold Atta Burger Buns (200 g) appeared on a single date (2026-07-06) and is not included in stable claims. Purchases occurred in the morning and evening, with no consistent daypart pattern established across the month.",
+  "summary_text": "In July 2026, the user ordered bread items on three independent dates. Bonn High Fibre Brown Bread (400 g) was purchased on two separate dates (2026-07-05 and 2026-07-13), establishing a stable preference for this specific product and brand. Harvest Gold Atta Burger Buns (200 g) were ordered on one date (2026-07-06) and do not meet the threshold for stable preference. Purchases occurred in both the morning and evening, with no single daypart dominating enough to establish a stable timing pattern from this limited sample.",
   "stable_preference_claims": [
     {
       "dimension": "product",
-      "value": "Bonn High Fibre Brown Bread 400 g",
-      "claim_text": "The user has a stable preference for Bonn High Fibre Brown Bread 400 g, observed on 2 independent dates in July 2026.",
+      "value": "Bonn High Fibre Brown Bread (400 g)",
+      "claim_text": "The user has a stable preference for Bonn High Fibre Brown Bread (400 g), observed on two independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +13,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Bonn High Fibre Brown Bread 400 g is supported by 2 independent dates, meeting the threshold for medium confidence. Harvest Gold Atta Burger Buns (200 g) is a single-date observation and is excluded from stable claims. Daypart patterns are inconsistent (morning vs. evening) and do not form a stable routine.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "Stable preferences are limited to Bonn High Fibre Brown Bread due to repetition on two dates. Other products and timing patterns are based on single observations and cannot be confirmed as stable habits.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-07-05",
+      "2026-07-06",
+      "2026-07-13"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

@@ -1,23 +1,32 @@
 {
   "date": "2026-02-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-28 (weekend), a single order was placed in the evening. The basket was narrow, containing Edible Oil (quantity 2) and Salt (quantity 1). No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-02-28 (weekend), a single order was placed in the evening. The basket contained 2 units of EDOFZBEEGEC5GQPF (Other Cooking Oil) and 1 unit of SATET96PTFPYSQWM (Salt). This combination suggests a need for basic cooking ingredients, potentially for preparing a meal that requires frying or sautéing. No other products were purchased in this transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Edible Oil",
+        "Other Cooking Oil",
         "Salt"
       ],
-      "combination_text": "Edible Oil and Salt were purchased together in a single order.",
+      "combination_text": "Other Cooking Oil and Salt were purchased together in a single order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Edible Oil and Salt is compatible with a need for basic cooking ingredients or pantry replenishment.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as 'repeated', 'routine', or 'stable' are not applicable. The category pair evidence provided (e.g., Milk/Vegetables) does not match the products in this specific order, so no lift/support values are applied to the observed basket.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing to cook a meal requiring oil and seasoning.",
+  "uncertainty_text": "This is a single observation from one date. No durable preference or routine can be established from this order alone. The category pair evidence provided (e.g., WashingBar/WashingPowder) does not match the products in this specific order, so no lift/support values from that evidence are applied here.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T20:39:33",
+    "last_seen_at": "2026-02-28T20:39:33"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "On 2026-03-11 (weekday), the user purchased 3 units of Sunfeast Mom's Magic Cashew & Almond Cookies (544 g) during the evening. This timing aligns with the high population share (0.3027) for the Cookies Biscuits category in the evening, suggesting a potential tea-time or snack consumption window. As this is a single observation, it represents a concrete instance rather than a stable preference or routine.",
+  "summary_text": "In March 2026, the user ordered Sunfeast Mom's Magic Cashew & Almond Cookies (544 g) on 2026-03-11. This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific brand, product, or daypart. No other orders are available to confirm repetition or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Single observation limits inference to this specific instance; durable preferences or routine cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific brand, product, or daypart. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-11"
+    ],
+    "first_seen_at": "2026-03-11T19:01:32",
+    "last_seen_at": "2026-03-11T19:01:32"
+  }
 }

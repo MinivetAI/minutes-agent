@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1 kg pack of unbranded fresh onions in the morning.",
+  "summary_text": "One order of Onion 1 kg (Unbranded) placed on 2026-07-06.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The product is a basic cooking staple, suggesting a need for meal preparation ingredients.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for onions or morning shopping.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T10:17:35",
+    "last_seen_at": "2026-07-06T10:17:35"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-07-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-05 (weekend), the user purchased 3 units of Amul Sweet Lassi 250 ml during a morning session. This timing aligns with above-baseline morning activity (32.5%). The product is a ready-to-drink chilled dairy beverage suitable for immediate consumption or a quick refreshment break. This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
+  "summary_text": "On 2026-07-05 (weekend), the user ordered Amul Sweet Lassi 250 ml (quantity: 3) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are ready-to-drink dairy beverages, typically used for immediate refreshment or as a quick snack-time accompaniment. No stable preferences can be established from a single order. It is unknown if the user prefers this specific brand, flavor, or format over alternatives, or if this timing reflects a habitual routine.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 3 units of Amul Sweet Lassi 250 ml. This timing aligns with above-baseline morning activity (32.5%). The product is a ready-to-drink chilled dairy beverage suitable for immediate consumption or a quick refreshment break.",
+      "pattern_text": "One order of Amul Sweet Lassi 250 ml (quantity: 3) on 2026-07-05. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are ready-to-drink dairy beverages, typically used for immediate refreshment or as a quick snack-time accompaniment. No stable preferences can be established from a single order. It is unknown if the user prefers this specific brand, flavor, or format over alternatives, or if this timing reflects a habitual routine.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No stable preferences can be established from a single order. It is unknown if the user prefers this specific brand, flavor, or format over alternatives, or if this timing reflects a habitual routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-05T10:41:31"
+  }
 }

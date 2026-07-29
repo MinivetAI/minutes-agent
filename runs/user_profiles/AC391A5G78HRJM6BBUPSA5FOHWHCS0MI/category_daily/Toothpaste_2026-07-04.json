@@ -1,15 +1,23 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), the user purchased one 500 g multi-pack of Colgate Strong Teeth Anticavity Toothpaste during the afternoon. This timing aligns with a period of lower activity relative to the population baseline (25.3% share vs. 32.5% for mornings and 30.3% for evenings). The high-volume pack size suggests a practical restock or bulk-buying need rather than an immediate, time-sensitive emergency. Confidence is low because this is the only observed order on a single date; it is unclear if this represents a stable preference for Colgate or a one-time purchase. The specific reason for choosing the afternoon slot or the 500 g pack size over other options is not established.",
+  "summary_text": "On 2026-07-04 (weekend), the user ordered Colgate Strong Teeth Anticavity Toothpaste (500 g combo pack) in the afternoon. This timing contrasts with the population baseline, which shows a higher share of toothpaste purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a value multi-pack, suggesting a restock or bulk-buying utility rather than an immediate single-use need. This is a single observation on one date, so no stable brand preference, routine timing, or recurring purchasing pattern can be established. It is unclear if this represents a one-time stock-up or a habitual behavior.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 500 g multi-pack of Colgate Strong Teeth Anticavity Toothpaste during the afternoon on a weekend.",
+      "pattern_text": "One order of Colgate Strong Teeth Anticavity Toothpaste (500 g combo pack) on 2026-07-04. This timing contrasts with the population baseline, which shows a higher share of toothpaste purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a value multi-pack, suggesting a restock or bulk-buying utility rather than an immediate single-use need. This is a single observation on one date, so no stable brand preference, routine timing, or recurring purchasing pattern can be established. It is unclear if this represents a one-time stock-up or a habitual behavior.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is the only observed order on a single date; it is unclear if this represents a stable preference for Colgate or a one-time purchase. The specific reason for choosing the afternoon slot or the 500 g pack size over other options is not established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so no stable brand preference, routine timing, or recurring purchasing pattern can be established. It is unclear if this represents a one-time stock-up or a habitual behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:46:46",
+    "last_seen_at": "2026-07-04T11:46:46"
+  }
 }

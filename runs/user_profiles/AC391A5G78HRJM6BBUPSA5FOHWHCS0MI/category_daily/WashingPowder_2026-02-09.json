@@ -1,9 +1,23 @@
 {
   "date": "2026-02-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-09 (weekday), the user purchased one 1 kg unit of Tide Naturals Lemon & Chandan Detergent Powder in the morning. This small retail unit is suitable for immediate household replenishment or finishing a wash load. The order occurred during a time when 32.46% of the population is active. This is a single observed transaction; durable brand or scent preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-09 (weekday), the user placed one order of Tide Naturals Lemon & Chandan Detergent Powder (1 kg) in the morning. This timing aligns with above-baseline purchasing activity (32.46%). The small-format product suggests immediate household replenishment or an urgent wash load. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or category.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Tide Naturals Lemon & Chandan Detergent Powder (1 kg) placed on a weekday morning. The order occurred in the morning, a time when this user's purchasing activity is above the population baseline (32.46%). The product is a small-format laundry detergent suitable for immediate household replenishment or urgent wash loads.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand or scent preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or category.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T08:35:20",
+    "last_seen_at": "2026-02-09T08:35:20"
+  }
 }

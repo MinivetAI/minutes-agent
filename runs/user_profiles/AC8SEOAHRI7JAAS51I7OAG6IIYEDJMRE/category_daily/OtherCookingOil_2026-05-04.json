@@ -1,15 +1,23 @@
 {
   "date": "2026-05-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-04 (weekday), the user purchased one 1-litre bottle of Dalda Groundnut Oil during the afternoon. This general-purpose cooking oil serves as a pantry replenishment item for daily cooking needs. The order occurred during a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+  "summary_text": "On 2026-05-04 (weekday), the user ordered Dalda Groundnut Oil 1 L PET Bottle in the afternoon. This general-purpose cooking oil is used for everyday Indian cooking tasks like frying and sautéing. The afternoon timing is less common for this category compared to morning or evening baselines. This is a single observation on one date; it is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need. No other orders are available to confirm repetition of this brand or product.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 1-litre bottle of Dalda Groundnut Oil. This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+      "pattern_text": "One order of Dalda Groundnut Oil 1 L PET Bottle. The afternoon timing is less common for this category compared to morning or evening baselines.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need. No other orders are available to confirm repetition of this brand or product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T13:12:50",
+    "last_seen_at": "2026-05-04T13:12:50"
+  }
 }

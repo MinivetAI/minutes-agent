@@ -1,9 +1,23 @@
 {
   "date": "2026-03-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-02 (weekday), the user purchased one 6-unit pack of Hen Fruit white chicken eggs during the morning. This timing aligns with a 32.46% population share for this category on weekdays, suggesting a context compatible with immediate cooking or breakfast needs. This is a single observation on one date; no durable brand or product preferences can be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-02 (weekday), the user ordered Hen Fruit Protein Max White Eggs (6 Units) during the morning. This order occurred in a daypart where the user's purchasing activity is below the population baseline (32.46%). The product is a standard fresh egg pack, typically used for immediate breakfast or cooking needs. This is a single observation on one date; it is not yet established whether the user has a stable preference for the Hen Fruit brand, the 6-unit pack size, or a consistent morning weekday shopping routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Hen Fruit Protein Max White Eggs (6 Units) placed on a weekday morning. The order occurred in the morning, a time when this user's purchasing activity is below the population baseline (32.46%). The product is a standard fresh egg pack, typically used for immediate breakfast or cooking needs.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for the Hen Fruit brand, the 6-unit pack size, or a consistent morning weekday shopping routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-02T09:36:38"
+  }
 }

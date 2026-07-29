@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Classic Medium Poha 1 kg placed in the afternoon.",
+  "summary_text": "One order of Classic Medium Poha 1 kg.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (25.26% share). The product is a basic pantry staple used for quick meals or snacks.",
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the afternoon on a weekday. The population baseline indicates afternoon purchases are less common (0.2526) than morning (0.3246) or evening (0.3027) purchases for this category. The product is a basic pantry staple used for quick meals.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-11"
+    ],
+    "first_seen_at": "2026-05-11T13:24:35",
+    "last_seen_at": "2026-05-11T13:24:35"
+  }
 }

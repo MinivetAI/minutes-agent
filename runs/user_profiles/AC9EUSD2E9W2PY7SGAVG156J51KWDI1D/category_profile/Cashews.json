@@ -1,26 +1,27 @@
 {
-  "category": "Cashews",
-  "profile_text": "A single observed purchase of Classic Whole Cashews (200 g) on a weekday morning in March 2026. No stable brand preference, routine, or recurring need is established from this single data point.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Cashews",
+  "summary_text": "Evidence is limited to a single order on 2026-03-04 for Classic Whole Cashews (200 g) purchased in the morning. This single observation does not establish a stable preference, routine, or brand loyalty.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from the single observed order.",
+  "uncertainty_text": "Preference boundaries are unknown due to a single observation. It is unclear if this was a one-time replenishment, a specific recipe need, or part of a broader habit. No stable brand, variant, or pack size preference can be inferred.",
+  "retrieval_text": "A single order on 2026-03-04 (weekday) for Classic Whole Cashews (200 g) purchased in the morning, a time of above-baseline purchasing activity (32.5% share) for this user. The product is a standard pantry staple dry fruit, typically used for snacking, cooking, or recipe preparation. This single observation does not establish a stable preference, routine, or brand loyalty.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence observed; last purchase was on 2026-03-04.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Cashews yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Immediate snacking or ingredient need for a specific recipe.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-04T07:43:36",
+    "last_seen_at": "2026-03-04T07:43:36"
+  }
 }

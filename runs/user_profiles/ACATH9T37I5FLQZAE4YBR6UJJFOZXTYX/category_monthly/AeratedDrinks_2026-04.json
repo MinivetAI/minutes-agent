@@ -1,23 +1,42 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased aerated drinks on four independent dates (2026-04-08, 2026-04-14, 2026-04-17, 2026-04-29). Sprite was purchased on three of these dates (04-08, 04-14, 04-29), meeting the repetition bar for stable preference. Coca-Cola was purchased on one date (04-17), remaining a single-date observation. Purchases occurred on weekdays across morning, afternoon, and evening dayparts, aligning with population baselines for those times.",
+  "summary_text": "In April 2026, the user placed four independent orders for aerated drinks, all occurring on weekdays. The user purchased Sprite products on three separate dates (2026-04-08, 2026-04-14, and 2026-04-29) and Coca-Cola on one date (2026-04-17). The repeated purchase of Sprite across three independent dates establishes a stable preference for this brand. The user also exhibits a stable preference for the 750 ml PET bottle format, which appeared in three orders (2026-04-08, 2026-04-14, and 2026-04-29). Daypart patterns are mixed, with orders placed in the morning, afternoon, and evening, aligning with general population baselines for those times rather than indicating a specific habitual time of day. No single daypart dominates the user's behavior in this category.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
-      "value": "Sprite",
-      "claim_text": "The user has a stable preference for Sprite, evidenced by purchases on three independent dates in April 2026 (04-08, 04-14, 04-29).",
+      "value": "sprite",
+      "claim_text": "The user purchased Sprite products on three independent dates in April 2026 (2026-04-08, 2026-04-14, 2026-04-29), indicating a stable preference for this brand.",
       "confidence": "medium",
-      "evidence_count": 3,
+      "evidence_count": 4,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Sprite PET Bottle 750 ml",
+      "claim_text": "The user purchased Sprite PET Bottle 750 ml on three independent dates in April 2026 (2026-04-08, 2026-04-14, 2026-04-29), indicating a stable preference for this specific product format.",
+      "confidence": "medium",
+      "evidence_count": 4,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "Coca-Cola was purchased on a single date (2026-04-17) in the afternoon. This is an isolated observation and does not indicate a stable preference.",
+      "claim_text": "The user purchased Coca-Cola Original Taste Soft Drink 750 ml PET Bottle on one date (2026-04-17). This is a single observation and does not establish a stable preference for Coca-Cola or this specific variant.",
       "confidence": "low"
     }
   ],
-  "uncertainty_text": "While Sprite shows a stable pattern across three dates, the user also purchased Coca-Cola once. The overall brand preference is not exclusive to Sprite, but Sprite is the only brand with sufficient repetition to claim stability. Single-date observations (Coca-Cola) are excluded from stable lists.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While Sprite shows a stable preference across three dates, the user's daypart timing varies (morning, afternoon, evening), preventing the establishment of a stable shopping time routine. The single Coca-Cola order is insufficient to claim a preference for that brand.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-04-08",
+      "2026-04-14",
+      "2026-04-17",
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-08T09:16:32",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

@@ -1,32 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-06-21 in the morning on a weekend. The basket contains four items across four distinct categories: Vegetables (1 unit), Chocolates (1 unit), Milk (2 units), and Indian Sweets (1 unit). No carts were abandoned. The `shopping_need_text` is compatible with a general breakfast or snack preparation need involving dairy, produce, and treats, but this single observation does not establish a durable preference pattern.",
+  "basket_summary_text": "A single order placed on a weekend morning containing Vegetables, Chocolates, Milk, and Indian Sweets. The basket combines staple items (Milk, Vegetables) with indulgent or specific cuisine items (Chocolates, Indian Sweets).",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.3,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Chocolates",
-        "Milk"
-      ],
-      "combination_text": "Chocolates and Milk were purchased together in this order.",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a meal or snack involving dairy, fresh produce, and sweet items.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences or recurring behaviors cannot be inferred from this isolated event.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "A weekend morning grocery run covering basic staples and specific treats or meal components.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine. Category associations are inferred from this single instance and may not reflect habitual behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-21T09:39:45",
+    "last_seen_at": "2026-06-21T09:39:45"
+  }
 }

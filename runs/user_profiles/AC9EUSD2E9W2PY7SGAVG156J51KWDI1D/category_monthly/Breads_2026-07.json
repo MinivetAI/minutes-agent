@@ -1,12 +1,12 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased bread on four independent dates. Britannia Breakfast Slice White Bread 450 g was purchased on three dates (2026-07-14, 2026-07-19, 2026-07-21), establishing a stable preference. Britannia Sandwich Bread 350 g was purchased on one date (2026-07-15). Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, indicating flexible timing rather than a fixed routine.",
+  "summary_text": "In July 2026, the user purchased bread on four independent dates. Britannia Breakfast Slice White Bread 450 g appeared on three dates (2026-07-14, 2026-07-19, 2026-07-21), meeting the repetition bar for a stable preference. Britannia Sandwich Bread 350 g appeared on one date (2026-07-15) and is excluded from stable claims. Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, showing no single dominant timing pattern.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Britannia",
-      "claim_text": "The user has a stable preference for Britannia bread, evidenced by purchases on 4 independent dates.",
-      "confidence": "high",
+      "claim_text": "The user has a stable preference for Britannia bread, evidenced by purchases on 3 independent dates.",
+      "confidence": "medium",
       "evidence_count": 4,
       "independent_date_count": 4
     },
@@ -21,6 +21,17 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Britannia Sandwich Bread 350 g was purchased on only one date; this single observation does not establish a stable preference or routine.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "Britannia Sandwich Bread 350 g was purchased on a single date and does not meet the threshold for a stable preference claim.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-07-14",
+      "2026-07-15",
+      "2026-07-19",
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-06-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-08 (weekday), the user purchased 2 units of Amul Cow Milk 500 ml in the morning. This purchase aligns with the morning daypart, where 0.3246 of the population is active. The product is a fresh, short-shelf-life dairy staple typically used for immediate needs like tea, coffee, or breakfast preparation. This is a single observed order on one date; it does not establish a stable or recurring preference.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-08 (weekday), the user purchased 2 units of Amul Cow Milk 500 ml in the morning. This timing aligns with the population baseline where morning represents 32.46% of activity. The product is a fresh, short-shelf-life dairy staple, suggesting an immediate need for breakfast or daily preparation. This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time replenishment. No brand preference can be inferred from a single purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml. This timing aligns with the population baseline where morning represents 32.46% of activity. The product is a fresh, short-shelf-life dairy staple, suggesting an immediate need for breakfast or daily preparation. This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time replenishment. No brand preference can be inferred from a single purchase.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time replenishment. No brand preference can be inferred from a single purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-08"
+    ],
+    "first_seen_at": "2026-06-08T09:51:39",
+    "last_seen_at": "2026-06-08T09:51:39"
+  }
 }

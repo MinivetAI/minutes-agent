@@ -1,25 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single afternoon weekday order containing five distinct items: Breads, Sugar, Cheese, Butter Margarine, and Tea. The basket reflects a compatible need for basic pantry staples and breakfast/dining essentials. No durable behavior pattern is established from this single observation.",
+  "basket_summary_text": "A single afternoon weekday order containing five distinct items across five categories: Breads, Sugar, Cheese, Butter Margarine, and Tea. The basket reflects a mix of staple pantry items (sugar, tea) and fresh/dairy components (cheese, butter, breads). No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "Sugar",
-        "Cheese",
-        "Butter Margarine",
-        "Tea"
-      ],
-      "combination_text": "Breads, Sugar, Cheese, Butter Margarine, and Tea were purchased together in one order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for basic breakfast or snack preparation items, including breads, dairy spreads, and tea.",
-  "uncertainty_text": "This analysis is based on a single observed order on 2026-03-31. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of breads, cheese, butter, and tea is compatible with preparing simple breakfast or snack items, such as sandwiches or toast, alongside a hot beverage.",
+  "uncertainty_text": "This is a single observation on one date. It does not establish a durable preference, routine, or stable category affinity. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-31T11:33:41",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

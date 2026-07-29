@@ -1,34 +1,40 @@
 {
-  "category": "Grains Millets",
-  "profile_text": "The user has purchased Rajdhani Sabudana Sago (500 g) on two independent dates (2026-05 and 2026-07-02). While the brand appears twice, the monthly summaries explicitly state these are single observed orders that do not establish a stable preference or routine. The user buys this starch-based ingredient, often used for fasting meals or specific Indian dishes, typically in the morning. No recurring cadence or substitution behavior is evident.",
-  "brand_preferences": [
+  "category_name": "Grains Millets",
+  "summary_text": "The user has purchased Rajdhani Sabudana Sago 500 g on two independent dates (2026-05-17 and a weekday in July 2026), both in the morning. This represents a low-confidence, emerging preference for this specific brand and product form, with no evidence of broader category engagement or stable routine beyond these two instances.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Rajdhani",
+        "preference_text": "The user has purchased Rajdhani Sabudana Sago on two independent dates, indicating an emerging preference for this brand within the sabudana sub-segment.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to Rajdhani brand sabudana/sago products and does not extend to other grain or millet brands or product forms."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Rajdhani",
-      "preference_text": "Observed on two independent dates (May 2026 and July 2026), but each instance is described as a single order not establishing a stable routine. Confidence is medium due to repetition across dates, but the lack of a documented routine limits certainty of durable preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "daypart": "morning",
+      "behavior_text": "Both observed purchases occurred in the morning, aligning with the population baseline for this category.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No substitution evidence is available. The user has only purchased Rajdhani Sabudana Sago; it is unknown if other sabudana brands or alternative fasting staples are acceptable.",
+  "uncertainty_text": "Preference is based on only two independent dates. It is unclear if this represents a recurring fasting routine, a seasonal need, or a one-time pantry top-up. No preference for other grains, millets, or product forms (e.g., rice, wheat) is established.",
+  "retrieval_text": "User purchased Rajdhani Sabudana Sago 500 g on two independent dates (May and July 2026), both in the morning. This indicates an emerging, medium-confidence preference for the Rajdhani brand within the sabudana sub-segment of the Grains Millets category. No stable routine or broader category preference is confirmed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-02",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No predictable cadence established; last purchase was on 2026-07-02.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for GrainsMillets yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on two separate occasions, indicating reliable conversion from interest to purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping for starch-based ingredients suitable for fasting meals or specific Indian dishes.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

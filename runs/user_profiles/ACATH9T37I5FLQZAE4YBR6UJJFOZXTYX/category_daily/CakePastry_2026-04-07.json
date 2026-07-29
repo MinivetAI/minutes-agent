@@ -1,9 +1,23 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "One order of a Monginis Choco Muffin (132 g) was placed during the evening on a weekday. The purchase occurred in the evening, a period where this user's activity is slightly below the population baseline (30.27%). The product is a ready-to-eat packaged bakery item, typically used for immediate consumption as a snack or dessert.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-07 (weekday), the user ordered one unit of Monginis Choco Muffin 132 g in the evening. This single observation aligns with the population baseline where evening accounts for 30.27% of activity, slightly below the morning share (32.46%). The product is a ready-to-eat packaged bakery item, typically used for immediate consumption as a snack or dessert. This is a single observation from one date; it is not yet established whether the user prefers this specific brand, product, or timing over other options. No stable routine or recurring pattern can be confirmed.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Monginis Choco Muffin 132 g (1 unit) placed on 2026-04-07 in the evening. This timing aligns with the population baseline where evening accounts for 30.27% of activity, slightly below the morning share (32.46%). The product is a ready-to-eat packaged bakery item, typically used for immediate consumption as a snack or dessert.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or flavor preference can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers this specific brand, product, or timing over other options. No stable routine or recurring pattern can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

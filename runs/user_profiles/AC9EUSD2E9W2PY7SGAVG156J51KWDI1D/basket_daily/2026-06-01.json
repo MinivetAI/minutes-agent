@@ -1,23 +1,33 @@
 {
   "date": "2026-06-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-01 (weekday), a single order was placed during the morning daypart. The basket contained three items: 3 units of Milk, 1 unit of Breads, and 1 unit of Ready Mixes. This narrow breadth combines dairy, grain, and baking ingredients, a combination compatible with a need for breakfast preparation or baking. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-06-01 (weekday), a single order was placed in the morning. The basket contained 3 units of Milk, 1 unit of Breads, and 1 unit of Ready Mixes. This combination is compatible with a need for breakfast or morning meal preparation. This represents a single observation of product combination behavior.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Milk",
-        "Breads"
+        "Breads",
+        "Ready Mixes"
       ],
-      "combination_text": "Milk and Breads were purchased together in this order.",
-      "support": 0.26,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Milk, Breads, and Ready Mixes",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a meal involving dairy and baked goods, such as breakfast or baking.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Milk, Breads, and Ready Mixes is compatible with a need for breakfast or morning meal preparation.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It is an isolated observation and does not establish a durable preference or routine. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-01"
+    ],
+    "first_seen_at": "2026-06-01T09:14:21",
+    "last_seen_at": "2026-06-01T09:14:21"
+  }
 }

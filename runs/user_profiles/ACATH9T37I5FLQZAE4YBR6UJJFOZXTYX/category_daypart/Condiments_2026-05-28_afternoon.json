@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 40 g pack of Keya Pizza Oregano Spice Mix in the afternoon.",
+  "summary_text": "One order of Keya Pizza Oregano Spice Mix (40 g) placed in the afternoon on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The product is a specialized seasoning mix used to enhance pizza or similar snacks, suggesting an immediate culinary need or flavor upgrade rather than a bulk pantry restock.",
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference for this brand or category. The specific reason for the purchase (e.g., cooking at home vs. enhancing a delivery) is not confirmed.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is less common than the population baseline for this category (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a pizza seasoning mix, generally used for flavoring baked goods or snacks.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the brand 'keya' or a specific interest in pizza seasoning, as no other orders are present to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T11:21:02",
+    "last_seen_at": "2026-05-28T11:21:02"
+  }
 }

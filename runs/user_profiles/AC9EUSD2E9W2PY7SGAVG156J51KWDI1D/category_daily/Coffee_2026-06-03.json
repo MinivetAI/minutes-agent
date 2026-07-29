@@ -1,9 +1,23 @@
 {
   "date": "2026-06-03",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-03 (weekday), the user purchased one 200 g pouch of Continental Malgudi 60 Degree Filter Coffee during the evening. This purchase aligns with the evening daypart, which represents 30.27% of population activity for this category (baseline: morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a chicory-blended South Indian filter coffee powder, traditionally used for daily morning brewing. As this is a single observed order on one date, it does not establish a stable preference or routine; the specific reason for the evening purchase (e.g., stock replenishment vs. immediate need) is not determined.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered Continental Malgudi 60 Degree Filter Coffee Pouch 200 g during the evening. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%). The product is a South Indian filter coffee powder intended for decoction-style brewing. This is a single observation on one date; it is not yet established whether this represents a stable preference for this specific brand or product, or if the purchase was driven by immediate stock replenishment needs.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Continental Malgudi 60 Degree Filter Coffee Pouch 200 g was placed on a weekday evening. This timing is consistent with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%). The product is a South Indian filter coffee powder intended for decoction-style brewing.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening purchase (e.g., stock replenishment vs. immediate need) is not determined.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand or product, or if the purchase was driven by immediate stock replenishment needs.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T16:24:08",
+    "last_seen_at": "2026-06-03T16:24:08"
+  }
 }

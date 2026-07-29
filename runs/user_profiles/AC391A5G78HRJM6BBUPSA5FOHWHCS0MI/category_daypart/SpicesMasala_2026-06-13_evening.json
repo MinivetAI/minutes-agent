@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 100 g pack of Zoff whole cumin seeds (jeera) during the evening on a weekend. The product is a whole spice intended for tempering, roasting, or grinding in everyday Indian cooking.",
+  "summary_text": "One order of Zoff Cumin Seeds (100 g) placed on 2026-06-13 during the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product serves a general utility for meal preparation, such as seasoning dishes or preparing spice water.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference, routine, or recurring need for cumin seeds or this specific brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a whole spice (jeera) typically used for tempering or seasoning in cooking, suggesting a need for meal preparation or kitchen replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring cadence, or specific cooking routine. It is unclear if this represents a one-time need or part of a broader habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

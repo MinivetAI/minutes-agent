@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Musk Melon Kajari (fresh whole muskmelon) in the morning.",
+  "summary_text": "One order of 1 Musk Melon Kajari (fresh whole muskmelon, unbranded) placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekend, a time when morning share (0.3246) is the highest among population dayparts. The item is a fresh produce good suitable for immediate home consumption, snacking, or breakfast.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning. This timing aligns with the population baseline, where morning represents 32.46% of activity, making it the most common daypart for this category. The product is a fresh, unbranded whole fruit, typically used for immediate home consumption, breakfast, or snacking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific fruit type, brand (unbranded), or weekend morning timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-03"
+    ],
+    "first_seen_at": "2026-05-03T09:48:47",
+    "last_seen_at": "2026-05-03T09:48:47"
+  }
 }

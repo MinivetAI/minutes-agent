@@ -1,15 +1,23 @@
 {
   "date": "2026-03-21",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-21 (weekend), the user purchased one 300 g pack of iD Fresh Classic Pancake Batter during the afternoon. This ready-to-cook batter offers a convenience solution for fast, low-effort cooking without measuring ingredients. The order occurred during a time when population share is lower than the morning baseline (0.2526 vs 0.3246). This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On this weekend, the user ordered iD Fresh Classic Pancake Batter (300 g) in the afternoon. This ready-to-cook batter supports a need for quick, low-effort meal preparation. The order occurred during a period of lower-than-baseline activity compared to the population morning share (0.3246), but comparable to the evening share (0.3027).",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 300 g pack of iD Fresh Classic Pancake Batter, a ready-to-cook batter for making pancakes quickly at home.",
+      "pattern_text": "One order of iD Fresh Classic Pancake Batter (300 g) placed on a weekend afternoon. The product is a ready-to-cook batter designed for quick, low-effort pancake preparation, suggesting a need for immediate meal convenience rather than long-term pantry stocking.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product, or daypart. It is unclear whether this was a one-time convenience purchase or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-03-21T12:56:16"
+  }
 }

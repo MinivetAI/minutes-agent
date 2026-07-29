@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased jaggery products on a single date (2026-04-05). This single observation is insufficient to establish a stable preference or routine for jaggery, so no values are promoted to `stable_preference_claims`. The purchase occurred during a morning session on a weekend, consistent with the user's above-baseline morning activity pattern. The items purchased were one 450 g block of Jivana sugarcane jaggery and one 500 g pack of Organic Tattva organic jaggery powder, likely for kitchen use such as sweetening or cooking.",
+  "summary_text": "In April 2026, one order of Jaggery products was placed on a weekend morning. The order included 1 unit of Jivana Sugarcane Jaggery Block 450 g and 1 unit of Organic Tattva Jaggery Powder 500 g. These items are kitchen staples used for sweetening, cooking, or baking. This is a single observation on one date; it does not establish a stable preference for either brand (Jivana, Organic Tattva) or format (block vs. powder).",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it is not yet clear if this represents a stable preference for jaggery or a one-time purchase.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for either brand (Jivana, Organic Tattva) or format (block vs. powder).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-04-05T10:50:30"
+  }
 }

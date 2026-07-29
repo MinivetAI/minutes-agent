@@ -1,11 +1,19 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on two independent dates: a weekend morning and a weekday afternoon. The recurrence of this specific brand and variant across two dates supports a stable preference claim with medium confidence. The timing spans both morning and afternoon dayparts, indicating flexibility in purchase timing rather than a strict daily routine anchored to a single time of day.",
+  "summary_text": "In May 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on two independent dates (May 2 and May 19). This repetition establishes a stable preference for this specific brand and variant, with medium confidence. The orders occurred on different day types (weekend and weekday) and in different dayparts (morning and afternoon), indicating no consistent daypart or day-type routine. The product is a small, single-serve plain curd, typically used for immediate consumption, meal pairing, or topping up a household shortfall.",
   "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has a stable preference for Amul products, evidenced by purchases on 2 independent dates.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
     {
       "dimension": "product",
       "value": "Amul Masti Dahi Plain Curd (200 ml)",
-      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on two independent dates in May 2026.",
+      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on 2 independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the product recurrence supports a medium-confidence stable preference, the small sample size (2 dates) limits the ability to define a rigid routine or predict future behavior with high certainty. No browsing or search history is available to determine if these were planned purchases or immediate needs.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the brand and product preference is stable across two dates, the lack of consistent daypart or day-type ordering prevents establishing a routine. It is unclear if this represents a regular habit or a response to specific short-term needs on those dates.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-02",
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

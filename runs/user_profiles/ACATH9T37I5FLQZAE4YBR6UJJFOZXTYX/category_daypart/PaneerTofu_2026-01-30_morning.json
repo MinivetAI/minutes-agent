@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Amul Malai Paneer 200 g was placed in the morning.",
+  "summary_text": "One order of Amul Malai Paneer 200 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time with a population share of 0.3246. The product is a fresh dairy ingredient typically used for immediate cooking needs.",
-  "uncertainty_text": "This is a single observation on one date; no stable preferences or recurring patterns can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The timing aligns with the population baseline where morning shares 32.46% of activity. Paneer is a dairy-based cooking ingredient often used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

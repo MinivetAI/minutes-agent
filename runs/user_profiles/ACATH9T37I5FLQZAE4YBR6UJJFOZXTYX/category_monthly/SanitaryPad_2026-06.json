@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 count) on one weekend date. This single order occurred during a morning period where user activity is above the population baseline (32.46%). The product is a high-urgency period-care item, typically used for leak protection and comfort during daily activities or overnight wear. No browsing or search history was provided to indicate prior consideration or comparison.",
+  "summary_text": "In June 2026, the user ordered Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 Count) on a weekend morning. This single observation reflects an immediate need for leak protection and skin comfort. It does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond this immediate need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable brand preference or a one-time need. No browsing or search history was provided to indicate prior consideration or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond the immediate need for this product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

@@ -1,34 +1,52 @@
 {
-  "category": "Eggs",
-  "profile_text": "The user has a stable, slow-cadence replenishment pattern for eggs, with purchases occurring approximately every 24.5 days. The most recent purchase was on 2026-03-29, with the next predicted around 2026-04-22. Evidence supports a preference for the brand Hen Fruit Farm, observed across multiple independent dates. The user typically purchases in the morning, often on weekends, and buys standard fresh egg packs (e.g., 6-unit packs) suitable for immediate breakfast or household stock. There is no evidence of discovery interest or substitution behavior.",
-  "brand_preferences": [
+  "category_name": "Eggs",
+  "summary_text": "The user has a stable preference for Hen Fruit brand eggs, specifically the Protein Max White Eggs in 6-unit packs, evidenced by orders on two independent dates in March 2026. Purchases occur in the morning, aligning with population baselines on weekends. February 2026 showed a single observation of a different Hen Fruit product (Hen White Eggs), which does not yet establish a stable preference for that specific variant or pack size.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Hen Fruit",
+        "preference_text": "The user has a stable preference for Hen Fruit eggs, evidenced by orders on 2026-03-02 and 2026-03-29.",
+        "confidence": "medium",
+        "boundary_text": "This preference is established for the Protein Max White Eggs variant; it does not necessarily extend to other Hen Fruit egg lines such as the standard Hen White Eggs observed in February."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Protein Max White Eggs",
+        "preference_text": "The user has a stable preference for Hen Fruit Protein Max White Eggs in 6-unit packs, evidenced by orders on 2026-03-02 and 2026-03-29.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "6 Units",
+        "preference_text": "The user has a stable preference for 6-unit packs of Hen Fruit Protein Max White Eggs, evidenced by orders on 2026-03-02 and 2026-03-29.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Hen Fruit Farm",
-      "preference_text": "The user has purchased Hen Fruit Farm eggs on multiple independent dates, indicating a stable brand preference.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
+      "daypart": "morning",
+      "behavior_text": "The user consistently shops for eggs in the morning, a daypart where their activity is below the population baseline (32.46%) on weekdays but aligns with the population baseline on weekends.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has purchased Hen Fruit Hen White Eggs (6 units) in February, indicating that standard white eggs are an acceptable alternative to the Protein Max variant, though the Protein Max variant is the currently stable preference. No other brands were observed.",
+  "uncertainty_text": "Preference for the Hen Fruit brand is established, but the specific product line (Protein Max vs. standard) and pack size are only stable for the 6-unit Protein Max variant observed in March. It is unknown if the user prefers other pack sizes or if the February purchase of standard Hen White Eggs indicates a broader brand loyalty that extends to non-Protein Max lines. No recurring pattern or routine can be confirmed for the standard Hen White Eggs from the single February observation.",
+  "retrieval_text": "The user demonstrates a stable medium-confidence preference for Hen Fruit brand eggs, specifically the Protein Max White Eggs in 6-unit packs, based on two independent orders in March 2026 (weekday and weekend mornings). Purchases are consistently made in the morning, aligning with population baselines on weekends. A single observation in February 2026 of Hen Fruit Hen White Eggs (6 units) suggests brand affinity but does not establish a stable preference for that specific standard variant or pack size, leaving uncertainty regarding whether the user's preference is specific to the Protein Max line or extends to other Hen Fruit egg products.",
   "replenishment": {
     "cadence_days": 24.5,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-03-29",
     "predicted_next_purchase_date": "2026-04-22",
-    "replenishment_text": "The user buys eggs roughly every 24.5 days, classified as a slow replenishment cycle. The last purchase was on 2026-03-29, and the next is estimated for 2026-04-22.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Eggs is reordered roughly every 24 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions on multiple dates.",
-  "substitution_text": "No evidence of substitution behavior was observed.",
-  "price_value_text": "No specific price or value sensitivity was explicitly documented beyond the purchase of standard fresh egg packs.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals were detected.",
-  "mission_generation_text": "The user shops for eggs to support immediate breakfast needs, quick cooking, and general household stock replenishment on a slow, recurring cycle.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-02-08T09:50:42",
+    "last_seen_at": "2026-03-29T09:00:25"
+  }
 }

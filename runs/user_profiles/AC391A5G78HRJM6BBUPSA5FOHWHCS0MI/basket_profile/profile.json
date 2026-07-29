@@ -1,12 +1,130 @@
 {
-  "profile_text": "The user’s shopping activity from January through July 2026 consists of 26 independent orders across weekdays and weekends, spanning morning, afternoon, evening, and night dayparts. The baskets are generally narrow to moderate in breadth, typically containing 1–4 distinct categories per order. The most frequently observed items include Milk, Vegetables, Flour, Edible Oil, Pulses, Rice, Sugar, Salt, Cookies Biscuits, and various household cleaning or personal care products (e.g., Washing Bar, Soap, Condom). Milk and Vegetables appear together in multiple orders, and Milk and Fruits appear together in two specific instances, but these co-occurrences are not repeated across enough independent dates to establish a stable, recurring pattern. The user also places occasional single-item or small-basket orders for specific needs, such as cooking oil or oral care. No durable preferences, routine behaviors, or stable category combinations can be inferred due to the lack of repetition across independent dates for specific basket compositions or daypart timings.",
-  "behavior_patterns": [],
-  "daypart_behavior": [],
-  "basket_structure_text": "Baskets are typically narrow, focusing on 1–4 categories. Common single-category or small-basket orders include Milk, Edible Oil, or Cookies Biscuits. Moderate baskets often combine dairy (Milk) with produce (Vegetables, Fruits) or pantry staples (Flour, Spices Masala). Household cleaning supplies (Washing Bar, Washing Powder) and personal care items (Soap, Condom, Oral Care) appear in separate orders or mixed with food items, but never in a consistent, repeated combination with specific food categories across multiple dates.",
-  "circumstance_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "mission_generation_text": "The user has needs for basic grocery staples, including dairy, fresh produce, and cooking ingredients (flour, oil, spices), as well as household cleaning supplies and personal care items. Occasional needs for snacks (cookies) and specific single items (oral care, condoms) are also observed. These needs are compatible with the observed orders but are not established as stable or recurring requirements.",
-  "uncertainty_text": "This analysis is based on 26 independent orders across seven months. While certain items (Milk, Vegetables, Flour, Oil) appear frequently, they do not co-occur in the same basket across multiple independent dates in a way that establishes a stable pattern. No daypart, day-type, or category combination behavior is repeated across independent dates. Therefore, no durable preferences, routine behaviors, or stable patterns can be inferred. The presence of Unmapped categories (CND, TPS, GHE, AFS, SPP, CMF) limits specific intent inference for some items. Overall confidence is low for all inferred behaviors.",
-  "overall_confidence": "low"
+  "summary_text": "The user's basket profile is grounded in a mix of isolated observations and a few stable, high-confidence category relationships. The most durable pattern is the consistent co-purchase of Milk and Vegetables, observed across five independent dates in April 2026, alongside strong associations with Spices Masala and Cookies Biscuits. In May 2026, a medium-confidence pattern emerged for Fruits and Milk. Other categories, including personal care, cleaning supplies, and various cooking ingredients, appear frequently but without consistent cross-category repetition or brand loyalty across independent dates. Daypart and day-type behaviors are distributed across weekdays and weekends, with no single dominant timing routine. Overall confidence is medium, driven by the repeated Milk-centric combinations, while specific product preferences and broader routine structures remain uncertain due to the fragmented nature of non-food purchases.",
+  "basket_relationships": [
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "relationship_text": "Milk and Vegetables are consistently purchased together, appearing in every order across five independent dates in April 2026.",
+      "recommendation_use_text": "Suggest Vegetables when Milk is in the basket, and vice versa, as this is a high-confidence staple combination.",
+      "boundary_text": "This relationship is specific to the Milk and Vegetables categories; it does not imply that every vegetable purchase includes milk or that milk is only bought with vegetables.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 5,
+        "independent_date_count": 5,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Spices Masala",
+        "Vegetables"
+      ],
+      "relationship_text": "Spices Masala and Vegetables were purchased together in four out of five orders in April 2026.",
+      "recommendation_use_text": "Suggest Spices Masala when Vegetables are in the basket, as this is a high-confidence cooking pair.",
+      "boundary_text": "This relationship is specific to the Spices Masala and Vegetables categories; it does not imply that every vegetable purchase includes spices or that spices are only bought with vegetables.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 4,
+        "independent_date_count": 4,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Cookies Biscuits",
+        "Milk"
+      ],
+      "relationship_text": "Cookies Biscuits and Milk were purchased together in three orders in April 2026.",
+      "recommendation_use_text": "Suggest Cookies Biscuits when Milk is in the basket, as this is a high-confidence snack/dairy pair.",
+      "boundary_text": "This relationship is specific to the Cookies Biscuits and Milk categories; it does not imply that every milk purchase includes cookies or that cookies are only bought with milk.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 3,
+        "independent_date_count": 3,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Spices Masala",
+        "Milk"
+      ],
+      "relationship_text": "Spices Masala and Milk were purchased together in three orders in April 2026.",
+      "recommendation_use_text": "Suggest Spices Masala when Milk is in the basket, as this is a high-confidence combination.",
+      "boundary_text": "This relationship is specific to the Spices Masala and Milk categories; it does not imply that every milk purchase includes spices or that spices are only bought with milk.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 3,
+        "independent_date_count": 3,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Cookies Biscuits",
+        "Spices Masala"
+      ],
+      "relationship_text": "Cookies Biscuits and Spices Masala were purchased together in three orders in April 2026.",
+      "recommendation_use_text": "Suggest Spices Masala when Cookies Biscuits are in the basket, as this is a high-confidence combination.",
+      "boundary_text": "This relationship is specific to the Cookies Biscuits and Spices Masala categories; it does not imply that every cookie purchase includes spices or that spices are only bought with cookies.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 3,
+        "independent_date_count": 3,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Fruits",
+        "Milk"
+      ],
+      "relationship_text": "Fruits and Milk were purchased together on two independent dates in May 2026.",
+      "recommendation_use_text": "Suggest Fruits when Milk is in the basket, as this is a medium-confidence fresh food pair.",
+      "boundary_text": "This relationship is specific to the Fruits and Milk categories; it does not imply that every fruit purchase includes milk or that milk is only bought with fruits.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 2,
+        "independent_date_count": 2,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    }
+  ],
+  "value_text": "The user demonstrates a stable, high-confidence preference for combining Milk with Vegetables, Spices Masala, and Cookies Biscuits, indicating a routine for basic meal preparation and snack/dairy pairing. A medium-confidence preference exists for combining Milk with Fruits. Outside of these Milk-centric combinations, the user exhibits flexible, need-based purchasing for personal care, cleaning supplies, and other cooking ingredients, with no durable brand or product-level preferences established across independent dates.",
+  "basket_size_segment": "medium",
+  "large_basket_tendency": "medium",
+  "multi_quantity_tendency": "low",
+  "daypart_understanding": [],
+  "day_type_understanding": [],
+  "uncertainty_text": "Stable preferences for specific brands, personal care items, or cleaning supplies are unknown due to lack of repetition across independent dates. The user's daypart and day-type behaviors are distributed without a dominant routine, making specific timing-based recommendations uncertain. While Milk is a frequent anchor, its specific role (e.g., breakfast vs. cooking) is not definitively established beyond its co-occurrence with other categories.",
+  "retrieval_text": "The user's shopping behavior is anchored by a high-confidence, repeated pattern of purchasing Milk alongside Vegetables, Spices Masala, and Cookies Biscuits, observed across multiple independent dates in April 2026. This suggests a core need for basic meal preparation ingredients and snack/dairy pairings. A secondary, medium-confidence pattern links Milk with Fruits, observed in May 2026. Outside of these stable dairy-centric combinations, the user's basket is diverse and flexible, including isolated purchases of personal care items (Shampoo, Facewash, Sanitary Pads), cleaning supplies (Washing Bar, Washing Powder), and various cooking essentials (Besan, Ghee, Sugar, Pulses). No durable brand preferences or rigid daypart routines are established for non-food categories, indicating a need-based rather than habit-driven approach to household replenishment and personal care.",
+  "evidence": {
+    "evidence_count": 29,
+    "independent_date_count": 27,
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-07-20T19:05:15"
+  },
+  "user_id": "AC391A5G78HRJM6BBUPSA5FOHWHCS0MI",
+  "artifact_type": "basket_profile",
+  "updated_at": "2026-07-29T05:13:41.601268"
 }

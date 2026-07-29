@@ -1,22 +1,19 @@
 {
   "date": "2026-07-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-09 (weekday), a single order was placed during the morning daypart. The basket was narrow, containing one item: AIREJ6WHFJBSHHMR (Car Air Freshener). This single product falls within the Car Air Freshener category. The observed behavior is compatible with vehicle interior maintenance or freshness needs. As this represents a single observation from one independent date, no durable behavior patterns, stable preferences, or recurring routines are inferred. Confidence in inferred user behavior is low.",
+  "summary_text": "On 2026-07-09 (weekday), two separate orders were placed. The morning order consisted of a single unit of AIREJ6WHFJBSHHMR (Car Air Freshener), compatible with a need to maintain vehicle interior scent. The evening order contained two items from the Vegetables category, suggesting a need for fresh produce for meal preparation. No category combinations were supported by these specific orders. Confidence is low due to single-date observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Car Air Freshener"
-      ],
-      "combination_text": "Car Air Freshener",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Vehicle interior maintenance or freshness.",
-  "uncertainty_text": "This analysis is based on a single order from one independent date. Confidence in any inferred user behavior is low. No repeated patterns, routines, or stable preferences can be established from this evidence alone.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The morning purchase is compatible with maintaining vehicle interior scent. The evening purchase is compatible with a need for fresh produce for meal preparation.",
+  "uncertainty_text": "This description is based on a single observed date. No durable preferences, routines, or category affinities can be inferred. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T08:13:52",
+    "last_seen_at": "2026-07-09T18:10:11"
+  }
 }

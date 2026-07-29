@@ -1,93 +1,44 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-15, a weekday, a single order was placed in the morning. The basket contained 10 distinct items across 8 categories: Wheat Flour, Havan Item, Chocolates, Indian Sweets, Pooja Flowers, Savouries Namkeens (2 items), Milk (2 units), Butter Margarine, and Aerated Drinks. The combination of Havan Items, Pooja Flowers, and Indian Sweets suggests a basket compatible with a religious or ceremonial need, alongside standard grocery staples like milk, flour, and snacks. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-06-15 (weekday), a single morning order contained 10 distinct items across 8 categories. The basket combined daily staples (Milk, 2 units; Wheat Flour) with ceremonial items (Havan Items, Pooja Flowers) and snacks (Chocolates, Savouries Namkeens, Butter Margarine, Aerated Drinks). This single observation is compatible with a mixed-purpose need for household consumption and religious or ceremonial activities. No stable preferences or routine behaviors can be inferred from this one date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Milk",
-        "Vegetables"
+        "Wheat Flour"
       ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.3,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.26,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.22,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "WheatFlour"
-      ],
-      "combination_text": "Milk and Wheat Flour",
+      "combination_text": "Milk and Wheat Flour were ordered together.",
       "support": 0.1,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Chocolates",
         "Milk"
       ],
-      "combination_text": "Chocolates and Milk",
+      "combination_text": "Chocolates and Milk were ordered together.",
       "support": 0.1,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "Breads",
-        "ButterMargarine"
-      ],
-      "combination_text": "Breads and Butter Margarine",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd Yogurt and Vegetables",
-      "support": 0.06,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket includes specific ritual items (Havan Item, Pooja Flowers) and offerings (Indian Sweets, Chocolates), suggesting a need compatible with a religious ceremony or festival, supplemented by daily staples (Milk, Wheat Flour, Butter) and snacks (Savouries, Aerated Drinks).",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine. The presence of ritual items is specific to this instance and may not recur.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket includes Havan Items and Pooja Flowers, which are compatible with religious rituals or ceremonies. It also includes daily staples like Milk and Wheat Flour, along with snacks and drinks, suggesting a need for both ceremonial supplies and general household consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No stable preferences or routine behaviors can be inferred. The presence of specific categories like Havan Items and Pooja Flowers indicates a specific need for this order but does not imply a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

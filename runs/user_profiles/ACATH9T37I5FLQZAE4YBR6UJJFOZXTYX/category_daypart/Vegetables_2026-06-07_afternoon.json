@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one order of fresh vegetables including coriander leaves, curry leaves, onions, baby potatoes, and lady's finger (okra).",
+  "summary_text": "One order of fresh vegetables including coriander leaves, curry leaves, onion, baby potatoes, and lady's finger (okra).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekend, a time when population share is 0.2526 (lower than the morning baseline of 0.3246). The items are fresh, perishable cooking staples and herbs, suggesting a same-day meal preparation need.",
-  "uncertainty_text": "No browsing or search data is available to determine if this was a planned purchase or a last-minute fix. No repeated orders are observed to establish stable preferences.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekend afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), but still significant. The products are fresh, perishable vegetables and herbs typically used for immediate meal preparation, suggesting a need for same-day cooking ingredients.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific vegetables, a one-time meal prep need, or a recurring habit. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-07"
+    ],
+    "first_seen_at": "2026-06-07T12:10:26",
+    "last_seen_at": "2026-06-07T12:10:26"
+  }
 }

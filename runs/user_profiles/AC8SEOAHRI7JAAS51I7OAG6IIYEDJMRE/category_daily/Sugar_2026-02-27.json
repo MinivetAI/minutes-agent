@@ -1,9 +1,23 @@
 {
   "date": "2026-02-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-27 (weekday), the user purchased one 1 kg pack of UTTAM SUGAR Sulphurfree Sugar during the evening. This timing aligns with general evening activity patterns, which hold a 30.27% population share. The product is a standard 1 kg consumer pack of refined white sugar, typically used for everyday kitchen needs such as tea, coffee, or baking. This is a single observed order; it does not establish a stable preference or routine for this brand or category. The specific reason for this purchase (e.g., stockout, recipe need) is not determined.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-27 (weekday), the user purchased one 1 kg pack of Uttam Sugar Sulphurfree Sugar during the evening. This timing aligns with the population baseline for evening purchases (30.27%). The product is a refined white sugar typically used for everyday kitchen needs such as tea, coffee, or baking. This is a single observation on one date; it is not yet established whether this brand or this specific timing represents a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Uttam Sugar Sulphurfree Sugar 1 kg. This timing is consistent with the population baseline for evening purchases (30.27%). The product is a 1 kg pack of refined white sugar, typically used for everyday kitchen needs such as tea, coffee, or baking.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or category. The specific reason for this purchase (e.g., stockout, recipe need) is not determined.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or this specific timing represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-02-27T20:43:10"
+  }
 }

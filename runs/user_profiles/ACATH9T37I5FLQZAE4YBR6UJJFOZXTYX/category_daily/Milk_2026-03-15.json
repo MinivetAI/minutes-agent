@@ -1,9 +1,23 @@
 {
   "date": "2026-03-15",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-15 (weekend), the user purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) during the evening. This small-format purchase suggests a need for immediate consumption, such as for tea, coffee, or breakfast preparation, rather than bulk stocking. The evening activity for this user is slightly below the population baseline (30.27% vs. 32.46%).",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, during the evening. This timing aligns with the population baseline for evening purchases (30.27%). The product is a small-format liquid milk suitable for immediate kitchen use, such as tea, coffee, or breakfast preparation. This is a single observation on one date; it does not establish a stable preference for this brand, product, or timing. It is unclear if this represents a routine habit or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, placed on a weekend evening. The order occurred on a weekend evening, which aligns with the population baseline for evening purchases (30.27%). The product is a small-format liquid milk suitable for immediate kitchen use, such as tea, coffee, or breakfast preparation.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or habitual brand loyalty for Amul or this specific milk format. It is unclear if this was a one-time need or part of a recurring pattern.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or timing. It is unclear if this represents a routine habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

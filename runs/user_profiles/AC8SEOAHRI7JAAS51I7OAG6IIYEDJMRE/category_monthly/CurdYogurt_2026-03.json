@@ -1,6 +1,6 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Mother Dairy Advanced Probiotic Plain Curd 200 g on five independent dates (2026-03-03, 2026-03-14, 2026-03-24, 2026-03-25, 2026-03-28). This product has met the repetition bar for stable preference claims with high confidence, supported by five independent dates. The user also exhibits a stable daypart pattern, ordering in the afternoon on two weekdays and in the evening on two dates (one weekend, one weekday), with a single morning order on a weekend. Trend claims are limited to the specific timing variations observed across these dates.",
+  "summary_text": "In March 2026, the user ordered Mother Dairy Advanced Probiotic Plain Curd 200 g on five independent dates (2026-03-03, 2026-03-14, 2026-03-24, 2026-03-25, 2026-03-28). This product has met the repetition bar for stable preference claims with high confidence, supported by five independent dates. The user also exhibits a stable preference for this product across varied dayparts (morning, afternoon, evening) and day types (weekday, weekend), indicating flexible timing rather than a rigid routine. No other brands or variants were observed in this category during this month.",
   "stable_preference_claims": [
     {
       "dimension": "product",
@@ -9,23 +9,30 @@
       "confidence": "high",
       "evidence_count": 5,
       "independent_date_count": 5
+    },
+    {
+      "dimension": "brand",
+      "value": "Mother Dairy",
+      "claim_text": "The user has a stable preference for Mother Dairy curd products, evidenced by purchases on five independent dates in March 2026.",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user ordered this product in the afternoon on weekdays (2026-03-03, 2026-03-24), a timing less common for the category than the population baseline (afternoon share 0.2526 vs morning 0.3246).",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "The user ordered this product in the evening on 2026-03-14 (weekend) and 2026-03-25 (weekday), a timing with high population share (0.3027) for this category.",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "The user ordered this product in the morning on 2026-03-28 (weekend), aligning with the period where this category represents 32.46% of population activity.",
-      "confidence": "low"
-    }
-  ],
-  "uncertainty_text": "While the product recurrence is high-confidence, the daypart patterns are mixed (afternoon, evening, morning) and span both weekdays and weekends, preventing a single unified daypart preference claim. The product description indicates it is a single-serve probiotic curd suitable for immediate consumption or as a meal add-on.",
-  "overall_confidence": "high"
+  "trend_claims": [],
+  "uncertainty_text": "While the product preference is stable, the timing varies across morning, afternoon, and evening on both weekdays and weekends, suggesting the user shops for this item flexibly rather than adhering to a specific daily routine or daypart preference.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-03-03",
+      "2026-03-14",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-03T13:11:36",
+    "last_seen_at": "2026-03-28T09:52:49"
+  }
 }

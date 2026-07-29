@@ -1,9 +1,17 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks and one 70 g pack of Beyond Snack Kerala Banana Peri Peri Chips during the afternoon. These single-serve savoury snacks are suitable for immediate consumption or quick cravings.",
+  "summary_text": "On 2026-04-07 (weekday), the user ordered CRAX Cheese Balls Puff Snacks (65 g) and Beyond Snack Kerala Banana Peri Peri Chips (70 g) in the afternoon. This timing aligns with the population baseline where afternoon shares 0.2526 of activity, slightly below the peak evening share (0.3027) and morning share (0.3246). The products are immediate, no-preparation savoury snacks suitable for quick consumption or impulse hunger. This is a single observation on one date. It is not yet established whether the user prefers cheese-flavoured puffs, banana chips, or the specific brands CRAX and Beyond Snack over other options. No stable brand or product routine can be confirmed from this single transaction.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavour preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers cheese-flavoured puffs, banana chips, or the specific brands CRAX and Beyond Snack over other options. No stable brand or product routine can be confirmed from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

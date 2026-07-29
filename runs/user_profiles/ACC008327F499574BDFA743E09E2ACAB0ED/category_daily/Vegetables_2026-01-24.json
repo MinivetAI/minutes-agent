@@ -1,15 +1,23 @@
 {
   "date": "2026-01-24",
   "day_type": "weekend",
-  "summary_text": "On 2026-01-24 (weekend), the user purchased one 3-piece pack of unbranded fresh lemons in the afternoon. This afternoon order aligns with a period of lower-than-baseline activity (25.3% share vs. 32.5% morning share). The item is a basic produce product suitable for immediate culinary uses like seasoning, drinks, or salads. This single transaction does not establish a stable preference for lemons, unbranded produce, or afternoon shopping habits.",
+  "summary_text": "On 2026-01-24 (weekend), one order of Fresh Lemon 3 Pieces (Unbranded) was completed in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 0.2526 of activity. The product is a fresh citrus fruit typically used for immediate culinary needs such as seasoning, drinks, or salads. No stable preferences can be established from a single order; it is unknown if the user regularly purchases lemons, prefers this specific pack size, or has a consistent preference for afternoon shopping on weekends.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 3-piece pack of unbranded fresh lemons during the afternoon on a weekend. This timing falls within a lower-activity window relative to the population baseline (25.3% share vs. 32.5% morning share).",
+      "pattern_text": "One order of Fresh Lemon 3 Pieces (Unbranded) was completed in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 0.2526 of activity. The product is a fresh citrus fruit typically used for immediate culinary needs such as seasoning, drinks, or salads. No stable preferences can be established from a single order.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for lemons, unbranded produce, or afternoon shopping habits.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No stable preferences can be established from a single order. It is unknown if the user regularly purchases lemons, prefers this specific pack size, or has a consistent preference for afternoon shopping on weekends.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-24T14:45:43"
+  }
 }

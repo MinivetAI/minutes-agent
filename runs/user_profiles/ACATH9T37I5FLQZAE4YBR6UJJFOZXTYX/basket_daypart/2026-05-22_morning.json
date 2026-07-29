@@ -1,32 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-22 (morning, weekday) contained five items: one Cough product, one Baby Cereal, and three distinct Vegetable products. The basket reflects a mix of health-related, infant nutrition, and fresh produce needs. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-05-22 in the morning on a weekday contains one unit each of a cough remedy, baby cereal, and three distinct vegetable items. The basket reflects a mix of health, infant nutrition, and fresh produce needs.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Baby Cereal",
-        "Vegetables"
-      ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Cough",
-        "Vegetables"
-      ],
-      "combination_text": "Cough and Vegetables were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for household health management (cough relief), infant feeding (baby cereal), and fresh meal preparation (vegetables).",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. It represents an observation, not a durable preference or routine. Stable patterns require evidence from at least two independent dates.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of a cough product, baby cereal, and vegetables suggests a need for household health management and infant feeding supplies, potentially aligned with morning meal preparation or daily care routines.",
+  "uncertainty_text": "This behavior is based on a single observed order on one date. It represents an isolated observation rather than a stable or recurring preference. No claims of routine, preference, or habit can be made.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-22T09:10:49",
+    "last_seen_at": "2026-05-22T09:10:49"
+  }
 }

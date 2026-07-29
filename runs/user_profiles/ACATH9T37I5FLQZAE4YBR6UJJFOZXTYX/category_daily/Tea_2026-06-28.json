@@ -1,9 +1,23 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-28 (weekend), the user purchased one 250 g pouch of Society Leaf Black Tea (loose leaf) during the morning. No browsing events (search, view, cart) were recorded for this category in this window. The order occurred in the morning, a period where this user's activity is 32.46% of their total (population baseline). The product is a standard loose black tea intended for brewing, typically used for daily chai preparation.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-28 (weekend), the user ordered Society Leaf Black Tea Pouch 250 g (1 unit) during the morning. This order occurred on a weekend morning, a time when the user's activity is below the population baseline for this daypart (32.46%). The product is a standard loose black tea intended for brewing, typically used for daily chai preparation or household replenishment. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was a one-time top-up, a replacement for a different brand, or part of a recurring habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Society Leaf Black Tea Pouch 250 g (1 unit) placed on a weekend morning. The order occurred on a weekend morning, a time when the user's activity is below the population baseline for this daypart (32.46%). The product is a standard loose black tea intended for brewing, typically used for daily chai preparation or household replenishment. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was a one-time top-up, a replacement for a different brand, or part of a recurring habit.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date. It is not yet established whether this represents a stable preference for Society brand or loose leaf tea, or if it was a one-time top-up. No browsing intent was captured to indicate comparison or discovery.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was a one-time top-up, a replacement for a different brand, or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

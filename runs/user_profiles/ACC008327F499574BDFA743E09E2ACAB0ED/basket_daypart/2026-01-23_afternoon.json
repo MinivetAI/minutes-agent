@@ -1,22 +1,31 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single afternoon weekday order contained one unit each of a Spices Masala product and a Savouries Namkeens product. The basket breadth is narrow, consisting of two distinct categories. The combination of Savouries Namkeens and Spices Masala is supported by category pair evidence with a support of 0.037, confidence of 0.333, and lift of 9.0. This specific pairing represents a single observation and does not constitute a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on 2026-01-23 in the afternoon on a weekday contains one unit each of a spice masala product and a savoury namkeen product. This combination suggests a need for snack or meal accompaniments, specifically items that pair well together for immediate consumption or cooking. No other categories were purchased in this window.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "SavouriesNamkeens",
-        "SpicesMasala"
+        "Savouries Namkeens",
+        "Spices Masala"
       ],
-      "combination_text": "Savouries Namkeens and Spices Masala were purchased together in this order.",
+      "combination_text": "Savouries Namkeens and Spices Masala were purchased together in a single order.",
       "support": 0.037,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of savouries and spices is compatible with preparing or enhancing a savory snack or meal.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or routine behaviors cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Snack or meal accompaniments",
+  "uncertainty_text": "This is a single observation from one date; durable preferences cannot be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-01-23T11:10:26"
+  }
 }

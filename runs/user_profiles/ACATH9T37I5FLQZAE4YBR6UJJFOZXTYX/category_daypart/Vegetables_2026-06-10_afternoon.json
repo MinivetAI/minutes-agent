@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during the afternoon on a weekday.",
+  "summary_text": "One order of unbranded fresh vegetables, specifically one unit of Baby Potato (280–320 g) and one unit of Onion (400–450 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period with 25.26% population share, slightly below the morning peak (32.46%) and evening share (30.27%). The items are fresh, unbranded vegetables commonly used as base ingredients for immediate cooking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables or this timing.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but represent a distinct shopping window. The products are fresh, unbranded staples typically used for immediate meal preparation, such as roasting potatoes or using onions as a base for cooking.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific items, a routine, or a one-time need. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T15:41:36",
+    "last_seen_at": "2026-06-10T15:41:36"
+  }
 }

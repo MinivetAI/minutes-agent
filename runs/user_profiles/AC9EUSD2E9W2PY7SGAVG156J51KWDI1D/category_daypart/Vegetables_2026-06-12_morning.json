@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Local Cucumber (Unbranded) in the morning on a weekday.",
+  "summary_text": "One order of Local Cucumber (2 units) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh vegetable typically used for immediate consumption in salads or meal prep.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchases are less frequent than the population baseline (32.5% of population orders). The product is a fresh vegetable typically used for immediate consumption in salads or meal prep.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this is a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

@@ -1,37 +1,46 @@
 {
-  "category": "Fruits",
-  "profile_text": "The user demonstrates a stable preference for bananas, evidenced by purchases on two independent dates in July 2026. Orders were placed on weekdays during the morning daypart. The user has purchased both standard unit-based bananas (Banana Robusta, 4 Units) and pre-packaged baby bananas (Baby Banana Robusta, 500 g), indicating flexibility in pack format or an intent to try different options. No brand preference is established as no specific brand dimension was supplied in the evidence. Replenishment timing is unknown.",
-  "brand_preferences": [],
-  "product_preferences": [
+  "category_name": "Fruits",
+  "summary_text": "In July 2026, the user ordered fresh bananas on two independent dates (2026-07-06 and 2026-07-21), both on weekdays and in the morning. The first order was for Banana Robusta (4 units), and the second was for Baby Banana Robusta 500 g. While the specific product variant and pack size changed, the core product category (Banana Robusta) and the ordering context (weekday morning) are consistent across both dates. The morning timing aligns with the population baseline where morning accounts for 32.46% of activity. Due to the repetition across two independent dates, a stable preference for Banana Robusta is established. The specific variant preference is less stable due to the change in pack/size description, but the brand/variety line is supported. The weekday morning pattern is also supported by two dates.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Banana Robusta",
+        "preference_text": "The user has a stable preference for Banana Robusta, evidenced by orders on 2026-07-06 and 2026-07-21.",
+        "confidence": "medium",
+        "boundary_text": "This preference applies to the Banana Robusta variety specifically; it does not extend to other banana varieties or brands not explicitly ordered."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Banana Robusta",
+        "preference_text": "The user has a stable preference for Banana Robusta, evidenced by orders on 2026-07-06 and 2026-07-21.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "preference_text": "Banana Robusta",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "Baby Banana Robusta",
-      "examples": [],
+      "daypart": "morning",
+      "behavior_text": "The user ordered bananas in the morning on two independent dates (2026-07-06 and 2026-07-21).",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has ordered both 'Banana Robusta' (4 units) and 'Baby Banana Robusta 500 g' within the same month. This indicates that different pack formats or specific sub-variants of the Banana Robusta line are acceptable substitutes for each other, though the core variety preference remains stable.",
+  "uncertainty_text": "The user's preference for the exact packaging format (unit count vs. weight-based pack) is not yet established as stable, as it shifted between the two observed dates. It is unknown if the user prefers other fruit categories or if this preference is exclusive to bananas.",
+  "retrieval_text": "The user demonstrates a medium-confidence stable preference for the Banana Robusta variety within the Fruits category, evidenced by orders on two independent dates in July 2026 (2026-07-06 and 2026-07-21). Both orders occurred on weekdays in the morning, aligning with a consistent weekday morning timing pattern. The user has accepted different pack formats for this variety, specifically a 4-unit pack and a 500 g pack, indicating flexibility in packaging preference while maintaining a preference for the specific product type.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-21",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-07-21. Cadence is unknown based on the available evidence.",
-    "confidence": "medium",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Fruits yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed orders on two independent dates.",
-  "substitution_text": "The user has purchased both loose/unit-based bananas and pre-packaged baby bananas, suggesting no strict preference for a single pack format or size.",
-  "price_value_text": "No specific price or value behavior is evident from the supplied evidence.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "It is unclear if the user prefers one specific size or pack format over the other, or if they are trying different options.",
-  "mission_generation_text": "Restocking fresh fruit, specifically bananas, for regular consumption.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

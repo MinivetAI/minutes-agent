@@ -1,26 +1,27 @@
 {
-  "category": "Breads",
-  "profile_text": "Evidence for Breads is limited to two isolated purchases on independent dates (February and July 2026) with no established routine or stable preference. The user bought one 600 g loaf of Britannia Sandwich Bread on a weekday afternoon in February and one 400 g loaf of English Oven Zero Maida 100% High Fiber Atta Bread on a weekend evening in July. These single observations do not support claims of brand loyalty, recurring cadence, or specific dietary preference (e.g., high-fiber vs. standard).",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Breads",
+  "summary_text": "The user has placed two isolated orders for bread in the observed period: a Britannia Sandwich Bread in February 2026 and an English Oven Zero Matta Bread in July 2026. Both are single observations on independent dates, preventing the establishment of stable brand, product, or routine preferences.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established due to the lack of repeated purchasing behavior. The user has tried both sandwich-style and atta (wheat) breads, but it is unclear if these are interchangeable or distinct needs.",
+  "uncertainty_text": "Preference boundaries are unknown. It is unclear if the user has a stable brand preference, a preferred bread type (sandwich vs. atta), or a specific pack size. The two orders are too far apart in time and distinct in product type to infer a routine or consistent need.",
+  "retrieval_text": "Evidence for Breads consists of two isolated, non-repeating orders: Britannia Sandwich Bread 600 g on a weekday afternoon in February 2026, and English Oven Zero Maida 100% High Fiber Atta Bread 400 g on a weekend evening in July 2026. No stable brand, product, or daypart preference is established due to the single-observation nature of each event.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was 2026-07-04.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Breads yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Breads has resulted in completed purchases on two separate occasions, indicating reliable conversion from interest to purchase when the item is selected.",
-  "substitution_text": "No evidence of substitution patterns; two different brands and product types were purchased on separate dates.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior; purchases occurred on different days with different products.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only positive purchase events are recorded.",
-  "mission_generation_text": "Supports immediate household needs for sandwich preparation or toast, with no specific dietary or event-driven mission identified beyond general staple consumption.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-07-04T16:42:45"
+  }
 }

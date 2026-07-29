@@ -1,40 +1,51 @@
 {
-  "category": "Milk",
-  "profile_text": "The user demonstrates a stable, recurring preference for Amul brand milk, specifically the Taaza Pasteurised Toned variant in 500 ml packs. This preference is supported by purchases across multiple months (March, April, May 2026) and a consistent cadence of approximately every 12 days. While the user occasionally purchases other brands (Mother Dairy, Alt Co., HERSHEY'S) or variants (Lactose Free, Cow Milk, flavored shakes), these appear as single-observation deviations or distinct needs rather than stable routines. The user typically buys in the afternoon, though timing has varied in earlier months. The primary need is regular household replenishment of standard dairy staples.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "The user has a stable preference for Amul milk, evidenced by purchases on multiple independent dates spanning March, April, and May 2026.",
-      "confidence": "high",
-      "evidence_count": 8,
-      "independent_date_count": 8
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on multiple independent dates in March, April, and May 2026.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 12.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-07-09",
-    "predicted_next_purchase_date": "2026-07-21",
-    "replenishment_text": "The user typically purchases milk every 12 days, with the next purchase estimated around 2026-07-21.",
-    "confidence": "medium",
-    "evidence_count": 16,
-    "independent_date_count": 16
+  "category_name": "Milk",
+  "summary_text": "The user demonstrates a stable preference for Amul-branded milk, specifically Amul Taaza Pasteurised Toned Milk (500 ml), with evidence spanning multiple months (Feb–Apr 2026). While Amul is the dominant brand, the user also exhibits occasional variety, purchasing Mother Dairy and Alt Co. Oat Milk on single dates. Purchases occur across various dayparts (morning, afternoon, evening) and day types, indicating flexible consumption timing rather than a rigid routine. Small-format packs (250 ml, 500 ml) are the standard purchase unit.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user has a stable preference for Amul-branded milk, observed on multiple independent dates across February, March, and April 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference applies to Amul-branded dairy milk products (e.g., Taaza, Lactose Free) but does not extend to plant-based alternatives or other dairy brands like Mother Dairy."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [
+      {
+        "pack_size": "500 ml",
+        "preference_text": "The 500 ml pack size is the most frequently purchased format for the user's stable milk preferences, appearing in multiple orders across different months.",
+        "confidence": "high"
+      },
+      {
+        "pack_size": "250 ml",
+        "preference_text": "The 250 ml pack size has been observed in single-date orders, suggesting occasional use for immediate consumption or trial.",
+        "confidence": "low"
+      }
+    ],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Orders typically consist of a single unit of the primary milk product, consistent with immediate household consumption needs.",
+        "confidence": "medium"
+      }
+    ]
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by 16 observed transactions across 16 independent dates.",
-  "substitution_text": "The user substitutes between Amul variants (Taaza Toned, Lactose Free, Cow Milk) and occasionally other brands (Mother Dairy, Alt Co.), suggesting flexibility in brand and specific product type while maintaining a core preference for standard toned milk.",
-  "price_value_text": "No explicit price or value behavior is established. The user purchases both standard pasteurized milk and premium/specialty items (Lactose Free, Oat Milk, flavored shakes), indicating no single price-tier constraint.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific avoidance behavior is established. Single-observation purchases of Mother Dairy, Alt Co., and HERSHEY'S do not indicate a pattern of avoidance or strong emerging preference for those specific items.",
-  "mission_generation_text": "Regular household replenishment of staple dairy products, specifically pasteurized toned milk, likely for daily consumption.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "The user accepts substitution between Amul variants (e.g., Taaza vs. Lactose Free) and occasionally tries other brands (Mother Dairy) or plant-based alternatives (Alt Co. Oat Milk), but these do not replace the stable Amul preference. Indulgent milkshakes (HERSHEY'S, Cavin's) appear as separate, non-substitutable treat purchases rather than milk replacements.",
+  "uncertainty_text": "It is unclear if the user's lactose-free purchases indicate a permanent dietary restriction or occasional trial, as regular milk is also frequently bought. The specific motivation for trying Mother Dairy or Alt Co. remains unknown. No stable daypart or day-type routine can be established due to varied ordering times.",
+  "retrieval_text": "Stable preference for Amul brand milk, specifically Amul Taaza Pasteurised Toned Milk in 500 ml packs, observed on multiple independent dates across Feb, Mar, and Apr 2026. Occasional single-date purchases of Mother Dairy, Alt Co. Oat Milk, and Amul Lactose Free indicate variety-seeking or trial behavior. Purchases occur across morning, afternoon, and evening dayparts on both weekdays and weekends, with no single timing pattern dominating. Small-format packs (250 ml, 500 ml) are standard, typically ordered in quantities of one.",
+  "replenishment": {
+    "cadence_days": 12,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-07-21",
+    "replenishment_text": "Milk is reordered roughly every 12 days."
+  },
+  "evidence": {
+    "evidence_count": 13,
+    "independent_date_count": 12,
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

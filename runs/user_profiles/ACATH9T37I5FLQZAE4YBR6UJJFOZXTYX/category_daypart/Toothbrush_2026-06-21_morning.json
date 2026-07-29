@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one Colgate ZigZag Medium Toothbrush in the morning.",
+  "summary_text": "One Colgate ZigZag Medium Toothbrush purchased on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 0.3246 relative to the population baseline. The product is a manual adult toothbrush with medium bristles, a flexible neck, and a tongue cleaner, typically used for daily oral hygiene and deep cleaning between teeth and along the gumline.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, which aligns with the population baseline where morning shares 32.46% of activity. The product is a manual toothbrush, typically used for daily oral hygiene and immediate replacement needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time replacement need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-21T08:35:05",
+    "last_seen_at": "2026-06-21T08:35:05"
+  }
 }

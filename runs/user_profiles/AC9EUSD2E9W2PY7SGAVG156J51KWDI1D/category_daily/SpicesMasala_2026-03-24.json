@@ -1,15 +1,23 @@
 {
   "date": "2026-03-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-24 (weekday), the user purchased 1 unit of EVEREST Chicken Masala 100 g in the morning. This purchase aligns with the category's 32.46% population share during morning hours on weekdays. The product is a spice blend for chicken curries, suggesting a meal preparation context. This is a single observed order; it does not establish a stable preference or routine.",
+  "summary_text": "On 2026-03-24 (weekday), the user purchased one unit of Everest Chicken Masala (100 g) in the morning. This purchase aligns with the population baseline for morning activity (32.46%). The item is a spice blend used for preparing chicken curries. This is a single observation on one date; it is not yet established whether this is a recurring preference or an isolated purchase.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of EVEREST Chicken Masala 100 g. This timing aligns with the category's 32.46% population share on weekdays.",
+      "pattern_text": "One order of Everest Chicken Masala 100 g. Ordered in the morning on a weekday. The purchase aligns with the population baseline for morning activity (32.46%). The item is a spice blend used for preparing chicken curries.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T10:41:18",
+    "last_seen_at": "2026-03-24T10:41:18"
+  }
 }

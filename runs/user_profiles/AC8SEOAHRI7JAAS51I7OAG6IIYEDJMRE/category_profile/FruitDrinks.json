@@ -1,34 +1,27 @@
 {
-  "category": "Fruit Drinks",
-  "profile_text": "In March 2026, the user purchased one 1 L carton of Real Activ 100% Apple Juice on a single weekday (2026-03-12) in the afternoon. This timing aligns with a period when fruit drinks are less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a ready-to-drink fruit juice suitable for immediate consumption or quick pantry replenishment. As this is a single observed order, it does not establish a stable preference or routine.",
-  "brand_preferences": [
-    {
-      "brand": "Real Activ",
-      "preference_text": "Real Activ was observed on one independent date (2026-03-12). This single observation does not establish a stable brand preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Fruit Drinks",
+  "summary_text": "In March 2026, the user purchased Real Activ 100% Apple Juice 1 L on a single weekday afternoon. This timing is less common than the population baseline for Fruit Drinks, which shows a higher share of morning (0.3246) and evening (0.3027) purchases. The product is a ready-to-drink juice, suitable for immediate consumption or quick home replenishment. No stable brand or product preferences can be established from this single observation.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this is a stable preference, a one-time need, or part of a recurring routine. No brand or product loyalty can be established from this single instance.",
+  "retrieval_text": "User purchased Real Activ 100% Apple Juice 1 L on a single weekday afternoon in March 2026. This timing is less common than the population baseline for Fruit Drinks, which shows a higher share of morning (0.3246) and evening (0.3027) purchases. The product is a ready-to-drink juice, suitable for immediate consumption or quick home replenishment. No stable brand or product preferences can be established from this single observation.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-12",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict a next purchase date; the last purchase was on 2026-03-12.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for FruitDrinks yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this specific instance.",
-  "substitution_text": "No substitution behavior observed; only one product variant was purchased.",
-  "price_value_text": "No price or value behavior observed beyond the single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Immediate consumption or quick pantry replenishment of ready-to-drink fruit juice.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-12T14:42:56",
+    "last_seen_at": "2026-03-12T14:42:56"
+  }
 }

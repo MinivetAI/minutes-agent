@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1 kg pack of Fortune white sugar.",
+  "summary_text": "One order of Fortune Sugar 1 kg (1 unit) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a standard pantry staple for household sweetening.",
-  "uncertainty_text": "Single observation does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The product is a standard white sugar staple, typically used for daily cooking, tea/coffee preparation, or pantry replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need. No other orders are available to confirm repetition of this brand, product, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

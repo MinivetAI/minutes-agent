@@ -1,15 +1,23 @@
 {
   "date": "2026-02-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-27 (weekday), a single order of FORTUNE Rajma Chithra Whole 500 g was placed in the evening. This product is a staple dry pulse used for home cooking, suggesting a need for dinner preparation or stock replenishment. This is a single observation on one date; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
+  "summary_text": "On 2026-02-27 (weekday), the user ordered FORTUNE Rajma Chithra Whole 500 g in the evening. This single order aligns with the population baseline evening share of 0.3027 and suggests a need for meal preparation ingredients. As this is a single observation on one date, it does not yet establish a stable preference for this brand or product type.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "One order of FORTUNE Rajma Chithra Whole 500 g placed in the evening. The order occurred in the evening, a period with high population activity (30.27% share). The product is a staple dry pulse used for home cooking, suggesting a need for dinner preparation or stock replenishment.",
+      "pattern_text": "One order of FORTUNE Rajma Chithra Whole 500 g placed in the evening on a weekday. This timing aligns with the population baseline share of 0.3027 for this daypart. The product is a staple pulse used for home cooking, suggesting a need for meal preparation ingredients.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-02-27T20:43:10"
+  }
 }

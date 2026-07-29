@@ -1,73 +1,34 @@
 {
   "date": "2026-06-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-04 (weekday), a single order was placed during the morning daypart. The basket contained one unit each of Curd Yogurt, Hair Oil, Spices Masala, and Flour, spanning four distinct categories: Dairy, Personal Care, Cooking Ingredients, and Grains. This combination is compatible with a need to restock basic kitchen staples and personal hygiene items. Because this analysis is based on a single order from one independent date, overall confidence is low. No durable behavior patterns, stable preferences, or recurring habits can be inferred.",
+  "summary_text": "On 2026-06-04 (weekday), a single order was placed in the morning. The basket contained four distinct items: Curd Yogurt, Hair Oil, Spices Masala, and Flour. This represents a single observation of product use; no durable preference or routine can be inferred from this isolated transaction. The combination of these specific categories is not supported by the provided category pair evidence, which focuses on different category intersections (e.g., Milk/Vegetables, Breads/Milk).",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Curd Yogurt",
+        "Hair Oil",
+        "Spices Masala",
         "Flour"
       ],
-      "combination_text": "Curd Yogurt and Flour were purchased together in this order.",
+      "combination_text": "Curd Yogurt, Hair Oil, Spices Masala, and Flour were ordered together in a single instance.",
       "support": null,
       "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Hair Oil"
-      ],
-      "combination_text": "Curd Yogurt and Hair Oil were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Spices Masala"
-      ],
-      "combination_text": "Curd Yogurt and Spices Masala were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Flour",
-        "Hair Oil"
-      ],
-      "combination_text": "Flour and Hair Oil were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Flour",
-        "Spices Masala"
-      ],
-      "combination_text": "Flour and Spices Masala were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Hair Oil",
-        "Spices Masala"
-      ],
-      "combination_text": "Hair Oil and Spices Masala were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket contains items for food preparation (Curd Yogurt, Spices Masala, Flour) and personal care (Hair Oil). This combination is compatible with a need to restock basic kitchen staples and personal hygiene items.",
-  "uncertainty_text": "This analysis is based on a single order from one independent date. Therefore, overall confidence is low. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The provided category_pair_evidence reflects population-level co-ordering statistics and does not match the specific categories in this single order (e.g., Milk, Vegetables, Breads were not purchased), so no lift/support values from that evidence are applied to this basket's internal combinations.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Flour and Spices Masala may be compatible with meal preparation needs. Curd Yogurt may be compatible with breakfast or dietary needs. Hair Oil suggests personal care needs. These are compatible interpretations of the products ordered; the specific intent is not confirmed by the order history alone.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No repeated behavior patterns, stable preferences, or routine purchasing habits can be established. Confidence in any inferred user behavior is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T08:59:57",
+    "last_seen_at": "2026-06-04T08:59:57"
+  }
 }

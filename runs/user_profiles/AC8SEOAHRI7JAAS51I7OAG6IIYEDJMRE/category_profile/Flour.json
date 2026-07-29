@@ -1,26 +1,33 @@
 {
-  "category": "Flour",
-  "profile_text": "The user has purchased flour three times across independent dates (March, April, and July 2026), establishing a slow replenishment cadence of approximately 53.5 days. Purchases consistently occurred on weekdays in the afternoon. No brand preference is established due to the absence of brand data in the summaries. No discovery signals (search/view/cart) were recorded.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Flour",
+  "summary_text": "Evidence for Flour consists of three separate orders (March, April, and July 2026), each involving 1 unit placed on a weekday afternoon. While the timing aligns with the population baseline for afternoons, the lack of brand repetition or multi-unit purchases prevents the establishment of a stable brand preference or routine. Each order is treated as an isolated observation.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit orders observed across multiple months.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. It is unknown if the user accepts alternative flour types (e.g., whole wheat vs. all-purpose) or brands.",
+  "uncertainty_text": "Confidence is low because each order occurred on a different date without brand repetition. It is unclear if the user has a specific brand loyalty, preferred pack size, or if these are one-time needs. The weekday afternoon timing is consistent but not yet established as a personal routine distinct from general population behavior.",
+  "retrieval_text": "User has ordered 1 unit of flour on three separate occasions in March, April, and July 2026, all on weekday afternoons. No specific brand was repeated across these orders, preventing the identification of a brand preference. The consistent single-unit quantity suggests a small-batch or occasional baking need, but the lack of brand repetition means no durable brand loyalty can be inferred. Timing aligns with general population afternoon activity.",
   "replenishment": {
     "cadence_days": 53.5,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-09",
     "predicted_next_purchase_date": "2026-08-31",
-    "replenishment_text": "The user buys flour roughly every 53.5 days, with the next purchase estimated around August 31, 2026.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Flour is reordered roughly every 54 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as all observed search/view/cart activity is absent and all recorded interest resulted in completed orders.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports routine baking or cooking needs requiring flour as a staple ingredient.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-03-24T12:26:50",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

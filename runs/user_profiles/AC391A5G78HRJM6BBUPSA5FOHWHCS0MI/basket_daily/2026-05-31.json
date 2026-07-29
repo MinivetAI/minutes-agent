@@ -1,7 +1,7 @@
 {
   "date": "2026-05-31",
   "day_type": "weekend",
-  "summary_text": "On this weekend, a single order was placed in the morning. The basket was narrow, containing one unit of Fruits and one unit of Milk. This represents a single observation of purchasing fresh produce and dairy products together.",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket contained one unit each of a fruit product and a milk product, forming a basic combination of fresh produce and dairy compatible with a simple breakfast or light snacking need. No other categories were purchased in this transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Fruits",
         "Milk"
       ],
-      "combination_text": "Fruits and Milk were purchased together in this single order.",
+      "combination_text": "Fruits and Milk were purchased together in a single order.",
       "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for fresh produce and dairy products.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Therefore, `overall_confidence` is low. No durable behavior patterns can be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of fruit and milk is compatible with a need for fresh ingredients for breakfast or light snacking.",
+  "uncertainty_text": "This description is based on a single observed order on one date. It does not indicate a stable preference or routine, as no repetition across independent dates is present.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-31"
+    ],
+    "first_seen_at": "2026-05-31T08:52:35",
+    "last_seen_at": "2026-05-31T08:52:35"
+  }
 }

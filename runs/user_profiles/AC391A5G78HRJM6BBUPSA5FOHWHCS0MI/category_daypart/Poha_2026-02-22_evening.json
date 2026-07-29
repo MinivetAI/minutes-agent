@@ -3,8 +3,15 @@
   "day_type": "weekend",
   "summary_text": "One order of Fortune Indori Thick Poha (500 g) placed on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred on a weekend evening, a time when population share (0.3027) is comparable to morning (0.3246) but higher than night (0.1202). The product is a quick-cooking staple typically used for fast breakfast or snack preparation.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for purchasing on a weekend evening rather than a typical morning breakfast window is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend evening, a time when evening consumption share (0.3027) is comparable to morning share (0.3246) in the population baseline. The product is a quick-cooking staple typically used for breakfast or light meals, suggesting a utility need for a fast, low-effort meal option during this time window.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or daypart. It is unclear if this represents a routine habit, a one-time convenience purchase, or a specific meal occasion.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-22"
+    ],
+    "first_seen_at": "2026-02-22T18:05:44",
+    "last_seen_at": "2026-02-22T18:05:44"
+  }
 }

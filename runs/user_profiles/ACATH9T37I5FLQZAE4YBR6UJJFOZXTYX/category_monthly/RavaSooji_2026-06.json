@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user placed one order for Fortune Suji 500 g on a weekday morning. This single observation does not establish a stable preference or routine for this brand or category.",
+  "summary_text": "On 2026-06-03 (weekday), the user ordered Fortune Suji 500 g in the morning. This single observation aligns with the population baseline indicating morning is a common time for Rava Sooji (32.46%). The product is a small-pack staple suitable for immediate cooking needs. No stable brand or product preference can be established from this single date.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an immediate need. A single order does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; no stable brand or product preference can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2026-06-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-01 (weekday), the user purchased 3 units of Chitale Cow Milk 500 ml (full cream cow milk) during the morning daypart. This small-pack fresh milk SKU is suitable for same-day use, tea, coffee, or cooking. The purchase occurred in the morning, a time with a 32.46% population share, often associated with breakfast or immediate household needs. This is a single observed order on one date; durable brand preference or routine cannot be established. The specific reason for choosing this brand or pack size is unknown.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased 3 units of Chitale Cow Milk 500 ml (full cream cow milk) in the morning on a weekday. The purchase occurred in the morning (32.46% population share), a time often associated with breakfast or immediate household needs. The product is a small-pack fresh milk SKU suitable for same-day use, tea, coffee, or cooking.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-06-01 (weekday), the user ordered Chitale Cow Milk 500 ml (quantity 3) in the morning. This single observation aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a small-pack fresh milk SKU, typically used for immediate household needs such as tea, coffee, or breakfast preparation. This is a single observation on one date. It is not yet established whether the user prefers this specific brand, pack size, or morning timing over other options. No stable routine or recurring pattern can be confirmed from this isolated order.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established. The specific reason for choosing this brand or pack size is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, pack size, or morning timing over other options. No stable routine or recurring pattern can be confirmed from this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-01"
+    ],
+    "first_seen_at": "2026-06-01T09:14:21",
+    "last_seen_at": "2026-06-01T09:14:21"
+  }
 }

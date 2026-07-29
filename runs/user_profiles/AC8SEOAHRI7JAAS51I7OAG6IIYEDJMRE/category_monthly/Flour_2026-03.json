@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, one unit of flour was purchased on a single weekday (2026-03-24) in the afternoon. This purchase occurred during a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). No browsing or search activity was recorded. As this is the only observed order for the month, no stable preferences or recurring patterns can be established.",
+  "summary_text": "In March 2026, one order of flour (1 unit) was placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. No brand preference or recurring pattern can be inferred from this single order.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No browsing or search activity was recorded to indicate discovery or comparison. A single order does not establish a stable preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No brand preference or recurring pattern can be inferred from a single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T12:26:50",
+    "last_seen_at": "2026-03-24T12:26:50"
+  }
 }

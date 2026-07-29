@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-25 (morning, weekday) containing six items across five categories: Aerated Drinks, Vegetables, Milk, Baby Cereal, and Breads. The basket includes 2 units of Milk and single units of all other products. No carts were abandoned. The combination of Milk and Vegetables appears in the supplied evidence with a support of 0.525, confidence of 0.97, and lift of 1.038. The combination of Baby Cereal and Vegetables appears with a support of 0.246, confidence of 0.938, and lift of 1.003. This single order is compatible with a need for basic household staples and infant nutrition, but represents a one-time observation.",
+  "basket_summary_text": "A single order placed on 2026-06-25 in the morning on a weekday. The basket contains six items across five categories: Vegetables (2 units), Milk (2 units), Aerated Drinks (1 unit), Baby Cereal (1 unit), and Breads (1 unit). The combination of Milk and Vegetables is supported by category pair evidence with a support of 0.525, confidence of 0.97, and lift of 1.038. This specific order represents one observation; no durable behavior patterns can be established from a single date.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,21 +12,20 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Baby Cereal",
-        "Vegetables"
-      ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for daily food staples including dairy, produce, and infant nutrition.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of vegetables, milk, baby cereal, and breads is compatible with a need for daily household food supplies, potentially including infant feeding.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Confidence is low because stable preferences require repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-25"
+    ],
+    "first_seen_at": "2026-06-25T08:44:56",
+    "last_seen_at": "2026-06-25T08:44:56"
+  }
 }

@@ -1,9 +1,18 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased two distinct chocolate items on separate dates: a Nestlé MUNCH Max wafer bar on a weekday morning and a Cadbury Celebrations gift pack on a weekend morning. No brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preferences or routine patterns are established for this category in this month.",
+  "summary_text": "In May 2026, the user purchased two distinct chocolate items on separate dates: Nestlé MUNCH Max bars on a weekday morning and a Cadbury Celebrations gift pack on a weekend morning. Because each brand and product appeared on only one independent date, no stable brand or product preferences are established. The morning daypart was observed on both dates; however, as these are single-date observations for the specific items, no stable daypart pattern is claimed. The weekday purchase aligns with immediate snacking, while the weekend purchase suggests a gifting or treat occasion.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each observed purchase occurred on a single, independent date. Without repetition across multiple dates, it is not possible to distinguish between a durable preference, a one-time impulse, or a specific occasion-driven need. The user's behavior in this category during May 2026 is characterized by isolated transactions rather than a consistent pattern.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Evidence is limited to two single-date observations. No brand, product, or timing preference is stable enough to claim confidence beyond low, as no value recurs across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-07",
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

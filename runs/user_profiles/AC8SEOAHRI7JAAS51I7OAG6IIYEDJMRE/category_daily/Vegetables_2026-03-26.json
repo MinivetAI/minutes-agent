@@ -1,15 +1,23 @@
 {
   "date": "2026-03-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-26 (weekday), the user placed one order of Cauliflower 400-600g (1 unit) in the morning. This timing aligns with above-baseline activity (32.5%). The product is a fresh vegetable suitable for immediate home cooking, such as a side dish, soup, or roasting. This is a single observed order and does not establish a stable preference or routine for cauliflower or vegetables in general.",
+  "summary_text": "On 2026-03-26 (weekday), the user ordered Unbranded Cauliflower (400-600g, 1 unit) in the morning. This timing aligns with the population baseline share of 0.3246 for weekday mornings. The product is a fresh vegetable typically used for immediate meal preparation, such as cooking or salads. This is a single observation on one date; it does not establish a stable preference for cauliflower, this specific brand, or this daypart. It is unclear if this was a routine purchase or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One order of Cauliflower 400-600g (1 unit) placed in the morning on a weekday. This timing aligns with above-baseline activity (32.5%).",
+      "pattern_text": "One order of Unbranded Cauliflower 400-600g (1 unit) placed on a weekday morning. The order occurred in the morning, a time that aligns with the population baseline share of 0.3246 for this daypart. The product is a fresh vegetable typically used for immediate meal preparation, such as cooking or salads.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for cauliflower or vegetables in general.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for cauliflower, this specific brand, or this daypart. It is unclear if this was a routine purchase or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-26"
+    ],
+    "first_seen_at": "2026-03-26T10:18:30",
+    "last_seen_at": "2026-03-26T10:18:30"
+  }
 }

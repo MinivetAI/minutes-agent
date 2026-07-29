@@ -1,15 +1,23 @@
 {
   "date": "2026-02-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-28 (weekend), the user purchased 2 units of Dhara Kachi Ghani Mustard Oil Pouch 1 L during the evening. This order occurred in a high-activity period (30.27% population share). The product is a 1-litre pouch of mustard oil, a staple for everyday Indian cooking tasks such as tadka, frying, and sautéing. This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
+  "summary_text": "On 2026-02-28 (weekend), the user ordered Dhara Kachi Ghani Mustard Oil Pouch 1 L (quantity: 2) in the evening. This single observation aligns with the population baseline evening share of 0.3027 and suggests a need for cooking oil for meal preparation. No stable brand or product preference can be established from this one date.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased 2 units of Dhara Kachi Ghani Mustard Oil Pouch 1 L during the evening on a weekend.",
+      "pattern_text": "One order of Dhara Kachi Ghani Mustard Oil Pouch 1 L (quantity: 2) placed on 2026-02-28 in the evening. This aligns with the population baseline evening share of 0.3027. The specific reason for this purchase is unknown.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. The specific reason for this purchase (e.g., running out of oil, trying a new brand) is unknown.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T20:39:33",
+    "last_seen_at": "2026-02-28T20:39:33"
+  }
 }

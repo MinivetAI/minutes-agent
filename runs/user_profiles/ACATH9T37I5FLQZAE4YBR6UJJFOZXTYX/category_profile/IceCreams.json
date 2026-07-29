@@ -1,40 +1,57 @@
 {
-  "category": "Ice Creams",
-  "profile_text": "The user demonstrates a stable, medium-confidence preference for Amul Butterscotch Tricone 120 ml ice cream cones, evidenced by purchases on two independent dates in April 2026. This specific product serves as a single-serve frozen dessert for immediate indulgence. Purchases occurred on weekdays, once in the evening and once in the afternoon, indicating flexible timing within the daypart spectrum rather than a rigid daily routine. No other ice cream brands, flavors, or formats were purchased in this period to establish broader category preferences. Replenishment cadence is unknown based on the limited evidence.",
-  "brand_preferences": [
+  "category_name": "Ice Creams",
+  "summary_text": "In April 2026, the user demonstrated a stable preference for Amul Butterscotch Tricone Ice Cream (120 ml), ordering it on two independent dates (2026-04-07 and 2026-04-24). Purchases occurred on weekdays during both evening and afternoon dayparts. No other ice cream products were observed in this month.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "Amul is the primary brand observed, with orders on two independent dates in April 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Amul brand within the Ice Creams category and does not extend to other ice cream brands or non-ice cream dairy products."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Butterscotch Tricone",
+        "preference_text": "The Butterscotch Tricone variant was ordered on two independent dates in April 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "120 ml",
+        "preference_text": "The 120 ml pack size was the specific size ordered on two independent dates in April 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Amul",
-      "preference_text": "Stable preference for Amul, evidenced by purchases on two independent dates in April 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
+      "daypart": "evening",
+      "behavior_text": "Orders placed in the evening on weekdays.",
+      "confidence": "medium"
+    },
     {
-      "preference_text": "Stable preference for Amul Butterscotch Tricone 120 ml, evidenced by purchases on two independent dates in April 2026.",
-      "examples": [],
+      "daypart": "afternoon",
+      "behavior_text": "Orders placed in the afternoon on weekdays.",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No alternative ice cream brands or variants were observed in the supplied evidence, so substitution preferences cannot be established. The user's behavior is currently limited to a single brand-product combination.",
+  "uncertainty_text": "The preference is based on only two independent dates in April 2026. It is unknown if this pattern extends to other months, other dayparts (e.g., weekends), or other ice cream types (e.g., tubs, pints, or different flavors). The small sample size limits inference about long-term routine or broader category habits.",
+  "retrieval_text": "User shows a medium-confidence stable preference for Amul brand ice cream, specifically the Butterscotch Tricone variant in 120 ml packs, observed on two independent dates in April 2026 (2026-04-07 and 2026-04-24). Purchases were made on weekdays during both evening and afternoon dayparts. No other ice cream products or brands were observed in this period, limiting the ability to assess broader category habits or substitution preferences.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-24",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-04-24. Cadence is unknown due to insufficient data to establish a regular interval.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for IceCreams yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions for the preferred product.",
-  "substitution_text": "No evidence of substitution behavior; the user consistently purchased the same specific product variant.",
-  "price_value_text": "No explicit price or value behavior evidence provided.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has a clear, repeated purchase of a single item.",
-  "mission_generation_text": "Shopping needs supported by this category profile include acquiring single-serve frozen desserts for immediate personal indulgence, specifically favoring the Amul Butterscotch Tricone format.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

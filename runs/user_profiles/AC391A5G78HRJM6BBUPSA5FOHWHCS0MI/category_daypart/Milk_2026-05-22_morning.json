@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Parag Toned Milk 500 ml was placed during the morning on a weekday.",
+  "summary_text": "One order of Parag Toned Milk 500 ml.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 0.3246 relative to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a packaged dairy milk SKU, typically used for immediate household consumption, tea/coffee preparation, or short-term replenishment.",
-  "uncertainty_text": "This is a single observed order; it does not establish a durable preference, routine, or stable pattern. It is unclear if this represents a one-time need or part of a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a packaged dairy item suitable for immediate household consumption or daily use.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for the Parag brand, the specific 500 ml size, or morning purchasing habits. No other products or brands were observed in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-22T07:33:20",
+    "last_seen_at": "2026-05-22T07:33:20"
+  }
 }

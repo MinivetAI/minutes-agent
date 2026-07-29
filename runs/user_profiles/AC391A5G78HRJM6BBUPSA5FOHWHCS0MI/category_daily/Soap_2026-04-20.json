@@ -1,15 +1,23 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20 (weekday), the user purchased one pack of Cinthol Cool Bath Soap (4 x 150 g) during the evening. This timing aligns with a period of slightly lower activity compared to the population baseline (30.3% share). The product is a standard daily bathing soap, suggesting a routine replenishment or immediate need for personal hygiene. This is a single observed order; it is not yet established as a stable preference or routine. The specific reason for choosing this brand or timing is unknown.",
+  "summary_text": "One order of Cinthol Cool Bath Soap (4 x 150 g packs) placed in the evening on a weekday. The order aligns with the population baseline share of 0.3027 for evening weekday shopping. The product is a standard bathing soap pack, typically used for daily hygiene and refreshing cleansing. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one pack of Cinthol Cool Bath Soap (4 x 150 g) during the evening on a weekday. This timing aligns with a period of slightly lower activity compared to the population baseline (30.3% share).",
+      "pattern_text": "One order of Cinthol Cool Bath Soap (4 x 150 g packs) placed in the evening on a weekday. The order aligns with the population baseline share of 0.3027 for evening weekday shopping. The product is a standard bathing soap pack, typically used for daily hygiene and refreshing cleansing. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established as a stable preference or routine. The specific reason for choosing this brand or timing is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

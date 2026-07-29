@@ -1,15 +1,23 @@
 {
   "date": "2026-03-25",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-25 (weekday), the user purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) during the morning daypart. This timing aligns with population norms for morning daypart activity (32.5% share) and is compatible with breakfast or tea/coffee preparation needs. This is a single observed order; it does not establish a stable brand preference or recurring habit.",
+  "summary_text": "On 2026-03-25 (weekday), the user ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, during the morning daypart. This timing aligns with the population baseline for milk purchases (32.46% of orders). The small-format liquid milk is typically used for immediate consumption, such as in tea, coffee, or breakfast. This is a single observation on one date; it is not yet established whether this is a recurring habit or a one-time purchase. No stable brand or product preference can be confirmed from this single data point.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml).",
+      "pattern_text": "Ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2. This timing aligns with the population baseline for milk purchases (32.46% of orders). The small-format liquid milk is typically used for immediate consumption, such as in tea, coffee, or breakfast. This is a single observation on one date; it is not yet established whether this is a recurring habit or a one-time purchase. No stable brand or product preference can be confirmed from this single data point.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single order observed; cannot establish stable brand preference or recurring habit from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time purchase. No stable brand or product preference can be confirmed from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T08:48:01",
+    "last_seen_at": "2026-03-25T08:48:01"
+  }
 }

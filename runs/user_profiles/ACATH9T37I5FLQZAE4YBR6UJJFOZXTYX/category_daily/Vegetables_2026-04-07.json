@@ -1,15 +1,23 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-07 (weekday), the user purchased a single order of fresh vegetables and herbs in the evening. The basket included Coriander Leaves, Fresh New Crop Potato, Brinjal Nagpur, Dill Leaf, Beetroot, Carrot, Bottle Gourd, and Baby Potato. This evening activity aligns with the population baseline share (0.3027). The selection of unbranded fresh produce suggests immediate meal preparation or same-day cooking needs rather than long-term pantry stocking. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established. The specific culinary intent is unknown.",
+  "summary_text": "On this weekday, the user ordered fresh, perishable vegetables in the evening, including Coriander Leaves, Fresh New Crop Potato, Brinjal Nagpur, Dill Leaf, Beetroot, Carrot, Bottle Gourd, and Baby Potato. The evening timing aligns with the population baseline where evening (0.3027) is the second most common daypart, slightly less frequent than morning (0.3246). The basket consists entirely of fresh produce with no long-shelf-life items, suggesting immediate culinary use rather than bulk pantry stocking. This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the evening timing. No brand preferences can be inferred as all products are unbranded.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased fresh vegetables and herbs (Coriander Leaves, Fresh New Crop Potato, Brinjal Nagpur, Dill Leaf, Beetroot, Carrot, Bottle Gourd, Baby Potato) in the evening.",
+      "pattern_text": "One order of fresh vegetables placed on a weekday evening, including Coriander Leaves, Fresh New Crop Potato, Brinjal Nagpur, Dill Leaf, Beetroot, Carrot, Bottle Gourd, and Baby Potato. The evening timing aligns with the population baseline where evening (0.3027) is the second most common daypart, slightly less frequent than morning (0.3246). The basket consists entirely of fresh, perishable produce (herbs, root vegetables, gourds) with no long-shelf-life items, suggesting immediate culinary use rather than bulk pantry stocking.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the evening timing. No brand preferences can be inferred as all products are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

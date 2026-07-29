@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 300 g loaf of Baker's Loaf Whole Wheat Bread.",
+  "summary_text": "One order of Baker's Loaf Whole Wheat Bread (300 g) on 2026-03-31.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a ready-to-use sliced bread suitable for everyday consumption, toast, or sandwich making.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping, though it aligns with the afternoon baseline share (0.2526). The product is a ready-to-use sliced bread suitable for immediate meal assembly or snacks.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or timing, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-31T11:33:41",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 300 g pack of Nestle Cerelac Ragi Apple Baby Food Cereal and one 300 g pack of Nestle Cerelac Rice Vegetables Baby Food Cereal.",
+  "summary_text": "One order of Baby Cereal products on 2026-03-21, consisting of 1 unit each of Nestle Cerelac Ragi Apple Baby Food Cereal (300 g) and Nestle Cerelac Rice Vegetables Baby Food Cereal (300 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed on a weekend afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The products are infant complementary cereals intended for babies 6–24 months, suggesting a need for immediate, age-appropriate feeding options or restocking of baby food supplies.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these two variants over others is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), suggesting a non-peak shopping window. The products are infant complementary cereals intended for babies aged 6–24 months, typically used for quick, age-appropriate feeding when stock runs out or during immediate meal preparation needs.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preference can be established. It is unknown whether this represents a routine purchase, a one-time need, or part of a broader feeding strategy involving other brands or product types.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

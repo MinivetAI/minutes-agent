@@ -1,48 +1,27 @@
 {
-  "category": "Chips",
-  "profile_text": "The user purchases chips primarily for immediate consumption and casual snacking, with a strong tendency toward evening purchases. While cadence data suggests a recurring pattern, the specific brands and products vary across independent dates, preventing the establishment of a single stable brand or product preference.",
-  "brand_preferences": [
-    {
-      "brand": "CRAX",
-      "preference_text": "Observed in one independent date (March 2026).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Too Yumm!",
-      "preference_text": "Observed in two independent dates (April and May 2026).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "DORITOS",
-      "preference_text": "Observed in one independent date (June 2026).",
-      "confidence": "low",
-      "evidence_count": 2,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 18.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-06-17",
-    "predicted_next_purchase_date": "2026-07-05",
-    "replenishment_text": "The user typically purchases chips every 18 days, with the next purchase estimated around July 5, 2026.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Chips",
+  "summary_text": "The user has purchased chips across four consecutive months (March–June 2026), but each instance represents a single, isolated observation on a distinct date. Brands observed include CRAX, Too Yumm!, and DORITOS, with no single brand or product type appearing more than once. Timing is consistently evening or afternoon, aligning with population baselines for chip consumption, but the lack of repetition prevents establishing a stable routine or brand preference.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed transactions across multiple months.",
-  "substitution_text": "The user has purchased different brands (CRAX, Too Yumm!, DORITOS) and product types (Aloo Mota, Veggie Stix, Nachos) on different dates, indicating flexibility or lack of a single locked-in brand loyalty.",
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident from the product mix, which includes both standard and premium veggie-stick options.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Supports immediate snacking needs, particularly during evening hours, and casual consumption occasions.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "Evidence is insufficient to determine acceptable substitutions or boundaries. The user has tried multiple brands (CRAX, Too Yumm!, DORITOS) and product forms (chips, nachos) without repetition, making it unclear if they are exploring options or if specific brands are preferred over others.",
+  "uncertainty_text": "It is unknown whether the user has a stable brand or product preference, as each order was a one-time event on a different date. It is unclear if the evening/afternoon timing reflects a habitual snacking routine or was coincidental to these specific purchases. No repeat evidence exists to distinguish between impulse buying and genuine preference.",
+  "retrieval_text": "User purchased chips in four separate months (March, April, May, June 2026) with no repeated brand or product. Observations include CRAX Aloo Mota Chips (March), Too Yumm! Veggie Stix (April and May), and DORITOS Cheese and Sweet Chilli Nachos (June). All orders were single-observation events on distinct dates, preventing the establishment of a stable brand preference or routine. Timing was generally evening or afternoon.",
+  "replenishment": {
+    "cadence_days": 18,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-07-05",
+    "replenishment_text": "Chips is reordered roughly every 18 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-06-17T17:01:04"
+  }
 }

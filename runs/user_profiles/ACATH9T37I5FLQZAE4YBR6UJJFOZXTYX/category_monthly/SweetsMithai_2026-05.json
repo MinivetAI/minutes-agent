@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user placed one order in the Sweets Mithai category: Daadi's Jaggery Coconut Burfi (200 g). This purchase occurred on a weekday in the afternoon, a daypart where population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a ready-to-eat boxed Indian sweet suitable for immediate consumption or gifting. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "summary_text": "In May 2026, the user ordered Daadi's Jaggery Coconut Burfi (200 g) once on a weekday afternoon. This single observation does not establish a stable preference for this brand or product. The order timing aligns with the population baseline, where afternoon represents 25.26% of activity, slightly below the morning share (32.46%) but comparable to the evening share (30.27%).",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Single observation does not establish durable brand or flavor preferences.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-06"
+    ],
+    "first_seen_at": "2026-05-06T14:35:19",
+    "last_seen_at": "2026-05-06T14:35:19"
+  }
 }

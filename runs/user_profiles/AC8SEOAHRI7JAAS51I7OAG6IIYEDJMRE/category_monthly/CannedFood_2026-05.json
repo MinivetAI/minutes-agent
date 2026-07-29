@@ -1,19 +1,19 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Del Monte Baked Beans (450 g) on two independent dates (2026-05-01 and 2026-05-30). This repetition establishes a stable preference for this specific brand and product variant. Both purchases occurred in the afternoon, a daypart where the user's activity is below the population baseline (25.26% share). The product is a shelf-stable, ready-to-eat pantry item suitable for quick meal components or backup food supplies.",
+  "summary_text": "In May 2026, the user purchased Del Monte Baked Beans 450 g on two independent dates (2026-05-01 and 2026-05-30). This repetition establishes a stable preference for this specific brand and variant within the Canned Food category. The purchases occurred in the afternoon on both a weekday and a weekend, aligning with the population baseline where afternoon accounts for 25.26% of activity. The product is a shelf-stable canned item, typically used as a convenient, ready-to-heat meal component or pantry staple. No other brands or variants in this category appeared on multiple dates.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Del Monte",
-      "claim_text": "The user has a stable preference for Del Monte canned food, evidenced by purchases on 2 independent dates.",
+      "claim_text": "The user has a stable preference for Del Monte in Canned Food, evidenced by purchases on 2 independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Del Monte Baked Beans (450 g)",
-      "claim_text": "The user has a stable preference for Del Monte Baked Beans (450 g), evidenced by purchases on 2 independent dates.",
+      "value": "Del Monte Baked Beans 450 g",
+      "claim_text": "The user has a stable preference for Del Monte Baked Beans 450 g, evidenced by purchases on 2 independent dates.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No other brands or products were observed in this category during this month. The preference is limited to the observed dates.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the brand and product preference is established as medium confidence due to repetition, the specific use case (e.g., breakfast side vs. dinner component) remains unclear as no explicit routine or contextual details were provided beyond the product type.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-01",
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-01T11:33:46",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

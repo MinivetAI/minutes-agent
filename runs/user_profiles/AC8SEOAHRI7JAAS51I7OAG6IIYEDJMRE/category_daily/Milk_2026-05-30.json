@@ -1,9 +1,23 @@
 {
   "date": "2026-05-30",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-30 (weekend), one order of Mother Dairy Toned Milk 500 ml was placed in the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (25.26% share vs. 32.46% for morning). The product is a small-pack, short-shelf-life dairy staple suitable for immediate consumption. This is a single observed order; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., tea, cooking, or household stock) cannot be determined from the transaction alone.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Mother Dairy Toned Milk (500 ml) during the afternoon. This timing is less common than the population baseline for morning or evening but fits a standard window for immediate household replenishment. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Mother Dairy Toned Milk 500 ml placed on a weekend afternoon.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., tea, cooking, or household stock) cannot be determined from the transaction alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-30T13:06:02",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

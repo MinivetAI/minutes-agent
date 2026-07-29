@@ -1,18 +1,51 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Aerated Drinks on five independent dates. Coca-Cola Diet Coke Can 300 ml was the dominant product, appearing on four separate dates (May 1, 3, 9, and 30), establishing a stable preference. Appy Fizz 250 ml PET Bottle appeared on a single date (May 28) and is excluded from stable claims. The user consistently purchased Diet Coke in the afternoon, a pattern supported across all four Diet Coke orders. While the afternoon daypart share is below the population morning baseline, the user's own activity shows a strong concentration in this window for this specific product.",
+  "summary_text": "In May 2026, the user purchased Aerated Drinks on five independent dates. The primary pattern involves repeated purchases of Coca-Cola Diet Coke 300 ml cans, appearing on four separate dates (May 1, 3, 9, and 30). This recurrence establishes a stable preference for this specific brand and variant. The timing of these purchases is consistently in the afternoon, aligning with the population baseline for this category. A single, isolated order of Appy Fizz 250 ml PET Bottle was observed on May 28 in the evening; this does not constitute a stable preference. The user’s activity in this category is driven by the recurring Diet Coke orders, with no other durable brand or product preferences identified.",
   "stable_preference_claims": [
     {
-      "dimension": "product",
-      "value": "Coca-Cola Diet Coke Can 300 ml",
-      "claim_text": "The user has a stable preference for Coca-Cola Diet Coke Can 300 ml, observed on four independent dates in May 2026.",
+      "dimension": "brand",
+      "value": "Coca-Cola",
+      "claim_text": "The user repeatedly purchased Coca-Cola branded products across four independent dates in May 2026, indicating a stable preference for this brand within the Aerated Drinks category.",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Coca-Cola Diet Coke 300 ml",
+      "claim_text": "The user purchased Coca-Cola Diet Coke 300 ml cans on four independent dates (May 1, 3, 9, 30), establishing a stable preference for this specific product variant.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "brand",
+      "value": "Appy Fizz",
+      "claim_text": "A single order of Appy Fizz was observed on May 28. This is an isolated observation and does not indicate a stable preference.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "Appy Fizz 250 ml PET Bottle was purchased only once (May 28); this single observation does not establish a stable preference or routine.",
-  "overall_confidence": "high"
+  "trend_claims": [
+    {
+      "claim_text": "The user's purchases of Coca-Cola Diet Coke 300 ml occurred on both weekdays (May 1, 28) and weekends (May 3, 9, 30), showing no strong day-type bias for this specific product, though the majority of orders were on weekends.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While the preference for Coca-Cola Diet Coke 300 ml is supported by four independent dates, the single observation of Appy Fizz remains an isolated event. The user's overall behavior in this category is dominated by the Diet Coke purchases, but the lack of other product variety limits broader category insights.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-05-01",
+      "2026-05-03",
+      "2026-05-09",
+      "2026-05-28",
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-01T11:33:46",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

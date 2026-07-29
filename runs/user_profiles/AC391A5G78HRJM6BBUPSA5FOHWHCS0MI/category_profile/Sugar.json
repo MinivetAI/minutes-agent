@@ -1,26 +1,33 @@
 {
-  "category": "Sugar",
-  "profile_text": "The user demonstrates a stable, low-frequency interest in sugar, purchasing on two independent dates in June 2026. This behavior supports a general category preference but does not establish loyalty to a specific brand or variant, as each appeared only once. Purchases occurred on weekdays in both morning and evening windows. The user buys both bulk (1 kg) and small (100 g) formats, suggesting flexible pantry management rather than a rigid routine.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sugar",
+  "summary_text": "Evidence for Sugar is limited to two independent orders across February and June 2026. The user purchased Fortune Sugar (1 kg) on one weekday evening and Nanihaal Mishri Dana Sugar (100 g) on one weekday morning. No single brand, variant, or timing pattern repeats across independent dates, preventing the establishment of stable preferences or routines.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit per order observed in all instances.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available. The user has purchased both refined sugar (Fortune) and Mishri (Nanihaal), suggesting openness to different sugar forms, but no pattern of switching between them is established.",
+  "uncertainty_text": "Preference boundaries are largely unknown. It is unclear if the user has a preferred brand, as each brand appeared only once. The difference in pack sizes (1 kg vs 100 g) suggests either distinct needs (bulk vs. small quantity) or inconsistent purchasing habits, but this cannot be confirmed with only two data points. No stable daypart or cadence can be established.",
+  "retrieval_text": "User purchased Fortune Sugar 1 kg on a weekday evening in February 2026 and Nanihaal Mishri Dana Sugar 100 g on a weekday morning in June 2026. Evidence is limited to two independent orders with different brands and pack sizes, preventing identification of a stable brand preference, specific variant loyalty, or recurring timing pattern. No substitution behavior or routine is established.",
   "replenishment": {
     "cadence_days": 55.5,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-09",
     "predicted_next_purchase_date": "2026-08-03",
-    "replenishment_text": "The user typically purchases sugar approximately every 55.5 days, classified as a slow-replenishment item. The last purchase was on 2026-06-09, with the next estimated purchase around 2026-08-03 based on this average cadence.",
-    "confidence": "medium",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Sugar is reordered roughly every 56 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by completed transactions on two independent dates.",
-  "substitution_text": "No specific brand or variant substitution patterns are established, as each observed brand and pack size appeared on only one independent date.",
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is established for this category based on the observed transactions.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has completed purchases.",
-  "mission_generation_text": "Routine pantry replenishment for cooking, tea, or coffee preparation.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-02-18T18:26:24",
+    "last_seen_at": "2026-06-09T08:14:21"
+  }
 }

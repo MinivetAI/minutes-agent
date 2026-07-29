@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Go Plain Processed Cheese Block 200 g in the morning.",
+  "summary_text": "One order of Go Plain Processed Cheese Block 200 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the morning, a time with high population share (32.46%). The product is a processed cheese block suitable for cooking, melting, or snacking.",
-  "uncertainty_text": "Single observation; no browsing or repeat purchase evidence to establish stable preferences or intent.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity. The product is a processed cheese block suitable for immediate cooking, melting, or snacking needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Go brand, processed cheese blocks specifically, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

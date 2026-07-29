@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-18 (morning, weekday) containing five distinct items across five categories: Savouries Namkeens, Paneer Tofu, Milk, Chips, and Vegetables. The basket exhibits moderate breadth with two units of Milk and single units of the other four products. The combination of Milk and Vegetables is observed in this order, consistent with category pair evidence showing a support of 0.3, confidence of 0.517, and lift of 1.293. The inclusion of Savouries Namkeens and Chips suggests a snack or side-dish component, while Paneer Tofu and Milk may indicate breakfast or cooking ingredients. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-05-18 in the morning on a weekday included items from five distinct categories: Savouries Namkeens, Paneer Tofu, Milk, Chips, and Vegetables. The basket demonstrates breadth across snack items (Savouries Namkeens, Chips) and fresh/dairy staples (Paneer Tofu, Milk, Vegetables). Milk was purchased in a quantity of 2, while all other items were purchased in quantities of 1. This specific combination of categories is supported by one order on one independent date.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were ordered together in this basket.",
       "support": 0.3,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for morning meal preparation or a light breakfast including dairy, fresh produce, and savory snacks.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Milk, Vegetables, and Paneer Tofu suggests a need for fresh ingredients for meal preparation, while Savouries Namkeens and Chips indicate a need for snack items.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-18"
+    ],
+    "first_seen_at": "2026-05-18T10:21:16",
+    "last_seen_at": "2026-05-18T10:21:16"
+  }
 }

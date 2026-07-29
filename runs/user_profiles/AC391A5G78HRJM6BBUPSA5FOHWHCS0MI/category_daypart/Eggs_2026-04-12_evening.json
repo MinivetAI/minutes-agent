@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 10-unit pack of Eggoz white hen eggs during the evening on a weekend.",
+  "summary_text": "One order of Eggoz Everyday Hen White Eggs (10 Units) placed on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% share). The product is a standard fresh egg pack, typically used for breakfast, cooking, or baking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend evening, which aligns with the population baseline where evening (0.3027) is a common shopping window, slightly less frequent than morning (0.3246). The product is a standard fresh egg pack, typically used for breakfast, cooking, or baking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a recurring preference for the Eggoz brand, a specific pack size, or weekend evening shopping habits. No other orders are available to confirm stability or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

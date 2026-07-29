@@ -1,15 +1,17 @@
 {
   "date": "2026-04-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-16 (weekday), the user purchased one unit of Potato 400–450g (fresh loose potato) during the evening. This purchase aligns with the evening daypart, which has a population share of 0.3027, comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526) or night (0.1202). The product is a fresh staple tuber, typically used for immediate cooking or meal preparation. This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific product or category.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased one unit of Potato 400–450g (fresh loose potato) during the evening on a weekday.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered one unit of Potato (400–450g) during the evening. This timing aligns with the population baseline share of 0.3027 for evening orders. The product is a fresh staple tuber suitable for immediate cooking or stockout replacement. This is a single observation on one date; no stable brand, product, or daypart preference can be established.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific product or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preference can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-16"
+    ],
+    "first_seen_at": "2026-04-16T18:52:46",
+    "last_seen_at": "2026-04-16T18:52:46"
+  }
 }

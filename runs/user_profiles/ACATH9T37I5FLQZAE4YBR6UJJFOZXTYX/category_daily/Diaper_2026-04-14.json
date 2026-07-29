@@ -1,9 +1,23 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14 (weekday), the user purchased two distinct pant-style diaper products during the evening: one 4-piece pack of Pampers Premium Care Pants (Size M) and one 56-count pack of Pampers Complete Skin Comfort Pant Diapers (Size XL). This evening activity aligns with the population baseline (30.27% share). The simultaneous purchase of two different sizes suggests a restocking or size-up event for a growing child, likely addressing immediate household needs or preparing for overnight use.",
-  "daypart_patterns": [],
+  "summary_text": "One order of Pampers diapers (one 4-piece pack of size M pants and one 56-count pack of size XL pants) placed in the evening on a weekday. The order aligns with the population baseline share of 0.3027 for this daypart. The products are general-use baby care items typically needed for immediate hygiene or restocking. This is a single observation from one date; it is not yet possible to establish stable brand preferences, size requirements, or routine purchasing patterns.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Pampers diapers (one 4-piece pack of size M pants and one 56-count pack of size XL pants) placed in the evening on a weekday. The order aligns with the population baseline share of 0.3027 for this daypart. The products are general-use baby care items typically needed for immediate hygiene or restocking. This is a single observation from one date; it is not yet possible to establish stable brand preferences, size requirements, or routine purchasing patterns.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable, recurring preference or routine. The specific reason for choosing these two sizes simultaneously (e.g., managing a child in transition, stocking for multiple children, or replacing a stockout) is not established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, size requirements, or routine purchasing patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

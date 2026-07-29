@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 500 g pack of Fortune Indori Thick Poha during the morning on a weekday.",
+  "summary_text": "One order of Fortune Indori Thick Poha 500 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this category has a 32.46% population share. The product is a fast-prep breakfast staple, consistent with urgent morning meal needs.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a quick-cooking breakfast staple, suggesting a need for a fast morning meal.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit or a one-time purchase. No brand preference can be inferred from a single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

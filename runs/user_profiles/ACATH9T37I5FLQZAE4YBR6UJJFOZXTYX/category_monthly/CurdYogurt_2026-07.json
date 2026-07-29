@@ -1,11 +1,11 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on two independent dates (2026-07-02 and 2026-07-04). Both orders occurred in the morning, establishing a consistent daypart pattern. The product is a small, single-serve plain curd pack, typically used for immediate consumption or as a staple ingredient in daily meals. The morning timing aligns with the population baseline, where morning activity accounts for 32.46% of activity for this category.",
+  "summary_text": "In July 2026, the user ordered Amul Masti Dahi Plain Curd (200 ml) on two independent dates (2026-07-02 and 2026-07-04). This repetition meets the threshold for a stable preference. The user also ordered this product in the morning on both dates, establishing a stable daypart pattern. The first order was a single unit on a weekday; the second was two units on a weekend morning. Both orders suggest a need for immediate consumption or meal accompaniment.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Amul Masti Dahi Plain Curd (200 ml)",
-      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), observed on 2 independent dates.",
+      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), observed on 2 independent dates in July 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,23 @@
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user has a stable preference for the Amul brand, observed on 2 independent dates.",
+      "claim_text": "The user has a stable preference for the Amul brand in the Curd Yogurt category, observed on 2 independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "pack_size",
+      "value": "200 ml",
+      "claim_text": "The user has a stable preference for the 200 ml pack size in the Curd Yogurt category, observed on 2 independent dates in July 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Plain Curd",
+      "claim_text": "The user has a stable preference for Plain Curd in the Curd Yogurt category, observed on 2 independent dates in July 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +37,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Confidence is medium because the preference is supported by 2 independent dates. No browsing events (search, view, cart) were recorded to indicate if this was a planned or spontaneous purchase.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The stable preferences are based on only two independent dates. While the repetition establishes a pattern, the small sample size limits the certainty of long-term habit formation. No other brands or variants were observed in this category during this month.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-02",
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

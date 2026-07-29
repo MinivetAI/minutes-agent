@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 0.5 g pack of EVEREST Saffron (Kesar) in the afternoon.",
+  "summary_text": "One order of EVEREST Saffron 0.5 g (1 unit) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time when this category is less common than the population baseline evening share (0.3027) or morning share (0.3246), though still above the night share (0.1202). The product is a small-format premium spice ingredient typically used for color and aroma in specific dishes.",
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the EVEREST brand or saffron specifically, nor does it indicate a recurring routine.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is below the population baseline share for this time slot (0.2526 vs. morning at 0.3246 and evening at 0.3027). The product is a small-format premium spice typically used for color and aroma in specific dishes.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established. It is unclear if this was a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-01-23T11:10:26"
+  }
 }

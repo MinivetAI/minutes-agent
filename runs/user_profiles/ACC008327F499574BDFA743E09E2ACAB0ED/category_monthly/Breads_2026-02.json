@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased one 600 g loaf of Britannia Sandwich Bread on a weekday afternoon. This single observed order serves as a standard household staple for immediate sandwich or toast preparation. No stable brand preference or routine can be established from this isolated event.",
+  "summary_text": "In February 2026, one order of Britannia Sandwich Bread 600 g was placed on a weekday afternoon. This is a single observation; no stable brand or product preferences are established for this category in this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no stable brand preference or routine can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine purchase pattern, or an isolated need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-05"
+    ],
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-02-05T12:54:45"
+  }
 }

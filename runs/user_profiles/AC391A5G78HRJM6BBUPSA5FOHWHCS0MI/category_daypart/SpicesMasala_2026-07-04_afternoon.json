@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one order of four Spices Masala items: Everest Turmeric Powder 200 g, Everest Tikhalal Hot & Red Chilli Powder 100 g, Zoff Cumin Seeds 100 g, and Everest Coriander Powder 200 g.",
+  "summary_text": "One order placed on 2026-07-04 in the afternoon containing Everest Turmeric Powder (200 g), Everest Tikhalal Hot & Red Chilli Powder (100 g), Zoff Cumin Seeds (100 g), and Everest Coriander Powder (200 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekend afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The products are core Indian cooking staples (turmeric, chilli powder, cumin seeds, coriander powder) typically used for daily meal preparation, suggesting a restock or immediate cooking need.",
-  "uncertainty_text": "Only one independent date is observed; durable preferences or routine behavior cannot be established. No browsing or funnel data is available to assess consideration or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline where afternoon shares 25.26% of activity (compared to morning at 32.46%, evening at 30.27%, and night at 12.02%). The items purchased are core Indian cooking staples (turmeric, chilli powder, cumin seeds, coriander powder) typically used for daily meal preparation, suggesting a restock or immediate cooking need rather than exploration.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences (e.g., for Everest or Zoff), specific product repurchase patterns, or consistent daypart habits. The user's specific culinary intent or household size cannot be determined from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

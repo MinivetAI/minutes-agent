@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased one 2.25 L bottle of Pepsi cola soft drink during the morning. This timing aligns with above-baseline morning activity (0.3246). The large-format carbonated beverage suggests a need for immediate refreshment or sharing. This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-05-24 (weekend), the user purchased one 2.25 L plastic bottle of Pepsi Soft Drink in the morning. This large-format carbonated cola aligns with the population baseline where morning activity accounts for 32.46% of orders. The purchase may reflect immediate refreshment or sharing needs, but as a single observation, it does not establish a stable brand preference, routine, or recurring habit.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time stockout replacement, a specific event purchase, or the start of a habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

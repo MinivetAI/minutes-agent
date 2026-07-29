@@ -1,9 +1,17 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On a weekend morning, the user purchased one order of eight unbranded fresh vegetables (beetroot, bitter gourd, carrot, cluster beans, onion, cauliflower, baby potato, and one additional item) totaling approximately 2.5–3 kg. The basket consists entirely of loose, unbranded fresh root and green vegetables, indicating an immediate need for same-day meal preparation ingredients rather than pantry stocking or branded goods. This purchase occurred during a time when the population share for this category is 0.3246.",
+  "summary_text": "On this weekend, the user purchased eight unbranded fresh vegetables (beetroot, bitter gourd, carrot, cluster beans, onion, cauliflower, baby potato, and one additional item) during the morning. This timing aligns with the population baseline, where morning represents the largest share of vegetable purchases (32.46%). The assortment of loose, unbranded fresh produce suggests a same-day meal preparation need. This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the weekend morning timing.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or funnel data is available to determine if this was a planned discovery or a direct search. As this is a single observed order on one date, durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the weekend morning timing. It is unclear if this represents a routine shopping habit or a one-time stock replenishment.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T09:05:54",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

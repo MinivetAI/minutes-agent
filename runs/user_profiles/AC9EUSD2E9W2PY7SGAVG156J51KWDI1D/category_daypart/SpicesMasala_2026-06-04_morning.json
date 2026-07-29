@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 100 g pack of Everest Kashmirilal Chilli Powder in the morning.",
+  "summary_text": "One order of Everest Kashmirilal Chilli Powder (100 g) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when morning activity is above the population baseline (32.5%). The product is a small pantry pack of a branded Indian spice, typically used for adding color and mild heat to dishes like dal, sabzi, or gravies.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference for the Everest brand or this specific spice type. It is unclear if this was a planned pantry restock or a last-minute need for a specific recipe.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, which aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small-pack pantry spice, typically used for cooking dishes requiring color and mild heat, suggesting a need to replenish a key ingredient for meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need for this specific item or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T08:59:57",
+    "last_seen_at": "2026-06-04T08:59:57"
+  }
 }

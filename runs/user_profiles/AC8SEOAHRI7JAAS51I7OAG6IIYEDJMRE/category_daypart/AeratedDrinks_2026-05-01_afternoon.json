@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Coca-Cola Diet Coke Can 300 ml.",
+  "summary_text": "One order of 2 Coca-Cola Diet Coke 300 ml cans.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when this user's category activity is below the population average (25.3% share vs. 32.5% for morning). The product is a single-serve chilled carbonated beverage, typically used for immediate refreshment or as a lighter soda option.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference for Diet Coke over other brands or formats, nor does it indicate a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the afternoon on a weekday. The population baseline indicates afternoon is a common time for this category (25.26% share). The product is a single-serve chilled beverage, typically used for immediate refreshment or a quick break.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a stable preference for Diet Coke, the Coca-Cola brand, or the 300 ml can size, or if it was a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T11:33:46",
+    "last_seen_at": "2026-05-01T11:33:46"
+  }
 }

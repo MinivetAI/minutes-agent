@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Fortune Suji 500 g (semolina/sooji) during the afternoon on a weekend.",
+  "summary_text": "One order of Fortune Suji 500 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (25.26% share vs. 32.46% for morning). The product is a small-pack staple flour used for immediate cooking needs, such as breakfast, snacks, or dessert prep.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered on a weekend afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases of this category, though it aligns with the afternoon share (0.2526). The product is a small-pack staple flour suitable for immediate cooking needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Fortune brand or a one-time need for this specific item.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

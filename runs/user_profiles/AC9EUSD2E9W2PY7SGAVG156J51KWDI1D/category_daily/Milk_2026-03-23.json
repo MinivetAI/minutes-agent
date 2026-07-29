@@ -1,15 +1,23 @@
 {
   "date": "2026-03-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-23 (weekday), the user purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) during the morning. This small-format liquid milk is suitable for immediate kitchen use such as tea, coffee, or breakfast. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-03-23 (weekday), the user purchased one 500 ml pack of Amul Taaza Pasteurised Toned Milk in the morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or morning purchasing habits specifically.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml).",
+      "pattern_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml) on 2026-03-23. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or morning purchasing habits specifically.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or morning purchasing habits specifically.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-23"
+    ],
+    "first_seen_at": "2026-03-23T09:42:20",
+    "last_seen_at": "2026-03-23T09:42:20"
+  }
 }

@@ -1,34 +1,33 @@
 {
-  "category": "Holi Color",
-  "profile_text": "A single observed purchase of festive color powders (gulal) for Holi celebrations. The user bought two 100 g packs (yellow and green) from the brand Cock in the morning. This isolated transaction does not establish a durable brand preference or recurring shopping pattern.",
-  "brand_preferences": [
-    {
-      "brand": "Cock",
-      "preference_text": "The user purchased Cock brand Holi color powder on one observed date. This single observation does not establish a durable brand preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Holi Color",
+  "summary_text": "The user placed a single order on 2026-03-02 (weekday) for Cock Holi Color Powder (Yellow 100 g and Green 100 g) during the morning daypart. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The purchase suggests event preparation or replenishment for Holi celebrations. This is a single observation on one date; it is not yet possible to establish a stable brand preference for Cock or a recurring morning shopping habit for Holi colors.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 2,
+        "preference_text": "Two items (Yellow and Green powders) were purchased together in a single order.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The user purchased specific colors (Yellow and Green) from a single brand (Cock) in a single transaction, providing no data on acceptable alternatives or brand switching behavior.",
+  "uncertainty_text": "This category is based on a single observation on one date. It is not possible to establish a stable brand preference for Cock, a recurring shopping habit, or a specific cadence for Holi color purchases. The user's intent appears to be event preparation, but the scope of their Holi color needs (e.g., other colors, other brands) remains unknown.",
+  "retrieval_text": "Single order on 2026-03-02 for Cock Holi Color Powder in Yellow and Green, 100 g each, purchased in the morning. Evidence is limited to one date, preventing establishment of stable brand preference or recurring habit.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-02",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-03-02.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for HoliColor yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Preparation for the upcoming Holi festival celebrations.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-02T09:41:54",
+    "last_seen_at": "2026-03-02T09:41:54"
+  }
 }

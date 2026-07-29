@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Local Tomato (1 kg) and 2 units of Cauliflower (400-600g).",
+  "summary_text": "Ordered 2 units of Local Tomato 1 kg and 2 units of Cauliflower 400-600g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when population share is 0.2526. The items are fresh vegetables intended for immediate household cooking.",
-  "uncertainty_text": "This is a single observation on one date; no stable preferences or routine patterns can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased on a weekday afternoon. This timing is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The items are fresh vegetables typically used for immediate household cooking.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-10"
+    ],
+    "first_seen_at": "2026-02-10T11:10:26",
+    "last_seen_at": "2026-02-10T11:10:26"
+  }
 }

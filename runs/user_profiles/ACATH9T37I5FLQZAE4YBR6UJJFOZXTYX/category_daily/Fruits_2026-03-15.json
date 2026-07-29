@@ -1,15 +1,23 @@
 {
   "date": "2026-03-15",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-15 (weekend), the user purchased 1 unit of Watermelon Kiran (fresh fruit) during the evening. This timing aligns with the evening daypart, which has a 30.27% population share, suggesting a potential post-dinner or late-day consumption need for fresh produce. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "summary_text": "On this weekend, a single unit of Watermelon Kiran (fresh watermelon) was purchased during the evening. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%) and higher than afternoon (25.26%) or night (12.02%). The product is a fresh fruit item typically used for immediate consumption or hydration. This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific fruit, brand, or timing. No brand preference can be inferred as the product is unbranded.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased 1 unit of Watermelon Kiran (fresh fruit).",
+      "pattern_text": "One unit of Watermelon Kiran (fresh watermelon) was purchased. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%) and higher than afternoon (25.26%) or night (12.02%). The product is a fresh fruit item typically used for immediate consumption or hydration.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific fruit, brand, or timing. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

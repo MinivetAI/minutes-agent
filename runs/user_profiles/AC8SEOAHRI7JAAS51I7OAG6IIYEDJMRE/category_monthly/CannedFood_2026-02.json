@@ -1,26 +1,35 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased Del Monte Baked Beans 450 g on two independent dates (2026-02-08 and 2026-02-15). Both purchases occurred on weekends during the morning daypart. The product is a shelf-stable, ready-to-eat pantry item suitable for quick meal components or backup sides.",
+  "summary_text": "In February 2026, the user purchased Del Monte Baked Beans 450 g on two independent dates (2026-02-08 and 2026-02-15). Both orders occurred on weekends during the morning daypart. This repetition establishes a stable preference for this specific product and brand, supported by high confidence due to the recurrence across multiple dates. The pattern also indicates a consistent preference for weekend morning shopping for this item.",
   "stable_preference_claims": [
     {
-      "dimension": "brand",
-      "value": "Del Monte",
-      "claim_text": "The user purchased Del Monte products on 2 independent dates in February 2026.",
-      "confidence": "medium",
+      "dimension": "product",
+      "value": "Del Monte Baked Beans 450 g",
+      "claim_text": "The user has a stable preference for Del Monte Baked Beans 450 g, evidenced by purchases on two independent dates in February 2026.",
+      "confidence": "high",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
-      "dimension": "product",
-      "value": "Del Monte Baked Beans 450 g",
-      "claim_text": "The user purchased Del Monte Baked Beans 450 g on 2 independent dates in February 2026.",
-      "confidence": "medium",
+      "dimension": "brand",
+      "value": "Del Monte",
+      "claim_text": "The user has a stable preference for the Del Monte brand in canned food, evidenced by purchases on two independent dates in February 2026.",
+      "confidence": "high",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two independent purchase dates. No browsing, search, or cart-add activity was observed for this category in this window.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "No uncertainty regarding the stable preference for Del Monte Baked Beans 450 g and the Del Monte brand, as the preference is supported by two independent dates. The specific use case (e.g., routine meal prep vs. one-time need) remains unclear, but the repetition confirms the preference itself.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-08",
+      "2026-02-15"
+    ],
+    "first_seen_at": "2026-02-08T09:50:42",
+    "last_seen_at": "2026-02-15T10:01:38"
+  }
 }

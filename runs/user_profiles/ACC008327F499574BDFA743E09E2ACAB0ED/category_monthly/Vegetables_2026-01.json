@@ -1,47 +1,18 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased fresh vegetables on two independent dates (2026-01-24 and 2026-01-30). The purchases occurred exclusively in the afternoon, establishing a consistent daypart pattern across both a weekend and a weekday. The specific products (lemons, cauliflower, peas) and brands (unbranded) appeared only once each and do not meet the repetition threshold for stable product preferences.",
-  "stable_preference_claims": [
-    {
-      "dimension": "brand",
-      "value": "Unbranded",
-      "claim_text": "The user purchased unbranded fresh produce on two independent dates (2026-01-24 and 2026-01-30).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Fresh lemons",
-      "claim_text": "No stable preference established; observed only on 2026-01-24.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "dimension": "product",
-      "value": "Fresh cauliflower",
-      "claim_text": "No stable preference established; observed only on 2026-01-30.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "dimension": "product",
-      "value": "Green peas",
-      "claim_text": "No stable preference established; observed only on 2026-01-30.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
+  "summary_text": "In January 2026, the user placed two independent orders for fresh vegetables. On 2026-01-24 (weekend), one order of Fresh Lemon 3 Pieces (Unbranded) was completed in the afternoon. On 2026-01-30 (weekday), one order containing one head of cauliflower (400-600g) and one kilogram of unpeeled green peas was completed in the afternoon. Both orders occurred in the afternoon, a timing that aligns with the population baseline where afternoon accounts for 0.2526 of activity. The products are fresh produce typically used for immediate home cooking, such as seasoning, drinks, salads, side dishes, curries, or soups. No brand, product, or variant recurs across multiple independent dates; therefore, no stable preference claims can be established. The afternoon timing appears on two independent dates, but as it is a single daypart category rather than a specific product/brand variant, and given the lack of product repetition, stable preference lists remain empty. The overall pattern suggests occasional fresh vegetable purchases, but the specific items and timing do not yet indicate a durable, repeatable preference beyond the observed instances.",
+  "stable_preference_claims": [],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user consistently shopped for vegetables in the afternoon on both observed dates (one weekend, one weekday).",
-      "confidence": "medium"
-    }
-  ],
-  "uncertainty_text": "Product-specific preferences are not established due to single-date observations for each item. The afternoon daypart pattern is supported by two independent dates.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "uncertainty_text": "No stable preferences can be established from two independent orders of different products. It is unknown if the user regularly purchases lemons, cauliflower, or green peas, or if the afternoon timing represents a consistent habit rather than situational convenience.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-01-24",
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-30T11:26:47"
+  }
 }

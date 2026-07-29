@@ -1,9 +1,18 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased two different shampoo products on separate dates: L'Oréal Paris Total Repair 5 Shampoo on a weekday evening and Patanjali Kesh Kanti Natural Hair Cleanser Shampoo on a weekend evening. Both transactions occurred in the evening, a daypart where this user's activity is slightly below the population baseline (30.27% share). No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "In June 2026, the user purchased shampoo on two independent dates: L'Oréal Paris Total Repair 5 Shampoo on a weekday evening and Patanjali Kesh Kanti Natural Hair Cleanser Shampoo on a weekend evening. Both orders occurred in the evening, aligning with the population baseline where evening (0.3027) is nearly as common as morning (0.3246) for shampoo. No single brand or product variant recurred across multiple dates; therefore, no stable brand or product preference can be established. The evening timing is the only consistent pattern observed.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each product was purchased on only one independent date. A single order is an observation, not a durable preference. Stable or high-confidence preferences require repetition across independent dates. Therefore, no stable brand or product preferences can be established from this month's evidence.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Evidence is limited to two independent dates with different brands and products. No brand or product preference is stable. The evening timing is consistent but based on only two observations.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-02",
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

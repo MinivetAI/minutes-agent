@@ -1,27 +1,27 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased plain curd on three independent dates (May 1, May 7, and May 22). All purchases were for the Amul Masti brand, specifically plain curd variants, and all occurred in the morning on weekdays. The user bought a 390 ml pack on May 1 and 200 ml packs on May 7 and May 22. The consistent timing and brand selection across three independent dates establish a stable preference for Amul Masti plain curd, with high confidence due to the repetition spanning multiple dates. The morning daypart pattern is also stable, supported by three independent observations.",
+  "summary_text": "In May 2026, the user ordered plain curd on three independent dates (2026-05-01, 2026-05-07, 2026-05-22). All orders were for the Amul Masti brand and occurred in the morning on weekdays. The recurrence of the brand and daypart across three independent dates supports stable preference claims for Amul Masti plain curd and morning ordering habits. The specific pack sizes varied (390 ml and 200 ml), so pack size is not stable, but the brand and product type are consistent.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul Masti",
-      "claim_text": "The user has a stable preference for Amul Masti plain curd, evidenced by purchases on three independent dates in May 2026.",
-      "confidence": "high",
+      "claim_text": "The user ordered Amul Masti plain curd on three independent dates in May 2026, indicating a stable preference for this brand within the Curd Yogurt category.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "Amul Masti Plain Curd",
-      "claim_text": "The user consistently purchases Amul Masti plain curd variants (200 ml and 390 ml) across three independent dates in May 2026.",
-      "confidence": "high",
+      "value": "Plain Curd",
+      "claim_text": "The user ordered plain curd on three independent dates in May 2026, indicating a stable preference for this product type.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
-      "dimension": "product",
-      "value": "Amul Masti Dahi Plain Curd 200 ml",
-      "claim_text": "The user purchased the 200 ml variant of Amul Masti Dahi Plain Curd on two independent dates (May 7 and May 22) in May 2026.",
+      "dimension": "brand",
+      "value": "Amul Masti Dahi Plain Curd",
+      "claim_text": "The user ordered Amul Masti Dahi Plain Curd on two independent dates (2026-05-07, 2026-05-22), indicating a stable preference for this specific variant.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -29,6 +29,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the brand and product type show stable preference, the specific pack size varies (390 ml vs 200 ml), indicating flexibility in quantity rather than a rigid single-variant preference. The small pack sizes suggest immediate consumption or top-up needs rather than bulk stocking.",
-  "overall_confidence": "high"
+  "uncertainty_text": "The user's preference for Amul Masti plain curd and morning ordering is supported by three independent dates. Pack size preference is not stable as both 390 ml and 200 ml packs were ordered.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-05-01",
+      "2026-05-07",
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-01T08:07:58",
+    "last_seen_at": "2026-05-22T09:38:49"
+  }
 }

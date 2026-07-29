@@ -1,15 +1,23 @@
 {
   "date": "2026-06-13",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-13 (weekend), one order of Zandu Pure Honey (1 kg) was placed during the evening. This timing aligns with a period holding a 30.27% population share for this activity. The product is a standard pantry staple, typically used for tea, breakfast, or general household consumption. Confidence is low because this is the only observed order on this date; it is not yet clear if this represents a stable preference or a one-time stockout-driven purchase.",
+  "summary_text": "On 2026-06-13 (weekend), the user ordered Zandu Pure Honey (1 kg) during the evening. This single observation aligns with the population baseline for evening shopping (30.27%) and suggests a potential need to replenish a household pantry supply. As this is the only observed date, it is not possible to determine if this represents a stable preference, a one-time purchase, or a routine habit.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "One order of Zandu Pure Honey (1 kg) was placed during the evening on a weekend. This timing aligns with a period holding a 30.27% population share for this activity. The product is a standard pantry staple, typically used for tea, breakfast, or general household consumption.",
+      "pattern_text": "One order of Zandu Pure Honey (1 kg) placed on a weekend evening.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date; it is not yet clear if this represents a stable preference or a one-time stockout-driven purchase.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to determine if this represents a stable preference, a one-time purchase, or a routine habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

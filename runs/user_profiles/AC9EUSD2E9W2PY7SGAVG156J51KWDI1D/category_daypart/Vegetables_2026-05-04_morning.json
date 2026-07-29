@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Unbranded Button Mushroom (190-210 g) during a morning weekday session.",
+  "summary_text": "One order of 2 units of Unbranded Button Mushroom (190-210 g) placed on 2026-05-04 in the morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. The product is a fresh vegetable ingredient typically used for quick-cooking meals such as stir-fries, curries, or soups.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for button mushrooms or morning vegetable shopping.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a fresh vegetable ingredient typically used for quick-cooking meals such as stir-fries, curries, or soups.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand or product, nor is it clear if the morning timing is a habitual pattern for this user or an isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T09:36:25",
+    "last_seen_at": "2026-05-04T09:36:25"
+  }
 }

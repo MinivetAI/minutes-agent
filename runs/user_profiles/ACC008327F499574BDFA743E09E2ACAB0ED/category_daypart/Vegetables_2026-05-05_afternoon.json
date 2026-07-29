@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Chilli Bajji (250 g), 2 units of Local Tomato (450-550g), 1 unit of an unidentified vegetable product, and 1 unit of Onion (1 kg).",
+  "summary_text": "One order placed on 2026-05-05 in the afternoon containing Chilli Bajji (2 units), Local Tomato (2 units), an unidentified vegetable item (1 unit), and Onion 1 kg (1 unit).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket combines a ready-to-eat spicy snack (Chilli Bajji) with fresh cooking staples (tomatoes, onions), suggesting a mix of immediate consumption and meal preparation needs.",
-  "uncertainty_text": "The specific identity of the third vegetable product (VEGGF7EXB3KWXAGJ) is unknown. No browsing or search data is available to determine if these items were planned or impulse buys.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket combines a ready-to-eat spicy snack (Chilli Bajji) with fresh cooking staples (Tomato, Onion), suggesting a mix of immediate consumption and meal preparation needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers Chilli Bajji over other snacks, or if they regularly buy fresh tomatoes and onions in this specific combination. The identity of the third vegetable item is unknown.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-05"
+    ],
+    "first_seen_at": "2026-05-05T15:57:39",
+    "last_seen_at": "2026-05-05T15:57:39"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Colgate Strong Teeth Toothpaste (300 g) in the morning.",
+  "summary_text": "One order of Colgate Strong Teeth Toothpaste 300 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a period with a population share of 0.3246. The product is a routine oral-care staple.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning shares 32.46% of activity, slightly higher than afternoon (25.26%) and evening (30.27%). The product is a standard oral-care staple typically used for daily brushing routines.",
+  "uncertainty_text": "Confidence in any specific brand or product preference is low because this is the only observed order. It is unclear if this is a one-time purchase, a trial, or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-29"
+    ],
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-01-29T09:00:23"
+  }
 }

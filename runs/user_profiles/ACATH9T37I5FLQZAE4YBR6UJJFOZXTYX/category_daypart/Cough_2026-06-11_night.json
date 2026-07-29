@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased 4 packs of VICKS Double Power Cough Drops Warming Ginger (25 tablets each) during the night on a weekday. No browsing, search, or cart activity was recorded for this category in this window.",
+  "summary_text": "One order of VICKS Double Power Cough Drops Warming Ginger (4 units) placed on a weekday night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekday, a time when the user's activity (12.02% of population share) is lower than morning (32.46%), afternoon (25.26%), or evening (30.27%). The product is a portable, fast-acting throat lozenge, suggesting a need for immediate, on-the-go relief from cough or throat irritation without the need for preparation or pharmacy visits.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need. It is unknown if this was a one-time response to acute symptoms or part of a broader pattern. No browsing or cart behavior was observed to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred at night, a time with lower population share (0.1202) compared to morning (0.3246), afternoon (0.2526), and evening (0.3027). The product is a portable, fast-acting lozenge typically used for immediate throat soothing or cough relief, suggesting a need for quick, on-the-go symptom management during the evening or night hours.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product type, or timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

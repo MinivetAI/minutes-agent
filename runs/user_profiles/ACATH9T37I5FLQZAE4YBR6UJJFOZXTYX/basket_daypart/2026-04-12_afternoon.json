@@ -1,22 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-04-12 in the afternoon on a weekend. The basket contains 9 items across 4 categories: Vegetables (6 items), Savouries Namkeens (2 items), Pasta (1 item), and Breads (1 item). The order-building behavior shows a strong focus on fresh produce, with vegetables comprising the majority of the item count. Savouries Namkeens were purchased alongside vegetables, consistent with observed co-ordering patterns. No other categories were included in this specific transaction.",
+  "basket_summary_text": "A single order placed on 2026-04-12 in the afternoon on a weekend. The basket contains 9 items across 4 categories: Vegetables (6 items), Savouries Namkeens (2 items), Pasta (1 item), and Breads (1 item). The order-building behavior shows a focus on fresh produce and staple carbohydrates, supplemented by savory snacks. No other categories were purchased in this specific transaction.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Vegetables"
-      ],
-      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing a meal or snack involving fresh vegetables and savory accompaniments, supplemented by pasta and bread.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Preparation of a meal or snack involving fresh vegetables, pasta, bread, and savory accompaniments.",
+  "uncertainty_text": "This is a single observation on one date. It does not establish a durable preference or routine. Category pair evidence provided is for the broader population or historical context and does not reflect co-occurrence in this specific order (e.g., Milk, CurdYogurt, AeratedDrinks, Diaper, BabyCereal, Fruits were not purchased).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T14:17:36",
+    "last_seen_at": "2026-04-12T14:17:36"
+  }
 }

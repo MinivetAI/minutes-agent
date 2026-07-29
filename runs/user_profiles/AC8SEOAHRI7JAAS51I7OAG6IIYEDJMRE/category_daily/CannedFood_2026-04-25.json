@@ -1,9 +1,23 @@
 {
   "date": "2026-04-25",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-25 (weekend), the user purchased one 450 g can of Del Monte Baked Beans in the afternoon. This is a shelf-stable, ready-to-eat pantry item suitable for quick meal components or backup sides. The purchase occurred in the afternoon, a time when population share is lower than the morning baseline (0.2526 vs 0.3246). This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-25 (weekend), the user purchased one unit of Del Monte Baked Beans 450 g during the afternoon. This single order occurred during a period of below-baseline activity for this daypart. The purchase suggests a need for a convenient, shelf-stable meal component or pantry staple. No stable brand or product preference can be established from this isolated observation.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Del Monte Baked Beans 450 g (1 unit) placed on a weekend afternoon. The order occurred on a weekend afternoon, a time when this user's activity is below the population baseline for that daypart (population afternoon share: 0.2526). The product is a shelf-stable, ready-to-eat canned item, suggesting a need for a convenient pantry staple or quick meal component.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this was a one-time purchase or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-25T13:07:11",
+    "last_seen_at": "2026-04-25T13:07:11"
+  }
 }

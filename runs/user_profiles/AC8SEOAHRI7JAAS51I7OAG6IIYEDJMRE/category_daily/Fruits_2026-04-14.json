@@ -1,15 +1,23 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14 (weekday), the user purchased 1 unit of Musk Melon Kajari (fresh whole muskmelon) in the morning. This fresh produce item is suitable for immediate home consumption, snacking, or breakfast. The order occurred during a period with a population share of 0.3246. This is a single observation on one date; durable preferences or routine behavior cannot be established.",
+  "summary_text": "On 2026-04-14 (weekday), the user ordered 1 Musk Melon Kajari (fresh whole muskmelon, unbranded) during the morning. This timing aligns with the population baseline for morning activity (share 0.3246). The product is a fresh fruit suitable for immediate home consumption, snacking, or breakfast. This represents a single observation on one date; it is not yet possible to establish a stable brand, product, or daypart preference, and the specific reason for this purchase cannot be determined from order history alone.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Musk Melon Kajari (fresh whole muskmelon).",
+      "pattern_text": "One order of 1 Musk Melon Kajari (fresh whole muskmelon, unbranded) placed on a weekday morning. This timing aligns with the population baseline for morning activity (share 0.3246). The product is a fresh fruit suitable for immediate home consumption, snacking, or breakfast. This represents a single observation on one date; it is not yet possible to establish a stable brand, product, or daypart preference, and the specific reason for this purchase cannot be determined from order history alone.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behavior cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand, product, or daypart preference. The specific reason for this purchase (e.g., breakfast, snacking, or immediate need) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T09:46:35",
+    "last_seen_at": "2026-04-14T09:46:35"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one order of fresh vegetables: one loose onion (400–450 g), one pack of French beans (450–550 g), and one pack of red carrots (500 g).",
+  "summary_text": "One order of fresh vegetables (onion, French beans, red carrot) purchased in the morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed in the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The items are standard fresh produce staples typically used for immediate meal preparation or replenishing kitchen stock.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of orders, making it the most common daypart. The products are fresh, unbranded vegetables typically used for immediate meal preparation or cooking base ingredients.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific vegetables, brands (all unbranded), or the morning daypart. No repeat purchases are recorded to confirm routine behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T07:31:13",
+    "last_seen_at": "2026-03-17T07:31:13"
+  }
 }

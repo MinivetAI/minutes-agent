@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased one 200 ml bottle of Parachute 100% Pure Coconut Oil on a weekday morning. This single observation does not establish a stable preference or routine.",
+  "summary_text": "In June 2026, the user purchased Parachute 100% Pure Coconut Oil 200 ml on a single weekday morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small, single-bottle grooming staple suitable for immediate use or quick replenishment. As this is a single observation, it is not yet established whether this represents a stable preference for the Parachute brand, coconut oil specifically, or morning purchasing habits. No repeat evidence is available to confirm routine or brand loyalty.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time replenishment or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Parachute brand, coconut oil specifically, or morning purchasing habits. No repeat evidence is available to confirm routine or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T08:59:57",
+    "last_seen_at": "2026-06-04T08:59:57"
+  }
 }

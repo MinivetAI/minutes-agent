@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Aashirvaad Iodized Salt 1 kg on one observed date (2026-05-24). This single transaction does not establish a stable brand preference or habitual pattern. The purchase occurred during the afternoon on a weekend.",
+  "summary_text": "On 2026-05-24 (weekend), one order of Aashirvaad Iodized Salt 1 kg (1 unit) was placed in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a standard pantry staple for everyday cooking. This is a single observation on one date; no stable brand preference, routine, or recurring timing pattern can be established from this window alone.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand preference or habitual buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand preference, routine, or recurring timing pattern can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

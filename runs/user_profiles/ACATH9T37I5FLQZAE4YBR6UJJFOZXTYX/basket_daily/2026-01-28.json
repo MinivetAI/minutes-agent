@@ -1,93 +1,35 @@
 {
   "date": "2026-01-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-28, a single order was placed in the afternoon. The basket contained six items across five categories: Ghee, Diaper, Vegetables (2 units), Curd Yogurt (2 units), and Savouries Namkeens. This transaction reflects a general household restock, combining fresh produce, dairy staples, and baby care essentials. No stable patterns or durable preferences can be inferred from this single observation.",
+  "summary_text": "On 2026-01-28 (weekday), a single order was placed in the afternoon. The basket contained 7 items across 5 categories: Vegetables (2 units), Curd Yogurt (2 units), Ghee (1 unit), Diaper (1 unit), and Savouries Namkeens (1 unit). This combination of fresh produce, dairy staples, and household essentials is compatible with a general weekly grocery replenishment need. Because this is a single observation on one independent date, stable preferences, routines, or durable behavioral patterns cannot be inferred. Confidence in any inferred behavior is low.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were co-ordered.",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
+        "Vegetables",
         "Curd Yogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd Yogurt and Vegetables were co-ordered.",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk were co-ordered.",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Aerated Drinks",
-        "Vegetables"
-      ],
-      "combination_text": "Aerated Drinks and Vegetables were co-ordered.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
+        "Ghee",
         "Diaper",
-        "Vegetables"
+        "Savouries Namkeens"
       ],
-      "combination_text": "Diaper and Vegetables were co-ordered.",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Vegetables"
-      ],
-      "combination_text": "Savouries Namkeens and Vegetables were co-ordered.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Baby Cereal",
-        "Vegetables"
-      ],
-      "combination_text": "Baby Cereal and Vegetables were co-ordered.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables were co-ordered.",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Vegetables, Curd Yogurt, Ghee, Diaper, and Savouries Namkeens",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking household staples including fresh produce, dairy, and baby care items.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of fresh produce (Vegetables), dairy staples (Curd Yogurt, Ghee), and household essentials (Diaper, Savouries Namkeens) is compatible with a general weekly grocery replenishment need for a household.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Stable preferences, routines, or durable behavioral patterns cannot be inferred from this single observation. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-28"
+    ],
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-01-28T12:24:24"
+  }
 }

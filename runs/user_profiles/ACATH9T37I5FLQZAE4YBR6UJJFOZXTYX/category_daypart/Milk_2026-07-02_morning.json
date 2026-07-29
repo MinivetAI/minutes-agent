@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Amul Cow Milk 500 ml.",
+  "summary_text": "One order of Amul Cow Milk 500 ml (quantity: 2) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when morning=0.3246 of the population is active. The product is a fresh, short-shelf-life dairy staple typically used for immediate consumption or preparation.",
-  "uncertainty_text": "Single observation on one date; cannot establish stable preferences or routine behavior.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a daypart where the user's activity aligns with the population baseline share of 0.3246. The product is a fresh, short-shelf-life dairy staple, typically used for immediate consumption needs such as breakfast or beverage preparation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable routine or a one-time replenishment need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

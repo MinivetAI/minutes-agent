@@ -1,7 +1,7 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-28 during the night on a weekday. The basket contains dairy and bakery items: 2 units of Curd Yogurt, 1 unit of Paneer Tofu, and 1 unit of Breads. This combination is compatible with a need for breakfast or snack components.",
+  "basket_summary_text": "A single order placed on a weekday night containing dairy and bakery items. The basket includes 2 units of Curd Yogurt, 1 unit of Paneer Tofu, and 1 unit of Breads. This combination suggests a need for breakfast or meal components, specifically items compatible with morning consumption or quick preparation.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,31 +12,20 @@
       "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Paneer Tofu"
-      ],
-      "combination_text": "Curd Yogurt and Paneer Tofu were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Paneer Tofu"
-      ],
-      "combination_text": "Breads and Paneer Tofu were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for dairy and bread products, potentially for breakfast or light meals.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Patterns are not stable or recurring.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing for a quick breakfast or meal involving dairy and bread products.",
+  "uncertainty_text": "This behavior is based on a single order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-28"
+    ],
+    "first_seen_at": "2026-04-28T21:50:01",
+    "last_seen_at": "2026-04-28T21:50:01"
+  }
 }

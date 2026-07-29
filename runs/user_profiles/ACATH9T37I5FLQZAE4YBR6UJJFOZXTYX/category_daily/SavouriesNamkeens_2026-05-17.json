@@ -1,9 +1,23 @@
 {
   "date": "2026-05-17",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-17 (weekend), one order of Pajaka Snackie Cornflakes Chiwda (250 g) was placed in the morning. The product is a ready-to-eat savory snack, typically used for immediate hunger relief or tea-time munching. No browsing events (search, view, cart-add) were recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-17 (weekend), the user ordered Pajaka Snackie Snackie Cornflakes Chiwda (250 g) during the morning daypart. This single order represents a ready-to-eat savory snack, likely for immediate hunger relief or tea-time snacking. The timing aligns with a population baseline where morning purchases constitute 32.46% of activity. As this is a single observation on one date, it does not establish a stable brand preference, recurring routine, or durable habit; it is unclear if this represents a one-time craving or the start of a pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Pajaka Snackie Snackie Cornflakes Chiwda (250 g) placed on a weekend morning. This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or durable habit. It is unclear if this represents a one-time craving or the start of a pattern.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or durable habit. It is unclear if this represents a one-time craving or the start of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

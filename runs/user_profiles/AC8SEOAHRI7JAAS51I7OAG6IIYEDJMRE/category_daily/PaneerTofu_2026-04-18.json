@@ -1,9 +1,28 @@
 {
   "date": "2026-04-18",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased Mother Dairy Fresh Paneer (200 g) during both the morning and afternoon. The morning purchase aligns with a time when 32.46% of the population typically shops, while the afternoon order occurred during a period of lower activity for this user (0.2526 share) compared to the population baseline for morning (0.3246) and evening (0.3027). The product serves as a convenient, ready-to-cook protein source for immediate meal preparation.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Mother Dairy Fresh Paneer 200 g during both the morning and afternoon dayparts. The morning order aligns with the population baseline where morning purchases account for 32.46% of activity, while the afternoon order occurred during a less common window (0.2526 share) compared to morning and evening peaks. The product is a packaged fresh dairy item suitable for immediate cooking needs. This represents a single observation from one date; it is not yet established whether this reflects a stable preference for this brand or product, or if it was a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a packaged fresh dairy item suitable for immediate cooking needs.",
+      "confidence": "low"
+    },
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g (1 unit). The order occurred on a weekend afternoon, which is less common than the population baseline for morning (0.3246) and evening (0.3027) but aligns with the observed afternoon share (0.2526). The product is a packaged fresh dairy item typically used for immediate cooking needs, such as last-minute meal prep or adding protein to a planned dish.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction across two dayparts on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T07:53:45",
+    "last_seen_at": "2026-04-18T12:20:02"
+  }
 }

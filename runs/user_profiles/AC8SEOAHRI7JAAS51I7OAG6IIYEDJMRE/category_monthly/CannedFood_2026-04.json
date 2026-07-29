@@ -1,11 +1,11 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Del Monte Baked Beans 450 g on three independent dates (2026-04-06, 2026-04-19, and 2026-04-25). This repetition establishes a stable preference for this specific brand and product variant. The user also exhibits a consistent shopping pattern, with purchases occurring during the morning on two dates and the afternoon on one date, indicating a flexible but recurring engagement with this category.",
+  "summary_text": "In April 2026, the user purchased Del Monte Baked Beans 450 g on three independent dates (2026-04-06, 2026-04-19, and 2026-04-25). This repetition across multiple days establishes a stable preference for this specific brand and product variant. The user also ordered this item during both morning and afternoon dayparts, indicating no single dominant shopping time, though the morning purchase aligns with the population baseline (32.46%).",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Del Monte",
-      "claim_text": "The user has a stable preference for Del Monte brand canned food, evidenced by purchases on 3 independent dates.",
+      "claim_text": "The user has a stable preference for Del Monte brand canned food, evidenced by purchases on three independent dates in April 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Del Monte Baked Beans 450 g",
-      "claim_text": "The user has a stable preference for Del Monte Baked Beans 450 g, evidenced by purchases on 3 independent dates.",
+      "claim_text": "The user has a stable preference for Del Monte Baked Beans 450 g, evidenced by purchases on three independent dates in April 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,6 +21,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the brand and product preference is stable, the daypart varies (morning vs. afternoon), so no single daypart preference is established as stable.",
-  "overall_confidence": "high"
+  "uncertainty_text": "No other product categories or brands were observed in this month. The preference for Del Monte Baked Beans is supported by three independent dates, providing high confidence in this specific stable preference.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-06",
+      "2026-04-19",
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-06T09:51:49",
+    "last_seen_at": "2026-04-25T13:07:11"
+  }
 }

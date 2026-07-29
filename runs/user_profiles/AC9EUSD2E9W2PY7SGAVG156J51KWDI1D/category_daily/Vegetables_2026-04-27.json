@@ -1,9 +1,23 @@
 {
   "date": "2026-04-27",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased fresh perishable staples and culinary aromatics during the morning daypart. The order included 2 packs of unbranded Fresh Curry Leaves (50 g each) and 1 pack of unbranded Fresh New Crop Potato (0.95\u20131.05 kg). This combination suggests immediate meal preparation or replenishment of essential cooking ingredients. This is a single observed order on one date; it does not establish a stable or recurring preference for these specific items or brands.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered fresh vegetables in the morning, a timing consistent with the population baseline where morning accounts for 32.46% of shopping moments. The basket included 2 packs of unbranded fresh curry leaves and 1 pack of unbranded fresh new-crop potatoes. These fresh, perishable staples are typically used for immediate meal preparation or tempering. This is a single observation from one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific recipe intent beyond the general utility of the products.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of fresh vegetables on a weekday morning, including 2 packs of unbranded fresh curry leaves and 1 pack of unbranded fresh new-crop potatoes.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific items or brands.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific recipe intent beyond the general utility of the products.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-27"
+    ],
+    "first_seen_at": "2026-04-27T08:10:36",
+    "last_seen_at": "2026-04-27T08:10:36"
+  }
 }

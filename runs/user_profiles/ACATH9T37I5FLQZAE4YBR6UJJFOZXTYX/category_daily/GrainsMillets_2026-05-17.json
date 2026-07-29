@@ -1,15 +1,17 @@
 {
   "date": "2026-05-17",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-17 (weekend), the user purchased one 500 g pack of Rajdhani Sabudana Sago in the morning. This timing aligns with a period where the user is 0.3246 times more likely to shop in the Grains Millets category than the average population. The product is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one 500 g pack of Rajdhani Sabudana Sago. This timing aligns with a period where the user is 0.3246 times more likely to shop in the Grains Millets category than the average population. The product is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased Rajdhani Sabudana Sago 500 g during the morning. This timing aligns with the population baseline where morning shares 32.46% of activity. The product is a starch-based staple often used for fasting meals or quick cooking preparations. This is a single observation on one date. It is not yet established whether this represents a recurring fasting routine, a one-time meal preparation, or a pantry top-up. No brand or product preference can be confirmed from this single instance.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a recurring fasting routine, a one-time meal preparation, or a pantry top-up. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

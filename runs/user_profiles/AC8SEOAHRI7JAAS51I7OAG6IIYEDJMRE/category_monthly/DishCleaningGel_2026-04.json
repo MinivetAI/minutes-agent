@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-18 (weekend), the user purchased one 2 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon variant) during the afternoon. This timing is less common than the population baseline (25.26% share vs. 32.46% for morning). The product is a large-format household cleaning supply typically used for manual dishwashing. This is a single observed transaction and does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "In April 2026, the user purchased one 2 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon) on a weekend afternoon. This single observation aligns with the population baseline for afternoon purchases (25.26% share). As this is the only recorded order for this category in the month, no stable brand or product preferences can be established. The timing and product choice are consistent with a one-time household replenishment need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This assessment is based on a single order on 2026-04-18. It is not yet established whether this brand, product size, or weekend afternoon timing represents a stable preference or routine for this user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T12:20:02",
+    "last_seen_at": "2026-04-18T12:20:02"
+  }
 }

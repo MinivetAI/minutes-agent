@@ -1,15 +1,17 @@
 {
   "date": "2026-05-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-27 (weekday), the user purchased fresh bell peppers during the evening. The order included one pack of unbranded red and yellow bell peppers (2 units) and one 250g pack of unbranded green bell peppers. This evening activity aligns with the population baseline (30.27% share). The items are consistent with immediate meal preparation, such as salads or stir-fries.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased unbranded red/yellow and green bell peppers.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered vegetables in the evening, a timing consistent with the population baseline share of 0.3027 for this daypart. The basket contained one pack of unbranded red and yellow capsicum (2 units) and one 250 g pack of unbranded green capsicum. These fresh produce items are typically used for immediate meal preparation, such as salads or stir-fries. This is a single observation on one date; it is not yet possible to establish stable brand preferences, specific product preferences, or recurring shopping routines. The specific culinary intent cannot be determined from the order alone.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for these specific brands or product types, nor does it indicate a recurring routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, specific product preferences, or recurring shopping routines. The specific culinary intent (e.g., salad vs. cooked dish) cannot be determined from the order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-27"
+    ],
+    "first_seen_at": "2026-05-27T19:04:20",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

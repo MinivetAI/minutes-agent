@@ -1,9 +1,23 @@
 {
   "date": "2026-02-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-23 (weekday), the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt during the evening. This product is a standard household staple for everyday cooking and seasoning. The purchase occurred in the evening, a period where this user's activity (0.3027) is slightly below the population baseline for morning (0.3246) but comparable to the afternoon (0.2526). This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replenishment need.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-23 (weekday), the user ordered Tata Salt Free Flowing Iodised Salt 1 kg in the evening. This timing aligns with the population baseline for evening purchases (30.27%). The product is a standard household iodized table salt used for everyday cooking and seasoning. This is a single observation on one date; it is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Tata Salt Free Flowing Iodised Salt 1 kg. This timing is consistent with the population baseline for evening purchases (30.27%). The product is a standard household iodized table salt used for everyday cooking and seasoning.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replenishment need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-02-23T19:01:08"
+  }
 }

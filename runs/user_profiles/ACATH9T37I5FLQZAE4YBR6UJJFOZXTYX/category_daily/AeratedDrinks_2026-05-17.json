@@ -1,9 +1,23 @@
 {
   "date": "2026-05-17",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one 250 ml Appy Fizz PET bottle, a single-serve sparkling fruit-flavoured carbonated beverage. The order occurred during the morning daypart, a time when activity is above the population baseline (32.46%). The product served as an immediate, single-serve refreshment or treat. This is a single observed order on one date; durable brand or flavor preferences cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-17 (weekend), the user ordered one Appy Fizz 250 ml PET Bottle in the morning. This single-serve sparkling fruit beverage was purchased for immediate refreshment. The timing aligns with the population baseline where morning accounts for 32.46% of activity. This is a single observation on one date; it is not yet established whether this represents a stable preference for Appy Fizz, sparkling fruit drinks, or morning weekend purchases. No brand or product preference can be confirmed from this isolated event.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Appy Fizz 250 ml PET Bottle (1 unit) on 2026-05-17. The timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a single-serve sparkling fruit beverage, typically used for immediate refreshment or as a quick treat.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Appy Fizz, sparkling fruit drinks, or morning weekend purchases. No brand or product preference can be confirmed from this isolated event.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

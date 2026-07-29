@@ -1,9 +1,17 @@
 {
   "date": "2026-03-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-16 (weekday), the user purchased one 100 ml single-serve mango-flavored ice cream cup from Go Zero during the evening. This timing aligns with the high population share (0.3027) for ice cream purchases in the evening daypart, suggesting a typical after-dinner or evening indulgence. The product is a small, immediate-consumption frozen dessert. This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was an impulsive craving, a specific desire for mango flavor, or a trial of the Go Zero brand.",
+  "summary_text": "On this weekday, the user purchased one Go Zero Mango Mad Over Mango Guilt Free Ice Cream Cup (100 ml) in the evening. This single-serve, small-portion frozen dessert suggests an instant sweet fix or a quick, individual indulgence rather than a bulk family purchase. The evening timing aligns with the population baseline, where evening shares (0.3027) are comparable to morning (0.3246) and afternoon (0.2526). This is a single observation from one date; it is not yet established whether this is a recurring preference for this specific brand, flavor, or format, or if it was an isolated purchase.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was an impulsive craving, a specific desire for mango flavor, or a trial of the Go Zero brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this is a recurring preference for this specific brand, flavor, or format, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T16:39:47",
+    "last_seen_at": "2026-03-16T16:39:47"
+  }
 }

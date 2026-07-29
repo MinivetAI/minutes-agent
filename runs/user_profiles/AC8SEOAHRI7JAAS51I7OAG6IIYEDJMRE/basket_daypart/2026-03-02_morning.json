@@ -1,92 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-02 (morning, weekday) contained one unit each of Eggs and Breads. The basket breadth is narrow, limited to two categories. This specific combination of Eggs and Breads is not supported by the provided category pair evidence, which lists associations for Breads with CurdYogurt, Vegetables, and Milk, but not Eggs. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on 2026-03-02 in the morning on a weekday contained one unit of Eggs and one unit of Breads. This represents a basic breakfast combination. No other products were purchased in this order.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "CurdYogurt"
-      ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be assembling ingredients for a simple breakfast or light meal, such as toast with eggs or a bread-based dish.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or recurring patterns can be inferred. The category pair evidence reflects population-level co-occurrence statistics and does not confirm that this specific user follows those patterns.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of Eggs and Breads is compatible with a need for a quick, simple breakfast or morning meal preparation.",
+  "uncertainty_text": "This inference is based on a single order on one independent date. Stable preferences or routine behaviors cannot be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-02T09:36:38"
+  }
 }

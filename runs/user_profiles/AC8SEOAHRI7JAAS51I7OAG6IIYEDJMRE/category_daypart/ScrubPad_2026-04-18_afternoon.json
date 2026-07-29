@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one pack of Flipkart Supermart Scrub Sponge Medium (Pack of 2) in the afternoon on a weekend.",
+  "summary_text": "One order of Flipkart Supermart Scrub Sponge Medium (Pack of 2) on 2026-04-18.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.26% share). The product is a basic utility item for routine household cleaning.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), but represent a common window for household maintenance tasks. The product is a utility-oriented cleaning accessory intended for routine scrubbing.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time replacement need. No other brands or product variants have been observed in this category to determine brand loyalty or category breadth.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T12:20:02",
+    "last_seen_at": "2026-04-18T12:20:02"
+  }
 }

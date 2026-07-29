@@ -1,15 +1,17 @@
 {
   "date": "2026-06-20",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-20 (weekend), the user purchased one unit of POND'S Super Light Gel Moisturiser 200 ml in the afternoon. This gel-based, oil-free face moisturizer serves as a general hydrator for skin care. The order occurred during a period of below-baseline activity for this daypart (25.26%). This single transaction does not establish a stable preference, routine, or brand loyalty; the specific reason for the purchase (e.g., replacement, trial, or immediate need) cannot be determined from this evidence alone.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased one unit of POND'S Super Light Gel Moisturiser 200 ml, a gel-based, oil-free face moisturizer, during a period of below-baseline activity (25.26%).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased one unit of POND'S Super Light Gel Moisturiser 200 ml in the afternoon. This timing aligns with the population baseline, where afternoon activity accounts for 25.26% of orders. The product is a gel-based face moisturiser designed for daily hydration and quick absorption. As this is a single observation from one date, it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this purchase (e.g., replacement, trial, or immediate need) cannot be determined from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-20"
+    ],
+    "first_seen_at": "2026-06-20T13:13:50",
+    "last_seen_at": "2026-06-20T13:13:50"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Britannia Sandwich Bread 350 g.",
+  "summary_text": "One order of Britannia Sandwich Bread 350 g (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when population share is 0.3246. The product is a standard sliced white bread loaf suitable for immediate household consumption, such as breakfast or quick sandwiches.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a daypart where this user's activity (32.46% share) is slightly below the population baseline (32.46% vs 32.46%? No, baseline is 0.3246, user share not provided for comparison other than the baseline itself. Wait, `population_daypart_baseline` is provided. The user's activity is anchored to this. The product is a mass-market staple suitable for immediate breakfast or sandwich needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or this specific timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

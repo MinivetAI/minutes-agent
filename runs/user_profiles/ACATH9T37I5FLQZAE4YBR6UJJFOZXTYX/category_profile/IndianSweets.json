@@ -1,26 +1,33 @@
 {
-  "category": "Indian Sweets",
-  "profile_text": "A single observed purchase of Indian Sweets on a weekend afternoon in June 2026. No stable preference, routine, or brand loyalty is established from this isolated transaction.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Indian Sweets",
+  "summary_text": "In June 2026, the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) on a weekend afternoon. This single observation does not establish a stable preference or recurring pattern for this category.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit purchase observed.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available.",
+  "uncertainty_text": "Preference boundaries are unknown due to a single observation. No brand, variant, or pack size preference can be established. The weekend afternoon timing is an isolated data point and does not indicate a recurring habit.",
+  "retrieval_text": "User purchased one unit of Indian Sweets (product ID SAMHHWDWYZ2DTSST) on a weekend afternoon in June 2026. This is a single, isolated observation with no established brand preference, variant preference, or recurring cadence. Confidence is low as no stable pattern or repeated behavior is evident.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-27",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence observed; last purchase was on 2026-06-27.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for IndianSweets yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Occasional purchase of Indian Sweets, potentially for personal consumption or a specific occasion.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-27T11:47:32",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

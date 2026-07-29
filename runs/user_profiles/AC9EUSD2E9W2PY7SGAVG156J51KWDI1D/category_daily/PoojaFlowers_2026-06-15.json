@@ -1,9 +1,23 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-15 (weekday), one order of Fresh Multicolor Pooja Flowers (100 g) was placed in the morning. This timing aligns with a population share of 32.46% for this category during morning hours. The product is a small, unbranded pack of fresh cut flowers intended for immediate ritual or decorative use. This is a single observation on one date; it does not establish a stable preference or routine for this category.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-15 (weekday), the user ordered Fresh Multicolor Pooja Flowers (100 g) in the morning. This timing aligns with a period of above-baseline activity (32.46%). The product is a fresh, unbranded floral assortment suitable for immediate ritual offerings or altar decoration. This is a single observation on one date; it does not establish a stable brand preference, recurring ritual schedule, or specific flower variety preference.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Ordered Fresh Multicolor Pooja Flowers (100 g) in the morning, a time when this user's activity is above the population baseline (32.46%).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring ritual schedule, or specific flower variety preference.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

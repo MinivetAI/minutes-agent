@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-05-03 in the afternoon on a weekend. The basket contains two distinct product groups purchased together: two units of Ice Creams (one unit each of two different SKUs) and four units of Aerated Drinks. No other categories were included in this transaction.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing ice cream and aerated drinks. The basket includes two distinct ice cream products and a multi-pack of aerated drinks. No other categories were purchased in this transaction.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Ice Creams",
         "Aerated Drinks"
       ],
-      "combination_text": "Ice Creams and Aerated Drinks were purchased together in this single order.",
+      "combination_text": "Ice Creams and Aerated Drinks were purchased together in one order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of ice cream and aerated drinks is compatible with a need for chilled desserts and beverages, potentially for immediate consumption or a casual treat.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `category_pair_evidence` provided relates to other categories (Breads, CurdYogurt, Vegetables, Milk, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values are applied to the Ice Creams/Aerated Drinks combination.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of ice cream and aerated drinks is compatible with a casual refreshment or dessert need.",
+  "uncertainty_text": "This analysis is based on a single order from one daypart. No durable preferences or routine behaviors can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-03"
+    ],
+    "first_seen_at": "2026-05-03T12:34:44",
+    "last_seen_at": "2026-05-03T15:13:52"
+  }
 }

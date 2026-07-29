@@ -1,9 +1,17 @@
 {
   "date": "2026-02-09",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased one 500 g pack of unbranded fresh methi (fenugreek) leaves without roots in the afternoon. This timing aligns with a lower population share (0.2526) compared to the morning baseline (0.3246). The product is a fresh, perishable leafy green typically used for immediate cooking.",
+  "summary_text": "On this weekday, the user purchased Fresh Methi Leaves Without Roots 500 g during the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping, though it aligns with the afternoon share (0.2526). The product is a fresh, perishable leafy vegetable typically used for immediate cooking. This is a single observation on one date. It is not yet established whether this represents a stable preference for methi, a specific brand (none supplied), or a one-time meal requirement.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable preference for methi or this specific brand format.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for methi, a specific brand (none supplied), or a one-time meal requirement.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-09T13:05:05"
+  }
 }

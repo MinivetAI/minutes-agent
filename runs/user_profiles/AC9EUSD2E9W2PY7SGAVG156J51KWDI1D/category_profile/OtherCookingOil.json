@@ -1,26 +1,27 @@
 {
-  "category": "Other Cooking Oil",
-  "profile_text": "A single observed purchase of a 1 L pouch of Fortune Premium Kachi Ghani Pure Mustard Oil on 2026-05-08 (weekday) during the morning. This order supports a basic need for everyday kitchen cooking oil. No durable preferences, routine buying patterns, or brand loyalty can be established from this single date alone.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Other Cooking Oil",
+  "summary_text": "In May 2026, the user ordered Fortune Premium Kachi Ghani Pure Mustard Oil (1 L Pouch) on one weekday morning. This single observation is insufficient to establish a stable preference for this brand or product, or to confirm a routine. The order was placed during a morning window, which is above the population baseline (32.46%).",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from the single observed order.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time replacement or urgent need.",
+  "retrieval_text": "In May 2026, the user purchased Fortune Premium Kachi Ghani Pure Mustard Oil in a 1 L Pouch format during a weekday morning window. This single order does not yet indicate a stable brand preference or recurring routine for Other Cooking Oil.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-08",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for OtherCookingOil yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution patterns observed due to single purchase.",
-  "price_value_text": "No price/value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports routine everyday kitchen cooking needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-08T10:08:09",
+    "last_seen_at": "2026-05-08T10:08:09"
+  }
 }

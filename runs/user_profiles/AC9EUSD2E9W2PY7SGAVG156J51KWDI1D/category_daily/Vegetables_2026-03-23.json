@@ -1,15 +1,17 @@
 {
   "date": "2026-03-23",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased one unit of Fresh New Crop Potato (0.95\u20131.05 kg) in the morning. This timing aligns with above-baseline activity (32.5% share). The item is a perishable staple suitable for immediate meal preparation or weekly stock replenishment. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific culinary intent (e.g., frying vs. boiling) is unknown.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one unit of Fresh New Crop Potato (0.95\u20131.05 kg), an unbranded fresh tuber vegetable.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user purchased Fresh New Crop Potato (0.95–1.05 kg) during the morning. This purchase aligns with the population baseline share of 0.3246 for weekday mornings. The product is a fresh, perishable staple typically used for immediate cooking or meal prep. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase reflects a regular habit or a one-time need.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific culinary intent (e.g., frying vs. boiling) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase reflects a regular habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-23"
+    ],
+    "first_seen_at": "2026-03-23T09:42:20",
+    "last_seen_at": "2026-03-23T09:42:20"
+  }
 }

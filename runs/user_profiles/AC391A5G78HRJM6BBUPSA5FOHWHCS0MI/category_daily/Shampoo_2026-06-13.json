@@ -1,9 +1,23 @@
 {
   "date": "2026-06-13",
   "day_type": "weekend",
-  "summary_text": "One unit of Patanjali Kesh Kanti Natural Hair Cleanser Shampoo (180 ml) was purchased in the evening. The product is a standard herbal shampoo used for general hair cleansing and grooming continuity. No browsing events (search, view, cart-add) were recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-13 (weekend), one unit of Patanjali Kesh Kanti Natural Hair Cleanser Shampoo (180 ml) was purchased in the evening. The evening timing aligns with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than afternoon (0.2526) or night (0.1202). The product serves general hair cleansing and grooming continuity. This single observation does not establish a stable brand preference, routine, or recurring need; it is unclear if this is a one-time replacement, a trial, or part of a larger pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One unit of Patanjali Kesh Kanti Natural Hair Cleanser Shampoo (180 ml) was purchased in the evening. The evening timing aligns with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than afternoon (0.2526) or night (0.1202). The product serves general hair cleansing and grooming continuity. This single observation does not establish a stable brand preference, routine, or recurring need; it is unclear if this is a one-time replacement, a trial, or part of a larger pattern.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned replacement, an impulse buy, or a result of specific brand loyalty. The lack of funnel events means intent signals (search/view) are unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time replacement, a trial, or part of a larger pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

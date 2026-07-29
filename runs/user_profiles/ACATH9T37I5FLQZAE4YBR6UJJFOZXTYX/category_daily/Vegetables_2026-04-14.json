@@ -1,15 +1,23 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14 (weekday), the user purchased fresh vegetable staples during the evening: one loose onion (400–450 g), one pack of fresh coriander leaves (100 g), and one pack of baby potatoes (280–320 g). This evening timing aligns with the population baseline share of 0.3027 for this daypart. The items are unbranded produce typically used for immediate meal preparation or as cooking base ingredients. This is a single observed order on one date; it does not establish a stable or recurring preference, and the specific meal context is unknown.",
+  "summary_text": "On 2026-04-14 (weekday), the user ordered unbranded fresh vegetables (onion, coriander leaves, baby potato) during the evening. This single observation aligns with the population baseline for weekday evenings (30.27%). The items are fresh produce typically used as base ingredients or garnishes for immediate meal preparation. This is a single observation; it is not yet established whether this represents a stable preference for unbranded fresh vegetables or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased fresh vegetable staples (onion, coriander, baby potatoes) during the evening on a weekday.",
+      "pattern_text": "One order of unbranded fresh vegetables (onion, coriander leaves, baby potato) placed on a weekday evening.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference. The specific meal context or reason for purchase is not known.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for unbranded fresh vegetables or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

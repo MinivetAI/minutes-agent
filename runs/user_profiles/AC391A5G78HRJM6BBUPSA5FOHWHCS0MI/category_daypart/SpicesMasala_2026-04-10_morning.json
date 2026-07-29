@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 72 g pack (12 sachets) of Maggi Masala-ae-Magic Vegetable Masala.",
+  "summary_text": "One order of Maggi Masala-ae-Magic Vegetable Masala 72 g (6 g x 12 sachets) in the Spices Masala category.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during a weekday morning, a time with high population share (32.46%). The product is a ready-to-use seasoning sachet designed for quick, everyday vegetarian cooking.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity, making it the most common daypart for this category. The product is a ready-to-use seasoning sachet, typically utilized for convenient, everyday vegetarian cooking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine purchase pattern, or a one-time need. No other products or brands in this category have been observed to determine broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-10"
+    ],
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }

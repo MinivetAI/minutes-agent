@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-05 (weekend), the user purchased 1 unit of Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50 PA++++ (30 g) during the evening. This is a face sunscreen with brightening claims and a zero-white-cast finish, typically used for daily outdoor or commuting protection. The order occurred during a time when the population share is 0.3027.",
+  "summary_text": "In April 2026, the user purchased one unit of Dot & Key Vitamin C + E Super Bright Sunscreen SPF 50 PA++++ (30 g) on a weekend evening. This timing aligns with the population baseline, where evening purchases (0.3027) are nearly as common as morning purchases (0.3246). The product is a face sunscreen with brightening claims, typically used for daily UV protection and cosmetic finish. As this is a single observation from one date, it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or routine usage patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-05T19:34:40"
+  }
 }

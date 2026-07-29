@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One Amul Butterscotch Tricone Ice Cream (120 ml) was purchased. No browsing or cart activity was recorded.",
+  "summary_text": "One Amul Butterscotch Tricone Ice Cream (120 ml) purchased on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday. The population baseline indicates this timing is less common than morning or evening peaks. The product is a single-serve cone, suitable for immediate consumption or a quick treat.",
-  "uncertainty_text": "This is a single observed order on one date. It is not yet possible to determine if this represents a stable preference for Amul, butterscotch flavor, or cone-format ice creams, or if it was a one-time impulse purchase.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a period where this user's purchase timing aligns with the population baseline (25.26% of purchases occur in the afternoon, compared to 32.46% in the morning). The product is a single-serve cone, typically associated with immediate consumption or a quick indulgence rather than bulk stocking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, flavor, or format, or if this was an isolated impulse purchase. No stable brand or product preference can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-24T13:00:27",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

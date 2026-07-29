@@ -1,7 +1,7 @@
 {
   "date": "2026-03-14",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-14 (weekend), a single order was placed during the evening daypart. The basket contained five distinct items across five categories: Canned Food, Milk, Breads, Curd Yogurt, and Savouries Namkeens. The user purchased one unit each of Canned Food, Milk, Breads, and Savouries Namkeens, and two units of Curd Yogurt. This represents a single observation of a diverse, multi-category basket.",
+  "summary_text": "On 2026-03-14 (weekend), a single order was placed in the evening. The basket contained five items across five distinct categories: Canned Food, Milk, Breads, Curd Yogurt, and Savouries Namkeens. Quantities included one unit each of Canned Food, Milk, and Breads, two units of Curd Yogurt, and one unit of Savouries Namkeens. This represents a single observation of basket breadth and category combination; no durable preference or routine can be inferred from this isolated transaction. The combination of Breads, Milk, Curd Yogurt, and Savouries Namkeens is compatible with a breakfast or light meal preparation need. This inference is based on a single order on one date. Stable preferences or routines cannot be determined from this isolated observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,9 @@
       "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -23,7 +25,9 @@
       "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.086,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,7 +37,9 @@
       "combination_text": "Canned Food and Curd Yogurt were purchased together in this order.",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -43,11 +49,20 @@
       "combination_text": "Milk and Savouries Namkeens were purchased together in this order.",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic meal components or snacks, potentially for a simple evening meal or weekend gathering, given the combination of dairy, bread, canned goods, and savory snacks.",
-  "uncertainty_text": "This is a single observed order on one date. No durable preferences or recurring patterns can be inferred. The presence of specific category pairs (e.g., Breads and Curd Yogurt) is noted based on this single transaction and the provided population-level support/confidence/lift metrics, but does not indicate a stable user habit.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Breads, Milk, Curd Yogurt, and Savouries Namkeens is compatible with a breakfast or light meal preparation need.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences or routines cannot be determined from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-14"
+    ],
+    "first_seen_at": "2026-03-14T16:59:17",
+    "last_seen_at": "2026-03-14T16:59:17"
+  }
 }

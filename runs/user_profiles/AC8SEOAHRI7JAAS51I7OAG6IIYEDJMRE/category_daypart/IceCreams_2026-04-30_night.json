@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1 L tub of Amul Cookies & Cream Gold Ice Cream during the night on a weekday.",
+  "summary_text": "One order of Amul Cookies & Cream Gold Ice Cream (1 L) placed on a weekday night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred at night, a period with lower population share (0.1202) compared to morning (0.3246) and evening (0.3027). The product is a large-format frozen dessert suitable for home storage and immediate consumption.",
-  "uncertainty_text": "This is a single observed order; no durable brand or flavor preference can be established. It is unclear if this was a spontaneous craving, a replacement for low freezer stock, or part of a larger shopping trip not captured in this specific category view.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred at night, a time when the user's activity is less common than the population baseline (night share 0.1202 vs. morning 0.3246, evening 0.3027). The product is a 1 L family-sized tub, suggesting a utility for home consumption, portioning, or immediate dessert needs rather than single-serve indulgence.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Amul, cookies-and-cream flavors, or night-time ordering. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T21:23:36",
+    "last_seen_at": "2026-04-30T21:23:36"
+  }
 }

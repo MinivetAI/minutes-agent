@@ -1,25 +1,19 @@
 {
   "date": "2026-03-21",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-21 (weekend), two distinct orders were placed across different dayparts. The afternoon order contained four distinct items: Ready Mixes, Paneer Tofu, Rice, and Ready Meals, combining a staple carbohydrate with protein and convenience options. The evening order consisted exclusively of four distinct items from the Fruits category. No durable preference pattern can be established from this single observation.",
+  "summary_text": "On this weekend, the user placed two separate orders. The afternoon order included a mix of meal components: a ready mix, paneer tofu, rice, and a ready meal, suggesting preparation for a home-cooked or quick dinner. The evening order consisted exclusively of items from the Fruits category, indicating a targeted purchase of fresh produce. No recurring patterns or stable preferences can be inferred from these isolated transactions.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Ready Mixes",
-        "Paneer Tofu",
-        "Rice",
-        "Ready Meals"
-      ],
-      "combination_text": "Single order containing Ready Mixes, Paneer Tofu, Rice, and Ready Meals.",
-      "support": 0.0,
-      "lift": 0.0,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for a convenient, ready-to-eat or easy-to-prepare meal involving rice and protein (afternoon), and a need for fresh fruit items (evening).",
-  "uncertainty_text": "This analysis is based on a single order from one independent date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this single data point. Claims of stability require evidence from at least two independent dates.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "Afternoon: Preparing a home-cooked meal or assembling a quick dinner using ready mixes, paneer tofu, rice, and ready meals. Evening: Acquisition of fresh fruit items.",
+  "uncertainty_text": "This description is based on single observed orders on one independent date. Stable preferences, routine behaviors, or durable category affinities cannot be inferred from these isolated transactions. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-03-21T20:53:08"
+  }
 }

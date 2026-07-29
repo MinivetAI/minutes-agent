@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 450 g can of Del Monte Baked Beans during the afternoon on a weekend.",
+  "summary_text": "One order of Del Monte Baked Beans 450 g (1 unit) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time when this user's activity is below the population baseline (25.26% share vs. 32.46% for morning). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for convenient meal components or backup food supplies.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for canned beans or the Del Monte brand. No browsing or search history is available to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares, but still represent a significant portion of activity. The product is a shelf-stable canned item, typically used as a convenient pantry staple or quick meal component.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to establish a stable brand preference for Del Monte, a recurring daypart habit, or a specific use case (e.g., breakfast vs. dinner side) based on this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T11:24:33",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 350 g pack of Nestle Cerelac Wheat Apple Cherry (8+ months) and one 300 g pack of Nestle Cerelac Multigrain & Fruits (12+ months) in the morning.",
+  "summary_text": "One order of Nestle Cerelac Wheat Apple Cherry Baby Food Cereal (350 g) and Nestlé CERELAC Multigrain & Fruits Baby Cereal (300 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekend, a time when population share is 0.3246. The products are complementary infant and toddler cereals, typically used for quick, age-appropriate feeding routines or stock replenishment.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekend. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are complementary baby foods intended for infants and toddlers, typically used for quick, age-appropriate feeding routines or stock replenishment.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable brand preference, a routine feeding pattern, or a one-time replenishment need. No other orders are available to confirm repetition of these brands or this timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T09:05:54",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

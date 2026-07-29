@@ -1,9 +1,18 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased ice cream on two independent dates, but no single brand, product, or variant recurred across both orders. The first order (2026-05-08) involved two 300 ml tubs of Frubon ice cream (Shahi Rabri Kulfi and Litchi Faluda) during a night-time session. The second order (2026-05-26) involved two single-serve sticks from different brands (Amul Mango Duetz Gold and Vadilal Almond Choco Crunch Badabite) during the evening. Because no value repeated across independent dates, no stable preference claims can be established for brands or products. The daypart patterns (night and evening) also appear only once each, so no stable daypart preference is claimed. The user demonstrates interest in immediate-consumption formats (tubs and sticks) on weekdays, but this is based on single observations per date.",
+  "summary_text": "In May 2026, the user ordered ice cream on two independent dates (May 8 and May 26), both on weekdays. The May 8 order occurred at night and included two 300 ml Frubon tubs (Shahi Rabri Kulfi and Litchi Faluda). The May 26 order occurred in the evening and included one Amul Mango Duetz Gold stick and one Vadilal Almond Choco Crunch Badabite. Because each brand and product variant appears on only one independent date, no stable brand or product preference is established. The user’s ordering timing is split between night and evening, with no single daypart recurring across dates.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No brands, products, or dayparts recurred across the two independent dates in May 2026. Therefore, no stable preferences can be inferred. The observed behaviors are limited to single-date observations.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Each brand and product variant was observed on only one independent date; therefore, no stable brand, flavor, or daypart preference can be confirmed. The two orders occurred on different dayparts (night vs. evening) and different weekdays, preventing identification of a consistent timing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-08",
+      "2026-05-26"
+    ],
+    "first_seen_at": "2026-05-08T21:40:27",
+    "last_seen_at": "2026-05-26T20:29:04"
+  }
 }

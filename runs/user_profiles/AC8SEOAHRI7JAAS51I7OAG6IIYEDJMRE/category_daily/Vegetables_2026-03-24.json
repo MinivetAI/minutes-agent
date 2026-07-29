@@ -1,15 +1,17 @@
 {
   "date": "2026-03-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-24 (weekday), the user placed one order of Unbranded Cauliflower 400-600g (1 unit) in the morning. This purchase aligns with a morning shopping pattern (32.5% population share) and suggests an immediate kitchen-fill need for a fresh vegetable, likely for same-day cooking or a side dish. This is a single observation; there is no evidence of repeated purchasing behavior, brand loyalty, or stable long-term preference.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "One order of Unbranded Cauliflower 400-600g (1 unit) placed in the morning. Purchased during the morning (32.5% population share), suggesting an immediate kitchen-fill need for a fresh vegetable, likely for same-day cooking or a side dish.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user purchased one unit of Unbranded Cauliflower (400-600g) during the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, suggesting a standard daily shopping window. The product is a fresh vegetable typically used for immediate meal preparation.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; no evidence of repeated purchasing behavior or specific brand loyalty.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for cauliflower, a specific brand (none was supplied), or a routine morning shopping habit. No other products or dates are available to establish broader dietary or brand patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T07:53:10",
+    "last_seen_at": "2026-03-24T07:53:10"
+  }
 }

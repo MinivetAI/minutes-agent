@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "On 2026-06-27 (weekend), the user purchased 2 units of Amul Sweet Lassi 250 ml during a morning session. This purchase aligns with the user's morning activity level, which is 32.46% of their total weekly volume (population baseline). The product is a ready-to-drink chilled dairy beverage suitable for immediate consumption or a quick refreshment break.",
+  "summary_text": "In June 2026, the user ordered Amul Sweet Lassi 250 ml on a single weekend date (2026-06-27) in the morning. This represents a single observation and does not establish a stable preference for the brand, product variant, or timing. The order suggests a need for immediate refreshment or a quick snack-time accompaniment.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand. The specific reason for choosing this brand or format over alternatives is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Amul, sweet lassi, or morning weekend shopping. No other brands or product types in this category have been observed to determine dominance or variety.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T10:28:03",
+    "last_seen_at": "2026-06-27T10:28:03"
+  }
 }

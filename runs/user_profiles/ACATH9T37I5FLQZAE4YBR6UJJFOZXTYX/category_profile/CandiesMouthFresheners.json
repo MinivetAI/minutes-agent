@@ -1,26 +1,27 @@
 {
-  "category": "Candies Mouth Fresheners",
-  "profile_text": "A single order of Delight Nuts Premium Orange Candy (130 g) was placed on a weekday morning in June 2026. This isolated observation does not establish a stable brand or product preference, nor does it indicate a recurring routine. No browsing or search history is available to determine if this was a planned purchase or an impulse buy.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Candies Mouth Fresheners",
+  "summary_text": "The user has a single observed order for Delight Nuts Premium Orange Candy (130 g) on 2026-06-03. This is a small, portable confectionery used for immediate freshness or a quick sweet treat. The order occurred in the morning, aligning with the population baseline where morning accounts for 32.46% of orders. Due to the single observation, no stable brand, product, or timing preferences can be established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established due to single observation.",
+  "uncertainty_text": "This category is based on a single order from June 2026. It is unknown if the user prefers this specific brand (Delight Nuts), product (Orange Candy), or pack size (130 g). The morning timing may be coincidental. No other brands or product forms in this category have been observed.",
+  "retrieval_text": "User ordered Delight Nuts Premium Orange Candy (130 g) on 2026-06-03 in the morning. This is a small, portable confectionery for immediate freshness. Evidence is limited to one date; brand, product, and timing preferences are not yet stable.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-03",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was a single isolated event on 2026-06-03.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for CandiesMouthFresheners yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category is not reliably converted to purchase based on available evidence; only one completed purchase is observed with no prior search or cart activity to indicate a funnel.",
-  "substitution_text": null,
-  "price_value_text": "No price or value behavior can be inferred from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the category is simply under-observed.",
-  "mission_generation_text": "Supports immediate oral freshness or a sweet snack need.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

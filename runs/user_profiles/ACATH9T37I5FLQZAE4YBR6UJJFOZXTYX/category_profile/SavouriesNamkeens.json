@@ -1,52 +1,84 @@
 {
-  "category": "Savouries Namkeens",
-  "profile_text": "The user demonstrates a stable, high-frequency purchasing pattern for Savouries Namkeens, anchored by a fast replenishment cadence. There are two distinct, stable brand preferences: Too Yumm! (specifically Sour Cream and Onion Veggie Stix) and Bikaji (specifically Chowpati Bhelpuri). These preferences are supported by repeated purchases across multiple months (Feb–May), establishing them as durable habits rather than isolated trials. The user also exhibits exploratory behavior, occasionally purchasing single-occasion items from other brands like Haldiram's and Pajaka. Timing is flexible, with purchases occurring on weekdays and weekends, and across morning, afternoon, and evening dayparts, suggesting the category serves as a general flexible snack rather than a tied-to-specific-event item.",
-  "brand_preferences": [
+  "category_name": "Savouries Namkeens",
+  "summary_text": "The user demonstrates a stable, medium-confidence preference for two distinct savoury snack profiles: Too Yumm! Sour Cream and Onion Veggie Stix (35 g) and Bikaji Chowpati Bhelpuri (110 g). Too Yumm! orders occurred on weekdays (morning/afternoon) across February and March, while Bikaji orders occurred on weekends (afternoon) in April and May. Haldiram's Moong Dal was observed once in March and once in June, remaining a single-date observation. No high-confidence routine exists due to the split between two primary brands and varying dayparts.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Too Yumm!",
+        "preference_text": "Stable preference for Too Yumm! savoury snacks, evidenced by orders on 2 independent dates in February 2026 and 2 independent dates in March 2026.",
+        "confidence": "medium",
+        "boundary_text": "Preference is specific to the Sour Cream and Onion Veggie Stix variant; it does not extend to other Too Yumm! products or other brands."
+      },
+      {
+        "brand": "Bikaji",
+        "preference_text": "Stable preference for Bikaji savoury snacks, evidenced by orders on 2 independent dates in April 2026 and 2 independent dates in May 2026.",
+        "confidence": "medium",
+        "boundary_text": "Preference is specific to the Chowpati Bhelpuri 110 g pack; it does not extend to other Bikaji products or other brands."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Sour Cream and Onion Veggie Stix",
+        "preference_text": "Stable preference for Too Yumm! Sour Cream and Onion Veggie Stix, evidenced by orders on 2 independent dates in February 2026 and 2 independent dates in March 2026.",
+        "confidence": "medium"
+      },
+      {
+        "variant": "Chowpati Bhelpuri",
+        "preference_text": "Stable preference for Bikaji Chowpati Bhelpuri, evidenced by orders on 2 independent dates in April 2026 and 2 independent dates in May 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "35 g",
+        "preference_text": "Stable preference for 35 g pack sizes, evidenced by orders of Too Yumm! Veggie Stix on 2 independent dates in February 2026 and 2 independent dates in March 2026.",
+        "confidence": "medium"
+      },
+      {
+        "pack_size": "110 g",
+        "preference_text": "Stable preference for 110 g pack sizes, evidenced by orders of Bikaji Bhelpuri on 2 independent dates in April 2026 and 2 independent dates in May 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": [
+      {
+        "quantity": 2,
+        "preference_text": "Stable preference for ordering quantity 2, evidenced by orders of Bikaji Bhelpuri on 2 independent dates in April 2026 and 2 independent dates in May 2026.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "daypart_understanding": [
     {
-      "brand": "Too Yumm!",
-      "preference_text": "Stable preference for Too Yumm! savoury snacks, evidenced by purchases on multiple independent dates in February and March 2026.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
+      "daypart": "afternoon",
+      "behavior_text": "Stable preference for afternoon purchases, evidenced by orders of Bikaji Bhelpuri on 2 independent weekend dates in April 2026.",
+      "confidence": "medium"
     },
     {
-      "brand": "Bikaji",
-      "preference_text": "Stable preference for Bikaji savoury snacks, evidenced by purchases on multiple independent dates in April and May 2026.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for Too Yumm! Sour Cream and Onion Veggie Stix (35 g), evidenced by purchases on multiple independent dates in February and March 2026.",
-      "examples": [],
-      "confidence": "high"
+      "daypart": "morning",
+      "behavior_text": "Observed pattern for morning purchases, evidenced by orders of Too Yumm! Veggie Stix on 1 independent date in February 2026 and 1 independent date in March 2026, and Haldiram's Moong Dal on 1 independent date in June 2026.",
+      "confidence": "low"
     },
     {
-      "preference_text": "Stable preference for Bikaji Chowpati Bhelpuri 110 g, evidenced by purchases on multiple independent dates in April and May 2026.",
-      "examples": [],
-      "confidence": "high"
+      "daypart": "night",
+      "behavior_text": "Observed pattern for night purchases, evidenced by 1 order of Bikaji Bhelpuri on 1 independent date in May 2026.",
+      "confidence": "low"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "Too Yumm! Veggie Stix and Bikaji Bhelpuri are treated as distinct, non-substitutable preferences due to different brands, variants, and pack sizes. Haldiram's Moong Dal is a single-observation item and its substitutability is unknown.",
+  "uncertainty_text": "The user splits preference between two brands (Too Yumm! and Bikaji) and two pack sizes (35 g and 110 g). While Too Yumm! is bought on weekdays and Bikaji on weekends, the daypart for Bikaji is only established for afternoons, and for Too Yumm! it is split between morning and afternoon. It is unknown if the user prefers one brand over the other in terms of volume or frequency, or if the split is purely contextual (weekday vs. weekend). Haldiram's is an unproven single observation.",
+  "retrieval_text": "User exhibits stable medium-confidence preferences for two distinct savoury namkeen profiles: Too Yumm! Sour Cream and Onion Veggie Stix in 35 g packs, ordered on weekdays (morning/afternoon) in Feb and Mar 2026; and Bikaji Chowpati Bhelpuri in 110 g packs, ordered on weekend afternoons in Apr and May 2026. Haldiram's Moong Dal 200 g was observed once in Mar and Jun 2026. No single brand dominates; preferences are split by product type and timing.",
   "replenishment": {
     "cadence_days": 5.5,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-06-07",
     "predicted_next_purchase_date": "2026-06-12",
-    "replenishment_text": "The user purchases this category approximately every 5.5 days, classified as a fast replenishment cycle. The last purchase was on 2026-06-07, with the next predicted purchase around 2026-06-12.",
-    "confidence": "high",
-    "evidence_count": 15,
-    "independent_date_count": 15
+    "replenishment_text": "SavouriesNamkeens is reordered roughly every 6 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by the high volume of completed transactions across multiple months and brands.",
-  "substitution_text": "The user shows flexibility between two main brands (Too Yumm! and Bikaji) and occasionally substitutes with other brands (Haldiram's, Pajaka) on single dates, indicating openness to variety within the savoury namkeen segment.",
-  "price_value_text": "No explicit price or value behavior data is provided in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. Single-occasion purchases (e.g., Haldiram's Moong Dal, Pajaka Chiwda) are noted but do not form stable patterns.",
-  "mission_generation_text": "Supports regular, flexible snacking needs, including ready-to-eat chaat mixes and veggie stix, consumed throughout the day and week without a rigid daily routine.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 15,
+    "independent_date_count": 15,
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-06-07T12:10:26"
+  }
 }

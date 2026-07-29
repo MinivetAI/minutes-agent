@@ -1,12 +1,32 @@
 {
   "date": "2026-03-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-17, a weekday, a single order was placed in the afternoon. The basket contained two distinct items: one unit of Bathroom Floor Cleaner and one unit of Sugar. The basket breadth is narrow, comprising two unrelated categories (cleaning supplies and a food ingredient). No durable preference pattern can be inferred from this single observation. The purchase of bathroom floor cleaner suggests a need for cleaning or maintaining bathroom hygiene. The purchase of sugar suggests a need for food preparation or sweetening. These needs are compatible with the observed basket but do not imply a broader household routine. This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be established from this isolated event. Confidence in any inferred user behavior is low.",
+  "summary_text": "On 2026-03-17 (weekday), a single afternoon order included one unit each of a Bathroom Floor Cleaner and Sugar. The basket is narrow, comprising two distinct categories: cleaning supplies and a pantry staple. The combination suggests a general household replenishment need, potentially covering both maintenance and basic cooking ingredients. No durable preferences, routines, or stable patterns can be inferred from this isolated observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of bathroom floor cleaner suggests a need for cleaning or maintaining bathroom hygiene. The purchase of sugar suggests a need for food preparation or sweetening. These needs are compatible with the observed basket but do not imply a broader household routine.",
-  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be established from this isolated event. Confidence in any inferred user behavior is low.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Cleaning Supplies",
+        "Pantry Staples"
+      ],
+      "combination_text": "Bathroom Floor Cleaner and Sugar",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "General household replenishment need, potentially covering both maintenance and basic cooking ingredients.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated observation. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T14:48:16",
+    "last_seen_at": "2026-03-17T14:48:16"
+  }
 }

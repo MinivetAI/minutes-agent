@@ -1,22 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-02-26 (morning, weekday) containing seven items across seven distinct categories: Sunflower Oil, Ready Mixes, Soya Products, Other Pulses, Vegetables (quantity 2), Milk, and Curd Yogurt. The basket reflects a broad range of staple and fresh food needs, combining pantry staples (oils, mixes, pulses) with fresh dairy and produce. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-02-26 in the morning on a weekday. The basket contains seven items across seven distinct categories: Sunflower Oil, Ready Mixes, Soya Products, Other Pulses, Vegetables, Milk, and Curd Yogurt. The order includes two units of Vegetables and one unit each of the other products. This represents a single observation of basket breadth and category combination; no durable preference or routine can be inferred from this isolated transaction.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.3,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order suggests a need for basic meal preparation ingredients, including cooking oil, protein sources (soya, pulses, dairy), and fresh vegetables.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of staple cooking ingredients (Sunflower Oil, Ready Mixes, Soya Products, Other Pulses) with fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) is compatible with preparing home-cooked meals or stocking up on daily essentials.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Confidence in any inferred behavior pattern is low because stable preferences require evidence across multiple independent dates. No search, cart, or page-view data is available to confirm intent beyond the completed purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

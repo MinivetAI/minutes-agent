@@ -1,11 +1,11 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user placed two independent orders in the Diaper category. Both orders were for Pampers Complete Skin Comfort products, specifically the Pants variant in sizes L and XL. The first order occurred on a weekday afternoon, a time with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The second order occurred on a weekend evening, aligning with the population baseline share of 0.3027 for this daypart. The products are disposable diaper variants intended for infant hygiene, typically used for restocking, overnight coverage, or managing wetness and skin comfort. The recurrence of the Pampers brand and Complete Skin Comfort line across two independent dates supports a stable preference claim, though the specific size change (L to XL) may indicate growth-related needs rather than a static product preference. No browsing or cart activity was observed to indicate comparison or hesitation.",
+  "summary_text": "In January 2026, the user placed two independent orders for Pampers diapers. One order was for Pampers Complete Skin Comfort Pants (L, 64 count) on a weekday afternoon, and the other was for Pampers Complete Skin Comfort Pant Diapers XL (56 Count) on a weekend evening. While the brand 'Pampers' and the product line 'Complete Skin Comfort' appear on two independent dates, the specific variants (size L vs. XL) and dayparts (afternoon vs. evening) differ. The recurrence of the brand and product line across two dates supports a stable preference claim for the brand/product line, but the variation in size and timing suggests no single specific variant or daypart is yet established as a stable routine. The afternoon timing is less common than morning or evening based on population baselines, while the evening timing aligns with the baseline.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Pampers",
-      "claim_text": "The user has ordered Pampers products on 2 independent dates in January 2026.",
+      "claim_text": "The user has ordered Pampers diapers on two independent dates in January 2026 (2026-01-28 and 2026-01-31).",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,14 +13,28 @@
     {
       "dimension": "product",
       "value": "Pampers Complete Skin Comfort",
-      "claim_text": "The user has ordered Pampers Complete Skin Comfort products on 2 independent dates in January 2026.",
+      "claim_text": "The user has ordered Pampers Complete Skin Comfort products on two independent dates in January 2026 (2026-01-28 and 2026-01-31).",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "The sample size is limited to two independent dates. While the brand and product line are stable, the size change (L to XL) suggests evolving needs. No browsing or cart data is available to confirm comparison behavior or hesitation. The specific driver for the second order (e.g., stockout, routine restock, growth) is unknown.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "The user ordered Pampers Complete Skin Comfort Pants in size L on a weekday afternoon and size XL on a weekend evening. The shift from L to XL may indicate growth in the child's size, but this is a single month's observation and not yet a confirmed trend.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "This analysis is based on only two independent orders in January 2026. While the brand and product line recur, the specific sizes (L and XL) and dayparts (afternoon and evening) differ. It is not yet possible to determine if the user has a stable preference for a specific size or daypart, or if these are distinct needs. The overall confidence in inferred user behavior is low due to the limited number of observations.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-01-28",
+      "2026-01-31"
+    ],
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-01-31T19:05:26"
+  }
 }

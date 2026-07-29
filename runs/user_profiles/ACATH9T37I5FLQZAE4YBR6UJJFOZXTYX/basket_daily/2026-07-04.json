@@ -1,7 +1,7 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On this weekend, a single complete order was placed during the morning daypart. The basket contained 13 items across five categories: Vegetables (7 units), Milk (2 units), Curd Yogurt (2 units), Baby Cereal (2 units), and Chips (1 unit). The combination of fresh produce, dairy staples, and baby food suggests a household grocery restock. This is a single observed order; durable preferences or stable patterns cannot be inferred.",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket contained fresh produce (vegetables), dairy (two types of milk, curd yogurt), baby food (baby cereal), and snacks (chips). This combination is compatible with preparing a family breakfast or stocking up on daily essentials. Because this is a single observation on one date, durable preferences or routine behaviors cannot be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,44 +10,59 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were ordered together.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Vegetables were ordered together.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Milk"
       ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Milk were ordered together.",
       "support": 0.344,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Baby Cereal",
         "Vegetables"
       ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "combination_text": "Baby Cereal and Vegetables were ordered together.",
       "support": 0.246,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Household grocery restock including fresh produce, dairy, and baby food.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Stocking up on fresh produce, dairy, and baby essentials for the weekend.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T09:05:54",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

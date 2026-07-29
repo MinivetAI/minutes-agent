@@ -1,23 +1,19 @@
 {
   "date": "2026-05-07",
   "day_type": "weekday",
-  "summary_text": "A single order placed in the morning on a weekday. The basket contains 10 items across 6 categories: Chocolates (3 units), Milk (2 units), Wheat Flour (2 units), Besan (1 unit), Tea (1 unit), Curd Yogurt (1 unit), and Fruit Drinks (1 unit). The combination of Milk, Wheat Flour, and Chocolates suggests a need for breakfast ingredients and snacks. No abandoned carts were recorded for this daypart.",
+  "summary_text": "A single order placed on 2026-05-07 in the morning on a weekday. The basket contains 10 items across 6 categories: Chocolates (3 units), Milk (2 units), Wheat Flour (2 units), and single units of Besan, Tea, Curd Yogurt, and Fruit Drinks. The combination of Milk and Wheat Flour is observed. No other category pairs from the supplied evidence list appear in this specific order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Milk",
-        "WheatFlour"
-      ],
-      "combination_text": "Milk and Wheat Flour were purchased together in the same order.",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing breakfast items or stocking up on dairy and baking staples.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not stable or recurring.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "A morning meal or breakfast preparation involving dairy, grains, and beverages, possibly with a sweet component.",
+  "uncertainty_text": "This is a single observation on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T10:53:08"
+  }
 }

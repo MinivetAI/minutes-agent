@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 500 g multi-pack of Colgate Strong Teeth Anticavity Toothpaste during the afternoon on a weekend.",
+  "summary_text": "One order of Colgate Strong Teeth Anticavity Toothpaste (500 g combo pack) on 2026-07-04.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.3% share vs. 32.5% for mornings and 30.3% for evenings). The product is a high-volume household essential, suggesting a practical restock or bulk-buying need rather than an immediate, time-sensitive emergency.",
-  "uncertainty_text": "Confidence is low because this is the only observed order on a single date; it is unclear if this represents a stable preference for Colgate or a one-time purchase. The specific reason for choosing the afternoon slot or the 500 g pack size over other options is not established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing contrasts with the population baseline, which shows a higher share of toothpaste purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a value multi-pack, suggesting a restock or bulk-buying utility rather than an immediate single-use need.",
+  "uncertainty_text": "This is a single observation on one date, so no stable brand preference, routine timing, or recurring purchasing pattern can be established. It is unclear if this represents a one-time stock-up or a habitual behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:46:46",
+    "last_seen_at": "2026-07-04T11:46:46"
+  }
 }

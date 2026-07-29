@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 3 units of Amul Lactose Free Milk 250 ml and 1 unit of Mother Dairy Cow Milk 500 ml during a morning weekday session.",
+  "summary_text": "One order of Amul Lactose Free Milk 250 ml (quantity 3) and one order of Mother Dairy Cow Milk 500 ml (quantity 1) in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning (32.46% population share), consistent with restocking for immediate breakfast or daily consumption needs. The mix of ambient-stable lactose-free packs and a short-shelf-life refrigerated cow milk suggests a need for both immediate consumption and a safe, portable dairy option.",
-  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned restocking and urgent stockout recovery. The specific dietary need (lactose intolerance vs. preference) is inferred from the product type but not confirmed by user intent signals.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Orders placed in the morning, a daypart with a population share of 0.3246. The products are immediate-consumption dairy items: lactose-free UHT milk for quick, safe consumption and refrigerated cow milk for short-shelf-life, same-day use.",
+  "uncertainty_text": "No stable brand or product preference can be established from a single date. It is unclear if the user requires lactose-free options specifically or if this was a one-time accommodation, and whether the mix of UHT and refrigerated milk reflects a specific storage preference or just immediate availability needs.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-18"
+    ],
+    "first_seen_at": "2026-02-18T07:45:34",
+    "last_seen_at": "2026-02-18T08:18:12"
+  }
 }

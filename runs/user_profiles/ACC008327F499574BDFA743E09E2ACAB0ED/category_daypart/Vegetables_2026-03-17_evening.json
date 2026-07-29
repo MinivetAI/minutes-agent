@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased five fresh vegetable items: Fresh Ginger (190-210 g), Cauliflower (400-600g), Tinda (500 g), Bottle Gourd (400–600 g, quantity 2), and two additional unbranded vegetable SKUs (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ).",
+  "summary_text": "One order of fresh vegetables placed on a weekday evening, including fresh ginger, cauliflower, tinda, bottle gourd (quantity 2), and two additional unidentified vegetable items.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed on a weekday evening, a time when population share (30.27%) is comparable to morning (32.46%) and higher than afternoon (25.26%). The basket consists entirely of fresh, perishable produce (ginger, cauliflower, tinda, bottle gourd) typically used for immediate meal preparation, suggesting a same-day cooking need or a last-minute replacement for ingredients missing from the kitchen.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables or this evening timing. The two unbranded SKUs (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ) lack descriptive names, so their specific identity and utility are unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening on a weekday, which aligns with the population baseline where evening (0.3027) is nearly as common as morning (0.3246). The basket consists of fresh, perishable produce typically used for immediate meal preparation, suggesting a same-day cooking need or a last-minute kitchen replenishment.",
+  "uncertainty_text": "With only one observed order, it is not possible to determine if this represents a stable preference, a one-time stockout replacement, or a specific meal plan. The two unidentified products (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ) prevent a complete description of the basket's composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T18:13:48",
+    "last_seen_at": "2026-03-17T18:13:48"
+  }
 }

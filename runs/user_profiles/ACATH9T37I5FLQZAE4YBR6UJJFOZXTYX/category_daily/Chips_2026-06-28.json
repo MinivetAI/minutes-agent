@@ -1,9 +1,17 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On this weekend morning, one unit of KURKURE Playz Puffcorn Yummy Cheese (80 g) was purchased, alongside one additional unidentified chips product (CHPHK5F28WGW2UNS). The timing aligns with the population baseline, where 32.46% of chip purchases occur in the morning. The purchased item is a light, crunchy snack typically associated with immediate cravings or casual snacking rather than meal replacement.",
+  "summary_text": "On this weekend, the user purchased Kurkure Playz Puffcorn Yummy Cheese (80 g) and one other unidentified chip product during the morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity. The items are general-purpose savory snacks suitable for immediate consumption or casual snacking. With only one observed order, no stable brand, product, or daypart preferences can be established.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date. It is not yet established whether this represents a stable preference for cheese-flavoured puffcorns or a one-time purchase. The specific identity and brand of the second ordered product (CHPHK5F28WGW2UNS) are unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "The identity of the second chip product is unknown. With only one observed order, no stable brand, product, or daypart preferences can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

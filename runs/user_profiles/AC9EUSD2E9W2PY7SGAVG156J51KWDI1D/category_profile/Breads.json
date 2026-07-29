@@ -1,40 +1,34 @@
 {
-  "category": "Breads",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for the Britannia brand in the Breads category, evidenced by purchases across six independent months (February 2026 through July 2026). The primary product preference is Britannia Breakfast Slice White Bread 450 g, which has been purchased on multiple independent dates in March, June, and July, establishing a high-confidence stable preference for this specific variant. A secondary, lower-confidence observation exists for Britannia Sandwich Bread 350 g, seen on single dates in May, June, and July, but this does not constitute a stable routine. Purchasing timing is flexible, occurring across morning, afternoon, and evening dayparts on both weekdays and weekends, though morning purchases align with population norms. The user exhibits a fast replenishment cadence, purchasing approximately every 6 days.",
-  "brand_preferences": [
-    {
-      "brand": "Britannia",
-      "preference_text": "The user has a stable preference for Britannia bread, evidenced by purchases on 4 independent dates in July 2026 alone, and consistent presence across multiple months.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Britannia Breakfast Slice White Bread 450 g, evidenced by purchases on 5 independent dates in June 2026 and 3 independent dates in July 2026.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 6.0,
-    "cadence_class": "fast",
-    "last_purchase_date": "2026-07-21",
-    "predicted_next_purchase_date": "2026-07-27",
-    "replenishment_text": "The user purchases this category approximately every 6 days, indicating a fast replenishment cycle typical for staple food items.",
-    "confidence": "high",
-    "evidence_count": 18,
-    "independent_date_count": 18
+  "category_name": "Breads",
+  "summary_text": "The user demonstrates a strong, stable preference for Britannia brand bread, with purchases recorded across six consecutive months (February–July 2026). The primary product is Britannia Breakfast Slice White Bread 450 g, which appears on multiple independent dates in March, June, and July, establishing a high-confidence stable preference. Britannia Sandwich Bread 350 g is also purchased but less frequently, appearing on single dates in April, May, and July, indicating it is a secondary or occasional choice rather than a core habit. Purchases occur across all dayparts (morning, afternoon, evening) and both weekdays and weekends, showing no rigid timing routine, though morning purchases are common. The user exclusively buys Britannia brand within this category.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Britannia",
+        "preference_text": "The user consistently purchases Britannia brand bread, with evidence spanning multiple months and independent dates.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Britannia brand within the Breads category and does not extend to other bread brands or non-bread grocery items."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions across multiple months without unfulfilled cart or search activity.",
-  "substitution_text": "The user shows flexibility in product variant (switching between 450 g Breakfast Slice and 350 g Sandwich Bread) but maintains brand loyalty to Britannia, suggesting low substitution risk for the brand but potential for variant switching.",
-  "price_value_text": "No explicit price or value behavior data is available in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior or uncertainty signals were detected.",
-  "mission_generation_text": "Supports daily breakfast and sandwich preparation needs, requiring regular replenishment of sliced white bread for immediate meal continuity.",
-  "overall_confidence": "high"
+  "daypart_understanding": [],
+  "substitution_text": "The user shows a clear preference for Britannia Breakfast Slice White Bread 450 g. Britannia Sandwich Bread 350 g is an acceptable alternative within the same brand, but switching to a different brand is not supported by evidence. No evidence suggests the user substitutes bread with other food categories.",
+  "uncertainty_text": "While the brand preference (Britannia) and primary product (Breakfast Slice White Bread 450 g) are stable, the user's specific daypart and day-of-week timing are inconsistent, appearing across morning, afternoon, and evening on both weekdays and weekends. It is unclear if the user has a preferred daypart or if purchases are driven by immediate need. The stability of the secondary product (Sandwich Bread 350 g) is low, as it appears on isolated dates.",
+  "retrieval_text": "The user exhibits a high-confidence stable preference for Britannia brand bread, specifically Britannia Breakfast Slice White Bread 450 g, with purchases recorded on multiple independent dates across February through July 2026. This primary product is the dominant choice, while Britannia Sandwich Bread 350 g appears occasionally as a secondary option. Purchases occur across all dayparts and days of the week, indicating no fixed routine for timing, but the brand loyalty is consistent. The user does not appear to switch brands within the Breads category.",
+  "replenishment": {
+    "cadence_days": 6,
+    "cadence_class": "fast",
+    "predicted_next_purchase_date": "2026-07-27",
+    "replenishment_text": "Breads is reordered roughly every 6 days."
+  },
+  "evidence": {
+    "evidence_count": 18,
+    "independent_date_count": 18,
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-07-14",
   "day_type": "weekday",
-  "summary_text": "On this weekday afternoon, the user purchased 2 units of Amul Cow Milk 500 ml and 1 unit of Amul Mithai Mate Sweetened Condensed Milk 200 g. This afternoon timing aligns with a population share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) peaks. The combination of fresh dairy and a shelf-stable sweetening ingredient suggests immediate household replenishment or preparation needs. Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
+  "summary_text": "On this weekday, the user purchased Amul Cow Milk 500 ml (2 units) and Amul Mithai Mate Sweetened Condensed Milk 200 g (1 unit). The order was placed in the afternoon, a timing less common than the population baseline for milk purchases, which typically shows higher shares in the morning (0.3246) and evening (0.3027). The combination of a fresh, short-shelf-life liquid milk staple and a shelf-stable sweetened condensed milk suggests a mix of immediate dairy needs and specific ingredient replenishment. This is a single observed order on one date; it is not yet possible to determine if this represents a stable preference for the Amul brand, a routine for these specific product types, or a one-time purchase. The user's specific intent for combining fresh milk with condensed milk is not established.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml and 1 unit of Amul Mithai Mate Sweetened Condensed Milk 200 g.",
+      "pattern_text": "Purchased 2 units of Amul Cow Milk 500 ml and 1 unit of Amul Mithai Mate Sweetened Condensed Milk 200 g. The order was placed on a weekday afternoon, which is less common than the population baseline for milk purchases (higher share in morning: 0.3246, evening: 0.3027).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observed order on one date. It is not yet possible to determine if this represents a stable preference for the Amul brand, a routine for these specific product types, or a one-time purchase. The user's specific intent for combining fresh milk with condensed milk is not established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

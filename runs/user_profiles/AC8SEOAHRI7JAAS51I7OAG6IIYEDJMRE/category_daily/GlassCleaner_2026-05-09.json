@@ -1,9 +1,23 @@
 {
   "date": "2026-05-09",
   "day_type": "weekend",
-  "summary_text": "One order of Colin Glass and Surface Cleaner Liquid Refill (1 L) placed in the afternoon on a weekend. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a household cleaning refill intended for regular maintenance of glass and multi-surface areas. This is a single observed transaction; it does not establish a stable preference or routine for this brand or category.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-09 (weekend), the user purchased one unit of Colin Glass and Surface Cleaner Liquid Refill (1 L) in the afternoon. This afternoon timing is less common than morning or evening baselines. The purchase suggests a need for routine maintenance of glass or multi-surface areas. This is a single observation on one date; it is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Colin Glass and Surface Cleaner Liquid Refill (1 L) on 2026-05-09. The order occurred in the afternoon on a weekend. The population baseline indicates afternoon purchases are less common (0.2526) than morning (0.3246) or evening (0.3027) purchases. The product is a household cleaning refill, suggesting a need for routine maintenance of glass or multi-surface areas.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time purchase. No other orders are available to confirm repetition or timing consistency.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-09"
+    ],
+    "first_seen_at": "2026-05-09T13:20:37",
+    "last_seen_at": "2026-05-09T13:20:37"
+  }
 }

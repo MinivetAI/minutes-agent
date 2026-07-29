@@ -1,18 +1,18 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased sugar on two independent dates. On 2026-06-02 (weekday), they bought 2 packs of Fortune 1 kg white refined sugar in the evening. On 2026-06-09 (weekday), they purchased one 100 g pack of Nanihaal Mishri Dana Sugar in the morning. Both transactions occurred on weekdays. The evening timing on 2026-06-02 aligns with a population share of 0.3027, which is slightly below the morning baseline (0.3246) but higher than afternoon (0.2526) and night (0.1202). The morning purchase on 2026-06-09 occurred during a period with a population share of 0.3246. The user bought two different brands (Fortune and Nanihaal) and two different pack sizes (1 kg and 100 g). Because each specific brand and product variant appeared on only one independent date, no stable preference claims are established for specific brands or variants. However, the recurrence of sugar purchases on two independent dates supports a general stable preference for the category. The weekday pattern is observed on both dates.",
-  "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "sugar",
-      "claim_text": "The user has a stable preference for sugar, evidenced by purchases on 2 independent dates (2026-06-02, 2026-06-09).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
+  "summary_text": "In June 2026, the user purchased sugar on two independent dates. On 2026-06-02, a 1 kg pack of Fortune Sugar was bought in the evening. On 2026-06-09, a 100 g pack of Nanihaal Mishri Dana Sugar was bought in the morning. No single brand or product variant appeared on more than one date, so no stable brand preferences are established. The user shopped on two weekdays, once in the evening and once in the morning, indicating varied timing rather than a fixed daily habit.",
+  "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Specific brand and variant preferences cannot be established as each appeared on only one date. The reason for the different pack sizes (bulk vs. small top-up) and timing (evening vs. morning) is unknown.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "Evidence is limited to two independent orders of different brands and pack sizes. It is unclear if the user has a preferred brand or if these were distinct needs (e.g., bulk refill vs. small top-up).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-02",
+      "2026-06-09"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-09T08:14:21"
+  }
 }

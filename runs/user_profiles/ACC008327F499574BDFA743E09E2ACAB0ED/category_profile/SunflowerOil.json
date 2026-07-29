@@ -1,40 +1,27 @@
 {
-  "category": "Sunflower Oil",
-  "profile_text": "In March 2026, the user purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil on a weekday morning. This timing aligns with a population share of 32.46% for weekday mornings. The product is a mid-small pack of refined cooking oil, typically used for routine kitchen replenishment or quick replacement for same-day cooking needs. This is a single observed order on one date; it does not establish a durable brand preference or routine.",
-  "brand_preferences": [
-    {
-      "brand": "Fortune",
-      "preference_text": "Fortune was observed in one order on one date.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Fortune Sunlite Refined Sunflower Oil (800 g pouch) was observed in one order on one date.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sunflower Oil",
+  "summary_text": "In March 2026, the user purchased Fortune Sunlite Refined Sunflower Oil (800 g Pouch) on a single weekday morning. This isolated observation does not establish a stable preference for this brand, pack size, or timing. The purchase aligns with the population baseline where morning purchases are common (32.46%).",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "Preference boundaries are unknown. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, pack size, or morning timing.",
+  "retrieval_text": "User purchased Fortune Sunlite Refined Sunflower Oil (800 g Pouch) on a single weekday morning in March 2026. This isolated observation does not establish a stable preference for this brand, pack size, or timing. The purchase aligns with the population baseline where morning purchases are common (32.46%).",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-26",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-03-26. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SunflowerOil yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Routine kitchen replenishment or quick replacement for same-day cooking needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-26T09:09:15",
+    "last_seen_at": "2026-03-26T09:09:15"
+  }
 }

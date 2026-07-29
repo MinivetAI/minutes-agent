@@ -1,23 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-24 in the afternoon on a weekday. The basket contains three items: one unit of Flour, two units of Curd Yogurt, and one unit of Salt. This represents a single observation of basket breadth (3 distinct categories) and does not establish a durable preference pattern.",
+  "basket_summary_text": "A single order placed on 2026-03-24 in the afternoon on a weekday. The basket contains three items: one unit of Flour, two units of Curd Yogurt, and one unit of Salt. This represents a single observation of basket breadth and category combination; no durable behavior pattern can be established from this single date.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Flour",
-        "Curd Yogurt",
-        "Salt"
-      ],
-      "combination_text": "Flour, Curd Yogurt, and Salt were purchased together in a single transaction.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of flour, curd yogurt, and salt is compatible with basic home cooking or baking preparation.",
-  "uncertainty_text": "This analysis is based on a single order from one independent date. Stable patterns, repeated behaviors, or durable preferences cannot be inferred from this single observation. Confidence in any inferred user behavior is low.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of flour, curd yogurt, and salt is compatible with preparing a simple meal or snack, such as a yogurt-based dish or a basic baked item, though the specific intent is not observable.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Confidence in any inferred preference or routine is low. No repeated behavior has been observed to establish stable patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T12:26:50",
+    "last_seen_at": "2026-03-24T12:26:50"
+  }
 }

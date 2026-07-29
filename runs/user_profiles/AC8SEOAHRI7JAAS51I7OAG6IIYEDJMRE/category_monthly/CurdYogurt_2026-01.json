@@ -1,11 +1,19 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased Mother Dairy curd products on two independent dates (2026-01-24 and 2026-01-30). The brand Mother Dairy appears on both dates, meeting the repetition bar for stable preference. The specific variants differ (Advanced Probiotic Plain 200g on 2026-01-24; Classic Plain 390g and Advanced Probiotic Plain 200g on 2026-01-30), so stable preference is assigned to the brand level rather than specific variants. The user ordered during the morning on a weekend and during the afternoon on a weekday, showing no consistent daypart pattern across the two dates. No other brands or products recurred.",
+  "summary_text": "In January 2026, the user ordered curd yogurt on two independent dates (2026-01-24 and 2026-01-30). The brand Mother Dairy appears on both dates, meeting the repetition bar for stable preference. The specific product Mother Dairy Advanced Probiotic Plain Curd 200 g also appears on both dates, indicating a stable preference for this variant. The product Mother Dairy Classic Plain Curd 390 g appears only on 2026-01-30, so it remains a single-date observation and is excluded from stable preference claims. Daypart patterns show orders in the morning (2026-01-24) and afternoon (2026-01-30), which are distinct observations and do not form a stable daypart pattern. Day type patterns show one weekend order and one weekday order, which do not form a stable day-type pattern.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Mother Dairy",
-      "claim_text": "The user has a stable preference for Mother Dairy curd, evidenced by purchases on 2 independent dates in January 2026.",
+      "claim_text": "The user has a stable preference for the brand Mother Dairy, observed on 2 independent dates in January 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Mother Dairy Advanced Probiotic Plain Curd 200 g",
+      "claim_text": "The user has a stable preference for Mother Dairy Advanced Probiotic Plain Curd 200 g, observed on 2 independent dates in January 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Stable preference is established only at the brand level due to recurrence across two dates. Specific product variants (Classic vs. Advanced Probiotic) and daypart preferences cannot be determined as stable patterns because they do not recur consistently across the observed dates.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The user's preference for Mother Dairy Classic Plain Curd 390 g is based on a single observation and cannot be considered stable. Daypart and day-type patterns are not stable as they appear on different days and times.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-01-24",
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-01-30T13:30:25"
+  }
 }

@@ -1,32 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-15 (morning, weekday) contained 9 items, primarily vegetables (7 units across 6 distinct vegetable SKUs), 1 unit of Paneer Tofu, and 1 unit of Aerated Drinks. The basket demonstrates a focus on fresh produce and a single protein alternative, with a beverage add-on. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-06-15 in the morning weekday window. The basket is heavily weighted toward Vegetables (7 distinct items, 8 total units) and includes one unit each of Paneer Tofu and Aerated Drinks. This represents a single observation of a vegetable-heavy meal preparation or grocery run.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Vegetables",
-        "Paneer Tofu"
-      ],
-      "combination_text": "Vegetables and Paneer Tofu were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Aerated Drinks"
-      ],
-      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for preparing fresh vegetable-based meals, potentially incorporating paneer or tofu as a protein source, accompanied by a soft drink.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents a specific transactional event rather than a durable preference or routine. Stable patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Preparation of a meal or snack involving fresh vegetables, possibly with a protein source like paneer/tofu and a beverage.",
+  "uncertainty_text": "This is a single order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T09:52:23",
+    "last_seen_at": "2026-06-15T09:52:23"
+  }
 }

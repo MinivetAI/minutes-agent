@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Unbranded Cauliflower (400-600g) during the evening on a weekday.",
+  "summary_text": "One order of Cauliflower 400-600g (1 unit) placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with 30.27% population share, suggesting a timing consistent with dinner preparation or same-day meal planning.",
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening, which aligns with the population baseline where evening accounts for 30.27% of vegetable purchases (compared to 32.46% in the morning). The purchase of a single fresh cauliflower head suggests an immediate kitchen-fill need for a side dish, soup, or roasting, likely driven by same-day meal planning or a missed market run.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether the user prefers cauliflower over other vegetables, prefers this specific weight range, or has a recurring evening shopping habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-15"
+    ],
+    "first_seen_at": "2026-04-15T19:45:37",
+    "last_seen_at": "2026-04-15T19:45:37"
+  }
 }

@@ -1,34 +1,34 @@
 {
-  "category": "Sweets Mithai",
-  "profile_text": "The user has purchased Amul Kaju Katri on two independent dates (2026-04-04 and 2026-07-19), both occurring on weekends during the morning. This repetition supports a medium-confidence preference for the Amul brand within this category. The user buys a 200 g box, a ready-to-eat, giftable confection. Cadence is unknown based on the limited evidence.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "Amul is the preferred brand for Sweets Mithai, evidenced by purchases on two independent dates (2026-04-04 and 2026-07-19).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sweets Mithai",
+  "summary_text": "In April and July 2026, the user purchased Amul Kaju Katri Box 200 g on two separate weekend mornings. As these are two independent observations, a low-confidence preference for this specific brand and product is noted, though it remains unclear if this represents a stable habit or occasion-driven purchasing.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "Amul is the only brand observed in this category, appearing on two independent dates (April and July 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is limited to the specific Kaju Katri Box product observed; it does not extend to other Amul sweets or mithai varieties."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No alternative brands or product types were observed in the supplied summaries, so substitution boundaries cannot be established from this evidence.",
+  "uncertainty_text": "Preference stability is limited to two independent dates; it is unclear if this represents a recurring routine or isolated occasion-based purchases. No other brands, variants, or pack sizes have been observed to determine broader category preferences or substitution tolerance.",
+  "retrieval_text": "User purchased Amul Kaju Katri Box 200 g on two independent weekend mornings in April and July 2026, establishing a low-confidence, medium-confidence brand preference for Amul specifically for this boxed sweet variant, with no evidence of other brand or product substitutions.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-19",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-07-19; cadence is unknown, so no predicted next purchase date is available.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SweetsMithai yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Sweets Mithai reliably converts to purchase, as evidenced by completed transactions on two independent dates.",
-  "substitution_text": "No substitution behavior observed; the user consistently purchased the same product (Amul Kaju Katri) on both observed dates.",
-  "price_value_text": "No specific price/value sensitivity or discount-seeking behavior is evident from the two observed transactions.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping for ready-to-eat, giftable Indian dry-fruit sweets, typically purchased on weekends in the morning.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-04T08:10:57",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

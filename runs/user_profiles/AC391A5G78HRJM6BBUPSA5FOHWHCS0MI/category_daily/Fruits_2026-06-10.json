@@ -1,15 +1,23 @@
 {
   "date": "2026-06-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-10 (weekday), the user purchased 2 units of Tender Coconut (fresh whole fruit) in the morning. This order occurred during a period with a population share of 0.3246. Tender coconut is a fresh, perishable fruit typically used for immediate hydration or refreshment. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "summary_text": "On 2026-06-10 (weekday), the user purchased 2 Tender Coconuts in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. Tender coconuts are fresh, perishable fruits typically used for immediate hydration or refreshment. This is a single observation on one date. It is not yet established whether this represents a stable preference for tender coconuts, a specific brand (none supplied), or a one-time need for hydration.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Tender Coconut (fresh whole fruit) in the morning. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+      "pattern_text": "One order of 2 Tender Coconuts. Purchased in the morning on a weekday. The timing aligns with the population baseline where morning accounts for 32.46% of activity. Tender coconuts are fresh, perishable fruits typically used for immediate hydration or refreshment. This is a single observation on one date. It is not yet established whether this represents a stable preference for tender coconuts, a specific brand (none supplied), or a one-time need for hydration.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for tender coconuts, a specific brand (none supplied), or a one-time need for hydration.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T07:48:54",
+    "last_seen_at": "2026-06-10T07:48:54"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-02-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-23 (weekday), the user purchased four unbranded fresh vegetable items during the evening: Red Carrot (500 g), Coriander Leaves (100 g), Onion (400–450 g), and Baby Potato (280–320 g). This order occurred during the evening, a daypart where the population share (0.3027) is comparable to the morning share (0.3246). The items are basic fresh produce staples typically used for immediate meal preparation or as cooking base ingredients. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-23 (weekday), the user placed one order of unbranded fresh vegetables in the evening. The basket included Red Carrot (500 g), Coriander Leaves (100 g), Onion (400–450 g), and Baby Potato (280–320 g). The evening timing aligns with the population baseline where evening accounts for 30.27% of activity, slightly below the morning share (32.46%) but higher than afternoon (25.26%) and night (12.02%). These fresh, unbranded staples suggest a need to replenish ingredients for immediate meal preparation. This is a single observation from one date; it is not yet established whether this represents a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of unbranded fresh vegetables placed on a weekday evening, containing Red Carrot (500 g), Coriander Leaves (100 g), Onion (400–450 g), and Baby Potato (280–320 g).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific items, a routine evening shopping habit, or a one-time urgent top-up. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T17:46:26",
+    "last_seen_at": "2026-02-23T17:46:26"
+  }
 }

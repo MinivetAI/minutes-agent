@@ -1,11 +1,11 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) on two independent dates: a weekday (2026-06-15) and a weekend (2026-06-21). Both transactions occurred in the morning. The recurrence of this specific product across two independent dates establishes a stable preference, supported by the repetition itself rather than a single isolated event. The timing aligns with the category's higher population activity during morning hours (32.46% share).",
+  "summary_text": "In June 2026, the user purchased one unit of the Indian Sweets product (SAMHHWDWYZ2DTSST) on two independent dates: 2026-06-15 (weekday) and 2026-06-21 (weekend). Both purchases occurred in the morning, aligning with the population baseline where morning activity accounts for 32.46% of orders in this category. The product serves as a sweet treat or dessert item. Because the same product variant appeared on two independent dates, it meets the repetition bar for stable preference. The consistent morning timing across both a weekday and a weekend also establishes a stable daypart pattern. No brand information was provided, so brand-level preferences cannot be established.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "SAMHHWDWYZ2DTSST",
-      "claim_text": "The user has a stable preference for SAMHHWDWYZ2DTSST (Indian Sweets), evidenced by purchases on two independent dates in June 2026.",
+      "claim_text": "The user has a stable preference for the Indian Sweets product (SAMHHWDWYZ2DTSST), observed on two independent dates in June 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +13,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two independent purchase events in June 2026. No other products or brands were observed in this category during this month.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "No brand preference can be established as no brand information was provided for the product. The sample size is limited to two orders in this month.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-15",
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-21T09:39:45"
+  }
 }

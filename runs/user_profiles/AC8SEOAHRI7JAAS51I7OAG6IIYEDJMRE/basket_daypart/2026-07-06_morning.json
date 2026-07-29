@@ -1,92 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-07-06 (morning, weekday) contained one unit each of a fruit, a vegetable, and bread. The basket reflects a basic meal-preparation need compatible with these items. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-07-06 in the morning on a weekday contains one unit each of a fruit, a vegetable, and bread. The basket is narrow, comprising three distinct categories (Fruits, Vegetables, Breads) with no repetition of items. This specific combination of Fruits, Vegetables, and Breads is an isolated observation; no durable pattern or routine can be inferred from this single date. The order-building behavior reflects a simple, single-transaction acquisition of basic fresh food items.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "CurdYogurt"
-      ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic meal preparation involving fresh produce and staples.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Patterns are not stable or recurring.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of fruit, vegetable, and bread is compatible with a need for basic fresh ingredients for home cooking or meal preparation, such as making a sandwich or a simple fresh meal.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. No repeated behavior, stable preferences, or durable patterns can be established. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T10:17:35",
+    "last_seen_at": "2026-07-06T10:17:35"
+  }
 }

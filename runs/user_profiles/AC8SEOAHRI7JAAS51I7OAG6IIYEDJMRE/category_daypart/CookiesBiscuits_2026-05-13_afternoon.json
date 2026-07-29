@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 pack of Britannia NutriChoice Zero Cookies Biscuit (91.7 g) in the afternoon on a weekday. No browsing or cart activity was recorded for this category in this window.",
+  "summary_text": "One pack of Britannia NutriChoice Zero Cookies Biscuit (91.7 g) was purchased.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when this user’s category activity is less frequent than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a health-positioned biscuit, typically used for quick snacks, tea-time pairing, or office desk snacking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for this brand or product type. No browsing or cart signals were present to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but represent a distinct shopping window. The product is a single-serve, health-positioned biscuit, typically used for immediate snacking, tea-time pairing, or office desk consumption.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this is a recurring preference for this specific brand or product, or if the user has other stable biscuit preferences. No brand preference can be claimed as this is the only brand observed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-13"
+    ],
+    "first_seen_at": "2026-05-13T11:51:47",
+    "last_seen_at": "2026-05-13T11:51:47"
+  }
 }

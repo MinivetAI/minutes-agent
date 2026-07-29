@@ -1,103 +1,31 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-23 in the morning on a weekday included one unit each of Cookies Biscuits, two distinct Vegetable items, and one Diaper. The basket reflects a basic household replenishment need compatible with these categories. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-06-23 in the morning on a weekday contains one unit each of Cookies Biscuits, two distinct Vegetable items, and one Diaper. This represents a mixed basket of snack, fresh produce, and baby care items. The presence of Diapers and Vegetables together is supported by historical co-ordering evidence (Support: 0.262, Lift: 1.07), though this specific combination is not observed in the Milk or CurdYogurt pairs listed in the evidence. No other category pairs from the provided evidence (Milk, CurdYogurt, AeratedDrinks, SavouriesNamkeens, BabyCereal, Fruits) are present in this order.",
   "behavior_patterns": [],
   "category_combinations": [
-    {
-      "categories": [
-        "Cookies Biscuits",
-        "Vegetables",
-        "Diaper"
-      ],
-      "combination_text": "Cookies Biscuits, Vegetables, and Diaper were purchased together in a single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables are frequently co-ordered in the population.",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables are frequently co-ordered in the population.",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk are frequently co-ordered in the population.",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "AeratedDrinks",
-        "Vegetables"
-      ],
-      "combination_text": "AeratedDrinks and Vegetables are frequently co-ordered in the population.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "low"
-    },
     {
       "categories": [
         "Diaper",
         "Vegetables"
       ],
-      "combination_text": "Diaper and Vegetables are frequently co-ordered in the population.",
+      "combination_text": "Diapers and Vegetables were purchased together in this order.",
       "support": 0.262,
       "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
-      ],
-      "combination_text": "SavouriesNamkeens and Vegetables are frequently co-ordered in the population.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "BabyCereal",
-        "Vegetables"
-      ],
-      "combination_text": "BabyCereal and Vegetables are frequently co-ordered in the population.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables are frequently co-ordered in the population.",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order suggests a need for basic food staples and baby care supplies.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as 'frequently co-ordered' refer to population-level statistics provided in the evidence, not this user's stable habits. No durable preference or routine can be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket suggests a need for immediate meal preparation components (vegetables) and household staples (biscuits, diapers).",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-23"
+    ],
+    "first_seen_at": "2026-06-23T09:00:59",
+    "last_seen_at": "2026-06-23T09:00:59"
+  }
 }

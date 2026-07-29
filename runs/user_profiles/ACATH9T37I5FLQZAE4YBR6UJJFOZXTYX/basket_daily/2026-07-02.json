@@ -1,7 +1,7 @@
 {
   "date": "2026-07-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-02 (weekday), a single order was placed during the morning daypart. The basket contained 10 distinct items across 8 categories, including staple breakfast components (Milk, Curd Yogurt, Poha, Grains Millets), fresh produce (Vegetables, Fruits), a protein source (Paneer Tofu), and a beverage (Aerated Drinks). The combination of items is compatible with breakfast preparation and fresh produce replenishment.",
+  "summary_text": "On 2026-07-02 (weekday), a single morning order included dairy (Milk, Curd Yogurt), fresh produce (Vegetables, Fruits), and pantry staples (Grains Millets, Poha, Paneer Tofu, Aerated Drinks). The basket reflects a broad range of categories, including multiple vegetable items and dairy products. The user may be preparing a meal or stocking up on fresh ingredients and dairy for the day. This is a single observation on one date; durable preferences or routine behaviors cannot be established from this data alone.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,9 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -23,7 +25,9 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,7 +37,9 @@
       "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.344,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -43,7 +49,9 @@
       "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
       "support": 0.328,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -53,11 +61,20 @@
       "combination_text": "Fruits and Vegetables were purchased together in this order.",
       "support": 0.213,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for breakfast preparation and fresh produce replenishment, compatible with the morning daypart.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal or stocking up on fresh ingredients and dairy for the day.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this data alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

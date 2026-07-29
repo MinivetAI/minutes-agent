@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "On 2026-07-09 (weekday), the user purchased one pack of Scotch-Brite Stainless Steel & Scrub Pad Combo and one pack of Flipkart Supermart Scrub Pad Medium (Pack of 3) during the afternoon. This activity occurred at a relative intensity of 0.2526 compared to the population baseline (morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The items are general-purpose household cleaning accessories intended for scrubbing cookware, sinks, and other hard surfaces. This is a single observed order on one date; durable brand or format preferences cannot be established. It is unclear whether the user prefers the specific Scotch-Brite brand, the Flipkart Supermart private label, or both, or if this was a one-time restock.",
+  "summary_text": "On 2026-07-09 (weekday), a single order of scrub pads was placed in the afternoon. The basket included a Scotch-Brite Stainless Steel & Scrub Pad Combo and a Flipkart Supermart Scrub Pad Medium Pack of 3. This timing aligns with the population baseline, where afternoon activity accounts for 25.26% of orders (compared to 32.46% in the morning). The products serve general-purpose cleaning needs for removing stubborn grime and maintaining cookware or surfaces. As this is a single observation from one date, it does not establish stable brand preferences or routine purchasing patterns.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or format preferences cannot be established. It is unclear whether the user prefers the specific Scotch-Brite brand, the Flipkart Supermart private label, or both, or if this was a one-time restock.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific cleaning needs beyond the immediate utility of the items.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

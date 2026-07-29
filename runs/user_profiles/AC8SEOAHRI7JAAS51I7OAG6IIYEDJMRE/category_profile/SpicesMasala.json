@@ -1,41 +1,33 @@
 {
-  "category": "Spices Masala",
-  "profile_text": "The user has demonstrated interest in replenishing kitchen staples for meal preparation, specifically purchasing cumin seeds, coriander powder, and green cardamom. Purchases have occurred on weekends during morning sessions, a time of above-baseline activity. However, with only two independent dates of evidence and no clear cadence, these observations represent isolated transactions rather than a stable routine or strong brand preference.",
-  "brand_preferences": [
-    {
-      "brand": "Zoff",
-      "preference_text": "Zoff was observed in purchases on two independent dates (2026-04-04 and 2026-05-03), indicating a repeated selection. This repetition supports a medium-confidence preference for this brand within the category.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "Tata Sampann",
-      "preference_text": "Tata Sampann was observed in a purchase on one independent date (2026-04-04). A single observation does not establish a durable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Spices Masala",
+  "summary_text": "The user has purchased Zoff Cumin Seeds, Tata Sampann Coriander Powder, and Zoff Green Cardamom across April and May 2026. All orders occurred on weekend mornings, aligning with the population baseline. Evidence is limited to single observations per month, preventing the establishment of stable brand or product preferences.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit per order observed for all items.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established. Zoff and Tata Sampann brands appeared in separate months without overlap, so no preference hierarchy or substitution boundary can be defined.",
+  "uncertainty_text": "Confidence is low due to single-observation evidence per month. It is unknown if the user has a stable routine, specific brand loyalty, or if these were isolated purchases. The specific culinary use (e.g., general cooking vs. tea/sweets for cardamom) is inferred from product type, not confirmed by user behavior.",
+  "retrieval_text": "User purchased Zoff Cumin Seeds (100g) in April 2026 and Zoff Green Cardamom (25g) in May 2026, along with Tata Sampann Coriander Powder (200g) in April. All orders were weekend morning purchases. Evidence is sparse (one order per month), preventing determination of stable brand preference or routine cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-03",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence has been established; the last purchase was on 2026-05-03, but the next purchase date is unknown due to lack of a stable pattern.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SpicesMasala yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on all observed dates, indicating that when the user engages with Spices Masala, it reliably converts to a purchase.",
-  "substitution_text": null,
-  "price_value_text": "The user has purchased both standard pack sizes (100 g, 200 g) and small-format packs (25 g), suggesting flexibility in pack size selection based on immediate need rather than a strict price-volume strategy.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or strong uncertainty; however, the lack of a defined cadence means future timing is uncertain.",
-  "mission_generation_text": "Replenishing essential aromatic ingredients and cooking staples for home meal preparation.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-05-03T09:48:47"
+  }
 }

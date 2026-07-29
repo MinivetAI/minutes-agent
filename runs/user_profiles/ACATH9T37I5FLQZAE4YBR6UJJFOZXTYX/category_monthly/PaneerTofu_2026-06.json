@@ -1,11 +1,11 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user ordered Amul Malai Paneer 200 g on two independent dates (2026-06-04 and 2026-06-15). This repetition establishes a stable preference for this specific brand and variant. The orders occurred on weekdays, once in the afternoon and once in the morning, showing no consistent daypart pattern relative to the population baseline. The product is a fresh dairy cooking ingredient used for immediate meal preparation.",
+  "summary_text": "In June 2026, the user ordered Amul Malai Paneer 200 g on two independent dates (2026-06-04 and 2026-06-15). This recurrence meets the threshold for a stable preference claim. The user also ordered on weekdays on both dates, establishing a weekday pattern. The daypart pattern is mixed (one afternoon, one morning), so no single daypart is stable.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user has a stable preference for Amul paneer, evidenced by purchases on 2 independent dates in June 2026.",
+      "claim_text": "The user has ordered Amul products on 2 independent dates in June 2026, indicating a stable brand preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Amul Malai Paneer 200 g",
-      "claim_text": "The user has a stable preference for Amul Malai Paneer 200 g, evidenced by purchases on 2 independent dates in June 2026.",
+      "claim_text": "The user has ordered Amul Malai Paneer 200 g on 2 independent dates in June 2026, indicating a stable product preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user's ordering timing varies between morning and afternoon on weekdays, preventing the establishment of a stable daypart preference. No other brands or products were observed.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The user's ordering pattern for this category is limited to two dates in June 2026. While the brand and product show stable preference due to repetition, the daypart pattern is inconsistent (afternoon vs. morning), preventing a stable daypart claim. The weekday pattern is consistent but limited to weekdays only.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-04",
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-15T09:52:23"
+  }
 }

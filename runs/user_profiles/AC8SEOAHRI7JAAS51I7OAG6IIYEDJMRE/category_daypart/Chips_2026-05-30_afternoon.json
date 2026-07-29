@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "One order of Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) placed in the afternoon on a weekend.",
+  "summary_text": "One order of Too Yumm! Veggie Stix Sour Cream & Onion Chips (70 g) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period with lower population share (0.2526) compared to the morning (0.3246) and evening (0.3027). The product is a savory, crunchy snack suitable for immediate consumption, such as a craving or casual snacking.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (25.26% share). The product is a savory, crunchy snack typically used for immediate cravings or casual snacking.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, flavor, or product type. No other orders are available to confirm if this was an isolated choice or part of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-30T13:06:02",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

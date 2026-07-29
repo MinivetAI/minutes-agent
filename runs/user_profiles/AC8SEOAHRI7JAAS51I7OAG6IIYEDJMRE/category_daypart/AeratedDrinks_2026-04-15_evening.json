@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Sprite PET Bottle 750 ml (lemon-lime carbonated soft drink) during the evening on a weekday.",
+  "summary_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening consumption patterns for ready-to-drink refreshment.",
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, a period where the user's activity aligns with the population baseline (evening share 0.3027). The product is a ready-to-drink carbonated beverage, suggesting a need for immediate refreshment or a casual beverage option during the evening hours.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for Sprite, lemon-lime sodas, or evening purchases specifically. No other products or brands are observed to determine broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-15"
+    ],
+    "first_seen_at": "2026-04-15T19:45:37",
+    "last_seen_at": "2026-04-15T19:45:37"
+  }
 }

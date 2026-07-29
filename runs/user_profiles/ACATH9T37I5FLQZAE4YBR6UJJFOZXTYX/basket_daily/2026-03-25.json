@@ -1,7 +1,7 @@
 {
   "date": "2026-03-25",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-25, a weekday, a single order was placed in the morning. The basket contained 8 items across 4 categories: Vegetables (4 units), Milk (2 units), Pasta (2 units), and Savouries Namkeens (1 unit). This mix includes fresh produce, dairy, dry staples, and snacks. The observed combination suggests a need for basic meal preparation components and a snack. No durable preferences or stable patterns can be inferred from this single order.",
+  "summary_text": "On 2026-03-25 (weekday), a single order was placed in the morning. The basket contained 9 items across 4 categories: Vegetables (4 items), Milk (2 items), Pasta (2 items), and Savouries Namkeens (1 item). The primary category combination observed is Vegetables and Milk. A compatible need for this basket could be preparing a simple meal involving pasta and vegetables, accompanied by milk and a snack. This is a single observation and does not indicate a durable preference or routine.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,21 +13,20 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Vegetables"
-      ],
-      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic meal preparation components (vegetables, pasta, milk) and a snack (savouries).",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. Confidence in behavioral inference is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Preparation of a simple meal involving pasta and vegetables, accompanied by milk and a snack.",
+  "uncertainty_text": "This is a single observation on one date. Stable preferences or routines cannot be inferred from this data alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T08:48:01",
+    "last_seen_at": "2026-03-25T08:48:01"
+  }
 }

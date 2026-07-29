@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased one 75 g pack of Bingo Tedhe Medhe Masala Tadka snack sticks on a weekday afternoon. This single observation aligns with a non-peak population share (25.26% vs. morning 32.46% and evening 30.27%), suggesting a break-time or impulsive snack need. No other purchases or browsing patterns were recorded for this category in this month.",
+  "summary_text": "In January 2026, one order of Bingo Tedhe Medhe Masala Tadka 75 g (1 unit) was placed on a weekday afternoon. This single observation aligns with typical weekday afternoon patterns for quick snacks or chai break accompaniments. Due to the lack of repetition across independent dates, no stable preferences or recurring patterns are established for this category this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation; no repeated purchases or browsing patterns are available to establish stable brand or flavor preferences.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-01-23T11:10:26"
+  }
 }

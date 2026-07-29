@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased six unbranded fresh vegetables: Potato (400–450g), Onion (400–450 g), Carrot (500 g), Baby Potato (280–320 g), White Cucumber (400-500 g), and Beetroot (250-350g).",
+  "summary_text": "One order of unbranded fresh vegetables (potato, onion, carrot, baby potato, white cucumber, beetroot) purchased in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during a weekday morning, a time with high population share (32.46%). The basket consists of loose-weight fresh produce, suggesting a need for immediate meal preparation ingredients or a quick top-up of kitchen staples.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for these specific items or this category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekday. The population baseline indicates morning purchases account for 32.46% of activity. The items are fresh, loose-weight vegetables typically used for immediate meal preparation or stock replacement.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for fresh vegetables, specific brands, or morning shopping habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T09:37:58",
+    "last_seen_at": "2026-06-17T09:37:58"
+  }
 }

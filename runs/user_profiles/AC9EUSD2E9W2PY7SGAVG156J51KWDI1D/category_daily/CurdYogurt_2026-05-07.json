@@ -1,15 +1,23 @@
 {
   "date": "2026-05-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-07 (weekday), the user purchased one unit of Amul Masti Dahi Plain Curd (200 ml) in the morning. This timing aligns with a population daypart share of 0.3246 for Curd Yogurt. The small 200 ml pack size suggests immediate consumption or a top-up need for everyday meals. This is a single observation; stable preferences or routines cannot be established from this date alone.",
+  "summary_text": "On 2026-05-07 (weekday), the user purchased one 200 ml pack of Amul Masti Dahi Plain Curd in the morning. This purchase occurred during a high-activity window (32.5% above population baseline). The small pack size suggests immediate consumption needs, such as a quick snack or meal side, rather than bulk stocking. This is a single observation on one date; it is not yet established whether the user prefers this specific brand, pack size, or product type over alternatives, or if this purchase was driven by a specific immediate need rather than a stable habit.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One order of Amul Masti Dahi Plain Curd (200 ml) purchased in the morning, a time when this category has a population share of 0.3246. The small 200 ml pack suggests immediate consumption or a top-up need for everyday meals.",
+      "pattern_text": "One 200 ml pack of Amul Masti Dahi Plain Curd was purchased on a weekday morning. The small 200 ml pack suggests a need for immediate consumption, such as a quick snack, a side for a meal, or topping up a household shortfall, rather than bulk stocking.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; cannot establish stable preferences or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, pack size, or product type over alternatives, or if this purchase was driven by a specific immediate need rather than a stable habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

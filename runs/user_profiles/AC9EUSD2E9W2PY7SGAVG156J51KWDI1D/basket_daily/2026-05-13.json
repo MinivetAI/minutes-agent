@@ -1,7 +1,7 @@
 {
   "date": "2026-05-13",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-13, a single order was placed in the evening. The basket contained one unit of Sunflower Oil and one unit of Milk, representing a narrow basket with two distinct categories. This combination is compatible with a basic food replenishment need. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-05-13 (weekday), a single evening order contained one unit of Sunflower Oil and one unit of Milk. This represents a minimal basket with two distinct categories, reflecting basic grocery needs compatible with meal preparation or staple replenishment. No other category combinations were observed in this daypart.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Milk",
         "Sunflower Oil"
       ],
-      "combination_text": "Milk and Sunflower Oil were purchased together in this single observed order.",
+      "combination_text": "Milk and Sunflower Oil were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic food replenishment.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences cannot be inferred from this single data point. The category pair evidence reflects population-level co-ordering statistics and does not confirm that this specific user has a durable preference for those specific category pairs beyond this single instance.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Replenishment of basic cooking staples (oil) and a dairy staple (milk).",
+  "uncertainty_text": "This is a single observation from one date. No durable preference or routine can be inferred. The supplied category pair evidence does not include Sunflower Oil, so no lift or support data is available for the actual basket composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-13"
+    ],
+    "first_seen_at": "2026-05-13T18:37:50",
+    "last_seen_at": "2026-05-13T18:37:50"
+  }
 }

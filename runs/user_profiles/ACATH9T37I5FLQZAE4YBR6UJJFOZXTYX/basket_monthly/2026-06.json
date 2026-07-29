@@ -1,12 +1,127 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user placed 12 independent orders across weekdays and weekends, with a strong concentration in the morning daypart (6 orders) and afternoon/evening (4 orders). The basket composition is consistently dominated by Vegetables, appearing in every single order with high unit counts (ranging from 2 to 9 units). This is frequently paired with Dairy (Milk, Curd Yogurt) and Baby Care (Diaper, Baby Cereal). Other recurring categories include Snacks (Chips, Savouries, Cookies) and Beverages (Aerated Drinks). The user also made isolated purchases of personal care items (Toothbrush, Sanitary Pad) and specific food items (Paneer Tofu, Rice, Noodles). No stable, repeated daypart behavior or durable category combinations can be established because each order represents a unique, independent observation without repetition of specific product-level or daypart-level patterns across multiple dates.",
+  "summary_text": "Across 12 independent dates in June 2026, the user placed orders on weekdays (morning, afternoon, night) and weekends (morning, afternoon). Vegetables were present in every order, often in large quantities or multiple SKUs, indicating a consistent need for fresh produce. Diapers appeared in 4 independent orders (06-04, 06-10, 06-17, 06-23, 06-27), establishing a recurring household need. Milk and Curd Yogurt appeared in multiple orders (06-11, 06-17, 06-25, 06-27), suggesting regular dairy consumption. Baby Cereal was purchased on 3 independent dates (06-04, 06-11, 06-25). Fruits appeared in 3 independent dates (06-03, 06-04, 06-27). Aerated Drinks appeared in 4 independent dates (06-07, 06-11, 06-15, 06-25, 06-27). The combination of Diapers and Vegetables was observed on 5 independent dates. The combination of Milk and Vegetables was observed on 3 independent dates. The combination of Curd Yogurt and Vegetables was observed on 3 independent dates. The combination of Fruits and Vegetables was observed on 3 independent dates. The combination of Baby Cereal and Vegetables was observed on 3 independent dates. The combination of Diaper and Vegetables is the most frequent cross-category pair. Shopping needs center on household replenishment, fresh meal preparation, and baby care.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together.",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables were purchased together.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "trend_claims": [],
-  "shopping_need_text": "The user demonstrates a consistent need for fresh produce (Vegetables) and household staples (Dairy, Baby Care, Snacks) across multiple independent shopping trips. The presence of Vegetables in every order suggests it is a core household requirement. The mix of items indicates a need for general grocery replenishment, infant nutrition, and occasional personal care.",
-  "uncertainty_text": "All patterns described are based on single observations per date. While Vegetables appear in every order, this is a category-level observation; specific product brands, variants, or precise daypart timings (e.g., 'always morning') are not repeated enough to form a stable habit. Category combinations like 'Milk and Vegetables' appear in multiple orders, but because the user buys different items on different dates, these are not yet confirmed as a stable, exclusive routine. Abandoned carts were not recorded in any order, so no abandonment patterns are noted.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Household replenishment focusing on fresh produce (Vegetables), dairy staples (Milk, Curd Yogurt), and baby care items (Diapers, Baby Cereal). Orders frequently combine fresh food preparation ingredients with household consumables and snacks.",
+  "uncertainty_text": "Patterns are derived from 12 independent dates. Confidence in category co-occurrence scales with the number of independent dates supporting the pair. No single daypart or day-type dominates exclusively, though Vegetables appear in all orders.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 12,
+    "purchase_dates": [
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-07",
+      "2026-06-10",
+      "2026-06-11",
+      "2026-06-15",
+      "2026-06-17",
+      "2026-06-21",
+      "2026-06-23",
+      "2026-06-25",
+      "2026-06-27",
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

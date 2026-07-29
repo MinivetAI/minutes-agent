@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, one order of Johnson's Baby Lotion 500 ml was placed on a weekend afternoon. This product is a general-use baby moisturizer intended for daily skin care. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26%). As this is a single observation on one date, no durable brand or product preferences can be established.",
+  "summary_text": "In April 2026, the user purchased Johnson's Baby Lotion (500 ml) on one weekend date in the afternoon. This timing contrasts with the population baseline, which shows a higher share of lotion purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a baby moisturizing lotion, typically used for daily skin care after bathing or when skin feels dry. As this is a single observation from one date, it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders are available to confirm repetition or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

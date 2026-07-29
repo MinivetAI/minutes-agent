@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Britannia Breakfast Slice White Bread 450 g.",
+  "summary_text": "One order of Britannia Breakfast Slice White Bread 450 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when this category is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246). The product is a standard packaged white sliced bread intended for everyday breakfast and sandwich use.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for purchasing in the afternoon rather than the more common morning window is not established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered on a weekday afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a standard packaged white bread loaf, typically used for immediate breakfast or sandwich needs.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet clear if this represents a stable preference for this brand, product type, or timing, or if it was a one-time purchase driven by immediate need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

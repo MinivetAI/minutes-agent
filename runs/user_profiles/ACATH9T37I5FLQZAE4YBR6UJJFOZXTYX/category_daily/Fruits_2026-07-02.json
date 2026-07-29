@@ -1,9 +1,17 @@
 {
   "date": "2026-07-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-02 (weekday), one order of Litchi Without Stems 250 g (1 unit) was placed in the morning. The order aligns with the population baseline, which indicates morning activity is common (32.46% share). The product is a fresh, ready-to-eat fruit item, typically used for immediate consumption or snacking. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "On 2026-07-02 (weekday), the user purchased Litchi Without Stems 250 g (1 unit) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh fruit item, typically used for immediate consumption or as a snack. This is a single observation on one date. It is not yet established whether this represents a stable preference for litchi, a specific brand (none supplied), or a one-time purchase. No other products or dates are available to determine routine or broader category preferences.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. No repeated behavior is observed to establish a stable preference for litchi or this specific format.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for litchi, a specific brand (none supplied), or a one-time purchase. No other products or dates are available to determine routine or broader category preferences.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

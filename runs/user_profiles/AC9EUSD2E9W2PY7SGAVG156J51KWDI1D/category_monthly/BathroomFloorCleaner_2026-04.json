@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased one unit of Vim Floor Cleaner Ultra Pro Lemon 1 L on a single weekday (2026-04-09) during the afternoon. This is a single observed order; it does not establish a stable preference, routine, or durable brand loyalty. The specific trigger for this purchase is unknown.",
+  "summary_text": "In April 2026, one order of Vim Floor Cleaner Ultra Pro Lemon 1 L was placed on a weekday afternoon. This single observation does not establish a stable preference for the brand, variant, or timing, as no repetition across independent dates is present.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference, routine, or durable brand loyalty. The specific trigger for this purchase (e.g., running out of stock, immediate spill, or planned cleaning) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This assessment is based on a single order from one independent date. Stable preferences or recurring patterns cannot be inferred without evidence of repetition across multiple dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T14:22:40",
+    "last_seen_at": "2026-04-09T14:22:40"
+  }
 }

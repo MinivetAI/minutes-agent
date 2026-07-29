@@ -1,9 +1,23 @@
 {
   "date": "2026-06-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-02 (weekday), the user purchased 1 unit of Colgate Strong Teeth Toothpaste 200 g during the evening. This timing aligns with a period when 30.27% of the population typically shops in this category. The product is a standard fluoride toothpaste for everyday oral care, suggesting a routine replacement need. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered Colgate Strong Teeth Toothpaste 200 g in the evening. This is a standard fluoride toothpaste for everyday oral care, likely purchased to replace a running-out tube or maintain routine brushing. The evening timing aligns with population norms, where evening purchases are common (30.27%), comparable to morning (32.46%). This is a single observation on one date; it is not yet established whether this is a habitual preference for Colgate or this specific variant, or if the user typically buys toothpaste at a different time of day.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Colgate Strong Teeth Toothpaste 200 g. The evening timing aligns with population norms, where evening purchases are common (30.27%), comparable to morning (32.46%).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a habitual preference for Colgate or this specific variant, or if the user typically buys toothpaste at a different time of day.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

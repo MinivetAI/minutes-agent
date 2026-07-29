@@ -1,9 +1,17 @@
 {
   "date": "2026-05-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-01 (weekday), the user purchased 2 units of Coca-Cola Diet Coke Can 300 ml in the afternoon. This timing aligns with below-average category activity for this user (25.3% share vs. 32.5% for morning). The product is a single-serve chilled carbonated beverage, typically used for immediate refreshment or as a lighter soda option. This is a single observed order; it does not establish a stable preference for Diet Coke over other brands or formats, nor does it indicate a recurring habit.",
+  "summary_text": "On this weekday, the user purchased one order of 2 Coca-Cola Diet Coke 300 ml cans in the afternoon. This timing aligns with the population baseline, which indicates afternoon is a common time for aerated drinks (25.26% share). The product is a single-serve chilled beverage, typically used for immediate refreshment or a quick break. This is a single observation on one date; it is not yet established whether this represents a stable preference for Diet Coke, the Coca-Cola brand, or the 300 ml can size, or if it was a one-time need.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference for Diet Coke over other brands or formats, nor does it indicate a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a stable preference for Diet Coke, the Coca-Cola brand, or the 300 ml can size, or if it was a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T11:33:46",
+    "last_seen_at": "2026-05-01T11:33:46"
+  }
 }

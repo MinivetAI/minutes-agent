@@ -1,11 +1,11 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Maggi Pazzta products on three independent dates (2026-03-04, 2026-03-11, and 2026-03-25). The brand Maggi Pazzta appears on all three dates, meeting the repetition bar for stable preference. The specific variant 'Maggi Pazzta Cheesy Tomato Twist Instant Pasta' appears on two dates (2026-03-04 and 2026-03-11), also meeting the repetition bar. The variant 'Maggi Pazzta Cheese Macaroni' appears only on 2026-03-25 and is excluded from stable lists. Purchases occurred on weekdays, with dayparts varying between morning and night. The products are instant, quick-cook options suitable for convenient meals or snacks.",
+  "summary_text": "In March 2026, the user ordered Maggi instant pasta products on three independent dates (2026-03-04, 2026-03-11, and 2026-03-25). The brand Maggi and the product type instant pasta recur across these dates, establishing a stable preference. The specific variant Cheesy Tomato Twist appears on two dates (03-04 and 03-11), meeting the repetition bar for stable preference. The variant Cheese Macaroni appears on one date (03-25) alongside the Cheesy Tomato Twist, but as a single-variant observation within that order, it remains a single-date observation for that specific variant. The user's ordering timing varies between morning and night, with no single daypart recurring on 2+ dates, so no stable daypart preference is established. All orders occurred on weekdays.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
-      "value": "Maggi Pazzta",
-      "claim_text": "Maggi Pazzta was purchased on 3 independent dates in March 2026, indicating a stable brand preference.",
+      "value": "Maggi",
+      "claim_text": "The user has a stable preference for the Maggi brand, evidenced by purchases on 3 independent dates in March 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g)",
-      "claim_text": "Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) was purchased on 2 independent dates in March 2026, indicating a stable product preference.",
+      "claim_text": "The user has a stable preference for Maggi Pazzta Cheesy Tomato Twist Instant Pasta, evidenced by purchases on 2 independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user purchased instant pasta on three separate weekdays in March 2026. While the brand and one specific variant show stable patterns, the daypart varies (morning and night), and a second variant (Cheese Macaroni) appeared only once. No browsing or search data was recorded to indicate comparison behavior.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the brand and one specific product variant show stable preference due to repetition, the user also purchased a different variant (Cheese Macaroni) on a separate date. The timing of orders varies (morning and night), preventing the establishment of a stable daypart preference. The user's need appears to be for convenient, quick-preparation meals, consistent with the product type.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-11",
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-25T08:48:01"
+  }
 }

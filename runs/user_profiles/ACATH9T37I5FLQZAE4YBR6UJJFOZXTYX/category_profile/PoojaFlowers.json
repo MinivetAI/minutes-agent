@@ -1,26 +1,27 @@
 {
-  "category": "Pooja Flowers",
-  "profile_text": "In March 2026, the user purchased one unit of Fresh Orange Marigold Flowers (100 g) on a weekday morning. This single order aligns with the user's higher-than-baseline activity level (0.3246 share) for this time window. The product is a fresh-cut flower typically used for immediate ritual purposes, temple offerings, or festive decoration. No browsing events were recorded, leaving the intent (planned vs. last-minute) uncertain. With only one observed order, it is not possible to establish a stable preference for this specific flower type or brand.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Pooja Flowers",
+  "summary_text": "A single order of Fresh Orange Marigold Flowers (100 g) was placed on 2026-03-16 (weekday) in the morning. This timing aligns with the population baseline where 32.46% of Pooja Flowers activity occurs. The product is a fresh-cut flower typically used for immediate ritual needs, such as temple offerings or festive decoration. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was for a specific one-time event or part of a recurring habit.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was for a specific one-time event or part of a recurring habit.",
+  "retrieval_text": "Single observed order of Fresh Orange Marigold Flowers (100 g) placed on 2026-03-16 (weekday) in the morning, aligning with population baseline timing (32.46% of activity). Product is fresh-cut flower for immediate ritual needs. No stable brand, variant, or routine preference established due to single-date evidence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-16",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single purchase on 2026-03-16.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for PoojaFlowers yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase when the user has an immediate need for ritual items, as evidenced by the completed transaction without prior browsing.",
-  "substitution_text": "No substitution patterns observed due to a single purchase event.",
-  "price_value_text": "No price sensitivity or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty patterns detected beyond the lack of browsing history for this single order.",
-  "mission_generation_text": "Supports immediate ritual needs, temple offerings, or festive decoration requiring fresh-cut flowers.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-16T09:10:05",
+    "last_seen_at": "2026-03-16T09:10:05"
+  }
 }

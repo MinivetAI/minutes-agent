@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "One order of Saffola Masala Oats Peppy Tomato (38 g) was placed. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "summary_text": "One order of Saffola Masala Oats Peppy Tomato (38 g pouch) placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekend morning. The product is a single-serve instant savory oats mix, typically used as a quick snack or light meal replacement.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning. This timing is consistent with the population baseline, where morning purchases account for 32.46% of activity. The product is a quick-cook savory oat mix, generally used for fast, light meals or snacks.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific product, or weekend morning shopping habits. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

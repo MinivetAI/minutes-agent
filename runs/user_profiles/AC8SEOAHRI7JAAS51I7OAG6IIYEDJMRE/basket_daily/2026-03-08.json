@@ -1,7 +1,7 @@
 {
   "date": "2026-03-08",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-08 (weekend), a single order was placed in the afternoon. The basket contained one unit of Canned Food and one unit of Fruits. This combination is compatible with a need for pantry staples and fresh produce. No stable preferences or recurring patterns can be inferred from this single observation.",
+  "summary_text": "On this weekend, a single order was placed in the afternoon. The basket was narrow, containing one unit each of Canned Food and Fruits. This single observation does not establish a durable pattern or routine.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Canned Food",
         "Fruits"
       ],
-      "combination_text": "Canned Food and Fruits were purchased together in this single observed order.",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
+      "combination_text": "Canned Food and Fruits were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket of Canned Food and Fruits is compatible with a need for pantry staples and fresh produce.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. Therefore, `overall_confidence` is `low`.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Canned Food and Fruits may indicate a need for pantry staples and fresh produce, potentially for meal preparation or general household stocking. This is a compatible need for the observed products but is not proven by the single transaction.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low due to the lack of repetition across multiple dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-08"
+    ],
+    "first_seen_at": "2026-03-08T11:29:06",
+    "last_seen_at": "2026-03-08T11:29:06"
+  }
 }

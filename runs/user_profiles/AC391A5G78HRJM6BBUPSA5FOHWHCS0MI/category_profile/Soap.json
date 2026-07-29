@@ -1,34 +1,34 @@
 {
-  "category": "Soap",
-  "profile_text": "The user has demonstrated a stable preference for the Cinthol brand across two independent purchase dates in 2026, indicating a reliable replenishment pattern for personal hygiene. While the specific product variant shifted from Cool to Lime, the brand loyalty remains consistent. No other brands were observed, and no discovery signals (searches/views without purchase) were recorded for this category.",
-  "brand_preferences": [
-    {
-      "brand": "Cinthol",
-      "preference_text": "The user has purchased Cinthol soap on two independent dates (April and July 2026), establishing a stable brand preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Soap",
+  "summary_text": "The user has placed two separate orders for Cinthol bath soap in 2026: one in April for a Cool variant and one in July for a Lime variant. Both were single-observation events with no other brands or products recorded in this category.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Cinthol",
+        "preference_text": "The user has purchased Cinthol bath soap on two independent dates (April and July 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is limited to bath soap products; it does not extend to other personal care categories or non-soap hygiene items."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of substitution behavior is available. The user has only purchased Cinthol, so it is unknown if other brands are acceptable alternatives.",
+  "uncertainty_text": "Preference is based on only two independent dates spanning different months, preventing a determination of high-confidence routine. Specific variant preference (Cool vs. Lime) is unclear as both were purchased once. No data exists for other soap brands or product forms.",
+  "retrieval_text": "User has purchased Cinthol bath soap on two independent dates in 2026: a 4x150g pack of Cool variant in April (evening weekday) and a 4x150g pack of Lime variant in July (weekend afternoon). Evidence supports a medium-confidence preference for the Cinthol brand within the bath soap category, but specific variant loyalty is undetermined due to single observations of each. No other brands or substitution patterns are observed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "The last purchase was on 2026-07-04. Cadence is unknown based on the provided data, so no prediction can be made for the next purchase date.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Soap yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has consistently resulted in completed purchases; there is no evidence of unmet interest or abandoned carts.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior was observed in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior was observed.",
-  "mission_generation_text": "Routine replenishment of personal hygiene products for daily bathing.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

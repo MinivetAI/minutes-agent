@@ -1,33 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single afternoon weekday order containing one unit each of Ghee, Savouries Namkeens, and Milk. The basket reflects a basic staple combination compatible with a simple meal or snack preparation need.",
+  "basket_summary_text": "A single order placed on 2026-03-20 in the afternoon on a weekday included one unit each of Ghee, Savouries Namkeens, and Milk. This combination suggests a need for staple cooking ingredients and snacks, potentially for immediate consumption or meal preparation. No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Ghee",
-        "Savouries Namkeens",
-        "Milk"
-      ],
-      "combination_text": "Ghee, Savouries Namkeens, and Milk were purchased together in a single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Savouries Namkeens"
-      ],
-      "combination_text": "Milk and Savouries Namkeens were co-purchased.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of Ghee, Savouries Namkeens, and Milk is compatible with preparing a simple savory snack or meal component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated event.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Staple cooking ingredients and snacks for immediate use.",
+  "uncertainty_text": "This is a single observation from one independent date. It does not establish a durable preference, routine, or stable behavior pattern. Confidence in any inferred intent is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-20"
+    ],
+    "first_seen_at": "2026-03-20T11:53:47",
+    "last_seen_at": "2026-03-20T11:53:47"
+  }
 }

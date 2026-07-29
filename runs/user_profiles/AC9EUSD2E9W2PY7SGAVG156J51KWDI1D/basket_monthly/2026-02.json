@@ -1,17 +1,21 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, three independent orders were placed on weekdays (23rd, 26th) and one weekend day (28th). The baskets were distinct in composition, with no repeated daypart behavior, stable category combinations, or recurring shopping needs identified across the month. Each order reflects a specific, isolated need for meal preparation or household supplies.",
+  "summary_text": "In February 2026, three independent orders were placed on weekdays (23rd, 26th) and one weekend day (28th). Orders occurred in the evening and morning dayparts. No category combinations, daypart behaviors, or specific product preferences repeated across independent dates. Each order represented a distinct set of shopping needs: a paneer-based meal preparation, a broad staple/dairy/produce restock, and a basic household replenishment of breads and hygiene items. Overall confidence is low due to the lack of repetition across independent dates.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Orders occurred on both weekdays and a weekend, with purchases made in both evening and morning dayparts.",
-      "confidence": "low"
-    }
-  ],
-  "shopping_need_text": "The user required ingredients for specific meals (paneer dish, general meal prep with dairy/produce) and basic household items (breads, handwash, butter) on three separate occasions.",
-  "uncertainty_text": "All observed behaviors are based on single independent dates. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` for Milk/Vegetables and Breads/Butter Margarine applies only to their respective single orders and does not indicate a stable cross-order pattern. No abandonment patterns are repeated across independent dates.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "Distinct meal preparation ingredients, broad household staple restocking, and basic hygiene/breakfast replenishment.",
+  "uncertainty_text": "All observed behaviors are based on single independent dates. No durable preferences, routines, or stable patterns can be inferred. Confidence in any inferred behavior pattern is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-02-23",
+      "2026-02-26",
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

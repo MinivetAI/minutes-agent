@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased six unbranded fresh vegetable items: Local Tomato (450-550g), Onion (400–450 g), Brinjal Varikatri (250 g), Organic Bottle Gourd, Baby Potato (280–320 g), and Coriander Leaves (100 g).",
+  "summary_text": "One order of fresh vegetables placed on a weekday afternoon, including local tomatoes, onions, brinjal, organic bottle gourd, baby potatoes, and coriander leaves.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed on a weekday afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket consists of perishable, unbranded fresh produce staples typically used for immediate same-day cooking or meal preparation.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or routine habits cannot be established. The specific meal plan or reason for this combination of vegetables is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon, which is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The basket consists of perishable fresh produce items typically used for immediate same-day cooking or meal preparation.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable routine or a one-time need. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-10"
+    ],
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-02-10T11:33:22"
+  }
 }

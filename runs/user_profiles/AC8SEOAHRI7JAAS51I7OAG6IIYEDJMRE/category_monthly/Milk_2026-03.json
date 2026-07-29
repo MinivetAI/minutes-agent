@@ -1,47 +1,34 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased milk products on four independent dates. Amul Taaza Pasteurised Toned Milk (500 ml) was ordered on three dates (2026-03-14, 2026-03-16, 2026-03-20), establishing a stable preference. Alt Co. Oat Milk Drink (180 ml) was purchased on one date (2026-03-24) and does not meet the threshold for stable preference. The user’s milk purchasing activity is concentrated in the evening and afternoon on weekdays, with one weekend evening purchase.",
+  "summary_text": "In March 2026, the user ordered milk products on four independent dates. Amul Taaza Pasteurised Toned Milk (500 ml) was purchased on three dates (2026-03-14, 2026-03-16, 2026-03-20), establishing a stable preference for this specific dairy product. Alt Co. Oat Milk Drink (180 ml) was ordered on one date (2026-03-24), representing a single observation without sufficient repetition to claim stable preference. The user’s ordering timing varied across morning, afternoon, and evening, with no single daypart pattern emerging as dominant or stable across multiple dates.",
   "stable_preference_claims": [
-    {
-      "dimension": "brand",
-      "value": "Amul",
-      "claim_text": "The user has a stable preference for Amul milk, evidenced by purchases on 3 independent dates in March 2026.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    },
     {
       "dimension": "product",
       "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
-      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 3 independent dates in March 2026.",
+      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), observed on three independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
-    },
-    {
-      "dimension": "brand",
-      "value": "Alt Co.",
-      "claim_text": "No stable preference established for Alt Co. in this month; only one independent date observed.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "dimension": "product",
-      "value": "Alt Co. Oat Milk Drink (180 ml)",
-      "claim_text": "No stable preference established for Alt Co. Oat Milk Drink (180 ml) in this month; only one independent date observed.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased Amul milk in the evening on a weekend (2026-03-14) and on weekdays (2026-03-16, 2026-03-20), and in the afternoon on a weekday (2026-03-20). The user also purchased Alt Co. Oat Milk in the morning on a weekday (2026-03-24).",
-      "confidence": "medium"
+      "claim_text": "The user ordered Alt Co. Oat Milk Drink (180 ml) on a single date in March 2026. This is an isolated observation and does not indicate a stable preference for plant-based milk or the Alt Co. brand.",
+      "confidence": "low"
     }
   ],
-  "uncertainty_text": "The Alt Co. Oat Milk purchase is a single observation and does not indicate a stable preference or routine. The Amul preference is supported by 3 dates, indicating at least medium confidence, but the specific driver (e.g., taste, price, availability) is not determined by the evidence.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While Amul Taaza is a stable preference, the user also purchased a plant-based alternative on a separate date. The specific dietary motivation for the oat milk purchase (e.g., lactose intolerance, veganism, or trial) cannot be determined from purchase history alone. The variation in ordering times (morning, afternoon, evening) prevents the identification of a stable daily routine or daypart preference.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-03-14",
+      "2026-03-16",
+      "2026-03-20",
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-14T16:59:17",
+    "last_seen_at": "2026-03-24T07:53:10"
+  }
 }

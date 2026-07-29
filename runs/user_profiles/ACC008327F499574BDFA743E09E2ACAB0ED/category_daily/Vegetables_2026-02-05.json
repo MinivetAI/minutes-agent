@@ -1,9 +1,17 @@
 {
   "date": "2026-02-05",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-05 (weekday), the user purchased fresh coriander leaves in the afternoon. The order included 2 units of Coriander Leaves (Cleaned, Without Roots) and 2 units of Coriander Leaves (100 g). This afternoon activity occurred when the user's activity is below the population baseline (25.26% share vs. 32.46% for morning). The purchase of fresh, cleaned coriander suggests a need for immediate culinary use, such as garnishing or finishing a dish, rather than bulk storage.",
+  "summary_text": "On 2026-02-05 (weekday), the user ordered 2 units of Coriander Leaves (Cleaned, Without Roots) and 2 units of Coriander Leaves (100 g) in the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping, though it aligns with the afternoon share (0.2526). The products are fresh herbs typically used for immediate cooking, garnishing, or finishing dishes, suggesting a need for quick replenishment of ingredients for meal preparation.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it is insufficient to establish a stable preference for coriander, specific brands (none were present), or a recurring afternoon shopping habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so it is not yet possible to establish stable preferences, routine buying patterns, or brand loyalty. It is unclear if this represents a one-time need or a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-05"
+    ],
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-02-05T12:54:45"
+  }
 }

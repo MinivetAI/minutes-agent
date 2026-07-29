@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One order of FORTUNE Rajma Chithra Whole 500 g placed in the evening.",
+  "summary_text": "One order of FORTUNE Rajma Chithra Whole 500 g placed in the evening on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with high population activity (30.27% share). The product is a staple dry pulse used for home cooking, suggesting a need for dinner preparation or stock replenishment.",
-  "uncertainty_text": "This is a single observation on one date; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a staple pulse used for home cooking, suggesting a need for meal preparation ingredients.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-02-27T20:43:10"
+  }
 }

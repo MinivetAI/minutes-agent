@@ -1,48 +1,34 @@
 {
-  "category": "Jaggery",
-  "profile_text": "The user demonstrates a stable, slow-cadence purchasing pattern for jaggery, with purchases occurring approximately every 31 days. Evidence spans four independent dates (April through July 2026), establishing a recurring kitchen need for sweetening or cooking. While the user has engaged with multiple brands (Jivana, Organic Tattva, Safe Harvest) and formats (block, powder), no single brand or product variant has achieved high-confidence preference status due to the variety of choices; however, the consistent repurchasing behavior confirms a durable category-level habit. Purchases are consistently timed for morning sessions, often on weekends, suggesting planned shopping or routine replenishment. The user is open to different formats (block vs. powder) and brands, indicating flexibility rather than strict brand loyalty.",
-  "brand_preferences": [
-    {
-      "brand": "Organic Tattva",
-      "preference_text": "The user has purchased Organic Tattva jaggery powder on two independent dates (June and July 2026), indicating a medium-confidence preference for this brand within the category.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "Jivana",
-      "preference_text": "The user purchased Jivana sugarcane jaggery on one date (April 2026). This is a single observation and does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Safe Harvest",
-      "preference_text": "The user purchased Safe Harvest Powder Jaggery on one date (May 2026). This is a single observation and does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 31.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-07-08",
-    "predicted_next_purchase_date": "2026-08-08",
-    "replenishment_text": "The user typically repurchases jaggery every 31 days, with the next purchase estimated around August 8, 2026.",
-    "confidence": "high",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Jaggery",
+  "summary_text": "Evidence for Jaggery consists of four independent orders across April, May, June, and July 2026. The user has purchased from three distinct brands (Jivana, Organic Tattva, Safe Harvest) and two formats (Block, Powder). While Organic Tattva Powder appears twice, the total evidence spans only four dates with no single brand or format dominating sufficiently to establish a high-confidence stable preference. The user's activity aligns with the population baseline for morning daypart activity (32.46%).",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Organic Tattva",
+        "preference_text": "Purchased twice (June and July 2026) in Powder format.",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to Powder format; no evidence supports a preference for Block or other forms from this brand."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in jaggery reliably converts to purchase, as evidenced by four completed transactions across independent dates without prior browsing or cart abandonment signals.",
-  "substitution_text": null,
-  "price_value_text": "The user purchases jaggery in standard pack sizes (450 g, 500 g) from multiple brands, suggesting a focus on utility and availability rather than extreme price sensitivity or premium-only positioning.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior detected. The user's engagement is consistent and positive.",
-  "mission_generation_text": "Routine kitchen replenishment for natural sweetening and cooking ingredients, likely for daily meal preparation or beverage enhancement.",
-  "overall_confidence": "high"
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased Jivana, Organic Tattva, and Safe Harvest, indicating openness to multiple brands. Powder and Block formats have both been purchased, suggesting no strong format exclusivity. No evidence suggests substitution with non-jaggery sweeteners.",
+  "uncertainty_text": "It is unclear if the user has a strong brand loyalty or if they are exploring different brands. The preference for Powder over Block is suggested by frequency but not confirmed as exclusive. The morning timing aligns with population baselines and may not reflect a specific user routine.",
+  "retrieval_text": "User has purchased Jaggery four times between April and July 2026. Brands include Jivana (Block), Organic Tattva (Powder, twice), and Safe Harvest (Powder). Organic Tattva Powder 500g is the most frequently purchased item (2 independent dates). Purchases occurred on weekends and weekdays, predominantly in the morning, aligning with the 32.46% population baseline for morning activity. No single brand or format dominates, indicating exploratory or multi-brand usage.",
+  "replenishment": {
+    "cadence_days": 31,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "Jaggery is reordered roughly every 31 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

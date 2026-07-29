@@ -1,15 +1,17 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-15 (weekday), the user purchased one 200 g pack of Balaji Wafers Aloo Sev and one 200 g pack of Haldiram's Mini Bhakarwadi in the Savouries Namkeens category during a morning session. This timing aligns with a period where the category represents 32.46% of population activity. The items are ready-to-eat salty snacks typically associated with tea-time or immediate craving satisfaction. This is a single observed order on one date; it does not establish a stable preference or routine for this category or these specific brands.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one 200 g pack of Balaji Wafers Aloo Sev and one 200 g pack of Haldiram's Mini Bhakarwadi. This timing aligns with a period where the category represents 32.46% of population activity. The items are ready-to-eat salty snacks typically associated with tea-time or immediate craving satisfaction.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-06-15 (weekday), the user purchased Savouries Namkeens in the morning. The order included Balaji Wafers Aloo Sev (200 g) and Haldiram's Mini Bhakarwadi (200 g). This timing aligns with the population baseline, where morning accounts for 32.46% of activity. The products are ready-to-eat savory snacks typically used for immediate consumption, such as a tea-time accompaniment or a quick salty bite. This is a single observation from one date; it is not yet established whether the user has a stable preference for these specific brands, this specific category, or this morning timing. The purchase could be an isolated impulse buy or a one-time need.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or these specific brands.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user has a stable preference for these specific brands, this specific category, or this morning timing. The purchase could be an isolated impulse buy or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

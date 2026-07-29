@@ -1,9 +1,23 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-04 (weekend), the user purchased 2 units of Sindhura mangoes (fresh fruit) in the afternoon. This timing aligns with a daypart that has a lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a fresh, perishable fruit typically consumed immediately or within a short timeframe. This is a single observed order on one date; no durable brand or variety preference can be established. The specific reason for choosing this variety or timing is unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-04 (weekend), the user ordered Sindhura Mango (2 units) in the afternoon. This single observation aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but remain significant. The product is a fresh fruit item typically used for immediate consumption or short-term home use. This is a single observation on one date; it is not yet established whether the user has a stable preference for this specific mango variety, brand, or fruit category generally. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Sindhura Mango (2 units) on 2026-04-04. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but still significant. The product is a fresh fruit item typically used for immediate consumption or short-term home use.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or variety preference can be established. The specific reason for choosing this variety or timing is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for this specific mango variety, brand, or fruit category generally. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T11:40:58",
+    "last_seen_at": "2026-04-04T11:40:58"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-06-20",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-20 (weekend), the user purchased one 450 g pack of Britannia Breakfast Slice White Bread in the afternoon. This single order suggests an immediate need for convenient, same-day consumption items like breakfast or sandwiches. The afternoon timing is less common for this category compared to morning (32.46%) and evening (30.27%) baselines (25.26%). As this is the only observed order on this date, it is unclear whether this reflects a stable preference or a one-time convenience purchase.",
+  "summary_text": "On this weekend, the user purchased one order of Britannia Breakfast Slice White Bread 450 g in the afternoon. This timing contrasts with the population baseline, which shows a higher share of bread purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase driven by immediate convenience.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 450 g pack of Britannia Breakfast Slice White Bread. This timing is less common than morning or evening baselines.",
+      "pattern_text": "One order of Britannia Breakfast Slice White Bread 450 g. This timing contrasts with the population baseline, which shows a higher share of bread purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase driven by immediate convenience.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference, a routine repurchase, or a one-time convenience buy. No browsing or search data was provided to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase driven by immediate convenience.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-20"
+    ],
+    "first_seen_at": "2026-06-20T13:13:50",
+    "last_seen_at": "2026-06-20T13:13:50"
+  }
 }

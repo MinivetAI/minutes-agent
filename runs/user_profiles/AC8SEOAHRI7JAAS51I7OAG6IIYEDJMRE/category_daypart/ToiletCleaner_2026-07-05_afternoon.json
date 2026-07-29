@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 2 x 1 L pack of Flipkart Supermart Toilet Cleaner Lavender Liquid.",
+  "summary_text": "One order of Flipkart Supermart Toilet Cleaner Lavender Liquid (2 x 1 L pack) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Bought in the afternoon on a weekend, a time when population share is lower than morning or evening peaks. The product is a liquid toilet cleaner in a value twin-pack, suitable for immediate bathroom hygiene needs or routine maintenance.",
-  "uncertainty_text": "Cannot establish durable brand or scent preferences from a single order. Cannot determine if this was a one-time replacement or part of a recurring maintenance routine.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon, which aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less frequent than morning (0.3246) or evening (0.3027). The purchase of a twin-pack liquid cleaner suggests a need for immediate bathroom hygiene maintenance or a value-oriented refill.",
+  "uncertainty_text": "This is a single observation on one date, so it is not yet possible to establish a stable brand preference, regular cadence, or specific usage occasion beyond the immediate need for toilet cleaning supplies.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T11:24:33",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

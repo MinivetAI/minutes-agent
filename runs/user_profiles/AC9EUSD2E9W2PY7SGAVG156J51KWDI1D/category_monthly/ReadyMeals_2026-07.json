@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user placed one order for Safal Frozen Green Peas (200 g) on a weekday evening. This single transaction provides no evidence of a stable preference or routine for this category.",
+  "summary_text": "On this weekday, the user placed one order of Safal Frozen Green Peas 200 g in the evening. This timing aligns with the population baseline share of 0.3027 for evening orders. The product is a frozen vegetable suitable for convenient, small-batch cooking or as a quick pantry fix. This is a single observation on one date and does not establish a stable preference, routine, or brand loyalty.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no durable preference or routine can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-15"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

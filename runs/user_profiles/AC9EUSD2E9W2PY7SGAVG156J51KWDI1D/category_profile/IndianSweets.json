@@ -1,32 +1,44 @@
 {
-  "category": "Indian Sweets",
-  "profile_text": "The user demonstrates a stable, high-frequency purchasing pattern for Indian Sweets, specifically the product SAMHHWDWYZ2DTSST. This preference is supported by four independent purchase dates across June and July 2026, establishing a consistent routine. Purchases occur primarily in the morning, with one evening instance, aligning with population activity peaks for both dayparts. The user buys this specific product repeatedly, indicating a durable preference rather than a one-time trial.",
-  "brand_preferences": [],
-  "product_preferences": [
+  "category_name": "Indian Sweets",
+  "summary_text": "The user demonstrates a stable preference for the Indian Sweets product (SAMHHWDWYZ2DTSST), observed on four independent dates across June and July 2026. Purchases occurred in the morning and evening on both weekdays and weekends, with no single daypart dominating. No brand information was provided, preventing brand-level preference establishment.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "The user consistently orders a single unit of this product per transaction.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "daypart_understanding": [
     {
-      "preference_text": "The user has a stable preference for SAMHHWDWYZ2DTSST (Indian Sweets), evidenced by purchases on four independent dates across June and July 2026.",
-      "examples": [],
-      "confidence": "high"
+      "daypart": "morning",
+      "behavior_text": "The user purchases Indian Sweets in the morning, observed on two independent dates.",
+      "confidence": "medium"
+    },
+    {
+      "daypart": "evening",
+      "behavior_text": "The user also purchases Indian Sweets in the evening, observed on two independent dates.",
+      "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No alternative Indian Sweets products or brands were observed in the supplied evidence, so substitution boundaries cannot be established.",
+  "uncertainty_text": "Brand preference is unknown as no brand data was provided. While the product SAMHHWDWYZ2DTSST is stable across four dates, the daypart pattern is split between morning and evening, preventing a single routine timing inference. The sample is limited to two months.",
+  "retrieval_text": "The user has a stable preference for the specific Indian Sweets product identified as SAMHHWDWYZ2DTSST, evidenced by purchases on four independent dates in June and July 2026. Each transaction involved a quantity of one unit. The user buys this item in both morning and evening dayparts on both weekdays and weekends, indicating no strict daily timing routine. No brand information is available to establish brand loyalty or substitution preferences within the Indian Sweets category.",
   "replenishment": {
-    "cadence_days": 6.0,
+    "cadence_days": 6,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-07-21",
     "predicted_next_purchase_date": "2026-07-27",
-    "replenishment_text": "The user purchases this category approximately every 6 days, classified as a fast-replenishment item. The last purchase was on 2026-07-21, with the next predicted purchase around 2026-07-27 based on this average cadence.",
-    "confidence": "high",
-    "evidence_count": 4,
-    "independent_date_count": 4
+    "replenishment_text": "IndianSweets is reordered roughly every 6 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed transactions on independent dates without preceding unfulfilled search or cart activity.",
-  "substitution_text": "No substitution behavior observed; the user consistently purchases the same product variant (SAMHHWDWYZ2DTSST) across all observed dates.",
-  "price_value_text": "No explicit price or value sensitivity data provided; purchasing frequency suggests consistent willingness to buy at current price points.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user's behavior is consistent and repeatable.",
-  "mission_generation_text": "Supports regular personal consumption or social gifting of traditional Indian sweets, with timing suggesting both daily breakfast/snack occasions (morning) and post-dinner or social occasions (evening).",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

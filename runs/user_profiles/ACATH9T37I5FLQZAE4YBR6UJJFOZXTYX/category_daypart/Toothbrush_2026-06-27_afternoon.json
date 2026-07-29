@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "One Colgate ZigZag Medium Toothbrush was purchased. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One Colgate ZigZag Medium Toothbrush purchased on 2026-06-27.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon on a weekend. The product is a manual adult toothbrush with medium bristles, positioned for deep cleaning and gum care. This timing and product type suggest an immediate replacement need, such as a stockout or routine refresh, rather than a planned bulk purchase.",
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date. It is not yet established whether this represents a stable preference for the Colgate brand or the ZigZag model, or if it was a one-time replacement. No browsing history is available to gauge interest or comparison behavior.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing contrasts with the population baseline, which shows a higher share of toothbrush purchases in the morning (0.3246) and evening (0.3027) compared to the afternoon (0.2526). The product is a manual toothbrush typically used for daily oral hygiene.",
+  "uncertainty_text": "This is a single observation on one date, so no stable brand or product preference can be established. It is unclear if this was a replacement for a broken item, a routine restock, or a trial of a new product type.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T11:47:32",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One order of Safal Frozen Green Peas (200 g) was placed during the evening on a weekday.",
+  "summary_text": "One order of Safal Frozen Green Peas 200 g placed in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity is slightly below the population baseline (30.27%). The product is a frozen vegetable ingredient used for convenient, small-batch home cooking.",
-  "uncertainty_text": "This is a single observed transaction; no durable preference or routine can be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a frozen vegetable item used for convenient, small-batch cooking or as a quick pantry fix.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-15"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

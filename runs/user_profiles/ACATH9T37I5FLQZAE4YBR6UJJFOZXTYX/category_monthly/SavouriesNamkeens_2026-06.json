@@ -1,9 +1,18 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user placed two independent orders in the Savouries Namkeens category. One order was for Haldiram's Moong Dal 200 g on a weekday morning, and the other was for Bikaji Chowpati Bhelpuri 110 g on a weekend afternoon. Each product appeared on only one date, so no stable brand or product preferences can be established from this month's evidence. The user's ordering times (weekday morning and weekend afternoon) do not form a consistent daypart pattern across multiple dates.",
+  "summary_text": "In June 2026, the user placed two separate orders for savoury namkeens on independent dates. On 2026-06-03 (weekday), an order of Haldiram's Moong Dal 200 g was placed in the morning. On 2026-06-07 (weekend), an order of Bikaji Chowpati Bhelpuri 110 g was placed in the afternoon. No single brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preference claims are established for specific items. The orders reflect isolated observations of ready-to-eat savoury snacks for immediate consumption.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This month contains only two independent orders, each for a different product. No brand, product, or variant recurred on 2 or more dates, so no stable preferences or routines can be inferred. The observed dayparts (morning, afternoon) and day types (weekday, weekend) are isolated events and do not indicate a consistent pattern.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Each product and brand appeared on only one independent date. Single-date observations do not establish stable preferences, routines, or brand loyalty. It is unclear if these purchases represent habitual patterns or isolated needs.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-03",
+      "2026-06-07"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-07T12:10:26"
+  }
 }

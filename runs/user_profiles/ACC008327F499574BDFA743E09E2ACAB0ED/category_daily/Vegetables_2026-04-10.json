@@ -1,15 +1,23 @@
 {
   "date": "2026-04-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-10 (weekday), the user purchased fresh vegetables in the evening, including 2 units of Local Tomato (450-550g), 2 units of Bottle Gourd (400–600 g), 1 unit of Onion (1 kg), 1 unit of Local Cucumber (1 kg), and 1 unit of Long Cucumber (500 g). This single observed order indicates a replenishment need for perishable meal ingredients, potentially for same-day cooking, salads, or raita. The specific meal plan or household size driving this combination is unknown.",
+  "summary_text": "On this weekday, the user ordered fresh vegetables in the evening, a timing consistent with the population baseline where evening accounts for 30.27% of vegetable purchases. The basket included 2 units of Local Tomato (450-550g), 2 units of Bottle Gourd (400–600 g), 1 unit of Onion (1 kg), 1 unit of Local Cucumber (1 kg), and 1 unit of Long Cucumber (500 g). These fresh, perishable staples suggest preparation for immediate same-day cooking, such as curries, salads, or side dishes. As this is a single observation from one date, it is not yet established whether this specific combination, the evening timing, or the unbranded nature of the produce represents a stable, recurring preference or a one-time meal-specific need.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased fresh vegetables (tomatoes, bottle gourd, onions, cucumbers) in the evening. This timing aligns with a population evening share of 0.3027.",
+      "pattern_text": "One order of fresh vegetables placed on a weekday evening, including 2 units of Local Tomato (450-550g), 2 units of Bottle Gourd (400–600 g), 1 unit of Onion (1 kg), 1 unit of Local Cucumber (1 kg), and 1 unit of Long Cucumber (500 g).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established. The specific meal plan or household size driving this combination is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of vegetables, the evening timing, or the unbranded nature of the produce represents a stable, recurring preference or a one-time meal-specific need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-10"
+    ],
+    "first_seen_at": "2026-04-10T20:42:42",
+    "last_seen_at": "2026-04-10T20:42:42"
+  }
 }

@@ -1,34 +1,34 @@
 {
-  "category": "Noodles",
-  "profile_text": "The user has purchased Maggi brand noodles across five independent dates in 2026, indicating a stable, albeit slow, recurring preference for this specific brand. Purchases have occurred on both weekdays and weekends, across morning, evening, and night dayparts, suggesting the timing is driven by immediate convenience needs rather than a fixed schedule. The user buys both single sachets and multi-packs (12-pack and 420g), indicating flexible pack-size selection based on immediate need. There is no evidence of search or cart activity without purchase, so this is not a discovery candidate.",
-  "brand_preferences": [
-    {
-      "brand": "Maggi",
-      "preference_text": "Maggi is the only brand observed in this category, appearing on 5 independent dates (Jan, Mar, Apr, May, Jun 2026). This repetition across multiple months establishes a high-confidence stable preference for this brand within the Noodles category.",
-      "confidence": "high",
-      "evidence_count": 5,
-      "independent_date_count": 5
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Noodles",
+  "summary_text": "The user has purchased Maggi 2-Minute Masala Instant Noodles across five independent months (Jan, Mar, Apr, May, Jun 2026). Evidence includes both 70g x 12 multipacks and a 420g family-sized pack. Purchases occurred on weekdays and weekends, during morning, evening, and night dayparts. Due to the lack of repetition on the same date for specific variants or strict timing, no stable high-confidence routine is established, though the brand presence is consistent.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Maggi",
+        "preference_text": "Maggi is the only brand observed in this category across multiple months.",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to the specific instant noodle variants observed (2-Minute Masala); it does not extend to other noodle types (e.g., rice noodles, udon) or other brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No alternative brands or product types were observed in the supplied evidence. The user's behavior is confined to Maggi instant noodles, so substitution preferences cannot be determined from this data.",
+  "uncertainty_text": "While Maggi is the consistent brand, the specific product form (70g x 12 multipack vs. 420g family pack) and timing (morning, evening, night) vary across independent dates. It is unclear if the user has a strong preference for a specific pack size or if they buy whatever is available/convenient. The variation in dayparts (weekday morning vs. weekend night) suggests the purchase is driven by immediate need or stock replenishment rather than a rigid daily routine.",
+  "retrieval_text": "User has purchased Maggi 2-Minute Masala Instant Noodles across five independent months in 2026. Evidence includes 70g x 12 multipacks and 420g family-sized packs. Purchases occurred on weekdays and weekends during morning, evening, and night dayparts. No single variant or daypart shows repeated dominance across independent dates to establish a high-confidence routine, but Maggi is the sole observed brand.",
   "replenishment": {
     "cadence_days": 41.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-28",
     "predicted_next_purchase_date": "2026-08-08",
-    "replenishment_text": "The user purchases Noodles approximately every 41 days, classified as a slow cadence. The last purchase was on 2026-06-28, with the next predicted purchase around 2026-08-08 based on this average interval.",
-    "confidence": "high",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "Noodles is reordered roughly every 41 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as all observed search/view/cart behaviors (if any existed) are not present; all observed interactions are completed purchases.",
-  "substitution_text": "No evidence of substitution behavior. The user consistently purchases Maggi brand noodles.",
-  "price_value_text": "No explicit price or value behavior observed. Purchases include both single sachets and bulk packs, suggesting flexibility in pack-size selection rather than a strict price-driven strategy.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. The user has consistently purchased Maggi brand noodles.",
-  "mission_generation_text": "Supports needs for quick, high-urgency meals or snacks when time is limited, often purchased as a convenience item for immediate consumption or short-term stocking.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

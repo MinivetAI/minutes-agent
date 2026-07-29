@@ -1,92 +1,91 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-14 during the night on a weekday contains four distinct items: Paneer Tofu, Baby Cereal, Milk, and Allopathy. The basket exhibits narrow breadth with one unit of each product. The combination of Baby Cereal and Milk suggests a compatible need for infant or young child nutrition, while Paneer Tofu and Allopathy represent separate, unrelated categories within the same transaction. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-05-14 during the night weekday window contains four distinct items: Paneer Tofu, Baby Cereal, Milk, and Allopathy. The basket exhibits moderate breadth with one item from each of four different categories. The combination of Baby Cereal and Milk suggests a potential need for infant nutrition or household staples, while the inclusion of Allopathy indicates a specific health or medical need. The Paneer Tofu adds a protein source to the mix. As this is a single observed order, these items represent a one-time purchase event rather than a stable routine.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
+        "Baby Cereal",
         "Milk"
       ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.344,
+      "combination_text": "Baby Cereal and Milk were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "AeratedDrinks",
-        "Vegetables"
+        "Paneer Tofu",
+        "Baby Cereal"
       ],
-      "combination_text": "AeratedDrinks and Vegetables",
-      "support": 0.328,
+      "combination_text": "Paneer Tofu and Baby Cereal were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "Diaper",
-        "Vegetables"
+        "Paneer Tofu",
+        "Milk"
       ],
-      "combination_text": "Diaper and Vegetables",
-      "support": 0.262,
+      "combination_text": "Paneer Tofu and Milk were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "SavouriesNamkeens",
-        "Vegetables"
+        "Paneer Tofu",
+        "Allopathy"
       ],
-      "combination_text": "SavouriesNamkeens and Vegetables",
-      "support": 0.246,
+      "combination_text": "Paneer Tofu and Allopathy were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "BabyCereal",
-        "Vegetables"
+        "Baby Cereal",
+        "Allopathy"
       ],
-      "combination_text": "BabyCereal and Vegetables",
-      "support": 0.246,
+      "combination_text": "Baby Cereal and Allopathy were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "Fruits",
-        "Vegetables"
+        "Milk",
+        "Allopathy"
       ],
-      "combination_text": "Fruits and Vegetables",
-      "support": 0.213,
+      "combination_text": "Milk and Allopathy were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The presence of Baby Cereal and Milk indicates a potential need for infant or young child nutrition. Paneer Tofu may serve as a protein source, and Allopathy suggests a need for medication. These items were purchased together in a single transaction.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'repeated', 'routine', or 'stable' cannot be inferred. The category pair evidence provided reflects population-level statistics and does not necessarily reflect the specific intent of this single order beyond the items present.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The presence of Baby Cereal and Milk may indicate a need for infant food supplies or household dairy staples. The inclusion of Allopathy suggests a need for medication or health-related products. Paneer Tofu may serve as a dietary protein source.",
+  "uncertainty_text": "This analysis is based on a single order from one night weekday. No repeated behavior patterns, stable preferences, or durable routines can be inferred from this isolated observation. The provided category pair evidence (e.g., Milk/Vegetables) does not match the categories in this specific order, so no lift or support metrics from that evidence apply to the combinations observed here.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-14"
+    ],
+    "first_seen_at": "2026-05-14T22:06:00",
+    "last_seen_at": "2026-05-14T22:06:00"
+  }
 }

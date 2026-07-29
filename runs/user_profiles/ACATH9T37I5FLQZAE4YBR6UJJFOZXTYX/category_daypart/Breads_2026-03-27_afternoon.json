@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Britannia Bombay Pav Bread 250 g placed in the afternoon.",
+  "summary_text": "One order of Britannia Bombay Pav Bread (250 g) placed in the afternoon on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a soft, freshness-sensitive pav bread suitable for immediate meal components like vada pav or bhaji-pav.",
-  "uncertainty_text": "Single observation does not establish stable preference or routine. No browsing or cart activity recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less frequent than evening (0.3027) or morning (0.3246). The product is a freshness-sensitive bakery item typically used for immediate meal components like vada pav or bhaji-pav, suggesting a need for quick, short-horizon food utility.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-27T12:01:27",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

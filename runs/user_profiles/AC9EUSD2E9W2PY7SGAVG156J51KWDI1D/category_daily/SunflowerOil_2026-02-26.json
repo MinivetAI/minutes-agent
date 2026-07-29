@@ -1,15 +1,23 @@
 {
   "date": "2026-02-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-26 (weekday), the user purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil during the morning. This timing aligns with a population share of 0.3246 for morning orders. The product is a mid-small pack of refined cooking oil, compatible with routine kitchen replenishment or quick replacement for same-day cooking needs. This is a single observed order; durable brand preference or routine usage patterns cannot be established from this date alone.",
+  "summary_text": "On 2026-02-26 (weekday), the user ordered Fortune Sunlite Refined Sunflower Oil (800 g Pouch) in the morning. This single observation aligns with the common morning purchase pattern (32.46% population baseline) and suggests a routine kitchen replenishment or quick replacement need. As this is the only observed date, it is not yet established whether this represents a stable brand preference or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil. This timing aligns with a population share of 0.3246 for morning orders. The product is a mid-small pack of refined cooking oil, compatible with routine kitchen replenishment or quick replacement for same-day cooking needs.",
+      "pattern_text": "Ordered Fortune Sunlite Refined Sunflower Oil (800 g Pouch) in the morning on a weekday, consistent with the common morning purchase baseline (32.46%).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand preference or routine usage patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

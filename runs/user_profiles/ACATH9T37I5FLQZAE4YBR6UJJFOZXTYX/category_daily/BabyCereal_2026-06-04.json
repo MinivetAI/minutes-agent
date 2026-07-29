@@ -1,15 +1,23 @@
 {
   "date": "2026-06-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-04 (weekday), the user purchased 1 unit of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) in the afternoon. This timing is less common for this category than the population baseline (afternoon share 0.2526 vs. morning 0.3246). The product is a complementary infant food, typically used for feeding infants aged 6–24 months. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., replenishment, trial, or gift) is unknown.",
+  "summary_text": "On 2026-06-04 (weekday), one order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) was placed in the afternoon. This afternoon timing is below the population baseline share (0.2526 vs. morning's 0.3246). The product is a complementary infant cereal, typically used for urgent replenishment of age-appropriate feeding supplies. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time replenishment or the start of a regular purchasing pattern.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 1 unit of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) in the afternoon on a weekday. This timing is less common for this category than the population baseline (afternoon share 0.2526 vs. morning 0.3246).",
+      "pattern_text": "One order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) placed in the afternoon on a weekday. This afternoon timing is below the population baseline share (0.2526 vs. morning's 0.3246). The product is a complementary infant cereal, typically used for urgent replenishment of age-appropriate feeding supplies. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time replenishment or the start of a regular purchasing pattern.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., replenishment, trial, or gift) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time replenishment or the start of a regular purchasing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-04T11:20:07"
+  }
 }

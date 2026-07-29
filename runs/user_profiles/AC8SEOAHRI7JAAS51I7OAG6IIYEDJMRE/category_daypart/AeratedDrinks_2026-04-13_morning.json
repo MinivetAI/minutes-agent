@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Coca-Cola Diet Coke Can 300 ml.",
+  "summary_text": "One order of a single-serve 300 ml can of Coca-Cola Diet Coke.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when morning share (0.3246) is the highest among population dayparts. The product is a single-serve chilled carbonated beverage, typically used for immediate refreshment or a quick break.",
-  "uncertainty_text": "This is a single observation on one date; durable brand or flavor preferences cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekday. This timing aligns with the population baseline, where morning accounts for 32.46% of activity, making it the most common daypart for this category. The product is a single-serve chilled beverage, typically used for immediate refreshment or a quick break.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers Diet Coke over other cola variants, prefers the Coca-Cola brand specifically, or if this morning timing is a stable habit rather than an isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-13"
+    ],
+    "first_seen_at": "2026-04-13T09:26:45",
+    "last_seen_at": "2026-04-13T09:26:45"
+  }
 }

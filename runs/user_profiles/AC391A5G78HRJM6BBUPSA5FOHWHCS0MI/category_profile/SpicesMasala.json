@@ -1,26 +1,27 @@
 {
-  "category": "Spices Masala",
-  "profile_text": "The user demonstrates a stable, medium-frequency replenishment pattern for Spices Masala, with purchases occurring approximately every 14.5 days. Recent behavior indicates a broad, utilitarian approach to this category, involving multiple distinct brands (Everest, Zoff, Maggi, Goldiee) and product variants (turmeric, chili powder, cumin seeds, coriander powder, kasoori methi, chaat masala) without any single brand or product recurring across independent dates. This suggests the user buys specific spices as needed for meal preparation rather than adhering to a fixed brand loyalty or routine for a single item. The most recent activity was a multi-item restock in July 2026.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Spices Masala",
+  "summary_text": "The user has purchased a variety of spices across three months (April, June, July 2026) on five independent dates. Purchases include Maggi, Goldiee, Ashok, Everest, and Zoff brands, covering vegetable masala, dried herbs, turmeric, chaat masala, cumin seeds, and chilli powder. No single brand or product has repeated across independent dates, preventing the establishment of stable brand or product preferences. Activity spans weekdays and weekends, and morning, afternoon, and evening dayparts.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased from multiple distinct brands (Maggi, Goldiee, Ashok, Everest, Zoff) without repeating any, suggesting flexibility or brand-agnostic purchasing based on specific product needs rather than brand loyalty. No substitution boundaries can be established due to lack of repeated brand choices.",
+  "uncertainty_text": "No stable brand, product, or variant preferences can be established as no item repeated across independent dates. It is unclear if these purchases represent routine household replenishment or specific, one-off meal preparations. Daypart and cadence patterns are inconsistent across the observed dates.",
+  "retrieval_text": "User purchased a diverse range of spices including Maggi Masala-ae-Magic Vegetable Masala, Goldiee Kasoori Methi, Ashok Turmeric Powder, Everest Chaat Masala, Zoff Cumin Seeds, Everest Turmeric Powder, Everest Tikhalal Hot & Red Chilli Powder, and Everest Coriander Powder across five independent dates in April, June, and July 2026. Purchases occurred on weekdays and weekends, in morning, afternoon, and evening dayparts. No single brand or product repeated, indicating no stable brand preference or routine staple identified; activity reflects varied culinary needs rather than habitual repurchasing of specific items.",
   "replenishment": {
     "cadence_days": 14.5,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": "2026-07-18",
-    "replenishment_text": "The user typically purchases Spices Masala every 14.5 days, with the next purchase estimated around 2026-07-18.",
-    "confidence": "medium",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "SpicesMasala is reordered roughly every 14 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Spices Masala reliably converts to purchase, as evidenced by multiple completed transactions across different months and brands.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is established due to the variety of brands and pack sizes purchased.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user actively purchases a wide range of spice items.",
-  "mission_generation_text": "Supports routine meal preparation and cooking needs, specifically for seasoning and flavoring Indian dishes with core staples like turmeric, chili, cumin, and coriander.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

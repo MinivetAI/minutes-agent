@@ -1,40 +1,51 @@
 {
-  "category": "Cookies Biscuits",
-  "profile_text": "The user demonstrates a stable preference for the Sunfeast Mom's Magic brand, specifically the Ghee Roasted Cashew & Almond Cookies variant, with purchases confirmed on two independent dates in July 2026. This brand and product combination is supported by medium confidence. Other brands and variants observed in March, April, May, and June were single-instance purchases and do not constitute stable preferences. The user exhibits a slow replenishment cadence, averaging 24 days between purchases, with the last recorded purchase on 2026-07-20 and a predicted next purchase around 2026-08-13. Purchase timing varies between afternoon and evening, aligning with general population trends for tea-time or snack consumption, but no single dominant daypart is established for this user. Discovery signals are absent as all observed interest resulted in completed purchases.",
-  "brand_preferences": [
+  "category_name": "Cookies Biscuits",
+  "summary_text": "The user has established a stable preference for the Sunfeast Mom's Magic brand, specifically the Ghee Roasted Cashew & Almond Cookies variant, with orders recorded on two independent dates in July 2026. Previous months showed varied, single-observation purchases from brands like Unibic, Britannia, and Cremica, but no other brand or product has demonstrated recurrence. Ordering timing is split between weekday evenings and weekend afternoons.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Sunfeast Mom's Magic",
+        "preference_text": "The user has a stable preference for Sunfeast Mom's Magic, evidenced by orders on 2 independent dates.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Sunfeast Mom's Magic brand and does not extend to other biscuit brands such as Unibic, Britannia, or Cremica, which appeared only as single observations."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Ghee Roasted Cashew & Almond Cookies",
+        "preference_text": "The user has a stable preference for the Ghee Roasted Cashew & Almond Cookies variant, evidenced by orders on 2 independent dates.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Sunfeast Mom's Magic",
-      "preference_text": "Stable preference for Sunfeast Mom's Magic cookies, evidenced by purchases on 2026-07-04 and 2026-07-20.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
+      "daypart": "evening",
+      "behavior_text": "The user ordered in the evening on a weekday (2026-07-20), aligning with the observed pattern of evening activity in April and June.",
+      "confidence": "medium"
+    },
     {
-      "preference_text": "Stable preference for Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies, evidenced by purchases on 2026-07-04 (2 packs) and 2026-07-20 (1 pack).",
-      "examples": [],
+      "daypart": "afternoon",
+      "behavior_text": "The user ordered in the afternoon on a weekend (2026-07-04), aligning with the observed pattern of afternoon activity in July.",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has shown willingness to try other brands (Unibic, Britannia, Cremica) in single instances, but these did not recur. Sunfeast Mom's Magic is the only brand with established recurrence. Substitution to other brands is possible but not yet a stable pattern.",
+  "uncertainty_text": "It is unclear if the user prefers the 870 g pack size over the 544 g pack size, as the 544 g variant appeared only once in March and once in July (excluded from stable claims). The split between weekday evening and weekend afternoon ordering means no single daypart dominates. The user's long-term loyalty to Sunfeast Mom's Magic beyond these two dates is not yet confirmed.",
+  "retrieval_text": "The user demonstrates a stable medium-confidence preference for the Sunfeast Mom's Magic brand, specifically the Ghee Roasted Cashew & Almond Cookies variant, based on orders on two independent dates in July 2026. Ordering behavior occurs during weekday evenings and weekend afternoons. Previous single-observation purchases of Unibic, Britannia, and Cremica products do not indicate stable brand loyalty. The 544 g pack size is not part of the stable preference pattern.",
   "replenishment": {
     "cadence_days": 24.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-20",
     "predicted_next_purchase_date": "2026-08-13",
-    "replenishment_text": "The user purchases this category approximately every 24 days, classified as a slow replenishment cycle. The last purchase was on 2026-07-20, with the next expected around 2026-08-13 based on this average cadence.",
-    "confidence": "medium",
-    "evidence_count": 7,
-    "independent_date_count": 7
+    "replenishment_text": "CookiesBiscuits is reordered roughly every 24 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; all observed search, view, or cart activity (if any) is not evidenced here, but all observed interactions resulted in completed transactions.",
-  "substitution_text": "No stable substitution patterns identified; the user has shown willingness to try different brands (Unibic, Britannia, Cremica) in single instances, but no recurring substitution behavior is established.",
-  "price_value_text": "The user has purchased both value-oriented options (Cremica Jeera Lite) and premium variants (Sunfeast Mom's Magic Cashew & Almond Cookies), indicating flexibility in price sensitivity rather than a strict low-price or high-premium constraint.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. Single-instance purchases of other brands (Unibic, Britannia, Cremica) indicate openness to variety but do not establish a preference or aversion.",
-  "mission_generation_text": "Supports regular tea-time snacking, household biscuit stocking, and immediate consumption needs, with a focus on specific nut-and-ghee flavored cookie variants from the Sunfeast Mom's Magic line.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 7,
+    "independent_date_count": 7,
+    "first_seen_at": "2026-03-11T19:01:32",
+    "last_seen_at": "2026-07-20T19:05:15"
+  }
 }

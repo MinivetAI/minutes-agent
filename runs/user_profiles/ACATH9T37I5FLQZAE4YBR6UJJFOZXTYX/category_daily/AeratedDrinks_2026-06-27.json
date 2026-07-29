@@ -1,15 +1,17 @@
 {
   "date": "2026-06-27",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-27 (weekend), the user purchased one Thums Up Soft Drink 750 ml PET Bottle in the afternoon. This single observation occurred during a time when population share is lower than morning or evening peaks. No browsing history or repeat orders are available to establish preference or routine.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "One order of Thums Up Soft Drink 750 ml PET Bottle. Purchased in the afternoon on a weekend, a time when population share is lower than morning or evening peaks. Single observation; no browsing history or repeat orders to establish preference or routine.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user ordered one 750 ml PET bottle of Thums Up Soft Drink during the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares, but represent a common window for immediate refreshment or meal accompaniment. The product is a carbonated cola suitable for chilled consumption, often purchased for immediate drinking or small social occasions. This is a single observation on one date. It is not yet established whether this represents a stable preference for Thums Up, a preference for afternoon weekend purchases, or a specific need for this product on this occasion. No other orders are available to confirm repetition.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; no browsing history or repeat orders to establish preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Thums Up, a preference for afternoon weekend purchases, or a specific need for this product on this occasion. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T11:47:32",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

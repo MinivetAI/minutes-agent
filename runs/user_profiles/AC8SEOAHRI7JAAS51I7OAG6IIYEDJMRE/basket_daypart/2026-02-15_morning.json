@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-02-15 in the morning on a weekend. The basket contains two items: one unit of Canned Food and one unit of Curd Yogurt. This represents a narrow basket breadth with two distinct categories purchased together. The shopping_need_text is compatible with a basic pantry or breakfast replenishment need.",
+  "basket_summary_text": "A single order placed on a weekend morning containing one unit each of Canned Food and Curd Yogurt. This combination is supported by category pair evidence showing a lift of 1.244 for Canned Food and Curd Yogurt co-occurrence. The basket reflects a basic staple purchase compatible with a simple meal or snack need.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,11 +12,20 @@
       "combination_text": "Canned Food and Curd Yogurt were purchased together in this order.",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Replenishment of staple food items.",
-  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Canned Food and Curd Yogurt is compatible with a need for convenient, shelf-stable, or quick-preparation food items, potentially for a simple breakfast or snack.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Stable preferences or routine behaviors cannot be inferred from this isolated observation. Confidence in any inferred pattern is low due to the lack of repetition across multiple dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-15"
+    ],
+    "first_seen_at": "2026-02-15T10:01:38",
+    "last_seen_at": "2026-02-15T10:01:38"
+  }
 }

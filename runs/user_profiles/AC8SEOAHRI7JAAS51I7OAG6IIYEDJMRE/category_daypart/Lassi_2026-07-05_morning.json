@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased 3 units of Amul Sweet Lassi 250 ml, a ready-to-drink chilled dairy beverage, during a morning session on a weekend.",
+  "summary_text": "One order of Amul Sweet Lassi 250 ml (quantity: 3) on 2026-07-05.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.5%). The product is a single-serve, convenience-oriented drink suitable for immediate consumption or a quick refreshment break.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekend. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are ready-to-drink dairy beverages, typically used for immediate refreshment or as a quick snack-time accompaniment.",
+  "uncertainty_text": "No stable preferences can be established from a single order. It is unknown if the user prefers this specific brand, flavor, or format over alternatives, or if this timing reflects a habitual routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-05T10:41:31"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-07-19",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one unit each of Daadi's Methi Khakhra 180 g, Prabhuji Tok Jhal Misti 200 g, and Let's Try Lite Multigrain Mix 173 g. These shelf-stable, ready-to-eat savoury snacks are typically used for immediate consumption, such as tea-time snacking or bridging gaps between meals. This order was observed during the morning daypart, a time when this category represents 32.46% of population activity.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Savouries Namkeens in the morning. The basket included Daadi's Methi Khakhra 180 g, Prabhuji Tok Jhal Misti 200 g, and Let's Try Lite Multigrain Mix 173 g. This morning order aligns with population activity patterns where this category accounts for 32.46% of activity. The items are shelf-stable, ready-to-eat savoury snacks suitable for immediate consumption, such as tea-time accompaniments. This is a single observation from one date; it does not establish a stable preference for these specific brands or product types, nor does it indicate a recurring routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Savouries Namkeens containing Daadi's Methi Khakhra 180 g, Prabhuji Tok Jhal Misti 200 g, and Let's Try Lite Multigrain Mix 173 g, purchased on a weekend morning. The order was placed in the morning, a time when this category accounts for 32.46% of population activity. The products are shelf-stable, ready-to-eat savoury snacks typically used for immediate consumption, such as tea-time accompaniments or quick snacking.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavour preferences cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference for these specific brands or product types, nor does it indicate a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T09:35:43",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

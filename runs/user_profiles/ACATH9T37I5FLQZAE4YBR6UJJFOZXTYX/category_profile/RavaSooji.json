@@ -1,34 +1,34 @@
 {
-  "category": "Rava Sooji",
-  "profile_text": "The user has purchased Fortune brand Rava Sooji (semolina) on three independent dates (March, April, and June 2026), establishing a stable brand preference. Purchases occurred in small 500 g packs, typically for immediate cooking needs like breakfast or snacks. The user buys this item on a slow cadence (approx. every 37 days), with the last purchase on 2026-06-03 and the next predicted around 2026-07-10.",
-  "brand_preferences": [
-    {
-      "brand": "Fortune",
-      "preference_text": "Fortune is the user's established brand for Rava Sooji, supported by purchases on three independent dates (2026-03-21, 2026-04-20, 2026-06-03).",
-      "confidence": "high",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Rava Sooji",
+  "summary_text": "The user has purchased Fortune Suji 500 g on three separate dates across March, April, and June 2026. While the brand appears repeatedly, each instance is an isolated observation on a different date, preventing the establishment of a stable routine or high-confidence preference. Timing varies between afternoon and morning, with no consistent daypart pattern emerging from the limited data.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Fortune",
+        "preference_text": "Fortune is the only brand observed for Rava Sooji, appearing on three independent dates (March, April, June 2026). However, due to the lack of a consistent routine or high-frequency repetition, this represents a tentative preference rather than a stable habit.",
+        "confidence": "medium",
+        "boundary_text": "This preference is limited to the Fortune brand of Rava Sooji and does not extend to other brands or product forms like semolina-based snacks."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of substitution behavior is available. The user has only purchased Fortune Suji 500 g; it is unknown if other brands or pack sizes are acceptable alternatives.",
+  "uncertainty_text": "Evidence is limited to three single-date observations. It is not established whether the user has a stable brand preference for Fortune, a specific routine for purchasing timing, or if these were one-time needs. The variation in daypart (afternoon vs. morning) suggests no fixed timing pattern. Confidence in any stable preference is low due to the sparse and non-routine nature of the data.",
+  "retrieval_text": "User purchased Fortune Suji 500 g on three independent dates in March, April, and June 2026. Observations include afternoon and morning timings on both weekdays and weekends. No stable routine or strong brand loyalty is confirmed due to the isolated nature of each order. The product is a small-pack staple flour for immediate cooking.",
   "replenishment": {
     "cadence_days": 37.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-03",
     "predicted_next_purchase_date": "2026-07-10",
-    "replenishment_text": "The user buys Rava Sooji on a slow cadence, approximately every 37 days. The last purchase was on 2026-06-03, and the next is predicted around 2026-07-10.",
-    "confidence": "high",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "RavaSooji is reordered roughly every 37 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Rava Sooji reliably converts to purchase; the user has completed orders for this category on multiple occasions.",
-  "substitution_text": "No specific substitution behavior observed; the user consistently purchases the Fortune brand.",
-  "price_value_text": "The user purchases small 500 g packs, suggesting a preference for immediate-use quantities rather than bulk storage.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports immediate cooking needs for breakfast, snacks, or dessert preparation using staple semolina flour.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

@@ -1,26 +1,27 @@
 {
-  "category": "Savouries Namkeens",
-  "profile_text": "The user has made three distinct purchases of savoury namkeens across January, February, and May 2026, establishing a slow replenishment cadence of approximately 49 days. Preferences are not yet stable, as each purchase involved a different brand (Bingo, Bhujialalji, Haldiram's) and product variant, with no single brand or product repeated across independent dates. Purchases occurred at varied times (weekday afternoon, weekend night, weekday morning), indicating flexible timing rather than a fixed routine. The user is open to various shelf-stable, ready-to-eat snack options for immediate consumption or tea-time accompaniment.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Savouries Namkeens",
+  "summary_text": "In the observed window, the user has placed three separate orders for Savouries Namkeens across January, February, and May 2026. Each order consisted of a single unit of a different brand and product variant: Bingo Tedhe Medhe Masala Tadka (Jan), Bhujialalji Aloo Bhujia (Feb), and Haldiram's Masala Boondi (May). The purchases occurred on weekdays and weekends, during afternoons, nights, and mornings. Due to the lack of repetition for any specific brand, product, or timing pattern across independent dates, no stable brand preference, product affinity, or recurring routine can be established. The user appears to be exploring different options or purchasing based on immediate availability or specific cravings rather than a fixed habit.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Evidence is insufficient to determine acceptable substitutions or boundaries. The user has purchased from three distinct brands (Bingo, Bhujialalji, Haldiram's) and different product types (Tedhe Medhe, Aloo Bhujia, Masala Boondi) in separate instances, suggesting openness to variety rather than brand loyalty or specific product exclusivity.",
+  "uncertainty_text": "It is unknown whether the user has a preferred brand, specific product type (e.g., bhujia vs. boondi), or preferred pack size. The single observations in January, February, and May do not establish a routine. It is unclear if these purchases are part of a broader snacking habit, specific to tea-time, or one-time exploratory buys. No stable preference can be inferred from the current evidence.",
+  "retrieval_text": "User has purchased Savouries Namkeens on three independent dates: Bingo Tedhe Medhe Masala Tadka 75g in Jan 2026, Bhujialalji Aloo Bhujia 150g in Feb 2026, and Haldiram's Masala Boondi 210g in May 2026. Each order was a single unit. Purchases spanned weekday/weekend and morning/afternoon/night dayparts. No brand or product type has been repeated, preventing the establishment of a stable brand preference or product affinity. The user appears to try different brands and variants without a discernible routine.",
   "replenishment": {
     "cadence_days": 49.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-05-01",
     "predicted_next_purchase_date": "2026-06-19",
-    "replenishment_text": "The user typically repurchases this category every 49 days, with the next purchase estimated around 2026-06-19.",
-    "confidence": "low",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "SavouriesNamkeens is reordered roughly every 49 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably results in completed purchases, as all observed search/view/cart activities (if any) are not present; the profile is based entirely on three completed transactions.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value behavior can be established from the current evidence, as only three isolated transactions at varying pack sizes (75 g, 150 g, 210 g) are recorded.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No brands or products are currently avoided. The lack of repeated brand selection suggests the user is exploring options rather than adhering to a specific brand loyalty.",
-  "mission_generation_text": "Supports immediate snacking needs, such as tea-time accompaniments, break-time hunger, or crunchy snacks between meals.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-05-01T09:44:21"
+  }
 }

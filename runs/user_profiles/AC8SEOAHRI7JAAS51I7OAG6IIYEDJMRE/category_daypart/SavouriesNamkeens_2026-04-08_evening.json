@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One 20 g pack of Farmley Tangy Tomato Roasted Makhana was purchased during the evening on a weekday.",
+  "summary_text": "One 20 g pack of Farmley Tangy Tomato Roasted Makhana.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening snacking habits. The product is a small, ready-to-eat roasted makhana pack, suited for immediate, portioned snacking.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this specific brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the evening on a weekday. The population baseline shows evening accounts for 30.27% of activity, making this a common time for such purchases. The product is a small, ready-to-eat savoury snack suited for immediate consumption.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T16:16:45",
+    "last_seen_at": "2026-04-08T16:16:45"
+  }
 }

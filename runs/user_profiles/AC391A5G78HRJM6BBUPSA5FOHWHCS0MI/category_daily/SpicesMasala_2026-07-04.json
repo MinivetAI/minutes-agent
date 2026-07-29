@@ -1,15 +1,23 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), the user purchased one order of four Spices Masala items during the afternoon: Everest Turmeric Powder 200 g, Everest Tikhalal Hot & Red Chilli Powder 100 g, Zoff Cumin Seeds 100 g, and Everest Coriander Powder 200 g. This afternoon purchase aligns with a population daypart share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) shares. The items are core Indian cooking staples, suggesting a restock or immediate cooking need. Only one independent date is observed; durable preferences or routine behavior cannot be established. No browsing or funnel data is available to assess consideration or hesitation.",
+  "summary_text": "On 2026-07-04 (weekend), one order was placed in the afternoon containing Everest Turmeric Powder (200 g), Everest Tikhalal Hot & Red Chilli Powder (100 g), Zoff Cumin Seeds (100 g), and Everest Coriander Powder (200 g). The afternoon timing aligns with the population baseline where afternoon shares 25.26% of activity. The items are core Indian cooking staples, suggesting a restock or immediate cooking need. This is a single observation; stable brand preferences or consistent habits cannot be established from this date alone.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one order of four Spices Masala items: Everest Turmeric Powder 200 g, Everest Tikhalal Hot & Red Chilli Powder 100 g, Zoff Cumin Seeds 100 g, and Everest Coriander Powder 200 g.",
+      "pattern_text": "One order placed on 2026-07-04 in the afternoon containing Everest Turmeric Powder (200 g), Everest Tikhalal Hot & Red Chilli Powder (100 g), Zoff Cumin Seeds (100 g), and Everest Coriander Powder (200 g).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Only one independent date is observed; durable preferences or routine behavior cannot be established. No browsing or funnel data is available to assess consideration or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences (e.g., for Everest or Zoff), specific product repurchase patterns, or consistent daypart habits. The user's specific culinary intent or household size cannot be determined from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-07-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-20 (weekday), the user purchased 1 unit of Vicco Turmeric Skin Cream (50 g) in the evening. This timing aligns with general evening activity patterns, which have a 30.27% population share. The product is a daily-use Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief. This is a single observed order on one date; durable preferences, brand loyalty, or specific skin concerns cannot be established. The user's specific reason for choosing this product or timing is unknown.",
+  "summary_text": "On 2026-07-20 (weekday), the user purchased Vicco Turmeric Skin Cream (50 g) during the evening. This timing aligns with the population baseline, where evening purchases (0.3027 share) are nearly as common as morning purchases (0.3246 share) for Face Cream And Gel. The product is a daily-use Ayurvedic face cream typically used for skin glow and tone-evening. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased 1 unit of Vicco Turmeric Skin Cream (50 g) in the evening. This timing aligns with general evening activity patterns, which have a 30.27% population share. The product is a daily-use Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief.",
+      "pattern_text": "One order of Vicco Turmeric Skin Cream (50 g) placed on a weekday evening. This timing aligns with the population baseline, where evening (0.3027) is nearly as common as morning (0.3246) for this category.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or specific skin concerns cannot be established. The user's specific reason for choosing this product or timing is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-20"
+    ],
+    "first_seen_at": "2026-07-20T19:05:15",
+    "last_seen_at": "2026-07-20T19:05:15"
+  }
 }

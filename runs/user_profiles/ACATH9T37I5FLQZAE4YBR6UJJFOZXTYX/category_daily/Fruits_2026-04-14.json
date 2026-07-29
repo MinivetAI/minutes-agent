@@ -1,15 +1,23 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14 (weekday), the user purchased one unit each of SUPERPLUM Sindhura Mango and Watermelon Kiran during the evening. This timing aligns with the 30.27% population share for evening purchases, suggesting a potential need for fresh fruit after work or dinner. Confidence is low as this represents a single observed transaction on one date; durable preferences or habitual patterns cannot be established from this isolated event.",
+  "summary_text": "On 2026-04-14 (weekday), the user ordered fresh fruit items in the evening: one SUPERPLUM Sindhura Mango and one Watermelon Kiran. This evening timing aligns with the population baseline, where evening accounts for 30.27% of activity, slightly below the morning share (32.46%) but higher than afternoon (25.26%) and night (12.02%). The products are fresh fruits typically used for immediate consumption or hydration. This is a single observation from one date; it is not yet established whether this represents a stable preference for these specific brands or varieties, or if the user typically buys fruit at different times of day.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one unit each of SUPERPLUM Sindhura Mango and Watermelon Kiran during the evening on a weekday.",
+      "pattern_text": "One order of fresh fruit items: one SUPERPLUM Sindhura Mango and one Watermelon Kiran. This timing aligns with the population baseline where evening accounts for 30.27% of activity, slightly below the morning share (32.46%) but higher than afternoon (25.26%) and night (12.02%).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low as this represents a single observed transaction on one date; durable preferences or habitual patterns cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific brands or varieties, or if the user typically buys fruit at different times of day.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

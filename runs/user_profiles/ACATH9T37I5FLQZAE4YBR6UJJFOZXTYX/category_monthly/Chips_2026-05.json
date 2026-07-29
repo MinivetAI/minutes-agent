@@ -1,14 +1,32 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased chips on two independent dates (2026-05-12 and 2026-05-19), both on weekdays. The orders occurred during different dayparts: night on the first date and afternoon on the second. The user bought three distinct products across these dates: Let's Try Vrat Potato Chips, Lay’s American Style Cream and Onion Chips, and Too Yumm! Lightly Salted Chips. Because each brand/product appeared on only one independent date, no stable brand or product preference is established. The user’s chip consumption in this month is characterized by varied brand choices and inconsistent timing, with no recurring pattern detected.",
-  "stable_preference_claims": [],
+  "summary_text": "In May 2026, the user ordered chips on two independent dates (2026-05-12 and 2026-05-19), both on weekdays. The orders were for small-format, single-serve packs (57 g and 50 g) from different brands (Let's Try, Lay's, Too Yumm!), suggesting a pattern of immediate consumption or light snacking rather than bulk household stocking. The user ordered during the night on one date and the afternoon on the other; while the afternoon timing aligns with population baselines, the night timing is less common (12.02% share). No single brand or specific product variant recurs across dates, so no stable brand preference is established. The consistent use of small-format packs across two dates supports a stable preference for this product format.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "small-format chips (single-serve/light snack packs)",
+      "claim_text": "The user ordered small-format, single-serve chip packs on two independent dates (2026-05-12 and 2026-05-19). This repetition supports a stable preference for this product format, likely for immediate consumption or light snacking.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased chips on two independent dates in May 2026, but no single brand or product variant recurred across these dates.",
+      "claim_text": "The user ordered chips on two separate weekdays in May 2026. The timing varied between night and afternoon, with no consistent daypart pattern emerging from these two dates.",
       "confidence": "low"
     }
   ],
-  "uncertainty_text": "With only one observed order per brand/product, it is not possible to establish stable brand or flavor preferences. The variation in dayparts (night vs. afternoon) prevents the identification of a consistent consumption window.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This analysis is based on only two independent orders in May 2026. While the format preference is supported by repetition, the lack of brand recurrence and the variation in ordering times (night vs. afternoon) prevent claims of stable brand or daypart preferences. The sample size is too small to determine if the night-time order was an outlier or part of a broader habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-12",
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

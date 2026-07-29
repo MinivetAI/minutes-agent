@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one pack of Whisper Choice Ultra XL sanitary pads (40 count) in the morning on a weekday.",
+  "summary_text": "One order of Whisper Choice Ultra XL Sanitary Pad (Pack of 40) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when the user's activity (32.46% share) is above the population baseline for this daypart. The product is a standard menstrual care item for immediate period management.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning shares 32.46% of activity. The product is a menstrual care item typically used for immediate period management or replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or habitual timing. It is unknown whether this purchase was driven by an unexpected need, a planned replenishment, or a specific brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-10"
+    ],
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }

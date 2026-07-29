@@ -1,25 +1,33 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, two independent orders were placed on different dates (2026-01-24 and 2026-01-30). Both orders included Curd Yogurt and Vegetables. The first order was a weekend morning purchase of Milk, Curd Yogurt, and Vegetables. The second was a weekday afternoon purchase of Curd Yogurt, Vegetables, and Savouries Namkeens. Due to the limited number of observations (two independent dates), stable recurring patterns cannot be confirmed. The co-occurrence of Curd Yogurt and Vegetables appears in both orders, but this is insufficient to establish a durable preference or routine. No abandonment patterns are repeated across independent dates.",
+  "summary_text": "In January 2026, two independent orders were placed on a weekend morning and a weekday afternoon. Both orders included Curd Yogurt and Vegetables, establishing a repeated category combination. The first order also included Milk, while the second included Savouries Namkeens. No other categories or dayparts appeared. The consistent pairing of Curd Yogurt and Vegetables across two independent dates supports a medium-confidence pattern for this specific combination. Other category pairings and daypart behaviors remain low-confidence due to single-date observation.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
+  "category_combination_patterns": [
     {
-      "claim_text": "Curd Yogurt and Vegetables were purchased together in two independent orders (2026-01-24 and 2026-01-30).",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "Milk was purchased in the first order (2026-01-24) but not in the second.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "Savouries Namkeens were purchased in the second order (2026-01-30) but not in the first.",
-      "confidence": "low"
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in both observed orders.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
-  "shopping_need_text": "Basic meal components including dairy, fresh produce, and potentially snacks.",
-  "uncertainty_text": "Analysis is based on only two independent dates. Stable preferences, recurring daypart behaviors, or durable category combinations cannot be inferred. The co-occurrence of Curd Yogurt and Vegetables is observed twice but does not meet the threshold for a stable pattern. Isolated instances of Milk (2026-01-24) and Savouries Namkeens (2026-01-30) are noted but not part of a repeated behavior. No abandonment patterns were repeated across independent dates; therefore, no abandonment patterns are included in the stable list.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "The repeated purchase of Curd Yogurt and Vegetables is compatible with a need for fresh meal components or light snack preparation. The inclusion of Milk in one order and Savouries Namkeens in another suggests variable complementary needs for breakfast ingredients or snack spreads, but these specific combinations are not yet stable.",
+  "uncertainty_text": "While the Curd Yogurt and Vegetables combination is supported by two independent dates, other category pairings (Milk with Curd Yogurt/Vegetables; Savouries Namkeens with Curd Yogurt/Vegetables) and daypart behaviors are based on single observations. Confidence in broader basket-building patterns or routine daypart usage is low.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-01-24",
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-01-30T13:30:25"
+  }
 }

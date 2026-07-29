@@ -1,15 +1,17 @@
 {
   "date": "2026-07-21",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-21 (weekday), the user purchased one 450 g pack of Britannia Breakfast Slice White Bread during the morning. This purchase occurred in a daypart where morning activity is above the population baseline (32.46%). The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one 450 g pack of Britannia Breakfast Slice White Bread during the morning on a weekday. The purchase occurred in a daypart where morning activity is above the population baseline (32.46%). The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-07-21 (weekday), the user ordered one unit of Britannia Breakfast Slice White Bread 450 g in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

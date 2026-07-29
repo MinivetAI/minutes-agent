@@ -1,52 +1,27 @@
 {
-  "category": "Wheat Flour",
-  "profile_text": "The user has purchased wheat flour on two independent dates (April 2026 and July 2026), but the brands differ (Fortune vs. Aashirvaad) and the timing varies (weekend morning vs. weekday afternoon). This pattern does not yet establish a stable brand preference or recurring routine. Purchases are sporadic with no defined cadence.",
-  "brand_preferences": [
-    {
-      "brand": "Fortune",
-      "preference_text": "Purchased once in April 2026. Single observation; low confidence.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Aashirvaad",
-      "preference_text": "Purchased once in July 2026. Single observation; low confidence.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Fortune Chakki Fresh Atta (5 kg) purchased once in April 2026.",
-      "examples": [],
-      "confidence": "low"
-    },
-    {
-      "preference_text": "Aashirvaad Shudh Chakki Atta (5 kg) purchased once in July 2026.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Wheat Flour",
+  "summary_text": "The user has purchased wheat flour on two independent dates: a 5 kg unit of Fortune Chakki Fresh Atta on a weekend morning in April 2026, and a 5 kg unit of Aashirvaad Shudh Chakki Atta on a weekday afternoon in July 2026. Both orders were for standard 5 kg household packs. Evidence is limited to these two isolated observations, preventing the establishment of a stable brand preference, routine timing, or consistent cadence.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has purchased two different major brands (Fortune and Aashirvaad) in separate instances, but with only one order per brand, it is unclear if these are interchangeable preferences or distinct one-time choices.",
+  "uncertainty_text": "Confidence is low due to the small number of observations (two independent dates). It is unknown if the user has a preferred brand, as both Fortune and Aashirvaad appear only once. The timing (weekend morning vs. weekday afternoon) shows no consistent pattern. The 5 kg pack size is consistent but based on only two data points. No routine or habit can be confirmed.",
+  "retrieval_text": "User purchased 5 kg Fortune Chakki Fresh Atta on a weekend morning in April 2026 and 5 kg Aashirvaad Shudh Chakki Atta on a weekday afternoon in July 2026. Both are standard household staple restocks for roti/paratha preparation. Evidence is limited to two independent dates with low confidence; no stable brand preference, consistent daypart routine, or recurring cadence is established. The user buys 5 kg packs but switches between major brands without a discernible pattern.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-09",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-07-09. No cadence data available to predict next purchase.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for WheatFlour yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on two separate occasions, indicating reliable conversion from intent to purchase when the user decides to buy.",
-  "substitution_text": null,
-  "price_value_text": "Both observed purchases were for 5 kg packs. No specific price sensitivity or value-seeking behavior is evident from the limited data.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. The user has not established a routine, making future behavior uncertain.",
-  "mission_generation_text": "Restocking staple baking ingredients for home cooking or baking needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

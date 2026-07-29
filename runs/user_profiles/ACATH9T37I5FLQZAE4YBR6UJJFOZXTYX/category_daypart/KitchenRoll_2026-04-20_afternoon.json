@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) in the afternoon on a weekday.",
+  "summary_text": "One order of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) placed on 2026-04-20.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when the user's activity was below the population baseline share (25.26%). The product is a disposable household consumable for immediate kitchen cleanup needs.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon on a weekday. This timing aligns with the population baseline where afternoon accounts for 25.26% of activity, slightly lower than the morning (32.46%) and evening (30.27%) peaks. The product is a household consumable used for immediate cleanup needs such as wiping spills or drying surfaces.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring need, a one-time replenishment, or part of a broader pattern. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

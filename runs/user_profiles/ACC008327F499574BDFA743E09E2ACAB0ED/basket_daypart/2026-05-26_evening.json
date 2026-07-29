@@ -1,7 +1,7 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-26 in the evening on a weekday. The basket contains three distinct items, all from the Ice Creams category (ICEHHHCZHKTF3HQJ, ICEHBDZ2YHKYNTNX, ICEHAHKTCPAKSZX8), with a quantity of 1 for each. The order-building behavior is narrow, focusing exclusively on ice cream products. The shopping_need_text is compatible with a desire for ice cream treats. No other categories were purchased in this order.",
+  "basket_summary_text": "A single order placed on 2026-05-26 in the evening on a weekday contains three items, all from the Ice Creams category. The basket is narrow, consisting exclusively of ice cream products (ICEHHHCZHKTF3HQJ, ICEHBDZ2YHKYNTNX, ICEHAHKTCPAKSZX8), with one unit of each. This represents a single-observation event; no durable preference or routine can be inferred from this isolated transaction. The order may reflect a simple need for ice cream.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Ice Creams",
         "Vegetables"
       ],
-      "combination_text": "Ice Creams and Vegetables",
+      "combination_text": "Ice Creams and Vegetables were co-ordered in this window.",
       "support": 0.037,
       "lift": null,
-      "confidence": "low"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Desire for ice cream treats.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for ice cream.",
+  "uncertainty_text": "This is a single observation on one date. No stable patterns, preferences, or routines can be established from this isolated order. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-26"
+    ],
+    "first_seen_at": "2026-05-26T20:29:04",
+    "last_seen_at": "2026-05-26T20:29:04"
+  }
 }

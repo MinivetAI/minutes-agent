@@ -1,9 +1,23 @@
 {
   "date": "2026-05-02",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-02 (weekend), one order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) was placed in the morning. The purchase occurred during a period of moderately high population activity (32.46% share). The product serves as a complementary infant food, likely for immediate replenishment or introduction to solids. No browsing events (search, view, cart-add) were recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, one order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) was purchased in the morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a complementary infant food, typically used for early solid feeding or as a convenient nutritional supplement for infants aged 6–24 months. This is a single observation from one date; it is not yet possible to determine if this is a recurring need, a one-time replenishment, or a stable brand preference. No other baby cereal purchases or brand repetitions are visible in this window.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) purchased on a weekend morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a complementary infant food, typically used for early solid feeding or as a convenient nutritional supplement for infants aged 6–24 months. This is a single observation from one date; it is not yet possible to determine if this is a recurring need, a one-time replenishment, or a stable brand preference. No other baby cereal purchases or brand repetitions are visible in this window.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned search or an impulse replenishment. A single order does not establish a stable preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to determine if this is a recurring need, a one-time replenishment, or a stable brand preference. No other baby cereal purchases or brand repetitions are visible in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-02"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

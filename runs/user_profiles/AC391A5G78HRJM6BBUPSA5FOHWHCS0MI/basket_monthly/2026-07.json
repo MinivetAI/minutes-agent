@@ -1,17 +1,21 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user placed three distinct orders across different dayparts and day types. The first order on 2026-07-04 (weekend afternoon) was a large basket of 11 items covering household cleaning, baking ingredients, and personal hygiene, with a separate small order for oral care. The second order on 2026-07-14 (weekday evening) consisted solely of cooking oil. The third order on 2026-07-20 (weekday evening) included snacks, dairy, and personal care items. No stable, recurring patterns are established due to the lack of repetition across independent dates.",
+  "summary_text": "In July 2026, three independent orders were placed on separate dates (2026-07-04, 2026-07-14, 2026-07-20). The first was a weekend afternoon order for a broad mix of household cleaning, baking, and personal care items. The second was a weekday evening order focused exclusively on cooking oil replenishment. The third was a weekday evening order combining snacks, dairy, and personal care. No daypart, category combination, or specific product behavior repeats across these independent dates. Consequently, no stable basket-building patterns, recurring category combinations, or durable shopping needs can be inferred. All inferences remain at the level of isolated observations.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased cooking oil on 2026-07-14 and baking/cooking ingredients (flour, spices, oil) on 2026-07-04, indicating intermittent engagement with food preparation needs.",
-      "confidence": "low"
-    }
-  ],
-  "shopping_need_text": "The observed orders suggest needs for household maintenance (cleaning supplies), meal preparation (cooking ingredients), personal hygiene (oral care, face cream), and snacking (biscuits, buttermilk).",
-  "uncertainty_text": "All behavioral inferences are based on single, independent observations on 2026-07-04, 2026-07-14, and 2026-07-20. No category combinations, daypart behaviors, or shopping needs are repeated across multiple dates; therefore, no stable patterns or recurring preferences can be confirmed. The high confidence in specific category pairs (e.g., Washing Bar/Washing Powder) reflects population-level statistics or single-instance co-occurrence, not durable user preference.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "General household replenishment across cleaning, cooking, and personal care categories, observed on three separate occasions.",
+  "uncertainty_text": "This profile is based on three independent orders, each occurring on a different date with distinct basket compositions and dayparts. No behavior repeats across dates. Therefore, no durable preferences, routines, or stable patterns are established. Confidence in any broader behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-07-04",
+      "2026-07-14",
+      "2026-07-20"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-20T19:05:15"
+  }
 }

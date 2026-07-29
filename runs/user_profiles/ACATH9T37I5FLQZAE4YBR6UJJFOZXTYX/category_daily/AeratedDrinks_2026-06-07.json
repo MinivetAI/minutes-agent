@@ -1,9 +1,23 @@
 {
   "date": "2026-06-07",
   "day_type": "weekend",
-  "summary_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed in the afternoon on a weekend. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a ready-to-serve carbonated soft drink, typically used for immediate refreshment or thirst quenching.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered one unit of Sprite PET Bottle 750 ml during the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares, but represent a common window for leisure or immediate refreshment needs. The product is a ready-to-drink carbonated beverage, typically used for immediate thirst quenching or casual consumption. This is a single observation on one date. It is not yet established whether this represents a stable preference for Sprite, a preference for lemon-lime sodas, or a habitual weekend afternoon purchase pattern. No brand or product repetition has been observed to support durable preference claims.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed on a weekend afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares, but represent a common window for leisure or immediate refreshment needs. The product is a ready-to-drink carbonated beverage, typically used for immediate thirst quenching or casual consumption. This is a single observation on one date. It is not yet established whether this represents a stable preference for Sprite, a preference for lemon-lime sodas, or a habitual weekend afternoon purchase pattern. No brand or product repetition has been observed to support durable preference claims.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no browsing history or repeat purchases are available to establish stable brand or product preferences.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Sprite, a preference for lemon-lime sodas, or a habitual weekend afternoon purchase pattern. No brand or product repetition has been observed to support durable preference claims.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-07"
+    ],
+    "first_seen_at": "2026-06-07T12:10:26",
+    "last_seen_at": "2026-06-07T12:10:26"
+  }
 }

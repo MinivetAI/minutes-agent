@@ -1,9 +1,23 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On the afternoon of this weekend, the user purchased five unbranded fresh vegetables: one onion (400–450 g), one English cucumber (500 g), one carrot (500 g), one baby potato (280–320 g), and one beetroot (250–350 g). This single order suggests a need to replenish household stock or complete a same-day cooking plan. The specific recipes or meals for which these ingredients were intended are unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user placed one order of five unbranded fresh vegetables (onion, cucumber, carrot, baby potato, beetroot) during the afternoon. This timing falls below the population baseline for weekend afternoons. The basket suggests a need for immediate meal preparation ingredients or a restock of fresh produce. As this is a single observation on one date, it is not yet possible to determine if this represents a stable preference for unbranded fresh vegetables or a specific cooking routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of five unbranded fresh vegetables (onion, cucumber, carrot, baby potato, beetroot) placed on a weekend afternoon. This timing is below the population baseline for weekend afternoons (population afternoon share: 0.2526). The basket consists entirely of fresh, unbranded root and salad vegetables, suggesting a need for immediate meal preparation ingredients or a restock of fresh produce for the weekend.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to determine if this represents a stable preference for unbranded fresh vegetables, a specific cooking routine, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

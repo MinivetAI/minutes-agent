@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 450 ml carton of Gyan Ghee during a weekday morning session.",
+  "summary_text": "One order of Gyan Ghee 450 ml Carton (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The product is a shelf-stable dairy fat carton, typically used for everyday cooking, finishing, or traditional Indian food preparation.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for Gyan brand ghee or ghee in general.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchasing activity is below the population baseline (32.5%). The product is a shelf-stable dairy fat suitable for everyday cooking and traditional food preparation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. The specific reason for the purchase (e.g., running out of stock, recipe requirement) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-18"
+    ],
+    "first_seen_at": "2026-02-18T08:25:35",
+    "last_seen_at": "2026-02-18T08:25:35"
+  }
 }

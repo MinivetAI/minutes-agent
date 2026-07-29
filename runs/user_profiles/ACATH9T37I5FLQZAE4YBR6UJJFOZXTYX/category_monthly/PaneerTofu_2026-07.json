@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "On 2026-07-02 (weekday), the user placed one order of Amul Malai Paneer 200 g in the morning. This timing aligns with a period of above-baseline activity (32.46%). The product is a fresh dairy ingredient suitable for immediate cooking. This is a single observation on one date; no stable brand or product preferences can be established.",
+  "summary_text": "In July 2026, the user purchased Amul Malai Paneer 200 g on a single weekday morning. This isolated observation does not establish a stable brand preference or routine. The purchase aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh dairy ingredient typically used for immediate cooking needs.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no stable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine purchase, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

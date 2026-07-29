@@ -1,25 +1,56 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user placed 17 distinct orders across 15 independent dates, with two dates (2026-03-21 and 2026-03-24) containing multiple orders. The shopping behavior is characterized by narrow, single-purpose baskets (e.g., Eggs/Breads, Dairy staples, Snacks) and occasional multi-category meal-prep baskets. No durable preferences, recurring habits, or stable behavioral patterns can be inferred from this single month of data, as every observed pattern is isolated to a single date or transaction. The overall confidence in any inferred user behavior is low.",
+  "summary_text": "In March 2026, the user placed orders on 16 independent dates, primarily on weekdays (10 dates) and weekends (6 dates). Orders were distributed across morning, afternoon, evening, and night dayparts, with a notable concentration in the afternoon and morning slots. The basket composition varied widely, ranging from narrow, single-category or two-category purchases (e.g., Eggs and Breads; Curd Yogurt and Buttermilk) to broader baskets involving five distinct categories (e.g., Breads, Sugar, Cheese, Butter Margarine, and Tea). Common categories included Breads, Milk, Curd Yogurt, Eggs, and Savouries Namkeens. While Breads appeared frequently across many dates, it was paired with different categories each time (Eggs, Milk, Cheese, Paneer Tofu, Dips Sauces Pastes, etc.), preventing the formation of a stable, repeated category combination pattern. Similarly, Milk and Curd Yogurt appeared on multiple dates but were paired with different items each time. No single category combination or daypart behavior recurred with sufficient frequency to establish a high-confidence stable pattern. Shopping needs inferred are compatible with general breakfast preparation, light snacking, and basic household replenishment, but these are based on isolated observations rather than repeated routines.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user demonstrated varied basket breadth, ranging from narrow 2-item baskets (e.g., Eggs/Breads on 2026-03-02 and 2026-03-29) to broader 5-item baskets (e.g., 2026-03-14 and 2026-03-31).",
-      "confidence": "low"
+      "claim_text": "Breads were purchased on 7 independent dates (2026-03-02, 2026-03-14, 2026-03-16, 2026-03-24, 2026-03-27, 2026-03-28, 2026-03-29, 2026-03-31), but never with the same secondary category, indicating variable pairing rather than a stable combination.",
+      "confidence": "medium"
     },
     {
-      "claim_text": "Dairy products (Curd Yogurt, Milk, Buttermilk) were purchased on multiple independent dates (2026-03-03, 2026-03-14, 2026-03-24, 2026-03-25, 2026-03-28), but specific combinations (e.g., Yogurt/Buttermilk vs. Yogurt/Canned Food) did not repeat across dates.",
-      "confidence": "low"
+      "claim_text": "Curd Yogurt was purchased on 5 independent dates (2026-03-03, 2026-03-14, 2026-03-24, 2026-03-25, 2026-03-28), paired with Buttermilk, Milk, Canned Food, Flour/Salt, and Chips/Savouries Namkeens respectively, showing no consistent companion category.",
+      "confidence": "medium"
     },
     {
-      "claim_text": "Breads were purchased on 6 independent dates (2026-03-02, 2026-03-14, 2026-03-16, 2026-03-24, 2026-03-27, 2026-03-29, 2026-03-31), but always paired with different categories (Eggs, Milk, Vegetables, Dips, Cheese, etc.), preventing the identification of a stable pairing preference.",
-      "confidence": "low"
+      "claim_text": "Milk was purchased on 4 independent dates (2026-03-14, 2026-03-16, 2026-03-20, 2026-03-24), paired with Canned Food/Curd Yogurt/Savouries Namkeens, Ice Creams/Breads/Chocolates, Ghee/Savouries Namkeens, and Vegetables/Breads respectively, indicating no stable milk-based combination.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Savouries Namkeens were purchased on 4 independent dates (2026-03-12, 2026-03-14, 2026-03-20, 2026-03-25), paired with Fruit Drink/Chocolate, Canned Food/Milk/Breads, Ghee/Milk, and Chips/Curd Yogurt respectively, showing no consistent pairing.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Eggs were purchased on 2 independent dates (2026-03-02, 2026-03-29), both times paired with Breads in the morning, suggesting a potential but unconfirmed breakfast routine.",
+      "confidence": "medium"
     }
   ],
-  "shopping_need_text": "The user has a need for basic meal components (dairy, breads, vegetables, eggs), pantry staples (canned food, sugar, tea), and occasional snack items (chips, savouries, chocolates). Specific needs vary by date, including breakfast preparation, light refreshments, and general household maintenance.",
-  "uncertainty_text": "This analysis is based on 17 orders across 15 independent dates. No durable preferences, recurring habits, or stable behavioral patterns can be inferred. Every observed category combination, daypart behavior, and shopping need is isolated to a single date or transaction. Claims of stability require evidence from at least two independent dates. The overall confidence is low because the evidence represents only one month of isolated observations.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user demonstrates a need for basic breakfast components (Breads, Eggs, Milk, Curd Yogurt), light snacking items (Savouries Namkeens, Chips, Chocolate), and general household staples (Sugar, Tea, Canned Food). The variety of pairings suggests flexible meal preparation rather than a fixed routine.",
+  "uncertainty_text": "Confidence is low for any specific category combination or routine because no pattern repeats with the same components across multiple independent dates. While individual categories like Breads and Curd Yogurt appear frequently, their companions change each time, preventing the establishment of a stable basket-building pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 20,
+    "purchase_dates": [
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-08",
+      "2026-03-12",
+      "2026-03-14",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-20",
+      "2026-03-21",
+      "2026-03-22",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-26",
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29",
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

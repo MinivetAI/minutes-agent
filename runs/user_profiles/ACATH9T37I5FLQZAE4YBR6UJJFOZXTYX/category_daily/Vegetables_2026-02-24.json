@@ -1,9 +1,17 @@
 {
   "date": "2026-02-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-24 (weekday), the user purchased one order of eight unbranded fresh vegetables during the afternoon: Sweet Potato, Baby Potato, Beetroot, Spinach with roots, Green Capsicum, Broad Beans, Onion, and Coriander Leaves. This afternoon placement aligns with a population share of 0.2526, which is lower than the morning peak (0.3246) and evening peak (0.3027). The basket composition—fresh, unbranded root vegetables, leafy greens, and aromatics—suggests a same-day cooking mission or urgent replenishment of perishable staples rather than bulk stocking. No browsing or search history is available to determine if this was a planned list or an ad-hoc discovery. No brand preferences can be inferred as all items are unbranded. No repeat orders are observed to establish stable habits.",
+  "summary_text": "On 2026-02-24 (weekday), the user placed one order of fresh vegetables in the afternoon. The basket included sweet potato, baby potato, beetroot, spinach with roots, green capsicum, broad beans, onion, and coriander leaves. This afternoon timing aligns with the population baseline, where the afternoon share (0.2526) is lower than morning (0.3246) and evening (0.3027). The diverse selection of fresh produce suggests a general replenishment of ingredients for immediate cooking or meal preparation. As this is a single observation from one date, it is not yet established whether this specific combination of vegetables, the afternoon timing, or the preference for unbranded fresh produce represents a stable, recurring pattern for this user.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned list or an ad-hoc discovery. No brand preferences can be inferred as all items are unbranded. No repeat orders are observed to establish stable habits.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of vegetables, the afternoon timing, or the preference for unbranded fresh produce represents a stable, recurring pattern for this user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

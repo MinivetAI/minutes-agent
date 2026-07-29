@@ -1,9 +1,23 @@
 {
   "date": "2026-03-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-17 (weekday), the user purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) during the morning. This timing aligns with a 32.46% population share for this category on weekdays, suggesting a routine morning purchase for immediate kitchen use such as tea, coffee, or breakfast. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-17 (weekday), the user ordered Amul Taaza Pasteurised Toned Milk (500 ml) in the morning. This single observation aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or specific daily habit. It is unclear if this represents a regular morning purchase pattern or an isolated need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml) placed on a weekday morning. The order occurred in the morning, a time that aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or specific daily habit. It is unclear if this represents a regular morning purchase pattern or an isolated need.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or specific daily habit. It is unclear if this represents a regular morning purchase pattern or an isolated need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T07:31:13",
+    "last_seen_at": "2026-03-17T07:31:13"
+  }
 }

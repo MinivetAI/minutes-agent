@@ -1,6 +1,6 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased milk on two independent dates (2026-07-02 and 2026-07-04). Both orders occurred in the morning, a daypart where 32.46% of the population is active. The user bought Amul Cow Milk on the first date and Amul Taaza Pasteurised Toned Milk on the second. While both are Amul brand products, the specific variants differ (Cow Milk vs. Taaza Toned Milk). Because the specific product variant is not identical across dates, no single product variant meets the repetition bar for stable preference. However, the brand 'Amul' appears on 2 independent dates, meeting the threshold for stable brand preference. The timing pattern (morning) is consistent across both dates.",
+  "summary_text": "In July 2026, the user ordered milk on two independent dates (2026-07-02 and 2026-07-04). Both orders were placed during the morning daypart, a timing that aligns with the population baseline share for morning activity (0.3246). The user purchased Amul brand milk on both dates, though the specific variants differed: Amul Cow Milk 500 ml on the first date and Amul Taaza Pasteurised Toned Milk 500 ml on the second. Both are small-format, fresh dairy staples suitable for immediate consumption such as breakfast or beverage preparation. The recurrence of the Amul brand across two independent dates supports a stable preference for the brand, while the consistent morning timing supports a stable daypart pattern. The specific product variant is not yet stable as only one instance of each variant was observed.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
@@ -12,12 +12,16 @@
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "No significant trend changes are observed as the dataset is limited to two dates in a single month.",
-      "confidence": "high"
-    }
-  ],
-  "uncertainty_text": "Stable product-level preferences cannot be established because the specific milk variants purchased on the two dates differ. Confidence in brand preference is medium due to repetition across two dates.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "uncertainty_text": "While the brand preference and morning daypart pattern are supported by two independent dates, the specific product variant is not stable as each variant appeared only once. The user may be rotating between different Amul milk types or testing variants.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-02",
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

@@ -1,93 +1,33 @@
 {
   "date": "2026-05-26",
   "day_type": "weekday",
-  "summary_text": "On this weekday afternoon, a single order was placed containing one unit each of Fruits, Milk, and Cookies Biscuits. This specific combination does not appear in the provided category pair evidence, so no lift or support metrics apply to this exact basket. The order reflects a basic grocery need compatible with a single meal or snack preparation.",
+  "summary_text": "On this weekday, a single afternoon order was placed containing one unit each of fruit, milk, and cookies/biscuits. This combination is compatible with a need for a quick snack or light refreshment, pairing a fresh item, a dairy staple, and a dry snack. No stable preferences or routine behaviors can be inferred from this isolated transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
-        "CurdYogurt"
-      ],
-      "combination_text": "Breads and CurdYogurt are frequently co-ordered.",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables are frequently co-ordered.",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk are frequently co-ordered.",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables are frequently co-ordered.",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
+        "Fruits",
         "Milk",
-        "Vegetables"
+        "Cookies Biscuits"
       ],
-      "combination_text": "Milk and Vegetables are frequently co-ordered.",
-      "support": 0.057,
+      "combination_text": "Fruits, Milk, and Cookies Biscuits were ordered together in this single instance.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens are frequently co-ordered.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt are frequently co-ordered.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk are frequently co-ordered.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing a simple meal or snack involving dairy, fruit, and baked goods.",
-  "uncertainty_text": "This is a single observed order on one date. No durable preferences or stable patterns can be inferred. The category pair evidence provided reflects population-level statistics, not necessarily this specific user's history.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket is compatible with a need for a quick snack or light refreshment, combining a fresh item (fruit), a dairy staple (milk), and a dry snack (cookies).",
+  "uncertainty_text": "This description is based on a single observed order on one date. Stable preferences or routine behaviors cannot be inferred from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-26"
+    ],
+    "first_seen_at": "2026-05-26T15:40:38",
+    "last_seen_at": "2026-05-26T15:40:38"
+  }
 }

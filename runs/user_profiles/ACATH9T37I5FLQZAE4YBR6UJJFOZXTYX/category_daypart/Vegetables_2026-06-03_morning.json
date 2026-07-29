@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased seven fresh vegetable items: an unbranded product (VEGGF7EXB3KWXAGJ), baby potatoes, local tomatoes, cleaned coriander leaves, sponge gourd, onions, and spinach with roots.",
+  "summary_text": "One order of fresh vegetables including baby potatoes, local tomatoes, coriander leaves, sponge gourd, onions, and spinach with roots.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when the user's activity is 0.3246 of the population baseline. The items are perishable fresh produce staples typically used for immediate same-day cooking.",
-  "uncertainty_text": "This is a single observed order; durable preferences or specific meal intents cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The basket consists of fresh, perishable produce items typically used for immediate same-day cooking or meal preparation.",
+  "uncertainty_text": "This is a single observation; no stable brand, product, or timing preferences can be established from one order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

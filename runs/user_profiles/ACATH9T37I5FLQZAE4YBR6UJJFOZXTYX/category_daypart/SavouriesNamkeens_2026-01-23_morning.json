@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Bikaji Chowpati Bhelpuri 110 g, a packaged Indian savoury snack.",
+  "summary_text": "One order of Bikaji Chowpati Bhelpuri 110 g (quantity: 2) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed during the morning on a weekday, a time when this category represents 32.46% of population activity. The product is a ready-to-eat chaat-style mix, typically used for immediate snacking or impulse hunger.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this category represents 32.46% of population activity. The products are ready-to-eat savory snacks typically used for quick, immediate consumption.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this morning purchase (e.g., impulse, breakfast accompaniment, or stocking up) cannot be determined from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) on 2026-04-20. This was a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "In April 2026, the user placed one order for Flipkart Supermart Kitchen Towel 2 Ply on a weekday afternoon. This single observation is insufficient to establish a stable brand or product preference. The timing aligns with the population baseline for afternoon activity.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring need, a one-time replenishment, or part of a broader pattern. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

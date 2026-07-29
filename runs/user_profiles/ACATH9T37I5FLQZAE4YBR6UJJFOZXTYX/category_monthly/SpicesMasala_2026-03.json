@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "On 2026-03-15 (weekend), the user purchased 1 unit of Everest Jaljira Powder 50 g during the evening. This is a ready-to-use spiced drink mix, often used for immediate refreshment or as an after-meal digestive aid. The purchase occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On this weekend evening, the user ordered one unit of Everest Jaljira Powder (50 g). This ready-to-use spiced drink mix is typically used for quick refreshment or as an after-meal digestive accompaniment. This is a single observation; no stable brand or product preference can be established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; no stable brand or product preference can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

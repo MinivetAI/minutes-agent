@@ -1,12 +1,32 @@
 {
   "month": "2026-03",
-  "summary_text": "A single order was placed on 2026-03-11 during the evening on a weekday. The basket contains 3 units of Cookies Biscuits and 1 unit of an Unmapped-GHE product. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-03-11 (weekday), a single evening order included Cookies Biscuits (quantity 3) and Ghee (quantity 1). This represents a small basket with two distinct categories. The combination of Cookies Biscuits and Ghee is an isolated observation for this user on this date; no category pair evidence was supplied for this specific combination, so support and lift are null. The order suggests a compatible need for snack items and cooking fats, but as a single observation, it does not indicate a durable preference or routine.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Ghee"
+      ],
+      "combination_text": "Cookies Biscuits and Ghee",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
   "trend_claims": [],
-  "shopping_need_text": "The purchase of Cookies Biscuits suggests a need for a snack or dessert item. The Unmapped-GHE product's specific use is unknown, but its inclusion alongside cookies may indicate a general grocery restock or a specific meal component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The Unmapped-GHE category lacks descriptive context, limiting the ability to define the full scope of the shopping need. Category pair evidence from other dates (e.g., Milk/Vegetables) is not reflected in this specific basket and should not be assumed to apply here.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Snack items and cooking fats",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routines cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-11"
+    ],
+    "first_seen_at": "2026-03-11T19:01:32",
+    "last_seen_at": "2026-03-11T19:01:32"
+  }
 }

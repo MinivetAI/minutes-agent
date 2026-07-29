@@ -1,7 +1,7 @@
 {
   "date": "2026-06-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-10 (weekday), a single order was placed in the afternoon. The basket contained one unit of a Diaper product and two distinct Vegetable products. This combination reflects a basic household replenishment need, pairing baby care essentials with fresh produce. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-06-10 (weekday), a single order was placed in the afternoon. The basket contained one unit of Diaper (DPRF5RYGJVQQXXY7) and two units of Vegetable products (VEGHCM6M8MFYPVHK, VEGF7FJ55X7JEW8Y). This order represents a single observation of Diaper and Vegetables being co-purchased. No other categories from the provided evidence list (Milk, CurdYogurt, AeratedDrinks, SavouriesNamkeens, BabyCereal, Fruits) were present. The purchase suggests a need for household essentials and fresh food preparation, but durable preferences or routine behaviors cannot be established from this single date alone.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Diaper",
         "Vegetables"
       ],
-      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "combination_text": "Diaper and Vegetables",
       "support": 0.262,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Replenishment of baby care supplies and fresh produce.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of diapers and vegetables suggests a need for household essentials and fresh food preparation.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this data alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T15:41:36",
+    "last_seen_at": "2026-06-10T15:41:36"
+  }
 }

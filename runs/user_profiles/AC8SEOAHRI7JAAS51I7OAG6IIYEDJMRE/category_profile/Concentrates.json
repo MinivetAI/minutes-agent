@@ -1,40 +1,27 @@
 {
-  "category": "Concentrates",
-  "profile_text": "The user has a single observed purchase of Dabur Hommade Lemoneez 250 ml on 2026-04-13. This isolated transaction does not establish a durable brand or category preference. The product serves as a convenient kitchen staple for immediate lemon flavor needs in beverages or cooking.",
-  "brand_preferences": [
-    {
-      "brand": "Dabur",
-      "preference_text": "Observed in a single transaction on 2026-04-13.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Dabur Hommade Lemoneez 250 ml observed in a single transaction on 2026-04-13.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Concentrates",
+  "summary_text": "A single order of Dabur Hommade Lemoneez 250 ml was placed on 2026-04-13 (weekday) in the morning. This is an isolated observation; stable brand or product preferences cannot yet be established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns observed due to single observation.",
+  "uncertainty_text": "This category is based on a single order from one date. It is unknown whether this represents a stable preference for Dabur brand concentrates, a specific product line, or a one-time need for lemon flavor. No recurring daypart, pack size, or quantity preferences can be confirmed.",
+  "retrieval_text": "Single observation of Dabur Hommade Lemoneez 250 ml ordered on 2026-04-13 in the morning; insufficient evidence to establish stable brand, variant, or pack size preferences for the Concentrates category.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-13",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Concentrates yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this specific instance.",
-  "substitution_text": "No substitution behavior observed due to single transaction.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping for immediate lemon flavor needs in beverages or cooking.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-13T09:26:45",
+    "last_seen_at": "2026-04-13T09:26:45"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "On the evening of this weekend, the user purchased one 100 g box of Tetley Long Leaf Immune Green Tea with Vitamin C Lemon. This timing aligns with a period of slightly below-baseline activity (30.3% share). The product is a functional, flavored green tea often used for a light, citrus-profiled beverage. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "summary_text": "In June 2026, the user purchased Tetley Long Leaf Immune Green Tea with Vitamin C Lemon (100 g) on a single weekend evening. This order aligns with the population baseline where evening accounts for 30.27% of tea activity. The purchase represents a one-time acquisition of a flavoured green tea for immediate consumption.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is the only observed order on this date; it is insufficient to establish a stable brand preference, a recurring evening routine, or a specific functional need (e.g., wellness vs. taste).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of FEVIKWIK Advanced 3g Instant Glue, a fast-setting cyanoacrylate adhesive intended for quick, multi-surface household repairs.",
+  "summary_text": "One unit of FEVIKWIK Advanced 3g Instant Glue was purchased on 2026-05-01 in the afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. The product is a general utility item for urgent, on-the-spot fixes of broken or loose household items.",
-  "uncertainty_text": "This is a single observed order; durable brand preference or recurring repair habits cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The product is an instant adhesive typically used for urgent, on-the-spot repairs of broken or loose household items across various materials.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or a one-time repair need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T11:33:46",
+    "last_seen_at": "2026-05-01T11:33:46"
+  }
 }

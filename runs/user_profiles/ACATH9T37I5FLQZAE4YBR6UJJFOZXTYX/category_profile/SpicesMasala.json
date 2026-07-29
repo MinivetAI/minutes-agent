@@ -1,26 +1,27 @@
 {
-  "category": "Spices Masala",
-  "profile_text": "The user demonstrates a slow, recurring purchasing pattern for Spices Masala, with orders spaced approximately every 23 days. Recent activity includes a variety of specific spice products (Everest Jaljira, Vandevi Asafoetida, Everest Cumin, Snapin Oregano) across March, April, and May 2026. While the cadence is stable, no single brand or product has been repeated on multiple independent dates, indicating varied purchasing behavior rather than a durable brand or product preference. Purchases occur across different dayparts (evening, afternoon) and days of the week.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 23.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-05-28",
-    "predicted_next_purchase_date": "2026-06-20",
-    "replenishment_text": "The user typically repurchases Spices Masala every 23 days, with the next purchase estimated around 2026-06-20.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Spices Masala",
+  "summary_text": "The user has purchased Everest Jaljira Powder, Vandevi Asafoetida, Everest Cumin Powder, and Snapin Oregano Pizza Seasoning across March, April, and May 2026. Each item was observed on a single independent date, preventing the establishment of stable brand or product preferences. Purchases span weekday evenings, weekend afternoons, and weekday afternoons, reflecting general cooking and specific flavor needs without a discernible routine.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed orders across independent dates.",
-  "substitution_text": "No specific substitution patterns identified; the user purchases distinct products (Jaljira, Asafoetida, Cumin, Oregano) on separate occasions.",
-  "price_value_text": "No specific price or value behavior identified beyond standard unit purchases.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Supports routine culinary needs for flavoring, digestion, and specific dish preparation (e.g., pizza snacks, after-meal refreshment) through varied spice selections.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established due to the lack of repeated purchases. The user has bought distinct items (digestive mix, asafoetida, cumin, oregano) on separate occasions, suggesting they select specific spices for specific needs rather than substituting one for another within a single category preference.",
+  "uncertainty_text": "It is unknown whether the user has a preferred brand, as each brand (Everest, Vandevi, Snapin) appeared only once. It is unknown if the user prefers powder, sachet, or compounded forms, as each format was observed only once. No stable daypart or cadence pattern can be inferred from single observations.",
+  "retrieval_text": "User purchased Everest Jaljira Powder (50g) in March, Vandevi Asafoetida and Everest Cumin Powder in April, and Snapin Oregano Pizza Seasoning (50g, 10 sachets) in May 2026. Each purchase was a single observation on a different date, with no repetition to establish brand loyalty or product preference. Purchases occurred on weekday evenings, weekend afternoons, and weekday afternoons, indicating varied timing without a consistent routine.",
+  "replenishment": {
+    "cadence_days": 23,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-06-20",
+    "replenishment_text": "SpicesMasala is reordered roughly every 23 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-05-28T11:21:02"
+  }
 }

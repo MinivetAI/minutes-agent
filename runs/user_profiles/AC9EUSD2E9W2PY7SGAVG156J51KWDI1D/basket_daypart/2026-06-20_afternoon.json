@@ -1,23 +1,55 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-06-20 in the afternoon on a weekend. The basket contains one unit each of Sunscreen, Breads, and Face Cream And Gel. The order-building behavior shows a mix of personal care (Sunscreen, Face Cream And Gel) and a staple food item (Breads). No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing one unit each of Sunscreen, Breads, and Face Cream And Gel. The basket combines a personal care item (Sunscreen) with a staple food item (Breads) and another personal care item (Face Cream And Gel). No other products were purchased in this transaction.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Sunscreen",
         "Breads",
         "Face Cream And Gel"
       ],
-      "combination_text": "Sunscreen, Breads, and Face Cream And Gel were purchased together in a single order.",
+      "combination_text": "Breads and Face Cream And Gel were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "Sunscreen"
+      ],
+      "combination_text": "Breads and Sunscreen were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Face Cream And Gel",
+        "Sunscreen"
+      ],
+      "combination_text": "Face Cream And Gel and Sunscreen were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of sunscreen and face cream suggests a need for skin protection or skincare maintenance, potentially related to outdoor activity or daily routine, while the bread indicates a need for a basic food staple.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior is evident to confirm consistent habits.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Sunscreen and Face Cream And Gel suggests a need for personal skincare or sun protection, potentially compatible with weekend outdoor activities. The inclusion of Breads indicates a need for staple food items.",
+  "uncertainty_text": "This is a single observation from one independent date. It does not establish a durable preference or routine. The presence of Breads in this order does not imply a habitual pairing with Milk or Vegetables, despite general population evidence for those combinations; this specific order only contains Breads, Sunscreen, and Face Cream And Gel.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-20"
+    ],
+    "first_seen_at": "2026-06-20T13:13:50",
+    "last_seen_at": "2026-06-20T13:13:50"
+  }
 }

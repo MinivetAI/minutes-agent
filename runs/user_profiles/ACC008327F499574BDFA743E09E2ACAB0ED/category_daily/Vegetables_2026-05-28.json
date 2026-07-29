@@ -1,15 +1,17 @@
 {
   "date": "2026-05-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-28 (weekday), the user purchased a single order of fresh, unbranded vegetables during the evening. The basket included Lady’s Finger, Potato, Organic Cabbage, Onion, and English Cucumber. This timing aligns with population patterns where evening share (0.3027) is comparable to morning (0.3246). The items are fresh produce staples typically used for immediate meal preparation or same-day cooking.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased fresh, unbranded vegetables (Lady’s Finger, Potato, Organic Cabbage, Onion, English Cucumber) during the evening on a weekday.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "One order of fresh vegetables including Lady’s Finger, Potato, Organic Cabbage, Onion, and English Cucumber. Ordered in the evening on a weekday, a timing consistent with the population baseline (evening share 0.3027). The items are fresh produce staples typically used for immediate meal preparation or same-day cooking needs.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific brand 'VEGF7EZ6NTGSCA9Y' is unidentifiable.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; no stable brand, product, or timing preferences can be established from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T20:47:05",
+    "last_seen_at": "2026-05-28T20:47:05"
+  }
 }

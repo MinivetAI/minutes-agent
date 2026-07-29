@@ -1,9 +1,17 @@
 {
   "date": "2026-01-24",
   "day_type": "weekend",
-  "summary_text": "On 2026-01-24 (weekend), the user ordered 1 unit of Gourmet Garden Organic Cauliflower 1 Pc. during the morning. This purchase occurred during a morning period with above-baseline activity (32.5% population share). The item is a fresh organic vegetable suitable for home cooking. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "summary_text": "On this weekend, the user ordered one unit of Gourmet Garden Organic Cauliflower during the morning. This timing aligns with the population baseline, where morning represents the largest share of vegetable purchases (32.46%). The product is a fresh organic vegetable, typically used as a cooking base or ingredient for home meals. This is a single observation on one date. It is not yet established whether the user has a stable preference for this specific brand, the organic attribute, or cauliflower as a regular item. No other orders are available to confirm repetition or routine.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for this specific brand, the organic attribute, or cauliflower as a regular item. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-01-24T10:29:17"
+  }
 }

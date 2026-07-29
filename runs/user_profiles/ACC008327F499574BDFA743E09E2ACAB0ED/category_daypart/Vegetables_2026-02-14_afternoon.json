@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased a mixed basket of fresh produce and one ready-to-eat dessert: Green Peas Unpeeled 1kg, Cauliflower 400-600g, Onion 1.95-2.05 kg, Red Carrot Halwa, Local Tomato 450-550g, and Fresh New Crop Potato 0.95–1.05 kg.",
+  "summary_text": "One order placed on 2026-02-14 in the afternoon containing fresh vegetables (Green Peas Unpeeled 1kg, Cauliflower 400-600g, Onion 1.95-2.05 kg, Local Tomato 450-550g, Fresh New Crop Potato 0.95–1.05 kg) and one ready-to-eat sweet (Red Carrot Halwa).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed on a weekend afternoon, a time when population share (25.26%) is lower than morning (32.46%) and evening (30.27%). The basket combines immediate cooking staples (onions, potatoes, tomatoes, cauliflower, peas) with a large-format ready sweet (Red Carrot Halwa), suggesting a meal-prep or hosting scenario requiring both base ingredients and a dessert component.",
-  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned shopping and urgent replenishment. The specific meal plan or occasion for the halwa is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon on a weekend. The mix of staple fresh vegetables (onions, potatoes, tomatoes, cauliflower, peas) alongside a large portion of ready-made dessert suggests a same-day meal preparation or hosting scenario where fresh ingredients and a prepared sweet were needed quickly. The timing aligns with the population baseline where afternoon shares (0.2526) are significant, though slightly lower than morning (0.3246) and evening (0.3027).",
+  "uncertainty_text": "It is not possible to determine if this represents a routine shopping habit, a specific event (such as a festival or guest visit), or a one-time replenishment need. No brand preferences can be established as all items are unbranded. No other orders are available to confirm repetition of this basket composition or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-14"
+    ],
+    "first_seen_at": "2026-02-14T11:23:24",
+    "last_seen_at": "2026-02-14T11:23:24"
+  }
 }

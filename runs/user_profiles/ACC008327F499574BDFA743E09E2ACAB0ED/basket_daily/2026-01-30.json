@@ -1,7 +1,7 @@
 {
   "date": "2026-01-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-30, a weekday, a single order was placed in the afternoon. The basket combined two distinct categories: Ice Creams (4 units across 4 different products) and Vegetables (2 units across 2 different products). This transaction reflects a mix of immediate indulgence and meal preparation ingredients purchased together.",
+  "summary_text": "On 2026-01-30 (weekday), a single order was placed in the afternoon. The basket contained two distinct categories: Ice Creams (4 units across 4 different products) and Vegetables (2 units across 2 different products). This represents a single observation of purchasing frozen treats and fresh produce together. No durable preferences or routines can be established from this single date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Ice Creams",
         "Vegetables"
       ],
-      "combination_text": "Ice Creams and Vegetables were purchased together in this order.",
+      "combination_text": "Ice Creams and Vegetables were purchased together in one order.",
       "support": 0.037,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of ice cream and vegetables suggests a need for both immediate indulgence and meal preparation ingredients.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be fulfilling a need for both frozen treats and fresh produce in a single shopping trip.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It is not sufficient to establish a durable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T11:26:47",
+    "last_seen_at": "2026-01-30T11:26:47"
+  }
 }

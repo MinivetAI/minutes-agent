@@ -1,15 +1,23 @@
 {
   "date": "2026-05-08",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased a single order of fresh vegetables and aromatics: Onion (1 kg), Local Tomato (1 kg), Fresh New Crop Potato (0.95–1.05 kg), Fresh Ginger (70–80 g), and Coriander Leaves (100 g). This order also included Chilli Bajji (250 g). The combination of base ingredients (onion, tomato, potato, ginger, coriander) suggests preparation for a meal, while the inclusion of a ready-to-eat snack indicates immediate consumption needs. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "summary_text": "On 2026-05-08 (weekday), a single order of unbranded fresh vegetables and snacks was placed in the morning. The basket included Onion 1 kg, Chilli Bajji 250 g, Coriander Leaves 100 g, Local Tomato 1 kg, Fresh Ginger 70–80 g, and Fresh New Crop Potato 0.95–1.05 kg. The morning timing aligns with the population baseline where morning shares 32.46% of orders, making it the most common daypart. The combination of basic cooking staples (onion, tomato, potato, ginger, coriander) with a ready-to-eat snack (chilli bajji) suggests a mix of meal preparation needs and immediate consumption. This is a single observation from one date; it is not yet established whether this specific combination of items or the morning timing represents a stable routine or repeated preference.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased a single order of fresh vegetables and aromatics: Onion (1 kg), Local Tomato (1 kg), Fresh New Crop Potato (0.95–1.05 kg), Fresh Ginger (70–80 g), and Coriander Leaves (100 g). This order also included Chilli Bajji (250 g). The combination of base ingredients suggests preparation for a meal, while the inclusion of a ready-to-eat snack indicates immediate consumption needs. This is a single observation on one date; no durable brand or product preferences can be established.",
+      "pattern_text": "One order of unbranded fresh vegetables and snacks, including Onion 1 kg, Chilli Bajji 250 g, Coriander Leaves 100 g, Local Tomato 1 kg, Fresh Ginger 70–80 g, and Fresh New Crop Potato 0.95–1.05 kg. The morning timing aligns with the population baseline where morning shares 32.46% of orders, making it the most common daypart. The basket combines basic cooking staples (onion, tomato, potato, ginger, coriander) with a ready-to-eat snack (chilli bajji), suggesting a mix of meal preparation needs and immediate consumption.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of items or the morning timing represents a stable routine or repeated preference.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-08"
+    ],
+    "first_seen_at": "2026-05-08T07:19:08",
+    "last_seen_at": "2026-05-08T07:19:08"
+  }
 }

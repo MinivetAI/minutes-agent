@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Everest Jaljira Powder 50 g, a ready-to-use spiced drink mix, during the evening on a weekend.",
+  "summary_text": "One order of Everest Jaljira Powder 50 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a quick-consumption item typically used for immediate refreshment or as an after-meal digestive aid.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the evening on a weekend. The product is a ready-to-use spiced drink mix, typically used for quick refreshment or as an after-meal digestive accompaniment.",
+  "uncertainty_text": "This is a single observation; no stable brand or product preference can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

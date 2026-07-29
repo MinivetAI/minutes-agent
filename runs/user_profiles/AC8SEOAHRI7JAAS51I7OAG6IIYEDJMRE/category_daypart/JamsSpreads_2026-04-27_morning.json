@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Del Monte Eggless Mayonnaise 700 g was placed in the morning.",
+  "summary_text": "One order of Del Monte Eggless Mayonnaise 700 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. The product is a ready-to-use condiment suitable for immediate meal assembly such as sandwiches or salads.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for mayonnaise or this specific brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a ready-to-use condiment suitable for immediate meal preparation such as sandwiches or salads.",
+  "uncertainty_text": "A single order does not establish a stable preference for this brand or product type. It is unclear if this was a one-time need or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-27"
+    ],
+    "first_seen_at": "2026-04-27T07:24:25",
+    "last_seen_at": "2026-04-27T07:24:25"
+  }
 }

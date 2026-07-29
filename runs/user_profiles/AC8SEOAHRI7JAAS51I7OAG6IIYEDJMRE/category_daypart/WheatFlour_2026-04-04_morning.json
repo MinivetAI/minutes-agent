@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 5 kg pack of Fortune Chakki Fresh Atta, a whole-wheat flour intended for routine household cooking such as rotis and parathas.",
+  "summary_text": "One order of Fortune Chakki Fresh Atta 5 kg (1 unit) placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred on a weekend morning, a time when population activity is moderately high (32.46% share). The product is a standard household staple, suggesting a routine restock for immediate meal preparation rather than a discovery or specialty purchase.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference or habit. The specific reason for choosing this brand over others on this occasion is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning, a time when the user's activity is below the population baseline for this hour (32.46%). The purchase represents a standard household staple restock, likely intended for routine meal preparation such as rotis or parathas.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, a recurring weekend morning routine, or a specific household size requirement. The motivation is inferred as a standard staple restock based on product type, but the user's specific reason for choosing this brand or timing is unknown.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

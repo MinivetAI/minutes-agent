@@ -1,21 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-10 (morning, weekday) contained 2 units of Fruits. No other products were purchased or added to cart in this session. The basket breadth is narrow, consisting of a single category. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-06-10 in the morning on a weekday contains 2 units of FRTFFHGPY5HXSWA8 from the Fruits category. This represents a single-observation basket with no other items purchased in this window. The order-building behavior is limited to a single product type. No category combinations are supported by evidence within this specific order window.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Fruits"
-      ],
-      "combination_text": "Fruits",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Fruits is compatible with a need for fresh produce or snack items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this single data point. Category pair evidence (e.g., WashingBar/WashingPowder) reflects population-level co-occurrence statistics and does not indicate that these items were bought together in this specific order.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The purchase of fruit suggests a need for fresh produce, potentially for immediate consumption or meal preparation.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated observation. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T07:48:54",
+    "last_seen_at": "2026-06-10T07:48:54"
+  }
 }

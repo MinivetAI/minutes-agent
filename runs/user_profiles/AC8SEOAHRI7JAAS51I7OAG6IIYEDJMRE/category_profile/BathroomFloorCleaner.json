@@ -1,26 +1,27 @@
 {
-  "category": "Bathroom Floor Cleaner",
-  "profile_text": "A single observed purchase of a ready-to-use liquid floor cleaner on 2026-03-17. No stable preference, routine, or brand loyalty can be established from this isolated transaction.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Bathroom Floor Cleaner",
+  "summary_text": "Based on a single observation on 2026-03-17, the user purchased one unit of Lizol Citrus Disinfectant Surface & Floor Cleaner (1 L) in the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline. The product is a ready-to-use disinfectant cleaner, typically used for routine hygiene maintenance or quick sanitation of floors and surfaces. This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring cadence, or specific usage occasion (e.g., routine vs. urgent) based on this order alone.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring cadence, or specific usage occasion (e.g., routine vs. urgent) based on this order alone.",
+  "retrieval_text": "Single observation of Lizol Citrus Disinfectant Surface & Floor Cleaner (1 L) purchased on 2026-03-17 in the afternoon; insufficient evidence for stable brand, pack size, or cadence preferences.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-17",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for BathroomFloorCleaner yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Routine hygiene or spill cleanup for bathroom floors.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-17T14:48:16",
+    "last_seen_at": "2026-03-17T14:48:16"
+  }
 }

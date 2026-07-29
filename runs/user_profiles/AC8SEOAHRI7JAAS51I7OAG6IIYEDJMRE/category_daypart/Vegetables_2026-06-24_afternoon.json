@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 400–450g pack of unbranded fresh potatoes.",
+  "summary_text": "One order of Potato 400–450g (1 unit) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when the user's activity is below the population baseline share of 0.2526. The product is a fresh staple tuber suitable for immediate cooking or stockout replacement.",
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a fresh staple vegetable, typically used for immediate cooking needs.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established yet.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-24"
+    ],
+    "first_seen_at": "2026-06-24T13:23:16",
+    "last_seen_at": "2026-06-24T13:23:16"
+  }
 }

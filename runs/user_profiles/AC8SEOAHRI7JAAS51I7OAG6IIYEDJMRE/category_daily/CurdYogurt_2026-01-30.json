@@ -1,9 +1,17 @@
 {
   "date": "2026-01-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-30 (weekday), the user purchased one 390 g pack of Mother Dairy Classic Plain Curd and one 200 g cup of Mother Dairy Advanced Probiotic Plain Curd during the afternoon. This afternoon order aligns with a population daypart share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) shares. The items are everyday dairy staples suitable for immediate meal accompaniment or household replenishment. As this is a single observed order on one date, durable brand or product-type preferences cannot be established.",
+  "summary_text": "On this weekday, the user ordered Mother Dairy Classic Plain Curd 390 g and Mother Dairy Advanced Probiotic Plain Curd 200 g during the afternoon. This timing aligns with the population baseline where afternoon accounts for 25.26% of Minutes orders, slightly less than the morning (32.46%) and evening (30.27%) peaks. The products are everyday cultured dairy staples suitable for immediate consumption, meal accompaniment, or replacing curd that has run out.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product-type preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers Mother Dairy over other brands, or if they typically buy plain versus probiotic variants, or if this afternoon timing is a stable habit. No durable preference can be inferred from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T13:30:25",
+    "last_seen_at": "2026-01-30T13:30:25"
+  }
 }

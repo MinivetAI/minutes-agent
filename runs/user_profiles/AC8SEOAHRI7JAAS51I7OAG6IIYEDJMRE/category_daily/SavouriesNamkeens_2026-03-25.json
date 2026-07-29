@@ -1,9 +1,23 @@
 {
   "date": "2026-03-25",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-25 (weekday), one order of Khari Foods Pudina Makhana Pops (25 g) was placed during the evening. The purchase aligns with the population baseline evening share of 0.3027. The product is a single-serve, roasted makhana snack positioned as a light, healthy alternative to traditional fried namkeens, suitable for immediate consumption or portion-controlled snacking. No browsing events (search, view, cart) were recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-25 (weekday), the user ordered one unit of Khari Foods Pudina Makhana Pops (25 g) in the Savouries Namkeens category during the evening. This single-serve roasted snack aligns with the population baseline, where evening accounts for 30.27% of activity, comparable to the morning share (32.46%). The product is typically used for quick hunger relief or light snacking. This is a single observation on one date; it is not yet established whether the user prefers this specific brand, flavor, or product type, or if this was an isolated trial or impulse purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Khari Foods Pudina Makhana Pops (25 g) in the Savouries Namkeens category. This timing aligns with the population baseline, where evening accounts for 30.27% of activity, comparable to the morning share (32.46%). The product is a single-serve roasted snack, typically used for quick hunger relief or light snacking.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. With only one observed order on a single date, no durable brand or flavor preference can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, flavor, or product type, or if this was an isolated trial or impulse purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

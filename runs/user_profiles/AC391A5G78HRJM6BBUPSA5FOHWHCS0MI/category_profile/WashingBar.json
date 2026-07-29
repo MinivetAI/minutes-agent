@@ -1,52 +1,40 @@
 {
-  "category": "Washing Bar",
-  "profile_text": "The user demonstrates a stable, slow-cadence replenishment pattern for laundry detergent bars, with purchases spanning five independent dates from February to July 2026. The primary brand preference is Surf excel, observed across four independent dates (Feb, Apr, May, Jul), establishing a high-confidence preference for this brand in the detergent bar format. A secondary, lower-confidence interest exists for Rin, observed on one independent date (Jun). The user typically purchases standard 250 g packs of Surf excel (ordered quantities of 2-3 units) and occasionally larger multi-packs (e.g., 4x1000g of Rin). Purchases occur across morning, evening, and afternoon dayparts, with no single dominant timing, though morning activity aligns with population baselines. The category serves a clear replenishment mission for manual spot-cleaning and hand-wash laundry tasks.",
-  "brand_preferences": [
-    {
-      "brand": "Surf excel",
-      "preference_text": "High-confidence preference established across four independent purchase dates (2026-02-09, 2026-04-20, 2026-05-22, 2026-07-04).",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    },
-    {
-      "brand": "Rin",
-      "preference_text": "Low-confidence interest based on a single observed purchase on 2026-06-28.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Surf excel Detergent Bar 250 g is the primary product, observed in four independent orders with ordered quantities of 2 or 3 units.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "Rin Detergent Bars (1000 g pack of 4) observed in one independent order.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Washing Bar",
+  "summary_text": "The user has purchased washing bars across five months (Feb, Apr, May, Jun, Jul 2026). Evidence consists of single observations per month, preventing the establishment of stable brand or routine preferences. Surf Excel Detergent Bar 250 g appears in three separate months (Feb, Apr, May, Jul), while Rin Detergent Bar 1000 g Pack of 4 appears in one month (Jun). Purchasing times vary across weekday mornings, weekday evenings, and weekend afternoons/evenings, with no single daypart pattern emerging from the limited data.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Surf Excel",
+        "preference_text": "Observed in four independent months (Feb, Apr, May, Jul 2026).",
+        "confidence": "high",
+        "boundary_text": "Preference is limited to the Surf Excel brand within the washing bar category; it does not extend to other brands or non-bar laundry formats."
+      },
+      {
+        "brand": "Rin",
+        "preference_text": "Observed in one independent month (Jun 2026).",
+        "confidence": "low",
+        "boundary_text": "Preference is limited to the Rin brand within the washing bar category; it does not extend to other brands or non-bar laundry formats."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Surf Excel and Rin are both observed as acceptable washing bar brands within this category. No evidence suggests a preference for one over the other to the exclusion of the other, as both appear in the user's history.",
+  "uncertainty_text": "Confidence is low for any specific routine or daypart preference because each month contains only a single order. It is unknown if the user prefers smaller (250 g) or larger (1000 g pack) formats, or if they have a consistent time of day for purchasing. The high confidence in Surf Excel is based on frequency of appearance across months, not necessarily exclusive loyalty, as Rin was also purchased.",
+  "retrieval_text": "User purchased washing bars in Feb, Apr, May, Jun, and Jul 2026. Surf Excel Detergent Bar 250 g was ordered in Feb (qty 2), Apr (qty 3), May (qty 2), and Jul (qty 3). Rin Detergent Bar 1000 g Pack of 4 was ordered in Jun (qty 1). Purchasing times included weekday mornings, weekday evenings, and weekend afternoons/evenings. No stable daypart routine is established. Surf Excel is the most frequently observed brand across independent months.",
   "replenishment": {
     "cadence_days": 27.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": "2026-07-31",
-    "replenishment_text": "The user purchases this category approximately every 27 days, classified as a slow-replenishment item. The last purchase was on 2026-07-04, with the next predicted purchase around 2026-07-31.",
-    "confidence": "high",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "WashingBar is reordered roughly every 27 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; all observed search/view/cart behaviors (if any) are not present, but all five independent dates represent completed transactions, indicating high conversion from intent to purchase.",
-  "substitution_text": "The user substitutes between Surf excel and Rin brands, suggesting flexibility in brand choice while maintaining the detergent bar format. No specific substitution pattern is dominant.",
-  "price_value_text": "No explicit price or value behavior is observed. The user purchases standard 250 g packs and occasional larger multi-packs, indicating standard value-seeking without extreme discount dependency.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The category shows consistent, stable replenishment behavior.",
-  "mission_generation_text": "Replenishment of manual laundry detergent for spot-cleaning, hand-washing delicate items, or urgent stain treatment.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-02-09T08:35:20",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

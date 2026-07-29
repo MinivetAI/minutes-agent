@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-19 (weekday), a single order was placed in the afternoon. The basket contained seven items across five categories: Vegetables (3 units), Chips (1), Curd Yogurt (1), Savouries Namkeens (1), and Breads (1). This observation is compatible with a meal-preparation or snack-combination need, such as a home-cooked meal or light dinner setup. No durable behavior patterns or recurring habits can be inferred from this single date.",
+  "summary_text": "On 2026-05-19 (weekday), a single order was placed in the afternoon. The basket contained 7 items across 5 categories: Vegetables (3 units), Chips (1 unit), Curd Yogurt (1 unit), Savouries Namkeens (1 unit), and Breads (1 unit). The combination of Curd Yogurt and Vegetables was observed, supported by historical co-order evidence. This order suggests a need for fresh produce and dairy staples, potentially for immediate meal preparation or household consumption. As this is a single observation on one date, durable preferences cannot be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,21 +13,20 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Vegetables"
-      ],
-      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing a meal or snack combination involving fresh vegetables, dairy, and savory accompaniments.",
-  "uncertainty_text": "This is a single observed order on one date. Stable preferences or recurring habits cannot be determined from this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Need for fresh produce and dairy staples for meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-19T13:19:43",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

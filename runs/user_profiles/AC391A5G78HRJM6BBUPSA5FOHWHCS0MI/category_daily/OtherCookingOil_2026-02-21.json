@@ -1,15 +1,17 @@
 {
   "date": "2026-02-21",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-21 (weekend), the user purchased 1 unit of DHARA Kachi Ghani Mustard Oil (1 L plastic bottle) during the evening. This evening period has a high population activity share (30.27%). The product is a household cooking staple used for everyday preparation. This is a single observed transaction; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased 1 unit of DHARA Kachi Ghani Mustard Oil (1 L plastic bottle) during the evening on a weekend. This evening period has a high population activity share (30.27%). The product is a household cooking staple used for everyday preparation. This is a single observed transaction; durable brand or product preferences cannot be established from this isolated event.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased one 1 L bottle of DHARA Kachi Ghani Mustard Oil during the evening. This timing aligns with the population baseline where evening shares 30.27% of activity, comparable to the morning share (32.46%). The product is a household cooking staple used for everyday preparation. This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or routine.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-21"
+    ],
+    "first_seen_at": "2026-02-21T18:57:59",
+    "last_seen_at": "2026-02-21T18:57:59"
+  }
 }

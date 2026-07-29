@@ -1,12 +1,20 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, two independent orders were observed. On a weekend evening, the user purchased basic meal components (vegetables, bread, milk). On a weekday morning, the user purchased a car air freshener. No category combinations, dayparts, or product preferences were repeated across these independent dates.",
+  "summary_text": "During 2026-07, two independent dates of activity were observed. On 2026-07-04 (weekend), a single evening order included Vegetables, Breads, and Milk, suggesting a basic meal-preparation need. On 2026-07-09 (weekday), two separate orders were placed: a morning order for a Car Air Freshener and an evening order for Vegetables. While Vegetables appeared on both dates, the specific category combinations and dayparts differed, preventing the establishment of stable, repeated basket-building patterns or category affinities. Confidence in any inferred habit is low due to the limited number of independent dates.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
   "trend_claims": [],
-  "shopping_need_text": "Basic meal components (vegetables, bread, dairy) and vehicle interior maintenance.",
-  "uncertainty_text": "All observed behaviors are based on single independent dates. No durable preferences, routines, or stable category combinations can be inferred. The evening daypart and the combination of Breads, Vegetables, and Milk are isolated to 2026-07-04. The morning daypart and Car Air Freshener purchase are isolated to 2026-07-09.",
-  "overall_confidence": "low"
+  "shopping_need_text": "On 2026-07-04, the combination of Vegetables, Breads, and Milk suggests a need for basic meal preparation. On 2026-07-09, the morning purchase of a Car Air Freshener is compatible with maintaining vehicle interior scent, and the evening purchase of Vegetables is compatible with a need for fresh produce for meal preparation.",
+  "uncertainty_text": "This profile is based on only two independent dates. No category combinations or daypart behaviors recurred across these dates. Confidence in any inferred durable preference or routine is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-07-04",
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-04T16:42:45",
+    "last_seen_at": "2026-07-09T18:10:11"
+  }
 }

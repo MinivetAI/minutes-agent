@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 750 ml bottle of Thums Up (carbonated cola) and one 750 ml bottle of 7UP (lemon-lime soda) during the evening on a weekend.",
+  "summary_text": "One order of aerated drinks placed on a weekend evening, containing one 750 ml bottle of Thums Up cola and one 750 ml bottle of 7UP lemon-lime soda.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are immediate-refreshment beverages suitable for quick consumption or sharing.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening, a time that aligns with the population baseline where evening shares 30.27% of activity (comparable to morning's 32.46%). The products are immediate-refreshment beverages suitable for quick consumption or sharing during a meal or break.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether the user prefers cola, lemon-lime, or both, or if this represents a stable habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

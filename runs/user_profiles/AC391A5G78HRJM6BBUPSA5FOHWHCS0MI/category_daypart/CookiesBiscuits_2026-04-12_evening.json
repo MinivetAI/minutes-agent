@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one pack of Unibic Danish Coconut Cookies (270 g) and one 6-pack of Britannia 50-50 Maska Chaska Cracker biscuits (300 g total) during an evening session on a weekend.",
+  "summary_text": "One order placed on a weekend evening containing Unibic Danish Coconut Cookies (270 g) and Britannia 50-50 Maska Chaska Cracker (6 x 50 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with high population activity (30.27% share). The products are general-use snack items suitable for tea-time, immediate consumption, or pantry replenishment.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific items or the category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, a period with a population share of 0.3027, comparable to the morning share (0.3246) and higher than the afternoon (0.2526) or night (0.1202). The products are general-use snacks suitable for tea-time or immediate consumption.",
+  "uncertainty_text": "This is a single observation from one date; no stable brand or product preferences can be established. It is unclear if this represents a routine habit or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

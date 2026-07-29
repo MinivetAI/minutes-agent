@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-02-20 in the afternoon on a weekday. The basket contains 8 items across three categories: Vegetables (6 units), Milk (1 unit), and Curd Yogurt (2 units). The order-building behavior shows a concentration on fresh dairy and produce, with a high proportion of vegetable items relative to other categories. The `shopping_need_text` describes a need for fresh dairy and vegetable ingredients, compatible with the observed basket but not claiming hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on 2026-02-20 in the afternoon on a weekday. The basket contains 8 items across three categories: Vegetables (6 units), Milk (1 unit), and Curd Yogurt (2 units). The order-building behavior shows a combination of staple dairy (Milk and Curd Yogurt) with a variety of fresh produce. This specific combination of Milk and Vegetables is supported by historical co-order evidence (Support: 0.525, Lift: 1.038). The combination of Curd Yogurt and Vegetables is also supported (Support: 0.443, Lift: 1.07). The combination of Curd Yogurt and Milk is supported (Support: 0.344, Lift: 1.438). As this is a single observed order on one date, these are isolated observations of compatible needs rather than established routine patterns.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,34 +9,47 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Vegetables",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Milk"
       ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Milk",
       "support": 0.344,
       "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking fresh dairy and vegetable ingredients for meal preparation.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not stable or recurring.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Restocking on fresh produce and dairy staples for immediate consumption.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-20"
+    ],
+    "first_seen_at": "2026-02-20T12:06:16",
+    "last_seen_at": "2026-02-20T12:06:16"
+  }
 }

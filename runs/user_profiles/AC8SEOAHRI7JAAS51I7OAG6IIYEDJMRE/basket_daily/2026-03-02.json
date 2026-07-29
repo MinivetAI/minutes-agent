@@ -1,93 +1,32 @@
 {
   "date": "2026-03-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-02 (weekday, morning), a single order was placed containing one unit each of Eggs and Breads. The basket is narrow, limited to these two categories. This specific combination of Eggs and Breads is not supported by the provided category pair evidence, which lists associations for Breads with CurdYogurt, Vegetables, and Milk, but not Eggs. The observed items may serve as ingredients for a simple breakfast or light meal, such as toast with eggs. This analysis is based on a single observed order on one date; no durable preferences or recurring patterns can be inferred. The category pair evidence reflects population-level co-occurrence statistics and does not confirm that this specific user follows those patterns.",
+  "summary_text": "On 2026-03-02 (weekday), a single order was placed in the morning. The basket contained one unit of Eggs and one unit of Breads, forming a basic breakfast combination. This observation is compatible with a need for a quick, simple breakfast or morning meal preparation. No other products were purchased. Because this is based on a single order on one independent date, stable preferences or routine behaviors cannot be established from this isolated observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
-        "CurdYogurt"
+        "Eggs",
+        "Breads"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Eggs and Breads",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be assembling ingredients for a simple breakfast or light meal, such as toast with eggs or a bread-based dish.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or recurring patterns can be inferred. The category pair evidence reflects population-level co-occurrence statistics and does not confirm that this specific user follows those patterns.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Eggs and Breads is compatible with a need for a quick, simple breakfast or morning meal preparation.",
+  "uncertainty_text": "This inference is based on a single order on one independent date. Stable preferences or routine behaviors cannot be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-02T09:36:38"
+  }
 }

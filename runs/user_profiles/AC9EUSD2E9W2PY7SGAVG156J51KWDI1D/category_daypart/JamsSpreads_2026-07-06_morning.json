@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Saffola Peanut Butter with Jaggery, Crunchy (350 g) was placed in the morning.",
+  "summary_text": "One order of Saffola Peanut Butter with Jaggery, Crunchy (350 g) in the Jams Spreads category.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a pantry spread suitable for quick breakfasts or snacks.",
-  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity, making it the most common time for this category. The product is a pantry staple spread, typically used for quick breakfasts or snacks.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Saffola, peanut butter, or morning shopping habits. No other products or brands were observed in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-06T09:15:29"
+  }
 }

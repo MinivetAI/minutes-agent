@@ -1,23 +1,55 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "On 2026-07-17 (morning, weekday), a single order was placed containing Savouries Namkeens (1 unit), Sunflower Oil (1 unit), and Milk (2 units). The basket breadth is narrow, spanning three distinct categories: a snack item, a cooking staple, and a dairy product. The `shopping_need_text` suggests a need for basic household provisions and a snack, compatible with the observed items. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-07-17 in the morning on a weekday included Savouries Namkeens, Sunflower Oil, and Milk. This represents a single observation of basket breadth and category combination; no durable behavior pattern can be established from one date.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Savouries Namkeens",
-        "Sunflower Oil",
-        "Milk"
+        "Milk",
+        "Savouries Namkeens"
       ],
-      "combination_text": "Savouries Namkeens, Sunflower Oil, and Milk were purchased together in a single order.",
+      "combination_text": "Milk and Savouries Namkeens were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "Sunflower Oil"
+      ],
+      "combination_text": "Milk and Sunflower Oil were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Sunflower Oil"
+      ],
+      "combination_text": "Savouries Namkeens and Sunflower Oil were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for basic pantry staples and a snack item.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not necessarily reflect the specific intent or frequency of this individual user's behavior beyond this single transaction.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Milk, Sunflower Oil, and Savouries Namkeens is compatible with a need for breakfast or snack items and cooking ingredients.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No repeated behavior, routine, or stable preference can be inferred. The provided category pair evidence (e.g., Milk/Vegetables) does not match the products in this specific order, so those statistical metrics are not applied here.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-17"
+    ],
+    "first_seen_at": "2026-07-17T10:33:18",
+    "last_seen_at": "2026-07-17T10:33:18"
+  }
 }

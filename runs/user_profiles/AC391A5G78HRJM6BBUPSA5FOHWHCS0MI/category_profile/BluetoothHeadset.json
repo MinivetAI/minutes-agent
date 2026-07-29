@@ -1,40 +1,27 @@
 {
-  "category": "Bluetooth Headset",
-  "profile_text": "A single observed purchase of a boAt neckband-style earphone on 2026-02-07. No recurring pattern, brand loyalty, or routine is established. The user's need for personal audio utility is confirmed by this one transaction, but no stable preference or replenishment cadence can be inferred.",
-  "brand_preferences": [
-    {
-      "brand": "boAt",
-      "preference_text": "Observed in a single purchase on 2026-02-07. Insufficient repetition to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "boAt Rockerz 110 Wireless Neckband Earphones (Deep Purple) purchased once on 2026-02-07. No repeated selection observed.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Bluetooth Headset",
+  "summary_text": "In 2026-02, the user ordered one boAt Rockerz 110 Wireless Neckband Earphones on a weekend night. This is a single observation and does not establish a stable preference for the brand, product, or timing. The product is a personal audio device with long battery life and low-latency features, generally used for music, calls, or media consumption. It is unclear if this was a replacement for a lost/damaged item, a new purchase, or a gift.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the brand, product type, or timing. It is unclear if this was a replacement for a lost/damaged item, a new purchase, or a gift.",
+  "retrieval_text": "In February 2026, the user purchased one boAt Rockerz 110 Wireless Neckband Earphones on a weekend night. This single order indicates an interest in wireless neckband-style audio devices, specifically the boAt brand, but does not establish a recurring preference or routine for this category.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-07",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established; last purchase was on 2026-02-07. Next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for BluetoothHeadset yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on 2026-02-07. No prior browsing or cart activity was recorded to indicate hesitation or unmet interest.",
-  "substitution_text": "No repeated brand or product selection observed; substitution behavior cannot be determined.",
-  "price_value_text": "No repeated purchase history to establish price sensitivity or value perception.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty beyond the lack of repeated engagement.",
-  "mission_generation_text": "Personal audio utility for calls and media consumption, as evidenced by the neckband-style earphone purchase.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-07T21:22:18",
+    "last_seen_at": "2026-02-07T21:22:18"
+  }
 }

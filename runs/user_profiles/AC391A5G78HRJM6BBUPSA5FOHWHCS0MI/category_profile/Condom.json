@@ -1,26 +1,27 @@
 {
-  "category": "Condom",
-  "profile_text": "A single observed purchase of a delay-focused, ultra-thin lubricated condom in April 2026. This isolated event does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this delay-focused, ultra-thin product over other options is unknown.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Condom",
+  "summary_text": "In April 2026, the user placed one order for Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom on a weekday evening. This single observation aligns with the population baseline for evening purchases (30.27%). Due to the lack of repetition across independent dates, no stable brand or product preference can be established, and the pattern is considered a single observation rather than a recurring routine.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences established from a single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this is a stable preference, a one-time need, or part of a recurring routine. No brand or product preference can be established from this single order.",
+  "retrieval_text": "Single observed order in April 2026 for Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom purchased on a weekday evening, aligning with population evening baseline; insufficient repetition to establish stable brand, variant, or routine preferences.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-20",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Condom yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution patterns observed from a single order.",
-  "price_value_text": "No price/value pattern established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports personal sexual health and protection needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

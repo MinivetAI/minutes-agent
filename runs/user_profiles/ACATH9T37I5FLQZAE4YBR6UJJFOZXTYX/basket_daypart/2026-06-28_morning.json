@@ -1,26 +1,115 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning included one unit each of Tea, Sanitary Pad, Chips (2 units), Noodles, Rice Rice Products, and Vegetables (2 units). The basket breadth covers 5 distinct categories: Tea, Sanitary Pad, Chips, Noodles, Rice Rice Products, and Vegetables. The combination of Tea, Sanitary Pad, Chips, Noodles, Rice, and Vegetables suggests a compatible need for basic household staples and quick meal components. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekend morning containing a mix of staple foods (Rice, Noodles, Vegetables), snacks (Chips), and personal care items (Sanitary Pad, Tea). The basket reflects a broad range of categories including groceries and hygiene, consistent with a general household restock or a specific meal-prep need compatible with the items present.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Tea",
-        "Sanitary Pad",
-        "Chips",
-        "Noodles",
-        "Rice Rice Products",
+        "Milk",
         "Vegetables"
       ],
-      "combination_text": "Tea, Sanitary Pad, Chips, Noodles, Rice Rice Products, and Vegetables were purchased together in a single order.",
-      "support": null,
+      "combination_text": "Milk and Vegetables",
+      "support": 0.525,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Vegetables"
+      ],
+      "combination_text": "CurdYogurt and Vegetables",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "combination_text": "CurdYogurt and Milk",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "AeratedDrinks",
+        "Vegetables"
+      ],
+      "combination_text": "AeratedDrinks and Vegetables",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables",
+      "support": 0.262,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "SavouriesNamkeens",
+        "Vegetables"
+      ],
+      "combination_text": "SavouriesNamkeens and Vegetables",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "BabyCereal",
+        "Vegetables"
+      ],
+      "combination_text": "BabyCereal and Vegetables",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The products purchased are compatible with a need for basic food staples and personal care items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing meals requiring rice, noodles, and vegetables, while also restocking snacks and personal hygiene supplies.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-03-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-23 (weekday), the user purchased one 272 g pack of Sunfeast YiPPee! Magic Masala with Added Veggies instant noodles during the morning. This order occurred at a time when the population share is 0.3246. The product serves as a convenient, quick-preparation meal option suitable for urgent hunger or when time is short. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "summary_text": "On 2026-03-23 (weekday), one order of Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) was placed in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The product is an instant noodle pack generally used for quick, hot meals or snacks when time is short. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific noodle variant, or morning ordering habits. No other orders are available to confirm repetition.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 272 g pack of Sunfeast YiPPee! Magic Masala with Added Veggies instant noodles. This is a convenient, quick-preparation meal option suitable for urgent hunger or when time is short.",
+      "pattern_text": "One order of Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) was placed in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The product is an instant noodle pack generally used for quick, hot meals or snacks when time is short. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific noodle variant, or morning ordering habits. No other orders are available to confirm repetition.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific noodle variant, or morning ordering habits. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-23"
+    ],
+    "first_seen_at": "2026-03-23T09:42:20",
+    "last_seen_at": "2026-03-23T09:42:20"
+  }
 }

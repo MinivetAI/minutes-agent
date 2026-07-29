@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 250 g pack of Unbranded Green Capsicum and one 200 g pack of Urban Harvest Sweet Corn Kernels.",
+  "summary_text": "One order of Green Capsicum (250 g) and Urban Harvest Sweet Corn Kernels (200 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during a weekday morning, a time when 32.46% of the population is active. The items are fresh produce and ready-to-use vegetable ingredients, suggesting immediate utility for meal preparation.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or routine buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the morning on a weekday. The items are fresh vegetables suitable for immediate meal preparation, such as salads, stir-fries, or quick cooking, aligning with a same-day utility need.",
+  "uncertainty_text": "This is a single observation; no stable brand, product, or timing preferences can be established from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

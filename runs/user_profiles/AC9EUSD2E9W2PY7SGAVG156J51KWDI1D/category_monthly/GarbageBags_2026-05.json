@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased one 15-unit pack of Flipkart Supermart Compostable Medium Garbage Bags on a weekend afternoon. This single transaction represents a specific need for weekend household waste management rather than a stable preference.",
+  "summary_text": "One order of Flipkart Supermart Compostable Medium Garbage Bag (15 units) on 2026-05-24. The order occurred in the afternoon on a weekend. This timing aligns with the population baseline where afternoon (0.2526) is less common than morning (0.3246) and evening (0.3027). The product is a household consumable used for waste disposal in bins, suggesting an immediate need to replace a liner or manage household waste.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, size, or compostable material over other options, or if this represents a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

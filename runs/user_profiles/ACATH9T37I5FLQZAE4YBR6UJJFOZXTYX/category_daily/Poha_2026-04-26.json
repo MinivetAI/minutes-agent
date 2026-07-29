@@ -1,9 +1,23 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-26 (weekend), one order of Fortune Indori Thick Poha (500 g) was placed in the afternoon. No browsing or cart activity was observed. The purchase occurred in the afternoon, which is less common than the population baseline for morning (0.3246) or evening (0.3027) activity, though afternoon share (0.2526) is significant. The product is a staple breakfast/snack item, suggesting a quick refill or immediate meal preparation need. This is a single observed order; it does not establish a stable preference or routine. The specific reason for the afternoon timing or the choice of this specific brand over others is unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Fortune Indori Thick Poha 500 g in the afternoon. This timing is less common than the population baseline for morning consumption (32.46%) or evening consumption (30.27%), and aligns with the observed afternoon share (25.26%). The product is a quick-prep breakfast or snack staple. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, a one-time purchase, or a deviation from typical morning consumption patterns.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Fortune Indori Thick Poha 500 g. This timing is less common than the population baseline for morning consumption (32.46%) or evening consumption (30.27%), and aligns with the observed afternoon share (25.26%). The product is a quick-prep breakfast or snack staple. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, a one-time purchase, or a deviation from typical morning consumption patterns.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the afternoon timing or the choice of this specific brand over others is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, a one-time purchase, or a deviation from typical morning consumption patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

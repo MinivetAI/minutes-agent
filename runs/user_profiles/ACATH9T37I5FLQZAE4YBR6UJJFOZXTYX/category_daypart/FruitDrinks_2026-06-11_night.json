@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased one pack of 10 Frooti Mango Drinks (150 ml each).",
+  "summary_text": "One order of Frooti Mango Drink 150 ml Pack of 10.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the night on a weekday, a period with lower population share (12.02%) compared to morning (32.46%), evening (30.27%), and afternoon (25.26%). The product is a ready-to-drink mango beverage suited for immediate thirst quenching or stocking for quick consumption.",
-  "uncertainty_text": "This is a single observed order on one date; no repeated behavior is established to confirm a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered at night on a weekday. The population baseline indicates this timing is less common (12.02% share) compared to morning (32.46%), afternoon (25.26%), or evening (30.27%). The product is a ready-to-drink mango beverage, typically used for immediate thirst or refreshment.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a habitual preference, a one-time need, or part of a recurring pattern. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-01-31",
   "day_type": "weekend",
-  "summary_text": "On the evening of this weekend, the user purchased seven unbranded fresh vegetable items: Red Carrot (500 g), Coriander Leaves (90-100 g), Onion - Sambhar (250 g), Spinach Leaves (200 g), Onion (400–450 g), Baby Potato (280–320 g), and Broad Beans (240-260 g). The order occurred in the evening, a time when the population share (0.3027) is comparable to the morning baseline (0.3246). The basket consists entirely of fresh, unbranded produce and herbs, suggesting an urgent top-up for immediate meal preparation or cooking of multiple dishes requiring these specific ingredients. This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this evening timing.",
+  "summary_text": "On 2026-01-31 (weekend), the user placed one order in the evening for seven unbranded fresh vegetable items: Red Carrot, Coriander Leaves, Onion - Sambhar, Spinach Leaves, Onion, Baby Potato, and Broad Beans. This single observation suggests an urgent top-up for immediate meal preparation or cooking that same day. The evening timing aligns with the population baseline (evening share 0.3027). This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the evening timing.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased seven unbranded fresh vegetable items: Red Carrot (500 g), Coriander Leaves (90-100 g), Onion - Sambhar (250 g), Spinach Leaves (200 g), Onion (400–450 g), Baby Potato (280–320 g), and Broad Beans (240-260 g).",
+      "pattern_text": "One order of seven unbranded fresh vegetable items (Red Carrot, Coriander Leaves, Onion - Sambhar, Spinach Leaves, Onion, Baby Potato, Broad Beans) purchased on 2026-01-31 in the evening. This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the evening timing.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this evening timing.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for these specific vegetables, brands, or the evening timing. It is unclear if this represents a routine habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-31"
+    ],
+    "first_seen_at": "2026-01-31T19:05:26",
+    "last_seen_at": "2026-01-31T19:05:26"
+  }
 }

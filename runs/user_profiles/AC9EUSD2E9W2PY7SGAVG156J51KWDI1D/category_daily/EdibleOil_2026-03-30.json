@@ -1,15 +1,23 @@
 {
   "date": "2026-03-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-30 (weekday), one unit of edible oil (EDOET83CVGZJEVB5) was purchased during the morning. This purchase aligns with the morning daypart, which represents 32.46% of population activity for this category. This is a single observed transaction; no durable brand or product preferences can be established from this isolated event.",
+  "summary_text": "On this weekday, the user purchased one unit of edible oil (product EDOET83CVGZJEVB5) during the morning. This purchase occurred in a daypart where the user's activity is above the population baseline (32.46%). As this is a single observation on one date, it is not possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as no brand information was provided for the product.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One unit of edible oil (EDOET83CVGZJEVB5) was purchased during the morning on a weekday. This timing coincides with a period where this category represents 32.46% of population activity.",
+      "pattern_text": "One unit of edible oil (product EDOET83CVGZJEVB5) was purchased on a weekday morning. This order occurred in the morning, a time when this user's purchasing activity is above the population baseline (32.46%). The product is a staple cooking ingredient.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no durable brand or product preferences can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as no brand information was provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

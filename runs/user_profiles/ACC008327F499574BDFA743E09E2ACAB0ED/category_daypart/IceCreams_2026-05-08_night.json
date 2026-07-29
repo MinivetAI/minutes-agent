@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased one 300 ml tub of Frubon Shahi Rabri Kulfi and one 300 ml tub of Frubon Litchi Faluda Ice Cream during a night-time session on a weekday.",
+  "summary_text": "One order of two 300 ml Frubon ice cream tubs (Shahi Rabri Kulfi and Litchi Faluda) purchased on a weekday night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekday, a time when population share (12.02%) is lower than morning (32.46%), afternoon (25.26%), or evening (30.27%). The products are ready-to-serve frozen desserts, suggesting an immediate indulgence or post-meal treat rather than a planned pantry stock-up.",
-  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Frubon brand, these specific flavors, or night-time ice cream purchases.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed at night on a weekday, a time when the user's activity is less common than the population baseline (night share 0.1202 vs. morning 0.3246). The products are ready-to-serve frozen desserts, typically used for immediate indulgence or post-meal treats.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for Frubon brand, specific flavors, or night-time ordering.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-08"
+    ],
+    "first_seen_at": "2026-05-08T21:40:27",
+    "last_seen_at": "2026-05-08T21:40:27"
+  }
 }

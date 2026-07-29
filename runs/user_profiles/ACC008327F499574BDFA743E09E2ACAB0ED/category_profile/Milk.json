@@ -1,34 +1,34 @@
 {
-  "category": "Milk",
-  "profile_text": "The user has purchased milk on three independent dates (2026-03-22, 2026-05-13, 2026-07-04), establishing a slow replenishment cadence of approximately 52 days. Amul is the only brand observed across these dates, appearing in every transaction, which supports a medium-confidence brand preference. The user typically buys Amul Taaza Pasteurised Toned Milk, often in 500 ml packs, with occasional 1 L packs. Purchases occur in the evening and afternoon, aligning with general population activity for this category. The last purchase was on 2026-07-04, with the next predicted around 2026-08-25. This pattern supports routine household replenishment for immediate kitchen use (tea, coffee, breakfast).",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "Amul is the only brand observed across three independent purchase dates (March, May, July 2026), supporting a medium-confidence preference for this brand in the Milk category.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Milk",
+  "summary_text": "The user has purchased Amul brand milk across three separate months (March, May, and July 2026), with orders on three distinct dates. The primary product observed is Amul Taaza Pasteurised Toned Milk (500 ml), with one additional order including a 1 L variant. Purchases occurred in the evening and afternoon, aligning with general population baselines rather than a unique personal habit. As evidence is limited to single observations per month without consecutive monthly repetition, stable brand loyalty or routine timing cannot be confirmed.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "Amul is the only brand observed in the user's milk purchases, appearing in March, May, and July 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is based on limited observation across non-consecutive months; it does not confirm exclusive loyalty or rule out other brands in future purchases."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of substitution behavior is available. The user has only purchased Amul products; it is unknown if other brands would be acceptable or if specific Amul variants (e.g., Homogenised vs. Pasteurised) are interchangeable in the user's view.",
+  "uncertainty_text": "Confidence is low regarding stable preferences because each brand and product appearance is isolated to a single date within its respective month. It is unknown if the user maintains a regular replenishment cadence, if they prefer specific fat contents or pasteurisation methods beyond the observed Taaza line, or if the evening/afternoon timing reflects a habitual routine or situational convenience.",
+  "retrieval_text": "User purchased Amul Taaza Pasteurised Toned Milk (500 ml) on 2026-03-22 (evening), Amul Taaza Pasteurised Toned Milk (500 ml) and Amul Taaza Homogenised Toned Milk (1 L) on 2026-05-13 (afternoon), and Amul Taaza Pasteurised Toned Milk (500 ml) on 2026-07-04 (evening). Evidence spans three independent dates across three months, supporting a medium-confidence association with the Amul brand, though the lack of consecutive monthly repetition prevents establishing a high-confidence routine or exclusive brand loyalty. Purchases align with population baseline dayparts (evening/afternoon) rather than a distinct personal habit.",
   "replenishment": {
     "cadence_days": 52.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": "2026-08-25",
-    "replenishment_text": "The user purchases milk approximately every 52 days, classified as a slow replenishment cycle. The last purchase was on 2026-07-04, and the next is estimated for 2026-08-25 based on this average cadence.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Milk is reordered roughly every 52 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; the user has completed transactions on all three observed dates without prior unfulfilled cart or search activity.",
-  "substitution_text": "No explicit substitution behavior observed. The user consistently selects Amul Taaza Pasteurised Toned Milk, suggesting a stable product preference within the brand.",
-  "price_value_text": "No explicit price sensitivity or value-seeking behavior observed in the purchase history.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user has consistently purchased the same brand and similar product formats across the observed period.",
-  "mission_generation_text": "Routine household replenishment for daily kitchen use, specifically for beverages like tea and coffee, or breakfast preparation.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-03-22T20:43:38",
+    "last_seen_at": "2026-07-04T16:42:45"
+  }
 }

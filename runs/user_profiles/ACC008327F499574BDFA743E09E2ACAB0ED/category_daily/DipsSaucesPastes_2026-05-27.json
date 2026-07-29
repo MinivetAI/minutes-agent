@@ -1,15 +1,23 @@
 {
   "date": "2026-05-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-27 (weekday), the user purchased one 850 g pack of Tops Tomato Ketchup during the evening. This purchase occurred in the evening, a daypart where this category has a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a large-format everyday condiment suitable for immediate meal accompaniment or kitchen stock-up. This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
+  "summary_text": "On this weekday, the user ordered Tops Tomato Ketchup 850 g in the evening. This large-format condiment is suitable for immediate meal accompaniment or snacking. The evening timing aligns with the population baseline, where this daypart accounts for 30.27% of category orders. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific household need based on this isolated order.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 850 g pack of Tops Tomato Ketchup during the evening on a weekday. This purchase occurred in the evening, a daypart where this category has a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a large-format everyday condiment suitable for immediate meal accompaniment or kitchen stock-up. This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
+      "pattern_text": "One order of Tops Tomato Ketchup 850 g. The evening timing aligns with the population baseline (30.27% share). This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific household need based on this isolated order.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific household need based on this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-27"
+    ],
+    "first_seen_at": "2026-05-27T19:04:20",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

@@ -1,14 +1,24 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased aerated drinks on three independent dates (2026-04-13, 2026-04-15, 2026-04-30). No single brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preference claims can be established for specific items. The purchases span morning, evening, and night dayparts, with no consistent daypart pattern emerging from the three distinct events. All observations are treated as single-date events with low confidence.",
+  "summary_text": "In April 2026, the user purchased aerated drinks on three independent dates, all falling on weekdays. The orders included a 300 ml can of Coca-Cola Diet Coke in the morning, a 750 ml bottle of Sprite in the evening, and a 750 ml bottle of Coca-Cola Original Taste at night. While the user engaged with both the Coca-Cola and Sprite brands, as well as different dayparts (morning, evening, night), each specific product and daypart combination appeared only once. Consequently, no single brand, product variant, or daypart has met the repetition threshold for stable preference. The observed behavior reflects isolated instances of refreshment needs across different times of the day rather than a consistent routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased aerated drinks on three separate weekdays in April 2026, but the specific brands and products varied each time (Diet Coke, Sprite, Original Taste Coke), indicating no recurring brand or flavor preference was established during this month.",
+      "claim_text": "The user ordered aerated drinks on three separate weekdays in April 2026, engaging with both cola (Coca-Cola) and lemon-lime (Sprite) variants at different times of day (morning, evening, night).",
       "confidence": "low"
     }
   ],
-  "uncertainty_text": "All purchases occurred on different dates with different products. No value (brand, product, variant, or daypart) appeared on 2 or more independent dates. Therefore, durable preferences or stable patterns cannot be inferred. Confidence is low due to the lack of repetition.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Each specific product and daypart combination was observed on only one independent date. It is not yet established whether the user has a stable preference for Coca-Cola over other brands, prefers Diet Coke or Original Taste, favors Sprite, or has a consistent habit for morning, evening, or night purchases. The current evidence represents isolated observations rather than a durable pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-13",
+      "2026-04-15",
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-13T09:26:45",
+    "last_seen_at": "2026-04-30T21:23:36"
+  }
 }

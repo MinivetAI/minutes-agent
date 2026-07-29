@@ -1,22 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "On 2026-06-17 (evening, weekday), a single order was placed containing 10 units across two categories: Milk (7 units) and Chips (7 units). The basket consisted of 7 distinct milk products and 2 distinct chip products. No other categories were purchased. The `shopping_need_text` is compatible with a need for dairy and snack items.",
+  "basket_summary_text": "A single order placed in the evening on a weekday. The basket is heavily weighted toward Milk (8 units across 7 distinct SKUs) and Chips (7 units across 2 distinct SKUs). No other categories are present in this specific order. The high volume of Milk SKUs suggests a bulk or multi-pack purchase, while the Chips indicate a snack or side-item addition. Without evidence from other dates, this represents a single observation of evening shopping behavior focused on dairy and snacks.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Chips"
-      ],
-      "combination_text": "Milk and Chips were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "A need for milk and chips.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference, routine, or stable pattern. The `category_pair_evidence` provided does not include evidence for the Milk-Chips combination observed in this order; therefore, support/confidence/lift for this specific pair is null. The provided category pair evidence (e.g., Breads-CurdYogurt, CurdYogurt-Vegetables) reflects broader population or historical data not present in this specific transaction.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Restocking milk supplies and purchasing chips, likely for household consumption or snacking.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences, routine behavior, or durable preferences cannot be inferred. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T17:01:04",
+    "last_seen_at": "2026-06-17T17:01:04"
+  }
 }

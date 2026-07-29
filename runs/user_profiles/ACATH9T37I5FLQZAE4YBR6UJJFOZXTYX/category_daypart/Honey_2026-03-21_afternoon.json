@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one unit of Dabur Honey Squeezy 2 x 400 g (800 g total) in the afternoon on a weekend.",
+  "summary_text": "One order of Dabur Honey Squeezy 2 x 400 g (1 unit) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.26% share vs. 32.46% for morning). The product is a practical kitchen staple intended for everyday use in drinks or food.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for choosing the squeezy format over a jar is not confirmed.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when the user's activity is less frequent than the population baseline for morning (0.3246) and evening (0.3027) but comparable to the afternoon baseline (0.2526). The product is a twin-pack of pure honey in a squeeze format, generally used for breakfast, beverages, or kitchen stock refills.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Dabur brand, the squeeze format, or a one-time stock refill. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

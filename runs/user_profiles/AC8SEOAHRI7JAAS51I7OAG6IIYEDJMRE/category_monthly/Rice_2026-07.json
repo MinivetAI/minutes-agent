@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice on a weekday afternoon. This single observation does not establish a stable brand preference or routine buying pattern.",
+  "summary_text": "In July 2026, the user ordered India Gate All Rounder Feast Rozzana Basmati Rice (1 kg) on a single weekday afternoon. This timing is less common for this user than the population baseline. As this is the only observation for the month, no stable brand or product preferences can be established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Single observation on one date; cannot establish stable brand preference or routine buying patterns.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This analysis is based on a single order date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

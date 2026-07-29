@@ -1,23 +1,27 @@
 {
-  "category": "Fruits",
-  "profile_text": "The user demonstrates a stable preference for Sapota (chikoo), having purchased it on two independent dates in January 2026. Tender coconut was purchased once and does not constitute a stable preference. Purchases occurred in the afternoon and evening. No brand preferences are established as no brand-level data was provided. Cadence is unknown based on limited evidence.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "The user purchased Sapota (chikoo) on two independent dates (2026-01-24 and 2026-01-26), indicating a stable preference for this fruit.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": null,
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, evidenced by completed transactions for Sapota (chikoo) and Tender coconut.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Routine replenishment of fresh fruit, specifically Sapota (chikoo), for personal consumption.",
-  "overall_confidence": "medium"
+  "category_name": "Fruits",
+  "summary_text": "In January 2026, the user purchased fresh fruits on two independent dates (2026-01-24 and 2026-01-26). Sapota Chikoo was ordered on both dates, meeting the repetition bar for stable preference. Tender Coconut was ordered once. Purchases occurred on both a weekend afternoon and a weekday evening, indicating no single stable daypart pattern.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Tender Coconut was observed once; no substitution pattern is established. Sapota Chikoo is the only repeated item, so no alternative within this category is shown to be acceptable or unacceptable based on repetition.",
+  "uncertainty_text": "Preference boundaries are limited to the two observed items. Sapota Chikoo has medium-confidence stable preference evidence (2 dates), but the small sample size limits higher confidence. Tender Coconut has only a single observation, so no stable preference can be established for it. No daypart routine is evident due to variation between weekend afternoon and weekday evening purchases.",
+  "retrieval_text": "The user demonstrates a medium-confidence stable preference for Sapota Chikoo within the Fruits category, evidenced by purchases on two independent dates in January 2026 (2026-01-24 and 2026-01-26). A single purchase of Tender Coconut was also recorded, but without repetition, it does not indicate a stable preference. Purchasing timing varied between a weekend afternoon and a weekday evening, preventing the establishment of a fixed daypart routine. No brand-level preferences are inferred as brand data was not explicitly isolated in the summaries, and no other substitution patterns are supported by the evidence.",
+  "replenishment": {
+    "cadence_days": null,
+    "cadence_class": "unknown",
+    "predicted_next_purchase_date": null,
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Fruits yet."
+  },
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-26T19:26:36"
+  }
 }

@@ -1,12 +1,44 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, five independent orders were placed, all on weekdays. Three orders occurred in the morning daypart, one at night, and one in the morning. The baskets varied significantly in composition, ranging from single-category purchases (Aerated Drinks) to multi-category meal-preparation sets (Dairy, Produce, Nuts, Spices) and pantry restocking (Flour, Oil, Breads, Dairy). No abandoned carts were recorded across any of the five dates. Due to the lack of repeated category combinations or product purchases across independent dates, no stable behavioral patterns, daypart preferences, or category affinities can be established. Each order represents an isolated observation.",
+  "summary_text": "In March 2026, five independent orders were placed, all on weekdays. Four orders occurred in the morning, and one occurred at night. The baskets were diverse, covering categories such as Dairy (Milk, Curd Yogurt, Cheese), Produce (Vegetables), Staples (Wheat Flour, Edible Oil, Breads, Noodles), and Snacks/Condiments (Cashews, Spices Masala, Honey, Soya Products, Aerated Drinks). No single category, product, or daypart behavior repeated across multiple independent dates. Consequently, no stable basket-building patterns, recurring category combinations, or durable shopping needs can be established. All inferences are based on isolated observations.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [],
-  "shopping_need_text": "Isolated instances of meal preparation involving dairy, produce, and savory ingredients; beverage consumption; and basic pantry or breakfast staple replenishment.",
-  "uncertainty_text": "All observations are based on single, independent orders. No category combinations, daypart timings, or product purchases were repeated across multiple dates. Therefore, no durable preferences, routines, or stable patterns can be inferred. The high-confidence population-level category pairings (e.g., Milk/Vegetables) noted in individual summaries reflect general market statistics and do not indicate a specific, repeated user behavior in this month.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "Morning daypart was the dominant ordering time, with 4 out of 5 orders placed in the morning compared to 1 at night.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Weekday ordering was consistent, with all 5 orders placed on weekdays.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Milk was purchased in 3 separate orders (2026-03-23, 2026-03-24, 2026-03-30), but as a single item per order without other consistent companions, it does not form a stable combination pattern.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Vegetables were purchased in 2 separate orders (2026-03-04, 2026-03-23), but paired with different categories each time, preventing a stable combination inference.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "Spices Masala was purchased in 2 separate orders (2026-03-04, 2026-03-24), but paired with different categories each time, preventing a stable combination inference.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The user demonstrates a need for basic meal preparation ingredients (dairy, produce, staples, soy) and occasional snack or beverage items (aerated drinks, cashews). The specific combinations vary significantly across orders, suggesting flexible or ad-hoc meal planning rather than a fixed routine.",
+  "uncertainty_text": "All behavioral inferences are based on a small sample of 5 independent dates. No category, product, or daypart behavior repeated with sufficient frequency to establish a durable preference or routine. Confidence in any specific pattern is low due to the lack of repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-18",
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-04T07:43:36",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

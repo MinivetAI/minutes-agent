@@ -1,40 +1,34 @@
 {
-  "category": "Honey",
-  "profile_text": "The user has purchased honey on three independent dates (March, April, May 2026), establishing a slow replenishment cadence of approximately 21 days. Dabur is the only observed brand, appearing on all three dates, which supports a medium-confidence brand preference. The user consistently selects the 'Squeezy' format, specifically the '2 x 225 g' pack size in the most recent two months, indicating a preference for this specific convenience-oriented variant. Purchases have occurred on both weekends and weekdays, with no strong daypart dominance established from this limited evidence. No discovery signals (search/view without purchase) are present.",
-  "brand_preferences": [
-    {
-      "brand": "Dabur",
-      "preference_text": "Dabur is the sole observed brand across three independent purchase dates (2026-03-21, 2026-04-21, 2026-05-02), supporting a medium-confidence preference.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has repeatedly purchased the 'Dabur Honey Squeezy' format. While the pack size varied in March (800g total), the user selected the '2 x 225 g' variant in both April and May, suggesting a stable preference for this specific pack size.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Honey",
+  "summary_text": "The user has placed three separate orders for honey across March, April, and May 2026. All three orders were for the Dabur brand, specifically the 'Squeezy' product format. The specific pack sizes varied (2 x 400 g in March, 2 x 225 g in April and May). The purchases occurred on different days of the week (weekend afternoon, weekday evening, weekend morning), indicating no consistent daypart routine. Due to the single-observation nature of each individual order, stable preferences for specific pack sizes or timing are not yet established, though the brand and format show consistent selection.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Dabur",
+        "preference_text": "Dabur honey",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to the squeezy format; does not extend to other Dabur honey formats (e.g., jars) or other honey brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of substitution behavior. The user has consistently selected Dabur Squeezy honey across three independent dates. No alternative brands or formats were observed.",
+  "uncertainty_text": "Confidence is limited to the brand (Dabur) and format (Squeezy) due to repetition across three independent dates. Specific pack size preference (400g vs 225g) is unknown as both have been purchased once. Daypart preference is unknown as purchases span afternoon, evening, and morning on both weekdays and weekends. It is unclear if this represents a stable household routine or intermittent stock refills.",
+  "retrieval_text": "User has purchased Dabur brand honey in squeezy format on three independent dates (March, April, May 2026). Orders included Dabur Honey Squeezy 2 x 400 g and Dabur Honey Squeezy 2 x 225 g. Purchases occurred on varied days and times (weekend afternoon, weekday evening, weekend morning), preventing establishment of a specific daypart routine. Evidence supports a medium-confidence preference for the Dabur brand and squeezy format, but specific pack size and timing preferences remain uncertain due to lack of repetition in those specific attributes.",
   "replenishment": {
     "cadence_days": 21.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-05-02",
     "predicted_next_purchase_date": "2026-05-23",
-    "replenishment_text": "The user purchases honey approximately every 21 days, classified as a slow replenishment cycle. The next purchase is estimated around 2026-05-23.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Honey is reordered roughly every 21 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; all observed search/view/cart behaviors (if any) are not present, and all observed interactions resulted in completed transactions.",
-  "substitution_text": "No substitution behavior observed. The user consistently selects the squeezy format, indicating a preference for convenience over jar formats.",
-  "price_value_text": "No explicit price sensitivity or value-seeking behavior can be determined from the provided summaries. The user has purchased different pack sizes (800g total vs. 450g total), but the unit price comparison is not provided.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports routine household needs for a sweetener or breakfast condiment, likely for tea, coffee, or direct consumption, given the convenience-oriented squeezy format.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

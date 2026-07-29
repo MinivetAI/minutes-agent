@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed in the morning.",
+  "summary_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning (32.5% population share), a time often associated with starting the day or mid-morning refreshment.",
-  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a daypart where the user's activity aligns with the population baseline (morning share 0.3246). The product is a single-serve carbonated soft drink, typically used for immediate refreshment or thirst quenching.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was driven by immediate thirst, a specific meal pairing, or general stock replenishment.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-25"
+    ],
+    "first_seen_at": "2026-06-25T08:44:56",
+    "last_seen_at": "2026-06-25T08:44:56"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2026-01-29",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-29 (weekday), the user purchased 1 unit of Colgate Strong Teeth Toothpaste (300 g) in the morning. This order occurred during a period with a population share of 0.3246. The product serves as a routine oral-care staple. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Colgate Strong Teeth Toothpaste (300 g).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-01-29 (weekday), the user purchased Colgate Strong Teeth Toothpaste 300 g in the morning. This single order aligns with the population baseline where morning activity (32.46%) is slightly higher than afternoon (25.26%) and evening (30.27%). The product is a standard oral-care staple typically used for daily brushing routines. Confidence in any specific brand or product preference is low because this is the only observed order. It is unclear if this is a one-time purchase, a trial, or part of a recurring habit.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Confidence in any specific brand or product preference is low because this is the only observed order. It is unclear if this is a one-time purchase, a trial, or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-29"
+    ],
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-01-29T09:00:23"
+  }
 }

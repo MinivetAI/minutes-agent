@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased Goldiee Kasoori Methi 50 g and Ashok Turmeric Powder 100 g in the Spices Masala category during the evening on a weekend.",
+  "summary_text": "One order placed on 2026-04-12 in the evening containing Goldiee Kasoori Methi (50 g) and Ashok Turmeric Powder (100 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are basic pantry staples (dried fenugreek leaves and turmeric powder) typically used for flavoring Indian dishes, suggesting a need for immediate cooking continuity or stock replenishment.",
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this reflects a stable, recurring preference for these specific brands or items, or if it was a one-time need.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The items are basic pantry staples (dried fenugreek leaves and turmeric powder) typically used for cooking Indian dishes, suggesting a need for immediate replenishment or meal preparation support.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific cooking habits. It is unclear if these items were bought for a specific meal or general stock replenishment.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

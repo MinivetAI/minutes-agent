@@ -1,201 +1,26 @@
 {
-  "profile_text": "The user maintains a high-frequency, stable routine for purchasing bread, primarily focusing on whole wheat loaves and brown breads, with a strong long-term preference for Naturbaked Zero Maida Whole Wheat Bread (300 g) and a newer stable preference for Bonn High Fibre Brown Bread (400 g). Dairy staples are central to the user's routine, featuring a high-confidence, stable preference for Mother Dairy branded curd (specifically Advanced Probiotic Plain 200 g) and a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml). The user also demonstrates stable preferences for Del Monte Baked Beans (450 g) in Canned Food, Coca-Cola Diet Coke Can (300 ml) in Aerated Drinks, and Amul brand items in Cheese (Plain Processed Cheese Slices 200 g), Butter Margarine (Pasteurised Salted Butter 100 g), and Ice Creams. Other stable preferences include Fortune brand white sugar (1 kg packs), Mother Dairy Fresh Paneer (200 g), and VEEBA brand ketchup. The user exhibits flexible timing across dayparts and days for most categories, with specific tendencies for evening purchases in Chips and Aerated Drinks, and morning/weekend purchases for Lassi and Rusks. Cadence varies significantly, from fast replenishment for bread (every 2 days) and curd (every 5 days) to slow replenishment for flour (every 53.5 days) and toilet cleaner (unknown cadence). Single-observation items across many categories (e.g., specific vegetables, fruits, cleaning supplies, and snacks) indicate exploratory or situational needs rather than stable habits.",
-  "category_preference_text": "Breads: Stable preference for Naturbaked Zero Maida Whole Wheat Bread (300 g) and Bonn High Fibre Brown Bread (400 g); flexible timing. Curd Yogurt: Stable preference for Mother Dairy Advanced Probiotic Plain Curd (200 g); flexible timing. Canned Food: Stable preference for Del Monte Baked Beans (450 g); weekend/weekday flexibility. Aerated Drinks: Stable preference for Coca-Cola Diet Coke Can (300 ml); afternoon tendency. Milk: Stable preference for Amul Taaza Pasteurised Toned Milk (500 ml); afternoon tendency. Vegetables: Stable preference for Cauliflower (400-600g); flexible timing. Fruits: Stable preference for Musk Melon Kajari; flexible timing. Paneer Tofu: Stable preference for Mother Dairy Fresh Paneer (200 g); flexible timing. Savouries Namkeens: High variety, no stable brand; fast replenishment. Cheese: Stable preference for Amul Plain Processed Cheese Slices (200 g); weekday tendency. Sugar: Stable preference for Fortune white sugar (1 kg); weekday afternoon/weekend morning. Chips: No stable brand; evening tendency. Ice Creams: Stable preference for Amul; flexible timing. Ready Mixes: No stable brand; flexible timing. Cookies Biscuits: Stable preference for Britannia 50-50 Golmaal Salted Biscuit; weekday afternoon. Eggs: Stable preference for Hen Fruit Farm; morning/weekend tendency. Flour: No stable brand; weekday afternoon. Dips Sauces Pastes: Stable preference for VEEBA ketchup; slow replenishment. Butter Margarine: Stable preference for Amul Pasteurised Salted Butter (100 g); weekday flexibility. Lassi: Stable preference for Amul Sweet Lassi (250 ml); weekend morning. Buttermilk: Stable preference for probiotic variants; afternoon. Spices Masala: Stable preference for Zoff; weekend morning. Scrub Pad: No stable brand; flexible timing. Ready Meals: No stable brand; flexible timing. Chocolates: No stable brand; flexible timing. Rice: Stable preference for India Gate All Rounder Feast Rozzana Basmati Rice (1 kg); flexible timing. Rusks: Stable preference for Britannia Toastea Premium Elaichi Rusk (668 g); weekend morning. Wheat Flour: No stable brand; flexible timing. Glass Cleaner: Stable preference for Colin Glass and Surface Cleaner; weekend. Toilet Cleaner: No stable brand; flexible timing. Dish Washing Bar: Single observation (Vim); afternoon. Other Pulses: Single observation (Fortune Rajma); evening. Fruit Drinks: Single observation (Real Activ); afternoon. Bathroom Floor Cleaner: Single observation; flexible timing. Syrup: Single observation (Puramate); weekend afternoon. Condiments: Single observation; flexible timing. Salt: Single observation (Tata Salt); afternoon. Dish Cleaning Gel: Single observation; weekend afternoon. Other Cooking Oil: Single observation (Dalda); afternoon. Ghee: Single observation (Aashirvaad); afternoon.",
-  "coverage_text": "This profile details the 40 best-evidenced categories out of 46 total, omitting 6 categories with lower evidence.",
-  "basket_context_text": "The user’s basket composition is highly variable, with no persistent multi-category routines across months. While Breads/Curd Yogurt and Curd Yogurt/Vegetables pairs appeared repeatedly in April 2026, they did not persist in May–July 2026. Recent activity (July 2026) shows isolated purchases of curd, milk, bread, and dips, often in narrow, single-purpose baskets.",
-  "replenishment_summary_text": "Replenishment cadence varies from fast to slow across categories. Fast replenishment (cadence class: fast) is observed in Breads (every 2 days), Curd Yogurt (every 5 days), Aerated Drinks (every 4 days), and Savouries Namkeens (every 6.5 days). Medium replenishment (cadence class: medium) applies to Canned Food (every 11 days), Milk (every 12 days), Vegetables (every 9 days), Fruits (every 19.5 days), Cheese (every 8.5 days), Sugar (every 16 days), Chips (every 18 days), Ice Creams (every 18 days), Ready Mixes (every 13 days), Cookies Biscuits (every 9 days), and Butter Margarine (every 13.5 days). Slow replenishment (cadence class: slow) is seen in Paneer Tofu (every 23 days), Eggs (every 24.5 days), Flour (every 53.5 days), and Dips Sauces Pastes (every 54 days). Cadence is unknown for Lassi, Buttermilk, Spices Masala, Scrub Pad, Ready Meals, Chocolates, Rice, Rusks, Wheat Flour, Glass Cleaner, Toilet Cleaner, Dish Washing Bar, Other Pulses, Fruit Drinks, Bathroom Floor Cleaner, Syrup, Condiments, Salt, Dish Cleaning Gel, Other Cooking Oil, and Ghee.",
-  "structured_signals": [
+  "summary_text": "This shopper is a staple-driven household buyer with strong, high-confidence brand loyalty in core dairy, bakery, and pantry categories, while maintaining flexible, need-based purchasing for fresh produce and exploratory behavior in snack categories. The profile is defined by a consistent preference for specific branded items—such as Naturbaked bread, Mother Dairy curd, Amul milk, and Del Monte canned goods—purchased repeatedly across multiple months. Fresh vegetables and fruits are bought with high flexibility, dominated by recurring cauliflower purchases but lacking stable brand or variety preferences. The shopper exhibits low substitution tolerance for their core branded staples but shows openness to variety in snacks and condiments. Shopping timing is highly flexible across all dayparts and days, indicating that purchases are driven by immediate household replenishment needs rather than rigid daily routines.",
+  "daypart_understanding": [],
+  "basket_understanding": [
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Breads",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases bread approximately every 2 days, classified as a fast replenishment cycle, with 26 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Curd Yogurt",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases curd every 5 days, classified as a fast replenishment cycle, with 24 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Aerated Drinks",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases aerated drinks approximately every 4 days, classified as a fast replenishment cycle, with 9 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Savouries Namkeens",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases savouries every 6.5 days, classified as a fast replenishment cycle, with 7 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Canned Food",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases canned food every 11 days, classified as a medium replenishment cycle, with 11 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Milk",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases milk every 12 days, classified as a medium replenishment cycle, with 16 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Vegetables",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases vegetables every 9 days, classified as a medium replenishment cycle, with 16 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Fruits",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases fruits every 19.5 days, classified as a medium replenishment cycle, with 7 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Paneer Tofu",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases paneer approximately every 23 days, classified as a slow replenishment cycle, with 7 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Cheese",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases cheese every 8.5 days, classified as a medium replenishment cycle, with 5 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Sugar",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically replenishes sugar every 16 days, classified as a medium replenishment cycle, with 5 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chips",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases chips every 18 days, classified as a medium replenishment cycle, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Ice Creams",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases ice cream every 18 days, classified as a medium replenishment cycle, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Ready Mixes",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases ready mixes every 13 days, classified as a medium replenishment cycle, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Cookies Biscuits",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases cookies every 9 days, classified as a medium replenishment cycle, with 4 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Eggs",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user buys eggs roughly every 24.5 days, classified as a slow replenishment cycle, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Flour",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user buys flour roughly every 53.5 days, classified as a slow replenishment cycle, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Dips Sauces Pastes",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases dips every 54 days, classified as a slow replenishment cycle, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Butter Margarine",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases butter every 13.5 days, classified as a medium replenishment cycle, with 3 independent dates of evidence."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Lassi",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Amul Sweet Lassi on two independent dates, indicating a stable preference for this specific product, though cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Buttermilk",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased probiotic buttermilk variants on two independent dates, indicating a stable preference for this product type, though cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Spices Masala",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Zoff spices on two independent dates, indicating a stable brand preference, though cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Rice",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased India Gate rice on two independent dates, indicating a stable brand preference, though cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Rusks",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Britannia rusks on two independent dates, indicating a stable brand preference, though cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Glass Cleaner",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Colin glass cleaner on two independent dates, indicating a stable brand preference, though cadence is unknown."
-    },
-    {
-      "signal_type": "cart_recovery",
-      "category_or_mission": "Breads",
-      "confidence": "low",
-      "source": "basket_profile",
-      "rationale_text": "Recent basket activity shows a narrow basket of Breads and Dips Sauces Pastes, suggesting a compatible need for a snack or light meal component, but no abandonment patterns were recorded."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Breads, Curd Yogurt, Vegetables, Milk",
-      "confidence": "low",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "The basket profile indicates that Breads/Curd Yogurt and Curd Yogurt/Vegetables pairs appeared repeatedly in April 2026, and the category profiles show stable preferences for these items, though these combinations did not persist into May–July 2026."
+      "relationship_text": "Curd Yogurt and Vegetables are frequently purchased together in the same order.",
+      "recommendation_use_text": "When a user adds Curd Yogurt, suggest Vegetables, and vice versa.",
+      "confidence": "medium"
     }
   ],
-  "mission_generation_text": "The user requires basic meal components including dairy, bakery items, and fresh produce, along with occasional household supplies and snacks. Specific needs vary by date, ranging from breakfast preparation to general pantry replenishment and light refreshments.",
-  "uncertainty_text": "Analysis is based on 17 orders across 15 independent dates in March 2026, 14 independent orders in April 2026, 8 in May 2026, 3 in June 2026, and 4 in July 2026. While category pairs such as Breads/Curd Yogurt and Curd Yogurt/Vegetables appear repeatedly in April 2026, they do not repeat in subsequent months, preventing the establishment of a stable, long-term routine. In May 2026, frequent purchases of Aerated Drinks, Milk, and Cookies Biscuits lack consistent pairing, indicating isolated needs rather than stable preferences. No abandonment patterns were repeated across independent dates. The overall confidence is low because stable patterns are limited to a single month and do not persist across the broader observation window.",
-  "overall_confidence": "low"
+  "shopping_style": {
+    "frequency_segment": "regular",
+    "basket_size_segment": null,
+    "brand_loyalty_level": null,
+    "substitution_tolerance_level": null,
+    "large_basket_tendency": null,
+    "multi_quantity_tendency": null,
+    "deal_seeking": null,
+    "price_sensitivity": null
+  },
+  "uncertainty_text": "While brand preferences in dairy, bakery, and pantry are stable, the user's fresh produce selection is highly variable with no stable brand preferences established. Shopping timing is flexible across all dayparts and days, preventing the prediction of specific routine windows. It is unknown if the user has stable preferences for specific flavors, pack sizes, or variants within categories where only one brand/product has been observed repeatedly (e.g., specific ice cream flavors or cheese slices). The lack of repeated structural patterns in basket composition beyond the Curd/Veg pair makes broader basket size or quantity tendencies indeterminate.",
+  "retrieval_text": "The user demonstrates high-confidence, stable brand loyalty for Naturbaked whole wheat bread (17+ dates), Mother Dairy curd (14+ dates), Amul milk (multiple months), Del Monte baked beans (11 dates), and Amul cheese/paneer. These core staples are purchased repeatedly across February–July 2026, indicating a strong preference for these specific brands over competitors. In contrast, fresh vegetables show a stable preference for Cauliflower (400-600g) but no brand loyalty, while fruits and snacks exhibit exploratory behavior with no stable preferences. The user shops flexibly across all dayparts and days, with no dominant timing routine. A medium-confidence relationship exists between Curd Yogurt and Vegetables, which are often bought together. The shopper prefers small-format, single-serve, or standard household pack sizes (e.g., 500ml milk, 200g curd, 1kg sugar) and shows low tendency for large multi-quantity baskets, suggesting frequent, need-based replenishment of daily essentials.",
+  "user_id": "AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE",
+  "profile_type": "global",
+  "updated_at": "2026-07-29T05:20:28.757754"
 }

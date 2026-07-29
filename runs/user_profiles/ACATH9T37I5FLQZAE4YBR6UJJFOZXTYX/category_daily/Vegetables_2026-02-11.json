@@ -1,9 +1,23 @@
 {
   "date": "2026-02-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-11 (weekday), the user purchased fresh, unbranded vegetables during the afternoon: one 250 g pack of Green Capsicum, one 400–450 g pack of Onion, and one 280–320 g pack of Baby Potato. This timing aligns with a period where population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The items are commonly used as immediate meal ingredients or base components for cooking. As this is a single observation on one date, stable preferences, recurring habits, or specific meal intent cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-11 (weekday), one order of fresh vegetables was placed in the afternoon. The basket contained Green Capsicum (250 g), Onion (400–450 g), and Baby Potato (280–320 g). The afternoon timing aligns with the population evening share (0.3027) and exceeds the population afternoon share (0.2526). These unbranded fresh items are typical immediate meal ingredients, suggesting a need for same-day food preparation. This is a single observation; stable preferences cannot be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of fresh vegetables (Green Capsicum 250 g, Onion 400–450 g, Baby Potato 280–320 g) placed on a weekday afternoon. The timing aligns with the population evening share (0.3027) and exceeds the population afternoon share (0.2526).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation on one date; cannot establish stable preferences, recurring habits, or specific meal intent beyond general utility.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand, product, or daypart preferences. The specific meal context or reason for this purchase cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-11"
+    ],
+    "first_seen_at": "2026-02-11T13:33:53",
+    "last_seen_at": "2026-02-11T13:33:53"
+  }
 }

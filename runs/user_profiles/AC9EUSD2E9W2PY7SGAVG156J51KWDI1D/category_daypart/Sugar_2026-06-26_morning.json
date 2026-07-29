@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 100 g pack of Nanihaal Mishri Dana Sugar (white sugar) in the morning.",
+  "summary_text": "One order of Nanihaal Mishri Dana Sugar 100 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning (32.5% of population activity), a time consistent with restocking staples for daily beverage preparation or immediate kitchen use.",
-  "uncertainty_text": "Single observation; cannot establish stable brand preference or recurring purchase patterns.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a small, single-unit pack of white sugar, typically used as a quick pantry top-up or immediate refill for sweetening beverages.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time stockout refill, or part of a broader preference for the Nanihaal brand or this specific pack size.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-26"
+    ],
+    "first_seen_at": "2026-06-26T06:49:22",
+    "last_seen_at": "2026-06-26T06:49:22"
+  }
 }

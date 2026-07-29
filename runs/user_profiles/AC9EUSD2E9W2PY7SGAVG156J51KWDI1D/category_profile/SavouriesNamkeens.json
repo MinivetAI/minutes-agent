@@ -1,40 +1,52 @@
 {
-  "category": "Savouries Namkeens",
-  "profile_text": "The user demonstrates a stable, medium-confidence preference for Haldiram's Mini Bhakarwadi 200 g, observed across three independent dates (May and July 2026). This specific product is the only item with repeated purchase evidence. Other brands (Chitale Bandhu, Balaji Wafers, Daadi's, Prabhuji, Let's Try) appear only once and do not form stable preferences. Purchases occur primarily in the morning on weekdays, aligning with population baselines. The user buys ready-to-eat, shelf-stable snacks for immediate consumption or tea-time accompaniment. Cadence is observed at 20 days.",
-  "brand_preferences": [
-    {
-      "brand": "Haldiram's",
-      "preference_text": "Haldiram's is a stable preference, observed on 3 independent dates (May 2026: 2 dates, July 2026: 1 date).",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Haldiram's Mini Bhakarwadi 200 g is a stable preference, observed on 3 independent dates.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 20.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-07-19",
-    "predicted_next_purchase_date": "2026-08-08",
-    "replenishment_text": "The user typically purchases this category every 20 days. The last purchase was on 2026-07-19, and the next purchase is estimated around 2026-08-08.",
-    "confidence": "medium",
-    "evidence_count": 6,
-    "independent_date_count": 6
+  "category_name": "Savouries Namkeens",
+  "summary_text": "The user has established a stable preference for Haldiram's brand and its Mini Bhakarwadi product (200 g), evidenced by orders on two independent dates in May 2026. A consistent morning daypart pattern is supported by four independent dates across May and July 2026. In July, the user also purchased a variety of other namkeens (Daadi's, Prabhuji, Let's Try) on a separate date, indicating openness to diverse brands beyond the primary preference.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Haldiram's",
+        "preference_text": "The user has a stable preference for Haldiram's, evidenced by orders on two independent dates in May 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Haldiram's brand within the Savouries Namkeens category and does not extend to other namkeen brands like Balaji or Daadi's."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Mini Bhakarwadi",
+        "preference_text": "The user has a stable preference for Mini Bhakarwadi, evidenced by orders on two independent dates in May 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "200 g",
+        "preference_text": "The user has a stable preference for the 200 g pack size, evidenced by orders on two independent dates in May 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by multiple completed orders for specific products without preceding search or cart activity.",
-  "substitution_text": "No evidence of substitution behavior; the user consistently repurchases the same specific variant (Haldiram's Mini Bhakarwadi 200 g) when a stable preference is observed.",
-  "price_value_text": "No explicit price or value sensitivity evidence found in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. Other brands (Chitale Bandhu, Balaji, Daadi's, Prabhuji, Let's Try) were purchased once but do not constitute stable preferences.",
-  "mission_generation_text": "Restocking shelf-stable, ready-to-eat savory snacks for immediate consumption, tea-time accompaniment, or quick hunger relief.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "The user consistently orders Savouries Namkeens in the morning, a pattern supported by four independent dates across May and July 2026.",
+      "confidence": "high"
+    }
+  ],
+  "substitution_text": "The user accepts a range of namkeen brands and products, including Balaji Wafers, Daadi's, Prabhuji, and Let's Try, as evidenced by varied purchases in June and July 2026. However, Haldiram's Mini Bhakarwadi remains the most consistently repurchased specific item.",
+  "uncertainty_text": "While Haldiram's Mini Bhakarwadi is a stable preference, the user's broader brand loyalty is not exclusive, as evidenced by single-date purchases of other brands. It is unknown if the user prefers specific savory profiles (e.g., spicy vs. sweet) beyond the observed items. No purchase cadence or replenishment timing can be established from the available evidence.",
+  "retrieval_text": "The user demonstrates a stable preference for Haldiram's brand and specifically Haldiram's Mini Bhakarwadi in 200 g packs, with this combination ordered on two independent dates in May 2026. A strong morning daypart pattern is established across four independent dates in May and July 2026, aligning with population baselines. The user also shows flexibility in brand selection, having purchased Balaji Wafers, Daadi's Methi Khakhra, Prabhuji Tok Jhal Misti, and Let's Try Lite Multigrain Mix on separate occasions, indicating that while Haldiram's is a primary preference, other namkeen brands are acceptable alternatives for immediate consumption or tea-time snacking.",
+  "replenishment": {
+    "cadence_days": 20,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "SavouriesNamkeens is reordered roughly every 20 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-04-18T13:46:20",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

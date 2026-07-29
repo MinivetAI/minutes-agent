@@ -1,26 +1,37 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased cookies and biscuits on four independent dates (2026-05-04, 2026-05-13, 2026-05-26, 2026-05-30). All purchases occurred on weekdays except for one weekend order, and all four orders were placed in the afternoon. The user purchased three distinct products: Britannia Good Day Cashew Cookies, Britannia NutriChoice Zero Cookies Biscuit, and Britannia 50-50 Golmaal Salted Biscuit. The Britannia 50-50 Golmaal Salted Biscuit was purchased on two independent dates (2026-05-26 and 2026-05-30), meeting the repetition bar for stable preference. The other two products appeared only once. The afternoon daypart pattern is consistent across all four dates. The user's afternoon activity is below the population baseline (25.26% share).",
+  "summary_text": "In May 2026, the user ordered cookies and biscuits on four independent dates. The brand Britannia appears on all four dates, establishing a stable preference. The product Britannia 50-50 Golmaal Salted Biscuit appears on two independent dates (2026-05-26 and 2026-05-30), meeting the repetition bar for stable preference. The user also ordered Britannia Good Day Cashew Cookies and Britannia NutriChoice Zero Cookies on separate dates. All four orders were placed in the afternoon, a daypart that aligns with the population baseline (25.26% share). Three orders occurred on weekdays and one on a weekend, showing no strong deviation from typical weekday/weekend distribution. No other brands or products recur across multiple dates.",
   "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "Britannia 50-50 Golmaal Salted Biscuit",
-      "claim_text": "The user purchased Britannia 50-50 Golmaal Salted Biscuit on two independent dates in May 2026, indicating a stable preference for this specific variant.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
     {
       "dimension": "brand",
       "value": "Britannia",
-      "claim_text": "The user purchased Britannia-branded cookies on all four independent dates in May 2026, indicating a stable preference for this brand.",
+      "claim_text": "The user has a stable preference for the Britannia brand, observed on four independent dates in May 2026.",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Britannia 50-50 Golmaal Salted Biscuit (170 g)",
+      "claim_text": "The user has a stable preference for Britannia 50-50 Golmaal Salted Biscuit, observed on two independent dates in May 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the user purchased three different products, only one product (Britannia 50-50 Golmaal Salted Biscuit) and one brand (Britannia) met the repetition threshold for stable preference. The other two products (Good Day Cashew, NutriChoice Zero) were single-date observations and are excluded from stable preference lists. The afternoon daypart pattern is stable across all dates.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the brand Britannia is consistently purchased, the specific product variety varies. The user ordered Good Day Cashew Cookies and NutriChoice Zero Cookies on single dates, so no stable preference can be claimed for those specific variants. The afternoon daypart is consistent across all orders but aligns with population norms rather than indicating a unique personal routine.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-05-04",
+      "2026-05-13",
+      "2026-05-26",
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-04T13:12:50",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

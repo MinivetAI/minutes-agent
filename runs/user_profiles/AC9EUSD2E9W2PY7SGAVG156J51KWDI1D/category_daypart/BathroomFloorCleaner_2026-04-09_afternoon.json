@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Vim Floor Cleaner Ultra Pro Lemon 1 L, a ready-to-use liquid floor cleaner with lemon fragrance, during the afternoon on a weekday.",
+  "summary_text": "One unit of Vim Floor Cleaner Ultra Pro Lemon 1 L was purchased on 2026-04-09.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time when this user's activity is below the population baseline (25.26% share). The product serves a general household hygiene utility for regular mopping and spot cleaning.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference, routine, or durable brand loyalty. The specific trigger for this purchase (e.g., running out of stock, immediate spill, or planned cleaning) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity (compared to 32.46% in the morning). The product is a ready-to-use floor cleaning liquid intended for household hygiene and spot cleaning.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for the Vim brand, the lemon variant, or the afternoon timing specifically, as no repetition across independent dates is present.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T14:22:40",
+    "last_seen_at": "2026-04-09T14:22:40"
+  }
 }

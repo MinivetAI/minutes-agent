@@ -1,93 +1,19 @@
 {
   "date": "2026-03-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-30 (weekday, morning), a single order was placed containing six items across six distinct categories: Edible Oil, Honey, Milk, Wheat Flour, Cheese, and Breads. The basket reflects a basic breakfast or pantry-restocking need, combining staple carbohydrates (Wheat Flour, Breads) with dairy (Milk, Cheese) and condiments (Edible Oil, Honey). No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-03-30 (weekday), a single order was placed in the morning. The basket contained six items across six distinct categories: Edible Oil, Honey, Milk, Wheat Flour, Cheese, and Breads. Quantities included 2 units of Milk and 2 units of Wheat Flour, with single units of the remaining four products. This represents a single observation of basket breadth and category combination; no durable preference or routine can be inferred from this isolated transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.3,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.26,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.22,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "WheatFlour"
-      ],
-      "combination_text": "Milk and Wheat Flour",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Chocolates",
-        "Milk"
-      ],
-      "combination_text": "Chocolates and Milk",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd/Yogurt and Milk",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "Breads",
-        "ButterMargarine"
-      ],
-      "combination_text": "Breads and Butter/Margarine",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd/Yogurt and Vegetables",
-      "support": 0.06,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for basic breakfast staples or pantry replenishment, specifically items suitable for morning consumption or cooking.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as 'repeated', 'routine', or 'stable' are not applicable here. Confidence in user behavior is low due to the lack of longitudinal data.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The combination of staple ingredients (Wheat Flour, Edible Oil, Milk, Honey) alongside ready-to-eat items (Breads, Cheese) is compatible with preparing home-cooked meals or breakfast items, such as bread-based dishes or baked goods, for personal consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Confidence in any inferred behavior pattern is low. The presence of category pair evidence in the input reflects population-level statistics or historical data not directly supported by this specific user's order history in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

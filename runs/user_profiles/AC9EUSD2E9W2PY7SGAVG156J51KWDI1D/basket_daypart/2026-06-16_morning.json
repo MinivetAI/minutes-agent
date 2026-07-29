@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "On 2026-06-16 (morning, weekday), the user placed one complete order containing 2 units of Milk and 1 unit of Batteries. The basket breadth is narrow, spanning two distinct categories: Dairy (Milk) and Household/Electronics (Batteries). The `shopping_need_text` suggests a need for basic dairy staples and replacement power sources. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-06-16 in the morning on a weekday included 2 units of Milk and 1 unit of Batteries. This represents a basket breadth of two distinct categories. The combination of Milk and Batteries was observed in this single order. No other category combinations from the supplied evidence were present in this specific order.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Milk",
         "Batteries"
       ],
-      "combination_text": "Milk and Batteries were purchased together in this single observed order.",
+      "combination_text": "Milk and Batteries were purchased together in one order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking of dairy products and replacement of batteries.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, `overall_confidence` is low. No durable preferences, routines, or stable patterns can be inferred. The category pair evidence provided (e.g., Milk/Vegetables) reflects population-level co-occurrence statistics and does not indicate that this specific user purchased those items together in this order.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Milk suggests a need for dairy products, while Batteries may indicate a need for power sources for devices. These items are compatible with general household replenishment needs.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as routine, preference, or stable behavior cannot be inferred from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-16"
+    ],
+    "first_seen_at": "2026-06-16T10:29:48",
+    "last_seen_at": "2026-06-16T10:29:48"
+  }
 }

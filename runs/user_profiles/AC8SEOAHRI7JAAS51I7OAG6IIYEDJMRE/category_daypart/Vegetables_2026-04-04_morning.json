@@ -3,8 +3,15 @@
   "day_type": "weekend",
   "summary_text": "One order of Cauliflower 400-600g (1 unit) placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning daypart, which aligns with the population baseline share of 0.3246 for this time slot. The product is a fresh vegetable head, typically used for immediate home cooking such as side dishes, roasting, or soups.",
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an immediate need. No other vegetable purchases are observed in this window to establish a pattern.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning, a time when morning shopping share (0.3246) is the highest among all dayparts for this population baseline. The product is a fresh vegetable typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this product, brand, or daypart pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

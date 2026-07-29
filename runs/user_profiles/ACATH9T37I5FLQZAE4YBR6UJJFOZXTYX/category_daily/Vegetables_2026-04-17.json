@@ -1,15 +1,23 @@
 {
   "date": "2026-04-17",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased a comprehensive assortment of fresh produce and herbs during the afternoon. The order included 15 distinct items totaling approximately 4.5–5.0 kg, featuring onions, potatoes, tomatoes, carrots, beetroot, cauliflower, okra, cucumber, baby corn, methi, mint, coriander, and lemons. This single observation suggests a need for immediate meal preparation or kitchen replenishment, but it does not establish a stable weekly shopping pattern or specific household size.",
+  "summary_text": "On 2026-04-17 (weekday), a single order of 15 fresh vegetable items was placed in the afternoon. The basket comprised herbs (coriander, mint), leafy greens (methi, bhindi), root vegetables (beetroot, carrot, potatoes), and aromatics/condiments (onion, tomato, lemon). All items were unbranded. The afternoon timing aligns with a less typical window for vegetable replenishment compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027), suggesting a mid-day top-up or specific timing need rather than standard evening meal prep. As this is a single observation, it does not establish stable preferences or brand loyalty.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased a large variety of fresh vegetables and herbs (onions, potatoes, tomatoes, carrots, beetroot, cauliflower, okra, cucumber, baby corn, methi, mint, coriander, lemons) totaling ~4.5–5.0 kg. This occurred during a weekday afternoon, a time with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027).",
+      "pattern_text": "One order of 15 fresh vegetable items placed on a weekday afternoon. The basket included herbs (coriander, mint), leafy greens (methi, bhindi), root vegetables (beetroot, carrot, potatoes), and aromatics/condiments (onion, tomato, lemon).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This summary is based on a single date (2026-04-17). It is unclear if this represents a planned weekly shop or an urgent mid-week top-up. Specific recipes or household composition cannot be inferred from the product mix alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for fresh vegetables, a specific brand loyalty (all items are Unbranded), or a one-time large replenishment. No brand preferences can be established as all products are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

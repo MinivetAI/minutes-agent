@@ -1,9 +1,23 @@
 {
   "date": "2026-03-22",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-22 (weekend), the user purchased one 80 g pot of On1y Pizza Oregano during the afternoon. This single order suggests a general utility for enhancing pizza, pasta, or snacks at home. The purchase occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.3% share vs. 32.5% for morning and 30.3% for evening).",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-22 (weekend), the user purchased On1y Pizza Oregano Poly Pot 80 g (1 unit) in the afternoon. This timing aligns with the population afternoon baseline share (0.2526), which is less common than morning (0.3246) and evening (0.3027) baselines. The product is a dry herb seasoning typically used for finishing pizzas, pasta, or snacks, suggesting a utility-driven purchase for immediate or near-term cooking needs. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need. No other condiment purchases are visible in this window to determine brand loyalty or category breadth.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of On1y Pizza Oregano Poly Pot 80 g (1 unit) placed on a weekend afternoon. This timing aligns with the population afternoon baseline share (0.2526). The product is a dry herb seasoning typically used for finishing pizzas, pasta, or snacks, suggesting a utility-driven purchase for immediate or near-term cooking needs.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this condiment or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need. No other condiment purchases are visible in this window to determine brand loyalty or category breadth.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-22"
+    ],
+    "first_seen_at": "2026-03-22T13:11:15",
+    "last_seen_at": "2026-03-22T13:11:15"
+  }
 }

@@ -1,34 +1,58 @@
 {
-  "category": "Soya Products",
-  "profile_text": "The user has purchased Fortune Mini Soya Chunks 200 g on two independent dates (2026-02-26 and 2026-03-24), both on weekdays during the morning. This repetition supports a stable brand preference for Fortune. Cadence and next-purchase predictions are unknown due to insufficient data. The user requires a vegetarian protein ingredient for everyday cooking.",
-  "brand_preferences": [
+  "category_name": "Soya Products",
+  "summary_text": "The user has purchased Fortune Mini Soya Chunks 200 g on two independent dates (2026-02-26 and 2026-03-24), both during the morning on weekdays. The first was a single unit; the second was a quantity of two. This establishes a low-confidence pattern for this specific brand and variant, but insufficient evidence for broader category habits.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Fortune",
+        "preference_text": "The user has purchased Fortune Soya Chunks on two independent dates.",
+        "confidence": "medium",
+        "boundary_text": "This preference is limited to Soya Chunks; it does not extend to other soya product forms like milk or tofu."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Mini Soya Chunks",
+        "preference_text": "The user purchased Mini Soya Chunks on two independent dates.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "200 g",
+        "preference_text": "The user purchased the 200 g pack size on two independent dates.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": [
+      {
+        "quantity": 2,
+        "preference_text": "The user ordered a quantity of 2 on one observed date.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [
     {
-      "brand": "Fortune",
-      "preference_text": "Fortune is the observed brand for Soya Products, purchased on two independent dates (2026-02-26 and 2026-03-24).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "daypart": "morning",
+      "behavior_text": "The user purchased soya products during the morning on two independent dates.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No alternative soya brands or product forms were observed in the supplied evidence, so substitution boundaries cannot be established.",
+  "uncertainty_text": "Evidence is limited to two independent dates in February and March 2026. It is unknown if the user purchases other soya products (e.g., soya milk, textured vegetable protein) or other brands. The quantity of 2 was observed once; it is unclear if this is a standard pack size for the user or a one-time bulk purchase.",
+  "retrieval_text": "User purchased Fortune Mini Soya Chunks 200 g on two independent dates (2026-02-26 and 2026-03-24), both in the morning on weekdays. The first purchase was 1 unit; the second was 2 units. This indicates a medium-confidence preference for the Fortune brand and Mini Soya Chunks variant in 200 g packs, specifically during morning shopping times. No other soya products or brands were observed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-24",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-03-24. Cadence is unknown; no predicted next purchase date can be estimated.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SoyaProducts yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Soya Products has resulted in completed purchases on two independent dates, indicating reliable conversion from interest to purchase.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior evidence is available.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping for vegetarian protein ingredients for everyday cooking.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-03-24T10:41:18"
+  }
 }

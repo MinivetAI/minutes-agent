@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-10 (weekday), the user purchased one pack of Whisper Choice Ultra XL sanitary pads (40 count) in the morning. This order occurred during a morning period where user activity (32.46% share) was above the population baseline. The product serves as a standard item for immediate menstrual care management.",
+  "summary_text": "On 2026-04-10 (weekday), the user ordered Whisper Choice Ultra XL Sanitary Pad (Pack of 40) in the morning. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The purchase may reflect immediate period management or replenishment, but it does not establish a stable brand preference, recurring routine, or habitual timing.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or habitual timing. It is unknown whether this purchase was driven by an unexpected need, a planned replenishment, or a specific brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-10"
+    ],
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "One order of Johnson's Baby Lotion 500 ml (1 unit) placed during the night on a weekday.",
+  "summary_text": "One order of Johnson's Baby Lotion 500 ml.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred at night, a period with lower population share (12.02%) compared to morning (32.46%), evening (30.27%), and afternoon (25.26%). The product is a general-use baby moisturizer intended for daily skin care.",
-  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred at night on a weekday. This timing is less common than the population baseline for morning (0.3246), afternoon (0.2526), or evening (0.3027) purchases, aligning with the night baseline share of 0.1202. The product is a baby moisturizing lotion intended for everyday skin care.",
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference or routine for this brand or product type.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-11"
+    ],
+    "first_seen_at": "2026-03-11T22:39:02",
+    "last_seen_at": "2026-03-11T22:39:02"
+  }
 }

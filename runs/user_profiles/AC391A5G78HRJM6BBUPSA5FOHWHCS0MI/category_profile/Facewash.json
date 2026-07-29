@@ -1,32 +1,27 @@
 {
-  "category": "Facewash",
-  "profile_text": "A single observed purchase of a pore-cleansing face wash on 2026-02-26. No stable brand preference, routine, or recurring need can be established from this single data point.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "Plum Green Tea Pore Cleansing Oil-Control Face Wash (100 ml)",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Facewash",
+  "summary_text": "Based on a single observation from 2026-02-26, the user purchased Plum Green Tea Pore Cleansing Oil-Control Face Wash (100 ml) in the afternoon. This timing aligns with population baselines. As this is the only recorded purchase in the provided window, it is unclear if this represents a stable brand preference, a one-time trial, or a replacement for a previous product.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established due to lack of repeated purchase history.",
+  "uncertainty_text": "This category relies on a single observation from one independent date. It is not yet established whether Plum is a stable brand preference or a one-time trial. No other facewash purchases are visible to confirm brand loyalty or category consistency. The user's routine for this category remains undefined.",
+  "retrieval_text": "Single observation of Plum Green Tea Pore Cleansing Oil-Control Face Wash (100 ml) purchased on 2026-02-26 in the afternoon; insufficient evidence to establish brand loyalty, stable variant preference, or routine cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-26",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No established cadence; last purchase was on 2026-02-26.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Facewash yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No evidence of substitution behavior.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance.",
-  "mission_generation_text": "Immediate need for daily facial cleansing, specifically targeting oil control and pore care.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-26T13:28:19",
+    "last_seen_at": "2026-02-26T13:28:19"
+  }
 }

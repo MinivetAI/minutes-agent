@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased Maggi 2-Minute Masala Instant Noodles (70 g sachets) on one weekday. This single order does not establish a stable, recurring preference or routine for this category or brand.",
+  "summary_text": "On 2026-01-23 (weekday), the user purchased Maggi 2-Minute Masala Instant Noodles (70 g x 12) during the morning daypart. This purchase aligns with the user's above-baseline weekday morning purchasing activity (32.46%). The product is a high-urgency convenience item suitable for quick meals or snacks. As this is a single observation on one date, it is not yet established whether this represents a stable preference for this brand or product, or if it was an isolated purchase driven by immediate need or stockout replacement.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable, recurring preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was an isolated purchase driven by immediate need or stockout replacement.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

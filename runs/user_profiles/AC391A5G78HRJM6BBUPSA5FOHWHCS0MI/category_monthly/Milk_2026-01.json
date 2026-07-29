@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased Parag Toned Milk 500 ml on a single date (2026-01-29). This isolated event does not establish a stable preference or routine for this product or brand. The purchase occurred in the morning, a timing consistent with population norms for this daypart.",
+  "summary_text": "In January 2026, the user ordered Parag Toned Milk 500 ml on a single weekday (2026-01-29) in the morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a small-format dairy item suitable for immediate household use or daily consumption. As this is a single observation, it is not yet established whether this represents a stable preference for the Parag brand, the specific 500 ml size, or morning purchasing habits. No other orders are available to confirm repetition.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences, routine habits, or specific use cases cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Parag brand, the specific 500 ml size, or morning purchasing habits. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-29"
+    ],
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-01-29T09:00:23"
+  }
 }

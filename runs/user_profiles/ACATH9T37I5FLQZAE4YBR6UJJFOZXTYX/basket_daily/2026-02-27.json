@@ -1,7 +1,7 @@
 {
   "date": "2026-02-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-27 (weekday), two distinct orders were placed across different dayparts. The morning order included 10 items across four categories: Vegetables (5 items), Milk (2 items), Curd Yogurt (2 items), and Savouries Namkeens (1 item). This basket suggests a need for fresh produce and dairy staples, potentially for daily meal preparation or breakfast components. The afternoon order consisted of a single item: Diapers (1 item), compatible with infant care replenishment. No carts were abandoned in either session.",
+  "summary_text": "On this weekday, two separate orders were placed across different dayparts. The morning order featured a broad basket of fresh produce and dairy staples, including five vegetable items, two units of milk, two units of curd/yogurt, and one item of savouries namkeens, suggesting daily household provisioning or meal preparation. The afternoon order was narrow, containing only a single unit of diapers, indicating a specific replenishment need for baby care supplies. No category combinations were observed in the afternoon order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,9 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -23,7 +25,9 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,7 +37,9 @@
       "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.344,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -43,51 +49,20 @@
       "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
       "support": 0.246,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "AeratedDrinks",
-        "Vegetables"
-      ],
-      "combination_text": "AeratedDrinks and Vegetables",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Diaper",
-        "Vegetables"
-      ],
-      "combination_text": "Diaper and Vegetables",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "BabyCereal",
-        "Vegetables"
-      ],
-      "combination_text": "BabyCereal and Vegetables",
-      "support": 0.246,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The morning basket suggests a need for fresh produce and dairy staples, potentially for daily meal preparation or breakfast components. The afternoon order is compatible with diaper replenishment for infant care.",
-  "uncertainty_text": "This analysis is based on single observed orders on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The category pair evidence provided reflects population-level co-occurrence statistics and does not prove this specific user's intent or future behavior.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The morning basket suggests a need for daily household food provisioning, specifically fresh produce and dairy staples, potentially for meal preparation. The afternoon order indicates a need for routine replenishment of baby care supplies, specifically diapers.",
+  "uncertainty_text": "This analysis is based on a single date with two separate orders. Patterns cannot be established as durable preferences or routines from this single observation. Confidence is low across all inferred behaviors.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T09:25:34",
+    "last_seen_at": "2026-02-27T15:57:01"
+  }
 }

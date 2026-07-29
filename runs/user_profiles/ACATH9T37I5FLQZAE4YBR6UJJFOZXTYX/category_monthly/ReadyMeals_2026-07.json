@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, one order of McCain Aloo Tikki 760 g was placed on a weekday morning. This single observation does not establish a stable preference for this brand or product, nor does it indicate a routine. The morning timing is less common for ready meal purchases compared to evening slots. No browsing events were recorded.",
+  "summary_text": "On 2026-07-08 (weekday), the user ordered one McCain Aloo Tikki 760 g in the morning. This timing aligns with the population baseline where morning activity accounts for 32.46% of orders. The product is a frozen ready-to-cook item, suitable for quick meals or snacks. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product type, or morning timing.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Only one independent date is represented in this month. No stable preferences or trends can be established from a single order. The reason for the morning timing is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or morning timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-08"
+    ],
+    "first_seen_at": "2026-07-08T09:01:24",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

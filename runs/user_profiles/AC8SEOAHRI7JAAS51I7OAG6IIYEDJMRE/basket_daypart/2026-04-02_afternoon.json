@@ -1,22 +1,31 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single afternoon weekday order on 2026-04-02 included four items across four distinct categories: Dish Washing Bar (2 units), Curd Yogurt (4 units), Flour (1 unit), and Breads (1 unit). The basket reflects a mix of household cleaning supplies and food staples. The `shopping_need_text` describes a need compatible with the basket but must not claim hidden intent.",
+  "basket_summary_text": "A single order placed on 2026-04-02 in the afternoon on a weekday. The basket contains four distinct items across four categories: Dish Washing Bar, Curd Yogurt, Flour, and Breads. The user purchased 2 units of Dish Washing Bar, 4 units of Curd Yogurt, 1 unit of Flour, and 1 unit of Breads. This combination suggests a need for basic household cleaning supplies and staple food items suitable for immediate consumption or short-term storage. No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
         "Breads",
-        "CurdYogurt"
+        "Curd Yogurt"
       ],
       "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking household cleaning supplies and basic food items such as dairy, bread, and baking ingredients.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Restocking of basic household cleaning supplies and staple food items for immediate consumption.",
+  "uncertainty_text": "This is a single observation from one daypart. No durable preferences or routine behaviors can be inferred from this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-02"
+    ],
+    "first_seen_at": "2026-04-02T12:16:18",
+    "last_seen_at": "2026-04-02T12:16:18"
+  }
 }

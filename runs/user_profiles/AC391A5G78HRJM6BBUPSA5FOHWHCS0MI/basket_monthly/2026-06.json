@@ -1,12 +1,23 @@
 {
   "month": "2026-06",
-  "summary_text": "The month of 2026-06 consists of five independent orders across weekdays and one weekend. No category combinations, daypart behaviors, or shopping needs are repeated across independent dates. All observed patterns are isolated to single dates.",
+  "summary_text": "During June 2026, the user placed five orders across weekdays and one weekend. Four orders occurred on weekdays (June 2, 8, 9, 10) and one on a weekend (June 13). Daypart behavior was split: one evening order (June 2) and four morning orders (June 8, 9, 10, 13). Basket breadth varied significantly, ranging from a single-item fruit purchase to a 12-item broad household replenishment. Fruits appeared in three independent dates (June 8, 9, 10), establishing a repeated behavior. Sugar appeared in two independent dates (June 9, and implicitly in the June 2 basket which listed Sugar, though the June 2 summary lists it as part of a broad mix; however, looking at the specific daily summaries provided: June 2 lists Sugar, June 9 lists Sugar. That is 2 independent dates). Washing Bar and Washing Powder co-occurred on June 13, but this is a single observation for that specific combination. No other category combinations or dayparts recur across multiple independent dates. Overall confidence is low due to the lack of high-frequency repetition for most behaviors.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
   "trend_claims": [],
-  "shopping_need_text": "The observed orders are compatible with general household replenishment, including dairy, pantry staples, cleaning supplies, personal care, fresh produce, and cooking ingredients. No specific need is confirmed as recurring.",
-  "uncertainty_text": "All evidence represents single observed orders on independent dates. Durable preferences, stable routines, or recurring habits cannot be inferred. Category pair evidence reflects population-level statistics and does not indicate repeated co-purchase by this user. No abandonment patterns are stable across independent dates.",
-  "overall_confidence": "low"
+  "shopping_need_text": "General household replenishment, fresh produce acquisition, and occasional specific ingredient purchases (sugar, fruits).",
+  "uncertainty_text": "Most behaviors are based on single observations or low-frequency repetitions. Durable preferences for specific brands or complex routines cannot be established. The user's basket composition varies widely, indicating flexible or need-based purchasing rather than rigid routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-06-02",
+      "2026-06-08",
+      "2026-06-09",
+      "2026-06-10",
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

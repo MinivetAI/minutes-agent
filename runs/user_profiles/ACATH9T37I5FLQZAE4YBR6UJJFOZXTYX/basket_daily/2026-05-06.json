@@ -1,7 +1,7 @@
 {
   "date": "2026-05-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-06 (weekday), a single order was placed in the afternoon. The basket contained 6 items: 4 units of Vegetables, 1 unit of Sweets Mithai, and 1 unit of Aerated Drinks. The order-building behavior indicates a primary focus on fresh produce, supplemented by a single sweet item and a single beverage. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-05-06 (weekday), a single order was placed in the afternoon. The basket contained one unit each of three distinct vegetable products, one unit of sweets/mithai, and one unit of aerated drinks. The primary category observed is Vegetables, with secondary presence of Sweets Mithai and Aerated Drinks. No other categories were purchased in this specific order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,24 +10,35 @@
         "Vegetables",
         "Sweets Mithai"
       ],
-      "combination_text": "Vegetables and Sweets Mithai were purchased together in this single order.",
-      "support": 0.0,
-      "lift": 0.0,
-      "confidence": "low"
+      "combination_text": "Vegetables and Sweets Mithai were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Vegetables",
         "Aerated Drinks"
       ],
-      "combination_text": "Vegetables and Aerated Drinks were purchased together in this single order.",
-      "support": 0.0,
-      "lift": 0.0,
-      "confidence": "low"
+      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of fresh vegetables, a sweet treat, and a carbonated beverage is compatible with a general household grocery restock or a casual meal preparation that includes a snack or dessert component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, `overall_confidence` is low. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not indicate that this specific user has a stable preference for those pairings; it merely notes that those categories appear together frequently in the broader dataset.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of fresh vegetables alongside sweets and a beverage suggests a need for meal preparation ingredients combined with a treat or snack item for immediate consumption or later in the day.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'routine' or 'preference' cannot be established from this isolated observation. Confidence is low because there is no repetition across independent dates to confirm stable behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-06"
+    ],
+    "first_seen_at": "2026-05-06T14:35:19",
+    "last_seen_at": "2026-05-06T14:35:19"
+  }
 }

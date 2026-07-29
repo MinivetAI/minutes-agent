@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased one 50 g pouch of Suhana Chicken Biryani Mix on a weekday morning. This single order represents a convenient, quick-cooking base for preparing a traditional meal with minimal prep effort. The morning timing aligns with a period when 32.46% of the population typically shops. This observation does not establish a stable or recurring preference for this brand or product type.",
+  "summary_text": "In February 2026, one order of Suhana Chicken Biryani Mix (50 g) was placed on a weekday morning. This represents a single observation; no stable preferences or recurring patterns are established for this category this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or morning purchasing habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

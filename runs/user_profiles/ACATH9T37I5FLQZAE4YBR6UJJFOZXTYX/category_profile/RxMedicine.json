@@ -1,34 +1,27 @@
 {
-  "category": "Rx Medicine",
-  "profile_text": "A single order of Levocet Syrup 60 ml (Levocet brand) was placed on 2026-02-07 during the evening on a weekend. No browsing events (search, view, cart-add) were recorded. Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference. It is unknown whether this was a one-time need, a refill, or part of a broader pattern of allergy management.",
-  "brand_preferences": [
-    {
-      "brand": "Levocet",
-      "preference_text": "Levocet was observed in one order on 2026-02-07. Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Rx Medicine",
+  "summary_text": "One order of Levocet Syrup 60 ml (1 unit) placed on a weekend evening. The product is a prescription antihistamine syrup, generally used for allergy relief such as runny nose, sneezing, or itching. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. This is a single observation on one date; it is not yet established whether this represents a stable preference, a routine refill, or a one-time need. The specific reason for the evening timing or the choice of this specific brand over alternatives cannot be determined from this single order.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences established due to single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference, a routine refill, or a one-time need. The specific reason for the evening timing or the choice of this specific brand over alternatives cannot be determined from this single order.",
+  "retrieval_text": "Single observed order of Levocet Syrup 60 ml (1 unit) on a weekend evening, aligning with population baseline evening share of 0.3027; product is a prescription antihistamine for allergy relief; insufficient evidence to establish brand preference, routine, or substitution boundaries.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-07",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-02-07. Cadence is unknown due to a single observation; no recurring pattern is established.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for RxMedicine yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase when an order is placed, but no browsing interest was recorded to indicate comparison or hesitation prior to this single transaction.",
-  "substitution_text": "No substitution behavior observed; only one brand and product variant were present in the single order.",
-  "price_value_text": "No price or value behavior observed beyond the single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected beyond the lack of pre-purchase browsing.",
-  "mission_generation_text": "Shopping needs supported by this category profile include managing acute or chronic symptoms requiring prescription medication, specifically allergy management as suggested by the product type (Levocet Syrup).",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-07T18:07:34"
+  }
 }

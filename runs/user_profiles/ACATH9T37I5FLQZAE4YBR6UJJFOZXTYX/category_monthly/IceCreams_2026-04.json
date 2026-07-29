@@ -1,11 +1,19 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Amul Butterscotch Tricone 120 ml ice cream cones on two independent dates (2026-04-07 and 2026-04-24). This repetition establishes a stable preference for this specific brand, flavor, and format. The purchases occurred on weekdays, once in the evening and once in the afternoon, indicating flexible timing within the daypart spectrum rather than a rigid daily routine. The product serves as a single-serve frozen dessert for immediate indulgence.",
+  "summary_text": "In April 2026, the user ordered Amul Butterscotch Tricone Ice Cream (120 ml) on two independent dates (2026-04-07 and 2026-04-24). This repetition meets the threshold for a stable preference claim. The user also purchased this item on weekdays in both the evening and afternoon, indicating a consistent daypart pattern across these two observations.",
   "stable_preference_claims": [
     {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has ordered Amul products on 2 independent dates in April 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
       "dimension": "product",
-      "value": "Amul Butterscotch Tricone 120 ml",
-      "claim_text": "The user has a stable preference for Amul Butterscotch Tricone 120 ml ice cream cones, evidenced by purchases on two independent dates in April 2026.",
+      "value": "Amul Butterscotch Tricone Ice Cream (120 ml)",
+      "claim_text": "The user has ordered Amul Butterscotch Tricone Ice Cream (120 ml) on 2 independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The preference is limited to the observed product and month. No other ice cream brands, flavors, or formats were purchased in this period to establish broader category preferences.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This summary is based on only two independent dates in April 2026. While the repetition of the same product establishes a medium-confidence stable preference, the small sample size limits the ability to infer long-term routine or broader category habits. No other products were observed in this category during this month.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-07",
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

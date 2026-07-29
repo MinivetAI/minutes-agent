@@ -1,19 +1,19 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Amul butter on two independent dates (2026-04-18 and 2026-04-25). Both orders occurred on weekends in the afternoon. The user bought a 100 g salted butter block on the first date and a 200 g salted butter block on the second. While the brand (Amul) and product type (salted butter) are consistent, the pack sizes differ (100 g vs 200 g). The timing (weekend afternoons) is consistent across both dates, though this timing is less common than the population baseline for this category.",
+  "summary_text": "In April 2026, the user purchased Amul Pasteurised Salted Butter on two independent dates (2026-04-18 and 2026-04-25). The recurrence of the Amul brand and salted butter variant across these two weekends establishes a stable preference for this specific product line. Both orders occurred on weekends during the afternoon, a timing pattern consistent with the population baseline where afternoon shares are significant, though lower than morning or evening peaks. The product serves as a standard kitchen staple for cooking, baking, or spreading.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user purchased Amul butter on two independent dates in April 2026.",
+      "claim_text": "The user has a stable preference for Amul butter, evidenced by purchases on two independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Salted Butter",
-      "claim_text": "The user purchased salted butter on two independent dates in April 2026.",
+      "value": "Pasteurised Salted Butter",
+      "claim_text": "The user has a stable preference for salted butter, evidenced by purchases on two independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user purchased two different pack sizes (100 g and 200 g) of the same brand and type. It is unclear if the user has a specific pack size preference or if they are adjusting quantity based on need. The consistent weekend afternoon timing is noted, but the sample size is small.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two independent observations in April 2026. While the brand and product type show stable preference, the sample size is limited to a single month. No other brands or product types in the Butter Margarine category were observed to determine if this represents exclusive dominance or variety-seeking behavior.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-18",
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-18T13:46:20",
+    "last_seen_at": "2026-04-25T11:45:25"
+  }
 }

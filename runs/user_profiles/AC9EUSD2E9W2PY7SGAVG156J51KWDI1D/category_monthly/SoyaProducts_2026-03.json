@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "On 2026-03-24 (weekday), the user purchased 2 units of Fortune Mini Soya Chunks 200 g during the morning. This is a packaged soy-based staple used as a vegetarian protein ingredient for everyday cooking. The order occurred during a time when 32.46% of the population is active. This is a single observed order; durable preferences or routine buying patterns cannot be established from this date alone.",
+  "summary_text": "On 2026-03-24 (weekday), the user purchased Fortune Mini Soya Chunks 200 g (quantity: 2) during the morning. This order occurred in a time window where the user's purchasing activity is above the population baseline (32.46%). The product serves as a vegetarian protein staple suitable for quick meal preparation or pantry replenishment. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need for soya products.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need for soya products.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T10:41:18",
+    "last_seen_at": "2026-03-24T10:41:18"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 100 ml single-serve mango-flavored ice cream cup from Go Zero during the evening.",
+  "summary_text": "One order of Go Zero Mango Mad Over Mango Guilt Free Ice Cream Cup (100 ml).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time period with high population share (0.3027) for this category, suggesting alignment with typical after-dinner or evening indulgence timing. The product is a small, immediate-consumption frozen dessert.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was an impulsive craving, a specific desire for mango flavor, or a trial of the Go Zero brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the evening on a weekday. The timing aligns with the population baseline where evening shares (0.3027) are comparable to morning (0.3246) and afternoon (0.2526). The product is a single-serve, small-portion frozen dessert, generally used for an instant sweet fix or a quick, individual indulgence rather than a bulk family purchase.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this is a recurring preference for this specific brand, flavor, or format, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T16:39:47",
+    "last_seen_at": "2026-03-16T16:39:47"
+  }
 }

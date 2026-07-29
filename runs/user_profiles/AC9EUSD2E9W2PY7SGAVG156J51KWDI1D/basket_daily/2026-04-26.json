@@ -1,7 +1,7 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "A single order was placed on 2026-04-26 in the evening on a weekend. The basket contains five distinct items across five categories: Milk, Dish Cleaning Gel, Coffee, Vegetables, and Breads. Each item was purchased in a quantity of one. The shopping need compatible with this basket is basic household replenishment for food and cleaning supplies. This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
+  "summary_text": "On 2026-04-26 (weekend), a single order was placed in the evening. The basket contained five distinct items across five categories: Milk, Dish Cleaning Gel, Coffee, Vegetables, and Breads, with each item purchased in a quantity of one. This observation reflects a mixed basket including dairy, produce, bakery, beverage, and cleaning supplies, compatible with a general household restocking need for daily essentials. No stable preferences or routine behaviors can be inferred from this isolated observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,34 +10,47 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Milk"
       ],
-      "combination_text": "Breads and Milk were purchased together in this order.",
+      "combination_text": "Breads and Milk",
       "support": 0.26,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Vegetables"
       ],
-      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "combination_text": "Breads and Vegetables",
       "support": 0.22,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic household replenishment for food and cleaning supplies.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket includes staple food items (Milk, Breads, Vegetables, Coffee) and a household cleaning supply (Dish Cleaning Gel). This combination is compatible with a general household restocking need for daily essentials.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences or routine behaviors cannot be inferred from this isolated observation. Confidence in any inferred pattern is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-26T19:26:32"
+  }
 }

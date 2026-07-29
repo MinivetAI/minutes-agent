@@ -1,73 +1,19 @@
 {
   "date": "2026-04-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-09, a weekday, a single order was placed in the afternoon. The basket contained 2 units of Curd Yogurt, 1 unit of Vegetables, 1 unit of Milk, and 1 unit of Cheese. This combination reflects a basic grocery need compatible with meal preparation or daily sustenance. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-04-09 (weekday), a single afternoon order included Curd Yogurt (2 units), Vegetables (1 unit), Milk (1 unit), and Cheese (1 unit). This represents a single observation of basket breadth across four categories. The combination of Curd Yogurt and Vegetables was observed in this order. No other category pairs from the supplied evidence were present in this specific order. As this is a single independent date, no stable patterns, routines, or durable preferences can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Cheese"
-      ],
-      "combination_text": "Curd Yogurt and Cheese were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Milk"
-      ],
-      "combination_text": "Vegetables and Milk were purchased together in this order.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Cheese"
-      ],
-      "combination_text": "Vegetables and Cheese were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Cheese"
-      ],
-      "combination_text": "Milk and Cheese were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic dairy and fresh produce items, potentially for immediate consumption or simple meal components.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as 'repeated', 'routine', or 'stable' are not applicable here as they require evidence from at least two independent dates. The co-order statistics provided reflect population-level associations, not necessarily this specific user's habitual behavior.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The basket suggests a need for fresh dairy and produce items, potentially for immediate meal preparation or daily consumption.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences or routines cannot be determined from this limited evidence.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T11:57:25",
+    "last_seen_at": "2026-04-09T11:57:25"
+  }
 }

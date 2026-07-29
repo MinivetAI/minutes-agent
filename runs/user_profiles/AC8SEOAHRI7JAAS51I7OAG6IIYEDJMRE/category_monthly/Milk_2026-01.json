@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "On the morning of this weekend, the user purchased 2 units of Amul Lactose Free Milk 250 ml (UHT, lactose-free). This single-serve, ambient-stable pack is suitable for immediate consumption or grab-and-go utility. The order occurred during a period with a population share of 0.3246. As this is a single observed order on one date, durable preferences, habitual buying patterns, or specific dietary motivations (e.g., lactose intolerance vs. convenience) cannot be established.",
+  "summary_text": "In January 2026, the user ordered Amul Lactose Free Milk 250 ml on one weekend date. This single observation does not establish a stable preference for the brand or product. The order occurred in the morning, aligning with the population baseline where morning accounts for 32.46% of activity. No other milk products or daypart patterns were observed in this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, habitual buying patterns, or specific dietary motivations (e.g., lactose intolerance vs. convenience) cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or timing. The user's specific dietary needs or routine cannot be confirmed from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-01-24T10:29:17"
+  }
 }

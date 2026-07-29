@@ -1,26 +1,34 @@
 {
-  "category": "Tea",
-  "profile_text": "In May 2026, the user purchased one 100 g pouch of Society Regular Indian Leaf Tea on a weekday morning. This single order aligns with the population morning baseline share of 32.46% and may indicate routine household replenishment or immediate breakfast preparation needs. No stable brand or product preference is established from this single observation.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Tea",
+  "summary_text": "The user has a single observed purchase of Society Tea (100 g pouch) on 2026-05-07 (weekday) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of tea orders. The product is a standard everyday leaf tea, typically used for immediate household replenishment or short-duration top-ups. This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine habit, or a one-time need. No other dates are available to confirm repetition.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Society Tea",
+        "preference_text": "Observed in a single order on 2026-05-07.",
+        "confidence": "low",
+        "boundary_text": "Preference is limited to the specific observed instance; no evidence of routine or repeat purchase exists to establish a stable brand loyalty."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The single observation does not indicate acceptance or rejection of alternative tea brands or forms.",
+  "uncertainty_text": "Confidence is low due to a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine habit, or a one-time need. No other dates are available to confirm repetition. The user's broader tea consumption patterns, preferred forms (e.g., loose leaf vs. bags), and price sensitivity remain unknown.",
+  "retrieval_text": "User purchased Society Tea 100 g pouch on 2026-05-07 (weekday morning), aligning with population morning baseline (32.46%). Single observation; no established routine or stable brand preference. Product is standard everyday leaf tea for immediate household replenishment. No substitution or alternative brand evidence available.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-07",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-05-07; cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Tea yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports immediate breakfast preparation or routine household replenishment.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

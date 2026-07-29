@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt on a weekday afternoon. This standard household iodized table salt is intended for everyday cooking and seasoning. The order occurred during a lower-population daypart (0.2526) compared to morning (0.3246) and evening (0.3027) peaks. This single observed order does not establish a stable, recurring preference or routine for this specific brand or product type.",
+  "summary_text": "In March 2026, the user ordered Tata Salt Free Flowing Iodised Salt 1 kg on one weekday (2026-03-24) in the afternoon. This timing aligns with the population baseline for afternoon purchases (0.2526), which is less common than morning (0.3246) or evening (0.3027) baselines. As this is a single observation, no stable preference or routine is established for this brand or product variant.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference or routine for this specific brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for this brand or a one-time replenishment need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T12:26:50",
+    "last_seen_at": "2026-03-24T12:26:50"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-06-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-04 (weekday), the user purchased 1 unit of Watermelon Kiran (fresh watermelon) in the afternoon. This order occurred during a period with a 25.26% population share, which is slightly below the morning peak (32.46%) and evening share (30.27%). The product is a fresh fruit item typically used for immediate consumption or hydration. This is a single observed order on one date; durable preferences, habitual buying patterns, or specific use cases (e.g., household size, event hosting) cannot be established.",
+  "summary_text": "On this weekday, the user placed one order for Watermelon Kiran (1 unit) in the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (25.26% share vs. 32.46% for morning). The product is a fresh, whole fruit typically used for immediate consumption or hydration. This is a single observation on one date and does not establish a stable preference for this specific watermelon variety, brand, or fruit category over time.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 1 unit of Watermelon Kiran (fresh watermelon).",
+      "pattern_text": "One order of Watermelon Kiran (1 unit) placed on a weekday afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (25.26% share vs. 32.46% for morning). The product is a fresh, whole fruit typically used for immediate consumption or hydration.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, habitual buying patterns, or specific use cases (e.g., household size, event hosting) cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this specific watermelon variety, brand, or fruit category over time.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-04T11:20:07"
+  }
 }

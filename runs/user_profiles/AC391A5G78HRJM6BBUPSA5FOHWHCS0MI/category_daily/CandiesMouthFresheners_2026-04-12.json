@@ -1,9 +1,23 @@
 {
   "date": "2026-04-12",
   "day_type": "weekend",
-  "summary_text": "On the evening of 2026-04-12 (weekend), the user purchased one 245.5 g pack of Parle Kismi Assorted Toffee. This timing aligns with a high population share (0.3027) for the Candies Mouth Fresheners category during evening hours, suggesting a pattern consistent with after-meal consumption or impulse snacking. The product is a ready-to-eat assorted toffee pack, generally used for mouth freshening or sharing. As this is a single observed order on one date, no durable brand or flavor preference can be established, and the specific reason for the purchase (e.g., immediate craving vs. stocking up) remains unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-12 (weekend), the user ordered Parle Kismi Assorted Toffee (245.5 g) in the evening. This single observation aligns with the population baseline evening share of 0.3027. The product is a ready-to-eat assorted toffee pack, typically used for snacking, sharing, or after-meal refreshment. No stable brand or product preference can be established from this single date.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Parle Kismi Assorted Toffee (245.5 g) placed on a weekend evening. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a ready-to-eat assorted toffee pack, typically used for snacking, sharing, or after-meal refreshment. This is a single observation on one date; no stable brand or product preference can be established. It is unclear whether this purchase was for immediate consumption, gifting, or routine replenishment.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or flavor preference can be established. The specific reason for this purchase (e.g., immediate craving vs. stocking up) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear whether this purchase was for immediate consumption, gifting, or routine replenishment.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

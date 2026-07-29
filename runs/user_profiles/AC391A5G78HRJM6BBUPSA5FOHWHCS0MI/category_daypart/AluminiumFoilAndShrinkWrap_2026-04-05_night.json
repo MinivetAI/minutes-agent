@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekend",
-  "summary_text": "Purchased one 72 m roll of Flipkart Supermart Aluminium Foil during the night on a weekend. This is a household kitchen foil roll intended for wrapping, covering, and retaining food, or lining cooking vessels and trays.",
+  "summary_text": "One order of Flipkart Supermart Aluminium Foil 72 m (1 unit) placed on a weekend night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekend, a time when the user's activity (12.02% share) is less frequent than the population baseline for morning (32.46%), afternoon (25.26%), or evening (30.27%). The product serves an immediate kitchen utility need, such as covering leftovers or lining trays, rather than indicating a planned bulk restock.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. It is unclear if this was a one-off replacement due to running out or part of a broader, unobserved pattern of kitchen supply management.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend night, a time when this category represents 12.02% of population activity (baseline: morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a household kitchen foil roll, typically used for wrapping, covering, or lining cooking vessels.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this was a one-time need or part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-05T21:57:18"
+  }
 }

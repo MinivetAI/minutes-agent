@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "On 2026-07-04 (weekend), the user purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) during the evening. This single observation suggests a routine replenishment or immediate need for kitchen use such as tea, coffee, or breakfast preparation, consistent with the evening daypart's significant population activity (30.27% share).",
+  "summary_text": "In July 2026, the user purchased Amul Taaza Pasteurised Toned Milk (500 ml) on one weekend date (2026-07-04) during the evening. This timing aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning baseline (32.46%) and higher than afternoon (25.26%) or night (12.02%). The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast preparation. As this is a single observation from one date, it is not yet established whether this represents a stable preference for the Amul brand, a specific preference for evening shopping, or a routine purchase pattern. No other brands or dayparts have been observed to determine dominance or habit.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a stable preference for Amul or this specific product format, or if the user typically buys milk at different times or in larger quantities.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for the Amul brand, a specific preference for evening shopping, or a routine purchase pattern. No other brands or dayparts have been observed to determine dominance or habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T16:42:45",
+    "last_seen_at": "2026-07-04T16:42:45"
+  }
 }

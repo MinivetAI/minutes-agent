@@ -1,34 +1,19 @@
 {
   "date": "2026-05-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-12 (weekday), a single order was placed during the night. The basket contained 11 items across 6 categories: Savouries Namkeens (3 units), Chips (2 units), Vegetables (2 units), Aerated Drinks (1 unit), Cough (2 units), and Breads (1 unit). The combination of savory snacks, chips, and aerated drinks suggests a compatible need for evening snacking or entertainment, while the inclusion of vegetables and bread indicates a separate need for meal preparation. The presence of cough medicine suggests a specific health need for the shopper or household. No carts were abandoned.",
+  "summary_text": "On this weekday night, a single order was placed containing savory snacks (Savouries Namkeens, Chips), fresh produce (Vegetables), bread, an aerated drink, and cough medication. The combination of fresh ingredients, bread, and savory items suggests a need for meal or snack preparation, while the inclusion of cough medicine indicates a temporary health symptom. This is a single observation; no durable preferences or routine behaviors can be inferred from this date alone.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Chips",
-        "Aerated Drinks"
-      ],
-      "combination_text": "Savouries Namkeens, Chips, and Aerated Drinks were purchased together in this order.",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Breads"
-      ],
-      "combination_text": "Vegetables and Breads were purchased together in this order.",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with an evening snack session (savouries, chips, aerated drinks) and meal preparation (vegetables, breads), alongside a specific need for cough relief.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference, routine, or stable pattern. The presence of cough medicine indicates a specific health need but does not prove chronic conditions or long-term health status. The combination of snack and grocery items may reflect a single shopping trip for multiple needs, but this is not a recurring behavior pattern based on this evidence alone.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "Evening snack and meal preparation with fresh ingredients, plus management of a cough symptom.",
+  "uncertainty_text": "This is a single observation on one date. No durable preferences or routine behaviors can be inferred. The presence of cough medicine suggests a temporary health need rather than a stable product preference.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-12"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-12T23:10:32"
+  }
 }

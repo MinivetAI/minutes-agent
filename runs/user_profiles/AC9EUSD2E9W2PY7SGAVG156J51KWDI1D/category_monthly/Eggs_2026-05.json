@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user placed one order for Premium Agrros Hen White Eggs 6-Pack on a weekday morning. This is a single observation; no stable preference or routine is established for this brand or format based on the available evidence.",
+  "summary_text": "On 2026-05-08 (weekday), the user ordered Premium Agrros Hen White Eggs 6-Pack in the morning. This timing aligns with the population baseline where morning shares 32.46% of activity. The product is a basic fresh-food grocery item, typically used for immediate cooking or breakfast needs. This is a single observation on one date. It is not yet established whether this brand or this specific timing represents a stable preference or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no repeated behavior is established to confirm a stable preference for this brand or format.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or this specific timing represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-08"
+    ],
+    "first_seen_at": "2026-05-08T10:08:09",
+    "last_seen_at": "2026-05-08T10:08:09"
+  }
 }

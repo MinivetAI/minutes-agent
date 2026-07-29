@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased seven fresh vegetable items: beetroot, coriander leaves, an unidentified vegetable product (VEGGF7EXB3KWXAGJ), fresh mint leaves, fresh lemons, onions, and baby potatoes. All items were unbranded fresh produce, typically used for immediate cooking, garnishing, or meal preparation.",
+  "summary_text": "One order of fresh vegetables and herbs placed on a weekend afternoon, including beetroot, coriander leaves, mint leaves, lemons, onions, baby potatoes, and one unidentified vegetable item.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed in the afternoon on a weekend. The basket consists of perishable fresh vegetables and herbs, suggesting a need for immediate ingredient replenishment for same-day cooking or meal completion rather than bulk stocking.",
-  "uncertainty_text": "The specific identity and use case for the product 'VEGGF7EXB3KWXAGJ' are unknown. As this is a single observed order, it is not possible to determine if these items represent a stable preference or a one-time specific meal need.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon, which aligns with the population baseline where afternoon shares 25.26% of activity (compared to 32.46% in the morning). The basket consists of perishable fresh produce and culinary herbs, suggesting an immediate need for ingredients to prepare a meal or refresh kitchen stock.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, specific product affinities, or recurring timing patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

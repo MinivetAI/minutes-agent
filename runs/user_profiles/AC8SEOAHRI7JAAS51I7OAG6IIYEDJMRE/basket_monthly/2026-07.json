@@ -1,17 +1,22 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, four independent orders were placed across weekend and weekday dayparts. The user purchased breakfast-compatible items (dairy, breads), household cleaning supplies, fresh produce, dry staples (rice, flour, sugar), and snack components. No stable, recurring basket-building patterns or category combinations were identified because each order occurred on a distinct date with no repeated daypart behavior or category pairings across multiple dates. Abandoned cart patterns are excluded from the stable list as no categories were abandoned across independent dates.",
+  "summary_text": "In July 2026, orders were placed on four independent dates (2026-07-05, 2026-07-06, 2026-07-09, 2026-07-13). The user shopped across morning, afternoon, and evening dayparts on weekends and weekdays. Observed needs include quick meals/snacks, household cleaning/restocking, and basic fresh ingredients for meal preparation. No single category combination, daypart behavior, or product repetition appeared across two or more independent dates; all patterns are isolated to single orders.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user placed orders on four separate dates (2026-07-05, 2026-07-06, 2026-07-09, 2026-07-13) spanning weekend and weekday periods, indicating sporadic shopping activity rather than a fixed cadence.",
-      "confidence": "low"
-    }
-  ],
-  "shopping_need_text": "The observed orders are compatible with needs for breakfast components, household cleaning, fresh produce, dry cooking staples, and light snacks.",
-  "uncertainty_text": "This analysis is based on four independent orders on four separate dates. Because no category combinations, daypart behaviors, or abandonment patterns were repeated across these independent dates, no stable preferences or recurring routines can be inferred. Each order represents a specific transactional event. The single observation of Breads and Dips Sauces Pastes on 2026-07-13 is an isolated case and does not establish a stable preference for this combination.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "The observed orders reflect needs for quick morning meals/snacks, household cleaning and restocking, and basic fresh ingredients (produce, dairy, staples) for meal preparation.",
+  "uncertainty_text": "All inferences are based on isolated observations from four independent dates. No category combinations, daypart behaviors, or product preferences were repeated across multiple dates. Stable preferences, routines, or durable behavior patterns cannot be determined.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 6,
+    "purchase_dates": [
+      "2026-07-05",
+      "2026-07-06",
+      "2026-07-09",
+      "2026-07-13"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

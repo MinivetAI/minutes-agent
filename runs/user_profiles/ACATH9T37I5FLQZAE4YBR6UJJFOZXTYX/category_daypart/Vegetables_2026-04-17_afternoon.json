@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 15 distinct fresh vegetable and herb items totaling approximately 4.5–5.0 kg, including onions (small and bulk), potatoes (baby and new crop), tomatoes, carrots, beetroot, cauliflower, okra, cucumber, baby corn, methi, mint, coriander, and lemons.",
+  "summary_text": "One order of 15 fresh vegetable items (15 units total) placed on a weekday afternoon. The basket included herbs (coriander, mint), leafy greens (methi, bhindi), root vegetables (beetroot, carrot, potatoes), and aromatics/condiments (onion, tomato, lemon).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during an afternoon weekday, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The basket consists entirely of unbranded, perishable fresh produce and herbs, indicating a comprehensive same-day meal preparation or urgent kitchen replenishment need rather than bulk stocking.",
-  "uncertainty_text": "Cannot determine if this represents a planned weekly shop or an urgent mid-week top-up due to the single-date observation. Cannot infer specific recipes or household size from the product mix alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon on a weekday. This timing aligns with the population baseline where afternoon share (0.2526) is lower than morning (0.3246) and evening (0.3027), suggesting this purchase occurred during a less typical window for vegetable replenishment compared to the broader population, or potentially reflects a mid-day top-up rather than evening meal prep. The products are fresh, perishable vegetables and herbs generally used for immediate cooking, salads, or garnishing.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for fresh vegetables, a specific brand loyalty (all items are Unbranded), or a one-time large replenishment. No brand preferences can be established as all products are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

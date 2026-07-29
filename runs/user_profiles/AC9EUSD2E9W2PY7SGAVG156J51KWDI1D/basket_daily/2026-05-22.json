@@ -1,7 +1,7 @@
 {
   "date": "2026-05-22",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-22 (weekday), a single order was placed during the morning daypart. The basket contained 1 unit of Wheat Flour, 3 units of Milk, and 1 unit of Curd Yogurt. This combination of items is compatible with meal preparation needs, such as breakfast or baking. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-05-22 (weekday), a single order was placed in the morning. The basket included Wheat Flour (1 unit), Milk (3 units), and Curd Yogurt (1 unit). This combination suggests a need for basic breakfast or cooking staples. The purchase of Milk and Wheat Flour together is supported by historical co-order evidence (Support: 0.1, Confidence: 0.172, Lift: 1.724), though this specific instance is an isolated observation. The combination of Milk and Curd Yogurt is also observed in history (Support: 0.08, Confidence: 0.5, Lift: 0.862). No other category pairs from the supplied evidence list (e.g., Milk/Vegetables, Breads/Milk) were present in this order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,24 +10,35 @@
         "Milk",
         "WheatFlour"
       ],
-      "combination_text": "Milk and Wheat Flour were purchased together in this order.",
+      "combination_text": "Milk and Wheat Flour",
       "support": 0.1,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "CurdYogurt",
         "Milk"
       ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Milk",
       "support": 0.08,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of flour, milk, and yogurt is compatible with breakfast or baking preparation needs.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Need for basic breakfast or cooking staples.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-22T09:38:49",
+    "last_seen_at": "2026-05-22T09:38:49"
+  }
 }

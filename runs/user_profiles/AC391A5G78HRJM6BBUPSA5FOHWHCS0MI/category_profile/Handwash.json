@@ -1,40 +1,33 @@
 {
-  "category": "Handwash",
-  "profile_text": "Based on a single observed order on 2026-06-02, the user purchased Dettol Original Liquid Hand Wash Refill Pouch 675 ml. This indicates a need to replenish daily hygiene supplies. Due to the lack of repetition across independent dates, no stable preferences, brand loyalty, or recurring patterns can be established. The timing (weekday evening) aligns with general household activity patterns rather than a distinct routine.",
-  "brand_preferences": [
-    {
-      "brand": "Dettol",
-      "preference_text": "Dettol was observed in one order on 2026-06-02. A single observation does not establish a stable preference or loyalty.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Dettol Original Liquid Hand Wash Refill Pouch 675 ml was observed in one order on 2026-06-02. A single observation does not establish a stable preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Handwash",
+  "summary_text": "The user has a single observed order for a Dettol Original Liquid Hand Wash Refill Pouch (675 ml) on 2026-06-02. This is a low-confidence, single-observation profile with no established routine or brand loyalty yet.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit purchase observed.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available. The user purchased a refill pouch, which suggests a need to replenish existing dispensers, but no alternative brands or formats were observed.",
+  "uncertainty_text": "This profile is based on a single order on 2026-06-02. It is unknown if this is a one-time purchase, a stockout replacement, or the start of a recurring habit. No other brands, variants, or daypart patterns have been established.",
+  "retrieval_text": "User ordered one unit of Dettol Original Liquid Hand Wash Refill Pouch 675 ml on 2026-06-02 in the evening. This is a single observation with low confidence; no routine, brand loyalty, or substitution preferences are established.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-02",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-06-02. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Handwash yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed due to single order.",
-  "price_value_text": "No price/value behavior established due to single order.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Replenishment of daily hygiene supplies.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

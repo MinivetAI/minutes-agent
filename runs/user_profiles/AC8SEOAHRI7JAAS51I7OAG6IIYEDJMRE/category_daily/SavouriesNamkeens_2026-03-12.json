@@ -1,9 +1,23 @@
 {
   "date": "2026-03-12",
   "day_type": "weekday",
-  "summary_text": "One order of Bikano Aloo Lachha 140 g, a packaged Indian namkeen snack, purchased in the afternoon. This timing aligns with the population baseline where afternoon activity (25.26%) is lower than morning (32.46%) and evening (30.27%), but represents a standard mid-day snacking window for ready-to-eat savouries.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered one unit of Bikano Aloo Lachha 140 g in the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) peaks. The product is a ready-to-eat savoury snack, typically used for immediate consumption or tea-time accompaniment. Confidence in any durable preference is low because this is a single observation from one date. It is not yet established whether the user prefers this specific brand, product, or timing over alternatives.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Bikano Aloo Lachha 140 g.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history (search, views, cart activity) was provided, so it is unknown if this was a planned purchase or an impulse buy. No repeated orders were observed, so no durable brand or product preference can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Confidence in any durable preference is low because this is a single observation from one date. It is not yet established whether the user prefers this specific brand, product, or timing over alternatives.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-12"
+    ],
+    "first_seen_at": "2026-03-12T14:42:56",
+    "last_seen_at": "2026-03-12T14:42:56"
+  }
 }

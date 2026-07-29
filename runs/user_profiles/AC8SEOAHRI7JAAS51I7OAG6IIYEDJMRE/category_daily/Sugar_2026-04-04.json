@@ -1,9 +1,17 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-04 (weekend), the user purchased one 1 kg pack of Fortune white sugar during the morning. This timing aligns with the user's observed activity share of 32.46%, which is above the population baseline for the morning daypart. The product is a standard white sugar staple, compatible with daily household needs such as tea, coffee, or cooking. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
+  "summary_text": "On this weekend, a single order of Fortune Sugar 1 kg (1 unit) was placed during the morning daypart. This represents a standard white sugar staple, likely for daily cooking, tea/coffee preparation, or pantry replenishment. As this is a single observation on one date, it does not establish a stable brand preference, routine, or recurring need; it is unclear if this is a one-time refill or part of a regular habit.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time refill or part of a regular habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

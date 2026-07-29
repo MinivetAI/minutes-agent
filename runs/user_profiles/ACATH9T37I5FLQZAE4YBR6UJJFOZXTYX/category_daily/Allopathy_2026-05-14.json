@@ -1,9 +1,17 @@
 {
   "date": "2026-05-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-14 (weekday), one order of Ultra D3 Drops (15 ml) was placed during the night. The product is a vitamin D3 oral drop formulation, typically used for pediatric or household supplementation. The order occurred at night on a weekday, a period with lower population activity (12.02% share) compared to morning (32.46%) and evening (30.27%). The product serves a general health maintenance utility, specifically vitamin D supplementation.",
+  "summary_text": "On 2026-05-14 (weekday), the user placed one order of Ultra D3 Drops 15 ml (1 unit) during the night. This timing aligns with a lower population share for night orders (12.02%) compared to morning (32.46%), afternoon (25.26%), and evening (30.27%). The product is a vitamin D3 oral drop used for supplementation. As this is a single observation on one date, no stable brand or product preference can be established, and the specific reason for the night-time order is unknown.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or recurring need for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. The specific reason for the night-time order (e.g., urgent need, convenience) is unknown.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-14"
+    ],
+    "first_seen_at": "2026-05-14T22:06:00",
+    "last_seen_at": "2026-05-14T22:06:00"
+  }
 }

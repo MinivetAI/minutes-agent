@@ -1,9 +1,0 @@
-{
-  "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased ice cream on two independent dates, but no single brand, product, or variant recurred across multiple dates. The first purchase was a 700 ml tub of Kwality Wall's The Dairy Factory Chocochip Ice Cream on a weekend night. The second was a 60 ml Amul Aamras Kulfi Ice Cream Stick on a weekday evening. Because each product appeared only once, no stable preference claims can be established for specific items. Daypart patterns are also isolated to single dates (one night, one evening), so no recurring daypart preference is confirmed.",
-  "stable_preference_claims": [],
-  "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "No brand, product, or variant repeated across independent dates in this month. Daypart and day-type patterns are based on single observations each and do not establish durable habits.",
-  "overall_confidence": "low"
-}

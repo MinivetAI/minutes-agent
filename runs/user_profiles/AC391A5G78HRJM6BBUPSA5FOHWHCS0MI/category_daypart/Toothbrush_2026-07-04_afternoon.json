@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one pack of three SENSODYNE Sensitive Soft toothbrushes.",
+  "summary_text": "One order of Sensodyne Sensitive Soft Toothbrush Pack of 3 (1 unit) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the afternoon on a weekend, a time when population share is lower than morning or evening peaks. The purchase reflects a utility-first need for oral care replacement or restocking.",
-  "uncertainty_text": "Single observation does not establish stable preferences or routine behavior.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when the user's activity is less frequent than the population baseline for mornings (0.3246) and evenings (0.3027), but comparable to the afternoon baseline (0.2526). The purchase reflects a utility-first need for oral care replacement or stocking, consistent with the product's design for gentle cleaning and routine maintenance.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for the SENSODYNE brand, the specific soft-bristle variant, or the pack-of-3 format. It is unclear if this represents a one-time need or the start of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:46:46",
+    "last_seen_at": "2026-07-04T11:46:46"
+  }
 }

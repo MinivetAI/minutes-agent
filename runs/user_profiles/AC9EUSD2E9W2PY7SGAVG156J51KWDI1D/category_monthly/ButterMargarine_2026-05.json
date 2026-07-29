@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "On 2026-05-04 (weekday), the user purchased one 100 g pack of Amul Pasteurised Salted Butter during the morning. This timing aligns with a 32.46% population share for this category on weekdays. The product is a standard small-format salted butter suitable for immediate kitchen use. This is a single observed order; durable brand or format preferences cannot be established from this date alone.",
+  "summary_text": "On 2026-05-04, the user purchased Amul Pasteurised Salted Butter (100 g) during the morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity, making it a common but not dominant window. The product is a standard kitchen staple suitable for breakfast or cooking. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time replacement need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or format preferences cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time replacement need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T09:36:25",
+    "last_seen_at": "2026-05-04T09:36:25"
+  }
 }

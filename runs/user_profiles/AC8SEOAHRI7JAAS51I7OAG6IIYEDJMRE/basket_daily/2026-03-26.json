@@ -1,93 +1,32 @@
 {
   "date": "2026-03-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-26, a weekday, a single order was placed in the morning. The basket contained one unit each of a vegetable product and a ready mix, spanning two distinct categories: Vegetables and Ready Mixes. This specific combination was not observed in the provided category pair evidence, which highlights associations involving CurdYogurt, Breads, and Milk rather than Ready Mixes. The shopping need text suggests a potential need for meal preparation components, compatible with the presence of a vegetable and a ready mix, but this is an observation of the items purchased, not a proof of intent. As this is a single observed order, it represents an isolated event rather than a durable preference or routine.",
+  "summary_text": "On 2026-03-26 (weekday), a single order was placed in the morning. The basket contained one unit each of a vegetable product and a ready mix, representing a minimal basket breadth with two distinct categories purchased together. This combination is compatible with preparing a quick meal or breakfast component. Confidence is low due to the lack of repetition across independent dates.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
-        "CurdYogurt"
+        "Vegetables",
+        "Ready Mixes"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
+      "combination_text": "Vegetables and Ready Mixes were purchased together in one order.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Meal preparation involving fresh produce and pre-mixed ingredients.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or routines can be inferred. The category pair evidence provided does not include the specific combination of Vegetables and Ready Mixes purchased in this order.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of a vegetable and a ready mix in the morning on a weekday is compatible with preparing a quick meal or breakfast component.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It is an isolated observation and does not establish a durable preference, routine, or stable pattern. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-26"
+    ],
+    "first_seen_at": "2026-03-26T10:18:30",
+    "last_seen_at": "2026-03-26T10:18:30"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Chitale Cow Milk 500 ml (full cream cow milk) in the morning on a weekday.",
+  "summary_text": "One order of Chitale Cow Milk 500 ml (quantity: 2) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning (32.5% population share), a time often associated with breakfast preparation or immediate household needs. The product is a small-pack fresh dairy item suitable for same-day use.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a daypart where this user's activity is below the population baseline (32.46%). The products are fresh dairy items typically used for immediate household consumption such as tea, coffee, or breakfast.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

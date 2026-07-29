@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased one 1.1 kg pack of Kissan Fresh Tomato Ketchup on a weekend afternoon. This large-format condiment is typically used for dipping, spreading, or as an accompaniment to meals and snacks. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "In March 2026, one order of Kissan Fresh Tomato Ketchup 1.1 kg was placed on a weekend afternoon. This timing aligns with a period when this user's activity is less common than the population baseline (25.26% share). With only one observed order on a single date, it is not possible to establish stable brand preferences, routine purchasing patterns, or specific usage occasions; the timing may be coincidental rather than indicative of a habitual afternoon shopping window.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "With only one observed order on a single date, it is not possible to establish stable brand preferences, routine purchasing patterns, or specific usage occasions. The timing may be coincidental rather than indicative of a habitual afternoon shopping window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

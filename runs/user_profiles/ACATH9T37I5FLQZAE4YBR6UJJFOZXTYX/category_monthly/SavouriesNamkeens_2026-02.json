@@ -1,11 +1,11 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user ordered Too Yumm! Sour Cream and Onion Veggie Stix (35 g) on two independent dates (2026-02-24 and 2026-02-27). This repetition establishes a stable preference for this specific brand and variant. The orders occurred on weekdays, once in the afternoon and once in the morning, indicating flexible timing rather than a fixed daily routine. No other savoury namkeen brands or variants were observed in this month.",
+  "summary_text": "In February 2026, the user ordered Too Yumm! Sour Cream and Onion Veggie Stix (35 g) on two independent dates (2026-02-24 and 2026-02-27). This repetition meets the threshold for a stable preference claim for this specific brand and variant. The orders occurred on weekdays, once in the afternoon and once in the morning, indicating flexible timing rather than a fixed daily routine. The product is a single-serve, crunchy savoury snack consistent with immediate hunger relief or light snacking.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Too Yumm!",
-      "claim_text": "The user has a stable preference for Too Yumm! savoury snacks, evidenced by purchases on 2 independent dates in February 2026.",
+      "claim_text": "The user has demonstrated a stable preference for the brand Too Yumm! in the Savouries Namkeens category, with orders on 2 independent dates in February 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Too Yumm! Sour Cream and Onion Veggie Stix (35 g)",
-      "claim_text": "The user has a stable preference for Too Yumm! Sour Cream and Onion Veggie Stix (35 g), evidenced by purchases on 2 independent dates in February 2026.",
+      "claim_text": "The user has demonstrated a stable preference for Too Yumm! Sour Cream and Onion Veggie Stix (35 g), with orders on 2 independent dates in February 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two orders in February 2026. While the repetition supports a stable preference for the specific product, the limited sample size (2 dates) caps confidence at medium. No other savoury namkeen products were observed, so no comparative trends or alternative stable preferences can be established.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the brand and specific product variant show stable preference across two dates, the timing varies between morning and afternoon on weekdays. This suggests the user buys this item for flexible snacking needs rather than adhering to a strict daily schedule or specific time-of-day routine.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-24",
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-27T09:25:34"
+  }
 }

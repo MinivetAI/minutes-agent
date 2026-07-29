@@ -1,26 +1,52 @@
 {
-  "category": "Sugar",
-  "profile_text": "The user purchases sugar for household sweetening and beverage preparation. Evidence shows a slow replenishment cycle with purchases spanning multiple months, but no single brand or product variant has been repeated on independent dates to establish a stable preference. Purchases have included both 1 kg and 100 g packs from different brands.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sugar",
+  "summary_text": "The user has purchased sugar on three independent dates across April, May, and June 2026. Evidence includes one order of Fortune Sugar (1 kg) in April and two orders of Nanihaal Mishri Dana Sugar (100 g) in May and June. The user shows a preference for the Nanihaal brand in small 100 g packs, observed on two independent dates, while Fortune Sugar was observed once. Purchases occurred in the afternoon and morning dayparts.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Nanihaal",
+        "preference_text": "Nanihaal is the preferred brand for small-format sugar, evidenced by purchases on two independent dates (May and June 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Nanihaal brand and does not extend to other sugar brands such as Fortune."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Mishri Dana",
+        "preference_text": "Mishri Dana sugar is the observed variant, purchased twice in May and June 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "100 g",
+        "preference_text": "The 100 g pack size is the preferred format, observed on two independent dates (May and June 2026).",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "Purchases of Nanihaal Mishri Dana Sugar (100 g) occurred in the morning on two independent dates (May and June 2026).",
+      "confidence": "medium"
+    }
+  ],
+  "substitution_text": "Fortune Sugar (1 kg) was purchased once in April, indicating it is an acceptable alternative, though the user has shown repeated preference for Nanihaal in smaller formats. No evidence suggests a strong aversion to either brand.",
+  "uncertainty_text": "It is not established whether the user requires sugar for daily cooking, tea/coffee preparation, or specific occasions. The 1 kg Fortune Sugar order in April may indicate a need for larger bulk quantities occasionally, but this is not yet a repeated pattern. The user's long-term brand loyalty and pack size preference remain to be confirmed beyond the current three-month window.",
+  "retrieval_text": "User purchased Nanihaal Mishri Dana Sugar 100 g on two independent dates in May and June 2026, establishing a medium-confidence preference for this brand and small pack size, typically bought in the morning. A single order of Fortune Sugar 1 kg in April 2026 indicates occasional use of larger formats or alternative brands, but Nanihaal is the repeated choice. Morning daypart is the consistent timing for the preferred small-format purchases.",
   "replenishment": {
     "cadence_days": 40.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-26",
     "predicted_next_purchase_date": "2026-08-05",
-    "replenishment_text": "The user typically replenishes this category approximately every 40 days, classified as a slow cycle. The last purchase was on 2026-06-26, with the next expected around 2026-08-05.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Sugar is reordered roughly every 40 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably results in completed purchases, as evidenced by three distinct transactions across April, May, and June 2026.",
-  "substitution_text": "No evidence of brand or product substitution patterns; purchases vary by brand and pack size without a consistent replacement pattern.",
-  "price_value_text": "No evidence of specific price sensitivity or value-seeking behavior; purchases include both bulk (1 kg) and small (100 g) formats.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. The user buys sugar but does not show a stable preference for a specific brand or format.",
-  "mission_generation_text": "Restocking household sweeteners for daily cooking and beverage preparation.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-06-26T06:49:22"
+  }
 }

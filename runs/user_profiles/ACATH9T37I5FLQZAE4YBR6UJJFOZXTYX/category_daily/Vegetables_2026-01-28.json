@@ -1,9 +1,23 @@
 {
   "date": "2026-01-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-28 (weekday), a single order of fresh vegetables was placed in the afternoon. The basket contained one unbranded onion (400–450 g) and one unbranded baby potato (280–320 g). This afternoon placement aligns with a period of below-baseline activity for this user (25.26% share vs. 32.46% population morning baseline). The items are standard fresh produce staples typically used for immediate meal preparation. This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-01-28 (weekday), the user placed one order of vegetables in the afternoon, a timing consistent with the population baseline (afternoon share 0.2526). The basket contained one unit each of Unbranded Onion (400–450 g) and Unbranded Baby Potato (280–320 g). These are fresh, unbranded cooking staples typically used for immediate meal preparation. This is a single observation from one date; it is not yet established whether this represents a stable preference for these specific items, brands, or timing.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of vegetables placed on a weekday afternoon, containing one unit each of Unbranded Onion (400–450 g) and Unbranded Baby Potato (280–320 g).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable preference for these specific items, brands, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-28"
+    ],
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-01-28T12:24:24"
+  }
 }

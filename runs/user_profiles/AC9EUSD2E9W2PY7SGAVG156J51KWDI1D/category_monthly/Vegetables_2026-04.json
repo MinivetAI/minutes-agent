@@ -1,14 +1,23 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased fresh vegetables on two independent dates (2026-04-26 and 2026-04-27). The orders included unbranded fresh onions, fresh curry leaves, and fresh potatoes. No single brand or product variant recurred across these dates; each item was purchased only once. Consequently, no stable preference claims can be established for specific products or brands. The user demonstrated a pattern of purchasing fresh, unbranded culinary staples across both weekday and weekend dayparts (morning and evening).",
+  "summary_text": "In April 2026, the user placed two independent orders in the Vegetables category. On 2026-04-26 (weekend evening), the user ordered Onion 1 kg (Unbranded). On 2026-04-27 (weekday morning), the user ordered fresh curry leaves and fresh new-crop potatoes. The user exhibits a pattern of ordering vegetables across both weekdays and weekends, and across morning and evening dayparts, though no single product or brand recurs across multiple dates. The timing of orders aligns with population baselines for both morning (32.46%) and evening (30.27%) shopping moments.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased fresh vegetables on two independent dates in April 2026, indicating consistent engagement with this category over the month.",
-      "confidence": "medium"
+      "claim_text": "The user ordered vegetables on two independent dates in April 2026, spanning both weekday and weekend periods.",
+      "confidence": "low"
     }
   ],
-  "uncertainty_text": "No specific brand or product variant was purchased more than once, so stable preferences for individual items cannot be determined. The observed purchases may reflect general meal preparation needs rather than specific brand loyalty.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "Evidence is limited to two independent dates. No single product, brand, or variant appears on more than one date, preventing the establishment of stable product preferences. Daypart and day-type patterns are observed but based on a small sample size.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-26",
+      "2026-04-27"
+    ],
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-27T08:10:36"
+  }
 }

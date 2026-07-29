@@ -1,40 +1,27 @@
 {
-  "category": "Dips Sauces Pastes",
-  "profile_text": "In March 2026, the user purchased one 1.1 kg pack of Kissan Fresh Tomato Ketchup on a weekend afternoon. This large-format condiment is typically used for dipping, spreading, or as an accompaniment to meals and snacks. The order occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "brand_preferences": [
-    {
-      "brand": "Kissan",
-      "preference_text": "Kissan was observed in one transaction in March 2026. This single observation does not establish a stable preference or routine.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Kissan Fresh Tomato Ketchup (1.1 kg pack) was purchased once on a weekend afternoon in March 2026. This single observation does not establish a stable preference or routine.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Dips Sauces Pastes",
+  "summary_text": "In March 2026, one order of Kissan Fresh Tomato Ketchup 1.1 kg was placed on a weekend afternoon. With only one observed order on a single date, it is not possible to establish stable brand preferences, routine purchasing patterns, or specific usage occasions; the timing may be coincidental rather than indicative of a habitual afternoon shopping window.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available from the single observed order.",
+  "uncertainty_text": "Preference boundaries are unknown due to a single observation. It is not possible to establish stable brand preferences, routine purchasing patterns, or specific usage occasions. The timing may be coincidental rather than indicative of a habitual afternoon shopping window.",
+  "retrieval_text": "One observed order in March 2026 for Kissan Fresh Tomato Ketchup 1.1 kg, purchased on a weekend afternoon. This single data point is insufficient to establish stable brand preferences, routine purchasing patterns, or specific usage occasions, and the timing may be coincidental.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-21",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict a next purchase date.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for DipsSaucesPastes yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Supports meal accompaniment, dipping, and snacking needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

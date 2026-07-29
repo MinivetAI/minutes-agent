@@ -1,15 +1,23 @@
 {
   "date": "2026-03-21",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-21 (weekend), the user purchased 1 unit of Fortune Suji 500 g (semolina/sooji) in the afternoon. This afternoon order aligns with a small-pack staple flour use case, potentially for immediate cooking needs such as breakfast, snacks, or dessert prep. The afternoon timing is less common for this user compared to the population baseline (25.26% share vs. 32.46% for morning). This is a single observed order and does not establish a stable preference or routine for this category.",
+  "summary_text": "On this weekend, the user ordered Fortune Suji 500 g during the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases of this category, though it aligns with the afternoon share (0.2526). The product is a small-pack staple flour suitable for immediate cooking needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Fortune brand or a one-time need for this specific item.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 1 unit of Fortune Suji 500 g (semolina/sooji) during the afternoon on a weekend. The afternoon timing is less common for this user compared to the population baseline (25.26% share vs. 32.46% for morning).",
+      "pattern_text": "One order of Fortune Suji 500 g. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases of this category, though it aligns with the afternoon share (0.2526). The product is a small-pack staple flour suitable for immediate cooking needs.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Fortune brand or a one-time need for this specific item.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

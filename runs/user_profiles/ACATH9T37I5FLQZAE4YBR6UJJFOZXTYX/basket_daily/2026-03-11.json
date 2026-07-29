@@ -1,7 +1,7 @@
 {
   "date": "2026-03-11",
   "day_type": "weekday",
-  "summary_text": "A single order placed on 2026-03-11 during the night on a weekday. The basket contains six items across six distinct categories: Lotion Cream, Pasta, Noodles, Milk, Vegetables, and Oats. The order-building behavior shows a mix of staple food items (Pasta, Noodles, Milk, Oats) and fresh produce (Vegetables), alongside a personal care item (Lotion Cream). The shopping_need_text describes a need compatible with the basket, such as stocking up on basic meal ingredients and fresh produce for the coming days, but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "summary_text": "On 2026-03-11 (weekday), a single order was placed during the night daypart. The basket included items from six categories: Lotion Cream, Pasta, Noodles, Milk, Vegetables, and Oats. This combination of staple foods (Pasta, Noodles, Milk, Oats) with fresh produce (Vegetables) and a personal care item (Lotion Cream) is compatible with a general household restock need. The co-occurrence of Milk and Vegetables in this order is supported by historical evidence.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were purchased together in this order. Historical data shows these categories co-occur with a support of 0.525, confidence of 0.97, and lift of 1.038.",
       "support": 0.525,
-      "lift": null,
-      "confidence": "high"
+      "lift": 1.038,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking on basic meal ingredients and fresh produce.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Restocking household staples and fresh produce.",
+  "uncertainty_text": "This is a single observation from one date; durable preferences or routine behaviors cannot be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-11"
+    ],
+    "first_seen_at": "2026-03-11T22:39:02",
+    "last_seen_at": "2026-03-11T22:39:02"
+  }
 }

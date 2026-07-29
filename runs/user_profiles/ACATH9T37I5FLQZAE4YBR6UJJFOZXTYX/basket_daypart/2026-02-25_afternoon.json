@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-02-25 in the afternoon on a weekday. The basket contains 2 units of Milk, 1 unit of Ghee, and 4 units of Vegetables. The order-building behavior shows a combination of dairy staples and fresh produce. The `shopping_need_text` compatible with this basket is basic meal preparation or household provisioning involving dairy and vegetables.",
+  "basket_summary_text": "A single order placed on 2026-02-25 in the afternoon on a weekday. The basket contains one unit of Ghee, two units of Milk, and four units of Vegetables. This combination of Milk and Vegetables is supported by category pair evidence with a support of 0.525, confidence of 0.97, and lift of 1.038. The order suggests a need for basic meal ingredients or fresh produce staples.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,11 +12,44 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Ghee",
+        "Milk"
+      ],
+      "combination_text": "Ghee and Milk were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Ghee",
+        "Vegetables"
+      ],
+      "combination_text": "Ghee and Vegetables were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic meal preparation or household provisioning involving dairy and vegetables.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for fresh produce and dairy staples, potentially for cooking or daily consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'routine' or 'preference' cannot be established from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-25"
+    ],
+    "first_seen_at": "2026-02-25T12:59:38",
+    "last_seen_at": "2026-02-25T12:59:38"
+  }
 }

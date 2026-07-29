@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 200 ml bottle of Pilgrim Australian Tea Tree Hair Shampoo, an anti-dandruff cleansing product.",
+  "summary_text": "One unit of Pilgrim Australian Tea Tree Hair Shampoo (200 ml) was purchased on 2026-04-09.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when this user's activity is less frequent than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a routine-use hair care item, suggesting a restock or replacement need for scalp care.",
-  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, slightly below the morning share (32.46%) but comparable to the evening share (30.27%). The product is a routine-use cleansing item for dandruff and scalp care, suggesting a restocking need for personal hygiene.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, has a recurring purchase cadence, or if this was an isolated purchase. No stable brand or product preferences can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T14:22:40",
+    "last_seen_at": "2026-04-09T14:22:40"
+  }
 }

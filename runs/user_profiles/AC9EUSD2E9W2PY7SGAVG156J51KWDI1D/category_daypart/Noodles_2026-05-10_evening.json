@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "One order of Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) was placed during the evening on a weekend. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One order of Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) on 2026-05-10.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity is slightly below the population baseline (0.3027). The product is an instant noodle pack positioned as a quick, hot meal or snack fix, suitable for late-evening hunger or when time for full meal preparation is limited.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, a time that aligns with the population baseline share of 0.3027 for this daypart. The product is an instant noodle pack, generally used for quick, hot meals or snacks when time is short or cooking facilities are limited.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-10"
+    ],
+    "first_seen_at": "2026-05-10T19:01:33",
+    "last_seen_at": "2026-05-10T19:01:33"
+  }
 }

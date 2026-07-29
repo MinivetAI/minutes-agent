@@ -1,15 +1,23 @@
 {
   "date": "2026-05-19",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-19 (weekday), a single order of Too Yumm! Lightly Salted Chips (50 g) was placed in the afternoon. This single-serve, lightly salted potato chip pack is suitable for a quick, individual snack. This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "summary_text": "On 2026-05-19 (weekday), the user ordered Too Yumm! Lightly Salted Chips (50 g) in the afternoon. This single-serve snack pack is suited for quick, individual consumption. The afternoon timing aligns with population baselines, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as it is based on only one order.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Too Yumm! Lightly Salted Chips (50 g) in the afternoon. The product is a single-serve, lightly salted potato chip pack, suitable for a quick, individual snack.",
+      "pattern_text": "One order of Too Yumm! Lightly Salted Chips (50 g) on 2026-05-19 in the afternoon. This single-serve snack pack is suited for quick, individual consumption. The afternoon timing aligns with population baselines, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as it is based on only one order.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as it is based on only one order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-19T13:19:43",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

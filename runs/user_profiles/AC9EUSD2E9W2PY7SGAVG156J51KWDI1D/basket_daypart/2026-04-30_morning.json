@@ -1,22 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-30 (morning, weekday) included 5 units of Chocolates (3 + 2), 1 unit of Fruit Drinks, 1 unit of Milk, and 1 unit of Chips. The basket breadth covers four categories: Chocolates, Fruit Drinks, Milk, and Chips. The order-building behavior shows a mix of snack items (Chocolates, Chips, Fruit Drinks) and a staple dairy item (Milk). No abandoned carts were recorded.",
+  "basket_summary_text": "A single order placed on 2026-04-30 in the morning on a weekday. The basket contains 8 total units across 5 distinct products: 3 units of Chocolates (CHCGDHM54BGBYTAH), 2 units of Chocolates (CHCHDHZNYDSGBGBG), 1 unit of Fruit Drinks (DAJGT5ZWH3GPV5MD), 1 unit of Milk (MLKHFR86BF77KGXZ), and 1 unit of Chips (CHPGNQZZWNVEQGHG). The order combines snack items (Chocolates, Chips) with a beverage (Fruit Drinks) and a dairy staple (Milk). This specific combination of Chocolates and Milk is supported by category pair evidence showing a lift of 1.437.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Chocolates",
-        "Milk"
-      ],
-      "combination_text": "Chocolates and Milk were purchased together in this order.",
-      "support": 0.1,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for immediate snacking or a light breakfast, combining sweet treats and dairy.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "A morning snack or light breakfast combination including sweet treats and a drink.",
+  "uncertainty_text": "This is a single observation on one independent date. No durable preference or routine can be inferred from this order alone. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T08:01:42",
+    "last_seen_at": "2026-04-30T08:01:42"
+  }
 }

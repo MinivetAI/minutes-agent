@@ -1,15 +1,23 @@
 {
   "date": "2026-07-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-09 (weekday), the user purchased unbranded fresh bottle gourd (400–600 g) and unbranded fresh onions (1.95–2.05 kg) during an evening shopping session. This timing aligns with the population baseline where evening accounts for 30.27% of activity. The items represent staple fresh produce, with the onion pack serving as a bulk kitchen base. This is a single observed order on one date; it does not establish a durable preference or routine for these specific vegetables or this timing.",
+  "summary_text": "On 2026-07-09 (weekday), one order of fresh vegetables was placed in the evening, containing one unit of Bottle Gourd (400–600 g) and one unit of Onions (1.95–2.05 kg). The timing aligns with the population baseline share of 0.3027 for evening orders. These items are fresh produce staples typically used for immediate meal preparation, such as cooking a vegetable dish or using onions as a base ingredient. This is a single observation from one date, so it is not yet possible to establish stable preferences, recurring routines, or specific brand loyalty. The timing suggests an evening meal preparation need, but the specific culinary intent is not confirmed.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased unbranded fresh bottle gourd (400–600 g) and unbranded fresh onions (1.95–2.05 kg) during an evening weekday session. This timing aligns with the population baseline where evening accounts for 30.27% of activity.",
+      "pattern_text": "One order of fresh vegetables placed on a weekday evening, containing one unit of Bottle Gourd (400–600 g) and one unit of Onions (1.95–2.05 kg). The timing aligns with the population baseline share of 0.3027 for this daypart. The items are fresh produce staples typically used for immediate meal preparation, such as cooking a vegetable dish or using onions as a base ingredient. This is a single observation from one date, so it is not yet possible to establish stable preferences, recurring routines, or specific brand loyalty. The timing suggests an evening meal preparation need, but the specific culinary intent is not confirmed.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine for these specific vegetables or this timing.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date, so it is not yet possible to establish stable preferences, recurring routines, or specific brand loyalty. The timing suggests an evening meal preparation need, but the specific culinary intent is not confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T18:10:11",
+    "last_seen_at": "2026-07-09T18:10:11"
+  }
 }

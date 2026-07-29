@@ -1,23 +1,33 @@
 {
   "date": "2026-02-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-28 (weekend), a single order was placed in the morning. The basket contained Breads (2 units), Handwash (1 unit), and Butter Margarine (1 unit). The user may be preparing breakfast items or basic household supplies. This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. Confidence is low.",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket included Breads, Handwash, and Butter Margarine, reflecting a basic household replenishment need that combines a staple food item with a hygiene product and a dairy spread. No other categories were purchased in this specific transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Breads",
-        "ButterMargarine"
+        "Handwash",
+        "Butter Margarine"
       ],
-      "combination_text": "Breads and Butter Margarine were purchased together in this order.",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "low"
+      "combination_text": "Breads, Handwash, and Butter Margarine",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing breakfast items or basic household supplies.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. Confidence is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Routine household replenishment of breakfast staples and personal hygiene items.",
+  "uncertainty_text": "This behavior is based on a single observed order on one independent date. It is an isolated observation and does not establish a durable preference or routine. Confidence in any inferred pattern is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

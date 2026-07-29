@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Fresh Orange Marigold Flowers (100 g), an unbranded loose-cut flower SKU. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "summary_text": "One order of Fresh Orange Marigold Flowers (100 g) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when the user's activity (0.3246 share) is above the population baseline for this daypart. The product is a fresh-cut flower typically used for immediate ritual purposes, temple offerings, or festive decoration.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or a last-minute need. With only one observed order, it is not possible to establish a stable preference for this specific flower type or brand (unbranded).",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where 32.46% of activity is observed. The product is a fresh-cut flower typically used for immediate ritual needs, such as temple offerings or festive decoration.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was for a specific one-time event or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T09:10:05",
+    "last_seen_at": "2026-03-16T09:10:05"
+  }
 }

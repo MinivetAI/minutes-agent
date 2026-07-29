@@ -1,15 +1,23 @@
 {
   "date": "2026-03-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-30 (weekday), the user purchased 1 unit of Britannia Breakfast Slice White Bread 450 g during the morning. This purchase aligns with a population morning share of 0.3246 and suggests a need for immediate meal continuity or convenience for breakfast or sandwiches. This is a single observed order; durable preferences or habitual buying patterns cannot be established from this isolated event.",
+  "summary_text": "On 2026-03-30 (weekday), the user ordered Britannia Breakfast Slice White Bread 450 g in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Britannia Breakfast Slice White Bread 450 g. This timing aligns with a population morning share of 0.3246, suggesting a need for immediate meal continuity or convenience.",
+      "pattern_text": "One order of Britannia Breakfast Slice White Bread 450 g. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

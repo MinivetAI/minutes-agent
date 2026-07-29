@@ -1,40 +1,27 @@
 {
-  "category": "Pasta",
-  "profile_text": "In May 2026, the user purchased dry pasta products on one observed date (2026-05-27). The order included one 400 g pack of Flipkart Supermart Fusilli and one 400 g pack of Flipkart Supermart Penne. This single order aligns with the population baseline for evening activity (30.27% share). As this is a single observed order on one date, it does not establish a durable brand preference for Flipkart Supermart or a specific shape preference for fusilli or penne over other pasta types. It is unclear if this represents a routine pantry restock or a one-off meal preparation.",
-  "brand_preferences": [
-    {
-      "brand": "Flipkart Supermart",
-      "preference_text": "Purchased on one observed date (2026-05-27).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Purchased one 400 g pack of Flipkart Supermart Fusilli and one 400 g pack of Flipkart Supermart Penne on one observed date (2026-05-27).",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Pasta",
+  "summary_text": "In May 2026, the user ordered pasta products on one date (2026-05-27). The order included Flipkart Supermart Fusilli Pasta (400 g) and Flipkart Supermart Penne Pasta (400 g) in the evening. This timing aligns with the population baseline for evening purchases (30.27%). As this is a single observation, it does not establish a stable preference for the brand, specific pasta shapes, or evening timing. It is unclear if this represents a routine habit or a one-time need.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation from one date, so it does not establish a stable preference for the brand, specific pasta shapes, or evening timing. It is unclear if this represents a routine habit or a one-time need.",
+  "retrieval_text": "User purchased Flipkart Supermart Fusilli Pasta (400 g) and Flipkart Supermart Penne Pasta (400 g) in a single order on 2026-05-27 during the evening, a timing consistent with population baselines but not yet indicative of a personal routine.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-27",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-05-27. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Pasta yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports meal preparation needs involving dry pasta shapes.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-27T19:04:20",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

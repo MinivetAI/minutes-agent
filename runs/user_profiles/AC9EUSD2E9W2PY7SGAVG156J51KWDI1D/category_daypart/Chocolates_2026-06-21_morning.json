@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Nestl\u00e9 Milkybar 22.5 g, a small milk chocolate bar suited for immediate snacking or a quick sweet fix.",
+  "summary_text": "One order of Nestlé Milkybar (22.5 g) in the Chocolates category.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekend morning, a time when morning activity is above the population baseline (32.46%). The product is a compact, impulse-friendly item typically used for immediate consumption or small treats.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity. The product is a small, single-serve milk chocolate bar suited for immediate snacking or a quick sweet treat.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to establish stable brand preferences, recurring daypart habits, or durable product preferences. The specific reason for this purchase (e.g., immediate craving vs. gifting) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-21T09:39:45",
+    "last_seen_at": "2026-06-21T09:39:45"
+  }
 }

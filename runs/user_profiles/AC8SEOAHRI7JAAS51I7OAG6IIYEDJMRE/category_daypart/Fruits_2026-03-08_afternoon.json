@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Green Kiwi (unbranded fresh fruit) during the afternoon on a weekend.",
+  "summary_text": "One Green Kiwi (Unbranded) was purchased on 2026-03-08.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a fresh fruit item suitable for immediate consumption or use in meals.",
-  "uncertainty_text": "This is a single observed order; no durable brand or product preferences can be established. It is unknown if this was a one-time purchase or part of a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares. The product is a fresh fruit suitable for immediate consumption or use in meals.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for green kiwis, a specific brand (none was supplied), or a one-time purchase. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-08"
+    ],
+    "first_seen_at": "2026-03-08T11:29:06",
+    "last_seen_at": "2026-03-08T11:29:06"
+  }
 }

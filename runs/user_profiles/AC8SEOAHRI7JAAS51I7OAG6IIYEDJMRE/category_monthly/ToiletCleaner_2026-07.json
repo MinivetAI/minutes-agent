@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "On 2026-07-05 (weekend), the user purchased one 2 x 1 L pack of Flipkart Supermart Toilet Cleaner Lavender Liquid in the afternoon. This single order indicates a concrete need for bathroom hygiene maintenance or immediate replacement at that time. The afternoon timing aligns with a period where population share is lower than morning or evening peaks. Due to the single observation, durable brand or scent preferences and recurring maintenance routines cannot be established.",
+  "summary_text": "In July 2026, the user placed one order for a toilet cleaner. The purchase was a Flipkart Supermart Toilet Cleaner Lavender Liquid (2 x 1 L pack), bought on a weekend afternoon. This single observation indicates a need for bathroom hygiene maintenance or a value-oriented refill but does not establish a stable brand preference or recurring pattern.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Cannot establish durable brand or scent preferences from a single order. Cannot determine if this was a one-time replacement or part of a recurring maintenance routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so it is not yet possible to establish a stable brand preference, regular cadence, or specific usage occasion beyond the immediate need for toilet cleaning supplies.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T11:24:33",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

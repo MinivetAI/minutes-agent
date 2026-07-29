@@ -1,53 +1,40 @@
 {
-  "profile_text": "The user\u2019s shopping behavior is characterized by sporadic, ad-hoc purchases across a wide variety of categories, with no durable routines or stable preferences established across the observed period. While certain category pairs\u2014specifically Breads with Curd Yogurt, Curd Yogurt with Vegetables, Curd Yogurt with Milk, and Breads with Vegetables\u2014appear repeatedly in April 2026, these combinations do not persist into subsequent months (May\u2013July 2026), where basket composition becomes highly variable and isolated. In May 2026, items like Aerated Drinks, Milk, and Cookies Biscuits appear frequently but are paired with different categories each time, indicating no stable co-occurrence. The user\u2019s basket breadth ranges from narrow, single-purpose purchases (e.g., Ice Creams, Toothbrush, specific cleaning supplies) to broader meal-prep baskets including dairy, bakery, fresh produce, and pantry staples. Daypart activity is distributed across morning, afternoon, evening, and night, with no consistent timing pattern. The user demonstrates a need for basic meal components, household maintenance items, and occasional indulgences, but the specific combination of needs varies significantly by date.",
-  "behavior_patterns": [],
-  "daypart_behavior": [],
-  "basket_structure_text": "Baskets are typically narrow, often containing 1\u20135 distinct items, though occasional multi-category baskets appear. There is no consistent basket size or structure. Purchases span dairy (Milk, Curd Yogurt, Cheese, Paneer Tofu), bakery (Breads, Rusks), fresh produce (Vegetables, Fruits), pantry staples (Canned Food, Spices, Rice, Flour), snacks (Chips, Cookies, Savouries), beverages (Aerated Drinks), and household/personal care items (Cleaning supplies, Toothbrush).",
-  "circumstance_patterns": [],
-  "category_combination_patterns": [
+  "summary_text": "The user’s basket profile is defined by a single stable, medium-confidence category combination: Curd Yogurt paired with Vegetables, observed across 2026-01 and 2026-04. While other categories like Breads, Milk, and Curd Yogurt appear frequently, they are paired with varying companions, preventing the establishment of broader stable routines. The user shops across all dayparts and days of the week with no dominant timing pattern. Basket size and quantity tendencies are indeterminate due to the lack of repeated structural patterns.",
+  "basket_relationships": [
     {
-      "categories": [
-        "Breads",
-        "Curd Yogurt"
-      ],
-      "combination_text": "Breads and Curd Yogurt are purchased together in multiple independent orders.",
-      "support": 7.0,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
+      "anchor_products": [],
+      "companion_products": [],
       "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables are purchased together in multiple independent orders.",
-      "support": 4.0,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk are purchased together in multiple independent orders.",
-      "support": 3.0,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables are purchased together in multiple independent orders.",
-      "support": 3.0,
-      "lift": null,
-      "confidence": "low"
+      "relationship_text": "Curd Yogurt and Vegetables are purchased together in the same order.",
+      "recommendation_use_text": "When a user adds Curd Yogurt, suggest Vegetables, and vice versa.",
+      "boundary_text": "This relationship does not imply that every purchase of Curd Yogurt includes Vegetables, or that every purchase of Vegetables includes Curd Yogurt.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 5,
+        "independent_date_count": 5,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
     }
   ],
-  "abandonment_patterns": [],
-  "mission_generation_text": "The user requires basic meal components including dairy, bakery items, and fresh produce, along with occasional household supplies and snacks. Specific needs vary by date, ranging from breakfast preparation to general pantry replenishment and light refreshments.",
-  "uncertainty_text": "Analysis is based on 17 orders across 15 independent dates in March 2026, 14 independent orders in April 2026, 8 in May 2026, 3 in June 2026, and 4 in July 2026. While category pairs such as Breads/Curd Yogurt and Curd Yogurt/Vegetables appear repeatedly in April 2026, they do not repeat in subsequent months, preventing the establishment of a stable, long-term routine. In May 2026, frequent purchases of Aerated Drinks, Milk, and Cookies Biscuits lack consistent pairing, indicating isolated needs rather than stable preferences. No abandonment patterns were repeated across independent dates. The overall confidence is low because stable patterns are limited to a single month and do not persist across the broader observation window.",
-  "overall_confidence": "low"
+  "value_text": "No premium or value basket behavior is established. The user’s purchases span basic staples (Breads, Milk, Curd Yogurt, Vegetables) and occasional treats (Ice Creams, Aerated Drinks, Cookies Biscuits), but no consistent high-value or budget-constrained pattern is supported by repeated evidence.",
+  "basket_size_segment": "medium",
+  "large_basket_tendency": "low",
+  "multi_quantity_tendency": "low",
+  "daypart_understanding": [],
+  "day_type_understanding": [],
+  "uncertainty_text": "Basket size, large basket tendency, and multi-quantity tendency are unknown due to the lack of repeated structural patterns. No stable daypart or day-type routine is established. Specific product preferences and brand loyalties are unknown as no single product variant repeats with consistent companions across multiple dates.",
+  "retrieval_text": "The user exhibits a stable medium-confidence preference for purchasing Curd Yogurt and Vegetables together, a combination observed across multiple independent dates in January and April 2026. This pairing suggests a need for fresh meal components or light snack preparation. While the user frequently purchases Breads, Milk, and Curd Yogurt individually, these items are paired with varying categories (e.g., Breads with Cheese, Milk with Canned Food), indicating flexible meal preparation needs rather than fixed routines. The user shops across all dayparts (morning, afternoon, evening, night) and both weekdays and weekends, with no dominant timing pattern. Occasional purchases of household cleaning items and treats like Ice Creams and Aerated Drinks are observed but do not form stable patterns.",
+  "evidence": {
+    "evidence_count": 70,
+    "independent_date_count": 59,
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-07-13T18:04:49"
+  },
+  "user_id": "AC8SEOAHRI7JAAS51I7OAG6IIYEDJMRE",
+  "artifact_type": "basket_profile",
+  "updated_at": "2026-07-29T05:20:23.720525"
 }

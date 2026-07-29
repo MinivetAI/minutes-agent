@@ -1,9 +1,17 @@
 {
   "date": "2026-05-03",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-03 (weekend), the user purchased 4 units of Coca-Cola Diet Coke Can 300 ml in the afternoon. This is a single-serve carbonated soft drink, typically used for immediate refreshment or as a quick beverage add-on. The order occurred during the afternoon, a time when the population share is 0.2526. This is a single observed order; durable brand or flavor preferences cannot be established from this window alone.",
+  "summary_text": "On this weekend, the user purchased one order of 4 units of Coca-Cola Diet Coke Can 300 ml during the afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a single-serve carbonated beverage, typically associated with immediate refreshment or snack pairing. This is a single observation from one date. It is not yet established whether this represents a stable preference for Diet Coke, the Coca-Cola brand, or weekend afternoon shopping habits. No other products or brands were observed in this window.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this window alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for Diet Coke, the Coca-Cola brand, or weekend afternoon shopping habits. No other products or brands were observed in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-03"
+    ],
+    "first_seen_at": "2026-05-03T15:13:52",
+    "last_seen_at": "2026-05-03T15:13:52"
+  }
 }

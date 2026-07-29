@@ -1,27 +1,11 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Fortune white sugar (1 kg pack) on two independent dates (2026-03-17 and 2026-03-31), both occurring on weekdays during the afternoon. The recurrence of this specific brand and product across two independent dates establishes a stable preference for Fortune white sugar. The afternoon timing on weekdays is consistent across both observations, though it represents a lower share of population activity compared to morning and evening periods. No other sugar brands or variants were observed in this month.",
+  "summary_text": "In March 2026, the user ordered Fortune Sugar 1 kg on two independent dates (2026-03-17 and 2026-03-31), both on weekdays in the afternoon. This repetition establishes a stable preference for the Fortune brand in the Sugar category. The afternoon timing aligns with the population afternoon share (0.2526) but is less common than the population morning share (0.3246). No other sugar brands or variants were observed this month.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Fortune",
-      "claim_text": "The user has a stable preference for Fortune sugar, evidenced by purchases on 2026-03-17 and 2026-03-31.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Fortune white sugar (1 kg pack)",
-      "claim_text": "The user consistently purchases Fortune white sugar in 1 kg packs, observed on 2026-03-17 and 2026-03-31.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "ordered_quantity",
-      "value": "1 pack",
-      "claim_text": "The user orders 1 pack of sugar per transaction, observed on 2026-03-17 and 2026-03-31.",
+      "claim_text": "The user has a stable preference for Fortune sugar, evidenced by orders on two independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -29,6 +13,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Confidence in stable preference is medium, based on two independent dates. No other sugar products were observed to suggest brand switching or variety seeking in this month.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two orders in March 2026. While the brand preference is stable within this month, the sample size is limited to a single month.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-17",
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-17T14:48:16",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

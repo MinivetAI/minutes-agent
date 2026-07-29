@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased 14 distinct fresh vegetable items in a single order on a weekend morning: Bottle Gourd, Onion, Cluster Beans, Methi Fenugreek Leaves, Carrot, Broad Beans, Fresh New Crop Potato, Baby Potato, Portion Pumpkin Cut, Spinach Leaves, Coriander Leaves, Sweet Potato, Green Capsicum, and Spring Onion.",
+  "summary_text": "One order of 14 unbranded fresh vegetable items (including bottle gourd, onions, cluster beans, methi, carrots, broad beans, potatoes, pumpkin, spinach, coriander, sweet potato, capsicum, and spring onion) purchased on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed during the morning daypart, which aligns with the population baseline share of 0.3246 for this time slot. The basket consists entirely of unbranded, fresh, loose-weight produce, indicating a focus on immediate meal preparation and ingredient replenishment rather than brand loyalty or long-term pantry stocking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference for this specific combination of vegetables or this shopping time. The high variety suggests a comprehensive restock or a specific multi-dish meal plan, but the underlying motivation (e.g., hosting, weekly prep, or specific recipe) cannot be determined from this single event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekend morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The basket consists entirely of fresh, unbranded produce, suggesting a utility-driven purchase for immediate meal preparation or household stock replenishment rather than brand loyalty or processed goods.",
+  "uncertainty_text": "With only one observed order, it is not possible to determine if this represents a stable preference for fresh vegetables, a specific cooking style, or a one-time large restock. No brand or product repetition exists to establish durable habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

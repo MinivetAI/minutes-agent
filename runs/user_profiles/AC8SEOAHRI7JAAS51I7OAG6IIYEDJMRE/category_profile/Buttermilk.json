@@ -1,32 +1,33 @@
 {
-  "category": "Buttermilk",
-  "profile_text": "The user has purchased buttermilk on two independent dates in March 2026, establishing a stable preference for probiotic buttermilk variants and afternoon consumption. No single brand or specific product variant has been repeated across multiple dates, so no durable brand or product preference is established. The user is open to different brands (Amul, Mother Dairy) and variants (Probiotic, Tadka) within the probiotic buttermilk segment. Purchases occur consistently in the afternoon, aligning with a pattern of ready-to-drink chilled dairy consumption, potentially as a light meal accompaniment or refreshment. Cadence is unknown based on the limited data.",
-  "brand_preferences": [],
-  "product_preferences": [
+  "category_name": "Buttermilk",
+  "summary_text": "In March 2026, the user purchased buttermilk on two independent dates: Amul Probiotic Buttermilk 440 ml on a weekday afternoon and Mother Dairy Probiotic Tadka Buttermilk 270 ml on a weekend afternoon. Both orders occurred in the afternoon, aligning with the population afternoon share (0.2526). As each brand and product variant appeared only once, no stable brand or product preference is established. The consistent afternoon timing across both dates supports a stable afternoon daypart pattern.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "preference_text": "The user purchased probiotic buttermilk variants on two independent dates (2026-03-03 and 2026-03-28). This repetition supports a stable preference for probiotic buttermilk variants.",
-      "examples": [],
+      "daypart": "afternoon",
+      "behavior_text": "Purchases consistently occur in the afternoon, aligning with the population afternoon share (0.2526).",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has purchased both Amul and Mother Dairy brands, as well as 440 ml and 270 ml variants, indicating flexibility between these specific options. However, with only two distinct observations, it is unclear if this flexibility extends to other brands (e.g., local dairies) or larger pack sizes.",
+  "uncertainty_text": "Evidence is limited to two independent orders for different brands and variants. No single brand or product has been repeated, so stable brand or product preferences cannot be confirmed. The afternoon timing is consistent across both dates.",
+  "retrieval_text": "User purchased buttermilk in the afternoon on two independent dates in March 2026, specifically Amul Probiotic Buttermilk 440 ml on a weekday and Mother Dairy Probiotic Tadka Buttermilk 270 ml on a weekend. Both purchases align with the population afternoon share (0.2526). No single brand or variant preference is established due to lack of repetition, but the user demonstrates acceptance of both Amul and Mother Dairy brands and both 440 ml and 270 ml pack sizes within the afternoon daypart.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-28",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-03-28. Cadence is unknown; no predicted next purchase date can be estimated.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Buttermilk yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in buttermilk reliably becomes a purchase, as evidenced by completed transactions on two independent dates.",
-  "substitution_text": "The user has purchased different brands (Amul, Mother Dairy) and variants (Probiotic, Tadka) without a single dominant preference, indicating openness to substitution within the probiotic buttermilk segment.",
-  "price_value_text": "No specific price or value behavior is evident from the limited data.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior is evident. The user has not established a preference for a specific brand or non-probiotic variant.",
-  "mission_generation_text": "Shopping for ready-to-drink chilled dairy beverages, specifically probiotic buttermilk, likely for immediate consumption or as a light accompaniment, typically purchased in the afternoon.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-03-03T13:11:36",
+    "last_seen_at": "2026-03-28T12:56:25"
+  }
 }

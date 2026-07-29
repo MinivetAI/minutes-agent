@@ -1,15 +1,23 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On the weekend of 2026-04-05, the user purchased one 450 g block of Jivana sugarcane jaggery and one 500 g pack of Organic Tattva organic jaggery powder during a morning session. This activity occurred in the morning, a time when this user's activity is above the population baseline (32.5%). The products are kitchen staples used for sweetening, cooking, or baking, suggesting a need to replenish or diversify pantry sweeteners. Confidence is low because this is a single observed order on one date; it is not yet clear if this represents a stable preference for jaggery or a one-time purchase.",
+  "summary_text": "On 2026-04-05 (weekend), one order of Jaggery products was placed in the morning, a timing consistent with the population baseline where morning accounts for 32.46% of activity. The order included 1 unit of Jivana Sugarcane Jaggery Block 450 g and 1 unit of Organic Tattva Jaggery Powder 500 g. These items are kitchen staples used for sweetening, cooking, or baking. This is a single observation on one date; it does not establish a stable preference for either brand (Jivana, Organic Tattva) or format (block vs. powder).",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 450 g block of Jivana sugarcane jaggery and one 500 g pack of Organic Tattva organic jaggery powder during a morning session on a weekend.",
+      "pattern_text": "One order of Jaggery products on 2026-04-05 (morning, weekend): 1 unit of Jivana Sugarcane Jaggery Block 450 g and 1 unit of Organic Tattva Jaggery Powder 500 g.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it is not yet clear if this represents a stable preference for jaggery or a one-time purchase.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for either brand (Jivana, Organic Tattva) or format (block vs. powder).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-04-05T10:50:30"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 1 kg pack of Aashirvaad Select Atta, a premium whole-wheat flour, during a weekday morning session.",
+  "summary_text": "One order of Aashirvaad Select Atta (1 kg) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline), suggesting a timing pattern consistent with general population norms. The product is a staple cooking ingredient used for preparing rotis.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this premium variant over standard flour (e.g., stockout, taste preference, or trial) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a daypart where this user's activity is below the population baseline (32.46%). The product is a 1 kg pack of premium whole-wheat flour, a size typically suited for trial purchases, smaller households, or short-term replenishment needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or pack size represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-08"
+    ],
+    "first_seen_at": "2026-06-08T09:51:39",
+    "last_seen_at": "2026-06-08T09:51:39"
+  }
 }

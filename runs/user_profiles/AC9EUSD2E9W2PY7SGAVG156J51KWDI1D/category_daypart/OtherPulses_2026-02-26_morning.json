@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Tata Sampann Yellow Moong Dal Split (500 g) was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One order of Tata Sampann Yellow Moong Dal Split (500 g) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when the user's activity (32.5% of population activity) is relatively high compared to night (12.0%). The product is a staple pulse used for everyday Indian cooking, suggesting a need for a quick, dependable base for a home-cooked meal or a pantry refill.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. No repeated orders or browsing patterns are observed, so no stable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where 32.46% of activity is observed. The product is a staple pulse suitable for everyday cooking and pantry replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a one-time need or part of a recurring pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One 7UP Soft Drink PET Bottle 750 ml was purchased. No other browsing or funnel events were recorded for this category in this window.",
+  "summary_text": "One order of 7UP Soft Drink PET Bottle 750 ml.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when morning activity is above the population baseline (32.46%). The product is a single-serve carbonated beverage suitable for immediate consumption or on-the-go use.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for aerated drinks in the morning.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered on a weekday morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a single-serve carbonated beverage suitable for immediate consumption.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for 7UP, aerated drinks, or morning purchases specifically.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

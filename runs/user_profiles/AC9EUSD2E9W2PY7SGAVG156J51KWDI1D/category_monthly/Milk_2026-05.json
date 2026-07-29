@@ -1,26 +1,45 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased fresh, small-format (500 ml) liquid milk across multiple dates, primarily during the morning daypart on weekdays. The user engaged with three distinct brands: Amul, Gokul, and Chitale. Amul appeared on three independent dates (May 4, May 7, May 13), establishing a stable preference with high confidence. Chitale appeared on three independent dates (May 18, May 22, May 29), also establishing a stable preference with high confidence. Gokul appeared on a single date (May 10) and is excluded from stable preference claims. The morning daypart is a stable pattern, supported by purchases on five independent dates (May 4, 7, 13, 18, 22, 29), with high confidence.",
+  "summary_text": "In May 2026, the user purchased milk across seven independent dates, primarily in the morning on weekdays. The Chitale Cow Milk 500 ml brand appeared on three independent dates (2026-05-18, 2026-05-22, 2026-05-29), meeting the repetition bar for stable preference. The Amul brand appeared on three independent dates (2026-05-04, 2026-05-07, 2026-05-10), also meeting the repetition bar. The Gokul brand appeared on one date (2026-05-10) and is excluded from stable claims. Morning purchases were frequent, while evening purchases occurred on two dates (2026-05-10, 2026-05-13).",
   "stable_preference_claims": [
     {
       "dimension": "brand",
-      "value": "Amul",
-      "claim_text": "The user has a stable preference for Amul milk, observed on three independent dates in May 2026 (May 4, May 7, May 13). Purchases included Amul Taaza Pasteurised Toned Milk and Amul Cow Milk, typically in the morning.",
-      "confidence": "high",
+      "value": "Chitale",
+      "claim_text": "The user has ordered Chitale Cow Milk 500 ml on three independent dates in May 2026 (2026-05-18, 2026-05-22, 2026-05-29). This repetition supports a stable preference for this brand at medium confidence.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "brand",
-      "value": "Chitale",
-      "claim_text": "The user has a stable preference for Chitale Cow Milk, observed on three independent dates in May 2026 (May 18, May 22, May 29). Purchases ranged from 2 to 3 units of the 500 ml pack.",
-      "confidence": "high",
+      "value": "Amul",
+      "claim_text": "The user has ordered Amul products (Amul Taaza Pasteurised Toned Milk or Amul Cow Milk) on three independent dates in May 2026 (2026-05-04, 2026-05-07, 2026-05-10). This repetition supports a stable preference for this brand at medium confidence.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "Gokul milk was purchased on a single date (May 10) and does not meet the threshold for stable preference. The user's specific reason for switching between Amul and Chitale is not established.",
-  "overall_confidence": "high"
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased milk in the morning on five independent dates (2026-05-04, 2026-05-07, 2026-05-18, 2026-05-22, 2026-05-29) and in the evening on two independent dates (2026-05-10, 2026-05-13). Morning activity aligns with the population baseline (32.46%), while evening activity aligns with the population baseline (30.27%).",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While Chitale and Amul show stable preference signals based on repetition across multiple dates, the user also purchased Gokul milk once. The specific product variants (Toned vs. Cow) and pack sizes (quantity 1-3) vary, indicating flexible purchasing behavior within the stable brand preferences.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 7,
+    "purchase_dates": [
+      "2026-05-04",
+      "2026-05-07",
+      "2026-05-10",
+      "2026-05-13",
+      "2026-05-18",
+      "2026-05-22",
+      "2026-05-29"
+    ],
+    "first_seen_at": "2026-05-04T09:36:25",
+    "last_seen_at": "2026-05-29T10:39:59"
+  }
 }

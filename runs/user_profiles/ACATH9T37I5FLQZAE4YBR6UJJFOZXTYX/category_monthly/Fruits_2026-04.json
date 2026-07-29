@@ -1,18 +1,32 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased fresh fruit on two independent dates. Sindhura mangoes (including the SUPERPLUM variant) were bought on both 2026-04-04 and 2026-04-14, establishing a stable preference. Watermelon Kiran was purchased only on 2026-04-14. Purchases occurred in the afternoon and evening, with no single daypart dominating the small sample size.",
+  "summary_text": "In April 2026, the user ordered fresh fruit items on two independent dates: Sindhura Mango on 2026-04-04 (weekend, afternoon) and a combination of SUPERPLUM Sindhura Mango and Watermelon Kiran on 2026-04-14 (weekday, evening). The brand/variety 'Sindhura Mango' appears on both dates, meeting the repetition bar for stable preference. The daypart pattern spans afternoon and evening across weekend and weekday, indicating no single dominant time-of-day preference, but rather flexibility in timing. No other fruit brands or variants recur.",
   "stable_preference_claims": [
     {
-      "dimension": "product",
-      "value": "Sindhura mangoes",
-      "claim_text": "The user has a stable preference for Sindhura mangoes, evidenced by purchases on 2026-04-04 and 2026-04-14.",
+      "dimension": "brand",
+      "value": "Sindhura Mango",
+      "claim_text": "The user has a stable preference for Sindhura Mango, observed on 2 independent dates (2026-04-04 and 2026-04-14).",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "The sample size is small (2 independent dates). While Sindhura mangoes show a stable pattern, the user's broader fruit preferences are not fully defined. Watermelon Kiran is a single-date observation and is excluded from stable claims.",
-  "overall_confidence": "medium"
+  "trend_claims": [
+    {
+      "claim_text": "The user's fruit purchasing timing varies between afternoon (weekend) and evening (weekday), with no single daypart dominating the observed history.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "Stable preference is established only for Sindhura Mango due to its appearance on two dates. Other items (Watermelon Kiran) and daypart patterns are based on single-date observations or mixed timing, limiting confidence in broader routine claims.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-04",
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-04T11:40:58",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

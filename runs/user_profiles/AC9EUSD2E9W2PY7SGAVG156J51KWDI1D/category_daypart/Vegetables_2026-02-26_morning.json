@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Coriander Leaves 100 g (Unbranded) in the morning on a weekday.",
+  "summary_text": "One order of 2 units of Coriander Leaves (100 g) on 2026-02-26.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh herb typically used for cooking or garnishing, suggesting a need for immediate culinary use.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this product or category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh herb typically used for cooking or garnishing, suggesting a need for immediate culinary use.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand (Unbranded), product, or timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

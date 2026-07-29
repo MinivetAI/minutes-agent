@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased one 20 g pack of Farmley Tangy Tomato Roasted Makhana during the evening on a weekday. This purchase aligns with the high population share for evening snacking (0.3027) in the Savouries Namkeens category. The product is a small, ready-to-eat roasted makhana pack suited for immediate, portioned snacking.",
+  "summary_text": "In April 2026, the user purchased one 20 g pack of Farmley Tangy Tomato Roasted Makhana on a single weekday in the evening. This timing aligns with the population baseline where evening accounts for 30.27% of activity. As this is the only recorded instance, it is not yet established whether this represents a recurring preference or an isolated purchase.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this specific brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T16:16:45",
+    "last_seen_at": "2026-04-08T16:16:45"
+  }
 }

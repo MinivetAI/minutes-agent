@@ -1,9 +1,23 @@
 {
   "date": "2026-06-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-10 (weekday), one order of Pampers Complete Skin Comfort Pant Diapers XL (56 Count) was placed in the afternoon. This product is a disposable diaper pant for older babies/toddlers, typically used for restocking, overnight coverage, or managing wetness/leaks. The order occurred in the afternoon, a time with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed order on one date; no durable brand or product preferences can be established. The specific reason for the purchase (e.g., stockout, travel, routine restock) is unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, a single order of Pampers Complete Skin Comfort Pant Diapers (XL, 56-count) was placed in the afternoon. This timing aligns with a population share of 0.2526, which is lower than the morning baseline of 0.3246. The product is a disposable diaper restock item, typically used for managing wetness, leaks, or skin irritation for a toddler. This is a single observation on one date; it is not yet established whether this brand, size, or timing represents a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Pampers Complete Skin Comfort Pant Diapers (XL, 56-count) placed on a weekday afternoon. This timing aligns with a population share of 0.2526, which is lower than the morning baseline of 0.3246. The product is a disposable diaper restock item, typically used for managing wetness, leaks, or skin irritation for a toddler. This is a single observation on one date; it is not yet established whether this brand, size, or timing represents a stable preference or routine.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established. The specific reason for the purchase (e.g., stockout, travel, routine restock) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand, size, or timing represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T15:41:36",
+    "last_seen_at": "2026-06-10T15:41:36"
+  }
 }

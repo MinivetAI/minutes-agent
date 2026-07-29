@@ -1,26 +1,27 @@
 {
-  "category": "Return Gift Accessory",
-  "profile_text": "On 2026-04-04 (weekend), the user purchased 1 pack of Vartanu Printed Party Bags (Multicolor, Pack of 2) in the morning. This disposable paper bag is used for presenting small gifts or favors, suggesting an immediate need for party or event packaging. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Return Gift Accessory",
+  "summary_text": "In April 2026, the user ordered one unit of Vartanu Printed Party Bag (Multicolor, Pack of 2) in the Return Gift Accessory category. The order occurred on a weekend morning, a timing that aligns with the population baseline where morning represents 32.46% of activity. The product is a paper party bag used for presenting small gifts or favors, suggesting an immediate need for celebratory packaging.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established; this is a single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or weekend morning shopping habit. No other orders are available to confirm repetition.",
+  "retrieval_text": "In April 2026, the user ordered one unit of Vartanu Printed Party Bag (Multicolor, Pack of 2) in the Return Gift Accessory category. The order occurred on a weekend morning, a timing that aligns with the population baseline where morning represents 32.46% of activity. The product is a paper party bag used for presenting small gifts or favors, suggesting an immediate need for celebratory packaging.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-04-04.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for ReturnGiftAccessory yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase when a specific event need arises, as evidenced by the completed transaction.",
-  "substitution_text": "No substitution behavior observed; single purchase of a specific branded item.",
-  "price_value_text": "No price sensitivity or value-seeking behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports immediate needs for packaging small gifts or favors for a party or event.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-04T08:10:57",
+    "last_seen_at": "2026-04-04T08:10:57"
+  }
 }

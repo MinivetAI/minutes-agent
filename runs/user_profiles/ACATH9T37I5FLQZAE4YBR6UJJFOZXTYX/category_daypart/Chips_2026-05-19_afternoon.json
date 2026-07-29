@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Too Yumm! Lightly Salted Chips (50 g) in the afternoon.",
+  "summary_text": "One order of Too Yumm! Lightly Salted Chips (50 g) on 2026-05-19 in the afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the afternoon on a weekday. The product is a single-serve, lightly salted potato chip pack, suitable for a quick, individual snack.",
-  "uncertainty_text": "This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a single-serve snack pack, generally suited for quick, individual consumption or desk snacking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as it is based on only one order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-19T13:19:43",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

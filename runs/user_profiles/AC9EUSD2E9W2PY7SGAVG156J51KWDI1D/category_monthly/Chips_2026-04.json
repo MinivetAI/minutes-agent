@@ -1,31 +1,27 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased CRAX Cheese Balls Puff Snacks on two independent dates (2026-04-07 and 2026-04-30). Beyond Snack Kerala Banana Peri Peri Chips were purchased on one date (2026-04-07).",
+  "summary_text": "In April 2026, the user ordered CRAX Cheese Balls Puff Snacks (65 g) on two independent dates (2026-04-07 and 2026-04-30). This repetition meets the threshold for a stable preference claim. The user also ordered Beyond Snack Kerala Banana Peri Peri Chips (70 g) on a single date (2026-04-07); this remains a single-date observation and is excluded from stable preference claims. Daypart patterns include one afternoon order and one morning order, both on weekdays, consistent with the population baseline where morning (0.3246) and afternoon (0.2526) shares are significant. No other stable brand or product routines are established for this category in this month.",
   "stable_preference_claims": [
     {
-      "dimension": "brand",
-      "value": "CRAX",
-      "claim_text": "The user purchased CRAX Cheese Balls Puff Snacks on two independent dates in April 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
       "dimension": "product",
-      "value": "CRAX Cheese Balls Puff Snacks",
-      "claim_text": "The user purchased CRAX Cheese Balls Puff Snacks on two independent dates in April 2026.",
+      "value": "CRAX Cheese Balls Puff Snacks (65 g)",
+      "claim_text": "The user has ordered CRAX Cheese Balls Puff Snacks (65 g) on two independent dates in April 2026, indicating a stable preference for this specific product.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Beyond Snack Kerala Banana Peri Peri Chips were purchased on a single date (2026-04-07) and do not meet the threshold for stable preference.",
-      "confidence": "low"
-    }
-  ],
-  "uncertainty_text": "This analysis is based on two independent orders in April 2026. While CRAX Cheese Balls show repetition across two dates, supporting a medium-confidence stable preference, the sample size is small. No other products or brands appeared on multiple dates.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "uncertainty_text": "The stable preference for CRAX Cheese Balls Puff Snacks is based on two orders. The Beyond Snack Kerala Banana Peri Peri Chips order is a single observation and does not indicate a stable preference. Daypart timing varies between morning and afternoon, preventing a single stable daypart claim.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-07",
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-30T08:01:42"
+  }
 }

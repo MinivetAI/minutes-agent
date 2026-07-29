@@ -1,26 +1,39 @@
 {
-  "category": "Edible Oil",
-  "profile_text": "A single observed purchase of one unit of edible oil (EDOET83CVGZJEVB5) on a weekday morning in March 2026. No stable brand, product, or routine preferences can be established from this isolated event.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Edible Oil",
+  "summary_text": "In March 2026, the user purchased one unit of edible oil (product EDOET83CVGZJEVB5) on a weekday morning. This purchase occurred during a daypart where the user's activity is above the population baseline (32.46%). As this is a single observation on one date, it is not possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as no brand information was provided for the product.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit purchase observed.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "Purchased on a weekday morning.",
+      "confidence": "low"
+    }
+  ],
+  "substitution_text": "No substitution evidence available from a single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as no brand information was provided for the product.",
+  "retrieval_text": "User purchased one unit of edible oil (product EDOET83CVGZJEVB5) on a weekday morning in March 2026, a time when their activity is above the population baseline. This single observation does not establish brand preference or stable routine.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-30",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for EdibleOil yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution patterns observed.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Routine cooking or food preparation requiring edible oil.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

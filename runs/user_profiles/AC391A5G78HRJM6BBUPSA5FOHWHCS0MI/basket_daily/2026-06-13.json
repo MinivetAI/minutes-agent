@@ -1,7 +1,7 @@
 {
   "date": "2026-06-13",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-13 (weekend), a single order was placed in the evening. The basket contained seven distinct items, one unit each: Flour, Tea, Spices Masala, Washing Powder, Shampoo, Honey, and Washing Bar. The observed products suggest a need for household staples, specifically cooking ingredients (Flour, Spices Masala, Honey, Tea) and cleaning/hygiene supplies (Washing Powder, Washing Bar, Shampoo). This is a single observed order; durable preferences cannot be inferred.",
+  "summary_text": "On this weekend evening, a single order was placed containing seven distinct items spanning pantry staples, household cleaning, and personal care. The basket included Flour, Tea, Spices Masala, and Honey alongside Washing Powder, Washing Bar, and Shampoo. The co-occurrence of Washing Bar and Washing Powder is a known pattern in this user's history, supported by a lift of 5.8, though this specific instance is a single observation. The order reflects a restocking of diverse household essentials.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "WashingBar",
         "WashingPowder"
       ],
-      "combination_text": "Washing Bar and Washing Powder were purchased together in this order.",
+      "combination_text": "Washing Bar and Washing Powder were purchased together.",
       "support": 0.172,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking household essentials for cooking and personal hygiene.",
-  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Restocking household essentials including baking ingredients, tea, spices, sweetener, laundry detergent, bar soap, and shampoo.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'routine' or 'preference' cannot be established from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-13"
+    ],
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

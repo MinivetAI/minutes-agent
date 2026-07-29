@@ -1,9 +1,23 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased savoury namkeens on two independent dates. On 2026-07-17 (weekday), one order of Haldiram's Mini Bhakarwadi 200 g was placed in the morning. On 2026-07-19 (weekend), the user purchased one unit each of Daadi's Methi Khakhra 180 g, Prabhuji Tok Jhal Misti 200 g, and Let's Try Lite Multigrain Mix 173 g, also in the morning. These are shelf-stable, ready-to-eat savoury snacks typically used for immediate consumption or as tea-time accompaniments. The purchases occurred in the morning, a time when this category represents 32.46% of population activity. No single brand or product variant appeared on more than one date; therefore, no stable brand or product preferences are established. The user demonstrated interest in a variety of savoury snacks across both weekdays and weekends.",
+  "summary_text": "In July 2026, the user ordered Savouries Namkeens on two independent dates (2026-07-17 and 2026-07-19). Both orders occurred in the morning, aligning with the population baseline where this category accounts for 32.46% of activity. The user purchased Haldiram's Mini Bhakarwadi 200 g on the first date and a basket including Daadi's Methi Khakhra 180 g, Prabhuji Tok Jhal Misti 200 g, and Let's Try Lite Multigrain Mix 173 g on the second. While the morning timing is a consistent pattern across two dates, the specific brands and products vary between the two orders. No single brand or product variant appears on more than one date, so no specific product preference is established as stable. The morning daypart pattern is supported by 2 independent dates.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date for each brand and product type; durable brand or flavour preferences cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "The user ordered Savouries Namkeens in the morning on two independent dates in July 2026, suggesting a consistent timing preference for this category during this period.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "Specific brand or product preferences cannot be determined as stable because no single item was ordered on more than one date. The morning timing pattern is supported by two dates, but product choices varied.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-17",
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-17T10:33:18",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

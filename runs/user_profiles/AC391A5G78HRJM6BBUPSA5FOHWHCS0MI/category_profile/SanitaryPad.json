@@ -1,40 +1,27 @@
 {
-  "category": "Sanitary Pad",
-  "profile_text": "A single observed purchase of Whisper Choice Ultra XL sanitary pads (40 count) on 2026-04-10 (weekday, morning). This order supports immediate menstrual care management. No stable brand, product, or cadence preferences can be established from this isolated event.",
-  "brand_preferences": [
-    {
-      "brand": "Whisper",
-      "preference_text": "Observed in a single purchase on 2026-04-10.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Whisper Choice Ultra XL sanitary pads (40 count) observed in a single purchase on 2026-04-10.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sanitary Pad",
+  "summary_text": "On 2026-04-10 (weekday), the user ordered Whisper Choice Ultra XL Sanitary Pad (Pack of 40) in the morning. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The purchase may reflect immediate period management or replenishment, but it does not establish a stable brand preference, recurring routine, or habitual timing.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences established from supplied evidence.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring routine, or habitual timing. It is unknown whether this purchase was driven by an unexpected need, a planned replenishment, or a specific brand loyalty.",
+  "retrieval_text": "User ordered Whisper Choice Ultra XL Sanitary Pad (Pack of 40) on 2026-04-10 in the morning; single observation only, no stable brand or routine established.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-10",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-04-10. Cadence is unknown based on a single observation; next purchase date cannot be estimated.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SanitaryPad yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Routine menstrual care management.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }

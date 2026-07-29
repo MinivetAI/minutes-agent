@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, one order of Fortune Indori Thick Poha (500 g) was placed on a weekend afternoon. This single observation does not establish a stable preference or routine.",
+  "summary_text": "In April 2026, the user ordered Fortune Indori Thick Poha 500 g once on a weekend afternoon. This single observation does not establish a stable preference or routine for this brand or product variant. The timing aligns with the user's observed afternoon consumption share (25.26%), which is less common than the population baseline for morning (32.46%) or evening (30.27%) consumption. The product is a quick-prep breakfast or snack staple.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the afternoon timing or the choice of this specific brand over others is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, a one-time purchase, or a deviation from typical morning consumption patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

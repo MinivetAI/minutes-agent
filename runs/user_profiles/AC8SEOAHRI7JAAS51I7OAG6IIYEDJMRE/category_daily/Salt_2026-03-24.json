@@ -1,15 +1,23 @@
 {
   "date": "2026-03-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-24 (weekday), the user purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt in the afternoon. This standard household iodized table salt is intended for everyday cooking and seasoning. The order occurred during a lower-population daypart (0.2526) compared to morning (0.3246) and evening (0.3027) peaks. This single observed order does not establish a stable, recurring preference or routine for this specific brand or product type.",
+  "summary_text": "On 2026-03-24 (weekday), the user ordered Tata Salt Free Flowing Iodised Salt 1 kg in the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon baseline share (0.2526). The product is a standard household iodized table salt used for everyday cooking and seasoning. This is a single observation; it is not yet established whether this represents a stable preference for this brand or a one-time replenishment need.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 1 kg pack of Tata Salt Free Flowing Iodised Salt, a standard household iodized table salt intended for everyday cooking and seasoning.",
+      "pattern_text": "One order of Tata Salt Free Flowing Iodised Salt 1 kg. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon baseline share (0.2526). The product is a standard household iodized table salt used for everyday cooking and seasoning. This is a single observation; it is not yet established whether this represents a stable preference for this brand or a one-time replenishment need.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring preference or routine for this specific brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for this brand or a one-time replenishment need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T12:26:50",
+    "last_seen_at": "2026-03-24T12:26:50"
+  }
 }

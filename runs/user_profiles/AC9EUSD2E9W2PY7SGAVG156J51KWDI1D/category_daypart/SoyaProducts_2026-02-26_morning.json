@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Fortune Mini Soya Chunks 200 g.",
+  "summary_text": "One order of Fortune Mini Soya Chunks 200 g placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when this category represents 32.46% of population activity. The product is a packaged soy-based staple used as a vegetarian protein ingredient for everyday cooking.",
-  "uncertainty_text": "This is a single observed transaction; durable brand preference or routine usage cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning, a time when morning purchases represent 32.46% of the population baseline. The product is a packaged vegetarian protein staple typically used for quick meal preparation or pantry replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

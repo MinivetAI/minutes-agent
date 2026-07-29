@@ -3,8 +3,15 @@
   "day_type": "weekend",
   "summary_text": "Purchased 2 units of Bail Kolhu Refined Mustard Oil Pouch 1 L.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed on a weekend afternoon, a time when population activity is lower than the morning baseline (0.2526 vs 0.3246). The purchase of a 1-litre pouch of mustard oil suggests routine kitchen replenishment for everyday cooking needs.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the afternoon on a weekend. The population baseline indicates afternoon orders are less common (25.26%) compared to morning (32.46%) and evening (30.27%). The product is a routine kitchen staple for Indian cooking, suggesting a need for replenishment or immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase due to stockout or specific meal needs.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-02-28",
   "day_type": "weekend",
-  "summary_text": "Purchased one 675 ml Dettol Skincare Germ Protection Liquid Hand Wash Refill in the morning. This order supports household hygiene continuity during a weekend morning, a period with above-baseline activity (32.5%).",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered one unit of Dettol Skincare Germ Protection pH-Balanced Liquid Hand Wash Refill (675 ml) in the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of handwash orders. The product is a refill, suggesting a restocking need for an existing dispenser. As this is a single observation on one date, it is not yet established whether this represents a recurring preference for Dettol or this specific refill format, or if it was a one-time restocking need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Dettol Skincare Germ Protection pH-Balanced Liquid Hand Wash Refill 675 ml. This timing aligns with the population baseline, where morning purchases account for 32.46% of handwash orders. The product is a refill, suggesting a restocking need for an existing dispenser. As this is a single observation on one date, it is not yet established whether this represents a recurring preference for Dettol or this specific refill format, or if it was a one-time restocking need.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand preference or routine cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference for Dettol or this specific refill format, or if it was a one-time restocking need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

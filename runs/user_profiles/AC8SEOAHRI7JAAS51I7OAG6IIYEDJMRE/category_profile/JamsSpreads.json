@@ -1,26 +1,27 @@
 {
-  "category": "Jams Spreads",
-  "profile_text": "No completed purchases or stable preferences were observed for Jams Spreads in the provided evidence. The only recorded transaction was for mayonnaise, which falls outside this category. Interest or intent for jams and spreads is not evidenced.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Jams Spreads",
+  "summary_text": "No evidence of Jams Spreads purchases was found in the supplied summaries. The only recorded activity in the relevant window was a single order of Del Monte Eggless Mayonnaise, which is a condiment distinct from the Jams Spreads category.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns identified within this category due to lack of purchase evidence.",
+  "uncertainty_text": "It is unknown whether the user purchases Jams Spreads, as no orders for this category were recorded in the supplied evidence window. The single observed order was for mayonnaise, which does not inform preferences for jams or spreads.",
+  "retrieval_text": "No purchase history exists for the Jams Spreads category in the provided evidence; the only recorded item was a single unit of Del Monte Eggless Mayonnaise, which falls outside this category, leaving all brand, variant, and pack size preferences undefined and overall confidence low.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": null,
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No purchase history exists for this category to establish a cadence.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for JamsSpreads yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "No evidence of interest (search/view/cart) or purchase exists for this category; conversion status is undetermined due to lack of activity.",
-  "substitution_text": "No substitution patterns observed due to lack of purchase history.",
-  "price_value_text": "No price or value behavior observed due to lack of purchase history.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance; simply no activity recorded for this category.",
-  "mission_generation_text": "No specific shopping needs can be inferred for Jams Spreads based on the available evidence.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-27T07:24:25",
+    "last_seen_at": "2026-04-27T07:24:25"
+  }
 }

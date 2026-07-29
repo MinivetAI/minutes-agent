@@ -1,40 +1,27 @@
 {
-  "category": "Bathroom Floor Cleaner",
-  "profile_text": "A single observed purchase of a bathroom disinfectant cleaner on 2026-06-02. No stable routine or brand preference is established.",
-  "brand_preferences": [
-    {
-      "brand": "Harpic",
-      "preference_text": "Observed in one purchase on 2026-06-02.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "One 1 L bottle of Harpic Bathroom Disinfectant Cleaner Floral purchased on 2026-06-02.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Bathroom Floor Cleaner",
+  "summary_text": "One unit of Harpic Bathroom Disinfectant Cleaner Floral 1 L was purchased on 2026-06-02 (weekday) during the evening. This single observation does not establish a stable preference for this brand or product, nor does it confirm a recurring routine; it may reflect an immediate cleaning need. The evening timing aligns with a population share of 0.3027, which is comparable to the morning share (0.3246) and higher than afternoon (0.2526) and night (0.1202) shares.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
+  "retrieval_text": "Single observation of Harpic Bathroom Disinfectant Cleaner Floral 1 L purchased on 2026-06-02 in the evening; insufficient evidence to establish brand preference, variant stability, or routine cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-02",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for BathroomFloorCleaner yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Routine cleaning and disinfection of bathroom floors, tiles, and sinks.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

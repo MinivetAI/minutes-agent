@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased 1 unit of EVEREST Chicken Masala 100 g on a weekday afternoon. This single order occurred during a period of below-baseline activity (25.26%). The product is a packaged spice blend for chicken curries, suggesting a home cooking context. As this is the only observed order for the month, durable brand or flavor preferences cannot be established.",
+  "summary_text": "In July 2026, one order of Everest Chicken Masala 100 g was placed on a weekday afternoon. This single observation does not establish a stable preference or routine for this brand, product, or daypart.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for Everest brand or chicken masala specifically.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

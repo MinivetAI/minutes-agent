@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Banana Robusta 4 Units (fresh bananas) placed in the morning.",
+  "summary_text": "One order of Banana Robusta 4 Units (1 pack) placed on 2026-07-06.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the morning (32.5% of population activity), a time when fresh fruit is commonly bought for immediate consumption or breakfast.",
-  "uncertainty_text": "Single observation; cannot establish stable preferences or repeat purchase patterns.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a ready-to-eat fresh fruit, typically used for immediate consumption such as breakfast or a quick snack.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for bananas, the Robusta variety, or morning ordering. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-06T09:15:29"
+  }
 }

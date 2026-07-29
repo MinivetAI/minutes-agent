@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-08 (morning, weekday) included one unit each of two Curd Yogurt products, one Bread, one Ready Mix, and one Cheese. The basket reflects a single-transaction observation with low confidence for any durable behavior pattern. The combination of Breads and Curd Yogurt in this order aligns with a known co-order pair (Support: 0.129, Confidence: 0.346, Lift: 0.969, Co-order count: 9), suggesting a compatible need for breakfast or light meal components, though this single instance does not establish a stable preference.",
+  "basket_summary_text": "A single order placed on 2026-04-08 in the morning on a weekday. The basket contains five items across four categories: two units of Curd Yogurt, one unit each of Breads, Ready Mixes, and Cheese. The combination of Breads, Curd Yogurt, and Ready Mixes is compatible with a breakfast or light meal preparation need. As this is the only order in the window, no durable behavior pattern or routine is established.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Breads",
         "Curd Yogurt"
       ],
-      "combination_text": "Breads and Curd Yogurt were purchased together in this order. This pair has a support of 0.129, confidence of 0.346, and lift of 0.969, with a co-order count of 9.",
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "high"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be assembling ingredients for a simple breakfast or light meal, such as toast with yogurt and cheese, or a quick snack involving ready mixes.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or recurring patterns can be inferred. The confidence in any behavioral pattern is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Breakfast or light meal preparation involving dairy, bread, and ready-to-cook components.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Confidence in user preference is low as there is no repetition across independent dates to establish a stable pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T10:48:37",
+    "last_seen_at": "2026-04-08T10:48:37"
+  }
 }

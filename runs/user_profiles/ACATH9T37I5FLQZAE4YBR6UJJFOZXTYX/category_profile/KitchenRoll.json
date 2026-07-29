@@ -1,26 +1,27 @@
 {
-  "category": "Kitchen Roll",
-  "profile_text": "In April 2026, the user purchased 1 unit of Flipkart Supermart Kitchen Towel 2 Ply (240 sheets total, 4 rolls of 60 sheets each) on 2026-04-20. This was a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Kitchen Roll",
+  "summary_text": "In April 2026, the user placed one order for Flipkart Supermart Kitchen Towel 2 Ply on a weekday afternoon. This single observation is insufficient to establish a stable brand or product preference. The timing aligns with the population baseline for afternoon activity.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences established from single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring need, a one-time replenishment, or part of a broader pattern. No brand or product preference can be confirmed from this single instance.",
+  "retrieval_text": "In April 2026, the user purchased one unit of Flipkart Supermart Kitchen Towel 2 Ply on a weekday afternoon, a timing consistent with population baselines; however, this single order does not yet indicate a stable brand, variant, or pack-size preference.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-20",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for KitchenRoll yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior established from a single order.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Household cleaning and surface maintenance needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

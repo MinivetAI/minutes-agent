@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one pack of Cycle Pure Stem Sambrani Ishta 14N incense stems on a weekend morning. This transaction occurred in a daypart with a 32.46% population share. The product is a ready-to-burn incense stem typically used for puja or spiritual rituals, suggesting an immediate need for traditional aromatic fragrance. This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "In July 2026, the user placed one order for Cycle Pure Stem Sambrani Ishta 14N on a weekend morning. This single observation does not establish a stable preference for this brand, product, or daypart. It is unclear if this was a one-time need or part of a recurring routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or daypart. It is unclear if this was a one-time need or part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T08:48:45",
+    "last_seen_at": "2026-07-04T08:48:45"
+  }
 }

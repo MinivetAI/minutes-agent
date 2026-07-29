@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Patanjali Pure Honey 250 g.",
+  "summary_text": "One order of Patanjali Pure Honey 250 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when this category sees 32.46% of population activity. The product is a small, ready-to-use sweetener suitable for immediate pantry replenishment or use in beverages and breakfasts.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small-pack honey item typically used as a sweetener or pantry staple.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Patanjali brand, a specific pack size, or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-30"
+    ],
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

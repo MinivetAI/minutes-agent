@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) in the morning on a weekday.",
+  "summary_text": "One order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) purchased in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this category sees 32.46% of population activity. The product is a nutrient-fortified complementary infant cereal, typically used as a ready-to-feed option for babies aged 6+ months.",
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when 32.46% of the population shops, suggesting a timing compatible with early-day feeding needs or routine replenishment. The product is a nutrient-fortified infant cereal, indicating a purchase for immediate complementary feeding of a baby aged 6+ months.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or routine. No other orders are available to confirm repetition or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

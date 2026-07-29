@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of unbranded fresh Bottle Gourd (400–600 g) in the afternoon.",
+  "summary_text": "One order of Bottle Gourd (400–600 g) in the Vegetables category.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a fresh vegetable suitable for immediate cooking.",
-  "uncertainty_text": "This is a single observed order; no repeated behavior or stable preference can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon purchases (0.2526) are less common than morning (0.3246) or evening (0.3027) purchases, suggesting a specific timing choice for this transaction rather than a dominant habitual window. The product is a fresh, unbranded vegetable typically used for immediate meal preparation.",
+  "uncertainty_text": "Confidence in any stable preference is low because this is the only observed order. It is not yet established whether the user prefers bottle gourd over other vegetables, or if this was a one-time purchase driven by immediate meal needs rather than a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T13:30:25",
+    "last_seen_at": "2026-01-30T13:30:25"
+  }
 }

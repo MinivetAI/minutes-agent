@@ -1,15 +1,23 @@
 {
   "date": "2026-02-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-27 (weekday), the user purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the evening. This timing aligns with a period of slightly lower activity relative to the population baseline (32.46% morning vs. 30.27% evening). The product is a small, single-serve functional dairy item suitable for immediate consumption or as a meal component. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
+  "summary_text": "On 2026-02-27 (weekday), the user ordered 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g in the evening. This timing aligns with the population baseline where evening shares 30.27% of activity, slightly below the morning peak of 32.46%. The product is a small, single-serve probiotic curd suitable for immediate consumption or as a quick add-on to a meal. This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand, product type, or evening timing. No other orders are available to confirm repetition or routine.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the evening on a weekday.",
+      "pattern_text": "Ordered 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g. Timing aligns with population baseline (evening share 30.27%, slightly below morning peak 32.46%).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand, product type, or evening timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-02-27T20:43:10"
+  }
 }

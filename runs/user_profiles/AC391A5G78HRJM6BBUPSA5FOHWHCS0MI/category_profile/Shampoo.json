@@ -1,41 +1,33 @@
 {
-  "category": "Shampoo",
-  "profile_text": "The user has purchased shampoo on three independent dates (Feb 2026, Jun 2026), establishing a slow replenishment cadence of approximately 53.5 days. Two distinct brands were observed: L'Oréal Paris (purchased twice on separate dates) and Patanjali (purchased once). L'Oréal Paris shows evidence of a stable preference due to repetition across independent dates, while Patanjali remains a single-observation brand. Purchases occurred in the afternoon and evening on weekdays and weekends. No browsing or cart activity was recorded, indicating direct purchase intent.",
-  "brand_preferences": [
+  "category_name": "Shampoo",
+  "summary_text": "The user has purchased shampoo on two independent dates in 2026: L'Oréal Paris Total Repair 5 Shampoo (1 L) in February and Patanjali Kesh Kanti Natural Hair Cleanser Shampoo in June. Both purchases occurred in the evening. No single brand or product variant has been repeated, so no stable brand or product preference is established. The evening timing is the only consistent pattern observed.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "L'Oréal Paris",
-      "preference_text": "Purchased on two independent dates (2026-02-26 and 2026-06-xx), indicating a stable preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "Patanjali",
-      "preference_text": "Purchased on one independent date (2026-06-xx). Single observation; not a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
+      "daypart": "evening",
+      "behavior_text": "Purchases observed in the evening on two independent dates.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "L'Oréal Paris and Patanjali are both observed as acceptable shampoo brands within this category, but no substitution preference is established due to lack of repetition.",
+  "uncertainty_text": "Preference boundaries are undefined for brand, variant, and pack size as each observed item appeared only once. It is unknown if the user has a specific brand loyalty or if these were one-time purchases. The evening timing pattern is based on only two observations.",
+  "retrieval_text": "User purchased L'Oréal Paris Total Repair 5 Shampoo (1 L) and Patanjali Kesh Kanti Natural Hair Cleanser Shampoo on two independent dates in 2026. Both orders occurred in the evening. No single brand or product variant recurred, preventing establishment of a stable brand or product preference. Evening timing is the only consistent behavioral pattern observed.",
   "replenishment": {
     "cadence_days": 53.5,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-13",
     "predicted_next_purchase_date": "2026-08-05",
-    "replenishment_text": "The user typically repurchases shampoo every 53.5 days, classified as a slow cadence. The last purchase was on 2026-06-13, with the next estimated purchase around 2026-08-05.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Shampoo is reordered roughly every 54 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase; no browsing or cart-add events were observed without subsequent purchase.",
-  "substitution_text": "The user has purchased two different brands (L'Oréal Paris and Patanjali) in the same month, suggesting openness to brand substitution or variety-seeking behavior.",
-  "price_value_text": "No explicit price or value data provided to assess price sensitivity.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases were completed directly.",
-  "mission_generation_text": "Routine replenishment of hair cleansing products for damaged or weak hair maintenance.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-02-26T13:28:19",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

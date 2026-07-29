@@ -1,11 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-02-26 in the afternoon on a weekday contains two items: one unit of SMPFUHM82QPRBMR8 (Unmapped-SMP) and one unit of FCWGPEEJ6K7HYHWU (Unmapped-FCW). The basket breadth is narrow, consisting of two distinct unmapped categories. No category combinations from the supplied evidence match the specific products in this order, as the order contains only unmapped categories. The order-building behavior is a simple two-item purchase with no cart abandonment observed.",
+  "basket_summary_text": "A single order placed on 2026-02-26 in the afternoon on a weekday contains one unit of Shampoo and one unit of Facewash. This represents a personal care basket focused on hair and facial cleansing. The order-building behavior is a single transaction with two distinct personal care items. No other categories were purchased in this window.",
   "behavior_patterns": [],
   "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of one unit of an unmapped product (SMPFUHM82QPRBMR8) and one unit of another unmapped product (FCWGPEEJ6K7HYHWU) is compatible with a general need for household supplies or specific ingredients, but the unmapped nature of the categories prevents a more specific need description.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, no durable preferences, stable patterns, or recurring behaviors can be inferred. The confidence in any inferred user behavior is low. The specific products are unmapped, preventing alignment with the provided category pair evidence.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Personal hygiene and grooming needs, specifically hair and skin cleansing.",
+  "uncertainty_text": "This analysis is based on a single order on one date. It is an isolated observation and does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T13:28:19",
+    "last_seen_at": "2026-02-26T13:28:19"
+  }
 }

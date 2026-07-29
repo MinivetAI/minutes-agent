@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased Amul ice cream cups on one weekday afternoon. This single observation does not establish a durable brand preference or routine.",
+  "summary_text": "In January 2026, the user placed one order for ice cream. The order consisted of four single-serve (125 ml) Amul ice cream cups in distinct flavors (Butterscotch Gold, Rajbhog, Chocolate Brownie, and Fruit N Nut Fantasy) during the afternoon on a weekday. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. Due to the single observation, stable preferences and patterns are not established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single-observation window; it is not yet established whether Amul is a durable brand preference or if this represents a one-time variety purchase across different flavors.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers the Amul brand over others, if they typically buy multiple flavors in one order, or if this afternoon timing is a stable habit. The specific motivation (e.g., personal indulgence vs. hosting) cannot be determined from the order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T11:26:47",
+    "last_seen_at": "2026-01-30T11:26:47"
+  }
 }

@@ -1,34 +1,27 @@
 {
-  "category": "Sanitary Pad",
-  "profile_text": "In June 2026, the user purchased Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 count) on one weekend date. This single order occurred during a morning period where user activity is above the population baseline (32.46%). The product is a high-urgency period-care item, typically used for leak protection and comfort during daily activities or overnight wear. No browsing or search history was provided to indicate prior consideration or comparison.",
-  "brand_preferences": [
-    {
-      "brand": "Whisper",
-      "preference_text": "Whisper was observed in one independent date (June 2026).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sanitary Pad",
+  "summary_text": "In June 2026, the user ordered Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 Count) on a weekend morning. This single observation reflects an immediate need for leak protection and skin comfort. It does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond this immediate need.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available from supplied data.",
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond the immediate need for this product.",
+  "retrieval_text": "In June 2026, the user purchased Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 Count) on a weekend morning, indicating a specific instance of need for leak protection and skin comfort, but this single order does not establish a stable brand preference or recurring purchase pattern.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-28",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-06-28. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SanitaryPad yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase when the user has an immediate need, as evidenced by the completed transaction. However, no browsing or search history was provided to indicate prior consideration or comparison.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports immediate period-care needs for leak protection and comfort during daily activities or overnight wear.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

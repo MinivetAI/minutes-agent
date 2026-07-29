@@ -1,19 +1,19 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Del Monte Baked Beans on three independent dates (2026-03-08, 2026-03-14, and 2026-03-28). This repetition establishes a stable preference for this specific brand and product variant. The purchases occurred on weekends across different dayparts (afternoon, evening, and morning), indicating flexible timing rather than a fixed daily routine. The product serves as a shelf-stable, ready-to-eat pantry item suitable for quick meal components.",
+  "summary_text": "The user purchased Del Monte Baked Beans (450 g) on three independent dates in March 2026 (March 8, 14, and 28). This repetition establishes a stable brand preference for Del Monte within the Canned Food category. The purchases occurred on weekends across different dayparts (afternoon, evening, and morning), indicating no consistent daypart habit but a recurring need for this specific shelf-stable item. The product serves as a convenient pantry staple or quick meal component.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Del Monte",
-      "claim_text": "The user has a stable preference for Del Monte brand canned food, evidenced by purchases on 3 independent dates in March 2026.",
+      "claim_text": "The user has a stable preference for Del Monte brand canned goods, evidenced by purchases on three independent dates in March 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "Del Monte Baked Beans",
-      "claim_text": "The user has a stable preference for Del Monte Baked Beans, evidenced by purchases on 3 independent dates in March 2026.",
+      "value": "Del Monte Baked Beans (450 g)",
+      "claim_text": "The user has a stable preference for Del Monte Baked Beans (450 g), purchased on three independent dates in March 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,6 +21,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user's purchasing timing varied across morning, afternoon, and evening on weekends, suggesting no fixed daypart routine for this category.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the brand and product preference is stable across three dates, the daypart varies (afternoon, evening, morning), so no specific daypart routine is established. The consistent weekend timing suggests a potential weekend shopping pattern, but this is based on a small sample of three dates.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-03-08",
+      "2026-03-14",
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-08T11:29:06",
+    "last_seen_at": "2026-03-28T09:52:49"
+  }
 }

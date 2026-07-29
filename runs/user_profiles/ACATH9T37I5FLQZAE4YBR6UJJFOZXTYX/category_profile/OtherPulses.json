@@ -1,26 +1,33 @@
 {
-  "category": "Other Pulses",
-  "profile_text": "In April 2026, the user purchased two distinct pulse products on separate dates: Tata Sampann Yellow Moong Dal Split on a weekday morning and Classic Black Masoor Dal Whole on a weekend afternoon. Each product appeared on only one independent date, so no stable brand or product preference is established. The weekday morning purchase aligns with high population activity, while the weekend afternoon purchase is less common relative to the population baseline. No browsing events were recorded for either order.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Other Pulses",
+  "summary_text": "In April 2026, the user purchased two distinct pulse products on separate dates: Tata Sampann Yellow Moong Dal Split (500 g) on a weekday morning and Classic Black Masoor Dal Whole (500 g) on a weekend afternoon. No brand, product, or variant recurred across 2 or more independent dates; therefore, no stable preference claims are established. The observed patterns reflect single-date observations for each item.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit purchases observed for both items.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established due to lack of repeated purchases. The user purchased two different types of pulses (split yellow moong and whole black masoor) in the same month, suggesting openness to variety rather than strict brand loyalty.",
+  "uncertainty_text": "It is unclear if these represent one-time pantry refills or part of a regular purchasing pattern. Single observations do not establish stable preferences, routines, or recurring needs. No brand or product preference is confirmed.",
+  "retrieval_text": "In April 2026, the user purchased Tata Sampann Yellow Moong Dal Split (500 g) on a weekday morning and Classic Black Masoor Dal Whole (500 g) on a weekend afternoon. These were single-date observations with no recurrence, indicating no stable brand or product preference yet established for Other Pulses.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-26",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established; last purchase was on 2026-04-26.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for OtherPulses yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions for both observed products.",
-  "substitution_text": "No substitution patterns observed; distinct products purchased on separate dates.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty detected.",
-  "mission_generation_text": "Shopping for specific pulse varieties (split yellow moong, whole black masoor) for meal preparation.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-08T09:16:32",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

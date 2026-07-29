@@ -1,9 +1,23 @@
 {
   "date": "2026-05-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-12 (weekday), the user purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during a night-time session. This timing aligns with a lower population share (12.02%) compared to morning (32.46%), evening (30.27%), and afternoon (25.26%). The items are fresh vegetable staples typically used for immediate meal preparation, such as roasting, boiling, or as a base for curries and gravies. This is a single observed order; it does not establish a stable preference or routine for these specific vegetables or this shopping time.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-12 (weekday), the user placed one order of fresh vegetable staples during the night, a timing less common than the population baseline (night share 0.1202 vs. morning 0.3246, afternoon 0.2526, evening 0.3027). The basket included unbranded baby potatoes (280–320 g) and unbranded onions (400–450 g), items typically used for immediate meal preparation. This is a single observation on one date; it is not yet established whether this represents a stable preference for these specific items, a preference for night-time ordering, or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "One order of unbranded baby potatoes (280–320 g) and unbranded onions (400–450 g) placed on a weekday night. This timing is less common than the population baseline for morning (0.3246), afternoon (0.2526), or evening (0.3027) purchases, aligning with the lower population share for night (0.1202).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for these specific vegetables or this shopping time.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific items, a preference for night-time ordering, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-12"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-12T23:10:32"
+  }
 }

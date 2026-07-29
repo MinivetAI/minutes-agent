@@ -1,17 +1,22 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, three independent orders were placed on weekdays and one weekend day. Purchases were narrow, typically containing 2–3 items. Afternoon and evening dayparts were observed. Categories included Savouries Namkeens, Spices Masala, Fruits, Vegetables, and Curd Yogurt. No category or product appeared on more than one independent date; therefore, no stable daily basket-building patterns, category combinations, or shopping needs can be confirmed as durable preferences. Abandonment patterns are excluded as no categories were abandoned across independent dates.",
+  "summary_text": "In January 2026, four independent orders were placed across weekdays and one weekend. Purchases occurred in the afternoon (3 instances) and evening (1 instance). The user bought Savouries Namkeens and Spices Masala together once. Fresh produce (Fruits and Vegetables) appeared in three separate orders, often paired with other items (Curd Yogurt, Ice Creams). No category combination, daypart behavior, or specific product preference repeated across two or more independent dates. All observed behaviors are single-date observations.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Fruits were purchased on two independent dates (2026-01-24 and 2026-01-26), indicating repeated interest in this category within the month.",
-      "confidence": "medium"
-    }
-  ],
-  "shopping_need_text": "General need for fresh produce, dairy, and savory snack ingredients.",
-  "uncertainty_text": "All observed behaviors are based on single-date observations for specific category combinations (Savouries Namkeens/Spices Masala, Fruits/Vegetables, Fruits/Curd Yogurt). No durable routine or stable preference can be inferred from this limited evidence. The repeated purchase of Fruits is noted as a trend claim but does not constitute a stable pattern without further repetition.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "Basic grocery replenishment, snack/meal accompaniments, and fresh produce acquisition.",
+  "uncertainty_text": "All observed category combinations, dayparts, and product purchases occurred on single, independent dates. No durable preferences, routines, or stable patterns can be established from this evidence.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-26",
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-01-30T11:26:47"
+  }
 }

@@ -1,23 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-25 during the evening weekday. The basket contains three items: one unit of Chips, two units of Curd Yogurt, and one unit of Savouries Namkeens. The purchase combines a snack category (Chips) with a dairy item (Curd Yogurt) and a savory snack (Savouries Namkeens).",
+  "basket_summary_text": "A single evening weekday order containing Chips, Curd Yogurt, and Savouries Namkeens. This combination suggests a snack or light meal occasion compatible with the items purchased.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Chips",
-        "Curd Yogurt",
-        "Savouries Namkeens"
-      ],
-      "combination_text": "Chips, Curd Yogurt, and Savouries Namkeens were purchased together in a single transaction.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of chips, curd yogurt, and savouries namkeens is compatible with a need for evening snacks or light refreshments.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior across independent dates is available to confirm consistent habits.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Snacking or light evening meal.",
+  "uncertainty_text": "This is a single observation from one independent date. Stable preferences or routine behaviors cannot be inferred from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

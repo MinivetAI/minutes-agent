@@ -1,24 +1,56 @@
 {
   "date": "2026-02-08",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-08 (weekend), a single order was placed in the morning. The basket contained one unit each of Breads, Canned Food, and Eggs. Order-building behavior was minimal, with no repeated add-to-cart or search activity observed. The combination of these items is compatible with a need for basic meal preparation, such as breakfast or a simple lunch, but no specific intent is confirmed beyond the purchase itself. This analysis is based on a single observed order on one date; no durable preferences, routine behaviors, or stable patterns can be inferred.",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket included one unit each of Breads, Canned Food, and Eggs. This combination suggests a basic breakfast or meal-prep need compatible with the items purchased. The basket contains staple breakfast components (Breads, Eggs) alongside a shelf-stable protein source (Canned Food), indicating a need for a simple, quick meal or breakfast preparation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Breads",
+        "Canned Food"
+      ],
+      "combination_text": "Breads and Canned Food were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "Eggs"
+      ],
+      "combination_text": "Breads and Eggs were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
         "Canned Food",
         "Eggs"
       ],
-      "combination_text": "Breads, Canned Food, and Eggs were purchased together in a single order.",
+      "combination_text": "Canned Food and Eggs were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Breads, Canned Food, and Eggs is compatible with a need for basic food staples or simple meal ingredients.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not indicate that these specific pairs were present in this single order.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket contains staple breakfast components (Breads, Eggs) alongside a shelf-stable protein source (Canned Food), indicating a need for a simple, quick meal or breakfast preparation.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It represents an isolated observation and does not establish a durable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T09:50:42",
+    "last_seen_at": "2026-02-08T09:50:42"
+  }
 }

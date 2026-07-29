@@ -1,48 +1,27 @@
 {
-  "category": "Spices Masala",
-  "profile_text": "The user demonstrates a stable, slow-paced replenishment cycle for Spices Masala, with purchases occurring approximately every 25 days. Purchasing behavior is anchored to specific times of day, with a consistent pattern of weekday morning and afternoon activity, and occasional weekend afternoon purchases. The user engages with multiple distinct brands (Ching's Secret, Aashirvaad, Everest) and product types (instant mixes, whole spices, blends) across independent dates, indicating a utility-driven approach to cooking rather than loyalty to a single brand or product. There is no evidence of unmet interest or discovery; all observed interest has converted to purchase.",
-  "brand_preferences": [
-    {
-      "brand": "Ching's Secret",
-      "preference_text": "Purchased on two independent dates (2026-02, 2026-04), indicating a stable preference for this brand within the category.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "EVEREST",
-      "preference_text": "Purchased on two independent dates (2026-03, 2026-07), indicating a stable preference for this brand within the category.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "brand": "Aashirvaad",
-      "preference_text": "Observed on a single independent date (2026-03); insufficient repetition to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 25.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-07-14",
-    "predicted_next_purchase_date": "2026-08-08",
-    "replenishment_text": "The user typically repurchases this category every 25 days, classifying their behavior as slow-paced replenishment. The last purchase was on 2026-07-14, with the next expected around 2026-08-08 based on this average cadence.",
-    "confidence": "high",
-    "evidence_count": 6,
-    "independent_date_count": 6
+  "category_name": "Spices Masala",
+  "summary_text": "The user has made sporadic purchases across multiple months (Feb–Jul 2026) involving distinct brands (Ching's Secret, Aashirvaad, Everest) and product types (masala mixes, seeds, chili powder). No single brand, product, or daypart pattern has been observed on more than one independent date, preventing the establishment of stable preferences or routines.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; all observed searches, views, or cart additions (if any were present in broader data) are not indicated here, but all observed interactions have resulted in completed orders.",
-  "substitution_text": "No evidence of substitution behavior; the user purchases specific branded items and does not appear to switch brands or products within the same order or immediately following a stockout.",
-  "price_value_text": "No explicit price sensitivity or value-seeking behavior is evident from the product mix, which includes both premium instant mixes and standard pantry staples.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user consistently completes purchases across multiple brands and product types.",
-  "mission_generation_text": "Supports home cooking needs for specific dishes (e.g., paneer chilli, chicken curry) and general pantry restocking of essential spices and blends.",
-  "overall_confidence": "high"
+  "daypart_understanding": [],
+  "substitution_text": "Evidence is insufficient to determine acceptable substitutions or boundaries. The user has tried different brands (Ching's Secret, Everest, Aashirvaad) and product forms (mixes, raw spices, seeds) without repeating any, making it unclear if they are brand-loyal, product-specific, or open to broad substitution.",
+  "uncertainty_text": "It is unknown if the user has a stable preference for any specific brand, product variant, or pack size. The observed orders appear to be isolated needs or trials rather than a recurring routine. The user's typical daypart for this category is also unestablished, as each observed order occurred at a different time (weekday evening, weekday morning, weekend afternoon, weekday afternoon).",
+  "retrieval_text": "User has made isolated purchases of Spices Masala products from brands Ching's Secret, Aashirvaad, and Everest between February and July 2026. Specific items include Ching's Secret Paneer Chilli Masala Mix (100g), Aashirvaad Poppy Seeds (50g), Everest Chicken Masala (100g), and Everest Kashmirilal Chilli Powder (100g). No brand, product, or daypart pattern has been repeated on multiple independent dates, so no stable preference, routine, or substitution boundary can be established. Orders occurred on weekdays and weekends at various times (morning, afternoon, evening).",
+  "replenishment": {
+    "cadence_days": 25,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-08-08",
+    "replenishment_text": "SpicesMasala is reordered roughly every 25 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

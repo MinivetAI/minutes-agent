@@ -1,33 +1,60 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, four independent orders were placed on weekdays (23rd, 28th, 30th) and one on a weekend (31st). Shopping occurred across morning, afternoon, and evening dayparts. The most consistent category observed across all four dates is Vegetables. Other categories such as Savouries Namkeens, Curd Yogurt, Aerated Drinks, and Diaper appeared on multiple dates but not in every order. No single daypart, brand, or specific product variant was repeated across enough independent dates to establish a stable routine. Category combinations involving Vegetables with Dairy (Curd Yogurt, Milk) or Savouries appeared frequently but are based on limited repetition within this short window.",
+  "summary_text": "In January 2026, four independent orders were placed across weekdays and one weekend. The most consistent category combination observed was Vegetables paired with Savouries Namkeens (2 independent dates) and Vegetables paired with Curd Yogurt (2 independent dates). Other categories such as Diaper, Aerated Drinks, Milk, and Baby Cereal appeared in single-date contexts. No daypart, day-type, or specific product-level routine is established due to lack of repetition across independent dates.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together in this order.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "trend_claims": [
     {
-      "claim_text": "Vegetables were purchased in every order during January 2026 (4 independent dates), indicating a consistent need for fresh produce.",
-      "confidence": "high"
-    },
-    {
-      "claim_text": "Curd Yogurt was purchased on 3 independent dates (28th, 30th, 31st), suggesting a recurring but not universal dairy preference.",
+      "claim_text": "Vegetables appeared in all four independent orders in January 2026, but no other category or product appeared on more than two independent dates.",
       "confidence": "medium"
     },
     {
-      "claim_text": "Savouries Namkeens were purchased on 2 independent dates (23rd, 28th), indicating occasional interest in savory snacks.",
+      "claim_text": "Diaper appeared on two independent dates (2026-01-28, 2026-01-31), but not on a third, so it does not yet meet the threshold for a stable pattern.",
       "confidence": "medium"
     },
     {
-      "claim_text": "Aerated Drinks were purchased on 2 independent dates (30th, 31st), indicating occasional beverage interest.",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "Diaper was purchased on 2 independent dates (28th, 31st), indicating ongoing baby care needs.",
+      "claim_text": "Aerated Drinks appeared on two independent dates (2026-01-30, 2026-01-31), but not on a third, so it does not yet meet the threshold for a stable pattern.",
       "confidence": "medium"
     }
   ],
-  "shopping_need_text": "The user consistently requires fresh produce (Vegetables) and occasionally purchases dairy (Curd Yogurt), savory snacks, beverages, and baby care items. The variety of categories suggests a general household restock pattern rather than a specialized diet or routine.",
-  "uncertainty_text": "No stable daypart, brand, or product-level routine is established because no specific item or category combination (other than Vegetables' presence) repeats with high frequency across all dates. The presence of Vegetables in every order is a strong signal, but it does not define a 'basket-building pattern' in terms of co-occurrence stability beyond that single anchor. Other categories like Savouries, Aerated Drinks, and Diapers appear only twice, which is insufficient to claim a stable preference or routine. The user's shopping times vary (morning, afternoon, evening), preventing a stable daypart claim.",
-  "overall_confidence": "medium"
+  "shopping_need_text": "The user requires fresh produce (Vegetables) regularly, often combined with dairy (Curd Yogurt) or savory snacks (Savouries Namkeens). Household consumables (Diaper) and beverages (Aerated Drinks) are also purchased, but less consistently. Specific items like Baby Cereal, Vitamins, Milk, and Paneer Tofu were observed in single orders and do not indicate a recurring need based on this month's data.",
+  "uncertainty_text": "This profile is based on four independent dates. While Vegetables, Curd Yogurt, and Savouries Namkeens show repetition, the overall basket composition varies significantly across dates. No daypart or day-type routine is established. Confidence in specific product preferences is limited to the repeated category combinations.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-01-23",
+      "2026-01-28",
+      "2026-01-30",
+      "2026-01-31"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-31T19:05:26"
+  }
 }

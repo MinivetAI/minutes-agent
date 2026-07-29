@@ -1,25 +1,19 @@
 {
   "date": "2026-04-29",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-29, a weekday, a single order was placed during the evening daypart. The basket contained 10 items, primarily Vegetables (6 units), accompanied by Milk (2 units), Curd Yogurt (1 unit), and Aerated Drinks (1 unit). This represents a single observation of a vegetable-centric grocery trip with dairy and beverage additions. The combination of fresh vegetables, milk, and curd yogurt is compatible with preparing home-cooked meals or daily household sustenance. This analysis is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
+  "summary_text": "On 2026-04-29 (weekday), a single order was placed in the evening. The basket contained 10 items across 4 categories: Vegetables (6 units), Milk (2 units), Curd Yogurt (1 unit), and Aerated Drinks (1 unit). The order-building behavior shows a concentration on fresh produce and dairy staples, with a single beverage item. This represents a single observation and does not establish a durable preference pattern.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Vegetables",
-        "Milk",
-        "Curd Yogurt",
-        "Aerated Drinks"
-      ],
-      "combination_text": "Vegetables, Milk, Curd Yogurt, and Aerated Drinks",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of fresh vegetables, milk, and curd yogurt is compatible with preparing home-cooked meals or daily household sustenance.",
-  "uncertainty_text": "This analysis is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The combination of fresh vegetables, milk, and curd yogurt is compatible with preparing home-cooked meals or daily dietary staples. The inclusion of aerated drinks may suggest a preference for non-alcoholic beverages alongside the meal components.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No repeated behavior across independent dates is observed, so confidence in any inferred user preference is low. The presence of specific items does not prove intent beyond the immediate purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-29T20:12:12",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

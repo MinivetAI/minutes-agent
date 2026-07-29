@@ -1,15 +1,23 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-05 (weekend), the user purchased 1 Small Coconut (fresh produce) during the morning. This single order occurred in a daypart with a population share of 0.3246. The product is a fresh coconut, typically used for immediate cooking, ritual offerings, or recipes requiring whole ingredients. This is a single observed order; no durable preferences or recurring habits can be established from this evidence alone.",
+  "summary_text": "On 2026-04-05 (weekend), the user purchased one Small Coconut (fresh, unbranded) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of vegetable activity. The product is a fresh produce item typically used for immediate cooking or ritual purposes. This is a single observation from one date; it is not yet established whether this represents a stable preference for fresh coconuts or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 Small Coconut (fresh produce) during the morning on a weekend. The order occurred in the morning, a time with a population share of 0.3246. The product is a fresh coconut, typically used for immediate cooking, ritual offerings, or recipes requiring whole ingredients.",
+      "pattern_text": "One Small Coconut (fresh, unbranded) purchased on 2026-04-05. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh produce item typically used for immediate cooking or ritual purposes. This is a single observation from one date. It is not yet established whether this represents a stable preference for fresh coconuts, a specific brand (none supplied), or a one-time need.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no durable preferences or recurring habits can be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for fresh coconuts, a specific brand (none supplied), or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-04-05T10:50:30"
+  }
 }

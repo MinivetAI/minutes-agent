@@ -1,34 +1,33 @@
 {
-  "category": "Ready Meals",
-  "profile_text": "The user has placed two distinct orders for frozen vegetable products (Safal brand) in June and July 2026. While these items are often used in meal preparation, the specific products purchased are raw frozen ingredients (Green Peas) rather than pre-cooked 'Ready Meals'. The user shows a preference for the Safal brand across these two independent dates. No recurring cadence or routine is established due to the low frequency and gap between orders.",
-  "brand_preferences": [
-    {
-      "brand": "Safal",
-      "preference_text": "The user has purchased Safal products on two independent dates (2026-06-12 and 2026-07-15), indicating a stable preference for this brand within the context of their frozen food purchases.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Ready Meals",
+  "summary_text": "The user has placed two orders in the Ready Meals category: one in June 2026 for Safal Frozen Green Peas 500 g on a weekday morning, and one in July 2026 for Safal Frozen Green Peas 200 g on a weekday evening. Both orders are for the same brand (Safal) and product type (frozen peas), but the pack sizes and dayparts differ. As each order occurred on a separate date, there is insufficient evidence to establish a stable brand preference, routine, or daypart affinity. The user may be experimenting with different pack sizes or using the product for different meal occasions.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit per order observed in both instances.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns observed. The user has only purchased Safal brand frozen peas in this category.",
+  "uncertainty_text": "It is unclear if the user has a stable preference for Safal brand frozen peas, as this is based on only two independent dates. It is also unknown if the user prefers specific pack sizes (200g vs 500g) or has a preferred time of day for ordering, given the variation between morning and evening orders. The term 'Ready Meals' may be broadly applied to frozen vegetables in this context, but no other ready meal products have been observed.",
+  "retrieval_text": "User ordered Safal Frozen Green Peas (500g and 200g pack sizes) on two separate dates in June and July 2026, once in the morning and once in the evening. Evidence is limited to these two independent observations, preventing establishment of a stable brand or daypart preference. No other brands or product variants in the Ready Meals category were observed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-15",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence has been established; the last purchase was on 2026-07-15.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for ReadyMeals yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "The user has completed purchases for this category, indicating that interest converts to purchase when the specific product need arises.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No specific price sensitivity or value-seeking behavior can be inferred from the two transactions.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. The category is purchased sporadically.",
-  "mission_generation_text": "Supports needs for quick cooking ingredients or meal repair using frozen staples.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

@@ -1,24 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-03-21 in the afternoon on a weekend. The basket contains four distinct items: one unit each of Ready Mixes, Paneer Tofu, Rice, and Ready Meals. The purchase combines a staple carbohydrate (Rice) with protein sources (Paneer Tofu) and convenience or prepared food options (Ready Mixes, Ready Meals). This specific combination is compatible with a need for a quick, self-contained meal solution that minimizes preparation time while providing varied textures and flavors. No durable preference pattern can be established from this single observation.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing four distinct items: a ready mix, paneer tofu, rice, and a ready meal. The basket reflects a single-instance combination of meal components (Ready Mixes, Paneer Tofu, Rice, Ready Meals) without evidence of recurring patterns. No category pair evidence from the supplied list matches the categories present in this specific order.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Ready Mixes",
-        "Paneer Tofu",
-        "Rice",
-        "Ready Meals"
-      ],
-      "combination_text": "Single order containing Ready Mixes, Paneer Tofu, Rice, and Ready Meals.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for a convenient, ready-to-eat or easy-to-prepare meal involving rice and protein, compatible with the purchased items.",
-  "uncertainty_text": "This is a single observed order on one date. It does not indicate a stable or recurring preference. The category pair evidence provided (e.g., Breads/CurdYogurt) does not match the categories in this specific order, so no lift/support values are applied to this basket's internal combinations.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of ready mixes, paneer tofu, rice, and ready meals is compatible with preparing a home-cooked meal or assembling a quick dinner.",
+  "uncertainty_text": "This description is based on a single observed order on one independent date. Stable preferences, routine behaviors, or durable category affinities cannot be inferred from this isolated transaction. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-03-21T12:56:16"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 486 g pack of Cremica Jeera Lite Sweet & Salty Biscuit during the evening on a weekday.",
+  "summary_text": "One order of Cremica Jeera Lite Sweet & Salty Biscuit (486 g) placed on 2026-06-02 in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a value-oriented, cumin-flavoured salted tea biscuit, typically used for immediate tea-time stocking, quick snacking, or household top-ups.",
-  "uncertainty_text": "This is a single observed order; durable preferences, routine buying patterns, or specific motivations (e.g., guest hosting vs. personal snacking) cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening on a weekday. This timing aligns with the population baseline, where evening accounts for 30.27% of activity, comparable to the morning share (32.46%). The product is a value-oriented, cumin-flavoured salted biscuit typically used for tea-time snacking or household stocking.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring purchase routine, or consistent daypart habit. It is unclear if this is a one-time trial, a replacement purchase, or part of a broader pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

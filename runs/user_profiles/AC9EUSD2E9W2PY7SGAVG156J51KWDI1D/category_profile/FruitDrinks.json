@@ -1,34 +1,27 @@
 {
-  "category": "Fruit Drinks",
-  "profile_text": "The user has made two distinct purchases in the Fruit Drinks category: a Paper Boat Swing Zesty Pomegranate (1200 ml) in April 2026 and a Paper Boat Swing Plus Lush Lychee Juicer Drink (600 ml) in May 2026. Both orders occurred on weekday mornings, aligning with the population baseline for this category. The user appears to seek convenient, ready-to-drink fruit beverages for immediate consumption or thirst-quenching. Due to the limited number of transactions and lack of explicit cadence data, stable brand or product preferences cannot be established.",
-  "brand_preferences": [
-    {
-      "brand": "Paper Boat",
-      "preference_text": "The user has purchased Paper Boat products in two separate months (April and May 2026). While this indicates exposure and acceptance of the brand, the low volume of orders prevents establishing a high-confidence durable preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Fruit Drinks",
+  "summary_text": "The user has placed two distinct orders for ready-to-drink fruit beverages in April and May 2026, both occurring on weekdays in the morning. The orders were for different brands (Paper Boat Swing and Paper Boat Swing Plus) and different flavors (Pomegranate and Lychee), with no repetition of specific products or brands across independent dates to establish a stable preference yet.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Insufficient evidence to determine acceptable substitutions or boundaries. The user has tried two different product lines within the same brand family, but the lack of repetition prevents identifying a preferred alternative or a strict boundary.",
+  "uncertainty_text": "Preference boundaries are undefined due to a lack of repeated orders. It is unknown if the user prefers a specific brand, flavor profile, or pack size. The morning timing observed in both instances may be coincidental or indicative of a habit, but this cannot be confirmed without further data.",
+  "retrieval_text": "User ordered Paper Boat Swing Zesty Pomegranate 1200 ml and Paper Boat Swing Plus Lush Lychee Juicer Drink 600 ml on separate weekday mornings in April and May 2026. Evidence is limited to two single-observation orders for different brands and flavors, preventing the establishment of a stable brand or product preference. Morning timing aligns with population baselines but lacks user-specific confirmation of routine.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-07",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No regular replenishment cadence has been established; the last purchase was on 2026-05-07, and no next purchase date is predicted.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for FruitDrinks yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on all observed occasions.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident from the available data.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty regarding this category.",
-  "mission_generation_text": "The user likely purchases Fruit Drinks to satisfy immediate thirst or for a convenient, ready-to-drink beverage option, particularly during weekday mornings.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-30T08:01:42",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

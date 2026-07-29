@@ -1,7 +1,7 @@
 {
   "date": "2026-07-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-14, a weekday, a single order was placed in the afternoon. The basket contained five items across four categories: Milk (2 units of one product, 1 unit of another), Breads (1 unit), Vegetables (1 unit), and Spices Masala (1 unit). The combination of staple dairy, bread, produce, and flavoring agents is compatible with a meal preparation need involving dairy, bread, and vegetables, potentially seasoned with spices. This analysis is based on a single observed order on one date; stable preferences or recurring patterns cannot be inferred from this single data point.",
+  "summary_text": "On 2026-07-14 (weekday), a single afternoon order included two units of Milk, one unit each of Breads, Vegetables, and Spices Masala. The basket combines staple dairy (Milk) with fresh produce (Vegetables) and baked goods (Breads), alongside a flavoring category (Spices Masala). This specific combination of Milk, Breads, and Vegetables is supported by historical co-order evidence showing moderate lift for these pairs, suggesting a compatible need for basic meal ingredients or household staples.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,34 +10,47 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were purchased together in this order. Historical evidence shows these categories are co-ordered with a support of 0.3, confidence of 0.517, and lift of 1.293.",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Milk"
       ],
-      "combination_text": "Breads and Milk were purchased together in this order.",
+      "combination_text": "Breads and Milk were purchased together in this order. Historical evidence shows these categories are co-ordered with a support of 0.26, confidence of 0.722, and lift of 1.245.",
       "support": 0.26,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Vegetables"
       ],
-      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "combination_text": "Breads and Vegetables were purchased together in this order. Historical evidence shows these categories are co-ordered with a support of 0.22, confidence of 0.611, and lift of 1.528.",
       "support": 0.22,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Meal preparation involving dairy, bread, and vegetables.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user likely has a need for basic household staples including dairy, fresh produce, and baked goods, possibly for immediate meal preparation given the inclusion of spices.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns cannot be confirmed as stable or habitual. Confidence in inferred preferences is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

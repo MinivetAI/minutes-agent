@@ -1,7 +1,7 @@
 {
   "daypart": "night",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-02-08 during the night on a weekend. The basket contains two items: one unit of Savouries Namkeens and one unit of Sweets Mithai. This represents a narrow basket breadth with two distinct snack-related categories purchased together. The `shopping_need_text` is compatible with a desire for ready-to-eat snacks or sweet treats.",
+  "basket_summary_text": "A single order placed on a weekend night containing one item from Savouries Namkeens and one from Sweets Mithai. This combination represents a single observation of a snack or sweet treat purchase.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Savouries Namkeens",
         "Sweets Mithai"
       ],
-      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in this order.",
+      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in one order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Snacking or sweet treat consumption.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket is compatible with a need for ready-to-eat snacks or sweets, potentially for immediate consumption or gifting, though no specific occasion is evidenced.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It does not establish a durable preference or routine. Confidence is low because there is no repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T22:18:01",
+    "last_seen_at": "2026-02-08T22:18:01"
+  }
 }

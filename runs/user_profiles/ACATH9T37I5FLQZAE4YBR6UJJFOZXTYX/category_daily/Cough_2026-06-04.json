@@ -1,15 +1,23 @@
 {
   "date": "2026-06-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-04 (weekday), the user purchased one 25-tablet pack of VICKS Double Power Cough Drops Warming Ginger in the afternoon. This single observation indicates an immediate need for throat-soothing lozenges for quick, on-the-go relief of cough or throat irritation. The afternoon timing (25.26% share) is below the population average for this category (30.27% evening, 32.46% morning), suggesting a non-routine purchase. A single order does not establish a stable preference for the VICKS brand or lozenge format over other cough relief methods.",
+  "summary_text": "On 2026-06-04 (weekday), one order of VICKS Double Power Cough Drops Warming Ginger (25 tablets) was placed in the afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a portable, fast-acting lozenge typically used for immediate throat soothing during the day. This is a single observation on one date. It is not yet established whether this represents a stable preference for VICKS brand, cough drops specifically, or ginger-flavored variants. No recurring pattern can be confirmed.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 25-tablet pack of VICKS Double Power Cough Drops Warming Ginger. The afternoon timing (25.26% share) is below the population average for this category (30.27% evening, 32.46% morning), suggesting a non-routine, immediate need rather than a scheduled purchase.",
+      "pattern_text": "One order of VICKS Double Power Cough Drops Warming Ginger (25 tablets) on 2026-06-04. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a portable, fast-acting lozenge typically used for immediate throat soothing during the day. This is a single observation on one date. It is not yet established whether this represents a stable preference for VICKS brand, cough drops specifically, or ginger-flavored variants. No recurring pattern can be confirmed.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation does not establish a stable preference for VICKS brand or lozenge format over other cough relief methods; intent is limited to immediate symptom management.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for VICKS brand, cough drops specifically, or ginger-flavored variants. No recurring pattern can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-04T11:20:07"
+  }
 }

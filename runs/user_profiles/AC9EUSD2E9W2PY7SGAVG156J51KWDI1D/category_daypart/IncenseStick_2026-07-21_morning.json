@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one pack of MANGALDEEP Dhuno Cup (12 cups), a ready-to-burn devotional incense product. No browsing or cart activity was observed.",
+  "summary_text": "One order of MANGALDEEP Dhuno Cup (12 Cups) on 2026-07-21.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when population share is 0.3246. The product is a devotional item typically used for home worship or prayer rituals.",
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. The population baseline indicates morning purchases represent 32.46% of activity, suggesting this timing is common. The product is a ready-to-burn devotional incense cup, typically used for daily prayer or home worship rituals.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for this brand or product type.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-21T06:50:10",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

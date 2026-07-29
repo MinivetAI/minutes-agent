@@ -1,15 +1,23 @@
 {
   "date": "2026-04-16",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased a basket of fresh, unbranded vegetables including pumpkin, cucumber, ginger, potatoes, bitter gourd, onion, and tomato during the morning. This timing aligns with the population's highest shopping share (32.46%). The items are fresh, perishable staples typically used for immediate meal preparation. No browsing or search data is available to determine if this was a planned or urgent purchase. No brand preferences are evident as all items are unbranded.",
+  "summary_text": "On 2026-04-16 (weekday), the user ordered fresh vegetables in the morning, including pumpkin, cucumber, ginger, potato, bitter gourd, onion, and tomato. This single order suggests immediate meal preparation needs. No stable preferences or brand loyalty can be established from this isolated observation.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased a basket of fresh, unbranded vegetables including pumpkin, cucumber, ginger, potatoes, bitter gourd, onion, and tomato. This timing aligns with the population's highest shopping share (32.46%).",
+      "pattern_text": "Ordered fresh vegetables (pumpkin, cucumber, ginger, potato, bitter gourd, onion, tomato) in the morning on a weekday. This single order indicates immediate meal preparation needs.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or search data is available to determine if this was a planned or urgent purchase. No brand preferences are evident as all items are unbranded.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Single order observed; no repeat purchases to establish stable preferences or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-16"
+    ],
+    "first_seen_at": "2026-04-16T06:47:33",
+    "last_seen_at": "2026-04-16T06:47:33"
+  }
 }

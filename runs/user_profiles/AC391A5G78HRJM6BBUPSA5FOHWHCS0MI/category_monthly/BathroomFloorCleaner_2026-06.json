@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "On 2026-06-02 (weekday), the user purchased one 1 L bottle of Harpic Bathroom Disinfectant Cleaner Floral in the evening. This thick liquid cleaner with floral fragrance is intended for routine cleaning and disinfection of bathroom floors, tiles, and sinks. The order occurred in the evening, a period where this category shows a population share of 0.3027, slightly below the morning baseline of 0.3246. The product serves a general utility for bathroom hygiene and surface maintenance. This is a single observed order on one date; it does not establish a stable preference or routine. The specific motivation for this purchase (e.g., restock vs. deep clean) is not determined.",
+  "summary_text": "On 2026-06-02 (weekday), one unit of Harpic Bathroom Disinfectant Cleaner Floral 1 L was purchased during the evening. This single observation does not establish a stable preference for this brand or product, nor does it confirm a recurring routine; it may reflect an immediate cleaning need. The evening timing aligns with a population share of 0.3027, which is comparable to the morning share (0.3246) and higher than afternoon (0.2526) and night (0.1202) shares.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific motivation for this purchase (e.g., restock vs. deep clean) is not determined.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

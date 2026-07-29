@@ -1,11 +1,11 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased VICKS Double Power Cough Drops Warming Ginger on two independent dates (2026-06-04 and 2026-06-11). This repetition meets the threshold for a stable preference claim. The user bought a single 25-tablet pack on a weekday afternoon and four packs on a weekday night. The afternoon timing is below the population average for this category, while the night timing is lower than morning, afternoon, or evening shares. The product serves as a portable, fast-acting throat lozenge for immediate, on-the-go relief of cough or throat irritation. No browsing, search, or cart activity was recorded for this category in this window.",
+  "summary_text": "In 2026-06, the user placed two orders for VICKS Double Power Cough Drops Warming Ginger (one 25-tablet pack and four loose units) on independent dates (2026-06-04 and 2026-06-11). This repetition across two dates establishes a stable preference for this specific brand and variant. The user also exhibits a pattern of purchasing this product during the night, observed on 2026-06-11, which contrasts with the population baseline where night shares are typically lower than morning or evening. The afternoon purchase on 2026-06-04 aligns with the population baseline where afternoon shares are lower than morning and evening.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "VICKS",
-      "claim_text": "The user has a stable preference for the VICKS brand in the Cough category, evidenced by purchases on two independent dates in June 2026.",
+      "claim_text": "The user has a stable preference for the VICKS brand, evidenced by purchases on 2 independent dates in 2026-06.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,14 +13,28 @@
     {
       "dimension": "product",
       "value": "VICKS Double Power Cough Drops Warming Ginger",
-      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on two independent dates in June 2026.",
+      "claim_text": "The user has a stable preference for VICKS Double Power Cough Drops Warming Ginger, evidenced by purchases on 2 independent dates in 2026-06.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "The stable preference is based on only two independent dates. The user's timing varies between afternoon and night, and the quantity purchased varied significantly (1 pack vs. 4 packs), indicating the specific need or stock level may fluctuate. No browsing or cart behavior was observed to indicate comparison or hesitation.",
-  "overall_confidence": "medium"
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased VICKS Double Power Cough Drops Warming Ginger during the night on 2026-06-11. This timing is atypical compared to the population baseline, where night shares are lower than morning (0.3246) and evening (0.3027) shares.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "This analysis is based on only two independent dates in 2026-06. While the repetition of the VICKS brand and product variant supports a medium-confidence stable preference, the limited date range prevents confirmation of long-term routine or broader category preferences.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-04",
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2026-03-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-28 (weekend), the user purchased one 900 g pack of VEEBA Tomato Chef\u2019s Special Ketchup during the morning. This purchase occurred in a daypart where the user's activity is above the population baseline (32.46%). The product is a large-format condiment suitable for family meals or regular kitchen use. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one 900 g pack of VEEBA Tomato Chef\u2019s Special Ketchup. This occurred during a time when the user's activity is above the population baseline (32.46%).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased Veeba Tomato Chef’s Special Ketchup 900 g during the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity for this category. The product is a large-format condiment typically used for family meals or stocking up. This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment, or a one-time purchase. No other brands or products in this category have been observed to determine if this is an isolated event or part of a pattern.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment, or a one-time purchase. No other brands or products in this category have been observed to determine if this is an isolated event or part of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T09:52:49",
+    "last_seen_at": "2026-03-28T09:52:49"
+  }
 }

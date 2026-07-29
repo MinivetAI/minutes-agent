@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 125 g pack of Cycle Pure Flute Agarbatti in Lavender fragrance. No browsing events (search, views, or cart activity) were recorded for this category during this session.",
+  "summary_text": "One order of Cycle Pure Flute Agarbatti Lavender Fragrance (125 g) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when the user's activity (32.5% share) is above the population baseline for this daypart. The product is a standard home fragrance item intended for ambient scenting or routine use.",
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date; it is unclear if this represents a stable preference for the Cycle brand or lavender fragrance, or if it was a one-time replacement for a stockout.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchasing activity is above the population baseline (32.46%). The product is a standard home fragrance item, suggesting an immediate need for ambient scent or preparation for daily routines such as prayer or general home freshness.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to determine if this is a recurring habit, a specific preference for the lavender scent or the Cycle brand, or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T08:07:58",
+    "last_seen_at": "2026-05-01T08:07:58"
+  }
 }

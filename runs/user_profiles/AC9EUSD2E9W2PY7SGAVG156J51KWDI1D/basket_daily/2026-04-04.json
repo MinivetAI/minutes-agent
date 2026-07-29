@@ -1,7 +1,7 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-04 (weekend), a single order was placed in the morning daypart. The basket was narrow, containing one unit of Sweets Mithai and one unit of Return Gift Accessory. This combination suggests a need for items suitable for a celebration or gifting occasion. No other products were purchased or added to cart in this daypart.",
+  "summary_text": "On this weekend, a single order was placed in the morning daypart. The basket contained one unit each of Sweets Mithai and Return Gift Accessory. This combination suggests a specific, isolated need compatible with gifting or celebration, rather than routine grocery replenishment. No other products were purchased in this transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Sweets Mithai",
         "Return Gift Accessory"
       ],
-      "combination_text": "Sweets Mithai and Return Gift Accessory were purchased together in a single order.",
-      "support": null,
+      "combination_text": "Sweets Mithai and Return Gift Accessory were purchased together in this single order.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "A need for items suitable for a celebration or gifting occasion, such as sweets and accessories for return gifts.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` provided relates to different categories (Milk, Vegetables, Breads, etc.) and does not match the products in this specific order; therefore, no support/confidence/lift values from that evidence are applied to this basket's combination.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Sweets Mithai and Return Gift Accessory suggests a need related to gifting, celebration, or a special occasion requiring both consumable treats and presentation items. This is a compatible interpretation of the basket contents.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. No durable preferences, routines, or stable patterns can be inferred. The observed behavior is an isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T08:10:57",
+    "last_seen_at": "2026-04-04T08:10:57"
+  }
 }

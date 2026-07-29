@@ -1,9 +1,17 @@
 {
   "date": "2026-07-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-05 (weekend), the user purchased 1 unit of Bonn High Fibre Brown Bread 400 g during the morning. This timing aligns with the population morning share (0.3246), which is the highest among dayparts. The product is a packaged brown bread loaf, compatible with breakfast, sandwiches, or toast. This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "summary_text": "On this weekend, the user ordered Bonn High Fibre Brown Bread (400 g) during the morning. This timing aligns with a higher-than-baseline frequency for morning purchases (32.5% population share). The product is a staple bread item, likely intended for immediate breakfast or sandwich preparation. As this is a single observation on one date, it does not yet establish a stable preference for the Bonn brand, brown bread, or weekend morning shopping habits.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Bonn brand, brown bread, or weekend morning shopping habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-05T10:41:31"
+  }
 }

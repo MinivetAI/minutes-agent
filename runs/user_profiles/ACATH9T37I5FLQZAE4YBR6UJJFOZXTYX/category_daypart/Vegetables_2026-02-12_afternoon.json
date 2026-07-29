@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one order of unbranded fresh vegetables on 2026-02-12 in the afternoon, including Methi Leaves (240-260g), Local Tomato (450-550g), Onion (400–450 g), and Baby Potato (280–320 g).",
+  "summary_text": "One order of unbranded fresh vegetables (Methi Leaves, Local Tomato, Onion, Baby Potato) purchased in the afternoon on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon on a weekday, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The items are standard fresh cooking staples (onion, tomato, potato, leafy greens) typically used for immediate meal preparation.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this timing.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon, which is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The products are fresh, perishable staples typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-12"
+    ],
+    "first_seen_at": "2026-02-12T14:29:35",
+    "last_seen_at": "2026-02-12T14:29:35"
+  }
 }

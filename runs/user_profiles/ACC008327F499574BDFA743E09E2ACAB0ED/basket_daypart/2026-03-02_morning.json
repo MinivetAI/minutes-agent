@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-02 in the morning on a weekday. The basket contains three items: two products from the 'Holi Color' category and one from 'Sweets Mithai'. The order-building behavior is limited to this single transaction, with no repeated patterns established. The `shopping_need_text` suggests a preparation for Holi celebrations, compatible with the purchase of colors and sweets, but this is an observation of the current basket only.",
+  "basket_summary_text": "A single order placed on 2026-03-02 in the morning on a weekday contains items from two categories: Holi Color (2 units) and Sweets Mithai (1 unit). The basket reflects a specific occasion-based need compatible with Holi celebrations, involving festive colors and traditional sweets. No other categories were purchased in this order.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Holi Color",
         "Sweets Mithai"
       ],
-      "combination_text": "Holi Color and Sweets Mithai were purchased together in this single order.",
+      "combination_text": "Holi Color and Sweets Mithai were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation for Holi festival activities, indicated by the purchase of Holi colors and sweets.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low due to the lack of repetition across independent dates.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Holi Color and Sweets Mithai is compatible with preparing for or participating in Holi festival celebrations.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It is an isolated observation and does not establish a durable preference or routine. The provided category pair evidence (e.g., Breads/Vegetables) does not match the categories in this order, so no lift or support values from that evidence apply to the observed basket.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:41:54",
+    "last_seen_at": "2026-03-02T09:41:54"
+  }
 }

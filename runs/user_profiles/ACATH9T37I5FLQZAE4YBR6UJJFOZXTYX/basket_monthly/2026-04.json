@@ -1,61 +1,115 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user placed 13 independent orders, predominantly on weekdays (8) and afternoons (6). The basket composition is heavily anchored by Vegetables, which appeared in every order. Milk and Curd Yogurt were also frequent companions to vegetables, appearing in 10 and 9 orders respectively. Diapers appeared in 4 orders. Other categories like Aerated Drinks, Savouries Namkeens, and Baby Cereal appeared in multiple orders but less consistently. No category combinations were abandoned across independent dates.",
+  "summary_text": "Across 12 independent dates in April 2026, the user placed orders on weekdays and weekends, predominantly in the afternoon and evening. Vegetables appeared in every order, establishing it as a consistent staple. Milk and Curd Yogurt were frequently co-purchased with Vegetables and with each other, appearing across multiple independent dates. Diapers were present in three separate orders, indicating a recurring household need for baby care supplies. Other categories such as Fruits, Aerated Drinks, and Savouries Namkeens appeared sporadically. No single daypart or category combination dominates to the exclusion of others; the behavior reflects a broad, multi-category grocery restock pattern with a strong emphasis on fresh produce and dairy.",
   "stable_daypart_behavior": [],
-  "stable_behavior_patterns": [
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [
     {
-      "behavior_text": "Vegetables were purchased in every order across the month.",
-      "circumstance_text": "Present in all 13 independent dates.",
-      "confidence": "high"
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables",
+      "support": 0.525,
+      "lift": 1.038,
+      "confidence": "high",
+      "evidence_count": 7,
+      "independent_date_count": 7
     },
     {
-      "behavior_text": "Milk was purchased alongside Vegetables in the majority of orders.",
-      "circumstance_text": "Purchased in 10 of 13 independent dates.",
-      "confidence": "high"
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables",
+      "support": 0.443,
+      "lift": 1.07,
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
     },
     {
-      "behavior_text": "Curd Yogurt was purchased alongside Vegetables in the majority of orders.",
-      "circumstance_text": "Purchased in 9 of 13 independent dates.",
-      "confidence": "high"
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk",
+      "support": 0.344,
+      "lift": 1.438,
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
     },
     {
-      "behavior_text": "Diapers were purchased in a subset of orders.",
-      "circumstance_text": "Purchased in 4 of 13 independent dates.",
-      "confidence": "medium"
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables",
+      "support": 0.262,
+      "lift": 1.07,
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
     },
     {
-      "behavior_text": "Aerated Drinks were purchased in a subset of orders.",
-      "circumstance_text": "Purchased in 4 of 13 independent dates.",
-      "confidence": "medium"
+      "categories": [
+        "Aerated Drinks",
+        "Vegetables"
+      ],
+      "combination_text": "Aerated Drinks and Vegetables",
+      "support": 0.328,
+      "lift": 1.0,
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
     },
     {
-      "behavior_text": "Savouries Namkeens were purchased in a subset of orders.",
-      "circumstance_text": "Purchased in 3 of 13 independent dates.",
-      "confidence": "medium"
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables",
+      "support": 0.213,
+      "lift": 1.0,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "behavior_text": "Baby Cereal was purchased in a subset of orders.",
-      "circumstance_text": "Purchased in 3 of 13 independent dates.",
-      "confidence": "medium"
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables",
+      "support": 0.246,
+      "lift": 1.0,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Vegetables are the consistent anchor of the basket, appearing in every order.",
-      "confidence": "high"
-    },
-    {
-      "claim_text": "Milk and Curd Yogurt are frequent co-purchases with Vegetables, suggesting a stable dairy-produce pairing.",
-      "confidence": "high"
-    },
-    {
-      "claim_text": "Diaper purchases occur intermittently, appearing in roughly one-third of orders.",
-      "confidence": "medium"
-    }
-  ],
-  "shopping_need_text": "The user has a consistent need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt). There is an intermittent need for baby care items (Diapers, Baby Cereal) and occasional purchases of beverages (Aerated Drinks) and snacks (Savouries Namkeens).",
-  "uncertainty_text": "Isolated cases of category abandonment were not observed across independent dates, so no stable abandonment patterns are listed. Specific product preferences within categories (e.g., specific milk brands) cannot be determined as stable due to variation in product selection across dates.",
-  "overall_confidence": "high"
+  "trend_claims": [],
+  "shopping_need_text": "The user requires daily household sustenance, characterized by consistent purchases of fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt). There is a recurring need for baby care supplies (Diapers) and occasional purchases of beverages (Aerated Drinks), snacks (Savouries Namkeens), and fresh fruits. The basket composition suggests preparation of home-cooked meals alongside convenience items and household maintenance supplies.",
+  "uncertainty_text": "While Vegetables, Milk, and Curd Yogurt appear across many independent dates, establishing them as stable staples, the specific combinations and additional categories (e.g., Diapers, Aerated Drinks) vary. The high frequency of Vegetables and Dairy co-occurrence supports high confidence in those specific relationships. However, the lack of a single dominant daypart or exclusive category preference means the overall profile reflects a broad, flexible shopping habit rather than a rigid routine.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 12,
+    "purchase_dates": [
+      "2026-04-01",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-12",
+      "2026-04-14",
+      "2026-04-17",
+      "2026-04-21",
+      "2026-04-24",
+      "2026-04-26",
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

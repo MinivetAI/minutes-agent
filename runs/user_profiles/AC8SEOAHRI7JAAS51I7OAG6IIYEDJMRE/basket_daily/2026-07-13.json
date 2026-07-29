@@ -1,7 +1,7 @@
 {
   "date": "2026-07-13",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-13, a single order was placed in the evening. The basket contained one unit of a product from the 'Dips Sauces Pastes' category and one unit from the 'Breads' category. This narrow basket of two distinct categories suggests a compatible need for a snack or light meal component. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-07-13 (weekday), a single order was placed in the evening. The basket contained one unit each from the Breads and Dips Sauces Pastes categories. This combination is compatible with a need for basic food items, such as bread and a dip or sauce, potentially for a quick meal or snack. No other products were purchased in this order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,11 +13,20 @@
       "combination_text": "Breads and Dips Sauces Pastes were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Breads and Dips Sauces Pastes is compatible with a need for a quick snack, appetizer, or light evening meal component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents a specific transactional event rather than a durable preference or routine. No stable patterns can be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket is compatible with a need for basic food items, such as bread and a dip or sauce, potentially for a quick meal or snack.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as routine, preference, or stable behavior cannot be inferred from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-13"
+    ],
+    "first_seen_at": "2026-07-13T18:04:49",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

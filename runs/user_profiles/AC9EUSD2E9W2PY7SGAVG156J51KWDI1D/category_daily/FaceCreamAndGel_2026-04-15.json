@@ -1,9 +1,17 @@
 {
   "date": "2026-04-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-15 (weekday), the user purchased 1 unit of Pilgrim Red Vine Night Creme Gel (50 g) in the afternoon. This is a night-use face moisturizer, suggesting the order was intended for future overnight application rather than immediate daytime use. The purchase occurred during an afternoon session, a time when the user's activity is less common than the population baseline for morning (0.3246) and evening (0.3027) sessions. This single observed order on one date does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-04-15 (weekday), the user purchased one unit of Pilgrim Red Vine Night Creme Gel (50 g) in the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a night-use moisturizer, suggesting a replenishment need for overnight skin care rather than an immediate daytime application. This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time trial, or a replacement for a discontinued product. No brand or product preference can be confirmed from this single instance.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time trial, or a replacement for a discontinued product. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-15"
+    ],
+    "first_seen_at": "2026-04-15T13:09:44",
+    "last_seen_at": "2026-04-15T13:09:44"
+  }
 }

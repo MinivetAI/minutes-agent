@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 Flipkart SmartBuy Hand Slip Kitchen & Glass Wiper (a manual cleaning accessory for kitchen surfaces and glass) in the afternoon.",
+  "summary_text": "One Flipkart SmartBuy Hand Slip Kitchen & Glass Wiper (quantity 1) purchased on 2026-05-11.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The product is a basic utility item for immediate household cleanup tasks.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares. The product is a basic manual cleaning tool, suggesting a utility need for immediate surface cleanup or replacement of a worn item.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Flipkart SmartBuy brand, a specific product type, or a one-time replacement need. No recurring pattern can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-11"
+    ],
+    "first_seen_at": "2026-05-11T13:24:35",
+    "last_seen_at": "2026-05-11T13:24:35"
+  }
 }

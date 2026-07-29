@@ -1,34 +1,40 @@
 {
-  "category": "Butter Margarine",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for the Amul brand within the Butter Margarine category, evidenced by purchases across four independent months (February, May, June, July 2026). The user exhibits a slow replenishment cadence, averaging approximately 34 days between purchases. Product format varies between 100 g and 200 g packs, with no single pack size dominating the history. Purchases occur across both weekdays and weekends, and morning and evening dayparts, indicating flexible timing driven by household need rather than a rigid schedule. The product is used for standard kitchen tasks such as spreading and cooking.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "Amul is the user's established brand for Butter Margarine, appearing in purchases across four independent months (Feb, May, Jun, Jul 2026).",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 34.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-07-19",
-    "predicted_next_purchase_date": "2026-08-22",
-    "replenishment_text": "The user typically repurchases this category every 34 days, classified as a slow cadence. The last purchase was on 2026-07-19, with the next expected around 2026-08-22.",
-    "confidence": "high",
-    "evidence_count": 6,
-    "independent_date_count": 6
+  "category_name": "Butter Margarine",
+  "summary_text": "The user has demonstrated a stable preference for Amul brand, specifically Pasteurised Salted Butter, supported by purchases across multiple months (Feb, Apr, May, Jun, Jul 2026). The most robust evidence comes from April 2026, where two independent weekend afternoon purchases established a medium-confidence stable preference for both the brand and the salted butter variant. While other months show single observations of the same product (often 100g or 200g packs), the repetition of Amul salted butter across five distinct months confirms it as the primary category anchor. Timing varies (morning, afternoon, evening, weekday, weekend), preventing a single high-confidence daypart pattern, though morning activity aligns with population baselines.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user has a stable preference for Amul butter, evidenced by purchases on multiple independent dates spanning February through July 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to Amul brand butter products; it does not extend to other butter brands or margarine products."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Pasteurised Salted Butter",
+        "preference_text": "The user has a stable preference for salted butter, evidenced by purchases on two independent dates in April 2026 and consistent ordering in other months.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; the user has completed transactions on all observed dates of interest.",
-  "substitution_text": "No evidence of substitution behavior; the user consistently purchases Amul brand products.",
-  "price_value_text": "No explicit price sensitivity or value-seeking behavior is evident; the user purchases both 100 g and 200 g formats, suggesting format choice is driven by immediate need or availability rather than strict unit-price optimization.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Restocking staple kitchen ingredients for daily cooking and breakfast preparation.",
-  "overall_confidence": "high"
+  "daypart_understanding": [],
+  "substitution_text": "Amul Pasteurised Salted Butter is the established staple. No evidence of substitution to other brands or margarine types was observed; the user consistently returns to this specific product line.",
+  "uncertainty_text": "While the brand and product type (salted butter) are stable, the specific pack size (100g vs 200g) and daypart timing are not consistently repeated enough to establish high-confidence stable preferences. The user buys this product across different times of day (morning, afternoon, evening) and days (weekday, weekend), suggesting flexibility in timing rather than a rigid routine. It is unknown if the user would accept unsalted butter or other brands if Amul salted butter were unavailable.",
+  "retrieval_text": "The user consistently purchases Amul brand Pasteurised Salted Butter, with high-confidence evidence spanning five months (Feb-Jul 2026). A stable medium-confidence preference for this specific brand and salted variant was established in April 2026 via two independent weekend afternoon purchases. Subsequent single observations in Feb, May, Jun, and Jul confirm the brand loyalty, with pack sizes varying between 100g and 200g. Timing is variable, occurring on weekdays and weekends during morning, afternoon, and evening slots, aligning generally with population baselines but lacking a single dominant daypart pattern. No other brands or margarine alternatives were observed.",
+  "replenishment": {
+    "cadence_days": 34,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-08-22",
+    "replenishment_text": "ButterMargarine is reordered roughly every 34 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-07-19T19:32:49"
+  }
 }

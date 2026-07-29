@@ -1,93 +1,33 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), a single order was placed in the evening. The basket contained one unit each of a vegetable product, a bread product, and a milk product. This combination suggests a potential need for basic meal components involving fresh produce, a carbohydrate source, and dairy. As this is the only observed instance for this date, no durable preferences or routine behaviors can be inferred.",
+  "summary_text": "On this weekend, a single order was placed during the evening. The basket contained one unit each of Vegetables, Breads, and Milk. This combination suggests a basic meal-preparation need, pairing a staple carbohydrate (Breads) with fresh produce (Vegetables) and a dairy staple (Milk). No other categories were included in this transaction. Because this behavior is based on a single observed order on one independent date, it does not establish a durable preference or routine. Confidence in any inferred habit is low.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
+        "Vegetables",
         "Breads",
-        "Vegetables"
+        "Milk"
       ],
-      "combination_text": "Breads and Vegetables were purchased together in this order.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "DipsSaucesPastes",
-        "Vegetables"
-      ],
-      "combination_text": "DipsSaucesPastes and Vegetables were not purchased together in this order.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "SpicesMasala"
-      ],
-      "combination_text": "SavouriesNamkeens and SpicesMasala were not purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables were not purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Fruits"
-      ],
-      "combination_text": "CurdYogurt and Fruits were not purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "IceCreams",
-        "Vegetables"
-      ],
-      "combination_text": "IceCreams and Vegetables were not purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "DipsSaucesPastes"
-      ],
-      "combination_text": "Breads and DipsSaucesPastes were not purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
+      "combination_text": "Vegetables, Breads, and Milk",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for basic meal components including fresh vegetables, a carbohydrate source like bread, and a dairy product like milk.",
-  "uncertainty_text": "This analysis is based on a single order on 2026-07-04. No durable preferences or routine behaviors can be inferred from this single observation. Category pair statistics (support, confidence, lift) reflect population-level associations from the provided evidence, not necessarily this specific user's habitual behavior, as this is the only observed instance for this user.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Preparation of a simple meal or snack involving bread, vegetables, and milk.",
+  "uncertainty_text": "This behavior is based on a single observed order on one independent date. It does not establish a durable preference or routine. Confidence in any inferred habit is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T16:42:45",
+    "last_seen_at": "2026-07-04T16:42:45"
+  }
 }

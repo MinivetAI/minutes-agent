@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased Vicco Turmeric Skin Cream (50 g) on a single date (2026-07-20). This single observation does not establish a stable preference or routine for this brand or product. The purchase occurred in the evening, aligning with general evening activity patterns (30.27% population share). The product is an Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief. No other face cream or gel products were observed in this month.",
+  "summary_text": "On 2026-07-20 (weekday), the user purchased Vicco Turmeric Skin Cream (50 g) during the evening. This timing aligns with the population baseline, where evening purchases (0.3027 share) are nearly as common as morning purchases (0.3246 share) for Face Cream And Gel. The product is a daily-use Ayurvedic face cream typically used for skin glow and tone-evening. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or specific skin concerns cannot be established. The user's specific reason for choosing this product or timing is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-20"
+    ],
+    "first_seen_at": "2026-07-20T19:05:15",
+    "last_seen_at": "2026-07-20T19:05:15"
+  }
 }

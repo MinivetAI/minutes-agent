@@ -1,83 +1,193 @@
 {
-  "profile_text": "The user demonstrates a consistent, high-frequency need for fresh produce (Vegetables), which appears in every observed order across all seven months of evidence (January 2026 through July 2026). This category serves as the primary anchor for the basket. Dairy staples, specifically Milk and Curd Yogurt, are frequent companions to Vegetables, appearing together in the majority of orders across multiple months. The co-occurrence of Vegetables and Milk is supported by high confidence across February, April, and May, while Curd Yogurt frequently joins this pairing, particularly in February and April. Beyond staples, the user exhibits recurring needs for infant care supplies (Diaper, Baby Cereal) and occasional household snacks and beverages (Savouries Namkeens, Aerated Drinks, Fruits). Shopping timing is variable; while February and April showed a concentration on weekday afternoons/evenings, other months show activity across all dayparts (morning, afternoon, evening, night) and both weekdays and weekends. No single daypart or brand preference is stable enough to define a routine. The basket breadth is generally moderate, focusing on fresh food and baby essentials, with occasional additions of health items (Cough medicine) or personal care goods.",
-  "behavior_patterns": [],
-  "daypart_behavior": [],
-  "basket_structure_text": "The basket is consistently anchored by Vegetables. In high-confidence months (February, April, May), Vegetables are frequently paired with Milk and/or Curd Yogurt. Secondary categories that appear repeatedly but with lower frequency include Diaper, Baby Cereal, Savouries Namkeens, and Aerated Drinks. Fruits appear in multiple months but are not as consistent as the dairy/produce pairing. The user does not exhibit a stable pattern of abandoning specific categories; no abandonment patterns are carried forward.",
-  "circumstance_patterns": [],
-  "category_combination_patterns": [
+  "summary_text": "The user maintains a stable, high-frequency grocery basket centered on fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), which appear together across nearly every month from January to July 2026. Vegetables are a universal staple, present in every observed order. Dairy co-occurrence with vegetables is highly consistent, supported by high-confidence patterns in April and June. A recurring household need for baby care supplies (Diapers, Baby Cereal) is evident, particularly in June and sporadically in other months. The user shops across weekdays and weekends, with no single dominant daypart, though morning activity is noted in July. The basket reflects a broad, flexible household provisioning routine rather than a rigid, single-daypart schedule.",
+  "basket_relationships": [
     {
+      "anchor_products": [],
+      "companion_products": [],
       "categories": [
-        "Vegetables",
+        "Milk",
+        "Vegetables"
+      ],
+      "relationship_text": "Milk and Vegetables are consistently purchased together, appearing in nearly every month with high repetition.",
+      "recommendation_use_text": "Cross-sell dairy with produce or vice versa.",
+      "boundary_text": "Not every milk purchase includes vegetables, and not every vegetable purchase includes milk.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 7,
+        "independent_date_count": 7,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "relationship_text": "Curd Yogurt and Vegetables are frequently co-purchased, showing stable cross-category association.",
+      "recommendation_use_text": "Bundle dairy desserts with fresh produce.",
+      "boundary_text": "Not every curd purchase is paired with vegetables.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 6,
+        "independent_date_count": 6,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Curd Yogurt",
         "Milk"
       ],
-      "combination_text": "Vegetables and Milk are frequently purchased together across multiple independent dates in February, April, and May.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
+      "relationship_text": "Curd Yogurt and Milk are regularly bought together, indicating a combined dairy restock.",
+      "recommendation_use_text": "Promote dairy bundles.",
+      "boundary_text": "Not every milk purchase includes curd.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 5,
+        "independent_date_count": 5,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
     },
     {
+      "anchor_products": [],
+      "companion_products": [],
       "categories": [
-        "Vegetables",
-        "Curd Yogurt"
+        "Diaper",
+        "Vegetables"
       ],
-      "combination_text": "Vegetables and Curd Yogurt are frequently purchased together, particularly in February and April.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
+      "relationship_text": "Diapers and Vegetables are frequently purchased together, linking baby care with fresh food provisioning.",
+      "recommendation_use_text": "Target baby care shoppers with produce offers.",
+      "boundary_text": "Not every diaper purchase includes vegetables.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 5,
+        "independent_date_count": 5,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
     },
     {
+      "anchor_products": [],
+      "companion_products": [],
       "categories": [
-        "Vegetables",
-        "Baby Cereal"
+        "Aerated Drinks",
+        "Vegetables"
       ],
-      "combination_text": "Vegetables and Baby Cereal are frequently purchased together across multiple independent dates in March and May.",
-      "support": null,
-      "lift": null,
+      "relationship_text": "Aerated Drinks and Vegetables appear together on multiple independent dates, suggesting occasional beverage stocking with fresh food.",
+      "recommendation_use_text": "Cross-sell beverages with produce.",
+      "boundary_text": "Not every vegetable order includes aerated drinks.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 4,
+        "independent_date_count": 4,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "relationship_text": "Fruits and Vegetables are regularly co-purchased, indicating a fresh food pairing.",
+      "recommendation_use_text": "Bundle fresh produce.",
+      "boundary_text": "Not every fruit purchase includes vegetables.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 3,
+        "independent_date_count": 3,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "relationship_text": "Baby Cereal and Vegetables are frequently bought together, linking infant nutrition with fresh food.",
+      "recommendation_use_text": "Target baby food shoppers with produce.",
+      "boundary_text": "Not every baby cereal purchase includes vegetables.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 3,
+        "independent_date_count": 3,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "relationship_text": "Savouries Namkeens and Vegetables appear together on multiple dates, suggesting snack stocking with fresh food.",
+      "recommendation_use_text": "Cross-sell snacks with produce.",
+      "boundary_text": "Not every savoury purchase includes vegetables.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 2,
+        "independent_date_count": 2,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    }
+  ],
+  "value_text": "The user demonstrates a consistent, high-frequency need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), often combined with baby care items (Diapers, Baby Cereal). This reflects a stable household provisioning pattern focused on daily sustenance and infant care, with occasional additions of beverages and snacks.",
+  "basket_size_segment": "medium",
+  "large_basket_tendency": "medium",
+  "multi_quantity_tendency": "medium",
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "Morning orders are observed, particularly in July where all three orders occurred in the morning, and in May/June where morning activity is noted alongside other dayparts.",
       "confidence": "medium"
     },
     {
-      "categories": [
-        "Vegetables",
-        "Savouries Namkeens"
-      ],
-      "combination_text": "Vegetables and Savouries Namkeens are frequently purchased together across multiple independent dates in March and May.",
-      "support": null,
-      "lift": null,
+      "daypart": "afternoon",
+      "behavior_text": "Afternoon orders are frequently observed in February, April, and May, indicating a common shopping window.",
       "confidence": "medium"
     },
     {
-      "categories": [
-        "Vegetables",
-        "Aerated Drinks"
-      ],
-      "combination_text": "Vegetables and Aerated Drinks are frequently purchased together across multiple independent dates in March and May.",
-      "support": null,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Fruits"
-      ],
-      "combination_text": "Vegetables and Fruits are frequently purchased together across multiple independent dates in March and May.",
-      "support": null,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Diaper"
-      ],
-      "combination_text": "Vegetables and Diaper are frequently purchased together across multiple independent dates in March and May.",
-      "support": null,
-      "lift": null,
+      "daypart": "evening",
+      "behavior_text": "Evening orders are observed in February, April, and June, showing consistent activity in this window.",
       "confidence": "medium"
     }
   ],
-  "abandonment_patterns": [],
-  "mission_generation_text": "The user requires a reliable supply of fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) for daily household consumption. There is a recurring need for infant nutrition and care items (Baby Cereal, Diaper). The user also periodically replenishes snacks (Savouries Namkeens) and beverages (Aerated Drinks) and occasionally purchases fruits or health-related items.",
-  "uncertainty_text": "While Vegetables are a stable anchor, specific product brands, variants, and precise daypart timings are not consistent enough to establish a rigid routine. Shopping times vary significantly across months (from morning-only in July to all-dayparts in May). Infant care items (Diaper, Baby Cereal) appear frequently but not in every order, indicating intermittent rather than daily replenishment needs. Health items like Cough medicine appear on isolated dates and do not form a stable pattern. No stable abandonment behaviors were observed.",
-  "overall_confidence": "high"
+  "day_type_understanding": [
+    {
+      "day_type": "weekday",
+      "behavior_text": "Orders are placed on weekdays across all months, with no exclusive preference for weekends.",
+      "confidence": "high"
+    },
+    {
+      "day_type": "weekend",
+      "behavior_text": "Orders are placed on weekends across all months, indicating flexible shopping timing.",
+      "confidence": "high"
+    }
+  ],
+  "uncertainty_text": "While Vegetables, Milk, and Curd Yogurt are stable staples, the specific additional categories (e.g., Diapers, Aerated Drinks) vary significantly across dates. No single daypart dominates exclusively, and no specific product brands or variants are consistently repeated to establish high-confidence product-level preferences. The user's basket composition is broad and flexible.",
+  "retrieval_text": "Stable basket profile characterized by consistent co-purchasing of Vegetables with Milk, Curd Yogurt, Diapers, Baby Cereal, Fruits, and Aerated Drinks. Vegetables are a universal staple present in every order. Dairy (Milk, Curd Yogurt) is a frequent companion. Baby care items (Diapers, Baby Cereal) recur regularly, indicating household provisioning for infant care. Shopping occurs across weekdays and weekends in morning, afternoon, and evening dayparts, reflecting a flexible, multi-category grocery routine focused on fresh produce and dairy.",
+  "evidence": {
+    "evidence_count": 60,
+    "independent_date_count": 59,
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-07-08T09:01:24"
+  },
+  "user_id": "ACATH9T37I5FLQZAE4YBR6UJJFOZXTYX",
+  "artifact_type": "basket_profile",
+  "updated_at": "2026-07-29T05:33:26.616093"
 }

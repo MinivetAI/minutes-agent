@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Amul Pasteurised Salted Butter 100 g in the afternoon.",
+  "summary_text": "One order of Amul Pasteurised Salted Butter 100 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a timing less common than the population baseline for this category (afternoon share 0.2526 vs morning 0.3246). The product is a standard small-format salted butter suitable for immediate kitchen use.",
-  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the afternoon on a weekday. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a standard kitchen staple suitable for everyday cooking, baking, or spreading.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Amul butter, a specific brand loyalty, or a one-time need. No other products or brands were observed in this window to determine broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-31T11:33:41",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

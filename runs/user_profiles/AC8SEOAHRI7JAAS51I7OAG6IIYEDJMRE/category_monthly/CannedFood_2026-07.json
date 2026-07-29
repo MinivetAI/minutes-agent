@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one 450 g can of Del Monte Baked Beans on a single weekend date (2026-07-05) during the afternoon. This purchase occurred in a daypart where the user's activity is below the population baseline (25.26% share vs. 32.46% for morning). The product is a shelf-stable, ready-to-eat pantry item, suggesting a need for convenient meal components or backup food supplies. No browsing or search history is available to indicate prior interest or comparison.",
+  "summary_text": "In July 2026, the user purchased Del Monte Baked Beans (450 g) on one weekend date during the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares, but still represent a significant portion of activity. The product is a shelf-stable canned item, typically used as a convenient pantry staple or quick meal component. This is a single observation on one date. It is not yet possible to establish a stable brand preference for Del Monte, a recurring daypart habit, or a specific use case (e.g., breakfast vs. dinner side) based on this isolated transaction.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for canned beans or the Del Monte brand. No browsing or search history is available to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to establish a stable brand preference for Del Monte, a recurring daypart habit, or a specific use case (e.g., breakfast vs. dinner side) based on this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T11:24:33",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

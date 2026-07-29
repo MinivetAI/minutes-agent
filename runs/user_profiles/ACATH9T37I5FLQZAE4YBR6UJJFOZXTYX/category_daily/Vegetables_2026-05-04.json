@@ -1,9 +1,23 @@
 {
   "date": "2026-05-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-04 (weekday), the user placed one order of Unbranded Onion (400–450 g) in the afternoon. This timing falls within a period where the user's activity is below the population baseline (25.26% share). The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-04 (weekday), the Vegetables category was purchased once in the afternoon. The order consisted of Unbranded Onion (400–450 g). This afternoon purchase falls below the population baseline peaks for morning (0.3246) and evening (0.3027), though above the night share (0.1202). As this is a single observation on one date, it does not establish a stable brand preference, regular cadence, or specific meal context.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Unbranded Onion (400–450 g) placed on a weekday afternoon. This afternoon purchase falls below the population baseline peaks for morning (0.3246) and evening (0.3027), though above the night share (0.1202).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date; no repeated behavior or browsing history is available to establish a stable preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, regular cadence, or specific meal context for this user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T13:09:05",
+    "last_seen_at": "2026-05-04T13:09:05"
+  }
 }

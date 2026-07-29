@@ -1,23 +1,19 @@
 {
   "date": "2026-06-02",
   "day_type": "weekday",
-  "summary_text": "On this weekday, a single evening order was placed containing 12 distinct items across 11 categories. The basket reflects a restocking of household essentials, including dairy (Milk, Buttermilk), cooking fats (Ghee, Other Cooking Oil), pantry staples (Sugar), personal care (Toothpaste, Shampoo, Conditioner, Handwash), cleaning supplies (Toilet Cleaner, Bathroom Floor Cleaner), and snacks (Cookies Biscuits).",
+  "summary_text": "On this weekday, the user placed a single evening order comprising 12 items across 12 distinct categories. The basket included dairy products (Milk, Buttermilk, Ghee), pantry staples (Sugar, Cookies Biscuits), personal care items (Toothpaste, Shampoo, Conditioner, Handwash), and cleaning supplies (Toilet Cleaner, Bathroom Floor Cleaner, Other Cooking Oil). This represents a broad mix of household needs covering food, personal hygiene, and home cleaning. As this is a single observation on one date, durable preferences or routine behaviors cannot be established from this window alone.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Cookies Biscuits",
-        "Milk"
-      ],
-      "combination_text": "Cookies Biscuits and Milk were purchased together in this order.",
-      "support": 0.138,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking household essentials including dairy, cooking fats, cleaning agents, and personal hygiene items.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "General household replenishment covering food, personal hygiene, and home cleaning.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

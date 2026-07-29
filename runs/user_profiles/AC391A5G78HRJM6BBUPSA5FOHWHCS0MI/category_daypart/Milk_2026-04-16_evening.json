@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Parag Toned Milk 500 ml (packaged dairy milk) during the evening on a weekday.",
+  "summary_text": "One order of Parag Toned Milk 500 ml placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than afternoon (0.2526) or night (0.1202). The product is a small-format (500 ml) packaged milk, typically used for immediate household consumption, such as tea/coffee preparation or short-term replenishment.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or habitual buying pattern for this user. It is unclear if this represents a one-time need or part of a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a small-format dairy item suitable for immediate household use or replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this reflects a habitual evening shopping pattern or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-16"
+    ],
+    "first_seen_at": "2026-04-16T18:52:46",
+    "last_seen_at": "2026-04-16T18:52:46"
+  }
 }

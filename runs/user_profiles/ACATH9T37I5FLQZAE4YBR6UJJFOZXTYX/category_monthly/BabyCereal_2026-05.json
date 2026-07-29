@@ -1,11 +1,27 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) on four independent dates (2026-05-02, 2026-05-04, 2026-05-14, and 2026-05-22). This product appears consistently across the month, indicating a stable preference for this specific brand and variant as a complementary infant food. Purchases occurred across different dayparts (morning, afternoon, night) and day types (weekend and weekdays), suggesting the timing is driven by immediate feeding needs or convenience rather than a fixed daily routine. No browsing or search activity was recorded for this category.",
+  "summary_text": "In May 2026, the user purchased Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) on four independent dates (2026-05-02, 2026-05-04, 2026-05-14, and 2026-05-22). This product is a nutrient-fortified complementary infant food intended for babies aged 6–24 months. The user also purchased this specific variant on two weekend/weekday mornings, aligning with the population baseline where morning purchases account for 32.46% of activity. Purchases occurred across morning, afternoon, and night dayparts, with no single daypart dominating the user's behavior in this window.",
   "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Nestlé Cerelac",
+      "claim_text": "The user has purchased Nestlé Cerelac on four independent dates in May 2026, indicating a stable brand preference for this infant cereal brand.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
     {
       "dimension": "product",
       "value": "Nestlé Cerelac Wheat Apple Carrot Cereal (300 g)",
-      "claim_text": "The user has a stable preference for Nestlé Cerelac Wheat Apple Carrot Cereal (300 g), purchasing this specific brand and variant on four independent dates in May 2026.",
+      "claim_text": "The user has purchased Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) on four independent dates in May 2026, indicating a stable preference for this specific infant cereal variant.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g)",
+      "claim_text": "The user has purchased Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) on four independent dates in May 2026, indicating a stable preference for this specific infant cereal variant.",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
@@ -13,6 +29,17 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the product choice is stable, the timing of purchases varies significantly (morning, afternoon, night) and spans both weekdays and a weekend. This variability prevents the establishment of a fixed daily or weekly routine for *when* the product is ordered, though the *what* is consistent. The specific nutritional or taste drivers for choosing this variant over others are not evidenced beyond the purchase itself.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the user has demonstrated a stable preference for Nestlé Cerelac Wheat Apple Carrot Cereal across four dates, the purchase timing varied across morning, afternoon, and night dayparts, preventing the identification of a consistent daily routine or specific daypart preference. The reason for the night-time purchase on 2026-05-14 (e.g., urgent need, travel, or convenience) cannot be determined from order history alone.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-05-02",
+      "2026-05-04",
+      "2026-05-14",
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-22T09:10:49"
+  }
 }

@@ -1,43 +1,19 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-05 during the night on a weekend, a single order was placed containing three items: one unit of Milk, one unit of Vegetables, and one unit of an Unmapped-AFS product. The basket reflects a basic grocery need compatible with meal preparation or household replenishment. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On this weekend date, a single order was placed during the night daypart. The basket contained one unit each of Milk, Vegetables, and Aluminium Foil And Shrink Wrap. The combination of Milk and Vegetables is supported by population-level co-order evidence (Support: 0.172, Lift: 2.417), suggesting a compatible need for meal preparation or basic grocery replenishment. No other category pairs from this specific order appear in the supplied evidence. As this is a single observation on one date, no durable preference or routine can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.172,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Unmapped-AFS"
-      ],
-      "combination_text": "Milk and Unmapped-AFS were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Unmapped-AFS"
-      ],
-      "combination_text": "Vegetables and Unmapped-AFS were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user likely has a need for basic food staples, specifically dairy and fresh produce, potentially for immediate consumption or short-term meal planning.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It does not represent a durable preference or recurring habit. The Unmapped-AFS category lacks specific product identification, limiting precise intent inference.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "Basic grocery replenishment or meal preparation ingredients.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Stable preferences, routines, or high-confidence behavioral patterns cannot be established from this isolated event.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-05T21:57:18"
+  }
 }

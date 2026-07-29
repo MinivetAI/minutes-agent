@@ -1,9 +1,23 @@
 {
   "date": "2026-03-15",
   "day_type": "weekend",
-  "summary_text": "On 2026-03-15 (weekend), the user purchased five unbranded fresh produce items in the evening: Beetroot (250-350g), Green Capsicum (250g), Local Tomato (1kg), Red Carrot (500g), and Fresh Lemon (3 pieces). The evening placement aligns with a population share of 0.3027, comparable to the morning baseline of 0.3246. The basket suggests immediate utility for same-day meal preparation or kitchen stock replenishment. As this is a single observed order, durable preferences cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, one order of unbranded fresh vegetables was placed in the evening. The basket included beetroot, green capsicum, local tomatoes, red carrots, and fresh lemons. This timing aligns with the population baseline share of 0.3027 for evening orders. The items are fresh produce staples typically used for immediate meal preparation, such as cooking, salads, or juices. This is a single observation from one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific recipe intentions.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of unbranded fresh vegetables placed on a weekend evening, including beetroot, green capsicum, local tomatoes, red carrots, and fresh lemons. The order was placed in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The items are fresh produce staples typically used for immediate meal preparation, such as cooking, salads, or juices.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned list or an urgent top-up. As this is a single observed order, durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or specific recipe intentions.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

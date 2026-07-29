@@ -1,18 +1,43 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased fresh vegetables on two independent dates (2026-07-04 and 2026-07-09). Unbranded fresh onions appeared on both dates, meeting the repetition bar for stable preference. Unbranded fresh bottle gourd appeared only on 2026-07-09 and is excluded from stable claims. Both orders occurred in the evening, establishing a repeated daypart pattern aligned with the population baseline. No other vegetables recurred.",
+  "summary_text": "In July 2026, the user ordered fresh vegetables on two independent dates (2026-07-04 and 2026-07-09), both during the evening. On 2026-07-04 (weekend), the user ordered Unbranded Onion (400–450 g). On 2026-07-09 (weekday), the user ordered Bottle Gourd (400–600 g) and Onions (1.95–2.05 kg). While onions appear on both dates, they are distinct variants (Unbranded 400–450 g vs. Onions 1.95–2.05 kg) and potentially distinct products depending on strict variant matching; however, the daypart 'evening' recurs on both independent dates. The evening daypart aligns with the population baseline share of 0.3027. No single product variant or brand recurs on 2+ dates with sufficient specificity to claim a stable product preference, but the evening ordering pattern is supported by 2 independent dates.",
   "stable_preference_claims": [
     {
-      "dimension": "product",
-      "value": "unbranded fresh onion",
-      "claim_text": "The user has purchased unbranded fresh onions on two independent dates in July 2026, indicating a stable preference for this staple vegetable.",
-      "confidence": "medium",
+      "dimension": "brand",
+      "value": "Unbranded",
+      "claim_text": "The user ordered Unbranded products on 2026-07-04. While 'Unbranded' appears only once as a specific brand label in the first order, the second order lists 'Onions' without a brand specified, which may or may not be Unbranded. Without explicit brand repetition, no stable brand preference is claimed.",
+      "confidence": "low",
       "evidence_count": 2,
       "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Onion",
+      "claim_text": "Onion-related products appear on 2026-07-04 (Unbranded Onion 400–450 g) and 2026-07-09 (Onions 1.95–2.05 kg). These are distinct variants/weights. As they are not the exact same variant, no stable product preference is claimed for a specific SKU.",
+      "confidence": "low",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Bottle Gourd",
+      "claim_text": "Bottle Gourd (400–600 g) was ordered on 2026-07-09. This is a single observation.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on only two independent purchase dates in July 2026. While onions show a stable pattern, the limited date count prevents high-confidence assertions about long-term routine. Bottle gourd was observed only once and does not constitute a stable preference.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The user ordered vegetables on two independent dates in July 2026, both in the evening. The specific products varied (Unbranded Onion vs. Bottle Gourd and larger Onions), preventing a stable product preference claim. The evening daypart is a recurring pattern supported by 2 independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-04",
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-04T16:42:45",
+    "last_seen_at": "2026-07-09T18:10:11"
+  }
 }

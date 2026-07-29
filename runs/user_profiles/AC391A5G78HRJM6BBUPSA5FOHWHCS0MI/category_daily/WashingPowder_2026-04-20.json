@@ -1,15 +1,23 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20 (weekday), the user purchased one 3 kg pack of Tide Naturals Lemon and Chandan Detergent Powder during the evening. This timing aligns with the population baseline (evening share 0.3027). The product is a standard laundry detergent powder intended for general household cleaning of daily wear. This is a single observed transaction; it does not establish a stable, recurring preference or routine for this specific brand or scent profile.",
+  "summary_text": "On 2026-04-20 (weekday), one order of Tide Naturals Lemon and Chandan Detergent Powder (3 kg) was placed in the evening. This timing aligns with the population baseline where evening (0.3027) is a high-share period, comparable to morning (0.3246). The product is a standard laundry detergent powder intended for general stain removal and cleaning of daily wear. This is a single observation on one date; it is not yet established whether this represents a stable brand preference, a specific scent preference, or a one-time replenishment need.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 3 kg pack of Tide Naturals Lemon and Chandan Detergent Powder during the evening on a weekday. This timing aligns with the population baseline (evening share 0.3027).",
+      "pattern_text": "One order of Tide Naturals Lemon and Chandan Detergent Powder (3 kg) placed in the evening. This timing aligns with the population baseline where evening (0.3027) is a high-share period, comparable to morning (0.3246).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable, recurring preference or routine for this specific brand or scent profile.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable brand preference, a specific scent preference, or a one-time replenishment need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

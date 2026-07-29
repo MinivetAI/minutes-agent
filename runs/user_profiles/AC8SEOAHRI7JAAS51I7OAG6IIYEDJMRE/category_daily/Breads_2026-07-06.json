@@ -1,15 +1,23 @@
 {
   "date": "2026-07-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-06 (weekday), the user purchased 1 pack of Harvest Gold Atta Burger Buns (200 g) during a morning session. This timing aligns with the user's activity pattern, where morning activity accounts for 32.46% of their total (population baseline). The product is a ready-to-use bakery item suitable for quick meal assembly. This is a single observed order; no durable brand or product preference can be established from this isolated event.",
+  "summary_text": "On this weekday, the user ordered Harvest Gold Atta Burger Buns (200 g) during the morning. This timing aligns with a period of above-baseline purchasing activity (32.46%). The product is a ready-to-use bakery item suitable for quick meal assembly. As this is a single observation on one date, no stable brand or product preference can be established, and it is unclear if this was a one-time need or part of a recurring habit.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 pack of Harvest Gold Atta Burger Buns (200 g).",
+      "pattern_text": "One order of Harvest Gold Atta Burger Buns (200 g) placed on a weekday morning. The order occurred in the morning, a time when this user's purchasing activity is above the population baseline (32.46%). The product is a ready-to-use bakery item suitable for quick meal assembly. This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this was a one-time need or part of a recurring habit.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no durable brand or product preference can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this was a one-time need or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T10:17:35",
+    "last_seen_at": "2026-07-06T10:17:35"
+  }
 }

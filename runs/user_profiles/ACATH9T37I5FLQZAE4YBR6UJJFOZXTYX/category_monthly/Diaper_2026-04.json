@@ -1,11 +1,11 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user placed four independent orders in the Diaper category. The brand Pampers appeared on all four dates, and the specific product Pampers Complete Skin Comfort Pant Diapers XL (56 Count) appeared on three independent dates (2026-04-01, 2026-04-05, 2026-04-24). The product Pampers Premium Care Pants (Size M) appeared on one date (2026-04-14). Orders occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, showing no single dominant timing pattern. The simultaneous purchase of Size M and Size XL on 2026-04-14 suggests a size transition or multi-child household, but this is a single-date observation.",
+  "summary_text": "In April 2026, the user placed four orders for Pampers diapers. The brand Pampers appeared on all four independent dates (2026-04-01, 2026-04-05, 2026-04-14, 2026-04-24). The specific variant 'Pampers Complete Skin Comfort Pant Diapers XL (56 Count)' appeared on three independent dates (2026-04-01, 2026-04-05, 2026-04-24). On 2026-04-14, the order included Pampers size M pants and XL pants, confirming the brand but not the specific 'Complete Skin Comfort' variant or the XL-only pack configuration seen on other dates. Therefore, the brand 'Pampers' is supported by 4 dates, and the variant 'Pampers Complete Skin Comfort Pant Diapers XL (56 Count)' is supported by 3 dates. Daypart patterns show orders in the afternoon (2 dates), morning (1 date), and evening (1 date). No single daypart dominates, but afternoon is the most frequent. Weekday patterns are present on 3 dates, weekend on 1 date.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Pampers",
-      "claim_text": "The user has a stable preference for Pampers diapers, evidenced by purchases on 4 independent dates in April 2026.",
+      "claim_text": "The user consistently orders Pampers diapers, with this brand appearing on 4 independent dates in April 2026.",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Pampers Complete Skin Comfort Pant Diapers XL (56 Count)",
-      "claim_text": "The user has a stable preference for Pampers Complete Skin Comfort Pant Diapers XL (56 Count), evidenced by purchases on 3 independent dates in April 2026.",
+      "claim_text": "The user frequently orders Pampers Complete Skin Comfort Pant Diapers XL (56 Count), with this specific product appearing on 3 independent dates in April 2026.",
       "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,6 +21,17 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While Pampers and the XL pant diapers show stable preference patterns, the inclusion of Size M pants on a single date indicates potential size variability or multi-child needs that are not yet established as a stable routine. Daypart and day-type patterns are mixed across the month, preventing strong routine claims for timing.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While Pampers is a stable brand preference, the specific product mix varies slightly (e.g., inclusion of size M on 2026-04-14). Daypart and day-type patterns are present but not dominant enough to claim a strict routine for those dimensions based on this month's data alone.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-04-01",
+      "2026-04-05",
+      "2026-04-14",
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

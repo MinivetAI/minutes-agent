@@ -1,14 +1,18 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased bread on two independent dates (2026-05-12 and 2026-05-19), both occurring on weekdays. The purchases were made during different dayparts: night on the first date and afternoon on the second. Due to the low population share for night (12.02%) and afternoon (25.26%) relative to morning and evening, these timings are distinct from the most common population behavior, but the user's specific timing preference cannot be stabilized across only two dates with conflicting dayparts. No single brand or product variant recurred across both dates (Modern Supreme Sandwich Bread vs. generic/unspecified bread BABHMCY6GJYZ9CZQ), so no stable product preference is established. The consistent weekday timing is noted as a pattern, but with only two data points, it is described as a observed pattern rather than a high-confidence routine.",
+  "summary_text": "In May 2026, the user ordered bread on two independent dates: Modern Supreme Sandwich Bread (400 g) on a weekday night and an unspecified bread product on a weekday afternoon. Because each brand/product appeared on only one date, no stable brand preference can be established. The user shopped for bread on both weekdays, with orders placed in the night and afternoon dayparts.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased bread on two independent dates in May 2026, both on weekdays.",
-      "confidence": "medium"
-    }
-  ],
-  "uncertainty_text": "Only two independent dates are available for this category in this month. The products purchased were different (Modern Supreme Sandwich Bread vs. BABHMCY6GJYZ9CZQ), preventing the establishment of a stable brand or product preference. The dayparts (night and afternoon) differ, preventing a stable daypart preference. The weekday pattern is supported by two dates but lacks the volume for high confidence.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "uncertainty_text": "Each bread brand and product variant appeared on only one independent date in May 2026. Stable preferences require repetition across at least two independent dates. The observed orders on different days and dayparts do not yet establish a consistent routine or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-05-12",
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

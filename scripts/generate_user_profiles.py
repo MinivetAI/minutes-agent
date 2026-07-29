@@ -357,19 +357,97 @@ def cadence_class_for(cadence_days: Optional[float]) -> str:
     return "slow"
 
 
-_CONFIDENCE_RANK = {"high": 2, "medium": 1, "low": 0}
+# frequency_segment is the one shopping_style field still computed by this
+# script (never sent to or filled in by the model) — but only from this
+# user's *accumulated window_evidence*, never a fresh read of raw orders.
+# basket_size_segment/large_basket_tendency/multi_quantity_tendency are now
+# synthesized by the model itself in the basket waterfall and simply echoed
+# forward into shopping_style, since raw orders are never read past the
+# daypart stage for any of this.
 
 
-def category_profile_quality_key(profile: Dict[str, Any], purchase_volume: int) -> Tuple[int, int, int, int]:
-    """Rank a generated CategoryProfileOutput by how well-evidenced it actually
-    is, not by how much was purchased. A high-volume category with thin,
-    low-confidence evidence should lose out to a modest-volume category the
-    LLM itself was confident about. Purchase volume is only the tie-breaker."""
-    confidence = _CONFIDENCE_RANK.get(profile.get("overall_confidence"), 0)
-    replenishment = profile.get("replenishment") or {}
-    evidence_count = replenishment.get("evidence_count") or 0
-    independent_date_count = replenishment.get("independent_date_count") or 0
-    return (confidence, evidence_count, independent_date_count, purchase_volume)
+def frequency_segment_for(order_count: int, span_days: int) -> str:
+    """Orders per month over this user's own active order history."""
+    span_months = max(span_days / 30.0, 1.0)
+    orders_per_month = order_count / span_months
+    if orders_per_month < 2:
+        return "sparse"
+    if orders_per_month < 8:
+        return "occasional"
+    if orders_per_month < 20:
+        return "regular"
+    return "heavy"
+
+
+def window_evidence_from_orders(bucket_orders: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """The only place raw orders are read to build evidence bookkeeping —
+    every later stage only ever aggregates this forward via
+    union_window_evidence, never rereads raw orders itself."""
+    if not bucket_orders:
+        return {"order_count": 0, "purchase_dates": [], "first_seen_at": None, "last_seen_at": None}
+    timestamps = [o["timestamp"] for o in bucket_orders]
+    return {
+        "order_count": len(bucket_orders),
+        "purchase_dates": sorted({o["date"] for o in bucket_orders}),
+        "first_seen_at": min(timestamps).isoformat(),
+        "last_seen_at": max(timestamps).isoformat(),
+    }
+
+
+def union_window_evidence(children: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Aggregate the window_evidence each child stage output already
+    carries into one parent-level window_evidence block — order counts sum,
+    purchase dates union, first/last-seen take the outer bound. Never a
+    fresh read of raw orders; ISO-8601 timestamp strings compare correctly
+    lexicographically, so no re-parsing is needed."""
+    order_count = 0
+    purchase_dates = set()
+    first_seen_at = None
+    last_seen_at = None
+    for child in children:
+        we = child.get("window_evidence") or {}
+        order_count += we.get("order_count") or 0
+        purchase_dates.update(we.get("purchase_dates") or [])
+        child_first = we.get("first_seen_at")
+        if child_first and (first_seen_at is None or child_first < first_seen_at):
+            first_seen_at = child_first
+        child_last = we.get("last_seen_at")
+        if child_last and (last_seen_at is None or child_last > last_seen_at):
+            last_seen_at = child_last
+    return {
+        "order_count": order_count,
+        "purchase_dates": sorted(purchase_dates),
+        "first_seen_at": first_seen_at,
+        "last_seen_at": last_seen_at,
+    }
+
+
+def most_recent_months(monthly_outputs: List[Dict[str, Any]], retention_months: Optional[int]) -> List[Dict[str, Any]]:
+    """Cap monthly summaries to the most recent `retention_months` calendar
+    months before they ever reach the category/basket profile call. Older
+    months are dropped entirely, not merely hidden from the model — evidence
+    and replenishment (computed from this same retained list, see
+    merge_category_evidence/merge_basket_evidence) reflect only this window,
+    not the user's full lifetime history. `retention_months` falsy disables
+    the cap."""
+    if not retention_months:
+        return monthly_outputs
+    return sorted(monthly_outputs, key=lambda m: m["month"])[-retention_months:]
+
+
+def category_profile_quality_key(profile: Dict[str, Any]) -> Tuple[int, int]:
+    """Rank a generated CategoryProfileOutput by how well-evidenced it
+    actually is, not by how much was purchased. A high-volume category with
+    thin evidence (few independent dates) should lose out to a modest-volume
+    category with more independent-date support. Ranked purely from this
+    category's own accumulated `evidence` (independent_date_count, then
+    evidence_count as tie-break) — never a fresh read of raw orders, so this
+    ranking depends only on data that already flowed up through the
+    waterfall, not on anything computed separately from purchase history."""
+    evidence = profile.get("evidence") or {}
+    independent_date_count = evidence.get("independent_date_count") or 0
+    evidence_count = evidence.get("evidence_count") or 0
+    return (independent_date_count, evidence_count)
 
 
 def compute_category_pair_evidence(orders: List[Dict[str, Any]], enrichment_categories: Dict[str, str], top_n: int = 8) -> List[Dict[str, Any]]:
@@ -446,6 +524,31 @@ def cached_post(base_url: str, path: str, payload: Dict[str, Any], output_dir: P
     return result
 
 
+def cached_post_merged(
+    base_url: str,
+    path: str,
+    payload: Dict[str, Any],
+    output_dir: Path,
+    stage: str,
+    key: str,
+    merge_fn,
+) -> Dict[str, Any]:
+    """Like cached_post, but applies merge_fn(result) in place to enrich the
+    LLM's response with deterministic fields (replenishment, evidence,
+    user_id, artifact_type, updated_at) before caching to disk, so the cached
+    file always holds the complete, final record — never just the model's
+    own partial response."""
+    safe_key = key.replace("/", "_")
+    cache_path = output_dir / stage / f"{safe_key}.json"
+    if cache_path.exists():
+        with cache_path.open() as f:
+            return json.load(f)
+    result = post(base_url, path, payload)
+    merge_fn(result)
+    write_stage(output_dir, stage, key, result)
+    return result
+
+
 def run_concurrent(executor, jobs: List[Tuple[Any, Any]]) -> List[Optional[Dict[str, Any]]]:
     """jobs: list of (label_for_logging, thunk) pairs; thunk() may raise.
     Returns a list of results in the same order as `jobs` (None for any job
@@ -476,6 +579,7 @@ def build_user_profile(
     dry_run: bool,
     concurrency: int,
     max_global_profile_categories: Optional[int] = 40,
+    monthly_retention_months: Optional[int] = 14,
 ) -> Optional[Dict[str, Any]]:
     user_id = user["user_id"]
     orders = normalize_orders(user)
@@ -545,11 +649,17 @@ def build_user_profile(
                     "category": c, "date": date, "daypart": daypart,
                     "day_type": bucket_orders[0]["day_type"],
                     "population_daypart_share": population_daypart_share,
-                    "order_count": len(bucket_orders), "products": products, "funnel_events": [],
+                    "order_count": len(bucket_orders), "products": products,
                 }
                 key = f"{c}_{date}_{daypart}"
                 label = ("category_daypart", key)
-                jobs.append((label, lambda req=request, k=key: cached_post(base_url, "/user/category/daypart-summary", req, user_output_dir, "category_daypart", k)))
+
+                def merge_category_daypart_evidence(result: Dict[str, Any], bucket_orders=bucket_orders) -> None:
+                    result["window_evidence"] = window_evidence_from_orders(bucket_orders)
+
+                jobs.append((label, lambda req=request, k=key, merge=merge_category_daypart_evidence: cached_post_merged(
+                    base_url, "/user/category/daypart-summary", req, user_output_dir, "category_daypart", k, merge
+                )))
                 routes.append({"kind": "category_daypart", "category": c, "date": date})
 
         basket_buckets = defaultdict(list)
@@ -565,11 +675,17 @@ def build_user_profile(
             ]
             request = {
                 "date": date, "daypart": daypart, "day_type": bucket_orders[0]["day_type"],
-                "orders": basket_orders, "abandoned_carts": [], "category_pair_evidence": category_pair_evidence,
+                "orders": basket_orders, "category_pair_evidence": category_pair_evidence,
             }
             key = f"{date}_{daypart}"
             label = ("basket_daypart", key)
-            jobs.append((label, lambda req=request, k=key: cached_post(base_url, "/user/basket/daypart-summary", req, user_output_dir, "basket_daypart", k)))
+
+            def merge_basket_daypart_evidence(result: Dict[str, Any], bucket_orders=bucket_orders) -> None:
+                result["window_evidence"] = window_evidence_from_orders(bucket_orders)
+
+            jobs.append((label, lambda req=request, k=key, merge=merge_basket_daypart_evidence: cached_post_merged(
+                base_url, "/user/basket/daypart-summary", req, user_output_dir, "basket_daypart", k, merge
+            )))
             routes.append({"kind": "basket_daypart", "date": date})
 
         print(f"[{user_id}] stage daypart: {len(jobs)} calls")
@@ -593,12 +709,24 @@ def build_user_profile(
                 request = {"category": c, "date": date, "day_type": daypart_summaries[0]["day_type"], "daypart_summaries": daypart_summaries}
                 key = f"{c}_{date}"
                 label = ("category_daily", key)
-                jobs.append((label, lambda req=request, k=key: cached_post(base_url, "/user/category/daily-summary", req, user_output_dir, "category_daily", k)))
+
+                def merge_category_daily_evidence(result: Dict[str, Any], daypart_summaries=daypart_summaries) -> None:
+                    result["window_evidence"] = union_window_evidence(daypart_summaries)
+
+                jobs.append((label, lambda req=request, k=key, merge=merge_category_daily_evidence: cached_post_merged(
+                    base_url, "/user/category/daily-summary", req, user_output_dir, "category_daily", k, merge
+                )))
                 routes.append({"kind": "category_daily", "category": c, "month": date[:7]})
         for date, daypart_summaries in basket_daily_inputs.items():
             request = {"date": date, "day_type": daypart_summaries[0]["day_type"], "daypart_summaries": daypart_summaries}
             label = ("basket_daily", date)
-            jobs.append((label, lambda req=request, k=date: cached_post(base_url, "/user/basket/daily-summary", req, user_output_dir, "basket_daily", k)))
+
+            def merge_basket_daily_evidence(result: Dict[str, Any], daypart_summaries=daypart_summaries) -> None:
+                result["window_evidence"] = union_window_evidence(daypart_summaries)
+
+            jobs.append((label, lambda req=request, k=date, merge=merge_basket_daily_evidence: cached_post_merged(
+                base_url, "/user/basket/daily-summary", req, user_output_dir, "basket_daily", k, merge
+            )))
             routes.append({"kind": "basket_daily", "month": date[:7]})
 
         print(f"[{user_id}] stage daily: {len(jobs)} calls")
@@ -622,12 +750,24 @@ def build_user_profile(
                 request = {"category": c, "month": month, "daily_summaries": daily_summaries}
                 key = f"{c}_{month}"
                 label = ("category_monthly", key)
-                jobs.append((label, lambda req=request, k=key: cached_post(base_url, "/user/category/monthly-summary", req, user_output_dir, "category_monthly", k)))
+
+                def merge_category_monthly_evidence(result: Dict[str, Any], daily_summaries=daily_summaries) -> None:
+                    result["window_evidence"] = union_window_evidence(daily_summaries)
+
+                jobs.append((label, lambda req=request, k=key, merge=merge_category_monthly_evidence: cached_post_merged(
+                    base_url, "/user/category/monthly-summary", req, user_output_dir, "category_monthly", k, merge
+                )))
                 routes.append({"kind": "category_monthly", "category": c})
         for month, daily_summaries in basket_monthly_inputs.items():
             request = {"month": month, "daily_summaries": daily_summaries}
             label = ("basket_monthly", month)
-            jobs.append((label, lambda req=request, k=month: cached_post(base_url, "/user/basket/monthly-summary", req, user_output_dir, "basket_monthly", k)))
+
+            def merge_basket_monthly_evidence(result: Dict[str, Any], daily_summaries=daily_summaries) -> None:
+                result["window_evidence"] = union_window_evidence(daily_summaries)
+
+            jobs.append((label, lambda req=request, k=month, merge=merge_basket_monthly_evidence: cached_post_merged(
+                base_url, "/user/basket/monthly-summary", req, user_output_dir, "basket_monthly", k, merge
+            )))
             routes.append({"kind": "basket_monthly"})
 
         print(f"[{user_id}] stage monthly: {len(jobs)} calls")
@@ -647,32 +787,76 @@ def build_user_profile(
         jobs = []
         routes = []
         for c in categories:
-            monthly_outputs = category_monthly_outputs.get(c, [])
+            monthly_outputs = most_recent_months(category_monthly_outputs.get(c, []), monthly_retention_months)
             if not monthly_outputs:
                 continue
-            purchase_dates = sorted({o["date"] for o in category_orders[c]})
-            cadence_days, evidence_count, independent_date_count = compute_observed_cadence(purchase_dates)
-            last_purchase_date = purchase_dates[-1] if purchase_dates else None
-            predicted_next_purchase_date = (
-                (datetime.strptime(last_purchase_date, "%Y-%m-%d") + timedelta(days=cadence_days)).strftime("%Y-%m-%d")
-                if last_purchase_date and cadence_days is not None else None
-            )
-            request = {
-                "category": c, "observed_cadence_days": cadence_days,
-                "observed_cadence_evidence_count": evidence_count,
-                "observed_cadence_independent_date_count": independent_date_count,
-                "observed_cadence_class": cadence_class_for(cadence_days),
-                "observed_last_purchase_date": last_purchase_date,
-                "observed_predicted_next_purchase_date": predicted_next_purchase_date,
-                "monthly_summaries": monthly_outputs,
-            }
+            request = {"category": c, "monthly_summaries": monthly_outputs}
+
+            def merge_category_evidence(result: Dict[str, Any], c: str = c, monthly_outputs=monthly_outputs) -> None:
+                """Replenishment and evidence are never sent to the model (it
+                has no purchase-date data in this call) — both are computed
+                here, from this category's accumulated window_evidence (the
+                union of every *retained* monthly summary's own
+                window_evidence — monthly_outputs is already capped to the
+                most recent `monthly_retention_months` by most_recent_months,
+                so evidence/cadence reflect only that retained window, not
+                the user's full lifetime history), never a fresh read of raw
+                orders."""
+                we = union_window_evidence(monthly_outputs)
+                purchase_dates = we["purchase_dates"]
+                cadence_days, _, independent_date_count = compute_observed_cadence(purchase_dates)
+                last_purchase_date = purchase_dates[-1] if purchase_dates else None
+                predicted_next_purchase_date = (
+                    (datetime.strptime(last_purchase_date, "%Y-%m-%d") + timedelta(days=cadence_days)).strftime("%Y-%m-%d")
+                    if last_purchase_date and cadence_days is not None else None
+                )
+                replenishment_text = (
+                    f"{c} is reordered roughly every {cadence_days:.0f} days."
+                    if cadence_days is not None
+                    else f"Not enough independent purchase dates to establish a cadence for {c} yet."
+                )
+                result["replenishment"] = {
+                    "cadence_days": cadence_days,
+                    "cadence_class": cadence_class_for(cadence_days),
+                    "predicted_next_purchase_date": predicted_next_purchase_date,
+                    "replenishment_text": replenishment_text,
+                }
+                result["evidence"] = {
+                    "evidence_count": we["order_count"],
+                    "independent_date_count": independent_date_count,
+                    "first_seen_at": we["first_seen_at"],
+                    "last_seen_at": we["last_seen_at"],
+                }
+
             label = ("category_profile", c)
-            jobs.append((label, lambda req=request, k=c: cached_post(base_url, "/user/category/preference-profile", req, user_output_dir, "category_profile", k)))
+            jobs.append((label, lambda req=request, k=c, merge=merge_category_evidence: cached_post_merged(
+                base_url, "/user/category/preference-profile", req, user_output_dir, "category_profile", k, merge
+            )))
             routes.append({"kind": "category_profile", "category": c})
+        basket_monthly_outputs = most_recent_months(basket_monthly_outputs, monthly_retention_months)
         if basket_monthly_outputs:
+            def merge_basket_evidence(result: Dict[str, Any]) -> None:
+                """evidence/user_id/artifact_type/updated_at are never sent to
+                the model — evidence is computed here from this user's
+                accumulated window_evidence (the union of every *retained*
+                basket monthly summary's own window_evidence — capped to the
+                most recent `monthly_retention_months`, so evidence reflects
+                only that retained window, never a fresh read of raw
+                orders); the other three are stamped from identity."""
+                we = union_window_evidence(basket_monthly_outputs)
+                result["evidence"] = {
+                    "evidence_count": we["order_count"],
+                    "independent_date_count": len(we["purchase_dates"]),
+                    "first_seen_at": we["first_seen_at"],
+                    "last_seen_at": we["last_seen_at"],
+                }
+                result["user_id"] = user_id
+                result["artifact_type"] = "basket_profile"
+                result["updated_at"] = datetime.utcnow().isoformat()
+
             label = ("basket_profile",)
-            jobs.append((label, lambda req={"monthly_summaries": basket_monthly_outputs}: cached_post(
-                base_url, "/user/basket/profile", req, user_output_dir, "basket_profile", "profile"
+            jobs.append((label, lambda req={"monthly_summaries": basket_monthly_outputs}, merge=merge_basket_evidence: cached_post_merged(
+                base_url, "/user/basket/profile", req, user_output_dir, "basket_profile", "profile", merge
             )))
             routes.append({"kind": "basket_profile"})
 
@@ -684,14 +868,13 @@ def build_user_profile(
         for route, result in zip(routes, profile_results)
         if route["kind"] == "category_profile" and result is not None
     }
-    # Rank by how well-evidenced each generated profile actually is
-    # (overall_confidence, then evidence/independent-date counts from its own
-    # replenishment block), not by purchase volume — a high-volume category
-    # with thin evidence should not bump a lower-volume category the LLM was
-    # actually confident about. Purchase volume only breaks ties.
+    # Rank by how well-evidenced each generated profile actually is (its own
+    # merged evidence.independent_date_count, then evidence.evidence_count) —
+    # never by purchase volume, which would mean re-reading raw orders at
+    # this (post-waterfall) point purely to break a tie.
     ranked_categories = sorted(
         category_profile_by_name.keys(),
-        key=lambda c: category_profile_quality_key(category_profile_by_name[c], category_counts.get(c, 0)),
+        key=lambda c: category_profile_quality_key(category_profile_by_name[c]),
         reverse=True,
     )
     category_profiles_all = [category_profile_by_name[c] for c in ranked_categories]
@@ -728,7 +911,31 @@ def build_user_profile(
             with files[-1].open() as f:
                 recent_summaries.append(json.load(f).get("summary_text", ""))
 
-    global_profile = cached_post(
+    def merge_global_metadata(result: Dict[str, Any]) -> None:
+        """user_id/profile_type/updated_at are stamped from identity.
+        shopping_style.frequency_segment is computed from the basket
+        profile's own accumulated evidence (order_count and first/last-seen
+        span) — never a fresh read of raw orders. basket_size_segment/
+        large_basket_tendency/multi_quantity_tendency are not touched here:
+        the model already echoed them from the supplied basket_profile."""
+        result["user_id"] = user_id
+        result["profile_type"] = "global"
+        result["updated_at"] = datetime.utcnow().isoformat()
+
+        basket_evidence = basket_profile.get("evidence") or {}
+        order_count = basket_evidence.get("evidence_count") or 0
+        first_seen_at = basket_evidence.get("first_seen_at")
+        last_seen_at = basket_evidence.get("last_seen_at")
+        span_days = (
+            (datetime.fromisoformat(last_seen_at) - datetime.fromisoformat(first_seen_at)).days
+            if first_seen_at and last_seen_at else 0
+        )
+        shopping_style = result.setdefault("shopping_style", {})
+        shopping_style["frequency_segment"] = frequency_segment_for(order_count, span_days) if order_count else None
+        shopping_style.setdefault("deal_seeking", None)
+        shopping_style.setdefault("price_sensitivity", None)
+
+    global_profile = cached_post_merged(
         base_url, "/user/global-profile",
         {
             "category_profiles": category_profiles_for_global,
@@ -736,7 +943,7 @@ def build_user_profile(
             "recent_summaries": [s for s in recent_summaries if s],
             "total_category_count": total_category_count,
         },
-        output_dir, ".", f"{user_id}_global_profile",
+        output_dir, ".", f"{user_id}_global_profile", merge_global_metadata,
     )
     print(f"[{user_id}] global profile written to {output_dir / f'{user_id}_global_profile.json'}")
     return global_profile
@@ -753,6 +960,7 @@ def main() -> None:
     parser.add_argument("--limit-users", type=int, default=1, help="Number of users to process when --user-id is not given")
     parser.add_argument("--top-categories", type=int, default=None, help="Only process each user's N most-purchased categories; omit to process every category the user has")
     parser.add_argument("--max-global-profile-categories", type=int, default=40, help="Cap how many category profiles feed the global-profile call, keeping the best-evidenced by confidence and evidence depth (not purchase volume); every category is still individually profiled and cached regardless. 0 disables the cap.")
+    parser.add_argument("--monthly-retention-months", type=int, default=14, help="Cap monthly summaries feeding the category/basket profile call to the most recent N calendar months; older months are dropped entirely, so evidence/replenishment reflect only this retained window, not the user's full history. 0 disables the cap.")
     parser.add_argument("--concurrency", type=int, default=8, help="Concurrent in-flight LLM calls per user (within one user's own stage batches)")
     parser.add_argument("--user-concurrency", type=int, default=1, help="Users processed in parallel; total in-flight calls can reach concurrency x user-concurrency, so raise this only once the server's own --max-concurrent and rate limits can absorb it")
     parser.add_argument("--dry-run", action="store_true", help="Build every payload and report call counts without contacting the LLM service")
@@ -783,6 +991,7 @@ def main() -> None:
                 user, enrichment, catalog, population_daypart_share,
                 args.base_url, output_dir, args.top_categories, args.dry_run,
                 args.concurrency, args.max_global_profile_categories,
+                args.monthly_retention_months,
             )
         except Exception as exc:
             print(f"[{user['user_id']}] FAILED: {exc}", file=sys.stderr)

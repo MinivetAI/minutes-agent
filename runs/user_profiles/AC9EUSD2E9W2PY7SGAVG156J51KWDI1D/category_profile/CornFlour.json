@@ -1,32 +1,34 @@
 {
-  "category": "Corn Flour",
-  "profile_text": "A single observed purchase of corn starch powder in February 2026. No stable brand preference, routine, or recurring need is established.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "Purchased one 100 g pack of WeiKFiELD Corn Starch Powder.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Corn Flour",
+  "summary_text": "In 2026-02, the user ordered Weikfield Corn Starch Powder (100 g) on one weekday evening. This single observation aligns with the population baseline evening share of 0.3027. The product serves as a pantry staple for thickening and binding in cooking and baking. As this is the only observed date, it is not yet established whether this represents a stable preference or a one-time need.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Weikfield",
+        "preference_text": "Weikfield",
+        "confidence": "low",
+        "boundary_text": "Preference is limited to the single observed order; no stable brand preference is established."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The user's acceptance of alternative corn flour brands or forms cannot be determined from this single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference or a one-time need. No recurring patterns for brand, pack size, or daypart can be confirmed.",
+  "retrieval_text": "User ordered Weikfield Corn Starch Powder (100 g) on a weekday evening in February 2026. This is a single observation with low confidence, insufficient to establish a stable brand or pack-size preference. The product is used as a pantry staple for thickening and binding.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-23",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for CornFlour yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Supports general cooking and baking needs, specifically for thickening and binding.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-02-23T19:01:08"
+  }
 }

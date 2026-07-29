@@ -1,12 +1,144 @@
 {
-  "profile_text": "The user’s shopping activity is characterized by frequent, isolated transactions across multiple months (February through July 2026), with no durable preferences or stable behavioral patterns established. Each order represents a single data point on a unique date, preventing the inference of routine, recurring habits, or stable category affinities. While specific items such as Milk, Breads, and Vegetables appear in multiple independent orders, these co-occurrences do not constitute stable patterns because the specific combinations or daypart timings are not repeated in a way that confirms a durable preference. The user’s needs vary significantly, ranging from basic meal preparation and household replenishment to specific ceremonial requirements and personal care restocking. No abandoned carts were recorded across the observed months. The user places orders on both weekdays and weekends, with a notable frequency of morning daypart purchases, particularly in May and June, but this timing behavior is not consistent enough to define a stable routine. All observed behaviors are based on single independent dates, and confidence in any inferred user behavior is low.",
-  "behavior_patterns": [],
-  "daypart_behavior": [],
-  "basket_structure_text": "Basket breadth varies from single-item purchases to five-item combinations. Common categories observed include Dairy (Milk, Curd Yogurt, Paneer Tofu), Produce (Vegetables), Staples (Breads, Rice, Wheat Flour), and Snacks (Chips, Savouries Namkeens, Chocolates). Additional categories include Household Supplies (Garbage Bags, Cleaners), Personal Care (Face Cream, Sunscreen, Shampoo, Kajal, Sindoor), and Ceremonial Items (Pooja Flowers, Incense Stick, Dhoop). No single basket structure is repeated across independent dates.",
-  "circumstance_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "mission_generation_text": "The observed orders are compatible with a variety of immediate needs, including general household replenishment, basic meal preparation (breakfast/cooking involving dairy, grains, and produce), snack consumption, home hygiene, personal skincare maintenance, and occasional religious or ceremonial requirements. No single need dominates the observed activity.",
-  "uncertainty_text": "All observed behaviors are based on single independent dates. No repeated daypart behavior, basket-building patterns, category combinations, or shopping needs were observed across multiple independent dates in a way that establishes a durable preference or routine. Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` are not used because no category combination or daypart behavior was consistently observed across multiple independent dates. The co-occurrence of items like Milk and Breads in multiple orders is noted as isolated observations, not a recurring habit. Overall confidence is low.",
-  "overall_confidence": "low"
+  "summary_text": "The user exhibits a stable, high-frequency purchasing pattern centered on breakfast and meal-preparation staples, specifically Milk, Breads, and Vegetables. These three categories co-occur repeatedly across multiple independent dates in May, June, and July 2026, forming a consistent 'staple triad' for daily sustenance. Milk is the dominant anchor, appearing in the vast majority of orders across all months. Breads and Vegetables serve as reliable companions, often purchased together or with Milk. While the user also purchases ritual items (Incense Sticks, Pooja Flowers) and snacks (Savouries, Chocolates), these do not form stable, recurring bundles with the core staples. Ordering behavior is predominantly weekday morning, though afternoon and evening orders occur. Basket composition is generally moderate, focusing on fresh daily needs rather than bulk stock-ups.",
+  "basket_relationships": [
+    {
+      "anchor_products": [
+        "Milk"
+      ],
+      "companion_products": [
+        "Breads"
+      ],
+      "categories": [
+        "Milk",
+        "Breads"
+      ],
+      "relationship_text": "Milk and Breads are frequently co-ordered, forming a stable breakfast or morning meal preparation pair.",
+      "recommendation_use_text": "Suggest Breads when Milk is in the basket, or vice versa, for breakfast-related needs.",
+      "boundary_text": "This relationship does not imply that every Milk purchase includes Breads, or that Breads are only bought with Milk.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 4,
+        "independent_date_count": 4,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [
+        "Milk"
+      ],
+      "companion_products": [
+        "Vegetables"
+      ],
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "relationship_text": "Milk and Vegetables are frequently co-ordered, indicating a pattern of combining dairy staples with fresh produce for meal preparation.",
+      "recommendation_use_text": "Suggest Vegetables when Milk is in the basket, or vice versa, for general meal prep needs.",
+      "boundary_text": "This relationship does not imply that every Milk purchase includes Vegetables, or that Vegetables are only bought with Milk.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 4,
+        "independent_date_count": 4,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [
+        "Breads"
+      ],
+      "companion_products": [
+        "Vegetables"
+      ],
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "relationship_text": "Breads and Vegetables are frequently co-ordered, often alongside Milk, supporting a broader meal-preparation basket.",
+      "recommendation_use_text": "Suggest Vegetables when Breads are in the basket, or vice versa, for meal-related needs.",
+      "boundary_text": "This relationship does not imply that every Bread purchase includes Vegetables, or that Vegetables are only bought with Breads.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 3,
+        "independent_date_count": 3,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [
+        "Milk"
+      ],
+      "companion_products": [
+        "Wheat Flour"
+      ],
+      "categories": [
+        "Milk",
+        "WheatFlour"
+      ],
+      "relationship_text": "Milk and Wheat Flour are occasionally co-ordered, suggesting baking or cooking activities that require both dairy and grain staples.",
+      "recommendation_use_text": "Suggest Wheat Flour when Milk is in the basket for baking-related needs.",
+      "boundary_text": "This relationship is less frequent than Milk-Breads or Milk-Vegetables and does not apply to all Milk purchases.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 2,
+        "independent_date_count": 2,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    },
+    {
+      "anchor_products": [
+        "Curd Yogurt"
+      ],
+      "companion_products": [
+        "Milk"
+      ],
+      "categories": [
+        "CurdYogurt",
+        "Milk"
+      ],
+      "relationship_text": "Curd Yogurt and Milk are occasionally co-ordered, indicating a preference for diverse dairy products.",
+      "recommendation_use_text": "Suggest Curd Yogurt when Milk is in the basket for expanded dairy needs.",
+      "boundary_text": "This relationship is less frequent than other Milk combinations and does not apply to all Milk purchases.",
+      "confidence": "medium",
+      "evidence": {
+        "evidence_count": 2,
+        "independent_date_count": 2,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    }
+  ],
+  "value_text": "The user demonstrates a stable, high-frequency need for basic household staples, particularly Milk, Breads, and Vegetables. This core 'staple triad' appears repeatedly across multiple months, indicating a reliable routine for daily meal preparation. While the user also purchases ritual items (Incense Sticks, Pooja Flowers) and snacks (Savouries, Chocolates), these do not form stable, recurring bundles with the core staples, suggesting they are secondary or occasional needs. The user's behavior is characterized by frequent, moderate-sized orders focused on fresh, daily consumables rather than bulk stock-ups or premium indulgences.",
+  "basket_size_segment": "medium",
+  "large_basket_tendency": "low",
+  "multi_quantity_tendency": "low",
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "Morning is the dominant ordering daypart, particularly in May and June, where it accounts for the majority of orders. This aligns with the purchase of breakfast staples like Milk and Breads.",
+      "confidence": "medium"
+    }
+  ],
+  "day_type_understanding": [
+    {
+      "day_type": "weekday",
+      "behavior_text": "The user predominantly orders on weekdays across all observed months, suggesting a routine aligned with work or school schedules.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While the core staple combinations (Milk/Breads/Vegetables) are stable, specific brand preferences, exact quantities per item, and the precise nature of ritual or snack purchases remain uncertain. The user's behavior in afternoon and evening dayparts is less predictable. It is unknown if the user's staple needs will shift to other grains or dairy variants in the future.",
+  "retrieval_text": "The user has a stable, high-frequency purchasing pattern for breakfast and meal-preparation staples, specifically Milk, Breads, and Vegetables. These categories co-occur repeatedly across multiple independent dates in May, June, and July 2026, forming a consistent 'staple triad' for daily sustenance. Milk is the dominant anchor, appearing in the vast majority of orders. Breads and Vegetables serve as reliable companions, often purchased together or with Milk. Ordering behavior is predominantly weekday morning, though afternoon and evening orders occur. Basket composition is generally moderate, focusing on fresh daily needs rather than bulk stock-ups. The user also purchases ritual items (Incense Sticks, Pooja Flowers) and snacks (Savouries, Chocolates), but these do not form stable, recurring bundles with the core staples.",
+  "evidence": {
+    "evidence_count": 50,
+    "independent_date_count": 47,
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-07-21T06:50:10"
+  },
+  "user_id": "AC9EUSD2E9W2PY7SGAVG156J51KWDI1D",
+  "artifact_type": "basket_profile",
+  "updated_at": "2026-07-29T05:25:47.314927"
 }

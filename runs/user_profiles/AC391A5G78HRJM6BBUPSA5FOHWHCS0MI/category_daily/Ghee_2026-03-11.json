@@ -1,9 +1,23 @@
 {
   "date": "2026-03-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-11 (weekday), the user purchased one 900 ml carton of Gyan Ghee during the evening. This daypart activity is slightly below the population baseline (30.27%). The product is a standard, shelf-stable cooking fat suitable for general kitchen use. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time restocking need.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-11 (weekday), one unit of Gyan Ghee 900 ml Carton was purchased in the evening. This timing contrasts with the population baseline, which shows a higher share of ghee purchases in the morning (0.3246) and evening (0.3027), suggesting this specific purchase was not driven by the typical morning routine share. The product is a standard family-use cooking fat, indicating a need for pantry restocking or immediate cooking utility. It is not yet established if this represents a stable brand preference for 'gyan' or a recurring evening shopping habit, as this is the only observed order. The specific reason for the evening timing (e.g., urgent need vs. planned restock) cannot be determined from order history alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One unit of Gyan Ghee 900 ml Carton was purchased in the evening. This timing contrasts with the population baseline, which shows a higher share of ghee purchases in the morning (0.3246) and evening (0.3027), suggesting this specific purchase was not driven by the typical morning routine share. The product is a standard family-use cooking fat, indicating a need for pantry restocking or immediate cooking utility. It is not yet established if this represents a stable brand preference for 'gyan' or a recurring evening shopping habit, as this is the only observed order. The specific reason for the evening timing (e.g., urgent need vs. planned restock) cannot be determined from order history alone.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time restocking need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "It is not yet established if this represents a stable brand preference for 'gyan' or a recurring evening shopping habit, as this is the only observed order. The specific reason for the evening timing (e.g., urgent need vs. planned restock) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-11"
+    ],
+    "first_seen_at": "2026-03-11T19:01:32",
+    "last_seen_at": "2026-03-11T19:01:32"
+  }
 }

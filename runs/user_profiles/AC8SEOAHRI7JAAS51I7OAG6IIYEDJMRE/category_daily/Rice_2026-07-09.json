@@ -1,15 +1,23 @@
 {
   "date": "2026-07-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-09 (weekday), the user purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product serves as a staple for everyday cooking. As this is a single observation on one date, it does not establish a stable brand preference or routine buying pattern.",
+  "summary_text": "On 2026-07-09 (weekday), the user ordered India Gate All Rounder Feast Rozzana Basmati Rice (1 kg) in the afternoon. This afternoon timing is less common for this user than the population baseline (user afternoon share 0.2526 vs. population morning 0.3246 and evening 0.3027). The product is a standard 1 kg staple rice pack, typically used for daily meal preparation. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as the brand 'INDIA GATE' appears only in this single instance.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice.",
+      "pattern_text": "One order of India Gate All Rounder Feast Rozzana Basmati Rice (1 kg) placed on a weekday afternoon. This afternoon timing is less common for this user than the population baseline (user afternoon share 0.2526 vs. population morning 0.3246 and evening 0.3027).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation on one date; cannot establish stable brand preference or routine buying patterns.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as the brand 'INDIA GATE' appears only in this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

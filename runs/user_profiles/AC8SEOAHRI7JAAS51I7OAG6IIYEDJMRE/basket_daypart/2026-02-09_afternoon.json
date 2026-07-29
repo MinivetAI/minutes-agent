@@ -1,42 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-02-09 in the afternoon on a weekday. The basket contains five items across four categories: Breads (1), Curd Yogurt (2 distinct products), Cheese (1), and Vegetables (1). The purchase reflects a compatible need for basic dairy and fresh produce staples alongside bread.",
+  "basket_summary_text": "A single order placed on 2026-02-09 in the afternoon on a weekday. The basket contains five items across four categories: Breads, Curd Yogurt, Cheese, and Vegetables. The user purchased one unit each of two distinct Curd Yogurt products, one Bread, one Cheese, and one Vegetable item. This represents a single observation of basket breadth and category combination; no durable preference or routine can be inferred from this isolated transaction.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "Curd Yogurt"
-      ],
-      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables were purchased together in this order.",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for basic breakfast or snack components including dairy, fresh produce, and bread.",
-  "uncertainty_text": "This is a single observed order on one date. No durable preferences or recurring patterns can be inferred. Confidence in any behavioral pattern is low.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of bread, dairy (curd/yogurt, cheese), and vegetables is compatible with preparing a simple meal or snack, such as sandwiches, toast with toppings, or a light dinner component.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Confidence in any inferred behavior pattern is low. No repeated purchasing behavior has been observed to establish a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-09T13:05:05"
+  }
 }

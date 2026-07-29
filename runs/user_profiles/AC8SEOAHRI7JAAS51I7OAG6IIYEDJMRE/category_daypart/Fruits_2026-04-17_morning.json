@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Musk Melon Kajari and 1 unit of Muskmelon 600 g.",
+  "summary_text": "Ordered 2 units of Musk Melon Kajari and 1 unit of Muskmelon 600 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when the user's activity is 0.3246 of the population baseline. The items are fresh, ready-to-eat fruits, suggesting an immediate need for breakfast, snacking, or refreshing hydration.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for muskmelons.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The items are fresh fruits typically used for immediate consumption, such as breakfast, snacking, or refreshing dessert.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for muskmelon, a specific brand (none supplied), or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T09:11:18",
+    "last_seen_at": "2026-04-17T09:11:18"
+  }
 }

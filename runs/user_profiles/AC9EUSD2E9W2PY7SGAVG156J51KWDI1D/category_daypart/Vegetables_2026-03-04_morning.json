@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Fresh Curry Leaves 50 g (Unbranded) in the morning on a weekday.",
+  "summary_text": "One order of 2 packs of Unbranded Fresh Curry Leaves (50 g each) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The product is a small, fresh culinary herb pack typically used for immediate kitchen use, such as tempering or garnishing dishes.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for curry leaves. The specific recipe or meal context is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchases are less common than the population baseline (morning share 0.3246). The product is a small, fresh culinary herb typically used for immediate cooking applications like tempering or chutneys, suggesting a need for fresh ingredients for meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-04"
+    ],
+    "first_seen_at": "2026-03-04T07:43:36",
+    "last_seen_at": "2026-03-04T07:43:36"
+  }
 }

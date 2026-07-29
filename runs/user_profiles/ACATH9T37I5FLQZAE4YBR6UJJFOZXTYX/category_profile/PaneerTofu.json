@@ -1,40 +1,46 @@
 {
-  "category": "Paneer Tofu",
-  "profile_text": "The user demonstrates a stable preference for Amul brand paneer, specifically the Malai Paneer 200 g variant, with purchases recorded across multiple months (February and June 2026). Purchases occur on weekdays with variable timing (morning, afternoon, and night), indicating flexible meal preparation needs rather than a rigid daily routine. The user buys this fresh dairy ingredient for immediate cooking. Cadence is approximately every 17 days.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "Stable preference for Amul paneer, evidenced by purchases on multiple independent dates in February and June 2026.",
-      "confidence": "medium",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for Amul Malai Paneer 200 g, evidenced by purchases on multiple independent dates in February and June 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 17.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-07-02",
-    "predicted_next_purchase_date": "2026-07-19",
-    "replenishment_text": "The user typically purchases this category every 17 days, with the next purchase estimated around 2026-07-19.",
-    "confidence": "medium",
-    "evidence_count": 8,
-    "independent_date_count": 8
+  "category_name": "Paneer Tofu",
+  "summary_text": "The user demonstrates a stable preference for Amul brand paneer, specifically the Malai variety in 200 g packs, evidenced by repeated orders across February and June 2026. While purchases occur on weekdays, the timing is inconsistent, spanning morning, afternoon, and night, indicating flexible or need-based purchasing rather than a fixed routine. The product is primarily used for immediate meal preparation.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user has consistently ordered Amul paneer on multiple independent dates in February and June 2026, indicating a stable brand preference.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to Amul brand paneer and does not extend to other dairy brands or non-dairy tofu alternatives."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Malai",
+        "preference_text": "The user has repeatedly ordered the Malai variant of Amul paneer.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "200 g",
+        "preference_text": "The user has repeatedly ordered the 200 g pack size.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed transactions for the preferred brand and variant.",
-  "substitution_text": "No evidence of substitution behavior; the user consistently selects the same brand and variant.",
-  "price_value_text": "No explicit price or value behavior observed in the supplied summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has completed purchases repeatedly.",
-  "mission_generation_text": "Supports immediate meal preparation needs for fresh dairy-based cooking, likely for weekday dinners or lunches requiring quick ingredient assembly.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "No other brands or product variants were observed in the supplied evidence, so no acceptable substitutions or boundaries against other options can be established from this data.",
+  "uncertainty_text": "While brand and product preferences are stable due to repetition in February and June, the purchasing timing is inconsistent (morning, afternoon, and night), preventing a stable daypart claim. It is unknown if the user purchases paneer in other months or if this is limited to specific meal planning cycles. No evidence exists for alternative brands or larger/smaller pack sizes.",
+  "retrieval_text": "The user exhibits a stable medium-confidence preference for Amul brand paneer, specifically the Malai variant in 200 g packs, with confirmed orders on independent dates in February and June 2026. Purchases are restricted to weekdays but occur at inconsistent times (morning, afternoon, night), suggesting flexible, need-based acquisition for immediate cooking rather than a fixed daily routine. No other brands or pack sizes have been observed.",
+  "replenishment": {
+    "cadence_days": 17,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-07-19",
+    "replenishment_text": "PaneerTofu is reordered roughly every 17 days."
+  },
+  "evidence": {
+    "evidence_count": 8,
+    "independent_date_count": 8,
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

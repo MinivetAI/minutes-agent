@@ -1,11 +1,19 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on 8 independent dates. This product meets the repetition bar for stable preference, with high confidence supported by 8 independent dates. Purchases occurred on both weekdays and weekends, with timing varying across morning, afternoon, and evening dayparts. The product is a small, single-serve plain curd suitable for immediate consumption or pairing with meals. No browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "summary_text": "In April 2026, the user consistently ordered Amul Masti Dahi Plain Curd (200 ml) across eight independent dates. The recurrence of this specific brand and product variant establishes a stable preference. Purchases occurred primarily in the afternoon, with additional orders in the morning and evening, indicating flexible timing but a consistent product choice.",
   "stable_preference_claims": [
     {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user repeatedly ordered Amul-branded products throughout the month, appearing on 8 independent dates.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
+    {
       "dimension": "product",
-      "value": "Amul Masti Dahi Plain Curd (200 ml)",
-      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on 8 independent dates in April 2026.",
+      "value": "Masti Dahi Plain Curd (200 ml)",
+      "claim_text": "The user repeatedly ordered Amul Masti Dahi Plain Curd (200 ml) throughout the month, appearing on 8 independent dates.",
       "confidence": "high",
       "evidence_count": 8,
       "independent_date_count": 8
@@ -13,6 +21,21 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the product preference is stable, the timing of purchases varies across morning, afternoon, and evening on both weekdays and weekends, indicating no single consistent daypart or day-type routine for this category in this month.",
-  "overall_confidence": "high"
+  "uncertainty_text": "No significant trends or shifts in behavior were identified beyond the consistent selection of the specified product.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 8,
+    "purchase_dates": [
+      "2026-04-01",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-08",
+      "2026-04-17",
+      "2026-04-20",
+      "2026-04-24",
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

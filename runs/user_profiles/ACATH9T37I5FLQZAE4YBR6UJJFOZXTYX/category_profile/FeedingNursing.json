@@ -1,40 +1,27 @@
 {
-  "category": "Feeding Nursing",
-  "profile_text": "The user has a single observed purchase of LuvLap anti-colic fast-flow replacement teats on 2026-02-23. This indicates a functional need for feeding continuity, likely replacing worn or incompatible bottle nipples. No stable brand preference, routine, or recurring pattern is established from this single transaction.",
-  "brand_preferences": [
-    {
-      "brand": "LuvLap",
-      "preference_text": "Observed in a single transaction on 2026-02-23. No repeated evidence to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "LuvLap anti-colic fast-flow replacement teats for baby bottles, pack of four. Observed in a single transaction on 2026-02-23.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Feeding Nursing",
+  "summary_text": "Evidence is limited to a single order on 2026-02-23 for LuvLap Anti-Colic Essential Teat/Nipple (Pack of 4) in the evening. This indicates a specific need for infant feeding accessories, likely for bottle-feeding or mixed-feeding scenarios, but is insufficient to establish recurring patterns, brand loyalty, or routine timing.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences can be established from a single observation. The user may accept other teat/nipple brands or anti-colic variants, but this is unconfirmed.",
+  "uncertainty_text": "It is unknown if this is a one-time purchase or the start of a recurring need. No brand preference, pack size preference, or daypart routine can be inferred from a single date. The specific infant feeding method (bottle vs. breast) and the number of infants are not established.",
+  "retrieval_text": "Single observation on 2026-02-23 evening for LuvLap Anti-Colic Essential Teat/Nipple (Pack of 4) in the Feeding Nursing category; insufficient evidence to determine brand preference, recurring cadence, or substitution boundaries.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-23",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for FeedingNursing yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this specific instance.",
-  "substitution_text": "No evidence of substitution behavior; only one brand and product variant observed.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior beyond the single observed transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one positive purchase observed.",
-  "mission_generation_text": "Supports functional needs for infant feeding continuity, specifically replacing worn or incompatible bottle nipples.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-23T17:46:26",
+    "last_seen_at": "2026-02-23T17:46:26"
+  }
 }

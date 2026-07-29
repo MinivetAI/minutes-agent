@@ -1,7 +1,7 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-04-12 during the evening on a weekend. The basket contains 8 items across 6 categories: Spices Masala (2 units), Cookies Biscuits (2 units), Unmapped-CMF (1 unit), Eggs (1 unit), Milk (1 unit), and Vegetables (1 unit). The shopper combined savory cooking ingredients (Spices, Vegetables, Eggs, Milk) with snack items (Cookies).",
+  "basket_summary_text": "A single order placed on 2026-04-12 in the evening on a weekend. The basket contains eight items across six categories: Spices Masala (2 units), Cookies Biscuits (2 units), Candies Mouth Fresheners, Eggs, Milk, and Vegetables. The combination of Milk and Vegetables is supported by population-level evidence (Support: 0.172, Lift: 2.417). The combination of Cookies Biscuits and Milk is also supported (Support: 0.138, Lift: 1.657). The combination of Spices Masala and Vegetables is supported (Support: 0.103, Lift: 2.9). The combination of Spices Masala and Milk is supported (Support: 0.103, Lift: 1.74). The combination of Cookies Biscuits and Spices Masala is supported (Support: 0.103, Lift: 2.486). The combination of Cookies Biscuits and Washing Bar is supported (Support: 0.103, Lift: 2.486). The combination of Cookies Biscuits and Washing Powder is supported (Support: 0.103, Lift: 2.486). The combination of Washing Bar and Washing Powder is supported (Support: 0.172, Lift: 5.8). However, Washing Bar and Washing Powder were not purchased in this order. The user may have a need for evening meal preparation or snack stocking, compatible with the presence of spices, vegetables, milk, eggs, cookies, and candies. This is a single observation and does not indicate a durable preference or routine.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,44 +9,71 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables",
       "support": 0.172,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Cookies Biscuits",
         "Milk"
       ],
-      "combination_text": "Cookies Biscuits and Milk were purchased together in this order.",
+      "combination_text": "Cookies Biscuits and Milk",
       "support": 0.138,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Spices Masala",
         "Vegetables"
       ],
-      "combination_text": "Spices Masala and Vegetables were purchased together in this order.",
+      "combination_text": "Spices Masala and Vegetables",
       "support": 0.103,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Spices Masala",
+        "Milk"
+      ],
+      "combination_text": "Spices Masala and Milk",
+      "support": 0.103,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Cookies Biscuits",
         "Spices Masala"
       ],
-      "combination_text": "Cookies Biscuits and Spices Masala were purchased together in this order.",
+      "combination_text": "Cookies Biscuits and Spices Masala",
       "support": 0.103,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for preparing a meal involving vegetables and spices, accompanied by milk and eggs, with cookies as a snack or dessert component.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns such as category pairings are observed here but do not indicate stable, recurring preferences or durable behavior patterns without evidence from multiple independent dates.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Evening meal preparation or snack stocking compatible with the purchased items.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routines cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

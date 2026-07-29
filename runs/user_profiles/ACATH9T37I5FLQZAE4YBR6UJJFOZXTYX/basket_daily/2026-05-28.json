@@ -1,23 +1,19 @@
 {
   "date": "2026-05-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-28 (weekday), a single afternoon order was placed containing seven items across five categories: Vegetables (3 units), Diaper (1), Spices Masala (1), Aerated Drinks (1), and Condiments (1). The observed behavior is compatible with preparing a meal involving fresh produce and seasoning, combined with routine household replenishment of diapers and beverages. This analysis is based on a single observed order on one date; stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "summary_text": "On 2026-05-28 (weekday), a single order was placed in the afternoon. The basket contained seven items across five categories: Vegetables (3 items), Diaper (1), Spices Masala (1), Aerated Drinks (1), and Condiments (1). This represents a single observation of basket breadth and category combination.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Diaper",
-        "Vegetables"
-      ],
-      "combination_text": "Diaper and Vegetables were purchased together in this order.",
-      "support": 0.262,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a meal involving fresh vegetables and spices, combined with routine household replenishment of diapers and beverages.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The combination of vegetables, spices, condiments, and aerated drinks suggests a need for meal preparation or a casual meal. The inclusion of diapers indicates a household with an infant or toddler.",
+  "uncertainty_text": "This is a single observation on one date. No durable preferences or routine behaviors can be inferred from this isolated order. Category pair evidence (e.g., Milk/Vegetables) is not present in this specific order, so those statistics are not applied here.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T11:21:02",
+    "last_seen_at": "2026-05-28T11:21:02"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2026-02-07",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-07 (weekend), the user purchased one 1 L pack of Real Masala Pomegranate Juice, a ready-to-serve flavored fruit beverage with masala seasoning, during the evening. This evening order aligns with a time when the user's activity was slightly below the population baseline (evening share 0.3027). The product is a shareable, ready-to-serve beverage suitable for immediate consumption without preparation. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased one 1 L pack of Real Masala Pomegranate Juice, a ready-to-serve flavored fruit beverage with masala seasoning. The order occurred in the evening on a weekend, a time when the user's activity was slightly below the population baseline for this daypart (evening share 0.3027). The product is a shareable, ready-to-serve beverage suitable for immediate consumption without preparation.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-02-07 (weekend), the user ordered Real Masala Pomegranate Juice 1 L in the evening. This is a ready-to-serve fruit beverage suitable for immediate consumption or sharing. Evening purchases are common for this category (population baseline 30.27%). This is a single observation on one date; it is not yet clear if this is a recurring preference or a one-time purchase. No brand or product repetition has been established.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet clear if this is a recurring preference or a one-time purchase. No brand or product repetition has been established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-07"
+    ],
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-07T18:07:34"
+  }
 }

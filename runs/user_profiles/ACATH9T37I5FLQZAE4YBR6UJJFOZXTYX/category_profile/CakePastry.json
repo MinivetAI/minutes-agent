@@ -1,40 +1,52 @@
 {
-  "category": "Cake Pastry",
-  "profile_text": "The user demonstrates a recurring interest in packaged, shelf-stable sweet cakes, primarily for snacking or tea-time treats. Evidence spans February through April 2026, with a strong preference for the Britannia brand, specifically the Romance Nut and Raisin Cake variant. Purchases have occurred on both weekdays and weekends, typically in the afternoon, though one evening purchase of a Monginis muffin was also observed. The user exhibits a fast replenishment cadence, suggesting regular consumption of this category.",
-  "brand_preferences": [
+  "category_name": "Cake Pastry",
+  "summary_text": "The user has demonstrated a stable preference for Britannia Romance Nut and Raisin Cake (140 g), evidenced by purchases on two independent dates in March 2026 and one in April 2026. Purchases have occurred on both weekdays and weekends, typically in the afternoon. A single instance of Monginis Choco Muffin was also observed in April 2026, but without repetition, it does not constitute a stable preference.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Britannia",
+        "preference_text": "The user has a stable preference for Britannia cakes, specifically the Romance Nut and Raisin variety, based on orders across March and April 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Romance Nut and Raisin Cake variant and does not necessarily extend to other Britannia cake lines or flavors."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Nut and Raisin",
+        "preference_text": "The user prefers the Nut and Raisin variant of Britannia Romance Cake, supported by orders on two independent dates in March 2026 and one in April 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "140 g",
+        "preference_text": "The user has purchased the 140 g pack size of Britannia Romance Nut and Raisin Cake on multiple occasions.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Britannia",
-      "preference_text": "The user purchased Britannia products on 5 independent dates (Feb, Mar, Apr 2026), indicating a stable preference.",
-      "confidence": "high",
-      "evidence_count": 5,
-      "independent_date_count": 5
+      "daypart": "afternoon",
+      "behavior_text": "The user has purchased Britannia Romance Nut and Raisin Cake in the afternoon on multiple independent dates.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [
-    {
-      "preference_text": "The user purchased Britannia Romance Nut and Raisin Cake (140 g) on 4 independent dates (Feb 24, Mar 21, Mar 27, Apr 7), indicating a stable preference for this specific item.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has purchased Britannia Romance Nut and Raisin Cake repeatedly. A single order of Monginis Choco Muffin was observed, but it is unclear if this represents a substitute preference or an isolated trial. No other brands or variants have shown repeated selection.",
+  "uncertainty_text": "While the preference for Britannia Romance Nut and Raisin Cake is established, the sample size is limited to three orders across two months. It is unknown if the user prefers other cake types, flavors, or brands beyond this specific SKU. The single Monginis order does not provide enough evidence to define a broader brand or product substitution pattern.",
+  "retrieval_text": "The user exhibits a stable medium-confidence preference for Britannia brand cakes, specifically the Romance Nut and Raisin variant in the 140 g pack size. This preference is grounded in repeated purchases on independent dates in March 2026 (two orders) and April 2026 (one order). Purchases have consistently occurred in the afternoon, with no strong restriction on weekday versus weekend timing. A single, non-repeated order of Monginis Choco Muffin was also observed, but it does not establish a broader substitution pattern or brand loyalty beyond Britannia for this specific cake type.",
   "replenishment": {
     "cadence_days": 6.0,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-04-07",
     "predicted_next_purchase_date": "2026-04-13",
-    "replenishment_text": "The user buys this category approximately every 6 days, classified as a fast replenishment cycle. The last purchase was on April 7, 2026, with the next expected around April 13, 2026.",
-    "confidence": "high",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "CakePastry is reordered roughly every 6 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, with multiple completed transactions observed across three months.",
-  "substitution_text": null,
-  "price_value_text": "The user purchases standard packaged cakes (140 g) and muffins, suggesting a focus on accessible, shelf-stable options rather than premium or fresh bakery items.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. The single purchase of a Monginis Choco Muffin in April does not establish a stable preference for that brand or product type.",
-  "mission_generation_text": "Restocking shelf-stable sweet cakes for immediate snacking, tea-time accompaniments, or quick desserts.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

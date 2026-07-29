@@ -126,9 +126,22 @@ def build_server(provider: str, vllm_url: str, model: str, max_concurrent: int) 
     )
 
 
-# vLLM/Qwen-specific chat-template knob to disable "thinking" mode; not a
-# constructor argument on LLMServer, so it is threaded through per-Task below.
-QWEN_EXTRA_PAYLOAD = {"chat_template_kwargs": {"enable_thinking": False}}
+# vLLM/Qwen-specific knobs, not constructor arguments on LLMServer, so they are
+# threaded through per-Task below as `extra`.
+# - chat_template_kwargs disables "thinking" mode.
+# - repetition_penalty mitigates degenerate repetition loops under greedy
+#   decoding (LLMServer defaults to temperature=0.0): with no penalty, a
+#   thin/sparse input can make the model wander into repeating similar
+#   phrasing until it hits max_tokens mid-string, which then fails JSON
+#   parsing (surfaced as a 502 parse_error) even after alfred's `repair`
+#   retries, since those retry with the same sampling settings. 1.1 is a mild
+#   value chosen to discourage exact repetition without distorting the
+#   legitimate, expected repetition of brand/product/category names in this
+#   domain's outputs.
+QWEN_EXTRA_PAYLOAD = {
+    "chat_template_kwargs": {"enable_thinking": False},
+    "repetition_penalty": 1.1,
+}
 
 
 def _default_max_tokens(task_name: str):

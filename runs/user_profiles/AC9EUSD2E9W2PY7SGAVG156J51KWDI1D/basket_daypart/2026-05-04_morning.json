@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-04 (morning, weekday) included Vegetables (2 units), Milk (1 unit), Breads (1 unit), and Butter Margarine (1 unit). The basket breadth covers four distinct categories. The combination of Milk and Vegetables has a support of 0.3, confidence of 0.517, and lift of 1.293. The combination of Breads and Milk has a support of 0.26, confidence of 0.722, and lift of 1.245. The combination of Breads and Vegetables has a support of 0.22, confidence of 0.611, and lift of 1.528. This single order is compatible with a breakfast or morning meal preparation need.",
+  "basket_summary_text": "A single order placed on 2026-05-04 in the morning on a weekday. The basket contains four items across four distinct categories: Vegetables (2 units), Milk (1 unit), Breads (1 unit), and Butter Margarine (1 unit). This represents a single observation of a mixed-basket order. The combination of Milk and Vegetables, Milk and Breads, and Breads and Vegetables are supported by historical co-ordering evidence, suggesting these items are frequently purchased together in this population. The specific need is compatible with a basic meal preparation or breakfast setup, such as preparing bread with butter and vegetables, or a simple vegetable-based meal with dairy. No durable preference or routine can be established from this single date.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,34 +9,59 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables",
+      "combination_text": "Milk and Vegetables were ordered together.",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Milk"
       ],
-      "combination_text": "Breads and Milk",
+      "combination_text": "Breads and Milk were ordered together.",
       "support": 0.26,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Vegetables"
       ],
-      "combination_text": "Breads and Vegetables",
+      "combination_text": "Breads and Vegetables were ordered together.",
       "support": 0.22,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "ButterMargarine"
+      ],
+      "combination_text": "Breads and Butter Margarine were ordered together.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Morning meal preparation",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Basic meal preparation or breakfast components, including dairy, bread, and vegetables.",
+  "uncertainty_text": "This is a single observation on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence in any specific user behavior pattern is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T09:36:25",
+    "last_seen_at": "2026-05-04T09:36:25"
+  }
 }

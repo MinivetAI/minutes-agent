@@ -1,9 +1,23 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "One order of Cauliflower 400-600g (1 unit) placed on a weekend morning. Purchased during the morning daypart, which aligns with the population baseline share of 0.3246 for this time slot. The product is a fresh vegetable head, typically used for immediate home cooking such as side dishes, roasting, or soups.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered one unit of Cauliflower (400-600g) during the morning daypart. This timing aligns with the population baseline where morning shopping share (0.3246) is highest. The product is a fresh vegetable suitable for immediate meal preparation. As this is a single observation on one date, it does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Cauliflower 400-600g (1 unit) placed on a weekend morning.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an immediate need. No other vegetable purchases are observed in this window to establish a pattern.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this product, brand, or daypart pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

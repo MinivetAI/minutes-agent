@@ -1,7 +1,7 @@
 {
   "date": "2026-03-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-02 (weekday), a single order was placed in the morning. The basket contained two products from the 'Holi Color' category and one from 'Sweets Mithai'. This combination suggests preparation for Holi festival activities, but as this is the only observed transaction, it represents a single observation rather than a stable preference or routine.",
+  "summary_text": "On 2026-03-02 (weekday), a single order was placed in the morning. The basket contained Holi Color (2 units) and Sweets Mithai (1 unit). This combination is compatible with preparations for or participation in Holi festival celebrations. No other categories were purchased in this order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Holi Color",
         "Sweets Mithai"
       ],
-      "combination_text": "Holi Color and Sweets Mithai were purchased together in this single order.",
-      "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
+      "combination_text": "Holi Color and Sweets Mithai were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation for Holi festival activities, indicated by the purchase of Holi colors and sweets.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low due to the lack of repetition across independent dates.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Holi Color and Sweets Mithai is compatible with preparing for or participating in Holi festival celebrations.",
+  "uncertainty_text": "This behavior is based on a single order on one date. It is an isolated observation and does not establish a durable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:41:54",
+    "last_seen_at": "2026-03-02T09:41:54"
+  }
 }

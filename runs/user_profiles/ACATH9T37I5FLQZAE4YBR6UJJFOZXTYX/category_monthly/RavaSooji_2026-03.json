@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Fortune Suji 500 g (semolina/sooji) on a single weekend date (2026-03-21) in the afternoon. This order aligns with a small-pack staple flour use case, potentially for immediate cooking needs such as breakfast, snacks, or dessert prep. The afternoon timing is less common for this user compared to the population baseline (25.26% share vs. 32.46% for morning). As this is a single observed order, it does not establish a stable preference or routine for this category.",
+  "summary_text": "In March 2026, the user ordered Fortune Suji 500 g on one weekend date. This single observation does not establish a stable brand preference or routine. The order occurred in the afternoon, a timing consistent with the population baseline for this category.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Evidence is limited to a single order on one date. It is not yet established whether this represents a stable preference for the Fortune brand or a one-time need for this specific item.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

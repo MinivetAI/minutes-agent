@@ -1,15 +1,23 @@
 {
   "date": "2026-02-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-27 (weekday), the user placed one order for Pampers Complete Skin Comfort Pants (L, 64 count) in the Diaper category. The purchase occurred in the afternoon, a time when the user's activity is below the population baseline (25.26% share). The product is a disposable diaper variant intended for infant hygiene. A single observation limits inference of durable brand or product preferences; no browsing or cart activity was recorded to indicate comparison or hesitation.",
+  "summary_text": "On 2026-02-27 (weekday), one order of Pampers Complete Skin Comfort Pants (L, 64 count) was placed in the afternoon. This timing is comparable to the population afternoon baseline (0.2526) and less common than the morning (0.3246) and evening (0.3027) peaks. The product is a standard diaper variant for infant care. This is a single observation on one date; it is insufficient to establish a stable brand preference, routine timing, or recurring need. No other products or dates are available to infer broader diapering habits or household composition.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Pampers Complete Skin Comfort Pants (L, 64 count) in the Diaper category. Purchased in the afternoon on a weekday, a time when the user's activity is below the population baseline (25.26% share). The product is a disposable diaper variant intended for infant hygiene.",
+      "pattern_text": "One order of Pampers Complete Skin Comfort Pants (L, 64 count) in the afternoon. This timing is comparable to the population afternoon baseline (0.2526) and less common than the morning (0.3246) and evening (0.3027) peaks.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation limits inference of durable brand or product preferences; no browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is insufficient to establish a stable brand preference, routine timing, or recurring need. No other products or dates are available to infer broader diapering habits or household composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T15:57:01",
+    "last_seen_at": "2026-02-27T15:57:01"
+  }
 }

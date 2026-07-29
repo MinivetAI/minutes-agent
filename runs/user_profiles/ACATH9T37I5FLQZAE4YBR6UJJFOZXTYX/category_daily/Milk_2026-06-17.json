@@ -1,15 +1,17 @@
 {
   "date": "2026-06-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-17 (weekday), the user purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) during the morning daypart. This timing aligns with the morning daypart, which has a 32.5% population share. The product is a small-format, single-use liquid milk pack suitable for immediate kitchen use such as tea, coffee, or breakfast. This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) in the morning. This timing aligns with the morning daypart, which has a 32.5% population share. The product is a small-format, single-use liquid milk pack suitable for immediate kitchen use such as tea, coffee, or breakfast.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-06-17 (weekday), the user purchased Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, during the morning daypart. This morning activity aligns with the population baseline (32.46% of orders). The product is a small-format, single-use liquid milk pack, typically used for immediate kitchen needs such as tea, coffee, or breakfast. This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need. No other brands or product types are observed in this window to determine category breadth.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine replenishment pattern, or a one-time need. No other brands or product types are observed in this window to determine category breadth.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T09:37:58",
+    "last_seen_at": "2026-06-17T09:37:58"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-06-25",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-25 (weekday), the user purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) during the morning. This small-format, single-use liquid milk SKU is typically used for immediate kitchen needs such as tea, coffee, or breakfast. The purchase occurred in the morning, a period with a population share of 0.3246. This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or format.",
+  "summary_text": "On 2026-06-25 (weekday), the user ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, during the morning. This morning order aligns with the population baseline for milk purchases (32.46%). The product is standard liquid milk, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date; it is not yet established whether this represents a stable preference for Amul, a specific milk type, or a one-time purchase. No recurring pattern can be confirmed.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml).",
+      "pattern_text": "Ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2. This morning order aligns with the population baseline for milk purchases (32.46%). The product is standard liquid milk, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date; it is not yet established whether this represents a stable preference for Amul, a specific milk type, or a one-time purchase. No recurring pattern can be confirmed.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or format.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Amul, a specific milk type, or a one-time purchase. No recurring pattern can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-25"
+    ],
+    "first_seen_at": "2026-06-25T08:44:56",
+    "last_seen_at": "2026-06-25T08:44:56"
+  }
 }

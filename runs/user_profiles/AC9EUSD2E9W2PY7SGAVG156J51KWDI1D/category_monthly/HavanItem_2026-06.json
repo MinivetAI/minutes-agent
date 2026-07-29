@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "On 2026-06-15 (weekday), the user purchased one 25 g pack of Swastik Premium Pure Camphor in the morning. This product is typically used for aarti, daily pooja, or quick fragrance refresh. The order occurred during the morning daypart, which has the highest population activity share (32.46%). This is a single observed order on one date and does not establish a stable or recurring preference for this brand or category.",
+  "summary_text": "One order of Swastik Premium Pure Camphor 25 g was purchased in the morning on 2026-06-15. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The product is a camphor pack typically used for pooja rituals, aarti, or general fragrance. This is a single observation from one date. It is not yet established whether this represents a stable routine, a specific event, or a one-time need. No brand or product preference can be confirmed from this single instance.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable routine, a specific event, or a one-time need. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

@@ -1,40 +1,27 @@
 {
-  "category": "Kajal",
-  "profile_text": "In July 2026, the user purchased one unit of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) on a single weekday in the evening. This timing aligns with the user's relatively high evening activity share (0.3027) compared to the population baseline. The product is an everyday eye makeup item positioned for reliable, smudgeproof wear. As this is a single observed order, no stable preferences or brand loyalty can be established.",
-  "brand_preferences": [
-    {
-      "brand": "Lakmé",
-      "preference_text": "Lakmé was observed in one purchase in July 2026. With only a single independent date, this represents an isolated observation rather than a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) was purchased once in July 2026. This is a single observation and does not indicate a durable product preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Kajal",
+  "summary_text": "A single order of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) was observed on 2026-07-16 in the evening. This is an isolated event; no stable brand, product, or timing preferences can be established from this single data point.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are evident from this single observation.",
+  "uncertainty_text": "This category profile is based on a single order from one date. It is unknown whether the user has a preferred brand, specific product variant, or consistent purchasing timing. The observed evening purchase may not reflect a habitual routine.",
+  "retrieval_text": "One unit of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) was purchased on 2026-07-16 in the evening. This is a single observation with no evidence of repetition, so no stable brand preference, product variant, or daypart routine is established.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-16",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict replenishment timing.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Kajal yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this specific instance.",
-  "substitution_text": null,
-  "price_value_text": "No price or value behavior can be established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase event exists.",
-  "mission_generation_text": "Routine replenishment of everyday eye makeup for reliable, smudgeproof wear.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-07-16T18:39:03",
+    "last_seen_at": "2026-07-16T18:39:03"
+  }
 }

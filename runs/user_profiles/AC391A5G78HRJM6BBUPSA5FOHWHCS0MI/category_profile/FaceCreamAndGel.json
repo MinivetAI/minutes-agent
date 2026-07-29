@@ -1,40 +1,27 @@
 {
-  "category": "Face Cream And Gel",
-  "profile_text": "In July 2026, the user purchased Vicco Turmeric Skin Cream (50 g) on a single date (2026-07-20). This single observation does not establish a stable preference or routine for this brand or product. The purchase occurred in the evening, aligning with general evening activity patterns (30.27% population share). The product is an Ayurvedic face cream intended for skin glow, tone-evening, and dryness relief. No other face cream or gel products were observed in this month.",
-  "brand_preferences": [
-    {
-      "brand": "Vicco",
-      "preference_text": "Vicco was observed in one independent date (2026-07-20). This single observation does not establish a stable preference or routine for this brand.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Vicco Turmeric Skin Cream (50 g) was observed in one independent date (2026-07-20). This single observation does not establish a stable preference or routine for this product.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Face Cream And Gel",
+  "summary_text": "The user has a single observed purchase of Vicco Turmeric Skin Cream (50 g) on 2026-07-20 (weekday) during the evening. This timing aligns with the population baseline where evening purchases are common. The product is a daily-use Ayurvedic face cream. As this is a single observation, it is not yet established whether this represents a stable preference or a one-time purchase.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established from the single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other brands, variants, or timing patterns are supported by evidence.",
+  "retrieval_text": "Single observation of Vicco Turmeric Skin Cream (50 g) purchased on 2026-07-20 (weekday) during the evening, aligning with population evening purchase baseline; insufficient evidence to establish stable brand, variant, or pack size preferences.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-20",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data available; last purchase was on 2026-07-20.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for FaceCreamAndGel yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on the observed date.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports general skin care needs, specifically targeting skin glow, tone-evening, and dryness relief.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-07-20T19:05:15",
+    "last_seen_at": "2026-07-20T19:05:15"
+  }
 }

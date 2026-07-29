@@ -1,15 +1,17 @@
 {
   "date": "2026-03-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-16 (weekday), the user purchased one unbranded Baby Potato (280–320 g) and one unbranded Sweet Potato (450–550 g) during a morning session. This activity aligns with the user's typical morning shopping window, which accounts for 32.46% of their total activity. The items are fresh root vegetables suitable for immediate cooking, suggesting a need for staple produce replenishment. No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is unclear if this represents a routine habit or a one-time need.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one unbranded Baby Potato (280–320 g) and one unbranded Sweet Potato (450–550 g).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user purchased fresh vegetables during the morning daypart, which aligns with the population baseline where morning accounts for 32.46% of activity. The order included one unbranded baby potato (280–320 g) and one unbranded sweet potato (450–550 g). These items are typically used for immediate cooking or meal preparation. As this is a single observation from one date, it is not yet established whether this represents a stable preference or routine.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "With only one observed order, it is unclear if this represents a routine habit or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific vegetables, a routine morning shopping habit, or a one-time purchase. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T09:10:05",
+    "last_seen_at": "2026-03-16T09:10:05"
+  }
 }

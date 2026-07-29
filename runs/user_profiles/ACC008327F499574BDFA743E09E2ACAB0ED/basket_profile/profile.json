@@ -1,12 +1,39 @@
 {
-  "profile_text": "The user’s shopping profile is characterized by a high-frequency, stable need for fresh vegetables, supported by evidence across multiple months (February, April, May). This category appears on at least 10 independent dates, establishing a high-confidence pattern for vegetable procurement, likely for meal preparation. The user’s basket breadth is typically narrow; in April, orders consisted exclusively of vegetables, and in other months, baskets often contained 2–3 items or single categories. While vegetables are the only durable category, other purchases are sporadic and context-dependent. In January, the user bought savories, spices, fruits, and dairy. In February, a wider variety of snack and dairy items (cookies, sweets, milk, ice cream) appeared alongside vegetables. In May, ice cream was purchased on two separate dates, indicating a recurring but non-stable interest in treats. In July, the user combined basic meal components (vegetables, bread, milk) in a single weekend evening order, suggesting occasional batch shopping for fresh ingredients. A single instance of purchasing a car air freshener in July indicates isolated needs for vehicle maintenance. No specific product brands, variants, or consistent category combinations (e.g., vegetables always with bread) repeat across independent dates with sufficient frequency to be considered stable preferences. Daypart behavior is mixed, with vegetable purchases occurring in mornings, afternoons, and evenings, and on both weekdays and weekends, indicating flexibility in timing rather than a fixed routine.",
-  "behavior_patterns": [],
-  "daypart_behavior": [],
-  "basket_structure_text": "The user’s typical basket is narrow, often containing only one or two categories. The most common structure is a single-category basket focused on Vegetables. Occasionally, the user builds a small multi-category basket for fresh meal components, such as combining Vegetables with Breads and Milk, or Vegetables with Savouries and Spices. There is no evidence of a stable, recurring multi-category basket structure (e.g., Vegetables + Milk + Bread appearing together repeatedly).",
-  "circumstance_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "mission_generation_text": "The user has a recurring, high-confidence need for fresh vegetables, likely for daily meal preparation. Secondary, lower-confidence needs include occasional fresh produce (fruits), dairy (milk, curd), and snack items (savories, sweets, ice cream). The user also demonstrates isolated needs for household maintenance (car air freshener) and personal care (hair removal, toner).",
-  "uncertainty_text": "While the purchase of Vegetables is a stable, high-confidence pattern, no other category or product combination has been observed repeatedly enough to establish a durable preference or routine. Specific product choices, brands, and basket compositions vary significantly between orders. Daypart and day-type patterns are inconsistent and do not form a stable routine. Confidence in any behavior other than vegetable purchasing is low due to the lack of repetition across independent dates.",
-  "overall_confidence": "medium"
+  "summary_text": "The user's basket profile is defined by a high-confidence, stable pattern of purchasing Vegetables across multiple months (Feb, Apr, May, Jul), often as the sole item in the basket. This core behavior is punctuated by sporadic, single-date purchases of other categories including Breads, Milk, Savouries, Sweets, Ice Creams, and non-food items like Car Air Fresheners and personal care products. No cross-category routines or consistent daypart preferences have been established due to the lack of repetition in combinations and timing.",
+  "basket_relationships": [
+    {
+      "anchor_products": [],
+      "companion_products": [],
+      "categories": [
+        "Vegetables"
+      ],
+      "relationship_text": "Vegetables are the user's most consistent purchase, appearing on 10 independent dates across four months. While often bought alone, they have occasionally been paired with Breads, Milk, Dips Sauces Pastes, or Savouries Namkeens on single dates.",
+      "recommendation_use_text": "Replenishment of fresh produce for meal preparation.",
+      "boundary_text": "This relationship does not imply that Vegetables are always bought with these specific companions; most Vegetable purchases are standalone.",
+      "confidence": "high",
+      "evidence": {
+        "evidence_count": 10,
+        "independent_date_count": 10,
+        "first_seen_at": null,
+        "last_seen_at": null
+      }
+    }
+  ],
+  "value_text": "The user demonstrates a clear preference for fresh produce (Vegetables) as a staple item. There is no evidence of premium or bulk buying behavior; purchases are typically single-unit or small-quantity line items for immediate consumption or meal prep. Occasional purchases of snacks (Savouries, Sweets, Ice Creams) and household items (Breads, Milk) suggest a basic grocery replenishment need rather than a specialized or high-value basket profile.",
+  "basket_size_segment": "small",
+  "large_basket_tendency": "low",
+  "multi_quantity_tendency": "low",
+  "daypart_understanding": [],
+  "day_type_understanding": [],
+  "uncertainty_text": "It is unknown if the user has stable preferences for any category other than Vegetables. Cross-category shopping habits (e.g., whether Vegetables are consistently paired with Breads or Milk) are not established. Daypart and day-type preferences are inconsistent and cannot be generalized. The user's need for non-food items (Car Air Freshener, personal care) is sporadic and not linked to a broader routine.",
+  "retrieval_text": "Stable pattern of purchasing Vegetables on 10 independent dates across Feb, Apr, May, and Jul 2026, typically as a standalone item for meal preparation. Sporadic, single-date purchases of Breads, Milk, Savouries Namkeens, Sweets Mithai, Ice Creams, and non-food items (Car Air Freshener, Hair Removal, Toner) indicate basic grocery replenishment needs without established cross-category routines or consistent timing preferences.",
+  "evidence": {
+    "evidence_count": 27,
+    "independent_date_count": 24,
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-07-09T18:10:11"
+  },
+  "user_id": "ACC008327F499574BDFA743E09E2ACAB0ED",
+  "artifact_type": "basket_profile",
+  "updated_at": "2026-07-29T05:35:21.167284"
 }

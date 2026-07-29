@@ -1,7 +1,7 @@
 {
   "date": "2026-05-13",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-13, a weekday, a single order was placed in the afternoon. The basket contained four items across three categories: one unit of Cookies Biscuits, three units of Curd Yogurt (from two distinct SKUs), and one unit of Milk. The observed combination suggests a need for dairy products and a snack. No other products were added to cart or purchased in this session.",
+  "summary_text": "On this weekday, a single afternoon order was placed containing dairy items (Curd Yogurt, Milk) and Cookies Biscuits. The basket included two distinct Curd Yogurt products, one Milk product, and a single pack of Cookies Biscuits. This represents a single observation of basket breadth and category combination; no durable preference pattern can be established from one date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,11 +13,20 @@
       "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.086,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "A need for dairy products (yogurt and milk) and a biscuit snack.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this single data point. The category pair evidence provided reflects population-level statistics and does not confirm this specific user's habitual behavior.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of dairy products and biscuits suggests a need for breakfast components or snack items.",
+  "uncertainty_text": "This is a single order on one date. No repeated behavior or stable preference can be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-13"
+    ],
+    "first_seen_at": "2026-05-13T11:51:47",
+    "last_seen_at": "2026-05-13T11:51:47"
+  }
 }

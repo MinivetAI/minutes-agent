@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-24 in the morning on a weekday. The basket contains three items: 2 units of Soya Products, 1 unit of Spices Masala, and 1 unit of Milk. The order-building behavior involves purchasing a mix of protein sources (soya, milk) and flavoring agents (spices). The `shopping_need_text` describes a need for basic meal preparation ingredients compatible with the basket, such as cooking a savory dish. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekday morning included Soya Products (2 units), Spices Masala (1 unit), and Milk (1 unit). The basket reflects a basic meal-preparation need compatible with these items, such as preparing a savory dish or breakfast component. No other categories were present in this order.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -13,11 +13,20 @@
       "combination_text": "Soya Products, Spices Masala, and Milk were purchased together in a single order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Need for basic cooking ingredients including protein and seasoning.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` provided reflects population-level co-occurrence statistics and does not necessarily reflect the specific intent or pairing logic of this single user's basket beyond the fact that Milk was purchased.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Preparation of a meal or dish requiring soy-based ingredients, spices, and dairy.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this data alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-24"
+    ],
+    "first_seen_at": "2026-03-24T10:41:18",
+    "last_seen_at": "2026-03-24T10:41:18"
+  }
 }

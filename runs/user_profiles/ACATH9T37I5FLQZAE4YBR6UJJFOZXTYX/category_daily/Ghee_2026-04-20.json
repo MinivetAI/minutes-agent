@@ -1,9 +1,23 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20 (weekday), a single order of Gowardhan Pure Cow Ghee 500 ml Plastic Bottle was placed in the afternoon. This timing aligns with a lower-than-average population share for the category (25.26% vs. 32.46% morning baseline). The product is a standard household kitchen staple. As this is a single observation, it does not establish a stable brand preference or routine replenishment pattern.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-20 (weekday), one order of Gowardhan Pure Cow Ghee 500 ml Plastic Bottle (quantity 1) was placed in the afternoon. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though above the night share (0.1202). The product is a standard household kitchen staple used for cooking and adding ghee to food. This is a single observation on one date, so it is not yet possible to establish a stable brand preference, routine purchasing cadence, or specific usage occasion beyond the immediate need for this item.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Gowardhan Pure Cow Ghee 500 ml Plastic Bottle (quantity 1) placed on a weekday afternoon. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though above the night share (0.1202).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; cannot establish stable brand preference or routine replenishment patterns.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so it is not yet possible to establish a stable brand preference, routine purchasing cadence, or specific usage occasion beyond the immediate need for this item.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

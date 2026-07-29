@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks during the evening on a weekend.",
+  "summary_text": "One order of CRAX Cheese Balls Puff Snacks 65 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity aligns with the population baseline (30.27% share). The product is a single-serve savoury snack, typically consumed as an immediate, ready-to-eat item without preparation.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the evening on a weekend. The population baseline shows evening is a common time for this category (30.27%). The product is a single-serve savory snack, typically used for immediate consumption or quick cravings.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated purchase. No brand or product repetition has been observed to confirm a stable habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-10"
+    ],
+    "first_seen_at": "2026-05-10T19:01:33",
+    "last_seen_at": "2026-05-10T19:01:33"
+  }
 }

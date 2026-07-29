@@ -1,9 +1,23 @@
 {
   "date": "2026-03-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-04 (weekday), one order of Amul Masti Dahi Plain Curd (200 ml) was placed in the morning. This timing aligns with the population baseline for morning activity (32.46%). The product is a small, single-serve plain curd pack, typically used for immediate consumption, meal pairing, or topping up a household shortfall. No browsing events (search, view, cart-add) were recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-04 (weekday), the user purchased one 200 ml pack of Amul Masti Dahi Plain Curd in the morning. This daypart activity aligns with the population baseline (32.5%). The small pack size suggests immediate consumption or a quick top-up rather than bulk stocking. This is a single observation on one date; it is not yet established whether the user prefers this specific brand, pack size, or product type over alternatives, or if this purchase was an isolated instance rather than part of a recurring routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One 200 ml pack of Amul Masti Dahi Plain Curd was purchased. The small pack size suggests immediate consumption or a quick top-up rather than bulk stocking.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. No repeated orders are observed, so no durable brand or product preference can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, pack size, or product type over alternatives, or if this purchase was an isolated instance rather than part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-04"
+    ],
+    "first_seen_at": "2026-03-04T07:43:36",
+    "last_seen_at": "2026-03-04T07:43:36"
+  }
 }

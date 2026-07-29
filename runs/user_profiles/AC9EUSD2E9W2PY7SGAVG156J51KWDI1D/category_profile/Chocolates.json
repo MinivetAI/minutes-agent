@@ -1,40 +1,40 @@
 {
-  "category": "Chocolates",
-  "profile_text": "The user exhibits a stable, high-frequency purchasing pattern for chocolates, buying approximately every 7 days. There is a clear, medium-confidence preference for Nestlé Milkybar, specifically the 22.5 g bar variant, which has been purchased on two independent dates in June 2026. This is accompanied by variety-seeking behavior, evidenced by a single purchase of a different Nestlé variant (Choo Strawberry Flavour Treats) and prior purchases of other brands (Cadbury) and formats (wafer bars, gift packs). Purchases consistently occur in the morning, across both weekdays and weekends, suggesting a routine for immediate snacking or quick sweet treats rather than occasion-specific gifting.",
-  "brand_preferences": [
+  "category_name": "Chocolates",
+  "summary_text": "The user has established a stable preference for Nestlé Milkybar chocolates, purchasing this brand on three independent dates in June 2026, all occurring in the morning. The most consistent product is the 22.5 g bar, bought on two of those dates, though a different 80 g variant was also purchased once. Previous months (April and May) showed single-observation purchases of various Nestlé and Cadbury products, but no stable patterns were established until June.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Nestlé Milkybar",
+        "preference_text": "The user consistently purchases Nestlé Milkybar branded chocolates, with evidence spanning three independent dates in June 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Nestlé Milkybar sub-brand and does not necessarily extend to other Nestlé chocolate lines (e.g., Classic Rich & Creamy) or competing brands like Cadbury."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Nestlé",
-      "preference_text": "The user has a stable preference for Nestlé, evidenced by purchases on 2026-06-12 and 2026-06-21.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Nestlé Milkybar 22.5 g bars, evidenced by purchases on 2026-06-12 and 2026-06-21.",
-      "examples": [],
+      "daypart": "morning",
+      "behavior_text": "All observed purchases in the Chocolates category, including the three stable June orders, occurred in the morning.",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has purchased both Nestlé Milkybar and other Nestlé products (Classic Rich & Creamy) as well as Cadbury products. While Nestlé Milkybar is the current stable preference, the user has previously bought other milk chocolate bars and gift packs, suggesting openness to other milk chocolate formats or brands within the same general category, though no specific substitution pattern is established.",
+  "uncertainty_text": "It is unknown if the morning timing is a strict habit or coincidental with the three June orders. The specific product variant is not stable (22.5 g bar vs. 80 g Choo Strawberry), so it is unclear if the user prefers a specific size or is flexible. The reason for purchase (snacking vs. gifting) is not definitively established, although the small bar sizes suggest immediate consumption.",
+  "retrieval_text": "User demonstrates a high-confidence preference for Nestlé Milkybar chocolates, evidenced by purchases on three independent dates in June 2026, with a medium-confidence preference for the 22.5 g bar variant appearing on two of those dates. All observed chocolate purchases occurred in the morning daypart. Previous single-observation purchases included Nestlé Classic Rich & Creamy and Cadbury Dairy Milk/Celebrations, but Nestlé Milkybar is the only brand with repeated, stable evidence.",
   "replenishment": {
-    "cadence_days": 7.0,
+    "cadence_days": 7,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-06-21",
     "predicted_next_purchase_date": "2026-06-28",
-    "replenishment_text": "The user buys chocolates roughly every 7 days, with the next purchase estimated around 2026-06-28.",
-    "confidence": "medium",
-    "evidence_count": 6,
-    "independent_date_count": 6
+    "replenishment_text": "Chocolates is reordered roughly every 7 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by consistent transaction history across multiple months.",
-  "substitution_text": "The user shows variety-seeking behavior within the brand (e.g., switching from 22.5 g bars to 80 g treats) and across brands (Nestlé to Cadbury), indicating openness to substitution based on format or flavor novelty.",
-  "price_value_text": "Purchases include small, single-serve formats (22.5 g bars) and shareable bite-sized treats (80 g), suggesting a focus on immediate consumption and impulse snacking rather than bulk value.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. Prior purchases of Cadbury and other Nestlé formats indicate a broad interest in the category, with the current stable preference focused on Nestlé Milkybar 22.5 g bars.",
-  "mission_generation_text": "Routine replenishment of daily chocolate snacks, with potential for variety-seeking within the preferred brand or format.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-04-30T08:01:42",
+    "last_seen_at": "2026-06-21T09:39:45"
+  }
 }

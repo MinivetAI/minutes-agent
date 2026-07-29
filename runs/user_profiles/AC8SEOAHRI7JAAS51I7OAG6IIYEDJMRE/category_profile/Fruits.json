@@ -1,32 +1,27 @@
 {
-  "category": "Fruits",
-  "profile_text": "The user demonstrates a stable preference for Musk Melon Kajari, evidenced by purchases on two independent dates in April 2026. This product is the only item with sufficient repetition to establish a durable preference. Other fruits, including Green Kiwi, various grapes, Watermelon Kiran, Baby Banana Robusta, Muskmelon 600 g, and Unbranded Litchi Without Stems, were observed on single independent dates and do not constitute stable preferences. Purchases occur across weekdays and weekends, with timing varying between morning, afternoon, and evening. The user buys both fresh whole fruits and ready-to-eat varieties.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Musk Melon Kajari, evidenced by purchases on 2 independent dates in April 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Fruits",
+  "summary_text": "The user demonstrates a recurring interest in fresh fruits, with evidence spanning multiple months. A stable preference for 'Musk Melon Kajari' is established based on purchases on two independent dates in April 2026. Other fruits, including kiwi, bananas, grapes, watermelon, and litchi, appear as single-observation items without repeated brand or product preferences. Weekend purchasing is noted in March, while April and July show morning weekday activity for muskmelon.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased a variety of fresh fruits (kiwi, banana, grapes, watermelon, litchi, muskmelon) across different months. The lack of repeated specific fruit types outside of muskmelon suggests openness to substitution among fresh fruit categories, though no specific substitution pattern is established.",
+  "uncertainty_text": "Stable preferences are limited to 'Musk Melon Kajari' (medium confidence). No stable brand preference exists as the primary muskmelon items are unbranded or generic. It is unknown if the user prefers whole fruits over pre-cut or packaged formats, as evidence includes both whole (Kajari) and packaged (600g) forms. Daypart consistency is unclear due to mixed weekend and weekday observations.",
+  "retrieval_text": "User shows a medium-confidence preference for the specific product 'Musk Melon Kajari' (unbranded, fresh whole), observed on two independent dates in April 2026. Other fresh fruit purchases include Green Kiwi, Baby Banana Robusta, Crimson Red Seedless Grapes, Green Seedless Grapes, Watermelon Kiran, Muskmelon 600g, and Litchi Without Stems, but these represent single-observation events without repeated brand or product stability. Purchasing timing varies, with weekend activity in March and morning weekday activity in April and July.",
   "replenishment": {
     "cadence_days": 19.5,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-07-06",
     "predicted_next_purchase_date": "2026-07-25",
-    "replenishment_text": "The user typically purchases this category every 19.5 days, with the last purchase on 2026-07-06 and the next estimated around 2026-07-25.",
-    "confidence": "medium",
-    "evidence_count": 7,
-    "independent_date_count": 7
+    "replenishment_text": "Fruits is reordered roughly every 20 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions across several months.",
-  "substitution_text": null,
-  "price_value_text": null,
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. Other fruit items were purchased only once, so their status as recurring habits is unknown.",
-  "mission_generation_text": "Supports needs for fresh, ready-to-eat fruit snacks, breakfast add-ons, or general healthy eating.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 7,
+    "independent_date_count": 7,
+    "first_seen_at": "2026-03-08T11:29:06",
+    "last_seen_at": "2026-07-06T10:17:35"
+  }
 }

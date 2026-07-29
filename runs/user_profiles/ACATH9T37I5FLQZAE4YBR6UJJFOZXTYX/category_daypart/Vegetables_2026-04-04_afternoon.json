@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased eight unbranded fresh vegetable items: Baby Potato, Spinach Leaves, Bitter Gourd, Coriander Leaves, Beetroot, Brinjal, Onion, and Green Capsicum.",
+  "summary_text": "One order of eight unbranded fresh vegetable items (baby potato, spinach, bitter gourd, coriander, beetroot, brinjal, onion, green capsicum) purchased in the afternoon on a weekend.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed in the afternoon on a weekend, a time when population share is lower than the morning baseline (0.2526 vs 0.3246). The basket consists entirely of fresh, unbranded produce staples and herbs, suggesting a same-day cooking need or a replenishment of perishable ingredients for immediate household use.",
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an urgent top-up. As this is a single observed order, it is not possible to establish stable brand or product preferences.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon on a weekend, a time when the user's activity is below the population baseline for this daypart (population afternoon share: 0.2526). The basket consists of diverse fresh produce and herbs, suggesting a need for immediate ingredients for same-day cooking or meal preparation.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this specific combination of vegetables or this afternoon timing represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T11:40:58",
+    "last_seen_at": "2026-04-04T11:40:58"
+  }
 }

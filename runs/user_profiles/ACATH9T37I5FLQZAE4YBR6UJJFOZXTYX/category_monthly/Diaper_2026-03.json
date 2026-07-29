@@ -1,11 +1,19 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user placed two orders for Pampers Complete Skin Comfort Pant Diapers XL (56 Count), one on a weekday morning and one on a weekend afternoon. The recurrence of this specific product across two independent dates supports a stable preference claim with at least medium confidence. The timing reflects the user's above-baseline morning activity pattern on weekdays and typical weekend afternoon activity. No other diaper brands or variants were observed in this month.",
+  "summary_text": "In March 2026, the user placed two orders for Pampers Complete Skin Comfort Pant Diapers XL (56 Count) on independent dates (2026-03-16 and 2026-03-21). This repetition across two dates supports a stable preference for this specific brand and variant. The user also ordered on both a weekday (morning) and a weekend (afternoon), indicating no single daypart or day-type dominance, but rather a flexible purchasing window.",
   "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Pampers",
+      "claim_text": "The user has ordered Pampers diapers on two independent dates in March 2026, indicating a stable brand preference.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
     {
       "dimension": "product",
       "value": "Pampers Complete Skin Comfort Pant Diapers XL (56 Count)",
-      "claim_text": "The user has a stable preference for Pampers Complete Skin Comfort Pant Diapers XL (56 Count), evidenced by purchases on two independent dates in March 2026.",
+      "claim_text": "The user has ordered Pampers Complete Skin Comfort Pant Diapers XL (56 Count) on two independent dates in March 2026, indicating a stable product preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on only two orders in March 2026. While the repetition establishes a stable preference for this specific product, the small sample size limits the ability to infer long-term routine or broader category habits beyond this item.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "Only two independent dates are available for this month. While the repetition establishes a stable preference for the specific Pampers product, the small sample size limits the ability to determine long-term cadence or broader brand loyalty beyond this specific item.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-16",
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-16T09:10:05",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

@@ -1,26 +1,27 @@
 {
-  "category": "Scrub Pad",
-  "profile_text": "The user has purchased scrub pads on two independent dates (2026-04-18 and 2026-07-09), indicating basic utility for routine household cleaning. However, with only two observations spanning different months and no clear repetition of the same brand or product, stable brand or format preferences cannot be established. The user bought both Scotch-Brite and Flipkart Supermart brands in July, suggesting openness to multiple options rather than a single durable preference. Cadence is unknown.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Scrub Pad",
+  "summary_text": "Evidence for this category is limited to two isolated observations in April and July 2026, both occurring on weekday or weekend afternoons. The user purchased Flipkart Supermart scrub sponges/pads and a Scotch-Brite combo pack. Due to the lack of repetition across independent dates, no stable brand preference, routine, or specific variant loyalty can be established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user purchased both Flipkart Supermart and Scotch-Brite products in the same basket in July, suggesting openness to different brands for general cleaning utility, but this is based on a single instance.",
+  "uncertainty_text": "It is unknown if the user has a stable preference for any specific brand (Flipkart Supermart vs. Scotch-Brite) or product form (sponge vs. pad). The observed afternoon timing may be coincidental to a one-time cleaning need rather than a recurring routine. No evidence exists for pack size preferences or reorder cadence.",
+  "retrieval_text": "User has made two isolated purchases of scrub pads and sponges in April and July 2026, buying Flipkart Supermart and Scotch-Brite brands in afternoon sessions. No stable brand loyalty or routine pattern is established due to lack of repetition.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-09",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-07-09; cadence is unknown, so no predicted next purchase date can be estimated.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for ScrubPad yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on all observed occasions; there is no evidence of unmet interest or abandoned carts.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident from the two transactions.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior observed. The user has purchased from both a national brand (Scotch-Brite) and a private label (Flipkart Supermart), indicating no strong brand loyalty or aversion yet.",
-  "mission_generation_text": "Routine household cleaning, specifically scrubbing cookware, sinks, and hard surfaces.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-18T12:20:02",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

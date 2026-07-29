@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Baby Potato 280–320 g (unbranded fresh vegetable) during a morning session on a weekday.",
+  "summary_text": "One order of Baby Potato 280–320 g (1 unit) on 2026-01-30.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a fresh vegetable suitable for immediate cooking.",
-  "uncertainty_text": "This is a single observed order; no durable preferences or recurring habits can be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh vegetable suitable for quick home-style cooking or same-day meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established. It is unclear if this represents a routine habit or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

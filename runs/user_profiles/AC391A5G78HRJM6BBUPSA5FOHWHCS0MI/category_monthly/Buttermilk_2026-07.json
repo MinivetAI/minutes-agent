@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "One unit of buttermilk was purchased during the evening on a weekday. The purchase occurred in the evening, a time period with significant population share (30.27%) for this category, suggesting a timing compatible with dinner preparation or evening meal consumption. This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
+  "summary_text": "On 2026-07-20 (weekday), one unit of buttermilk was purchased during the evening. This timing aligns with the population baseline, where evening accounts for 30.27% of buttermilk purchases. As this is a single observation on one date, it does not establish a stable brand preference, routine, or recurring need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or category.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-20"
+    ],
+    "first_seen_at": "2026-07-20T19:05:15",
+    "last_seen_at": "2026-07-20T19:05:15"
+  }
 }

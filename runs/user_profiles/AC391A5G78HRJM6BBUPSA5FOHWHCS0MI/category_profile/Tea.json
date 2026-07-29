@@ -1,34 +1,27 @@
 {
-  "category": "Tea",
-  "profile_text": "The user has a single observed purchase of Tetley Long Leaf Immune Green Tea with Vitamin C Lemon (100 g box) on 2026-06-13 in the evening. This isolated order does not establish a stable brand preference, routine, or cadence. The product is a functional, flavored green tea often used for a light, citrus-profiled beverage.",
-  "brand_preferences": [
-    {
-      "brand": "Tetley",
-      "preference_text": "Tetley was observed in one purchase on 2026-06-13. This single observation does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Tea",
+  "summary_text": "In June 2026, the user purchased Tetley Long Leaf Immune Green Tea with Vitamin C Lemon (100 g) on a single weekend evening. This order aligns with the population baseline where evening accounts for 30.27% of tea activity. The purchase represents a one-time acquisition of a flavoured green tea for immediate consumption.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from the single observed order.",
+  "uncertainty_text": "This is the only observed order on this date; it is insufficient to establish a stable brand preference, a recurring evening routine, or a specific functional need (e.g., wellness vs. taste).",
+  "retrieval_text": "In June 2026, the user purchased Tetley Long Leaf Immune Green Tea with Vitamin C Lemon (100 g) on a single weekend evening, aligning with the population baseline where evening accounts for 30.27% of tea activity. This represents a one-time acquisition of a flavoured green tea for immediate consumption, with no stable brand preference or recurring routine established from this single observation.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-13",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Tea yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, though based on a single transaction.",
-  "substitution_text": "No substitution patterns observed due to single purchase.",
-  "price_value_text": "No price/value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports the need for a functional, flavored green tea beverage, specifically a citrus-profiled option with added Vitamin C.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-13T16:06:27",
+    "last_seen_at": "2026-06-13T16:06:27"
+  }
 }

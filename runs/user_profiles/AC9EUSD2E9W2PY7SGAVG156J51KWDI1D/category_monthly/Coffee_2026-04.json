@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased 1 unit of Continental Malgudi 60 Degree Filter Coffee Pouch 200 g on 2026-04-26 (weekend) during the evening. This order occurred in the evening, a time when this user's activity is slightly less common than the population baseline (30.27% of population activity is in the evening vs. 32.46% in the morning). The product is a traditional South Indian filter coffee powder intended for decoction-style brewing, suggesting a possible need for replenishment of a staple household item. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., stockout, gift, or trial) cannot be determined from this evidence alone.",
+  "summary_text": "In April 2026, the user ordered Continental Malgudi 60 Degree Filter Coffee Pouch 200 g on one weekend date in the evening. This product is a South Indian filter coffee powder used for traditional decoction-style brewing. The evening timing contrasts with the population baseline, which shows the highest share of coffee purchases in the morning (0.3246) and evening (0.3027). As this is a single observation from one date, it is not yet established whether this represents a stable preference for this specific brand or product, or if the evening timing is a consistent pattern. The specific reason for the purchase cannot be determined from order history alone.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., stockout, gift, or trial) cannot be determined from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this specific brand or product, or if the evening timing is a consistent pattern. The specific reason for the purchase cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-26T19:26:32"
+  }
 }

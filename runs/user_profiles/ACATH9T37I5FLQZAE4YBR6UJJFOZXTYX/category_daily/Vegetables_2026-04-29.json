@@ -1,9 +1,17 @@
 {
   "date": "2026-04-29",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-29 (weekday), the user purchased a single order of six unbranded fresh vegetables and herbs during the evening: carrot (500 g), onion (400–450 g), sponge gourd (250 g), beetroot (250–350 g), cleaned coriander leaves (90–100 g), and portion-cut pumpkin (450–550 g). The evening timing aligns with a population share of 0.3027, comparable to the morning baseline of 0.3246. The basket composition suggests immediate-use cooking ingredients, including a base (onion), aromatics (coriander), and specific vegetables suited for same-day meal preparation. This is a single observed transaction on one date; it does not establish a stable preference or routine for these specific items or this category.",
+  "summary_text": "One order of unbranded fresh vegetables including carrot, onion, sponge gourd, beetroot, coriander leaves, and portioned pumpkin, ordered in the evening. The mix of base aromatics, root vegetables, and fresh greens suggests immediate meal preparation or a top-up for same-day cooking needs.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference or routine for these specific items or this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-29"
+    ],
+    "first_seen_at": "2026-04-29T20:12:12",
+    "last_seen_at": "2026-04-29T20:12:12"
+  }
 }

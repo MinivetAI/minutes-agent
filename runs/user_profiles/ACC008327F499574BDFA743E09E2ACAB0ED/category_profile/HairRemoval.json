@@ -1,40 +1,27 @@
 {
-  "category": "Hair Removal",
-  "profile_text": "In May 2026, the user purchased one 30 g pack of Veet Pure Hair Removal Cream for Normal Skin on a weekday evening. This single order aligns with the evening daypart, which has a high population share (0.3027) for Hair Removal. The product is a fast-acting, at-home depilatory cream suitable for quick grooming fixes on legs, arms, or bikini line. As this is the only observed order in the month, it does not establish a durable brand preference or routine.",
-  "brand_preferences": [
-    {
-      "brand": "Veet",
-      "preference_text": "Veet was observed in one independent date (2026-05-27).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Veet Pure Hair Removal Cream for Normal Skin was observed in one independent date (2026-05-27).",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Hair Removal",
+  "summary_text": "In May 2026, the user placed one order for Veet Pure Hair Removal Cream for Normal Skin (30 g) on a weekday evening. This single observation aligns with the population baseline evening share of 0.3027. The product is a fast-acting, at-home depilatory cream intended for quick grooming without salon visits or razor irritation. As this is a single observation on one date, no stable brand, product, or timing preferences can be established; it is unknown whether this was a trial, an emergency top-up, or part of a recurring routine.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Insufficient evidence to determine acceptable or unacceptable substitutions. A single order does not establish a pattern of brand loyalty or product form preference that would indicate which alternatives are preferred or rejected.",
+  "uncertainty_text": "This category is based on a single observation from one independent date. It is unknown whether the user has a recurring need for hair removal, if Veet is a preferred brand, or if the 30g cream is the standard pack size. No stable preferences for brand, variant, pack size, or daypart can be established.",
+  "retrieval_text": "User ordered Veet Pure Hair Removal Cream for Normal Skin (30 g) on a weekday evening in May 2026. This is a single observation; no stable brand, product, or timing preferences are established. The product is an at-home depilatory cream. Substitution preferences and routine cadence are unknown due to lack of repeated evidence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-27",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-05-27. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for HairRemoval yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution evidence observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "At-home hair removal for normal skin.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-27T19:04:20",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-03-21",
   "day_type": "weekend",
-  "summary_text": "One order of Britannia Romance Nut and Raisin Cake (140 g) in the Cake Pastry category during the afternoon on a weekend. The purchase occurred in the afternoon, a time when this user's activity is below the population baseline (25.26% share). The product is a packaged, shelf-stable sweet cake, typically used for immediate snacking, tea-time cravings, or as a quick dessert.",
+  "summary_text": "On 2026-03-21 (weekend), the user placed one order of Britannia Romance Nut and Raisin Cake (140 g) in the afternoon. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time impulse purchase, a replacement for a fresh bakery item, or part of a broader pattern of buying packaged cakes.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time impulse purchase, a replacement for a fresh bakery item, or part of a broader pattern of buying packaged cakes.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

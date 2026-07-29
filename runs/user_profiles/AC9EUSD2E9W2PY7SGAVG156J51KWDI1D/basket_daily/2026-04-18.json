@@ -1,25 +1,92 @@
 {
   "date": "2026-04-18",
   "day_type": "weekend",
-  "summary_text": "A single order was placed on 2026-04-18 during the afternoon on a weekend. The basket contained four distinct items: Butter Margarine, Savouries Namkeens, Breads, and Spices Masala. This represents a single observation of basket breadth and category combination. No durable behavior pattern can be established from this single date.",
+  "summary_text": "On this weekend, a single order was placed in the afternoon. The basket contained four distinct items: Breads, Butter Margarine, Savouries Namkeens, and Spices Masala. This mix includes staple cooking ingredients (Breads, Butter Margarine, Spices Masala) alongside a ready-to-eat snack (Savouries Namkeens). The combination of Breads, Butter Margarine, and Spices Masala is compatible with preparing a savory snack or meal, such as spiced bread or toast, while the Savouries Namkeens suggests a desire for immediate consumption. No other orders are present to establish a pattern.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Butter Margarine",
-        "Savouries Namkeens",
+        "Breads",
+        "Butter Margarine"
+      ],
+      "combination_text": "Breads and Butter Margarine were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Breads",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Breads and Savouries Namkeens were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
         "Breads",
         "Spices Masala"
       ],
-      "combination_text": "Butter Margarine, Savouries Namkeens, Breads, and Spices Masala were purchased together in one order.",
-      "support": null,
+      "combination_text": "Breads and Spices Masala were purchased together in this order.",
+      "support": 0.08,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Butter Margarine",
+        "Savouries Namkeens"
+      ],
+      "combination_text": "Butter Margarine and Savouries Namkeens were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Butter Margarine",
+        "Spices Masala"
+      ],
+      "combination_text": "Butter Margarine and Spices Masala were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Spices Masala"
+      ],
+      "combination_text": "Savouries Namkeens and Spices Masala were purchased together in this order.",
+      "support": 0.08,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchased items (Breads, Butter Margarine, Spices Masala, Savouries Namkeens) are compatible with a need for preparing or consuming savory snacks or light meals.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences, routine behaviors, or durable patterns cannot be inferred. The `category_pair_evidence` provided relates to different categories (Milk, Vegetables, WheatFlour, Chocolates, CurdYogurt) not present in this specific order, so no lift/support numbers from that evidence are applied to the observed basket.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Breads, Butter Margarine, and Spices Masala is compatible with preparing a savory snack or meal, such as spiced bread or toast. The inclusion of Savouries Namkeens suggests a desire for ready-to-eat snacks or accompaniments.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or routine behaviors can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T13:46:20",
+    "last_seen_at": "2026-04-18T13:46:20"
+  }
 }

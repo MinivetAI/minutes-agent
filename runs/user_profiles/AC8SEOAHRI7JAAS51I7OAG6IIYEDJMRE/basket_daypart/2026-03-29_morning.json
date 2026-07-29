@@ -1,92 +1,31 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-03-29 in the morning on a weekend. The basket contains two items: one unit of Eggs and one unit of Breads. This represents a narrow basket breadth with two distinct categories. The combination of Eggs and Breads suggests a basic breakfast or meal-preparation need. No other products were added to the cart or purchased in this session.",
+  "basket_summary_text": "A single order placed on 2026-03-29 in the morning on a weekend contained one unit of Eggs and one unit of Breads. This combination represents a basic breakfast or brunch preparation need. No other products were included in this transaction.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
-        "Breads",
-        "CurdYogurt"
+        "Eggs",
+        "Breads"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
+      "combination_text": "Eggs and Breads were purchased together in a single order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Eggs and Breads is compatible with a need for breakfast items or basic meal ingredients.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket suggests a need for basic breakfast components, specifically eggs and bread, compatible with a morning meal on a weekend.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. Stable preferences or routine behaviors cannot be inferred from this isolated observation. Confidence is low due to the lack of repetition across multiple dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-29"
+    ],
+    "first_seen_at": "2026-03-29T09:00:25",
+    "last_seen_at": "2026-03-29T09:00:25"
+  }
 }

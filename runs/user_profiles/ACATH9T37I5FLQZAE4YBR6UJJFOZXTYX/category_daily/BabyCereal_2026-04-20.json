@@ -1,9 +1,23 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20 (weekday), one unit of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) was purchased in the afternoon. No browsing events (search, view, cart-add) were recorded for this category in this window. The purchase occurred in the afternoon on a weekday, which is less common than the population baseline for this category (afternoon share 0.2526 vs morning 0.3246). The product is a complementary infant food, typically used for urgent replenishment of baby feeding supplies. No browsing history is available to determine if this was a planned search or an immediate need. A single order does not establish a stable preference or routine.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-20 (weekday), one order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) was placed in the afternoon. This daypart is less frequent for this category than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a complementary infant cereal, typically used for feeding infants aged 6–24 months. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) placed in the afternoon on a weekday. This daypart is less frequent for this category than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a complementary infant cereal, typically used for feeding infants aged 6–24 months. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned search or an immediate need. A single order does not establish a stable preference or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

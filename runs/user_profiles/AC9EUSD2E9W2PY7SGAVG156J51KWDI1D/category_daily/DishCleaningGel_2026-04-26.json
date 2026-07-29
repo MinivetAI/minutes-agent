@@ -1,9 +1,23 @@
 {
   "date": "2026-04-26",
   "day_type": "weekend",
-  "summary_text": "On the evening of 2026-04-26 (weekend), the user purchased one 250 ml single-pack of Vim Dish Cleaning Gel Lemon. This concentrated dishwashing gel with lemon fragrance was acquired during a time when the user's activity was slightly below the population baseline share of 0.3027 for this daypart. The product serves as a routine household cleaning consumable for immediate dishwashing needs.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-26 (weekend), one unit of Vim Dish Cleaning Gel Lemon (250 ml) was purchased in the evening. The evening is a common time for this purchase, with a population share of 0.3027, comparable to the morning (0.3246) and higher than the afternoon (0.2526) and night (0.1202). This single observation does not establish a stable brand or product preference, and it is unknown if this is a routine replacement or a one-time purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One unit of Vim Dish Cleaning Gel Lemon (250 ml) was purchased in the evening. The evening is a common time for this purchase, with a population share of 0.3027, comparable to the morning (0.3246) and higher than the afternoon (0.2526) and night (0.1202).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or recurring habit for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unknown if this is a routine replacement or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-26T19:26:32"
+  }
 }

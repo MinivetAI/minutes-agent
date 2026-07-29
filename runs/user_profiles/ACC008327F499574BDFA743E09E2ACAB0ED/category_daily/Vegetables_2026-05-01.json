@@ -1,15 +1,17 @@
 {
   "date": "2026-05-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-01 (weekday), the user purchased one unit of VEGGF7EXB3KWXAGJ and two units of unbranded fresh bottle gourd (400–600 g) during a morning session. This morning purchase aligns with the category's 32.46% population activity share for this daypart. The items are fresh produce suitable for immediate meal preparation. This is a single observed transaction; no stable brand or product preferences can be established from this isolated event.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one unit of VEGGF7EXB3KWXAGJ and two units of unbranded fresh bottle gourd (400–600 g).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user placed one order of vegetables in the morning, purchasing one unit of an unbranded fresh vegetable (VEGGF7EXB3KWXAGJ) and two units of Bottle Gourd (400–600 g). This timing aligns with the population baseline where morning accounts for 32.46% of vegetable purchases. The items are fresh produce suitable for immediate meal preparation. This is a single observation from one date; it is not yet possible to establish stable brand, product, or daypart preferences.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no stable brand or product preferences can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to establish stable brand, product, or daypart preferences.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T09:44:21",
+    "last_seen_at": "2026-05-01T09:44:21"
+  }
 }

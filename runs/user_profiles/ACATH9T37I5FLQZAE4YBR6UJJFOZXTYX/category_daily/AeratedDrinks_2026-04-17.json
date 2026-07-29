@@ -1,9 +1,23 @@
 {
   "date": "2026-04-17",
   "day_type": "weekday",
-  "summary_text": "One order of Coca-Cola Original Taste Soft Drink 750 ml PET Bottle, purchased in the afternoon on a weekday. This timing aligns with a 25.26% population share for this category during afternoon hours. The product is a standard mid-size carbonated cola, typically used for immediate refreshment or as a meal companion. This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered one 750 ml PET bottle of Coca-Cola Original Taste Soft Drink during the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity, slightly lower than the morning (32.46%) and evening (30.27%) peaks. The product is a carbonated cola beverage, typically used for immediate refreshment or as a meal companion. This is a single observation from one date. It is not yet established whether this represents a stable preference for Coca-Cola, a specific brand, or a recurring afternoon habit. No other orders are available to confirm repetition.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Coca-Cola Original Taste Soft Drink 750 ml PET Bottle. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity, slightly lower than the morning (32.46%) and evening (30.27%) peaks. The product is a carbonated cola beverage, typically used for immediate refreshment or as a meal companion. This is a single observation from one date. It is not yet established whether this represents a stable preference for Coca-Cola, a specific brand, or a recurring afternoon habit. No other orders are available to confirm repetition.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for Coca-Cola, a specific brand, or a recurring afternoon habit. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

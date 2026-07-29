@@ -1,9 +1,23 @@
 {
   "date": "2026-05-02",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-02 (weekend), the user purchased 2 units of Bikaji Chowpati Bhelpuri 110 g during a morning session. This order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a ready-to-eat, chaat-style snack suitable for immediate consumption or impulse hunger. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user purchased Bikaji Chowpati Bhelpuri 110 g (quantity: 2) in the Savouries Namkeens category during the morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity for this category. The products are ready-to-eat savoury snacks, typically used for immediate consumption or quick snacking. This is a single observation on one date; it is not yet established whether this represents a stable preference for Bikaji, bhelpuri-style snacks, or weekend morning shopping habits.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Bikaji Chowpati Bhelpuri 110 g (quantity: 2) in the Savouries Namkeens category, purchased on a weekend morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity for this category. The products are ready-to-eat savoury snacks, typically used for immediate consumption or quick snacking.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Bikaji, bhelpuri-style snacks, or weekend morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-02"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

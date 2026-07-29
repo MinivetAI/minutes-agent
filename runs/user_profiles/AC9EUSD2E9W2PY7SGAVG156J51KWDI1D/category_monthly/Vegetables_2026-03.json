@@ -1,34 +1,18 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased two distinct vegetable items on separate dates: Fresh Curry Leaves on 2026-03-04 and Fresh New Crop Potato on 2026-03-23. Both purchases occurred on weekdays during the morning daypart. No single product, brand, or variant appeared on more than one independent date; therefore, no stable preferences or routines are established for specific items. The consistent timing across two separate orders supports a stable preference for morning shopping on weekdays.",
-  "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "Fresh Curry Leaves 50 g (Unbranded)",
-      "claim_text": "Purchased 2 units on 2026-03-04. This is a single observed order; it does not establish a stable preference or routine for curry leaves.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "dimension": "product",
-      "value": "Fresh New Crop Potato (0.95–1.05 kg)",
-      "claim_text": "Purchased 1 unit on 2026-03-23. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "dimension": "product",
-      "value": "Morning daypart",
-      "claim_text": "Purchases occurred in the morning on both 2026-03-04 and 2026-03-23. This timing aligns with above-baseline activity (32.5% share relative to population baseline).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
+  "summary_text": "In March 2026, the user ordered fresh vegetables on two independent dates. On 2026-03-04, the user purchased Unbranded Fresh Curry Leaves (2 packs) in the morning. On 2026-03-23, the user purchased Fresh New Crop Potato (0.95–1.05 kg) in the morning. Both orders occurred on weekdays during the morning daypart. No single brand or product variant recurred across multiple dates to establish a stable preference. The consistent timing suggests a pattern of morning shopping on weekdays, but the specific products purchased were distinct and single-observation items.",
+  "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No single product or brand recurred across multiple dates in March 2026. Specific culinary intents (e.g., recipe type for curry leaves or preparation method for potatoes) are unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "The evidence consists of two distinct, non-recurring product purchases on separate dates. No brand or specific product variant was ordered more than once, preventing the establishment of a stable product preference. The only recurring pattern is the timing (weekday mornings), which is noted in the daypart analysis.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-23"
+    ],
+    "first_seen_at": "2026-03-04T07:43:36",
+    "last_seen_at": "2026-03-23T09:42:20"
+  }
 }

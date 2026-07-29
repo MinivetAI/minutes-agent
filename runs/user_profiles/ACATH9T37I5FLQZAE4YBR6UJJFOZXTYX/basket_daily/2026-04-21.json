@@ -1,7 +1,7 @@
 {
   "date": "2026-04-21",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-21 (weekday), a single order was placed in the evening. The basket contained two units of Milk, two units of Vegetables, and one unit of Honey. This combination of staple dairy, fresh produce, and a sweetener is compatible with a need for basic meal ingredients or household staples.",
+  "summary_text": "On this weekday evening, a single order was placed containing milk, vegetables, and honey. The basket includes two distinct vegetable items alongside a dairy staple and a sweetener, suggesting a basic meal preparation or household restocking need compatible with the purchased items.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were ordered together.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic meal preparation or household staple replenishment.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Restocking staple food items for meal preparation.",
+  "uncertainty_text": "This behavior is based on a single order on one date; durable preferences cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-21"
+    ],
+    "first_seen_at": "2026-04-21T18:18:33",
+    "last_seen_at": "2026-04-21T18:18:33"
+  }
 }

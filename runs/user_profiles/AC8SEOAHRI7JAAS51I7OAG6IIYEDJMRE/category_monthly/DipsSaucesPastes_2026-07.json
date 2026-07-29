@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "On 2026-07-13 (weekday), the user purchased one 960 g bottle of Maggi Rich Tomato Ketchup in the evening. This timing aligns with the population baseline share of 0.3027 for this daypart. The product is a large-format household condiment typically used for snacks and meals. This is a single observed order on one date; durable brand preference or routine cannot be established.",
+  "summary_text": "On 2026-07-13 (weekday), the user ordered Maggi Rich Tomato Ketchup 960 g in the evening. This timing aligns with the population baseline (evening share 0.3027). The product is a large-format tomato ketchup typically used as a condiment for snacks and meals. This is a single observation on one date; no stable brand or product preference can be established yet.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-13"
+    ],
+    "first_seen_at": "2026-07-13T18:04:49",
+    "last_seen_at": "2026-07-13T18:04:49"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 300 g pack of Nestlé Cerelac Wheat Apple Carrot Cereal, a wheat-based infant cereal blended with milk, apple, and carrot, positioned as a complementary food for infants aged 6–24 months.",
+  "summary_text": "One order of Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) placed on 2026-05-04.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when the user's activity was below the population baseline for this daypart (population afternoon share: 0.2526). The product serves as a ready-to-prepare complementary food, likely fulfilling an immediate need for age-appropriate infant nutrition.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring habit for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though it aligns with the afternoon baseline share of 0.2526. The product is a complementary infant cereal, typically used for feeding infants aged 6–24 months.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time replenishment need. No other brands or variants have been observed to determine brand loyalty or product variety.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T13:09:05",
+    "last_seen_at": "2026-05-04T13:09:05"
+  }
 }

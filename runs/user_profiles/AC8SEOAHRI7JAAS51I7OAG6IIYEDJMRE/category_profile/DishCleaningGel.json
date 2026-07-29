@@ -1,26 +1,27 @@
 {
-  "category": "Dish Cleaning Gel",
-  "profile_text": "A single observed purchase of a large-format dish cleaning gel on a weekend afternoon. No stable routine or brand preference is established.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Dish Cleaning Gel",
+  "summary_text": "In April 2026, the user purchased one 2 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon) on a weekend afternoon. This single observation aligns with the population baseline for afternoon purchases (25.26% share). As this is the only recorded order for this category in the month, no stable brand or product preferences can be established. The timing and product choice are consistent with a one-time household replenishment need.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available; this is a single observation.",
+  "uncertainty_text": "This assessment is based on a single order on 2026-04-18. It is not yet established whether this brand, product size, or weekend afternoon timing represents a stable preference or routine for this user.",
+  "retrieval_text": "Single observed purchase of Flipkart Supermart Dish Cleaning Gel (Lemon), 2 L bottle, on a weekend afternoon in April 2026; no stable brand, variant, or routine preferences established due to lack of repetition.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-18",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single transaction; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for DishCleaningGel yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Routine manual dishwashing for household cleaning.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-18T12:20:02",
+    "last_seen_at": "2026-04-18T12:20:02"
+  }
 }

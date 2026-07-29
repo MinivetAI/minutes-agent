@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of FFWHM4DBGGSG7GHN and 1 unit of FFWHM4DBA2E8U64D from the Pooja Flowers category during the evening on a weekday.",
+  "summary_text": "One order of Pooja Flowers placed on a weekday evening, containing one unit each of two distinct products (FFWHM4DBGGSG7GHN and FFWHM4DBA2E8U64D).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart.",
-  "uncertainty_text": "This is a single observed transaction; durable preferences or routine behaviors cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are general-use floral items typically associated with religious or decorative purposes.",
+  "uncertainty_text": "This is a single observation from one date; it is insufficient to establish a stable brand, product, or daypart preference. No brand claims are emitted as brand data is not provided for these products.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-15"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

@@ -1,34 +1,27 @@
 {
-  "category": "Body Lotion",
-  "profile_text": "A single observed purchase of NIVEA Aloe Hydration Light Lotion Moisturizer (120 ml) on 2026-04-07. No stable brand preference, routine, or cadence can be established from this single data point.",
-  "brand_preferences": [
-    {
-      "brand": "NIVEA",
-      "preference_text": "Observed in a single purchase on 2026-04-07.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Body Lotion",
+  "summary_text": "The user has a single observed order for NIVEA Aloe Hydration Light Lotion Moisturizer 120 ml on 2026-04-07. This is an isolated event; no stable brand, product, or daypart preference can be established from this single data point.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns observed due to single observation.",
+  "uncertainty_text": "This category is based on a single order. It is unknown if NIVEA is a preferred brand, if the aloe/light formulation is a specific preference, or if this was a one-time purchase. No recurring habits or daypart affinities are established.",
+  "retrieval_text": "Single observation of NIVEA Aloe Hydration Light Lotion Moisturizer 120 ml ordered on a weekday afternoon; insufficient evidence to determine brand loyalty, formulation preference, or routine cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-07",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established; last purchase was on 2026-04-07.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for BodyLotion yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty observed.",
-  "mission_generation_text": "Routine body hydration and skin care maintenance.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

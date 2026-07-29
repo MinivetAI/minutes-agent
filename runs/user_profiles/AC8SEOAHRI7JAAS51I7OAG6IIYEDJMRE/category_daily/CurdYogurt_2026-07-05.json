@@ -1,9 +1,28 @@
 {
   "date": "2026-07-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-05 (weekend), the user purchased two distinct curd yogurt items: 3 units of Mother Dairy Advanced Probiotic Plain Curd 200 g in the morning, and one order of Mother Dairy Classic Plain Curd (390.01 g) in the evening. The morning purchase aligns with a population baseline where this category has a 32.46% share, while the evening purchase occurred during a period where this user's activity is slightly less common than the population baseline (30.27% share). The probiotic curd is suitable for immediate consumption or as a digestive-friendly option, while the classic plain curd is a standard dairy staple often used as an accompaniment for meals or for making raita. This is a single observed transaction across two dayparts; it does not establish a stable preference or routine for this brand or product type.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Mother Dairy curd products in both the morning and evening. The morning order consisted of 3 units of Mother Dairy Advanced Probiotic Plain Curd (200 g), aligning with the population baseline where morning is the most common daypart (32.46%) for this category; these small, single-serve probiotic cups are typically used for immediate consumption, as a meal side, or for digestive support. The evening order included one unit of Mother Dairy Classic Plain Curd (390.01 g), a plain curd staple often used as a meal accompaniment or digestive aid, consistent with the evening baseline (0.3027) which is nearly as common as morning for this category. This is a single observation on one date; it is not yet established whether this is a recurring preference for these specific brands or products, or if the user has other preferred brands or formats. No stable routine can be confirmed from this single data point.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Mother Dairy Advanced Probiotic Plain Curd 200 g (quantity: 3) placed on a weekend morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart for this category. The products are small, single-serve probiotic curd cups, typically used for immediate consumption, as a meal side, or for digestive support.",
+      "confidence": "low"
+    },
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Mother Dairy Classic Plain Curd (390.01 g) placed on a weekend evening. The order occurred in the evening, which aligns with the population baseline where evening (0.3027) is nearly as common as morning (0.3246) for this category. The product is a plain curd staple, typically used as a meal accompaniment or digestive aid.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference for these specific brands or products, or if the user has other preferred brands or formats. No stable routine can be confirmed from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-05T20:16:51"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-05-24",
   "day_type": "weekend",
-  "summary_text": "On the morning of this weekend, the user purchased one 100 g pack of Nanihaal Mishri Dana Sugar (white sugar). This small, single-unit sweetener pack is suitable for immediate pantry top-up or beverage preparation. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On this weekend, the user purchased Nanihaal Mishri Dana Sugar (100 g) during the morning daypart. This single order represents a small, single-unit pack of white sugar, consistent with a quick pantry top-up or immediate refill for beverages. The purchase occurred on a weekend morning, a time when morning purchases represent 32.46% of the population baseline. As this is a single observation on one date, it is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific household need beyond the immediate transaction.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine purchasing pattern, or specific household need beyond the immediate transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

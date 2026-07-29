@@ -1,15 +1,23 @@
 {
   "date": "2026-03-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-04 (weekday), the user purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml) in the morning. This timing aligns with a period where the user's activity is 32.46% of their total (population baseline). The product is a small-format, single-use liquid milk intended for immediate kitchen consumption such as tea, coffee, or breakfast. This is a single observed order on one date; it does not establish a stable, recurring, or habitual preference for this specific brand or format.",
+  "summary_text": "On 2026-03-04 (weekday), the user ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2, during the morning daypart. This timing aligns with the population baseline share of 0.3246 for morning activity. The small-format liquid milk is suitable for immediate kitchen use, such as breakfast or tea preparation. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Amul Taaza Pasteurised Toned Milk (500 ml).",
+      "pattern_text": "Ordered Amul Taaza Pasteurised Toned Milk (500 ml), quantity 2. Timing aligns with population baseline share of 0.3246 for morning activity. Suitable for immediate kitchen use (e.g., breakfast, tea). Single observation; no stable preference established.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable, recurring, or habitual preference for this specific brand or format.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-04"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-04T10:11:44"
+  }
 }

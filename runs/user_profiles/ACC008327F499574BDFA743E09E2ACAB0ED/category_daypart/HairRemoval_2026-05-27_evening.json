@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 30 g pack of Veet Pure Hair Removal Cream for Normal Skin during the evening on a weekday.",
+  "summary_text": "One order of Veet Pure Hair Removal Cream for Normal Skin (30 g) placed on 2026-05-27 in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time with high population share (0.3027) for this category. The product is a fast-acting, at-home depilatory cream intended for quick grooming fixes on legs, arms, or bikini line, suitable for last-minute needs or trial use.",
-  "uncertainty_text": "This is a single observed order; it does not establish a durable brand preference or routine. It is unclear if this is a one-time trial, an emergency top-up, or part of a recurring regimen.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a fast-acting, at-home depilatory cream intended for quick grooming without salon visits or razor irritation.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established. It is unknown whether this was a trial, an emergency top-up, or part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-27"
+    ],
+    "first_seen_at": "2026-05-27T19:04:20",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

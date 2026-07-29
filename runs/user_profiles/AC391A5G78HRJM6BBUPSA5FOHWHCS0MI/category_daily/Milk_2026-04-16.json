@@ -1,9 +1,23 @@
 {
   "date": "2026-04-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-16 (weekday), the user purchased 1 unit of Parag Toned Milk 500 ml during the evening. This small-format packaged milk is consistent with immediate household consumption needs, such as tea or coffee preparation. The evening timing aligns with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than afternoon (0.2526) or night (0.1202).",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-16 (weekday), the user ordered Parag Toned Milk 500 ml in the evening. This single order aligns with the population baseline evening share of 0.3027. The product is a small-format dairy item suitable for immediate household use or replenishment. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this reflects a habitual evening shopping pattern or a one-time purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Parag Toned Milk 500 ml placed on a weekday evening. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a small-format dairy item suitable for immediate household use or replenishment. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this reflects a habitual evening shopping pattern or a one-time purchase.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or habitual buying pattern for this user. It is unclear if this represents a one-time need or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this reflects a habitual evening shopping pattern or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-16"
+    ],
+    "first_seen_at": "2026-04-16T18:52:46",
+    "last_seen_at": "2026-04-16T18:52:46"
+  }
 }

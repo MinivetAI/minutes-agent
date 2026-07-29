@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Amul Masti Plain Curd 390 ml placed in the afternoon.",
+  "summary_text": "One order of Amul Masti Plain Curd 390 ml.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when the user's activity is below the population baseline share (25.26% for afternoon vs. 32.46% for morning). The product is a standard household dairy item suitable for immediate meal preparation or consumption.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the afternoon on a weekday. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a ready-to-eat refrigerated curd, typically used for immediate meal components like raita or as a snack.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader pattern. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

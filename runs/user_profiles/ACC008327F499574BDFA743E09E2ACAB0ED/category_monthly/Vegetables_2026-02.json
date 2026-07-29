@@ -1,31 +1,24 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased fresh vegetables on three independent dates (2026-02-05, 2026-02-10, 2026-02-14). Cauliflower was purchased on two of these dates (2026-02-10 and 2026-02-14), meeting the repetition bar for stable preference. All three purchases occurred in the afternoon, establishing a consistent daypart pattern. Tomatoes were purchased on two dates (2026-02-10 and 2026-02-14), also meeting the repetition bar. Coriander, green peas, onions, potatoes, and the dessert were single-date observations and are excluded from stable lists.",
-  "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "Cauliflower",
-      "claim_text": "The user has a stable preference for Cauliflower, evidenced by purchases on 2026-02-10 and 2026-02-14.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Tomato",
-      "claim_text": "The user has a stable preference for Tomatoes, evidenced by purchases on 2026-02-10 and 2026-02-14.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
+  "summary_text": "In February 2026, the user ordered fresh vegetables on three independent dates (2026-02-05, 2026-02-10, 2026-02-14). All orders occurred on weekdays or weekends during the afternoon, a timing that aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). The user purchased a variety of fresh produce including Coriander Leaves, Local Tomato, Cauliflower, Green Peas, Onion, and Potato. While Cauliflower and Local Tomato appeared on multiple dates, the specific variants and quantities varied, and no single brand or product variant recurred with sufficient consistency to establish a stable preference claim. The orders suggest a pattern of purchasing fresh ingredients for immediate household cooking, potentially for same-day meal preparation or hosting, as indicated by the inclusion of a ready-to-eat sweet in one order.",
+  "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user consistently shops for vegetables in the afternoon across all three observed dates in February 2026.",
+      "claim_text": "The user consistently orders fresh vegetables during the afternoon across multiple dates in February 2026.",
       "confidence": "medium"
     }
   ],
-  "uncertainty_text": "This analysis is based on three independent orders. While Cauliflower and Tomatoes show stable preference, other vegetables like Coriander, Green Peas, Onions, and Potatoes were purchased only once and do not yet indicate a stable habit. The inclusion of Red Carrot Halwa on 2026-02-14 suggests occasional meal-prep or hosting needs, but this is a single observation.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on three independent orders. While the afternoon timing is consistent, the specific vegetable items and brands vary, preventing the establishment of stable brand or product preferences. It is unclear if this represents a routine shopping habit or specific meal preparation needs.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-02-05",
+      "2026-02-10",
+      "2026-02-14"
+    ],
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-02-14T11:23:24"
+  }
 }

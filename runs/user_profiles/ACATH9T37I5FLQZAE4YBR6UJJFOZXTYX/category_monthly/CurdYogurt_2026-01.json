@@ -1,11 +1,11 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on three independent dates: 2026-01-28 (weekday, afternoon), 2026-01-30 (weekday, morning), and 2026-01-31 (weekend, evening). The recurrence of this specific brand and variant across three distinct dates establishes a stable preference. The user also exhibits a pattern of purchasing this item across different dayparts (morning, afternoon, evening) and day types (weekday, weekend), indicating flexible timing rather than a rigid daily routine anchored to a single time slot.",
+  "summary_text": "In January 2026, the user ordered Amul Masti Dahi Plain Curd (200 ml) on three independent dates (2026-01-28, 2026-01-30, 2026-01-31). This repetition across multiple days establishes a stable preference for this specific brand and variant. The orders occurred on two weekdays and one weekend, with dayparts varying between afternoon, morning, and evening, indicating flexible timing rather than a rigid daily routine. The consistent selection of the 200 ml pack size suggests a preference for immediate consumption or small-batch usage.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user has a stable preference for Amul products, evidenced by purchases on 3 independent dates in January 2026.",
+      "claim_text": "The user has a stable preference for Amul brand curd, evidenced by orders on 3 independent dates in January 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Amul Masti Dahi Plain Curd (200 ml)",
-      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on 3 independent dates in January 2026.",
+      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by orders on 3 independent dates in January 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,6 +21,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The evidence is limited to a single month (January 2026). While the repetition within this month supports high confidence in a stable preference for this specific product, the duration of the observation window is short. No other brands or variants were observed in this category during this period.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the brand and product preference is stable across three dates, the daypart and day-type patterns are mixed (afternoon, morning, evening; weekday, weekend), so no stable daypart or day-type routine is claimed.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-01-28",
+      "2026-01-30",
+      "2026-01-31"
+    ],
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-01-31T19:05:26"
+  }
 }

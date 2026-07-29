@@ -1,15 +1,23 @@
 {
   "date": "2026-06-21",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-21 (weekend), the user purchased one loose unbranded onion (400–450 g) and one unbranded baby potato (280–320 g) during a morning session. This timing aligns with the user's above-baseline morning activity (32.46% share). These fresh, unbranded kitchen staples are typically used for immediate meal preparation or to replenish household stock. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
+  "summary_text": "On this weekend, one order of vegetables was placed in the morning, containing one unbranded onion (400–450 g) and one unbranded baby potato (280–320 g). The morning timing aligns with the population baseline where morning accounts for 32.46% of activity. These items are fresh, unbranded staples typically used for immediate meal preparation or cooking bases. This is a single observation on one date; it is not yet established whether this represents a stable preference for these specific items, brands, or timing.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one loose unbranded onion (400–450 g) and one unbranded baby potato (280–320 g) during a morning session on a weekend. This timing aligns with the user's above-baseline morning activity (32.46% share).",
+      "pattern_text": "One order of vegetables placed on a weekend morning, containing one unbranded onion (400–450 g) and one unbranded baby potato (280–320 g). The morning timing aligns with the population baseline where morning accounts for 32.46% of activity. These items are fresh, unbranded staples typically used for immediate meal preparation or cooking bases. This is a single observation on one date; it is not yet established whether this represents a stable preference for these specific items, brands, or timing.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for these specific items, brands, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-21T08:35:05",
+    "last_seen_at": "2026-06-21T08:35:05"
+  }
 }

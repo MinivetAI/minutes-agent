@@ -1,9 +1,17 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-28 (weekend), the user purchased one unbranded fresh onion (400\u2013450 g) and one unbranded fresh bottle gourd (400\u2013600 g) during a morning shopping session. This order occurred in the morning, a period where this user's activity is below the population baseline (32.5%). The items are standard fresh produce staples typically used for immediate meal preparation, such as curries or light vegetable dishes.",
+  "summary_text": "On 2026-06-28 (weekend), the user ordered fresh, unbranded vegetables during the morning daypart. The basket included one unbranded onion (400–450 g) and one unbranded bottle gourd (400–600 g). This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The products are fresh, unbranded vegetables typically used as base ingredients or light sabzi for immediate meal preparation.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date; it is unclear if these specific vegetables represent a stable preference or a one-time need for meal ingredients.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific vegetables, a routine weekend morning shopping habit, or a one-time need. No brand preference can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:13:33",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

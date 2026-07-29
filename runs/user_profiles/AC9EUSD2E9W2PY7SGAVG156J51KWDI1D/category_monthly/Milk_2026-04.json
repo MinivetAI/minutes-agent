@@ -1,9 +1,27 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased two distinct milk products on separate dates: Amul Moti Toned Milk (450 ml) on a weekend evening and Amul Taaza Pasteurised Toned Milk (500 ml) on a weekday morning. Each product appeared on only one independent date. Consequently, no stable preferences or recurring routines are established for specific brands or formats within this month. The observed purchases reflect single-date needs, potentially for immediate consumption or as one-time solutions, without evidence of a durable habit.",
-  "stable_preference_claims": [],
+  "summary_text": "In April 2026, the user ordered milk on two independent dates: Amul Moti Toned Milk (450 ml) on a weekend evening and Amul Taaza Pasteurised Toned Milk (500 ml) on a weekday morning. While the brand Amul appears on both dates, the products are distinct variants (long-life ambient vs. pasteurised liquid) and the timing differs significantly (evening/weekend vs. morning/weekday). Because the specific product-variant and daypart combinations do not repeat across independent dates, no stable product or daypart preference is established. The recurrence of the brand Amul meets the repetition bar for stable preference claims.",
+  "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul",
+      "claim_text": "The user has ordered Amul milk on two independent dates in April 2026 (Amul Moti Toned Milk and Amul Taaza Pasteurised Toned Milk). This repetition supports a stable preference for the Amul brand.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each milk product was observed on only one independent date. This single-observation evidence is insufficient to establish a stable preference, routine, or recurring need for either Amul Moti or Amul Taaza milk. It is unclear if these were one-time purchases, responses to stockouts, or part of a broader habit not captured in this month's data.",
-  "overall_confidence": "low"
+  "uncertainty_text": "The user ordered two different milk variants on separate dates. The specific product type (ambient vs. pasteurised) and ordering time (evening vs. morning) did not repeat, so no stable product or daypart routine can be confirmed. The brand recurrence is noted, but the lack of product/timing consistency limits the stability of the preference profile.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-26",
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-04-30T08:01:42"
+  }
 }

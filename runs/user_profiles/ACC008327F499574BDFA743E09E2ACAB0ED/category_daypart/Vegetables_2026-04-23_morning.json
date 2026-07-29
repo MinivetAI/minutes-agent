@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased a set of fresh, unbranded vegetables including bottle gourd, onion, cucumber, potato, tomato, and ginger, alongside two unidentified vegetable items.",
+  "summary_text": "One order of fresh vegetables including Bottle Gourd (2 units), Onion (1 kg), Long Cucumber (500 g), Fresh New Crop Potato (0.95–1.05 kg), Local Tomato (1 kg), and Fresh Ginger (190–210 g), plus two unidentified vegetable items.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during a weekday morning, a time when morning activity is above the population baseline (32.5%). The basket consists of perishable fresh produce staples, suggesting immediate meal preparation needs.",
-  "uncertainty_text": "Confidence is low as this is a single observed order on one date. The two unidentified products (VEGGF7EXB3KWXAGJ, VEGF7EZ6NTGSCA9Y) prevent a complete description of the basket composition.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the morning on a weekday. The basket consists of fresh, perishable vegetables typically used for immediate meal preparation, such as cooking bases (onion, tomato, ginger) and side dishes (bottle gourd, cucumber, potato).",
+  "uncertainty_text": "Only one order is observed, so no stable brand, product, or daypart preferences can be established. The two unidentified vegetable items (VEGGF7EXB3KWXAGJ, VEGF7EZ6NTGSCA9Y) prevent a complete product-level summary.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-23"
+    ],
+    "first_seen_at": "2026-04-23T10:45:31",
+    "last_seen_at": "2026-04-23T10:45:31"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) on a single weekend date (2026-05-02) during the morning. This purchase aligns with the user's tendency to order during the morning, a time when their activity is above the population baseline (32.5%). The product is a quick-cook, single-serve instant pasta, suggesting a need for a fast, low-prep meal or snack. As this is the only observed order in the category for the month, no stable preferences or recurring patterns are established.",
+  "summary_text": "In May 2026, the user purchased Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) on one weekend date during the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity for this category. The product is an instant, quick-cook pasta suitable for fast preparation. As this is a single observation, it is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-02"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

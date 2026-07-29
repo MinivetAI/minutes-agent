@@ -1,26 +1,27 @@
 {
-  "category": "Poha",
-  "profile_text": "A single observed purchase of Fortune Indori Thick Poha (500 g) on a weekend evening in February 2026. This isolated event does not establish a stable brand preference, routine, or recurring need. The timing suggests a specific meal occasion (likely breakfast or light lunch) rather than a habitual daily pattern.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Poha",
+  "summary_text": "The user has a single recorded order for Fortune Indori Thick Poha (500 g) on 2026-02-22. This isolated event suggests a utility need for a quick-cooking staple, consistent with evening consumption patterns where evening share (0.3027) is comparable to morning share (0.3246) in the population baseline. This is an isolated event and does not establish a stable preference or routine.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available from the supplied summaries.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or daypart. It is unclear if this represents a routine habit, a one-time convenience purchase, or a specific meal occasion.",
+  "retrieval_text": "Evidence is limited to a single order of Fortune Indori Thick Poha (500 g) on 2026-02-22, purchased during the evening. This isolated event suggests a utility need for a quick-cooking staple suitable for a fast, low-effort meal, consistent with evening consumption patterns where evening share (0.3027) is comparable to morning share (0.3246) in the population baseline. No stable brand, variant, or routine preference can be established from this single data point.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-22",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was a single isolated event on 2026-02-22.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Poha yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, but the single observation does not confirm reliable conversion behavior for future needs.",
-  "substitution_text": "No evidence of substitution behavior; only one product variant observed.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior beyond the single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one positive purchase event exists.",
-  "mission_generation_text": "Supports immediate meal preparation needs, specifically for a quick breakfast or light lunch, as indicated by the single weekend evening purchase.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-22T18:05:44",
+    "last_seen_at": "2026-02-22T18:05:44"
+  }
 }

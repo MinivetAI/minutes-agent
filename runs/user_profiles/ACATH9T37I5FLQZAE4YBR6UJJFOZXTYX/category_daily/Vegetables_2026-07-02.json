@@ -1,15 +1,23 @@
 {
   "date": "2026-07-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-02 (weekday), the user purchased one unit each of Baby Potato (280–320 g), Beetroot (250–350 g), and Onion (400–450 g) during the morning. This timing aligns with a population share of 0.3246 for morning vegetable purchases. The items are fresh, unbranded vegetables commonly used as base ingredients or for immediate same-day cooking. This is a single observation on one date; stable preferences, recurring habits, or specific meal intent cannot be established beyond general utility.",
+  "summary_text": "On 2026-07-02 (weekday), the user purchased unbranded fresh vegetables (Baby Potato, Beetroot, Onion) in the morning. This single order suggests immediate meal preparation needs but does not establish a stable preference for these specific items or the morning daypart.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one unit each of Baby Potato (280–320 g), Beetroot (250–350 g), and Onion (400–450 g).",
+      "pattern_text": "One order of unbranded fresh vegetables (Baby Potato, Beetroot, Onion) purchased in the morning on a weekday.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation on one date; cannot establish stable preferences, recurring habits, or specific meal intent beyond general utility.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; no stable brand, product, or daypart preferences can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

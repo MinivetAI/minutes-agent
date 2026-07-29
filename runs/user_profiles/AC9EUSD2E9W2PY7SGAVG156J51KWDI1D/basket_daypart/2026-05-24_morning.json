@@ -1,11 +1,91 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning included one unit each of Sugar, two distinct items from Vegetables, Chocolates, and Aerated Drinks. The basket reflects a mix of pantry staples (sugar), fresh produce, and indulgent items (chocolates, soda).",
+  "basket_summary_text": "A single order placed on a weekend morning containing five items across four categories: Sugar, Vegetables (two distinct items), Chocolates, and Aerated Drinks. The basket shows moderate breadth with a mix of staple ingredients (sugar, vegetables) and indulgent/convenience items (chocolates, aerated drinks). No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
-  "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of sugar, vegetables, chocolates, and aerated drinks is compatible with general household meal preparation and snack consumption.",
-  "uncertainty_text": "This observation is based on a single order on one date; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "category_combinations": [
+    {
+      "categories": [
+        "Sugar",
+        "Vegetables"
+      ],
+      "combination_text": "Sugar and Vegetables were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Sugar",
+        "Chocolates"
+      ],
+      "combination_text": "Sugar and Chocolates were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Sugar",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Sugar and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Chocolates"
+      ],
+      "combination_text": "Vegetables and Chocolates were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Vegetables",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Chocolates",
+        "Aerated Drinks"
+      ],
+      "combination_text": "Chocolates and Aerated Drinks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "This order may reflect a need for basic meal preparation ingredients (sugar, vegetables) combined with immediate consumption items or treats (chocolates, aerated drinks), potentially for a weekend morning routine or gathering.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. No durable preferences, routines, or stable patterns can be inferred from this isolated observation. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

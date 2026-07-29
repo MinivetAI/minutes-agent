@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of NESTL\u00c9 Milkybar Choo Strawberry Flavour Treats Bars (80 g) in the Chocolates category.",
+  "summary_text": "One order of NESTLÉ Milkybar Choo Strawberry Flavour Treats Bars (80 g) purchased in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when this category represents 32.46% of population activity. The product is a shareable, bite-sized confectionery treat with a playful puzzle element, suitable for immediate snacking or impulse purchase.",
-  "uncertainty_text": "This is a single observed transaction; no durable brand or flavor preference can be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning shares 32.46% of activity. The product is a small, shareable confectionery treat, typically used for immediate sweet cravings or as a quick snack.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand, product type, or morning timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

@@ -1,40 +1,27 @@
 {
-  "category": "Drain Opener",
-  "profile_text": "The user purchased Kiwi Dranex Drain Cleaner Powder (50 g) on 2026-02-10. This single observation indicates an immediate need to address household drain blockages, likely in sinks or basins. Due to the lack of repeated transactions, no stable brand preference, routine cadence, or long-term value behavior can be established.",
-  "brand_preferences": [
-    {
-      "brand": "Kiwi Dranex",
-      "preference_text": "The user purchased Kiwi Dranex Drain Cleaner Powder on 2026-02-10. This is a single observation; durable brand preference cannot be established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user purchased Kiwi Dranex Drain Cleaner Powder (50 g) on 2026-02-10. This is a single observation; durable product preference cannot be established.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Drain Opener",
+  "summary_text": "In February 2026, the user purchased Kiwi Dranex Drain Cleaner Powder (50 g) on one weekday afternoon. This single observation does not establish a stable brand preference or recurring maintenance routine. The purchase timing is below the population baseline for afternoon orders.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Kiwi brand, a recurring need for drain maintenance, or a one-time incident response.",
+  "retrieval_text": "User purchased Kiwi Dranex Drain Cleaner Powder (50 g) on a weekday afternoon in February 2026. This is a single observation; no stable brand preference, recurring maintenance routine, or consistent daypart pattern is established. Confidence is low due to lack of repetition across independent dates.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-10",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence observed; purchase was a single event on 2026-02-10.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for DrainOpener yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on 2026-02-10.",
-  "substitution_text": "No repeated purchases observed to establish substitution patterns.",
-  "price_value_text": "No repeated purchases observed to establish price or value behavior.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
-  "mission_generation_text": "Immediate household maintenance to clear drain blockages in sinks or basins.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-02-10T11:33:22"
+  }
 }

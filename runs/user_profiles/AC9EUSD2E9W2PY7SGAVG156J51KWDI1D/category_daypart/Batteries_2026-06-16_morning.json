@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one pack of Duracell Ultra AAA alkaline batteries (4-count) during the morning on a weekday.",
+  "summary_text": "One order of Duracell Ultra AAA Alkaline Battery Pack of 4.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time with a population share of 0.3246, suggesting a typical or slightly above-average timing for this category. The product serves an immediate utility need for replacing depleted cells in small electronics or appliances.",
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable brand preference or recurring habit. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The purchase timing aligns with the population baseline where morning represents 32.46% of activity. The product serves an immediate utility need for replacing depleted cells in small electronics or appliances.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time replacement need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-16"
+    ],
+    "first_seen_at": "2026-06-16T10:29:48",
+    "last_seen_at": "2026-06-16T10:29:48"
+  }
 }

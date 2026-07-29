@@ -1,15 +1,23 @@
 {
   "date": "2026-03-27",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-27 (weekday), the user purchased one 900 g pack of VEEBA Tomato Chef\u2019s Special Ketchup during the morning. This timing aligns with a high population share period (32.46%). The large-format condiment is suitable for regular household meal preparation. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On this weekday, the user purchased Veeba Tomato Chef’s Special Ketchup (900 g) during the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity in this category. The product is a large-format condiment typically used for family meals or regular kitchen stocking. This is a single observation on one date; it is not yet possible to determine if this represents a stable brand preference, a routine replenishment, or an isolated purchase. No other products or brands were observed in this window to establish broader shopping habits.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 900 g pack of VEEBA Tomato Chef\u2019s Special Ketchup. This timing aligns with a high population share period (32.46%). The large-format condiment is suitable for regular household meal preparation.",
+      "pattern_text": "One order of Veeba Tomato Chef’s Special Ketchup 900 g. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity, making it the most common time of day for this category. The product is a large-format condiment typically used for family meals or regular kitchen stocking. This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine replenishment, or an isolated purchase. No other products or brands were observed in this window to establish broader shopping habits.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine replenishment, or an isolated purchase. No other products or brands were observed in this window to establish broader shopping habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-27T08:20:23",
+    "last_seen_at": "2026-03-27T08:20:23"
+  }
 }

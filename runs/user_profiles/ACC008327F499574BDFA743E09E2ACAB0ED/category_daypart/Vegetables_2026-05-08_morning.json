@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased a single order of six unbranded fresh produce items: Onion 1 kg, Chilli Bajji 250 g, Coriander Leaves 100 g, Local Tomato 1 kg, Fresh Ginger 70–80 g, and Fresh New Crop Potato 0.95–1.05 kg.",
+  "summary_text": "One order of unbranded fresh vegetables and snacks, including Onion 1 kg, Chilli Bajji 250 g, Coriander Leaves 100 g, Local Tomato 1 kg, Fresh Ginger 70–80 g, and Fresh New Crop Potato 0.95–1.05 kg.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed on a weekday morning, a time when morning activity represents 32.46% of the population baseline. The basket consists of basic cooking staples (onion, tomato, potato, ginger, coriander) alongside a ready-to-eat snack (chilli bajji), suggesting a mix of urgent meal-prep replenishment and immediate consumption needs.",
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered on a weekday morning. This timing aligns with the population baseline where morning shares 32.46% of orders, making it the most common daypart. The basket combines basic cooking staples (onion, tomato, potato, ginger, coriander) with a ready-to-eat snack (chilli bajji), suggesting a mix of meal preparation needs and immediate consumption.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of items or the morning timing represents a stable routine or repeated preference.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-08"
+    ],
+    "first_seen_at": "2026-05-08T07:19:08",
+    "last_seen_at": "2026-05-08T07:19:08"
+  }
 }

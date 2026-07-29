@@ -1,7 +1,7 @@
 {
   "date": "2026-04-12",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-12 (weekend), a single order was placed during the evening. The basket contained two items from the Ice Creams category: 1 unit of ICEHBDZ2SARBNR7H and 1 unit of ICEH2DJ7EJWSFFVK. No other categories were purchased, and no abandoned carts were recorded for this daypart. The purchase is compatible with a need for a dessert or a sweet treat. This analysis is based on a single observed order on one date, representing an observation rather than a durable preference or stable pattern.",
+  "summary_text": "On this weekend evening, a single order was placed containing two items exclusively from the Ice Creams category. The basket is narrow, with no other categories purchased. This purchase is compatible with a desire for a dessert or sweet treat. Because this observation is based on a single independent date, no durable preferences, routines, or broader category associations can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -12,11 +12,20 @@
       "combination_text": "Ice Creams",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of ice cream is compatible with a need for a dessert or a sweet treat.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. No repeated behavior is evident.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of ice cream in the evening on a weekend is compatible with a desire for a dessert or a sweet treat.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or broader category associations can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T20:36:51",
+    "last_seen_at": "2026-04-12T20:36:51"
+  }
 }

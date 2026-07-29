@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "One order of Levocet Syrup 60 ml (Levocet brand) was placed during the evening on a weekend. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One order of Levocet Syrup 60 ml (1 unit) placed on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a prescription antihistamine syrup, suggesting a need for allergy symptom relief (e.g., runny nose, sneezing, itching) that required a pharmacy fulfillment rather than immediate over-the-counter acquisition.",
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it does not establish a stable or recurring preference. It is unknown whether this was a one-time need, a refill, or part of a broader pattern of allergy management. No browsing intent was captured to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a prescription antihistamine syrup, generally used for allergy relief such as runny nose, sneezing, or itching.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference, a routine refill, or a one-time need. The specific reason for the evening timing or the choice of this specific brand over alternatives cannot be determined from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-07"
+    ],
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-07T18:07:34"
+  }
 }

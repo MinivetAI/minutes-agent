@@ -1,26 +1,27 @@
 {
-  "category": "Candies Mouth Fresheners",
-  "profile_text": "A single observed purchase of Parle Kismi Assorted Toffee on 2026-04-12 (evening, weekend). No stable brand or flavor preferences are established due to single-date evidence. Cadence is unknown.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Candies Mouth Fresheners",
+  "summary_text": "In April 2026, the user placed one order for Parle Kismi Assorted Toffee (245.5 g) on a weekend evening. This single observation does not establish a stable brand or product preference. The purchase aligns with the population baseline for evening orders.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from a single order.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear whether this purchase was for immediate consumption, gifting, or routine replenishment.",
+  "retrieval_text": "Evidence consists of a single order for Parle Kismi Assorted Toffee (245.5 g) placed on a weekend evening in April 2026. No stable brand, variant, or pack-size preference is established due to lack of repetition. The purchase timing aligns with general population evening patterns, but no specific user routine is confirmed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-12",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-04-12.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for CandiesMouthFresheners yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase.",
-  "substitution_text": "No substitution patterns observed.",
-  "price_value_text": "No price/value behavior established from single observation.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Immediate need for mouth freshening or after-meal snacking.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

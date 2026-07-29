@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 675 ml Dettol Skincare Germ Protection Liquid Hand Wash Refill.",
+  "summary_text": "One order of Dettol Skincare Germ Protection pH-Balanced Liquid Hand Wash Refill 675 ml.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered in the morning on a weekend, a time when morning activity is above the population baseline (32.5%). The product serves as a practical restock for household hygiene continuity.",
-  "uncertainty_text": "This is a single observed order; durable brand preference or routine cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekend. The population baseline shows morning purchases account for 32.46% of handwash orders. This is a refill product, typically used to restock an existing dispenser when supplies are low.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference for Dettol or this specific refill format, or if it was a one-time restocking need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Surf excel Detergent Bar 250 g.",
+  "summary_text": "One order of Surf excel Detergent Bar 250 g (quantity: 2) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed during the morning on a weekday, a time when this category represents 32.46% of population activity. The purchase involved a standard detergent bar format, typically used for manual spot-cleaning or hand-wash laundry needs.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this specific brand or product format.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline share of 0.3246 for this daypart. The products are general-purpose laundry cleaning items suitable for immediate spot-cleaning or hand-wash needs.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable preference for this brand, product, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T08:35:20",
+    "last_seen_at": "2026-02-09T08:35:20"
+  }
 }

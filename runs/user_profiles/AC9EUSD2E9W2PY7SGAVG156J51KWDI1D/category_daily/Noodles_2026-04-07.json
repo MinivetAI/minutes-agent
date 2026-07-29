@@ -1,9 +1,23 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-07 (weekday), the user purchased one 280 g pack of Maggi 2-Minute Favourite Masala Taste Instant Noodles in the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than the morning peak of 0.3246. The product is a fast, familiar instant noodle suitable for quick snacks or light meals. This is a single observed order; durable brand or taste preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-07 (weekday), one order of Maggi 2-Minute Favourite Masala Taste Instant Noodles (280 g) was placed in the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares. The product is a quick, low-effort meal option often used for fast snacks or light meals. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or daypart, or if it was an isolated purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Maggi 2-Minute Favourite Masala Taste Instant Noodles (280 g) was placed in the afternoon on a weekday. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares. The product is a quick, low-effort meal option often used for fast snacks or light meals. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or daypart, or if it was an isolated purchase.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or taste preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or daypart, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

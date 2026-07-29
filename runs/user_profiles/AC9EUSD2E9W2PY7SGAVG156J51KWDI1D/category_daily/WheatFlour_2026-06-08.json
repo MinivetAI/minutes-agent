@@ -1,9 +1,23 @@
 {
   "date": "2026-06-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-08 (weekday), the user purchased one 1 kg pack of Aashirvaad Select Atta, a premium whole-wheat flour, during the morning daypart. This purchase aligns with the user's activity pattern, which is 32.46% of their total during morning hours, consistent with general population norms. The product is a staple cooking ingredient used for preparing rotis. This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this premium variant over standard flour (e.g., stockout, taste preference, or trial) is unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-08 (weekday), the user ordered one 1 kg pack of Aashirvaad Select Atta in the morning. This daypart activity is below the population baseline (32.46%). The 1 kg pack size is typically suited for trial purchases, smaller households, or short-term replenishment needs. This is a single observation on one date; it is not yet established whether this brand or pack size represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Aashirvaad Select Atta (1 kg) placed on a weekday morning. This daypart activity is below the population baseline (32.46%). The 1 kg pack size is typically suited for trial purchases, smaller households, or short-term replenishment needs.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this premium variant over standard flour (e.g., stockout, taste preference, or trial) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or pack size represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-08"
+    ],
+    "first_seen_at": "2026-06-08T09:51:39",
+    "last_seen_at": "2026-06-08T09:51:39"
+  }
 }

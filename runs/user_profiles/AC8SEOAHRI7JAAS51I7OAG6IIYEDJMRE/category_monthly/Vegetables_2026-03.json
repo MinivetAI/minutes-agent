@@ -1,34 +1,35 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased cauliflower twice (on 2026-03-24 and 2026-03-26). While the brand varied (Unbranded vs. Branded), the product type (Cauliflower 400-600g) and daypart (morning) recurred across two independent dates. This repetition supports a stable preference for cauliflower in the morning, with medium confidence. No other vegetable categories or brands showed sufficient repetition to establish stable claims.",
+  "summary_text": "In March 2026, the user purchased Unbranded Cauliflower (400-600g) on two independent dates (2026-03-24 and 2026-03-26). Both orders occurred on weekdays during the morning, aligning with the population baseline where morning accounts for 32.46% of activity. The product is a fresh vegetable typically used for immediate meal preparation.",
   "stable_preference_claims": [
     {
       "dimension": "product",
-      "value": "Cauliflower 400-600g",
-      "claim_text": "The user has a stable preference for Cauliflower 400-600g, observed on two independent dates (2026-03-24, 2026-03-26).",
+      "value": "Unbranded Cauliflower (400-600g)",
+      "claim_text": "The user purchased Unbranded Cauliflower (400-600g) on two independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Unbranded Cauliflower 400-600g",
-      "claim_text": "The user purchased Unbranded Cauliflower 400-600g on one date (2026-03-24). This is a single observation and does not establish a stable brand preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "dimension": "product",
-      "value": "Cauliflower 400-600g (Branded)",
-      "claim_text": "The user purchased Branded Cauliflower 400-600g on one date (2026-03-26). This is a single observation and does not establish a stable brand preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
+      "value": "Unbranded Cauliflower",
+      "claim_text": "The user purchased Unbranded Cauliflower on two independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user's vegetable purchasing in March 2026 was limited to cauliflower. The variation in brand (Unbranded vs. Branded) prevents a stable brand-level claim, but the product-level and daypart-level patterns are supported by two independent dates.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two independent orders in March 2026. While the repetition supports a medium-confidence stable preference for this specific product variant, the sample size is limited to a single month. No other vegetable brands or variants were observed to establish broader dietary patterns or brand loyalty beyond this item.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-24",
+      "2026-03-26"
+    ],
+    "first_seen_at": "2026-03-24T07:53:10",
+    "last_seen_at": "2026-03-26T10:18:30"
+  }
 }

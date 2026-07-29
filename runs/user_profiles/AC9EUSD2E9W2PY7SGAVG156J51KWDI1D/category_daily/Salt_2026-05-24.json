@@ -1,15 +1,23 @@
 {
   "date": "2026-05-24",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-24 (weekend), the user purchased 1 unit of Aashirvaad Iodized Salt 1 kg during the afternoon. This afternoon period has a lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a basic pantry staple used for everyday cooking. This is a single observed transaction; durable brand preference or habitual buying patterns cannot be established from this date alone.",
+  "summary_text": "On 2026-05-24 (weekend), one order of Aashirvaad Iodized Salt 1 kg (1 unit) was placed in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a standard pantry staple for everyday cooking. This is a single observation on one date; no stable brand preference, routine, or recurring timing pattern can be established from this window alone.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 1 unit of Aashirvaad Iodized Salt 1 kg during the afternoon on a weekend.",
+      "pattern_text": "One order of Aashirvaad Iodized Salt 1 kg (1 unit) placed on 2026-05-24 in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity. The product is a standard pantry staple for everyday cooking. This is a single observation on one date; no stable brand preference, routine, or recurring timing pattern can be established from this window alone.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand preference or habitual buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand preference, routine, or recurring timing pattern can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

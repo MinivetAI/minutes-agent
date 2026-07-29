@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 140 g pack of Britannia Romance Nut and Raisin Cake.",
+  "summary_text": "One order of Britannia Romance Nut and Raisin Cake (140 g) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a packaged, shelf-stable sweet cake, typically used for immediate snacking, tea-time cravings, or as a quick dessert.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., immediate craving vs. planned treat) is not established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday afternoon. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) dayparts, though it aligns with the afternoon baseline share of 0.2526. The product is a packaged, shelf-stable sweet cake, typically used for immediate snacking, tea-time treats, or quick desserts.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or daypart, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

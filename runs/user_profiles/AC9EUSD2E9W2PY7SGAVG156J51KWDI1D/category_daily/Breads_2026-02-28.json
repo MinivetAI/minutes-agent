@@ -1,9 +1,17 @@
 {
   "date": "2026-02-28",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased 2 units of Britannia Breakfast Slice White Bread 450 g during the morning. This timing aligns with the population morning share (0.3246), which is the highest among dayparts. The product is a standard packaged white sliced bread intended for everyday breakfast and sandwich use. This is a single observed order on one date; durable brand or product preferences cannot be established.",
+  "summary_text": "On this weekend, the user purchased 2 units of Britannia Breakfast Slice White Bread 450 g in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation from one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase driven by immediate need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

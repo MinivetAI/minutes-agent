@@ -1,40 +1,34 @@
 {
-  "category": "Conditioner",
-  "profile_text": "The user has purchased L'Oréal Paris Total Repair 5 Conditioner on two independent dates (January and June 2026). While the brand appears twice, the purchases are separated by five months and lack a defined cadence, preventing the establishment of a high-confidence stable preference or routine. The product is used for damaged-hair repair and general hair care maintenance.",
-  "brand_preferences": [
-    {
-      "brand": "L'Oréal Paris",
-      "preference_text": "Purchased on two independent dates (Jan and Jun 2026), but the long gap and lack of cadence suggest occasional use rather than a strong, routine-driven preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "L'Oréal Paris Total Repair 5 Conditioner (175 ml) was purchased on two independent dates. The consistent selection of this specific variant suggests a known compatibility with its damaged-hair repair function, though the irregular timing prevents classifying it as a strict routine.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Conditioner",
+  "summary_text": "In January and June 2026, the user ordered L'Oréal Paris Total Repair 5 Conditioner (175 ml) on two separate dates. The product is a damaged-hair repairing conditioner used to restore softness and manageability. As these are isolated observations from different months, no stable brand or product preference can be established.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "L'Oréal Paris",
+        "preference_text": "L'Oréal Paris Total Repair 5 Conditioner was observed in January and June 2026.",
+        "confidence": "medium",
+        "boundary_text": "This observation is limited to the Total Repair 5 variant; it does not establish a preference for other L'Oréal Paris conditioner lines or hair care products."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user purchased a specific damaged-hair repairing conditioner; it is unknown if other brands or product types (e.g., volumizing, moisturizing) are acceptable alternatives.",
+  "uncertainty_text": "Preference boundaries are undefined due to limited evidence. It is unknown whether this purchase was a replacement for a depleted item, a trial of a new product, or part of a regular routine. No stable brand, variant, or pack size preference can be confirmed.",
+  "retrieval_text": "User ordered L'Oréal Paris Total Repair 5 Conditioner (175 ml) in January and June 2026, indicating a potential interest in damaged-hair repairing conditioners from this brand, though confidence is medium due to only two independent observations across different months.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-02",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No regular cadence is established; the last purchase was on 2026-06-02, with no predicted next date due to unknown frequency.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Conditioner yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by completed transactions for the observed brand and product.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is evident from the single-variant, low-frequency purchases.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior is observed. The user's specific hair concerns beyond 'damaged/dry' are not explicitly stated, and the long gap between purchases means the current stock status is unknown.",
-  "mission_generation_text": "Supports regular hair washing routines focused on repairing damage, improving smoothness, and managing dryness or brittleness.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

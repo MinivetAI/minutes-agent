@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "On 2026-05-01 (weekday), the user purchased one 210 g pouch of Haldiram's Masala Boondi during a morning session. This purchase aligns with the population norm for this category in the morning (32.46% share). The product is a shelf-stable, ready-to-eat savoury snack suitable for immediate consumption or as a crunchy accompaniment to tea or meals.",
+  "summary_text": "In May 2026, one order of Haldiram's Masala Boondi 210 g was placed on a weekday morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity for Savouries Namkeens. The product is a shelf-stable, ready-to-eat spiced snack, typically used for immediate consumption, chai-time accompaniment, or as a crunchy topping. This is a single observation on one date; it is not yet established whether this represents a stable preference for Haldiram's brand, a specific taste for masala boondi, or a recurring morning snacking habit. No other orders are available to confirm repetition or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this user.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Haldiram's brand, a specific taste for masala boondi, or a recurring morning snacking habit. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T09:44:21",
+    "last_seen_at": "2026-05-01T09:44:21"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "One order of Safal Frozen Green Peas 500 g was placed in the afternoon.",
+  "summary_text": "One order of Safal Frozen Green Peas 500 g placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, which is less common than the population baseline for this category (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a frozen vegetable staple used for quick cooking or ingredient substitution.",
-  "uncertainty_text": "This is a single observation on one date; no durable preferences or routine behaviors can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a frozen vegetable staple used for immediate cooking needs, such as adding peas to rice or vegetable dishes without the delay of fresh preparation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a recurring habit or a one-time purchase. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-03-21T12:56:16"
+  }
 }

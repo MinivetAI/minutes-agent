@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 5 packs of DORITOS Cheese Flavour Nachos (45 g) and 2 packs of DORITOS Sweet Chilli Nachos (75 g) during the evening on a weekday.",
+  "summary_text": "One order of chips on 2026-06-17 in the evening, including 5 packs of DORITOS Cheese Flavour Nachos (45 g) and 2 packs of DORITOS Sweet Chilli Nachos (75 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening snacking or convenience needs. The products are single-serve, grab-and-go snacks suited for immediate consumption, impulse buying, or quick add-ons during a food run.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these two flavors or quantities is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening on a weekday. This timing aligns with the population baseline, where evening accounts for 30.27% of activity (compared to 32.46% in the morning). The products are small, single-serve packs suited for immediate, convenient snacking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for DORITOS, a preference for cheese or sweet-chilli flavors, or a habitual evening snacking routine. No other dates are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T17:01:04",
+    "last_seen_at": "2026-06-17T17:01:04"
+  }
 }

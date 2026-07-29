@@ -1,18 +1,36 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Maggi Pazzta Cheese Macaroni Instant Pasta on three independent dates (2026-04-07, 2026-04-12, and 2026-04-17). This recurrence across multiple days establishes a stable preference for this specific product variant. The user also demonstrates a consistent ordering pattern during the afternoon and evening dayparts, with activity occurring on both weekdays and weekends.",
+  "summary_text": "In April 2026, the user purchased Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) on three independent dates: 2026-04-07 (weekday, evening), 2026-04-12 (weekend, afternoon), and 2026-04-17 (weekday, afternoon). The recurrence of this specific brand and product variant across three independent dates establishes a stable preference. The timing varies between evening and afternoon, with no single daypart dominating, though afternoon orders occurred on both a weekend and a weekday. The product is a quick-cook, single-serve instant pasta suitable for fast snacks or side dishes.",
   "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Maggi",
+      "claim_text": "The user has a stable preference for Maggi pasta products, evidenced by purchases on 2026-04-07, 2026-04-12, and 2026-04-17.",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
     {
       "dimension": "product",
       "value": "Maggi Pazzta Cheese Macaroni Instant Pasta (75 g)",
-      "claim_text": "The user has a stable preference for Maggi Pazzta Cheese Macaroni Instant Pasta (75 g), evidenced by purchases on three independent dates in April 2026.",
-      "confidence": "high",
+      "claim_text": "The user has a stable preference for Maggi Pazzta Cheese Macaroni Instant Pasta (75 g), purchased on 2026-04-07, 2026-04-12, and 2026-04-17.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This summary is based on three independent purchase events in April 2026. No other products or brands were observed in this category during this month.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the brand and product preference is stable across three dates, the timing pattern is mixed (evening and afternoon) and does not show a consistent daily routine. The user's specific need (e.g., quick snack vs. side dish) is inferred from the product type but not explicitly confirmed by usage data.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-07",
+      "2026-04-12",
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

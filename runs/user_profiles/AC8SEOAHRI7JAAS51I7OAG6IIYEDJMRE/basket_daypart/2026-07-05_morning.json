@@ -1,42 +1,31 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning included 3 units of Lassi, 3 units of Curd Yogurt, and 1 unit of Breads. The basket reflects a breakfast or light meal need compatible with dairy and bread products. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekend morning included Lassi, Curd Yogurt, and Breads. The basket combines a dairy item (Lassi) with a staple breakfast component (Breads), suggesting a compatible need for a quick morning meal or snack. No other products were present in this order.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
         "Breads",
-        "CurdYogurt"
+        "Curd Yogurt"
       ],
-      "combination_text": "Breads and Curd Yogurt were purchased together in this order. In the broader population evidence, this pair has a support of 0.129, confidence of 0.346, and lift of 0.969, based on 9 co-orders.",
+      "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Lassi"
-      ],
-      "combination_text": "Curd Yogurt and Lassi were purchased together in this order. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Lassi"
-      ],
-      "combination_text": "Breads and Lassi were purchased together in this order. No specific category pair evidence was supplied for this combination.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for breakfast items or light dairy-based meals.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring behaviors cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Lassi, Curd Yogurt, and Breads is compatible with a need for a quick, ready-to-eat morning meal or breakfast snack.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences or routine behavior cannot be determined from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T10:41:31",
+    "last_seen_at": "2026-07-05T10:41:31"
+  }
 }

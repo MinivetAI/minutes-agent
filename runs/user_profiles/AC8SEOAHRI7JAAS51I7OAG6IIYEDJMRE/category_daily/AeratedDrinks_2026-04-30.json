@@ -1,9 +1,17 @@
 {
   "date": "2026-04-30",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Coca-Cola Original Taste Soft Drink 750 ml PET Bottle during the night. This is a standard mid-size carbonated cola, typically used for immediate refreshment or as a meal companion. Purchased during the night on a weekday, a time when this category is less common than the population baseline (night share 0.1202 vs morning 0.3246).",
+  "summary_text": "On 2026-04-30 (weekday), the user ordered one Coca-Cola Original Taste Soft Drink 750 ml PET Bottle during the night. This timing is less common than the population baseline for Aerated Drinks, which shows a 12.02% share for night compared to higher shares in the morning (32.46%), afternoon (25.26%), and evening (30.27%). The product is a carbonated cola beverage, typically used for immediate refreshment or as a meal companion.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Coca-Cola brand, the 750 ml pack size, or night-time ordering for aerated drinks. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T21:23:36",
+    "last_seen_at": "2026-04-30T21:23:36"
+  }
 }

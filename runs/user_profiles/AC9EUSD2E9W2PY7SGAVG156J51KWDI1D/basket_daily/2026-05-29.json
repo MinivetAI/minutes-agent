@@ -1,7 +1,7 @@
 {
   "date": "2026-05-29",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-29 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Milk and 1 unit of Rice, representing a narrow breadth of two distinct categories. The observed behavior is compatible with a basic staple replenishment need. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-05-29 (weekday), a single morning order contained 2 units of Milk and 1 unit of Rice. This represents a minimal basket breadth with two distinct categories. The combination of Milk and Rice is an isolated observation for this window; no category pair evidence was supplied for this specific combination, so support/lift metrics are null. The order-building behavior is consistent with a basic staple purchase, potentially compatible with a need for breakfast or cooking ingredients, but no broader pattern can be established from this single date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Milk",
         "Rice"
       ],
-      "combination_text": "Milk and Rice were purchased together in this single order.",
+      "combination_text": "Milk and Rice",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Replenishment of basic pantry staples.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. The `category_pair_evidence` provided reflects population-level co-occurrence statistics and does not confirm that this specific user typically buys Milk with Vegetables, Breads, or other listed categories; it only confirms the co-occurrence in the broader population.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for basic dairy and grain staples for meal preparation.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. No durable preferences, routines, or stable patterns can be inferred. Confidence is low due to the lack of repetition across multiple dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-29"
+    ],
+    "first_seen_at": "2026-05-29T10:39:59",
+    "last_seen_at": "2026-05-29T10:39:59"
+  }
 }

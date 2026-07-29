@@ -1,15 +1,23 @@
 {
   "date": "2026-06-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-10 (weekday), the user purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during the afternoon. This timing aligns with a period holding a 25.26% population share, which is slightly below the morning peak (32.46%) and evening share (30.27%). The items are fresh, unbranded vegetables commonly used as base ingredients for immediate cooking. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables or this timing.",
+  "summary_text": "On this weekday, the user purchased fresh, unbranded vegetables: one unit of Baby Potato (280–320 g) and one unit of Onion (400–450 g). The order was placed in the afternoon, a distinct shopping window that aligns with population baselines (afternoon share 0.2526, lower than morning 0.3246 and evening 0.3027). These items are typical staples for immediate meal preparation, such as roasting or as a cooking base. As this is a single observation from one date, it does not establish a stable preference or routine.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one unbranded baby potato (280–320 g) and one unbranded onion (400–450 g) during the afternoon on a weekday.",
+      "pattern_text": "One order of unbranded fresh vegetables, specifically one unit of Baby Potato (280–320 g) and one unit of Onion (400–450 g).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables or this timing.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific items, a routine, or a one-time need. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-10"
+    ],
+    "first_seen_at": "2026-06-10T15:41:36",
+    "last_seen_at": "2026-06-10T15:41:36"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-05-22",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-22 (weekday), the user purchased fresh, unbranded produce staples: one loose onion (400–450 g), one pack of baby potatoes (280–320 g), and one pack of cleaned coriander leaves (90–100 g). This order was placed during the morning, a daypart with a population share of 0.3246. These items are consistent with immediate meal preparation or cooking base ingredients. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
+  "summary_text": "On 2026-05-22 (weekday), the user purchased fresh, unbranded cooking staples (onion, baby potato, coriander leaves) in the morning. This single observation suggests an immediate meal preparation need but does not establish a stable preference.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased fresh, unbranded produce staples (onion, baby potatoes, coriander leaves) during the morning on a weekday. This timing aligns with a population share of 0.3246 for this daypart.",
+      "pattern_text": "One order of fresh vegetables (onion, baby potato, coriander leaves) purchased in the morning on a weekday. The items are fresh, unbranded cooking staples typically used for immediate meal preparation.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-22T09:10:49",
+    "last_seen_at": "2026-05-22T09:10:49"
+  }
 }

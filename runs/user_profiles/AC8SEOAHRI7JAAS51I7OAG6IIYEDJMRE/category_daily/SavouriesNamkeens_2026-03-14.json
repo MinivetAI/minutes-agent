@@ -1,15 +1,17 @@
 {
   "date": "2026-03-14",
   "day_type": "weekend",
-  "summary_text": "On the weekend of 2026-03-14, the user purchased 1 unit of Haldiram's All In One 200 g, a packaged Indian namkeen mixture, during the evening. This timing aligns with the high population share (0.3027) for savouries namkeens in the evening, suggesting a possible fit for evening snacking or tea-time consumption. This is a single observed order; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase for immediate consumption.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased 1 unit of Haldiram's All In One 200 g during the evening on a weekend. This timing aligns with the high population share (0.3027) for savouries namkeens in the evening, suggesting a possible fit for evening snacking or tea-time consumption.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-03-14 (weekend), one order of Haldiram's All In One 200 g (1 unit) was placed during the evening. This timing aligns with the population baseline share of 0.3027 for evening orders. The product is a ready-to-eat snack typically used for immediate consumption, such as with tea or as a quick bite. This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for immediate consumption, a specific event, or a routine refill.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase for immediate consumption.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for immediate consumption, a specific event, or a routine refill.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-14"
+    ],
+    "first_seen_at": "2026-03-14T16:59:17",
+    "last_seen_at": "2026-03-14T16:59:17"
+  }
 }

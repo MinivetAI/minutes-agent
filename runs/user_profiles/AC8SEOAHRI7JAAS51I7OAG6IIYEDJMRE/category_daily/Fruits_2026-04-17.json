@@ -1,9 +1,17 @@
 {
   "date": "2026-04-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-17 (weekday), the user purchased 2 units of Musk Melon Kajari and 1 unit of Muskmelon 600 g during the morning. This order occurred when the user's activity was 0.3246 of the population baseline. The items are fresh, ready-to-eat fruits, suggesting an immediate need for breakfast, snacking, or refreshing hydration. This is a single observed order; it does not establish a stable preference or routine for muskmelons.",
+  "summary_text": "On this weekday, the user ordered fresh muskmelon products (Musk Melon Kajari and Muskmelon 600 g) during the morning daypart. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The items are fresh fruits typically used for immediate consumption, such as breakfast, snacking, or refreshing dessert.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for muskmelons.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for muskmelon, a specific brand (none supplied), or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T09:11:18",
+    "last_seen_at": "2026-04-17T09:11:18"
+  }
 }

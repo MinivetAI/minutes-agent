@@ -1,9 +1,17 @@
 {
   "date": "2026-05-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-12 (weekday), the user purchased 2 packs of VICKS Double Power Cough Drops Warming Ginger (25 tablets each) during a night-time shopping session. This timing is less common for this user than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a portable, fast-acting lozenge for throat soothing, suitable for immediate relief during evening or night hours. This is a single observed order on one date; it does not establish a stable preference or routine for VICKS brand cough drops or night-time purchasing behavior.",
+  "summary_text": "On 2026-05-12 (weekday), the user ordered VICKS Double Power Cough Drops Warming Ginger (25 Tablets), quantity 2, during the night. This timing aligns with a lower population share for night orders (0.1202) compared to morning (0.3246), afternoon (0.2526), and evening (0.3027). The product is a portable, fast-acting lozenge typically used for immediate throat soothing. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time response to symptoms or part of a broader pattern.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for VICKS brand cough drops or night-time purchasing behavior.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this is a one-time response to symptoms or part of a broader pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-12"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-12T23:10:32"
+  }
 }

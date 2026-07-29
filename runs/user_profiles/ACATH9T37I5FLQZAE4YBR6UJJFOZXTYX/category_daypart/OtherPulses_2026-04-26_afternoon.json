@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 500 g pack of Classic Black Masoor Dal Whole. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One order of Classic Black Masoor Dal Whole (500 g) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekend. The population baseline indicates this timing is less common than morning (0.2526 vs 0.3246 share). The product is a standard pantry staple (whole masoor lentils) used for everyday cooking.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an immediate need. With only one observed order, it is not possible to establish a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when the user's activity is less frequent than the population baseline for mornings (0.3246) and evenings (0.3027), but aligns with the afternoon share (0.2526). The product is a pantry staple used for immediate cooking needs.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

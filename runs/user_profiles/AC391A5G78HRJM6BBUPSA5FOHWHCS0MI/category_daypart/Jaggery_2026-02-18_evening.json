@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 800 g pack of Dhampur Green Organic Jaggery Powder, a fine powdered organic sweetener intended for convenient mixing in cooking or beverages.",
+  "summary_text": "One order of Dhampur Green Organic Jaggery Powder (800 g) placed in the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the evening on a weekday, a time when population share (0.3027) is comparable to the morning baseline (0.3246). The product serves as a convenient, ready-to-use natural sweetener, avoiding the handling required for block jaggery.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing powder over block form or this brand over others is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a powdered organic jaggery, typically used as a convenient natural sweetener for cooking or beverages.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product format, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-18"
+    ],
+    "first_seen_at": "2026-02-18T18:26:24",
+    "last_seen_at": "2026-02-18T18:26:24"
+  }
 }

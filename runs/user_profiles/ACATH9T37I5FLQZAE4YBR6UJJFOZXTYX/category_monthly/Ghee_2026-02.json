@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased one 500 ml pouch of Gowardhan Pure Cow Ghee on a single weekday (2026-02-25) during the afternoon. This timing aligns with a daypart where the user's activity is less frequent than the population baseline (25.3% share vs. 32.5% for morning and 30.3% for evening). The product is a standard cooking fat used for home cooking and traditional food preparation. As this is a single observed order, it does not establish a stable preference for the Gowardhan brand or the pouch format. It is unclear if this was a planned restock or an immediate need driven by running out of ghee.",
+  "summary_text": "In February 2026, the user purchased Gowardhan Pure Cow Ghee 500 ml Pouch on one weekday afternoon. This single observation does not establish a stable preference for this brand or product variant. The purchase timing aligns with the population afternoon baseline (0.2526) but is less common than morning (0.3246) and evening (0.3027) baselines.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference for the Gowardhan brand or the pouch format. It is unclear if this was a planned restock or an immediate need driven by running out of ghee.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-25"
+    ],
+    "first_seen_at": "2026-02-25T12:59:38",
+    "last_seen_at": "2026-02-25T12:59:38"
+  }
 }

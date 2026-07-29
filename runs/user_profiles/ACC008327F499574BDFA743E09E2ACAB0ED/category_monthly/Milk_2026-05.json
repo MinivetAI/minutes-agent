@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "On 2026-05-13 (weekday), the user purchased one 500 ml and one 1 L pack of Amul Taaza pasteurised toned milk during the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) shares. The products are standard fresh milk packs intended for immediate kitchen use such as tea, coffee, or breakfast. This is a single observation on one date; it does not establish a stable brand preference or routine. It is unclear if this represents a one-off urgent need or part of a recurring habit.",
+  "summary_text": "On 2026-05-13 (weekday), the user ordered Amul Taaza Pasteurised Toned Milk (500 ml) and Amul Taaza Homogenised Toned Milk (1 L) in the afternoon. This timing aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). The products are fresh liquid milk SKUs typically used for immediate consumption, such as tea, coffee, or breakfast, suggesting a need to replenish stock for near-term use.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference or routine. It is unclear if this represents a one-off urgent need or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers the Amul brand, prefers the Taaza line, or has a stable routine for purchasing milk in the afternoon versus other times. No durable preference can be inferred from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-13"
+    ],
+    "first_seen_at": "2026-05-13T11:39:16",
+    "last_seen_at": "2026-05-13T11:39:16"
+  }
 }

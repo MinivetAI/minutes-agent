@@ -1,26 +1,27 @@
 {
-  "category": "Syrup",
-  "profile_text": "A single observed purchase of Puramate Pancake Syrup Maple Syrup (300 ml) on a weekend afternoon in March 2026. No browsing history or repeated purchase patterns are present to establish brand loyalty, product preference, or replenishment cadence.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Syrup",
+  "summary_text": "In March 2026, one order of Puramate Pancake Syrup Maple Syrup (300 ml) was placed on a weekend afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a table-ready syrup typically used for breakfast items like pancakes or waffles, suggesting a potential need for a breakfast topping, possibly for a weekend meal. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders in this category or daypart are available to confirm repetition.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from supplied evidence.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders in this category or daypart are available to confirm repetition.",
+  "retrieval_text": "In March 2026, a single order of Puramate Pancake Syrup Maple Syrup (300 ml) was placed on a weekend afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a table-ready syrup typically used for breakfast items like pancakes or waffles, suggesting a potential need for a breakfast topping, possibly for a weekend meal. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders in this category or daypart are available to confirm repetition.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-22",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was a single isolated event.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Syrup yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category is not tracked via browsing; the single observed event was a direct purchase, so conversion from interest to purchase cannot be evaluated due to lack of pre-purchase signals.",
-  "substitution_text": "No evidence of substitution behavior or brand switching.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior beyond the single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance signals detected; however, the lack of repeated interaction means true preference remains uncertain.",
-  "mission_generation_text": "Supports immediate breakfast preparation needs, specifically for pancakes or waffles, likely as a table-ready condiment for a weekend meal.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-22T13:11:15",
+    "last_seen_at": "2026-03-22T13:11:15"
+  }
 }

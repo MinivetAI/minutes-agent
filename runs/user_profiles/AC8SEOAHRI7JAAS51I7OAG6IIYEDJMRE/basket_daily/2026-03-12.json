@@ -1,43 +1,33 @@
 {
   "date": "2026-03-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-12, a single afternoon weekday order was placed containing one unit each of Fruit Drinks, Savouries Namkeens, and Chocolates. The basket exhibits narrow breadth with three distinct categories. The combination of Savouries Namkeens and Fruit Drinks represents a compatible snack-and-drink pairing. No other category pairs from the supplied evidence were present in this specific order.",
+  "summary_text": "On 2026-03-12 (weekday), a single order was placed in the afternoon. The basket contained one Fruit Drink, one Savoury Namkeen, and one Chocolate. This combination of beverage, snack, and confectionery items is compatible with a casual snacking or refreshment need. No other orders are present to establish a pattern.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Savouries Namkeens",
-        "Fruit Drinks"
+        "Fruit Drink",
+        "Savoury Namkeen",
+        "Chocolate"
       ],
-      "combination_text": "Savouries Namkeens and Fruit Drinks were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Savouries Namkeens",
-        "Chocolates"
-      ],
-      "combination_text": "Savouries Namkeens and Chocolates were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruit Drinks",
-        "Chocolates"
-      ],
-      "combination_text": "Fruit Drinks and Chocolates were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Fruit Drink, Savoury Namkeen, and Chocolate purchased together.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order is compatible with a need for immediate snack consumption or a light refreshment break.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It does not establish a durable preference or recurring pattern. The category pair evidence provided (e.g., Breads/CurdYogurt) was not present in this specific transaction and therefore cannot be linked to this basket's composition.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of a fruit drink, savoury snack, and chocolate may be compatible with a casual snacking or refreshment need.",
+  "uncertainty_text": "This description is based on a single observed order on one date. It does not represent a durable preference or routine. Confidence is low because there is no repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-12"
+    ],
+    "first_seen_at": "2026-03-12T14:42:56",
+    "last_seen_at": "2026-03-12T14:42:56"
+  }
 }

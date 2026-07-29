@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user placed one order for Go Plain Processed Cheese Block 200 g on a weekday morning. This single observation does not establish a stable preference or routine.",
+  "summary_text": "In May 2026, the user ordered Go Plain Processed Cheese Block 200 g on a single weekday morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a processed cheese block suitable for cooking, melting, or snacking, indicating a need for a versatile cheese ingredient. As this is a single observation, no stable preferences or recurring patterns are established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Single observation; cannot establish stable preferences or routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Go brand, processed cheese blocks specifically, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T08:07:58",
+    "last_seen_at": "2026-05-01T08:07:58"
+  }
 }

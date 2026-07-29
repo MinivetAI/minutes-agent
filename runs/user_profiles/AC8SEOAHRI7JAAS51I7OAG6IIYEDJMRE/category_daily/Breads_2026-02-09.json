@@ -1,9 +1,23 @@
 {
   "date": "2026-02-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-09 (weekday), one order of Naturbaked Zero Maida Whole Wheat Bread 300 g was placed in the afternoon. This daypart timing is less common for this user than the population baseline (25.26% share). The product is a packaged whole wheat loaf, typically used for quick breakfasts, toast, or sandwiches. This is a single observed order on one date; it does not establish a stable preference or routine for this category.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user purchased one order of Naturbaked Zero Maida Whole Wheat Bread (300 g) during the afternoon. This timing aligns with the population afternoon baseline share of 0.2526, though it is less common than morning (0.3246) or evening (0.3027) purchases. The product is a packaged whole wheat loaf, typically used for quick breakfasts, sandwiches, or snacks. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, this product type, or this specific timing. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread 300 g.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or this specific timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-09T13:05:05"
+  }
 }

@@ -1,32 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-06-21 in the morning on a weekend. The basket contains one toothbrush and two distinct vegetable items. The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on a weekend morning included one toothbrush and two distinct vegetable items. The basket reflects a basic household replenishment need, combining personal care with fresh produce. No other categories were present in this specific transaction.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Toothbrush",
-        "Vegetables"
-      ],
-      "combination_text": "Toothbrush and Vegetables were purchased together in this single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Vegetables"
-      ],
-      "combination_text": "Two distinct vegetable items were purchased together.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for personal hygiene items and fresh produce.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` are not used because only one date is represented. `overall_confidence` is `low` because the evidence represents only one independent date.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Routine household replenishment of personal hygiene and fresh food items.",
+  "uncertainty_text": "This is a single observation from one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-21T08:35:05",
+    "last_seen_at": "2026-06-21T08:35:05"
+  }
 }

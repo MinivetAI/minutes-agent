@@ -1,9 +1,23 @@
 {
   "date": "2026-07-19",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-19 (weekend), the user purchased one unit of Lady\u2019s Finger (480\u2013520g), a fresh unbranded okra/bhindi vegetable, during the evening. This evening period has a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a basic fresh produce item typically used for immediate meal assembly or same-day cooking. The specific culinary intent (e.g., bhindi masala vs. stir-fry) is unknown. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand/category loyalty.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Lady’s Finger (fresh okra/bhindi, 480–520g) in the evening. This timing aligns with the population baseline share of 0.3027 for evening vegetable purchases. The fresh nature of the product suggests a need for same-day meal preparation. This is a single observation on one date; no stable brand, product, or daypart preference can be established.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Lady’s Finger (fresh okra/bhindi, 480–520g) placed in the evening on a weekend. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for that daypart. The product is a fresh vegetable typically used for immediate meal preparation, suggesting a need for same-day cooking ingredients.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand/category loyalty. The specific culinary intent (e.g., bhindi masala vs. stir-fry) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preference can be established. It is unclear if this represents a routine habit or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T19:32:49",
+    "last_seen_at": "2026-07-19T19:32:49"
+  }
 }

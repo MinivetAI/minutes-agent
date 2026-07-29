@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning included dairy items (2 units of Curd Yogurt, 2 units of Milk, 1 unit of Paneer Tofu) and Rusks. The basket reflects a compatible need for breakfast or light meal components, combining protein sources with a baked good. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekend morning containing dairy items (Curd Yogurt, Milk, Paneer Tofu) and Rusks. The basket suggests a breakfast or light meal preparation need compatible with these products. No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,11 +12,68 @@
       "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.086,
       "lift": null,
-      "confidence": "low"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Curd Yogurt and Paneer Tofu were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Rusks"
+      ],
+      "combination_text": "Curd Yogurt and Rusks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Milk and Paneer Tofu were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "Rusks"
+      ],
+      "combination_text": "Milk and Rusks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Breakfast or light meal preparation involving dairy and baked goods.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of dairy products (Curd Yogurt, Milk, Paneer Tofu) and Rusks is compatible with a breakfast or morning snack preparation need.",
+  "uncertainty_text": "This description is based on a single order from one independent date. Stable preferences or routine behaviors cannot be inferred from this single observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T07:53:45",
+    "last_seen_at": "2026-04-18T07:53:45"
+  }
 }

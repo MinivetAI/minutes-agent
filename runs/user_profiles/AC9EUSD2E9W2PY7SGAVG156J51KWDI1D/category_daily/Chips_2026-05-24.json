@@ -1,9 +1,17 @@
 {
   "date": "2026-05-24",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-24 (weekend), the user placed one order of CRAX Cheese Balls Puff Snacks 65 g in the afternoon. This purchase occurred during a period of below-baseline activity for this category (25.26% share). The product is a single-serve savory snack suitable for immediate consumption or impulse hunger. No browsing events (search, view, cart) were recorded for this category in this window, so it is unclear if this was a planned or impulse purchase. A single order does not establish a stable brand or product preference.",
+  "summary_text": "On this weekend, the user ordered CRAX Cheese Balls Puff Snacks (65 g) during the afternoon. This single-serve savory snack is consistent with immediate consumption or impulse hunger. The afternoon timing aligns with population baselines, where afternoon shares are lower than morning and evening but remain significant. This is a single observation on one date; it is not yet established whether this represents a stable preference for the CRAX brand, cheese-flavored snacks, or weekend afternoon shopping habits.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable brand or product preference.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the CRAX brand, cheese-flavored snacks, or weekend afternoon shopping habits. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

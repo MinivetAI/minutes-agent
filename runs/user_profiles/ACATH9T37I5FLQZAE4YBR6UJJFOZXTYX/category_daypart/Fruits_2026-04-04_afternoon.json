@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 2 units of Sindhura mangoes (fresh fruit) in the afternoon on a weekend.",
+  "summary_text": "One order of Sindhura Mango (2 units) on 2026-04-04.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a fresh, perishable fruit typically consumed immediately or within a short timeframe.",
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or variety preference can be established. The specific reason for choosing this variety or timing is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekend. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but still significant. The product is a fresh fruit item typically used for immediate consumption or short-term home use.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for this specific mango variety, brand, or fruit category generally. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T11:40:58",
+    "last_seen_at": "2026-04-04T11:40:58"
+  }
 }

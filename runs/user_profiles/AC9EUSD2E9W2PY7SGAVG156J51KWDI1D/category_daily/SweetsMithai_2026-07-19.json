@@ -1,15 +1,23 @@
 {
   "date": "2026-07-19",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one 200 g box of Amul Kaju Katri, a boxed Indian dry-fruit sweet, during the morning. This morning activity is above the population baseline (0.3246). The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting. This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
+  "summary_text": "On 2026-07-19 (weekend), the user purchased one unit of Amul Kaju Katri Box 200 g in the morning. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The product is a boxed Indian sweet, generally used for immediate consumption, gifting, or festival needs. This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for a specific occasion, a routine treat, or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 200 g box of Amul Kaju Katri, a boxed Indian dry-fruit sweet. This morning activity is above the population baseline (0.3246). The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting.",
+      "pattern_text": "One order of Amul Kaju Katri Box 200 g (1 unit) placed on a weekend morning. The order occurred on a weekend morning, which aligns with the population baseline where morning accounts for 32.46% of activity. The product is a boxed Indian sweet, generally used for immediate consumption, gifting, or festival needs. This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for a specific occasion, a routine treat, or a one-time need.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for a specific occasion, a routine treat, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T09:35:43",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

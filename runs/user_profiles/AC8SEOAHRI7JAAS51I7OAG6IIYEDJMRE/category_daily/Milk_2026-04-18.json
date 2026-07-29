@@ -1,9 +1,17 @@
 {
   "date": "2026-04-18",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one 500 ml pouch of Mother Dairy Toned Milk and one 500 ml pouch of Mother Dairy Cow Milk during the morning. This timing aligns with a period when 32.46% of the population is active. These short-shelf-life dairy staples are typically used for immediate household consumption, such as breakfast, tea, or coffee. This is a single observed order on one date; it does not establish a stable or recurring preference for these specific SKUs or the brand.",
+  "summary_text": "On this weekend, the user purchased Mother Dairy Toned Milk (500 ml) and Cow Milk (500 ml) during the morning daypart. This timing aligns with the population's highest morning share (0.3246). The small-pack, short-shelf-life nature of these dairy staples suggests use for immediate consumption, such as breakfast, tea, or coffee. This is a single observation from one date; it is not yet established whether this represents a stable preference for Mother Dairy brand or a specific milk type, or if it was a one-time stockout recovery.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific SKUs or the brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable preference for Mother Dairy brand or a specific milk type, or if it was a one-time stockout recovery.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T07:53:45",
+    "last_seen_at": "2026-04-18T07:53:45"
+  }
 }

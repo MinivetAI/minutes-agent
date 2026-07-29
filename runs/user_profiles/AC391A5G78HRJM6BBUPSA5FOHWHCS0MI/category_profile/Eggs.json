@@ -1,40 +1,34 @@
 {
-  "category": "Eggs",
-  "profile_text": "Based on a single observed order on 2026-04-12, the user purchased one 10-unit pack of Eggoz white hen eggs during the evening. This is an isolated observation and does not establish a stable preference, routine, or recurring need for this category.",
-  "brand_preferences": [
-    {
-      "brand": "Eggoz",
-      "preference_text": "Observed in a single order on 2026-04-12. This is an isolated observation and does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Observed one 10-unit pack of Eggoz white hen eggs in a single order on 2026-04-12. This is an isolated observation and does not establish a stable preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Eggs",
+  "summary_text": "In April 2026, the user purchased Eggoz Everyday Hen White Eggs (10 Units) on a single weekend evening. This is a single observation; no stable preferences or recurring patterns are established for this month.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Eggoz",
+        "preference_text": "Purchased Eggoz brand eggs in April 2026.",
+        "confidence": "low",
+        "boundary_text": "This preference is based on a single observation and does not establish a recurring brand loyalty or exclude other egg brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of acceptable or unacceptable substitutions is available, as only one order has been recorded.",
+  "uncertainty_text": "It is not yet established whether this represents a recurring preference for the Eggoz brand, a specific pack size, or weekend evening shopping habits. No other orders are available to confirm stability or routine.",
+  "retrieval_text": "In April 2026, the user purchased Eggoz Everyday Hen White Eggs (10 Units) on a single weekend evening. This is a single observation; no stable preferences or recurring patterns are established for this month.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-12",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-04-12.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Eggs yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase in the single observed instance.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior established from a single order.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports general breakfast, cooking, or baking needs based on the single observed purchase of eggs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-12T18:36:56",
+    "last_seen_at": "2026-04-12T18:36:56"
+  }
 }

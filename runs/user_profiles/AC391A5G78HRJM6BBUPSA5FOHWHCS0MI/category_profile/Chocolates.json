@@ -1,40 +1,27 @@
 {
-  "category": "Chocolates",
-  "profile_text": "In May 2026, the user purchased 1 unit of Sapphire Premium Butter Toffee Truffles 300 g on 2026-05-06 (weekday) during the night. This order occurred at a time when this user's activity is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a premium, shelf-stable confectionery suitable for immediate consumption, casual sharing, or as a convenient sweet option. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., personal indulgence, gifting, or household stock) cannot be determined from this single event.",
-  "brand_preferences": [
-    {
-      "brand": "Sapphire",
-      "preference_text": "Sapphire was observed in one purchase on 2026-05-06. This single observation does not establish a stable preference or routine.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Sapphire Premium Butter Toffee Truffles 300 g was purchased once on 2026-05-06. This single observation does not establish a stable preference or routine.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Chocolates",
+  "summary_text": "In May 2026, the user ordered one unit of Sapphire Premium Butter Toffee Truffles 300 g on a single weekday (2026-05-06) during the night. This timing is less common than the population baseline for Chocolates (night share 0.1202 vs. evening 0.3027 and morning 0.3246). The product is a premium, shelf-stable confectionery suitable for immediate consumption or casual sharing. As this is a single observation, it is not yet established whether this represents a stable preference for the Sapphire brand, the toffee/truffle sub-category, or night-time ordering for this category.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from a single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Sapphire brand, the toffee/truffle sub-category, or night-time ordering for this category.",
+  "retrieval_text": "In May 2026, the user purchased one unit of Sapphire Premium Butter Toffee Truffles 300 g on a weekday night. This single observation does not yet establish a stable brand preference for Sapphire, a preference for toffee/truffle variants, or a consistent night-time ordering pattern for Chocolates.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-06",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase on 2026-05-06; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Chocolates yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on 2026-05-06.",
-  "substitution_text": "No substitution behavior observed from a single purchase.",
-  "price_value_text": "No price/value pattern established from a single purchase.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping needs supported by this category profile include immediate consumption, casual sharing, or as a convenient sweet option.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-06T21:34:17",
+    "last_seen_at": "2026-05-06T21:34:17"
+  }
 }

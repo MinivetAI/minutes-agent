@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "One order of Khari Foods Pudina Makhana Pops (25 g) was placed during the evening. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "summary_text": "One order of Khari Foods Pudina Makhana Pops (25 g) in the Savouries Namkeens category.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a single-serve, roasted makhana snack positioned as a light, healthy alternative to traditional fried namkeens, suitable for immediate consumption or portion-controlled snacking.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. With only one observed order on a single date, no durable brand or flavor preference can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday evening. This timing aligns with the population baseline, where evening accounts for 30.27% of activity, comparable to the morning share (32.46%). The product is a single-serve roasted snack, typically used for quick hunger relief or light snacking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, flavor, or product type, or if this was an isolated trial or impulse purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

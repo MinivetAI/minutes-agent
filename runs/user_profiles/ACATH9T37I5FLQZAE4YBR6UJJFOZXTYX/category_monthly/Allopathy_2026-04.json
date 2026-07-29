@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-07 (weekday), the user purchased one 20 ml pack of Nasoclear Nasal Spray in the evening. This saline spray is used for moisturizing and clearing blocked or dry nasal passages. The order occurred during a time when the population share (0.3027) is comparable to the morning baseline (0.3246). This single observed order does not establish a stable preference or routine; the specific reason for the purchase (e.g., acute cold, allergy, travel) cannot be determined from the transaction alone.",
+  "summary_text": "In April 2026, one order of Nasoclear Nasal Spray 20 ml was placed on a weekday in the evening. This timing aligns with the population baseline, where evening accounts for 30.27% of Allopathy orders. The product is a saline nasal spray typically used for quick relief of blocked, dry, or irritated nasal passages. This is a single observation on one date; it is not yet established whether this is a routine purchase, a one-time need, or part of a recurring pattern. No brand preference can be inferred from a single order.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., acute cold, allergy, travel) cannot be determined from the transaction alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a recurring pattern. No brand preference can be inferred from a single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

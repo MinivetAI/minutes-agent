@@ -29,6 +29,9 @@ from instructions import (
     USER_MISSION_GLOBAL_PROFILE,
     USER_MISSION_HOURLY_SUMMARY,
     USER_OCCASION_EVENT_PROFILE,
+    USER_RUNNING_BASKET_PROFILE_UPDATE,
+    USER_RUNNING_CATEGORY_PROFILE_UPDATE,
+    USER_RUNNING_PROFILE_UPDATE,
 )
 from models import (
     ActivitySummary,
@@ -73,6 +76,12 @@ from models import (
     QueryImprovement,
     QueryInput,
     QueryParsed,
+    RunningBasketProfileInput,
+    RunningBasketProfileOutput,
+    RunningCategoryProfileInput,
+    RunningCategoryProfileOutput,
+    RunningProfileInput,
+    RunningProfileOutput,
     SummaryAggregationInput,
     TestInput,
     TestResponse,
@@ -141,6 +150,19 @@ def _render_readable(value: Any, indent: int = 0) -> str:
                 lines.append(f"{prefix}- {_scalar(item)}")
         return "\n".join(lines)
     return f"{prefix}{_scalar(value)}"
+
+
+def _without_window_evidence(items: Any) -> Any:
+    """window_evidence is bookkeeping the calling system merges in after each
+    waterfall call purely to carry cadence/evidence forward to the *next*
+    stage (see WindowEvidence in models.py) — no instruction ever asks a
+    model to read it, and its purchase_dates list only grows with history.
+    Strip it from prior-stage outputs before they're rendered into any
+    later-stage prompt, so it never bloats a call it isn't needed for."""
+    return [
+        {k: v for k, v in item.items() if k != "window_evidence"}
+        for item in (items or [])
+    ]
 
 
 def _prepare_product_knowledge(input_dict: Dict[str, Any]) -> Dict[str, Any]:
@@ -221,17 +243,6 @@ def _prepare_category_daypart(input_dict: Dict[str, Any]) -> Dict[str, Any]:
                 ),
             }
         )
-    funnel_events = []
-    for event in input_dict.get("funnel_events") or []:
-        funnel_events.append(
-            {
-                "stage": _scalar(event.get("stage")),
-                "product": event.get("product_name"),
-                "search_query": event.get("query_text"),
-                "view_count": event.get("view_count"),
-                "quantity": event.get("quantity"),
-            }
-        )
     population_daypart_share = input_dict.get("population_daypart_share") or {}
     return {
         "category": _humanize_catalog(input_dict.get("category")),
@@ -244,7 +255,6 @@ def _prepare_category_daypart(input_dict: Dict[str, Any]) -> Dict[str, Any]:
         ),
         "observed_orders": input_dict.get("order_count") or 0,
         "products_ordered": _render_readable(products),
-        "funnel_events_search_view_cart": _render_readable(funnel_events),
     }
 
 
@@ -286,7 +296,9 @@ def _prepare_category_daily(input_dict: Dict[str, Any]) -> Dict[str, Any]:
         "category": _humanize_catalog(input_dict.get("category")),
         "date": input_dict.get("date"),
         "weekday_or_weekend": _scalar(input_dict.get("day_type")),
-        "daypart_summaries": _render_readable(input_dict.get("daypart_summaries") or []),
+        "daypart_summaries": _render_readable(
+            _without_window_evidence(input_dict.get("daypart_summaries"))
+        ),
     }
 
 
@@ -294,33 +306,24 @@ def _prepare_category_monthly(input_dict: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "category": _humanize_catalog(input_dict.get("category")),
         "month": input_dict.get("month"),
-        "daily_summaries": _render_readable(input_dict.get("daily_summaries") or []),
+        "daily_summaries": _render_readable(
+            _without_window_evidence(input_dict.get("daily_summaries"))
+        ),
     }
 
 
 def _prepare_category_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
-    observed_cadence_days = input_dict.get("observed_cadence_days")
     return {
         "category": _humanize_catalog(input_dict.get("category")),
-        "observed_cadence_days": (
-            observed_cadence_days if observed_cadence_days is not None else "unknown"
-        ),
-        "observed_cadence_evidence_count": input_dict.get("observed_cadence_evidence_count") or 0,
-        "observed_cadence_independent_date_count": (
-            input_dict.get("observed_cadence_independent_date_count") or 0
-        ),
-        "observed_cadence_class": _scalar(input_dict.get("observed_cadence_class")) or "unknown",
-        "observed_last_purchase_date": input_dict.get("observed_last_purchase_date") or "unknown",
-        "observed_predicted_next_purchase_date": (
-            input_dict.get("observed_predicted_next_purchase_date") or "unknown"
-        ),
         "recent_daypart_summaries": _render_readable(
-            input_dict.get("recent_daypart_summaries") or []
+            _without_window_evidence(input_dict.get("recent_daypart_summaries"))
         ),
         "recent_daily_summaries": _render_readable(
-            input_dict.get("recent_daily_summaries") or []
+            _without_window_evidence(input_dict.get("recent_daily_summaries"))
         ),
-        "monthly_summaries": _render_readable(input_dict.get("monthly_summaries") or []),
+        "monthly_summaries": _render_readable(
+            _without_window_evidence(input_dict.get("monthly_summaries"))
+        ),
     }
 
 
@@ -331,9 +334,6 @@ def _prepare_basket_daypart(input_dict: Dict[str, Any]) -> Dict[str, Any]:
             f"{_scalar(input_dict.get('day_type'))}"
         ),
         "complete_orders": _render_readable(input_dict.get("orders") or []),
-        "abandoned_carts_not_checked_out": _render_readable(
-            input_dict.get("abandoned_carts") or []
-        ),
         "category_pair_evidence_support_confidence_lift": _render_readable(
             input_dict.get("category_pair_evidence") or []
         ),
@@ -345,7 +345,7 @@ def _prepare_basket_daily(input_dict: Dict[str, Any]) -> Dict[str, Any]:
         "date": input_dict.get("date"),
         "weekday_or_weekend": _scalar(input_dict.get("day_type")),
         "daypart_basket_summaries": _render_readable(
-            input_dict.get("daypart_summaries") or []
+            _without_window_evidence(input_dict.get("daypart_summaries"))
         ),
     }
 
@@ -354,7 +354,7 @@ def _prepare_basket_monthly(input_dict: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "month": input_dict.get("month"),
         "daily_basket_summaries": _render_readable(
-            input_dict.get("daily_summaries") or []
+            _without_window_evidence(input_dict.get("daily_summaries"))
         ),
     }
 
@@ -362,47 +362,70 @@ def _prepare_basket_monthly(input_dict: Dict[str, Any]) -> Dict[str, Any]:
 def _prepare_basket_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "recent_daypart_basket_summaries": _render_readable(
-            input_dict.get("recent_daypart_summaries") or []
+            _without_window_evidence(input_dict.get("recent_daypart_summaries"))
         ),
         "recent_daily_basket_summaries": _render_readable(
-            input_dict.get("recent_daily_summaries") or []
+            _without_window_evidence(input_dict.get("recent_daily_summaries"))
         ),
         "monthly_basket_summaries": _render_readable(
-            input_dict.get("monthly_summaries") or []
+            _without_window_evidence(input_dict.get("monthly_summaries"))
         ),
     }
 
 
 # Fields the global-profile prompt actually needs from each category profile.
-# The rest (brand/product/quantity/temporal preference detail, substitution and
-# price text, avoidance/uncertainty prose) is useful at the category level but
-# is not cross-category synthesis material, and it dominates the size of this
-# call's input: one full CategoryProfileOutput is ~2900 chars, of which these
-# fields are only ~1600 — a category count near the cap (e.g. 40) times the
-# full object risks exceeding the model's context window well before the
-# output max_tokens budget is even reached.
+# The rest (per-product/brand/variant/pack-size preference detail, and the
+# post-processing-only replenishment/evidence blocks) is useful at the
+# category level but is not cross-category synthesis material, and it
+# dominates the size of this call's input — a category count near the cap
+# (e.g. 40) times the full object risks exceeding the model's context window
+# well before the output max_tokens budget is even reached.
 _GLOBAL_PROFILE_CATEGORY_FIELDS = (
-    "category",
-    "profile_text",
-    "replenishment",
-    "discovery_candidate",
-    "conversion_text",
-    "mission_generation_text",
-    "overall_confidence",
+    "category_name",
+    "summary_text",
+    "substitution_text",
+    "uncertainty_text",
+)
+
+# Fields the global-profile prompt actually needs from the one basket_profile.
+# `retrieval_text` is the basket profile's own embedding paragraph — the
+# global profile writes its own, it never reads this one. `evidence`,
+# `user_id`, `artifact_type`, and `updated_at` are post-processing-only
+# bookkeeping the model was never asked to use.
+_GLOBAL_PROFILE_BASKET_FIELDS = (
+    "summary_text",
+    "basket_relationships",
+    "value_text",
+    "basket_size_segment",
+    "large_basket_tendency",
+    "multi_quantity_tendency",
+    "daypart_understanding",
+    "day_type_understanding",
+    "uncertainty_text",
 )
 
 
 def _prepare_global_profile(input_dict: Dict[str, Any]) -> Dict[str, Any]:
     category_profiles = input_dict.get("category_profiles") or []
     compact_category_profiles = [
-        {field: profile.get(field) for field in _GLOBAL_PROFILE_CATEGORY_FIELDS}
+        {
+            **{field: profile.get(field) for field in _GLOBAL_PROFILE_CATEGORY_FIELDS},
+            # Only the brand list, not the full preferences object (products/
+            # variants/pack_sizes/ordered_quantities) — this is the one piece
+            # of category-level detail shopping_style.brand_loyalty_level
+            # actually needs, kept lean for the same context-window reason
+            # the rest of this projection is compact.
+            "brands": (profile.get("preferences") or {}).get("brands") or [],
+        }
         for profile in category_profiles
     ]
     total_category_count = input_dict.get("total_category_count")
     omitted = (total_category_count - len(category_profiles)) if total_category_count else 0
+    basket_profile = input_dict.get("basket_profile") or {}
+    compact_basket_profile = {field: basket_profile.get(field) for field in _GLOBAL_PROFILE_BASKET_FIELDS}
     return {
         "category_profiles": _render_readable(compact_category_profiles),
-        "basket_profile": _render_readable(input_dict.get("basket_profile") or {}),
+        "basket_profile": _render_readable(compact_basket_profile),
         "recent_summaries": "\n".join(
             f"- {_clean_text(summary)}"
             for summary in (input_dict.get("recent_summaries") or [])
@@ -436,6 +459,128 @@ def _prepare_user_occasion_event_profile(input_dict: Dict[str, Any]) -> Dict[str
         "occurrence_summaries": _render_readable(
             input_dict.get("occurrence_summaries") or []
         ),
+    }
+
+
+# Fields each running-profile-update prompt actually needs from its own
+# previous output. `retrieval_text` is the prior step's own embedding
+# paragraph — every step writes its own, none reads an old one. `evidence`
+# (and, for the basket/global tiers, `user_id`/`artifact_type`/
+# `profile_type`/`updated_at`) are post-processing-only bookkeeping the
+# model was never asked to use.
+_RUNNING_CATEGORY_PROFILE_FIELDS = (
+    "category_name",
+    "summary_text",
+    "preferences",
+    "daypart_understanding",
+    "substitution_text",
+    "change_since_last_text",
+    "uncertainty_text",
+)
+
+_RUNNING_BASKET_PROFILE_FIELDS = (
+    "summary_text",
+    "basket_relationships",
+    "value_text",
+    "basket_size_segment",
+    "large_basket_tendency",
+    "multi_quantity_tendency",
+    "daypart_understanding",
+    "day_type_understanding",
+    "change_since_last_text",
+    "uncertainty_text",
+)
+
+_RUNNING_PROFILE_FIELDS = (
+    "summary_text",
+    "daypart_understanding",
+    "basket_understanding",
+    "shopping_style",
+    "change_since_last_text",
+    "uncertainty_text",
+)
+
+
+def _prepare_running_category_profile_update(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    previous_category_profile = input_dict.get("previous_category_profile")
+    compact_previous = (
+        _render_readable({field: previous_category_profile.get(field) for field in _RUNNING_CATEGORY_PROFILE_FIELDS})
+        if previous_category_profile
+        else "(none supplied — this is this category's first order)"
+    )
+    return {
+        "category": _humanize_catalog(input_dict.get("category")),
+        "new_order": _render_readable(input_dict.get("new_order") or {}),
+        "recent_orders": _render_readable(input_dict.get("recent_orders") or []),
+        "previous_category_profile": compact_previous,
+    }
+
+
+def _prepare_running_basket_profile_update(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    previous_basket_profile = input_dict.get("previous_basket_profile")
+    compact_previous = (
+        _render_readable({field: previous_basket_profile.get(field) for field in _RUNNING_BASKET_PROFILE_FIELDS})
+        if previous_basket_profile
+        else "(none supplied — this is this user's first order)"
+    )
+    return {
+        "new_order": _render_readable(input_dict.get("new_order") or {}),
+        "recent_orders": _render_readable(input_dict.get("recent_orders") or []),
+        "category_pair_evidence": _render_readable(input_dict.get("category_pair_evidence") or []),
+        "previous_basket_profile": compact_previous,
+    }
+
+
+# Fields the running global-profile prompt actually needs from each entry in
+# category_profiles — same projection the waterfall's global profile uses
+# (_GLOBAL_PROFILE_CATEGORY_FIELDS), so both pipelines send comparably lean
+# category context into their global synthesis step.
+_RUNNING_GLOBAL_CATEGORY_FIELDS = (
+    "category_name",
+    "summary_text",
+    "substitution_text",
+    "uncertainty_text",
+)
+
+# Fields the running global-profile prompt actually needs from basket_profile
+# — same projection the waterfall's global profile uses
+# (_GLOBAL_PROFILE_BASKET_FIELDS): drops retrieval_text (this step writes its
+# own), evidence/user_id/artifact_type/updated_at (post-processing-only), and
+# change_since_last_text (not needed for cross-category synthesis).
+_RUNNING_GLOBAL_BASKET_FIELDS = (
+    "summary_text",
+    "basket_relationships",
+    "value_text",
+    "basket_size_segment",
+    "large_basket_tendency",
+    "multi_quantity_tendency",
+    "daypart_understanding",
+    "day_type_understanding",
+    "uncertainty_text",
+)
+
+
+def _prepare_running_profile_update(input_dict: Dict[str, Any]) -> Dict[str, Any]:
+    category_profiles = input_dict.get("category_profiles") or []
+    compact_category_profiles = [
+        {
+            **{field: profile.get(field) for field in _RUNNING_GLOBAL_CATEGORY_FIELDS},
+            "brands": (profile.get("preferences") or {}).get("brands") or [],
+        }
+        for profile in category_profiles
+    ]
+    basket_profile = input_dict.get("basket_profile") or {}
+    compact_basket_profile = {field: basket_profile.get(field) for field in _RUNNING_GLOBAL_BASKET_FIELDS}
+    previous_profile = input_dict.get("previous_profile")
+    compact_previous_profile = (
+        _render_readable({field: previous_profile.get(field) for field in _RUNNING_PROFILE_FIELDS})
+        if previous_profile
+        else "(none supplied — this is this user's first order)"
+    )
+    return {
+        "category_profiles": _render_readable(compact_category_profiles),
+        "basket_profile": _render_readable(compact_basket_profile),
+        "previous_profile": compact_previous_profile,
     }
 
 
@@ -630,6 +775,59 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "max_tokens": 6000,
         "repair": 3,
         "prepare_input": _prepare_global_profile,
+    },
+    "user_running_category_profile_update": {
+        "input_model": RunningCategoryProfileInput,
+        "output_model": RunningCategoryProfileOutput,
+        "instruction": USER_RUNNING_CATEGORY_PROFILE_UPDATE,
+        "endpoint": "/user/running-profile/category-update",
+        "load_level": "medium",
+        # Higher than user_category_preference_profile's 3500 despite the
+        # same output shape: that waterfall task reads monthly_summaries,
+        # text already filtered down to stable relationships by the daily ->
+        # monthly stages. This task reads this category's raw rolling window
+        # directly and must do that same noise-filtering itself, every call,
+        # while also reconciling against previous_category_profile — real
+        # 502 parse_error/truncation failures at 3500 confirmed this needed
+        # more room in practice.
+        "max_tokens": 5000,
+        "repair": 3,
+        "prepare_input": _prepare_running_category_profile_update,
+    },
+    "user_running_basket_profile_update": {
+        "input_model": RunningBasketProfileInput,
+        "output_model": RunningBasketProfileOutput,
+        "instruction": USER_RUNNING_BASKET_PROFILE_UPDATE,
+        "endpoint": "/user/running-profile/basket-update",
+        "load_level": "medium",
+        # Higher than user_basket_profile's 3500 despite the same output
+        # shape: that waterfall task reads monthly_summaries whose
+        # category_combination_patterns were already filtered to stable,
+        # repeated relationships by the daily -> monthly stages. This task
+        # reads the raw basket-level rolling window directly (up to
+        # window_size orders, any category — cross-category combinatorics
+        # grow with how many categories this user has) and must do that same
+        # noise-filtering itself, every call, while also reconciling against
+        # previous_basket_profile. Confirmed in practice: 3500 produced a
+        # genuine (non-repetition) truncation for a 17-category, 27-order
+        # user whose entire history still fit in one window.
+        "max_tokens": 6000,
+        "repair": 3,
+        "prepare_input": _prepare_running_basket_profile_update,
+    },
+    "user_running_profile_update": {
+        "input_model": RunningProfileInput,
+        "output_model": RunningProfileOutput,
+        "instruction": USER_RUNNING_PROFILE_UPDATE,
+        "endpoint": "/user/running-profile/update",
+        "load_level": "medium",
+        # category_profiles grows with how many categories this user has
+        # touched (same heavy-tail concern as user_global_profile's own
+        # max_tokens note) — matched to that value rather than the lower
+        # one this started with.
+        "max_tokens": 6000,
+        "repair": 3,
+        "prepare_input": _prepare_running_profile_update,
     },
     "user_feed_quality_review": {
         "input_model": FeedQualityReviewInput,

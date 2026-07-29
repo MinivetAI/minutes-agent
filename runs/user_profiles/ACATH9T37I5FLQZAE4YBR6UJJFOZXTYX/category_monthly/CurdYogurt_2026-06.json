@@ -1,23 +1,37 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased Amul Masti Dahi Plain Curd (200 ml) on three independent dates (2026-06-04, 2026-06-11, 2026-06-17) and Amul Plain Curd 1 kg on one date (2026-06-27). The recurrence of the 200 ml variant across three dates establishes a stable preference for this specific pack size and brand, despite the variation in daypart (afternoon, night, morning). The 1 kg pack appears as a single-date observation. Purchases occurred on weekdays and one weekend day, with no consistent daypart pattern emerging across the stable items.",
+  "summary_text": "In June 2026, the user ordered Amul Masti Dahi Plain Curd (200 ml) on three independent dates (2026-06-04, 2026-06-11, 2026-06-17) and Amul Masti Plain Curd (1 kg) on one independent date (2026-06-27). The recurrence of the Amul Masti brand across four independent dates establishes a stable preference for this brand within the Curd Yogurt category. The 200 ml variant appears on three dates, supporting a medium-confidence stable preference for that specific pack size, while the 1 kg variant appears only once. Ordering occurred across morning, afternoon, and night dayparts on weekdays and weekends, indicating no single stable daypart pattern.",
   "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "Amul Masti",
+      "claim_text": "The user has ordered Amul Masti brand curd on four independent dates in June 2026, indicating a stable preference for this brand.",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
     {
       "dimension": "product",
       "value": "Amul Masti Dahi Plain Curd (200 ml)",
-      "claim_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on three independent dates in June 2026.",
+      "claim_text": "The user ordered Amul Masti Dahi Plain Curd (200 ml) on three independent dates in June 2026, indicating a stable preference for this product variant.",
       "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased a larger 1 kg plain curd pack on a weekend in June 2026, distinct from the recurring 200 ml purchases.",
-      "confidence": "low"
-    }
-  ],
-  "uncertainty_text": "The 1 kg curd purchase is a single observation and does not indicate a stable preference for that pack size. The daypart for the stable 200 ml preference varies (afternoon, night, morning), so no specific daypart routine is established.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "uncertainty_text": "While the brand preference is stable, the pack size preference is mixed between 200 ml and 1 kg variants. Daypart ordering varies across morning, afternoon, and night, preventing the identification of a stable daily routine.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-06-04",
+      "2026-06-11",
+      "2026-06-17",
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

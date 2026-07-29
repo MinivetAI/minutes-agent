@@ -1,40 +1,72 @@
 {
-  "category": "Milk",
-  "profile_text": "The user maintains a high-confidence, stable preference for Amul brand milk, specifically the Taaza Pasteurised Toned Milk (500 ml) variant, supported by repeated purchases across February through June 2026. While July showed a slight variation in product variant (introducing Amul Cow Milk), the brand preference for Amul remains stable. Purchases occur with high frequency (fast cadence, ~3 days) and flexible timing across all dayparts and days of the week, indicating a routine need for immediate kitchen use (tea, coffee, breakfast) rather than a rigid scheduled event. The user is a consistent buyer with no evidence of unmet interest or discovery behavior.",
-  "brand_preferences": [
+  "category_name": "Milk",
+  "summary_text": "The user demonstrates a high-confidence, stable preference for the Amul brand across seven months (Jan–Jul 2026), with purchases on 30+ independent dates. The dominant product is Amul Taaza Pasteurised Toned Milk in 500 ml packs, observed repeatedly from February through June. A single 1 L pack purchase in April suggests occasional larger-format needs, but the 500 ml size is the primary stable preference. Daypart timing is mixed, with significant activity in the morning (aligning with population baselines), afternoon, and evening/night, indicating flexible replenishment rather than a rigid daily schedule. No other milk brands have been observed.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user has a stable, high-confidence preference for the Amul brand, evidenced by purchases across 7 independent months and 30+ dates.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Amul brand within the Milk category and does not extend to other dairy brands or non-dairy milk alternatives."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Amul Taaza Pasteurised Toned Milk",
+        "preference_text": "The user has a stable, high-confidence preference for the Amul Taaza Pasteurised Toned Milk variant, observed on 20+ independent dates from February to June.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "500 ml",
+        "preference_text": "The user has a stable, high-confidence preference for the 500 ml pack size, observed consistently across multiple months.",
+        "confidence": "high"
+      },
+      {
+        "pack_size": "1 L",
+        "preference_text": "The user has a medium-confidence preference for the 1 L pack size, evidenced by a single purchase in April 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Amul",
-      "preference_text": "The user has a stable preference for Amul brand milk, evidenced by purchases on multiple independent dates spanning February to July 2026.",
-      "confidence": "high",
-      "evidence_count": 31,
-      "independent_date_count": 31
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 29 independent dates from February to June 2026.",
-      "examples": [],
+      "daypart": "morning",
+      "behavior_text": "The user frequently purchases milk in the morning, a pattern observed on multiple independent dates across several months, aligning with the population baseline.",
       "confidence": "high"
+    },
+    {
+      "daypart": "afternoon",
+      "behavior_text": "The user also exhibits a stable pattern of purchasing milk in the afternoon, particularly in February and April.",
+      "confidence": "high"
+    },
+    {
+      "daypart": "evening",
+      "behavior_text": "The user has observed evening purchases, though less frequently than morning or afternoon.",
+      "confidence": "medium"
+    },
+    {
+      "daypart": "night",
+      "behavior_text": "The user has observed night purchases, particularly in May and June, indicating flexible timing.",
+      "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has shown acceptance of different Amul variants (Taaza Toned vs. Cow Milk) and pack sizes (500 ml vs. 1 L) within the same brand, suggesting flexibility in product selection. However, no evidence supports substitution to other milk brands.",
+  "uncertainty_text": "While the Amul brand and 500 ml Taaza variant are stable, the specific daypart pattern is mixed (morning, afternoon, evening, night), preventing a single dominant timing claim. The stability of the 1 L pack size is limited to a single observation. It is unknown if the user prefers other Amul variants beyond Taaza Toned and Cow Milk.",
+  "retrieval_text": "The user exhibits a high-confidence, stable preference for the Amul brand in the Milk category, with purchases recorded on over 30 independent dates across seven months (January–July 2026). The primary product is Amul Taaza Pasteurised Toned Milk in 500 ml packs, which was purchased repeatedly from February through June, establishing a strong stable preference for this specific variant and pack size. A single purchase of a 1 L pack in April indicates occasional larger-format needs, but the 500 ml size remains the dominant stable preference. Daypart timing is flexible and mixed, with significant activity in the morning (aligning with population baselines), afternoon, evening, and night, suggesting the user replenishes milk based on immediate kitchen needs for breakfast, tea, or coffee rather than a rigid daily schedule. No other milk brands have been observed, indicating a strong brand lock-in to Amul.",
   "replenishment": {
     "cadence_days": 3.0,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": "2026-07-07",
-    "replenishment_text": "The user purchases milk approximately every 3 days, indicating a fast-replenishing staple item.",
-    "confidence": "high",
-    "evidence_count": 33,
-    "independent_date_count": 33
+    "replenishment_text": "Milk is reordered roughly every 3 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase; the user has a history of completed transactions for Amul milk products across multiple months.",
-  "substitution_text": "The user has shown flexibility in product variant within the Amul brand (e.g., switching between Taaza Toned Milk and Cow Milk in July), suggesting potential openness to substitution among Amul milk SKUs, though Taaza Toned Milk remains the primary stable preference.",
-  "price_value_text": "No explicit price or value behavior is observed in the supplied summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user consistently purchases milk.",
-  "mission_generation_text": "Supports immediate daily kitchen needs such as preparing tea, coffee, or breakfast items requiring fresh liquid milk.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 33,
+    "independent_date_count": 33,
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

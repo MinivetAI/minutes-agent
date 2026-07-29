@@ -1,9 +1,17 @@
 {
   "date": "2026-05-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-07 (weekday), the user purchased 3 units of Nestlé MUNCH Max Coated Crunchy Wafer Bar (38.5 g) in the Chocolates category during a morning session. This activity occurred in a daypart where the user's activity is above the population baseline (32.46%). The product is a single-serve coated wafer bar, compatible with immediate sweet snacking, break-time treats, or quick indulgence. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty for Nestlé or wafer bars. The specific motivation for this purchase (e.g., immediate craving vs. stocking up) is not established.",
+  "summary_text": "On 2026-05-07 (weekday), the user purchased one order of 3 Nestlé MUNCH Max Coated Crunchy Wafer Bars (38.5 g each) in the morning. This timing is less common for this user than the population baseline (morning share 0.3246). The items are single-serve coated wafer bars, consistent with immediate sweet snacking or a quick break. This is a single observation on one date and does not establish a stable preference for this brand, product, or morning timing.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty for Nestlé or wafer bars. The specific motivation for this purchase (e.g., immediate craving vs. stocking up) is not established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or morning timing. No other orders are available to confirm if this is a routine or an isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-05-24",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one 179.66 g Cadbury Celebrations Assorted Chocolate Gift Pack Bars during the morning daypart. The item is a mixed chocolate gift box featuring familiar brands like Dairy Milk and 5 Star, positioned as a ready-to-give sweet gift for occasions such as festivals or visits. The order occurred on a weekend morning, a timing that aligns with the population baseline where morning activity (0.3246) holds the highest share among dayparts, suggesting a common window for weekend shopping or gifting preparation. This is a single observed order on one date; it is not yet established whether this represents a durable preference for Cadbury, a specific need for gifting, or a one-time purchase. No browsing or search history was provided to indicate prior interest or comparison.",
+  "summary_text": "On this weekend, a single order of Cadbury Celebrations Assorted Chocolate Gift Pack Bars (179.66 g) was placed during the morning. This timing aligns with the population's most common daypart for this category (32.46% share). The product is a ready-to-give chocolate assortment, suggesting a need for a convenient, recognizable gift or treat. This is a single observation on one date; no stable brand, product, or timing preferences can be established. It is unclear if this was a one-time gifting need or part of a recurring habit.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a durable preference for Cadbury, a specific need for gifting, or a one-time purchase. No browsing or search history was provided to indicate prior interest or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established. It is unclear if this was a one-time gifting need or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

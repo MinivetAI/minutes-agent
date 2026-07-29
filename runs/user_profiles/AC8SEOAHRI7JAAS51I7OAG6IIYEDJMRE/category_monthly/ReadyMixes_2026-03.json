@@ -1,9 +1,18 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased two distinct ready mixes on separate dates: iD Fresh Classic Pancake Batter (300 g) on a weekend afternoon and Khetika Sprouted Moong Chilla Batter (1 kg) on a weekday morning. Each product appeared on only one independent date, so no stable preference or routine is established for any specific brand or variant. The orders reflect single-observation convenience needs for quick breakfast or snack preparation.",
+  "summary_text": "In March 2026, the user placed two distinct orders for ready mixes on separate dates: iD Fresh Classic Pancake Batter on a weekend afternoon and Khetika Sprouted Moong Chilla Batter on a weekday morning. Each brand and product appeared only once, so no stable preference claims are established for specific brands or products. The user’s ordering behavior spans both weekdays and weekends, and both morning and afternoon dayparts, but with only one observation per daypart, no stable daypart pattern is confirmed. Overall confidence is low due to the limited number of independent dates.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each product was observed on only one independent date. It is unknown if these were one-time trials, restocks, or part of a broader habit. No browsing intent was captured to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Only two independent dates are available in this month, with each brand and product appearing once. It is unclear whether these represent stable preferences or one-time convenience purchases. No stable daypart or weekday/weekend patterns can be confirmed from single observations.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-21",
+      "2026-03-26"
+    ],
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-03-26T10:18:30"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-05-10",
   "day_type": "weekend",
-  "summary_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks during the evening on a weekend. The purchase occurred in the evening, a period where this user's activity aligns with the population baseline (30.27% share). The product is a single-serve savoury snack, typically consumed as an immediate, ready-to-eat item without preparation.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered CRAX Cheese Balls Puff Snacks (65 g) in the evening. This single-serve savory snack is typically used for immediate consumption or quick cravings. The evening daypart is a common time for this category, aligning with a population baseline of 30.27%. This is a single observation on one date; it is not yet established whether this is a recurring preference or an isolated purchase. No brand or product repetition has been observed to confirm a stable habit.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of CRAX Cheese Balls Puff Snacks 65 g. The evening daypart is a common time for this category, aligning with a population baseline of 30.27%. This is a single observation on one date; it is not yet established whether this is a recurring preference or an isolated purchase. No brand or product repetition has been observed to confirm a stable habit.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference or an isolated purchase. No brand or product repetition has been observed to confirm a stable habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-10"
+    ],
+    "first_seen_at": "2026-05-10T19:01:33",
+    "last_seen_at": "2026-05-10T19:01:33"
+  }
 }

@@ -1,26 +1,34 @@
 {
-  "category": "Salt",
-  "profile_text": "The user has purchased salt twice in 2026 (April and June), indicating a basic household replenishment need for a cooking staple. However, the purchases were for different brands (Tata Salt Lite vs. Tata Salt Superlite) and different product variants (Iodized Low Sodium vs. Superlite Low Sodium). Because these are two distinct brands and variants observed on separate dates, no single brand or product variant has reached the threshold for a stable preference (which requires repetition of the *same* value). The user's behavior suggests they are open to different low-sodium salt options or are testing specific product features, but no durable brand loyalty or specific product preference is established. The timing varies (afternoon in April, morning in June), and no consistent cadence or daypart preference is evident.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Salt",
+  "summary_text": "The user has placed two orders for salt in the observed window: one in April 2026 for Tata Salt Lite Iodized Low Sodium Salt (1 kg) and one in June 2026 for Tata Salt Superlite (1 kg). Both purchases were for the Tata brand and 1 kg pack size. The April order was on a weekday afternoon, and the June order was on a weekday morning. As these are two distinct observations on different dates, there is emerging evidence for brand preference, but the timing varies (afternoon vs. morning), preventing a stable daypart pattern. The specific product type (low-sodium/light variants) appears consistent, but with only two data points, it is not yet established as a stable routine or a one-time health-driven switch.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Tata Salt",
+        "preference_text": "The user has purchased Tata Salt products on two independent dates (April and June 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is observed for low-sodium or 'lite' variants (Lite Iodized, Superlite) and 1 kg packs; it does not necessarily extend to non-iodized, coarse, or Himalayan salt products."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The user has only purchased Tata Salt variants in the observed window.",
+  "uncertainty_text": "Confidence is low due to limited data (two independent dates). It is not yet established whether the preference for low-sodium/light variants is a stable long-term habit or a temporary health-driven switch. The timing varies between afternoon and morning, so no stable daypart routine is confirmed. No other brands or product forms have been observed.",
+  "retrieval_text": "User purchased Tata Salt Lite Iodized Low Sodium Salt (1 kg) in April 2026 and Tata Salt Superlite (1 kg) in June 2026. Both were weekday purchases, one in the afternoon and one in the morning. Evidence supports a medium-confidence preference for the Tata Salt brand and 1 kg pack size, specifically for low-sodium or light variants. No stable daypart pattern is established due to timing variation. No substitution or routine evidence is available beyond these two observations.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-03",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-06-03. Cadence is unknown based on the provided data.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Salt yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by two completed transactions.",
-  "substitution_text": null,
-  "price_value_text": "No specific price/value behavior is established; purchases were for standard 1 kg packs of low-sodium salt.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No clear preference for a single brand or variant is established due to the switch between Tata Salt Lite and Tata Salt Superlite across the two observed dates.",
-  "mission_generation_text": "Routine household replenishment for a cooking staple ingredient.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

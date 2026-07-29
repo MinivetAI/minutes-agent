@@ -1,23 +1,33 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14, a weekday, a single order was placed in the morning. The basket contained one unit each of Curd Yogurt, Breads, and Fruits, representing a small basket breadth with three distinct categories. The combination of Breads and Curd Yogurt has a support of 0.129, confidence of 0.346, and lift of 0.969 based on co-order evidence. The shopping need text suggests a simple breakfast or light meal preparation compatible with these items. As this is a single observed order, it is an observation, not a durable preference.",
+  "summary_text": "On 2026-04-14 (weekday), a single order was placed in the morning. The basket contained one unit each of Curd Yogurt, Breads, and Fruits. This combination is compatible with a breakfast or light morning meal need. Because this is the only observed order on this independent date, stable preferences or routine behaviors cannot be established from this isolated observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
+        "Curd Yogurt",
         "Breads",
-        "Curd Yogurt"
+        "Fruits"
       ],
-      "combination_text": "Breads and Curd Yogurt were purchased together in this order. Population-level evidence shows a support of 0.129, confidence of 0.346, and lift of 0.969 for this pair.",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Curd Yogurt, Breads, and Fruits",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a simple breakfast or light meal involving dairy and grain products.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or recurring patterns can be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Breads and Curd Yogurt is compatible with a breakfast or light morning meal need.",
+  "uncertainty_text": "This inference is based on a single order on one independent date. Stable preferences or routine behaviors cannot be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T09:46:35",
+    "last_seen_at": "2026-04-14T09:46:35"
+  }
 }

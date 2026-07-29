@@ -1,40 +1,58 @@
 {
-  "category": "Curd Yogurt",
-  "profile_text": "The user demonstrates a stable, high-frequency preference for Amul brand curd, specifically the 'Masti Dahi Plain Curd' variant in the 200 ml pack size. This preference is supported by repeated purchases across seven consecutive months (January–July 2026), with the 200 ml pack appearing on numerous independent dates. While the user occasionally purchases larger formats (390 ml, 1 kg) or other plain curd variants, these are isolated observations and do not constitute a stable preference. The user’s purchasing cadence is fast (every ~5 days), with timing that is generally flexible across dayparts and days of the week, though recent activity in July shows a shift toward morning purchases. The category represents a routine staple for immediate consumption or meal pairing.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "The user has a stable preference for Amul brand curd, evidenced by purchases on multiple independent dates across January through July 2026.",
-      "confidence": "high",
-      "evidence_count": 27,
-      "independent_date_count": 27
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Amul Masti Dahi Plain Curd (200 ml), evidenced by purchases on multiple independent dates across January through July 2026.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 5.0,
-    "cadence_class": "fast",
-    "last_purchase_date": "2026-07-04",
-    "predicted_next_purchase_date": "2026-07-09",
-    "replenishment_text": "The user purchases this category approximately every 5 days, classified as a fast-replenishing item. The last purchase was on July 4, 2026, with the next purchase predicted around July 9, 2026, based on this average cadence.",
-    "confidence": "high",
-    "evidence_count": 27,
-    "independent_date_count": 27
+  "category_name": "Curd Yogurt",
+  "summary_text": "The user demonstrates a stable, high-confidence preference for Amul brand curd, specifically the Masti Dahi Plain Curd variant in 200 ml packs, with evidence spanning January through July 2026. While the brand and product line are consistent, the user also purchased a 1 kg pack once in June, indicating flexibility in pack size based on immediate needs. Ordering timing is flexible, occurring across morning, afternoon, and evening dayparts on both weekdays and weekends, with a recent concentration on morning orders in July. No other brands were observed.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user consistently selects Amul brand curd, evidenced by orders across five separate months (Jan, Mar, May, Jun, Jul 2026).",
+        "confidence": "high",
+        "boundary_text": "This preference applies to the Amul brand generally but does not extend to other brands such as Mother Dairy or Nandini."
+      },
+      {
+        "brand": "Amul Masti",
+        "preference_text": "The user specifically targets the Amul Masti sub-brand line, with the majority of orders being Amul Masti Dahi Plain Curd.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to the Masti line and does not necessarily extend to other Amul dairy products like butter or paneer."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Amul Masti Dahi Plain Curd",
+        "preference_text": "The user repeatedly orders the plain curd variant of Amul Masti, appearing on at least 10 independent dates across the observed period.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "200 ml",
+        "preference_text": "The 200 ml pack size is the dominant choice, appearing on the majority of independent dates, suggesting a preference for single-serve or small-batch consumption.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by consistent transaction history without recorded browsing or cart abandonment.",
-  "substitution_text": "The user shows flexibility in pack size (200 ml, 390 ml, 1 kg) and occasionally buys non-Masti plain curd, but maintains a strong stable preference for the 200 ml Masti variant. Substitutions are likely limited to other Amul plain curd variants if the preferred 200 ml pack is unavailable.",
-  "price_value_text": "The user primarily purchases small, single-serve 200 ml packs, suggesting a preference for immediate consumption or portion control rather than bulk value stocking. Occasional larger pack purchases (390 ml, 1 kg) indicate openness to different formats but do not define the core routine.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty. The user’s behavior is consistent and routine-driven.",
-  "mission_generation_text": "Supports daily nutritional needs through regular consumption of plain curd, likely for breakfast, meal pairing, or digestive health, with flexible timing allowing for integration into various daily routines.",
-  "overall_confidence": "high"
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "In July 2026, the user ordered Amul Masti Dahi Plain Curd (200 ml) on two independent dates, both in the morning, establishing a recent stable pattern for this specific product.",
+      "confidence": "medium"
+    }
+  ],
+  "substitution_text": "The user has shown acceptance of larger pack sizes (1 kg) for the same brand line when needed, but has not substituted to other brands. No evidence of substitution to competing brands exists.",
+  "uncertainty_text": "While the brand and product variant are stable, the user's pack size preference is flexible (200 ml vs 1 kg), and daypart timing is generally mixed across the broader period, with only a recent morning pattern emerging in July. It is unclear if the 1 kg purchase indicates a shift toward bulk buying or was a one-off need.",
+  "retrieval_text": "The user exhibits a strong, stable preference for Amul Masti Dahi Plain Curd, specifically the 200 ml pack size, with purchase evidence spanning from January to July 2026 across multiple independent dates. The brand Amul is the sole observed brand, with high confidence in this preference. While the 200 ml pack is the dominant choice, the user has also purchased a 1 kg variant, indicating pack size flexibility. Daypart timing is generally flexible across morning, afternoon, and evening, though a recent stable pattern of morning orders for the 200 ml variant was observed in July 2026. No other brands or competing products were observed in this category.",
+  "replenishment": {
+    "cadence_days": 10,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-07-14",
+    "replenishment_text": "CurdYogurt is reordered roughly every 10 days."
+  },
+  "evidence": {
+    "evidence_count": 14,
+    "independent_date_count": 14,
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-07-04T09:05:54"
+  }
 }

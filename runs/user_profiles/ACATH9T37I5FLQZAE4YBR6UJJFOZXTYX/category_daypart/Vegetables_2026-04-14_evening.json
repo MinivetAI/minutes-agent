@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one loose onion (400–450 g), one pack of fresh coriander leaves (100 g), and one pack of baby potatoes (280–320 g) during the evening on a weekday.",
+  "summary_text": "One order of unbranded fresh vegetables (onion, coriander leaves, baby potato) placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The items are fresh, unbranded produce staples typically used for immediate meal preparation or cooking base ingredients.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference. The specific meal context or reason for purchase is not known.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekday evening, which aligns with the population baseline for this daypart (30.27%). The items are fresh, unbranded produce typically used as base ingredients or garnishes for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for unbranded fresh vegetables or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

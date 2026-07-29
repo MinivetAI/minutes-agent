@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 750 ml bottle of Sprite (lemon-lime) and one 750 ml bottle of Coca-Cola Original Taste (cola).",
+  "summary_text": "One order of Aerated Drinks placed on a weekend evening, containing one 750 ml Sprite PET Bottle and one 750 ml Coca-Cola Original Taste PET Bottle.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the evening on a weekend, a time when the user's activity aligns with the population baseline (evening share 0.3027). The items are ready-to-drink carbonated beverages in single-serve PET formats, typically used for immediate refreshment or as meal companions.",
-  "uncertainty_text": "No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is not possible to determine if this represents a stable preference for these specific brands or a one-time purchase for immediate needs.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening accounts for 30.27% of activity (compared to 32.46% in the morning). The products are carbonated soft drinks typically used for immediate refreshment or as a companion to meals and social moments.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether the user prefers Sprite, Coca-Cola, or both, or if this represents a stable habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-31"
+    ],
+    "first_seen_at": "2026-01-31T19:05:26",
+    "last_seen_at": "2026-01-31T19:05:26"
+  }
 }

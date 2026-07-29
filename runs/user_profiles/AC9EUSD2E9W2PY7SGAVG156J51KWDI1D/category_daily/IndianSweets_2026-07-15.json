@@ -1,15 +1,23 @@
 {
   "date": "2026-07-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-15 (weekday), the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) during the evening. This timing aligns with high population activity (30.27% share), suggesting a possible need for post-dinner consumption or social gifting. This is a single observed transaction and does not establish a stable preference, routine, or brand loyalty.",
+  "summary_text": "On this weekday, the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) during the evening. This timing aligns with the population baseline, where evening accounts for 30.27% of activity, slightly below the morning share of 32.46%. The product is a sweet item, typically consumed as a treat or dessert. This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or an isolated incident. No brand preference can be established as no brand information was provided for the product.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "One unit of SAMHHWDWYZ2DTSST (Indian Sweets) was purchased during the evening on a weekday. This timing is compatible with high population activity (30.27% share), suggesting a possible need for post-dinner consumption or social gifting.",
+      "pattern_text": "One unit of SAMHHWDWYZ2DTSST (Indian Sweets) was purchased. This timing aligns with the population baseline, where evening accounts for 30.27% of activity, slightly below the morning share of 32.46%. The product is a sweet item, typically consumed as a treat or dessert.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or specific brand loyalty for Indian Sweets.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or an isolated incident. No brand preference can be established as no brand information was provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-15"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

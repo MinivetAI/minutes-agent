@@ -1,9 +1,17 @@
 {
   "date": "2026-03-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-17 (weekday), the user purchased one 1-litre pack of Lizol Citrus Disinfectant Surface & Floor Cleaner in the afternoon. This timing aligns with a lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The product is a ready-to-use liquid cleaner for floors and surfaces, typically used for routine hygiene or spill cleanup. This is a single observed order; no repeated behavior or stable preference pattern can be established.",
+  "summary_text": "On 2026-03-17 (weekday), the user purchased one unit of Lizol Citrus Disinfectant Surface & Floor Cleaner (1 L) in the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246). The product is a ready-to-use disinfectant cleaner, typically used for routine hygiene maintenance or quick sanitation of floors and surfaces. This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring cadence, or specific usage occasion (e.g., routine vs. urgent) based on this order alone.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no repeated behavior or stable preference pattern can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring cadence, or specific usage occasion (e.g., routine vs. urgent) based on this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T14:48:16",
+    "last_seen_at": "2026-03-17T14:48:16"
+  }
 }

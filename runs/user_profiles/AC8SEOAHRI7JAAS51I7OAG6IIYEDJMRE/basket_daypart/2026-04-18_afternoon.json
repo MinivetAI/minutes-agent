@@ -1,92 +1,91 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single afternoon weekend order on 2026-04-18 contained four items across three categories: Breads, Dairy (Paneer Tofu), and Cleaning Supplies (Dish Cleaning Gel, Scrub Pad). The basket reflects a basic household replenishment need, combining a staple food item with cleaning essentials. No durable preference patterns can be established from this single observation.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing four distinct items across four categories: Breads, Dish Cleaning Gel, Paneer Tofu, and Scrub Pad. The basket combines food items (bread, paneer) with cleaning supplies (dish gel, scrub pad). No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
         "Breads",
-        "CurdYogurt"
+        "Dish Cleaning Gel"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
+      "combination_text": "Breads and Dish Cleaning Gel were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
-        "Vegetables"
+        "Paneer Tofu"
       ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
+      "combination_text": "Breads and Paneer Tofu were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
-        "Milk"
+        "Scrub Pad"
       ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
+      "combination_text": "Breads and Scrub Pad were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Dish Cleaning Gel",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Dish Cleaning Gel and Paneer Tofu were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Dish Cleaning Gel",
+        "Scrub Pad"
+      ],
+      "combination_text": "Dish Cleaning Gel and Scrub Pad were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Paneer Tofu",
+        "Scrub Pad"
+      ],
+      "combination_text": "Paneer Tofu and Scrub Pad were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Household replenishment of staple food and cleaning supplies.",
-  "uncertainty_text": "This is a single observed order; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of bread, paneer, and cleaning supplies suggests a need for meal preparation (potentially involving bread and paneer) and household maintenance or cleaning.",
+  "uncertainty_text": "This analysis is based on a single order from one date. No durable preferences, routines, or stable patterns can be inferred. The presence of cleaning supplies alongside food items may indicate a general household restock or a specific cleaning task coinciding with food shopping, but this is an isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T12:20:02",
+    "last_seen_at": "2026-04-18T12:20:02"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased 1 unit of Safe Harvest Powder Jaggery 500 g on a weekend morning. This category represents 32.46% of population activity at this time. The product is a convenient, loose-format sweetener suitable for quick preparation in cooking or beverages. This is a single observed transaction; durable brand or format preferences cannot be established from this isolated event.",
+  "summary_text": "In May 2026, the user purchased Safe Harvest Powder Jaggery 500 g on one weekend morning. This single observation does not establish a stable preference or routine for this brand or product. The purchase aligns with the population baseline for morning daypart activity (32.46%).",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand or format preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time purchase or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

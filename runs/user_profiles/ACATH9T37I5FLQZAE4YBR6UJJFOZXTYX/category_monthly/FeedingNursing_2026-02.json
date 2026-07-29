@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "On 2026-02-23, a weekday, the user purchased one pack of four LuvLap anti-colic fast-flow replacement teats for baby bottles during the evening. This single transaction reflects a functional need for feeding continuity, likely replacing worn or incompatible bottle nipples. The evening timing aligns with typical population activity patterns (30.27% share). As this is the only observed order on this date, it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-02-23, the user placed one order in the evening for LuvLap Anti-Colic Essential Teat/Nipple (Pack of 4). This single observation suggests a need to maintain feeding continuity for an infant, but it is insufficient to establish a recurring pattern or brand preference.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a recurring need or a one-time replacement. No brand preference can be inferred from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T17:46:26",
+    "last_seen_at": "2026-02-23T17:46:26"
+  }
 }

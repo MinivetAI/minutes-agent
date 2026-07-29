@@ -1,9 +1,23 @@
 {
   "date": "2026-06-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-02 (weekday), the user purchased 2 packs of Fortune 1 kg white refined sugar during the evening. This timing aligns with a population share of 0.3027, which is slightly below the morning baseline (0.3246) but higher than afternoon (0.2526) and night (0.1202). The product is a standard white sugar staple, typically used for daily household cooking, tea/coffee preparation, or baking. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening timing (e.g., immediate need vs. planned stocking) is unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, a single order of Fortune Sugar 1 kg (quantity: 2) was placed during the evening. This timing aligns with the population baseline share of 0.3027 for evening purchases. The purchase of a standard 1 kg white sugar pack suggests a need for a quick pantry refill or immediate sweetening for daily routines such as tea, coffee, or breakfast preparation. This is a single observation on one date; it is not yet established whether this represents a stable preference for the Fortune brand or a specific evening shopping habit. No other products or brands were observed in this window to determine broader category preferences.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Fortune Sugar 1 kg (quantity: 2) placed on a weekday evening. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The purchase of a standard 1 kg white sugar pack suggests a need for a quick pantry refill or immediate sweetening for daily routines such as tea, coffee, or breakfast preparation.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for the evening timing (e.g., immediate need vs. planned stocking) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Fortune brand or a specific evening shopping habit. No other products or brands were observed in this window to determine broader category preferences.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

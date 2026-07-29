@@ -1,9 +1,23 @@
 {
   "date": "2026-05-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-28 (weekday), the user purchased one Appy Fizz 250 ml PET Bottle in the evening. This single-serve sparkling fruit drink was bought during a time when the user's activity aligns with the population baseline (evening share 0.3027). The product is typically used for immediate refreshment or as a convenient, individual-sized treat. This is a single observed order; it does not establish a stable preference or routine for Appy Fizz or aerated drinks in general.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-28 (weekday), the user ordered one Appy Fizz 250 ml PET Bottle during the evening. This single-serve sparkling fruit beverage is typically used for immediate refreshment or as a convenient treat. The evening timing aligns with a population share of 0.3027, which is comparable to the morning share (0.3246) and higher than the afternoon (0.2526) and night (0.1202) shares. This is a single observation on one date; it is not yet established whether this represents a stable preference for Appy Fizz, sparkling fruit drinks, or evening purchasing habits. No brand or product preference can be confirmed as durable.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Appy Fizz 250 ml PET Bottle (1 unit) placed on a weekday evening.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for Appy Fizz or aerated drinks in general.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Appy Fizz, sparkling fruit drinks, or evening purchasing habits. No brand or product preference can be confirmed as durable.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T19:07:27",
+    "last_seen_at": "2026-05-28T19:07:27"
+  }
 }

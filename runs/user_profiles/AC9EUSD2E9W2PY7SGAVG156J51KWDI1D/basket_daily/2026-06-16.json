@@ -1,7 +1,7 @@
 {
   "date": "2026-06-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-16 (weekday), the user placed one complete order during the morning daypart. The basket contained 2 units of Milk and 1 unit of Batteries, spanning two distinct categories: Dairy and Household/Electronics. The observed need suggests a combination of basic dairy restocking and replacement of power sources. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-06-16 (weekday), a single order was placed in the morning. The basket contained 2 units of Milk and 1 unit of Batteries, spanning two distinct categories. This observation reflects a general household replenishment need for dairy products and power sources. Confidence is low as this is an isolated observation on a single date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Milk",
         "Batteries"
       ],
-      "combination_text": "Milk and Batteries were purchased together in this single observed order.",
+      "combination_text": "Milk and Batteries were purchased together in one order.",
       "support": 1.0,
-      "lift": 1.0,
-      "confidence": "low"
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Restocking of dairy products and replacement of batteries.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, overall confidence is low. No durable preferences, routines, or stable patterns can be inferred. The category pair evidence provided reflects population-level co-occurrence statistics and does not indicate that this specific user purchased those items together in this order.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Milk suggests a need for dairy products, while Batteries may indicate a need for power sources for devices. These items are compatible with general household replenishment needs.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as routine, preference, or stable behavior cannot be inferred from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-16"
+    ],
+    "first_seen_at": "2026-06-16T10:29:48",
+    "last_seen_at": "2026-06-16T10:29:48"
+  }
 }

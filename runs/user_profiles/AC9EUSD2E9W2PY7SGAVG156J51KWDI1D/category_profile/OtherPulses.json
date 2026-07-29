@@ -1,40 +1,27 @@
 {
-  "category": "Other Pulses",
-  "profile_text": "In February 2026, the user placed one order of Tata Sampann Yellow Moong Dal Split (500 g) on a weekday morning. This single observation does not establish a stable preference or routine for this category.",
-  "brand_preferences": [
-    {
-      "brand": "Tata Sampann",
-      "preference_text": "Tata Sampann was observed in one order in February 2026. A single observation does not establish a stable brand preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Tata Sampann Yellow Moong Dal Split (500 g) was observed in one order in February 2026. A single observation does not establish a stable product preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Other Pulses",
+  "summary_text": "Evidence is limited to a single order on 2026-02-26 for Tata Sampann Yellow Moong Dal Split (500 g). This single observation does not establish a stable preference, routine, or brand loyalty.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available; this is a single observation.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this represents a one-time need or part of a recurring pattern.",
+  "retrieval_text": "A single order on 2026-02-26 (weekday, morning) for Tata Sampann Yellow Moong Dal Split (500 g) was observed. This product is a staple pulse suitable for everyday cooking and pantry replenishment. Due to the single date of evidence, no stable brand preference, routine, or recurring pattern can be established, and it is unclear if this represents a one-time need or part of a recurring pattern.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-02-26",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict a next purchase date.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for OtherPulses yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction.",
-  "substitution_text": "No substitution patterns observed due to single purchase.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping for legumes and pulses, specifically yellow moong dal, for meal preparation.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-04-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-30 (weekday), the user purchased one 1 L tub of Amul Cookies & Cream Gold Ice Cream during the night. This order occurred in a night daypart with lower population share (0.1202) compared to morning (0.3246) and evening (0.3027). The product is a large-format frozen dessert suitable for home storage and immediate consumption. This is a single observed order; no durable brand or flavor preference can be established. It is unclear if this was a spontaneous craving, a replacement for low freezer stock, or part of a larger shopping trip not captured in this specific category view.",
+  "summary_text": "On 2026-04-30 (weekday), the user ordered one 1 L tub of Amul Cookies & Cream Gold Ice Cream during the night. This timing is less common than the population baseline (night share 0.1202 vs. morning 0.3246, evening 0.3027). The 1 L family-sized tub suggests utility for home consumption or immediate dessert needs rather than single-serve indulgence. This is a single observation on one date; it is not yet established whether this represents a stable preference for Amul, cookies-and-cream flavors, or night-time ordering.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no durable brand or flavor preference can be established. It is unclear if this was a spontaneous craving, a replacement for low freezer stock, or part of a larger shopping trip not captured in this specific category view.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Amul, cookies-and-cream flavors, or night-time ordering. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T21:23:36",
+    "last_seen_at": "2026-04-30T21:23:36"
+  }
 }

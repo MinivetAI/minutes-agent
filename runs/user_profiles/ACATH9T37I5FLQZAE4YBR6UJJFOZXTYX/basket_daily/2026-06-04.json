@@ -1,43 +1,86 @@
 {
   "date": "2026-06-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-04 (weekday), a single afternoon order was placed containing 9 items across 8 categories. The basket combined fresh produce (Vegetables, Fruits), dairy/protein (Curd Yogurt, Paneer Tofu), baby care (Baby Cereal, Diaper), and convenience/snack items (Popcorn, Cough). This single observation suggests a need for household staples including fresh food, baby care items, and specific health or snack products. No stable patterns or durable preferences can be inferred from this single date.",
+  "summary_text": "On this weekday, a single afternoon order was placed containing nine items across nine distinct categories. The basket included Cough, Baby Cereal, Curd Yogurt, Fruits, Diaper, Vegetables, Popcorn, and Paneer Tofu. The combination of Diaper and Baby Cereal with fresh produce (Vegetables, Fruits) and dairy (Curd Yogurt, Paneer Tofu) indicates a household provisioning need, potentially for a young child and general family meals. The inclusion of a Cough product points to a specific health-related need for one individual. This is an isolated observation; no patterns or routines can be established from this single date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
+        "Cough",
+        "Baby Cereal",
+        "Curd Yogurt",
+        "Fruits",
+        "Diaper",
+        "Vegetables",
+        "Popcorn",
+        "Paneer Tofu"
+      ],
+      "combination_text": "Single order containing Cough, Baby Cereal, Curd Yogurt, Fruits, Diaper, Vegetables, Popcorn, and Paneer Tofu.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
+      "combination_text": "Curd Yogurt and Vegetables were purchased together.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Diaper",
         "Vegetables"
       ],
-      "combination_text": "Diaper and Vegetables were purchased together in this order.",
+      "combination_text": "Diaper and Vegetables were purchased together.",
       "support": 0.262,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Baby Cereal",
         "Vegetables"
       ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
+      "combination_text": "Baby Cereal and Vegetables were purchased together.",
       "support": 0.246,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together.",
+      "support": 0.213,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for household staples including fresh food, baby care items, and specific health or snack products.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Household provisioning for fresh food, baby care items, and a specific health need (cough relief).",
+  "uncertainty_text": "This description is based on a single order on one date. It does not represent a stable preference or routine. The high category breadth in a single transaction may indicate a large weekly shop or a specific event, but this cannot be confirmed without additional order history.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-04"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-04T11:20:07"
+  }
 }

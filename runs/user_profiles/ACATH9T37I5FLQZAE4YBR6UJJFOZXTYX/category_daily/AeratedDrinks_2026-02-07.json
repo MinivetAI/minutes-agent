@@ -1,9 +1,23 @@
 {
   "date": "2026-02-07",
   "day_type": "weekend",
-  "summary_text": "One order of Sprite PET Bottle 750 ml placed during the evening on a weekend. The purchase occurred in the evening, a period with high population activity (30.27% share). The product is a ready-to-serve carbonated soft drink, typically used for immediate refreshment or as a casual beverage.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered one unit of Sprite PET Bottle 750 ml during the evening. This single observation occurred on a weekend evening, a time when evening shopping shares (0.3027) are comparable to morning (0.3246) and afternoon (0.2526) baselines. The product is a ready-to-drink carbonated beverage, typically associated with immediate refreshment or casual consumption. This is a single observation on one date; it is not yet established whether this represents a stable preference for Sprite, lemon-lime sodas, or weekend evening shopping habits.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed on a weekend evening.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for Sprite, lemon-lime sodas, or weekend evening shopping habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-07"
+    ],
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-07T18:07:34"
+  }
 }

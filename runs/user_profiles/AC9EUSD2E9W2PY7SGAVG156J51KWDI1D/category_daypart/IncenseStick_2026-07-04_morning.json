@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one pack of MANGALDEEP Dhuno Cup (12 cups), a devotional incense-style product, during the morning on a weekend.",
+  "summary_text": "One order of MANGALDEEP Dhuno Cup (12 Cups) on 2026-07-04.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a ready-to-burn devotional item, suggesting a need for immediate spiritual preparation or home worship essentials.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekend. This timing aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a devotional incense cup, typically used for home worship or prayer rituals.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for the MANGALDEEP brand, the cup format, or a specific routine for weekend morning rituals.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T08:48:45",
+    "last_seen_at": "2026-07-04T08:48:45"
+  }
 }

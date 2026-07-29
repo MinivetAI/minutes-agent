@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Coriander Leaves 100 g (fresh herb) in the morning.",
+  "summary_text": "One order of Coriander Leaves 100 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a period with a population share of 0.3246. The product is a fresh herb typically used for cooking or garnishing.",
-  "uncertainty_text": "This is a single observed order on one date; no durable preference or routine can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning, a time when morning activity represents 32.46% of the population baseline. The product is a fresh herb typically used for cooking or garnishing.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-06T09:15:29"
+  }
 }

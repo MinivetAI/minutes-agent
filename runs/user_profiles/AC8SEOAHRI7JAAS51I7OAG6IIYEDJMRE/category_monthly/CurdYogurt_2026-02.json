@@ -1,27 +1,27 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased Mother Dairy curd products on five independent dates. Mother Dairy Classic Plain Curd (390 g) was purchased on four dates (02-09, 02-15, 02-18, 02-23), and Mother Dairy Advanced Probiotic Plain Curd (200 g) was purchased on four dates (02-09, 02-18, 02-23, 02-27). Both variants appear consistently across the month, indicating stable preferences for these specific Mother Dairy items. Purchases occurred across morning, afternoon, and evening dayparts on both weekdays and weekends, with no single dominant time window.",
+  "summary_text": "Across five independent dates in February 2026, the user consistently ordered Mother Dairy curd products, specifically the Classic Plain Curd 390 g and Advanced Probiotic Plain Curd 200 g. The recurrence of these specific SKUs across multiple weekdays, a weekend, and varying dayparts (morning, afternoon, evening) indicates a stable preference for the Mother Dairy brand and plain curd variants. While the timing varied, the product selection remained constant. The user also demonstrated a willingness to purchase larger quantities (e.g., 3 units of probiotic curd) on a single date, suggesting active replenishment rather than single-serve trial.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Mother Dairy",
-      "claim_text": "The user purchased Mother Dairy branded curd on 5 independent dates in February 2026.",
+      "claim_text": "The user ordered Mother Dairy products on 5 independent dates (2026-02-09, 2026-02-15, 2026-02-18, 2026-02-23, 2026-02-27).",
       "confidence": "high",
       "evidence_count": 5,
       "independent_date_count": 5
     },
     {
       "dimension": "product",
-      "value": "Mother Dairy Classic Plain Curd (390 g)",
-      "claim_text": "The user purchased Mother Dairy Classic Plain Curd (390 g) on 4 independent dates in February 2026.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
+      "value": "Mother Dairy Classic Plain Curd 390 g",
+      "claim_text": "The user ordered Mother Dairy Classic Plain Curd 390 g on 3 independent dates (2026-02-09, 2026-02-15, 2026-02-23).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "Mother Dairy Advanced Probiotic Plain Curd (200 g)",
-      "claim_text": "The user purchased Mother Dairy Advanced Probiotic Plain Curd (200 g) on 4 independent dates in February 2026.",
+      "value": "Mother Dairy Advanced Probiotic Plain Curd 200 g",
+      "claim_text": "The user ordered Mother Dairy Advanced Probiotic Plain Curd 200 g on 4 independent dates (2026-02-09, 2026-02-18, 2026-02-23, 2026-02-27).",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
@@ -29,6 +29,18 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The evidence covers five independent dates in February 2026. While brand and product preferences are established as high confidence due to repetition, the variety of dayparts (morning, afternoon, evening) and day types (weekday, weekend) prevents the identification of a single stable daypart or weekday/weekend pattern. The specific functional need (e.g., probiotic vs. classic) varies by order, so no single variant preference is dominant over the other.",
-  "overall_confidence": "high"
+  "uncertainty_text": "The user's ordering timing varied across morning, afternoon, and evening, and across weekdays and weekends, preventing the establishment of a fixed daily routine or specific daypart preference. However, the product selection remained stable.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-02-09",
+      "2026-02-15",
+      "2026-02-18",
+      "2026-02-23",
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-27T20:43:10"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of EVEREST Chicken Masala 100 g.",
+  "summary_text": "One order of Everest Chicken Masala 100 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the afternoon on a weekday, a time when the user's activity is below the population baseline share (25.26%). The product is a packaged spice blend for chicken curries, suggesting a home cooking context.",
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the afternoon on a weekday. The timing aligns with the population baseline where afternoon (0.2526) is less common than morning (0.3246) or evening (0.3027). The product is a spice blend used for cooking chicken curries, suggesting a meal preparation context.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for Everest brand or chicken masala specifically.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

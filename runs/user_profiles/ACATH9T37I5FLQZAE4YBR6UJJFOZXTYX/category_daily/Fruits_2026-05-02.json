@@ -1,9 +1,23 @@
 {
   "date": "2026-05-02",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased Apple Red Delicious (2 Units), Watermelon Kiran (1 Unit), and Banana Robusta (3 Units) in a single morning order. This timing aligns with above-baseline morning activity (32.46%). The items are fresh, ready-to-eat fruits suitable for immediate consumption, such as breakfast or snacks. No browsing or cart activity was recorded prior to this purchase.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered fresh fruits in the morning, a timing consistent with the population baseline where morning accounts for 32.46% of activity. The basket included Apple Red Delicious (2 units), Watermelon Kiran (1 unit), Banana Robusta (3 units), and one additional fruit item (FRTGNSSYPUVEHFEQ). These are fresh, ready-to-eat items typically used for immediate consumption, such as snacks or breakfast components. As this is a single observation from one date, it is not yet established whether this specific combination of fruits, the morning timing, or the weekend day-type represents a stable preference or routine. No brand preferences can be inferred as all visible brands are 'Unbranded'.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Ordered fresh fruits (Apple Red Delicious, Watermelon Kiran, Banana Robusta, and one additional item) in the morning on a weekend. This timing aligns with the population baseline where morning accounts for 32.46% of activity. Products are fresh, ready-to-eat fruits typically used for immediate consumption, such as snacks or breakfast components.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific fruits or this shopping time.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this specific combination of fruits, the morning timing, or the weekend day-type represents a stable preference or routine. No brand preferences can be inferred as all visible brands are 'Unbranded'.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-02"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

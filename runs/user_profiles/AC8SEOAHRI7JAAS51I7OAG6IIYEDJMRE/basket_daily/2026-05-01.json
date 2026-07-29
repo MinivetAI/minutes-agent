@@ -1,7 +1,7 @@
 {
   "date": "2026-05-01",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-01, a weekday, a single order was placed in the afternoon. The basket contained three distinct items: two units of an aerated drink, one unit of canned food, and one adhesive tool. This single observation suggests a potential need for hydration, shelf-stable food, and a minor household repair or craft item, but it does not indicate a durable preference or routine.",
+  "summary_text": "On 2026-05-01 (weekday), a single order was placed in the afternoon. The basket contained two units of aerated drinks, one unit of canned food, and one unit of an adhesive tool. This combination of Aerated Drinks, Canned Food, and Adhesive Tools was observed in this single order. No other category combinations from the supplied evidence were present in this specific order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -11,14 +11,23 @@
         "Canned Food",
         "Adhesive Tool"
       ],
-      "combination_text": "Aerated Drinks, Canned Food, and Adhesive Tool were purchased together in this single order.",
-      "support": null,
+      "combination_text": "Aerated Drinks, Canned Food, and Adhesive Tool were purchased together in one order.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for ready-to-consume beverages and shelf-stable food items, along with a tool for adhesion or assembly.",
-  "uncertainty_text": "This analysis is based on a single order from one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The `category_pair_evidence` provided reflects population-level co-ordering statistics and does not match the specific categories in this user's single order; therefore, no lift/support values are applied to this specific basket's internal combination.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of an aerated drink, canned food, and an adhesive tool suggests a need for immediate refreshment, a convenient meal component, and a household repair or utility item. This is a compatible need for the observed products.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or routine behaviors can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T11:33:46",
+    "last_seen_at": "2026-05-01T11:33:46"
+  }
 }

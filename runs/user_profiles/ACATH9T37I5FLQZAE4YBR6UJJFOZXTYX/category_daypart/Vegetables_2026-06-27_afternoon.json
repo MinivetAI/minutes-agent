@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 10 distinct fresh vegetable items totaling approximately 3.5–4 kg, including brinjal, sweet potato, green capsicum, onion, lemons, baby potatoes, cut pumpkin, bottle gourd, cowpea beans, and spinach. The basket reflects a comprehensive same-day meal preparation need, covering root vegetables, leafy greens, aromatics, and legumes.",
+  "summary_text": "One order of ten distinct fresh vegetable items (brinjal, sweet potato, green capsicum, onion, lemon, baby potato, pumpkin, bottle gourd, cowpea beans, spinach) purchased on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed on a weekend afternoon. The timing aligns with the population baseline where afternoon activity (25.26%) is lower than morning (32.46%) and evening (30.27%), suggesting this may be a planned weekend grocery run or a mid-day replenishment rather than a peak-hour impulse buy. The products are all fresh, unbranded produce intended for immediate household cooking, indicating a need for staple ingredients for multiple dishes.",
-  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between a direct search-and-buy behavior and a pre-planned list execution. The specific meal plan or dietary intent (e.g., festive, daily routine, health-focused) cannot be determined from the product mix alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekend afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), but represents a common window for weekend meal preparation. The basket consists entirely of fresh, unbranded produce with small pack sizes (200–600 g), indicating an immediate need for ingredients for same-day cooking rather than long-term pantry stocking.",
+  "uncertainty_text": "With only one observed order on a single date, it is not possible to establish stable brand preferences, specific vegetable preferences, or recurring shopping routines. The user's motivation for this specific combination of vegetables cannot be determined beyond the general utility of fresh produce for cooking.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T11:47:32",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), the user purchased one 3 kg pack of Tide Naturals Lemon and Chandan Detergent Powder in the afternoon. This afternoon order occurred when the user's activity was below the population baseline (population afternoon share: 0.2526). The product is a general-use laundry detergent powder suitable for routine household cleaning. This is a single observed transaction; durable brand preference or routine usage patterns cannot be established from this date alone.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased one 3 kg pack of Tide Naturals Lemon and Chandan Detergent Powder. This afternoon order occurred when the user's activity was below the population baseline (population afternoon share: 0.2526).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-07-04 (weekend), one order of Tide Naturals Lemon and Chandan Detergent Powder (3 kg) was placed in the afternoon. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, though evening (30.27%) and morning (32.46%) are more common. The product is a general-use laundry detergent powder, indicating a need for routine household replenishment or immediate stain removal for daily wear. No stable brand or product preferences can be established from a single order. It is unknown if this is a one-time purchase or part of a recurring routine.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand preference or routine usage patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No stable brand or product preferences can be established from a single order. It is unknown if this is a one-time purchase or part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

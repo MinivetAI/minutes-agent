@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user ordered one unit of Saras Plain Curd 200 g on a single date (2026-01-26). This is an isolated observation; no stable brand or product preference can be established. The order occurred in the evening, a daypart with slightly below-baseline activity (30.3% share).",
+  "summary_text": "In January 2026, the user ordered one unit of Saras Plain Curd 200 g on a weekday evening. This single observation aligns with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%). The product is a small, plain dairy pack suitable for immediate consumption or meal pairing. Due to the lack of repetition across independent dates, no stable preferences or routine patterns can be established for this category in this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Saras brand, a routine for evening curd purchases, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-26"
+    ],
+    "first_seen_at": "2026-01-26T19:26:36",
+    "last_seen_at": "2026-01-26T19:26:36"
+  }
 }

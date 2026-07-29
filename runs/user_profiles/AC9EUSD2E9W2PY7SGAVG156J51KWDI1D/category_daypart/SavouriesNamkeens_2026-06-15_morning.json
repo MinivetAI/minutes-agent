@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 200 g pack of Balaji Wafers Aloo Sev and one 200 g pack of Haldiram's Mini Bhakarwadi in the Savouries Namkeens category during a weekday morning session.",
+  "summary_text": "One order of Savouries Namkeens containing Balaji Wafers Aloo Sev (200 g) and Haldiram's Mini Bhakarwadi (200 g), purchased on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this category represents 32.46% of population activity. The items are ready-to-eat salty snacks typically associated with tea-time or immediate craving satisfaction.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or these specific brands.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the morning on a weekday. This timing aligns with the population baseline, where morning accounts for 32.46% of activity, making it the most common daypart. The products are ready-to-eat savory snacks typically used for immediate consumption, such as a tea-time accompaniment or a quick salty bite.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user has a stable preference for these specific brands, this specific category, or this morning timing. The purchase could be an isolated impulse buy or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

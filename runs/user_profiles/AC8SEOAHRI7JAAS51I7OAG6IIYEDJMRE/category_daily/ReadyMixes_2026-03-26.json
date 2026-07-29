@@ -1,9 +1,23 @@
 {
   "date": "2026-03-26",
   "day_type": "weekday",
-  "summary_text": "One order of Khetika Sprouted Moong Chilla Batter (1 kg) was placed in the morning. The product is a ready-to-cook savory breakfast batter, suggesting a need for a quick, home-style morning meal or snack without the prep time of soaking or grinding. No browsing events (search, view, cart-add) were recorded for this category in this window.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-26 (weekday), one order of Khetika Sprouted Moong Chilla Batter (1 kg) was placed in the morning. This timing aligns with the population baseline where 32.46% of orders typically occur. The product is a ready-to-cook savory breakfast batter, suggesting a utility for quick, home-style morning meals or tiffin preparation without the need for soaking or grinding. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, this specific product type, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Khetika Sprouted Moong Chilla Batter (1 kg) placed on a weekday morning. This timing aligns with the population baseline where 32.46% of orders typically occur. The product is a ready-to-cook savory breakfast batter, suggesting a utility for quick, home-style morning meals or tiffin preparation without the need for soaking or grinding. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, this specific product type, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. It is unknown if this was a one-time trial, a restock, or part of a broader habit. No browsing intent was captured to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific product type, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-26"
+    ],
+    "first_seen_at": "2026-03-26T10:18:30",
+    "last_seen_at": "2026-03-26T10:18:30"
+  }
 }

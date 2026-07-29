@@ -839,34 +839,28 @@ Grounding rules:
 - Ordered unit count and product pack size are different concepts; never convert one into the other.
 - Preserve morning, afternoon, evening, night, weekday, and weekend exactly.
 - Write concise, concrete shopper language. State uncertainty directly instead of inventing an explanation.
-- A view is the weakest evidence; a search is stronger and carries explicit stated intent; an add-to-cart is stronger still; a purchase is the strongest. Never narrate a view, search, or cart-add with the same certainty language used for a purchase.
-- Repeated add-to-cart without a purchase is evidence of interest, not preference, and not proof of any specific blocker (price, stock, hesitation) — offer a cause only as a labeled hypothesis, never as fact.
-- Repeated search or product-page viewing with zero purchases is unmet interest, a discovery signal, and never grounds to suppress a category.
-- Every claim-bearing block carries `evidence_count` and `independent_date_count` alongside its confidence — these are aggregate counts, not order or event identifiers, and must be copied from supplied evidence, not guessed.
+- Base every claim only on completed order history — never on search, product-page-view, add-to-cart, or cart-remove activity, which is not supplied to this pipeline.
+- Every claim-bearing block carries `evidence_count` and `independent_date_count` alongside its confidence — these are aggregate counts, not order identifiers, and must be copied from supplied evidence, not guessed.
 - Daypart, day-type, and cadence claims are anchored to a supplied baseline (population daypart share, or the user's own supplied cadence) — never an unanchored adjective you choose yourself.
 - Deterministic counts, cadences, support/confidence/lift numbers, and cadence classifications arrive as input. Explain what they mean; never calculate, re-derive, round, or invent them, and never emit a numeric score or ranking weight of your own.
 """
 
 
 USER_CATEGORY_DAYPART_SUMMARY = f"""
-You summarize one user's activity in one Minutes category and one daypart. This
-activity may include completed orders, or only funnel evidence (search, product
-views, cart-adds, cart-removes) with zero orders — a category can be represented
-purely by browsing.
+You summarize one user's completed orders in one Minutes category and one
+daypart. This pipeline uses order history only — no search, product-page-view,
+add-to-cart, or cart-remove evidence is supplied.
 
 Write:
-- `summary_text`: what was actually bought and/or browsed;
-- `preference_claims`: only preference signals supported by repetition; for one order or one session use an empty list or low confidence. For `dimension: brand`, `value` must be copied exactly from a product's supplied `brand` field — never parsed, guessed, or extracted from `product_name`; when `brand` is null for every product in this window, do not emit a brand claim.
-- `funnel_signal`: set only when `funnel_events` were supplied.
-  - `highest_stage_reached` must exactly match the strongest stage literally present in `funnel_events`/orders (purchased > added_to_cart > searched > viewed; removed_from_cart never outranks an earlier stronger stage in the same window) — do not guess beyond what is present.
-  - `converted` is true only when `order_count > 0` or a `purchased` funnel event is present.
-  - `signal_text` describes what happened; never assert a reason for non-conversion.
-  - Leave `funnel_signal` null when no `funnel_events` were supplied.
+- `summary_text`: what was actually bought;
+- `preference_claims`: only preference signals supported by repetition; for one order use an empty list or low confidence. For `dimension: brand`, `value` must be copied exactly from a product's supplied `brand` field — never parsed, guessed, or extracted from `product_name`; when `brand` is null for every product in this window, do not emit a brand claim.
 - `shopping_context_text`: observed timing (anchored to `population_daypart_share` when present) and the products' general utility, without claiming the user's reason;
 - `uncertainty_text`: what cannot yet be established;
 - `overall_confidence`: confidence in the behavioral summary.
 
-Echo the supplied `daypart` and `day_type` exactly.
+Echo the supplied `daypart` and `day_type` exactly. Leave `window_evidence`
+null — the calling system merges it in afterward directly from this window's
+raw orders, so that no later stage ever needs to re-read them.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -875,7 +869,9 @@ USER_CATEGORY_DAILY_SUMMARY = f"""
 Combine the supplied category daypart summaries into one daily category summary.
 Preserve meaningful morning, afternoon, evening, and night differences. One day
 can support concrete observations but not a stable long-term preference. Echo the
-supplied date and day type.
+supplied date and day type. Leave `window_evidence` null — the calling system
+merges it in afterward as the union of this date's daypart summaries' own
+`window_evidence`.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -890,70 +886,82 @@ medium; 4+: high), even when other values also appear in the same month.
 multiply-recurring value out of `stable_preference_claims` or to cap it at low.
 Preserve repeated daypart and weekday/weekend patterns, describe genuine changes
 in `trend_claims`, and keep only truly single-date observations out of stable
-lists. Echo the supplied month.
+lists. Echo the supplied month. Leave `window_evidence` null — the calling
+system merges it in afterward as the union of this month's daily summaries'
+own `window_evidence`.
 {PROFILE_GROUNDING_RULES}
 """
 
 
 USER_CATEGORY_PREFERENCE_PROFILE = f"""
-Build an actionable profile for exactly one Minutes product category.
+Build an actionable profile for exactly one Minutes product category, matching
+the categoryProfiles.<category> contract exactly.
 
 Recent daypart summaries describe current affinity, daily summaries describe
-repeated recent behavior, and monthly summaries establish stability. Keep stable
-and emerging preferences distinct. Capture supported brand, product or variant,
-ordered-quantity, explicit pack-size, timing, substitution, and price/value
-behavior. Return empty lists or null when evidence is absent.
+repeated recent behavior, and monthly summaries establish stability. Keep
+`category_name` exactly as supplied.
 
-`brand_preferences`: build only from `dimension: brand` claims already present
+`preferences.brands`: build only from `dimension: brand` claims already present
 in the supplied summaries (which themselves came from the catalog `brand`
 field, never from parsing a product name). A brand repeated across independent
-dates earns a `brand_preferences` entry; a brand seen once stays out of this
-list or carries `low` confidence. Confidence scales with independent-date count
-(2-3 dates: at least `medium`; 4+ dates or repetition spanning multiple months:
-`high`) — never downgrade a brand's confidence just because other brands also
-appear in the category; a user can have more than one genuinely preferred
-brand at once, and each is judged on its own evidence, not relative to the
-others. Do not name a brand that never appeared as a supplied `brand` value.
+dates earns an entry; a brand seen once stays out of this list or carries
+`low` confidence. Confidence scales with independent-date count (2-3 dates: at
+least `medium`; 4+ dates or repetition spanning multiple months: `high`) —
+never downgrade a brand's confidence just because other brands also appear in
+the category; a user can have more than one genuinely preferred brand at
+once, judged on its own evidence. Do not name a brand that never appeared as a
+supplied `brand` value. `boundary_text` should state what this brand
+preference does not extend to (e.g. one product form, not the whole category).
 
-`replenishment`: `cadence_days`, `cadence_class`, `last_purchase_date`, and
-`predicted_next_purchase_date` must be copied exactly from the supplied
-`observed_cadence_days` / `observed_cadence_class` / `observed_last_purchase_date` /
-`observed_predicted_next_purchase_date` (null/`unknown` when not supplied) —
-never computed, classified, rounded, added, or guessed; you are not doing math
-or bucketing here, only transcribing it. Write `replenishment_text` as what
-that number means in words, and treat `predicted_next_purchase_date` as an
-approximate estimate from average cadence, not a guarantee the item is due
-exactly then.
+`preferences.products`, `.variants`, `.pack_sizes`, `.ordered_quantities`:
+populate only from repeated, supported evidence in the summaries; leave any
+list empty when evidence is absent.
 
-`discovery_candidate`: set only when the category shows repeated search/view/cart
-interest without a completed purchase; otherwise null. `conversion_text` always
-describes whether interest in this category reliably becomes a purchase, for
-every category, whether or not it is a discovery candidate.
+`daypart_understanding`: only genuinely repeated timing patterns, each with
+its own confidence; leave empty when no pattern is supported.
 
-`mission_generation_text` should describe shopping needs supported by this
-category profile, not invent an event.
+`substitution_text`: which alternatives appear acceptable and which are too
+far away, grounded only in supplied evidence.
+
+`uncertainty_text`: preference boundaries and unknowns for this category,
+including anything the supplied summaries cannot establish.
+
+`retrieval_text`: one dense, self-contained paragraph combining this
+category's strongest stable evidence (brand, variant, pack, cadence framing
+in words, substitution boundary), written for embedding-based mission
+retrieval — this is the one field actually embedded for this category, so do
+not simply restate `summary_text`.
+
+`replenishment` and `evidence`: always leave both null. You are given no
+purchase-date data in this call — cadence, order counts, and first/last-seen
+timestamps are computed by the calling system directly from this category's
+accumulated `window_evidence` (never a fresh read of raw orders) and merged
+onto the stored record after your response. Do not invent, estimate, or
+approximate either field.
 {PROFILE_GROUNDING_RULES}
 """
 
 
 USER_BASKET_DAYPART_SUMMARY = f"""
-Summarize the complete orders, and any assembled-but-abandoned carts, placed in
-one daypart without splitting products that were bought (or cart-added) together.
-Describe basket breadth, categories bought together, and concrete order-building
-behavior. `shopping_need_text` may describe a need compatible with the basket but
-must not claim hidden intent. A single order is not a durable behavior pattern.
+Summarize the complete orders placed in one daypart without splitting products
+that were bought together. This pipeline uses order history only — no
+search, product-page-view, add-to-cart, or cart-remove evidence is supplied,
+so there is no abandoned-cart signal to describe. Describe basket breadth,
+categories bought together, and concrete order-building behavior.
+`shopping_need_text` may describe a need compatible with the basket but must
+not claim hidden intent. A single order is not a durable behavior pattern.
 
 `category_combinations`: when `category_pair_evidence` is supplied, copy its
 `support`/`lift` numbers exactly into the matching combination entries — never
 compute or estimate these yourself; leave them null when no matching evidence
-was supplied.
+was supplied. Set `evidence_count`/`independent_date_count` to how many orders
+and dates in this one window support the combination (typically 1/1 for a
+single daypart window) — never invented, never carried over from a different
+window.
 
-`abandonment_patterns`: describe each `abandoned_carts` entry — what was
-assembled and not checked out — without guessing why (price, stock, and
-hesitation are never asserted as the cause). Leave empty when no carts were
-abandoned.
-
-Echo daypart and day type.
+Echo daypart and day type. Leave `window_evidence` null — the calling system
+merges it in afterward directly from this window's raw orders, so that no
+later stage ever needs to re-read them.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -961,10 +969,13 @@ Echo daypart and day type.
 USER_BASKET_DAILY_SUMMARY = f"""
 Combine the supplied daypart basket summaries for one date. Preserve daypart
 differences and complete-order meaning. Carry forward `category_combinations`
-(with their `support`/`lift` numbers) as `category_combination_patterns`, and
-carry forward each daypart's `abandonment_patterns` into this day's
-`abandonment_patterns`. Describe the day's behavior and category combinations
-without assigning a fixed user type or shopping mode. Echo the date and day type.
+(with their `support`/`lift` numbers and their `evidence_count`/
+`independent_date_count`, summed across this day's windows) as
+`category_combination_patterns`. Describe the day's behavior and category
+combinations without assigning a fixed user type or shopping mode. Echo the
+date and day type. Leave `window_evidence` null — the calling system merges
+it in afterward as the union of this date's daypart summaries' own
+`window_evidence`.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -972,71 +983,330 @@ without assigning a fixed user type or shopping mode. Echo the date and day type
 USER_BASKET_MONTHLY_SUMMARY = f"""
 Combine daily basket summaries for one month. Keep only repeated daypart
 behavior, basket-building patterns, category combinations, and shopping needs in
-stable fields. Promote `abandonment_patterns` into the monthly stable list only
-when the same categories are abandoned across independent dates; otherwise leave
-them out of the stable list and note the isolated case in `uncertainty_text`.
-Put genuine changes in `trend_claims`. Echo the supplied month.
+stable fields. For `category_combination_patterns` that recur across the
+month, accumulate `evidence_count`/`independent_date_count` across the
+supporting daily summaries — this is the figure the basket profile step later
+echoes into a durable relationship, so it must reflect genuine accumulated
+evidence, not a single day's count. Put genuine changes in `trend_claims`.
+Echo the supplied month. Leave `window_evidence` null — the calling system
+merges it in afterward as the union of this month's daily summaries' own
+`window_evidence`.
 {PROFILE_GROUNDING_RULES}
 """
 
 
 USER_BASKET_PROFILE = f"""
-Build the user's stable basket-building profile from recent daypart summaries,
-daily summaries, and monthly summaries. Explain what the user repeatedly buys
-together, typical basket breadth, timing behavior, and observed circumstances.
-Carry forward the supported `category_combination_patterns` and
-`abandonment_patterns` from the monthly summaries. Use open-ended behavioral
-text; never assign fixed shopping modes or personality labels.
-`mission_generation_text` should state shopping needs supported by basket
-evidence.
+Build the user's stable basket profile from recent daypart summaries, daily
+summaries, and monthly summaries, matching the basket_profile artifact
+contract exactly. This pipeline uses completed order history only.
+
+`basket_relationships`: one entry per genuinely repeated cross-category or
+cross-product relationship supported by the monthly summaries'
+`category_combination_patterns`. `anchor_products` and `companion_products`
+name the specific products when known; `categories` names the categories
+involved. `boundary_text` states what this relationship does not make
+relevant (e.g. not every product in the companion category).
+`evidence.evidence_count` and `evidence.independent_date_count` must be copied
+exactly from the matching monthly-summary pattern's own counts — never
+recounted, estimated, or invented.
+
+`value_text`: value or premium basket behavior, or its genuine absence —
+grounded only in repeated evidence.
+
+`basket_size_segment`, `large_basket_tendency`, `multi_quantity_tendency`:
+judge these the same way you judge every other repeated pattern in this
+contract — from what the daypart/daily/monthly summaries actually show about
+items per order and quantities per line, escalating confidence with
+independent-date repetition, never from a number you compute yourself.
+- `basket_size_segment` (`small`/`medium`/`large`): the typical order size
+  across the supplied history.
+- `large_basket_tendency` (`low`/`medium`/`high`): how often an occasional
+  large stock-up order appears relative to this user's typical basket —
+  `low` when large orders are rare or absent, `high` when they recur across
+  several independent dates.
+- `multi_quantity_tendency` (`low`/`medium`/`high`): how often the same
+  product is ordered in more than one unit at a time, judged the same way.
+
+`daypart_understanding` / `day_type_understanding`: only genuinely repeated
+timing patterns; leave empty when no pattern is supported.
+
+`uncertainty_text`: what basket behavior remains unknown.
+
+`retrieval_text`: one dense, self-contained paragraph combining the
+strongest stable basket relationships and the shopping needs they support,
+written for embedding-based mission retrieval — this is the one field
+actually embedded for the basket profile, so do not simply restate
+`summary_text`.
+
+`evidence`, `user_id`, `artifact_type`, and `updated_at`: always leave all
+four null. They are computed and stamped by the calling system directly from
+this user's accumulated `window_evidence`, never a fresh read of raw orders,
+and never by you.
 {PROFILE_GROUNDING_RULES}
 """
 
 
 USER_GLOBAL_PROFILE = f"""
-Combine all supplied category profiles and the basket profile into one stable
-Minutes shopping profile. This call has exactly two inputs — the category
-profiles and the basket profile — plus recent summaries for freshness; do not
-treat any other source as authoritative.
+Combine every supplied category profile and the one basket profile into one
+stable Minutes shopping profile, matching the userId:global contract exactly.
+This call has exactly two evidence inputs — the category profiles and the
+basket profile — plus recent summaries for freshness; do not treat any other
+source as authoritative.
 
-`category_preference_text` must represent every supplied category profile, not
-only the strongest one. Keep cross-category behavior and repeated non-event
-shopping needs concise and actionable for semantic retrieval. Recent summaries
-may adjust current affinity but cannot erase stable evidence.
+There is no per-category summary field here — the feed reads every category
+profile directly from the stored category-profiles map already, so
+`summary_text` should synthesize the cross-category *narrative* (what kind of
+shopper this is overall) rather than restating each category one by one.
+Recent summaries may adjust current affinity but cannot erase stable
+evidence.
 
-`coverage_text`: state plainly whether this profile covers all of the user's
-categories or only a subset. If `total_category_count` is null or equal to the
-number of supplied `category_profiles`, say this covers all of them. If
-`total_category_count` is larger, say this profile details the
-`len(category_profiles)` best-evidenced categories out of `total_category_count`
-total, and name the omitted count — never guess what the omitted categories are
-or claim the profile is complete when it isn't.
+`daypart_understanding`: only genuinely repeated cross-category timing
+patterns visible across the supplied category and basket evidence; leave
+empty when none is supported.
 
-`replenishment_summary_text`: compare cadence across every supplied category
-profile, using only each category profile's own `replenishment.cadence_days` /
-`cadence_class` — never a number you compute yourself. Name any
-`cadence_class: unknown` categories explicitly rather than omitting them.
+`basket_understanding`: synthesize the basket profile's own
+`basket_relationships` into `relationship_text` / `recommendation_use_text` /
+confidence entries. Do not invent a relationship the basket profile does not
+itself support.
 
-`structured_signals`: one typed entry per notable claim (e.g.
-`replenishment_cadence`, `discovery_candidate`, `cart_recovery`,
-`cross_category_pattern`). Every entry must declare which input(s) produced it
-via `source`. Use `source: category_profile+basket_profile` (and
-`signal_type: cross_category_pattern`) only when both a category profile and the
-basket profile independently support the same claim; otherwise use the single
-source that actually produced it. Never include a numeric score, weight, or
-rank on any entry — `confidence` is the only measure of how well-evidenced a
-signal is. Discovery and cart-recovery signals describe unmet interest and must
-never be used to justify suppressing a category.
+`uncertainty_text`: global unknowns and confidence boundaries.
 
-Turning these signals into an actual ranked, weighted feed is the Feed
-Service's job at request time, not this task's — it already has the
-deterministic numbers (cadence, lift/support, funnel-conversion rates) it
-supplied as input to the category and basket pipelines, and it applies
-real-time context (inventory, serviceability, active missions) on top.
+`retrieval_text`: one dense, self-contained paragraph combining the strongest
+stable cross-category and basket evidence, written for embedding-based mission
+retrieval — this is the one field actually embedded, so do not simply restate
+`summary_text`.
+
+`shopping_style`: this is a feed-facing behavioral segmentation built only
+from order history, never from search, product-page-view, add-to-cart, or
+cart-remove evidence.
+- `brand_loyalty_level` and `substitution_tolerance_level`: base these only
+  on the supplied category profiles' own `preferences.brands` and
+  `substitution_text` — both already come from ordered products, never from
+  browsing or cart events. Judge across every supplied category profile:
+  `high` when most categories show one dominant, high-confidence brand or a
+  narrow substitution boundary; `low` when most show no dominant brand or a
+  wide substitution boundary; `mixed_by_category` when this genuinely
+  differs by category rather than picking a single level that doesn't fit;
+  `medium` otherwise.
+- `basket_size_segment`, `large_basket_tendency`, `multi_quantity_tendency`:
+  copy these three directly from the supplied `basket_profile`'s own
+  same-named fields — they were already synthesized there from the basket
+  waterfall. Do not resynthesize, reweigh, or second-guess them here.
+- Leave `frequency_segment` null. It is computed by the calling system
+  directly from this user's accumulated order-history bookkeeping, never a
+  fresh read of raw orders and never estimated by you.
+- Leave `deal_seeking` and `price_sensitivity` null. There is no supported
+  data source for either yet.
+
+`user_id`, `profile_type`, and `updated_at`: always leave all three null; they
+are stamped by the calling system after your response.
 
 Events, celebrations, guests, matchday, seasons, and life-stage interpretations
 must remain outside this stable global profile; they belong in request-time
 context overlays.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_RUNNING_CATEGORY_PROFILE_UPDATE = f"""
+You maintain one user's profile for one Minutes category continuously,
+order by order, instead of through the category waterfall's
+daypart -> daily -> monthly -> profile stages. This pipeline uses completed
+order history only — no search, product-page-view, add-to-cart, or
+cart-remove evidence is supplied.
+
+You are given:
+- `category`: the category this update is scoped to;
+- `new_order`: the order that was just placed, already filtered to only this
+  category's products;
+- `recent_orders`: this category's own prior order-appearances still inside
+  its rolling window (oldest already dropped once the window filled),
+  each already filtered to only this category's products, newest last, not
+  including `new_order`;
+- `previous_category_profile`: this same task's own most recent output for
+  this user and category — null only for this category's very first order.
+
+When `previous_category_profile` is supplied, treat it as your own prior
+understanding, not a fresh guess to discard: reinforce a claim it already
+states (brand, product, variant, pack, substitution boundary, daypart
+pattern) when `new_order`/`recent_orders` continue to support it; soften or
+drop a claim the visible window no longer supports — evidence has aged out
+of the window, not merely "wasn't mentioned this time"; add a new claim only
+when `new_order`/`recent_orders` actually establish it, using the same
+repetition-across-independent-dates discipline as everywhere else in this
+contract. `preferences.brands`: `value` must be copied exactly from a
+product's supplied `brand` field — never parsed, guessed, or extracted from
+`product_name`.
+
+When `previous_category_profile` is null (this category's first order),
+build every field from `new_order` and `recent_orders` alone. A single order
+supports very little — most claims should stay unestablished.
+
+`change_since_last_text`: state plainly what this update reinforced,
+revised, or newly established relative to `previous_category_profile` — the
+one field unique to this incremental pipeline, since the waterfall's
+category profile has no equivalent. When `previous_category_profile` is
+null, state plainly that this is the first profile for this category.
+
+`replenishment` and `evidence`: always leave both null. The calling system
+computes both afterward from this category's own rolling window (never a
+fresh read of raw orders) — you have no need to count or date-math anything
+yourself.
+
+`retrieval_text`: one dense, self-contained paragraph for embedding-based
+mission retrieval, synthesized the same way as the waterfall's — do not
+simply restate `summary_text`.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_RUNNING_BASKET_PROFILE_UPDATE = f"""
+You maintain one user's basket-building profile continuously, order by
+order, instead of through the basket waterfall's
+daypart -> daily -> monthly -> profile stages. This pipeline uses completed
+order history only — no search, product-page-view, add-to-cart, or
+cart-remove evidence is supplied, so there is no abandoned-cart signal to
+describe.
+
+You are given:
+- `new_order`: the order that was just placed, all categories included;
+- `recent_orders`: this user's prior orders still inside the basket-level
+  rolling window (oldest already dropped once the window filled, any
+  category), newest last, not including `new_order`;
+- `category_pair_evidence`: precomputed support/confidence/lift/
+  co_order_count for the categories that most often co-occur across this
+  same rolling window, recomputed fresh from it every call;
+- `previous_basket_profile`: this same task's own most recent output for
+  this user — null only for this user's very first order.
+
+`basket_relationships`: one entry per genuinely repeated cross-category or
+cross-product relationship. `anchor_products`/`companion_products` name the
+specific products when known; `categories` names the categories involved;
+`boundary_text` states what this relationship does not make relevant (e.g.
+not every product in the companion category). When `category_pair_evidence`
+supplies a matching pair, ground that entry in its `support`/`co_order_count`
+rather than inventing your own sense of how often it recurs — but the
+numbers alone don't make a relationship: only report one that `new_order`/
+`recent_orders` actually show recurring across independent dates. Report at
+most the 8 most strongly supported relationships, ranked by
+`category_pair_evidence`'s own `co_order_count` where a pair is covered by
+it, otherwise by how many independent dates support the pattern in
+`recent_orders`. This cap keeps the profile focused on the most useful
+relationships regardless of how many categories this user has touched —
+without it, a user with dozens of categories can produce an unboundedly
+long response.
+
+When `previous_basket_profile` is supplied, treat it as your own prior
+understanding, not a fresh guess to discard: reinforce a
+`basket_relationships` entry, `value_text` claim, or timing pattern it
+already states when `new_order`/`recent_orders`/`category_pair_evidence`
+continue to support it; soften or drop one only when the visible window
+genuinely no longer supports it (the categories it depended on have aged
+out of the window, or `category_pair_evidence` no longer covers that pair)
+— never drop an established relationship merely because `new_order` itself
+happens to be about something else; add a new one only when `new_order`/
+`recent_orders`/`category_pair_evidence` actually establish it, using the
+same repetition-across-independent-dates discipline as everywhere else in
+this contract.
+
+When `previous_basket_profile` is null (this user's first order), build
+every field from `new_order` alone. A single order supports very little —
+most claims should stay unestablished.
+
+`basket_size_segment`, `large_basket_tendency`, `multi_quantity_tendency`:
+judge these the same way the waterfall's basket profile does — from what
+`new_order`/`recent_orders`/`previous_basket_profile` show about items per
+order and quantities per line, escalating confidence with independent-date
+repetition, never from a number you compute yourself.
+
+`change_since_last_text`: state plainly what this update reinforced,
+revised, or newly established relative to `previous_basket_profile` — the
+one field unique to this incremental pipeline, since the waterfall's basket
+profile has no equivalent. When `previous_basket_profile` is null, state
+plainly that this is the first profile for this user.
+
+`evidence`, `user_id`, `artifact_type`, and `updated_at`: always leave all
+four null. The calling system computes/stamps them afterward from this
+user's basket-level rolling window (never a fresh read of raw orders) —
+you have no need to count or date-math anything yourself.
+
+`retrieval_text`: one dense, self-contained paragraph for embedding-based
+mission retrieval, synthesized the same way as the waterfall's — do not
+simply restate `summary_text`.
+{PROFILE_GROUNDING_RULES}
+"""
+
+
+USER_RUNNING_PROFILE_UPDATE = f"""
+You maintain one user's global shopping profile continuously, order by
+order, instead of through a separate monthly waterfall refresh. Like the
+waterfall's global profile, this call has exactly two evidence inputs —
+every one of this user's current category profiles and their one basket
+profile; it never reads raw order history directly, and you are not given
+the order that triggered this round — only what the category and basket
+tiers have already synthesized from it. This pipeline uses completed order
+history only — no search, product-page-view, add-to-cart, or cart-remove
+evidence is supplied.
+
+You are given:
+- `category_profiles`: this user's current running category profile for
+  every category touched so far — freshly updated for any category the
+  triggering order touched, unchanged for the rest;
+- `basket_profile`: this user's current running basket profile, freshly
+  updated for the triggering order;
+- `previous_profile`: this same task's own most recent global output for
+  this user — null only for this user's very first order.
+
+There is no per-category summary field here — synthesize the cross-category
+*narrative* (what kind of shopper this is overall) from `category_profiles`
+and `basket_profile` rather than restating each category one by one.
+
+When `previous_profile` is supplied, treat it as your own prior
+understanding, not a fresh guess to discard: reinforce a claim it already
+states when `category_profiles`/`basket_profile` continue to support it;
+soften or drop a claim no longer supported now that the underlying category
+or basket profile has moved on; add a new claim only when
+`category_profiles`/`basket_profile` actually establish it.
+
+When `previous_profile` is null (this user's first order), build every
+field from `category_profiles` and `basket_profile` alone.
+
+`change_since_last_text`: state plainly what this update reinforced,
+revised, or newly established relative to `previous_profile` — the one
+field unique to this incremental pipeline, since the waterfall's global
+profile has no equivalent (it is rebuilt from full retained evidence each
+time rather than updated in place). When `previous_profile` is null, state
+plainly that this is the first profile for this user.
+
+`daypart_understanding`: only genuinely repeated cross-category timing
+patterns visible across the supplied category and basket evidence; leave
+empty when none is supported.
+
+`basket_understanding`: synthesize the basket profile's own
+`basket_relationships` into `relationship_text` / `recommendation_use_text`
+/ confidence entries. Do not invent a relationship the basket profile does
+not itself support.
+
+`shopping_style`: exactly as in the waterfall's global profile —
+- `basket_size_segment`, `large_basket_tendency`, `multi_quantity_tendency`:
+  copy these three directly from the supplied `basket_profile`'s own
+  same-named fields. Do not resynthesize, reweigh, or second-guess them
+  here.
+- `brand_loyalty_level`/`substitution_tolerance_level`: base these only on
+  the supplied `category_profiles`' own `preferences.brands` and
+  `substitution_text`, judged across every supplied category profile.
+- Leave `frequency_segment` null. It is computed by the calling system
+  directly from `basket_profile`'s own accumulated evidence, never a fresh
+  read of raw orders and never estimated by you.
+- Leave `deal_seeking` and `price_sensitivity` null; no supported data
+  source exists yet.
+
+`retrieval_text`: one dense, self-contained paragraph for embedding-based
+mission retrieval, synthesized the same way as the waterfall's — do not
+simply restate `summary_text`.
+
+`user_id`, `profile_type`, and `updated_at`: always leave all three null;
+the calling system stamps them afterward.
 {PROFILE_GROUNDING_RULES}
 """
 
@@ -1061,7 +1331,7 @@ and their selected mission. Return concise strengths and concrete issues.
 OCCASION_EVENT_OCCURRENCE_SUMMARY = f"""
 Summarize one user's behavior during one occurrence of an occasion (a festival,
 a match, a guest visit) supplied by an authoritative calendar. This is a
-different kind of evidence from ordinary funnel/order activity: it exists only
+different kind of evidence from ordinary order activity: it exists only
 to compare this occasion window against the user's own ordinary baseline.
 
 The occasion identity (`occasion_type`, `occasion_name`) is authoritative and

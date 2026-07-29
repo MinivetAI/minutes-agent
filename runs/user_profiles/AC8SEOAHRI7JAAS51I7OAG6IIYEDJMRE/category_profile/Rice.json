@@ -1,40 +1,52 @@
 {
-  "category": "Rice",
-  "profile_text": "The user has purchased rice on two independent dates (March and July 2026), both involving a 1 kg pack of India Gate All Rounder Feast Rozzana Basmati Rice. While the brand appears twice, the purchases are separated by several months and lack a defined cadence, preventing the establishment of a stable routine or high-confidence preference. Purchases occurred on both weekends and weekdays, indicating no strong daypart constraint.",
-  "brand_preferences": [
+  "category_name": "Rice",
+  "summary_text": "The user has purchased India Gate All Rounder Feast Rozzana Basmati Rice (1 kg) on two separate dates in 2026 (March and July). Both orders occurred on weekday or weekend afternoons. Due to the low frequency of orders (two independent dates), stable brand preference and routine patterns are not yet established.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "India Gate",
+        "preference_text": "India Gate is the only brand observed for this category.",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to the specific India Gate products observed; it does not extend to other India Gate rice variants or brands not yet purchased."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [
+      {
+        "pack_size": "1 kg",
+        "preference_text": "The user has purchased 1 kg packs.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit orders observed.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "daypart_understanding": [
     {
-      "brand": "India Gate",
-      "preference_text": "India Gate was observed in two independent months (March and July 2026). This repetition supports a medium-confidence preference, though the long gap between purchases prevents a high-confidence classification.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "India Gate All Rounder Feast Rozzana Basmati Rice (1 kg pack) was purchased on two independent dates. This repetition supports a medium-confidence preference for this specific product variant.",
-      "examples": [],
+      "daypart": "afternoon",
+      "behavior_text": "Orders have occurred in the afternoon.",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No alternative brands or product types have been observed. It is unknown if the user would accept substitutes or switch brands.",
+  "uncertainty_text": "Only two independent orders exist, spanning multiple months but with low frequency. It is unclear if this represents a stable routine or occasional purchasing. Meal occasions and specific rice type preferences (beyond the observed Basmati) are not established.",
+  "retrieval_text": "User has purchased India Gate All Rounder Feast Rozzana Basmati Rice in 1 kg packs on two independent dates in 2026 (March and July), typically in the afternoon. Evidence is limited to these two observations, preventing confirmation of a stable brand or routine preference. No substitution behavior or alternative brand preferences have been observed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-09",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict the next purchase date.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Rice yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has reliably converted to purchase on all observed occasions.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Routine household food supply for staple grain consumption.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 668 g pack of Britannia Toastea Premium Elaichi Rusk, a wheat-based, cardamom-flavored baked snack positioned as a tea-time companion.",
+  "summary_text": "One order of Britannia Toastea Premium Elaichi Rusk (668 g) placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekend morning, a time when population share for this category is 0.3246. The product serves as a quick, ready-to-eat snack for tea or coffee.",
-  "uncertainty_text": "This is a single observed transaction; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning, a time when morning purchases represent 32.46% of population activity. The product is a tea-time baked snack, typically used as a quick companion for chai or a convenient snack replenishment.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring habit. It is unclear if this is a one-time trial, a specific need for this occasion, or part of a broader pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T09:52:49",
+    "last_seen_at": "2026-03-28T09:52:49"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-01-30 (morning, weekday) included eight products across six categories: Aerated Drinks, Milk, Breads, Vegetables, Curd Yogurt, Paneer Tofu, Baby Cereal, and Vitamins. The basket reflects a broad mix of staple foods, dairy, and supplements. The `shopping_need_text` suggests a need for daily nutritional intake and meal components compatible with this assortment. As this is a single observed order, it represents an observation rather than a durable preference pattern.",
+  "basket_summary_text": "A single morning weekday order containing a mix of staple groceries and baby items. The basket includes Aerated Drinks, Milk, Breads, Vegetables, Curd Yogurt, Paneer Tofu, Baby Cereal, and Vitamins. This represents a one-time observation of a broad, multi-category basket.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,54 +9,71 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order. This pair has a support of 0.525, confidence of 0.97, and lift of 1.038 based on 32 co-orders.",
+      "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order. This pair has a support of 0.443, confidence of 1.0, and lift of 1.07 based on 27 co-orders.",
+      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Milk"
       ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order. This pair has a support of 0.344, confidence of 0.778, and lift of 1.438 based on 21 co-orders.",
+      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
       "support": 0.344,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Aerated Drinks",
         "Vegetables"
       ],
-      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order. This pair has a support of 0.328, confidence of 0.952, and lift of 1.019 based on 20 co-orders.",
+      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
       "support": 0.328,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Baby Cereal",
         "Vegetables"
       ],
-      "combination_text": "Baby Cereal and Vegetables were purchased together in this order. This pair has a support of 0.246, confidence of 0.938, and lift of 1.003 based on 15 co-orders.",
+      "combination_text": "Baby Cereal and Vegetables were purchased together in this order.",
       "support": 0.246,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Daily nutritional intake and meal components.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences or recurring behaviors cannot be inferred from this single observation.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The basket suggests a need for daily household staples including dairy, produce, and baked goods, alongside specific items for infant nutrition (baby cereal) and health maintenance (vitamins).",
+  "uncertainty_text": "This is a single observation on one date. No durable preferences or routine behaviors can be inferred from this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

@@ -1,21 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-07-14 in the evening on a weekday. The basket contains two items, both from the 'Other Cooking Oil' category (1 unit each). No other categories were purchased. This single observation does not establish a durable preference or stable pattern.",
+  "basket_summary_text": "A single order placed on 2026-07-14 in the evening on a weekday. The basket contains two items, both from the 'Other Cooking Oil' category (EDOHEXDTFW6FFD4G and EDOFZBEEGEC5GQPF), with a quantity of 1 each. This represents a narrow basket breadth focused exclusively on cooking oils. The `category_pair_evidence` supplied does not contain any pairs involving 'Other Cooking Oil', so no specific co-ordering statistics from that evidence apply to this basket's internal structure. The observed behavior is consistent with a need to replenish cooking oil supplies.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Other Cooking Oil"
-      ],
-      "combination_text": "Other Cooking Oil",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of cooking oil suggests a need for food preparation ingredients.",
-  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. The provided category pair evidence (e.g., WashingBar/WashingPowder, Milk/Vegetables) reflects population-level co-occurrence statistics and does not apply to this specific order, as those categories were not purchased.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Replenishment of cooking oil for food preparation.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. No durable preferences, routines, or stable patterns can be inferred from this isolated observation. Confidence in any broader behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T16:43:51",
+    "last_seen_at": "2026-07-14T16:43:51"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased one pack of six Colgate ZigZag Medium Bristle Multicolour manual toothbrushes. This order occurred on a weekday morning, a timing pattern that is more common than average (population share 0.3246). The product is a multi-pack of manual toothbrushes, typically used for routine oral hygiene and household replenishment.",
+  "summary_text": "In April 2026, the user ordered a Colgate ZigZag Medium Bristle Multicolour Toothbrush Pack of 6 on a weekday morning. This single observation aligns with the population baseline where morning shares 32.46% of activity. The product is a manual toothbrush pack intended for routine oral hygiene and replacement. Due to the lack of repetition across independent dates, no stable brand or product preferences are established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a specific bristle preference, or a one-time replenishment need. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-06"
+    ],
+    "first_seen_at": "2026-04-06T09:42:07",
+    "last_seen_at": "2026-04-06T09:42:07"
+  }
 }

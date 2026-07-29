@@ -1,15 +1,23 @@
 {
   "date": "2026-05-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-11 (weekday), the user purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml) in the afternoon. This afternoon purchase occurred during a period of below-baseline activity (25.26% vs population). The product is a small-format, single-use liquid milk pack suitable for immediate kitchen consumption or short-horizon replenishment. This is a single observed transaction on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or format over alternatives is unknown.",
+  "summary_text": "On 2026-05-11 (weekday), the user purchased one 500 ml pack of Amul Taaza Pasteurised Toned Milk in the afternoon. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or afternoon purchasing habits. No other orders are available to confirm repetition or routine.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 1 unit of Amul Taaza Pasteurised Toned Milk (500 ml).",
+      "pattern_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml) on 2026-05-11. This timing is less common than the population baseline for morning (0.3246) and evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a small-format, single-use liquid milk pack, typically used for immediate consumption such as tea, coffee, or breakfast. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or afternoon purchasing habits. No other orders are available to confirm repetition or routine.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or format over alternatives is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or afternoon purchasing habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-11"
+    ],
+    "first_seen_at": "2026-05-11T13:24:35",
+    "last_seen_at": "2026-05-11T13:24:35"
+  }
 }

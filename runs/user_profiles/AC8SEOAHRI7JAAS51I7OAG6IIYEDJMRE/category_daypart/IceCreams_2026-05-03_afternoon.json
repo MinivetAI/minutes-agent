@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased two 500 ml ice cream tubs from Go Zero: one Mango Mad Over Mango flavor and one Chocolate Mocha Brownie Fudge flavor.",
+  "summary_text": "One order of two 500 ml ice cream tubs (Go Zero Mango and Go Zero Chocolate Mocha Brownie Fudge) purchased on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the afternoon on a weekend. The population baseline indicates this daypart is less common (25.26%) compared to evening (30.27%) and morning (32.46%). The products are ready-to-eat frozen desserts suitable for immediate indulgence or sharing at home.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established. The specific reason for choosing these flavors or the Go Zero brand is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027), but represents a common window for leisure or after-meal treats. The products are ready-to-eat frozen desserts suitable for immediate home consumption.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers the Go Zero brand, specific flavors, or this specific timing over other options. No durable preference can be inferred from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-03"
+    ],
+    "first_seen_at": "2026-05-03T12:34:44",
+    "last_seen_at": "2026-05-03T12:34:44"
+  }
 }

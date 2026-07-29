@@ -1,9 +1,17 @@
 {
   "date": "2026-06-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-17 (weekday), one order of Pampers Complete Skin Comfort Pant Diapers XL (56 Count) was placed in the morning. This product is a disposable pant-style diaper for older babies/toddlers, typically used for restocking, overnight coverage, or managing wetness and skin comfort. The order occurred in the morning, a time when this user's activity is 32.46% of their total population baseline. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., stockout, travel, routine restock) cannot be determined from the transaction alone.",
+  "summary_text": "On 2026-06-17 (weekday), one order of Pampers Complete Skin Comfort Pant Diapers XL (56 Count) was placed in the morning. This timing aligns with the population baseline share of 0.3246 for morning orders. The product is a disposable diaper pant-style SKU for older babies/toddlers, typically used for restocking, managing wetness or leaks, or providing overnight coverage. This is a single observation on one date; it is not yet established whether this brand, size, or daypart represents a stable, recurring preference or a one-time need.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., stockout, travel, routine restock) cannot be determined from the transaction alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand, size, or daypart represents a stable, recurring preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T09:37:58",
+    "last_seen_at": "2026-06-17T09:37:58"
+  }
 }

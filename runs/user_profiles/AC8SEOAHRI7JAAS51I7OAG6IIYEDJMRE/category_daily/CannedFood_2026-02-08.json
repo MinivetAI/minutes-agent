@@ -1,9 +1,23 @@
 {
   "date": "2026-02-08",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-08 (weekend), the user purchased 1 unit of Del Monte Baked Beans 450 g in the morning. This order occurred during a time when the user's activity is above the population baseline (32.46%). The product is a shelf-stable, ready-to-eat pantry item suitable for quick meal components. This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user purchased one unit of Del Monte Baked Beans 450 g during the morning daypart. This single observation of a shelf-stable canned item does not establish a stable brand or product preference, and it is unclear whether this reflects a routine habit or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Del Monte Baked Beans 450 g (1 unit) placed on a weekend morning. The order occurred on a weekend morning, a time when this daypart accounts for 32.46% of population activity. The product is a shelf-stable canned item typically used as a quick, zero-prep meal component or pantry staple.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear whether this purchase reflects a routine habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T09:50:42",
+    "last_seen_at": "2026-02-08T09:50:42"
+  }
 }

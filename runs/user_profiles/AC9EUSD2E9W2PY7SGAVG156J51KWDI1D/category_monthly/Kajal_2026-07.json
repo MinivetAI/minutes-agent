@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one unit of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) on a single weekday in the evening. This timing aligns with the user's relatively high evening activity share (0.3027) compared to the population baseline. The product is an everyday eye makeup item positioned for reliable, smudgeproof wear. As this is a single observed order, no stable preferences or brand loyalty can be established.",
+  "summary_text": "On 2026-07-16 (weekday), one unit of Lakmé 9-5 Eyeconic Kajal Deep Black (0.35 g) was purchased in the evening. This timing aligns with the population baseline, where evening accounts for 30.27% of activity, slightly below the morning share of 32.46%. The product is an everyday eye makeup item positioned for reliable, smudgeproof wear during commutes or workdays. This is a single observation from one date. It is not yet established whether this brand, product, or timing represents a stable preference or routine. No other orders are available to confirm repetition.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; no repeated behavior or browsing history is available to establish stable preferences or brand loyalty.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this brand, product, or timing represents a stable preference or routine. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-16"
+    ],
+    "first_seen_at": "2026-07-16T18:39:03",
+    "last_seen_at": "2026-07-16T18:39:03"
+  }
 }

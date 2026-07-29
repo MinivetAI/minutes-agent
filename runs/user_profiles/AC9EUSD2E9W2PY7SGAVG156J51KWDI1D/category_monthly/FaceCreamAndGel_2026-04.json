@@ -1,9 +1,18 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased two distinct face creams on separate dates: POND'S Super Light Gel Moisturiser on a weekend evening and Pilgrim Red Vine Night Creme Gel on a weekday afternoon. Because each product appeared only once, no stable brand or product preferences can be established. The purchases reflect isolated transactions rather than a recurring routine.",
+  "summary_text": "In April 2026, the user purchased two distinct face moisturizers on separate dates: POND'S Super Light Gel Moisturiser on a weekend evening and Pilgrim Red Vine Night Creme Gel on a weekday afternoon. Because each brand and product appeared only once, no stable brand or product preferences are established. The purchases occurred on different days of the week and at different times of day, so no consistent daypart or weekday/weekend pattern is evident. The variety of products suggests a need for diverse hydration or skin care options, but the specific intent (e.g., trial, replenishment, or routine) remains unclear due to the lack of repetition.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each product was observed on only one independent date. Stable preferences require repetition across at least two independent dates. Therefore, no durable brand or product preferences are inferred.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Each product and brand was purchased only once in this month. Single observations do not establish stable preferences or recurring routines. The differing timing and product types prevent the identification of a consistent daypart or weekday/weekend pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-05",
+      "2026-04-15"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-15T13:09:44"
+  }
 }

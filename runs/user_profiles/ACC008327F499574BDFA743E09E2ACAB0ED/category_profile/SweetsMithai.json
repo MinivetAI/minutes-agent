@@ -1,26 +1,27 @@
 {
-  "category": "Sweets Mithai",
-  "profile_text": "The user has made two distinct purchases in the Sweets Mithai category across two independent dates (2026-02-08 and 2026-03-02), but the evidence is insufficient to establish stable brand preferences, recurring habits, or predictable replenishment cadences. Purchases were isolated events with no repeated brand or product loyalty observed.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Sweets Mithai",
+  "summary_text": "The user has placed two distinct orders in the Sweets Mithai category across February and March 2026. Evidence includes a single order of DMB Dry Petha Box (400 g) on a weekend night in February, and a single order of Bikano Royal Rasgulla Box (1 kg) in the morning on a weekday in March. Both instances are isolated observations with no repetition to establish stable brand, product, or timing preferences.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has purchased two different brands (DMB, Bikano) and two different product types (Petha, Rasgulla) in separate months, but with only one order each, it is unclear if these are interchangeable preferences or distinct, non-repeating needs.",
+  "uncertainty_text": "Preference boundaries are undefined due to lack of repetition. It is unknown if the user has a stable brand loyalty, specific product affinity (e.g., only dry sweets vs. ready-to-serve), or consistent timing habits. The single orders in February and March may represent isolated needs rather than a recurring category habit.",
+  "retrieval_text": "User purchased DMB Dry Petha Box 400 g on a weekend night in February 2026 and Bikano Royal Rasgulla Box 1 kg in the morning on a weekday in March 2026. Both are single-observation orders with no established routine, brand loyalty, or consistent daypart preference for Sweets Mithai.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-02",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-03-02 with no predicted next date.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for SweetsMithai yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on all observed occasions; there is no unmet interest or discovery signal.",
-  "substitution_text": "No substitution patterns observed due to lack of repeated brand or product preference.",
-  "price_value_text": "No consistent price or value behavior established; purchases varied by product type and pack size (400 g vs 1 kg).",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior detected; however, the lack of repetition prevents confident prediction of future needs.",
-  "mission_generation_text": "Shopping needs are driven by specific, non-recurring occasions such as immediate consumption, gifting, or dessert preparation, rather than routine household stocking.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-08T22:18:01",
+    "last_seen_at": "2026-03-02T09:41:54"
+  }
 }

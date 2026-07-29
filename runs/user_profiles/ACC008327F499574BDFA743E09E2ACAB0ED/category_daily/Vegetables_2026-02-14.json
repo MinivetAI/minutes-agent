@@ -1,15 +1,17 @@
 {
   "date": "2026-02-14",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased fresh vegetables (Green Peas, Cauliflower, Onion, Tomato, Potato) and a ready-to-eat dessert (Red Carrot Halwa). The combination suggests a meal-prep or hosting scenario requiring base ingredients and a dessert component. This is a single observation; no stable long-term preference can be inferred.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased fresh vegetables (Green Peas, Cauliflower, Onion, Tomato, Potato) and Red Carrot Halwa. This order was placed on a weekend afternoon, a time when population share (25.26%) is lower than morning (32.46%) and evening (30.27%).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-02-14 (weekend), a single order was placed in the afternoon containing fresh vegetables (Green Peas Unpeeled 1kg, Cauliflower 400-600g, Onion 1.95-2.05 kg, Local Tomato 450-550g, Fresh New Crop Potato 0.95–1.05 kg) and one ready-to-eat sweet (Red Carrot Halwa). The combination of staple fresh vegetables and a prepared dessert suggests a same-day meal preparation or hosting scenario. The afternoon timing aligns with population baselines where afternoon shares (0.2526) are significant, though slightly lower than morning (0.3246) and evening (0.3027).",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned shopping and urgent replenishment. The specific meal plan or occasion for the halwa is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "It is not possible to determine if this represents a routine shopping habit, a specific event (such as a festival or guest visit), or a one-time replenishment need. No brand preferences can be established as all items are unbranded. No other orders are available to confirm repetition of this basket composition or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-14"
+    ],
+    "first_seen_at": "2026-02-14T11:23:24",
+    "last_seen_at": "2026-02-14T11:23:24"
+  }
 }

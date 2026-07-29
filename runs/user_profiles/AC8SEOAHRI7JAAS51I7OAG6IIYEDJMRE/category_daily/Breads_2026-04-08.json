@@ -1,9 +1,23 @@
 {
   "date": "2026-04-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-08 (weekday), the user purchased one 300 g loaf of Naturbaked Zero Maida Whole Wheat Bread during the morning. This timing aligns with a period where the user's activity is relatively high (32.46% of population baseline). The product is a packaged whole wheat bread, typically used for quick breakfasts, toast, or sandwiches. This is a single observed order; it does not establish a stable preference or routine for this category or brand. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-08 (weekday), the user ordered one unit of Naturbaked Zero Maida Whole Wheat Bread (300 g) in the morning. This packaged whole wheat bread is typically used for quick breakfasts, toast, or sandwiches. The timing aligns with common morning shopping habits, as 32.46% of the population typically shops during this daypart. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread (300 g) placed in the morning on a weekday. The product is a packaged whole wheat bread, generally used for quick breakfasts, toast, or sandwiches. The order occurred in the morning, a time when 32.46% of the population typically shops, suggesting alignment with common morning shopping habits. This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T10:48:37",
+    "last_seen_at": "2026-04-08T10:48:37"
+  }
 }

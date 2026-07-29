@@ -1,9 +1,23 @@
 {
   "date": "2026-06-03",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-03 (weekday), the user purchased one 450 g pack of Britannia Breakfast Slice White Bread during the evening. This purchase aligns with the evening daypart, which accounts for 30.27% of category share, slightly below the morning peak of 32.46%. The product is a standard, convenience-oriented white bread loaf intended for immediate breakfast or sandwich use. This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this brand or timing remains unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-03 (weekday), one order of Britannia Breakfast Slice White Bread 450 g was placed in the evening. This timing aligns with the population baseline for evening bread purchases (30.27%), which is comparable to the morning share (32.46%). The product is a standard packaged white sliced bread, typically used for immediate breakfast or sandwich needs. This is a single observation on one date; it is not yet established whether this is a routine purchase, a one-time need, or indicative of a stable brand preference for Britannia.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Britannia Breakfast Slice White Bread 450 g. Timing is consistent with the population baseline for evening bread purchases (30.27%), comparable to the morning share (32.46%).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this brand or timing remains unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or indicative of a stable brand preference for Britannia.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T16:24:08",
+    "last_seen_at": "2026-06-03T16:24:08"
+  }
 }

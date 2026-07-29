@@ -1,26 +1,27 @@
 {
-  "category": "Allopathy",
-  "profile_text": "The user has made two distinct purchases in the Allopathy category: a saline nasal spray in April 2026 and vitamin D3 drops in May 2026. These are isolated transactions on different dates with no repeated brand, product, or timing patterns. The category supports acute symptom relief (nasal congestion) and general health maintenance (vitamin supplementation), but no stable routine or preference is established.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Allopathy",
+  "summary_text": "In April and May 2026, the user placed single, distinct orders for Nasoclear Nasal Spray (evening, weekday) and Ultra D3 Drops (night, weekday). Each represents an isolated observation with no repetition across dates, preventing the establishment of stable brand, product, or routine preferences.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established due to the lack of repeated purchasing behavior for any specific product or brand.",
+  "uncertainty_text": "Evidence is limited to two single-date observations (one in April, one in May). It is unknown whether these represent one-time needs, the start of a routine, or sporadic usage. No brand loyalty, product consistency, or daypart preference can be confirmed.",
+  "retrieval_text": "Single observations in April 2026 for Nasoclear Nasal Spray 20 ml (evening) and May 2026 for Ultra D3 Drops 15 ml (night); no repeated brand or product evidence exists to establish stable preferences or substitution boundaries.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-14",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-05-14.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Allopathy yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases for both observed items; there is no evidence of unmet interest or abandoned carts.",
-  "substitution_text": "No repeated brand or product patterns exist to suggest substitution behavior.",
-  "price_value_text": "No repeated purchasing patterns exist to establish price sensitivity or value behavior.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; purchases were completed.",
-  "mission_generation_text": "Supports acute symptom management (e.g., nasal congestion) and general health maintenance (e.g., vitamin supplementation).",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-05-14T22:06:00"
+  }
 }

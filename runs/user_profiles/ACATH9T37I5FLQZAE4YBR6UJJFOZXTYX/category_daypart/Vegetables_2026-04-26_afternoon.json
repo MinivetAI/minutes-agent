@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased five unbranded fresh vegetables: one onion (400–450 g), one English cucumber (500 g), one carrot (500 g), one baby potato (280–320 g), and one beetroot (250–350 g).",
+  "summary_text": "One order of five unbranded fresh vegetables (onion, cucumber, carrot, baby potato, beetroot) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed in the afternoon on a weekend, a time when population share is lower than the morning baseline (0.2526 vs 0.3246). The items are fresh, unbranded root and salad vegetables typically used for immediate meal preparation, suggesting a need to replenish household stock or complete a same-day cooking plan.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables. The specific recipes or meals for which these ingredients were intended are unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed on a weekend afternoon, a time when the user's activity is below the population baseline for that daypart (population afternoon share: 0.2526). The basket consists entirely of fresh, unbranded root and salad vegetables, suggesting a need for immediate meal preparation ingredients or a restock of fresh produce for the weekend.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to determine if this represents a stable preference for unbranded fresh vegetables, a specific cooking routine, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

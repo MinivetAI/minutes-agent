@@ -1,34 +1,40 @@
 {
-  "category": "Other Cooking Oil",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for Dhara Kachi Ghani Mustard Oil, evidenced by purchases across three independent dates in February 2026 and a repeat purchase in July 2026. This brand is the primary driver of the category's slow replenishment cadence (approx. 25 days). Other brands (Fortune, Bail Kolhu) appear only as single-date observations and do not constitute stable preferences. The user buys these oils in convenient pouch formats (1 L, 750 g) for routine kitchen replenishment.",
-  "brand_preferences": [
-    {
-      "brand": "Dhara",
-      "preference_text": "Dhara Kachi Ghani Mustard Oil was purchased on three independent dates in February 2026 and again in July 2026, establishing a stable, high-confidence preference.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Other Cooking Oil",
+  "summary_text": "The user demonstrates a stable, high-confidence preference for Dhara Kachi Ghani brand mustard oil, evidenced by purchases on three independent dates in February 2026. While single observations of Fortune Soya and Bail Kolhu brands appear in subsequent months, they do not meet the repetition threshold for stable preference claims. Purchases occur across morning, afternoon, and evening dayparts, with evening timing aligning with population baselines.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Dhara Kachi Ghani",
+        "preference_text": "The user has a stable preference for Dhara Kachi Ghani brand oils, evidenced by purchases on 2026-02-03, 2026-02-21, and 2026-02-28.",
+        "confidence": "high",
+        "boundary_text": "This preference is established for Dhara Kachi Ghani brand mustard oil; it does not extend to other brands or non-mustard oil variants within this category."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Dhara Kachi Ghani Mustard Oil",
+        "preference_text": "The user has a stable preference for Dhara Kachi Ghani Mustard Oil, evidenced by purchases on 2026-02-03, 2026-02-21, and 2026-02-28.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Fortune Soya Health Refined Soyabean Oil and Bail Kolhu Refined Mustard Oil have been purchased as single observations, indicating they are acceptable alternatives or situational substitutes, but they lack the repetition to be considered stable preferences.",
+  "uncertainty_text": "While Dhara Kachi Ghani mustard oil is a stable preference, the user's broader category behavior includes single purchases of soybean oil (Fortune Soya) and other mustard oil brands (Bail Kolhu). It is uncertain if the user maintains a secondary stable preference for these brands or if they are occasional substitutes. Pack size preferences beyond the observed 1L pouch are not established.",
+  "retrieval_text": "The user exhibits a high-confidence, stable preference for Dhara Kachi Ghani brand mustard oil, with purchases recorded on three independent dates in February 2026 (2026-02-03, 2026-02-21, 2026-02-28). This specific brand and product variant (Mustard Oil) form the core of the user's category behavior. Single observations of Fortune Soya Health Refined Soyabean Oil and Bail Kolhu Refined Mustard Oil appear in April, June, and July 2026, suggesting these are acceptable but non-preferred alternatives. Purchases have occurred in the morning, afternoon, and evening, with evening timing aligning with population baselines. The primary pack size observed for the preferred brand is the 1L pouch.",
   "replenishment": {
     "cadence_days": 25.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-14",
     "predicted_next_purchase_date": "2026-08-08",
-    "replenishment_text": "The user typically replenishes this category every 25 days, with the next purchase estimated around 2026-08-08 based on this average cadence.",
-    "confidence": "high",
-    "evidence_count": 7,
-    "independent_date_count": 7
+    "replenishment_text": "OtherCookingOil is reordered roughly every 25 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions across different months.",
-  "substitution_text": "No stable substitution pattern identified; the user primarily returns to Dhara but has occasionally tried Fortune and Bail Kolhu on single dates.",
-  "price_value_text": "The user purchases standard pouch formats (1 L, 750 g), suggesting a preference for convenient, value-oriented packaging for everyday cooking.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance. Single-date purchases of Fortune and Bail Kolhu are treated as isolated observations rather than emerging preferences.",
-  "mission_generation_text": "Routine kitchen replenishment for everyday Indian cooking needs.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 7,
+    "independent_date_count": 7,
+    "first_seen_at": "2026-02-03T07:37:45",
+    "last_seen_at": "2026-07-14T16:43:51"
+  }
 }

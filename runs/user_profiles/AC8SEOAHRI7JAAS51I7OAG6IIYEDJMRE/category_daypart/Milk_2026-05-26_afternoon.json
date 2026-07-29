@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml) was placed in the afternoon.",
+  "summary_text": "One order of Amul Taaza Pasteurised Toned Milk (500 ml) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the afternoon, a time when this category represents 25.26% of population activity (baseline: morning=0.3246, afternoon=0.2526, evening=0.3027, night=0.1202). The product is a small-format, single-use liquid milk pack suitable for immediate kitchen use such as tea, coffee, or breakfast.",
-  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or routine behavior.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.26% share vs. 32.46% for morning). The product is a small-format, single-use liquid milk pack, typically suited for immediate consumption or short-horizon kitchen needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the 500 ml pack size, or the afternoon timing. No other products or brands are visible in this window to determine broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-26"
+    ],
+    "first_seen_at": "2026-05-26T15:40:38",
+    "last_seen_at": "2026-05-26T15:40:38"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-04-25",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-25 (weekend), the user purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil during the afternoon. This timing aligns with a population daypart share lower than the morning baseline (0.2526 vs 0.3246). The product is a mid-small pack of refined cooking oil, compatible with routine kitchen replenishment or quick replacement for same-day cooking needs. This is a single observed order; durable brand preference or routine usage patterns cannot be established from this isolated event.",
+  "summary_text": "On 2026-04-25 (weekend), one order of Fortune Sunlite Refined Sunflower Oil (800 g Pouch) was placed in the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a refined sunflower cooking oil in a small pouch format, typically used for routine kitchen replenishment or quick replacement of cooking staples. This is a single observation on one date. It is not yet established whether this brand or pack size represents a stable preference or a one-time need. No other sunflower oil purchases are recorded in this window to confirm brand loyalty or routine.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 800 g pouch of Fortune Sunlite Refined Sunflower Oil. This timing aligns with a population daypart share lower than the morning baseline (0.2526 vs 0.3246). The product is a mid-small pack of refined cooking oil, compatible with routine kitchen replenishment or quick replacement for same-day cooking needs.",
+      "pattern_text": "One order of Fortune Sunlite Refined Sunflower Oil (800 g Pouch) on 2026-04-25. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a refined sunflower cooking oil in a small pouch format, typically used for routine kitchen replenishment or quick replacement of cooking staples. This is a single observation on one date. It is not yet established whether this brand or pack size represents a stable preference or a one-time need. No other sunflower oil purchases are recorded in this window to confirm brand loyalty or routine.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand preference or routine usage patterns cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or pack size represents a stable preference or a one-time need. No other sunflower oil purchases are recorded in this window to confirm brand loyalty or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-25T11:45:25",
+    "last_seen_at": "2026-04-25T11:45:25"
+  }
 }

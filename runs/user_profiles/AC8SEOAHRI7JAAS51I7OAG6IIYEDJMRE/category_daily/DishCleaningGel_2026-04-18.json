@@ -1,15 +1,23 @@
 {
   "date": "2026-04-18",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-18 (weekend), the user purchased one 2 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon variant) during the afternoon. This timing is less common than the population baseline (25.26% share vs. 32.46% for morning). The product is a large-format household cleaning supply typically used for manual dishwashing. This is a single observed transaction and does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On this weekend, the user purchased one 2 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon) during the afternoon. This timing aligns with the population baseline, which shows a 25.26% share for afternoon purchases compared to 32.46% for mornings. The product is a large-format household dishwashing gel, typically used for manual utensil cleaning when a previous supply has run out or when managing a high volume of dishes. This is a single observation on one date. It is not yet established whether this brand, product size, or weekend afternoon timing represents a stable preference or routine for this user.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 2 L bottle of Flipkart Supermart Dish Cleaning Gel (Lemon variant).",
+      "pattern_text": "One order of Flipkart Supermart Dish Cleaning Gel Lemon 2 L. Purchased on a weekend afternoon. This timing aligns with the population baseline, which shows a 25.26% share for afternoon purchases compared to 32.46% for mornings. The product is a large-format household dishwashing gel, typically used for manual utensil cleaning when a previous supply has run out or when managing a high volume of dishes.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand, product size, or weekend afternoon timing represents a stable preference or routine for this user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T12:20:02",
+    "last_seen_at": "2026-04-18T12:20:02"
+  }
 }

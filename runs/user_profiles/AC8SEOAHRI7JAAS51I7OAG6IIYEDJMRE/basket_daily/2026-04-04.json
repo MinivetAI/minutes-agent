@@ -1,7 +1,7 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On this weekend, a single order was placed during the morning daypart. The basket contained one unit of sugar, two units of curd yogurt, one unit of wheat flour, two units of spices masala, and one unit of vegetables. This combination of pantry staples and fresh ingredients is compatible with preparing a home-cooked meal or breakfast items. The analysis is based on a single observed order on one date; stable preferences or durable behavior patterns cannot be inferred from this single data point.",
+  "summary_text": "On this weekend, a single order was placed in the morning. The basket contained staples (Sugar, Wheat Flour) and fresh items (two units of Spices Masala, two units of Curd Yogurt, and Vegetables). This combination suggests a need for preparing home-cooked meals or breakfast items that require basic ingredients and fresh components.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,11 +13,20 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.114,
       "lift": null,
-      "confidence": "low"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of sugar, curd yogurt, wheat flour, spices, and vegetables is compatible with preparing a home-cooked meal or breakfast items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Preparation of home-cooked meals or breakfast items requiring basic staples and fresh ingredients.",
+  "uncertainty_text": "This is a single observation from one independent date. Stable preferences or routine behaviors cannot be inferred from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

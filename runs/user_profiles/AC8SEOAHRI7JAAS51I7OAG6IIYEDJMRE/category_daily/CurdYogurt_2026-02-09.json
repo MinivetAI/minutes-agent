@@ -1,9 +1,23 @@
 {
   "date": "2026-02-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-09 (weekday), the user purchased Mother Dairy Classic Plain Curd (390 g) and Mother Dairy Advanced Probiotic Plain Curd (200 g) in the afternoon. This afternoon purchase aligns with a population daypart share of 0.2526, which is lower than the evening peak of 0.3027. The items are everyday dairy staples suitable for immediate meal accompaniment or household replenishment.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered Mother Dairy Classic Plain Curd 390 g and Mother Dairy Advanced Probiotic Plain Curd 200 g during the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity, slightly lower than the morning (32.46%) and evening (30.27%) peaks. The products are everyday cultured dairy staples, typically used for immediate consumption, meal accompaniment, or recipe preparation. This is a single observation on one date. It is not yet established whether this represents a stable preference for Mother Dairy brand, plain curd specifically, or a one-time need. No recurring pattern can be confirmed.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Mother Dairy Classic Plain Curd 390 g and one order of Mother Dairy Advanced Probiotic Plain Curd 200 g. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity, slightly lower than the morning (32.46%) and evening (30.27%) peaks. The products are everyday cultured dairy staples, typically used for immediate consumption, meal accompaniment, or recipe preparation. This is a single observation on one date. It is not yet established whether this represents a stable preference for Mother Dairy brand, plain curd specifically, or a one-time need. No recurring pattern can be confirmed.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation does not establish stable brand or format preferences; cannot determine if this reflects a routine habit or a one-off need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Mother Dairy brand, plain curd specifically, or a one-time need. No recurring pattern can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-09"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-09T13:05:05"
+  }
 }

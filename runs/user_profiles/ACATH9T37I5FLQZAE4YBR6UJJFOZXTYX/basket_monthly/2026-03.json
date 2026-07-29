@@ -1,41 +1,88 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user placed eight independent orders across weekdays and weekends, primarily during morning and afternoon dayparts. The basket composition consistently featured fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), often combined with dry staples (Pasta, Noodles, Rava Sooji) and snacks (Savouries Namkeens). Several orders also included infant-specific items (Baby Cereal, Diaper) and personal care or religious goods (Lotion Cream, Pooja Flower). While Vegetables and Milk appeared together in every order, this repetition spans only a single month and eight dates; therefore, no durable long-term preference is established, and confidence remains low. Category combinations involving Vegetables with Milk, Curd Yogurt, Baby Cereal, Diaper, and Savouries Namkeens were observed repeatedly but are noted as isolated to this month's evidence.",
+  "summary_text": "Across eight independent dates in March 2026, the user placed orders on weekdays and weekends, primarily during morning and afternoon dayparts, with one night and one evening order. The basket consistently featured Vegetables and Milk, often accompanied by Pasta, Curd Yogurt, and Savouries Namkeens. Additional categories appearing in single or sparse instances included Baby Cereal, Diapers, Fruits, and Lotion Cream. Due to the lack of repetition for specific product combinations or daypart behaviors across multiple independent dates, no stable routine or durable preference can be established; all observed patterns remain isolated observations.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
+  "category_combination_patterns": [
     {
-      "claim_text": "Vegetables and Milk were purchased together in every order across eight independent dates in March 2026.",
-      "confidence": "medium"
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 4,
+      "independent_date_count": 4
     },
     {
-      "claim_text": "Vegetables and Curd Yogurt were purchased together in four independent orders (2026-03-04, 2026-03-15, 2026-03-27, and implied in 2026-03-11 via Milk/Curd overlap but explicitly listed in 04, 15, 27; checking data: 04 has Curd+Veg, 15 has Curd+Veg, 27 has Curd+Veg. 11 has Milk+Veg but no Curd. So 3 dates explicitly have Curd+Veg. Wait, 04, 15, 27. That is 3 dates.",
-      "confidence": "medium"
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "claim_text": "Vegetables and Baby Cereal were purchased together in three independent orders (2026-03-17, 2026-03-21, 2026-03-27).",
-      "confidence": "medium"
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "claim_text": "Vegetables and Diaper were purchased together in two independent orders (2026-03-16, 2026-03-21).",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "Vegetables and Savouries Namkeens were purchased together in three independent orders (2026-03-04, 2026-03-25, 2026-03-27).",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "Vegetables and Fruits were purchased together in two independent orders (2026-03-15, 2026-03-27).",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "Vegetables and Aerated Drinks were purchased together in two independent orders (2026-03-15, 2026-03-21).",
-      "confidence": "medium"
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
-  "shopping_need_text": "The user demonstrates a recurring need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), frequently combined with dry meal ingredients (Pasta, Noodles, Rava Sooji) and snacks (Savouries Namkeens). Several orders indicate a need for infant care supplies (Baby Cereal, Diaper) and occasional personal care or religious items (Lotion Cream, Pooja Flower).",
-  "uncertainty_text": "All patterns are derived from eight independent orders within a single month (2026-03). While Vegetables and Milk appear together in every order, this repetition is confined to one month and does not establish a long-term stable preference. Category combinations such as Vegetables with Curd Yogurt, Baby Cereal, Diaper, Savouries Namkeens, Fruits, and Aerated Drinks were observed on multiple dates but are limited to this month's evidence. No abandonment patterns are promoted to the stable list as they do not meet the threshold for cross-month stability or repeated independent date confirmation for the same specific category abandonment behavior outside of general basket composition. Confidence in all inferred behaviors is low due to the lack of multi-month evidence.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "Vegetables appeared in every order across the month, often in high quantities (multiple units or distinct items), suggesting a consistent need for fresh produce.",
+      "confidence": "high"
+    },
+    {
+      "claim_text": "Milk appeared in 5 out of 8 orders, indicating frequent but not universal inclusion in the basket.",
+      "confidence": "medium"
+    },
+    {
+      "claim_text": "Baby Cereal and Diapers appeared in separate orders (2026-03-17, 2026-03-21), but not together, preventing inference of a stable baby-care routine from this month alone.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The user requires fresh produce (Vegetables) and dairy (Milk) frequently. Other items like Pasta, Curd Yogurt, and Savouries Namkeens appear in combination with these staples on some dates, suggesting occasional meal preparation or snack stocking. Isolated purchases of baby care items and personal care items do not form a consistent pattern in this window.",
+  "uncertainty_text": "While Vegetables and Milk co-occur frequently, most specific category combinations and daypart behaviors are supported by only 2-4 independent dates. No single product brand, variant, or specific daypart routine is established across the majority of the month. Claims regarding baby care or specific meal types are based on sparse, non-repeating evidence.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 8,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-11",
+      "2026-03-15",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-21",
+      "2026-03-25",
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

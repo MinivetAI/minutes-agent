@@ -1,41 +1,40 @@
 {
-  "category": "Salt",
-  "profile_text": "The user has purchased salt twice in 2026 (February and May), indicating a basic household replenishment need for cooking and seasoning. However, the purchases were made on different dates, during different dayparts (weekday evening vs. weekend afternoon), and from different brands (Tata vs. Aashirvaad). This limited evidence does not yet establish a stable brand preference, routine cadence, or specific timing habit. The user is likely maintaining a basic pantry staple but has not demonstrated a consistent pattern strong enough to predict future behavior with high confidence.",
-  "brand_preferences": [
-    {
-      "brand": "Tata",
-      "preference_text": "Purchased once in February 2026. Insufficient repetition to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Aashirvaad",
-      "preference_text": "Purchased once in May 2026. Insufficient repetition to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Salt",
+  "summary_text": "The user has purchased salt on two independent dates: Tata Salt in February 2026 and Aashirvaad in May 2026. Both were 1 kg iodized variants. Evidence is limited to single observations per brand, preventing the establishment of a stable brand preference or routine.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Tata Salt",
+        "preference_text": "Observed in February 2026.",
+        "confidence": "low",
+        "boundary_text": "Preference limited to the specific 1 kg iodized free-flowing variant observed; does not extend to other Tata Salt product lines or forms."
+      },
+      {
+        "brand": "Aashirvaad",
+        "preference_text": "Observed in May 2026.",
+        "confidence": "low",
+        "boundary_text": "Preference limited to the specific 1 kg iodized variant observed; does not extend to other Aashirvaad product lines or forms."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Tata Salt and Aashirvaad are both iodized table salts used for cooking; either brand is a direct substitute for the other in this context.",
+  "uncertainty_text": "Confidence is low because each brand was observed only once. It is unknown if the user has a dominant brand preference, if they rotate brands, or if these were one-time needs. No recurring cadence or specific daypart preference can be established beyond population baselines.",
+  "retrieval_text": "User purchased 1 kg iodized salt from Tata Salt (Feb 2026) and Aashirvaad (May 2026). Both brands are standard iodized table salts. Evidence is limited to single observations per brand, so no stable brand preference or routine is established. Substitution exists between these two iodized salt brands.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-24",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-05-24. Cadence is unknown based on limited evidence; no reliable prediction for next purchase can be made.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Salt yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in salt has resulted in completed purchases on two separate occasions, indicating that when the user seeks this item, they typically complete the transaction.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value-seeking behavior can be inferred from the two observed transactions.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty regarding this category.",
-  "mission_generation_text": "Routine household replenishment for cooking and food preparation.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user placed one order for Ching's Secret Dark Soy Sauce (210 g) on a weekday morning. This single observation indicates an immediate cooking need for Indo-Chinese dishes, such as stir-fries or fried rice, rather than a stable preference. The morning timing aligns with the population baseline, where morning activity accounts for 32.46% of share for this category.",
+  "summary_text": "In April 2026, the user purchased Ching's Secret Dark Soy Sauce (210 g) on one weekday morning. This timing aligns with the population baseline, where morning activity accounts for 32.46% of orders. The product is a condiment used to add color and savory depth to Indo-Chinese dishes. As this is a single observation, it is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for this brand or product type.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date. It is not yet established whether this represents a stable preference, a routine pantry restock, or a one-time need. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for this brand or product type.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-27"
+    ],
+    "first_seen_at": "2026-04-27T08:10:36",
+    "last_seen_at": "2026-04-27T08:10:36"
+  }
 }

@@ -1,26 +1,27 @@
 {
-  "category": "Poha",
-  "profile_text": "The user has purchased Poha four times across independent dates in 2026, establishing a slow replenishment cadence of approximately 52 days. Purchases have occurred in the morning and afternoon on both weekdays and weekends. Three different brands (Fortune, Classic, Tata Sampann) and two pack sizes (500 g, 1 kg) were observed, but no single brand or product variant has been repeated on multiple independent dates, so no stable brand or product preference is established. The category serves as a pantry staple for quick Indian meals or snacks.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 52.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-07-02",
-    "predicted_next_purchase_date": "2026-08-23",
-    "replenishment_text": "The user typically purchases this category every 52 days, with the next purchase estimated around 2026-08-23.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Poha",
+  "summary_text": "The user has purchased Poha across four distinct months (Jan, Apr, May, Jul 2026) but only once per month, with no single brand or variant dominating the history. Evidence includes Fortune Indori Thick Poha (500g) in Jan and Apr, Classic Medium Poha (1kg) in May, and Tata Sampann High in Fibre Thick Poha (0.5kg) in Jul. Timing varies between weekday mornings and weekend/weekday afternoons. No stable routine, brand loyalty, or specific pack-size preference is established due to the lack of repetition for any single value.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by four completed orders across independent dates.",
-  "substitution_text": "No specific substitution pattern is established; the user has purchased different brands and variants without a consistent replacement behavior.",
-  "price_value_text": "No consistent price or value preference is established; purchases included both 500 g and 1 kg packs from different brands.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports needs for quick-prep breakfasts, light snacks, or basic pantry staples for Indian meals.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has purchased from three different brands (Fortune, Classic, Tata Sampann) and different product types (Thick, Medium, High in Fibre), indicating no strong brand-based substitution loyalty or aversion.",
+  "uncertainty_text": "It is unknown if Poha is a regular pantry staple or an occasional purchase. No brand, variant, or pack size is preferred. The timing pattern is inconsistent (morning vs. afternoon). The user's true frequency and specific product needs within this category remain undefined.",
+  "retrieval_text": "User has purchased Poha in Jan, Apr, May, and Jul 2026, but only once per month, preventing the establishment of a stable routine. Purchases include Fortune Indori Thick Poha 500g (Jan, Apr), Classic Medium Poha 1kg (May), and Tata Sampann High in Fibre Thick Poha 0.5kg (Jul). Timing varies between weekday mornings and afternoons. No brand or variant preference is evident due to lack of repetition.",
+  "replenishment": {
+    "cadence_days": 52,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-08-23",
+    "replenishment_text": "Poha is reordered roughly every 52 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

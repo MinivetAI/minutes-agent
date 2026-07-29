@@ -1,27 +1,27 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased fresh vegetables across four independent dates (2026-01-23, 2026-01-28, 2026-01-30, 2026-01-31). Baby Potato (280–320 g) appeared on all four dates, establishing a stable preference with high confidence. Onion (400–450 g) appeared on two dates (2026-01-28, 2026-01-31), establishing a stable preference with at least medium confidence. Coriander Leaves appeared on two dates (2026-01-23, 2026-01-31), establishing a stable preference with at least medium confidence. Other items (Organic Green Chilli, Cleaned Coriander Leaves, Red Carrot, Onion - Sambhar, Spinach Leaves, Broad Beans) appeared only once and are excluded from stable preference claims. Daypart patterns show activity in the morning (above population baseline) and evening (comparable to morning baseline).",
+  "summary_text": "In January 2026, the user ordered fresh vegetables on four independent dates (2026-01-23, 2026-01-28, 2026-01-30, 2026-01-31). Baby Potato (280–320 g) appeared on three independent dates (2026-01-23, 2026-01-28, 2026-01-30), meeting the repetition bar for stable preference with high confidence. Coriander Leaves appeared on two independent dates (2026-01-23, 2026-01-31), meeting the repetition bar for stable preference with at least medium confidence. Onion appeared on two independent dates (2026-01-28, 2026-01-31), meeting the repetition bar for stable preference with at least medium confidence. All other items (Organic Green Chilli, Unbranded Onion, Red Carrot, Onion - Sambhar, Spinach Leaves, Broad Beans) appeared on only one date and are excluded from stable lists. Daypart patterns show morning orders on two independent dates (2026-01-23, 2026-01-30) and afternoon/evening orders on one date each. The user’s morning timing aligns with the population baseline (32.46%).",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Baby Potato (280–320 g)",
-      "claim_text": "The user has a stable preference for Baby Potato (280–320 g), observed on four independent dates in January 2026.",
+      "claim_text": "The user has a stable preference for Baby Potato (280–320 g), observed on three independent dates in January 2026.",
       "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
+      "evidence_count": 3,
+      "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "Onion (400–450 g)",
-      "claim_text": "The user has a stable preference for Onion (400–450 g), observed on two independent dates in January 2026.",
+      "value": "Coriander Leaves",
+      "claim_text": "The user has a stable preference for Coriander Leaves, observed on two independent dates in January 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Coriander Leaves",
-      "claim_text": "The user has a stable preference for Coriander Leaves (including Cleaned Coriander Leaves), observed on two independent dates in January 2026.",
+      "value": "Onion",
+      "claim_text": "The user has a stable preference for Onion, observed on two independent dates in January 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -29,6 +29,17 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on four independent orders in January 2026. While Baby Potato, Onion, and Coriander Leaves show stable patterns, other vegetables were purchased only once and do not establish recurring habits. The user's intent for these items is consistent with immediate meal preparation needs.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This summary is based on four independent orders in January 2026. While Baby Potato, Coriander Leaves, and Onion show stable preference patterns, other items were single-date observations. The user’s morning ordering timing aligns with the population baseline.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-01-23",
+      "2026-01-28",
+      "2026-01-30",
+      "2026-01-31"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-31T19:05:26"
+  }
 }

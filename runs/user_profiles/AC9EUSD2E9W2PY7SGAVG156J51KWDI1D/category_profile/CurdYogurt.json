@@ -1,40 +1,46 @@
 {
-  "category": "Curd Yogurt",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for Amul Masti plain curd, evidenced by purchases across four independent dates (May 1, May 7, May 22, and June 4). This preference is anchored in morning weekday purchasing behavior. While the user also purchased a different brand (Mother Dairy) in June, the repetition of Amul Masti establishes it as the primary preferred brand. The user exhibits flexibility in pack size, ordering both 200 ml and 390 ml variants, suggesting needs for immediate consumption or meal pairing rather than bulk stocking. The observed cadence of 15 days indicates a medium-frequency replenishment routine.",
-  "brand_preferences": [
-    {
-      "brand": "Amul Masti",
-      "preference_text": "The user has a stable preference for Amul Masti plain curd, evidenced by purchases on four independent dates (May 1, May 7, May 22, June 4).",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user consistently purchases Amul Masti plain curd variants (200 ml and 390 ml) across multiple independent dates.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 15.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-06-26",
-    "predicted_next_purchase_date": "2026-07-11",
-    "replenishment_text": "The user typically replenishes this category every 15 days, with the next purchase estimated around 2026-07-11.",
-    "confidence": "high",
-    "evidence_count": 8,
-    "independent_date_count": 8
+  "category_name": "Curd Yogurt",
+  "summary_text": "The user has purchased Curd Yogurt across five months (Feb–May 2026). Early months (Feb–Apr) show single, isolated observations of Amul Masti products in varying pack sizes (200 ml, 390 ml) and dayparts (morning, afternoon). May 2026 establishes a stable pattern with three independent weekday morning purchases of Amul Masti plain curd (200 ml and 390 ml packs), supporting a medium-confidence preference for this brand and product type.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul Masti",
+        "preference_text": "The user consistently orders Amul Masti plain curd, with three confirmed purchases in May 2026 alone, establishing this as the primary brand within the category.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Amul Masti brand of plain curd; it does not extend to other curd brands or flavored variants not explicitly observed."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Orders consistently consist of a single unit per transaction, observed across all five months of activity.",
+        "confidence": "medium"
+      }
+    ]
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions without preceding search or cart-add hesitation.",
-  "substitution_text": null,
-  "price_value_text": "The user purchases small, single-serve or small family-size packs (200 ml, 390 ml), indicating a preference for immediate consumption or top-up needs rather than bulk value buying.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior detected. The user shows flexibility in pack size and has occasionally tried alternative brands (Mother Dairy), but returns to the preferred brand.",
-  "mission_generation_text": "Supports daily nutritional needs, meal preparation (e.g., raita, marinades), and immediate consumption as a breakfast or snack staple.",
-  "overall_confidence": "high"
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "The user predominantly orders curd yogurt in the morning, a pattern reinforced by three independent weekday morning purchases in May 2026, aligning with the population baseline for this daypart.",
+      "confidence": "medium"
+    }
+  ],
+  "substitution_text": "The user has purchased both 200 ml and 390 ml packs of Amul Masti plain curd, indicating flexibility in pack size based on immediate need (single serving vs. household top-up). No evidence suggests substitution with other brands or product types (e.g., flavored yogurt) is acceptable or preferred.",
+  "uncertainty_text": "Pack size preference is unstable, as the user has ordered both 200 ml and 390 ml variants without a clear dominant choice. It is unknown whether the user prefers plain curd over other curd varieties (e.g., fruit-flavored) or if the morning timing is a strict routine or situational. Long-term cadence beyond the observed May 2026 cluster is not yet established.",
+  "retrieval_text": "The user exhibits a stable medium-confidence preference for Amul Masti plain curd within the Curd Yogurt category, evidenced by three independent weekday morning purchases in May 2026. Orders consistently involve a single unit, with pack sizes varying between 200 ml and 390 ml, suggesting flexibility based on immediate consumption needs rather than a fixed pack preference. The morning daypart is the dominant ordering window, aligning with population baselines. No other brands or product types have been observed, leaving the scope of preference limited to Amul Masti plain curd.",
+  "replenishment": {
+    "cadence_days": 15,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-06-06",
+    "replenishment_text": "CurdYogurt is reordered roughly every 15 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-05-22T09:38:49"
+  }
 }

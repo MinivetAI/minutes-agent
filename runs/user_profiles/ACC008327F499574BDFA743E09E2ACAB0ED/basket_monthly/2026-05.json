@@ -1,21 +1,25 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user placed six separate orders across weekdays, primarily in the morning, afternoon, and evening dayparts. The most frequent category observed was Vegetables, appearing in five of the six orders. Ice Creams appeared in two separate orders (one night, one evening). Other categories including Savouries Namkeens, Pasta, Hair Removal, and Toner appeared in single orders. No abandoned carts were recorded. While Vegetables and Ice Creams were purchased on multiple independent dates, the specific products, quantities, and accompanying categories varied significantly between instances, preventing the establishment of stable basket-building patterns or routine daypart behaviors. The user’s behavior reflects isolated shopping needs rather than durable preferences.",
+  "summary_text": "In May 2026, the user placed orders on 7 independent dates, all on weekdays. Purchases were distributed across morning, afternoon, evening, and night dayparts. The most frequently observed category was Vegetables, appearing in 6 of the 7 orders. Ice Creams appeared in 2 orders. Other categories (Savouries Namkeens, Milk, Pasta, Hair Removal, Toner, Dips Sauces Pastes) appeared in single orders. No category combination or daypart behavior repeated across independent dates with sufficient frequency to establish a stable pattern; all observed combinations and behaviors are isolated to single dates.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Vegetables were purchased on five independent dates (2026-05-01, 2026-05-05, 2026-05-08, 2026-05-27, 2026-05-28), indicating a recurring need for fresh produce, though the specific items and basket context changed each time.",
-      "confidence": "medium"
-    },
-    {
-      "claim_text": "Ice Creams were purchased on two independent dates (2026-05-08 night, 2026-05-26 evening), suggesting a recurring interest in this category, but the specific products and quantities differed, preventing a stable preference inference.",
-      "confidence": "medium"
-    }
-  ],
-  "shopping_need_text": "The user has a recurring need for fresh vegetables and occasional interest in ice cream treats. Additional isolated needs included savory accompaniments, pasta, and personal care items (hair removal, toner).",
-  "uncertainty_text": "Confidence in user preferences is low because each category purchase (Vegetables, Ice Creams, etc.) occurred on different dates with varying products, quantities, and basket compositions. No single product, brand, or specific category combination was repeated across independent dates in a consistent manner. Historical co-ordering signals (e.g., Breads with Vegetables) are aggregate population data and were not observed in the user's specific transactions during this month. The user's behavior cannot be characterized as a routine or stable pattern based on this evidence.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "The user has demonstrated a need for fresh vegetables on multiple occasions, often paired with other food items (Savouries Namkeens, Milk, Pasta, Dips Sauces Pastes) or purchased alone. There is also a sporadic need for Ice Creams and personal care items (Hair Removal, Toner). Due to the lack of repetition across independent dates, these needs are observed as isolated events rather than stable routines.",
+  "uncertainty_text": "All observed behaviors, category combinations, and daypart timings are based on single independent dates. No durable preferences, routines, or stable patterns can be inferred. Confidence in any broader behavioral pattern is low due to the absence of repetition across multiple dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 8,
+    "purchase_dates": [
+      "2026-05-01",
+      "2026-05-05",
+      "2026-05-08",
+      "2026-05-13",
+      "2026-05-26",
+      "2026-05-27",
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-01T09:44:21",
+    "last_seen_at": "2026-05-28T20:47:05"
+  }
 }

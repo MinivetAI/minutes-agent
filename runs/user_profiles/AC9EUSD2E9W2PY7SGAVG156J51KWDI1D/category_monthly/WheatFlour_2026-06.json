@@ -1,34 +1,36 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased Aashirvaad Select Atta (1 kg) on three independent dates: 2026-06-08 (weekday), 2026-06-15 (weekday), and 2026-06-28 (weekend). All purchases occurred during the morning daypart. The product is a premium whole-wheat flour used for preparing rotis. The recurrence of this specific brand and variant across three independent dates establishes a stable preference, despite the small sample size. The timing is consistent with the user's general activity pattern, where 32.46% of activity occurs in the morning, aligning with population norms.",
+  "summary_text": "In June 2026, the user ordered Aashirvaad Select Atta (1 kg) on three independent dates (2026-06-08, 2026-06-15, 2026-06-28). This repetition establishes a stable preference for this brand and pack size. The user also consistently orders in the morning, a pattern observed on all three dates.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
-      "value": "Aashirvaad",
-      "claim_text": "The user has a stable preference for Aashirvaad flour, evidenced by purchases on 2026-06-08, 2026-06-15, and 2026-06-28.",
-      "confidence": "medium",
+      "value": "Aashirvaad Select Atta",
+      "claim_text": "The user has a stable preference for Aashirvaad Select Atta, evidenced by orders on three independent dates in June 2026.",
+      "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "Aashirvaad Select Atta",
-      "claim_text": "The user has a stable preference for Aashirvaad Select Atta (1 kg), purchased on 2026-06-08, 2026-06-15, and 2026-06-28.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    },
-    {
-      "dimension": "variant",
-      "value": "1 kg pack",
-      "claim_text": "The user consistently purchases the 1 kg pack size of Aashirvaad Select Atta across three independent dates in June 2026.",
-      "confidence": "medium",
+      "value": "Aashirvaad Select Atta (1 kg)",
+      "claim_text": "The user has a stable preference for the 1 kg pack size of Aashirvaad Select Atta, evidenced by orders on three independent dates in June 2026.",
+      "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The preference is based on three purchases within a single month. While the repetition establishes a stable pattern for this month, the short time horizon limits long-term confidence. The reason for choosing this premium variant over standard flour remains unknown.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This summary is based on three independent orders in June 2026. No other brands or products were observed in this category during this month.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-06-08",
+      "2026-06-15",
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-08T09:51:39",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

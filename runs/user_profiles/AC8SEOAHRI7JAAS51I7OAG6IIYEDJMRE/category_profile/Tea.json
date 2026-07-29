@@ -1,40 +1,33 @@
 {
-  "category": "Tea",
-  "profile_text": "The user has a single observed purchase of Tata Tea Agni Strong Leaf Black Tea (250 g pouch) on a weekday afternoon in March 2026. This timing is less frequent than the population baseline. Due to the single observation, no stable brand preference, routine, or replenishment cadence can be established.",
-  "brand_preferences": [
-    {
-      "brand": "Tata Tea",
-      "preference_text": "Observed in one order on 2026-03-31. Single observation does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Tata Tea Agni Strong Leaf Black Tea (250 g pouch) observed in one order on 2026-03-31. Single observation does not establish a stable preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Tea",
+  "summary_text": "In March 2026, the user purchased Tata Tea Agni Strong Leaf Black Tea Pouch 250 g on one weekday afternoon. This timing aligns with the population afternoon baseline share (0.2526) but is less common than morning (0.3246) or evening (0.3027) tea purchases. The product is a loose-leaf black tea intended for regular home brewing. As this is a single observation on one date, it is not yet established whether this represents a stable preference for this specific brand or product, or if it was a one-time restock. No other independent dates are available to confirm routine or brand loyalty.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "A single unit was observed in the only recorded order.",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established due to a single observation. The user's acceptance of alternative tea brands, forms (e.g., bags vs. loose leaf), or strengths is unknown.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this specific brand or product, or if it was a one-time restock. No other independent dates are available to confirm routine or brand loyalty.",
+  "retrieval_text": "In March 2026, the user purchased one unit of Tata Tea Agni Strong Leaf Black Tea Pouch 250 g on a weekday afternoon. This single observation aligns with the population afternoon baseline share (0.2526) but does not yet establish a stable brand preference, routine, or substitution boundary for the Tea category.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-31",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Cadence is unknown based on a single purchase on 2026-03-31; no predicted next purchase date can be estimated.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Tea yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase.",
-  "substitution_text": "No evidence of substitution behavior; only one product observed.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior beyond the single observed transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Supports regular home brewing needs for black tea.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-31T11:33:41",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

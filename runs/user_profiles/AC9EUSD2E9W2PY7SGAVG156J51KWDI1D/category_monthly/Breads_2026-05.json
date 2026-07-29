@@ -1,18 +1,33 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased Britannia bread products on three independent dates (2026-05-01, 2026-05-04, and 2026-05-10). The brand Britannia appears on all three dates, meeting the repetition bar for stable preference. Confidence is high due to support across 3 independent dates. The user purchased different variants (350 g Sandwich Bread and 450 g Breakfast Slice) and on different dayparts (morning on weekdays, evening on a weekend), indicating a stable brand preference rather than a rigid routine for a specific variant or time. No other brands or products recurred.",
+  "summary_text": "In May 2026, the user purchased bread on three independent dates. Britannia Sandwich Bread 350 g was ordered on two weekdays (2026-05-01, 2026-05-04) during the morning, aligning with the population's highest morning share (0.3246). Britannia Breakfast Slice White Bread 450 g was ordered once on a weekend (2026-05-10) during the evening, contrasting with the population baseline. The recurrence of the Britannia brand across multiple dates supports a stable preference for this brand, while the specific product variants and timing patterns reflect distinct observations.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Britannia",
-      "claim_text": "The user has a stable preference for the Britannia brand, evidenced by purchases on 3 independent dates in May 2026.",
-      "confidence": "high",
+      "claim_text": "The user has purchased Britannia brand bread on multiple independent dates in May 2026, indicating a stable brand preference.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "While the brand preference is stable, the specific variant (350 g vs 450 g) and daypart (morning vs evening) vary, so no stable routine can be claimed for those dimensions.",
-  "overall_confidence": "high"
+  "trend_claims": [
+    {
+      "claim_text": "On 2026-05-01 and 2026-05-04 (weekdays), the user ordered Britannia Sandwich Bread 350 g during the morning, consistent with the population's dominant morning activity share (0.3246). On 2026-05-10 (weekend), the user ordered Britannia Breakfast Slice White Bread 450 g during the evening, which contrasts with the population baseline where morning (0.3246) and evening (0.3027) are the highest shares.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While the Britannia brand appears on three independent dates, the specific product variants (Sandwich Bread 350 g vs. Breakfast Slice 450 g) and dayparts (morning vs. evening) vary. The morning weekday pattern is supported by two dates, while the evening weekend pattern is a single observation. The stability of the brand is established, but the consistency of product type and timing across all dates is less certain.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-05-01",
+      "2026-05-04",
+      "2026-05-10"
+    ],
+    "first_seen_at": "2026-05-01T08:07:58",
+    "last_seen_at": "2026-05-10T19:01:33"
+  }
 }

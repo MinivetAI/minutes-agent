@@ -1,7 +1,7 @@
 {
   "date": "2026-01-24",
   "day_type": "weekend",
-  "summary_text": "On this weekend, a single order was placed in the afternoon. The basket contained 2 units of Fruits and 1 unit of Vegetables, reflecting a basic produce purchase compatible with a general need for fresh ingredients. This is a single observation from one date; durable preferences or routine behaviors cannot be inferred.",
+  "summary_text": "On 2026-01-24 (weekend), a single order was placed in the afternoon. The basket contained 2 units of a product in the Fruits category and 1 unit of a product in the Vegetables category. This combination suggests a basic fresh produce purchase, potentially for meal preparation or grocery replenishment. No durable preferences or routines can be established from this single observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Fruits",
         "Vegetables"
       ],
-      "combination_text": "Fruits and Vegetables were purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
+      "combination_text": "Fruits and Vegetables",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "General need for fresh produce items.",
-  "uncertainty_text": "This is a single observation from one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of fresh fruits and vegetables suggests a need for basic grocery replenishment or meal preparation ingredients.",
+  "uncertainty_text": "This inference is based on a single order on one date. No durable preference or routine can be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-24T14:45:43"
+  }
 }

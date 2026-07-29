@@ -1,15 +1,23 @@
 {
   "date": "2026-02-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-24 (weekday), the user purchased one 40 g Snickers Peanut Filled Chocolate Bar in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to the morning (0.3246) and evening (0.3027). The product is a single-serve, nutty chocolate bar, potentially used for immediate hunger interruption or a quick treat. This is a single observation on one date; no durable brand or product preferences can be established.",
+  "summary_text": "On 2026-02-24 (weekday), the user purchased one Snickers Peanut Filled Chocolate Bar (40 g) in the afternoon. This afternoon timing is less common for this user than the population baseline (user afternoon share 0.2526 vs. population morning 0.3246 and evening 0.3027). The product is a single-serve, energy-style candy bar, consistent with an immediate hunger interruption or quick treat. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 40 g Snickers Peanut Filled Chocolate Bar in the afternoon.",
+      "pattern_text": "One Snickers Peanut Filled Chocolate Bar (40 g) purchased in the afternoon on a weekday. This afternoon timing is less common for this user than the population baseline (user afternoon share 0.2526 vs. population morning 0.3246 and evening 0.3027). The product is a single-serve, energy-style candy bar, consistent with an immediate hunger interruption or quick treat.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

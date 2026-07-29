@@ -1,7 +1,7 @@
 {
   "date": "2026-03-31",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-31, a single order was placed during the afternoon. The basket contained five distinct items: Breads, Sugar, Cheese, Butter Margarine, and Tea. This combination is compatible with a need for basic pantry staples and breakfast or dining essentials. No durable behavior pattern is established from this single observation.",
+  "summary_text": "On this weekday, a single afternoon order was placed containing five distinct items across five categories: Breads, Sugar, Cheese, Butter Margarine, and Tea. The basket reflects a mix of staple pantry items (sugar, tea) and fresh/dairy components (cheese, butter, breads). The combination of breads, cheese, butter, and tea is compatible with preparing simple breakfast or snack items, such as sandwiches or toast, alongside a hot beverage. This is a single observation on one date. It does not establish a durable preference, routine, or stable category affinity. Confidence in any inferred behavior is low.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,14 +13,23 @@
         "Butter Margarine",
         "Tea"
       ],
-      "combination_text": "Breads, Sugar, Cheese, Butter Margarine, and Tea were purchased together in one order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "combination_text": "Breads, Sugar, Cheese, Butter Margarine, and Tea",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for basic breakfast or snack preparation items, including breads, dairy spreads, and tea.",
-  "uncertainty_text": "This analysis is based on a single observed order on 2026-03-31. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of breads, cheese, butter, and tea is compatible with preparing simple breakfast or snack items, such as sandwiches or toast, alongside a hot beverage.",
+  "uncertainty_text": "This is a single observation on one date. It does not establish a durable preference, routine, or stable category affinity. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-31T11:33:41",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

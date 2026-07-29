@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 1 L pack of Real Masala Pomegranate Juice, a ready-to-serve flavored fruit beverage with masala seasoning.",
+  "summary_text": "One order of Real Masala Pomegranate Juice 1 L.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening on a weekend, a time when the user's activity was slightly below the population baseline for this daypart (evening share 0.3027). The product is a shareable, ready-to-serve beverage suitable for immediate consumption without preparation.",
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the evening on a weekend. The population baseline shows evening purchases are common (30.27%). This is a ready-to-serve fruit beverage, suitable for immediate consumption or sharing.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet clear if this is a recurring preference or a one-time purchase. No brand or product repetition has been established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-07"
+    ],
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-07T18:07:34"
+  }
 }

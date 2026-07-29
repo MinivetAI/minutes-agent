@@ -1,11 +1,35 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-05-24 in the afternoon on a weekend. The basket contains six distinct items across six different categories: Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health. The order exhibits low basket breadth, with one unit purchased from each category. No products were bought together in a way that suggests a specific meal or functional grouping beyond general household replenishment. The `shopping_need_text` is compatible with general household stocking and personal consumption.",
+  "basket_summary_text": "A single order placed on a weekend afternoon containing six distinct items across six different categories: Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health. The basket shows no category overlap with the provided pair evidence (which focuses on Milk, Vegetables, Breads, etc.). The combination of snack food (Chips), pantry staples (Rice, Salt, Edible Seeds), and household utility (Garbage Bags) alongside a health supplement suggests a mixed-purpose trip, potentially for immediate consumption and general household replenishment.",
   "behavior_patterns": [],
-  "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "General household replenishment and personal consumption.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The provided `category_pair_evidence` refers to population-level co-ordering statistics for categories (Milk, Vegetables, Breads, etc.) that were not present in this specific order; therefore, no lift/support numbers are applied to this basket's internal structure.",
-  "overall_confidence": "low"
+  "category_combinations": [
+    {
+      "categories": [
+        "Chips",
+        "Edible Seeds",
+        "Garbage Bags",
+        "Rice",
+        "Salt",
+        "Digestive Health"
+      ],
+      "combination_text": "Single order containing Chips, Edible Seeds, Garbage Bags, Rice, Salt, and Digestive Health.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "Replenishment of pantry staples (rice, salt, seeds), snacks (chips), household supplies (garbage bags), and digestive health supplements.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

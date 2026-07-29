@@ -1,15 +1,23 @@
 {
   "date": "2026-05-29",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-29 (weekday), the user purchased 2 units of Chitale Cow Milk 500 ml in the morning. This timing aligns with a population morning share of 0.3246. The product is a small-pack fresh dairy item suitable for immediate household use such as tea, coffee, or breakfast. This is a single observation on one date; cannot establish stable brand preference or routine buying patterns.",
+  "summary_text": "On 2026-05-29 (weekday), the user ordered Chitale Cow Milk 500 ml (quantity: 2) in the morning. This morning activity aligns with the population baseline (share 0.3246). The purchase represents a single observation of fresh dairy for immediate household consumption; stable preferences or routines cannot be established from this date alone.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Chitale Cow Milk 500 ml. This timing aligns with a population morning share of 0.3246. The product is a small-pack fresh dairy item suitable for immediate household use such as tea, coffee, or breakfast.",
+      "pattern_text": "Ordered Chitale Cow Milk 500 ml (quantity: 2) on a weekday morning. Activity aligns with population baseline (share 0.3246). Single observation; no stable pattern established.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation on one date; cannot establish stable brand preference or routine buying patterns.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific household needs beyond the immediate utility of the purchased items.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-29"
+    ],
+    "first_seen_at": "2026-05-29T10:39:59",
+    "last_seen_at": "2026-05-29T10:39:59"
+  }
 }

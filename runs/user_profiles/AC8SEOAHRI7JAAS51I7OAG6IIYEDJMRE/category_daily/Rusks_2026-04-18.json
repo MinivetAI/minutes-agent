@@ -1,15 +1,17 @@
 {
   "date": "2026-04-18",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-18 (weekend), the user placed one order of Britannia Toastea Premium Elaichi Rusk (668 g) during the morning daypart. This purchase occurred on a weekend morning, a time when the user's activity (100%) is higher than the population baseline for morning (32.46%). The product is a tea-time baked snack, typically used as a companion for chai or a quick snack. This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "One order of Britannia Toastea Premium Elaichi Rusk (668 g) was placed on a weekend morning. The purchase occurred on a weekend morning, a time when the user's activity (100%) is higher than the population baseline for morning (32.46%). The product is a tea-time baked snack, typically used as a companion for chai or a quick snack. This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekend, the user purchased Britannia Toastea Premium Elaichi Rusk (668 g) during the morning daypart. This single order represents a tea-time baked snack, likely intended as a companion for chai or a convenient snack replenishment. The purchase occurred on a weekend morning, a time when morning purchases represent 32.46% of the population baseline. As this is a single observation on one date, it does not establish a stable brand preference, a recurring morning routine, or specific flavor loyalty. It is unclear if this was a one-time trial, a routine replenishment, or a specific need for a tea-time snack.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, a recurring morning routine, or a specific flavor loyalty. It is unclear if this was a one-time trial, a routine replenishment, or a specific need for a tea-time snack.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-18"
+    ],
+    "first_seen_at": "2026-04-18T07:53:45",
+    "last_seen_at": "2026-04-18T07:53:45"
+  }
 }

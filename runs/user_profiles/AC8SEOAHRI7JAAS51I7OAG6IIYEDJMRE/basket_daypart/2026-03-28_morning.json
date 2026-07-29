@@ -1,22 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning included 3 units of Curd Yogurt, 1 unit each of Dips Sauces Pastes, Rusks, and Canned Food. The basket breadth covers four distinct categories. The combination of Canned Food and Curd Yogurt appears in the evidence with a support of 0.057, confidence of 0.444, and lift of 1.244. The presence of Rusks alongside Dips Sauces Pastes and Curd Yogurt suggests a compatible need for breakfast or snack items, though this specific combination is not explicitly supported by the provided pair evidence. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-03-28 in the morning on a weekend. The basket contains four items across four distinct categories: Curd Yogurt (3 units), Dips Sauces Pastes (1 unit), Rusks (1 unit), and Canned Food (1 unit). The order-building behavior shows a mix of staple dairy, a savory condiment, a dry snack/breakfast item, and preserved food. No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Canned Food",
-        "Curd Yogurt"
-      ],
-      "combination_text": "Canned Food and Curd Yogurt were purchased together in this order. This pair has a support of 0.057, confidence of 0.444, and lift of 1.244 based on co-order evidence.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be stocking up on breakfast or snack components, combining dairy, savory spreads, and dry goods.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of curd yogurt, rusks, and dips suggests a need for breakfast or snack components, potentially for immediate consumption or quick meal preparation. Canned food may indicate stocking up on shelf-stable items.",
+  "uncertainty_text": "This is a single observation from one independent date. No durable preferences, routines, or stable patterns can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T09:52:49",
+    "last_seen_at": "2026-03-28T09:52:49"
+  }
 }

@@ -1,40 +1,27 @@
 {
-  "category": "Bathroom Floor Cleaner",
-  "profile_text": "In April 2026, the user purchased one unit of Vim Floor Cleaner Ultra Pro Lemon 1 L on a single weekday (2026-04-09) during the afternoon. This is a single observed order; it does not establish a stable preference, routine, or durable brand loyalty. The specific trigger for this purchase is unknown.",
-  "brand_preferences": [
-    {
-      "brand": "Vim",
-      "preference_text": "Vim was purchased once on 2026-04-09. This single observation does not establish a stable preference or routine.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Vim Floor Cleaner Ultra Pro Lemon 1 L was purchased once on 2026-04-09. This single observation does not establish a stable preference or routine.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Bathroom Floor Cleaner",
+  "summary_text": "In April 2026, one order of Vim Floor Cleaner Ultra Pro Lemon 1 L was placed on a weekday afternoon. This single observation does not establish a stable preference for the brand, variant, or timing, as no repetition across independent dates is present.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "Preference boundaries and unknowns for this category include the lack of repeated evidence to confirm brand loyalty, specific variant preference (Ultra Pro Lemon), or pack size (1 L). The weekday afternoon timing is an isolated observation and does not indicate a routine. It is unknown if the user prefers other brands, scents, or pack sizes for bathroom floor cleaning.",
+  "retrieval_text": "Single observed order of Vim Floor Cleaner Ultra Pro Lemon 1 L on a weekday afternoon in April 2026; no stable brand, variant, or timing preferences established due to lack of repetition across independent dates.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-09",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase on 2026-04-09; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for BathroomFloorCleaner yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase on 2026-04-09.",
-  "substitution_text": "No substitution behavior observed from a single purchase.",
-  "price_value_text": "No price or value behavior established from a single purchase.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports general bathroom floor cleaning needs.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-04-09T14:22:40",
+    "last_seen_at": "2026-04-09T14:22:40"
+  }
 }

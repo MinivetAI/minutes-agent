@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "On the morning of 2026-02-08 (weekend), the user purchased one 6-unit pack of Hen Fruit Farm Hen White Eggs. This order occurred during a morning period where the user's activity is above the population baseline (32.46%). The product is a basic fresh egg pack, typically used for immediate breakfast, quick cooking, or household stock replenishment. This is a single observed order from one date; it does not establish a stable preference or routine for this category or brand.",
+  "summary_text": "In February 2026, the user purchased Hen Fruit Farm Hen White Eggs (6 units) on one weekend date (2026-02-08) during the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity for this category. The product is a basic fresh egg pack, typically used for immediate breakfast preparation, quick cooking, or topping up household stock. As this is a single observation from one date, no stable preference for the brand, product type, or pack size can be confirmed, and no recurring pattern or routine is established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order from one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user has a stable preference for the Hen Fruit brand, white eggs specifically, or a 6-unit pack size. No recurring pattern or routine can be confirmed from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T09:50:42",
+    "last_seen_at": "2026-02-08T09:50:42"
+  }
 }

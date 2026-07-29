@@ -1,15 +1,23 @@
 {
   "date": "2026-01-24",
   "day_type": "weekend",
-  "summary_text": "On 2026-01-24 (weekend), the user purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g during the morning. This timing aligns with above-baseline activity (32.5%). The product is a single-serve probiotic curd suitable for immediate consumption or as a meal component. This is a single observed order; durable preferences or habitual buying patterns cannot be established from this evidence alone.",
+  "summary_text": "On this weekend, the user ordered 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small, single-serve probiotic curd suitable for immediate consumption or as a quick dairy addition to a meal. This is a single observation from one date. It is not yet established whether this is a recurring preference for this specific brand or product, or if the user typically buys curd at other times of day or on weekdays.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g. Ordered during the morning on a weekend, a time when the user's activity is above the population baseline (32.5%). The product is a single-serve probiotic curd suitable for immediate consumption or as a meal component.",
+      "pattern_text": "Ordered 2 units of Mother Dairy Advanced Probiotic Plain Curd 200 g. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small, single-serve probiotic curd suitable for immediate consumption or as a quick dairy addition to a meal.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this is a recurring preference for this specific brand or product, or if the user typically buys curd at other times of day or on weekdays.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T10:29:17",
+    "last_seen_at": "2026-01-24T10:29:17"
+  }
 }

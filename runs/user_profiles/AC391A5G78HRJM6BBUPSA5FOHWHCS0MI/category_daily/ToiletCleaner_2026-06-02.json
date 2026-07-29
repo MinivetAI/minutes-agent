@@ -1,15 +1,23 @@
 {
   "date": "2026-06-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-02 (weekday), the user purchased one 600 ml bottle of Harpic Power Plus Original Liquid Toilet Cleaner during the evening. This timing aligns with the high population share (0.3027) for this category in the evening, suggesting behavior consistent with general bathroom hygiene staple purchasing patterns. This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replacement need.",
+  "summary_text": "On 2026-06-02 (weekday), one unit of Harpic Power Plus Original Liquid Toilet Cleaner (600 ml) was purchased during the evening. This timing aligns with a population share of 0.3027, which is slightly below the morning baseline of 0.3246. The product is a liquid cleaner designed for deep cleaning and disinfection, typically used for addressing visible stains and grime. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time stockout replacement or the start of a regular purchasing pattern.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 600 ml bottle of Harpic Power Plus Original Liquid Toilet Cleaner during the evening, a period with high population share (0.3027) for this category.",
+      "pattern_text": "One unit of Harpic Power Plus Original Liquid Toilet Cleaner (600 ml) was purchased during the evening. This timing aligns with a population share of 0.3027, which is slightly below the morning baseline of 0.3246. The product is a liquid cleaner designed for deep cleaning and disinfection, typically used for addressing visible stains and grime. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time stockout replacement or the start of a regular purchasing pattern.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time replacement need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time stockout replacement or the start of a regular purchasing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

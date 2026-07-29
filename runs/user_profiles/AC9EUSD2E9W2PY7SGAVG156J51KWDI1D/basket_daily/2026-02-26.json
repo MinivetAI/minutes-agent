@@ -1,23 +1,37 @@
 {
   "date": "2026-02-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-26 (weekday), a single order was placed in the morning daypart. The basket contained seven items across seven distinct categories: Sunflower Oil, Ready Mixes, Soya Products, Other Pulses, Vegetables (quantity 2), Milk, and Curd Yogurt. This combination reflects a mix of pantry staples (oils, mixes, pulses) and fresh dairy and produce, suggesting a need for basic meal preparation ingredients including cooking oil, protein sources, and fresh vegetables. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-02-26 (weekday), a single order was placed in the morning. The basket contained seven items across seven distinct categories: Sunflower Oil, Ready Mixes, Soya Products, Other Pulses, Vegetables, Milk, and Curd Yogurt. Quantities included two units of Vegetables and one unit each of the other products. This combination of staple cooking ingredients, fresh produce, and dairy staples is compatible with preparing home-cooked meals or stocking up on daily essentials. As this is a single observation on one date, no durable preference or routine can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
+        "Sunflower Oil",
+        "Ready Mixes",
+        "Soya Products",
+        "Other Pulses",
+        "Vegetables",
         "Milk",
-        "Vegetables"
+        "Curd Yogurt"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.3,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "A basket containing Sunflower Oil, Ready Mixes, Soya Products, Other Pulses, Vegetables, Milk, and Curd Yogurt.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order suggests a need for basic meal preparation ingredients, including cooking oil, protein sources (soya, pulses, dairy), and fresh vegetables.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of staple cooking ingredients (Sunflower Oil, Ready Mixes, Soya Products, Other Pulses) with fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) is compatible with preparing home-cooked meals or stocking up on daily essentials.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Confidence in any inferred behavior pattern is low because stable preferences require evidence across multiple independent dates. No search, cart, or page-view data is available to confirm intent beyond the completed purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

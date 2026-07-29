@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 2 units of Amul Masti Dahi Plain Curd 200 ml.",
+  "summary_text": "One order of Amul Masti Dahi Plain Curd (200 ml), quantity 2.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the afternoon on a weekend. The small 200 ml pack size suggests immediate consumption needs, such as pairing with a meal or topping up a household shortfall, rather than bulk stocking.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the afternoon on a weekend. The population baseline indicates afternoon purchases are less common (0.2526) compared to morning (0.3246) and evening (0.3027). The small 200 ml pack size suggests immediate utility for a meal or snack rather than bulk storage.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader preference for this brand or pack size.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T11:40:58",
+    "last_seen_at": "2026-04-04T11:40:58"
+  }
 }

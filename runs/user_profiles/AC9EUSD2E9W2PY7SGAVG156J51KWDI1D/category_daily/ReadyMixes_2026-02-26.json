@@ -1,9 +1,23 @@
 {
   "date": "2026-02-26",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased one 50 g pouch of Suhana Chicken Biryani Mix during the morning daypart. This single order represents a convenient, quick-cooking base for preparing a traditional meal with minimal prep effort. The morning timing aligns with a period when 32.46% of the population typically shops. This observation does not establish a stable or recurring preference for this brand or product type.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-02-26 (weekday), one order of Suhana Chicken Biryani Mix (50 g) was placed in the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity. The product is a ready-to-cook spice mix intended to simplify home biryani preparation. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, this product type, or morning purchasing habits. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Suhana Chicken Biryani Mix (50 g) on 2026-02-26. This timing is consistent with the population baseline, where morning purchases account for 32.46% of activity. The product is a ready-to-cook spice mix intended to simplify home biryani preparation. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or morning purchasing habits. No other orders are available to confirm repetition or routine.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or morning purchasing habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

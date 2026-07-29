@@ -1,9 +1,17 @@
 {
   "date": "2026-07-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-02 (weekday), one order of Amul Masti Dahi Plain Curd (200 ml) was placed in the morning. This timing aligns with the population baseline, where morning activity accounts for 32.46% of activity for this category. The product is a small, single-serve plain curd pack, typically used for immediate consumption or as a staple ingredient in daily meals. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "summary_text": "On 2026-07-02 (weekday), the user ordered one unit of Amul Masti Dahi Plain Curd (200 ml) in the morning. This timing aligns with a period of above-baseline activity (32.46%). The product is a small, single-serve plain curd, suitable for immediate consumption or as a meal accompaniment. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, pack size, or daypart.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "Confidence is low because this is the only observed order on this date. It is not yet established whether this represents a stable preference for Amul, plain curd, or morning purchasing habits. No browsing intent was captured to indicate if this was a planned or spontaneous purchase.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific pack size, or this daypart.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

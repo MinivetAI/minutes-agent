@@ -1,9 +1,23 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On the weekend of 2026-07-04, the user purchased one pack of MANGALDEEP Dhuno Cup (12 cups) during the morning. This devotional incense-style product suggests a need for immediate spiritual preparation or home worship essentials. The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%).",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-07-04 (weekend), one order of MANGALDEEP Dhuno Cup (12 Cups) was placed in the morning. This timing aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a devotional incense cup, typically used for home worship or prayer rituals. This is a single observation from one date. It is not yet established whether this represents a stable preference for the MANGALDEEP brand, the cup format, or a specific routine for weekend morning rituals.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of MANGALDEEP Dhuno Cup (12 Cups) on 2026-07-04. This timing aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a devotional incense cup, typically used for home worship or prayer rituals. This is a single observation from one date. It is not yet established whether this represents a stable preference for the MANGALDEEP brand, the cup format, or a specific routine for weekend morning rituals.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for the MANGALDEEP brand, the cup format, or a specific routine for weekend morning rituals.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T08:48:45",
+    "last_seen_at": "2026-07-04T08:48:45"
+  }
 }

@@ -1,34 +1,27 @@
 {
-  "category": "Batteries",
-  "profile_text": "A single observed purchase of Duracell Ultra AAA alkaline batteries (4-count) on 2026-06-16 (weekday, morning). This transaction reflects an immediate utility need for replacing depleted cells in small electronics or appliances. No browsing, cart, or search activity was recorded. Cadence is unknown based on this single data point.",
-  "brand_preferences": [
-    {
-      "brand": "Duracell",
-      "preference_text": "Observed in a single transaction on 2026-06-16. Insufficient repetition to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Batteries",
+  "summary_text": "Evidence is limited to a single order on 2026-06-16 for Duracell Ultra AAA Alkaline Battery Pack of 4, purchased in the morning. This reflects an immediate utility need for small electronics. No stable preferences or recurring patterns are established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence available. The single order does not indicate openness to alternative brands or formats.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time replacement need. No data exists on other brands, variants, or daypart consistency.",
+  "retrieval_text": "Single observed purchase of Duracell Ultra AAA Alkaline Battery Pack of 4 on 2026-06-16 (weekday) in the morning, indicating an immediate utility need for small electronics; insufficient evidence to determine brand loyalty, preferred variant, or recurring cadence.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-16",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-06-16. Cadence is unknown due to lack of repeated purchase history.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Batteries yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value sensitivity data observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Immediate utility need for replacing depleted cells in small electronics or appliances.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-16T10:29:48",
+    "last_seen_at": "2026-06-16T10:29:48"
+  }
 }

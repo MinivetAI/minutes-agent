@@ -1,14 +1,25 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased savouries namkeens on four independent dates (2026-03-12, 2026-03-14, 2026-03-20, 2026-03-25). The purchases span both weekdays and weekends, and occur in both afternoon and evening dayparts. No single brand, product, or variant appeared on more than one date; therefore, no stable brand or product preferences are established. The user demonstrated interest in a variety of namkeen types, including traditional fried snacks (Bikano, Haldiram's) and a roasted makhana alternative (Khari Foods).",
+  "summary_text": "In March 2026, the user placed four independent orders in the Savouries Namkeens category, each on a different date and featuring a distinct brand and product variant. The orders included Bikano Aloo Lachha (weekday afternoon), Haldiram's All In One (weekend evening), Haldiram's Khatta Meetha (weekday afternoon), and Khari Foods Pudina Makhana Pops (weekday evening). Because each brand and product appeared on only one independent date, no stable brand or product preference can be established. The user demonstrated a pattern of ordering savoury snacks across both weekdays and weekends, with purchases occurring in both afternoon and evening dayparts. These daypart occurrences align with the population baseline, where afternoon and evening shares are significant components of total activity. Confidence in any durable preference is low due to the lack of repetition for any specific value.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased savouries namkeens on four independent dates in March 2026, indicating consistent engagement with this category throughout the month.",
-      "confidence": "medium"
+      "claim_text": "The user ordered savoury snacks on four independent dates in March 2026, spanning both weekdays and weekends, with no single brand or product variant repeating.",
+      "confidence": "low"
     }
   ],
-  "uncertainty_text": "Each purchase involved a different brand and product variant. Without repetition of specific items across multiple dates, it is not possible to determine a durable brand or product preference. The variety of products suggests exploratory purchasing or diverse snacking needs rather than a fixed routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Confidence in any durable preference is low because each brand and product appeared on only one independent date. It is not yet established whether the user prefers any specific brand, product, or timing over alternatives.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-03-12",
+      "2026-03-14",
+      "2026-03-20",
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-12T14:42:56",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

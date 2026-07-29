@@ -1,15 +1,17 @@
 {
   "date": "2026-05-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-04 (weekday), the user purchased 1 pack of Britannia Good Day Cashew Cookies (82.7 g) in the afternoon. This is a ready-to-eat sweet biscuit, typically used for immediate snacking or tea-time accompaniment. The purchase occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). This is a single observed order; it does not establish a stable preference or routine for this category or brand. The specific reason for choosing this item over other cookies or biscuits is unknown.",
-  "daypart_patterns": [
-    {
-      "daypart": "afternoon",
-      "pattern_text": "Purchased 1 pack of Britannia Good Day Cashew Cookies (82.7 g).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-05-04 (weekday), the user ordered one unit of Britannia Good Day Cashew Cookies (82.7 g) in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of Minutes orders (compared to 32.46% in the morning). The product is a ready-to-eat snack, typically associated with immediate consumption such as a tea-time treat or quick hunger relief. This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product, or daypart over others, or if this represents a stable routine.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand. The specific reason for choosing this item over other cookies or biscuits is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product, or daypart over others, or if this represents a stable routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T13:12:50",
+    "last_seen_at": "2026-05-04T13:12:50"
+  }
 }

@@ -1,23 +1,33 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, three independent orders were placed on weekdays, all consisting exclusively of Vegetables. The first order was in the evening, while the subsequent two were in the morning. Each order contained a distinct set of vegetable products, with quantities ranging from 7 to 10 units. The consistent purchase of only vegetables across these dates suggests a specific, recurring need for fresh produce or meal preparation ingredients, though the lack of other categories prevents inference of broader basket-building habits. No other categories were co-purchased in any of these orders.",
+  "summary_text": "In April 2026, three independent orders were placed, all on weekdays. Two orders occurred in the morning daypart (2026-04-16, 2026-04-23) and one in the evening (2026-04-10). All three baskets consisted exclusively of Vegetables. This repetition across three independent dates supports a stable pattern of purchasing vegetables, likely for meal preparation or home consumption. No other categories were observed, so no cross-category associations are established.",
   "stable_daypart_behavior": [],
-  "stable_behavior_patterns": [
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [
     {
-      "behavior_text": "Vegetables",
-      "circumstance_text": "Weekday orders",
-      "confidence": "medium"
+      "categories": [
+        "Vegetables"
+      ],
+      "combination_text": "Vegetables",
+      "support": null,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 3,
+      "independent_date_count": 3
     }
   ],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Vegetables are the sole category purchased in all three observed weekday orders.",
-      "confidence": "medium"
-    }
-  ],
-  "shopping_need_text": "Fresh produce or meal preparation ingredients.",
-  "uncertainty_text": "All three orders are single-category baskets containing only Vegetables. While the repetition of this specific category-only behavior across three independent dates supports a medium-confidence pattern for vegetable purchasing, the absence of any other categories in these orders means no stable basket-building patterns, category combinations, or daypart preferences (beyond the observed weekday timing) can be established. The evening order on 2026-04-10 is an isolated instance of evening shopping; the morning orders on 2026-04-16 and 2026-04-23 form a repeated pattern, but without other categories, it does not define a broader routine. No abandonment patterns are stable enough to include in the stable list.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "shopping_need_text": "Fresh produce for meal preparation or home consumption.",
+  "uncertainty_text": "Behavior is based on three independent orders. No other categories were purchased, so cross-category habits cannot be inferred.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-10",
+      "2026-04-16",
+      "2026-04-23"
+    ],
+    "first_seen_at": "2026-04-10T20:42:42",
+    "last_seen_at": "2026-04-23T10:45:31"
+  }
 }

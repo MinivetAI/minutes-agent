@@ -1,14 +1,142 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased fresh, unbranded vegetables across eight independent dates. The basket consistently features staple produce for immediate meal preparation, including onions, baby potatoes, carrots, and coriander leaves. While individual items appear frequently, no single brand or specific product variant recurs on 2 or more independent dates to meet the threshold for a stable preference claim. Daypart activity is observed in the morning, afternoon, and night, with no single daypart dominating sufficiently to establish a stable routine based on the provided evidence.",
-  "stable_preference_claims": [],
+  "summary_text": "In March 2026, the user purchased fresh, unbranded vegetables across eight independent dates. The core cooking staples Onion, Baby Potato, and Coriander Leaves appeared on four or more dates, indicating high-confidence stable preferences. Carrot, Beetroot, Lemon, Local Tomato, Sweet Potato, French Beans, Mint Leaves, Green Capsicum, Cluster Beans, and Brinjal Bharta appeared on two dates, indicating medium-confidence stable preferences. The morning daypart was the most frequent ordering window, appearing on four independent dates. Other dayparts (afternoon, evening, night) appeared on single dates.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "Onion",
+      "claim_text": "The user ordered Onion on 5 independent dates (2026-03-04, 2026-03-11, 2026-03-17, 2026-03-25, 2026-03-27).",
+      "confidence": "high",
+      "evidence_count": 5,
+      "independent_date_count": 5
+    },
+    {
+      "dimension": "product",
+      "value": "Baby Potato",
+      "claim_text": "The user ordered Baby Potato on 4 independent dates (2026-03-04, 2026-03-16, 2026-03-21, 2026-03-27).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Coriander Leaves",
+      "claim_text": "The user ordered Coriander Leaves on 4 independent dates (2026-03-04, 2026-03-21, 2026-03-25, 2026-03-27).",
+      "confidence": "high",
+      "evidence_count": 4,
+      "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Carrot",
+      "claim_text": "The user ordered Carrot (including red carrots) on 3 independent dates (2026-03-15, 2026-03-17, 2026-03-25).",
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Beetroot",
+      "claim_text": "The user ordered Beetroot on 2 independent dates (2026-03-15, 2026-03-21).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Lemon",
+      "claim_text": "The user ordered Lemon on 2 independent dates (2026-03-15, 2026-03-21).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Local Tomato",
+      "claim_text": "The user ordered Local Tomato on 2 independent dates (2026-03-15, 2026-03-27).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Sweet Potato",
+      "claim_text": "The user ordered Sweet Potato on 2 independent dates (2026-03-16, 2026-03-21).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "French Beans",
+      "claim_text": "The user ordered French Beans on 2 independent dates (2026-03-17, 2026-03-21).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Mint Leaves",
+      "claim_text": "The user ordered Mint Leaves on 2 independent dates (2026-03-21, 2026-03-27).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Green Capsicum",
+      "claim_text": "The user ordered Green Capsicum on 2 independent dates (2026-03-15, 2026-03-21).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Cluster Beans",
+      "claim_text": "The user ordered Cluster Beans on 2 independent dates (2026-03-21, 2026-03-27).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Brinjal Bharta",
+      "claim_text": "The user ordered Brinjal Bharta on 2 independent dates (2026-03-21, 2026-03-27).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Unidentified Vegetable",
+      "claim_text": "The user ordered an unidentified vegetable item on 2 independent dates (2026-03-21, 2026-03-27).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "temporal_patterns": [],
   "trend_claims": [
     {
-      "claim_text": "The user purchased fresh, unbranded vegetables on 8 independent dates in March 2026, indicating consistent engagement with this category.",
-      "confidence": "high"
+      "claim_text": "The user ordered vegetables in the night on 2026-03-11, a timing less common than the population baseline (night share 0.1202 vs. morning 0.3246).",
+      "confidence": "low"
     }
   ],
-  "uncertainty_text": "No single product, brand, or variant appears on 2 or more independent dates; therefore, no stable preferences can be established. Daypart patterns are fragmented across morning, afternoon, and night, preventing the identification of a stable shopping routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "While Onion, Baby Potato, and Coriander Leaves show stable preference, other products appeared on only one or two dates. No brand preferences can be inferred as all items were unbranded.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 8,
+    "purchase_dates": [
+      "2026-03-04",
+      "2026-03-11",
+      "2026-03-15",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-21",
+      "2026-03-25",
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

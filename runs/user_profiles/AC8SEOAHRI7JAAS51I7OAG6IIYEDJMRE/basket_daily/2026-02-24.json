@@ -1,23 +1,32 @@
 {
   "date": "2026-02-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-24 (weekday), a single order was placed during the morning daypart. The basket contained one unit of Paneer Tofu and one unit of Breads. There were no abandoned carts. The combination of these items is compatible with a basic meal preparation need involving a protein source and a carbohydrate base. This analysis is based on a single observed order on one independent date; no durable preferences, routines, or stable patterns can be inferred.",
+  "summary_text": "On 2026-02-24 (weekday), a single order was placed in the morning. The basket contained one unit of Paneer Tofu and one unit of Breads. This combination is compatible with a breakfast or light meal preparation need. No other products were purchased in this order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
-        "Paneer Tofu"
+        "Paneer Tofu",
+        "Breads"
       ],
-      "combination_text": "Breads and Paneer Tofu were purchased together in this single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "combination_text": "Paneer Tofu and Breads were purchased together in a single order.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing a simple meal or snack requiring a protein source (Paneer Tofu) and a carbohydrate base (Breads).",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable preferences, routines, or stable patterns can be inferred. The `category_pair_evidence` provided describes population-level co-ordering statistics and does not reflect this specific user's history or intent beyond this single transaction.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Paneer Tofu and Breads is compatible with a breakfast or quick meal preparation need.",
+  "uncertainty_text": "This behavior is based on a single order on one date. Stable preferences or routine behaviors cannot be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T07:17:40",
+    "last_seen_at": "2026-02-24T07:17:40"
+  }
 }

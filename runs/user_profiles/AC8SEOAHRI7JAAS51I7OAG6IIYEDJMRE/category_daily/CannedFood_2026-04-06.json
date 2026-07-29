@@ -1,9 +1,23 @@
 {
   "date": "2026-04-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-06 (weekday), the user purchased 2 units of Del Monte Baked Beans 450 g during the morning. This purchase occurred during a period of above-baseline activity (32.5% share). The product is a shelf-stable, ready-to-eat pantry item suitable for quick meal components or backup sides. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-06, a weekday, the user purchased Del Monte Baked Beans 450 g (quantity: 2) during the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a shelf-stable, ready-to-heat pantry item, suggesting a need for a convenient meal component or backup food source. This is a single observation on one date; it is not yet established whether this represents a stable preference for Del Monte brand, baked beans specifically, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Del Monte Baked Beans 450 g (quantity: 2) on 2026-04-06. Purchased in the morning on a weekday. The timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a shelf-stable, ready-to-heat pantry item, suggesting a need for a convenient meal component or backup food source. This is a single observation on one date. It is not yet established whether this represents a stable preference for Del Monte brand, baked beans specifically, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Del Monte brand, baked beans specifically, or morning shopping habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-06"
+    ],
+    "first_seen_at": "2026-04-06T09:51:49",
+    "last_seen_at": "2026-04-06T09:51:49"
+  }
 }

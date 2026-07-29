@@ -1,40 +1,27 @@
 {
-  "category": "Honey",
-  "profile_text": "A single observed purchase of Patanjali Pure Honey 250 g on a weekday morning in March 2026. This isolated event does not establish a stable brand preference, recurring cadence, or routine. The user may be using this as a ready-to-use sweetener for beverages or breakfasts, but no durable habit is confirmed.",
-  "brand_preferences": [
-    {
-      "brand": "Patanjali",
-      "preference_text": "Observed in a single order; insufficient evidence to establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Patanjali Pure Honey 250 g observed in a single order; insufficient evidence to establish a stable product preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Honey",
+  "summary_text": "In March 2026, the user ordered one unit of Patanjali Pure Honey 250 g on a weekday morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small-pack honey item typically used as a sweetener or pantry staple. This is a single observation on one date.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. It is unknown whether the user would accept other honey brands, different pack sizes, or alternative sweeteners.",
+  "uncertainty_text": "This category is based on a single observation from March 2026. It is not yet established whether this represents a stable preference for the Patanjali brand, the 250 g pack size, or a one-time purchase. No recurring patterns or brand loyalty can be confirmed.",
+  "retrieval_text": "In March 2026, the user purchased one unit of Patanjali Pure Honey 250 g on a weekday morning, a timing consistent with the population baseline where morning accounts for 32.46% of activity. This small-pack honey item is typically used as a sweetener or pantry staple. As this is a single observation, it is not yet established whether this represents a stable preference for the Patanjali brand, the 250 g pack size, or a one-time purchase, and no substitution preferences or recurring patterns can be confirmed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-03-30",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established from a single observation; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Honey yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase in the observed instance.",
-  "substitution_text": "No evidence of substitution behavior from a single order.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior from a single order.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Immediate pantry replenishment or use as a sweetener for beverages and breakfasts.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-03-30T10:54:46",
+    "last_seen_at": "2026-03-30T10:54:46"
+  }
 }

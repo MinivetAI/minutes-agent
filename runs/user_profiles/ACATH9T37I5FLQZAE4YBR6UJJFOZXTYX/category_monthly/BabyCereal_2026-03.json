@@ -1,18 +1,36 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Nestlé CERELAC infant cereals on three independent dates (2026-03-17, 2026-03-21, 2026-03-27). The brand Nestlé CERELAC appears on all three dates, establishing a stable preference. The user bought the Wheat Apple Carrot variant on two separate dates (03-17 and 03-27) and a multi-pack containing Ragi Apple and Rice Vegetables variants on one date (03-21). While the brand is stable, the specific flavor variants are not repeated on independent dates (Wheat Apple Carrot appears twice, but Ragi Apple and Rice Vegetables appear only once each in this month's data). Therefore, only the brand level meets the repetition bar for stable preference. The user purchased in the morning on one weekday and in the afternoon on one weekday and one weekend, showing no consistent daypart pattern across independent dates.",
+  "summary_text": "In March 2026, the user purchased baby cereal on three independent dates. The brand Nestlé CERELAC appeared on all three dates (2026-03-17, 2026-03-21, 2026-03-27), establishing a stable preference for this brand. Specifically, the variant 'Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g)' was purchased on two independent dates (2026-03-17 and 2026-03-27), meeting the threshold for a stable product preference. The variant 'Nestle Cerelac Ragi Apple Baby Food Cereal (300 g)' and 'Nestle Cerelac Rice Vegetables Baby Food Cereal (300 g)' were each purchased on a single date (2026-03-21) and are excluded from stable lists. Purchases occurred on both weekdays and weekends, and in both morning and afternoon dayparts, indicating no stable daypart pattern. The user's behavior suggests a reliance on Nestlé CERELAC products for infant complementary feeding, with a specific stable preference for the Wheat Apple Carrot variant.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Nestlé CERELAC",
-      "claim_text": "The user has a stable preference for Nestlé CERELAC infant cereals, evidenced by purchases on 3 independent dates in March 2026.",
+      "claim_text": "The user has a stable preference for the Nestlé CERELAC brand, observed on 3 independent dates in March 2026.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
+    },
+    {
+      "dimension": "product",
+      "value": "Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g)",
+      "claim_text": "The user has a stable preference for Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g), observed on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Specific flavor preferences (Wheat Apple Carrot, Ragi Apple, Rice Vegetables) cannot be established as stable because they do not recur on 2 or more independent dates. The Wheat Apple Carrot variant appears on two dates, but the other variants appear only once. Daypart preferences are inconsistent across the month.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the brand Nestlé CERELAC is stable, specific product variants other than the Wheat Apple Carrot type were only observed once. The user's broader category habits beyond these specific items remain undefined.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-03-17",
+      "2026-03-21",
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-17T07:31:13",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

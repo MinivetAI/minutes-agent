@@ -1,29 +1,83 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, three independent orders were placed, all occurring during the morning daypart on weekdays and weekends. The user consistently purchased fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) across multiple dates. A single order included baby food (Baby Cereal), while another included ready meals and jaggery. No stable category combinations or daypart behaviors can be confirmed as durable preferences due to the low number of independent dates (3 total, but only 2 share the core Milk/Vegetables/Curd Yogurt pattern, and even that is limited to 2 dates). Abandonment patterns are not included in the stable list as no categories were abandoned across independent dates.",
+  "summary_text": "Across three independent dates in July 2026, the user placed single orders on 2026-07-02 (weekday morning), 2026-07-04 (weekend morning), and 2026-07-08 (weekday morning). All orders occurred in the morning daypart. The basket consistently included fresh produce (Vegetables) and dairy (Milk, Curd Yogurt). On 2026-07-04, Baby Cereal was also present. On 2026-07-08, the basket was narrower, containing a ready meal, vegetables, and jaggery. Due to the low number of independent dates (3), stable routine claims are limited to the morning daypart and the consistent presence of vegetables and dairy across all dates. Other category combinations appear only once or twice and do not yet support high-confidence routine claims.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
+  "category_combination_patterns": [
     {
-      "claim_text": "Vegetables were purchased in all three independent orders (2026-07-02, 2026-07-04, 2026-07-08).",
-      "confidence": "medium"
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together on 2026-07-02 and 2026-07-04.",
+      "support": 0.525,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "claim_text": "Milk was purchased in two independent orders (2026-07-02, 2026-07-04).",
-      "confidence": "medium"
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together on 2026-07-02 and 2026-07-04.",
+      "support": 0.443,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "claim_text": "Curd Yogurt was purchased in two independent orders (2026-07-02, 2026-07-04).",
-      "confidence": "medium"
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together on 2026-07-02 and 2026-07-04.",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "claim_text": "All three orders occurred during the morning daypart.",
-      "confidence": "medium"
+      "categories": [
+        "ready_meal",
+        "vegetables",
+        "jaggery"
+      ],
+      "combination_text": "Ready meal, vegetables, and jaggery were purchased together on 2026-07-08.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together on 2026-07-04.",
+      "support": 0.246,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "shopping_need_text": "The user demonstrates a recurring need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt) across multiple shopping instances. Additional needs include breakfast components (Poha, Grains Millets) and baby food (Baby Cereal) in specific instances.",
-  "uncertainty_text": "This analysis is based on only three independent dates. While Vegetables, Milk, and Curd Yogurt appear in multiple orders, the sample size is insufficient to establish high-confidence stable routines or predict future behavior with certainty. The presence of Baby Cereal in only one order and Ready Meals/Jaggery in another prevents these from being classified as stable patterns. The consistent morning daypart timing is noted but based on a small sample.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "shopping_need_text": "The user consistently purchases fresh produce (Vegetables) and dairy (Milk, Curd Yogurt) in the morning. On 2026-07-04, baby essentials (Baby Cereal) were included, suggesting a need for family or infant nutrition. On 2026-07-08, the need shifted to immediate meal completion (ready meal) with specific flavor components (jaggery).",
+  "uncertainty_text": "With only three independent dates, durable preferences for specific brands or non-daily items (like ready meals or baby cereal) cannot be established. The consistency is limited to the morning daypart and the general categories of vegetables and dairy.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-07-02",
+      "2026-07-04",
+      "2026-07-08"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

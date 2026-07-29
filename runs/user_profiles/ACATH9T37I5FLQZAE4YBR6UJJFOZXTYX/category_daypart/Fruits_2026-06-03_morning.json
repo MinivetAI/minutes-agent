@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 250 g pack of Unbranded Litchi Without Stems. The product is a fresh, stemless fruit pack positioned for convenient, immediate consumption.",
+  "summary_text": "One order of Litchi Without Stems 250 g (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The item serves as a fresh, ready-to-eat snack or fruit component.",
-  "uncertainty_text": "This is a single observation on one date; no durable preferences, brand loyalty, or routine habits can be established. The specific reason for choosing litchi (e.g., seasonal craving, guest preparation, or personal preference) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a daypart where the user's activity aligns with the population baseline (32.46% of orders). The product is a fresh, ready-to-eat fruit item, suggesting a need for immediate consumption or a light snack.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for litchi, fresh fruits, or morning shopping habits. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

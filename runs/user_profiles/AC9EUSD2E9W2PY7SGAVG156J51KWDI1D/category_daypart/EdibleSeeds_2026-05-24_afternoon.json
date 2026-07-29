@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 200 g pack of Bolas Raw Chia Seeds, a raw, unflavored edible seed product intended for pantry use as a topping, soak-in ingredient, or mix-in for breakfasts and recipes.",
+  "summary_text": "One order of Bolas Raw Chia Seeds (200 g) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekend afternoon, a time when population activity is lower than the morning baseline (0.2526 vs 0.3246) but higher than the night baseline (0.1202). The product is a general-purpose pantry staple for home cooking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for this purchase (e.g., meal prep, stockout, or recipe requirement) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less prevalent than evening (0.3027) or morning (0.3246). The product is a pantry-style edible seed typically used as a topping or ingredient for breakfasts and recipes.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for chia seeds, the Bolas brand, or weekend afternoon shopping habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T11:56:57",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

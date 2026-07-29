@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased one 1 kg box of Bikano Royal Rasgulla, a packaged Indian sweet, during the morning on a weekday. This purchase aligns with the morning daypart, which has a population share of 32.46% for the Sweets Mithai category. The product is a ready-to-serve confection typically used for immediate consumption, such as for guests, celebrations, or as a dessert. This is a single observation on one date; it does not establish a recurring habit or stable brand preference. The specific occasion or reason for the purchase is unknown.",
+  "summary_text": "On 2026-03-02 (weekday), one order of Bikano Royal Rasgulla Box (1 kg) was placed in the morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity. The product is a ready-to-serve packaged Indian sweet, suitable for immediate consumption, gifting, or festive occasions. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, this specific product, or morning purchasing habits for sweets. No repeat evidence exists to confirm routine or brand loyalty.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a recurring habit or stable brand preference. The specific occasion or reason for the purchase is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific product, or morning purchasing habits for sweets. No repeat evidence exists to confirm routine or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:41:54",
+    "last_seen_at": "2026-03-02T09:41:54"
+  }
 }

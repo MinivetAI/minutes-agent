@@ -1,26 +1,27 @@
 {
-  "category": "Savouries Namkeens",
-  "profile_text": "The user demonstrates a fast-paced replenishment cycle for savouries namkeens, with purchases occurring approximately every 6.5 days. Recent behavior is characterized by high variety and exploratory purchasing rather than brand loyalty. In March 2026, the user made four distinct purchases across different brands (Haldiram's, Bikano, Khari Foods) and product types (traditional fried snacks, roasted makhana), indicating a preference for diverse snacking options or specific product needs rather than a single staple. The most recent purchase in April 2026 was a small, portioned pack of Farmley Tangy Tomato Roasted Makhana, aligning with evening snacking habits. No single brand or product has been repeated enough to establish a stable preference.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Savouries Namkeens",
+  "summary_text": "The user has purchased Savouries Namkeens across four months (Jan–Apr 2026), with a concentration of activity in March 2026 (four independent orders). Purchases span multiple brands (Haldiram's, Bikano, Khari Foods, Farmley) and product types (Boondi, Khatta Meetha, Aloo Lachha, All In One, Pudina Makhana Pops, Tangy Tomato Roasted Makhana). No single brand or product has been repeated on more than one independent date, preventing the establishment of a stable brand or product preference. Daypart activity occurs in afternoons and evenings, aligning with population baselines.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased a wide variety of savoury snacks from different brands (Haldiram's, Bikano, Khari Foods, Farmley) and formats (traditional namkeens, makhana pops). This suggests openness to substituting between traditional namkeens and modern roasted snacks, or between different brands within the same format. However, no specific brand is preferred enough to rule out others.",
+  "uncertainty_text": "No stable brand, product, or pack size preference can be established because no value has appeared on more than one independent date. It is unknown whether the user has a preferred brand or if they are exploring the category. The specific need (e.g., tea-time snack vs. pantry stocking) is not determined. Cadence and replenishment timing cannot be calculated from this evidence.",
+  "retrieval_text": "User purchased Savouries Namkeens in Jan, Feb, Mar, and Apr 2026. March 2026 had four distinct orders: Bikano Aloo Lachha, Haldiram's All In One, Haldiram's Khatta Meetha, and Khari Foods Pudina Makhana Pops. Jan had Haldiram's Boondi. Feb had Haldiram's Khatta Meetha. Apr had Farmley Tangy Tomato Roasted Makhana. No brand or product repeated across independent dates. Purchases occurred on weekdays and weekends, in afternoons and evenings. No stable preference identified.",
   "replenishment": {
     "cadence_days": 6.5,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-04-08",
     "predicted_next_purchase_date": "2026-04-14",
-    "replenishment_text": "The user typically purchases this category every 6.5 days, classified as a fast replenishment cycle.",
-    "confidence": "medium",
-    "evidence_count": 7,
-    "independent_date_count": 7
+    "replenishment_text": "SavouriesNamkeens is reordered roughly every 6 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by seven completed transactions across independent dates.",
-  "substitution_text": "The user frequently substitutes brands and product types (e.g., switching between Haldiram's, Bikano, Khari Foods, and Farmley), indicating high openness to substitution based on variety, format, or specific flavor needs.",
-  "price_value_text": "The user purchases a range of pack sizes, from small 20 g portioned packs (Farmley) to standard 200 g packs (Haldiram's), suggesting flexibility in price points and pack sizes based on immediate snacking needs.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific brands or products are avoided. The lack of repeated brand purchases suggests no strong brand loyalty, but rather a preference for variety or specific product attributes (e.g., roasted vs. fried, specific flavors).",
-  "mission_generation_text": "Supports regular, frequent snacking needs, including portioned immediate consumption (evening snacks) and diverse traditional or alternative snack options (fried namkeens, roasted makhana).",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 7,
+    "independent_date_count": 7,
+    "first_seen_at": "2026-01-30T13:30:25",
+    "last_seen_at": "2026-04-08T16:16:45"
+  }
 }

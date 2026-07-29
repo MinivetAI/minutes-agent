@@ -1,15 +1,23 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-15 (weekday), the user placed one order of Campa Cola PET Plastic Bottle 500 ml (1 unit) in the morning. This occurred during a time when the user's activity is above the population baseline (32.46%). The product is a single-serve carbonated cola beverage, typically used for immediate refreshment or meal pairing. This is a single observation on one date; it does not establish a stable preference or routine for aerated drinks or the Campa brand.",
+  "summary_text": "On 2026-06-15 (weekday), the user ordered one Campa Cola PET Plastic Bottle 500 ml in the morning. This single-serve carbonated cola beverage aligns with the population baseline where morning accounts for 32.46% of activity, suggesting a timing compatible with immediate refreshment or meal pairing. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product, or morning timing, or if it was an isolated impulse purchase.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One order of Campa Cola PET Plastic Bottle 500 ml (1 unit) placed in the morning. This occurred during a time when the user's activity is above the population baseline (32.46%). The product is a single-serve carbonated cola beverage, typically used for immediate refreshment or meal pairing.",
+      "pattern_text": "One order of Campa Cola PET Plastic Bottle 500 ml. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a single-serve carbonated cola beverage, suitable for immediate refreshment or meal pairing.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for aerated drinks or the Campa brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or morning timing, or if it was an isolated impulse purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

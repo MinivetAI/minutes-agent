@@ -1,7 +1,7 @@
 {
   "date": "2026-05-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-26, a weekday, a single order was placed in the evening. The basket contained three distinct items from the Ice Creams category (ICEHHHCZHKTF3HQJ, ICEHBDZ2YHKYNTNX, ICEHAHKTCPAKSZX8), with a quantity of 1 for each. The order-building behavior was narrow, focusing exclusively on ice cream products. No other categories were purchased in this order. The shopping need is compatible with a desire for ice cream treats. This is a single observation on one date; durable preferences cannot be inferred.",
+  "summary_text": "On 2026-05-26 (weekday), a single order was placed in the evening. The basket contained three items, all from the Ice Creams category (ICEHHHCZHKTF3HQJ, ICEHBDZ2YHKYNTNX, ICEHAHKTCPAKSZX8), with one unit of each. This represents a single-observation event; no durable preference or routine can be inferred from this isolated transaction. The order may reflect a simple need for ice cream.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -10,14 +10,23 @@
         "Ice Creams",
         "Vegetables"
       ],
-      "combination_text": "Ice Creams and Vegetables",
+      "combination_text": "Ice Creams and Vegetables were co-ordered in this window.",
       "support": 0.037,
       "lift": null,
-      "confidence": "low"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Desire for ice cream treats.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may have a need for ice cream.",
+  "uncertainty_text": "This is a single observation on one date. No stable patterns, preferences, or routines can be established from this isolated order. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-26"
+    ],
+    "first_seen_at": "2026-05-26T20:29:04",
+    "last_seen_at": "2026-05-26T20:29:04"
+  }
 }

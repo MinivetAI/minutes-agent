@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning included one unit of sugar, two units of curd yogurt, one unit of wheat flour, two units of spices masala, and one unit of vegetables. The basket reflects a basic set of pantry staples and fresh ingredients compatible with home cooking needs.",
+  "basket_summary_text": "A single order placed on a weekend morning containing staples and fresh items. The basket includes Sugar, Wheat Flour, and two units of Spices Masala, alongside two units of Curd Yogurt and Vegetables. This combination suggests a need for preparing home-cooked meals or breakfast items that require basic ingredients and fresh components.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,11 +12,20 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.114,
       "lift": null,
-      "confidence": "low"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of sugar, curd yogurt, wheat flour, spices, and vegetables is compatible with preparing a home-cooked meal or breakfast items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Preparation of home-cooked meals or breakfast items requiring basic staples and fresh ingredients.",
+  "uncertainty_text": "This is a single observation from one independent date. Stable preferences or routine behaviors cannot be inferred from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

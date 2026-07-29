@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 500 g pack of Baby Banana Robusta, one 250 g pack of Crimson Red Seedless Grapes, one 500 g pack of Green Seedless Grapes, and one unit of Watermelon Kiran.",
+  "summary_text": "One order of fresh fruits placed on a weekend evening, containing Baby Banana Robusta (500 g), Crimson Red Seedless Grapes (250 g), Green Seedless Grapes (500 g), and Watermelon Kiran (1 unit).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed in the evening on a weekend, a time when population activity is high (30.27% share). The products are fresh, ready-to-eat fruits, suggesting a need for immediate consumption, snacking, or quick household replenishment rather than bulk stocking.",
-  "uncertainty_text": "No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is unclear if this represents a one-time need or a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening on a weekend. This timing aligns with the population baseline for evening shopping (30.27%), which is comparable to the morning share (32.46%) and higher than afternoon (25.26%) or night (12.02%). The products are fresh, perishable fruits typically used for immediate consumption, such as snacks, desserts, or quick replenishment of household fruit supplies.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user has a stable preference for these specific fruits, brands (all unbranded), or this specific evening weekend timing. No repeat purchases or independent date evidence is available to confirm routine behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T20:53:08",
+    "last_seen_at": "2026-03-21T20:53:08"
+  }
 }

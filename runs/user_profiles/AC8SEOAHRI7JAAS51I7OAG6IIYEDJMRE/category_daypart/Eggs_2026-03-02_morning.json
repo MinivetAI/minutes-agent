@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 6-unit pack of Hen Fruit white chicken eggs.",
+  "summary_text": "One order of Hen Fruit Protein Max White Eggs (6 Units) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when this category has a 32.46% population share. The product is a basic fresh egg pack suitable for immediate cooking or breakfast needs.",
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time when this user's purchasing activity is below the population baseline (32.46%). The product is a standard fresh egg pack, typically used for immediate breakfast or cooking needs.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for the Hen Fruit brand, the 6-unit pack size, or a consistent morning weekday shopping routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-02T09:36:38"
+  }
 }

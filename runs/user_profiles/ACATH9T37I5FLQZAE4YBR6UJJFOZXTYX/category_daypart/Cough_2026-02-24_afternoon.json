@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 25-tablet pack of VICKS Double Power Cough Drops Warming Ginger, a throat-soothing lozenge for quick, on-the-go relief of cough or throat irritation.",
+  "summary_text": "One order of VICKS Double Power Cough Drops Warming Ginger (25 tablets) on 2026-02-24.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Bought in the afternoon on a weekday, a time when the user's activity (25.26% share) is below the population average for this category (30.27% evening, 32.46% morning), suggesting a non-routine, immediate need for portable symptom relief rather than a scheduled or peak-time purchase.",
-  "uncertainty_text": "Single observation does not establish a stable preference for VICKS brand or lozenge format over other cough remedies; no browsing or search history is available to determine if this was a planned or impulsive purchase.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon on a weekday. This timing aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The product is a portable, fast-acting lozenge typically used for immediate throat soothing during the day.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for VICKS brand, ginger flavor, or afternoon purchasing habits. No other cough-related purchases are recorded in this window to confirm routine or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

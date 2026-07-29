@@ -1,40 +1,34 @@
 {
-  "category": "Oats",
-  "profile_text": "The user has purchased oats on two independent dates (March 11, 2026, and April 2026). Both orders were for Quaker brand plain wholegrain oats in 400 g pouches. The March purchase occurred at night, while the April purchase was on a weekend afternoon. As there is no evidence of repeated search, view, or cart activity without purchase, this is not a discovery candidate. The user's cadence is unknown based on the two observed dates.",
-  "brand_preferences": [
-    {
-      "brand": "Quaker",
-      "preference_text": "Quaker is the only brand observed in this category, appearing on two independent dates (March 11, 2026, and April 2026).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Quaker Oats Pouch 400 g (plain wholegrain oats) was purchased on two independent dates.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Oats",
+  "summary_text": "The user has purchased Quaker Oats Pouch 400 g on two independent dates (March 11, 2026, and a weekend in April 2026). Both orders were for the same brand, product, and pack size. The first was a night-time weekday purchase; the second was an afternoon weekend purchase. As there are only two observations, stable brand or timing preferences are not yet established, but the repetition of the exact same SKU suggests a specific product need rather than a broad category exploration.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Quaker",
+        "preference_text": "Quaker brand oats have been purchased on two independent dates.",
+        "confidence": "medium",
+        "boundary_text": "This preference is limited to the specific Quaker Oats Pouch 400 g observed; it does not extend to other Quaker products or other oat brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The user has consistently selected the same specific SKU (Quaker Oats Pouch 400 g) across two months, suggesting a specific product requirement rather than a flexible category need.",
+  "uncertainty_text": "Confidence is low due to the small number of observations (two independent dates). It is unclear if the night-time and afternoon purchases indicate a flexible shopping window or if one timing is more representative. The stability of this preference beyond the 400g pouch form factor is unknown.",
+  "retrieval_text": "User purchased Quaker Oats Pouch 400 g on two independent dates in March and April 2026, indicating a specific preference for this plain wholegrain oats staple in this pack size, with shopping occurring on both weekday nights and weekend afternoons.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-26",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "The last purchase was on 2026-04-26. Cadence is unknown, so no predicted next purchase date can be established.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Oats yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in completed purchases on two independent dates, indicating reliable conversion from interest to purchase.",
-  "substitution_text": "No substitution behavior observed; only Quaker brand products were purchased.",
-  "price_value_text": "No price or value behavior data available.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Supports breakfast preparation and general cooking needs for pantry staples.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-03-11T22:39:02",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

@@ -1,34 +1,34 @@
 {
-  "category": "Ice Creams",
-  "profile_text": "The user demonstrates a stable preference for the Amul brand, having purchased it on two independent dates in April 2026. They also show interest in Go Zero, with purchases in March and May 2026, though this brand has not yet met the repetition threshold for a stable preference claim. Purchases occur across evening, night, and afternoon dayparts, with a cadence of approximately 18 days. The user buys various pack sizes, including single-serve cups and 500 ml or 1 L tubs, indicating flexible consumption occasions from immediate indulgence to household supply.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "The user has purchased Amul ice cream on two independent dates (2026-04-12 and 2026-04-30), indicating a stable preference for this brand.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 18.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-05-03",
-    "predicted_next_purchase_date": "2026-05-21",
-    "replenishment_text": "The user typically purchases ice cream every 18 days, with the next purchase estimated around 2026-05-21.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Ice Creams",
+  "summary_text": "The user has purchased ice cream across March, April, and May 2026. A stable preference for the Amul brand is established based on purchases on two independent dates in April (2026-04-12 and 2026-04-30). Other brands (Go Zero) and specific products were observed on single dates and do not constitute stable preferences. Ordering timing varies between evening, night, and afternoon.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user has ordered Amul ice cream products on two independent dates in April 2026, indicating a stable preference for this brand.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Amul brand and does not extend to other brands such as Go Zero, which were also purchased but on single dates."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions across different months.",
-  "substitution_text": "The user substitutes between brands (Amul, Go Zero) and flavors, suggesting flexibility rather than strict brand loyalty for non-Amul items.",
-  "price_value_text": "The user purchases both premium variants (e.g., Amul Tiramisu Gold, Cookies & Cream Gold) and 'Guilt Free' options (Go Zero), indicating value sensitivity varies by product type or occasion.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific avoidance behaviors identified. Go Zero appears on two dates but lacks the repetition required for a stable preference claim in this profile's strict definition, though it is a supported brand.",
-  "mission_generation_text": "Shopping needs supported by this category include immediate evening indulgences, weekend treats, and household frozen dessert supplies for regular consumption.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased both Amul and Go Zero brands. The stable preference for Amul suggests it is the primary choice, while Go Zero purchases (March and May) indicate it is an acceptable alternative or occasional substitute, though not yet a stable preference.",
+  "uncertainty_text": "Specific product variants (e.g., Tiramisu Gold, Cookies & Cream Gold, Mango Mad Over) and pack sizes (100 ml cup, 500 ml tub, 1 L tub) were observed only once each and cannot be confirmed as stable preferences. The user's ordering daypart varies (evening, night, afternoon), so no single stable daypart can be established. It is unknown if the user prefers specific flavors or if the Amul preference extends to all Amul ice cream products.",
+  "retrieval_text": "The user demonstrates a stable medium-confidence preference for the Amul brand in the Ice Creams category, evidenced by purchases on two independent dates in April 2026 (Amul Tiramisu Gold and Amul Cookies & Cream Gold). While Go Zero products were also purchased in March and May, these were single-observation events and do not form a stable brand preference. Specific product variants, flavors, and pack sizes have not been repeated enough to establish stable preferences. Ordering timing is variable, occurring in the evening, night, and afternoon, with no single dominant daypart pattern confirmed.",
+  "replenishment": {
+    "cadence_days": 18,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-05-21",
+    "replenishment_text": "IceCreams is reordered roughly every 18 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-03-16T16:39:47",
+    "last_seen_at": "2026-05-03T12:34:44"
+  }
 }

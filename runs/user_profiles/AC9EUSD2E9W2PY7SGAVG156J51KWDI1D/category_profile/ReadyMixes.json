@@ -1,40 +1,27 @@
 {
-  "category": "Ready Mixes",
-  "profile_text": "The user has a single observed purchase of a chicken biryani ready mix. This isolated transaction suggests a need for convenient meal assembly for a traditional dish but does not establish a stable brand or product preference.",
-  "brand_preferences": [
-    {
-      "brand": "Suhana",
-      "preference_text": "Suhana was observed in one purchase on 2026-06-01. A single observation does not establish a stable preference.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Suhana Chicken Biryani Mix (50 g) was purchased once on 2026-06-01. A single observation does not establish a stable preference.",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Ready Mixes",
+  "summary_text": "In February and June 2026, the user placed single, isolated orders of Suhana Chicken Biryani Mix (50 g) on weekday mornings. No stable preferences, recurring patterns, or brand loyalty are established due to the lack of repetition across independent dates.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. The user has not demonstrated a pattern of switching between brands or product types within this category.",
+  "uncertainty_text": "This category is based on two isolated observations (one in Feb 2026, one in Jun 2026) of the same product. It is unknown if the user has a stable preference for Suhana brand, Chicken Biryani Mix specifically, or morning purchasing habits. The single-observation nature of each monthly window prevents establishing any durable preference or routine.",
+  "retrieval_text": "User purchased Suhana Chicken Biryani Mix (50 g) on a weekday morning in both February and June 2026. These are isolated observations with no established routine, brand loyalty, or substitution pattern. Confidence is low due to lack of repetition.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-01",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence data is available to predict a next purchase date.",
-    "confidence": "low",
-    "evidence_count": 0,
-    "independent_date_count": 0
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for ReadyMixes yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion when the need arises.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior is evident from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior is observed.",
-  "mission_generation_text": "Convenient meal assembly for traditional dishes with minimal prep effort.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-06-01T09:14:21"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-03-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-02 (weekday), the user purchased one 300 g loaf of Naturbaked Zero Maida Whole Wheat Bread during the morning. This product is a packaged whole wheat bread, typically used for quick breakfasts, toast, or sandwiches. This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
+  "summary_text": "On 2026-03-02 (weekday), the user ordered Naturbaked Zero Maida Whole Wheat Bread (300 g) in the morning. This daypart accounts for 32.46% of the user's bread purchases, which is above the population baseline. The product serves as a ready-to-use breakfast or snack base, such as for toast or sandwiches. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 300 g loaf of Naturbaked Zero Maida Whole Wheat Bread during the morning on a weekday. The order occurred in the morning, a period where this user's activity is 32.46% of their total (population baseline).",
+      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread (300 g) placed in the morning on a weekday. The order occurred in the morning, a daypart where this user's category share (32.46%) is above the population baseline. The product serves as a ready-to-use breakfast or snack base, such as for toast or sandwiches.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-02"
+    ],
+    "first_seen_at": "2026-03-02T09:36:38",
+    "last_seen_at": "2026-03-02T09:36:38"
+  }
 }

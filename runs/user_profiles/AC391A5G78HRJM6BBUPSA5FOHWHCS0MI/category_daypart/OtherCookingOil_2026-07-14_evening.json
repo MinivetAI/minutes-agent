@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 750 g pouch of Fortune Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil during the evening on a weekday.",
+  "summary_text": "One order placed on 2026-07-14 in the evening containing one 750 g pouch of Fortune Soya Health Refined Soyabean Oil and one 1 L pouch of Dhara Kachi Ghani Mustard Oil.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The products are standard all-purpose cooking oils (soyabean and mustard) in convenient pouch formats, typically used for immediate kitchen replenishment or same-day meal prep.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific brands or oil types.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening, which aligns with the population baseline where evening accounts for 30.27% of activity (compared to 32.46% in the morning). The products are standard cooking oils in pouch formats, typically used for immediate kitchen replenishment or same-day meal prep.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers these specific brands (Fortune, Dhara) or oil types (soyabean, mustard) over others, or if this timing reflects a stable routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T16:43:51",
+    "last_seen_at": "2026-07-14T16:43:51"
+  }
 }

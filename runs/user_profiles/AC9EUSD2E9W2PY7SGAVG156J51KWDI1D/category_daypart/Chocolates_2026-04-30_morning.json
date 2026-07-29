@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 3 Nestl\u00e9 Classic Rich & Creamy Milk Treat Bars and 2 Cadbury Dairy Milk Milkinis Bars during a morning weekday session.",
+  "summary_text": "One order of chocolates on 2026-04-30 in the morning, including 3 Nestlé Classic Rich & Creamy Milk Treat Bars and 2 Cadbury Dairy Milk Milkinis Bars.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time with a population share of 0.3246. The products are small, single-serve milk chocolate bars typically used for immediate cravings or quick sweet treats.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand or flavor preferences cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The products are small, single-serve milk chocolate bars typically used for immediate consumption or quick sweet cravings.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for these specific brands, this category, or this morning weekday timing. No repeat purchases or other behavioral patterns are visible in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T08:01:42",
+    "last_seen_at": "2026-04-30T08:01:42"
+  }
 }

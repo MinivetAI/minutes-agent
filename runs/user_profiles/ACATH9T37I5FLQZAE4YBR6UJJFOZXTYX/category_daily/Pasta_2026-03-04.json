@@ -1,9 +1,17 @@
 {
   "date": "2026-03-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-04 (weekday), one order of Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) was placed in the morning. This timing aligns with a period where this category represents 32.46% of population activity. The product is an instant pasta designed for quick preparation, suggesting a need for a convenient, low-effort meal or snack. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "summary_text": "On 2026-03-04 (weekday), the user ordered Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) during the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is an instant pasta designed for quick preparation, suggesting a need for a convenient, low-effort meal or snack. This is a single observation on one date; it is not yet possible to determine if this represents a stable preference, a routine, or a one-time convenience purchase. No brand or product preference can be established from this single instance.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference or routine. No browsing intent was captured to indicate comparison or discovery behavior.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference, a routine, or a one-time convenience purchase. No brand or product preference can be established from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-04"
+    ],
+    "first_seen_at": "2026-03-04T10:11:44",
+    "last_seen_at": "2026-03-04T10:11:44"
+  }
 }

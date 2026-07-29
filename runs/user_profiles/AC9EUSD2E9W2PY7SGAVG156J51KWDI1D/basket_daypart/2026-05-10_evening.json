@@ -1,7 +1,7 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-05-10 in the evening on a weekend. The basket contains seven items across five categories: Milk (2 units), Vegetables (2 units), Breads (1 unit), Noodles (1 unit), and Chips (1 unit). The shopper combined staple food items (Milk, Breads, Vegetables) with convenience or snack items (Noodles, Chips).",
+  "basket_summary_text": "A single order placed on 2026-05-10 in the evening on a weekend. The basket contains seven items across five categories: Milk (2 units), Vegetables (2 units), Breads (1 unit), Noodles (1 unit), and Chips (1 unit). The order-building behavior shows a mix of staple dairy and bread items alongside fresh produce and snack foods. The `shopping_need_text` is compatible with a general household grocery restock or meal preparation need.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,34 +9,47 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
+      "combination_text": "Milk and Vegetables were ordered together.",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Milk"
       ],
-      "combination_text": "Breads and Milk were purchased together in this order.",
+      "combination_text": "Breads and Milk were ordered together.",
       "support": 0.26,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
         "Vegetables"
       ],
-      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "combination_text": "Breads and Vegetables were ordered together.",
       "support": 0.22,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic meal preparation and snacking, compatible with the combination of dairy, produce, grains, and ready-to-eat items.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "General household grocery restock or meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-10"
+    ],
+    "first_seen_at": "2026-05-10T19:01:33",
+    "last_seen_at": "2026-05-10T19:01:33"
+  }
 }

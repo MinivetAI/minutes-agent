@@ -1,7 +1,7 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-02-07 in the evening on a weekend. The basket contains three distinct items: one unit of Aerated Drinks, one unit of Fruit Drinks, and one unit of Rx Medicine. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-02-07 in the evening on a weekend contains one unit each of an aerated drink, a fruit drink, and an Rx Medicine. The basket is narrow, spanning three distinct categories: beverages (Aerated Drinks, Fruit Drinks) and health/pharmacy (Rx Medicine). No durable preference pattern can be established from this single observation. The combination of Aerated Drinks and Vegetables has historical co-order evidence (Support: 0.328, Lift: 1.019), but Vegetables were not present in this specific order, so this combination is not supported by the current basket.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,34 +9,47 @@
         "Aerated Drinks",
         "Fruit Drinks"
       ],
-      "combination_text": "Aerated Drinks and Fruit Drinks were purchased together in this single order.",
+      "combination_text": "Aerated Drinks and Fruit Drinks were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Aerated Drinks",
         "Rx Medicine"
       ],
-      "combination_text": "Aerated Drinks and Rx Medicine were purchased together in this single order.",
+      "combination_text": "Aerated Drinks and Rx Medicine were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Fruit Drinks",
         "Rx Medicine"
       ],
-      "combination_text": "Fruit Drinks and Rx Medicine were purchased together in this single order.",
+      "combination_text": "Fruit Drinks and Rx Medicine were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of beverages and a prescription medication suggests a need for hydration and health management, potentially related to recovery or daily maintenance, compatible with the specific products observed.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or routine. Stable patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of an Rx Medicine suggests a need for health management or treatment. The inclusion of aerated and fruit drinks may indicate a desire for refreshment or hydration, potentially compatible with the health need or a general beverage preference.",
+  "uncertainty_text": "This analysis is based on a single order from one daypart. No stable preferences, routines, or durable behaviors can be inferred. Confidence is low for all behavioral claims.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-07"
+    ],
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-07T18:07:34"
+  }
 }

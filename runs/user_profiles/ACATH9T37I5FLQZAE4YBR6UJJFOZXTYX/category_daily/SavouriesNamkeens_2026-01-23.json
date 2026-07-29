@@ -1,15 +1,23 @@
 {
   "date": "2026-01-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-23 (weekday), the user purchased 2 units of Bikaji Chowpati Bhelpuri 110 g, a packaged Indian savoury snack. This order was observed during the morning, a daypart where this category represents 32.46% of population activity. The product is a ready-to-eat chaat-style mix, typically used for immediate snacking or impulse hunger. This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
+  "summary_text": "On 2026-01-23 (weekday), the user ordered Bikaji Chowpati Bhelpuri 110 g (quantity: 2) in the morning. This category accounts for 32.46% of population activity during morning hours. The products are ready-to-eat savory snacks typically used for quick, immediate consumption. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this morning purchase (e.g., impulse, breakfast accompaniment, or stocking up) cannot be determined from this order alone.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 2 units of Bikaji Chowpati Bhelpuri 110 g, a packaged Indian savoury snack. Observed during the morning on a weekday, a time when this category represents 32.46% of population activity. The product is a ready-to-eat chaat-style mix, typically used for immediate snacking or impulse hunger.",
+      "pattern_text": "One order of Bikaji Chowpati Bhelpuri 110 g (quantity: 2) placed on a weekday morning. This category represents 32.46% of population activity in the morning. The products are ready-to-eat savory snacks typically used for quick, immediate consumption. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this morning purchase (e.g., impulse, breakfast accompaniment, or stocking up) cannot be determined from this order alone.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for this morning purchase (e.g., impulse, breakfast accompaniment, or stocking up) cannot be determined from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-04-12",
   "day_type": "weekend",
-  "summary_text": "On this weekend, a single order of Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) was placed in the afternoon. This product is a single-serve, quick-cook instant pasta, compatible with needs for fast snacks, side dishes, or immediate pantry top-ups. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26%).",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) during the afternoon. This single order aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares. The product's quick-cook nature (ready in ~5 minutes) is compatible with immediate meal or snack needs during this window. This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Maggi Pazzta Cheese Macaroni Instant Pasta (75 g) placed on a weekend afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) shares, but the product's quick-cook nature (ready in ~5 minutes) is compatible with immediate meal or snack needs during this window.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T14:17:36",
+    "last_seen_at": "2026-04-12T14:17:36"
+  }
 }

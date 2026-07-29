@@ -1,9 +1,23 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one 1 kg pack of Aashirvaad Select Atta, a premium whole-wheat flour, during a morning session. This purchase occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a staple cooking ingredient used for preparing rotis. This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user completed one order of Aashirvaad Select Atta (1 kg) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a premium whole-wheat flour variant, typically used for preparing softer rotis. This is a single observation from one date; it is not yet established whether this represents a stable preference for this brand or product size, or if it was a one-time trial or replenishment.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Aashirvaad Select Atta (1 kg) was completed on a weekend morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a premium whole-wheat flour variant, typically used for preparing softer rotis. This is a single observation from one date; it is not yet established whether this represents a stable preference for this brand or product size, or if it was a one-time trial or replenishment.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable preference for this brand or product size, or if it was a one-time trial or replenishment.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:13:33",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

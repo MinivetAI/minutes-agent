@@ -1,23 +1,70 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, shopping activity was observed on three independent dates (2026-02-08, 2026-02-10, 2026-02-14). The user purchased Vegetables on all three dates, establishing a stable, high-confidence pattern for this category. Other categories, including Cookies Biscuits, Savouries Namkeens, Sweets Mithai, Breads, DipsSaucesPastes, Milk, Fruits, CurdYogurt, IceCreams, and SpicesMasala, were purchased only on single dates and do not form stable monthly patterns. Daypart behavior is mixed, with purchases occurring in the afternoon and night on weekends, and in the afternoon on a weekday. No consistent daypart preference can be established from this sparse data.",
+  "summary_text": "In February 2026, the user placed four separate orders across weekdays and weekends. The most consistent behavior is the purchase of Vegetables, which appeared in three independent dates (2026-02-05, 2026-02-10, 2026-02-14). On 2026-02-05, Vegetables were combined with Breads and Dips Sauces Pastes in an afternoon order. On 2026-02-08, the user placed two separate orders: one for Cookies Biscuits in the afternoon and another for Savouries Namkeens and Sweets Mithai at night. No other category combinations or daypart behaviors repeated across independent dates.",
   "stable_daypart_behavior": [],
-  "stable_behavior_patterns": [
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [
     {
-      "behavior_text": "Vegetables",
-      "circumstance_text": "Purchased on 2026-02-08, 2026-02-10, and 2026-02-14.",
-      "confidence": "high"
+      "categories": [
+        "Vegetables"
+      ],
+      "combination_text": "Vegetables were purchased on three independent dates.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 3,
+      "independent_date_count": 3
+    },
+    {
+      "categories": [
+        "Breads",
+        "Vegetables"
+      ],
+      "combination_text": "Breads and Vegetables were purchased together in one order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Dips Sauces Pastes",
+        "Vegetables"
+      ],
+      "combination_text": "Dips Sauces Pastes and Vegetables were purchased together in one order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Sweets Mithai"
+      ],
+      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in one order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Vegetables are a recurring purchase across the month, appearing in every observed order.",
-      "confidence": "high"
-    }
-  ],
-  "shopping_need_text": "Basic vegetable procurement; snack or treat consumption; preparation of vegetable-focused meals.",
-  "uncertainty_text": "Non-vegetable categories (Cookies Biscuits, Savouries Namkeens, Sweets Mithai, Breads, DipsSaucesPastes, Milk, Fruits, CurdYogurt, IceCreams, SpicesMasala) were purchased only on isolated dates. No stable preferences or routines can be inferred for these categories. Daypart and day-type patterns are inconsistent due to limited data points.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "shopping_need_text": "Acquisition of fresh vegetables for meal preparation or consumption. Occasional purchase of baked goods (cookies) and snack items (savouries, sweets).",
+  "uncertainty_text": "Most behaviors are based on single observations. The repeated purchase of Vegetables across three dates supports a medium-confidence pattern for that category, but cross-category routines and other product preferences remain low-confidence due to lack of repetition.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-02-05",
+      "2026-02-08",
+      "2026-02-10",
+      "2026-02-14"
+    ],
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-02-14T11:23:24"
+  }
 }

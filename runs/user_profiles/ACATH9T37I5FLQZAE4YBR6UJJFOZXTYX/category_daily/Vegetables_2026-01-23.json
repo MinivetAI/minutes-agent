@@ -1,9 +1,23 @@
 {
   "date": "2026-01-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-23 (weekday), the user purchased fresh produce staples in the morning, a daypart where their activity is above the population baseline (32.46%). The order included one unit each of Baby Potato (280–320 g), Organic Green Chilli (100 g), and Cleaned Coriander Leaves (without roots). These items are consistent with immediate meal preparation needs, such as cooking, garnishing, or finishing dishes. This is a single observed transaction and does not establish a stable preference or routine for these specific vegetables.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-01-23 (weekday), the user ordered fresh vegetables in the morning. The basket included 1x Baby Potato (280–320 g), 1x Organic Green Chilli (100 g), and 1x Coriander Leaves (cleaned, without roots). Morning orders account for 32.46% of the population baseline, indicating this is a common timing. These items are typically used for immediate meal preparation, such as cooking, garnishing, or adding flavor. This is a single observation on one date; it is not yet established whether the user prefers these specific items or this timing over other options. No stable brand or product preferences can be confirmed from this single order.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "Ordered fresh vegetables (Baby Potato, Organic Green Chilli, Coriander Leaves) in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The items suggest immediate meal preparation needs. This is a single observation; no stable preference is established.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables. The user's intent for these items is limited to the immediate cooking need suggested by the product types.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers these specific items, brands (all unbranded), or this morning timing over other options. No stable brand or product preferences can be confirmed from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

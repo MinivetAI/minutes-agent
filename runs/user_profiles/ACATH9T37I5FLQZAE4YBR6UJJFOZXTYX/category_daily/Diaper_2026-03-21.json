@@ -1,9 +1,23 @@
 {
   "date": "2026-03-21",
   "day_type": "weekend",
-  "summary_text": "On this weekend, one order of Pampers Complete Skin Comfort Pant Diapers XL (56 Count) was placed in the afternoon. This timing aligns with a period of lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a disposable diaper pant for older babies/toddlers, typically used for convenience, overnight dryness, or managing wetness. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user placed one order for Pampers Complete Skin Comfort Pant Diapers XL (56 Count) during the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping moments. The product serves as a disposable diaper restock for older babies/toddlers, typically used for convenience, overnight coverage, or managing wetness. This is a single observation; it is not yet established whether this brand, size, or timing represents a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Pampers Complete Skin Comfort Pant Diapers XL (56 Count) placed on a weekend afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping moments.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this brand, size, or timing represents a stable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-21T14:52:28",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

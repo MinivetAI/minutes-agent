@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased one 57 g pack of Let's Try Vrat Potato Chips and one 40 g pack of Lay’s American Style Cream and Onion Chips.",
+  "summary_text": "One order of chips on 2026-05-12 (night, weekday) containing 1x Let's Try Vrat Potato Chips (57 g) and 1x Lay’s American Style Cream and Onion Chips (40 g).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the night on a weekday, a period with lower population share (12.02%) compared to morning (32.46%), afternoon (25.26%), and evening (30.27%). The items are small-format, immediate-consumption snacks suitable for quick cravings or light nibbling.",
-  "uncertainty_text": "No browsing or cart activity was recorded to indicate comparison or hesitation. With only one observed order, it is not possible to establish stable brand or flavor preferences.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred at night on a weekday. The population baseline shows night accounts for 12.02% of chip purchases, making this timing less common than morning (32.46%), afternoon (25.26%), or evening (30.27%). The products are small-format, immediate-consumption snacks suitable for quick cravings or light nibbling without preparation.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers vrat-friendly snacks, specific brands (Let's Try, Lay's), or night-time ordering as a stable pattern. No repeat purchases or consistent timing have been observed to confirm durable preferences.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-12"
+    ],
+    "first_seen_at": "2026-05-12T23:10:32",
+    "last_seen_at": "2026-05-12T23:10:32"
+  }
 }

@@ -1,12 +1,19 @@
 {
   "date": "2026-06-11",
   "day_type": "weekday",
-  "summary_text": "On this weekday night, a single order was placed containing dairy staples (Milk, Curd Yogurt), fresh produce (Vegetables), and items addressing specific needs including pediatric care (Baby Cereal) and symptom management (Cough medicine), alongside beverages (Aerated Drinks, Fruit Drinks). This basket is compatible with a household need for daily nutrition and fresh ingredients, supplemented by targeted care items. As this is a single observed order, it does not establish a durable preference or routine.",
+  "summary_text": "On this weekday, a single night-time order was placed for general household replenishment. The basket included dairy (Milk, Curd Yogurt), fresh produce (Vegetables), beverages (Aerated Drinks, Fruit Drinks), baby food (Baby Cereal), and health items (Cough). This single observation does not establish a durable preference or routine.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a household need for daily nutrition and fresh ingredients, supplemented by pediatric care (Baby Cereal) and symptom management (Cough medicine).",
-  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine.",
-  "overall_confidence": "low"
+  "shopping_need_text": "General household replenishment including fresh food, beverages, and specific health or baby care items.",
+  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

@@ -1,40 +1,46 @@
 {
-  "category": "Chips",
-  "profile_text": "The user demonstrates a high-confidence, stable preference for CRAX brand chips, specifically purchasing CRAX Cheese Balls Puff Snacks (65 g) across multiple independent dates in April and May 2026. Purchases occurred on five independent dates total, with cadence evidence supporting a medium-class replenishment cycle. The user also purchased Beyond Snack Kerala Banana Peri Peri Chips once in April, which does not constitute a stable preference. Timing is flexible, occurring in mornings, afternoons, and evenings on both weekdays and weekends, aligning with population baselines for morning and evening consumption. The product serves as a single-serve savory snack for immediate consumption or impulse hunger. No search, view, or cart activity was recorded, indicating purchases were likely planned or habitual rather than discovery-driven.",
-  "brand_preferences": [
-    {
-      "brand": "CRAX",
-      "preference_text": "The user purchased CRAX products on 5 independent dates (2 in April, 3 in May), establishing a high-confidence stable preference.",
-      "confidence": "high",
-      "evidence_count": 5,
-      "independent_date_count": 5
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user purchased CRAX Cheese Balls Puff Snacks 65 g on 5 independent dates, establishing a high-confidence stable preference for this specific product.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Chips",
+  "summary_text": "The user demonstrates a stable, high-confidence preference for CRAX brand snacks, specifically the Cheese Balls Puff Snacks (65 g), with orders recorded across April and May 2026. While a single order of Beyond Snack Kerala Banana Peri Peri Chips was observed, it does not constitute a stable preference. Purchase timing is variable across dayparts and days of the week, indicating the preference is product-driven rather than time-bound.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "CRAX",
+        "preference_text": "The user consistently selects CRAX brand snacks, specifically Cheese Balls Puff Snacks, across multiple independent dates in April and May 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to CRAX brand puff snacks and does not extend to other CRAX product lines or other chip brands."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Cheese Balls Puff Snacks",
+        "preference_text": "The user repeatedly orders the Cheese Balls Puff Snacks variant.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "65 g",
+        "preference_text": "The user consistently purchases the 65 g pack size for CRAX Cheese Balls.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "CRAX Cheese Balls Puff Snacks is the established stable choice. Beyond Snack Kerala Banana Peri Peri Chips was ordered once but lacks the repetition to be considered a preferred alternative or routine substitution.",
+  "uncertainty_text": "No stable daypart or day-type pattern exists; orders occur in mornings, afternoons, and evenings on both weekdays and weekends. It is unknown if the user prefers other CRAX variants or if they would substitute a different brand if CRAX were unavailable.",
+  "retrieval_text": "The user exhibits a high-confidence, stable preference for CRAX brand Cheese Balls Puff Snacks in 65 g packs, evidenced by repeated orders across independent dates in April and May 2026. This preference is product-specific and not tied to a fixed daypart or day-type, as purchases occur variably throughout the day and week. No other brands or variants show sufficient repetition to establish a stable preference, though a single order of Beyond Snack Kerala Banana Peri Peri Chips was noted.",
   "replenishment": {
     "cadence_days": 9.0,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-05-24",
     "predicted_next_purchase_date": "2026-06-02",
-    "replenishment_text": "The user's average purchase cadence is 9.0 days, classified as medium frequency. The last purchase was on 2026-05-24, with the next predicted purchase estimated around 2026-06-02 based on this average interval.",
-    "confidence": "high",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "Chips is reordered roughly every 9 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by five completed transactions across two months without preceding search or cart activity.",
-  "substitution_text": "No evidence of substitution behavior was found; the user consistently purchased the same CRAX product variant.",
-  "price_value_text": "No explicit price or value behavior data was provided.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty was found.",
-  "mission_generation_text": "Shopping needs supported by this category include acquiring single-serve savory snacks for immediate consumption, impulse hunger, or flexible timing consumption across different dayparts.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

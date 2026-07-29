@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Vim Dishwash Bar 110 g.",
+  "summary_text": "One order of Vim Dishwash Bar 110 g (quantity: 2) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Bought in the afternoon on a weekday, a time when this category is less common than the population baseline (afternoon share 0.2526 vs morning 0.3246). The product is an immediate household replenishment item for handwashing utensils.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday afternoon, a time when population activity is lower than the morning baseline (0.2526 vs 0.3246). The purchase represents an immediate household replenishment for handwashing utensils, likely triggered by the depletion of existing stock.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this is a recurring habit or a one-time need. No brand preference can be inferred from a single purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-02"
+    ],
+    "first_seen_at": "2026-04-02T12:16:18",
+    "last_seen_at": "2026-04-02T12:16:18"
+  }
 }

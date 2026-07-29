@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Pampers Complete Skin Comfort Pants (L, 64 count) in the Diaper category.",
+  "summary_text": "One order of Pampers Complete Skin Comfort Pants (L, 64 count) in the afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday, a time when the user's activity is below the population baseline (25.26% share). The product is a disposable diaper variant intended for infant hygiene.",
-  "uncertainty_text": "Single observation limits inference of durable brand or product preferences; no browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is less common than the population baseline morning (0.3246) and evening (0.3027) peaks, though slightly more frequent than the night (0.1202) and comparable to the afternoon baseline (0.2526). The product is a standard diaper variant for infant care.",
+  "uncertainty_text": "This is a single observation on one date; it is insufficient to establish a stable brand preference, routine timing, or recurring need. No other products or dates are available to infer broader diapering habits or household composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T15:57:01",
+    "last_seen_at": "2026-02-27T15:57:01"
+  }
 }

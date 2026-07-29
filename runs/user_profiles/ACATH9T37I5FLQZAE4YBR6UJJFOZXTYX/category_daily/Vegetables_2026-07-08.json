@@ -1,9 +1,23 @@
 {
   "date": "2026-07-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-08 (weekday), the user purchased five fresh vegetable items in a single order: one pack of hybrid tomatoes (approx. 500 g), two bunches of green amaranth leaves (approx. 250 g each), one pack of broad beans (approx. 250 g), one pack of onions (approx. 425–500 g), and one pack of cleaned coriander leaves (approx. 90–100 g). The order was placed in the morning, a time when population share is 0.3246. The basket consists entirely of fresh, unbranded produce staples typically used for immediate meal preparation, such as curries, gravies, and garnishes, suggesting a need to replenish ingredients for same-day cooking. This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-07-08 (weekday), the user placed one order of fresh vegetables in the morning. The basket included tomato, amaranth greens, broad beans, onion, and coriander leaves. This timing falls below the population baseline for morning activity (share 0.3246). The items suggest immediate meal preparation needs, such as for curries or sabzis. This is a single observation and does not establish a stable preference or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of fresh vegetables (tomato, amaranth greens, broad beans, onion, coriander leaves) placed in the morning on a weekday. This timing is below the population baseline (share 0.3246). The items indicate a need for immediate meal preparation ingredients.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing. The specific culinary intent (e.g., which dish was being prepared) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for morning vegetable shopping or a one-time urgent need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-08"
+    ],
+    "first_seen_at": "2026-07-08T09:01:24",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

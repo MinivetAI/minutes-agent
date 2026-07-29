@@ -1,22 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend afternoon included 2 units of Fruits and 1 unit of Vegetables. The basket reflects a basic produce purchase, compatible with a general need for fresh ingredients.",
+  "basket_summary_text": "A single order placed on 2026-01-24 in the afternoon on a weekend. The basket contains two items: 2 units of a product in the Fruits category and 1 unit of a product in the Vegetables category. This represents a basic combination of fresh produce.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables were purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "General need for fresh produce items.",
-  "uncertainty_text": "This is a single observation from one date; durable preferences or routine behaviors cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The purchase of fresh fruits and vegetables suggests a need for basic grocery replenishment or meal preparation ingredients.",
+  "uncertainty_text": "This inference is based on a single order on one date. No durable preference or routine can be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-24T14:45:43"
+  }
 }

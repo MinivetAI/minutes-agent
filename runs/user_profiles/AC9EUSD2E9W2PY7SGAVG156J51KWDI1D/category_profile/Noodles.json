@@ -1,41 +1,40 @@
 {
-  "category": "Noodles",
-  "profile_text": "The user has purchased Noodles four times across independent dates in March, April, May, and June 2026, establishing a slow replenishment cadence of approximately 33 days. Purchases have included Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) on three separate occasions and Maggi 2-Minute Favourite Masala Taste Instant Noodles (280 g) once. While Sunfeast appears on multiple dates, the variety of brands and specific variants, combined with the slow cadence, suggests a flexible approach to quick-preparation meals rather than a rigid brand loyalty. Orders have occurred on both weekdays and weekends, in the morning and afternoon/evening, indicating the category serves as a convenient option for urgent hunger or light meals when time is short.",
-  "brand_preferences": [
-    {
-      "brand": "Sunfeast",
-      "preference_text": "Sunfeast is the most frequently observed brand, appearing on three independent dates (March, May, June 2026).",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    },
-    {
-      "brand": "Maggi",
-      "preference_text": "Maggi was observed on one independent date (April 2026).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 33.0,
-    "cadence_class": "slow",
-    "last_purchase_date": "2026-06-28",
-    "predicted_next_purchase_date": "2026-07-31",
-    "replenishment_text": "The user typically purchases Noodles every 33 days, with the next purchase estimated around July 31, 2026.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Noodles",
+  "summary_text": "The user has placed four separate orders for instant noodles across March, May, and June 2026. Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) was ordered three times (March, May, June), while Maggi 2-Minute Favourite Masala Taste (280 g) was ordered once (April). Orders occurred on weekdays and weekends, in the morning and evening. No stable routine is established due to the lack of repetition within a single month or consistent daypart.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Sunfeast YiPPee!",
+        "preference_text": "The user has ordered Sunfeast YiPPee! Magic Masala with Added Veggies on three independent dates (March, May, June 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the YiPPee! Magic Masala variant and does not necessarily extend to other Sunfeast noodle products or flavors."
+      },
+      {
+        "brand": "Maggi",
+        "preference_text": "The user ordered Maggi 2-Minute Favourite Masala Taste once in April 2026.",
+        "confidence": "low",
+        "boundary_text": "This single observation does not establish a preference for Maggi over other brands or variants."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Noodles reliably converts to purchase, as evidenced by four completed transactions across the observed period.",
-  "substitution_text": "The user has substituted between Sunfeast and Maggi brands, and between different Sunfeast variants, indicating flexibility in brand and specific product choice within the Noodles category.",
-  "price_value_text": "No explicit price or value behavior is observed; purchases appear driven by convenience and quick preparation needs.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Shopping for Noodles supports needs for convenient, quick-preparation meals, suitable for urgent hunger or when time is short.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "Sunfeast YiPPee! and Maggi are both instant noodle brands. The user has tried both, but the single order of Maggi does not indicate it is a direct substitute for Sunfeast, nor vice versa. No evidence suggests a preference for one over the other as a replacement.",
+  "uncertainty_text": "It is unknown if the user prefers instant noodles over other pasta types. The specific daypart (morning vs. evening) and day-type (weekday vs. weekend) preferences are inconsistent across the four orders. The low confidence on Maggi prevents establishing it as a primary brand. The user's intent for these quick meals (e.g., late-night snack vs. quick breakfast) is not established.",
+  "retrieval_text": "User has ordered Sunfeast YiPPee! Magic Masala with Added Veggies (272g) on three independent dates in March, May, and June 2026, and Maggi 2-Minute Favourite Masala Taste (280g) once in April 2026. Orders span weekdays and weekends, morning and evening. Sunfeast YiPPee! shows medium confidence due to repetition across three months; Maggi shows low confidence due to a single observation. No stable daypart or routine is established.",
+  "replenishment": {
+    "cadence_days": 33,
+    "cadence_class": "slow",
+    "predicted_next_purchase_date": "2026-07-31",
+    "replenishment_text": "Noodles is reordered roughly every 33 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-03-23T09:42:20",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

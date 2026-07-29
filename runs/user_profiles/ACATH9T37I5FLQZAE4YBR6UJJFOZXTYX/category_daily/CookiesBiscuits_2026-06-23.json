@@ -1,9 +1,23 @@
 {
   "date": "2026-06-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-23 (weekday), the user purchased one 150 g pack of Britannia Cheeze Dipped Cookies in the morning. This order occurred during a time when the user's activity is 32.46% of their total (population baseline). The product is a ready-to-eat, indulgent snack suitable for immediate consumption. This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-23 (weekday), the user ordered Britannia Cheeze Dipped Cookies (150 g) in the morning. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The product is a ready-to-eat premium snack, consistent with immediate consumption needs such as a quick treat or accompaniment to a morning beverage. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was an isolated impulse purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Britannia Cheeze Dipped Cookies (150 g) placed in the morning on a weekday. This aligns with the population baseline where morning accounts for 32.46% of activity. The product is a ready-to-eat premium snack, consistent with immediate consumption needs such as a quick treat or accompaniment to a morning beverage. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was an isolated impulse purchase.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was an isolated impulse purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-23"
+    ],
+    "first_seen_at": "2026-06-23T09:00:59",
+    "last_seen_at": "2026-06-23T09:00:59"
+  }
 }

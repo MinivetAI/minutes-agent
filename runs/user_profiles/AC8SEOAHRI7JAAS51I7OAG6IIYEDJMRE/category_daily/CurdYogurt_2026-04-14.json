@@ -1,9 +1,17 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14 (weekday), the user purchased one 200 g cup of Mother Dairy Advanced Probiotic Plain Curd during the morning. This timing aligns with a population daypart share of 0.3246 for this category. The product is a single-serve refrigerated dairy item suitable for immediate consumption or as a quick meal component. This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-04-14 (weekday), the user purchased one 200 g cup of Mother Dairy Advanced Probiotic Plain Curd in the morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a single-serve, ready-to-eat probiotic curd, typically used for immediate consumption as a meal component or snack. This is a single observation on one date. It is not yet established whether this is a recurring preference for this specific brand, product type, or timing.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring preference for this specific brand, product type, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T09:46:35",
+    "last_seen_at": "2026-04-14T09:46:35"
+  }
 }

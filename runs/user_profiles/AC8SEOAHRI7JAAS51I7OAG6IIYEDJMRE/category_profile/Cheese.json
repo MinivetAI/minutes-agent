@@ -1,40 +1,46 @@
 {
-  "category": "Cheese",
-  "profile_text": "The user demonstrates a stable, medium-confidence preference for the Amul brand in the cheese category, supported by purchases across March and April 2026. Within this brand, there is a specific stable preference for Amul Plain Processed Cheese Slices (200 g), observed on two independent dates in April 2026. Purchases occur on weekdays with flexible timing (morning or afternoon), aligning with the user's observed 8.5-day cadence. The product serves as a convenient, portion-controlled item for quick meals or snacks.",
-  "brand_preferences": [
-    {
-      "brand": "Amul",
-      "preference_text": "The user has a stable preference for the Amul brand in the cheese category, evidenced by purchases on multiple independent dates in March and April 2026.",
-      "confidence": "medium",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Amul Plain Processed Cheese Slices (200 g), evidenced by purchases on two independent dates in April 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Cheese",
+  "summary_text": "The user has established a stable preference for Amul brand cheese, specifically Plain Processed Cheese Slices. Evidence spans March and April 2026, with the 200 g variant appearing on multiple independent dates. Purchases occur on weekdays, with no single consistent daypart preference (observed in both morning and afternoon).",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user consistently purchases Amul brand cheese products.",
+        "confidence": "high",
+        "boundary_text": "This preference is specific to Amul brand cheese products and does not extend to other cheese brands or non-cheese dairy items."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "200 g",
+        "preference_text": "The 200 g pack size is the most frequently observed variant for the user's preferred product.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "200 g",
+        "preference_text": "The user prefers the 200 g pack size for processed cheese slices.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No alternative brands or product types are evidenced as acceptable substitutes. The user's behavior is concentrated on a single brand and product line.",
+  "uncertainty_text": "While the brand (Amul) and product (Plain Processed Cheese Slices) are stable, the specific daypart for purchase is inconsistent (observed in both morning and afternoon). It is unclear if the user has a strong preference for a specific time of day or if timing is driven by immediate availability or schedule. The 100 g variant was observed once but is not yet a stable preference.",
+  "retrieval_text": "The user demonstrates a stable, high-confidence preference for Amul brand cheese, specifically Plain Processed Cheese Slices in the 200 g pack size. This preference is supported by repeated purchases across March and April 2026, with the 200 g variant appearing on multiple independent dates. Purchases occur on weekdays, but the timing varies between morning and afternoon, indicating no strong daypart constraint. No other brands or significant product variants are established as preferred substitutes.",
   "replenishment": {
     "cadence_days": 8.5,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-04-09",
     "predicted_next_purchase_date": "2026-04-17",
-    "replenishment_text": "The user typically purchases cheese every 8.5 days, with the next purchase estimated around 2026-04-17.",
-    "confidence": "medium",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "Cheese is reordered roughly every 8 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by repeated completed orders for Amul cheese products.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior is established from the supplied evidence.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user consistently purchases Amul products.",
-  "mission_generation_text": "Shopping needs supported by this category profile include restocking convenient, portion-controlled dairy items for quick weekday meals or snacks.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-04-09T11:57:25"
+  }
 }

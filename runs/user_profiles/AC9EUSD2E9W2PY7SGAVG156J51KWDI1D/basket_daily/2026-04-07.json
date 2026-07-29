@@ -1,7 +1,7 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "A single order was placed on 2026-04-07 during the afternoon on a weekday. The basket contains six items across four categories: Chips (2 units), Noodles (1 unit), Body Lotion (1 unit), Curd Yogurt (1 unit), and Sugar (1 unit). The combination of savory snacks (Chips, Noodles) with a dairy product (Curd Yogurt) and a sweetener (Sugar) is compatible with a need for a simple meal or snack preparation. Body Lotion is an unrelated personal care item. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-04-07 (weekday), a single order was placed in the afternoon. The basket contained six items across four categories: Chips (2 units), Noodles (1 unit), Body Lotion (1 unit), Curd Yogurt (1 unit), and Sugar (1 unit). The combination of Chips and Noodles suggests a meal-preparation or snack-focused need. Body Lotion is an outlier category in this specific basket, indicating a non-food personal care purchase alongside grocery items. No other category pairs from the supplied evidence (e.g., Milk/Vegetables) appear in this order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,21 @@
       "combination_text": "Chips and Noodles were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Chips",
+        "Body Lotion"
+      ],
+      "combination_text": "Chips and Body Lotion were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -23,7 +37,33 @@
       "combination_text": "Chips and Curd Yogurt were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Chips",
+        "Sugar"
+      ],
+      "combination_text": "Chips and Sugar were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Noodles",
+        "Body Lotion"
+      ],
+      "combination_text": "Noodles and Body Lotion were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,7 +73,45 @@
       "combination_text": "Noodles and Curd Yogurt were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Noodles",
+        "Sugar"
+      ],
+      "combination_text": "Noodles and Sugar were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Body Lotion",
+        "Curd Yogurt"
+      ],
+      "combination_text": "Body Lotion and Curd Yogurt were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Body Lotion",
+        "Sugar"
+      ],
+      "combination_text": "Body Lotion and Sugar were purchased together in this single order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -43,11 +121,20 @@
       "combination_text": "Curd Yogurt and Sugar were purchased together in this single order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for basic food items for immediate consumption or simple preparation, alongside a personal care item.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It does not represent a durable preference, routine, or stable pattern. The provided category pair evidence (e.g., Milk/Vegetables) does not match the categories in this specific order, so no lift/support values are applied to the observed combinations.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Chips, Noodles, and Sugar may indicate a need for snack items or ingredients for a simple meal preparation. The inclusion of Body Lotion suggests a concurrent need for personal care products.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred. The category pair evidence provided (e.g., Milk/Vegetables) does not match the categories in this specific order, so no support/lift/confidence values from that evidence are applicable to the combinations observed here.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T13:33:45",
+    "last_seen_at": "2026-04-07T13:33:45"
+  }
 }

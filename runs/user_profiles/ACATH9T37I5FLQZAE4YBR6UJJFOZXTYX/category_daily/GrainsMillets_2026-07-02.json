@@ -1,15 +1,23 @@
 {
   "date": "2026-07-02",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-02 (weekday), the user purchased one 500 g pack of Rajdhani Sabudana Sago in the morning. This is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes. The purchase occurred during a morning period where the user is more active than the population baseline (32.5% of population activity vs. 32.5% share). This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-07-02 (weekday), the user purchased Rajdhani Sabudana Sago 500 g in the morning. This single order aligns with the population baseline where morning accounts for 32.46% of activity. The product is a starch-based staple often used for fasting meals or quick cooking preparations. This is a single observation from one date and does not establish a recurring preference.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 500 g pack of Rajdhani Sabudana Sago. This is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes. The purchase occurred during a morning period where the user is more active than the population baseline (32.5% of population activity vs. 32.5% share).",
+      "pattern_text": "One order of Rajdhani Sabudana Sago 500 g. Purchased in the morning on a weekday, aligning with the population baseline (32.46% of activity). The product is a starch-based staple often used for fasting meals or quick cooking preparations. This is a single observation from one date; it is not yet established whether this represents a recurring preference or a one-time need.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a recurring preference for this brand or product, or if it was a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

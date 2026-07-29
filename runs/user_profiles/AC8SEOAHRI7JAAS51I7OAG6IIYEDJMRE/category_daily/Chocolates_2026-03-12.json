@@ -1,9 +1,23 @@
 {
   "date": "2026-03-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-12 (weekday), the user purchased one unit of Ferrero Rocher Rocher Truffles 4 x 12.5 g in the afternoon. This premium boxed chocolate confection suggests an immediate need for a presentable treat rather than routine snacking. The order occurred during a daypart with lower-than-average population share (0.2526) compared to morning (0.3246) and evening (0.3027).",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-12 (weekday), the user purchased Ferrero Rocher Rocher Truffles 4 x 12.5 g in the afternoon. This single order of a premium, gifting-oriented confection suggests a need for a presentable treat for a specific moment rather than routine snacking. The afternoon timing is less common for this category compared to morning or evening baselines. This is a single observation on one date and does not yet establish a stable preference.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Ferrero Rocher Rocher Truffles 4 x 12.5 g. The afternoon timing is less common for this category compared to morning or evening baselines.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or recurring habit for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time occasion.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-12"
+    ],
+    "first_seen_at": "2026-03-12T14:42:56",
+    "last_seen_at": "2026-03-12T14:42:56"
+  }
 }

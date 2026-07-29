@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Haldiram's Mini Bhakarwadi 200 g placed in the morning.",
+  "summary_text": "One order of Haldiram's Mini Bhakarwadi 200 g (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekday, a time when this category represents 32.46% of population activity. The product is a ready-to-eat Indian savoury snack, typically used for immediate munching, tea-time accompaniment, or pantry stocking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. Anchored to the population baseline where morning share is 0.3246, this timing is consistent with typical morning snack or tea-time consumption patterns for ready-to-eat namkeen items.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established. It is unclear whether this was an impulse purchase, a routine breakfast accompaniment, or a one-time trial.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-18"
+    ],
+    "first_seen_at": "2026-05-18T10:21:16",
+    "last_seen_at": "2026-05-18T10:21:16"
+  }
 }

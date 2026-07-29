@@ -1,52 +1,46 @@
 {
-  "category": "Milk",
-  "profile_text": "The user demonstrates a high-confidence, stable preference for Parag Toned Milk 500 ml, evidenced by purchases across five independent dates in April 2026 and one in June 2026. A medium-confidence stable preference exists for Amul Taaza Pasteurised Toned Milk (500 ml), supported by two independent dates in May 2026. The user exhibits a fast replenishment cadence (every 4 days on average), with the last purchase on 2026-06-02 and the next predicted around 2026-06-06. Purchases typically occur in the evening and on weekdays, though weekend and morning purchases have also been observed. The user buys small-format (500 ml) packaged milk suitable for immediate household consumption.",
-  "brand_preferences": [
-    {
-      "brand": "Parag",
-      "preference_text": "The user has a stable preference for Parag, evidenced by purchases on 5 independent dates in April 2026 and 1 in June 2026.",
-      "confidence": "high",
-      "evidence_count": 6,
-      "independent_date_count": 6
-    },
-    {
-      "brand": "Amul",
-      "preference_text": "The user has a stable preference for Amul, evidenced by purchases on 2 independent dates in May 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Parag Toned Milk 500 ml, evidenced by purchases on 5 independent dates in April 2026 and 1 in June 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), evidenced by purchases on 2 independent dates in May 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 4.0,
-    "cadence_class": "fast",
-    "last_purchase_date": "2026-06-02",
-    "predicted_next_purchase_date": "2026-06-06",
-    "replenishment_text": "The user purchases this category approximately every 4 days, indicating a fast replenishment cycle.",
-    "confidence": "high",
-    "evidence_count": 10,
-    "independent_date_count": 10
+  "category_name": "Milk",
+  "summary_text": "The user has purchased milk across January, May, and June 2026. Evidence supports a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml) based on two independent dates in May 2026. Parag Toned Milk (500 ml) was observed on three separate dates (Jan 29, May 22, Jun 2026) but lacks the repetition required for a stable brand preference claim in this profile, remaining a low-confidence observation. Purchases occurred in both morning and evening dayparts on weekdays and weekends, with no single timing pattern dominating the limited sample.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Amul",
+        "preference_text": "The user has a stable preference for Amul milk, specifically the Taaza Pasteurised Toned variant, observed on two independent dates in May 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Amul Taaza Pasteurised Toned Milk product form and does not extend to other Amul dairy products or other milk brands."
+      }
+    ],
+    "variants": [
+      {
+        "variant": "Taaza Pasteurised Toned",
+        "preference_text": "The user has a stable preference for the Taaza Pasteurised Toned variant, observed on two independent dates in May 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "500 ml",
+        "preference_text": "All observed milk purchases were in the 500 ml pack size.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by multiple completed transactions across different brands and products.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior (e.g., discount sensitivity, premium positioning) is established from the supplied evidence.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty was found.",
-  "mission_generation_text": "Supports daily household nutrition needs, specifically for immediate consumption of small-format (500 ml) packaged milk.",
-  "overall_confidence": "high"
+  "daypart_understanding": [],
+  "substitution_text": "Amul and Parag are both observed in the user's history, suggesting interchangeability or exploration between these two brands. No other brands are present to establish broader substitution boundaries.",
+  "uncertainty_text": "While Amul shows a stable pattern across two dates, the overall picture of milk purchasing habits is based on limited data (3 orders total across 3 months). It is not yet established whether the user has a stable preference for the Parag brand, as it was only observed on single dates in January and May, with a third single date in June. The lack of a dominant daypart pattern (morning vs. evening) and the sparse monthly frequency make it unclear if this represents a regular household routine or sporadic purchasing. Cadence and long-term brand loyalty remain unconfirmed.",
+  "retrieval_text": "User demonstrates a medium-confidence stable preference for Amul Taaza Pasteurised Toned Milk in 500 ml packs, evidenced by purchases on two independent dates in May 2026. Parag Toned Milk 500 ml was also purchased on three separate dates (Jan 29, May 22, Jun 2026) but lacks sufficient repetition for a stable brand preference claim. Purchases occurred in both morning and evening dayparts on weekdays and weekends, indicating no strong daypart bias. The limited sample size across three months prevents confirmation of a regular cadence or broader brand loyalty beyond the observed Amul pattern.",
+  "replenishment": {
+    "cadence_days": 4.5,
+    "cadence_class": "fast",
+    "predicted_next_purchase_date": "2026-06-06",
+    "replenishment_text": "Milk is reordered roughly every 4 days."
+  },
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-01-29T09:00:23",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

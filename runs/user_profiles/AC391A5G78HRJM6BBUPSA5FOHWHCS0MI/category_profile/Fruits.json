@@ -1,32 +1,39 @@
 {
-  "category": "Fruits",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for Tender Coconut (fresh whole fruit) within the Fruits category, evidenced by purchases across five independent dates in May and June 2026. Purchases consistently involve 2 units per order. While May purchases occurred in the evening (weekday) and morning (weekend), June purchases were exclusively in the morning on weekdays, suggesting a potential shift toward a stable morning daypart pattern. The user exhibits a fast replenishment cadence, purchasing approximately every 2.5 days.",
-  "brand_preferences": [],
-  "product_preferences": [
+  "category_name": "Fruits",
+  "summary_text": "The user demonstrates a stable preference for Tender Coconut/Tender Coconuts, evidenced by purchases across May and June 2026. In May, purchases occurred on two independent dates (weekday evening and weekend morning). In June, purchases occurred on three independent dates, consistently in the morning on weekdays. The product is generally unbranded. No other fruit categories show repeated evidence.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [
+      {
+        "variant": "Tender Coconut",
+        "preference_text": "The user consistently purchases tender coconuts, a fresh, perishable fruit used for hydration.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "preference_text": "The user has a stable preference for Tender Coconut (fresh whole fruit), evidenced by purchases on 5 independent dates across May and June 2026.",
-      "examples": [],
-      "confidence": "high"
+      "daypart": "morning",
+      "behavior_text": "Purchases in June 2026 occurred consistently in the morning on weekdays, aligning with the population baseline where morning accounts for 32.46% of activity.",
+      "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No other fruit products were purchased with sufficient repetition to establish stable preferences or substitution patterns. The preference is specific to tender coconuts.",
+  "uncertainty_text": "Preference is based on evidence from May and June 2026. It is unknown if this preference extends to other fruit forms (e.g., dried, canned) or if the user purchases other fruits sporadically without establishing a stable pattern. The product appears unbranded, so no brand loyalty can be inferred.",
+  "retrieval_text": "The user has a stable, high-confidence preference for Tender Coconut/Tender Coconuts, evidenced by purchases on five independent dates across May and June 2026. In May, purchases occurred on two dates (evening and morning); in June, three consecutive weekday morning purchases established a consistent morning timing pattern aligned with population baselines. The product is a fresh, perishable fruit typically used for hydration and is generally unbranded. No other fruit categories or brands show repeated evidence.",
   "replenishment": {
     "cadence_days": 2.5,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-06-10",
     "predicted_next_purchase_date": "2026-06-12",
-    "replenishment_text": "The user purchases this category approximately every 2.5 days, classified as a fast replenishment cycle. The last purchase was on 2026-06-10, with the next predicted purchase around 2026-06-12.",
-    "confidence": "high",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "Fruits is reordered roughly every 2 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, with consistent transaction history across multiple dates.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior evidence was provided in the summaries.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals were detected.",
-  "mission_generation_text": "Regular replenishment of fresh whole fruit, specifically tender coconut, for daily consumption or hydration needs.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-05-27T18:10:42",
+    "last_seen_at": "2026-06-10T07:48:54"
+  }
 }

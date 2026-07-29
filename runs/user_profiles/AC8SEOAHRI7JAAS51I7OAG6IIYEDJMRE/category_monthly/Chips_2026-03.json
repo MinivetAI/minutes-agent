@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, one order of CRAX Aloo Mota Chips Classic Salted (70 g) was placed on a weekday evening. This single observation does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "On 2026-03-25 (weekday), the user ordered one unit of CRAX Aloo Mota Chips Classic Salted 70 g in the evening. This single-serve salty potato snack aligns with the population baseline where evening activity accounts for 30.27% of chip purchases. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or routine for the user.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or routine for the user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-25"
+    ],
+    "first_seen_at": "2026-03-25T17:55:23",
+    "last_seen_at": "2026-03-25T17:55:23"
+  }
 }

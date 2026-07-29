@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased fresh vegetables on one observed date (2026-03-17). The order included Fresh Ginger, Cauliflower, Tinda, Bottle Gourd, and two unbranded vegetable SKUs. This single order does not establish a stable preference or routine for these specific items or for weekday evening shopping.",
+  "summary_text": "In March 2026, the user placed one order of fresh vegetables on a weekday evening. The basket included fresh ginger, cauliflower, tinda, bottle gourd (quantity 2), and two unidentified vegetable items. The evening timing aligns with the population baseline where evening (0.3027) is nearly as common as morning (0.3246). The basket consists of fresh, perishable produce typically used for immediate meal preparation, suggesting a same-day cooking need or a last-minute kitchen replenishment. With only one observed order, it is not possible to determine if this represents a stable preference, a one-time stockout replacement, or a specific meal plan. The two unidentified products (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ) prevent a complete description of the basket's composition.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables or this evening timing. The two unbranded SKUs (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ) lack descriptive names, so their specific identity and utility are unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "With only one observed order, it is not possible to determine if this represents a stable preference, a one-time stockout replacement, or a specific meal plan. The two unidentified products (VEGF7EZ6NTGSCA9Y, VEGGF7EXB3KWXAGJ) prevent a complete description of the basket's composition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T18:13:48",
+    "last_seen_at": "2026-03-17T18:13:48"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased unbranded fresh potatoes (400–450g pack) on a single weekday (2026-06-24) in the afternoon. This purchase occurred during a period of below-baseline activity relative to the population share (0.2526). The item is a fresh staple tuber suitable for immediate cooking or stockout replacement. Due to the single-date observation, no stable brand or product preferences can be established.",
+  "summary_text": "In June 2026, the user placed one order for Potato (400–450g, 1 unit) on a weekday afternoon. This is a single observation; no stable brand, product, or timing preference can be established yet.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established yet.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-24"
+    ],
+    "first_seen_at": "2026-06-24T13:23:16",
+    "last_seen_at": "2026-06-24T13:23:16"
+  }
 }

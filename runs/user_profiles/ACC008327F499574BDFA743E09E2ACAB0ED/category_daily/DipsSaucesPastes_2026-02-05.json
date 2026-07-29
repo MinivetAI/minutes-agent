@@ -1,15 +1,23 @@
 {
   "date": "2026-02-05",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-05 (weekday), the user purchased one 415 g bottle of Kissan Sweet & Spicy Sauce in the afternoon. This tomato-based condiment serves an immediate utility for quick meal accompaniments or snacking. The afternoon timing aligns with a period where population share (25.26%) is lower than morning (32.46%) and evening (30.27%) peaks. This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+  "summary_text": "On this weekday, the user purchased one unit of Kissan Sweet & Spicy Sauce (415 g) during the afternoon. This timing is less common than the population baseline for this category, which shows a higher share of morning (0.3246) and evening (0.3027) purchases. The product is a ready-to-use condiment typically used for immediate flavor enhancement of snacks or meals. This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine purchase, or an isolated need. No other products or brands were observed in this window to establish broader category habits.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 415 g bottle of Kissan Sweet & Spicy Sauce. This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
+      "pattern_text": "One order of Kissan Sweet & Spicy Sauce 415 g. This timing is less common than the population baseline for this category, which shows a higher share of morning (0.3246) and evening (0.3027) purchases. The product is a ready-to-use condiment typically used for immediate flavor enhancement of snacks or meals. This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine purchase, or an isolated need. No other products or brands were observed in this window to establish broader category habits.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine purchase, or an isolated need. No other products or brands were observed in this window to establish broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-05"
+    ],
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-02-05T12:54:45"
+  }
 }

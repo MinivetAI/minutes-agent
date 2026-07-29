@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of The Select Aisle Natural Vanilla Custard Powder (100 g) during the evening on a weekday.",
+  "summary_text": "One order of 1 unit of The Select Aisle Natural Vanilla Custard Powder was placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when this category shows a 30.27% share of population activity (compared to 32.46% in the morning). The product is a ready-to-cook dessert mix, typically used for quick sweet treats or as a topping for fruits and baked goods.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening (0.3027) is a high-share daypart, comparable to morning (0.3246). The product is a ready-to-cook dessert mix, typically used for quick sweet treats or as a topping for other foods.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or evening ordering for desserts. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-02-27T20:43:10"
+  }
 }

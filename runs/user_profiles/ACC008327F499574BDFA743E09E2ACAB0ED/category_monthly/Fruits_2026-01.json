@@ -1,18 +1,32 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user purchased fresh fruits on two independent dates (2026-01-24 and 2026-01-26). Sapota (chikoo) was purchased on both dates, meeting the repetition bar for stable preference. Tender coconut was purchased on one date. Purchases occurred in the afternoon and evening.",
+  "summary_text": "In January 2026, the user purchased fresh fruits on two independent dates (2026-01-24 and 2026-01-26). Sapota Chikoo was ordered on both dates, meeting the repetition bar for stable preference. Tender Coconut was ordered once. Purchases occurred on both a weekend afternoon and a weekday evening, indicating no single stable daypart pattern.",
   "stable_preference_claims": [
     {
       "dimension": "product",
-      "value": "Sapota (chikoo)",
-      "claim_text": "The user purchased sapota (chikoo) on two independent dates in January 2026, indicating a stable preference for this fruit.",
+      "value": "Sapota Chikoo",
+      "claim_text": "The user has a stable preference for Sapota Chikoo, observed on 2 independent dates in January 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "Tender coconut was purchased on a single date (2026-01-26) and does not meet the threshold for a stable preference claim. Sapota was purchased on two dates, supporting a medium-confidence stable preference.",
-  "overall_confidence": "medium"
+  "trend_claims": [
+    {
+      "claim_text": "The user purchased Sapota Chikoo on both a weekend afternoon and a weekday evening in January 2026, showing variation in timing rather than a fixed routine.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "Tender Coconut was observed only once; no stable preference can be established for it. Sapota Chikoo appears on two dates, supporting a medium-confidence stable preference, but the small sample size limits higher confidence.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-01-24",
+      "2026-01-26"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-26T19:26:36"
+  }
 }

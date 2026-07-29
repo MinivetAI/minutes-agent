@@ -1,15 +1,17 @@
 {
   "date": "2026-04-30",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-30 (weekday), the user purchased one 65 g pack of CRAX Cheese Balls Puff Snacks during the morning. This purchase occurred in a daypart where the user's activity is below the population baseline (32.5%). The product is a single-serve savory snack, potentially for immediate consumption or impulse hunger. This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or morning shopping habit.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one 65 g pack of CRAX Cheese Balls Puff Snacks. This occurred during a time when the user's activity is below the population baseline (32.5%).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered CRAX Cheese Balls Puff Snacks (65 g) during the morning. This single-serve savory snack is consistent with immediate consumption or quick hunger relief. The morning timing aligns with the population baseline, where morning activity accounts for 32.46% of orders. As this is a single observation on one date, it is not yet established whether this represents a stable preference for this brand, product type, or morning timing.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this brand, product type, or morning shopping habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or morning timing. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-30"
+    ],
+    "first_seen_at": "2026-04-30T08:01:42",
+    "last_seen_at": "2026-04-30T08:01:42"
+  }
 }

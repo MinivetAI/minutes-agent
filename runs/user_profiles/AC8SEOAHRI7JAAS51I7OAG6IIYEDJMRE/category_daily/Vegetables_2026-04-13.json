@@ -1,9 +1,17 @@
 {
   "date": "2026-04-13",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-13 (weekday), the user purchased fresh cauliflower (400-600g) and local tomatoes (450-550g) during a morning session. This timing aligns with above-baseline morning activity (32.5% share). These items are standard fresh produce staples often used for immediate meal preparation, such as curries, sides, or salads. This is a single observed transaction; it is not yet established whether this represents a stable routine or a one-time replenishment need.",
+  "summary_text": "On this weekday, the user ordered fresh vegetables in the morning, a timing consistent with the population baseline where morning accounts for 32.46% of activity. The basket included one unit each of Cauliflower (400-600g) and Local Tomato (450-550g). These perishable items suggest preparation for an immediate meal, such as a side dish or curry base. As this is a single observation from one date, it does not establish a stable routine or preference.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this represents a stable routine or a one-time replenishment need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet possible to determine if this represents a stable routine, a specific meal need, or a one-time purchase. No brand or product preferences can be established from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-13"
+    ],
+    "first_seen_at": "2026-04-13T09:26:45",
+    "last_seen_at": "2026-04-13T09:26:45"
+  }
 }

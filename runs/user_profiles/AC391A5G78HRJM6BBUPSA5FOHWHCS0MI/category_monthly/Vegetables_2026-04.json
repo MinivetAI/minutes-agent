@@ -1,11 +1,11 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased fresh loose potatoes (400–450g) on five independent dates: 2026-04-05, 2026-04-10, 2026-04-12, 2026-04-16, and 2026-04-20. Onions were purchased once on 2026-04-10. The user’s vegetable shopping spans all dayparts (morning, evening, night) and both weekdays and weekends, with no single daypart or day-type dominating the pattern. Potatoes are a fresh staple tuber used for immediate cooking or as a base ingredient.",
+  "summary_text": "The user ordered Potato (400–450g) on five independent dates in April 2026, establishing a stable preference for this specific product variant. The user also ordered Onion (400–450g) once. Daypart patterns show orders across morning, evening, and night, with no single dominant time established. Daytype patterns include both weekdays and weekends.",
   "stable_preference_claims": [
     {
       "dimension": "product",
-      "value": "Potato (400–450g, fresh, loose)",
-      "claim_text": "The user purchased fresh loose potatoes (400–450g) on five independent dates in April 2026, indicating a stable preference for this product.",
+      "value": "Potato (400–450g)",
+      "claim_text": "The user has a stable preference for Potato (400–450g), observed on five independent dates (2026-04-05, 2026-04-10, 2026-04-12, 2026-04-16, 2026-04-20).",
       "confidence": "high",
       "evidence_count": 5,
       "independent_date_count": 5
@@ -13,6 +13,18 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Onions were purchased only once (2026-04-10) and do not meet the threshold for a stable preference claim. The user’s vegetable shopping occurs across varied dayparts and day types, so no specific timing pattern is established as stable.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While Potato (400–450g) is a stable preference, the user's daypart and daytype patterns are mixed (morning, evening, night; weekday, weekend), preventing the establishment of a stable timing routine. Onion (400–450g) was observed only once and is not included in stable preferences.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 5,
+    "purchase_dates": [
+      "2026-04-05",
+      "2026-04-10",
+      "2026-04-12",
+      "2026-04-16",
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

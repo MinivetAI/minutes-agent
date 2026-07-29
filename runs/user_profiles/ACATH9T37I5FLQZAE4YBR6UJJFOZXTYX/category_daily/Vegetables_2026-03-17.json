@@ -1,9 +1,23 @@
 {
   "date": "2026-03-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-17 (weekday), a single order of fresh vegetables was placed in the morning. The purchase included one loose onion (400–450 g), one pack of French beans (450–550 g), and one pack of red carrots (500 g). This timing aligns with the population morning share (0.3246), which is the highest among dayparts. The items are standard fresh produce staples typically used for immediate meal preparation or replenishing kitchen stock.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-17 (weekday), one order of fresh, unbranded vegetables (onion, French beans, red carrot) was purchased in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The products are typically used for immediate meal preparation or as cooking base ingredients. This is a single observation from one date; it is not yet established whether this represents a stable preference for these specific vegetables, brands, or the morning daypart.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of fresh, unbranded vegetables (onion, French beans, red carrot) purchased in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of orders. The products are typically used for immediate meal preparation or as cooking base ingredients.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this morning timing.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific vegetables, brands (all unbranded), or the morning daypart. No repeat purchases are recorded to confirm routine behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T07:31:13",
+    "last_seen_at": "2026-03-17T07:31:13"
+  }
 }

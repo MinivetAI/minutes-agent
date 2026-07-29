@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, one order of Organic Tattva Jaggery Powder 500 g was placed on a weekday morning. This single observation does not establish a stable brand or product preference. The purchase occurred during a morning window with activity above the population baseline (32.46%). No browsing events were recorded, leaving the intent (planned vs. direct reorder) unclear.",
+  "summary_text": "On 2026-07-08 (weekday), the user purchased Organic Tattva Jaggery Powder 500 g in the morning. This single order aligns with the population baseline where morning accounts for 32.46% of activity. The product is a powdered sweetener suitable for home cooking or beverages. No stable brand or product preference can be established from this single observation.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "With only one observed order, no durable brand or product preference can be established. No browsing behavior was observed, so it is unclear if this was a planned purchase or a direct reorder.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this is a routine purchase or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-08"
+    ],
+    "first_seen_at": "2026-07-08T09:01:24",
+    "last_seen_at": "2026-07-08T09:01:24"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one unit each of Watermelon Kiran and Muskmelon, both unbranded fresh whole fruits, during a morning session on a weekend.",
+  "summary_text": "One order of fresh whole fruits (1 watermelon, 1 muskmelon) purchased in the morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this user's activity is 32.46% of their total weekly volume (population baseline). The items are fresh produce typically used for immediate consumption, hydration, or as a quick snack/dessert.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty for these fruit types.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the morning, which aligns with the population baseline share of 0.3246 for this daypart. The items are fresh whole fruits typically used for immediate consumption or hydration.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preferences can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

@@ -1,19 +1,19 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased CRAX Cheese Balls Puff Snacks (65 g) on three independent dates: 2026-05-10 (weekend evening), 2026-05-18 (weekday morning), and 2026-05-24 (weekend afternoon). The product is a single-serve savory snack suitable for immediate consumption or impulse hunger. Purchases occurred across different dayparts (morning, afternoon, evening) and day types (weekday, weekend), indicating flexible timing rather than a fixed routine. The user's activity in this category aligns with population baselines in the morning (32.46%) and evening (30.27%), with below-baseline activity in the afternoon (25.26%).",
+  "summary_text": "The user ordered CRAX Cheese Balls Puff Snacks (65 g) on three independent dates in May 2026 (May 10, 18, and 24). This repetition establishes a stable preference for this specific brand and product variant. The orders occurred across different dayparts (evening, morning, afternoon) and day types (weekend, weekday), indicating the preference is not restricted to a specific time of day or day of the week, but rather reflects a consistent choice of product regardless of timing context.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "CRAX",
-      "claim_text": "The user purchased CRAX products on 3 independent dates in May 2026.",
+      "claim_text": "The user has ordered CRAX products on 3 independent dates in May 2026, indicating a stable preference for this brand.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "CRAX Cheese Balls Puff Snacks 65 g",
-      "claim_text": "The user purchased CRAX Cheese Balls Puff Snacks 65 g on 3 independent dates in May 2026.",
+      "value": "CRAX Cheese Balls Puff Snacks (65 g)",
+      "claim_text": "The user has ordered CRAX Cheese Balls Puff Snacks (65 g) on 3 independent dates in May 2026, indicating a stable preference for this specific product variant.",
       "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
@@ -21,6 +21,16 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No browsing history (search, view, cart) was recorded for this category in this window, so it is unclear if these purchases were planned or impulse buys. The timing varied across dayparts and day types, so no stable daypart or weekday/weekend routine is established.",
-  "overall_confidence": "high"
+  "uncertainty_text": "While the product preference is stable, the timing varies across morning, afternoon, and evening on both weekdays and weekends. This suggests the purchase is driven by product preference rather than a fixed daily routine or specific temporal habit.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-05-10",
+      "2026-05-18",
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-10T19:01:33",
+    "last_seen_at": "2026-05-24T11:56:57"
+  }
 }

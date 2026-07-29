@@ -1,7 +1,7 @@
 {
   "date": "2026-03-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-23 (weekday), a single order was placed in the morning daypart. The basket contained one unit each of Milk, Vegetables, Noodles, and Breads. This combination of items is compatible with the preparation of a simple meal involving dairy, fresh produce, carbohydrates, and grains. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On 2026-03-23 (weekday), a single order was placed in the morning. The basket contained one unit each of Milk, Vegetables, Noodles, and Breads. This combination suggests a basic meal-preparation need, potentially for breakfast or lunch components. The presence of Milk and Breads together is a common pairing, while Vegetables and Noodles suggest a savory dish component. Noodles were purchased alone in this instance, with no other noodle-related categories observed in this window.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,9 @@
       "combination_text": "Milk and Vegetables were purchased together in this order.",
       "support": 0.3,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -23,7 +25,9 @@
       "combination_text": "Breads and Milk were purchased together in this order.",
       "support": 0.26,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,11 +37,20 @@
       "combination_text": "Breads and Vegetables were purchased together in this order.",
       "support": 0.22,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Preparation of a simple meal involving dairy, fresh produce, carbohydrates, and grains.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a durable preference or recurring pattern.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Basic meal preparation involving dairy, produce, starch, and grain components.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behaviors cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-23"
+    ],
+    "first_seen_at": "2026-03-23T09:42:20",
+    "last_seen_at": "2026-03-23T09:42:20"
+  }
 }

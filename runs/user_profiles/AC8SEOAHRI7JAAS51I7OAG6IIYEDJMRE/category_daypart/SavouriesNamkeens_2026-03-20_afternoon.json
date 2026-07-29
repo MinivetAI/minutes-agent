@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "One order of Haldiram's Khatta Meetha 200 g (1 unit) placed in the afternoon.",
+  "summary_text": "One order of Haldiram's Khatta Meetha 200 g (1 unit) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekday. The timing aligns with the population baseline for this daypart (25.26% share). The product is a packaged Indian namkeen mix, typically used for immediate tea-time or munching snacks.",
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established. No browsing or funnel events were recorded to indicate search intent or comparison behavior.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, a period with a population share of 0.2526 (lower than the morning share of 0.3246 and evening share of 0.3027). The product is a packaged Indian namkeen mix, typically used for immediate tea-time or munching snacks without home preparation.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established. It is unclear if this reflects a specific craving, a household restock, or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-20"
+    ],
+    "first_seen_at": "2026-03-20T11:53:47",
+    "last_seen_at": "2026-03-20T11:53:47"
+  }
 }

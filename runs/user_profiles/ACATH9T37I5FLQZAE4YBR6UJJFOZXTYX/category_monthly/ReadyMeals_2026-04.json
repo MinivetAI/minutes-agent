@@ -1,9 +1,18 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased two distinct frozen ready meals on separate weekdays: a McCain Veggie Burger Patty in the evening and an ITC Master Chef Desi Style Chicken Patty in the afternoon. No single brand, product, or variant recurred across multiple independent dates; therefore, no stable preferences or routines are established for this category. The user demonstrated interest in convenient, ready-to-cook options for both vegetarian and non-vegetarian meals, but these appear as isolated observations rather than a consistent pattern.",
+  "summary_text": "In April 2026, the user placed two separate orders for ready meals on independent dates. On 2026-04-07 (weekday), they ordered McCain Veggie Burger Patty in the evening. On 2026-04-24 (weekday), they ordered ITC Master Chef Desi Style Chicken Patty in the afternoon. Each brand and product variant appeared on only one date, so no stable brand or product preference is established. The user ordered on two different weekdays, but the dayparts (evening and afternoon) differed, so no recurring daypart pattern is established.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Evidence is limited to two single-date transactions for different products and brands. No repetition exists to support stable preference or routine claims.",
-  "overall_confidence": "low"
+  "uncertainty_text": "Evidence consists of two single-date observations for different brands and products. No brand, product, or daypart recurred across independent dates, so stable preferences or recurring habits cannot be inferred.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-07",
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

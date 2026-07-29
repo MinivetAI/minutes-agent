@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Maggi Pazzta Cheese Macaroni Instant Pasta (75 g packs).",
+  "summary_text": "One order of Maggi Pazzta Cheese Macaroni Instant Pasta (75 g), quantity 2.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The product is a quick-cook, single-serve instant pasta, generally used for fast snacks, side dishes, or immediate pantry top-ups.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the afternoon on a weekday. The population baseline shows afternoon purchases are less common (0.2526) than morning (0.3246) or evening (0.3027) purchases. The product is a quick-cook, single-serve instant pasta, generally used for fast snacks or side dishes.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing. No other products or brands were observed in this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

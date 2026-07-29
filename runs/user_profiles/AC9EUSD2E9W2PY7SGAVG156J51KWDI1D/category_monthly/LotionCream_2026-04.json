@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased one 60 g pack of Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies on a single weekend date (2026-04-05) during the evening. This order occurred in the evening, a period with high population share (0.3027) relative to other dayparts. The product is a baby moisturizer intended for quick relief of dry or irritated facial skin. As this is a single observed order, it does not establish a stable preference or routine for this brand or product type.",
+  "summary_text": "In April 2026, the user placed one order for Mamaearth Milky Soft Face Cream With Murumuru Butter for Babies (60 g) on a weekend evening. This single observation aligns with the common evening purchase pattern (30.27% population baseline). The product is a baby face cream/moisturizer, typically used for daily skin care or soothing dry/irritated facial skin. As this is a single observation on one date, it is not yet established whether this is a recurring purchase, a one-time need, or part of a stable brand preference.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring purchase, a one-time need, or part of a stable brand preference.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-05T19:34:40"
+  }
 }

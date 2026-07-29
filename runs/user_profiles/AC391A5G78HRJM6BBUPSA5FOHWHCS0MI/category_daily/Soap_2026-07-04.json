@@ -1,9 +1,17 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), the user purchased one pack of Cinthol Lime Bath Soap (4 x 150 g) during the afternoon. This transaction represents a single observed replenishment need for personal or family hygiene. The order occurred in the afternoon, a time when this user's activity is below the population baseline (25.26% share).",
+  "summary_text": "On this weekend, the user placed one order for Cinthol Lime Bath Soap (4 x 150 g) in the afternoon. This timing aligns with a period of lower activity relative to the population baseline (25.3% vs 32.5% for mornings). The purchase suggests a routine replenishment need for personal or family hygiene. As this is a single observation on one date, it is not yet clear if this brand or product type represents a stable preference or a one-time purchase.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a durable brand preference or a stable shopping routine. It is unclear if this was a planned restock or an immediate need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet clear if this brand or product type represents a stable preference or a one-time purchase. No other orders are available to establish a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

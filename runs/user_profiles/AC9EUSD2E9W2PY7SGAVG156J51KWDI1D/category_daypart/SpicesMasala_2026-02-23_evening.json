@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Ching's Secret Paneer Chilli Masala Mix (100 g) during the evening on a weekday. This is an instant spice mix designed to simplify the preparation of restaurant-style paneer chilli at home.",
+  "summary_text": "One order of Ching's Secret Paneer Chilli Masala Mix (100 g) in the evening on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period where the user's activity (100% of observed share) aligns with the population baseline (30.27% share). The product serves a utility of quick, low-effort meal preparation for a specific dish.",
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time convenience purchase, a response to a specific craving, or part of a broader cooking habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is an instant masala mix designed for quick, low-effort preparation of paneer chilli, suggesting a utility focused on convenience or urgent meal planning.",
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T19:01:08",
+    "last_seen_at": "2026-02-23T19:01:08"
+  }
 }

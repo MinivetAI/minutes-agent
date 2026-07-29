@@ -1,14 +1,51 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased fresh, unbranded vegetables on two independent dates. Methi (fenugreek) leaves were bought on 2026-02-09, and Tinda and Colocasia (Arvi) were bought on 2026-02-23. No single vegetable brand or variant appeared on two or more independent dates; therefore, no stable preference claims are established for specific products. The user consistently ordered in the afternoon on weekdays, a pattern observed on both dates.",
-  "stable_preference_claims": [],
-  "temporal_patterns": [],
-  "trend_claims": [
+  "summary_text": "In February 2026, the user purchased fresh vegetables on two independent dates (2026-02-09 and 2026-02-23), both occurring on weekdays during the afternoon. The specific products ordered were Fresh Methi Leaves (500g) on the first date, and Tinda (500g) and Colocasia Arvi (250g) on the second. No single brand, product, or variant recurred across these dates; therefore, no stable preference claims are established for specific items. The afternoon daypart pattern is observed on two independent dates, supporting a medium-confidence claim for this timing preference relative to the population baseline. The user's vegetable purchases appear to be distinct, perishable items for immediate use, with no evidence of a recurring specific vegetable preference in this month.",
+  "stable_preference_claims": [
     {
-      "claim_text": "The user purchased fresh, unbranded leafy greens (methi) and root/tuber vegetables (Tinda, Colocasia) on separate dates, indicating a need for immediate meal preparation ingredients rather than a stable preference for a specific vegetable type.",
-      "confidence": "low"
+      "dimension": "brand",
+      "value": "none",
+      "claim_text": "No specific brand was purchased repeatedly. Fresh Methi Leaves, Tinda, and Colocasia Arvi were each purchased on only one date.",
+      "confidence": "low",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Fresh Methi Leaves Without Roots 500 g",
+      "claim_text": "Purchased on 2026-02-09 only. No recurrence observed.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Tinda 500g",
+      "claim_text": "Purchased on 2026-02-23 only. No recurrence observed.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Colocasia Arvi 250g",
+      "claim_text": "Purchased on 2026-02-23 only. No recurrence observed.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "uncertainty_text": "Each vegetable purchase occurred on a single independent date. No brand, product, or variant recurred across multiple dates to establish a stable preference. The overall confidence is low due to the lack of repeated behavior for specific items.",
-  "overall_confidence": "low"
+  "temporal_patterns": [],
+  "trend_claims": [],
+  "uncertainty_text": "The user purchased different fresh vegetables on two separate weekdays in February 2026. While the afternoon timing is consistent across both dates, no specific vegetable or brand was repeated. It is not possible to determine if the user has a stable preference for a particular vegetable type or brand, or if these were distinct meal requirements. The afternoon timing pattern is supported by two independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-09",
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-09T13:05:05",
+    "last_seen_at": "2026-02-23T13:34:05"
+  }
 }

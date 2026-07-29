@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "On 2026-06-12 (weekday), the user placed one order of Safal Frozen Green Peas 500 g in the morning. This timing aligns with a period of above-baseline activity (32.46%). The product serves as a frozen vegetable staple for quick cooking or meal repair. This is a single observation on one date; no durable preference or routine can be established.",
+  "summary_text": "In June 2026, the user placed one order for Safal Frozen Green Peas 500 g on a weekday morning. This single observation does not establish a stable preference for this brand, product, or timing.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable preference or routine can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or morning timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

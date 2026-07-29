@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "One order of Amul Masti Plain Curd 390 ml placed during the evening on a weekend.",
+  "summary_text": "One order of Amul Masti Plain Curd 390 ml.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526) and night (0.1202) shares. The product is a ready-to-eat refrigerated curd, typically used for immediate meal accompaniment, snacks, or quick recipe preparation like raita.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. It is unclear if this was a one-time need or part of a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the evening on a weekend. This timing is consistent with the population baseline for evening purchases (30.27%), which is comparable to the morning share (32.46%). The product is a ready-to-eat refrigerated curd, typically used for immediate consumption, meal accompaniment (such as raita or kadhi), or tiffin packing.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the specific 390 ml pack size, or evening/weekend purchasing habits. No other brands, products, or timing patterns can be confirmed from this window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

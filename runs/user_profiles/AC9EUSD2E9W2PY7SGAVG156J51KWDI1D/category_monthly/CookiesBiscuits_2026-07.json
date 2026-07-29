@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "On 2026-07-19 (weekend), one order was placed in the morning containing Pran Potata Spicy Biscuit (75 g) and Britannia Cheeze Dipped Cookies (150 g). This timing aligns with the population morning share (0.3246), which is the highest among dayparts. The items are ready-to-eat savory and sweet snack biscuits, suitable for immediate consumption or casual snacking.",
+  "summary_text": "In July 2026, one order was placed on a weekend morning containing Pran Potata Spicy Biscuit (75 g) and Britannia Cheeze Dipped Cookies (150 g). This timing aligns with the population baseline, where morning purchases represent 32.46% of activity. The products are savory and sweet snack biscuits, typically used for immediate consumption as tea-time companions, desk snacks, or quick treats. This is a single observation from one date. It is not yet established whether the user prefers Pran or Britannia, or if they regularly buy savory versus sweet biscuit formats. No stable brand or product preferences can be confirmed.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers Pran or Britannia, or if they regularly buy savory versus sweet biscuit formats. No stable brand or product preferences can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T09:35:43",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

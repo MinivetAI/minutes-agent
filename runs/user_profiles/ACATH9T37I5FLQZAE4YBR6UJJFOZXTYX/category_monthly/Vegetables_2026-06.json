@@ -1,58 +1,58 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased fresh, unbranded vegetables across 12 independent dates. The most consistent pattern involves the recurring purchase of baby potatoes and onions, which appeared together on 8 separate dates (2026-06-04, 2026-06-07, 2026-06-10, 2026-06-11, 2026-06-15, 2026-06-17, 2026-06-21, 2026-06-23, 2026-06-25, 2026-06-28). While the specific items varied in other orders (including tomatoes, coriander, spinach, carrots, and gourds), the baby potato and onion pair represents a stable, high-frequency staple. Shopping activity is distributed across morning, afternoon, and night dayparts, with a notable concentration in the morning on weekdays and weekends. There are no significant trend shifts; the behavior reflects a consistent need for immediate meal preparation ingredients.",
+  "summary_text": "In June 2026, the user consistently purchased fresh, unbranded vegetable staples, with Baby Potato and Onion appearing on the majority of independent order dates. These items were acquired across various dayparts, though morning orders were most frequent, aligning with population baselines. The recurring nature of these specific produce items across multiple dates indicates a stable preference for these kitchen staples, while the variety of other vegetables suggests flexible meal preparation needs rather than a fixed routine for non-staple items.",
   "stable_preference_claims": [
     {
       "dimension": "product",
-      "value": "Baby Potato (280–320 g)",
-      "claim_text": "Baby potatoes were purchased on 8 independent dates in June 2026, indicating a stable preference for this specific fresh produce staple.",
+      "value": "Baby Potato",
+      "claim_text": "Baby Potato was ordered on 7 independent dates (2026-06-03, 2026-06-04, 2026-06-07, 2026-06-10, 2026-06-11, 2026-06-15, 2026-06-17, 2026-06-21, 2026-06-23, 2026-06-25, 2026-06-27, 2026-06-28). Note: Counting distinct dates where it appears: 03, 04, 07, 10, 11, 15, 17, 21, 23, 25, 27, 28. It appears on all 12 dates. Confidence is high.",
       "confidence": "high",
-      "evidence_count": 8,
-      "independent_date_count": 8
+      "evidence_count": 12,
+      "independent_date_count": 12
     },
     {
       "dimension": "product",
-      "value": "Onion (400–450 g)",
-      "claim_text": "Onions were purchased on 8 independent dates in June 2026, indicating a stable preference for this specific fresh produce staple.",
+      "value": "Onion",
+      "claim_text": "Onion was ordered on 10 independent dates (2026-06-03, 2026-06-04, 2026-06-07, 2026-06-10, 2026-06-11, 2026-06-15, 2026-06-17, 2026-06-21, 2026-06-23, 2026-06-25, 2026-06-27, 2026-06-28). It appears on all 12 dates. Confidence is high.",
       "confidence": "high",
-      "evidence_count": 8,
-      "independent_date_count": 8
+      "evidence_count": 12,
+      "independent_date_count": 12
     },
     {
       "dimension": "product",
       "value": "Coriander Leaves",
-      "claim_text": "Coriander leaves were purchased on 2 independent dates (2026-06-03, 2026-06-07), indicating a stable preference for this herb.",
+      "claim_text": "Coriander Leaves were ordered on 3 independent dates (2026-06-03, 2026-06-07, 2026-06-11). This meets the repetition bar for stable preference. Confidence is at least medium.",
       "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Beetroot",
-      "claim_text": "Beetroot was purchased on 2 independent dates (2026-06-15, 2026-06-17), indicating a stable preference for this root vegetable.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Sweet Potato",
-      "claim_text": "Sweet potato was purchased on 2 independent dates (2026-06-15, 2026-06-27), indicating a stable preference for this root vegetable.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
-    {
-      "dimension": "product",
-      "value": "Spinach",
-      "claim_text": "Spinach was purchased on 2 independent dates (2026-06-03, 2026-06-27), indicating a stable preference for this leafy green.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "evidence_count": 3,
+      "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "While baby potatoes and onions show high-confidence stability due to their appearance on 8 independent dates, other vegetables like tomatoes, carrots, and gourds appeared only once and are excluded from stable claims. The user's vegetable selection varies significantly in composition across dates, suggesting flexible meal planning rather than a fixed recipe routine for non-staple items.",
-  "overall_confidence": "high"
+  "trend_claims": [
+    {
+      "claim_text": "The user's vegetable purchasing behavior in June 2026 was characterized by high frequency (12 orders) and a strong reliance on unbranded, fresh produce staples. While Baby Potato and Onion were consistent staples across all dates, other vegetables like spinach, sponge gourd, and lady's finger appeared only on single dates, indicating variable meal planning rather than a fixed vegetable routine.",
+      "confidence": "high"
+    }
+  ],
+  "uncertainty_text": "While Baby Potato and Onion show high-confidence stable preferences due to their presence on every order date, the specific combination of other vegetables varies significantly day-to-day, preventing the establishment of a stable preference for any other specific vegetable variant or brand. The user's timing preferences are mixed across morning, afternoon, and night, though morning is the most common daypart.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 12,
+    "purchase_dates": [
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-07",
+      "2026-06-10",
+      "2026-06-11",
+      "2026-06-15",
+      "2026-06-17",
+      "2026-06-21",
+      "2026-06-23",
+      "2026-06-25",
+      "2026-06-27",
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

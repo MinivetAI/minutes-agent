@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 500 g pack of Vaidyam Ragi Idly Dosa Batter, a millet-based ready-to-cook batter for South Indian breakfasts.",
+  "summary_text": "One order of Vaidyam Ragi Idly Dosa Batter (500 g) placed in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time when the user's activity is 32.46% more likely than average compared to the population baseline.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning accounts for 32.46% of activity. The product is a ready-to-cook batter suited for immediate breakfast preparation, fitting an immediate meal need rather than long-term stockpiling.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, the ragi variant, or this product category generally. No stable routine or recurring preference can be confirmed from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-08"
+    ],
+    "first_seen_at": "2026-04-08T10:48:37",
+    "last_seen_at": "2026-04-08T10:48:37"
+  }
 }

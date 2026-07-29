@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one unit each of Tomato Hybrid (450–550 g), Tinda (500 g), and Onion (1 kg) during the afternoon on a weekend.",
+  "summary_text": "One order of unbranded fresh vegetables placed on a weekend afternoon, including one unit each of Tomato Hybrid (450–550 g), Tinda (500 g), and Onion (1 kg).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.3% share vs. 32.5% for mornings). The items are fresh, unbranded staples typically used for immediate meal preparation.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon on a weekend. This timing aligns with the population baseline, where afternoon (0.2526) is a common shopping window, though slightly less frequent than morning (0.3246) or evening (0.3027). The products are standard fresh cooking staples (tomato, tinda, onion) typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to establish stable brand preferences, specific product loyalty, or recurring daypart habits. The user's specific meal intent or household size cannot be determined from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-09"
+    ],
+    "first_seen_at": "2026-05-09T13:20:37",
+    "last_seen_at": "2026-05-09T13:20:37"
+  }
 }

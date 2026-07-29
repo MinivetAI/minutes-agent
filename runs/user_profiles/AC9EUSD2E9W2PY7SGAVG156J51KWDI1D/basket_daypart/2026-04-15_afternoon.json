@@ -1,11 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-15 in the afternoon on a weekday. The basket contains one item: 1 unit of Face Cream And Gel (Product: MSCGFYFCT4PZ9AZ9). The order exhibits narrow breadth, consisting of a single product category. The `shopping_need_text` may describe a personal skincare need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on 2026-04-15 in the afternoon on a weekday contains one item: MSCGFYFCT4PZ9AZ9 (Face Cream And Gel). This represents a narrow, single-category basket with no co-ordered items in this specific transaction. The order suggests a personal care need compatible with facial skincare products. No other categories were purchased in this window.",
   "behavior_patterns": [],
   "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Personal skincare maintenance.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable or high-confidence preferences require repetition across independent dates. Words such as `repeated`, `repeatedly`, `usually`, `typically`, `routine`, `recurring`, and `stable` are not used because only one date is represented. The `category_pair_evidence` provided describes population-level co-ordering statistics for other categories (e.g., Milk, Vegetables, Breads) and does not apply to this specific order, which contains only Face Cream And Gel. Therefore, no category combinations from the evidence are mapped to this order.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Personal care and facial skincare maintenance.",
+  "uncertainty_text": "This analysis is based on a single order from one independent date. No durable behavior patterns, routine preferences, or category associations can be established from this isolated observation. The provided category pair evidence (e.g., Milk/Vegetables) reflects population-level or historical co-occurrence statistics and is not supported by any orders in this specific daypart window.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-15"
+    ],
+    "first_seen_at": "2026-04-15T13:09:44",
+    "last_seen_at": "2026-04-15T13:09:44"
+  }
 }

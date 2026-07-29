@@ -1,15 +1,23 @@
 {
   "date": "2026-06-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-24 (weekday), the user purchased one 400–450g pack of unbranded fresh potatoes in the afternoon. This afternoon purchase occurred during a period of below-baseline activity (population share 0.2526). The item is a fresh staple tuber suitable for immediate cooking or stockout replacement. This is a single observed order on one date; no durable brand or product preferences can be established.",
+  "summary_text": "On this weekday, the user placed one order of Potato (400–450g, 1 unit) in the afternoon. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a fresh staple vegetable, typically used for immediate cooking needs. This is a single observation on one date; no stable brand, product, or timing preference can be established yet.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 400–450g pack of unbranded fresh potatoes. This afternoon purchase occurred during a period of below-baseline activity (population share 0.2526). The item is a fresh staple tuber suitable for immediate cooking or stockout replacement.",
+      "pattern_text": "One order of Potato 400–450g (1 unit) placed on a weekday afternoon. The order occurred in the afternoon, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a fresh staple vegetable, typically used for immediate cooking needs.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established yet.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-24"
+    ],
+    "first_seen_at": "2026-06-24T13:23:16",
+    "last_seen_at": "2026-06-24T13:23:16"
+  }
 }

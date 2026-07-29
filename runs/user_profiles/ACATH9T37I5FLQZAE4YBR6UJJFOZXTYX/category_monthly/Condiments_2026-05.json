@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased one 40 g pack of Keya Pizza Oregano Spice Mix on a weekday afternoon. This single transaction occurred during a period of below-baseline activity (25.26% share). The product is a specialized seasoning mix used to enhance pizza or similar snacks, suggesting an immediate culinary need or flavor upgrade rather than a bulk pantry restock. The specific reason for the purchase (e.g., cooking at home vs. enhancing a delivery) is not confirmed.",
+  "summary_text": "In May 2026, one order of Keya Pizza Oregano Spice Mix (40 g) was placed on a weekday afternoon. This is a single observation; no stable preferences or recurring patterns are established for this category this month.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference for this brand or category. The specific reason for the purchase (e.g., cooking at home vs. enhancing a delivery) is not confirmed.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the brand 'keya' or a specific interest in pizza seasoning, as no other orders are present to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T11:21:02",
+    "last_seen_at": "2026-05-28T11:21:02"
+  }
 }

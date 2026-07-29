@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 400–450g pack of fresh loose potatoes during the evening on a weekday.",
+  "summary_text": "One order of Potato 400–450g (1 unit) placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, which is comparable to the morning baseline (0.3246) and higher than the afternoon (0.2526) or night (0.1202). The product is a fresh staple tuber used for immediate cooking or meal preparation.",
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference or a one-time stockout replacement.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday evening, which aligns with the population baseline for evening shopping (30.27%). The product is a fresh staple vegetable suitable for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preferences can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

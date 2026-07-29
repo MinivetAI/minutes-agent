@@ -1,9 +1,23 @@
 {
   "date": "2026-06-28",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-28 (weekend), the user purchased one pack of Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 count) in the morning. This purchase occurred during a morning period where user activity is above the population baseline (32.46%). The product is a high-urgency period-care item, typically used for leak protection and comfort during daily activities or overnight wear. This is a single observed order; it is not yet established whether this represents a stable brand preference or a one-time need. No browsing or search history was provided to indicate prior consideration or comparison.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 Count) in the morning. This single observation reflects an immediate need for leak protection and skin comfort during active flow, aligning with the population baseline share of 0.3246 for morning purchases. It does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond this immediate need.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Whisper Ultra Skin Love Soft Sanitary Pads XL+ (15 Count) placed on a weekend morning. This is a single observation from one date; it does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond the immediate need for this product.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable brand preference or a one-time need. No browsing or search history was provided to indicate prior consideration or comparison.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable brand preference, recurring purchase cadence, or specific usage pattern beyond the immediate need for this product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

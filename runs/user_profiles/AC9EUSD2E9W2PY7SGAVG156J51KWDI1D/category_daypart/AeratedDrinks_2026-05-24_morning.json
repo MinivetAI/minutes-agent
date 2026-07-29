@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 2.25 L bottle of Pepsi cola soft drink.",
+  "summary_text": "One order of Pepsi Soft Drink 2.25 L Plastic Bottle (1 unit) placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased during the morning on a weekend, a time when morning activity is above the population baseline (0.3246). The product is a large-format carbonated beverage typically used for immediate refreshment or sharing.",
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning accounts for 32.46% of activity. The product is a large-format carbonated cola, typically used for immediate refreshment or sharing.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time stockout replacement, a specific event purchase, or the start of a habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-24"
+    ],
+    "first_seen_at": "2026-05-24T08:02:09",
+    "last_seen_at": "2026-05-24T08:02:09"
+  }
 }

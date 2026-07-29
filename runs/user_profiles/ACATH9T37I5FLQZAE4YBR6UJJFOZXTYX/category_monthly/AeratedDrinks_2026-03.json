@@ -1,14 +1,18 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased aerated drinks on two independent dates (2026-03-15 and 2026-03-21). The purchases occurred on weekends, with one order in the evening and one in the afternoon. The user bought Thums Up and 7UP on the first date and Sprite on the second. No single brand or variant appeared on more than one date; therefore, no stable brand preferences are established. The activity spans both afternoon and evening dayparts on weekends.",
+  "summary_text": "In March 2026, the user ordered aerated drinks on two independent dates (2026-03-15 and 2026-03-21), both falling on weekends. The orders occurred in the evening and afternoon, respectively. No single brand, product, or variant appeared on more than one date; therefore, no stable preference claims are established for this category in this month. The observed pattern is limited to two isolated weekend orders.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased aerated drinks on two independent dates in March 2026, indicating intermittent interest in carbonated beverages rather than a stable routine for a specific brand.",
-      "confidence": "low"
-    }
-  ],
-  "uncertainty_text": "This analysis is based on two independent orders. No brand or variant recurred across dates, preventing the establishment of stable brand preferences. The overall confidence is low due to the limited number of observations.",
-  "overall_confidence": "low"
+  "trend_claims": [],
+  "uncertainty_text": "The evidence consists of two independent dates, but no brand or product variant repeated across them. Consequently, it is not possible to determine a stable preference for any specific aerated drink brand or type. The user's behavior in this category during this month is characterized by isolated weekend purchases.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-15",
+      "2026-03-21"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-21T14:52:28"
+  }
 }

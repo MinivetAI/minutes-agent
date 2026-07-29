@@ -1,9 +1,17 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased 1 unit of Quaker Oats Pouch 400 g (plain wholegrain oats) on 2026-03-11. This purchase occurred during a night-time shopping session, a time when this category represents a smaller share of activity (12.02%) compared to the population baseline for morning (32.46%) and evening (30.27%). The product is a basic pantry staple suitable for breakfast preparation or cooking. As this is a single observed order, it does not establish a stable preference or routine for oats. The specific reason for the night-time purchase (e.g., urgent need, last-minute prep) is not determined.",
+  "summary_text": "In March 2026, the user purchased Quaker Oats Pouch 400 g on one weekday (2026-03-11) during the night. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, aligning with a 0.1202 night share. The product is a plain wholegrain oats staple, typically used for hot breakfast bowls or as a versatile cooking ingredient. As this is a single observation, it is not yet established whether this represents a stable preference for Quaker brand oats, a specific night-time shopping habit, or a one-time purchase.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for oats. The specific reason for the night-time purchase (e.g., urgent need, last-minute prep) is not determined.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Quaker brand oats, a specific night-time shopping habit, or a one-time purchase. No other dates are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-11"
+    ],
+    "first_seen_at": "2026-03-11T22:39:02",
+    "last_seen_at": "2026-03-11T22:39:02"
+  }
 }

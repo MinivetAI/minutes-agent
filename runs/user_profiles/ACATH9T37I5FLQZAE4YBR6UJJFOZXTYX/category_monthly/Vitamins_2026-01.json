@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user placed one order for Eno Lemon Antacid Powder (30 g) on a weekday morning. This purchase occurred during a time window where the user's activity (32.46% share) is above the population baseline for this daypart. The product is a fast-acting antacid powder, typically used for immediate relief from acidity or heartburn, suggesting a need for quick digestive relief during the start of the day or after a morning meal. No browsing, search, or cart activity was observed for this category in this window.",
+  "summary_text": "In January 2026, the user placed one order for Eno Lemon Antacid Powder (30 g) on a weekday morning. This single observation does not establish a routine or stable preference for this brand or product. The timing aligns with a period of above-baseline purchasing activity (32.5% of population activity).",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for antacids. It is unclear if this was a one-time need or part of a recurring pattern. No browsing intent (search/views) was recorded, so the user's discovery process or comparison behavior is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a routine purchase, a one-time need, or part of a broader pattern of digestive health management. No brand or product preference can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T09:40:31",
+    "last_seen_at": "2026-01-30T09:40:31"
+  }
 }

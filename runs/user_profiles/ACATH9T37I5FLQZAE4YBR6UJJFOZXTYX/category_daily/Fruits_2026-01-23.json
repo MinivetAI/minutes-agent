@@ -1,15 +1,23 @@
 {
   "date": "2026-01-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-23 (weekday), the user purchased one 180 g pack of Fresh Mahabaleshwar Strawberries (unbranded) during the morning. This order occurred in the morning, a time when this user's activity is 32.46% of their total (population baseline). The product is a small-pack fresh fruit, typically used for immediate consumption, such as a snack, breakfast add-on, or quick dessert. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate craving, guest serving, trial) cannot be determined from this single event.",
+  "summary_text": "On 2026-01-23 (weekday), the user ordered Fresh Mahabaleshwar Strawberries 180 g in the morning. This timing aligns with the population baseline where morning shares (0.3246) are the highest among dayparts. The product is a small-pack fresh fruit, typically used for immediate consumption, such as a snack, breakfast add-on, or quick dessert. This is a single observation on one date. It is not yet established whether this represents a stable preference for strawberries, the Mahabaleshwar variety, or the unbranded SKU, nor is it clear if the morning timing is a personal habit or an isolated instance.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 180 g pack of Fresh Mahabaleshwar Strawberries (unbranded) during the morning on a weekday.",
+      "pattern_text": "One order of Fresh Mahabaleshwar Strawberries 180 g. This timing aligns with the population baseline where morning shares (0.3246) are the highest among dayparts. The product is a small-pack fresh fruit, typically used for immediate consumption, such as a snack, breakfast add-on, or quick dessert. This is a single observation on one date. It is not yet established whether this represents a stable preference for strawberries, the Mahabaleshwar variety, or the unbranded SKU, nor is it clear if the morning timing is a personal habit or an isolated instance.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate craving, guest serving, trial) cannot be determined from this single event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for strawberries, the Mahabaleshwar variety, or the unbranded SKU, nor is it clear if the morning timing is a personal habit or an isolated instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

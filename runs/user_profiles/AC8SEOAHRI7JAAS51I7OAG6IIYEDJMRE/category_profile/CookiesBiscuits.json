@@ -1,40 +1,34 @@
 {
-  "category": "Cookies Biscuits",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for the Britannia brand in the Cookies Biscuits category, having purchased Britannia products on four independent dates in May 2026. Within this brand, the Britannia 50-50 Golmaal Salted Biscuit shows a medium-confidence stable preference, appearing on two independent dates. Other Britannia products (Good Day Cashew Cookies, NutriChoice Zero) were single-observation purchases. The user consistently orders in the afternoon on weekdays, with a cadence of approximately 9 days. Mission generation is driven by routine snacking or household stocking needs.",
-  "brand_preferences": [
-    {
-      "brand": "Britannia",
-      "preference_text": "The user purchased Britannia-branded cookies on all four independent dates in May 2026, indicating a stable preference for this brand.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user purchased Britannia 50-50 Golmaal Salted Biscuit on two independent dates in May 2026, indicating a stable preference for this specific variant.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 9.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-05-30",
-    "predicted_next_purchase_date": "2026-06-08",
-    "replenishment_text": "The user typically purchases this category every 9 days, with the next purchase estimated around 2026-06-08.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Cookies Biscuits",
+  "summary_text": "In May 2026, the user demonstrated a stable preference for the Britannia brand, ordering across four independent dates. The Britannia 50-50 Golmaal Salted Biscuit (170 g) was the most consistent product, appearing on two independent dates. Other Britannia variants, including Good Day Cashew Cookies and NutriChoice Zero Cookies, were purchased on single dates. All orders were placed in the afternoon, aligning with population norms.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Britannia",
+        "preference_text": "The user consistently purchases Britannia brand cookies and biscuits, observed across four independent dates in May 2026.",
+        "confidence": "high",
+        "boundary_text": "This preference applies to the Britannia brand generally but does not imply a preference for all Britannia sub-brands or specific product lines (e.g., Good Day or NutriChoice) which were only observed on single dates."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by four completed transactions across independent dates.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior evidence found.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Routine replenishment of afternoon snack items, specifically salted biscuits and cookies, for household consumption.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of substitution behavior is present. The user consistently selected Britannia brand products; no alternative brands were observed in this category during the summary period.",
+  "uncertainty_text": "While Britannia is a stable brand preference, the specific product variety varies. The user ordered Good Day Cashew Cookies and NutriChoice Zero Cookies on separate, single dates, so it is unknown if these are occasional explorations or part of a broader multi-variant preference. The afternoon daypart is consistent but aligns with general population norms, so it is unclear if this represents a unique personal routine or general availability alignment.",
+  "retrieval_text": "The user exhibits a high-confidence stable preference for the Britannia brand in the Cookies Biscuits category, evidenced by purchases on four independent dates in May 2026. The specific product Britannia 50-50 Golmaal Salted Biscuit (170 g) shows a medium-confidence stable preference, appearing on two independent dates. Other Britannia variants, including Good Day Cashew Cookies and NutriChoice Zero Cookies, were purchased on single dates, indicating occasional variety-seeking within the brand. All orders were placed in the afternoon, a timing pattern consistent with population baselines. No other brands were observed, and no substitution evidence exists.",
+  "replenishment": {
+    "cadence_days": 9,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-06-08",
+    "replenishment_text": "CookiesBiscuits is reordered roughly every 9 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-05-04T13:12:50",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

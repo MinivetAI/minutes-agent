@@ -1,62 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-03-15 (evening, weekend) containing 11 items across 6 categories. The basket is dominated by Vegetables (5 units) and includes Milk (2 units), Aerated Drinks (2 units), and single units of Spices Masala, Curd Yogurt, and Fruits. No carts were abandoned.",
+  "basket_summary_text": "A single order placed on 2026-03-15 in the evening on a weekend. The basket contains 11 items across 6 categories: Vegetables (5 items), Aerated Drinks (2 items), Milk (2 items), and single units of Spices Masala, Curd Yogurt, and Fruits. The order-building behavior shows a mix of staple dairy (Milk, Curd Yogurt), fresh produce (Vegetables, Fruits), and convenience items (Aerated Drinks, Spices Masala).",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
-      "support": 0.443,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in this order.",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Aerated Drinks",
-        "Vegetables"
-      ],
-      "combination_text": "Aerated Drinks and Vegetables were purchased together in this order.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables were purchased together in this order.",
-      "support": 0.213,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for meal preparation involving fresh produce and dairy, accompanied by beverages and fruit.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. It represents an observation, not a durable preference or stable pattern. Confidence in inferred user behavior is low due to the lack of repeated evidence across independent dates.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Preparation of a meal or snack involving fresh ingredients and dairy, possibly with a beverage.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences or routine behavior cannot be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-15"
+    ],
+    "first_seen_at": "2026-03-15T17:32:43",
+    "last_seen_at": "2026-03-15T17:32:43"
+  }
 }

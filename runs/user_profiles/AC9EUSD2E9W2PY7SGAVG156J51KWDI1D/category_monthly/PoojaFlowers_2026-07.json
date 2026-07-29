@@ -1,9 +1,35 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased Pooja Flowers on two independent dates (2026-07-15 and 2026-07-21). No single brand, product, or variant recurred across these dates; each order contained distinct items. Consequently, no stable preference claims can be established for specific products. The user ordered during the evening on a weekday and during the morning on a weekday. These are single-date observations for each specific product instance.",
-  "stable_preference_claims": [],
+  "summary_text": "In 2026-07, the user placed two orders of Pooja Flowers on independent dates (2026-07-15 and 2026-07-21). Both orders contained the same two distinct product variants (FFWHM4DBGGSG7GHN and FFWHM4DBA2E8U64D), each with a quantity of 1. The products are general-use floral items typically associated with religious or ceremonial practices. No brand data is provided for these products. The user purchased on two weekdays, once in the evening and once in the morning, aligning with population baseline shares for both dayparts. Due to the repetition of the specific product variants across two independent dates, these items meet the threshold for stable preference. The daypart and weekday patterns are noted but do not reach high confidence due to the small number of dates.",
+  "stable_preference_claims": [
+    {
+      "dimension": "product",
+      "value": "FFWHM4DBGGSG7GHN",
+      "claim_text": "The user has ordered product FFWHM4DBGGSG7GHN on 2 independent dates in 2026-07.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "FFWHM4DBA2E8U64D",
+      "claim_text": "The user has ordered product FFWHM4DBA2E8U64D on 2 independent dates in 2026-07.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    }
+  ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Evidence is limited to two independent dates with no recurring products. Durable preferences or routine behaviors for specific items cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This analysis is based on only two independent dates in 2026-07. While product repetition supports medium confidence for those specific variants, the limited date count prevents high-confidence claims for daypart or weekday patterns. No brand data was provided, so no brand preferences can be established.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-07-15",
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

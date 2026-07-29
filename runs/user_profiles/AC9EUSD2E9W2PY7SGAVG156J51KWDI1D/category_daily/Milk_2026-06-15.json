@@ -1,9 +1,23 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-15 (weekday), the user purchased 2 units of Chitale Cow Milk 500 ml during the morning. This timing aligns with a population share of 0.3246 for morning purchases. The product is a small-pack fresh dairy item suitable for immediate household use such as tea, coffee, or breakfast. This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-15 (weekday), the user ordered Chitale Cow Milk 500 ml (quantity: 2) during the morning. This morning order occurred when the user's purchasing activity was below the population baseline (32.46%). The products are fresh dairy items typically used for immediate household needs such as tea, coffee, or breakfast preparation. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Chitale Cow Milk 500 ml (quantity: 2) placed on a weekday morning. The order occurred in the morning, a time when this user's purchasing activity is below the population baseline (32.46%). The products are fresh dairy items typically used for immediate household needs such as tea, coffee, or breakfast preparation.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or routine cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

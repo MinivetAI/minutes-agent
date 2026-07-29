@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 200 g pouch of English Oven Masala Kulcha Bread and one 210 g pack of The Health Factory Zero Maida Kulcha Bread during the afternoon on a weekend.",
+  "summary_text": "One order of Breads containing English Oven Masala Kulcha Bread (200 g) and The Health Factory Zero Maida Kulcha Bread (210 g), purchased on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.3% vs 32.5% for morning). The products are packaged, ready-to-use Indian-style flatbreads, suggesting a need for a quick meal base or accompaniment for gravies without the effort of making dough from scratch.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for kulcha bread or specific brands. It is unclear if this was a one-time convenience purchase or part of a recurring habit.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon, a time when this user's activity is less common than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The products are packaged, ready-to-use flatbreads typically used as a quick meal base or accompaniment for gravies, suggesting an immediate need for convenient dinner or snack components.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific meal occasions. It is unclear if the user prefers the masala flavor or the zero-maida formulation, or if these were bought together for a specific meal.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T12:56:25",
+    "last_seen_at": "2026-03-28T12:56:25"
+  }
 }

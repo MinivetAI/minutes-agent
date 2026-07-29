@@ -1,9 +1,17 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "Purchased one pack of Flipkart Supermart Sponge Wipes (3-pack) and one Scotch-Brite Power Scrub Pad during a morning session on a weekend. The order occurred in the morning, a time with a 32.46% population share, suggesting alignment with typical morning shopping habits. The products are general-purpose cleaning accessories for routine household surface maintenance and spill cleanup.",
+  "summary_text": "On 2026-07-04 (weekend), one order was placed in the morning. The basket contained Flipkart Supermart Sponge Wipe Large (Pack of 3) and Scotch-Brite Power Scrub Pad Regular. These are general-purpose cleaning accessories for routine surface wiping and scrubbing. The timing aligns with the population baseline where morning shares 32.46% of activity. This is a single observation from one date; it is not yet established whether the user prefers these specific brands, has a recurring cleaning routine, or if this was an isolated replacement purchase.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable or recurring preference for these specific brands or product types.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers these specific brands, has a recurring cleaning routine, or if this was an isolated replacement purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T08:48:45",
+    "last_seen_at": "2026-07-04T08:48:45"
+  }
 }

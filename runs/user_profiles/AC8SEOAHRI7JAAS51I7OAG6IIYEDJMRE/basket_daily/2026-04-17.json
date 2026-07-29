@@ -1,7 +1,7 @@
 {
   "date": "2026-04-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-17 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Fruits and 1 unit of Breads, totaling 3 items across 2 categories. The basket breadth is narrow, consisting only of Fruits and Breads. The order-building behavior is a simple, single-transaction purchase with no abandoned carts. The purchase of Fruits and Breads is compatible with a need for fresh breakfast or snack items. This analysis is based on a single order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single observation.",
+  "summary_text": "On 2026-04-17 (weekday), a single morning order was placed containing two units of fruit and one unit of bread. The basket was narrow, limited to the Fruits and Breads categories. This single observation is compatible with a breakfast or morning snack need. No durable preferences or routine behaviors can be inferred from this isolated order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,9 @@
       "combination_text": "Breads and CurdYogurt",
       "support": 0.129,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -23,7 +25,9 @@
       "combination_text": "CurdYogurt and Vegetables",
       "support": 0.114,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -33,7 +37,9 @@
       "combination_text": "CurdYogurt and Milk",
       "support": 0.086,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -43,7 +49,9 @@
       "combination_text": "Breads and Vegetables",
       "support": 0.086,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -53,7 +61,9 @@
       "combination_text": "Milk and Vegetables",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -63,7 +73,9 @@
       "combination_text": "Milk and SavouriesNamkeens",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -73,7 +85,9 @@
       "combination_text": "CannedFood and CurdYogurt",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     },
     {
       "categories": [
@@ -83,11 +97,20 @@
       "combination_text": "Breads and Milk",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 0,
+      "independent_date_count": 0
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Fruits and Breads is compatible with a need for fresh breakfast or snack items.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single observation.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user purchased fruits and bread in the morning on a weekday, which is compatible with a breakfast or morning snack need.",
+  "uncertainty_text": "This is a single observation on one date. No durable preferences or routine behaviors can be inferred from this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T09:11:18",
+    "last_seen_at": "2026-04-17T09:11:18"
+  }
 }

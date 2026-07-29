@@ -1,9 +1,23 @@
 {
   "date": "2026-04-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-24 (weekday), one Amul Butterscotch Tricone Ice Cream (120 ml) was purchased in the afternoon. This timing is less common than morning or evening peaks. The product is a single-serve cone, suitable for immediate consumption or a quick treat. This is a single observed order on one date. It is not yet possible to determine if this represents a stable preference for Amul, butterscotch flavor, or cone-format ice creams, or if it was a one-time impulse purchase.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-24 (weekday), the user purchased one Amul Butterscotch Tricone Ice Cream (120 ml) in the afternoon. This timing aligns with the population baseline (25.26% of purchases occur in the afternoon, compared to 32.46% in the morning). The product is a single-serve cone, typically associated with immediate consumption or a quick indulgence rather than bulk stocking. This is a single observation on one date. It is not yet established whether the user prefers this specific brand, flavor, or format, or if this was an isolated impulse purchase. No stable brand or product preference can be confirmed.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One Amul Butterscotch Tricone Ice Cream (120 ml) purchased on a weekday afternoon. The order occurred in the afternoon, a period where this user's purchase timing aligns with the population baseline (25.26% of purchases occur in the afternoon, compared to 32.46% in the morning). The product is a single-serve cone, typically associated with immediate consumption or a quick indulgence rather than bulk stocking. This is a single observation on one date. It is not yet established whether the user prefers this specific brand, flavor, or format, or if this was an isolated impulse purchase. No stable brand or product preference can be confirmed.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date. It is not yet possible to determine if this represents a stable preference for Amul, butterscotch flavor, or cone-format ice creams, or if it was a one-time impulse purchase.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, flavor, or format, or if this was an isolated impulse purchase. No stable brand or product preference can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-24"
+    ],
+    "first_seen_at": "2026-04-24T13:00:27",
+    "last_seen_at": "2026-04-24T13:00:27"
+  }
 }

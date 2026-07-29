@@ -1,15 +1,23 @@
 {
   "date": "2026-02-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-10 (weekday), a single afternoon purchase included six unbranded fresh vegetable items: Local Tomato (450-550g), Onion (400–450 g), Brinjal Varikatri (250 g), Organic Bottle Gourd, Baby Potato (280–320 g), and Coriander Leaves (100 g). This order represents a collection of perishable staples compatible with immediate same-day cooking or meal preparation. The afternoon timing aligns with a population share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) shares. As this is a single observed order on one date, durable preferences, brand loyalty, or routine habits cannot be established, and the specific meal plan or reason for this combination is unknown.",
+  "summary_text": "On 2026-02-10 (weekday), the user placed one order of fresh vegetables in the afternoon. The basket included local tomatoes, onions, brinjal, organic bottle gourd, baby potatoes, and coriander leaves. This afternoon timing aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). The items are perishable fresh produce typically used for immediate same-day cooking or meal preparation. As this is a single observation from one date, it is not yet established whether this represents a stable routine or a one-time need. No brand preferences can be inferred as all items are unbranded.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased six unbranded fresh vegetable items: Local Tomato (450-550g), Onion (400–450 g), Brinjal Varikatri (250 g), Organic Bottle Gourd, Baby Potato (280–320 g), and Coriander Leaves (100 g).",
+      "pattern_text": "One order of fresh vegetables placed on a weekday afternoon, including local tomatoes, onions, brinjal, organic bottle gourd, baby potatoes, and coriander leaves. The order was placed in the afternoon, which is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The basket consists of perishable fresh produce items typically used for immediate same-day cooking or meal preparation.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, brand loyalty, or routine habits cannot be established. The specific meal plan or reason for this combination of vegetables is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it is not yet established whether this represents a stable routine or a one-time need. No brand preferences can be inferred as all items are unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-10"
+    ],
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-02-10T11:33:22"
+  }
 }

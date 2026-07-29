@@ -1,15 +1,23 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "On the weekend of 2026-04-05, the user purchased one 400–450g pack of fresh loose potatoes during a night-time session. This activity occurred during a period where the user's shopping frequency is lower than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a fresh staple tuber, typically used for immediate cooking or as a base ingredient. This is a single observed order; it does not establish a stable preference or routine for potatoes. It is unclear if this was a one-time top-up or part of a broader habit.",
+  "summary_text": "On this weekend, the user ordered one unit of Potato (400–450g) during the night. This purchase aligns with the product's role as a fresh staple tuber for immediate cooking. The timing falls within the night daypart, which represents 12.02% of the population baseline (with evening being the dominant period at 30.27%). As this is a single observation on one date, no stable brand, product, or timing preference can be established; it is unclear if this was a one-time top-up or part of a recurring habit.",
   "daypart_patterns": [
     {
       "daypart": "night",
-      "pattern_text": "Purchased one 400–450g pack of fresh loose potatoes during a night-time session on a weekend.",
+      "pattern_text": "One order of Potato 400–450g (1 unit) placed on a weekend night.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for potatoes. It is unclear if this was a one-time top-up or part of a broader habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or timing preference can be established. It is unclear if this was a one-time top-up or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T21:57:18",
+    "last_seen_at": "2026-04-05T21:57:18"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased 3 units of Coca-Cola Diet Coke Can 300 ml.",
+  "summary_text": "One order of 3 Coca-Cola Diet Coke Cans (300 ml) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Purchased in the afternoon on a weekend, a time when population share is 0.2526 (lower than the morning baseline of 0.3246). The product is a single-serve carbonated beverage, typically used for immediate refreshment or pairing with food.",
-  "uncertainty_text": "This is a single observed order; durable brand or flavor preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when the user's activity aligns with the population baseline where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027). The purchase of single-serve diet cola cans suggests an immediate refreshment need or a quick beverage add-on rather than bulk stocking.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether the user prefers Diet Coke over other cola variants, prefers the 300 ml can size over larger formats, or typically shops on weekends. No brand or product preference can be confirmed from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-09"
+    ],
+    "first_seen_at": "2026-05-09T13:20:37",
+    "last_seen_at": "2026-05-09T13:20:37"
+  }
 }

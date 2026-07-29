@@ -1,26 +1,27 @@
 {
-  "category": "Jams Spreads",
-  "profile_text": "A single observed order of Saffola Peanut Butter with Jaggery, Crunchy (350 g) on a weekday morning in July 2026. This product serves as a pantry spread for quick breakfasts or snacks. No stable preferences, routine, or brand loyalty can be established from this single data point.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Jams Spreads",
+  "summary_text": "In July 2026, one order of Saffola Peanut Butter with Jaggery, Crunchy (350 g) was placed in the Jams Spreads category during the morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity for this category. The product is a pantry staple spread, typically used for quick breakfasts or snacks. This is a single observation on one date; it is not yet established whether this represents a stable preference for Saffola, peanut butter, or morning shopping habits. No other products or brands were observed in this window.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established from single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Saffola, peanut butter, or morning shopping habits. No other products or brands were observed in this window.",
+  "retrieval_text": "Single observation in July 2026 of Saffola Peanut Butter with Jaggery, Crunchy (350 g) purchased in the morning, aligning with population baseline morning activity (32.46%). No stable brand, variant, or routine established from this isolated event.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-07-06",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single order; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for JamsSpreads yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category has resulted in a completed purchase, indicating reliable conversion from interest to transaction for this specific instance.",
-  "substitution_text": "No substitution patterns observed due to single order.",
-  "price_value_text": "No price or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports immediate breakfast or snack needs with a convenient, ready-to-eat spread.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-06T09:15:29"
+  }
 }

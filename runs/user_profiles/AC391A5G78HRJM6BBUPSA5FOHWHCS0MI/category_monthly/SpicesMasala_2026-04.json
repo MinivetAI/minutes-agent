@@ -1,9 +1,19 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased distinct spice items on three separate dates: Maggi Masala-ae-Magic Vegetable Masala on a weekday morning, Goldiee Kasoori Methi and Ashok Turmeric Powder on a weekend evening, and Everest Chaat Masala on a weekday evening. Each brand and product variant appeared only once. No brand, product, or variant recurred across 2 or more independent dates. Therefore, no stable preferences or routines are established for this category in this month.",
+  "summary_text": "In April 2026, the user purchased four distinct spice items across three independent dates. No single brand, product, or variant appeared on more than one date; therefore, no stable brand or product preferences are established for this month. The purchases include Maggi Masala-ae-Magic Vegetable Masala (weekday morning), Goldiee Kasoori Methi and Ashok Turmeric Powder (weekend evening), and Everest Chaat Masala (weekday evening). The ordering activity spans both weekdays and weekends, with purchases occurring in both morning and evening dayparts, consistent with general population baselines for this category. The variety of brands (Maggi, Goldiee, Ashok, Everest) and product types (vegetable masala, dried herbs, turmeric, chaat masala) suggests a need for specific, varied culinary ingredients rather than a routine reliance on a single staple.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Each observed purchase (Maggi Masala-ae-Magic, Goldiee Kasoori Methi, Ashok Turmeric Powder, Everest Chaat Masala) occurred on a single independent date. Without repetition across multiple dates, these observations reflect one-time needs or isolated purchases rather than stable preferences. Confidence in any specific brand or product preference is low.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This month's evidence consists of four orders across three independent dates, but no brand or product repeated. Consequently, it is not possible to determine stable brand preferences or routine purchasing patterns. The observed items may represent one-time needs or specific meal preparations.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-04-10",
+      "2026-04-12",
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

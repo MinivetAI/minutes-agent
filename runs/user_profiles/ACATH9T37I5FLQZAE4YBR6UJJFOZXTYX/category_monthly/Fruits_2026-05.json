@@ -1,18 +1,41 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased fresh fruits across three independent dates. Watermelon Kiran was the most recurrent item, appearing on three separate dates (2026-05-02, 2026-05-04, and 2026-05-17), establishing a stable preference. Other fruits, including Apple Red Delicious, Banana Robusta, and Muskmelon, appeared only once and are excluded from stable claims. Shopping activity occurred on both weekdays and weekends, with purchases in the morning and afternoon.",
+  "summary_text": "In May 2026, the user ordered fresh fruits on three independent dates (2026-05-02, 2026-05-04, 2026-05-17). Watermelon Kiran appears on two independent dates (2026-05-02 and 2026-05-04), meeting the repetition bar for stable preference. Morning is the most frequent daypart, appearing on two independent dates (2026-05-02 and 2026-05-17), establishing a stable morning pattern. The user also ordered on a weekday (2026-05-04), but this is a single observation for that day-type. No other brands or specific fruit variants recur across multiple dates.",
   "stable_preference_claims": [
     {
       "dimension": "product",
       "value": "Watermelon Kiran",
-      "claim_text": "The user has a stable preference for Watermelon Kiran, evidenced by purchases on three independent dates in May 2026.",
-      "confidence": "high",
+      "claim_text": "The user has ordered Watermelon Kiran on two independent dates (2026-05-02 and 2026-05-04), indicating a stable preference for this specific watermelon variant.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "brand",
+      "value": "Unbranded",
+      "claim_text": "All visible fruit brands in the order history are 'Unbranded'. While 'Unbranded' appears on multiple dates, it is a generic descriptor rather than a specific brand preference. However, the user consistently purchases unbranded fresh produce.",
+      "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "Single-date observations for Apple Red Delicious, Banana Robusta, and Muskmelon do not support stable preference claims. Confidence in specific product preferences beyond Watermelon Kiran is low due to lack of repetition.",
-  "overall_confidence": "medium"
+  "trend_claims": [
+    {
+      "claim_text": "The user's fruit purchasing activity spans both weekdays and weekends, with a slight concentration on weekends (2 out of 3 dates).",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While Watermelon Kiran and morning timing show stable patterns, the variety of other fruits (Apple Red Delicious, Banana Robusta, Muskmelon) appears only once, so no stable preferences can be claimed for them. The user's overall fruit consumption is diverse.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-05-02",
+      "2026-05-04",
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

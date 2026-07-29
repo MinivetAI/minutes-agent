@@ -1,19 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one Kinder JOY Pink Bites 20 g and one Kinder JOY Blue Bites 20 g during the afternoon on a weekday.",
-  "preference_claims": [
-    {
-      "dimension": "brand",
-      "value": "Kinder JOY",
-      "claim_text": "The user purchased two items from the Kinder JOY brand in this session.",
-      "confidence": "low",
-      "evidence_count": 2,
-      "independent_date_count": 1
-    }
-  ],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The products are single-serve, portion-controlled chocolate confections, typically used for immediate sweet cravings or quick, individual indulgences.",
-  "uncertainty_text": "This is a single-observation window; it is not yet established whether the user has a stable preference for the Kinder JOY brand or this specific portioned format versus other chocolate types or pack sizes.",
-  "overall_confidence": "low"
+  "summary_text": "One order of Kinder JOY Pink Bites 20 g and one order of Kinder JOY Blue Bites 20 g.",
+  "preference_claims": [],
+  "shopping_context_text": "The order was placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but still significant. The products are portion-controlled, single-serve milk chocolate confectioneries, generally used for instant sweet cravings or quick, individual indulgences.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product type, or timing over other options. No stable brand or product preference can be confirmed from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

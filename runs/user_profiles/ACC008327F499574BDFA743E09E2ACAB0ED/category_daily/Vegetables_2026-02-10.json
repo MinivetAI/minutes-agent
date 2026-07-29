@@ -1,15 +1,23 @@
 {
   "date": "2026-02-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-10 (weekday), the user purchased fresh vegetables during the afternoon, a time when the population share is 0.2526. The order included 2 units of Local Tomato (1 kg) and 2 units of Cauliflower (400-600g). These items are consistent with immediate household cooking needs. This is a single observation on one date; no stable preferences or routine patterns can be established.",
+  "summary_text": "On this weekday, the user ordered fresh vegetables (Local Tomato 1 kg, Cauliflower 400-600g) during the afternoon. This timing aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). The items are fresh vegetables typically used for immediate household cooking.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 2 units of Local Tomato (1 kg) and 2 units of Cauliflower (400-600g).",
+      "pattern_text": "Ordered 2 units of Local Tomato 1 kg and 2 units of Cauliflower 400-600g. This timing aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). The items are fresh vegetables typically used for immediate household cooking.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no stable preferences or routine patterns can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-10"
+    ],
+    "first_seen_at": "2026-02-10T11:10:26",
+    "last_seen_at": "2026-02-10T11:10:26"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-03-22",
   "day_type": "weekend",
-  "summary_text": "On this weekend, one order of Puramate Pancake Syrup Maple Syrup (300 ml) was placed during the afternoon. The purchase occurred on a weekend afternoon, a time when population share (25.26%) is lower than the morning (32.46%) and evening (30.27%) peaks. The product is a table-ready syrup for breakfast items like pancakes or waffles, suggesting a same-meal or quick-replacement need-state rather than bulk cooking preparation. No browsing events (search, view, cart) were recorded for this category in this window.",
+  "summary_text": "On 2026-03-22 (weekend), one order of Puramate Pancake Syrup Maple Syrup (300 ml) was placed in the afternoon. This timing is less common than the population baseline for morning (0.3246) or evening (0.3027) purchases, though it aligns with the afternoon share (0.2526). The product is a table-ready syrup typically used for breakfast items like pancakes or waffles, suggesting a potential need for a breakfast topping, possibly for a weekend meal. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders in this category or daypart are available to confirm repetition.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for the brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand or product, or if it was a one-time purchase. No other orders in this category or daypart are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-22"
+    ],
+    "first_seen_at": "2026-03-22T13:11:15",
+    "last_seen_at": "2026-03-22T13:11:15"
+  }
 }

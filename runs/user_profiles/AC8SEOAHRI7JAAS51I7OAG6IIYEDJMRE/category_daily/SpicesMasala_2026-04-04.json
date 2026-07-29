@@ -1,9 +1,17 @@
 {
   "date": "2026-04-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-04 (weekend), the user purchased Zoff Cumin Seeds (100 g) and Tata Sampann Coriander Powder (200 g) during a morning session. This timing aligns with above-baseline activity (32.46%). The items are common Indian cooking staples, suggesting a need to replenish kitchen ingredients for meal preparation.",
+  "summary_text": "On this weekend, the user ordered Zoff Cumin Seeds (100 g) and Tata Sampann Coriander Powder (200 g) in the Spices Masala category. The order occurred in the morning, a daypart that aligns with the population baseline where morning accounts for 32.46% of activity. These products are standard kitchen staples used for everyday Indian cooking, suggesting a need to replenish essential spices for meal preparation.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific brands or this specific timing.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers the Zoff or Tata Sampann brands, or if this represents a recurring routine. The specific meal context or reason for the weekend morning purchase cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T10:19:55",
+    "last_seen_at": "2026-04-04T10:19:55"
+  }
 }

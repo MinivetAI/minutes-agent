@@ -1,9 +1,23 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20 (weekday), the user purchased 3 units of Surf excel Detergent Bar 250 g during the evening. This evening activity is slightly below the population baseline (0.3027). The purchase represents a standard laundry replenishment item intended for manual spot-cleaning or hand-wash tasks. This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product format.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-04-20 (weekday), one order of Surf Excel Detergent Bar 250 g (quantity: 3) was placed in the evening. This timing aligns with the population baseline evening share of 0.3027. The product is a laundry detergent bar, a format typically used for manual spot-cleaning or hand-washing tasks. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Surf Excel Detergent Bar 250 g (quantity: 3) placed on a weekday evening. The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The purchase consists of laundry detergent bars, a product format typically used for manual spot-cleaning or hand-washing tasks.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product format.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

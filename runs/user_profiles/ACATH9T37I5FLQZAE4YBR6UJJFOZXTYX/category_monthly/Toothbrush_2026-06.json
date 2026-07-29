@@ -1,11 +1,11 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased a Colgate ZigZag Medium Toothbrush on two independent dates (2026-06-21 and 2026-06-27). Both transactions occurred on weekends, with one in the morning and one in the afternoon. The recurrence of this specific brand and model across two separate dates indicates a stable preference for this item, likely driven by a routine refresh or replacement need. No other toothbrush brands or variants were observed in this month.",
+  "summary_text": "In June 2026, the user purchased Colgate ZigZag Medium Toothbrush on two independent dates (2026-06-21 and 2026-06-27). This repetition meets the threshold for a stable preference. The user also purchased this item on a weekend on both occasions, establishing a weekend pattern. The first purchase was in the morning, and the second in the afternoon; while both are single-date dayparts, the recurrence of the product on weekends is the dominant stable signal.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Colgate",
-      "claim_text": "The user has a stable preference for Colgate toothbrushes, evidenced by purchases on 2 independent dates in June 2026.",
+      "claim_text": "The user has purchased Colgate toothbrushes on two independent dates in June 2026, indicating a stable brand preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,15 @@
     {
       "dimension": "product",
       "value": "Colgate ZigZag Medium Toothbrush",
-      "claim_text": "The user has a stable preference for the Colgate ZigZag Medium Toothbrush, evidenced by purchases on 2 independent dates in June 2026.",
+      "claim_text": "The user has purchased Colgate ZigZag Medium Toothbrush on two independent dates in June 2026, indicating a stable product preference.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Manual Toothbrush",
+      "claim_text": "The user has purchased manual toothbrushes on two independent dates in June 2026, indicating a stable product type preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +29,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Confidence is medium for the identified stable preferences because they are supported by 2 independent dates. No other brands or products were observed, so no trends or alternative preferences are noted.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the product and brand show stable preference across two dates, the daypart pattern is mixed (one morning, one afternoon) and does not form a consistent daily routine claim beyond the weekend timing. The afternoon purchase on 2026-06-27 contrasts with the population baseline for toothbrushes, but as a single observation for that specific daypart, it is not a stable pattern.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-21",
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-21T08:35:05",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

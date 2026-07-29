@@ -1,51 +1,19 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased milk on four independent dates (2026-05-04, 2026-05-13, 2026-05-26, 2026-05-30). All orders were placed in the afternoon, establishing a stable afternoon daypart preference. Regarding products, Amul Taaza Pasteurised Toned Milk (500 ml) was purchased on two independent dates (2026-05-13, 2026-05-26), meeting the repetition bar for stable preference. Amul Cow Milk (500 ml) and Mother Dairy Toned Milk (500 ml) each appeared on only one date and are excluded from stable preference claims. The user’s specific intent (e.g., immediate consumption vs. stock) remains unconfirmed for individual transactions.",
+  "summary_text": "In May 2026, the user purchased milk four times, all in the afternoon. Three orders were for Amul products (one Amul Cow Milk and two Amul Taaza Toned Milk, all 500 ml), and one was for Mother Dairy Toned Milk (500 ml). All purchases were made on weekdays except for one weekend order. The consistent afternoon timing across all four dates suggests a stable afternoon shopping pattern for this category.",
   "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "Amul Taaza Pasteurised Toned Milk (500 ml)",
-      "claim_text": "The user has a stable preference for Amul Taaza Pasteurised Toned Milk (500 ml), supported by purchases on 2 independent dates in May 2026.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    },
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user has a stable preference for the Amul brand, supported by purchases on 3 independent dates (2026-05-04, 2026-05-13, 2026-05-26) in May 2026.",
+      "claim_text": "The user purchased Amul-branded milk on three independent dates (2026-05-04, 2026-05-13, 2026-05-26).",
       "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
-      "dimension": "product",
+      "dimension": "pack_size",
       "value": "500 ml",
-      "claim_text": "The user has a stable preference for the 500 ml pack size, supported by purchases on 4 independent dates in May 2026.",
-      "confidence": "high",
-      "evidence_count": 4,
-      "independent_date_count": 4
-    },
-    {
-      "dimension": "product",
-      "value": "Toned Milk",
-      "claim_text": "The user has a stable preference for Toned Milk, supported by purchases on 3 independent dates (2026-05-13, 2026-05-26, 2026-05-30) in May 2026.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    },
-    {
-      "dimension": "product",
-      "value": "Pasteurised",
-      "claim_text": "The user has a stable preference for Pasteurised milk, supported by purchases on 3 independent dates (2026-05-13, 2026-05-26, 2026-05-30) in May 2026.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    },
-    {
-      "dimension": "product",
-      "value": "Afternoon",
-      "claim_text": "The user has a stable preference for the afternoon daypart, supported by purchases on 4 independent dates in May 2026.",
+      "claim_text": "The user purchased 500 ml packs of milk on all four independent dates in May 2026.",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
@@ -53,6 +21,17 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Specific intent for individual purchases (e.g., immediate need vs. planned replenishment) is not established. Single-date observations for Amul Cow Milk and Mother Dairy do not support stable preference claims.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While Amul appears frequently, the user also purchased Mother Dairy on a separate date, indicating potential flexibility between brands rather than exclusive loyalty to a single brand. The consistent afternoon timing is noted, but the specific driver for this timing relative to population baselines remains descriptive rather than explanatory.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-05-04",
+      "2026-05-13",
+      "2026-05-26",
+      "2026-05-30"
+    ],
+    "first_seen_at": "2026-05-04T13:12:50",
+    "last_seen_at": "2026-05-30T13:06:02"
+  }
 }

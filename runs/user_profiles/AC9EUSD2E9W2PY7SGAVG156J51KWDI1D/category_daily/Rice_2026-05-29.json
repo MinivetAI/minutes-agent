@@ -1,15 +1,23 @@
 {
   "date": "2026-05-29",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-29 (weekday), one order of Daawat Rozana Gold Basmati Rice (5 kg) was placed in the morning. This morning activity aligns with the user's above-baseline population share (32.5%). The purchase represents a single observation of a staple food item suitable for household restocking. No durable brand or product preferences can be established from this single date.",
+  "summary_text": "On 2026-05-29 (weekday), the user purchased Daawat Rozana Gold Basmati Rice (5 kg) in the morning. This single order aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a staple grain typically used for daily household meals. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One order of Daawat Rozana Gold Basmati Rice (5 kg) was placed. This timing coincides with a period of above-baseline activity (32.5% share).",
+      "pattern_text": "One order of Daawat Rozana Gold Basmati Rice (5 kg) placed in the morning on a weekday. This order aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a staple grain typically used for daily household meals. This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-29"
+    ],
+    "first_seen_at": "2026-05-29T10:39:59",
+    "last_seen_at": "2026-05-29T10:39:59"
+  }
 }

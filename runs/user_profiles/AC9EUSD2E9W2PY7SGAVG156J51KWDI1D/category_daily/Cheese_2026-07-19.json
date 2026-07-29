@@ -1,15 +1,23 @@
 {
   "date": "2026-07-19",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-19 (weekend), the user purchased one 200 g block of Go Plain Processed Cheese in the evening. This firm, melting cheese is suitable for cooking, grating, or snacking. The order occurred during a time when the user's activity is slightly below the population baseline for this daypart (30.27%). This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On this weekend, the user purchased Go Plain Processed Cheese Block 200 g during the evening. This timing aligns with the population baseline, where evening purchases (30.27%) are nearly as common as morning purchases (32.46%). The product is a processed cheese block suitable for immediate cooking, melting, or snacking needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Go brand, processed cheese blocks specifically, or weekend evening shopping habits.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 200 g block of Go Plain Processed Cheese, a firm, melting cheese suitable for cooking, grating, or snacking. The order occurred in the evening on a weekend, a time when the user's activity is slightly below the population baseline for this daypart (30.27%).",
+      "pattern_text": "One order of Go Plain Processed Cheese Block 200 g. This timing aligns with the population baseline, where evening purchases (30.27%) are nearly as common as morning purchases (32.46%). The product is a processed cheese block suitable for immediate cooking, melting, or snacking needs. This is a single observation on one date. It is not yet established whether this represents a stable preference for the Go brand, processed cheese blocks specifically, or weekend evening shopping habits.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Go brand, processed cheese blocks specifically, or weekend evening shopping habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T19:32:49",
+    "last_seen_at": "2026-07-19T19:32:49"
+  }
 }

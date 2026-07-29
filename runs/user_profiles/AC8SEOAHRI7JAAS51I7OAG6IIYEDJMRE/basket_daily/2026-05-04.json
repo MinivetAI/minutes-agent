@@ -1,24 +1,56 @@
 {
   "date": "2026-05-04",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-04, a weekday, a single order was placed in the afternoon. The basket contained three distinct items: one unit of Milk, one unit of Other Cooking Oil, and one unit of Cookies Biscuits. No abandoned carts were recorded for this daypart. The purchase is compatible with a general household grocery restock need. This analysis is based on a single observed order on one independent date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
+  "summary_text": "On 2026-05-04 (weekday), a single order was placed in the afternoon. The basket contained one unit each of Milk, Other Cooking Oil, and Cookies Biscuits. This combination reflects a basic mix of a dairy staple, a cooking ingredient, and a snack item. The purchase is compatible with a general household restocking need for pantry staples and snacks. Because this is the only observed order on this date, no durable preferences, routines, or stable patterns can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
         "Milk",
-        "Other Cooking Oil",
         "Cookies Biscuits"
       ],
-      "combination_text": "Milk, Other Cooking Oil, and Cookies Biscuits were purchased together in a single order.",
+      "combination_text": "Milk and Cookies Biscuits were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Milk",
+        "Other Cooking Oil"
+      ],
+      "combination_text": "Milk and Other Cooking Oil were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Other Cooking Oil"
+      ],
+      "combination_text": "Cookies Biscuits and Other Cooking Oil were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Milk, Other Cooking Oil, and Cookies Biscuits is compatible with a general household grocery restock need.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in any inferred user behavior is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Milk, Other Cooking Oil, and Cookies Biscuits is compatible with a general household restocking need for pantry staples and snacks.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences, routines, or stable patterns can be inferred from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-04"
+    ],
+    "first_seen_at": "2026-05-04T13:12:50",
+    "last_seen_at": "2026-05-04T13:12:50"
+  }
 }

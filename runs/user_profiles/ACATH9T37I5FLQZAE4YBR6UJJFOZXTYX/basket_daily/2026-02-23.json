@@ -1,23 +1,33 @@
 {
   "date": "2026-02-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-23 (weekday), a single order was placed during the evening. The basket contained one unit of Feeding Nursing, one unit of Milk, and four units of Vegetables. The observed combination of Milk and Vegetables has a support of 0.525. No abandoned carts were recorded for this daypart. This is a single observed order; durable preferences cannot be inferred.",
+  "summary_text": "On 2026-02-23 (weekday), a single order was placed in the evening. The basket included one unit each of a Feeding Nursing product, a Milk product, and four distinct Vegetable products. This single observation suggests a compatible need for household meal preparation and infant nutrition, but does not establish a durable preference or routine. Confidence is low.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
+        "Feeding Nursing",
         "Milk",
-        "Vegetables"
+        "Vegetable"
       ],
-      "combination_text": "Milk and Vegetables were purchased together in this order.",
-      "support": 0.525,
-      "lift": null,
-      "confidence": "high"
+      "combination_text": "Feeding Nursing, Milk, and Vegetable products purchased together in a single evening order on a weekday.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic meal preparation and infant care supplies.",
-  "uncertainty_text": "This is a single observed order; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of vegetables, milk, and a nursing feeding product is compatible with a need for household meal preparation and infant nutrition.",
+  "uncertainty_text": "This is a single order on one date; it does not establish a durable preference or routine. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-23"
+    ],
+    "first_seen_at": "2026-02-23T17:46:26",
+    "last_seen_at": "2026-02-23T17:46:26"
+  }
 }

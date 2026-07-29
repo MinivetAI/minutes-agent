@@ -1,9 +1,23 @@
 {
   "date": "2026-05-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-06 (weekday), the user purchased fresh vegetables in the afternoon. The order included a small 400–450 g onion, a 280–320 g baby potato, a 500 g carrot, and a bulk 1.95–2.05 kg onion pack. This mix of small-quantity fresh produce and a larger bulk onion pack suggests a need to replenish immediate cooking ingredients while also restocking a staple for future meals. The order was placed in the afternoon, a time when population share (0.2526) is lower than the morning (0.3246) and evening (0.3027) peaks. No browsing or cart activity was recorded to distinguish between planned shopping and urgent, last-minute needs. The specific meal context or household size cannot be determined from this single transaction.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-06 (weekday), a single order of fresh vegetables was placed in the afternoon. The basket included one small pack of onions (400–450 g), one pack of baby potatoes (280–320 g), one pack of carrots (500 g), and one bulk pack of onions (1.95–2.05 kg). The afternoon timing aligns with the population baseline, where afternoon accounts for 25.26% of activity, slightly below morning (32.46%) and evening (30.27%) peaks. The mix of small-quantity fresh produce alongside a larger bulk onion pack suggests a combination of immediate meal-prep needs and household stock replenishment. This is a single observation on one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or consistent product-level preferences. The specific culinary intent or household size cannot be determined from this order alone.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of unbranded fresh vegetables placed on a weekday afternoon, containing one small pack of onions (400–450 g), one pack of baby potatoes (280–320 g), one pack of carrots (500 g), and one bulk pack of onions (1.95–2.05 kg).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or cart activity was recorded to distinguish between planned shopping and urgent, last-minute needs. The specific meal context or household size cannot be determined from this single transaction.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, recurring daypart habits, or consistent product-level preferences. The specific culinary intent or household size cannot be determined from this order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-06"
+    ],
+    "first_seen_at": "2026-05-06T14:35:19",
+    "last_seen_at": "2026-05-06T14:35:19"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-07-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-06 (weekday), the user purchased one 1 kg pack of unbranded fresh onions in the morning. This timing aligns with a period where the user's activity is 32.46% of their total weekly volume (population baseline). The product is a basic cooking staple, suggesting a need for meal preparation ingredients. This is a single observed order on one date; it does not establish a stable preference or routine for onions or morning shopping.",
+  "summary_text": "On 2026-07-06 (weekday), the user ordered one unit of Onion 1 kg (Unbranded) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking. This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as the product is unbranded.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 1 kg pack of unbranded fresh onions. This timing aligns with a period where the user's activity is 32.46% of their total weekly volume (population baseline). The product is a basic cooking staple, suggesting a need for meal preparation ingredients.",
+      "pattern_text": "One order of Onion 1 kg (Unbranded) placed on 2026-07-06. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it the most common daypart. The product is a standard fresh vegetable staple, typically used as a base ingredient for cooking. This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as the product is unbranded.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for onions or morning shopping.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time need. No brand preference can be established as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T10:17:35",
+    "last_seen_at": "2026-07-06T10:17:35"
+  }
 }

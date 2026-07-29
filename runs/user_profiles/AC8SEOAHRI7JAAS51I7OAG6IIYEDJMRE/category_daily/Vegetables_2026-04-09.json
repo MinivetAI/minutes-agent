@@ -1,15 +1,23 @@
 {
   "date": "2026-04-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-09 (weekday), one order of Cauliflower 400-600g (1 unit) was placed in the afternoon. This purchase aligns with the item's typical use for immediate meal preparation. The afternoon timing represents a period with a 25.26% population share, compared to 32.46% in the morning. No evidence of repeated purchasing behavior, brand loyalty, or pre-purchase intent (browsing/search) is available.",
+  "summary_text": "On this weekday, the user ordered one unit of Cauliflower (400-600g) in the afternoon. This timing is less common for this user than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a fresh vegetable typically used for immediate meal preparation, such as cooking or salads. This is a single observation on one date; it is not yet established whether this represents a stable preference for cauliflower or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Cauliflower 400-600g (1 unit) placed on 2026-04-09 in the afternoon.",
+      "pattern_text": "One order of Cauliflower 400-600g (1 unit) placed on a weekday afternoon.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; no evidence of repeated purchasing behavior or specific brand loyalty. No browsing or search data available to assess pre-purchase intent.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for cauliflower, a specific brand (none supplied), or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T11:57:25",
+    "last_seen_at": "2026-04-09T11:57:25"
+  }
 }

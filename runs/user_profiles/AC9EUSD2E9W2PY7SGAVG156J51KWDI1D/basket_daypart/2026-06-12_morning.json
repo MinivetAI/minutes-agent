@@ -1,11 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-12 (morning, weekday) included 2 units of Milk, 1 unit of Ready Meals, 2 units of Chocolates, 1 unit of Breads, 1 unit of Aerated Drinks, and 1 unit of Vegetables. The basket reflects a mix of staple ingredients (Milk, Breads, Vegetables) and convenience items (Ready Meals, Chocolates, Aerated Drinks).",
+  "basket_summary_text": "A single morning weekday order containing six items across six distinct categories: Milk (2 units), Ready Meals (1), Chocolates (2), Breads (1), Aerated Drinks (1), and Vegetables (1). The basket reflects a mix of staple breakfast components (Milk, Breads) and convenience/indulgence items (Ready Meals, Chocolates, Aerated Drinks), alongside fresh produce (Vegetables).",
   "behavior_patterns": [],
   "category_combinations": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The combination of Milk, Breads, and Vegetables is compatible with preparing home-cooked meals or breakfasts, while Ready Meals and Chocolates suggest a need for quick options or treats.",
-  "uncertainty_text": "This is a single observed order; it does not establish a durable preference or routine. The specific combination of convenience and staple items may reflect a one-time need rather than a stable shopping pattern.",
-  "overall_confidence": "low"
+  "shopping_need_text": "A morning meal or snack preparation involving dairy, bread, and fresh vegetables, supplemented with ready-to-eat food and sweet treats.",
+  "uncertainty_text": "This is a single observation on one date. No durable preference or routine can be established from this isolated order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

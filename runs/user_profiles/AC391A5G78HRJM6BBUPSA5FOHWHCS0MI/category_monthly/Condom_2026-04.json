@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased one unit of Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom (10-count pack) on a single date (2026-04-20). This single observation does not establish a stable preference, routine, or brand loyalty. The purchase occurred during the evening on a weekday, a time when this user's activity is slightly below the population baseline.",
+  "summary_text": "In April 2026, the user placed one order for Bold Care Ultra Thin Climax Delay Lubricated Natural Latex Condom on a weekday evening. This single observation aligns with the population baseline for evening purchases (30.27%). Due to the lack of repetition across independent dates, no stable brand or product preference can be established, and the pattern is considered a single observation rather than a recurring routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this delay-focused, ultra-thin product over other options is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this is a stable preference, a one-time need, or part of a recurring routine. No brand or product preference can be established from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

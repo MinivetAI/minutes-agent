@@ -1,93 +1,19 @@
 {
   "date": "2026-02-18",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-18 (weekday), the user placed two separate orders during the morning daypart. The first order contained Milk (3 units) and Breads (1 unit). The second order contained Curd Yogurt (4 units total: 3 + 1) and Milk (1 unit). No carts were abandoned. The observed behavior indicates a focus on dairy products (Milk, Curd Yogurt) and staple carbohydrates (Breads).",
+  "summary_text": "On 2026-02-18, a single order was placed in the morning on a weekday. The basket contained 3 distinct categories: Milk (2 products, total quantity 4), Breads (1 product, quantity 1), and Curd Yogurt (2 products, total quantity 4). The order-building behavior shows a combination of dairy staples (milk and curd/yogurt) with breads. No other categories were present in this order.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Breads",
-        "Curd Yogurt"
-      ],
-      "combination_text": "Breads and Curd Yogurt were not purchased together in this specific daypart's orders, but the supplied evidence indicates a historical co-order relationship.",
-      "support": 0.129,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Vegetables"
-      ],
-      "combination_text": "Curd Yogurt and Vegetables were not purchased together in this specific daypart's orders, but the supplied evidence indicates a historical co-order relationship.",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk were purchased together in the second order (4 units Curd Yogurt, 1 unit Milk).",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables were not purchased together in this specific daypart's orders, but the supplied evidence indicates a historical co-order relationship.",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were not purchased together in this specific daypart's orders, but the supplied evidence indicates a historical co-order relationship.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens were not purchased together in this specific daypart's orders, but the supplied evidence indicates a historical co-order relationship.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "Curd Yogurt"
-      ],
-      "combination_text": "CannedFood and Curd Yogurt were not purchased together in this specific daypart's orders, but the supplied evidence indicates a historical co-order relationship.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk were purchased together in the first order (1 unit Breads, 3 units Milk).",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user appears to be restocking basic breakfast or meal components, specifically dairy products and breads.",
-  "uncertainty_text": "This analysis is based on a single order on one weekday morning. Patterns are not stable or recurring based on this single data point.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The combination of milk, curd/yogurt, and breads is compatible with a need for breakfast or morning meal components.",
+  "uncertainty_text": "This description is based on a single observed order on one independent date. Stable preferences or routine behaviors cannot be inferred from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-18"
+    ],
+    "first_seen_at": "2026-02-18T07:45:34",
+    "last_seen_at": "2026-02-18T08:18:12"
+  }
 }

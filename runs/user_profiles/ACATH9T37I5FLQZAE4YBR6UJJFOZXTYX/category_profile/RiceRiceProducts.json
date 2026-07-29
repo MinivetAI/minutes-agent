@@ -1,26 +1,27 @@
 {
-  "category": "Rice Rice Products",
-  "profile_text": "The user placed a single order for Saffola Masala Oats Peppy Tomato (38 g) on a weekend in June 2026. This product is a single-serve instant savory oats mix, typically used as a quick snack or light meal replacement. No browsing events (search, view, cart) were recorded for this category in this window. A single order does not establish a stable preference for this brand or product type.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Rice Rice Products",
+  "summary_text": "No orders for Rice Rice Products were observed in the supplied evidence. The only recorded order in the monthly summary was for Saffola Masala Oats Peppy Tomato, which falls outside this category. Consequently, no brand, product, or daypart preferences can be established for Rice Rice Products.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are evident for this category as no purchases were recorded.",
+  "uncertainty_text": "It is unknown whether the user purchases Rice Rice Products, as no evidence exists in the supplied window. The single observed order was for a different product category (Oats).",
+  "retrieval_text": "No evidence of purchase or preference for Rice Rice Products was found in the supplied evidence window. The only recorded transaction was for Saffola Masala Oats Peppy Tomato, which is not a rice product. Therefore, no brand, variant, pack size, or daypart affinity can be inferred for this category.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-28",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence established; last purchase was on 2026-06-28.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for RiceRiceProducts yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category is not observed; no browsing or search activity is recorded to indicate unmet interest or discovery potential.",
-  "substitution_text": "No substitution patterns observed due to single purchase event.",
-  "price_value_text": "No price sensitivity or value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance; however, the single purchase does not indicate a durable preference or routine.",
-  "mission_generation_text": "Provides a quick, single-serve savory snack or light meal replacement option.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-28T09:23:37",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

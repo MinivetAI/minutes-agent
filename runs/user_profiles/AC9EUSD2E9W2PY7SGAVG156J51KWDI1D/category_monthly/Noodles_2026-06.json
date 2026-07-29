@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased one order of Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) instant noodles. This single transaction occurred on a weekend morning, a timing consistent with the 32.46% population share for the Noodles category during that daypart and day type. The product serves as a convenient, quick-preparation meal option. No repeated behavior is established to confirm a stable preference for this brand or product type.",
+  "summary_text": "In June 2026, one order of Sunfeast YiPPee! Magic Masala with Added Veggies (272 g) was placed on a weekend morning. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The product is an instant noodle pack, generally used for quick, hot meals or snacks when time is short or cooking facilities are limited. No other orders are available to confirm repetition or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no repeated behavior is established to confirm a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this specific product, or morning weekend ordering. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-28T09:13:33",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

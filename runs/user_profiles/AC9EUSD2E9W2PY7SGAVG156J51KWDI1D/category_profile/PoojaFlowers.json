@@ -1,26 +1,38 @@
 {
-  "category": "Pooja Flowers",
-  "profile_text": "The user demonstrates a recurring need for fresh cut flowers for ritual or decorative use, purchasing approximately every 18 days. Recent behavior shows distinct items on two independent dates in July 2026, with no single brand or product variant establishing a stable preference. Purchases occur on weekdays in both morning and evening slots, aligning with population norms for morning usage but also showing evening flexibility. The user does not appear to have a fixed brand loyalty or specific product variant preference, instead selecting distinct items per occasion.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Pooja Flowers",
+  "summary_text": "The user has established a medium-confidence preference for two specific unbranded Pooja Flower variants (FFWHM4DBGGSG7GHN and FFWHM4DBA2E8U64D), observed on two independent dates in July 2026. A single prior observation in June 2026 involved a different fresh multicolor product. Purchases occur on weekdays, with no strong daypart bias established due to limited data.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [
+      {
+        "variant": "FFWHM4DBGGSG7GHN",
+        "preference_text": "Repeatedly ordered on two independent dates in July 2026.",
+        "confidence": "medium"
+      },
+      {
+        "variant": "FFHM4DBA2E8U64D",
+        "preference_text": "Repeatedly ordered on two independent dates in July 2026.",
+        "confidence": "medium"
+      }
+    ],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "The user has purchased distinct product variants across June and July, suggesting flexibility in specific floral assortments, but no explicit substitution evidence is provided beyond the co-occurrence of the two July variants.",
+  "uncertainty_text": "Brand preference is unknown as no brand data was provided for the July orders. Daypart and weekday patterns are based on only two dates, preventing high-confidence routine claims. It is unknown if the user prefers fresh flowers exclusively or if dried/other forms are acceptable.",
+  "retrieval_text": "User shows medium-confidence preference for unbranded Pooja Flower variants FFWHM4DBGGSG7GHN and FFWHM4DBA2E8U64D, purchased on two independent weekdays in July 2026. A single prior observation in June 2026 involved Fresh Multicolor Pooja Flowers. No brand preference is established due to lack of brand data. Daypart patterns are inconclusive due to limited date count.",
   "replenishment": {
     "cadence_days": 18.0,
     "cadence_class": "medium",
-    "last_purchase_date": "2026-07-21",
     "predicted_next_purchase_date": "2026-08-08",
-    "replenishment_text": "The user typically purchases this category every 18 days, with the next purchase estimated around 2026-08-08.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "PoojaFlowers is reordered roughly every 18 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by completed orders on multiple independent dates.",
-  "substitution_text": null,
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is established due to the lack of recurring specific product variants.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific brands or products are avoided; the user simply selects distinct items on different dates.",
-  "mission_generation_text": "Supports ongoing ritualistic or decorative needs requiring fresh flowers, likely for daily or periodic home worship or aesthetic enhancement.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

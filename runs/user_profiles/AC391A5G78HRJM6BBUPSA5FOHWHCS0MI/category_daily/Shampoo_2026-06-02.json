@@ -1,9 +1,17 @@
 {
   "date": "2026-06-02",
   "day_type": "weekday",
-  "summary_text": "One order of L'Oréal Paris Total Repair 5 Shampoo (340 ml) placed during the evening on a weekday. The purchase occurred in the evening, a period where this user's activity is slightly below the population baseline (30.27% share). The product is a daily-use hair care item focused on repairing visible damage such as dryness and split ends, suggesting a need for immediate maintenance or replacement of a depleted supply.",
+  "summary_text": "On 2026-06-02 (weekday), the user ordered L'Oréal Paris Total Repair 5 Shampoo (340 ml) in the evening. This timing aligns with the population baseline where evening (0.3027) is nearly as common as morning (0.3246) for shampoo. The product is a damaged-hair repair shampoo, suggesting a need for immediate hair care maintenance or replenishment. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as the evidence is limited to one instance.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or brand loyalty. The specific reason for choosing this brand over others or the timing of the evening purchase cannot be determined from this single data point.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No brand preference can be claimed as the evidence is limited to one instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

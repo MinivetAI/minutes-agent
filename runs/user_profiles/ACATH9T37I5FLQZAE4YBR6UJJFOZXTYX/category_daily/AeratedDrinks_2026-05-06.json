@@ -1,9 +1,23 @@
 {
   "date": "2026-05-06",
   "day_type": "weekday",
-  "summary_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed in the afternoon. Purchased in the afternoon on a weekday, a time when this user's activity is below the population baseline (25.26% share). The product is a single-serve carbonated soft drink suitable for immediate refreshment.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-06 (weekday), the user purchased one unit of Sprite PET Bottle 750 ml in the afternoon. This single order occurred during a period of below-baseline activity (25.26% population share). The product is a single-serve carbonated soft drink, consistent with immediate refreshment or thirst quenching. As this is a single observation on one date, it does not establish a stable brand preference, recurring timing pattern, or specific usage occasion beyond the immediate purchase.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed on a weekday afternoon. This occurred during a period where this user's activity is below the population baseline (25.26% share). The product is a single-serve carbonated soft drink, typically used for immediate refreshment or thirst quenching.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring timing pattern, or specific usage occasion beyond the immediate purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-06"
+    ],
+    "first_seen_at": "2026-05-06T14:35:19",
+    "last_seen_at": "2026-05-06T14:35:19"
+  }
 }

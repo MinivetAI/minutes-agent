@@ -1,15 +1,17 @@
 {
   "date": "2026-07-06",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-06 (weekday), the user purchased one 600 g pack of unbranded Muskmelon during the morning. This order occurred in a daypart representing 32.46% of the user's total activity (population baseline). The product is a fresh, ready-to-eat fruit, compatible with immediate consumption such as a breakfast add-on or snack. This is a single observed order on one date; no durable brand or product preferences can be established. The specific reason for this purchase is unknown.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "Purchased one 600 g pack of unbranded Muskmelon during the morning on a weekday.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered one unit of Muskmelon 600 g in the morning. This fresh fruit item is typically used for immediate consumption as a snack or breakfast component. The order occurred during a daypart where the user's activity aligns with the population baseline (32.46% of orders). This is a single observation on one date and does not establish a stable preference for muskmelon, the unbranded listing, or morning ordering.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established. The specific reason for this purchase (e.g., immediate hunger, stockout, recipe ingredient) is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for muskmelon, the unbranded listing, or morning ordering. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-06"
+    ],
+    "first_seen_at": "2026-07-06T10:17:35",
+    "last_seen_at": "2026-07-06T10:17:35"
+  }
 }

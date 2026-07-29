@@ -1,15 +1,23 @@
 {
   "date": "2026-06-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-17 (weekday), the user purchased one 500 g pack of Organic Tattva Jaggery Powder, an organic sugarcane sweetener in powdered form. This order was placed during the morning, a time when this category represents 32.46% of population activity. The product serves as a convenient, organic pantry staple for sweetening in cooking and beverages. This is a single observed order; durable brand or format preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-06-17 (weekday), the user purchased Organic Tattva Jaggery Powder 500 g in the morning. This single order aligns with the population baseline where morning accounts for 32.46% of activity. The product is a powdered sweetener suitable for home cooking or beverages. This is a single observation on one date and does not yet establish a stable preference for this brand, product type, or timing.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 500 g pack of Organic Tattva Jaggery Powder. This is a single observed order; durable brand or format preferences cannot be established from this isolated event.",
+      "pattern_text": "One order of Organic Tattva Jaggery Powder 500 g. This is a single observation on one date and does not yet establish a stable preference for this brand, product type, or timing.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; durable brand or format preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-17"
+    ],
+    "first_seen_at": "2026-06-17T09:37:58",
+    "last_seen_at": "2026-06-17T09:37:58"
+  }
 }

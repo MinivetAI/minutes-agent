@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased one 100 g pouch of Society Regular Indian Leaf Tea on a weekday morning. This single order aligns with the population morning baseline share of 32.46% and may indicate routine household replenishment or immediate breakfast preparation needs. No stable brand or product preference is established from this single observation.",
+  "summary_text": "On 2026-05-07 (weekday), the user purchased Society Tea (100 g pouch) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of tea orders. The product is a standard everyday leaf tea, typically used for immediate household replenishment or short-duration top-ups. This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine habit, or a one-time need. No other dates are available to confirm repetition.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; no repeated behavior is established to confirm a stable brand or product preference.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable brand preference, a routine habit, or a one-time need. No other dates are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

@@ -1,12 +1,26 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user placed eight separate orders across weekdays and weekends, spanning morning, afternoon, evening, and night dayparts. The baskets were generally narrow, focusing on basic cooking staples such as Flour, Edible Oil, Pulses, Rice, Sugar, and Salt, alongside various unmapped household or personal items. No durable preferences, recurring habits, or stable behavioral patterns can be inferred from this data, as each order occurred on an independent date with no repeated category combinations or daypart behaviors observed across multiple dates.",
+  "summary_text": "In February 2026, the user placed orders on 8 independent dates, primarily on weekdays (4) and weekends (4). Activity spanned morning, afternoon, evening, and night dayparts. The basket composition was diverse, covering cooking essentials (Besan, Cooking Oil, Ghee, Sugar, Jaggery, Salt, Pulses), laundry care (Washing Bar, Washing Powder), personal care (Shampoo, Facewash), electronics (Bluetooth Headset), and specific meal ingredients (Poha, Curd Yogurt, Rava Sooji, Vegetables). No single product category or brand was purchased on more than one independent date, preventing the establishment of durable preferences or stable routines. All observed behaviors are isolated to single dates.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
   "trend_claims": [],
-  "shopping_need_text": "The observed orders are compatible with general household replenishment and basic meal preparation needs, specifically involving cooking staples and unmapped household items.",
-  "uncertainty_text": "All observed behaviors are based on single, independent orders. No category combinations, daypart timings, or shopping needs were repeated across multiple dates. Therefore, no stable patterns, routines, or durable preferences can be established. Abandonment patterns are not included in the stable list as no categories were abandoned across independent dates.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user demonstrates needs for basic home cooking ingredients, laundry supplies, personal hygiene products, and occasional electronics. Specific meal preparation needs are inferred from ingredient combinations like oil/vegetables or poha/curd/sooji.",
+  "uncertainty_text": "All inferences are based on single-date observations. No repeated behavior across independent dates was observed for any product, brand, or category combination. Therefore, no durable preferences, routines, or stable patterns can be established. Confidence in all inferred behaviors is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 9,
+    "purchase_dates": [
+      "2026-02-03",
+      "2026-02-07",
+      "2026-02-09",
+      "2026-02-18",
+      "2026-02-21",
+      "2026-02-22",
+      "2026-02-26",
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-03T07:37:45",
+    "last_seen_at": "2026-02-28T20:39:33"
+  }
 }

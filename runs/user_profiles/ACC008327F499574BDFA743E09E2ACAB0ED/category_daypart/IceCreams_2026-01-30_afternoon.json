@@ -1,19 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased four single-serve 125 ml Amul ice cream cups: Butterscotch Gold, Rajbhog, Chocolate Brownie, and Fruit N Nut Fantasy.",
-  "preference_claims": [
-    {
-      "dimension": "brand",
-      "value": "Amul",
-      "claim_text": "The user purchased exclusively Amul-branded ice cream cups in this session.",
-      "confidence": "low",
-      "evidence_count": 4,
-      "independent_date_count": 1
-    }
-  ],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred on a weekday afternoon, a time when population share (25.26%) is lower than morning (32.46%) and evening (30.27%). The products are single-serve, ready-to-eat frozen desserts, suggesting an immediate indulgence or post-meal treat rather than bulk household stocking.",
-  "uncertainty_text": "This is a single-observation window; it is not yet established whether Amul is a durable brand preference or if this represents a one-time variety purchase across different flavors.",
-  "overall_confidence": "low"
+  "summary_text": "One order of four single-serve (125 ml) Amul ice cream cups: Butterscotch Gold, Rajbhog, Chocolate Brownie, and Fruit N Nut Fantasy.",
+  "preference_claims": [],
+  "shopping_context_text": "The order was placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity (compared to 32.46% in the morning). The selection of four distinct premium cup flavors suggests a variety-seeking impulse or a small gathering need, utilizing the convenient single-serve format for immediate consumption.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers the Amul brand over others, if they typically buy multiple flavors in one order, or if this afternoon timing is a stable habit. The specific motivation (e.g., personal indulgence vs. hosting) cannot be determined from the order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T11:26:47",
+    "last_seen_at": "2026-01-30T11:26:47"
+  }
 }

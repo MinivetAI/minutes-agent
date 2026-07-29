@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 500 g pack of Rajdhani Sabudana Sago.",
+  "summary_text": "One order of Rajdhani Sabudana Sago 500 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Bought in the morning on a weekday, a time when the user is more active than the population baseline (32.5% of population activity vs. 32.5% share). The product is a starch-based cooking ingredient often used for fasting meals or specific Indian dishes.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the morning on a weekday. The timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a starch-based staple often used for fasting meals or quick cooking preparations.",
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a recurring preference for this brand or product, or if it was a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

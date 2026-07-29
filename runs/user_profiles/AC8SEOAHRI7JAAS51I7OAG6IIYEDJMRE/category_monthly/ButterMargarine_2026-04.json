@@ -1,6 +1,6 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Amul Pasteurised Salted Butter 100 g on two independent dates (2026-04-08 and 2026-04-27). This repetition supports a stable preference for this specific brand and variant. The purchases occurred on weekdays, with one in the evening and one in the morning, reflecting flexible timing within the weekday window.",
+  "summary_text": "In April 2026, the user purchased Amul Pasteurised Salted Butter 100 g on two independent dates (2026-04-08 and 2026-04-27). This repetition meets the threshold for a stable preference. The product is a standard kitchen staple suitable for everyday cooking, baking, or spreading. Purchases occurred on weekdays, with one order in the evening and one in the morning, reflecting general population activity patterns rather than a strict single-time-of-day routine.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "While the brand and product variant show stable preference across two dates, the daypart timing varies (evening and morning), so no single stable daypart pattern is established for this category in this month.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "While the brand and product show stable preference across two dates, the daypart varies (evening and morning), so no single daypart routine is established. The weekday pattern is consistent but common for this category.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-08",
+      "2026-04-27"
+    ],
+    "first_seen_at": "2026-04-08T16:16:45",
+    "last_seen_at": "2026-04-27T07:24:25"
+  }
 }

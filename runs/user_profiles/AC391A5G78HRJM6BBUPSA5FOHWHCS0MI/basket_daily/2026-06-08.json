@@ -1,12 +1,19 @@
 {
   "date": "2026-06-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-08 (weekday), a single order was placed during the morning daypart. The basket contained 2 units of Fruits, with no other products purchased or added to cart. The basket breadth is limited to one category. This observation is compatible with a need for fresh produce consumption. No durable behavior patterns, stable preferences, or recurring habits can be inferred from this single observed order.",
+  "summary_text": "On 2026-06-08 (weekday), a single order was placed during the morning daypart. The basket was narrow, containing only Fruits (2 units). This single observation suggests a need for healthy snacks or ingredients for immediate consumption. Because this is the only evidence available for this date, confidence in any inferred behavior is low. No category combination patterns are identified as no other categories were purchased.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Fruits is compatible with a need for fresh produce consumption.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. No durable behavior patterns, stable preferences, or recurring habits can be inferred. The provided `category_pair_evidence` reflects population-level co-order statistics and does not apply to this specific user's single-item basket.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of fresh fruit suggests a need for healthy snacks or ingredients for immediate consumption.",
+  "uncertainty_text": "This analysis is based on a single order on one date. It is not sufficient to establish a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-08"
+    ],
+    "first_seen_at": "2026-06-08T07:54:36",
+    "last_seen_at": "2026-06-08T07:54:36"
+  }
 }

@@ -1,278 +1,52 @@
 {
-  "profile_text": "The user maintains a high-confidence, stable preference for fresh cow milk (Amul and Chitale, 500 ml), purchasing on a fast cadence (~3.5 days) primarily on weekday mornings. Vegetables are replenished frequently (~6 days) with a strong morning weekday habit, focusing on unbranded staples like onions, cucumbers, and coriander. Breads show a high-confidence preference for Britannia Breakfast Slice White Bread (450 g), bought every ~6 days with flexible timing. Curd Yogurt features a stable preference for Amul Masti (200/390 ml) on a medium cadence (~15 days). Spices Masala and Butter Margarine are replenished slowly (~25 and ~34 days respectively), with the user showing utility-driven brand flexibility in spices and consistent Amul loyalty in butter. Chips exhibit a stable preference for CRAX Cheese Balls on a medium cadence (~9 days). Sunflower Oil is a slow-replenishment staple (~58 days) with a durable preference for Fortune Sunlite. Indian Sweets and Chocolates are bought frequently (~6 and ~7 days), with the former showing stable preference for a specific SKU and the latter for Nestlé Milkybar. Savouries Namkeens, Wheat Flour, Aerated Drinks, Noodles, Pooja Flowers, and Paneer Tofu are medium-confidence categories with medium-to-slow cadences (15–71 days), showing varying degrees of brand stability (e.g., Haldiram's, Aashirvaad, Gowardhan). Lower-evidence categories (Sugar, Incense Stick, Fruits, Face Cream, Soya Products, Salt, Sweets Mithai, Sunscreen, Coffee, Fruit Drinks, Rice, Ready Meals, Scrub Pad, Cookies Biscuits, Other Pulses, Handwash, Cashews, Edible Oil, Honey, Return Gift Accessory, Lotion Cream, Body Lotion, Bathroom Floor Cleaner) have low confidence due to single or sparse observations, with unknown or unestablished cadences.",
-  "category_preference_text": "Milk: High-confidence stable preference for Amul and Chitale 500 ml fresh cow milk; fast cadence (~3.5 days); weekday morning primary window. Vegetables: Stable high-frequency engagement (~6 days); morning weekday preference; unbranded staples (onions, cucumbers, coriander). Breads: High-confidence preference for Britannia Breakfast Slice White Bread 450 g; fast cadence (~6 days); flexible timing. Curd Yogurt: Stable preference for Amul Masti plain curd (200/390 ml); medium cadence (~15 days); morning weekday anchor. Spices Masala: Utility-driven multi-brand engagement (Ching's Secret, Everest); slow cadence (~25 days); weekday morning/afternoon. Butter Margarine: Stable Amul preference; slow cadence (~34 days); flexible timing. Chips: Stable preference for CRAX Cheese Balls 65 g; medium cadence (~9 days); flexible timing. Sunflower Oil: Stable preference for Fortune Sunlite 800 g pouch; slow cadence (~58 days). Indian Sweets: Stable preference for specific SKU; fast cadence (~6 days); morning primary. Chocolates: Medium-confidence preference for Nestlé Milkybar 22.5 g; fast cadence (~7 days); morning routine. Savouries Namkeens: Medium-confidence preference for Haldiram's Mini Bhakarwadi 200 g; medium cadence (~20 days); morning weekday. Wheat Flour: Medium-confidence preference for Aashirvaad Select Atta 1 kg; medium cadence (~15 days); morning. Aerated Drinks: Medium-confidence flexible brand usage (Thums Up, Pepsi, Campa Cola); medium cadence (~19 days); weekday morning. Noodles: Medium-confidence flexible brand usage (Sunfeast, Maggi); slow cadence (~33 days); flexible timing. Pooja Flowers: Medium-confidence flexible item selection; medium cadence (~18 days); morning/evening. Paneer Tofu: Medium-confidence preference for Gowardhan 200 g; slow cadence (~71 days); flexible timing. Cheese: Medium-confidence preference for Go Plain 200 g block; slow cadence (~55.5 days). Lower-evidence categories (Sugar, Incense Stick, Fruits, Face Cream, Soya Products, Salt, Sweets Mithai, Sunscreen, Coffee, Fruit Drinks, Rice, Ready Meals, Scrub Pad, Cookies Biscuits, Other Pulses, Handwash, Cashews, Edible Oil, Honey, Return Gift Accessory, Lotion Cream, Body Lotion, Bathroom Floor Cleaner) show low confidence, often single-observation or sparse data with unknown cadences.",
-  "coverage_text": "This profile details the 40 best-evidenced categories out of 61 total, omitting 21 lower-evidence categories.",
-  "basket_context_text": "The user’s recent activity on 2026-07-21 included a combined basket of daily staples (Milk, Vegetables, Breads, Fruits) and ceremonial items (Pooja Flowers, Incense Stick, Indian Sweets), indicating a mix of routine replenishment and specific occasion-based needs. No abandoned carts were observed in the broader history.",
-  "replenishment_summary_text": "Replenishment cadences vary significantly across categories. Fast replenishment (~3.5–7 days) is observed in Milk, Vegetables, Breads, Indian Sweets, and Chocolates. Medium cadence (~9–20 days) applies to Chips, Curd Yogurt, Savouries Namkeens, Wheat Flour, Aerated Drinks, and Pooja Flowers. Slow replenishment (~25–71 days) characterizes Spices Masala, Butter Margarine, Sunflower Oil, Noodles, Paneer Tofu, Cheese, and Sugar. Incense Stick also falls into the slow category (~40.5 days). Fruits, Soya Products, Salt, Sweets Mithai, Sunscreen, Coffee, Fruit Drinks, Rice, Ready Meals, Scrub Pad, Cookies Biscuits, Other Pulses, Handwash, Cashews, Edible Oil, Honey, Return Gift Accessory, Lotion Cream, Body Lotion, and Bathroom Floor Cleaner have unknown cadence classes based on the supplied evidence.",
-  "structured_signals": [
+  "summary_text": "This shopper is a routine-driven household manager focused on daily fresh consumables, anchored by a high-frequency 'staple triad' of Milk, Breads, and Vegetables. Brand loyalty is strong and specific within core categories (Chitale/Amul for milk, Britannia for bread, Aashirvaad for flour, Amul for butter/curd), while showing flexibility or trial behavior in non-core categories like spices, noodles, and snacks. Purchases are predominantly weekday morning events, reflecting a structured daily routine for meal preparation and breakfast components. The user prefers moderate basket sizes with low multi-quantity tendencies, favoring fresh, immediate-use items over bulk stock-ups. Ritual items (incense, flowers) and occasional snacks appear as secondary, non-bundled additions to the core grocery haul.",
+  "daypart_understanding": [
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Milk",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases milk approximately every 3.5 days, indicating a fast replenishment cycle consistent with daily fresh milk consumption."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Vegetables",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases vegetables every 6 days, with the next expected purchase around 2026-07-27."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Breads",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases this category approximately every 6 days, indicating a fast replenishment cycle typical for staple food items."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Indian Sweets",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases this category approximately every 6 days, classified as a fast-replenishment item."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chocolates",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user buys chocolates roughly every 7 days, with the next purchase estimated around 2026-06-28."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Chips",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user's average purchase cadence is 9.0 days, classified as medium frequency."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Curd Yogurt",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user typically replenishes this category every 15 days, with the next purchase estimated around 2026-07-11."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Wheat Flour",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases this category every 15 days, with the next purchase estimated around 2026-07-13."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Aerated Drinks",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases aerated drinks every 19 days, with the next purchase estimated around 2026-07-04."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Savouries Namkeens",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases this category every 20 days. The last purchase was on 2026-07-19, and the next purchase is estimated around 2026-08-08."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Spices Masala",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases this category every 25 days, classifying their behavior as slow-paced replenishment."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Butter Margarine",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases this category every 34 days, classified as a slow cadence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Noodles",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases Noodles every 33 days, with the next purchase estimated around July 31, 2026."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Pooja Flowers",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases this category every 18 days, with the next purchase estimated around 2026-08-08."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Sunflower Oil",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user buys Sunflower Oil approximately every 58 days, classifying this as a slow-replenishment category."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Cheese",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases cheese every 55.5 days, classified as a slow cadence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Paneer Tofu",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases this category every 71 days, with the next purchase estimated around 2026-09-24."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Sugar",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically replenishes this category approximately every 40 days, classified as a slow cycle."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Incense Stick",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases this category approximately every 40.5 days, classified as a slow replenishment cycle."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Fruits",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased both standard unit-based bananas and pre-packaged baby bananas, indicating flexibility in pack format or an intent to try different options."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Sweets Mithai",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Amul Kaju Katri on two independent dates, supporting a medium-confidence preference, but cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Sunscreen",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Dot & Key sunscreen on two independent dates, suggesting an emerging preference, but the pattern is not yet established enough to predict future behavior with certainty."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Coffee",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased Continental Malgudi coffee on two independent dates, establishing a stable preference for this specific brand and product variant, but cadence is unknown."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Fruit Drinks",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user has made two distinct purchases in the Fruit Drinks category, but due to the limited number of transactions and lack of explicit cadence data, stable brand or product preferences cannot be established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Rice",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user has purchased rice on two independent dates, selecting two different brands and two different pack sizes, so stable brand or product preferences are not established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Ready Meals",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user has placed two distinct orders for frozen vegetable products, showing a preference for the Safal brand, but no recurring cadence or routine is established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Scrub Pad",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of general-purpose cleaning accessories; no stable brand preference, cadence, or recurring pattern is established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Cookies Biscuits",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed order included Pran Potata Spicy Biscuit and Britannia Cheeze Dipped Cookies; no durable preferences or habitual buying patterns can be established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Other Pulses",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single order of Tata Sampann Yellow Moong Dal Split; this single observation does not establish a stable preference or routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Handwash",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single order of Dettol Skincare Germ Protection Liquid Hand Wash Refill; this single order supports household hygiene continuity but does not establish a stable preference."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Cashews",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of Classic Whole Cashews; no stable brand preference, routine, or recurring need is established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Edible Oil",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of one unit of edible oil; no stable brand, product, or routine preferences can be established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Honey",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of Patanjali Pure Honey; this isolated event does not establish a stable brand preference, recurring cadence, or routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Return Gift Accessory",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of Vartanu Printed Party Bags; durable preferences or habitual buying patterns cannot be established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Lotion Cream",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of Mamaearth Milky Soft Face Cream; this order does not establish a stable preference or routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Body Lotion",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of NIVEA Aloe Hydration Light Lotion; no stable brand preference, routine, or cadence can be established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Bathroom Floor Cleaner",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of Vim Floor Cleaner; it does not establish a stable preference, routine, or durable brand loyalty."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Daily Staples and Ceremonial Items",
-      "confidence": "medium",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "The user’s recent activity on 2026-07-21 included a combined basket of daily staples (Milk, Vegetables, Breads, Fruits) and ceremonial items (Pooja Flowers, Incense Stick, Indian Sweets), indicating a mix of routine replenishment and specific occasion-based needs."
+      "daypart": "morning",
+      "behavior_text": "Morning is the dominant ordering daypart, particularly for the core staple triad (Milk, Breads, Vegetables) and ritual items, aligning with weekday routines.",
+      "confidence": "medium"
     }
   ],
-  "mission_generation_text": "The user’s shopping supports a mix of high-frequency daily nutritional needs (fresh milk, vegetables, bread, curd), routine household cooking staples (sunflower oil, wheat flour, spices, butter), and flexible snack consumption (chips, chocolates, savouries). Occasional needs include ceremonial items (pooja flowers, incense) and personal care (face cream, sunscreen). The user exhibits brand loyalty in several categories (Milk, Breads, Curd, Sunflower Oil, Butter) while showing flexibility in others (Spices, Noodles, Aerated Drinks). Replenishment needs range from daily (Milk) to monthly (Sunflower Oil, Cheese).",
-  "uncertainty_text": "While high-confidence stable preferences exist for Milk, Vegetables, Breads, Curd, and Sunflower Oil, many other categories (Sugar, Incense Stick, Fruits, Face Cream, Soya Products, Salt, Sweets Mithai, Sunscreen, Coffee, Fruit Drinks, Rice, Ready Meals, Scrub Pad, Cookies Biscuits, Other Pulses, Handwash, Cashews, Edible Oil, Honey, Return Gift Accessory, Lotion Cream, Body Lotion, Bathroom Floor Cleaner) have low confidence due to single or sparse observations. Cadences are unknown for these lower-evidence categories. The basket profile notes that no single basket structure is repeated, and co-occurrences of items like Milk and Breads are isolated observations rather than durable routines.",
-  "overall_confidence": "high"
+  "basket_understanding": [
+    {
+      "relationship_text": "Milk and Breads form a stable, high-confidence breakfast pair, frequently co-ordered across multiple independent dates.",
+      "recommendation_use_text": "Suggest Breads when Milk is in the basket, or vice versa, for breakfast-related needs.",
+      "confidence": "high"
+    },
+    {
+      "relationship_text": "Milk and Vegetables are frequently co-ordered, indicating a pattern of combining dairy staples with fresh produce for meal preparation.",
+      "recommendation_use_text": "Suggest Vegetables when Milk is in the basket, or vice versa, for general meal prep needs.",
+      "confidence": "medium"
+    },
+    {
+      "relationship_text": "Breads and Vegetables are frequently co-ordered, often alongside Milk, supporting a broader meal-preparation basket.",
+      "recommendation_use_text": "Suggest Vegetables when Breads are in the basket, or vice versa, for meal-related needs.",
+      "confidence": "medium"
+    },
+    {
+      "relationship_text": "Milk and Wheat Flour are occasionally co-ordered, suggesting baking or cooking activities that require both dairy and grain staples.",
+      "recommendation_use_text": "Suggest Wheat Flour when Milk is in the basket for baking-related needs.",
+      "confidence": "medium"
+    },
+    {
+      "relationship_text": "Curd Yogurt and Milk are occasionally co-ordered, indicating a preference for diverse dairy products.",
+      "recommendation_use_text": "Suggest Curd Yogurt when Milk is in the basket for expanded dairy needs.",
+      "confidence": "medium"
+    }
+  ],
+  "shopping_style": {
+    "frequency_segment": "regular",
+    "basket_size_segment": null,
+    "brand_loyalty_level": null,
+    "substitution_tolerance_level": null,
+    "large_basket_tendency": null,
+    "multi_quantity_tendency": null,
+    "deal_seeking": null,
+    "price_sensitivity": null
+  },
+  "uncertainty_text": "While brand preferences for core staples are stable, the user's timing for non-staple categories (e.g., snacks, oils) is variable. It is unclear if the user has a stable preference for specific vegetable varieties beyond onions/cucumbers or if the ritual item purchases are tied to specific recurring events. Substitution tolerance for non-core items (e.g., noodle brands, spice brands) remains unestablished due to low repetition.",
+  "retrieval_text": "The user exhibits a stable, high-frequency purchasing pattern centered on a 'staple triad' of Milk, Breads, and Vegetables, which co-occur repeatedly across multiple independent dates in May, June, and July 2026. Milk is the dominant anchor, appearing in the vast majority of orders, with high-confidence stable preferences for Chitale and Amul fresh cow milk (500 ml). Breads are consistently purchased as Britannia Breakfast Slice White Bread (450 g), and Vegetables show stable preferences for Unbranded Onions and Cucumbers. Ordering behavior is predominantly weekday morning, aligning with breakfast and daily meal preparation needs. The user demonstrates strong brand loyalty in core categories (Britannia for bread, Aashirvaad for wheat flour, Amul for butter and curd, Fortune for oil) but shows flexibility or trial behavior in non-core categories like spices, noodles, and snacks. Basket composition is generally moderate, focusing on fresh daily needs rather than bulk stock-ups, with low large-basket and multi-quantity tendencies. Ritual items (Incense Sticks, Pooja Flowers) and snacks (Savouries, Chocolates) appear as secondary, non-bundled additions to the core grocery haul.",
+  "user_id": "AC9EUSD2E9W2PY7SGAVG156J51KWDI1D",
+  "profile_type": "global",
+  "updated_at": "2026-07-29T05:25:54.263800"
 }

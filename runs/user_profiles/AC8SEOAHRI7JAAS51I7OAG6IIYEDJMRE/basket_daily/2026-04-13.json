@@ -1,7 +1,7 @@
 {
   "date": "2026-04-13",
   "day_type": "weekday",
-  "summary_text": "On this weekday, a single order was placed during the morning daypart. The basket was narrow in breadth, containing one unit each of a concentrate, an aerated drink, and two distinct vegetable items. This specific combination does not align with the high-support category pairs provided in the evidence (which primarily involve Breads, CurdYogurt, and Milk), suggesting a unique or isolated purchasing instance rather than a pattern derived from the supplied co-order statistics. The order-building behavior is a simple, single-transaction acquisition of ready-to-use or fresh items.",
+  "summary_text": "On this weekday, a single order was placed during the morning daypart. The basket contained one unit each of Concentrates and Aerated Drinks, along with two units of Vegetables. This combination suggests a basic mix of beverage and fresh produce items, potentially for meal preparation or household refreshments. No durable preferences or routines can be established from this single observed transaction.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -11,14 +11,23 @@
         "Aerated Drinks",
         "Vegetables"
       ],
-      "combination_text": "Concentrates, Aerated Drinks, and Vegetables were purchased together in this single order.",
-      "support": null,
+      "combination_text": "Concentrates, Aerated Drinks, and Vegetables were purchased together in a single order.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of a concentrate, an aerated drink, and vegetables is compatible with a need for immediate beverage preparation and fresh food ingredients for a meal or snack.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences, routine behaviors, or stable patterns can be inferred. The provided category pair evidence (involving Breads, CurdYogurt, Milk) does not match the categories in this specific order, so no support/confidence/lift metrics from that evidence apply to this basket.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of vegetables alongside aerated drinks and concentrates may indicate a need for meal preparation components or basic household refreshments.",
+  "uncertainty_text": "This description is based on a single observed order on one date. No durable preference or routine can be established from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-13"
+    ],
+    "first_seen_at": "2026-04-13T09:26:45",
+    "last_seen_at": "2026-04-13T09:26:45"
+  }
 }

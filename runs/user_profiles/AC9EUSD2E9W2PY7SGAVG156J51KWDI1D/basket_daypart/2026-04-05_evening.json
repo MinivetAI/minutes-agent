@@ -1,23 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-04-05 (evening, weekend) containing three skincare items: one Face Cream And Gel, one Sunscreen, and one Lotion Cream. The basket exhibits narrow breadth, consisting exclusively of personal care products. The `shopping_need_text` is compatible with a need for daily skin protection and hydration. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekend evening containing three skincare items: one Face Cream And Gel, one Sunscreen, and one Lotion Cream. The basket reflects a focused skincare routine or replenishment need compatible with these product types. No other categories were purchased in this order.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Face Cream And Gel",
-        "Sunscreen",
-        "Lotion Cream"
-      ],
-      "combination_text": "Face Cream And Gel, Sunscreen, and Lotion Cream were purchased together in a single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Daily skin care maintenance, specifically protection and moisturization.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point. The `category_pair_evidence` supplied relates to grocery categories (Milk, Vegetables, Breads, etc.) and does not match the skincare categories in the observed order; therefore, no lift/support numbers from that evidence are applied to this basket.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Skincare maintenance or replenishment.",
+  "uncertainty_text": "This is a single observation from one independent date. It does not establish a durable preference or routine. The provided category pair evidence (Milk, Vegetables, Breads, etc.) does not match the categories in this order (Face Cream And Gel, Sunscreen, Lotion Cream), so no lift/support data is applicable to this specific basket.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-05T19:34:40"
+  }
 }

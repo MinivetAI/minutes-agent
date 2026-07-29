@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one unit of Lotus Make-Up Divine Dew Herbal Sindoor (shade 21 Love Drop Red, 8 g) on a single weekday (2026-07-16) during the evening. This is a single observed order and does not establish a stable preference or recurring habit for this brand or product type.",
+  "summary_text": "On 2026-07-16 (weekday), a single unit of Lotus Make-Up Divine Dew Herbal Sindoor (8 g) was purchased in the evening. This timing aligns with the population baseline for weekday evenings (30.27%). The product is a liquid herbal sindoor, typically used for daily personal grooming. This is a single observation; it is not yet established whether this brand or product type represents a stable preference or a one-time replacement need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or recurring habit for this brand or product type.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this brand or product type represents a stable preference or a one-time replacement need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-16"
+    ],
+    "first_seen_at": "2026-07-16T18:39:03",
+    "last_seen_at": "2026-07-16T18:39:03"
+  }
 }

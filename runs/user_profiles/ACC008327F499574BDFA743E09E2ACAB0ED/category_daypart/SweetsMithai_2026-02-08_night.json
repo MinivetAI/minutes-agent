@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekend",
-  "summary_text": "Purchased one 400 g box of DMB Dry Petha, a packaged Indian sweet confectionery, during a night-time session on a weekend.",
+  "summary_text": "One order of DMB Dry Petha Box 400 g placed on a weekend night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekend, a timing that is less common than the population baseline for morning (0.3246), afternoon (0.2526), or evening (0.3027) activity, though it aligns with the population's night share (0.1202). The product is a ready-to-eat confectionery suitable for immediate consumption, gifting, or sharing.",
-  "uncertainty_text": "This is a single observation on one date; it does not establish a durable preference for this brand, product type, or night-time shopping habit. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend night, a time when this user's activity is less common than the population baseline (night share 0.1202). The product is a ready-to-eat Indian sweet confectionery, typically used for immediate consumption, gifting, or festive occasions.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product type, or timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T22:18:01",
+    "last_seen_at": "2026-02-08T22:18:01"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-06 in the morning on a weekday. The basket contains four distinct items across four categories: Breads (1 unit), Vegetables (1 unit), Toothbrush (1 unit), and Canned Food (2 units). The combination of Breads, Vegetables, and Canned Food suggests a basic meal preparation need, while the inclusion of a Toothbrush indicates a separate personal care requirement. This is a single observed transaction; no durable preference patterns can be established from this date alone.",
+  "basket_summary_text": "A single order placed on a weekday morning containing items from Breads, Vegetables, Toothbrush, and Canned Food categories. The basket includes one unit each of Breads, Vegetables, and Toothbrush, and two units of Canned Food. No other orders are present in this window to establish a pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,64 +9,23 @@
         "Breads",
         "Vegetables"
       ],
-      "combination_text": "Breads and Vegetables were purchased together in this order.",
+      "combination_text": "Breads and Vegetables were purchased together in the same order.",
       "support": 0.086,
       "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Canned Food"
-      ],
-      "combination_text": "Breads and Canned Food were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Canned Food"
-      ],
-      "combination_text": "Vegetables and Canned Food were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Toothbrush"
-      ],
-      "combination_text": "Breads and Toothbrush were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Toothbrush"
-      ],
-      "combination_text": "Vegetables and Toothbrush were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Canned Food",
-        "Toothbrush"
-      ],
-      "combination_text": "Canned Food and Toothbrush were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket is compatible with a need for basic breakfast or lunch ingredients (bread, vegetables, canned food) and personal hygiene supplies (toothbrush).",
-  "uncertainty_text": "This analysis is based on a single order on one date. No stable preferences, routines, or recurring behaviors can be inferred. The presence of a toothbrush alongside food items may indicate a multi-purpose shopping trip or a separate need fulfilled in the same transaction.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The order includes Breads, Vegetables, and Canned Food, which are compatible with a need for basic meal preparation or breakfast components. The inclusion of a Toothbrush suggests a need for personal hygiene items, potentially purchased alongside groceries.",
+  "uncertainty_text": "This analysis is based on a single order on one date. No durable preferences or routine behaviors can be inferred from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-06"
+    ],
+    "first_seen_at": "2026-04-06T09:42:07",
+    "last_seen_at": "2026-04-06T09:51:49"
+  }
 }

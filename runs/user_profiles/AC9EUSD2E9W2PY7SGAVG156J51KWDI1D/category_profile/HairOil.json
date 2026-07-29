@@ -1,40 +1,27 @@
 {
-  "category": "Hair Oil",
-  "profile_text": "In June 2026, the user purchased one 200 ml bottle of Parachute 100% Pure Coconut Oil on a weekday morning. This single observation does not establish a stable preference or routine.",
-  "brand_preferences": [
-    {
-      "brand": "Parachute",
-      "preference_text": "Parachute was observed in one independent date (June 2026).",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "Parachute 100% Pure Coconut Oil (200 ml) was observed in one independent date (June 2026).",
-      "examples": [],
-      "confidence": "low"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Hair Oil",
+  "summary_text": "In June 2026, the user purchased Parachute 100% Pure Coconut Oil 200 ml on a single weekday morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a small, single-bottle grooming staple suitable for immediate use or quick replenishment. As this is a single observation, it is not yet established whether this represents a stable preference for the Parachute brand, coconut oil specifically, or morning purchasing habits. No repeat evidence is available to confirm routine or brand loyalty.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution preferences established due to single observation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Parachute brand, coconut oil specifically, or morning purchasing habits. No repeat evidence is available to confirm routine or brand loyalty.",
+  "retrieval_text": "User purchased Parachute 100% Pure Coconut Oil 200 ml on a single weekday morning in June 2026, aligning with the population baseline where morning accounts for 32.46% of activity. This is a small, single-bottle grooming staple suitable for immediate use or quick replenishment. As this is a single observation, it is not yet established whether this represents a stable preference for the Parachute brand, coconut oil specifically, or morning purchasing habits. No repeat evidence is available to confirm routine or brand loyalty.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-04",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchase was on 2026-06-04. Cadence is unknown based on a single observation.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for HairOil yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase, as evidenced by the completed transaction.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price/value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals observed.",
-  "mission_generation_text": "Supports hair care needs, specifically the application of coconut oil.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-04T08:59:57",
+    "last_seen_at": "2026-06-04T08:59:57"
+  }
 }

@@ -1,15 +1,23 @@
 {
   "date": "2026-04-12",
   "day_type": "weekend",
-  "summary_text": "On the evening of 2026-04-12 (weekend), one order included one 1 L tub of Amul Tiramisu Gold Ice Cream and one 500 ml tub of Go Zero Mango Mad Over Mango Guilt Free Ice Cream. This timing aligns with the high population share (0.3027) for Ice Creams in the evening, suggesting a possible post-dinner or leisure dessert consumption pattern. With only one observed order, it is not possible to determine if these specific brands or flavors represent a stable preference or a one-time indulgence.",
+  "summary_text": "On 2026-04-12 (weekend), the user ordered ice cream products in the evening: 1 unit of Amul Tiramisu Gold Ice Cream 1 L and 1 unit of Go Zero Mango Mad Over Mango Guilt Free Ice Cream Tub 500 ml. This timing aligns with the population baseline where evening (0.3027) is a high-share daypart, comparable to morning (0.3246). The products are ready-to-serve frozen desserts, generally used for immediate indulgence, dessert needs, or treating cravings. This is a single observation from one date. It is not yet established whether the user prefers Amul or Go Zero, or if they typically buy premium versus guilt-free variants. No stable brand or flavor preference can be confirmed from this single order.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 1 L tub of Amul Tiramisu Gold Ice Cream and one 500 ml tub of Go Zero Mango Mad Over Mango Guilt Free Ice Cream during the evening on a weekend.",
+      "pattern_text": "One order of ice cream products on 2026-04-12 evening: 1 unit of Amul Tiramisu Gold Ice Cream 1 L and 1 unit of Go Zero Mango Mad Over Mango Guilt Free Ice Cream Tub 500 ml. This timing aligns with the population baseline where evening (0.3027) is a high-share daypart, comparable to morning (0.3246). The products are ready-to-serve frozen desserts, generally used for immediate indulgence, dessert needs, or treating cravings. This is a single observation from one date. It is not yet established whether the user prefers Amul or Go Zero, or if they typically buy premium versus guilt-free variants. No stable brand or flavor preference can be confirmed from this single order.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "With only one observed order, it is not possible to determine if these specific brands or flavors represent a stable preference or a one-time indulgence.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether the user prefers Amul or Go Zero, or if they typically buy premium versus guilt-free variants. No stable brand or flavor preference can be confirmed from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-12"
+    ],
+    "first_seen_at": "2026-04-12T20:36:51",
+    "last_seen_at": "2026-04-12T20:36:51"
+  }
 }

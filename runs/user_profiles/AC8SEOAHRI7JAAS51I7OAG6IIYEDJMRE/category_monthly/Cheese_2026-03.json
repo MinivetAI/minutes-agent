@@ -1,18 +1,51 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user purchased Amul cheese products on two independent dates (2026-03-22 and 2026-03-31). The brand Amul appears on both dates, meeting the repetition bar for stable preference. The specific variants differed (200 g slices vs. 100 g), so the stable claim applies to the brand level rather than a single variant. Both purchases occurred in the afternoon, establishing a consistent daypart pattern across independent dates. No other cheese brands or products were observed.",
+  "summary_text": "In March 2026, the user purchased Amul Plain Processed Cheese Slices on two independent dates (2026-03-22 and 2026-03-31). The product appears in two variants: 200 g and 100 g. Both orders occurred during the afternoon. The user also shopped on both a weekend and a weekday.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user purchased Amul cheese products on two independent dates in March 2026, indicating a stable preference for this brand.",
+      "claim_text": "The user purchased Amul products on 2 independent dates in March 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Amul Plain Processed Cheese Slices",
+      "claim_text": "The user purchased Amul Plain Processed Cheese Slices on 2 independent dates in March 2026.",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
+      "dimension": "variant",
+      "value": "200 g",
+      "claim_text": "The user purchased the 200 g variant of Amul Plain Processed Cheese Slices on 1 independent date in March 2026.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "variant",
+      "value": "100 g",
+      "claim_text": "The user purchased the 100 g variant of Amul Plain Processed Cheese Slices on 1 independent date in March 2026.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Only two independent dates were observed in this month. While the brand repetition supports a medium-confidence stable preference, the specific variant preference (200 g vs. 100 g) cannot be determined as stable due to the difference in products. The afternoon timing is consistent but based on a small sample size.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "The 200 g and 100 g variants each appeared on only one date, so they are not yet established as stable preferences. The user's preference for the afternoon daypart is based on 2 dates, but the sample size is small.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-22",
+      "2026-03-31"
+    ],
+    "first_seen_at": "2026-03-22T13:11:15",
+    "last_seen_at": "2026-03-31T11:33:41"
+  }
 }

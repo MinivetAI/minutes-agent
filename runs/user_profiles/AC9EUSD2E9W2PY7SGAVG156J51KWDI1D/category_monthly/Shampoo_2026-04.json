@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "On 2026-04-09 (weekday), the user purchased one 200 ml bottle of Pilgrim Australian Tea Tree Hair Shampoo, an anti-dandruff cleansing product, during the afternoon. This timing aligns with a period of lower activity for this user compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The purchase suggests a restock or replacement need for scalp care. As this is a single observed order, durable preferences or habitual buying patterns cannot be established from this date alone.",
+  "summary_text": "On 2026-04-09 (weekday), the user purchased one unit of Pilgrim Australian Tea Tree Hair Shampoo (200 ml) in the afternoon. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, slightly below the morning share (32.46%) but comparable to the evening share (30.27%). The product is a routine-use cleansing item for dandruff and scalp care, suggesting a restocking need for personal hygiene. This is a single observation on one date. It is not yet established whether the user prefers this specific brand, has a recurring purchase cadence, or if this was an isolated purchase. No stable brand or product preferences can be confirmed.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; durable preferences or habitual buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, has a recurring purchase cadence, or if this was an isolated purchase. No stable brand or product preferences can be confirmed.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-09"
+    ],
+    "first_seen_at": "2026-04-09T14:22:40",
+    "last_seen_at": "2026-04-09T14:22:40"
+  }
 }

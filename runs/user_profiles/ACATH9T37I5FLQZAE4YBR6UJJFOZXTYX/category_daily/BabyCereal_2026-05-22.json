@@ -1,15 +1,23 @@
 {
   "date": "2026-05-22",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-22 (weekday), the user purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) in the morning. This purchase aligns with a morning activity pattern that is 32.46% more likely than the population baseline. The product serves as a complementary infant cereal, suggesting a need for an age-appropriate feeding option during a morning routine. This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for choosing this brand or flavor over others is unknown.",
+  "summary_text": "On 2026-05-22 (weekday), one order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) was purchased in the morning. This timing aligns with general population behavior, as 32.46% of shoppers purchase during this daypart. The product is a nutrient-fortified infant cereal, indicating a need for age-appropriate complementary feeding for a baby aged 6+ months. This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific brand loyalty for Nestlé Cerelac versus other infant cereal brands.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g).",
+      "pattern_text": "One order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) purchased in the morning on a weekday. This timing aligns with general population behavior, as 32.46% of shoppers purchase during this daypart. The product is a nutrient-fortified infant cereal, indicating a need for age-appropriate complementary feeding for a baby aged 6+ months. This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific brand loyalty for Nestlé Cerelac versus other infant cereal brands.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for choosing this brand or flavor over others is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, routine purchasing patterns, or specific brand loyalty for Nestlé Cerelac versus other infant cereal brands.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-22"
+    ],
+    "first_seen_at": "2026-05-22T09:10:49",
+    "last_seen_at": "2026-05-22T09:10:49"
+  }
 }

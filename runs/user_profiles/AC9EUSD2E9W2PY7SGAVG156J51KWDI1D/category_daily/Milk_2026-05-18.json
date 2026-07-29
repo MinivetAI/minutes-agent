@@ -1,9 +1,23 @@
 {
   "date": "2026-05-18",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-18 (weekday), the user purchased 2 units of Chitale Cow Milk 500 ml in the morning. This timing aligns with a 32.46% population share for this category on weekdays. The small-pack fresh milk SKU is suitable for immediate household use such as tea, coffee, or breakfast. This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-18 (weekday), the user ordered Chitale Cow Milk 500 ml (quantity: 2) in the morning. This morning purchase falls below the population baseline frequency (share 0.3246). The small-pack fresh milk SKU is consistent with immediate household needs like tea, coffee, or breakfast preparation. As this is a single observation on one date, it does not establish a stable brand preference, routine, or recurring need; it is unclear if this represents a one-time urgent purchase or the start of a pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Chitale Cow Milk 500 ml (quantity: 2) placed on a weekday morning. This morning purchase falls below the population baseline frequency (share 0.3246). The small-pack fresh milk SKU is consistent with immediate household needs like tea, coffee, or breakfast preparation. As this is a single observation on one date, it does not establish a stable brand preference, routine, or recurring need; it is unclear if this represents a one-time urgent purchase or the start of a pattern.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. It is unclear if this represents a one-time urgent purchase or the start of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-18"
+    ],
+    "first_seen_at": "2026-05-18T10:21:16",
+    "last_seen_at": "2026-05-18T10:21:16"
+  }
 }

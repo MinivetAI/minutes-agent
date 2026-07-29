@@ -1,15 +1,23 @@
 {
   "date": "2026-06-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-15 (weekday), the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) in the morning. This timing aligns with a period where the category represents 32.46% of population activity. This is a single observed transaction; no durable brand or product preference can be established from this isolated event.",
+  "summary_text": "On 2026-06-15 (weekday), one unit of an Indian Sweets product (SAMHHWDWYZ2DTSST) was purchased in the morning. This timing aligns with the population baseline, where morning purchases represent 32.46% of activity for this category. The product serves as a sweet treat or dessert item. This is a single observation from one date; it is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time occasion. No brand preference can be established as no brand information was provided for the product.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One unit of SAMHHWDWYZ2DTSST (Indian Sweets) was purchased. This occurred during a time when the category represents 32.46% of population activity.",
+      "pattern_text": "One unit of an Indian Sweets product (SAMHHWDWYZ2DTSST) was purchased. This timing aligns with the population baseline, where morning purchases represent 32.46% of activity for this category. The product serves as a sweet treat or dessert item. This is a single observation from one date; it is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time occasion. No brand preference can be established as no brand information was provided for the product.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no durable brand or product preference can be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet possible to determine if this represents a stable preference, a routine purchase, or a one-time occasion. No brand preference can be established as no brand information was provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-15"
+    ],
+    "first_seen_at": "2026-06-15T08:02:34",
+    "last_seen_at": "2026-06-15T08:02:34"
+  }
 }

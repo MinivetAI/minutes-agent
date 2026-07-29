@@ -1,11 +1,19 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased fresh, unbranded vegetables on eight independent dates. The basket consistently included core cooking staples, specifically Onion, Baby Potato, and Coriander Leaves, which appeared across multiple orders. Local Tomato and Red Carrot also appeared on multiple dates. The majority of purchases occurred on weekdays during the afternoon, with one morning purchase observed. As all items are unbranded and fresh, specific brand loyalty cannot be established, but the recurrence of specific produce types indicates a stable preference for these ingredients.",
+  "summary_text": "In February 2026, the user placed eight independent orders of fresh, unbranded vegetables, primarily on weekdays. The basket consistently included staple ingredients such as onions, baby potatoes, and coriander leaves, alongside rotating items like tomatoes, carrots, and leafy greens. These items are typical for immediate meal preparation. While specific vegetable variants appeared across multiple dates, no single brand or specific product variant recurred on 2 or more independent dates with sufficient distinctness to establish a stable preference claim under the repetition bar (as items are generic/unbranded or varied in specific form/weight). However, the daypart 'afternoon' appeared on 6 independent dates, and 'weekday' appeared on all 8 dates. The consistent purchase of fresh produce suggests a recurring need for immediate cooking ingredients rather than a stable brand preference.",
   "stable_preference_claims": [
+    {
+      "dimension": "brand",
+      "value": "unbranded",
+      "claim_text": "The user consistently purchased unbranded fresh vegetables across 8 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
+    },
     {
       "dimension": "product",
       "value": "Onion",
-      "claim_text": "Onion was purchased on 6 independent dates (2026-02-10, 2026-02-11, 2026-02-12, 2026-02-20, 2026-02-23, 2026-02-24, 2026-02-25, 2026-02-27). This high frequency supports a stable preference for this staple.",
+      "claim_text": "Onions appeared in the vegetable basket on 8 independent dates in February 2026.",
       "confidence": "high",
       "evidence_count": 8,
       "independent_date_count": 8
@@ -13,39 +21,39 @@
     {
       "dimension": "product",
       "value": "Baby Potato",
-      "claim_text": "Baby Potato was purchased on 7 independent dates (2026-02-10, 2026-02-11, 2026-02-12, 2026-02-20, 2026-02-23, 2026-02-24, 2026-02-25, 2026-02-27). This high frequency supports a stable preference for this staple.",
+      "claim_text": "Baby potatoes appeared in the vegetable basket on 7 independent dates in February 2026.",
       "confidence": "high",
-      "evidence_count": 8,
-      "independent_date_count": 8
+      "evidence_count": 7,
+      "independent_date_count": 7
     },
     {
       "dimension": "product",
       "value": "Coriander Leaves",
-      "claim_text": "Coriander Leaves was purchased on 5 independent dates (2026-02-10, 2026-02-20, 2026-02-23, 2026-02-24, 2026-02-27). This repetition supports a stable preference for this herb.",
+      "claim_text": "Coriander leaves appeared in the vegetable basket on 5 independent dates in February 2026.",
       "confidence": "high",
       "evidence_count": 5,
       "independent_date_count": 5
     },
     {
       "dimension": "product",
-      "value": "Local Tomato",
-      "claim_text": "Local Tomato was purchased on 3 independent dates (2026-02-10, 2026-02-12, 2026-02-27). This repetition supports a stable preference for this item.",
+      "value": "Tomato",
+      "claim_text": "Tomatoes (local or fresh) appeared in the vegetable basket on 3 independent dates in February 2026.",
       "confidence": "medium",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
-      "value": "Red Carrot",
-      "claim_text": "Red Carrot was purchased on 3 independent dates (2026-02-20, 2026-02-23, 2026-02-25). This repetition supports a stable preference for this item.",
+      "value": "Carrot",
+      "claim_text": "Carrots (red or fresh) appeared in the vegetable basket on 2 independent dates in February 2026.",
       "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
       "dimension": "product",
-      "value": "Green Capsicum",
-      "claim_text": "Green Capsicum was purchased on 2 independent dates (2026-02-11, 2026-02-24). This repetition supports a stable preference for this item.",
+      "value": "Capsicum",
+      "claim_text": "Capsicum (green) appeared in the vegetable basket on 2 independent dates in February 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -53,19 +61,61 @@
     {
       "dimension": "product",
       "value": "Cauliflower",
-      "claim_text": "Cauliflower was purchased on 2 independent dates (2026-02-20, 2026-02-25). This repetition supports a stable preference for this item.",
+      "claim_text": "Cauliflower appeared in the vegetable basket on 2 independent dates in February 2026.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
+    },
+    {
+      "dimension": "product",
+      "value": "Daypart: afternoon",
+      "claim_text": "The user placed vegetable orders in the afternoon on 6 independent dates in February 2026.",
+      "confidence": "high",
+      "evidence_count": 6,
+      "independent_date_count": 6
+    },
+    {
+      "dimension": "product",
+      "value": "Daypart: evening",
+      "claim_text": "The user placed a vegetable order in the evening on 1 independent date in February 2026.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Daypart: morning",
+      "claim_text": "The user placed a vegetable order in the morning on 1 independent date in February 2026.",
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "dimension": "product",
+      "value": "Day type: weekday",
+      "claim_text": "All 8 vegetable orders in February 2026 were placed on weekdays.",
+      "confidence": "high",
+      "evidence_count": 8,
+      "independent_date_count": 8
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "The user purchased fresh vegetables on 8 independent dates in February 2026, indicating consistent engagement with this category throughout the month.",
-      "confidence": "high"
-    }
-  ],
-  "uncertainty_text": "All items are unbranded, preventing brand-level preference inference. While specific vegetables recur, the exact meal plans or cooking methods driving these purchases are unknown. The user also purchased other vegetables (Brinjal, Bottle Gourd, Sweet Potato, Beetroot, Spinach, Broad Beans, Cluster Beans) on single dates, which are not included in stable preference claims due to lack of repetition.",
-  "overall_confidence": "high"
+  "trend_claims": [],
+  "uncertainty_text": "While specific vegetables like onions and baby potatoes appear frequently, they are generic fresh produce items. The lack of branded items prevents inference of brand loyalty. The high frequency of afternoon purchases on weekdays suggests a routine, but the specific combination of vegetables varies, indicating flexible meal planning rather than a rigid stable preference for specific produce variants beyond staples.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 8,
+    "purchase_dates": [
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-20",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-27"
+    ],
+    "first_seen_at": "2026-02-10T11:33:22",
+    "last_seen_at": "2026-02-27T09:25:34"
+  }
 }

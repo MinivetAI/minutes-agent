@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one unbranded tender coconut and one 180 g pack of unbranded fresh Mahabaleshwar strawberries.",
+  "summary_text": "One order of Tender Coconut (1 unit) and Fresh Mahabaleshwar Strawberries 180 g (1 pack).",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a period with lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). The products are fresh, perishable fruits typically used for immediate hydration, snacking, or light dessert preparation.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences, habitual buying patterns, or specific use cases (e.g., post-workout vs. hosting) cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Purchased in the afternoon on a weekday. The timing is less common than the population baseline for morning (0.3246) or evening (0.3027) shopping, though it aligns with the afternoon share (0.2526). The products are fresh, perishable fruits typically used for immediate hydration, snacking, or light dessert preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific fruits, a one-time impulse purchase, or part of a recurring routine. No brand or product repetition has been observed to support durable preference claims.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-02-22",
   "day_type": "weekend",
-  "summary_text": "On the evening of 2026-02-22 (weekend), the user purchased one 0.5 kg pack of Rajdhani Select Sooji (semolina). This purchase occurred during the evening, a time when this category is purchased 30.27% of the time by the population baseline (compared to 32.46% in the morning). The product is a staple pantry ingredient for Indian cooking, suitable for quick replenishment of savory or sweet preparations. This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific brand or product size.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, a single order of Rajdhani Select Sooji (0.5 kg) was placed in the evening. This timing aligns with the population baseline, where evening accounts for 30.27% of category activity. The product is a staple pantry ingredient used for immediate cooking needs, such as last-minute savory or sweet preparations. This is a single observation from one date; it is not yet established whether this represents a stable preference for the Rajdhani brand, a routine for this specific product, or a one-time replenishment need. No other independent dates are available to confirm repetition or brand loyalty.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Rajdhani Select Sooji (0.5 kg) placed in the evening. This timing aligns with the population baseline, where evening accounts for 30.27% of category activity. The product is a staple pantry ingredient used for immediate cooking needs, such as last-minute savory or sweet preparations. This is a single observation from one date; it is not yet established whether this represents a stable preference for the Rajdhani brand, a routine for this specific product, or a one-time replenishment need. No other independent dates are available to confirm repetition or brand loyalty.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or recurring need for this specific brand or product size.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for the Rajdhani brand, a routine for this specific product, or a one-time replenishment need. No other independent dates are available to confirm repetition or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-22"
+    ],
+    "first_seen_at": "2026-02-22T18:05:44",
+    "last_seen_at": "2026-02-22T18:05:44"
+  }
 }

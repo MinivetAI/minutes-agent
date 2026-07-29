@@ -1,15 +1,17 @@
 {
   "date": "2026-07-15",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-15 (weekday), the user purchased 1 unit of Britannia Sandwich Bread 350 g during the evening. This order occurred in a daypart where the user's activity (0.3027) is slightly below the population baseline (0.3246). The product is a mass-market sliced white bread, typically used for immediate household needs such as sandwiches, toast, or quick meals. This is a single observed order; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., breakfast prep, immediate consumption, or stocking up) cannot be determined from this single event.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased 1 unit of Britannia Sandwich Bread 350 g during the evening on a weekday.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-07-15 (weekday), the user ordered one unit of Britannia Sandwich Bread 350 g during the evening. This timing aligns with the population baseline for evening shopping (30.27%). The product is a standard sliced white bread loaf, typically used for immediate meal needs such as sandwiches or toast. This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was part of a routine or a one-time need.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. The specific reason for the purchase (e.g., breakfast prep, immediate consumption, or stocking up) cannot be determined from this single event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was part of a routine or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-15"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

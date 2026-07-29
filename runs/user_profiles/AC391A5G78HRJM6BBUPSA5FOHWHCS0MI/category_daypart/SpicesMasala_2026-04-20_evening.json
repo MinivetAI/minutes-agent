@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased 2 units of Everest Chaat Masala 50 g, a tangy finishing spice used to season snacks, fruits, and ready-to-eat foods.",
+  "summary_text": "One order of Everest Chaat Masala (50 g), quantity 2, placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening on a weekday, aligning with the population baseline where evening activity (0.3027) is comparable to morning (0.3246). The product serves an immediate utility for enhancing the flavor of existing snacks or foods without additional cooking.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this specific spice or category.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline where evening (0.3027) is the second most common daypart after morning (0.3246). The product is a tangy finishing spice typically used to enhance ready-to-eat snacks or salads, suggesting an immediate utility for flavoring existing food rather than cooking a new meal.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Everest brand or a one-time purchase. No other products or brands are observed in this window to determine broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T18:44:38",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

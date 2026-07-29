@@ -1,100 +1,50 @@
 {
-  "category": "Vegetables",
-  "profile_text": "The user maintains a high-frequency, stable routine for purchasing fresh, unbranded vegetables, primarily for immediate meal preparation. Core staples including Onion, Baby Potato, and Coriander Leaves are purchased repeatedly across multiple months with high confidence. Beetroot and Sweet Potato also show stable, medium-to-high confidence preferences. Purchases occur frequently (every ~2.5 days) with a strong tendency toward morning shopping, particularly on weekdays. The user buys a wide variety of other produce on an ad-hoc basis, indicating flexible meal planning centered around these stable staples.",
-  "brand_preferences": [
-    {
-      "brand": "unbranded",
-      "preference_text": "The user consistently purchases unbranded fresh vegetables.",
-      "confidence": "high",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for Onion, observed across multiple independent dates in January, February, April, May, June, and July 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "The user has a stable preference for Baby Potato, observed across multiple independent dates in January, February, April, May, June, and July 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "The user has a stable preference for Coriander Leaves, observed across multiple independent dates in January, February, April, and June 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "The user has a stable preference for Beetroot, observed across multiple independent dates in April, June, and July 2026.",
-      "examples": [],
-      "confidence": "high"
-    },
-    {
-      "preference_text": "The user has a stable preference for Sweet Potato, observed across multiple independent dates in May and June 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Local Tomato, observed on multiple independent dates in February 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Red Carrot, observed on multiple independent dates in February 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Green Capsicum, observed on multiple independent dates in February 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Cauliflower, observed on multiple independent dates in February 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Carrot, observed on multiple independent dates in April 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Cucumber, observed on multiple independent dates in April 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Fresh New Crop Potato, observed on multiple independent dates in April 2026.",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "The user has a stable preference for Spinach, observed on multiple independent dates in June 2026.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 2.5,
-    "cadence_class": "fast",
-    "last_purchase_date": "2026-07-08",
-    "predicted_next_purchase_date": "2026-07-10",
-    "replenishment_text": "The user purchases vegetables approximately every 2.5 days, classified as a fast cadence. The last purchase was on 2026-07-08, with the next predicted purchase around 2026-07-10.",
-    "confidence": "high",
-    "evidence_count": 57,
-    "independent_date_count": 57
+  "category_name": "Vegetables",
+  "summary_text": "The user demonstrates a high-frequency, stable preference for fresh, unbranded vegetable staples across January through June 2026. Onion and Baby Potato are the core anchors, appearing on nearly every order date with high confidence. Coriander Leaves, Carrot, and Beetroot show consistent medium-to-high confidence recurrence. The user shops primarily on weekdays, with timing varying across morning, afternoon, and evening, though morning aligns with population baselines. All items are unbranded fresh produce, indicating a utility-driven need for immediate meal preparation rather than brand loyalty.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "unbranded",
+        "preference_text": "The user exclusively purchases unbranded fresh vegetables, indicating a preference for generic produce over branded alternatives.",
+        "confidence": "high",
+        "boundary_text": "This preference applies to fresh, loose, or unbranded packaged vegetables; it does not extend to branded processed vegetable products or frozen vegetable mixes."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by consistent high-frequency buying behavior across multiple months.",
-  "substitution_text": null,
-  "price_value_text": null,
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific brand loyalty exists beyond 'unbranded'. While Onion, Baby Potato, and Coriander Leaves are stable staples, the user frequently rotates other vegetables (e.g., bitter gourd, cluster beans, spinach) on single dates, indicating flexible, need-based purchasing for non-staple items rather than stable preferences.",
-  "mission_generation_text": "The user requires fresh, unbranded vegetables for immediate meal preparation, with a routine focus on core staples like onions, potatoes, and coriander, supplemented by a rotating selection of other produce based on daily culinary needs.",
-  "overall_confidence": "high"
+  "daypart_understanding": [
+    {
+      "daypart": "morning",
+      "behavior_text": "The user frequently orders vegetables in the morning, a pattern that aligns with the population baseline.",
+      "confidence": "high"
+    },
+    {
+      "daypart": "afternoon",
+      "behavior_text": "The user places a significant number of vegetable orders in the afternoon, particularly in February and April.",
+      "confidence": "high"
+    },
+    {
+      "daypart": "evening",
+      "behavior_text": "The user occasionally orders vegetables in the evening, though less frequently than morning or afternoon.",
+      "confidence": "medium"
+    }
+  ],
+  "substitution_text": "The user consistently substitutes between generic forms of the same vegetable (e.g., 'Onion' vs 'Onion (400–450 g)', 'Baby Potato' vs 'Baby Potato (280–320 g)') without changing the core item, indicating flexibility in pack size or specific cut. Rotating items like tomatoes, carrots, and leafy greens are substituted based on meal needs. Branded vegetable products are not observed as acceptable substitutes.",
+  "uncertainty_text": "While Onion and Baby Potato are stable staples, the specific combination of secondary vegetables (e.g., spinach, beans, gourds) varies significantly by order, preventing stable preference claims for those items. Daypart timing is mixed across morning, afternoon, and evening, so no single habitual window is dominant. No brand preferences exist as all items are unbranded.",
+  "retrieval_text": "The user exhibits a high-confidence, stable preference for fresh, unbranded vegetable staples, specifically Onion and Baby Potato, which appear on nearly every order date across January to June 2026. Coriander Leaves, Carrot, and Beetroot also show consistent recurrence with medium-to-high confidence. The user shops primarily on weekdays, with ordering timing distributed across morning, afternoon, and evening, though morning aligns with population baselines. All purchases are unbranded fresh produce, reflecting a utility-driven need for immediate meal preparation ingredients rather than brand loyalty. Secondary vegetables rotate frequently based on flexible meal planning.",
+  "replenishment": {
+    "cadence_days": 2,
+    "cadence_class": "fast",
+    "predicted_next_purchase_date": "2026-06-30",
+    "replenishment_text": "Vegetables is reordered roughly every 2 days."
+  },
+  "evidence": {
+    "evidence_count": 54,
+    "independent_date_count": 54,
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-06-28T09:23:37"
+  }
 }

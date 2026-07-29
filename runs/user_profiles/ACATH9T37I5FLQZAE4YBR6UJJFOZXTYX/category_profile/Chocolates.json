@@ -1,26 +1,33 @@
 {
-  "category": "Chocolates",
-  "profile_text": "The user has purchased chocolates on three independent dates (Feb, Apr, May 2026), establishing a slow replenishment cadence of approximately 38 days. Purchases are consistently made on weekdays in the afternoon. The user has tried three different brands (Snickers, Kinder JOY, Cadbury) but has not repeated any single brand or product variant across multiple dates, so no durable brand or product preference is established. The items purchased are single-serve, portion-controlled confections suitable for immediate individual indulgence or a quick treat.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Chocolates",
+  "summary_text": "The user has purchased chocolates on three separate occasions in February, April, and May 2026. Each order consisted of a single, small-format item (Snickers, Kinder JOY, Cadbury Gems) bought on a weekday in the afternoon. Due to the lack of repetition for any specific brand, product, or variant across these independent dates, no stable brand or product preference can be established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": [
+      {
+        "quantity": 1,
+        "preference_text": "Single unit per order",
+        "confidence": "low"
+      }
+    ]
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Evidence is limited to three distinct brands (Snickers, Kinder, Cadbury) purchased on separate dates; no substitution pattern or brand loyalty is established.",
+  "uncertainty_text": "It is unknown whether the user has a preferred chocolate brand, specific product type (bar vs. bite vs. ball), or pack size. The afternoon weekday timing appears across all three observations but may be coincidental given the small sample size. No routine or recurring habit is confirmed.",
+  "retrieval_text": "User purchased single-serve chocolate items (Snickers 40g bar, Kinder JOY 20g bites, Cadbury Gems 14.69g ball) on three independent weekday afternoons in Feb, Apr, and May 2026. No single brand or product variant shows repetition sufficient to establish a stable preference; all orders were for a quantity of one.",
   "replenishment": {
     "cadence_days": 38.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-05-11",
     "predicted_next_purchase_date": "2026-06-18",
-    "replenishment_text": "The user typically purchases chocolates every 38 days, with the next purchase estimated around 2026-06-18.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Chocolates is reordered roughly every 38 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably results in completed purchases; the user has converted interest into purchases on all observed dates.",
-  "substitution_text": "No specific brand or product substitution pattern is evident, as the user has purchased different brands and variants on each occasion.",
-  "price_value_text": "The user has purchased single-serve, portion-controlled items (40g, 20g, 14.69g), suggesting a preference for immediate, low-commitment indulgence rather than bulk value.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior is observed. The user's willingness to try different brands suggests openness to variety rather than strict loyalty.",
-  "mission_generation_text": "Supports needs for immediate individual indulgence, quick hunger interruption, or a small, portion-controlled treat during the workday or afternoon.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-05-11T13:24:35"
+  }
 }

@@ -1,15 +1,17 @@
 {
   "date": "2026-05-08",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-08 (weekday), the user purchased two 300 ml tubs of Frubon ice cream (Shahi Rabri Kulfi and Litchi Faluda) during a night-time session. This timing aligns with a population share of 12.02% for night purchases, which is lower than morning (32.46%), afternoon (25.26%), or evening (30.27%). The products are ready-to-serve frozen desserts, suggesting an immediate indulgence or post-meal treat rather than a planned pantry stock-up. This is a single observation on one date; it is not yet established whether this represents a stable preference for the Frubon brand, these specific flavors, or night-time ice cream purchases.",
-  "daypart_patterns": [
-    {
-      "daypart": "night",
-      "pattern_text": "Purchased two 300 ml tubs of Frubon ice cream (Shahi Rabri Kulfi and Litchi Faluda) during a night-time session on a weekday.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On this weekday, the user ordered two 300 ml Frubon ice cream tubs (Shahi Rabri Kulfi and Litchi Faluda) during the night. This timing is less common for this user than the population baseline (night share 0.1202 vs. morning 0.3246). The products are ready-to-serve frozen desserts, typically used for immediate indulgence or post-meal treats. This is a single observation; it is not yet established whether this represents a stable preference for Frubon brand, specific flavors, or night-time ordering.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for the Frubon brand, these specific flavors, or night-time ice cream purchases.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for Frubon brand, specific flavors, or night-time ordering.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-08"
+    ],
+    "first_seen_at": "2026-05-08T21:40:27",
+    "last_seen_at": "2026-05-08T21:40:27"
+  }
 }

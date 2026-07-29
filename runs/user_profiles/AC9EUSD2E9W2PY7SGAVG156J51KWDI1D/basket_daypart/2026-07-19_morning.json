@@ -1,24 +1,91 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend morning consisting of snack items: Savouries Namkeens (3 units), Cookies Biscuits (2 units), Sweets Mithai (1 unit), and Rusks (1 unit). The basket reflects a compatible need for ready-to-eat snacks or tea-time accompaniments. No other categories were purchased in this transaction.",
+  "basket_summary_text": "A single order placed on a weekend morning containing a mix of snack items. The basket includes multiple units from the Savouries Namkeens and Cookies Biscuits categories, along with one item each from Sweets Mithai and Rusks. This represents a single observation of basket breadth and category combination.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
         "Savouries Namkeens",
+        "Cookies Biscuits"
+      ],
+      "combination_text": "Savouries Namkeens and Cookies Biscuits were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Sweets Mithai"
+      ],
+      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Savouries Namkeens",
+        "Rusks"
+      ],
+      "combination_text": "Savouries Namkeens and Rusks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
         "Cookies Biscuits",
+        "Sweets Mithai"
+      ],
+      "combination_text": "Cookies Biscuits and Sweets Mithai were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Cookies Biscuits",
+        "Rusks"
+      ],
+      "combination_text": "Cookies Biscuits and Rusks were purchased together in this order.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
         "Sweets Mithai",
         "Rusks"
       ],
-      "combination_text": "Savouries Namkeens, Cookies Biscuits, Sweets Mithai, and Rusks were purchased together in a single order.",
+      "combination_text": "Sweets Mithai and Rusks were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for immediate consumption snacks or items suitable for tea/coffee breaks.",
-  "uncertainty_text": "This is a single observed order on one date. It does not establish a durable preference or routine. The category pair evidence provided (Milk/Vegetables, etc.) does not match the categories in this specific order, so no lift/support values from that evidence are applied here.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of savouries, biscuits, sweets, and rusks is compatible with a need for snack items or tea-time accompaniments.",
+  "uncertainty_text": "This inference is based on a single order on one date. No durable preference or routine can be established from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T09:35:43",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

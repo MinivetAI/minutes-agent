@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one unit of Lady\u2019s Finger (480\u2013520g), a fresh unbranded okra/bhindi vegetable, during the evening on a weekend.",
+  "summary_text": "One order of Lady’s Finger (fresh okra/bhindi, 480–520g) placed in the evening on a weekend.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period with a population share of 0.3027, slightly below the morning baseline of 0.3246. The product is a basic fresh produce item typically used for immediate meal assembly or same-day cooking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand/category loyalty. The specific culinary intent (e.g., bhindi masala vs. stir-fry) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for that daypart. The product is a fresh vegetable typically used for immediate meal preparation, suggesting a need for same-day cooking ingredients.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand, product, or daypart preference can be established. It is unclear if this represents a routine habit or an isolated purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T19:32:49",
+    "last_seen_at": "2026-07-19T19:32:49"
+  }
 }

@@ -1,9 +1,17 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased Sunfeast Mom's Magic cookies in the afternoon. The order included one 544 g pack of Cashew & Almond Cookies and two 870 g packs of Ghee Roasted Cashew & Almond Cookies. These ready-to-eat biscuits are positioned for immediate consumption, household snacking, or pantry replenishment. The afternoon timing aligns with a period where population share (0.2526) is lower than morning (0.3246) and evening (0.3027) peaks. This is a single observed order and does not establish a stable preference, routine, or durable intent for this category.",
+  "summary_text": "On this weekend, the user placed one order of Cookies Biscuits in the afternoon. The basket included Sunfeast Mom's Magic Cashew & Almond Cookies (544 g) and Sunfeast Mom's Magic Ghee Roasted Cashew & Almond Cookies (870 g). This afternoon timing is less common for this user compared to the population baseline (afternoon share 0.2526 vs. evening 0.3027 and morning 0.3246). The products are ready-to-eat tea-time biscuits, suggesting a need for immediate snacking or household stock replenishment. This is a single observation on one date; it does not establish a stable brand preference, flavor preference, or routine timing. It is unclear if this represents a one-time purchase or the start of a recurring habit.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference, routine, or durable intent for this category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, flavor preference, or routine timing. It is unclear if this represents a one-time purchase or the start of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

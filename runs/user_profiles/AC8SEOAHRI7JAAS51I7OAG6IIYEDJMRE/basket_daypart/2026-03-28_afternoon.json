@@ -1,92 +1,55 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on a weekend afternoon included Paneer Tofu, Buttermilk, and two items from the Breads category. The basket reflects a simple meal-preparation need compatible with these ingredients. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on a weekend afternoon included items from three categories: Breads, Paneer Tofu, and Buttermilk. The basket contained two units of Buttermilk and one unit each of Breads (two distinct items) and Paneer Tofu. This combination represents a single observation and does not establish a durable preference pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
       "categories": [
         "Breads",
-        "CurdYogurt"
+        "Buttermilk"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
+      "combination_text": "Breads and Buttermilk were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Vegetables"
-      ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
-        "Vegetables"
+        "Paneer Tofu"
       ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
+      "combination_text": "Breads and Paneer Tofu were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "Milk",
-        "Vegetables"
+        "Buttermilk",
+        "Paneer Tofu"
       ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
+      "combination_text": "Buttermilk and Paneer Tofu were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user purchased Paneer Tofu, Buttermilk, and Breads, suggesting a need for ingredients to prepare a meal or snack.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Patterns observed here are not confirmed as stable preferences.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The purchase of Breads, Paneer Tofu, and Buttermilk is compatible with a need for breakfast or snack components, such as making sandwiches or toast with dairy and protein sides.",
+  "uncertainty_text": "This analysis is based on a single order from one date. No repeated behavior patterns, stable preferences, or routine purchasing habits can be inferred from this isolated transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T12:56:25",
+    "last_seen_at": "2026-03-28T12:56:25"
+  }
 }

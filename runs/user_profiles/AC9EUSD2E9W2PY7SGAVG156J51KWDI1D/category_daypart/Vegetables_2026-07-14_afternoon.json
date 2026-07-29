@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit of Fresh New Crop Potato (0.95\u20131.05 kg), an unbranded fresh tuber vegetable.",
+  "summary_text": "One order of Fresh New Crop Potato (0.95–1.05 kg) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when the user's activity is less frequent than the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). The product is a perishable staple suitable for immediate meal preparation or short-term kitchen stock replenishment.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference, routine, or durable brand loyalty. The specific culinary intent (e.g., frying vs. boiling) is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which is less common than the population baseline morning share (0.3246) but aligns with the population evening share (0.3027) and exceeds the population afternoon share (0.2526). The product is a fresh, perishable staple typically used for immediate cooking needs such as boiling, roasting, or as a base ingredient.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this specific potato variant, a general preference for unbranded fresh potatoes, or a one-time purchase. No brand preference can be inferred as the product is unbranded.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-14"
+    ],
+    "first_seen_at": "2026-07-14T11:36:15",
+    "last_seen_at": "2026-07-14T11:36:15"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased fresh cow milk (500 ml) on 9 independent dates, alternating between Chitale and Amul brands. Both brands appeared on multiple independent dates, establishing stable preferences for each. Purchases occurred almost exclusively in the morning daypart, with one evening purchase, and spanned both weekdays and weekends.",
+  "summary_text": "In June 2026, the user ordered fresh cow milk exclusively in 500 ml packs. Two brands appeared across multiple independent dates: Chitale (4 dates: 06-01, 06-12, 06-15, 06-26, 06-28) and Amul (3 dates: 06-03, 06-08, 06-16, 06-21). Both brands meet the repetition bar for stable preference. Chitale appears on 5 independent dates, supporting high confidence. Amul appears on 4 independent dates, supporting high confidence. The user alternates between these two brands without a single dominant preference. Daypart analysis shows orders on 7 independent dates in the morning and 2 in the evening, indicating a strong morning preference. All orders were placed on weekdays except for two weekend orders (06-21, 06-28). No other milk variants or brands were observed.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Chitale",
-      "claim_text": "The user purchased Chitale Cow Milk 500 ml on 5 independent dates (2026-06-01, 2026-06-12, 2026-06-15, 2026-06-26, 2026-06-28).",
+      "claim_text": "The user has a stable preference for Chitale Cow Milk 500 ml, observed on 5 independent dates (2026-06-01, 2026-06-12, 2026-06-15, 2026-06-26, 2026-06-28).",
       "confidence": "high",
       "evidence_count": 5,
       "independent_date_count": 5
@@ -13,14 +13,38 @@
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user purchased Amul Cow Milk 500 ml on 4 independent dates (2026-06-03, 2026-06-08, 2026-06-16, 2026-06-21).",
+      "claim_text": "The user has a stable preference for Amul Cow Milk 500 ml, observed on 4 independent dates (2026-06-03, 2026-06-08, 2026-06-16, 2026-06-21).",
       "confidence": "high",
       "evidence_count": 4,
       "independent_date_count": 4
+    },
+    {
+      "dimension": "product",
+      "value": "Cow Milk 500 ml",
+      "claim_text": "The user consistently orders Cow Milk in 500 ml packs across all 9 observed dates in June 2026.",
+      "confidence": "high",
+      "evidence_count": 9,
+      "independent_date_count": 9
     }
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "The user alternates between two major milk brands without a single dominant preference. The specific reason for brand switching or selection on any given date is unknown.",
-  "overall_confidence": "high"
+  "uncertainty_text": "The user alternates between Chitale and Amul brands. While both brands show stable preference due to repetition, no single brand dominates the category. The morning daypart is the primary ordering time, but evening orders also occur.",
+  "overall_confidence": "high",
+  "window_evidence": {
+    "order_count": 9,
+    "purchase_dates": [
+      "2026-06-01",
+      "2026-06-03",
+      "2026-06-08",
+      "2026-06-12",
+      "2026-06-15",
+      "2026-06-16",
+      "2026-06-21",
+      "2026-06-26",
+      "2026-06-28"
+    ],
+    "first_seen_at": "2026-06-01T09:14:21",
+    "last_seen_at": "2026-06-28T09:13:33"
+  }
 }

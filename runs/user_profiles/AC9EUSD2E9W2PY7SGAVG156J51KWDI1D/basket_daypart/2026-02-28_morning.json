@@ -1,22 +1,18 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "basket_summary_text": "A single order placed on 2026-02-28 in the morning on a weekend. The basket contains Breads (2 units), Handwash (1 unit), and Butter Margarine (1 unit). The `shopping_need_text` may describe a need compatible with the basket but must not claim hidden intent. A single order is not a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on a weekend morning containing Breads, Handwash, and Butter Margarine. The basket reflects a basic household replenishment need, combining a staple food item with a hygiene product and a dairy spread. No other categories were purchased in this specific transaction.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "ButterMargarine"
-      ],
-      "combination_text": "Breads and Butter Margarine were purchased together in this order.",
-      "support": 0.08,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may be preparing breakfast items or basic household supplies.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. No durable preferences or stable patterns can be inferred. Confidence is low.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Routine household replenishment of breakfast staples and personal hygiene items.",
+  "uncertainty_text": "This behavior is based on a single observed order on one independent date. It is an isolated observation and does not establish a durable preference or routine. Confidence in any inferred pattern is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-28T10:05:13",
+    "last_seen_at": "2026-02-28T10:05:13"
+  }
 }

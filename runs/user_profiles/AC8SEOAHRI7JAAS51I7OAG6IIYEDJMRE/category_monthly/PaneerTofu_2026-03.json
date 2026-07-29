@@ -1,11 +1,11 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, the user ordered Mother Dairy Fresh Paneer 200 g on two independent dates (2026-03-21 and 2026-03-28). Both orders occurred on weekends in the afternoon. The product is a packaged fresh dairy item typically used for immediate cooking needs or meal preparation.",
+  "summary_text": "In March 2026, the user ordered Mother Dairy Fresh Paneer 200 g on two independent dates (2026-03-21 and 2026-03-28). Both orders occurred on weekends in the afternoon. The repetition of this specific brand and product across two independent dates establishes a stable preference for this item, supported by medium confidence. The afternoon timing on weekends is consistent across both observations, though it aligns with a lower-population baseline share compared to morning and evening slots. No other brands or products were observed in this category during this month.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Mother Dairy",
-      "claim_text": "The user has ordered Mother Dairy Fresh Paneer 200 g on two independent dates in March 2026, indicating a stable preference for this brand within the Paneer Tofu category.",
+      "claim_text": "The user has a stable preference for Mother Dairy paneer, evidenced by orders on 2026-03-21 and 2026-03-28.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Mother Dairy Fresh Paneer 200 g",
-      "claim_text": "The user has ordered Mother Dairy Fresh Paneer 200 g on two independent dates in March 2026, indicating a stable preference for this specific product.",
+      "claim_text": "The user has a stable preference for Mother Dairy Fresh Paneer 200 g, evidenced by orders on 2026-03-21 and 2026-03-28.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two independent orders in March 2026. No other brands or products were observed in this category during this month.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two independent orders in March 2026. While the repetition establishes a stable preference for the specific brand and product, the sample size is limited to this single month. The afternoon timing is consistent but represents a lower-frequency population baseline.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-21",
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-21T12:56:16",
+    "last_seen_at": "2026-03-28T12:56:25"
+  }
 }

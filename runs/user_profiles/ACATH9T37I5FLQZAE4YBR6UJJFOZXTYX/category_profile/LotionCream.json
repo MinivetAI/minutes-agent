@@ -1,34 +1,34 @@
 {
-  "category": "Lotion Cream",
-  "profile_text": "The user has purchased Johnson's Baby Lotion 500 ml on three independent dates (March, April, and June 2026). While the brand appears repeatedly, the monthly summaries explicitly state these are single observations per month and do not establish a stable preference or routine. The user buys a large-format baby moisturizer, likely for daily skin care needs. Purchases have occurred on weekdays (night, morning) and weekends (afternoon), with no single daypart dominating. The observed cadence is slow (42 days).",
-  "brand_preferences": [
-    {
-      "brand": "Johnson's",
-      "preference_text": "Johnson's is the only brand observed in this category, appearing on 3 independent dates. However, the evidence is described as single observations per month without establishing a stable routine. Confidence is medium based on the 3 independent dates, but the lack of a documented routine or repeated same-variant behavior limits high confidence.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Lotion Cream",
+  "summary_text": "The user has purchased Johnson's Baby Lotion 500 ml on three separate dates in March, April, and June 2026. Each instance represents a single observation from an independent date, with no established routine or stable preference confirmed across multiple months.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Johnson's Baby",
+        "preference_text": "Purchased on three independent dates (March, April, June 2026), indicating a repeated selection of this brand for baby moisturizing needs.",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to the specific Johnson's Baby Lotion product form observed; does not extend to other Johnson's Baby product categories or different lotion brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of substitution behavior or alternative brand acceptance is present in the supplied summaries.",
+  "uncertainty_text": "While the brand Johnson's Baby appears across three independent months, the lack of explicit routine documentation and the variability in dayparts (night, weekend afternoon, weekday morning) means the stability of this preference is not fully established. It is unclear if this represents a strict routine or flexible purchasing based on availability or immediate need. No other brands or product variants have been observed.",
+  "retrieval_text": "User has purchased Johnson's Baby Lotion 500 ml on three independent dates in March, April, and June 2026, showing a repeated selection of this specific baby moisturizing lotion brand and pack size across multiple months, though daypart timing varies (night, afternoon, morning) and no strict routine is confirmed.",
   "replenishment": {
     "cadence_days": 42.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-06-03",
     "predicted_next_purchase_date": "2026-07-15",
-    "replenishment_text": "The user purchases this category approximately every 42 days, classified as a slow cadence. The last purchase was on 2026-06-03, with the next predicted around 2026-07-15 based on this average interval.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "LotionCream is reordered roughly every 42 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by three completed orders of Johnson's Baby Lotion 500 ml across different months.",
-  "substitution_text": "No substitution behavior observed. The user consistently purchased the same product (Johnson's Baby Lotion 500 ml) across all three orders.",
-  "price_value_text": "The user purchases a large-format (500 ml) product, suggesting a preference for value or bulk sizing, though no explicit price sensitivity or discount usage is documented.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected. The user has completed purchases consistently.",
-  "mission_generation_text": "Routine daily skin care for a baby, requiring a general-use moisturizer in a large format.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-03-11T22:39:02",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

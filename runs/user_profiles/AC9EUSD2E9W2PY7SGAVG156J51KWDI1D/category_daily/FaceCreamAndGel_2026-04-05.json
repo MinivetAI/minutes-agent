@@ -1,9 +1,17 @@
 {
   "date": "2026-04-05",
   "day_type": "weekend",
-  "summary_text": "One unit of POND'S Super Light Gel Moisturiser 200 ml was purchased in the evening on a weekend. The product is a lightweight, oil-free gel moisturiser intended for daily hydration and fast absorption. This is a single observed transaction; durable brand or product preferences cannot be established from this isolated event.",
+  "summary_text": "On 2026-04-05 (weekend), one unit of POND'S Super Light Gel Moisturiser 200 ml was purchased in the evening. The evening is a common time for this category, with a population share of 0.3027, comparable to the morning (0.3246) and higher than the afternoon (0.2526) and night (0.1202). The product is a gel-based face moisturiser intended for daily hydration and fast absorption. This is a single observation from one date; it does not establish a stable preference for this brand, product, or timing. It is unclear if this is a one-time replenishment, a trial, or part of a recurring routine.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference for this brand, product, or timing. It is unclear if this is a one-time replenishment, a trial, or part of a recurring routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T19:34:40",
+    "last_seen_at": "2026-04-05T19:34:40"
+  }
 }

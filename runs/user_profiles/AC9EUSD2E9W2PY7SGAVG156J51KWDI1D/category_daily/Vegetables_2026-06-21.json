@@ -1,15 +1,23 @@
 {
   "date": "2026-06-21",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased one 1.95\u20132.05 kg pack of unbranded fresh onions in the morning. This timing aligns with above-baseline morning activity (32.46%). The product serves as a staple kitchen ingredient for everyday cooking. This single order does not establish a stable or recurring preference for onions or this specific pack size.",
+  "summary_text": "On 2026-06-21 (weekend), the user purchased Unbranded Onion (1.95–2.05 kg) during the morning daypart. This single order occurred when the user's purchasing activity was below the population baseline (32.46% of orders occur in the morning). The product is a staple fresh vegetable pack, typically used as a base for everyday cooking. This is a single observation; it is not yet established whether this represents a stable preference for this specific brand, pack size, or weekend morning timing.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one 1.95\u20132.05 kg pack of unbranded fresh onions. This occurred during a period of above-baseline morning activity (32.46%).",
+      "pattern_text": "One order of Unbranded Onion (1.95–2.05 kg) purchased on a weekend morning. The order occurred on a weekend morning, a time when this user's purchasing activity is below the population baseline (32.46% of orders occur in the morning). The product is a staple fresh vegetable pack, typically used as a base for everyday cooking. This is a single observation; it is not yet established whether this represents a stable preference for this specific brand, pack size, or weekend morning timing.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable or recurring preference for onions or this specific pack size.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for this specific brand, pack size, or weekend morning timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-21"
+    ],
+    "first_seen_at": "2026-06-21T09:39:45",
+    "last_seen_at": "2026-06-21T09:39:45"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 450 g block of Jivana sugarcane jaggery and one 500 g pack of Organic Tattva organic jaggery powder during a morning session on a weekend.",
+  "summary_text": "One order of Jaggery products on 2026-04-05 (morning, weekend): 1 unit of Jivana Sugarcane Jaggery Block 450 g and 1 unit of Organic Tattva Jaggery Powder 500 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.5%). The products are kitchen staples used for sweetening, cooking, or baking, suggesting a need to replenish or diversify pantry sweeteners.",
-  "uncertainty_text": "Confidence is low because this is a single observed order on one date; it is not yet clear if this represents a stable preference for jaggery or a one-time purchase.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, which aligns with the population baseline where morning accounts for 32.46% of activity. The products are kitchen staples used for sweetening, cooking, or baking.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for either brand (Jivana, Organic Tattva) or format (block vs. powder).",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-04-05T10:50:30"
+  }
 }

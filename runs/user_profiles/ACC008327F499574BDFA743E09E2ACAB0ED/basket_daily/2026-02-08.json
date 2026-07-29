@@ -1,103 +1,32 @@
 {
   "date": "2026-02-08",
   "day_type": "weekend",
-  "summary_text": "On 2026-02-08 (weekend), two separate orders were placed across different dayparts. The afternoon order consisted of three items from the Cookies Biscuits category, compatible with a snack or treat need. The night order contained one unit each of Savouries Namkeens and Sweets Mithai, representing a narrow basket of ready-to-eat snacks and sweet treats. As this evidence represents only one independent date, all inferences are low confidence and describe isolated observations rather than durable preferences.",
+  "summary_text": "On this weekend, two separate orders were placed: one in the afternoon consisting exclusively of Cookies Biscuits, and one at night containing Savouries Namkeens and Sweets Mithai. The afternoon purchase reflects a narrow, single-category focus on cookies, while the night purchase combines savory and sweet snack categories. These are isolated observations from a single date; no durable preferences, routines, or cross-category behaviors can be inferred.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "DipsSaucesPastes",
-        "Vegetables"
-      ],
-      "combination_text": "DipsSaucesPastes and Vegetables",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "SpicesMasala"
-      ],
-      "combination_text": "SavouriesNamkeens and SpicesMasala",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Fruits"
-      ],
-      "combination_text": "CurdYogurt and Fruits",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "IceCreams",
-        "Vegetables"
-      ],
-      "combination_text": "IceCreams and Vegetables",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "DipsSaucesPastes"
-      ],
-      "combination_text": "Breads and DipsSaucesPastes",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
         "Savouries Namkeens",
         "Sweets Mithai"
       ],
-      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in this order.",
-      "support": null,
+      "combination_text": "Savouries Namkeens and Sweets Mithai were purchased together in one order.",
+      "support": 1.0,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Snack or treat; Snacking or sweet treat consumption.",
-  "uncertainty_text": "This is a single observed order on one date. It is an isolated observation and not a durable behavior pattern. No stable preferences can be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The afternoon order is compatible with a need for a snack or treat. The night order is compatible with a need for ready-to-eat snacks or sweets, potentially for immediate consumption, though no specific occasion is evidenced.",
+  "uncertainty_text": "This behavior is based on single observations from one independent date. It does not establish a durable preference, routine, or stable pattern. Confidence is low because there is no repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-08"
+    ],
+    "first_seen_at": "2026-02-08T11:31:34",
+    "last_seen_at": "2026-02-08T22:18:01"
+  }
 }

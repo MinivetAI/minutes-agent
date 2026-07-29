@@ -1,15 +1,17 @@
 {
   "date": "2026-05-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-07 (weekday), the user purchased one unit of Paper Boat Swing Plus Lush Lychee Juicer Drink (600 ml) in the Fruit Drinks category. This single order occurred in the morning, a daypart where population activity is highest (32.46%). The purchase suggests an immediate thirst-quenching or convenience need for a ready-to-drink beverage. This observation does not establish a stable preference or routine.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "One order of Paper Boat Swing Plus Lush Lychee Juicer Drink (600 ml) purchased in the morning on a weekday. This timing aligns with the population baseline where morning activity is the most common daypart (32.46%).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-05-07 (weekday), the user ordered one Paper Boat Swing Plus Lush Lychee Juicer Drink (600 ml) in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a ready-to-drink fruit beverage, suggesting an immediate thirst-quenching or convenience need. This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or morning timing. No other orders are available to confirm repetition.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or morning timing. No other orders are available to confirm repetition.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-07"
+    ],
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

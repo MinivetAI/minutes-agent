@@ -1,42 +1,40 @@
 {
-  "category": "Vegetables",
-  "profile_text": "The user demonstrates a stable, high-frequency engagement with fresh vegetables, purchasing on a fast cadence (every ~6 days) with a strong preference for morning shopping on weekdays. While no single brand is preferred (all purchases are unbranded/local), specific product preferences have emerged for culinary staples: onions and cucumbers in May, and coriander leaves in July. The user buys a variety of fresh produce, including potatoes, holy tulsi, lady's finger, capsicum, and sweet corn, but only coriander leaves, onions, and cucumbers show repeated purchase behavior across independent dates.",
-  "brand_preferences": [],
-  "product_preferences": [
+  "category_name": "Vegetables",
+  "summary_text": "The user demonstrates a consistent preference for morning shopping on weekdays, particularly in June 2026 where all four orders occurred in the morning. Stable preferences are established for 'Unbranded' brand and 'Onion' product, supported by repeated orders in May and June 2026. 'Unbranded Local Cucumbers' also show a stable preference in May 2026. Other items like coriander, potatoes, and mixed vegetables appear sporadically without forming a stable pattern.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Unbranded",
+        "preference_text": "The user frequently purchases unbranded fresh vegetables, with specific recurrence in June 2026.",
+        "confidence": "medium",
+        "boundary_text": "This preference applies to fresh vegetable staples like onions and cucumbers; it does not necessarily extend to branded specialty items or processed vegetable products which have not been observed."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "preference_text": "Unbranded onions (1 kg or 1.95–2.05 kg packs)",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "Local cucumbers",
-      "examples": [],
-      "confidence": "medium"
-    },
-    {
-      "preference_text": "Coriander Leaves 100 g (fresh herb)",
-      "examples": [],
+      "daypart": "morning",
+      "behavior_text": "The user shows a strong tendency to order vegetables in the morning, particularly on weekdays, with consistent morning ordering observed across multiple months (Feb, Mar, Apr, May, June).",
       "confidence": "medium"
     }
   ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user accepts a variety of fresh vegetables including onions, cucumbers, tomatoes, lady's finger, bottle gourd, and potatoes. No specific brand substitution is evident as 'Unbranded' is the dominant label. No evidence suggests a preference for one vegetable over another as a direct substitute, other than the general category of fresh produce.",
+  "uncertainty_text": "While onions and cucumbers show stable preference, the user's interest in other vegetables (tomatoes, potatoes, herbs) is sporadic and does not form a stable routine. It is unclear if the user prefers specific varieties of onions or cucumbers beyond the 'Unbranded' label. The lack of repetition in July 2026 for specific products suggests that the stable preferences for onions/cucumbers may be seasonal or situational rather than a rigid weekly routine.",
+  "retrieval_text": "The user consistently orders fresh vegetables in the morning, with a stable preference for Unbranded Onions and Unbranded Local Cucumbers observed across multiple dates in May and June 2026. The brand 'Unbranded' is also supported by repeated orders in June. Other vegetables like tomatoes, potatoes, and herbs are purchased sporadically without forming a stable pattern. The user's vegetable shopping is characterized by morning timing and a reliance on unbranded fresh produce staples.",
   "replenishment": {
-    "cadence_days": 6.0,
+    "cadence_days": 6,
     "cadence_class": "fast",
-    "last_purchase_date": "2026-07-21",
     "predicted_next_purchase_date": "2026-07-27",
-    "replenishment_text": "The user typically purchases vegetables every 6 days, with the next expected purchase around 2026-07-27.",
-    "confidence": "high",
-    "evidence_count": 20,
-    "independent_date_count": 20
+    "replenishment_text": "Vegetables is reordered roughly every 6 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by consistent high-frequency buying across multiple months.",
-  "substitution_text": "No specific brand loyalty exists; the user accepts unbranded or local variants of staple vegetables (onions, cucumbers, coriander) without apparent substitution friction.",
-  "price_value_text": "The user consistently purchases unbranded or local produce, suggesting a preference for value-oriented or standard fresh produce options rather than premium branded variants.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No specific items are avoided; however, many vegetable types (mushrooms, gourd, lady's finger, capsicum, sweet corn) appear only as single-date observations, indicating variable culinary needs rather than stable routine.",
-  "mission_generation_text": "Routine replenishment of fresh culinary staples and herbs for daily meal preparation, with a focus on morning shopping windows.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 20,
+    "independent_date_count": 20,
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

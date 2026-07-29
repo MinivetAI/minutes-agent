@@ -1,15 +1,23 @@
 {
   "date": "2026-02-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-24 (weekday), the user placed one order of Mother Dairy Fresh Paneer 200 g in the morning. This timing aligns with a 32.46% population share for morning purchases. The product is a packaged fresh dairy item suitable for immediate cooking needs. This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
+  "summary_text": "On 2026-02-24 (weekday), the user purchased one unit of Mother Dairy Fresh Paneer 200 g in the morning. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The purchase likely serves immediate cooking needs, such as last-minute meal prep or adding a protein source to a daily meal. As this is the only observed date, it is not yet established whether this is a recurring habit or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g placed in the morning. This timing aligns with a 32.46% population share for morning purchases. The product is a packaged fresh dairy item suitable for immediate cooking needs.",
+      "pattern_text": "One order of Mother Dairy Fresh Paneer 200 g. This single observation aligns with the population baseline where morning accounts for 32.46% of activity. The product serves immediate cooking needs, such as last-minute meal prep or adding a protein source to a daily meal.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific cooking intent.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this is a recurring habit, a one-time need, or part of a broader preference for this brand or product type.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T07:17:40",
+    "last_seen_at": "2026-02-24T07:17:40"
+  }
 }

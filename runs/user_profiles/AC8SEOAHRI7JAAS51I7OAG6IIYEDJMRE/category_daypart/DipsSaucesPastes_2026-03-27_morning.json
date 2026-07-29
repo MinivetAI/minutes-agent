@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 900 g pack of VEEBA Tomato Chef’s Special Ketchup.",
+  "summary_text": "One order of Veeba Tomato Chef’s Special Ketchup 900 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekday, a time with high population share (32.46%). The product is a large-format condiment suitable for regular household meal preparation.",
-  "uncertainty_text": "This is a single observed order; durable brand or product preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning. This timing aligns with the population baseline, where morning purchases account for 32.46% of activity, making it the most common time of day for this category. The product is a large-format condiment typically used for family meals or regular kitchen stocking.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine replenishment, or an isolated purchase. No other products or brands were observed in this window to establish broader shopping habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-27T08:20:23",
+    "last_seen_at": "2026-03-27T08:20:23"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "One order of Amul Masti Dahi Plain Curd (200 ml) was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One order of Amul Masti Dahi Plain Curd (200 ml) on 2026-04-05.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekend. The product is a small, single-serve plain curd pack, typically used for immediate consumption, as a side with meals, or to top up household dairy supplies.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. A single order does not establish a stable preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekend. This timing aligns with the population baseline, where morning accounts for 32.46% of activity. The product is a small, single-serve plain curd, typically used for immediate meal pairing or short-term consumption.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Amul brand, the specific 200 ml pack size, or morning weekend ordering. No other products or brands are observed in this window to determine broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-05"
+    ],
+    "first_seen_at": "2026-04-05T10:50:30",
+    "last_seen_at": "2026-04-05T10:50:30"
+  }
 }

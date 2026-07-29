@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased a basket of fresh, unbranded vegetables including pumpkin, cucumber, ginger, potatoes, bitter gourd, onion, and tomato.",
+  "summary_text": "One order of fresh vegetables including pumpkin, cucumber, ginger, potato, bitter gourd, onion, and tomato.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during a weekday morning, a time when population share is highest (32.46%). The items are fresh, perishable staples typically used for immediate meal preparation.",
-  "uncertainty_text": "No browsing or search data is available to determine if this was a planned or urgent purchase. No brand preferences are evident as all items are unbranded.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. The items are fresh produce staples typically used for immediate meal preparation.",
+  "uncertainty_text": "Single order observed; no repeat purchases to establish stable preferences or brand loyalty.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-16"
+    ],
+    "first_seen_at": "2026-04-16T06:47:33",
+    "last_seen_at": "2026-04-16T06:47:33"
+  }
 }

@@ -1,12 +1,39 @@
 {
   "month": "2026-03",
-  "summary_text": "In March 2026, four independent orders were placed across weekdays and weekends. The user purchased Holi festival items (colors and sweets) in early March, fresh vegetables in mid-March, milk in late March, and sunflower oil in late March. No category, daypart, or product combination repeated across independent dates. All observed behaviors are single-date observations; no stable preferences, routines, or durable patterns can be inferred.",
+  "summary_text": "In March 2026, four independent orders were placed across weekdays and weekends. The month featured distinct, non-recurring shopping events: a festival-related basket (Holi Color, Sweets Mithai) in early March, and separate single-category purchases of Vegetables, Milk, and Sunflower Oil later in the month. No daypart, category combination, or product behavior repeated across independent dates; therefore, no stable patterns or routines are established.",
   "stable_daypart_behavior": [],
   "stable_behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [],
-  "shopping_need_text": "The user has demonstrated needs for festival preparation (Holi), fresh produce for meal preparation, dairy restocking, and cooking oil. These needs are inferred from single transactions and do not indicate recurring habits.",
-  "uncertainty_text": "All observed transactions occurred on independent dates (2026-03-02, 2026-03-17, 2026-03-22, 2026-03-26) with no repetition of categories, dayparts, or product combinations. Consequently, no stable patterns, routines, or high-confidence preferences can be established. The category combination patterns provided in the daily summaries (e.g., Breads/Vegetables) reflect population-level or historical associations, not user-specific stable behavior, as they do not appear together in the user's baskets on multiple dates. Confidence is low for all inferred behaviors.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "A single order on 2026-03-02 (weekday, morning) combined Holi Color and Sweets Mithai, compatible with Holi festival preparations.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "A single order on 2026-03-17 (weekday, evening) contained only Vegetables (6 distinct items, quantity 7), suggesting a need for fresh ingredients.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "A single order on 2026-03-22 (weekend, evening) contained only Milk (5 units), suggesting a need for dairy.",
+      "confidence": "low"
+    },
+    {
+      "claim_text": "A single order on 2026-03-26 (weekday, morning) contained only Sunflower Oil, suggesting a need for cooking oil.",
+      "confidence": "low"
+    }
+  ],
+  "shopping_need_text": "The user demonstrated needs for festival-specific items (Holi Color, Sweets Mithai), fresh produce (Vegetables), dairy (Milk), and cooking staples (Sunflower Oil) across four separate, non-repeating transactions.",
+  "uncertainty_text": "All observed behaviors are based on single, independent dates. No repetition exists to establish durable preferences, routines, or stable category associations. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 4,
+    "purchase_dates": [
+      "2026-03-02",
+      "2026-03-17",
+      "2026-03-22",
+      "2026-03-26"
+    ],
+    "first_seen_at": "2026-03-02T09:41:54",
+    "last_seen_at": "2026-03-26T09:09:15"
+  }
 }

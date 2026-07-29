@@ -1,21 +1,18 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-08 during the night on a weekday. The basket contains two items from the Ice Creams category, with one unit of each product purchased. No other categories were included in this transaction.",
+  "basket_summary_text": "A single order placed on 2026-05-08 during the night weekday window contains two items from the Ice Creams category. The basket is narrow, consisting exclusively of ice cream products with no other categories present. This represents a single observation of ice cream purchase behavior at night.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Ice Creams"
-      ],
-      "combination_text": "Ice Creams",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of ice cream is compatible with a need for a dessert or a sweet treat.",
-  "uncertainty_text": "This is a single observation from one independent date. Stable preferences, routine behaviors, or durable patterns cannot be inferred from this isolated order. Confidence in any inferred behavior is low.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The purchase of ice cream is compatible with a need for a dessert, snack, or treat.",
+  "uncertainty_text": "This is a single order on one date; no durable preference or routine can be established. Category pair evidence provided in the input refers to different categories (e.g., Breads/Vegetables) not present in this specific order, so no co-occurrence statistics apply to the actual basket contents.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-08"
+    ],
+    "first_seen_at": "2026-05-08T21:40:27",
+    "last_seen_at": "2026-05-08T21:40:27"
+  }
 }

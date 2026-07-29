@@ -1,9 +1,23 @@
 {
   "date": "2026-06-11",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-11 (weekday), the user purchased one unit each of Coriander Leaves (cleaned, without roots), Baby Potato (280–320 g), and Onion (400–450 g) during the night. This night order aligns with a period of lower population share (12.02%) compared to morning (32.46%), afternoon (25.26%), and evening (30.27%). The items are fresh, unbranded cooking staples typically used for immediate meal preparation, such as curries, sabzis, or garnishes. This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-06-11 (weekday), the user placed one order of unbranded fresh vegetables during the night. The basket included 1x Coriander Leaves, 1x Baby Potato, and 1x Onion. Night orders are less common for the population (12.02%) compared to morning (32.46%) and evening (30.27%). These items are fresh, unbranded cooking staples typically used for immediate meal preparation. This is a single observation on one date; it is not yet established whether this represents a stable preference for night-time vegetable shopping or specific unbranded fresh produce.",
+  "daypart_patterns": [
+    {
+      "daypart": "night",
+      "pattern_text": "One order of unbranded fresh vegetables: 1x Coriander Leaves, 1x Baby Potato, and 1x Onion. Night orders are less common for the population (12.02%) compared to morning (32.46%) and evening (30.27%).",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for night-time vegetable shopping or specific unbranded fresh produce, as no other dates are provided.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

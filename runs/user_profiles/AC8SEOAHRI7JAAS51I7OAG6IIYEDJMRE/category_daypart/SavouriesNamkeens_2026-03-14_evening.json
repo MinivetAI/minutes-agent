@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Haldiram's All In One 200 g, a packaged Indian namkeen mixture, during the evening on a weekend.",
+  "summary_text": "One order of Haldiram's All In One 200 g (1 unit) placed on 2026-03-14 during the evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the evening, a period with high population share (0.3027) for this category, suggesting alignment with typical evening snacking or tea-time consumption patterns.",
-  "uncertainty_text": "This is a single observed order; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time purchase for immediate consumption.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, which aligns with the population baseline share of 0.3027 for this daypart. The product is a ready-to-eat snack typically used for immediate consumption, such as with tea or as a quick bite.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for immediate consumption, a specific event, or a routine refill.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-14"
+    ],
+    "first_seen_at": "2026-03-14T16:59:17",
+    "last_seen_at": "2026-03-14T16:59:17"
+  }
 }

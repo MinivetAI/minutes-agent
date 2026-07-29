@@ -1,9 +1,23 @@
 {
   "date": "2026-03-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-20 (weekday), the user purchased one 1 L pack of Aashirvaad Svasti Pure Cow Ghee in the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than the morning (0.3246) and evening (0.3027) peaks. The product serves as a kitchen staple for cooking, tadka, or sweets. This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time replenishment or part of a recurring habit.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-20 (weekday), the user ordered Aashirvaad Svasti Pure Cow Ghee (1 L) in the afternoon. This single observation aligns with the population baseline, where afternoon activity accounts for 25.26% of orders, slightly below morning (32.46%) and evening (30.27%) peaks. The product serves as a kitchen staple for daily cooking tasks like tadka or sweets, indicating a need for routine continuity rather than a special occasion. As this is the only observed instance, it is not yet established whether the user prefers this specific brand or if this afternoon timing represents a stable habit. No long-term brand loyalty or recurring purchase cadence can be confirmed from this single date.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Aashirvaad Svasti Pure Cow Ghee (1 L) placed on a weekday afternoon. This timing aligns with the population baseline, where afternoon represents 25.26% of activity, slightly below the morning (32.46%) and evening (30.27%) peaks. The product is a kitchen staple used for daily cooking, such as tadka or sweets, suggesting a need for routine continuity rather than a special occasion.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. It is unclear if this is a one-time replenishment or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand over others, or if this afternoon timing is a stable habit. No long-term brand loyalty or recurring purchase cadence can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-20"
+    ],
+    "first_seen_at": "2026-03-20T11:53:47",
+    "last_seen_at": "2026-03-20T11:53:47"
+  }
 }

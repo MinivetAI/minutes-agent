@@ -1,9 +1,17 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased one 400 g pouch of Quaker plain wholegrain oats on a weekend afternoon. This single observation does not establish a stable preference or routine.",
+  "summary_text": "In April 2026, the user purchased Quaker Oats Pouch 400 g (plain wholegrain oats) on one weekend afternoon. This single observation suggests a need for pantry replenishment or meal preparation, consistent with the product's role as a staple breakfast ingredient. The purchase timing aligns with the user's typical afternoon activity levels, which are comparable to the population baseline for that daypart. No stable brand or product variant preference can be established from this isolated observation.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Only one independent date of evidence is available for this category in this month. Stable preferences, routines, or trends cannot be established from a single order.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This summary is based on a single observed order. It is not possible to determine if this is a one-time purchase or part of a recurring routine. No brand preference or specific product variant preference can be established from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

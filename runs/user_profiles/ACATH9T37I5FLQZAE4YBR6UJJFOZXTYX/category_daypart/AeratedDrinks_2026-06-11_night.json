@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased one multi-pack (8 x 250 ml) of Sprite plastic bottles, a lemon-lime carbonated soft drink, during the night on a weekday.",
+  "summary_text": "One order of Sprite Plastic Bottle 8 x 250 ml (1 unit) placed on a weekday night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekday, a time when this user's activity is less common than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a ready-to-drink carbonated beverage in a convenience pack size, typically used for immediate refreshment, individual serving, or household stocking.",
-  "uncertainty_text": "This is a single observed order on one date; durable brand preference or habitual timing cannot be established. The specific reason for choosing this product or timing is unknown.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred at night on a weekday, a time when this user's activity is less common than the population baseline (night share 0.1202). The product is a multi-pack of ready-to-drink carbonated lemon-lime soft drinks, typically used for immediate refreshment, individual serving, or short-term household stocking.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for Sprite, aerated drinks, or night-time shopping. The specific reason for this purchase (e.g., immediate need, guest preparation, or routine restocking) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

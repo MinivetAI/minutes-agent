@@ -1,64 +1,186 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user placed orders on 10 independent dates, predominantly on weekdays in the afternoon or evening. The basket composition is heavily anchored by Vegetables and Milk, which appear together in 8 of the 10 orders. Curd Yogurt is a frequent companion to these staples, appearing in 6 orders. Additional categories observed include Diaper, Baby Cereal, Cough medicine, and various snacks or beverages. No abandoned carts were recorded across any daypart. The behavior suggests a focus on fresh produce, dairy, and infant care, with occasional health-related purchases.",
+  "summary_text": "In February 2026, the user placed orders on 10 independent dates, predominantly on weekdays in the afternoon or evening. The basket composition is dominated by fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), often purchased together. Additional recurring categories include Diapers, Baby Cereal, and health-related items (Cough medicine, Rx Medicine). While specific category combinations like Milk+Vegetables appear frequently, they are observed across distinct dates without a single stable daypart or routine pattern emerging from this month's data alone.",
   "stable_daypart_behavior": [],
-  "stable_behavior_patterns": [
+  "stable_behavior_patterns": [],
+  "category_combination_patterns": [
     {
-      "behavior_text": "Vegetables and Milk are purchased together in the same order on 8 independent dates (2026-02-10, 2026-02-11, 2026-02-12, 2026-02-20, 2026-02-23, 2026-02-24, 2026-02-25, 2026-02-27).",
-      "circumstance_text": "Weekday afternoons and evenings.",
-      "confidence": "high"
+      "categories": [
+        "Milk",
+        "Vegetables"
+      ],
+      "combination_text": "Milk and Vegetables were purchased together across multiple orders.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 7,
+      "independent_date_count": 7
     },
     {
-      "behavior_text": "Curd Yogurt is purchased alongside Vegetables on 5 independent dates (2026-02-10, 2026-02-11, 2026-02-20, 2026-02-24, 2026-02-27).",
-      "circumstance_text": "Weekday afternoons.",
-      "confidence": "high"
+      "categories": [
+        "Curd Yogurt",
+        "Vegetables"
+      ],
+      "combination_text": "Curd Yogurt and Vegetables were purchased together across multiple orders.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 5,
+      "independent_date_count": 5
     },
     {
-      "behavior_text": "Curd Yogurt is purchased alongside Milk on 5 independent dates (2026-02-10, 2026-02-11, 2026-02-20, 2026-02-24, 2026-02-27).",
-      "circumstance_text": "Weekday afternoons.",
-      "confidence": "high"
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk were purchased together across multiple orders.",
+      "support": null,
+      "lift": null,
+      "confidence": "medium",
+      "evidence_count": 5,
+      "independent_date_count": 5
     },
     {
-      "behavior_text": "Diaper is purchased on 3 independent dates (2026-02-12, 2026-02-27, 2026-02-28).",
-      "circumstance_text": "Weekdays and weekends.",
-      "confidence": "medium"
+      "categories": [
+        "Baby Cereal",
+        "Vegetables"
+      ],
+      "combination_text": "Baby Cereal and Vegetables were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "behavior_text": "Baby Cereal is purchased on 2 independent dates (2026-02-11, 2026-02-24).",
-      "circumstance_text": "Weekdays.",
-      "confidence": "medium"
+      "categories": [
+        "Savouries Namkeens",
+        "Vegetables"
+      ],
+      "combination_text": "Savouries Namkeens and Vegetables were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 2,
+      "independent_date_count": 2
     },
     {
-      "behavior_text": "Cough medicine is purchased on 2 independent dates (2026-02-10, 2026-02-24).",
-      "circumstance_text": "Weekdays.",
-      "confidence": "medium"
+      "categories": [
+        "Diaper",
+        "Vegetables"
+      ],
+      "combination_text": "Diaper and Vegetables were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Feeding Nursing",
+        "Milk",
+        "Vegetable"
+      ],
+      "combination_text": "Feeding Nursing, Milk, and Vegetable products were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Fruits",
+        "Vegetables"
+      ],
+      "combination_text": "Fruits and Vegetables were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Ghee",
+        "Milk"
+      ],
+      "combination_text": "Ghee and Milk were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Ghee",
+        "Vegetables"
+      ],
+      "combination_text": "Ghee and Vegetables were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Fruit Drinks"
+      ],
+      "combination_text": "Aerated Drinks and Fruit Drinks were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Aerated Drinks",
+        "Rx Medicine"
+      ],
+      "combination_text": "Aerated Drinks and Rx Medicine were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Fruit Drinks",
+        "Rx Medicine"
+      ],
+      "combination_text": "Fruit Drinks and Rx Medicine were purchased together.",
+      "support": null,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Aerated Drinks and Fruit Drinks were purchased together on 2026-02-07, but this combination did not recur in subsequent orders.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "Savouries Namkeens were purchased on 2026-02-24 and 2026-02-27, but not on other dates.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "Ghee was purchased on 2026-02-25, but not on other dates.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "Feeding Nursing supplies were purchased on 2026-02-23, but not on other dates.",
-      "confidence": "low"
-    },
-    {
-      "claim_text": "Rx Medicine was purchased on 2026-02-07, but not on other dates.",
-      "confidence": "low"
-    }
-  ],
-  "shopping_need_text": "The user demonstrates a recurring need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), likely for daily meal preparation. There is also a recurring need for infant care supplies (Diaper, Baby Cereal) and occasional health-related items (Cough medicine).",
-  "uncertainty_text": "Cough medicine was purchased on 2026-02-10 and 2026-02-24, but not on other dates; this isolated recurrence does not establish a stable health management routine. Rx Medicine (2026-02-07), Feeding Nursing (2026-02-23), Ghee (2026-02-25), and Savouries Namkeens (2026-02-24, 2026-02-27) appeared on limited dates and are not included in stable patterns. Aerated Drinks and Fruit Drinks were only observed together on 2026-02-07.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "shopping_need_text": "The user demonstrates a consistent need for fresh produce (Vegetables) and dairy staples (Milk, Curd Yogurt), often combined with baby care items (Diapers, Baby Cereal, Feeding Nursing) and occasional health management items (Cough medicine, Rx Medicine).",
+  "uncertainty_text": "While category combinations like Milk+Vegetables appear on 7 independent dates, the dayparts (afternoon, evening, morning) and specific product mixes vary significantly across these dates. No single daypart or routine is established. Confidence in specific behavioral patterns is limited by the lack of consistent timing or product-level repetition.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 11,
+    "purchase_dates": [
+      "2026-02-07",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-20",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-27",
+      "2026-02-28"
+    ],
+    "first_seen_at": "2026-02-07T18:07:34",
+    "last_seen_at": "2026-02-28T19:02:29"
+  }
 }

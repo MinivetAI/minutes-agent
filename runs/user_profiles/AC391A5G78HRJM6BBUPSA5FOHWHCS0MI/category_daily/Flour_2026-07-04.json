@@ -1,15 +1,23 @@
 {
   "date": "2026-07-04",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-04 (weekend), one order of Flour (1 unit) was placed in the afternoon. This timing aligns with the population baseline share of 0.2526 for this daypart. The product is a general baking staple. This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
+  "summary_text": "On this weekend, the user purchased 1 unit of Flour during the afternoon. This timing aligns with the population baseline, where afternoon is a common shopping window (0.2526), though slightly less frequent than evening (0.3027) or morning (0.3246). The product is a staple baking ingredient. This is a single observation on one date; it is not yet established whether this represents a routine purchase, a one-time need, or a specific preference. No brand preference can be inferred as no brand data is provided for the product.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Flour (1 unit) placed on 2026-07-04 in the afternoon. This timing aligns with the population baseline share of 0.2526 for this daypart. The product is a general baking staple. This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
+      "pattern_text": "One order of Flour (1 unit) placed on a weekend afternoon. This timing aligns with the population baseline, where afternoon is a common shopping window (0.2526), though slightly less frequent than evening (0.3027) or morning (0.3246).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; durable preferences, routine, or specific use cases cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a routine purchase, a one-time need, or a specific preference for this brand or product type. No brand preference can be inferred as no brand data is provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T11:35:29",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

@@ -1,34 +1,46 @@
 {
-  "category": "Ghee",
-  "profile_text": "The user has purchased Ghee on three independent dates (Jan, Feb, Apr 2026), establishing a slow replenishment cadence of approximately 41 days. The only observed brand is Gowardhan, appearing across all three months, which supports a medium-confidence brand preference. Purchases have consistently occurred on weekday afternoons, though this timing is below the population baseline. The user buys 500 ml units, specifically in both bottle and pouch formats. As there are no repeated search/view/cart events without purchase, this is not a discovery candidate; interest reliably converts to purchase.",
-  "brand_preferences": [
+  "category_name": "Ghee",
+  "summary_text": "The user has purchased Ghee on three separate occasions in January, February, and April 2026. All orders were for Gowardhan brand, 500 ml pack size, purchased on weekday afternoons. The user bought a Plastic Bottle variant in January and April, and a Pouch variant in February. As each purchase occurred on a different date, there is evidence of repeated brand and pack-size preference, but the product form (bottle vs. pouch) varies, preventing a stable variant preference. Overall confidence is low due to the limited number of observations and lack of recent monthly data.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Gowardhan",
+        "preference_text": "The user has purchased Gowardhan Ghee on three independent dates (Jan, Feb, Apr 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is specific to the Ghee category and does not extend to other dairy or cooking oil brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [
+      {
+        "pack_size": "500 ml",
+        "preference_text": "All three observed orders were for 500 ml units.",
+        "confidence": "medium"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Gowardhan",
-      "preference_text": "Gowardhan is the sole observed brand, appearing on three independent dates (Jan, Feb, Apr 2026), supporting a medium-confidence preference.",
-      "confidence": "medium",
-      "evidence_count": 3,
-      "independent_date_count": 3
+      "daypart": "afternoon",
+      "behavior_text": "All three orders were placed on weekday afternoons.",
+      "confidence": "medium"
     }
   ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "The user has purchased both plastic bottle and pouch formats of the same brand and pack size, suggesting interchangeability between these two forms. No evidence exists for substitution with other brands or significantly different pack sizes.",
+  "uncertainty_text": "It is unknown if the user has a strong preference for bottle over pouch or vice versa, as both have been purchased once. The April 2026 order is the most recent; it is unclear if the user continues to purchase Ghee regularly or if this was a sporadic need. No data is available for May 2026 or later.",
+  "retrieval_text": "User has purchased Gowardhan brand Ghee, 500 ml pack size, on three independent dates in Jan, Feb, and Apr 2026. All purchases occurred on weekday afternoons. The user bought the plastic bottle variant in Jan and Apr, and the pouch variant in Feb, indicating flexibility between these two forms. No other brands or pack sizes have been observed. Confidence is medium for brand and pack size due to repetition across three dates, but low for overall routine stability due to the gap in recent months.",
   "replenishment": {
     "cadence_days": 41.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-04-20",
     "predicted_next_purchase_date": "2026-05-31",
-    "replenishment_text": "The user purchases Ghee approximately every 41 days, classified as a slow replenishment cycle. The last purchase was on 2026-04-20, with the next predicted purchase around 2026-05-31 based on this average cadence.",
-    "confidence": "medium",
-    "evidence_count": 3,
-    "independent_date_count": 3
+    "replenishment_text": "Ghee is reordered roughly every 41 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Ghee reliably converts to purchase; there is no evidence of repeated viewing or searching without buying.",
-  "substitution_text": "No repeated substitution patterns observed; the user has purchased Gowardhan exclusively.",
-  "price_value_text": "No explicit price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance behavior observed.",
-  "mission_generation_text": "Routine replenishment of cooking fat for home cooking and traditional food preparation.",
-  "overall_confidence": "medium"
+  "evidence": {
+    "evidence_count": 3,
+    "independent_date_count": 3,
+    "first_seen_at": "2026-01-28T12:24:24",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

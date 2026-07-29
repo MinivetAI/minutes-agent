@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-01 in the afternoon on a weekday. The basket contains seven items across five categories: Vegetables (3 units), Milk (1 unit), Curd Yogurt (1 unit), Cake Pastry (1 unit), and Diaper (1 unit). The combination of Milk, Vegetables, and Curd Yogurt aligns with a compatible need for basic meal ingredients and dairy staples. A single order is an observation, not a durable preference.",
+  "basket_summary_text": "A single order placed on 2026-04-01 in the afternoon on a weekday. The basket contains 7 items across 5 categories: Vegetables (3 items), Milk (1), Curd Yogurt (1), Cake Pastry (1), and Diaper (1). The combination of Milk and Vegetables is supported by historical co-order evidence (Support: 0.525, Lift: 1.038). The combination of Curd Yogurt and Vegetables is also supported (Support: 0.443, Lift: 1.07). The combination of Diaper and Vegetables is supported (Support: 0.262, Lift: 1.07). The combination of Curd Yogurt and Milk is supported (Support: 0.344, Lift: 1.438). This single observation does not establish a durable preference pattern.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,44 +9,59 @@
         "Milk",
         "Vegetables"
       ],
-      "combination_text": "Milk and Vegetables were purchased together.",
+      "combination_text": "Milk and Vegetables",
       "support": 0.525,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Curd Yogurt",
         "Vegetables"
       ],
-      "combination_text": "Curd Yogurt and Vegetables were purchased together.",
+      "combination_text": "Curd Yogurt and Vegetables",
       "support": 0.443,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Curd Yogurt",
-        "Milk"
-      ],
-      "combination_text": "Curd Yogurt and Milk were purchased together.",
-      "support": 0.344,
-      "lift": null,
-      "confidence": "medium"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Diaper",
         "Vegetables"
       ],
-      "combination_text": "Diaper and Vegetables were purchased together.",
+      "combination_text": "Diaper and Vegetables",
       "support": 0.262,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "Curd Yogurt",
+        "Milk"
+      ],
+      "combination_text": "Curd Yogurt and Milk",
+      "support": 0.344,
+      "lift": null,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic meal preparation and household staples including fresh produce, dairy, and baby care items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or recurring behaviors cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user purchased fresh produce (Vegetables), dairy staples (Milk, Curd Yogurt), a baby care item (Diaper), and a baked good (Cake Pastry). This mix suggests a need for daily household sustenance and baby care supplies.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'routine' or 'preference' cannot be established from this single observation. Confidence is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-01"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-01T12:08:51"
+  }
 }

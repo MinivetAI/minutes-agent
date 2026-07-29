@@ -1,40 +1,40 @@
 {
-  "category": "Coffee",
-  "profile_text": "The user has purchased Continental Malgudi 60 Degree Filter Coffee (200 g pouch) on two independent dates (2026-04-26 and 2026-06-03), both in the evening. This establishes a stable preference for this specific brand and product variant. Purchases occurred on a weekend and a weekday, with no consistent daypart preference relative to the population baseline (evening activity is slightly below the morning baseline). Cadence is unknown based on the two-month span. The product is a traditional South Indian filter coffee powder for decoction-style brewing, supporting a need for daily household staple replenishment.",
-  "brand_preferences": [
+  "category_name": "Coffee",
+  "summary_text": "The user has purchased Continental Malgudi 60 Degree Filter Coffee Pouch 200 g on two independent dates (April and June 2026), both occurring in the evening. This represents a single observed brand and product variant. Due to the low frequency (2 dates) and lack of multi-month span, stable preference confidence is limited to medium for the brand and low for the specific product routine. Evening timing is observed but not yet established as a dominant habit compared to the population baseline's morning peak.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Continental Malgudi",
+        "preference_text": "Purchased on two independent dates (April and June 2026).",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to the specific filter coffee products purchased; does not extend to other coffee types (e.g., instant, beans) or other brands."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [
     {
-      "brand": "Continental Malgudi",
-      "preference_text": "Stable preference for Continental Malgudi coffee, observed on two independent dates (April and June 2026).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
+      "daypart": "evening",
+      "behavior_text": "Both observed purchases occurred in the evening.",
+      "confidence": "low"
     }
   ],
-  "product_preferences": [
-    {
-      "preference_text": "Stable preference for Continental Malgudi 60 Degree Filter Coffee Pouch 200 g, observed on two independent dates.",
-      "examples": [],
-      "confidence": "medium"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "substitution_text": "No evidence of substitution behavior. Continental Malgudi is the only brand observed; no alternative brands or product forms (e.g., instant coffee) have been purchased to indicate acceptable substitutes or strong aversions.",
+  "uncertainty_text": "Confidence is low because the evidence spans only two independent dates without repetition across multiple months. It is unclear if the evening timing is a consistent personal routine or coincidental. The specific brewing need (traditional decoction) is inferred from product type but not confirmed as a recurring driver. No data exists on preferred pack sizes beyond the 200g pouch observed, nor on other coffee categories.",
+  "retrieval_text": "User purchased Continental Malgudi 60 Degree Filter Coffee Pouch 200 g on two independent dates in April and June 2026, both in the evening. This South Indian filter coffee powder is used for traditional decoction-style brewing. The brand shows medium confidence based on two dates, but the specific product routine and evening timing remain low-confidence observations due to limited frequency and lack of multi-month stability. No other coffee brands or product forms have been observed.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-03",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-06-03; cadence is unknown, so next purchase date cannot be estimated.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Coffee yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by two completed transactions for the same product.",
-  "substitution_text": "No evidence of substitution; the user consistently purchased the same brand and product variant.",
-  "price_value_text": "No evidence of price sensitivity or value-seeking behavior; only one pack size and brand observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty.",
-  "mission_generation_text": "Replenishment of a daily household staple (South Indian filter coffee powder) for decoction-style brewing.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-04-26T19:26:32",
+    "last_seen_at": "2026-06-03T16:24:08"
+  }
 }

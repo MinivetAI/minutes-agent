@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, one unit of Indian Sweets (Product ID: SAMHHWDWYZ2DTSST) was purchased on a weekend afternoon. This single transaction does not establish a stable preference or routine for this category.",
+  "summary_text": "In June 2026, the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) on a weekend afternoon. This single observation does not establish a stable preference or recurring pattern for this category.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for Indian Sweets.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No stable preference or recurring pattern can be inferred from a single order on one date. No brand preference can be established as no brand information was provided for the product.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T11:47:32",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

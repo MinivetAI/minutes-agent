@@ -1,22 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-01-26 in the evening on a weekday. The basket contains three items: two units of a product in the Fruits category, one unit of Curd Yogurt, and one additional unit of a product in the Fruits category. The order-building behavior shows a combination of fresh produce and dairy. The `shopping_need_text` compatible with this basket is a need for fresh fruit and dairy products.",
+  "basket_summary_text": "A single order placed in the evening on a weekday contains Fruits (2 units) and Curd Yogurt (1 unit). The basket reflects a simple combination of fresh produce and dairy, compatible with a need for immediate meal ingredients or light refreshments. No other categories were purchased in this window.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Fruits",
-        "Curd Yogurt"
-      ],
-      "combination_text": "Fruits and Curd Yogurt were purchased together in this order.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Need for fresh fruit and dairy products.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "Immediate consumption or meal preparation involving fresh fruit and dairy.",
+  "uncertainty_text": "This description is based on a single order on one date. It represents an isolated observation and does not indicate a durable preference, routine, or stable pattern. Confidence in any inferred behavior is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-26"
+    ],
+    "first_seen_at": "2026-01-26T19:26:36",
+    "last_seen_at": "2026-01-26T19:26:36"
+  }
 }

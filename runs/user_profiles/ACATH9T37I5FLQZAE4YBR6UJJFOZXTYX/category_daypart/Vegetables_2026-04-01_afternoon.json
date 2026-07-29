@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one fresh cauliflower head, two local cucumbers, and a small pack of onions during the afternoon on a weekday.",
+  "summary_text": "One order of unbranded fresh vegetables (cauliflower, cucumber, onion) placed on a weekday afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order was placed in the afternoon, a period where this user's activity is below the population baseline (25.26% share). The items are immediate kitchen staples for fresh meal preparation, suggesting a same-day cooking need or a quick top-up of fresh produce.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the afternoon on a weekday. This timing aligns with the population baseline where afternoon shares 25.26% of activity, slightly less than the morning (32.46%) and evening (30.27%) peaks. The products are immediate kitchen staples typically used for same-day meal preparation, such as side dishes, salads, or cooking bases.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific vegetables, a preference for unbranded produce, or a habitual afternoon shopping pattern. No brand or product preferences can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-01"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-01T12:08:51"
+  }
 }

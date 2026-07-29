@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one unit of Mother Dairy Toned Milk 500 ml on a weekday afternoon. This timing aligns with the population baseline where the afternoon accounts for 25.26% of category activity. The product is a small-pack, short-shelf-life dairy staple suitable for immediate household consumption. As this is a single observation, stable brand or product preferences cannot be established.",
+  "summary_text": "On 2026-07-09 (weekday), the user ordered Mother Dairy Toned Milk 500 ml in the afternoon. This timing is less common than the population baseline morning share (0.3246) but aligns with the population afternoon share (0.2526). The product is a small-pack, short-shelf-life dairy staple suitable for immediate consumption.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established yet.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

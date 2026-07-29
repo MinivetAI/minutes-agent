@@ -1,7 +1,7 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-04-27 in the morning on a weekday. The basket contains three items: two units of a vegetable product (VEGG8E6EKRGGZGHH), one unit of a different vegetable product (VEGG6FK9GFUZ3J8E), and one unit of a product from the Dips Sauces Pastes category (SAKEUB52E9RV7H9B). The order exhibits narrow basket breadth, consisting entirely of vegetables and a dip/sauce. This combination is compatible with a need for meal preparation components, such as a vegetable-based dish with a condiment. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-04-27 in the morning on a weekday. The basket contains three items: two units of a vegetable product (VEGG8E6EKRGGZGHH), one unit of a second vegetable product (VEGG6FK9GFUZ3J8E), and one unit of a product from the Dips Sauces Pastes category (SAKEUB52E9RV7H9B). The order exhibits narrow basket breadth, consisting entirely of vegetables and a dip/sauce. This combination is compatible with a need for meal preparation ingredients, such as vegetables with a condiment. No other categories were purchased in this window.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -9,14 +9,23 @@
         "Vegetables",
         "Dips Sauces Pastes"
       ],
-      "combination_text": "Vegetables and Dips Sauces Pastes were purchased together in this single order.",
+      "combination_text": "Vegetables and Dips Sauces Pastes were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
   "shopping_need_text": "The user may have a need for fresh produce and accompanying condiments for a meal.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. The category pair evidence provided (e.g., Milk/Vegetables) reflects population-level co-occurrence statistics and does not indicate that these specific categories were purchased in this specific order.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This description is based on a single order on one date. Stable preferences or routine behaviors cannot be inferred from this isolated observation. Confidence is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-27"
+    ],
+    "first_seen_at": "2026-04-27T08:10:36",
+    "last_seen_at": "2026-04-27T08:10:36"
+  }
 }

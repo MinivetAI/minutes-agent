@@ -1,24 +1,19 @@
 {
   "date": "2026-05-28",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-28, a single order was placed in the evening. The basket contained one unit each of Toilet Cleaner, Aerated Drinks, and Paneer Tofu. This narrow basket spans three distinct categories: cleaning supplies, beverages, and dairy alternatives. The combination of household maintenance items with food and drink suggests a compatible need for general household replenishment and refreshment, but no specific meal or event intent is proven. As this is a single observed order, it represents an observation rather than a durable preference pattern.",
+  "summary_text": "On this weekday, a single order was placed during the evening. The basket contained one unit each of a toilet cleaner, aerated drinks, and paneer tofu, spanning household cleaning, beverages, and dairy alternatives. This transaction reflects a mix of household maintenance and potential evening refreshment or light meal components. As this is the only observed order on this date, it represents an isolated transaction; stable preferences or routines cannot be inferred from this single data point.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [
-    {
-      "categories": [
-        "Toilet Cleaner",
-        "Aerated Drinks",
-        "Paneer Tofu"
-      ],
-      "combination_text": "Toilet Cleaner, Aerated Drinks, and Paneer Tofu were purchased together in a single order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for household cleaning supplies, beverages, and dairy alternatives.",
-  "uncertainty_text": "This analysis is based on a single order from one date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this isolated event. Claims about user preference or routine are not supported by the evidence.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [],
+  "shopping_need_text": "The purchase of aerated drinks and paneer tofu may be compatible with a need for evening refreshment or a light meal component, while the toilet cleaner suggests a household maintenance need. This is a single observation and does not indicate a durable preference or routine.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Stable patterns, preferences, or routine behaviors cannot be inferred from this data. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-28"
+    ],
+    "first_seen_at": "2026-05-28T19:07:27",
+    "last_seen_at": "2026-05-28T19:07:27"
+  }
 }

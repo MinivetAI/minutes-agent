@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 400 g pouch of Quaker plain wholegrain oats.",
+  "summary_text": "One order of Quaker Oats Pouch 400 g (plain wholegrain oats) placed on a weekend afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Bought during the afternoon on a weekend, a time with lower population share (0.2526) compared to the morning baseline (0.3246). The product is a basic pantry staple for hot breakfasts or cooking.",
-  "uncertainty_text": "Single observation; cannot establish stable preference or routine.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend afternoon, a time when the user's activity is less frequent than the population baseline for mornings (0.3246) and evenings (0.3027), but comparable to the afternoon baseline (0.2526). The product is a staple breakfast ingredient, suggesting a need for pantry replenishment or meal preparation rather than an immediate morning consumption event.",
+  "uncertainty_text": "It is not possible to determine if this is a one-time purchase or part of a recurring routine, as there is only one observed order. No brand preference or specific product variant preference can be established from this single data point.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-26"
+    ],
+    "first_seen_at": "2026-04-26T12:58:42",
+    "last_seen_at": "2026-04-26T12:58:42"
+  }
 }

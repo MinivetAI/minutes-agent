@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "summary_text": "Purchased one 415 g bottle of Kissan Sweet & Spicy Sauce, a tomato-based condiment typically used for dipping snacks or adding flavor to meals.",
+  "summary_text": "One order of Kissan Sweet & Spicy Sauce 415 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon on a weekday, a time when population share (25.26%) is lower than the morning (32.46%) and evening (30.27%) peaks. The product serves an immediate utility for quick meal accompaniments or snacking.",
-  "uncertainty_text": "This is a single observed transaction; it is not yet established whether this brand or product type represents a stable preference or a one-time need.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday afternoon. This timing is less common than the population baseline for this category, which shows a higher share of morning (0.3246) and evening (0.3027) purchases. The product is a ready-to-use condiment typically used for immediate flavor enhancement of snacks or meals.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable brand preference, a routine purchase, or an isolated need. No other products or brands were observed in this window to establish broader category habits.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-05"
+    ],
+    "first_seen_at": "2026-02-05T12:54:45",
+    "last_seen_at": "2026-02-05T12:54:45"
+  }
 }

@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased 1 unit of Mother Dairy Mishti Doi 400 g, a sweet flavored curd dessert.",
+  "summary_text": "One order of Mother Dairy Mishti Doi 400 g.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday, a time when this user's activity is 32.46% of their total (population baseline). The product is a ready-to-eat chilled dessert item.",
-  "uncertainty_text": "This is a single observed order; durable preferences or routine buying patterns cannot be established from this date alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a ready-to-eat sweet curd dessert, typically used for an immediate sweet craving or as a chilled treat.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or morning timing.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-26"
+    ],
+    "first_seen_at": "2026-06-26T06:49:22",
+    "last_seen_at": "2026-06-26T06:49:22"
+  }
 }

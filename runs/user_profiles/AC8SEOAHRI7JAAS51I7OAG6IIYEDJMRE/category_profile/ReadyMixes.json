@@ -1,55 +1,27 @@
 {
-  "category": "Ready Mixes",
-  "profile_text": "The user demonstrates a recurring, medium-cadence purchasing pattern for ready-to-cook mixes, primarily for breakfast and dessert applications. Evidence spans four independent dates across February, March, and April 2026, indicating a stable habit rather than isolated trials. The user engages with multiple brands (The Select Aisle, iD Fresh, Khetika, Vaidyam) and product types (custard powder, pancake batter, chilla batter, idly/dosa batter), suggesting a preference for variety or specific meal needs rather than loyalty to a single brand. Purchases occur across different dayparts (morning, afternoon, evening) and days (weekday, weekend), reflecting flexible timing driven by immediate meal preparation needs.",
-  "brand_preferences": [
-    {
-      "brand": "The Select Aisle",
-      "preference_text": "Purchased once on 2026-02-27. Single observation; no stable preference established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "iD Fresh",
-      "preference_text": "Purchased once on a weekend afternoon in March 2026. Single observation; no stable preference established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Khetika",
-      "preference_text": "Purchased once on a weekday morning in March 2026. Single observation; no stable preference established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    },
-    {
-      "brand": "Vaidyam",
-      "preference_text": "Purchased once on 2026-04-08. Single observation; no stable preference established.",
-      "confidence": "low",
-      "evidence_count": 1,
-      "independent_date_count": 1
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": {
-    "cadence_days": 13.0,
-    "cadence_class": "medium",
-    "last_purchase_date": "2026-04-08",
-    "predicted_next_purchase_date": "2026-04-21",
-    "replenishment_text": "The user typically purchases Ready Mixes every 13 days, with the next purchase estimated around 2026-04-21.",
-    "confidence": "medium",
-    "evidence_count": 4,
-    "independent_date_count": 4
+  "category_name": "Ready Mixes",
+  "summary_text": "The user has purchased ready mixes on four independent dates across February, March, and April 2026. Orders include The Select Aisle Natural Vanilla Custard Powder, iD Fresh Classic Pancake Batter, Khetika Sprouted Moong Chilla Batter, and Vaidyam Ragi Idly Dosa Batter. Each brand and product appeared only once, preventing the establishment of stable brand or product preferences. Ordering timing spans weekday evenings, weekday mornings, and weekend afternoons, with no single daypart pattern confirmed due to lack of repetition.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in Ready Mixes reliably converts to purchase, as evidenced by four completed transactions across independent dates.",
-  "substitution_text": null,
-  "price_value_text": "No specific price or value behavior observed; purchases span various pack sizes (100 g to 1 kg) and brands.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Supports quick breakfast preparation (pancakes, chilla, idly/dosa) and dessert making (custard), prioritizing convenience and speed over from-scratch cooking.",
-  "overall_confidence": "medium"
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns are established. The user has tried distinct product types (custard, pancake, chilla, idly/dosa) on separate occasions, but no evidence suggests one is a substitute for another or that specific brands are interchangeable.",
+  "uncertainty_text": "It is unknown whether the user has a stable preference for any specific brand, product type, or daypart. The current evidence consists of four isolated transactions across different product sub-categories (dessert mixes vs. breakfast batters), making it unclear if this represents a broad category interest or sporadic, need-based purchasing. No routine or recurring habit can be confirmed.",
+  "retrieval_text": "User purchased ready mixes on four independent dates in early 2026: The Select Aisle Natural Vanilla Custard Powder (Feb, weekday evening), iD Fresh Classic Pancake Batter (Mar, weekend afternoon), Khetika Sprouted Moong Chilla Batter (Mar, weekday morning), and Vaidyam Ragi Idly Dosa Batter 500g (Apr, weekday morning). No brand or product was repeated; dayparts varied (evening, afternoon, morning) and days varied (weekday, weekend). No stable preference or routine is established.",
+  "replenishment": {
+    "cadence_days": 13,
+    "cadence_class": "medium",
+    "predicted_next_purchase_date": "2026-04-21",
+    "replenishment_text": "ReadyMixes is reordered roughly every 13 days."
+  },
+  "evidence": {
+    "evidence_count": 4,
+    "independent_date_count": 4,
+    "first_seen_at": "2026-02-27T20:43:10",
+    "last_seen_at": "2026-04-08T10:48:37"
+  }
 }

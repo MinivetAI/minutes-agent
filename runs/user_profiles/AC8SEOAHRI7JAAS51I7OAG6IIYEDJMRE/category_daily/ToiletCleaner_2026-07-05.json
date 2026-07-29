@@ -1,9 +1,23 @@
 {
   "date": "2026-07-05",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-05 (weekend), the user purchased one 2 x 1 L pack of Flipkart Supermart Toilet Cleaner Lavender Liquid in the afternoon. This single order indicates a concrete need for bathroom hygiene maintenance or immediate replacement at that time. The afternoon timing aligns with a period where population share is lower than morning or evening peaks. Due to the single observation, durable brand or scent preferences and recurring maintenance routines cannot be established.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-07-05 (weekend), the user ordered Flipkart Supermart Toilet Cleaner Lavender Liquid (2 x 1 L pack) in the afternoon. This single observation aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less frequent than morning (0.3246) or evening (0.3027). The purchase of a twin-pack liquid cleaner suggests a need for immediate bathroom hygiene maintenance or a value-oriented refill. This is a single observation on one date, so it is not yet possible to establish a stable brand preference, regular cadence, or specific usage occasion beyond the immediate need for toilet cleaning supplies.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Flipkart Supermart Toilet Cleaner Lavender Liquid (2 x 1 L pack) placed on a weekend afternoon. The order was placed in the afternoon, which aligns with the population baseline where afternoon (0.2526) is a common shopping window, though slightly less frequent than morning (0.3246) or evening (0.3027). The purchase of a twin-pack liquid cleaner suggests a need for immediate bathroom hygiene maintenance or a value-oriented refill.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "Cannot establish durable brand or scent preferences from a single order. Cannot determine if this was a one-time replacement or part of a recurring maintenance routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date, so it is not yet possible to establish a stable brand preference, regular cadence, or specific usage occasion beyond the immediate need for toilet cleaning supplies.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-05"
+    ],
+    "first_seen_at": "2026-07-05T11:24:33",
+    "last_seen_at": "2026-07-05T11:24:33"
+  }
 }

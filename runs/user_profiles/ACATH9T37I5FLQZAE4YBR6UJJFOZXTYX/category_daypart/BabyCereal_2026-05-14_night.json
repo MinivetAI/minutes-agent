@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "One order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) was placed during the night on a weekday. No browsing, search, or cart activity was recorded for this category in this window.",
+  "summary_text": "One order of Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) placed on a weekday night.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred at night on a weekday, a time when this category represents 12.02% of population activity (lower than morning, afternoon, or evening shares). The product is a nutrient-fortified complementary infant cereal intended for babies 6+ months, serving as a ready-to-use feeding option.",
-  "uncertainty_text": "This is a single observed transaction on one date; it does not establish a stable preference, routine, or brand loyalty. The timing (night) may reflect immediate feeding needs or convenience rather than a habitual shopping pattern.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred at night on a weekday, a timing that is less common than morning, afternoon, or evening based on the population baseline (night share 0.1202 vs. morning 0.3246). The product is a nutrient-fortified complementary infant cereal intended for babies 6+ months, serving as a ready-to-use feeding option.",
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, routine, or recurring need. The specific reason for the night-time purchase (e.g., urgent need, travel, or convenience) cannot be determined from order history alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-14"
+    ],
+    "first_seen_at": "2026-05-14T22:06:00",
+    "last_seen_at": "2026-05-14T22:06:00"
+  }
 }

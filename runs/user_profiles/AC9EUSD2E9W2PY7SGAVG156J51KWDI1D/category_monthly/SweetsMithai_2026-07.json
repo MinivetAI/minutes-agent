@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased one 200 g box of Amul Kaju Katri during the morning on a weekend. This single transaction occurred on 2026-07-19. The morning purchase timing is above the population baseline (0.3246). The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting.",
+  "summary_text": "In July 2026, the user purchased one unit of Amul Kaju Katri Box 200 g on a single weekend date (2026-07-19). This purchase occurred in the morning, aligning with the population baseline where morning accounts for 32.46% of activity. As this is a single observation, no stable brand or product preference can be established, and it is unclear if this was for a specific occasion, a routine treat, or a one-time need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed transaction; no browsing history or repeat purchases are available to establish stable preferences or specific intent beyond the purchase itself.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for a specific occasion, a routine treat, or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T09:35:43",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

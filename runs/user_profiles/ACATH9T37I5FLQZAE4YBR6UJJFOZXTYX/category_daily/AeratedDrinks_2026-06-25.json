@@ -1,15 +1,17 @@
 {
   "date": "2026-06-25",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-25 (weekday), one order of Aerated Drinks was placed in the morning. The order consisted of one unit of Sprite PET Bottle 750 ml. This purchase occurred during the morning daypart, which has a 32.5% population share. This is a single observation; stable brand or product preferences cannot be established from this date alone.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "One order of Sprite PET Bottle 750 ml (1 unit) placed in the morning. Purchased during the morning (32.5% population share), a time often associated with starting the day or mid-morning refreshment. Single observation; cannot establish stable brand or product preferences.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-06-25 (weekday), the user ordered one unit of Sprite PET Bottle 750 ml in the morning. This single observation aligns with the population baseline for morning activity (share 0.3246). The product is a carbonated soft drink suitable for immediate refreshment. No stable brand or product preference can be established from this isolated order.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "Single observation; cannot establish stable brand or product preferences.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was driven by immediate thirst, a specific meal pairing, or general stock replenishment.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-25"
+    ],
+    "first_seen_at": "2026-06-25T08:44:56",
+    "last_seen_at": "2026-06-25T08:44:56"
+  }
 }

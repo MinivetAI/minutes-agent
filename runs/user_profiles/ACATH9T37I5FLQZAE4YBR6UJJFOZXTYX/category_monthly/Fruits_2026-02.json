@@ -1,9 +1,17 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased fresh, perishable fruits (unbranded tender coconut and unbranded fresh Mahabaleshwar strawberries) on a single observed date (2026-02-24). Due to the lack of repetition across independent dates, no stable preferences or habitual patterns can be established for this category.",
+  "summary_text": "On 2026-02-24 (weekday), the user purchased fresh, perishable fruits in the afternoon. The order included one unit of Tender Coconut and one pack (180 g) of Fresh Mahabaleshwar Strawberries. This timing aligns with the population afternoon share (0.2526), though it is less common than morning (0.3246) or evening (0.3027) baselines. The products are typically associated with immediate hydration, snacking, or light dessert preparation. As this is a single observation on one date, it does not establish a stable preference or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Durable preferences, habitual buying patterns, or specific use cases cannot be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific fruits, a one-time impulse purchase, or part of a recurring routine. No brand or product repetition has been observed to support durable preference claims.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-24T13:47:33",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

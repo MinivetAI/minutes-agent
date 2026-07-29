@@ -1,9 +1,17 @@
 {
   "month": "2026-01",
-  "summary_text": "In January 2026, the user placed one order for Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) on a weekday morning. This timing aligns with the category's higher population activity share of 32.46% in the morning on weekdays. The product is an instant pasta designed for quick preparation (approx. 5 minutes), suggesting a need for a convenient, low-effort meal or snack. No browsing or cart activity was recorded for this category in this window.",
+  "summary_text": "In January 2026, the user ordered Maggi Pazzta Cheesy Tomato Twist Instant Pasta (68.5 g) on one weekday morning. This single observation suggests a need for a convenient, quick-preparation meal. No other pasta orders are recorded for this month to establish a stable preference or routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine. The specific reason for choosing this item over other pasta options is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This assessment is based on a single order on 2026-01-23. It is not yet established whether this represents a stable preference for this brand, product, or daypart. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T10:14:03",
+    "last_seen_at": "2026-01-23T10:14:03"
+  }
 }

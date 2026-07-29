@@ -1,92 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-17 in the evening on a weekday consisted exclusively of Vegetables (6 distinct items, total quantity 7). No other categories were purchased in this transaction. The basket breadth is narrow, containing only one category. This single observation does not establish a durable preference or routine.",
+  "basket_summary_text": "A single order placed on 2026-03-17 in the evening on a weekday consisted entirely of Vegetables (6 distinct items, total quantity 7). No other categories were present in this specific order. The basket is narrow in breadth, focusing exclusively on one category.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "DipsSaucesPastes",
-        "Vegetables"
-      ],
-      "combination_text": "DipsSaucesPastes and Vegetables",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "SpicesMasala"
-      ],
-      "combination_text": "SavouriesNamkeens and SpicesMasala",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Fruits"
-      ],
-      "combination_text": "CurdYogurt and Fruits",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "IceCreams",
-        "Vegetables"
-      ],
-      "combination_text": "IceCreams and Vegetables",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "DipsSaucesPastes"
-      ],
-      "combination_text": "Breads and DipsSaucesPastes",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "medium"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for fresh vegetables for meal preparation.",
-  "uncertainty_text": "This analysis is based on a single order on one date. Patterns are not stable.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The order suggests a need for fresh vegetable ingredients, potentially for meal preparation.",
+  "uncertainty_text": "This is a single observation from one date. No durable preference or routine can be established from this window alone. Category pair evidence provided in the input refers to broader population or historical patterns and does not reflect the composition of this specific single order, which contained only Vegetables.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-17"
+    ],
+    "first_seen_at": "2026-03-17T18:13:48",
+    "last_seen_at": "2026-03-17T18:13:48"
+  }
 }

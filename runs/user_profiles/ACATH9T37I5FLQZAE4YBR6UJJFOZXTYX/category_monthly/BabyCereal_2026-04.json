@@ -1,11 +1,19 @@
 {
   "month": "2026-04",
-  "summary_text": "In April 2026, the user purchased Nestlé Cerelac Wheat Apple Carrot Baby Food Cereal (300 g) on two independent dates: 2026-04-07 (evening) and 2026-04-20 (afternoon). Both purchases occurred on weekdays. The recurrence of this specific product across two independent dates establishes a stable preference for this item, with medium confidence. No other products, brands, or variants were observed in this category during this month. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "On 2026-04-07 (weekday evening) and 2026-04-20 (weekday afternoon), the user ordered Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g). The product is a nutrient-fortified complementary infant cereal intended for babies 6+ months. The user ordered this specific brand and variant on two independent dates within the month. The timing spans both evening and afternoon on weekdays, aligning with general population daypart shares (evening 0.3027, afternoon 0.2526).",
   "stable_preference_claims": [
     {
+      "dimension": "brand",
+      "value": "Nestlé",
+      "claim_text": "The user ordered Nestlé products on 2 independent dates (2026-04-07, 2026-04-20).",
+      "confidence": "medium",
+      "evidence_count": 2,
+      "independent_date_count": 2
+    },
+    {
       "dimension": "product",
-      "value": "Nestlé Cerelac Wheat Apple Carrot Baby Food Cereal (300 g)",
-      "claim_text": "The user has a stable preference for Nestlé Cerelac Wheat Apple Carrot Baby Food Cereal (300 g), evidenced by purchases on 2026-04-07 and 2026-04-20.",
+      "value": "Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g)",
+      "claim_text": "The user ordered Nestlé CERELAC Wheat Apple Carrot Baby Food Cereal (300 g) on 2 independent dates (2026-04-07, 2026-04-20).",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if these were planned restocks or immediate needs. The preference is limited to a single product variant.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on only two independent dates in April 2026. While the brand and product show a stable preference pattern across these dates, the limited sample size prevents high-confidence assertions about long-term routine or exclusive brand loyalty. The daypart pattern (evening and afternoon) is observed but not yet established as a strict routine due to the small number of observations.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-04-07",
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

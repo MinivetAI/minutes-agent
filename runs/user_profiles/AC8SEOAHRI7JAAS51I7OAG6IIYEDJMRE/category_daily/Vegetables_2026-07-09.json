@@ -1,15 +1,23 @@
 {
   "date": "2026-07-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-07-09 (weekday), a single order of Parwal (250 g), an unbranded fresh pointed gourd, was purchased in the afternoon. This timing aligns with a population daypart share of 0.2526, which is lower than morning (0.3246) and evening (0.3027). The product is a fresh, perishable vegetable suitable for immediate meal preparation. This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific transaction.",
+  "summary_text": "On 2026-07-09 (weekday), the user ordered one unit of Parwal (250 g) in the afternoon. This timing aligns with the population baseline, where afternoon accounts for 25.26% of activity, slightly below the morning peak (32.46%) and evening share (30.27%). The product is a fresh, unbranded vegetable suitable for immediate cooking. This is a single observation on one date; it is not yet established whether this represents a stable preference for parwal or a one-time need.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One order of Parwal (250 g) was purchased in the afternoon.",
+      "pattern_text": "One order of Parwal (250 g) on 2026-07-09. This timing aligns with the population baseline where afternoon shares 25.26% of activity, slightly below the morning peak (32.46%) and evening share (30.27%).",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; no browsing history or repeat purchases are available to establish stable preferences or intent beyond this specific transaction.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for parwal, a specific brand (none was supplied), or a one-time need for this ingredient.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-09"
+    ],
+    "first_seen_at": "2026-07-09T15:10:06",
+    "last_seen_at": "2026-07-09T15:10:06"
+  }
 }

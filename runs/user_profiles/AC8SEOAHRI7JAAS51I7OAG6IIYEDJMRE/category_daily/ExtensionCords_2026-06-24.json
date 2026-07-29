@@ -1,9 +1,17 @@
 {
   "date": "2026-06-24",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-24 (weekday), the user purchased one Portronics Power Plate 11 4-Socket Extension Board (1500W, 2m cable) in the afternoon. This product serves as a power-conversion and device-protection accessory to expand outlet capacity for electronics or appliances. The purchase occurred during the afternoon, a daypart with a lower population share (0.2526) compared to morning (0.3246) and evening (0.3027). No browsing or search history is available to determine if this was a planned purchase or an immediate need. No repeated activity is observed to establish brand or product type preference.",
+  "summary_text": "On this weekday, the user purchased one Portronics Power Plate 11 4-Socket Extension Board during the afternoon. This timing aligns with the population afternoon share (0.2526), though it is less common than morning (0.3246) and evening (0.3027) baselines. The product serves as a power-conversion and device-protection accessory, typically used to expand outlet availability for electronics or appliances. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time need. No other extension cord purchases are recorded in this window to confirm brand loyalty or category frequency.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or search history is available to determine if this was a planned purchase or an immediate need. No repeated activity is observed to establish brand or product type preference.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time need. No other extension cord purchases are recorded in this window to confirm brand loyalty or category frequency.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-24"
+    ],
+    "first_seen_at": "2026-06-24T13:23:16",
+    "last_seen_at": "2026-06-24T13:23:16"
+  }
 }

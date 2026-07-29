@@ -1,34 +1,34 @@
 {
-  "category": "Rusks",
-  "profile_text": "The user has purchased Britannia Toastea Premium Elaichi Rusk (668 g) on two independent dates (March and April 2026), both occurring on weekend mornings. This repetition establishes a stable brand preference for Britannia, though the specific flavor/variant preference is based on a single product type observed twice. No cadence or routine is established due to unknown timing intervals. The user shows no evidence of browsing or cart activity, indicating direct purchase intent when the need arises.",
-  "brand_preferences": [
-    {
-      "brand": "Britannia",
-      "preference_text": "The user has purchased Britannia rusks on two independent dates (March and April 2026), establishing a stable brand preference.",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Rusks",
+  "summary_text": "The user has purchased Britannia Toastea Premium Elaichi Rusk (668 g) on two separate dates in March and April 2026, both occurring on weekend mornings. While the brand and product are consistent, the low frequency (one order per month) and single-observation nature per month prevent establishing a high-confidence routine or stable preference beyond the specific item observed.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Britannia",
+        "preference_text": "The user has purchased Britannia rusks on two independent dates (March and April 2026).",
+        "confidence": "medium",
+        "boundary_text": "This preference is limited to the specific Toastea Premium Elaichi variant and 668 g pack size observed; it does not extend to other Britannia rusk flavors or pack sizes."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No evidence of acceptable or unacceptable substitutions is present. The user has only purchased one specific product variant.",
+  "uncertainty_text": "It is unclear if the user intends to continue purchasing this specific brand and variant regularly, or if these were isolated purchases. The pattern is limited to weekend mornings; it is unknown if the user purchases rusks on weekdays or during other dayparts. No other brands or variants have been observed to determine brand loyalty or substitution tolerance.",
+  "retrieval_text": "User purchased Britannia Toastea Premium Elaichi Rusk (668 g) on two independent dates in March and April 2026, both on weekend mornings. This establishes a medium-confidence preference for the Britannia brand and this specific elaichi-flavored variant in the 668 g pack size, but the low frequency prevents confirming a stable routine or broader brand loyalty across other rusk types.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-04-18",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "Last purchased on 2026-04-18. Cadence is unknown; no predicted next purchase date can be estimated.",
-    "confidence": "low",
-    "evidence_count": 2,
-    "independent_date_count": 2
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Rusks yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably becomes a purchase; no browsing or cart activity was recorded to indicate hesitation or comparison.",
-  "substitution_text": "No substitution behavior observed; the user consistently purchased the same specific product variant.",
-  "price_value_text": "No price or value behavior observed beyond the purchase of a standard 668 g pack.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has completed purchases on two separate occasions.",
-  "mission_generation_text": "The user purchases rusks as a quick, ready-to-eat snack for tea or coffee, typically on weekend mornings.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 2,
+    "independent_date_count": 2,
+    "first_seen_at": "2026-03-28T09:52:49",
+    "last_seen_at": "2026-04-18T07:53:45"
+  }
 }

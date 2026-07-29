@@ -1,131 +1,26 @@
 {
-  "profile_text": "The user maintains a high-frequency, fast-cadence need for fresh, unbranded vegetables, driven by recurring meal preparation requirements. Stable preferences are established for staple cooking bases (onions, tomatoes, cucumbers) and specific aromatics/produce (cauliflower, bottle gourd, bitter gourd, pumpkin, ginger, potatoes), with onions and tomatoes showing the strongest repetition across multiple months. The user also demonstrates a stable preference for the ready-to-eat snack 'Chilli Bajji (250 g)'. Shopping timing has evolved from consistent afternoon purchases in early months to a mix of morning and evening slots, with recent July purchases occurring in the evening. All vegetable purchases are unbranded, indicating a preference for generic fresh produce over specific brands. Secondary needs include slow-cadence replenishment for ice cream (tubs and sticks from various brands like Frubon, Amul, Vadilal) and milk (Amul Taaza, 500ml/1L packs), both purchased in the evening or night. The user exhibits sporadic, low-confidence interest in other categories including fruits (stable preference for Sapota/chikoo), savouries (exploring brands like Bingo, Haldiram's), dips/sauces, breads, sweets, cookies, and personal care items (hair removal, toner), as well as isolated needs for car maintenance (air freshener) and festive items (Holi color). Basket structure is typically narrow, often single-category (Vegetables) or small multi-category combinations (Vegetables + Milk + Breads).",
-  "category_preference_text": "Vegetables: High-frequency, fast cadence (~6 days). Stable preferences for unbranded onions, tomatoes, cucumbers, cauliflower, bottle gourd, bitter gourd, pumpkin, ginger, potatoes, and Chilli Bajji (250g). Timing shifted from afternoon to morning/evening. Ice Creams: Slow cadence (~58 days). No stable brand/product preference; purchases include Frubon tubs and Amul/Vadilal sticks in evening/night. Milk: Slow cadence (~52 days). Stable preference for Amul Taaza Pasteurised Toned Milk (500ml/1L). Fruits: Stable preference for Sapota (chikoo) on two dates. Savouries Namkeens: Slow cadence (~49 days). No stable brand preference; explores Bingo, Bhujialalji, Haldiram's. Dips Sauces Pastes: No recurring cadence; isolated purchases of Kissan, Tops. Breads: No recurring cadence; isolated purchases of Britannia, English Oven. Sweets Mithai: No recurring cadence; isolated purchases. Cookies Biscuits: Single observation (Karachi Bakery, Britannia, Sunfeast). Holi Color: Single observation (Cock). Spices Masala: Single observation (EVEREST Saffron). Curd Yogurt: Single observation (Saras). Hair Removal: Single observation (Veet). Car Air Freshener: Single observation (Godrej Aer). Pasta: Single observation (Flipkart Supermart Fusilli/Penne). Sunflower Oil: Single observation (Fortune). Toner: Single observation (Dabur).",
-  "coverage_text": "This profile covers all 17 of the user's categories.",
-  "basket_context_text": "The user’s basket is typically narrow, often consisting of a single category (Vegetables) or small multi-category combinations (e.g., Vegetables + Milk + Breads). No stable, recurring multi-category basket structure has been identified. Secondary needs are sporadic and context-dependent.",
-  "replenishment_summary_text": "Vegetables have a fast cadence (6.0 days). Ice Creams, Milk, and Savouries Namkeens have slow cadences (58.0, 52.0, and 49.0 days, respectively). Dips Sauces Pastes, Breads, Sweets Mithai, Cookies Biscuits, Holi Color, Spices Masala, Curd Yogurt, Hair Removal, Car Air Freshener, Pasta, Sunflower Oil, and Toner have unknown cadence classes.",
-  "structured_signals": [
+  "summary_text": "This shopper is a focused, low-volume grocery buyer with a strong, stable reliance on fresh vegetables as a primary staple, while treating all other categories as sporadic, exploratory, or single-need purchases. The profile is defined by a 'vegetables-first' behavior where produce is often bought alone, punctuated by isolated transactions in dairy, snacks, and household items without forming consistent cross-category routines. Brand loyalty is generally low across the board, with the notable exception of Amul in milk, which shows medium-confidence recurrence. The user exhibits a small-basket, low-quantity tendency, prioritizing immediate consumption and meal prep over bulk stocking or brand exclusivity.",
+  "daypart_understanding": [],
+  "basket_understanding": [
     {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Vegetables",
-      "confidence": "high",
-      "source": "category_profile",
-      "rationale_text": "The user purchases vegetables approximately every 6 days, classified as a fast cadence, with 17 independent dates of evidence."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Ice Creams",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user typically purchases ice cream every 58 days, classifying this as a slow replenishment cycle, based on 3 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Milk",
-      "confidence": "medium",
-      "source": "category_profile",
-      "rationale_text": "The user purchases milk approximately every 52 days, classified as a slow replenishment cycle, based on 3 independent dates."
-    },
-    {
-      "signal_type": "replenishment_cadence",
-      "category_or_mission": "Savouries Namkeens",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user typically repurchases this category every 49 days, with the next purchase estimated around 2026-06-19, based on 3 independent dates."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Dips Sauces Pastes",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "The user has made two isolated purchases for different brands (Kissan, Tops) with no evidence of a stable brand preference or recurring routine, indicating exploration or immediate, ad-hoc needs."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Breads",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Evidence is limited to two isolated purchases with no established routine or stable preference, suggesting the user is exploring options rather than adhering to a specific brand loyalty."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Sweets Mithai",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "Two distinct purchases across two independent dates with no repeated brand or product loyalty observed, indicating shopping needs driven by specific, non-recurring occasions."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Cookies Biscuits",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase included multiple brands (Karachi Bakery, Britannia, Sunfeast), indicating no stable brand or product preferences are established."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Holi Color",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of festive color powders does not establish a durable brand preference or recurring shopping pattern."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Spices Masala",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observation of EVEREST Saffron does not establish a stable preference for the brand or saffron specifically, nor does it indicate a recurring routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Curd Yogurt",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single order of Saras Plain Curd on a single date does not establish a stable brand or product preference."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Hair Removal",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single order of Veet Pure Hair Removal Cream does not establish a durable brand preference or routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Car Air Freshener",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single purchase of Godrej Aer Twist Cool Surf Blue does not establish a stable preference or recurring routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Pasta",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single order of Flipkart Supermart Fusilli and Penne does not establish a durable brand preference or a specific shape preference."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Sunflower Oil",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single order of Fortune Sunlite Refined Sunflower Oil does not establish a durable brand preference or routine."
-    },
-    {
-      "signal_type": "discovery_candidate",
-      "category_or_mission": "Toner",
-      "confidence": "low",
-      "source": "category_profile",
-      "rationale_text": "A single observed purchase of Dabur Premium Rose Skin Women toner does not establish a stable preference for the brand or rose-based toners specifically."
-    },
-    {
-      "signal_type": "cross_category_pattern",
-      "category_or_mission": "Vegetables, Milk, Breads",
-      "confidence": "low",
-      "source": "category_profile+basket_profile",
-      "rationale_text": "The user occasionally builds a small multi-category basket for fresh meal components, such as combining Vegetables with Breads and Milk, as seen in a July order, though no stable, recurring multi-category basket structure has been identified."
+      "relationship_text": "Vegetables are the user's most consistent purchase, appearing on 10 independent dates across four months. While often bought alone, they have occasionally been paired with Breads, Milk, Dips Sauces Pastes, or Savouries Namkeens on single dates.",
+      "recommendation_use_text": "Replenishment of fresh produce for meal preparation.",
+      "confidence": "high"
     }
   ],
-  "mission_generation_text": "Recurring need for fresh, perishable ingredients for daily meal preparation, including base vegetables (onions, tomatoes, potatoes), aromatics (ginger, coriander), and specific seasonal produce (bottle gourd, bitter gourd, pumpkin). Occasional interest in ready-to-eat snacks (Chilli Bajji). Secondary needs include routine household replenishment for immediate kitchen use (milk for tea/coffee/breakfast) and personal enjoyment (ice cream). Sporadic needs for household maintenance (car air freshener), personal care (hair removal, toner), and festive items (Holi color).",
-  "uncertainty_text": "While the purchase of Vegetables is a stable, high-confidence pattern, no other category or product combination has been observed repeatedly enough to establish a durable preference or routine. Specific product choices, brands, and basket compositions vary significantly between orders. Daypart and day-type patterns are inconsistent and do not form a stable routine. Confidence in any behavior other than vegetable purchasing is low due to the lack of repetition across independent dates.",
-  "overall_confidence": "medium"
+  "shopping_style": {
+    "frequency_segment": "occasional",
+    "basket_size_segment": null,
+    "brand_loyalty_level": null,
+    "substitution_tolerance_level": null,
+    "large_basket_tendency": null,
+    "multi_quantity_tendency": null,
+    "deal_seeking": null,
+    "price_sensitivity": null
+  },
+  "uncertainty_text": "Confidence is low for all categories except Vegetables, where high-confidence evidence exists. It is unknown if the user has stable preferences for any category other than Vegetables. Cross-category shopping habits (e.g., whether Vegetables are consistently paired with Breads or Milk) are not established. Daypart and day-type preferences are inconsistent and cannot be generalized. The user's need for non-food items (Car Air Freshener, personal care) is sporadic and not linked to a broader routine.",
+  "retrieval_text": "The user demonstrates a high-confidence, stable pattern of purchasing Vegetables across multiple months (Feb, Apr, May, Jul), often as the sole item in the basket, with 10 independent dates of evidence. This core behavior is punctuated by sporadic, single-date purchases of other categories including Breads, Milk, Savouries, Sweets, Ice Creams, and non-food items like Car Air Fresheners and personal care products. No cross-category routines or consistent daypart preferences have been established due to the lack of repetition in combinations and timing. The user demonstrates a clear preference for fresh produce (Vegetables) as a staple item. There is no evidence of premium or bulk buying behavior; purchases are typically single-unit or small-quantity line items for immediate consumption or meal prep. Occasional purchases of snacks (Savouries, Sweets, Ice Creams) and household items (Breads, Milk) suggest a basic grocery replenishment need rather than a specialized or high-value basket profile. The user exhibits a small-basket, low-quantity tendency.",
+  "user_id": "ACC008327F499574BDFA743E09E2ACAB0ED",
+  "profile_type": "global",
+  "updated_at": "2026-07-29T05:35:24.960237"
 }

@@ -1,12 +1,32 @@
 {
   "date": "2026-02-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-02-26, a weekday, a single order was placed in the afternoon. The basket contained two distinct items: one unit of SMPFUHM82QPRBMR8 (Unmapped-SMP) and one unit of FCWGPEEJ6K7HYHWU (Unmapped-FCW). The order was completed without cart abandonment. Due to the unmapped nature of these categories, no specific category combination patterns or abandonment patterns from the supplied evidence apply to this order. The behavior is consistent with a general need for household supplies or specific ingredients, but the lack of category mapping prevents a more precise need description. This analysis is based on a single observed order on one independent date; therefore, no durable preferences, stable patterns, or recurring behaviors can be inferred.",
+  "summary_text": "On 2026-02-26 (weekday), a single order was placed in the afternoon. The basket contained one unit of Shampoo and one unit of Facewash, representing a personal care focus on hair and facial cleansing. This is an isolated observation from one date; no durable preferences or routines are established. Confidence in inferred behavior is low.",
   "daypart_behavior": [],
   "behavior_patterns": [],
-  "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of one unit of an unmapped product (SMPFUHM82QPRBMR8) and one unit of another unmapped product (FCWGPEEJ6K7HYHWU) is compatible with a general need for household supplies or specific ingredients, but the unmapped nature of the categories prevents a more specific need description.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Therefore, no durable preferences, stable patterns, or recurring behaviors can be inferred. The confidence in any inferred user behavior is low. The specific products are unmapped, preventing alignment with the provided category pair evidence.",
-  "overall_confidence": "low"
+  "category_combination_patterns": [
+    {
+      "categories": [
+        "Shampoo",
+        "Facewash"
+      ],
+      "combination_text": "Shampoo and Facewash purchased together in a single afternoon order on a weekday.",
+      "support": 1.0,
+      "lift": 1.0,
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    }
+  ],
+  "shopping_need_text": "Personal hygiene and grooming needs, specifically hair and skin cleansing.",
+  "uncertainty_text": "This analysis is based on a single order on one date. It is an isolated observation and does not establish a durable preference or routine. Confidence in any inferred behavior pattern is low due to the lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T13:28:19",
+    "last_seen_at": "2026-02-26T13:28:19"
+  }
 }

@@ -1,9 +1,23 @@
 {
   "date": "2026-04-17",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-17 (weekday), the user purchased two Kinder JOY single-serve chocolates (one Pink Bites 20 g, one Blue Bites 20 g) during the afternoon. This timing falls below the population baseline for afternoon activity (25.26% share). The items are portion-controlled confections suitable for immediate individual indulgence. This is a single-observation window; it is not yet established whether the user has a stable preference for the Kinder JOY brand or this specific portioned format versus other chocolate types or pack sizes.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered Kinder JOY Pink Bites (20 g) and Kinder JOY Blue Bites (20 g) during the afternoon. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but still significant. The products are portion-controlled, single-serve milk chocolate confectioneries, generally used for instant sweet cravings or quick, individual indulgences. This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product type, or timing over other options. No stable brand or product preference can be confirmed from this single transaction.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of Kinder JOY Pink Bites 20 g and one order of Kinder JOY Blue Bites 20 g. This timing aligns with the population baseline, where afternoon shares (0.2526) are lower than morning (0.3246) and evening (0.3027) but still significant. The products are portion-controlled, single-serve milk chocolate confectioneries, generally used for instant sweet cravings or quick, individual indulgences.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single-observation window; it is not yet established whether the user has a stable preference for the Kinder JOY brand or this specific portioned format versus other chocolate types or pack sizes.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user prefers this specific brand, product type, or timing over other options. No stable brand or product preference can be confirmed from this single transaction.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-17"
+    ],
+    "first_seen_at": "2026-04-17T12:47:55",
+    "last_seen_at": "2026-04-17T12:47:55"
+  }
 }

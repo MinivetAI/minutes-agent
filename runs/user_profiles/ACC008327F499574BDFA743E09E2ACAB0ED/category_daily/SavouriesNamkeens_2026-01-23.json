@@ -1,15 +1,23 @@
 {
   "date": "2026-01-23",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-23 (weekday), the user purchased one 75 g pack of Bingo Tedhe Medhe Masala Tadka snack sticks in the afternoon. This afternoon purchase aligns with a non-peak population share (25.26% vs. morning 32.46% and evening 30.27%), suggesting a break-time or impulsive snack need. This is a single observation; no repeated purchases or browsing patterns are available to establish stable brand or flavor preferences.",
+  "summary_text": "On 2026-01-23 (weekday), one order of Bingo Tedhe Medhe Masala Tadka 75 g (1 unit) was placed in the afternoon. This timing aligns with typical weekday afternoon patterns for quick snacks or chai break accompaniments. This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time purchase.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one 75 g pack of Bingo Tedhe Medhe Masala Tadka snack sticks. This afternoon purchase aligns with a non-peak population share (25.26% vs. morning 32.46% and evening 30.27%), suggesting a break-time or impulsive snack need.",
+      "pattern_text": "One order of Bingo Tedhe Medhe Masala Tadka 75 g (1 unit) placed on a weekday afternoon, aligning with typical weekday afternoon activity patterns for quick snacks or chai break accompaniments.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation; no repeated purchases or browsing patterns are available to establish stable brand or flavor preferences.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or a one-time purchase.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-23"
+    ],
+    "first_seen_at": "2026-01-23T11:10:26",
+    "last_seen_at": "2026-01-23T11:10:26"
+  }
 }

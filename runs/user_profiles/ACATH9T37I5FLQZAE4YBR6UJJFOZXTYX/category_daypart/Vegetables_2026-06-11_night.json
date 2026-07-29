@@ -1,10 +1,17 @@
 {
   "daypart": "night",
   "day_type": "weekday",
-  "summary_text": "Purchased one unit each of Coriander Leaves (cleaned, without roots), Baby Potato (280–320 g), and Onion (400–450 g).",
+  "summary_text": "One order of unbranded fresh vegetables: 1x Coriander Leaves, 1x Baby Potato, and 1x Onion.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the night on a weekday, a period with lower population share (12.02%) compared to morning (32.46%), afternoon (25.26%), and evening (30.27%). The items are fresh, unbranded cooking staples typically used for immediate meal preparation, such as curries, sabzis, or garnishes.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "shopping_context_text": "Ordered at night on a weekday. The population baseline shows night orders are less common (12.02%) compared to morning (32.46%) and evening (30.27%). The items are fresh, unbranded cooking staples (onion, potato, coriander) typically used for immediate meal preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for night-time vegetable shopping or specific unbranded fresh produce, as no other dates are provided.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-11"
+    ],
+    "first_seen_at": "2026-06-11T21:38:39",
+    "last_seen_at": "2026-06-11T21:38:39"
+  }
 }

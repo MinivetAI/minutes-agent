@@ -1,9 +1,23 @@
 {
   "date": "2026-03-27",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased six unbranded fresh vegetable items: Cluster Beans (240-260g), Coriander Leaves (100g), Baby Potato (280–320g), Onion (400–450g), Local Tomato (1 kg), and Brinjal Bharta (250g). The order was placed in the afternoon, a time when population share (0.2526) is lower than morning (0.3246) and evening (0.3027). The basket consists of fresh, time-sensitive produce staples typically used for immediate home cooking, suggesting a need to replenish ingredients for same-day meal preparation.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-03-27 (weekday), the user ordered fresh vegetables in the afternoon, including Cluster Beans, Coriander Leaves, Baby Potato, Onion, Local Tomato, and Brinjal Bharta. This single observation suggests immediate home cooking needs but does not establish a stable preference.",
+  "daypart_patterns": [
+    {
+      "daypart": "afternoon",
+      "pattern_text": "One order of fresh vegetables including Cluster Beans, Coriander Leaves, Baby Potato, Onion, Local Tomato, and Brinjal Bharta.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for these specific vegetables or this timing.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; no stable preferences can be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-27"
+    ],
+    "first_seen_at": "2026-03-27T12:01:27",
+    "last_seen_at": "2026-03-27T12:01:27"
+  }
 }

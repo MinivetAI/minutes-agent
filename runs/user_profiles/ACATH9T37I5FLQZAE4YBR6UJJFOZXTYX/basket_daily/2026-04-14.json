@@ -1,7 +1,7 @@
 {
   "date": "2026-04-14",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-14 (weekday), a single order was placed during the evening daypart. The basket contained 10 items across five categories: Vegetables (3 items), Fruits (2 items), Aerated Drinks (2 items), Diapers (2 items), and Bathroom Floor Cleaner (1 item). This transaction reflects a mix of fresh produce, beverages, and household/personal care replenishment.",
+  "summary_text": "On 2026-04-14 (weekday), a single evening order contained items from five categories: Vegetables, Fruits, Diaper, Bathroom Floor Cleaner, and Aerated Drinks. The basket included three vegetable products, two fruit products, two diaper products, two aerated drink products, and one bathroom floor cleaner. This represents a broad, multi-category basket typical of a general grocery restock, potentially compatible with household maintenance and fresh food preparation needs. No durable preference patterns can be established from this single observation.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,17 +13,9 @@
       "combination_text": "Vegetables and Fruits were purchased together in this order.",
       "support": 0.213,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Vegetables",
-        "Aerated Drinks"
-      ],
-      "combination_text": "Vegetables and Aerated Drinks were purchased together in this order.",
-      "support": 0.328,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,11 +25,32 @@
       "combination_text": "Vegetables and Diaper were purchased together in this order.",
       "support": 0.262,
       "lift": null,
-      "confidence": "high"
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
+    },
+    {
+      "categories": [
+        "AeratedDrinks",
+        "Vegetables"
+      ],
+      "combination_text": "AeratedDrinks and Vegetables were purchased together in this order.",
+      "support": 0.328,
+      "lift": null,
+      "confidence": "high",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The basket suggests a need for replenishing fresh produce, beverages, and essential household or personal care items.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or durable behavior patterns cannot be inferred from this single data point.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be restocking fresh produce and household essentials, including cleaning supplies and baby care items, for immediate household use.",
+  "uncertainty_text": "This analysis is based on a single order on one date. Patterns such as 'routine' or 'preference' cannot be inferred. Confidence in specific category associations is limited to the observed co-occurrence in this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-14"
+    ],
+    "first_seen_at": "2026-04-14T16:19:24",
+    "last_seen_at": "2026-04-14T16:19:24"
+  }
 }

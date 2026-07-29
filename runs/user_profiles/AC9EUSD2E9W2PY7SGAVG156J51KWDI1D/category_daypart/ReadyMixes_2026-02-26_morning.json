@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 50 g pouch of Suhana Chicken Biryani Mix, a ready-to-cook spice base for home biryani preparation.",
+  "summary_text": "One order of Suhana Chicken Biryani Mix (50 g) on 2026-02-26.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during a weekday morning, a time when 32.46% of the population typically shops. The product serves as a convenient, quick-cooking base for preparing a traditional meal with minimal prep effort.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable or recurring preference for this brand or product type.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing is consistent with the population baseline, where morning purchases account for 32.46% of activity. The product is a ready-to-cook spice mix intended to simplify home biryani preparation.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or morning purchasing habits. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-02-26"
+    ],
+    "first_seen_at": "2026-02-26T09:06:03",
+    "last_seen_at": "2026-02-26T09:06:03"
+  }
 }

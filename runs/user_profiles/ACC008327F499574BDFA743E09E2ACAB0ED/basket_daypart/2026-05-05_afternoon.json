@@ -1,92 +1,18 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-05-05 in the afternoon on a weekday. The basket consists exclusively of Vegetables, with a total of 6 units across 4 distinct products. No other categories were purchased in this transaction. The `shopping_need_text` is compatible with a general need for fresh produce or meal preparation ingredients, but no specific intent is confirmed. As this is a single observed order, it represents an isolated observation rather than a durable behavior pattern.",
+  "basket_summary_text": "A single order placed on 2026-05-05 in the afternoon on a weekday. The basket contains only Vegetables (4 items total: 2x VEGFFHGDSUX3N9KV, 2x VEGGE5XZBQVVVYHG, 1x VEGGF7EXB3KWXAGJ, 1x VEGF7FJ5UVTDPSRH). No other categories were purchased in this specific order. The `category_pair_evidence` lists combinations involving Vegetables (e.g., with Breads, DipsSaucesPastes, Milk, IceCreams) and other categories (SavouriesNamkeens/SpicesMasala, Fruits/CurdYogurt), but these pairs are not present in the current order's product list. Therefore, no category combinations from the evidence are supported by this specific order. The order reflects a narrow, vegetable-only purchase.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables were co-ordered in 2 instances.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "DipsSaucesPastes",
-        "Vegetables"
-      ],
-      "combination_text": "DipsSaucesPastes and Vegetables were co-ordered in 2 instances.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables were co-ordered in 2 instances.",
-      "support": 0.074,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "SavouriesNamkeens",
-        "SpicesMasala"
-      ],
-      "combination_text": "SavouriesNamkeens and SpicesMasala were co-ordered in 1 instance.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Fruits",
-        "Vegetables"
-      ],
-      "combination_text": "Fruits and Vegetables were co-ordered in 1 instance.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Fruits"
-      ],
-      "combination_text": "CurdYogurt and Fruits were co-ordered in 1 instance.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "IceCreams",
-        "Vegetables"
-      ],
-      "combination_text": "IceCreams and Vegetables were co-ordered in 1 instance.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "DipsSaucesPastes"
-      ],
-      "combination_text": "Breads and DipsSaucesPastes were co-ordered in 1 instance.",
-      "support": 0.037,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "General need for fresh produce or meal preparation ingredients.",
-  "uncertainty_text": "This is a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. No durable behavior pattern is established.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The user purchased fresh vegetables, likely for immediate meal preparation or home consumption. This is a single observation and does not indicate a routine or stable preference for vegetables alone or in combination with other categories not present in this order.",
+  "uncertainty_text": "This is a single order on one date. No category combinations from the supplied `category_pair_evidence` are present in this order. Confidence in any broader behavioral pattern is low due to lack of repetition across independent dates.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-05"
+    ],
+    "first_seen_at": "2026-05-05T15:57:39",
+    "last_seen_at": "2026-05-05T15:57:39"
+  }
 }

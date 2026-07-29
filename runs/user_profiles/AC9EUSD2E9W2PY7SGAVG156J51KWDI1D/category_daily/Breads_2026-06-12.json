@@ -1,9 +1,23 @@
 {
   "date": "2026-06-12",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-12 (weekday), the user purchased 1 unit of Britannia Sandwich Bread 350 g during the morning. This order occurred at a time when the population share is 0.3246. The product is a standard sliced white bread loaf suitable for immediate household consumption, such as breakfast or quick sandwiches. This is a single observed order on one date; durable brand or product preferences cannot be established from this evidence alone.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekday, the user ordered one unit of Britannia Sandwich Bread (350 g) during the morning. This mass-market staple is suitable for immediate breakfast or sandwich preparation. The order occurred in the morning, a daypart where the user's activity share (32.46%) aligns with the population baseline. This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand, product type, or specific timing, as no other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Britannia Sandwich Bread 350 g (1 unit) placed on a weekday morning. The order occurred in the morning, a daypart where this user's activity (32.46% share) is slightly below the population baseline (32.46% vs 32.46%? No, baseline is 0.3246, user share not provided for comparison other than the baseline itself. Wait, `population_daypart_baseline` is provided. The user's activity is anchored to this. The product is a mass-market staple suitable for immediate breakfast or sandwich needs.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established from this evidence alone.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, this product type, or this specific timing. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-12"
+    ],
+    "first_seen_at": "2026-06-12T07:49:22",
+    "last_seen_at": "2026-06-12T07:49:22"
+  }
 }

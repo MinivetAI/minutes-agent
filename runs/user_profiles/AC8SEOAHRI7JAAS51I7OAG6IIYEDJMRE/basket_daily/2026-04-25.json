@@ -1,7 +1,7 @@
 {
   "date": "2026-04-25",
   "day_type": "weekend",
-  "summary_text": "On this weekend afternoon, a single order was placed containing staple food items. The basket included one unit each of Canned Food, Breads, and Vegetables, along with four units of Curd Yogurt (distributed across two product SKUs). This combination reflects a basic grocery need compatible with staple food replenishment. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On this weekend, a single order was placed in the afternoon. The basket contained staple and perishable items: one unit each of Canned Food, Breads, and Vegetables, plus four units of Curd Yogurt (across two variants). This combination suggests a need for basic meal components or breakfast/brunch ingredients. Because this is a single observation on one date, durable preferences cannot be established.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,7 +13,9 @@
       "combination_text": "Breads and Curd Yogurt were purchased together in this order.",
       "support": 0.129,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -23,7 +25,9 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.114,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -33,11 +37,20 @@
       "combination_text": "Canned Food and Curd Yogurt were purchased together in this order.",
       "support": 0.057,
       "lift": null,
-      "confidence": "high"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Staple food replenishment.",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Patterns are not durable.",
-  "overall_confidence": "low"
+  "shopping_need_text": "Basic meal preparation or breakfast/brunch ingredients.",
+  "uncertainty_text": "This is a single observation on one date; durable preferences cannot be established.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-25T13:07:11",
+    "last_seen_at": "2026-04-25T13:07:11"
+  }
 }

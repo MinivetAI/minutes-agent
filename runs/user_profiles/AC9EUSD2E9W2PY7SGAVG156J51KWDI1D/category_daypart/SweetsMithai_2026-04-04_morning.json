@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased one 200 g box of Amul Kaju Katri, a boxed Indian dry-fruit sweet.",
+  "summary_text": "One order of Amul Kaju Katri Box 200 g placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Ordered during the morning on a weekend, a time when this category represents 32.46% of population activity. The product is a ready-to-eat, giftable confection suitable for immediate consumption or gifting.",
-  "uncertainty_text": "This is a single observation on one date; durable preferences or habitual buying patterns cannot be established.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning, a time when this user's activity is below the population baseline (morning share 0.3246). The product is a boxed Indian sweet, generally used for immediate consumption, gifting, or festival needs.",
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established. It is unclear if this purchase was for a specific occasion, a one-time craving, or part of a broader habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-04"
+    ],
+    "first_seen_at": "2026-04-04T08:10:57",
+    "last_seen_at": "2026-04-04T08:10:57"
+  }
 }

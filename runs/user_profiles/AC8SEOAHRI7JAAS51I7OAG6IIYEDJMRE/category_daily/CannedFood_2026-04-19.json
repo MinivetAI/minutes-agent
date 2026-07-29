@@ -1,9 +1,23 @@
 {
   "date": "2026-04-19",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-19 (weekend), the user purchased one 450 g can of Del Monte Baked Beans during the morning. This was the only observed activity in the Canned Food category for this period. The purchase occurred in the morning, a time when this user's activity is above the population baseline (32.5% share). The product is a shelf-stable, ready-to-eat item, suggesting a need for a convenient pantry staple or quick meal component.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user purchased one unit of Del Monte Baked Beans (450 g) during the morning daypart. This single order represents a convenient pantry staple or quick meal component, consistent with the population baseline where morning purchases account for 32.46% of activity. As this is the only observed order on this date, it constitutes a single observation rather than evidence of a stable brand preference, recurring daypart habit, or specific usage pattern.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Del Monte Baked Beans 450 g (1 unit) placed on a weekend morning. The product is a shelf-stable, ready-to-eat canned item, suggesting a need for a convenient pantry staple or quick meal component.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date. It is not yet possible to determine if this represents a stable preference for Del Monte brand, baked beans specifically, or morning shopping habits. No browsing or cart activity was recorded to indicate comparison or hesitation.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring daypart habit, or specific usage pattern beyond this one instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-19"
+    ],
+    "first_seen_at": "2026-04-19T09:52:54",
+    "last_seen_at": "2026-04-19T09:52:54"
+  }
 }

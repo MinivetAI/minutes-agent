@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekend",
-  "summary_text": "Purchased one 400 g loaf of English Oven Zero Maida 100% High Fiber Atta Bread during the evening on a weekend.",
+  "summary_text": "One order of English Oven Zero Maida 100% High Fiber Atta Bread (400 g) placed on a weekend evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when this user's activity is slightly below the population baseline (30.3% share). The product is a packaged whole-wheat style bread, typically used for quick meals like breakfast or sandwiches, suggesting a convenience-driven or immediate dietary need rather than bulk pantry stocking.",
-  "uncertainty_text": "This is a single observation on one date; it is not yet established whether the user regularly prefers high-fiber/atta breads or if this was an isolated substitution for standard white bread.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend evening, a time when the user's activity aligns with the population baseline where evening shares (0.3027) are comparable to morning (0.3246). The product is a packaged atta/whole-wheat sliced bread, typically used for quick meals like breakfast or sandwiches, suggesting a need for convenient, ready-to-eat staples.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this brand or product type represents a stable preference or a one-time purchase. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-04"
+    ],
+    "first_seen_at": "2026-07-04T16:42:45",
+    "last_seen_at": "2026-07-04T16:42:45"
+  }
 }

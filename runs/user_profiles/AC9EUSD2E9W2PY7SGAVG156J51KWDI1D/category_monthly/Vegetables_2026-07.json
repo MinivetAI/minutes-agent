@@ -1,23 +1,22 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user purchased fresh vegetables across six independent dates. Coriander Leaves 100 g (fresh herb) appeared on two independent dates (2026-07-06 and 2026-07-16), meeting the repetition bar for stable preference. All other vegetable items (Potato, Holy Tulsi Leaves, Lady’s Finger, Green Capsicum, Sweet Corn Kernels) appeared on single dates only. Daypart patterns show purchases in the morning, afternoon, and evening, with no single daypart dominating across multiple dates for the same product.",
-  "stable_preference_claims": [
-    {
-      "dimension": "product",
-      "value": "Coriander Leaves 100 g (fresh herb)",
-      "claim_text": "The user has a stable preference for Coriander Leaves 100 g (fresh herb), observed on 2 independent dates (2026-07-06, 2026-07-16).",
-      "confidence": "medium",
-      "evidence_count": 2,
-      "independent_date_count": 2
-    }
-  ],
+  "summary_text": "In July 2026, the user ordered fresh vegetables across six independent dates. No single brand, product, or variant recurred on two or more independent dates; therefore, no stable preference claims are established. Observations include Coriander Leaves (2 dates), Fresh New Crop Potato (1 date), Holy Tulsi Leaves (1 date), Lady’s Finger (1 date), and a mixed order of Green Capsicum and Urban Harvest Sweet Corn Kernels (1 date). Daypart patterns are isolated to single dates each: morning (1 date), afternoon (1 date), and evening (3 dates). Due to the lack of repetition, all confidence levels remain low.",
+  "stable_preference_claims": [],
   "temporal_patterns": [],
-  "trend_claims": [
-    {
-      "claim_text": "Purchases of fresh vegetables occurred on six independent dates in July 2026, indicating consistent engagement with the category without a single dominant product beyond Coriander Leaves.",
-      "confidence": "medium"
-    }
-  ],
-  "uncertainty_text": "Other vegetable items (Potato, Holy Tulsi Leaves, Lady’s Finger, Green Capsicum, Sweet Corn Kernels) were observed on single dates only; no stable preference or routine can be established for these items. Specific culinary intents (e.g., frying vs. boiling, religious vs. culinary use) are unknown.",
-  "overall_confidence": "medium"
+  "trend_claims": [],
+  "uncertainty_text": "This month consists of six independent orders with no repeated products, brands, or variants. Consequently, no stable preferences or routines can be inferred. Daypart observations are also isolated to single dates, preventing the establishment of consistent timing patterns.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 6,
+    "purchase_dates": [
+      "2026-07-06",
+      "2026-07-14",
+      "2026-07-15",
+      "2026-07-16",
+      "2026-07-19",
+      "2026-07-21"
+    ],
+    "first_seen_at": "2026-07-06T09:15:29",
+    "last_seen_at": "2026-07-21T06:50:10"
+  }
 }

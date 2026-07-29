@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Daawat Rozana Gold Basmati Rice (5 kg) was placed in the morning.",
+  "summary_text": "One order of Daawat Rozana Gold Basmati Rice (5 kg) placed in the morning on a weekday.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning, a time when this user's activity is above the population baseline (32.5% share). The product is a staple food item suitable for household restocking.",
-  "uncertainty_text": "This is a single observed order on one date; no durable brand or product preferences can be established from this evidence alone.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning, a time that aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a staple grain typically used for daily household meals.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, routine, or recurring need for this specific product or brand.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-29"
+    ],
+    "first_seen_at": "2026-05-29T10:39:59",
+    "last_seen_at": "2026-05-29T10:39:59"
+  }
 }

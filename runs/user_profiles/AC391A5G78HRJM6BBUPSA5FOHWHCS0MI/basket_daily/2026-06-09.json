@@ -1,12 +1,19 @@
 {
   "date": "2026-06-09",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-09 (weekday), a single order was placed during the morning daypart. The basket contained Sugar (1 unit) and Fruits (2 units). This combination represents a narrow breadth, pairing a pantry staple with fresh produce. The observed need is consistent with basic grocery replenishment for home consumption, specifically involving sweeteners and fresh fruit. As this is a single observed order, it represents an observation rather than a durable preference pattern.",
+  "summary_text": "On 2026-06-09 (weekday), a single order was placed in the morning. The basket contained 1 unit of Sugar and 2 units of Fruits. This represents a single observation of basket breadth involving two distinct categories. No durable behavior pattern can be established from this single date.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic grocery replenishment for home consumption, specifically involving sweeteners and fresh fruit.",
-  "uncertainty_text": "This analysis is based on a single order from one daypart. No repeated behavior is observed to establish stable preferences or habitual patterns. The provided category pair evidence does not match the categories in this specific order (Sugar and Fruits).",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of Sugar and Fruits is compatible with preparing sweet snacks, breakfast items, or fruit-based desserts.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. Stable preferences, routine purchasing behavior, or high-confidence inferences cannot be derived from this isolated event.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-09"
+    ],
+    "first_seen_at": "2026-06-09T08:14:21",
+    "last_seen_at": "2026-06-09T08:14:21"
+  }
 }

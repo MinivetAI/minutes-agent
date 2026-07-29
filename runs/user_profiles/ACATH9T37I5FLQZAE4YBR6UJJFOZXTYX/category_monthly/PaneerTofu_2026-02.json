@@ -1,11 +1,11 @@
 {
   "month": "2026-02",
-  "summary_text": "In February 2026, the user purchased Amul Malai Paneer 200 g on two independent dates (2026-02-12 and 2026-02-24). Both transactions occurred on weekdays in the afternoon. The recurrence of this specific brand and variant across two independent dates establishes a stable preference for Amul Malai Paneer 200 g. The afternoon timing is less common for this category compared to the population baseline (afternoon share 0.2526 vs. morning 0.3246 and evening 0.3027). No other brands or variants were observed in this category during this month.",
+  "summary_text": "In February 2026, the user ordered Amul Malai Paneer 200 g on two independent dates (2026-02-12 and 2026-02-24), both on weekdays in the afternoon. This repetition meets the threshold for a stable preference claim with medium confidence. The afternoon timing aligns with the population baseline share (0.2526). No other brands or products were observed in this category during this month.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Amul",
-      "claim_text": "The user has a stable preference for Amul paneer, evidenced by purchases on two independent dates in February 2026.",
+      "claim_text": "The user has ordered Amul Malai Paneer 200 g on two independent dates in February 2026, indicating a stable brand preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -13,7 +13,7 @@
     {
       "dimension": "product",
       "value": "Amul Malai Paneer 200 g",
-      "claim_text": "The user has a stable preference for Amul Malai Paneer 200 g, evidenced by purchases on two independent dates in February 2026.",
+      "claim_text": "The user has ordered Amul Malai Paneer 200 g on two independent dates in February 2026, indicating a stable product preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
@@ -21,6 +21,15 @@
   ],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This analysis is based on two independent purchase dates in February 2026. While the repetition establishes a stable preference for the specific brand and variant, the sample size is limited to this single month.",
-  "overall_confidence": "medium"
+  "uncertainty_text": "This analysis is based on two orders in February 2026. While the brand and product show stable preference due to repetition, the sample size is small, and no other products or brands were observed to determine broader category habits or routine meal planning.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-02-12",
+      "2026-02-24"
+    ],
+    "first_seen_at": "2026-02-12T14:29:35",
+    "last_seen_at": "2026-02-24T13:47:33"
+  }
 }

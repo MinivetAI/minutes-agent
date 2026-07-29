@@ -1,9 +1,17 @@
 {
   "month": "2026-07",
-  "summary_text": "In July 2026, the user placed one order for Amul Pasteurised Salted Butter 200 g during the evening on a weekend. This timing aligns with the user's activity share (30.27%) which is comparable to the population baseline (30.27%). The product is a standard salted table butter, typically used for immediate household needs such as breakfast spreads, cooking, or toast.",
+  "summary_text": "In July 2026, the user ordered Amul Pasteurised Salted Butter 200 g on one weekend evening. This single observation aligns with the population baseline for evening activity (share 0.3027). The product is a standard salted table butter, compatible with immediate household needs such as cooking, spreading, or breakfast preparation. This is a single observation on one date; it does not establish a stable preference for this brand, product, or timing. It is unclear if this represents a routine habit or a one-time need.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine. It is unclear if this was a one-time restock or part of a recurring habit.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference for this brand, product, or timing. It is unclear if this represents a routine habit or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T19:32:49",
+    "last_seen_at": "2026-07-19T19:32:49"
+  }
 }

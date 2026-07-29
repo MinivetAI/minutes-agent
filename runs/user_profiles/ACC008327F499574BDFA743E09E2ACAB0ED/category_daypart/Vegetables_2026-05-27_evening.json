@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one pack of unbranded red and yellow bell peppers (2 units) and one 250g pack of unbranded green bell peppers during the evening on a weekday.",
+  "summary_text": "One order of vegetables placed on a weekday evening, containing one pack of unbranded red and yellow capsicum (2 units) and one 250 g pack of unbranded green capsicum.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a time when the user's activity (1 order) aligns with the population baseline for this daypart (30.27% share). The items are fresh produce typically used for immediate meal preparation, such as salads, stir-fries, or cooking.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference for these specific brands or product types, nor does it indicate a recurring routine.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order was placed in the evening, which aligns with the population baseline share of 0.3027 for this daypart (compared to 0.3246 for morning). The products are fresh produce items typically used for immediate meal preparation, such as salads, stir-fries, or cooking.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish stable brand preferences, specific product preferences, or recurring shopping routines. The specific culinary intent (e.g., salad vs. cooked dish) cannot be determined from the order alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-27"
+    ],
+    "first_seen_at": "2026-05-27T19:04:20",
+    "last_seen_at": "2026-05-27T19:04:20"
+  }
 }

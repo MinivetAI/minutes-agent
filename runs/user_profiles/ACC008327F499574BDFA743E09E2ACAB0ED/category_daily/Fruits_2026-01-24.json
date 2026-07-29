@@ -1,15 +1,23 @@
 {
   "date": "2026-01-24",
   "day_type": "weekend",
-  "summary_text": "On this weekend, the user purchased 2 units of Unbranded Sapota Chikoo 500 g during an afternoon shopping session. This fresh fruit item is typically used for immediate consumption, snacking, or dessert. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). This is a single observed order on one date; it does not establish a stable preference or routine for this specific fruit or brand.",
+  "summary_text": "On this weekend, the user purchased Sapota Chikoo (2 units of 500 g packs) during the afternoon. This single order suggests a need for immediate consumption or home replenishment of fresh fruit, aligning with the population baseline for afternoon activity (share 0.2526).",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 2 units of Unbranded Sapota Chikoo 500 g (fresh sapota fruit) during an afternoon shopping session on a weekend. The purchase occurred in the afternoon, a period with lower population share (0.2526) compared to evening (0.3027) and morning (0.3246). The product is a fresh fruit item typically used for immediate consumption, snacking, or dessert.",
+      "pattern_text": "One order of Sapota Chikoo (2 units of 500 g packs) purchased on a weekend afternoon.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this specific fruit or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable preference for this specific fruit, brand, or timing pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-24T14:45:43"
+  }
 }

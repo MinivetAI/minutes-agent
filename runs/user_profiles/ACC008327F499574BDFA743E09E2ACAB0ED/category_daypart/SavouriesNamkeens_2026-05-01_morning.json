@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "Purchased one 210 g pouch of Haldiram's Masala Boondi, a spiced boondi namkeen, during a weekday morning session.",
+  "summary_text": "One order of Haldiram's Masala Boondi 210 g (1 unit) placed on a weekday morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the morning, a time when this category has a population share of 32.46%. The product is a shelf-stable, ready-to-eat savoury snack, suitable for immediate consumption or as a crunchy accompaniment to tea or meals.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable brand preference or recurring routine for this user.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekday morning. This timing aligns with the population baseline, where morning accounts for 32.46% of activity, making it the most common daypart for this category. The product is a shelf-stable, ready-to-eat spiced snack, typically used for immediate consumption, chai-time accompaniment, or as a crunchy topping.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for Haldiram's brand, a specific taste for masala boondi, or a recurring morning snacking habit. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-01"
+    ],
+    "first_seen_at": "2026-05-01T09:44:21",
+    "last_seen_at": "2026-05-01T09:44:21"
+  }
 }

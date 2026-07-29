@@ -1,9 +1,23 @@
 {
   "date": "2026-05-02",
   "day_type": "weekend",
-  "summary_text": "On 2026-05-02 (weekend), the user purchased 1 unit of Sprite PET Bottle 750 ml (lemon-lime carbonated soft drink) during the morning. This purchase aligns with the morning daypart, which has a population share of 0.3246, the highest among all dayparts. The product is a ready-to-serve carbonated beverage typically used for immediate refreshment or thirst quenching. This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "daypart_patterns": [],
+  "summary_text": "On 2026-05-02 (weekend), the user ordered one unit of Sprite PET Bottle 750 ml in the morning. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it a common but not dominant window. The product is a ready-to-drink carbonated beverage, typically used for immediate refreshment or thirst quenching. This is a single observation on one date. It is not yet established whether the user has a stable preference for Sprite, lemon-lime sodas, or morning purchases specifically. No other orders are available to confirm repetition or routine.",
+  "daypart_patterns": [
+    {
+      "daypart": "morning",
+      "pattern_text": "One order of Sprite PET Bottle 750 ml (1 unit) on 2026-05-02. This timing aligns with the population baseline where morning accounts for 32.46% of activity, making it a common but not dominant window. The product is a ready-to-drink carbonated beverage, typically used for immediate refreshment or thirst quenching. This is a single observation on one date. It is not yet established whether the user has a stable preference for Sprite, lemon-lime sodas, or morning purchases specifically. No other orders are available to confirm repetition or routine.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether the user has a stable preference for Sprite, lemon-lime sodas, or morning purchases specifically. No other orders are available to confirm repetition or routine.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-02"
+    ],
+    "first_seen_at": "2026-05-02T07:27:41",
+    "last_seen_at": "2026-05-02T07:27:41"
+  }
 }

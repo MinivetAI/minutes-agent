@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekend",
-  "summary_text": "Purchased 1 unit of Safe Harvest Powder Jaggery 500 g.",
+  "summary_text": "One order of Safe Harvest Powder Jaggery 500 g placed on a weekend morning.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "Observed during the morning on a weekend, a time when this category represents 32.46% of population activity. The product is a convenient, loose-format sweetener suitable for quick preparation in cooking or beverages.",
-  "uncertainty_text": "This is a single observed transaction; durable brand or format preferences cannot be established from this isolated event.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred on a weekend morning, a time that aligns with the population baseline where morning purchases represent 32.46% of activity. The product is a convenient, loose-format sweetener often used for everyday cooking or beverages.",
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this was a one-time purchase or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-17"
+    ],
+    "first_seen_at": "2026-05-17T10:23:39",
+    "last_seen_at": "2026-05-17T10:23:39"
+  }
 }

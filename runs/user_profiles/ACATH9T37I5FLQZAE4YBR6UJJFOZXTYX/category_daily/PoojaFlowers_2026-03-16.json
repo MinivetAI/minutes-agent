@@ -1,9 +1,17 @@
 {
   "date": "2026-03-16",
   "day_type": "weekday",
-  "summary_text": "On 2026-03-16 (weekday), the user purchased one unit of Fresh Orange Marigold Flowers (100 g), an unbranded loose-cut flower SKU, during the morning daypart. This purchase aligns with the user's higher-than-baseline activity level (0.3246 share) for this specific time window. The product is a fresh-cut flower typically used for immediate ritual purposes, temple offerings, or festive decoration. No browsing events (search, view, cart) were recorded for this category in this window, leaving the intent (planned vs. last-minute) uncertain. With only one observed order, it is not possible to establish a stable preference for this specific flower type or brand.",
+  "summary_text": "On 2026-03-16 (weekday), one order of Fresh Orange Marigold Flowers (100 g) was placed in the morning. This timing aligns with the population baseline where 32.46% of Pooja Flowers activity occurs. The product is a fresh-cut flower typically used for immediate ritual needs, such as temple offerings or festive decoration. This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was for a specific one-time event or part of a recurring habit.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or a last-minute need. With only one observed order, it is not possible to establish a stable preference for this specific flower type or brand (unbranded).",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference, routine, or brand loyalty. It is unclear if this purchase was for a specific one-time event or part of a recurring habit.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T09:10:05",
+    "last_seen_at": "2026-03-16T09:10:05"
+  }
 }

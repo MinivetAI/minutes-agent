@@ -1,15 +1,23 @@
 {
   "date": "2026-07-19",
   "day_type": "weekend",
-  "summary_text": "On 2026-07-19 (weekend), the user purchased 1 unit of Britannia Toastea Butter Rusk (183 g) during a morning session. This order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product is a baked tea-time rusk snack, typically used as a crisp companion for tea or coffee. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or pack size over alternatives is unknown.",
+  "summary_text": "On this weekend, the user purchased Britannia Toastea Butter Rusk (183 g) during the morning daypart. This single order occurred when morning purchases represent 32.46% of the population baseline. The product is a tea-time snack suitable for quick consumption or pairing with beverages. No stable brand or product preference can be established from this single observation.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased 1 unit of Britannia Toastea Butter Rusk (183 g) during a morning session on a weekend. The order occurred in the morning, a time when this user's activity is above the population baseline (32.46%). The product serves a general utility as a quick, crisp snack for tea-time consumption.",
+      "pattern_text": "One order of Britannia Toastea Butter Rusk (183 g) purchased on a weekend morning. The order occurred on a weekend morning, a time when morning purchases represent 32.46% of the population baseline. The product is a tea-time snack suitable for quick consumption or pairing with beverages.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for choosing this brand or pack size over alternatives is unknown.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; no stable brand or product preference can be established from this window alone.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-19"
+    ],
+    "first_seen_at": "2026-07-19T09:35:43",
+    "last_seen_at": "2026-07-19T09:35:43"
+  }
 }

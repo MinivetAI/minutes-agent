@@ -1,22 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-03-16 during the evening weekday contains four distinct items: Milk, Ice Creams, Breads, and Chocolates. The basket exhibits moderate breadth with one unit from each of four categories. The combination of Milk and Breads is observed in this order, which aligns with a known co-ordering pattern (Support: 0.057, Confidence: 0.154, Lift: 0.633) where these two categories appear together in 4 instances. The inclusion of Ice Creams and Chocolates suggests a potential compatible need for sweet treats or dessert components, though this specific combination is not supported by the provided pair evidence. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-03-16 in the evening on a weekday included one unit each of Milk, Ice Creams, Breads, and Chocolates. This represents a small, mixed basket with no repeated category pairings within this specific window.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk were purchased together in this order.",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "low"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The order may satisfy a need for basic breakfast or snack staples (Milk, Breads) alongside sweet indulgences (Ice Creams, Chocolates).",
-  "uncertainty_text": "This analysis is based on a single observed order on one date. Stable preferences or habitual behaviors cannot be inferred from this single data point. The lift for the Breads-Milk pair (0.633) indicates they are less likely to co-occur than by random chance in the broader population, despite being present in this specific basket.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of Milk, Breads, and Chocolates may be compatible with a breakfast or snack preparation need, while Ice Creams suggests a dessert or treat intent.",
+  "uncertainty_text": "This inference is based on a single order on one date. Stable preferences or routine behaviors cannot be determined from this isolated observation.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-16"
+    ],
+    "first_seen_at": "2026-03-16T16:39:47",
+    "last_seen_at": "2026-03-16T16:39:47"
+  }
 }

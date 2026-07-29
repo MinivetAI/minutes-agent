@@ -1,23 +1,39 @@
 {
-  "category": "Vegetables",
-  "profile_text": "The user demonstrates a high-confidence, stable preference for fresh loose potatoes (400–450g), purchasing this specific product on five independent dates in April 2026. This behavior establishes a fast replenishment cadence (every 4 days). While onions were purchased once in April, this single observation does not constitute a stable preference. Shopping occurs across all dayparts and days of the week, indicating flexible timing driven by immediate cooking needs rather than a fixed schedule.",
-  "brand_preferences": [],
-  "product_preferences": [
-    {
-      "preference_text": "The user has a stable preference for fresh loose potatoes (400–450g), purchased on five independent dates in April 2026.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
-  "replenishment": null,
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, evidenced by multiple completed transactions for the preferred product.",
-  "substitution_text": "No specific substitution patterns are established; the user consistently returns to the same potato product.",
-  "price_value_text": "No specific price sensitivity or value-seeking behavior is established for this category based on the provided evidence.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Restocking fresh vegetable staples for immediate cooking and meal preparation.",
-  "overall_confidence": "high"
+  "category_name": "Vegetables",
+  "summary_text": "The user demonstrates a stable, high-confidence preference for Potato (400–450g), observed on five independent dates in April 2026. A single order of Unbranded Garlic (190–210 g) occurred in February 2026, and a single order of Onion (400–450g) in April 2026, neither establishing a routine. Timing is mixed across weekdays/weekends and morning/evening/night, with no dominant daypart pattern.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [
+      {
+        "variant": "Potato (400–450g)",
+        "preference_text": "Stable preference for Potato in the 400–450g size range.",
+        "confidence": "high"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "pack_size": "400–450g",
+        "preference_text": "Preference for 400–450g pack sizes for potatoes.",
+        "confidence": "high"
+      }
+    ],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "Potato (400–450g) is the primary stable vegetable choice. Garlic and Onion appear as occasional, non-routine items; no evidence suggests substitution between these items or with other vegetables.",
+  "uncertainty_text": "No stable brand preferences exist as all observed items are unbranded or generic. No consistent daypart or daytype routine is established due to mixed timing across multiple windows. It is unclear if Garlic or Onion represent emerging preferences or isolated meal needs.",
+  "retrieval_text": "User has a high-confidence stable preference for Potato (400–450g), observed on five independent dates in April 2026. No brand loyalty is established as items are unbranded. Timing is inconsistent across weekdays, weekends, and dayparts (morning, evening, night). Occasional single orders of Unbranded Garlic (190–210 g) and Onion (400–450g) do not indicate routine behavior.",
+  "replenishment": {
+    "cadence_days": 4,
+    "cadence_class": "fast",
+    "predicted_next_purchase_date": "2026-04-24",
+    "replenishment_text": "Vegetables is reordered roughly every 4 days."
+  },
+  "evidence": {
+    "evidence_count": 6,
+    "independent_date_count": 6,
+    "first_seen_at": "2026-02-21T18:57:59",
+    "last_seen_at": "2026-04-20T18:44:38"
+  }
 }

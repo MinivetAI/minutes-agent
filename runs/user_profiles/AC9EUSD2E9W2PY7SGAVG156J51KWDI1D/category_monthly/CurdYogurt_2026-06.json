@@ -1,9 +1,23 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased curd yogurt on two independent dates. On 2026-06-04, an order of Amul Masti Dahi Plain Curd (200 ml) was placed in the morning. On 2026-06-26, an order of Mother Dairy Mishti Doi 400 g was also placed in the morning. Both purchases occurred on weekdays during the morning daypart. No single brand or product variant recurred across multiple dates; therefore, no stable brand preference is established. The consistent timing suggests a stable morning purchasing pattern for this category.",
+  "summary_text": "In June 2026, the user purchased two distinct curd products on separate weekdays: Amul Masti Dahi Plain Curd (200 ml) on June 4 and Mother Dairy Mishti Doi (400 g) on June 26. Both orders occurred in the morning, a time that aligns with the population baseline (32.46%). Because each specific brand and product variant appeared on only one independent date, there is insufficient evidence to establish a stable preference for either Amul or Mother Dairy, nor for any specific product format. The consistent morning timing across both dates suggests a potential pattern, but with only two total observations, it remains a tentative trend rather than a confirmed routine.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "Only two independent orders were observed in this month, each for a different brand and product variant. This is insufficient to establish a stable brand or product preference. The consistent morning timing across both dates supports a stable daypart pattern.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "The user ordered curd products in the morning on two separate weekdays in June 2026, matching the population baseline for morning activity.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty_text": "Evidence consists of two isolated orders on different dates for different brands and variants. No single brand, product, or variant recurred enough times to demonstrate a stable preference. The morning timing pattern is noted but based on a very small sample size.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-06-04",
+      "2026-06-26"
+    ],
+    "first_seen_at": "2026-06-04T08:59:57",
+    "last_seen_at": "2026-06-26T06:49:22"
+  }
 }

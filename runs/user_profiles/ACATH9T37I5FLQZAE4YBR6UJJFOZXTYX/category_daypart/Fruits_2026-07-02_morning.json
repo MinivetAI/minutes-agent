@@ -1,10 +1,17 @@
 {
   "daypart": "morning",
   "day_type": "weekday",
-  "summary_text": "One order of Litchi Without Stems 250 g (1 unit) was placed. No browsing events (search, view, cart-add) were recorded for this category in this window.",
+  "summary_text": "One order of Litchi Without Stems 250 g (1 unit) on 2026-07-02.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the morning on a weekday. The population baseline indicates morning activity is common (32.46% share). The product is a fresh, ready-to-eat fruit item, typically used for immediate consumption or snacking.",
-  "uncertainty_text": "No browsing history is available to determine if this was a planned purchase or an impulse buy. No repeated behavior is observed to establish a stable preference for litchi or this specific format.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the morning on a weekday. This timing aligns with the population baseline where morning accounts for 32.46% of activity. The product is a fresh fruit item, typically used for immediate consumption or as a snack.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for litchi, a specific brand (none supplied), or a one-time purchase. No other products or dates are available to determine routine or broader category preferences.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-02"
+    ],
+    "first_seen_at": "2026-07-02T09:15:28",
+    "last_seen_at": "2026-07-02T09:15:28"
+  }
 }

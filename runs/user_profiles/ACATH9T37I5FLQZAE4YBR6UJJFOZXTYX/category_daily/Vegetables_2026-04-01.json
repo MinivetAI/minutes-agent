@@ -1,15 +1,23 @@
 {
   "date": "2026-04-01",
   "day_type": "weekday",
-  "summary_text": "On this weekday, the user purchased fresh cauliflower, cucumbers, and onions during the afternoon. This timing falls within a period of below-baseline activity (25.26% share). The items suggest an immediate need for fresh meal preparation or a quick top-up of kitchen staples. This single transaction does not establish a stable preference or routine.",
+  "summary_text": "On 2026-04-01 (weekday), the user placed one order of unbranded fresh vegetables (cauliflower, cucumber, onion) in the afternoon. This timing aligns with the population baseline where afternoon shares 25.26% of activity, slightly less than the morning (32.46%) and evening (30.27%) peaks. The products are immediate kitchen staples typically used for same-day meal preparation, such as side dishes, salads, or cooking bases. This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific vegetables, a preference for unbranded produce, or a habitual afternoon shopping pattern. No brand or product preferences can be confirmed from this single instance.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one fresh cauliflower head, two local cucumbers, and a small pack of onions. This activity occurred during a period where the user's share is below the population baseline (25.26%).",
+      "pattern_text": "One order of unbranded fresh vegetables (cauliflower, cucumber, onion) placed on a weekday afternoon. This timing aligns with the population baseline where afternoon shares 25.26% of activity, slightly less than the morning (32.46%) and evening (30.27%) peaks. The products are immediate kitchen staples typically used for same-day meal preparation, such as side dishes, salads, or cooking bases. This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific vegetables, a preference for unbranded produce, or a habitual afternoon shopping pattern. No brand or product preferences can be confirmed from this single instance.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for these specific vegetables, a preference for unbranded produce, or a habitual afternoon shopping pattern. No brand or product preferences can be confirmed from this single instance.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-01"
+    ],
+    "first_seen_at": "2026-04-01T12:08:51",
+    "last_seen_at": "2026-04-01T12:08:51"
+  }
 }

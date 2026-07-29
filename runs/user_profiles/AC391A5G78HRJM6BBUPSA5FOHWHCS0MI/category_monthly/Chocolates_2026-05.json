@@ -1,9 +1,17 @@
 {
   "month": "2026-05",
-  "summary_text": "In May 2026, the user purchased 1 unit of Sapphire Premium Butter Toffee Truffles 300 g on 2026-05-06 (weekday) during the night. This order occurred at a time when this user's activity is less frequent than the population baseline (night share 0.1202 vs. morning 0.3246). The product is a premium, shelf-stable confectionery suitable for immediate consumption, casual sharing, or as a convenient sweet option. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., personal indulgence, gifting, or household stock) cannot be determined from this single event.",
+  "summary_text": "In May 2026, the user ordered one unit of Sapphire Premium Butter Toffee Truffles 300 g on a single weekday (2026-05-06) during the night. This timing is less common than the population baseline for Chocolates (night share 0.1202 vs. evening 0.3027 and morning 0.3246). The product is a premium, shelf-stable confectionery suitable for immediate consumption or casual sharing. As this is a single observation, it is not yet established whether this represents a stable preference for the Sapphire brand, the toffee/truffle sub-category, or night-time ordering for this category.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., personal indulgence, gifting, or household stock) cannot be determined from this single event.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for the Sapphire brand, the toffee/truffle sub-category, or night-time ordering for this category.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-06"
+    ],
+    "first_seen_at": "2026-05-06T21:34:17",
+    "last_seen_at": "2026-05-06T21:34:17"
+  }
 }

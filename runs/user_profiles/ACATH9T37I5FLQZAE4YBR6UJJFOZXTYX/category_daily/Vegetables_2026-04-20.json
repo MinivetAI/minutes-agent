@@ -1,15 +1,23 @@
 {
   "date": "2026-04-20",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-20 (weekday), the user purchased one unit each of Baby Potato, Beetroot, Sweet Potato, and Onion during the afternoon. These unbranded fresh vegetables are consistent with a same-day cooking or meal-prep need. The order occurred in the afternoon, a daypart with a population baseline of 25.26%, which is less common than evening (30.27%) and morning (32.46%). As this is a single observed order, no durable brand or product preferences can be established.",
+  "summary_text": "On this weekday, the user ordered unbranded fresh vegetables (baby potato, beetroot, sweet potato, onion) during the afternoon. This single observation reflects a one-time need for immediate cooking or meal prep rather than a stable preference.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased one unit each of Baby Potato, Beetroot, Sweet Potato, and Onion. These unbranded fresh vegetables are consistent with a same-day cooking or meal-prep need.",
+      "pattern_text": "One order of unbranded fresh vegetables (baby potato, beetroot, sweet potato, onion) placed on a weekday afternoon.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "No browsing or search history was provided, so the path to purchase is unknown. As this is a single observed order, no durable brand or product preferences can be established.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for these specific vegetables or a one-time need.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-20"
+    ],
+    "first_seen_at": "2026-04-20T11:46:34",
+    "last_seen_at": "2026-04-20T11:46:34"
+  }
 }

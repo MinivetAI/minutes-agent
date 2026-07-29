@@ -1,9 +1,17 @@
 {
   "date": "2026-05-19",
   "day_type": "weekday",
-  "summary_text": "On 2026-05-19 (weekday), the user purchased 1 unit of Rajam Snacks Mix Farsan 400 g, a vegetarian Indian savoury snack mix (namkeen/farsan), during the afternoon. This timing aligns with the population baseline, which shows a 25.26% share for afternoon activity (compared to 32.46% in the morning and 30.27% in the evening). The product is a ready-to-eat salty snack mix, typically used for immediate consumption with tea or as a quick pantry staple. This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate craving vs. pantry restocking) cannot be determined from this single data point.",
+  "summary_text": "On 2026-05-19 (weekday), the user placed one order of Rajam Snacks Mix Farsan 400 g (1 unit) in the afternoon. This timing aligns with the population baseline for afternoon activity (share 0.2526). The product is a ready-to-eat Indian savoury snack mix, suitable for immediate consumption, tea-time accompaniment, or quick pantry stocking. This is a single observation on one date; it does not establish a stable brand preference, recurring daypart habit, or specific usage occasion. It is unclear if this represents a one-time need or the start of a pattern.",
   "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference, routine, or durable brand loyalty. The specific reason for this purchase (e.g., immediate craving vs. pantry restocking) cannot be determined from this single data point.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, recurring daypart habit, or specific usage occasion. It is unclear if this represents a one-time need or the start of a pattern.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-05-19"
+    ],
+    "first_seen_at": "2026-05-19T13:19:43",
+    "last_seen_at": "2026-05-19T13:19:43"
+  }
 }

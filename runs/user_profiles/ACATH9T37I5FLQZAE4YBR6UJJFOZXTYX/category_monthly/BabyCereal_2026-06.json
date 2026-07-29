@@ -1,26 +1,41 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased baby cereal on three independent dates (2026-06-04, 2026-06-11, 2026-06-25). The brand Nestlé Cerelac appeared on all three dates, meeting the repetition bar for stable preference. The specific variant 'Nestlé Cerelac Wheat Apple Carrot Cereal' appeared on two dates (2026-06-04 and 2026-06-25), meeting the repetition bar for stable preference. The variant 'Nestle Cerelac Ragi Apple Baby Food Cereal' appeared only once and is excluded from stable lists. Daypart patterns show purchases in the afternoon, night, and morning, with no single daypart recurring enough to establish a stable timing preference. All claims are based on low-confidence evidence due to the short observation window, but the repetition of the brand and one variant supports at least medium confidence for those specific stable preferences.",
+  "summary_text": "In June 2026, the user purchased Baby Cereal on three independent dates (2026-06-04, 2026-06-11, 2026-06-25), all on weekdays. The brand Nestlé Cerelac appears on all three dates, meeting the repetition bar for stable preference. The specific product variant 'Nestlé Cerelac Wheat Apple Carrot Cereal (300 g)' appears on two dates (2026-06-04 and 2026-06-25), also meeting the repetition bar. The variant 'Nestle Cerelac Ragi Apple Baby Food Cereal (300 g)' appears on one date (2026-06-11) and is excluded from stable lists. Daypart patterns show purchases in the afternoon, night, and morning, with no single daypart dominating across the month. Trend claims are limited to the observation of varied timing and product variants within the same brand family.",
   "stable_preference_claims": [
     {
       "dimension": "brand",
       "value": "Nestlé Cerelac",
-      "claim_text": "The user has a stable preference for the Nestlé Cerelac brand, evidenced by purchases on 3 independent dates in June 2026.",
-      "confidence": "medium",
+      "claim_text": "The user has purchased Nestlé Cerelac brand baby cereal on three independent dates in June 2026, indicating a stable brand preference.",
+      "confidence": "high",
       "evidence_count": 3,
       "independent_date_count": 3
     },
     {
       "dimension": "product",
       "value": "Nestlé Cerelac Wheat Apple Carrot Cereal (300 g)",
-      "claim_text": "The user has a stable preference for Nestlé Cerelac Wheat Apple Carrot Cereal (300 g), evidenced by purchases on 2 independent dates in June 2026.",
+      "claim_text": "The user has purchased Nestlé Cerelac Wheat Apple Carrot Cereal (300 g) on two independent dates in June 2026, indicating a stable product preference.",
       "confidence": "medium",
       "evidence_count": 2,
       "independent_date_count": 2
     }
   ],
   "temporal_patterns": [],
-  "trend_claims": [],
-  "uncertainty_text": "The observation period is limited to one month with three orders. While brand and one variant show repetition, the short timeframe limits the certainty of long-term habit formation. The specific reason for the night-time purchase on 2026-06-11 is unknown.",
-  "overall_confidence": "low"
+  "trend_claims": [
+    {
+      "claim_text": "Purchases occurred on three different weekdays in June 2026, with dayparts varying between afternoon, night, and morning.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty_text": "While the brand and one specific product variant show stable preference due to repetition, the inclusion of a different variant (Ragi Apple) on a separate date suggests potential variety-seeking or trial behavior within the brand. The single observation of the Ragi variant is not sufficient to establish a stable preference for that specific product.",
+  "overall_confidence": "medium",
+  "window_evidence": {
+    "order_count": 3,
+    "purchase_dates": [
+      "2026-06-04",
+      "2026-06-11",
+      "2026-06-25"
+    ],
+    "first_seen_at": "2026-06-04T11:20:07",
+    "last_seen_at": "2026-06-25T08:44:56"
+  }
 }

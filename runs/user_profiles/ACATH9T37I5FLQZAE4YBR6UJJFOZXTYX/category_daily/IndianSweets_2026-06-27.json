@@ -1,15 +1,23 @@
 {
   "date": "2026-06-27",
   "day_type": "weekend",
-  "summary_text": "On 2026-06-27 (weekend), one unit of Indian Sweets (Product ID: SAMHHWDWYZ2DTSST) was purchased during the afternoon. This timing aligns with a period of lower population share (0.2526) compared to the morning (0.3246) and evening (0.3027). The product is a sweet food item. This single observed transaction does not establish a stable preference or routine for Indian Sweets.",
+  "summary_text": "On this weekend, the user purchased one unit of SAMHHWDWYZ2DTSST (Indian Sweets) in the afternoon. This timing aligns with the population baseline, where afternoon purchases (0.2526) are less common than morning (0.3246) or evening (0.3027) purchases, but still represent a significant portion of activity. No brand preference or recurring pattern can be inferred from this single order.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "One unit of Indian Sweets was purchased during the afternoon on a weekend. This timing corresponds to a lower population share (0.2526) relative to the morning (0.3246) and evening (0.3027).",
+      "pattern_text": "One unit of SAMHHWDWYZ2DTSST (Indian Sweets) was purchased. This timing aligns with the population baseline, where afternoon purchases (0.2526) are less common than morning (0.3246) or evening (0.3027) purchases, but still represent a significant portion of activity.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for Indian Sweets.",
-  "overall_confidence": "low"
+  "uncertainty_text": "No brand preference can be established as no brand information was provided for the product. No recurring pattern or stable preference can be inferred from a single order on one date.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-27"
+    ],
+    "first_seen_at": "2026-06-27T11:47:32",
+    "last_seen_at": "2026-06-27T11:47:32"
+  }
 }

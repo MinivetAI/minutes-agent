@@ -1,7 +1,7 @@
 {
   "daypart": "afternoon",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-01-30 in the afternoon on a weekday. The basket contains four items across three categories: two units of Curd Yogurt, one unit of Vegetables, and one unit of Savouries Namkeens. The shopping need text suggests a need for basic meal components or snacks compatible with this combination. As this is a single observed order, it represents an observation rather than a durable preference pattern.",
+  "basket_summary_text": "A single order placed on 2026-01-30 in the afternoon on a weekday. The basket contains four items across three categories: two units of Curd Yogurt, one unit of Vegetables, and one unit of Savouries Namkeens. This represents a small, single-visit purchase with limited basket breadth.",
   "behavior_patterns": [],
   "category_combinations": [
     {
@@ -12,7 +12,9 @@
       "combination_text": "Curd Yogurt and Vegetables were purchased together in this order.",
       "support": 0.114,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -22,7 +24,9 @@
       "combination_text": "Curd Yogurt and Savouries Namkeens were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
@@ -32,11 +36,20 @@
       "combination_text": "Vegetables and Savouries Namkeens were purchased together in this order.",
       "support": null,
       "lift": null,
-      "confidence": "low"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "Basic meal components or snacks.",
-  "uncertainty_text": "This is a single observed order on one date. Stable or high-confidence preferences require repetition across independent dates. No durable behavior pattern can be inferred from this single instance.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The combination of fresh produce (Vegetables), dairy (Curd Yogurt), and snacks (Savouries Namkeens) is compatible with preparing a meal or assembling a light snack spread for immediate consumption.",
+  "uncertainty_text": "This inference is based on a single order on one date. It does not establish a durable preference, routine, or stable pattern. Confidence is low because there is no repetition across independent dates to confirm this behavior is typical for the user.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-30"
+    ],
+    "first_seen_at": "2026-01-30T13:30:25",
+    "last_seen_at": "2026-01-30T13:30:25"
+  }
 }

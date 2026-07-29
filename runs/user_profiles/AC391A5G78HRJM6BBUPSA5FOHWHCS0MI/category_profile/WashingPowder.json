@@ -1,40 +1,34 @@
 {
-  "category": "Washing Powder",
-  "profile_text": "The user demonstrates a stable, high-confidence preference for the Tide brand in Washing Powder, evidenced by purchases across five independent months (February through July 2026). The specific product variant is consistently Tide Naturals Lemon & Chandan Detergent Powder. Pack sizes vary between 1 kg and 3 kg, with ordered quantities ranging from 1 to 2 units per transaction. Purchases occur across weekdays and weekends, and morning, afternoon, and evening dayparts, indicating flexible timing driven by household replenishment needs rather than a rigid schedule. The observed cadence is slow (27 days), with the last purchase on 2026-07-04 and a predicted next purchase around 2026-07-31.",
-  "brand_preferences": [
-    {
-      "brand": "Tide",
-      "preference_text": "The user consistently purchases Tide brand washing powder across multiple independent dates, establishing a stable brand preference.",
-      "confidence": "high",
-      "evidence_count": 5,
-      "independent_date_count": 5
-    }
-  ],
-  "product_preferences": [
-    {
-      "preference_text": "The user repeatedly selects Tide Naturals Lemon & Chandan Detergent Powder, indicating a stable product preference.",
-      "examples": [],
-      "confidence": "high"
-    }
-  ],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Washing Powder",
+  "summary_text": "The user has purchased Tide Naturals Lemon & Chandan Detergent Powder across five independent months (Feb, Apr, May, Jun, Jul 2026). Purchases include 1 kg and 3 kg packs, with quantities of 1 or 2 units. Orders occurred on weekdays and weekends, in mornings, afternoons, and evenings. As each order represents a single independent date, no stable routine or high-confidence preference can be established yet; current observations are treated as low-confidence isolated events.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Tide Naturals",
+        "preference_text": "Tide Naturals Lemon & Chandan Detergent Powder",
+        "confidence": "medium",
+        "boundary_text": "Preference is limited to the Tide Naturals brand and specifically the Lemon & Chandan scent variant; it does not extend to other Tide sub-brands, other scents, or non-detergent laundry products."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No alternative brands or product types have been observed in the supplied evidence. It is unknown whether the user would accept substitutes from other brands (e.g., Ariel, Surf Excel) or different product forms (e.g., liquid, pods).",
+  "uncertainty_text": "Confidence is low because each purchase occurred on a distinct, independent date without overlapping patterns in timing, pack size, or quantity. It is unclear if the user is testing the product, reacting to immediate stockouts, or building a long-term habit. The specific scent preference (Lemon & Chandan) is observed but not yet confirmed as a durable requirement versus a situational choice.",
+  "retrieval_text": "User purchased Tide Naturals Lemon & Chandan Detergent Powder in 1 kg and 3 kg pack sizes across five independent months in 2026 (Feb, Apr, May, Jun, Jul). Orders included single units and a quantity of 2, occurring on both weekdays and weekends during morning, afternoon, and evening dayparts. Evidence is limited to single-observation dates per month, preventing the establishment of a stable routine or high-confidence brand loyalty, though the consistent selection of this specific brand and scent variant suggests an emerging preference that requires further repetition to confirm.",
   "replenishment": {
     "cadence_days": 27.0,
     "cadence_class": "slow",
-    "last_purchase_date": "2026-07-04",
     "predicted_next_purchase_date": "2026-07-31",
-    "replenishment_text": "The user purchases this category approximately every 27 days, classified as a slow replenishment cycle. The last purchase was on 2026-07-04, with the next expected around 2026-07-31.",
-    "confidence": "high",
-    "evidence_count": 5,
-    "independent_date_count": 5
+    "replenishment_text": "WashingPowder is reordered roughly every 27 days."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category reliably converts to purchase, as evidenced by five completed transactions across independent dates.",
-  "substitution_text": "No evidence of brand or product substitution; the user consistently selects the same brand and variant.",
-  "price_value_text": "Pack sizes vary (1 kg and 3 kg) and quantities vary (1-2 units), suggesting the user prioritizes immediate household needs or specific pack availability over a fixed bulk-buy strategy.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; the user has a clear, repeated purchase history.",
-  "mission_generation_text": "Supports ongoing household laundry needs, specifically for cleaning clothes with a preferred lemon and chandan scent profile.",
-  "overall_confidence": "high"
+  "evidence": {
+    "evidence_count": 5,
+    "independent_date_count": 5,
+    "first_seen_at": "2026-02-09T08:35:20",
+    "last_seen_at": "2026-07-04T11:35:29"
+  }
 }

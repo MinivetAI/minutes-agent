@@ -1,22 +1,18 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "basket_summary_text": "A single order placed on 2026-06-03 in the evening on a weekday contained one unit of Breads, two units of Milk, and one unit of Coffee. The basket demonstrates breadth across three distinct categories: Breads, Milk, and Coffee. The combination of Breads and Milk is supported by co-order evidence (Support: 0.26, Confidence: 0.722, Lift: 1.245, Co-order count: 13). The inclusion of Coffee alongside these staples suggests a compatible need for breakfast or morning meal components, though this specific combination (Breads/Milk/Coffee) is not explicitly quantified in the provided pair evidence. No abandoned carts were recorded for this daypart.",
+  "basket_summary_text": "A single order placed on 2026-06-03 in the evening on a weekday contains Breads, Milk, and Coffee. The basket includes 1 unit of Breads, 2 units of Milk, and 1 unit of Coffee. This combination of Breads and Milk is supported by historical co-order evidence with a support of 0.26, confidence of 0.722, and lift of 1.245. The presence of Coffee is not part of the supplied category pair evidence. This single observation does not establish a durable preference or routine.",
   "behavior_patterns": [],
-  "category_combinations": [
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk were purchased together in this order. This pairing is supported by historical co-order evidence with Support: 0.26, Confidence: 0.722, and Lift: 1.245 (Co-order count: 13).",
-      "support": 0.26,
-      "lift": null,
-      "confidence": "high"
-    }
-  ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The user may have a need for basic breakfast or morning meal items, specifically bread, milk, and coffee.",
-  "uncertainty_text": "This is a single observed order on one date; durable preferences or stable patterns cannot be inferred.",
-  "overall_confidence": "low"
+  "category_combinations": [],
+  "shopping_need_text": "The combination of Breads, Milk, and Coffee is compatible with a breakfast or morning meal preparation need, though the order was placed in the evening.",
+  "uncertainty_text": "This analysis is based on a single order on one independent date. No durable behavior patterns, routines, or stable preferences can be inferred from this single observation. Confidence in any inferred user behavior is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T16:24:08",
+    "last_seen_at": "2026-06-03T16:24:08"
+  }
 }

@@ -1,103 +1,56 @@
 {
   "date": "2026-03-28",
   "day_type": "weekend",
-  "summary_text": "On this weekend, two separate orders were placed: one in the morning and one in the afternoon. The morning order included 3 units of Curd Yogurt, 1 unit each of Dips Sauces Pastes, Rusks, and Canned Food, covering four distinct categories. The afternoon order included Paneer Tofu, Buttermilk, and two items from the Breads category. No abandoned carts were recorded in either daypart.",
+  "summary_text": "On 2026-03-28 (weekend), two separate orders were placed: one in the morning and one in the afternoon. The morning basket included Curd Yogurt, Dips Sauces Pastes, Rusks, and Canned Food, suggesting components for breakfast or quick snacks alongside shelf-stable stocking. The afternoon basket included Breads, Paneer Tofu, and Buttermilk, compatible with preparing sandwiches or toast with dairy and protein sides. No durable preferences or routines can be inferred from these single observations.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
     {
       "categories": [
-        "Canned Food",
-        "Curd Yogurt"
+        "Breads",
+        "Buttermilk"
       ],
-      "combination_text": "Canned Food and Curd Yogurt were purchased together in this order. This pair has a support of 0.057, confidence of 0.444, and lift of 1.244 based on co-order evidence.",
-      "support": 0.057,
+      "combination_text": "Breads and Buttermilk were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
         "Breads",
-        "CurdYogurt"
+        "Paneer Tofu"
       ],
-      "combination_text": "Breads and CurdYogurt",
-      "support": 0.129,
+      "combination_text": "Breads and Paneer Tofu were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     },
     {
       "categories": [
-        "CurdYogurt",
-        "Vegetables"
+        "Buttermilk",
+        "Paneer Tofu"
       ],
-      "combination_text": "CurdYogurt and Vegetables",
-      "support": 0.114,
+      "combination_text": "Buttermilk and Paneer Tofu were purchased together in this order.",
+      "support": null,
       "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CurdYogurt",
-        "Milk"
-      ],
-      "combination_text": "CurdYogurt and Milk",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Vegetables"
-      ],
-      "combination_text": "Breads and Vegetables",
-      "support": 0.086,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "Vegetables"
-      ],
-      "combination_text": "Milk and Vegetables",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Milk",
-        "SavouriesNamkeens"
-      ],
-      "combination_text": "Milk and SavouriesNamkeens",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "CannedFood",
-        "CurdYogurt"
-      ],
-      "combination_text": "CannedFood and CurdYogurt",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
-    },
-    {
-      "categories": [
-        "Breads",
-        "Milk"
-      ],
-      "combination_text": "Breads and Milk",
-      "support": 0.057,
-      "lift": null,
-      "confidence": "high"
+      "confidence": "low",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The morning order suggests a need for breakfast or snack components, combining dairy, savory spreads, and dry goods. The afternoon order suggests a need for ingredients to prepare a meal or snack, specifically involving Paneer Tofu, Buttermilk, and Breads.",
-  "uncertainty_text": "This analysis is based on a single observed order per daypart on one date. Durable preferences, stable patterns, or specific user types cannot be inferred. The presence of Rusks alongside Dips Sauces Pastes and Curd Yogurt suggests a compatible need for breakfast or snack items, though this specific combination is not explicitly supported by the provided pair evidence.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The morning order suggests a need for breakfast or snack components (curd, rusks, dips) and shelf-stable items (canned food). The afternoon order suggests a need for breakfast or snack components suitable for sandwiches or toast (breads, paneer/tofu, buttermilk).",
+  "uncertainty_text": "This analysis is based on single observations from one independent date (2026-03-28). No repeated behavior patterns, stable preferences, or routine purchasing habits can be inferred. Confidence in any behavioral inference is low.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 2,
+    "purchase_dates": [
+      "2026-03-28"
+    ],
+    "first_seen_at": "2026-03-28T09:52:49",
+    "last_seen_at": "2026-03-28T12:56:25"
+  }
 }

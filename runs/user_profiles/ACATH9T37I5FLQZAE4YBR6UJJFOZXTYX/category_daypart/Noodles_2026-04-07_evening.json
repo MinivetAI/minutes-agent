@@ -1,10 +1,17 @@
 {
   "daypart": "evening",
   "day_type": "weekday",
-  "summary_text": "Purchased one 12-pack of Maggi 2-Minute Masala Instant Noodles (70 g sachets) during the evening on a weekday.",
+  "summary_text": "One order of Maggi 2-Minute Masala Instant Noodles (70 g x 12) placed on a weekday evening.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The purchase occurred in the evening, a period where this user's activity (30.27% share) is slightly below the population baseline for morning (32.46%) but comparable to the population evening share (30.27%). The product is a high-urgency convenience item, typically used for quick meals or snacks when time is limited.",
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the evening, a period where this user's activity aligns with the population baseline (evening share 0.3027). The product is a high-urgency convenience item, typically used for quick meals or snacks when immediate appetite or time constraints are present.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this represents a stable preference for this brand, product, or timing, or if it was an isolated purchase driven by immediate need or stockout replacement.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

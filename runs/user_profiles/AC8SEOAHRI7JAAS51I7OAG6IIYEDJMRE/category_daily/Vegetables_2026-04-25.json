@@ -1,15 +1,23 @@
 {
   "date": "2026-04-25",
   "day_type": "weekend",
-  "summary_text": "On 2026-04-25 (weekend), the user purchased 1 unit of Tinda 500g (unbranded fresh vegetable) during the afternoon. This order occurred in a daypart with a 0.2526 population share, slightly lower than morning (0.3246) and evening (0.3027) baselines. The product is a perishable fresh vegetable typically used for immediate meal preparation. This is a single observed order; it does not establish a stable preference or routine for tinda or fresh vegetables in general.",
+  "summary_text": "On this weekend, the user ordered one unit of Tinda (500g) during the afternoon. This timing aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). Tinda is a fresh, perishable vegetable suitable for immediate meal preparation. This is a single observation on one date; it is insufficient to establish a stable brand preference, recurring daypart habit, or specific meal intent beyond the general utility of fresh produce.",
   "daypart_patterns": [
     {
       "daypart": "afternoon",
-      "pattern_text": "Purchased 1 unit of Tinda 500g (unbranded fresh vegetable).",
+      "pattern_text": "One order of Tinda 500g (1 unit) placed on a weekend afternoon. This timing aligns with the population afternoon share (0.2526) but is less common than the population baseline morning share (0.3246). Tinda is a fresh, perishable vegetable suitable for immediate meal preparation.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order; it does not establish a stable preference or routine for tinda or fresh vegetables in general.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is insufficient to establish a stable brand preference, recurring daypart habit, or specific meal intent beyond the general utility of fresh produce.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-25"
+    ],
+    "first_seen_at": "2026-04-25T13:07:11",
+    "last_seen_at": "2026-04-25T13:07:11"
+  }
 }

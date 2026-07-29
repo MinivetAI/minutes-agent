@@ -1,9 +1,23 @@
 {
   "date": "2026-03-14",
   "day_type": "weekend",
-  "summary_text": "One order of Naturbaked Zero Maida Whole Wheat Bread 300 g placed in the evening on a weekend. The order occurred in the evening, a time when this user's activity is slightly below the population baseline (30.27% share). The product is a packaged whole wheat loaf, typically used for quick breakfasts, toast, or sandwiches.",
-  "daypart_patterns": [],
+  "summary_text": "On this weekend, the user ordered one unit of Naturbaked Zero Maida Whole Wheat Bread (300 g) during the evening. This timing aligns with the population baseline where evening purchases account for 30.27% of activity. The product is a packaged whole wheat bread, generally suitable for quick breakfasts, toast, or sandwiches. This represents a single observation on one date and does not establish a stable brand preference, recurring routine, or specific dietary intent beyond the product's general utility.",
+  "daypart_patterns": [
+    {
+      "daypart": "evening",
+      "pattern_text": "One order of Naturbaked Zero Maida Whole Wheat Bread (300 g) placed on a weekend evening. This timing aligns with the population baseline where evening purchases account for 30.27% of activity. The product is a packaged whole wheat bread, generally suitable for quick breakfasts, toast, or sandwiches. This represents a single observation on one date and does not establish a stable brand preference, recurring routine, or specific dietary intent beyond the product's general utility.",
+      "confidence": "low"
+    }
+  ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it does not establish a stable brand preference, a recurring routine, or a specific dietary intent beyond the product's general utility.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-03-14"
+    ],
+    "first_seen_at": "2026-03-14T16:59:17",
+    "last_seen_at": "2026-03-14T16:59:17"
+  }
 }

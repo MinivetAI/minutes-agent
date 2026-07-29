@@ -1,15 +1,23 @@
 {
   "date": "2026-04-07",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-07 (weekday), the user purchased one 360 g pack of McCain Veggie Burger Patty in the evening. This order occurred during a period where the user's activity (0.3027) was slightly below the population baseline share (0.3246). The product is a frozen, ready-to-cook item intended for home preparation, suggesting a need for convenient meal assembly. This is a single observed transaction; it does not establish a stable preference or routine for this category or brand.",
+  "summary_text": "On 2026-04-07 (weekday), the user ordered one unit of McCain Veggie Burger Patty (360 g) in the evening. This timing aligns with a population evening share of 0.3027, which is slightly below the morning baseline of 0.3246. The purchase represents a single observation of a frozen vegetarian burger patty, suggesting a need for a convenient, ready-to-cook meal component. Due to the single date, no stable brand preference, recurring daypart habit, or specific dietary intent can be established.",
   "daypart_patterns": [
     {
       "daypart": "evening",
-      "pattern_text": "Purchased one 360 g pack of McCain Veggie Burger Patty in the evening on a weekday. The order occurred in the evening, a period where this user's activity (0.3027) is slightly below the population baseline share (0.3246). The product is a frozen, ready-to-cook item intended for home preparation, suggesting a need for convenient meal assembly.",
+      "pattern_text": "One order of McCain Veggie Burger Patty (360 g) placed on a weekday evening.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for this category or brand.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation on one date; it is not yet possible to establish a stable brand preference, recurring daypart habit, or specific dietary intent beyond the immediate utility of the purchased item.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-07"
+    ],
+    "first_seen_at": "2026-04-07T17:04:50",
+    "last_seen_at": "2026-04-07T17:04:50"
+  }
 }

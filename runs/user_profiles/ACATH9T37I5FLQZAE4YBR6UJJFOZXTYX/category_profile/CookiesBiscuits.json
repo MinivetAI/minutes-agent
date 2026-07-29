@@ -1,26 +1,27 @@
 {
-  "category": "Cookies Biscuits",
-  "profile_text": "A single observed purchase of a ready-to-eat, indulgent snack (Britannia Cheeze Dipped Cookies, 150 g) on a weekday morning. No stable preference, routine, or recurring cadence is established from this single data point.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Cookies Biscuits",
+  "summary_text": "In June 2026, the user ordered Britannia Cheeze Dipped Cookies (150 g) on a single weekday morning. This isolated observation aligns with the population baseline where morning accounts for 32.46% of activity. The product is a ready-to-eat premium snack, consistent with immediate consumption needs such as a quick treat or accompaniment to a morning beverage. As this is the only order recorded for this category in the month, no stable preferences or recurring patterns can be established.",
+  "preferences": {
+    "products": [],
+    "brands": [],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution patterns established due to single observation.",
+  "uncertainty_text": "This is a single observation on one date; it is not yet established whether this represents a stable preference for this brand or product type, or if it was an isolated impulse purchase.",
+  "retrieval_text": "User ordered Britannia Cheeze Dipped Cookies (150 g) on a single weekday morning in June 2026, aligning with population morning activity baseline (32.46%). This ready-to-eat premium snack suggests immediate consumption needs like a quick treat or morning beverage accompaniment. No stable brand, variant, or pack size preferences established due to lack of repetition across independent dates.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-06-23",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No recurring cadence observed; last purchase was on 2026-06-23.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for CookiesBiscuits yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution patterns observed due to single purchase.",
-  "price_value_text": "No price/value behavior established from a single transaction.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No evidence of avoidance or uncertainty; only one purchase recorded.",
-  "mission_generation_text": "Immediate consumption of a ready-to-eat, indulgent snack.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-06-23T09:00:59",
+    "last_seen_at": "2026-06-23T09:00:59"
+  }
 }

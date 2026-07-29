@@ -1,15 +1,17 @@
 {
   "date": "2026-06-03",
   "day_type": "weekday",
-  "summary_text": "On 2026-06-03 (weekday), one order of Johnson's Baby Lotion 500 ml was placed in the morning. This timing aligns with a period of above-baseline activity (32.5%). The product is a large-format baby moisturizer intended for daily skin care. This is a single observation on one date; it does not establish a stable preference or routine for this brand or category.",
-  "daypart_patterns": [
-    {
-      "daypart": "morning",
-      "pattern_text": "One order of Johnson's Baby Lotion 500 ml was placed in the morning, a time when this user's activity is above the population baseline (32.5%). The product is a large-format baby moisturizer intended for daily skin care.",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-06-03 (weekday), the user purchased Johnson's Baby Lotion 500 ml in the morning. This timing aligns with the population baseline where morning purchases account for 32.46% of activity. The product is a baby moisturizing lotion, typically used for daily skin care after bathing or when skin feels dry. This is a single observation from one date. It is not yet established whether this represents a stable preference, a routine purchase, or a one-time need. No brand or product preference can be confirmed from this single order.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observation on one date; it does not establish a stable preference or routine for this brand or category.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference, a routine purchase, or a one-time need. No brand or product preference can be confirmed from this single order.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-03"
+    ],
+    "first_seen_at": "2026-06-03T09:32:51",
+    "last_seen_at": "2026-06-03T09:32:51"
+  }
 }

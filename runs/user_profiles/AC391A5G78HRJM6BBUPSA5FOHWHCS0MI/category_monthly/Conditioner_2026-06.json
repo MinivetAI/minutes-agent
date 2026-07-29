@@ -1,9 +1,17 @@
 {
   "month": "2026-06",
-  "summary_text": "In June 2026, the user purchased one 175 ml bottle of L'Oréal Paris Total Repair 5 Conditioner on a single weekday in the evening. This product is a damaged-hair repairing conditioner intended for use after shampooing to improve smoothness and manageability. The order occurred during the evening, a period with a 0.3027 population share, slightly below the morning baseline of 0.3246. As this is the only observed order for this category in the month, durable brand or product preferences cannot be established.",
+  "summary_text": "On 2026-06-02, the user ordered L'Oréal Paris Total Repair 5 Conditioner (175 ml) during the evening. This timing aligns with the population baseline for weekday evenings (30.27%). The product is a damaged-hair repairing conditioner, typically used after shampooing to improve softness and manageability. This is a single observation; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time replacement or trial.",
   "stable_preference_claims": [],
   "temporal_patterns": [],
   "trend_claims": [],
-  "uncertainty_text": "This is a single observed order on one date; durable brand or product preferences cannot be established. It is unknown if this was a replacement for a depleted item, a trial of a new product, or part of a broader hair care routine.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation; it is not yet established whether this represents a stable preference for this brand or product type, or if it was a one-time replacement or trial.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-06-02"
+    ],
+    "first_seen_at": "2026-06-02T18:52:09",
+    "last_seen_at": "2026-06-02T18:52:09"
+  }
 }

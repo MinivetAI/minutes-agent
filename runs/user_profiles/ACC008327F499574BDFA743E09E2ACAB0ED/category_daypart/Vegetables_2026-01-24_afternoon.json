@@ -1,10 +1,17 @@
 {
   "daypart": "afternoon",
   "day_type": "weekend",
-  "summary_text": "Purchased one 3-piece pack of unbranded fresh lemons during the afternoon on a weekend.",
+  "summary_text": "One order of Fresh Lemon 3 Pieces (Unbranded) was completed on 2026-01-24 in the afternoon.",
   "preference_claims": [],
-  "funnel_signal": null,
-  "shopping_context_text": "The order occurred in the afternoon, a time when this user's activity is less frequent than the population baseline (25.3% share vs. 32.5% morning share). The product is a basic produce item typically used for immediate culinary needs such as seasoning, drinks, or salads.",
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference for lemons, unbranded produce, or afternoon shopping habits.",
-  "overall_confidence": "low"
+  "shopping_context_text": "The order occurred in the afternoon, which aligns with the population baseline where afternoon shares 0.2526 of activity (compared to morning at 0.3246 and evening at 0.3027). The product is a fresh citrus fruit typically used for immediate culinary needs such as seasoning, drinks, or salads.",
+  "uncertainty_text": "No stable preferences can be established from a single order. It is unknown if the user regularly purchases lemons, prefers this specific pack size, or has a consistent preference for afternoon shopping on weekends.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-24"
+    ],
+    "first_seen_at": "2026-01-24T14:45:43",
+    "last_seen_at": "2026-01-24T14:45:43"
+  }
 }

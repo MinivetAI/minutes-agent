@@ -1,15 +1,17 @@
 {
   "date": "2026-01-26",
   "day_type": "weekday",
-  "summary_text": "On 2026-01-26 (weekday), the user purchased 2 tender coconuts and 1 pack (500 g) of sapota (chikoo) during the evening. This evening purchase aligns with a high population share (0.3027) for the Fruits category, suggesting a convenient top-up or immediate refreshment need rather than a planned morning stock-up. This is a single-observation window; it is not yet established whether this represents a stable preference for fresh tropical fruits or a one-time hydration/snack need.",
-  "daypart_patterns": [
-    {
-      "daypart": "evening",
-      "pattern_text": "Purchased 2 tender coconuts and 1 pack (500 g) of sapota (chikoo).",
-      "confidence": "low"
-    }
-  ],
+  "summary_text": "On 2026-01-26 (weekday), the user ordered 2 Tender Coconuts and 1 Sapota Chikoo (500 g) during the evening. This timing aligns with the population baseline where evening accounts for 30.27% of activity, slightly below the morning share (32.46%). The items are fresh fruits typically used for immediate hydration and snacking. This is a single observation from one date; it does not establish a stable preference or routine for these specific products or this daypart.",
+  "daypart_patterns": [],
   "preference_claims": [],
-  "uncertainty_text": "This is a single-observation window; it is not yet established whether this represents a stable preference for fresh tropical fruits or a one-time hydration/snack need.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date; it does not establish a stable preference or routine for these specific products or this daypart.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-01-26"
+    ],
+    "first_seen_at": "2026-01-26T19:26:36",
+    "last_seen_at": "2026-01-26T19:26:36"
+  }
 }

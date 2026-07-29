@@ -1,26 +1,34 @@
 {
-  "category": "Besan",
-  "profile_text": "A single observed purchase of Tata Sampann Fine Besan (0.5 kg) on 2026-05-07 (weekday, morning). This product is a staple cooking ingredient for everyday Indian recipes and snacks. No durable brand or product preferences can be established from this isolated event.",
-  "brand_preferences": [],
-  "product_preferences": [],
-  "quantity_preferences": [],
-  "temporal_preferences": [],
+  "category_name": "Besan",
+  "summary_text": "A single order of Tata Sampann Fine Besan (0.5 kg) was observed on 2026-05-07 (weekday) in the morning. This aligns with the common morning purchase pattern (32.46% population baseline) and suggests an immediate cooking need for snacks or batters. As this is the only observed date, it does not establish a stable preference or routine.",
+  "preferences": {
+    "products": [],
+    "brands": [
+      {
+        "brand": "Tata Sampann",
+        "preference_text": "Tata Sampann is the only brand observed for Besan.",
+        "confidence": "low",
+        "boundary_text": "This observation is limited to a single date and does not establish a stable brand preference."
+      }
+    ],
+    "variants": [],
+    "pack_sizes": [],
+    "ordered_quantities": []
+  },
+  "daypart_understanding": [],
+  "substitution_text": "No substitution evidence is available. It is unknown whether the user would accept other brands or product forms.",
+  "uncertainty_text": "This is a single observation on one date. It is not yet established whether this brand or product type represents a stable preference or routine. No other brands, variants, or daypart patterns have been observed.",
+  "retrieval_text": "User ordered Tata Sampann Fine Besan (0.5 kg) on 2026-05-07 (weekday) in the morning, aligning with a common morning purchase pattern (32.46% population baseline). This single observation suggests an immediate cooking need for snacks or batters but does not establish a stable preference or routine due to lack of repetition across independent dates.",
   "replenishment": {
     "cadence_days": null,
     "cadence_class": "unknown",
-    "last_purchase_date": "2026-05-07",
     "predicted_next_purchase_date": null,
-    "replenishment_text": "No cadence established from a single purchase; next purchase date is unknown.",
-    "confidence": "low",
-    "evidence_count": 1,
-    "independent_date_count": 1
+    "replenishment_text": "Not enough independent purchase dates to establish a cadence for Besan yet."
   },
-  "discovery_candidate": null,
-  "conversion_text": "Interest in this category resulted in a completed purchase.",
-  "substitution_text": "No substitution behavior observed.",
-  "price_value_text": "No price or value behavior observed.",
-  "emerging_preferences": [],
-  "avoidance_or_uncertainty_text": "No avoidance or uncertainty signals detected.",
-  "mission_generation_text": "Restocking staple cooking ingredients for everyday Indian recipes and snacks.",
-  "overall_confidence": "low"
+  "evidence": {
+    "evidence_count": 1,
+    "independent_date_count": 1,
+    "first_seen_at": "2026-05-07T08:31:16",
+    "last_seen_at": "2026-05-07T08:31:16"
+  }
 }

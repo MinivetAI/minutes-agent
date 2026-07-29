@@ -1,7 +1,7 @@
 {
   "date": "2026-07-15",
   "day_type": "weekday",
-  "summary_text": "A single order was placed on 2026-07-15 during the evening weekday. The basket contains seven items across five categories: Pooja Flowers (2 units), Breads (1), Vegetables (1), Ready Meals (1), Indian Sweets (1), and Paneer Tofu (1). The combination of Pooja Flowers with Ready Meals, Indian Sweets, and Paneer Tofu suggests a specific meal or ritual preparation need compatible with the purchased items. No abandoned carts were recorded for this daypart.",
+  "summary_text": "On this weekday evening, a single order was placed containing 7 items across 6 categories. The basket combined meal components (Ready Meals, Vegetables, Paneer Tofu, Breads) with religious items (Pooja Flowers) and a sweet treat (Indian Sweets). This specific combination of categories is observed only once.",
   "daypart_behavior": [],
   "behavior_patterns": [],
   "category_combination_patterns": [
@@ -13,41 +13,20 @@
       "combination_text": "Breads and Vegetables were purchased together in this order.",
       "support": 0.22,
       "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Pooja Flowers",
-        "Ready Meals"
-      ],
-      "combination_text": "Pooja Flowers and Ready Meals were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Pooja Flowers",
-        "Indian Sweets"
-      ],
-      "combination_text": "Pooja Flowers and Indian Sweets were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
-    },
-    {
-      "categories": [
-        "Pooja Flowers",
-        "Paneer Tofu"
-      ],
-      "combination_text": "Pooja Flowers and Paneer Tofu were purchased together in this order.",
-      "support": null,
-      "lift": null,
-      "confidence": "low"
+      "confidence": "medium",
+      "evidence_count": 1,
+      "independent_date_count": 1
     }
   ],
-  "abandonment_patterns": [],
-  "shopping_need_text": "The purchase of Pooja Flowers alongside Ready Meals, Indian Sweets, and Paneer Tofu is compatible with a need for preparing a specific meal or ritual offering that includes both food items and ceremonial flowers.",
-  "uncertainty_text": "This analysis is based on a single observed order on one independent date. Stable preferences, recurring habits, or durable behavioral patterns cannot be inferred from this single data point. Confidence in inferred user behavior is low.",
-  "overall_confidence": "low"
+  "shopping_need_text": "The user may be preparing a meal involving ready-made components and fresh ingredients, possibly for a special occasion or religious observance given the inclusion of Pooja Flowers and Indian Sweets.",
+  "uncertainty_text": "This is a single observation on one date. No durable preference or routine can be established from this order alone. The presence of Pooja Flowers and Indian Sweets suggests a potential cultural or religious context, but this is not confirmed by repeated behavior.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-07-15"
+    ],
+    "first_seen_at": "2026-07-15T19:53:06",
+    "last_seen_at": "2026-07-15T19:53:06"
+  }
 }

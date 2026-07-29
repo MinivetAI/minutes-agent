@@ -1,15 +1,23 @@
 {
   "date": "2026-04-10",
   "day_type": "weekday",
-  "summary_text": "On 2026-04-10 (weekday), the user purchased one unit each of Potato (400–450g) and Onion (400–450g) in the morning. This order occurred during a morning period with above-baseline activity (32.46%). The items are fresh, loose-weight staples typically used as immediate cooking bases or for quick meal preparation. This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
+  "summary_text": "On this weekday, the user purchased unbranded fresh vegetables, specifically one unit each of Potato (400–450g) and Onion (400–450g). The order occurred in the morning, a time that aligns with the population baseline where morning represents the largest share of activity (32.46%). These fresh, loose-weight staples are typically used for immediate meal preparation or as base ingredients for cooking. This is a single observation from one date; it is not yet established whether this represents a stable preference for these specific items, a routine morning shopping habit, or a one-time need for these specific ingredients.",
   "daypart_patterns": [
     {
       "daypart": "morning",
-      "pattern_text": "Purchased one unit each of Potato (400–450g) and Onion (400–450g).",
+      "pattern_text": "One order of unbranded fresh vegetables, specifically one unit each of Potato (400–450g) and Onion (400–450g). The order occurred on a weekday morning, aligning with the population baseline where morning represents the largest share of activity (32.46%). These fresh, loose-weight staples are typically used for immediate meal preparation or as base ingredients for cooking.",
       "confidence": "low"
     }
   ],
   "preference_claims": [],
-  "uncertainty_text": "This is a single observed transaction; it does not establish a stable preference or routine for these specific vegetables.",
-  "overall_confidence": "low"
+  "uncertainty_text": "This is a single observation from one date. It is not yet established whether this represents a stable preference for these specific items, a routine morning shopping habit, or a one-time need for these specific ingredients.",
+  "overall_confidence": "low",
+  "window_evidence": {
+    "order_count": 1,
+    "purchase_dates": [
+      "2026-04-10"
+    ],
+    "first_seen_at": "2026-04-10T08:18:41",
+    "last_seen_at": "2026-04-10T08:18:41"
+  }
 }
