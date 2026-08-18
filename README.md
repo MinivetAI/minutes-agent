@@ -26,6 +26,12 @@ Current tasks:
 - `user_basket_monthly_summary` -> `POST /user/basket/monthly-summary`
 - `user_basket_profile` -> `POST /user/basket/profile`
 - `user_global_profile` -> `POST /user/global-profile`
+- `location_category_daypart_summary` -> `POST /location/category/daypart-summary`
+- `location_category_daily_summary` -> `POST /location/category/daily-summary`
+- `location_category_monthly_summary` -> `POST /location/category/monthly-summary`
+- `location_category_profile` -> `POST /location/category/profile`
+- `location_global_profile` -> `POST /location/global-profile`
+- `user_category_jump_exploratory_queries` -> `POST /user/global/exploratory-queries`
 - `user_feed_quality_review` -> `POST /user/feed-quality-review`
 - `user_occasion_event_occurrence_summary` -> `POST /user/occasion/occurrence-summary`
 - `user_occasion_event_profile` -> `POST /user/occasion/profile`
@@ -65,6 +71,9 @@ python app.py \
   --max-concurrent 256
 ```
 
+For a local, interactive profile endpoint playground, see
+[`docs/profile-api-playground.md`](docs/profile-api-playground.md).
+
 ## Batch sample fetch
 
 ```bash
@@ -77,6 +86,12 @@ This reads representative products from `/home/aditya/Minivet/minutes/data/minut
 ## Notes
 
 - The intent model and product understanding notes live in `docs/flipkart-minutes-understanding.md`.
+- The production execution plan connecting enriched products, enriched
+  missions, detailed user profiles, Solr serviceability, Aerospike metadata,
+  in-memory ranking, and the two feed endpoints lives in
+  `docs/user-profile-feed-service-architecture.md`.
+- The current Solr retrieval, source weighting, diversity, and session-aware
+  load-more handoff lives in `docs/minutes-feed-generation-handoff.md`.
 - The current implementation is intentionally small and task-driven.
 - Query improvement and parsing borrow the task shape from `shopsy-agent` and use local Indian and brand context files when available.
 - Mission-profile tasks use a compressed hierarchy: raw orders only at hourly

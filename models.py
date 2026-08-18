@@ -1,7 +1,7 @@
 from enum import Enum
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class GenderApplicability(str, Enum):
@@ -1072,6 +1072,216 @@ class GlobalProfileOutput(BaseModel):
         description="Always left null by the model; stamped as 'global' by the calling system",
     )
     updated_at: Optional[str] = Field(default=None, description="Always left null by the model; stamped by the calling system")
+
+
+class CategorySummaryExploratoryInput(BaseModel):
+    """Identity-free input for agent-owned category-jump query generation."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    category_summaries: Dict[str, str] = Field(
+        min_length=1,
+        description="Final category name to summary_text map; contains no user identity or storage fields",
+    )
+
+
+class ExploratoryRouteOutput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    route_id: str = Field(description="Approved route id supplied by Minutes Agent")
+    source_categories: List[str] = Field(
+        min_length=1,
+        max_length=2,
+        description="Observed source categories copied exactly from the approved route",
+    )
+    target_category: str = Field(
+        description="Canonical analytical target category copied exactly from the approved route"
+    )
+    mission_queries: List[str] = Field(
+        min_length=1,
+        max_length=2,
+        description="Independent mission-retrieval queries for this approved jump",
+    )
+    product_queries: List[str] = Field(
+        min_length=1,
+        max_length=2,
+        description="Independent product-retrieval queries focused on the approved target category",
+    )
+
+
+class CategorySummaryExploratoryOutput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    exploratory_routes: List[ExploratoryRouteOutput] = Field(
+        default_factory=list,
+        description="One entry for every category jump approved internally by Minutes Agent",
+    )
+
+
+# Feed-profile V2 contracts -------------------------------------------------
+#
+# These models are intentionally separate from the earlier verbose profile
+# models above. Existing running-profile experiments can remain readable while
+# the production Minutes feed tasks move to the compact text-only contract.
+
+
+class FeedProfileModel(BaseModel):
+    """Identity-free input/output boundary for the Minutes feed profile flow."""
+
+    model_config = ConfigDict(extra="forbid")
+
+
+class FeedCategoryProductEvidence(FeedProfileModel):
+    product_name: str = Field(description="Catalog product name")
+    brand: Optional[str] = Field(default=None, description="Catalog brand")
+    type: Optional[str] = Field(default=None, description="Catalog product type within the category")
+    brand_category: Optional[str] = Field(
+        default=None,
+        description="Catalog commercial brand class, for example national, d2c, cheap, or local",
+    )
+    brand_tier: Optional[str] = Field(default=None, description="Catalog brand tier")
+    price_tier: Optional[str] = Field(default=None, description="Catalog price tier")
+    pack_size: Optional[str] = Field(default=None, description="Catalog pack-size text")
+    ordered_quantity: int = Field(ge=1, description="Total units ordered in this daypart window")
+    product_description: Optional[str] = Field(default=None, description="Catalog product description")
+
+
+class FeedCategoryDaypartInput(FeedProfileModel):
+    category: str = Field(description="Analytical vertical being summarized")
+    daypart: Daypart = Field(description="Caller-provided Minutes daypart")
+    day_type: DayType = Field(description="Caller-provided weekday or weekend")
+    products: List[FeedCategoryProductEvidence] = Field(
+        min_length=1,
+        description="Catalog-enriched products aggregated in this category/daypart window",
+    )
+
+
+class FeedSummaryOutput(FeedProfileModel):
+    summary_text: str = Field(description="One concise factual summary of the supplied evidence")
+
+
+class FeedDaypartSummary(FeedProfileModel):
+    daypart: Daypart
+    day_type: DayType
+    summary_text: str
+
+
+class FeedDailySummary(FeedProfileModel):
+    day_type: DayType
+    summary_text: str
+
+
+class FeedMonthlySummary(FeedProfileModel):
+    summary_text: str
+
+
+class FeedCategoryDailyInput(FeedProfileModel):
+    category: str
+    day_type: DayType
+    daypart_summaries: List[FeedDaypartSummary] = Field(min_length=1)
+
+
+class FeedCategoryMonthlyInput(FeedProfileModel):
+    category: str
+    daily_summaries: List[FeedDailySummary] = Field(min_length=1)
+
+
+class FeedDaypartQueryProfile(FeedProfileModel):
+    daypart: Daypart
+    day_type: DayType
+    summary_text: str
+    mission_queries: List[str] = Field(min_length=1, max_length=3)
+    product_queries: List[str] = Field(min_length=1, max_length=3)
+
+
+class FeedCategoryProfileInput(FeedProfileModel):
+    category: str
+    recent_daypart_summaries: List[FeedDaypartSummary] = Field(default_factory=list, max_length=24)
+    recent_daily_summaries: List[FeedDailySummary] = Field(default_factory=list, max_length=31)
+    monthly_summaries: List[FeedMonthlySummary] = Field(default_factory=list, max_length=18)
+
+
+class FeedProfileOutput(FeedProfileModel):
+    summary_text: str
+    mission_queries: List[str] = Field(min_length=1, max_length=3)
+    product_queries: List[str] = Field(min_length=1, max_length=3)
+    daypart_profiles: List[FeedDaypartQueryProfile] = Field(default_factory=list, max_length=8)
+
+
+class FeedBasketProductEvidence(FeedCategoryProductEvidence):
+    category: str = Field(description="Analytical vertical for this product")
+
+
+class FeedBasketOrder(FeedProfileModel):
+    products: List[FeedBasketProductEvidence] = Field(min_length=1)
+
+
+class FeedBasketDaypartInput(FeedProfileModel):
+    daypart: Daypart
+    day_type: DayType
+    orders: List[FeedBasketOrder] = Field(min_length=1, description="Complete orders; order boundaries are preserved")
+
+
+class FeedBasketDailyInput(FeedProfileModel):
+    day_type: DayType
+    daypart_summaries: List[FeedDaypartSummary] = Field(min_length=1)
+
+
+class FeedBasketMonthlyInput(FeedProfileModel):
+    daily_summaries: List[FeedDailySummary] = Field(min_length=1)
+
+
+class FeedBasketProfileInput(FeedProfileModel):
+    recent_daypart_summaries: List[FeedDaypartSummary] = Field(default_factory=list, max_length=24)
+    recent_daily_summaries: List[FeedDailySummary] = Field(default_factory=list, max_length=31)
+    monthly_summaries: List[FeedMonthlySummary] = Field(default_factory=list, max_length=18)
+
+
+class FeedGlobalCategoryInput(FeedProfileModel):
+    category: str
+    summary_text: str
+
+
+class FeedGlobalProfileInput(FeedProfileModel):
+    category_profiles: List[FeedGlobalCategoryInput] = Field(min_length=1, max_length=40)
+    basket_summary_text: str = Field(description="Final basket profile summary text")
+
+
+class FeedGlobalProfileOutput(FeedProfileModel):
+    summary_text: str
+    brand_category: Optional[Literal["national", "d2c", "cheap", "local"]] = Field(default=None)
+    brand_tier: Optional[Literal["value", "mass", "mass_premium", "premium"]] = Field(default=None)
+    price_tier: Optional[Literal["low", "mid", "high"]] = Field(default=None)
+    mission_queries: List[str] = Field(min_length=1, max_length=3)
+    product_queries: List[str] = Field(min_length=1, max_length=3)
+
+
+class FeedLocationCategoryProductEvidence(FeedCategoryProductEvidence):
+    order_count: int = Field(ge=1, description="Orders containing this product in the location daypart window")
+    buyer_count: int = Field(ge=1, description="Distinct buyers for this product in the location daypart window")
+
+
+class FeedLocationCategoryDaypartInput(FeedProfileModel):
+    category: str
+    daypart: Daypart
+    day_type: DayType
+    products: List[FeedLocationCategoryProductEvidence] = Field(min_length=1)
+
+
+class FeedLocationCategoryDailyInput(FeedCategoryDailyInput):
+    pass
+
+
+class FeedLocationCategoryMonthlyInput(FeedCategoryMonthlyInput):
+    pass
+
+
+class FeedLocationCategoryProfileInput(FeedCategoryProfileInput):
+    pass
+
+
+class FeedLocationGlobalProfileInput(FeedProfileModel):
+    category_profiles: List[FeedGlobalCategoryInput] = Field(min_length=1, max_length=40)
 
 
 # Running/incremental profile pipeline: an alternative to the category/basket/

@@ -1108,6 +1108,273 @@ context overlays.
 """
 
 
+# Compact feed-profile tasks. These are the production contracts used by the
+# category/basket/global feed waterfall. They intentionally do not reuse the
+# older confidence/evidence/profile-jargon instructions above.
+FEED_PROFILE_GROUNDING = """
+Use only the supplied facts. Keep every string concise, concrete, and useful
+as an independent semantic-retrieval query. Do not invent a product, brand,
+pack, quantity, price, commercial class, user circumstance, or reason for a
+purchase. Do not include identifiers, dates, months, confidence, uncertainty,
+scores, storage fields, embeddings, vectors, or explanatory prose outside the
+required JSON fields.
+"""
+
+
+FEED_USER_CATEGORY_DAYPART_SUMMARY = f"""
+Summarize the catalog-enriched products bought in one Minutes category during
+one supplied daypart and day type. Return only `summary_text` and
+include one final `Commercial preference:` clause in it.
+
+Preserve supplied product name, brand, type, pack size, and ordered quantity
+when present. Describe purchases as observations in this window, not as a
+durable preference. `brand_category`, `brand_tier`, and `price_tier` are
+catalog facts for later synthesis. Do not add a separate commercial-facts
+sentence. End the summary with `Commercial preference: ` followed by
+`commercial_source_text` exactly; never infer, rename, or reinterpret it.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_CATEGORY_DAILY_SUMMARY = f"""
+Combine the supplied summaries for one category and one caller-defined local
+day. Return only `summary_text`. Preserve meaningful daypart differences and
+the supplied weekday/weekend context. This is a compact summary of the input,
+not a new source of evidence and not a long-term preference claim.
+End `summary_text` with the exact supported `Commercial preference:` clause
+from the supplied summaries. Do not invent or rename commercial values; use
+`not_observed` for a field without one unambiguous supplied value.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_CATEGORY_MONTHLY_SUMMARY = f"""
+Combine the supplied daily summaries for one category and one caller-defined
+monthly window. Return only `summary_text`. Retain repeated product, brand,
+type, pack, quantity, daypart, and weekday/weekend patterns. A single daily
+observation stays an observation; only patterns visible in the supplied daily
+summaries may be described as repeated.
+End `summary_text` with the exact supported `Commercial preference:` clause
+from the supplied summaries. Do not invent or rename commercial values; use
+`not_observed` for a field without one unambiguous supplied value.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_CATEGORY_PROFILE = f"""
+Build the final profile for exactly one Minutes category. Return
+`summary_text`, `mission_queries`, `product_queries`, and
+`daypart_profiles`.
+
+The three supplied resolutions overlap: a daypart summary is represented
+inside its daily summary, and a daily summary is represented inside its monthly
+summary. Never count the same behaviour three times. Use monthly summaries to
+establish durable patterns; use recent daily and daypart summaries only to keep
+the profile current and to preserve supported daypart/day-type detail.
+
+`summary_text` states the demonstrated category preference as concisely as
+possible, including exact brand/type/pack/quantity only when supported.
+End `summary_text` with the exact supported `Commercial preference:` clause.
+It is the path from category evidence to the global runtime fields; do not
+infer, rename, or omit a field. Use `not_observed` for any field without one
+unambiguous supplied value.
+If repeated evidence is present, state that repetition in `summary_text`; do
+not reduce the profile to a bare product list. `mission_queries` and
+`product_queries` are independent embedding queries. A mission query is a
+short shopping need or use case such as "Restock familiar toned milk in
+practical 500 ml packs"; it is never a brand/SKU search phrase, a bare product
+name, or only a time phrase.
+Order product queries from exact demonstrated affinity to safe broadening:
+exact product, same brand/type/pack, then same type/pack from another brand.
+Do not broaden a milk preference into curd or unrelated dairy.
+
+Include a `daypart_profiles` entry only for a daypart/day-type combination
+actually supported by the supplied summaries. Its queries must be specific to
+that context. Do not create empty contexts.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_BASKET_DAYPART_SUMMARY = f"""
+Summarize complete orders placed in one Minutes daypart. Return only
+`summary_text`. Preserve order boundaries and describe concrete products and
+categories that occur together. Do not treat products from different orders as
+a basket relationship, and do not infer hidden user intent from one basket.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_BASKET_DAILY_SUMMARY = f"""
+Combine supplied daypart basket summaries for one caller-defined local day.
+Return only `summary_text`. Preserve the complete-order and daypart meaning.
+This is a compact rendering of input evidence, not a new observation.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_BASKET_MONTHLY_SUMMARY = f"""
+Combine supplied daily basket summaries for one caller-defined monthly window.
+Return only `summary_text`. Keep repeated cross-category or companion-product
+patterns and their daypart/day-type context. Do not describe a one-off basket
+as a durable relationship.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_BASKET_PROFILE = f"""
+Build the final cross-category basket profile. Return `summary_text`,
+`mission_queries`, `product_queries`, and `daypart_profiles`.
+
+The daypart, daily, and monthly summaries overlap. Monthly summaries establish
+durable basket relationships; recent daypart/daily summaries preserve current
+and context-specific detail without being counted again. Base queries describe
+the basket or companion space, not just another exact-product category query.
+Publish a daypart profile only when that daypart/day-type relationship is
+supported by the supplied summaries.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_USER_GLOBAL_PROFILE = f"""
+Build one global Minutes profile from final category profile summaries and the
+final basket profile summary. Return
+`summary_text`, optional `brand_category`, optional `brand_tier`, optional
+`price_tier`, `mission_queries`, and `product_queries`.
+
+Each category summary and the basket summary are already compressed evidence.
+Use categories for demonstrated category affinity and the basket for companion
+and cross-category understanding. The global profile has no daypart input or
+daypart profile.
+
+The global queries may connect categories into plausible broader or exploratory
+mission/product spaces, but must never present an unseen product as an
+established user preference. Do not restate an exact observed SKU as a global
+query: category profiles already cover exact affinity. A global mission query
+must be a broader shopping need, and a global product query must be a broader
+or tangential product space.
+
+`approved_category_expansions` is the agent-owned category-jump map. It is
+the only authority for tangential global queries. Produce one mission query
+and one product query for each listed expansion, using its target category and
+intent. Every target's required product-query term must occur in both its
+mission query and its product query. Do not create a different expansion, and
+do not repeat a source category in a global query. When there are no approved expansions, return one
+careful broader cross-category query only if it is supported by the summaries.
+
+Final check before responding: every global mission and product query must be
+about an approved target, never the observed source. For example, a `Milk` to
+`Oats` expansion produces "Prepare quick oats breakfasts" and "Oats and
+oatmeal" — not "breakfast with milk" or "toned milk". A `Milk` to `Tea`
+expansion produces a tea routine and tea products; a `Milk` to `Coffee`
+expansion produces a coffee routine and coffee products.
+
+Read the explicit `Commercial preference:` clauses in the category summaries
+and basket summary as the only source of the three commercial fields. Emit a
+field only when that combined evidence establishes one non-`not_observed`
+value; do not derive it from product or brand wording elsewhere in a summary.
+Valid `brand_category` values are only `national`,
+`d2c`, `cheap`, or `local`; valid `brand_tier` values are only `value`, `mass`,
+`mass_premium`, or `premium`; valid `price_tier` values are only `low`, `mid`,
+or `high`. Otherwise return null for that field. Queries must be independent,
+catalog-searchable text and must not name invented SKUs.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_LOCATION_CATEGORY_DAYPART_SUMMARY = f"""
+Summarize collective location demand for one category, daypart, and day type.
+Return only `summary_text`. The supplied quantity, order count, and buyer count
+are caller-computed aggregate facts. Describe demand in this location, never an
+individual user or a location ID. Preserve product/brand/type/pack facts when
+supplied. End the summary with `Commercial preference: ` followed by
+`commercial_source_text` exactly.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_LOCATION_CATEGORY_DAILY_SUMMARY = f"""
+Combine supplied daypart summaries into one compact location-category daily
+summary. Return only `summary_text`. Preserve demand differences by daypart and
+day type, without turning a single day into a long-term demand claim.
+End `summary_text` with the supported `Commercial preference:` clause; use
+`not_observed` where the value is not unambiguous.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_LOCATION_CATEGORY_MONTHLY_SUMMARY = f"""
+Combine supplied daily location-category summaries into one compact monthly
+summary. Return only `summary_text`. Retain patterns that repeat in supplied
+daily summaries; keep one-off observations limited to what was observed.
+End `summary_text` with the supported `Commercial preference:` clause; use
+`not_observed` where the value is not unambiguous.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_LOCATION_CATEGORY_PROFILE = f"""
+Build the final category profile for collective location demand. Return
+`summary_text`, `mission_queries`, `product_queries`, `daypart_profiles`, and
+no additional commercial field.
+Use the same overlapping-resolution discipline as the user category profile:
+monthly summaries establish repeated demand, while recent daily/daypart
+summaries preserve current context without being double-counted. Refer only to
+demand in this location, never an individual user.
+End `summary_text` with the supported `Commercial preference:` clause; use
+`not_observed` where the value is not unambiguous.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+FEED_LOCATION_GLOBAL_PROFILE = f"""
+Build one global location profile from final location-category summaries only. Return
+`summary_text`, optional `brand_category`, optional `brand_tier`, optional
+`price_tier`, `mission_queries`, and `product_queries`. Synthesize collective
+demand across categories; never refer to an individual user or an ID. The
+global location profile has no daypart profile of its own. Read commercial
+fields only from explicit `Commercial preference:` clauses in the supplied
+category summaries; otherwise return null.
+{FEED_PROFILE_GROUNDING}
+"""
+
+
+USER_CATEGORY_JUMP_EXPLORATORY_QUERIES = """
+Generate route-aware exploratory mission and product retrieval queries from the
+supplied final category summaries and the approved category jumps selected by
+Minutes Agent. Follow category-jumps-v2.
+
+The category summaries are the only user-specific evidence. The approved jumps
+are domain policy loaded internally by Minutes Agent; they are not additional
+claims about the user.
+
+Return exactly one `exploratory_routes` entry for every supplied approved jump.
+For each entry:
+
+- copy `route_id`, `source_categories`, and `target_category` exactly;
+- write one or two concise `mission_queries` describing a plausible activity,
+  need, or shopping outcome enabled by the target category;
+- write one or two concise `product_queries` that explicitly name the target
+  product space using one of its supplied required product-query terms;
+- use the source category summaries only to make the connection sensible;
+- keep product queries focused on the target category rather than repeating
+  products, brands, or category terms from the observed source;
+- except for an explicitly supplied `allowed_source_terms` exception, omit
+  every source-category word from every product query. For example, write
+  `buy garam masala powder`, not `buy spices for vegetables`;
+- make every string independently useful as an embedding-search query.
+
+Do not create a new source-target edge. Do not change a canonical category
+name. Do not omit or duplicate an approved jump. Do not claim that an
+exploratory target is an established user preference. Do not invent product or
+mission IDs, exact unseen SKUs, prices, offers, availability, demographics,
+household composition, medical needs, or life stage.
+
+If `previous_output_rejected` is supplied, correct the listed contract failure
+and regenerate the full output. If no category jumps are approved, return
+`{"exploratory_routes": []}`.
+"""
+
+
 USER_RUNNING_CATEGORY_PROFILE_UPDATE = f"""
 You maintain one user's profile for one Minutes category continuously,
 order by order, instead of through the category waterfall's

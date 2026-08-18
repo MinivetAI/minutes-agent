@@ -1,5 +1,6 @@
 import argparse
 import hashlib
+import inspect
 import json
 import logging
 import os
@@ -119,11 +120,14 @@ def build_server(provider: str, vllm_url: str, model: str, max_concurrent: int) 
             max_concurrent=max_concurrent,
         )
 
-    return LLMServer(
-        base_url=vllm_url,
-        model=model,
-        max_concurrent=max_concurrent,
-    )
+    server_kwargs = {
+        "base_url": vllm_url,
+        "model": model,
+        "max_concurrent": max_concurrent,
+    }
+    if "extra_payload" in inspect.signature(LLMServer).parameters:
+        server_kwargs["extra_payload"] = QWEN_EXTRA_PAYLOAD
+    return LLMServer(**server_kwargs)
 
 
 # vLLM/Qwen-specific knobs, not constructor arguments on LLMServer, so they are
@@ -208,14 +212,16 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
     for task_name, config in enabled_tasks.items():
         print(f"  - {task_name}")
         guide_model = config.get("guide_model", config["output_model"])
-        task = Task(
-            instruction=config["instruction"].strip(),
-            guide=guide_model,
-            server=server,
-            repair=config.get("repair", 1),
-            max_tokens=config.get("max_tokens", _default_max_tokens(task_name)),
-            extra=QWEN_EXTRA_PAYLOAD if provider == "qwen" else None,
-        )
+        task_kwargs = {
+            "instruction": config["instruction"].strip(),
+            "guide": guide_model,
+            "server": server,
+            "repair": config.get("repair", 1),
+            "max_tokens": config.get("max_tokens", _default_max_tokens(task_name)),
+        }
+        if provider == "qwen" and "extra" in inspect.signature(Task).parameters:
+            task_kwargs["extra"] = QWEN_EXTRA_PAYLOAD
+        task = Task(**task_kwargs)
         tasks[task_name] = task
 
     for task_name, config in enabled_tasks.items():
@@ -234,9 +240,33 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
                                 input_dict["brand_context"] = brand_payload
                     prepare = config.get("prepare_input")
                     payload = prepare(input_dict) if prepare else input_dict
-                    result = await tasks[task_name].do(payload)
-                    if result is None:
-                        raise HTTPException(status_code=500, detail=f"Failed to process {task_name}")
+                    postprocess = config.get("postprocess_output")
+                    postprocess_retries = int(config.get("postprocess_retries", 0))
+                    result = None
+                    for attempt in range(postprocess_retries + 1):
+                        result = await tasks[task_name].do(payload)
+                        if result is None:
+                            raise HTTPException(status_code=500, detail=f"Failed to process {task_name}")
+                        if postprocess is None:
+                            break
+                        try:
+                            result = postprocess(result, payload)
+                            break
+                        except ValueError as exc:
+                            if attempt >= postprocess_retries:
+                                raise
+                            rejected = (
+                                result.model_dump()
+                                if hasattr(result, "model_dump")
+                                else dict(result)
+                            )
+                            payload = {
+                                **payload,
+                                "previous_output_rejected": {
+                                    "reason": str(exc),
+                                    "output": rejected,
+                                },
+                            }
                     if config.get("drop_fields"):
                         result_dict = result.model_dump() if hasattr(result, "model_dump") else dict(result)
                         for field_name in config["drop_fields"]:

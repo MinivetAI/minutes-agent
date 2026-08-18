@@ -1,0 +1,211 @@
+{
+  "version": "category-jumps-v2",
+  "max_routes_per_profile": 5,
+  "routes": [
+    {
+      "route_id": "milk_cookies_to_tea_coffee",
+      "source_categories": ["Milk", "CookiesBiscuits"],
+      "priority": 100,
+      "targets": [
+        {
+          "category": "Tea",
+          "intent": "Turn a familiar milk-and-biscuit pattern into a tea-break mission.",
+          "required_query_terms": ["tea"]
+        },
+        {
+          "category": "Coffee",
+          "intent": "Turn a familiar milk-and-biscuit pattern into an at-home coffee-break mission.",
+          "required_query_terms": ["coffee"]
+        }
+      ]
+    },
+    {
+      "route_id": "vegetables_rice_to_cooking_flavours",
+      "source_categories": ["Vegetables", "Rice"],
+      "priority": 100,
+      "targets": [
+        {
+          "category": "SpicesMasala",
+          "intent": "Extend staple vegetable-and-rice cooking into spices and masala needed to complete meals.",
+          "required_query_terms": ["spice", "spices", "masala"]
+        },
+        {
+          "category": "OtherCookingOil",
+          "intent": "Extend staple vegetable-and-rice cooking into practical cooking oils.",
+          "required_query_terms": ["cooking oil", "oil"],
+          "allowed_source_terms": ["vegetable"]
+        }
+      ]
+    },
+    {
+      "route_id": "chips_chocolates_to_party_beverages",
+      "source_categories": ["Chips", "Chocolates"],
+      "priority": 100,
+      "targets": [
+        {
+          "category": "AeratedDrinks",
+          "intent": "Extend shared savoury and sweet treats into fizzy party beverages.",
+          "required_query_terms": ["aerated drink", "fizzy drink", "soft drink", "soda"]
+        },
+        {
+          "category": "FruitDrinks",
+          "intent": "Extend shared savoury and sweet treats into non-carbonated party beverages.",
+          "required_query_terms": ["fruit drink", "fruit beverage", "juice drink"]
+        }
+      ]
+    },
+    {
+      "route_id": "vegetables_fruits_to_meal_builders",
+      "source_categories": ["Vegetables", "Fruits"],
+      "priority": 95,
+      "targets": [
+        {
+          "category": "DipsSaucesPastes",
+          "intent": "Extend fresh produce shopping into sauces and pastes that help assemble meals and snacks.",
+          "required_query_terms": ["dip", "sauce", "paste"]
+        },
+        {
+          "category": "OtherCookingOil",
+          "intent": "Extend fresh produce shopping into practical oils used for everyday cooking.",
+          "required_query_terms": ["cooking oil", "oil"],
+          "allowed_source_terms": ["vegetable"]
+        }
+      ]
+    },
+    {
+      "route_id": "milk_to_breakfast_builders",
+      "source_categories": ["Milk"],
+      "priority": 80,
+      "targets": [
+        {
+          "category": "Oats",
+          "intent": "Extend repeated milk buying into convenient breakfast preparation.",
+          "required_query_terms": ["oats", "oatmeal"]
+        },
+        {
+          "category": "Tea",
+          "intent": "Extend repeated milk buying into an at-home tea routine.",
+          "required_query_terms": ["tea"]
+        },
+        {
+          "category": "Coffee",
+          "intent": "Extend repeated milk buying into an at-home coffee routine.",
+          "required_query_terms": ["coffee"]
+        }
+      ]
+    },
+    {
+      "route_id": "cookies_to_hot_beverages",
+      "source_categories": ["CookiesBiscuits"],
+      "priority": 75,
+      "targets": [
+        {
+          "category": "Tea",
+          "intent": "Extend a biscuit preference into a complementary tea-break mission.",
+          "required_query_terms": ["tea"]
+        },
+        {
+          "category": "Coffee",
+          "intent": "Extend a biscuit preference into a complementary coffee-break mission.",
+          "required_query_terms": ["coffee"]
+        }
+      ]
+    },
+    {
+      "route_id": "washing_bar_to_laundry_completion",
+      "source_categories": ["WashingBar"],
+      "priority": 80,
+      "targets": [
+        {
+          "category": "FabricSoftner",
+          "intent": "Extend detergent-bar replenishment into fabric-care completion.",
+          "required_query_terms": ["fabric softener", "fabric conditioner"]
+        },
+        {
+          "category": "StainRemover",
+          "intent": "Extend detergent-bar replenishment into targeted stain treatment.",
+          "required_query_terms": ["stain remover", "stain treatment"]
+        }
+      ]
+    },
+    {
+      "route_id": "vegetables_to_cooking_completion",
+      "source_categories": ["Vegetables"],
+      "priority": 80,
+      "targets": [
+        {
+          "category": "SpicesMasala",
+          "intent": "Extend fresh vegetable buying into spices and masala for everyday cooking.",
+          "required_query_terms": ["spice", "spices", "masala"]
+        },
+        {
+          "category": "OtherCookingOil",
+          "intent": "Extend fresh vegetable buying into practical cooking oils.",
+          "required_query_terms": ["cooking oil", "oil"],
+          "allowed_source_terms": ["vegetable"]
+        },
+        {
+          "category": "Rice",
+          "intent": "Extend fresh vegetable buying into staple rice-based meal building.",
+          "required_query_terms": ["rice"]
+        }
+      ]
+    },
+    {
+      "route_id": "chips_to_snack_companions",
+      "source_categories": ["Chips"],
+      "priority": 75,
+      "targets": [
+        {
+          "category": "DipsSaucesPastes",
+          "intent": "Extend a chips preference into dips and sauces for snack occasions.",
+          "required_query_terms": ["dip", "sauce"]
+        },
+        {
+          "category": "AeratedDrinks",
+          "intent": "Extend a chips preference into fizzy beverages for snack occasions.",
+          "required_query_terms": ["aerated drink", "fizzy drink", "soft drink", "soda"]
+        }
+      ]
+    },
+    {
+      "route_id": "chocolates_to_dessert_making",
+      "source_categories": ["Chocolates"],
+      "priority": 75,
+      "targets": [
+        {
+          "category": "BakingIngredientsDecoratives",
+          "intent": "Extend a chocolate preference into simple homemade dessert preparation.",
+          "required_query_terms": ["baking ingredient", "dessert ingredient", "cake decoration"]
+        },
+        {
+          "category": "IceCreams",
+          "intent": "Extend a chocolate preference into chilled dessert occasions.",
+          "required_query_terms": ["ice cream", "frozen dessert"]
+        }
+      ]
+    },
+    {
+      "route_id": "fruits_to_breakfast_hydration",
+      "source_categories": ["Fruits"],
+      "priority": 75,
+      "targets": [
+        {
+          "category": "Oats",
+          "intent": "Extend regular fruit buying into fruit-and-oats breakfast preparation.",
+          "required_query_terms": ["oats", "oatmeal"]
+        },
+        {
+          "category": "OtherBreakfastMixesCereals",
+          "intent": "Extend regular fruit buying into convenient breakfast bowls and cereals.",
+          "required_query_terms": ["breakfast cereal", "breakfast mix", "cereal"]
+        },
+        {
+          "category": "HydrationDrinks",
+          "intent": "Extend fresh-fruit buying into convenient hydration choices.",
+          "required_query_terms": ["hydration drink", "electrolyte drink"]
+        }
+      ]
+    }
+  ]
+}
