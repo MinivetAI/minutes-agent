@@ -1,7 +1,50 @@
 from enum import Enum
 from typing import List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
+
+
+class DimensionValuePair(BaseModel):
+    key: str = Field(min_length=1, description="Dimension name")
+    value: Optional[str] = Field(
+        default=None,
+        min_length=1,
+        description="Optional selected dimension value",
+    )
+
+
+class DimensionSummaryInput(BaseModel):
+    dimensions: List[DimensionValuePair] = Field(
+        min_length=1,
+        max_length=64,
+        description="Ordered dimensions, each with an optional value",
+    )
+
+
+class DimensionSummaryOutput(BaseModel):
+    summary: str = Field(
+        min_length=1,
+        description="One entity-neutral paragraph covering the supplied dimensions in order"
+    )
+
+
+class DimensionDescription(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    input_index: int = Field(ge=0, le=63, description="Zero-based position of the input dimension")
+    description: str = Field(
+        min_length=1,
+        description="Final natural sentence that explicitly preserves the broader dimension concept and explains the named selected value within it",
+    )
+
+
+class DimensionDescriptionsOutput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    descriptions: List[DimensionDescription] = Field(
+        min_length=1, max_length=64,
+        description="Exactly one independent description for each input position",
+    )
 
 
 class GenderApplicability(str, Enum):

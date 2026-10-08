@@ -8,15 +8,56 @@ The first cut mirrors the knowledge-oriented approach used in `food-agent`, but 
 
 Current tasks:
 
+- `dimension_summary` -> `POST /v1/llm/enrich/dimension-summary`
 - `fetch_product_knowledge` -> `POST /v1/llm/knowledge/fetch-product`
 - `product_semantic_paragraph` -> `POST /v1/llm/enrich/product-paragraph`
 
 ## Run
 
 ```bash
-source ../minivet/bin/activate
+source .venv/bin/activate
+pip install -e ../alfred
 pip install -r requirements.txt
 python app.py --provider openai --model gpt-5.4-mini-2026-03-17
+```
+
+To enable dimension summaries, include `dimension_summary` in `--tasks` when running
+`app.py`, or in `MINUTES_AGENT_TASKS` when using the ASGI app factory. For example:
+
+```bash
+python app.py --tasks dimension_summary --provider qwen \
+  --vllm-url http://prod.dev.internal/llm/v1 \
+  --model Qwen3.6-35B-A3B
+```
+
+Dimension summary requests keep the same input format:
+
+```json
+{"dimensions": [{"key": "health_and_body", "value": "high_protein"}, {"key": "material_upgrade"}]}
+```
+
+The service adds dimension descriptions from `data/dimension-reference.json`
+to the LLM request, selecting matching definitions or the full reference if any name is
+unknown. One structured model call returns a separate description with an input index
+for each dimension. The service validates complete, unique coverage and joins the sentences
+in input order into a single paragraph, including repeated dimensions. The response remains
+`{"summary": "..."}`; internal descriptions and indices are not exposed. Invalid coverage or
+empty dimension/value explanations trigger one correction attempt, then fail rather than return
+an incomplete summary. Each prompt item explicitly identifies its `dimension_name` and
+`selected_value`; the returned paragraph contains one clean combined sentence per item. Requests
+accept 1–64 dimensions, with a 4096-token generation budget. Value lists
+remain in the Markdown; selected values come from the request.
+
+The same reference file contains optional `value_explanations` within each dimension
+to clarify ambiguous selected values (currently bilona, BLDC and azo-free). Edit these
+curated explanations directly in the JSON. The prompt receives descriptions and only
+explanations matching the supplied dimension and value, rather than a complete value list.
+
+After editing `docs/dimesion-values.md`, regenerate the reference and restart the
+service to reload it. Regeneration preserves the curated value explanations:
+
+```bash
+python scripts/generate_dimension_reference.py
 ```
 
 ## Batch sample fetch

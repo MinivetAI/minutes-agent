@@ -1,7 +1,11 @@
 from typing import Any, Dict
 
-from instructions import FETCH_PRODUCT_KNOWLEDGE, PRODUCT_SEMANTIC_PARAGRAPH
+from dimension_summary import summarize_dimensions
+from instructions import DIMENSION_SUMMARY, FETCH_PRODUCT_KNOWLEDGE, PRODUCT_SEMANTIC_PARAGRAPH
 from models import (
+    DimensionSummaryInput,
+    DimensionSummaryOutput,
+    DimensionDescriptionsOutput,
     ProductKnowledgeFetchedOutput,
     ProductKnowledgeInput,
     ProductKnowledgeOutput,
@@ -11,6 +15,17 @@ from models import (
 
 
 TASKS: Dict[str, Dict[str, Any]] = {
+    "dimension_summary": {
+        "input_model": DimensionSummaryInput,
+        "output_model": DimensionSummaryOutput,
+        "guide_model": DimensionDescriptionsOutput,
+        "max_output_tokens": 4096,
+        "request_extra": {"chat_template_kwargs": {"enable_thinking": False}},
+        "instruction": DIMENSION_SUMMARY,
+        "execute": summarize_dimensions,
+        "endpoint": "/v1/llm/enrich/dimension-summary",
+        "load_level": "medium",
+    },
     "fetch_product_knowledge": {
         "input_model": ProductKnowledgeInput,
         "output_model": ProductKnowledgeFetchedOutput,

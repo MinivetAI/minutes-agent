@@ -1,17 +1,19 @@
 import argparse
+from contextlib import asynccontextmanager
 import os
 from typing import Dict
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 
-from alfred.alfie_v2 import Perplexity, Qwen, Task
-from openai_grounded import OpenAIResponsesTask
+from alfred import LLMServer, Task
 
 from tasks import get_enabled_tasks, get_task_names
 
 
 load_dotenv()
+
+PERPLEXITY_URL = "https://api.perplexity.ai"
 
 
 def parse_args():
@@ -74,32 +76,59 @@ def parse_args():
     return parser.parse_args()
 
 
-def build_server(provider: str, vllm_url: str, model: str, guide):
+def build_server(provider: str, vllm_url: str, model: str, max_concurrent: int, max_tokens: int):
     if provider == "perplexity":
         api_key = os.getenv("PERPLEXITY_API_KEY")
         if not api_key:
             raise RuntimeError("Missing PERPLEXITY_API_KEY for provider=perplexity")
-        return Perplexity(api_key=api_key, model=model, guide=guide)
+        return LLMServer(
+            base_url=PERPLEXITY_URL,
+            model=model,
+            api_key=api_key,
+            max_concurrent=max_concurrent,
+            max_tokens=max_tokens,
+        )
 
-    return Qwen(url=vllm_url, model=model, guide=guide)
+    return LLMServer(
+        base_url=vllm_url,
+        model=model,
+        max_concurrent=max_concurrent,
+        max_tokens=max_tokens,
+    )
 
 
 def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, max_concurrent: int):
     task_names = list(enabled_tasks.keys())
+    tasks: Dict[str, Task] = {}
+
+    @asynccontextmanager
+    async def lifespan(_app):
+        yield
+        closed_servers = set()
+        for task in tasks.values():
+            close = getattr(task, "close", None)
+            if close is not None:
+                await close()
+                continue
+            server = getattr(task, "server", None)
+            if server is not None and id(server) not in closed_servers:
+                await server.close()
+                closed_servers.add(id(server))
 
     app = FastAPI(
         title="Flipkart Minutes Multi-Task LLM API",
         description=f"API serving {len(enabled_tasks)} Minutes LLM tasks: {', '.join(task_names)}",
         version="0.1.0",
+        lifespan=lifespan,
     )
-
-    tasks: Dict[str, Task] = {}
 
     print(f"Initializing {len(enabled_tasks)} tasks...")
     for task_name, config in enabled_tasks.items():
         print(f"  - {task_name}")
         guide_model = config.get("guide_model", config["output_model"])
         if provider == "openai":
+            from openai_grounded import OpenAIResponsesTask
+
             api_key = os.getenv("OPENAI_API_KEY")
             if not api_key:
                 raise RuntimeError("Missing OPENAI_API_KEY for provider=openai")
@@ -109,22 +138,23 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
                 api_key=api_key,
                 model=model,
                 use_web_search=(task_name == "fetch_product_knowledge"),
-                max_output_tokens=4000 if task_name == "fetch_product_knowledge" else 512,
+                max_output_tokens=config.get("max_output_tokens", 4000 if task_name == "fetch_product_knowledge" else 512),
                 max_concurrent=max_concurrent,
                 reasoning_effort="none",
             )
         else:
-            server = build_server(provider, vllm_url, model, guide_model)
-            if task_name == "fetch_product_knowledge":
-                server.data["max_tokens"] = 1400
-            if task_name == "product_semantic_paragraph":
-                server.data["max_tokens"] = 256
+            max_tokens = config.get(
+                "max_output_tokens",
+                1400 if task_name == "fetch_product_knowledge" else 256 if task_name == "product_semantic_paragraph" else 1024,
+            )
+            server = build_server(provider, vllm_url, model, max_concurrent, max_tokens)
 
             task = Task(
                 instruction=config["instruction"].strip(),
                 guide=guide_model,
                 server=server,
-                max_concurrent=max_concurrent,
+                max_tokens=max_tokens,
+                extra=config.get("request_extra"),
             )
         tasks[task_name] = task
 
@@ -133,7 +163,10 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
             async def task_endpoint(input_data: config["input_model"]):
                 try:
                     input_dict = input_data.model_dump()
-                    result = await tasks[task_name].do(input_dict)
+                    if config.get("execute"):
+                        result = await config["execute"](tasks[task_name], input_dict)
+                    else:
+                        result = await tasks[task_name].do(input_dict)
                     if result is None:
                         raise HTTPException(status_code=500, detail=f"Failed to process {task_name}")
                     if config.get("drop_fields"):
@@ -185,22 +218,30 @@ def get_app():
     return create_app(enabled_tasks, provider, vllm_url, model, max_concurrent)
 
 
-try:
-    app = get_app()
-except RuntimeError as exc:
-    app = FastAPI(
-        title="Flipkart Minutes Multi-Task LLM API",
-        description=f"Initialization deferred: {exc}",
-        version="0.1.0",
-    )
+def get_default_app():
+    try:
+        return get_app()
+    except RuntimeError as exc:
+        detail = str(exc)
+        degraded_app = FastAPI(
+            title="Flipkart Minutes Multi-Task LLM API",
+            description=f"Initialization deferred: {detail}",
+            version="0.1.0",
+        )
 
-    @app.get("/")
-    async def root():
-        return {"message": "Flipkart Minutes Multi-Task LLM API", "initialization_error": str(exc)}
+        @degraded_app.get("/")
+        async def root():
+            return {"message": "Flipkart Minutes Multi-Task LLM API", "initialization_error": detail}
 
-    @app.get("/health")
-    async def health():
-        return {"status": "degraded", "detail": str(exc)}
+        @degraded_app.get("/health")
+        async def health():
+            return {"status": "degraded", "detail": detail}
+
+        return degraded_app
+
+
+if __name__ != "__main__":
+    app = get_default_app()
 
 
 if __name__ == "__main__":
