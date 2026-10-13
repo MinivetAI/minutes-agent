@@ -28,22 +28,25 @@ class DimensionSummaryOutput(BaseModel):
     )
 
 
-class DimensionDescription(BaseModel):
+class DimensionSummarySentence(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    input_index: int = Field(ge=0, le=63, description="Zero-based position of the input dimension")
+    input_indices: List[int] = Field(
+        min_length=1,
+        description="Input positions whose dimension and optional value are covered by this sentence",
+    )
     description: str = Field(
         min_length=1,
-        description="Final natural sentence that explicitly preserves the broader dimension concept and explains the named selected value within it",
+        description="One natural paragraph sentence that synthesizes all listed input positions",
     )
 
 
 class DimensionDescriptionsOutput(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    descriptions: List[DimensionDescription] = Field(
-        min_length=1, max_length=64,
-        description="Exactly one independent description for each input position",
+    sentences: List[DimensionSummarySentence] = Field(
+        min_length=1, max_length=4,
+        description="One to four sentences that together cover every input dimension",
     )
 
 

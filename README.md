@@ -33,18 +33,18 @@ python app.py --tasks dimension_summary --provider qwen \
 Dimension summary requests keep the same input format:
 
 ```json
-{"dimensions": [{"key": "health_and_body", "value": "high_protein"}, {"key": "material_upgrade"}]}
+{"dimensions": [{"key": "nutritional_claims", "value": "high_protein"}, {"key": "premium_sku"}]}
 ```
 
 The service adds dimension descriptions from `data/dimension-reference.json`
-to the LLM request, selecting matching definitions or the full reference if any name is
-unknown. One structured model call returns a separate description with an input index
-for each dimension. The service validates complete, unique coverage and joins the sentences
-in input order into a single paragraph, including repeated dimensions. The response remains
+to the LLM request, selecting matching definitions and separately marking names that have no
+reference. One structured model call returns one to four sentence groups with the input indices
+covered by each sentence. The service validates that every requested dimension is covered and joins
+the sentences into one coherent paragraph, including repeated dimensions. The response remains
 `{"summary": "..."}`; internal descriptions and indices are not exposed. Invalid coverage or
-empty dimension/value explanations trigger one correction attempt, then fail rather than return
-an incomplete summary. Each prompt item explicitly identifies its `dimension_name` and
-`selected_value`; the returned paragraph contains one clean combined sentence per item. Requests
+empty sentences trigger one correction attempt, then fail rather than return an incomplete summary.
+Each prompt item explicitly identifies its `dimension_name` and `selected_value`; related dimensions
+may share a sentence while retaining their distinct meanings and values. Requests
 accept 1–64 dimensions, with a 4096-token generation budget. Value lists
 remain in the Markdown; selected values come from the request.
 

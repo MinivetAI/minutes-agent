@@ -1,20 +1,26 @@
 {
-  "active_ingredient": {
+  "active_or_special_ingredient": {
     "description": "A named active or hero ingredient around which the product is built and marketed. Depending on the category, this can be a grain, seed or nut in food and baby cereal; a botanical or skincare active in grooming and makeup; a compound in supplements; a cleaning or repellent active; or a functional ingredient or litter base in pet care. The ingredient must lead the proposition, rather than appear incidentally in the ingredient list, as a fragrance, or as the ordinary composition of a staple."
   },
-  "allergen_free": {
+  "free_of_allergens": {
     "description": "An explicit claim that the product avoids a named allergen or intolerance-triggering substance for shoppers or pets who need to avoid it. This includes dairy-, lactose-, nut- or soy-free foods, infant formula and pet food, latex-free medical or hygiene products, and relevant allergen exclusions in grooming or laundry formulations. The avoided substance must be named; generic hypoallergenic, gentle or skin-friendly wording does not establish this dimension, and it is not a general attribute of makeup or fragrance."
   },
-  "animal_welfare": {
+  "allergen_information": {
+    "description": "The allergens this product contains or may contain, as stated on the pack, ingredient list or allergen declaration, such as milk, nuts, peanuts, soy, gluten/wheat, egg, sesame, fish or shellfish, including 'may contain traces of' warnings. Return the list of allergens found; return [] if none are declared or the product has no ingredients that are allergens."
+  },
+  "which_ethical_animal_treatments_are_claimed": {
     "description": "A stated claim about animal treatment in producing or testing the product. In eggs, meat and dairy, it concerns husbandry such as cage-free or free-range raising; in baby care, grooming, makeup, household cleaners, wellness and pet-care formulations, it concerns cruelty-free or not-tested-on-animals production. The claim needs explicit support. Vegan composition alone describes plant-based ingredients rather than proving animal-testing or husbandry practices."
   },
-  "clean_ingredient": {
+  "label_indicating_free_from_which_unhealthy_ingredient": {
     "description": "A formulation differentiated by a named substance it deliberately leaves out. Examples include no added sugar, preservatives, artificial colours, maida or palm oil in foods and nutrition; paraben-, sulphate- or fragrance-free baby, grooming and pet care; alcohol-free makeup or deodorants; and phosphate-free cleaning products. The omission must be an explicit product proposition, rather than a vague mild or gentle claim. Safety claims about an object’s material belong to material_safety."
   },
-  "concern": {
+  "functionality": {
     "description": "The specific problem or health goal the product is designed to treat, relieve, prevent, control, support or measure. It spans baby and maternal needs; skin, hair and oral problems; nutrition and medical goals; device-based monitoring or relief; household stains, grease, pests, odour, leaks and wear; and pet health or grooming problems. The product’s stated function must connect directly to the named concern. Category membership or generic comfort, freshness and wellness language is insufficient."
   },
-  "craft_process": {
+  "wellness_goals": {
+    "description": "The health goal a food or drink is bought for in health drinks, teas, breakfast cereals and functional snacks: immunity, gut health, energy, sugar control or weight management (e.g. Kapiva juices for sugar control, Epigamia probiotic curd for gut health, Bournvita for energy). Not applicable for: everyday staples like Fortune sunflower oil or India Gate basmati rice that make no health claim."
+  },
+  "traditional_or_craft_method_of_making_a_product": {
     "description": "A traditional, artisanal or specialised making process that is a central reason to choose the product. It includes bilona ghee, cold- or wood-pressed oils, stone-ground flour and slow-roasted foods; hand-carved or hand-rolled decor and incense; handloom or hand-block-printed furnishings; and handcrafted serveware or pre-seasoned cast-iron cookware. This describes how the item is made or prepared, rather than its material, geographic origin or the producer’s size.",
     "value_explanations": {
       "bilona": "A traditional method of making ghee by churning curd into butter, then heating the butter."
@@ -23,7 +29,7 @@
   "cuisine_style": {
     "description": "A named Indian regional or international culinary identity expressed through a food’s recipe, seasoning or preparation style. It can identify Korean or Italian noodles, Thai curry paste, Punjabi masala, Kerala pickles or Hyderabadi ready meals, including products that borrow another cuisine’s style. The cuisine must be stated or clearly expressed by the product, rather than inferred from a generic staple, ingredient or flavour alone."
   },
-  "diet_protocol": {
+  "product_works_for_which_dietery_restrictions": {
     "description": "A food, nutrition product or pet food explicitly formulated and labelled for a named dietary regime or restriction. Examples include keto, Jain, satvik, no-onion-no-garlic, eggless and diabetic-friendly foods; gluten-free flours or protein snacks; and grain-free or vegetarian pet diets. The dietary suitability must be part of the reason to choose it, rather than an incidental property such as ordinary rice being naturally gluten-free. Diet labels do not describe devices or non-food supplies."
   },
   "exotic_or_uncommon_ingredient": {
@@ -32,40 +38,37 @@
   "flavour_variant": {
     "description": "The named taste profile or flavour family of an edible, drinkable or oral-use product. It covers snacks, sweets, dairy and beverages; baby cereals and purees; protein powders, nutrition drinks, ORS and gummies; flavoured oral or intimate-care products; and pet food, treats and toothpaste. The value describes how the product tastes, such as chocolate, mango, spicy, cheese or mint, rather than its scent, colour, cuisine or hero ingredient alone."
   },
-  "gender": {
+  "is_it_for_male_female_or_unisex": {
     "description": "The gender for which the product is explicitly designed or marketed, including boys, girls, men, women or a stated unisex range. Examples include gender-specific baby products and children’s clothing, men’s or women’s grooming and hygiene, targeted supplements and adult care, fragrances and grooming appliances. Evidence must come from the product’s stated audience or purpose, rather than colour, imagery or stereotypes. Unisex is an explicit designation, not a fallback when gender is unknown."
   },
-  "health_and_body": {
+  "nutritional_claims": {
     "description": "A nutritional composition claim that meaningfully differentiates an edible product: higher protein, fibre or calcium, or lower calories, fat, sodium or glycaemic impact. It can describe foods, baby cereals, nutrition drinks, supplements and pet foods or treats when the claim leads the proposition. Routine fortification or a nutrient inherent to the category, such as protein in ordinary whey, is insufficient. This describes nutrition provided by the product, not body measurements taken by a device."
   },
   "instant_or_time_saving": {
     "description": "A product that removes preparation or routine steps compared with the normal alternative on its shelf. In food, baby nutrition and health drinks, this means ready-to-eat, heat-and-eat, ready-to-drink, no-cook, pre-cut or pre-peeled options; in grooming and cleaning, it means eliminating a usual mixing, rinsing or preparation step. The saving must change the work required, rather than merely promise faster results. Ordinary ready-to-use products and effort-saving tools do not qualify solely on convenience."
   },
-  "life_stage": {
+  "designed_for_which_life_stages": {
     "description": "A stated age or life stage for which the product’s formulation, sizing or function is specifically designed. It covers newborn, infant and toddler care; children’s food, oral care and learning products; teen grooming; pregnancy and new-mother nutrition or care; adult and senior supplements; and puppy, kitten, adult or senior pet products. Stage-specific design matters more than routine size or age labels shared by the entire shelf, and an all-ages product does not establish a particular stage."
   },
-  "material_safety": {
+  "material_has_which_safety_claim": {
     "description": "An explicit safety or suitability claim about the material, dye, coating or finish of a physical product. Examples include BPA-free bottles and pet bowls, food-grade kitchenware or silicone teethers, non-toxic toys, azo-free textiles, and rust-proof food-contact finishes. This concerns what an object is made of or treated with, rather than ingredients omitted from a food, cleaner or care formulation, which belong to clean_ingredient. General performance claims such as waterproof or anti-slip are different attributes.",
     "value_explanations": {
       "azo_free": "A stated exclusion of azo dyes from the product’s material or colouring."
     }
   },
-  "material_upgrade": {
-    "description": "A physical product whose material provides a meaningful improvement over the normal material for its product type. Examples include borosilicate glass, copper or stainless steel in bottles and containers; cast iron or opalware in cookware and dinnerware; brass, ceramic or wood in decor; and steel bowls or wooden accessories in pet care. The comparison is specific to the shelf: naming a material does not imply an upgrade when it is already standard. Making process and safety claims are separate dimensions."
-  },
-  "named_origin": {
+  "specific_origin_of_product": {
     "description": "A named geographic, single-estate or craft origin for the product or a key ingredient, where that provenance is a reason to choose it. This includes origin-led tea, coffee, saffron and supplements; regional metalwork, wooden crafts, textiles and serveware; origin-led fragrance ingredients; and pet chews tied to a particular region. The place must describe actual provenance, rather than a brand name, shade name or loosely regional styling, and should distinguish the product from its ordinary source."
   },
-  "new_form_or_style": {
+  "different_form_of_product_compared_to_category": {
     "description": "A meaningful departure from the normal delivery, usage, build, texture or pack format of the product type in India. It includes food pouches, concentrates and baked snacks; patches, foams and roll-ons in care; supplement gummies or oral strips; detergent pods and sheets; unusual decor or furnishing formats; silicone kitchen tools; cordless or rechargeable devices; and lickable pet treats. Novelty is judged against the relevant shelf, so an established format or routine flavour, scent, shade or container extension is insufficient.",
     "value_explanations": {
       "bldc": "A brushless direct-current motor format, when different from the shelf norm."
     }
   },
-  "occasion_type": {
+  "for_which_occasion_or_event": {
     "description": "The explicit event or use occasion for which the product is designed, worn or bought. It covers festive, party, travel and gifting foods; religious rituals, weddings and seasonal decor; occasion-led makeup or fragrance sets; and stated wearing or activity contexts such as school, office, formal or outdoor use. The occasion must be supported by the design, pack, title or catalog evidence, rather than merely be a possible use. A limited festive release is separately described by special_edition."
   },
-  "pet_species": {
+  "applies_to_which_pet_species": {
     "description": "The animal species for which a pet product is explicitly formulated or designed. It spans dog and cat food, treats, litter, grooming and accessories; fish food and aquarium equipment; and products for birds or small animals such as rabbits and hamsters. Multiple species can be recorded when the product genuinely supports each. A decorative animal image or a general household product without a stated pet purpose does not establish species suitability."
   },
   "powered_or_automated": {
@@ -77,67 +80,52 @@
   "special_edition": {
     "description": "A release distinguished from the standing product line by a licensed character or IP, co-branding, or a limited, festive or seasonal run. It can appear in foods, baby and grooming products, supplements, makeup and fragrance, decor and furnishings, cookware, cleaning products, devices and pet products. The distinction belongs to the release or collaboration, rather than simply to a decorated pack, ordinary promotional bundle, permanent colourway or year-round variant with a special-sounding name."
   },
-  "sport_or_activity_type": {
-    "description": "The named sport, exercise or outdoor activity for which a product is purpose-built. It covers activity-specific equipment, accessories and relevant toys for sports such as cricket, badminton, swimming and cycling, or practices such as strength training, yoga and trekking. Design, function or explicit marketing must connect the item to the activity; generic clothing, footwear or equipment does not qualify merely because it could be used during that activity."
-  },
-  "sustainable_material": {
+  "is_product_made_with_sustainable_material": {
     "description": "The product itself is differentiated by an explicitly identified renewable, recycled, organic or lower-impact material. Examples include bamboo care tools and tissues, organic-cotton baby textiles or pads, jute rugs and pet toys, coir or cork decor, bagasse dinnerware and recycled-plastic household consumables. The material must be part of the item, not just its outer pack, an accompanying bag or a botanical extract in a formulation. Ordinary cotton or an unspecified natural material alone is insufficient."
   },
-  "certified_organic": {
-    "description": "A product or its relevant ingredients or fibres are sold on a recognised organic certification, such as India Organic, USDA Organic, Ecocert or GOTS as appropriate to the product. This can cover foods and baby cereals, herbal supplements, grooming and makeup formulations, certified organic cotton care products, and pet products. The defining feature is evidence of certified organic production, rather than natural, herbal or chemical-free wording alone; sustainable_material separately describes the product’s material choice."
+  "organic": {
+    "description": "The product is organic: it is sold as organic, or is grown or made from organically produced ingredients, and that is a reason to buy it. A certification mark is not required; an explicit organic claim on the product is enough. Answer true or false. Not applicable for: products described only as natural, herbal, chemical-free or pure without saying organic, or where 'organic' appears only in the brand name and not as a claim about the product."
   },
-  "conscious_packaging": {
+  "eco_friendly_packing": {
     "description": "A deliberate shift from the shelf’s usual disposable plastic packaging to glass, metal, paper, card, cloth or certified compostable material, including durable returnable or refillable containers. It can describe food and baby-care packs, care and wellness containers, decor and furnishing wraps, household products, device packaging and pet supplies. This concerns the pack rather than the product’s own material. Ordinary glass where glass is already standard, recyclable-plastic claims and disposable plastic refill pouches do not establish the dimension."
   },
-  "d2c_brand": {
+  "is_direct_to_consumer_brand": {
     "description": "A brand created primarily as an online or direct-to-consumer business that still sells mainly through its own digital channels or online marketplaces rather than conventional retail. This describes the brand’s route to market across food, care, household goods, apparel or electronics, without implying premium pricing. An established mass-retail brand, marketplace reseller or white-label storefront does not qualify merely because it also sells online."
-  },
-  "foreign_brand_familiar_in_india": {
-    "description": "A brand originating outside India with established recognition and distribution among Indian shoppers in the relevant product category, while remaining distinct from an everyday category default. Familiarity is assessed within that category, whether food, care, household goods or electronics. A foreign-sounding name, global fame or isolated imported listing is insufficient. Foreign brand origin does not imply that the specific product was manufactured abroad."
   },
   "imported_sku": {
     "description": "The specific product variant is manufactured or assembled outside India and imported for sale here. This can describe foods, baby and personal care, supplements, cosmetics and fragrance, decor and furnishings, kitchenware and cleaners, devices or pet products. Classification depends on the individual SKU’s country of manufacture or import evidence, rather than the brand’s ownership or name. A foreign brand’s locally manufactured or assembled variant is not an imported SKU."
   },
-  "natural_formulation": {
+  "herbal_or_ayurvedic": {
     "description": "A formulation whose central proposition is Ayurvedic, herbal, homeopathic or naturally derived ingredients or preparation. It spans herbal foods and drinks, baby and grooming care, wellness remedies, plant-derived cleaners and repellents, herbal makeup or fragrance, and pet care. The positioning must concern the formulation itself, rather than an incidental botanical extract or scent. It is distinct from certified organic production, a named hero active, and a free-from ingredient claim."
   },
-  "new_to_indian_retail": {
+  "newly_launched_in_india": {
     "description": "A product type that has only recently become available on Indian retail shelves, so the type itself introduces a new shopping option. It can span emerging foods, baby-care formats, grooming and supplement types, decor and furnishings, household systems or consumables, makeup formats, personal-care devices and pet products. Judge the type’s arrival relative to Indian retail, rather than a new brand, variant or listing of a familiar type. Examples need reassessment as once-new types become established."
   },
-  "plain_or_classic_variant": {
-    "description": "The plain, classic, original, standard or regular version of a product, representing its ordinary shelf baseline. It includes everyday foods and unbranded produce, routine baby or grooming care, standard health products and devices, basic decor and furnishings, ordinary kitchenware and cleaners, and regular pet products. The dimension describes the variant’s lack of a distinguishing claim, format, material, flavour or edition; it does not require a famous brand and is separate from a household brand’s flagship line."
-  },
-  "flagship_variant_of_household_brand": {
-    "description": "The core, standard or best-known line of a brand that is an everyday default in the relevant market. It can describe familiar food, baby, grooming, health, makeup, household, furnishing, device or pet-care lines. A brand may be household nationally or within one region, including a regional market leader. This identifies the brand’s ordinary flagship rather than a premium or niche sub-line, and differs from plain_or_classic_variant, which can also describe unbranded goods."
-  },
-  "plant_based": {
+  "vegan_or_plant_based": {
     "description": "A product explicitly sold as vegan or plant-based where that choice meaningfully changes the usual animal-derived or synthetic alternative. It covers dairy or meat alternatives and proteins; baby, grooming, supplement and makeup formulations; plant-derived cleaners; plant-fibre household alternatives; and relevant pet foods, supplements or litter. The claim must lead the proposition rather than describe an incidental plant ingredient or an inherently plant-based staple. Vegan composition and cruelty-free testing are separate claims."
   },
   "portability_upgrade": {
     "description": "A design or pack feature that makes a product meaningfully easier to carry or use while travelling, outdoors or on the go than its shelf’s usual alternative. Examples include portable baby-care kits, single-serve foods or supplements, pocket care products, cordless lighting, travel pillows and towels, leak-proof travel drinkware, foldable or travel-lock devices, and pet carriers or drinking systems. Functional travel suitability matters; a product does not qualify solely because it is small or sample-sized."
   },
-  "premium_line_of_mass_brand": {
-    "description": "An explicitly elevated sub-line or tier from a brand whose wider range is an everyday mass-market choice. The step up can come through richer food or nutrition, advanced baby or grooming care, higher-specification devices, better textiles or cookware, premium cleaning lines, cosmetics or pet food. The claim applies to this line relative to the brand’s ordinary range, rather than to every product the brand makes. An end-to-end premium category portfolio belongs to premium_producer."
+  "premium_sku": {
+    "description": "The individual SKU is positioned as premium or luxury within its Indian retail category, independent of its parent brand and backed by meaningful differentiation and category-relative price. A product does not qualify only because it is expensive, imported, from a famous brand or named Gold or Premium."
   },
-  "premium_producer": {
-    "description": "A brand whose complete portfolio in the relevant category is premium in price position, ingredients, materials, design, engineering, craftsmanship or specialist performance, with no substantial everyday value range in that category. This accommodates gourmet foods, specialist care, crafted home goods and premium devices alike. A single expensive item, flagship model or premium sub-line of an otherwise mass-market category range does not establish the dimension."
+  "premium_brand": {
+    "description": "The brand or manufacturer is positioned as premium or luxury within its Indian retail category, judged on its dominant portfolio rather than a few expensive products. A well-known or trusted mass-market brand does not qualify because it sells a few premium SKUs."
   },
-  "professional_grade": {
+  "made_for_professionals": {
     "description": "A product with a substantive professional-use formulation, build or performance standard brought into home use. It can describe chef, bakery or barista ingredients; salon or clinical care; clinical nutrition or medical supplies; commercial cleaning formulations; makeup-artist tools; and salon or clinically validated devices. The professional connection must be supported by the product’s specification or intended use, rather than words such as pro, expert or salon-like used only as promotional wording."
   },
-  "regional_brand": {
+  "is_regional_brand": {
     "description": "A niche or specialty brand whose recognition and distribution are concentrated mainly in one Indian state or region and remain limited outside it. The regional identity can concern food, personal care, crafts, household goods or other category assortments. A national brand’s birthplace does not make it regional, and a regional mass-market leader that is the local everyday default is represented by the household-brand dimension rather than this niche-brand distinction."
   },
-  "returning_trend": {
-    "description": "A traditional product type, material or practice receiving renewed shopper interest after becoming less prominent. It can span older grains and food preparations, traditional baby or grooming care and remedies, craft decor and textiles, cast-iron or copper kitchenware, household cleaning remedies, attars and ritual cosmetics, revived care practices or traditional pet treats. The defining feature is revival, rather than merely being old, Indian or natural; traditions that remained continuously mainstream do not qualify on heritage alone."
-  },
-  "small_batch_craft_producer": {
+  "is_product_produced_in_small_batches": {
     "description": "A brand that makes its own products in limited batches through artisan, atelier, workshop, handmade or comparable craft-scale production, and makes that process part of its proposition. It can describe foods, care formulations, candles and decor, textiles, kitchenware or other crafted goods. The dimension concerns the producer’s actual production model, rather than small market presence, unfamiliarity or a craft-looking pack. Resellers and white-label sellers do not qualify solely because they are small."
   },
-  "sourcing_ethics": {
+  "is_ethically_sourced": {
     "description": "A brand’s relevant category products are differentiated by supported fair-trade, farmer-, cooperative- or artisan-direct procurement, traceable ingredients or materials, or independently audited responsible sourcing. This can concern agricultural ingredients in food and care, craft supply chains in home goods, or material sourcing in manufactured products. The sourcing relationship must be part of the proposition; local origin alone, generic ESG policies, supplier codes or charitable activity do not establish responsible sourcing."
   },
-  "sweetener_consciousness": {
+  "has_refined_sugar_alternative_or_low_refined_sugar": {
     "description": "A food, drink, baby cereal, nutrition snack or wellness formulation whose sweetness deliberately comes from an alternative to refined sugar, such as jaggery, honey, dates, fruit or stevia, and where that choice is a reason to buy. It describes the named sweetener substitution, rather than an unsupported healthier claim. Plain no-added-sugar wording, artificial-sweetener-only sugar-free products, or honey used in non-food care do not establish this dimension."
   }
 }
