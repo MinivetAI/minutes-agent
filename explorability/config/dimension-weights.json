@@ -1,0 +1,3426 @@
+{
+  "schema_version": 1,
+  "weight_version": "v1",
+  "dimensions": [
+    {
+      "dimension_id": "active_or_special_ingredients",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "allergen_free_claims",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "allergens",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "dimension_id": "animal_welfare_claims",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "craft_processes",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "cuisine_style",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "d2c_brand",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "AirConditioner"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Audio"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "AutoAccessorys"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BooksMedia"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Camera"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "CoreEA"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "DigitalSubscription"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FashionWearables"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Gaming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GemsAndJewellery"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GiftCardAndVouchers"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeImprovementTool"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "IOT"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITAccessory"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITPeripherals"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidClothing"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidsFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LaptopAndDesktop"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LargeFurniture"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LuggageAndTravelAccessories"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingBottomwearBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingEssentialsAndEthnic"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingTopwearBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensCnFFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensEssentialsEthnicBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensOpenFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSeasonalWinterBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSportsFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Microwave"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Mobile"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PowerBank"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PremiumEA"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Refrigerator"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "RestOfMobileAccessory"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SHA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SeasonalEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SmallFurniture"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SportFitness"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Storage"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Tablet"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ToysAndSS"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Video"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Watch"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicContemporary"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicCore"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenFW"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternCore"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternGrowth"
+          },
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "dimension_id": "diet_claims",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "distinctive_formats",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "eco_friendly_packaging",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "dimension_id": "ethically_sourced",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "AirConditioner"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Audio"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "AutoAccessorys"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BooksMedia"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Camera"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "CoreEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "DigitalSubscription"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FashionWearables"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Gaming"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GemsAndJewellery"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GiftCardAndVouchers"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeImprovementTool"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "IOT"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITAccessory"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITPeripherals"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidClothing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidsFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LaptopAndDesktop"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LargeFurniture"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LuggageAndTravelAccessories"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingBottomwearBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingEssentialsAndEthnic"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingTopwearBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensCnFFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensEssentialsEthnicBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensOpenFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSeasonalWinterBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSportsFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Microwave"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Mobile"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PowerBank"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PremiumEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Refrigerator"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "RestOfMobileAccessory"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SHA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SeasonalEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SmallFurniture"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SportFitness"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Storage"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Tablet"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ToysAndSS"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Video"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Watch"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicContemporary"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicCore"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenFW"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternCore"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternGrowth"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "exotic_or_uncommon_ingredients",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "flavour_variant",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "dimension_id": "gender",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "dimension_id": "imported_sku",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "instant_or_time_saving",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "life_stages",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "material_safety_claims",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "named_origin",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "natural_formulation",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "new_to_indian_retail",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "nutritional_claims",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "occasions",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "organic",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "pet_species",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "dimension_id": "plant_based",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "portability_upgrade",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "powered_or_automated",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "premium_brand",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "AirConditioner"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Audio"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "AutoAccessorys"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BooksMedia"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Camera"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "CoreEA"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "DigitalSubscription"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FashionWearables"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Gaming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GemsAndJewellery"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GiftCardAndVouchers"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeImprovementTool"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "IOT"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITAccessory"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITPeripherals"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidClothing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidsFootwear"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LaptopAndDesktop"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LargeFurniture"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LuggageAndTravelAccessories"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingBottomwearBranded"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingEssentialsAndEthnic"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingTopwearBranded"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensCnFFootwear"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensEssentialsEthnicBranded"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensOpenFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSeasonalWinterBranded"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSportsFootwear"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Microwave"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Mobile"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PowerBank"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PremiumEA"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Refrigerator"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "RestOfMobileAccessory"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SHA"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SeasonalEA"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SmallFurniture"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SportFitness"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Storage"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Tablet"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ToysAndSS"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Video"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Watch"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicContemporary"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicCore"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenFW"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternCore"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternGrowth"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "premium_sku",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "produced_in_small_batches",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "AirConditioner"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Audio"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "AutoAccessorys"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BooksMedia"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Camera"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "CoreEA"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "DigitalSubscription"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FashionWearables"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Gaming"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GemsAndJewellery"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GiftCardAndVouchers"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeImprovementTool"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "IOT"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITAccessory"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITPeripherals"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidClothing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidsFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LaptopAndDesktop"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LargeFurniture"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LuggageAndTravelAccessories"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingBottomwearBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingEssentialsAndEthnic"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingTopwearBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensCnFFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensEssentialsEthnicBranded"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensOpenFootwear"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSeasonalWinterBranded"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSportsFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Microwave"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Mobile"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PowerBank"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PremiumEA"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Refrigerator"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "RestOfMobileAccessory"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SHA"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SeasonalEA"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SmallFurniture"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SportFitness"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Storage"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Tablet"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ToysAndSS"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Video"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Watch"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicContemporary"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicCore"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenFW"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternCore"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternGrowth"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "professional_use",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "regional_brand",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "AirConditioner"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Audio"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "AutoAccessorys"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "BooksMedia"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Camera"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "CoreEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "DigitalSubscription"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FashionWearables"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Gaming"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GemsAndJewellery"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "GiftCardAndVouchers"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeImprovementTool"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "IOT"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITAccessory"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ITPeripherals"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidClothing"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "KidsFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LaptopAndDesktop"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LargeFurniture"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "LuggageAndTravelAccessories"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingBottomwearBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingEssentialsAndEthnic"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensClothingTopwearBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensCnFFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensEssentialsEthnicBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensOpenFootwear"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSeasonalWinterBranded"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MensSportsFootwear"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Microwave"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Mobile"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PowerBank"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PremiumEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Refrigerator"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "RestOfMobileAccessory"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SHA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SeasonalEA"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SmallFurniture"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "SportFitness"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Storage"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Tablet"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "ToysAndSS"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Video"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Watch"
+          },
+          "weight": 0
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicContemporary"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenEthnicCore"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenFW"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternCore"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "WomenWesternGrowth"
+          },
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "dimension_id": "skin_hair_type",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "special_edition",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.25
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PaanCorner"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "sugar_claim",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "sustainable_materials",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeDecor"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HomeFurnishing"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MobileProtection"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "sweetener_type",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "dimension_id": "targeted_problems",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHold"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "PersonalHealthCare"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "unwanted_substance_free_claims",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "BabyCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Grooming"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HealthCare"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "HouseHoldSupplies"
+          },
+          "weight": 0.5
+        },
+        {
+          "scope": {
+            "analytic_super_category": "MakeupFragrances"
+          },
+          "weight": 1
+        },
+        {
+          "scope": {
+            "analytic_super_category": "Pets"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "dimension_id": "wellness_goals",
+      "default_weight": 0,
+      "overrides": [
+        {
+          "scope": {
+            "analytic_super_category": "FoodAndNutrition"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
