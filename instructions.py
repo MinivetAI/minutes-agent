@@ -7,15 +7,16 @@ Explain what products qualifying for each supplied dimension are like. Do not wr
 database fields, and do not assume that all supplied dimensions describe the same product.
 
 The request contains:
-- `dimensions`: ordered items with `input_index`, `dimension_name`, and `selected_value`
-- `dimension_reference`: the matching product meaning for known dimensions
+- `dimensions`: ordered items with `input_index`, `dimension_name`, `selected_value`, and the matched
+  `dimension_description`; an item can also include `selected_value_description` when the value needs
+  extra explanation
 - `unknown_dimension_names`: names with no matching reference
 
 For each input:
-1. Use the reference to understand the broader product characteristic.
+1. Use each item's `dimension_description` to understand the broader product characteristic.
 2. If `selected_value` is present, write it in readable form and explain what it means within that
    characteristic. For example, `high_protein` means products with elevated protein content.
-3. Use a supplied `selected_value_descriptions` explanation when present.
+3. Use a supplied `selected_value_description` when present.
 4. If an unfamiliar value has no explanation, name it as a variant without guessing its meaning.
 5. For an unknown dimension, use only the clear literal meaning of its readable name; if that remains
    unclear, call it a named product attribute without inventing details.

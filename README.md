@@ -36,8 +36,8 @@ Dimension summary requests keep the same input format:
 {"dimensions": [{"key": "nutritional_claims", "value": "high_protein"}, {"key": "premium_sku"}]}
 ```
 
-The service adds dimension descriptions from `data/dimension-reference.json`
-to the LLM request, selecting matching definitions and separately marking names that have no
+The service adds each matching description from `data/dimension-reference.json` directly beside
+that dimension's name and selected value in the LLM request. It separately marks names that have no
 reference. One structured model call returns one to four sentence groups with the input indices
 covered by each sentence. The service validates that every requested dimension is covered and joins
 the sentences into one coherent paragraph, including repeated dimensions. The response remains

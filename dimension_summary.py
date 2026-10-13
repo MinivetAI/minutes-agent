@@ -18,18 +18,26 @@ def _load_reference():
 
 def _enrich_payload(data):
     reference = _load_reference()
-    names = list(dict.fromkeys(item["key"] for item in data["dimensions"]))
-    selected = {name: reference[name] for name in names if name in reference}
-    unknown_names = [name for name in names if name not in reference]
-    selected = {name: {"description": entry["description"]} for name, entry in selected.items()}
-    for item in data["dimensions"]:
+    dimensions = []
+    unknown_names = []
+    for index, item in enumerate(data["dimensions"]):
         name, value = item["key"], item.get("value")
-        explanation = reference.get(name, {}).get("value_explanations", {}).get(value)
-        if explanation and name in selected:
-            selected[name].setdefault("selected_value_descriptions", {})[value] = explanation
+        entry = reference.get(name)
+        enriched = {
+            "input_index": index,
+            "dimension_name": name,
+            "selected_value": value,
+        }
+        if entry:
+            enriched["dimension_description"] = entry["description"]
+            explanation = entry.get("value_explanations", {}).get(value)
+            if explanation:
+                enriched["selected_value_description"] = explanation
+        elif name not in unknown_names:
+            unknown_names.append(name)
+        dimensions.append(enriched)
     return {
-        **data,
-        "dimension_reference": json.dumps(selected, ensure_ascii=False),
+        "dimensions": dimensions,
         "unknown_dimension_names": unknown_names,
     }
 
@@ -45,14 +53,6 @@ def _is_single_sentence(text):
 
 async def summarize_dimensions(task, data):
     payload = _enrich_payload(data)
-    payload["dimensions"] = [
-        {
-            "input_index": index,
-            "dimension_name": item["key"],
-            "selected_value": item.get("value"),
-        }
-        for index, item in enumerate(data["dimensions"])
-    ]
     expected_indices = list(range(len(data["dimensions"])))
     max_sentences = min(4, len(expected_indices))
     # One call for the full list, with one bounded whole-request retry for invalid structured output.
