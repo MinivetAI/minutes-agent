@@ -21,18 +21,22 @@ def _enrich_payload(data):
     dimensions = []
     unknown_names = []
     for index, item in enumerate(data["dimensions"]):
-        name, value = item["key"], item.get("value")
+        name, values = item["key"], item.get("value")
         entry = reference.get(name)
         enriched = {
             "input_index": index,
             "dimension_name": name,
-            "selected_value": value,
+            "selected_values": values,
         }
         if entry:
             enriched["dimension_description"] = entry["description"]
-            explanation = entry.get("value_explanations", {}).get(value)
-            if explanation:
-                enriched["selected_value_description"] = explanation
+            explanations = {
+                value: entry.get("value_explanations", {})[value]
+                for value in values or []
+                if value in entry.get("value_explanations", {})
+            }
+            if explanations:
+                enriched["selected_value_descriptions"] = explanations
         elif name not in unknown_names:
             unknown_names.append(name)
         dimensions.append(enriched)
@@ -54,7 +58,7 @@ def _is_single_sentence(text):
 async def summarize_dimensions(task, data):
     payload = _enrich_payload(data)
     expected_indices = list(range(len(data["dimensions"])))
-    max_sentences = min(4, len(expected_indices))
+    max_sentences = len(expected_indices)
     # One call for the full list, with one bounded whole-request retry for invalid structured output.
     for attempt in range(2):
         result = await task.do(payload)
@@ -64,8 +68,10 @@ async def summarize_dimensions(task, data):
             if len(parsed.sentences) > max_sentences:
                 raise ValueError(f"Use at most {max_sentences} sentences for this request")
             indices = [index for sentence in parsed.sentences for index in sentence.input_indices]
-            if indices != expected_indices:
-                raise ValueError(f"Expected input_indices {expected_indices}, received {indices}")
+            if len(indices) != len(expected_indices) or set(indices) != set(expected_indices):
+                raise ValueError(
+                    f"Expected every input_index in {expected_indices} exactly once, received {indices}"
+                )
             sentences = []
             errors = []
             for sentence_number, item in enumerate(parsed.sentences, start=1):
@@ -85,8 +91,8 @@ async def summarize_dimensions(task, data):
                 "coverage_correction": (
                     f"The previous output was invalid: {exc}. Return every input_index from 0 to "
                     f"{len(expected_indices) - 1} exactly once across 1 to {max_sentences} sentences. Each sentence must "
-                    "list the input_indices it covers. Preserve every broader dimension concept and explain "
-                    "every named selected value; a general-only or value-only explanation is invalid."
+                    "list the input_indices it covers. Preserve every broader dimension concept and use "
+                    "the most meaningful selected values; a value-only explanation is invalid."
                 ),
             }
             continue

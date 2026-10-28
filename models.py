@@ -6,25 +6,25 @@ from pydantic import BaseModel, ConfigDict, Field
 
 class DimensionValuePair(BaseModel):
     key: str = Field(min_length=1, description="Dimension name")
-    value: Optional[str] = Field(
+    value: Optional[List[str]] = Field(
         default=None,
         min_length=1,
-        description="Optional selected dimension value",
+        description="Optional non-empty list of selected dimension values",
     )
 
 
 class DimensionSummaryInput(BaseModel):
     dimensions: List[DimensionValuePair] = Field(
         min_length=1,
-        max_length=64,
-        description="Ordered dimensions, each with an optional value",
+        max_length=128,
+        description="Ordered dimensions, each with an optional list of values",
     )
 
 
 class DimensionSummaryOutput(BaseModel):
     summary: str = Field(
         min_length=1,
-        description="One entity-neutral paragraph covering the supplied dimensions in order"
+        description="One natural customer-preference paragraph covering the supplied dimensions in order"
     )
 
 
@@ -33,11 +33,11 @@ class DimensionSummarySentence(BaseModel):
 
     input_indices: List[int] = Field(
         min_length=1,
-        description="Input positions whose dimension and optional value are covered by this sentence",
+        description="Input positions whose dimension and optional values are covered by this sentence",
     )
     description: str = Field(
         min_length=1,
-        description="One natural paragraph sentence that synthesizes all listed input positions",
+        description="One natural customer-preference sentence that synthesizes all listed input positions",
     )
 
 
@@ -45,8 +45,8 @@ class DimensionDescriptionsOutput(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     sentences: List[DimensionSummarySentence] = Field(
-        min_length=1, max_length=4,
-        description="One to four sentences that together cover every input dimension",
+        min_length=1, max_length=128,
+        description="Sentences that together cover every input dimension",
     )
 
 

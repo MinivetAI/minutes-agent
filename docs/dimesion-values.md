@@ -2,7 +2,7 @@
 
 ## A dimension has **values** or it does not.
 
-## Dimensions that carry values (27)
+## Dimensions that carry values (29)
 
 | dimension | values | description |
 | :---- | :---- | :---- |
@@ -33,15 +33,15 @@
 | `sustainable_materials` | `bagasse`, `bamboo`, `coir`, `cork`, `hemp`, `jute`, `organic_cotton`, `recycled_plastic` | The product itself is differentiated by an explicitly identified renewable, recycled, organic or lower-impact material. Examples include bamboo care tools and tissues, organic-cotton baby textiles or pads, jute rugs and pet toys, coir or cork decor, bagasse dinnerware and recycled-plastic household consumables. The material must be part of the item, not just its outer pack, an accompanying bag or a botanical extract in a formulation. Ordinary cotton or an unspecified natural material alone is insufficient. |
 | `sweetener_type` | `jaggery`, `honey`, `dates`, `fruit`, `stevia`, `monk_fruit` | The named ingredient used to sweeten a product instead of refined sugar, such as jaggery, honey, dates, fruit, stevia or monk fruit. It explains what provides sweetness and is relevant when that choice helps distinguish the product. |
 | `sugar_claim` | `no_added_sugar`, `low_sugar`, `sugar_free`, `unrefined_sugar` | The product’s stated sugar positioning, such as no added sugar, low sugar, sugar free or use of unrefined sugar. It describes the explicit sugar-related claim rather than guessing from the ingredient list. |
+| `sku_tier` | `cheap`, `budget`, `mid`, `premium_branded`, `luxury` | The individual SKU's price and market positioning within its Indian retail category, independent of its parent brand. The value describes the tier shoppers tend to prefer; premium_branded and luxury can be summarized simply as a preference for premium products. |
+| `brand_tier` | `cheap`, `budget`, `mid`, `premium_branded`, `luxury` | The brand or manufacturer's overall price and market positioning within its Indian retail category. The value describes the brand tier shoppers tend to prefer; premium_branded and luxury can be summarized simply as a preference for premium brands. |
 
-## Boolean and derived dimensions (14)
+## Boolean and derived dimensions (12)
 
 These fields are true or false and do not carry a selected value.
 
 | dimension | values | description |
 | :---- | :---- | :---- |
-| `premium_sku` | — | The individual SKU is positioned as premium or luxury within its Indian retail category, independent of its parent brand and backed by meaningful differentiation and category-relative price. A product does not qualify only because it is expensive, imported, from a famous brand or named Gold or Premium. |
-| `premium_brand` | — | The brand or manufacturer is positioned as premium or luxury within its Indian retail category, judged on its dominant portfolio rather than a few expensive products. A well-known or trusted mass-market brand does not qualify because it sells a few premium SKUs. |
 | `organic` | — | The product is organic: it is sold as organic, or is grown or made from organically produced ingredients, and that is a reason to buy it. A certification mark is not required; an explicit organic claim on the product is enough. Answer true or false. Not applicable for: products described only as natural, herbal, chemical-free or pure without saying organic, or where 'organic' appears only in the brand name and not as a claim about the product. |
 | `eco_friendly_packaging` | — | A deliberate shift from the shelf’s usual disposable plastic packaging to glass, metal, paper, card, cloth or certified compostable material, including durable returnable or refillable containers. It can describe food and baby-care packs, care and wellness containers, decor and furnishing wraps, household products, device packaging and pet supplies. This concerns the pack rather than the product’s own material. Ordinary glass where glass is already standard, recyclable-plastic claims and disposable plastic refill pouches do not establish the dimension. |
 | `d2c_brand` | — | A brand created primarily as an online or direct-to-consumer business that still sells mainly through its own digital channels or online marketplaces rather than conventional retail. This describes the brand’s route to market across food, care, household goods, apparel or electronics, without implying premium pricing. An established mass-retail brand, marketplace reseller or white-label storefront does not qualify merely because it also sells online. |
@@ -171,8 +171,8 @@ The mission axes personalize the same way; their kinds are in `docs/mission-axes
 | `plant_based` | preference |
 | `portability_upgrade` | preference |
 | `powered_or_automated` | preference |
-| `premium_brand` | preference |
-| `premium_sku` | preference |
+| `brand_tier` | preference |
+| `sku_tier` | preference |
 | `sweetener_type` | preference |
 | `sugar_claim` | preference |
 | `professional_use` | preference |

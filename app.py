@@ -1,5 +1,6 @@
 import argparse
 from contextlib import asynccontextmanager
+import logging
 import os
 from typing import Dict
 
@@ -14,6 +15,7 @@ from tasks import get_enabled_tasks, get_task_names
 load_dotenv()
 
 PERPLEXITY_URL = "https://api.perplexity.ai"
+LOGGER = logging.getLogger(__name__)
 
 
 def parse_args():
@@ -176,6 +178,13 @@ def create_app(enabled_tasks: Dict, provider: str, vllm_url: str, model: str, ma
                         return result_dict
                     return result
                 except Exception as exc:
+                    dimension_count = len(input_dict.get("dimensions", [])) if "input_dict" in locals() else None
+                    LOGGER.exception(
+                        "Task %s failed (dimension_count=%s): %s",
+                        task_name,
+                        dimension_count,
+                        exc,
+                    )
                     raise HTTPException(status_code=500, detail=f"Error in {task_name}: {str(exc)}")
 
             task_endpoint.__name__ = f"{task_name}_endpoint"

@@ -1,51 +1,111 @@
 DIMENSION_SUMMARY = """
-Write a compact, natural explanation of the supplied product dimensions for shoppers.
+Write a compact, natural summary of a customer's product preferences.
 
-A dimension describes something that can make products distinctive or worth exploring: what they
-contain, how they are made, whom they are for, what need they address, or how they are positioned.
-Explain what products qualifying for each supplied dimension are like. Do not write definitions of
-database fields, and do not assume that all supplied dimensions describe the same product.
+A dimension describes a product characteristic that the customer has shown an interest in: what
+products contain, how they are made, whom they are for, what need they address, or how they are
+positioned. Translate the supplied dimensions and values into a readable statement about what the
+customer prefers. Do not define database fields or explain the dimension system.
 
 The request contains:
-- `dimensions`: ordered items with `input_index`, `dimension_name`, `selected_value`, and the matched
-  `dimension_description`; an item can also include `selected_value_description` when the value needs
+- `dimensions`: ordered items with `input_index`, `dimension_name`, `selected_values`, and the matched
+  `dimension_description`; an item can also include `selected_value_descriptions` for values that need
   extra explanation
 - `unknown_dimension_names`: names with no matching reference
 
 For each input:
-1. Use each item's `dimension_description` to understand the broader product characteristic.
-2. If `selected_value` is present, write it in readable form and explain what it means within that
-   characteristic. For example, `high_protein` means products with elevated protein content.
-3. Use a supplied `selected_value_description` when present.
-4. If an unfamiliar value has no explanation, name it as a variant without guessing its meaning.
+1. Use `dimension_description` only to understand what preference the dimension represents.
+2. Use `selected_values` to infer the actual preference, then decide which values make the
+   summary more meaningful. For example, `high_protein` means a preference for high-protein
+   products, `cocoa` means a preference for cocoa-based products, and `gluten_free` means a
+   preference for gluten-free products. A low-signal or technical value may be considered without
+   being named.
+3. Use matching entries from `selected_value_descriptions` when supplied, without turning them into
+   definitions.
+4. If an unfamiliar value has no explanation, do not guess its meaning; mention its readable name
+   only when it is needed to represent the dimension.
 5. For an unknown dimension, use only the clear literal meaning of its readable name; if that remains
-   unclear, call it a named product attribute without inventing details.
+   unclear, describe it as a product attribute without inventing details.
 
-References may include detailed qualification boundaries used to classify products. Use those details
-to understand the dimension, but do not repeat the classification methodology, exclusions, pricing
-tests, or brand-versus-SKU caveats in the shopper-facing description. Express the simple reason a
-shopper may prefer those products. For example, `premium_sku` means premium products appeal to
-shoppers who prefer higher-end options.
+Every item represents a preference even when `selected_values` is null or absent. In that case,
+express the preference conveyed by `dimension_name` itself. Never omit a valueless item.
+
+References may include detailed qualification boundaries used to classify products. Use them only
+for meaning. Do not repeat classification rules, exclusions, pricing tests, technical caveats, or
+brand-versus-SKU classification caveats. For `brand_tier` and `sku_tier`, express the selected tier;
+`premium_branded` and `luxury` should read naturally as preferences for premium brands or products.
 
 Return only a structured `sentences` object. It must follow these rules:
-- Use 1 to 4 sentence objects and never more sentence objects than input items.
+- Never use more sentence objects than input dimension items.
 - Each object contains only `input_indices` and `description`.
 - Each `description` is exactly one complete, natural sentence.
 - Cover every input index exactly once across `input_indices`, including repeated dimension names.
-- Preserve input order. A sentence covering several inputs lists their indices in that order.
-- For long requests, combine neighboring inputs into clear clauses so the complete paragraph never
-  exceeds four sentences.
+- Group related preferences naturally. The indices may be reordered when that makes the summary more
+  coherent, but every index must still appear exactly once.
+- Prefer one sentence for a short request and usually stay within four sentences when all dimensions
+  and meaningful values fit naturally.
+- When the request is too large to cover clearly in four sentences, use additional sentences rather
+  than omitting, flattening, or crowding important preferences. Use as many sentences as needed for
+  complete, readable coverage, up to one sentence per input dimension.
 
-Write directly about products. Prefer "High-protein products contain elevated protein" over
-"High protein indicates a nutritional-claims dimension." Mention every selected value and do not
-invent brands, ingredients, benefits,
-certifications, occasions, or shared use cases.
+Write about the customer's preferences, using plain phrases such as "premium products",
+"cocoa-based products", and "gluten-free options". Synthesize related preferences naturally instead
+of producing one definition per dimension. Consider every selected value and name the values that
+best explain the preference. Do not invent preference strength, brands, ingredients, benefits,
+certifications, occasions, or shared use cases. State preferences without implying a strength that
+was not supplied.
 
-Example tone for `high_protein`, `bilona`, `fish`, and `premium_sku`:
-"High-protein products stand out through elevated protein content, while bilona ghee draws interest
-from its traditional curd-churning process. Fish-specific pet products cover food, aquarium care,
-and aquatic equipment designed for that species. Premium products appeal to shoppers who prefer
-higher-end options."
+Write the sentence objects as one connected paragraph:
+- Introduce "the customer" only once, normally in the first sentence.
+- Do not begin every sentence with "The customer shows a preference for" and never repeat that full
+  phrase within one response.
+- Continue with natural links such as "They also prefer", "Their interests include", "This extends
+  to", or direct descriptions of the remaining preferences.
+- Vary sentence structure without becoming promotional or adding unsupported conclusions.
+
+Example for `sku_tier: [premium_branded]`, `active_or_special_ingredients: [cocoa]`, and
+`allergen_free_claims: [gluten_free]`:
+"The customer shows a preference for premium products with cocoa-based and gluten-free attributes."
+
+Another example for `nutritional_claims: [high_protein]` and `craft_processes: [bilona]`:
+"The customer shows a preference for high-protein products and products made using the traditional
+bilona process."
+
+Example tone for a longer response:
+"The customer prefers products featuring watermelon, zinc, and vitamin C. They also look for
+high-protein and high-fibre options. Traditional bilona and cold-pressed processes appeal to them,
+while their dietary interests include gluten-free and keto products."
+
+The examples illustrate tone only. Always generate the summary from the complete current request and
+cover all of its input indices; never copy an example's attributes or index count. Before returning,
+verify that each distinct dimension is represented in the description and that every input index
+appears exactly once in `input_indices`. Repeated low-signal values do not each need a phrase.
+
+When a dimension has several selected values, summarize the preference rather than listing
+every value mechanically. Give priority to values that are distinctive, shopper-recognizable, and
+useful for understanding why the customer may explore a product. A common base ingredient,
+incidental ingredient, or technical additive should not crowd out a more meaningful flavour, hero
+ingredient, process, origin, dietary choice, or natural alternative.
+
+Examples of value priority:
+- For `active_or_special_ingredients` with chilli, lemon, and potato, prefer chilli and lemon because
+  they convey a more useful taste or ingredient preference; potato is often only the ordinary base.
+- For `sweetener_type`, retain recognizable alternatives such as honey or jaggery. Do not name
+  technical sweeteners such as acesulfame K or sucralose when a clearer `sugar_claim` such as
+  sugar-free, no-added-sugar, or low-sugar is present; summarize the shopper-facing sugar claim
+  instead. In that case the final description must not contain the technical sweetener names. If
+  technical sweeteners are the only sugar-related signal, describe them collectively as sugar
+  alternatives without listing their chemical names.
+- `sweetener_type: [acesulfame_k, sucralose]` and `sugar_claim: [sugar_free]` should become:
+  "The customer shows a preference for sugar-free products
+  using sugar alternatives."
+- `sweetener_type: [honey, jaggery, sucralose]` and `sugar_claim: [sugar_free]` should become:
+  "The customer shows a preference for sugar-free products
+  sweetened with honey or jaggery."
+- `sweetener_type: [acesulfame_k, sucralose]` without a sugar claim should become:
+  "The customer shows a preference for products using sugar alternatives."
+- Apply the same principle to other dimensions: retain the values that best explain the customer's
+  distinctive preference, and omit low-signal values when including all of them would make the
+  summary cluttered.
 """.strip()
 
 

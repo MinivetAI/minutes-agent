@@ -89,11 +89,11 @@
   "sugar_claim": {
     "description": "The product’s stated sugar positioning, such as no added sugar, low sugar, sugar free or use of unrefined sugar. It describes the explicit sugar-related claim rather than guessing from the ingredient list."
   },
-  "premium_sku": {
-    "description": "The individual SKU is positioned as premium or luxury within its Indian retail category, independent of its parent brand and backed by meaningful differentiation and category-relative price. A product does not qualify only because it is expensive, imported, from a famous brand or named Gold or Premium."
+  "sku_tier": {
+    "description": "The individual SKU's price and market positioning within its Indian retail category, independent of its parent brand. Values such as cheap, budget, mid, premium_branded and luxury indicate the tier shoppers tend to prefer; describe premium_branded and luxury simply as a preference for premium products."
   },
-  "premium_brand": {
-    "description": "The brand or manufacturer is positioned as premium or luxury within its Indian retail category, judged on its dominant portfolio rather than a few expensive products. A well-known or trusted mass-market brand does not qualify because it sells a few premium SKUs."
+  "brand_tier": {
+    "description": "The brand or manufacturer's overall price and market positioning within its Indian retail category. Values such as cheap, budget, mid, premium_branded and luxury indicate the brand tier shoppers tend to prefer; describe premium_branded and luxury simply as a preference for premium brands."
   },
   "organic": {
     "description": "The product is organic: it is sold as organic, or is grown or made from organically produced ingredients, and that is a reason to buy it. A certification mark is not required; an explicit organic claim on the product is enough. Answer true or false. Not applicable for: products described only as natural, herbal, chemical-free or pure without saying organic, or where 'organic' appears only in the brand name and not as a claim about the product."
