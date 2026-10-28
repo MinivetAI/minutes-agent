@@ -26,7 +26,7 @@ transitively; the JAR alone does not bundle dependencies.
 | File in `config/` | Purpose |
 | --- | --- |
 | `dimension-weights.json` | Defaults and scope-only overrides using zero, low, medium, and high importance. |
-| `normalization-baselines.csv` | Baseline statistics for 65 supercategories; 59 were calculated from the 14,000-product enrichment dataset. |
+| `normalization-baselines.csv` | Baseline statistics calculated from the 115,228-product enrichment dataset for all 65 supercategories. |
 
 Weights and every baseline row must have the same `weight_version`. Populate statistics
 after all products are scored offline. Do not add category, subcategory, or vertical baselines. Sample-size
@@ -43,10 +43,10 @@ Grooming,890,2.4,7.1,9.0,2026-10-09,v1
 These two rows illustrate the format; they are not computed baselines. Only supercategory
 baselines are used. `n` is the product count;
 `p50`, `p95`, and `p99` are percentiles of raw scores. Product scoring reads the supercategory,
-`p95`, and `weight_version`; the remaining columns are offline metadata. Uncomputed rows
-use `n=0`, zero percentiles, and a blank `computed_at`. Six supercategories absent from the
-14,000-product dataset remain placeholders. A calculated P95 can also be zero when a
-supercategory has no positively weighted qualifications; zero cannot be used as a divisor.
+`p99`, and `weight_version`; the remaining columns are offline metadata. Uncomputed rows use
+`n=0`, zero percentiles, and a blank `computed_at`. All current rows were computed on 2026-10-27.
+Nine supercategories, containing 439 products, have a calculated P99 of zero because their
+products have no positively weighted qualifications; zero cannot be used as a divisor.
 
 The initial config groups dimension importance into four starting weights:
 
@@ -94,14 +94,14 @@ Scopes must include their parent fields. Match names exactly. Unknown dimensions
 zero; unmatched scopes inherit broader weights or defaults. Explicit zero is an override.
 
 Look up the product's exact supercategory baseline. If it is missing or zero, return
-`error: "baseline_config_missing"` with the raw score and a null explore score. Normalize with `min(1, raw_score / p95_raw_score)`.
+`error: "baseline_config_missing"` with the raw score and a null explore score. Normalize with `min(1, raw_score / p99_raw_score)`.
 
-With the checked-in Grooming P95 baseline of 4.5, the example returns:
+With the checked-in Grooming P99 baseline of 5.5, the example returns:
 
 ```json
 {
   "raw_score": 3,
-  "explore_score": 0.6667,
+  "explore_score": 0.5455,
   "error": null
 }
 ```
@@ -112,7 +112,7 @@ Raw scores can exceed 1. Normalized scores are always in [0,1]; no random fallba
 
 Group products by supercategory in the calling application, then pass that group's product
 IDs and raw scores to the percentile function. Do not pass normalized
-explore scores, because the p95 raw-score baseline is the denominator used to create them.
+explore scores, because the p99 raw-score baseline is the denominator used to create them.
 
 ```java
 var rawScores = Map.of(
@@ -141,12 +141,11 @@ are rejected. Do not substitute raw product scores or silently omit unnormalized
 A raw score below 1 cannot be distinguished from a normalized score by its number alone;
 the caller must use product results whose `error` is null and `explore_score` is present.
 
-Pass `95` or `99` directly to the mission function. Compute that percentile using
-linear interpolation at index `(n - 1) * q`,
-then cap each product score at it and average **all** scores. With p95, the example cap
-is 0.92 and the output is `{"missionId":"EXAMPLE_MISSION","explore_score":0.424}`.
-A single-product mission retains its score. An all-zero mission returns zero.
-Ratios and averages are rounded to at most 4 decimal places.
+Sort the product scores from highest to lowest, take the first 50, and return their
+arithmetic mean. If the mission contains fewer than 50 products, average all available
+scores. The example output is `{"missionId":"EXAMPLE_MISSION","explore_score":0.44}`.
+A single-product mission retains its score. An all-zero mission returns zero. Averages
+are rounded to at most 4 decimal places.
 
 ## Java integration
 
@@ -162,7 +161,7 @@ var scorer = new ExplorabilityScorer(config); // Create once per config; safe to
 var productResult = scorer.score(ScoringJson.readProduct(productJson));
 var productOutputJson = ScoringJson.writeScore(productResult);
 
-var missionResult = ExplorabilityScorer.scoreMission(ScoringJson.readMission(missionJson), 95);
+var missionResult = ExplorabilityScorer.scoreMission(ScoringJson.readMission(missionJson));
 var missionOutputJson = ScoringJson.writeScore(missionResult);
 ```
 

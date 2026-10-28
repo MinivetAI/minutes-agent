@@ -19,7 +19,7 @@ public final class ExplorabilityScorer {
     private record DimensionRule(BigDecimal defaultWeight, List<WeightOverride> overrides) {}
 
     private final Map<String, DimensionRule> dimensionRules;
-    private final Map<String, BigDecimal> p95BySupercategory;
+    private final Map<String, BigDecimal> p99BySupercategory;
 
     public ExplorabilityScorer(ScoringConfig config) {
         Objects.requireNonNull(config, "config");
@@ -44,12 +44,12 @@ public final class ExplorabilityScorer {
         Map<String, BigDecimal> baselineIndex = new HashMap<>();
         if (config.normalization() != null) {
             for (var baseline : config.normalization().baselines()) {
-                if (baselineIndex.putIfAbsent(baseline.analyticSuperCategory(), baseline.p95RawScore()) != null) {
+                if (baselineIndex.putIfAbsent(baseline.analyticSuperCategory(), baseline.p99RawScore()) != null) {
                     throw new IllegalArgumentException("Duplicate normalization baseline supercategory");
                 }
             }
         }
-        p95BySupercategory = Map.copyOf(baselineIndex);
+        p99BySupercategory = Map.copyOf(baselineIndex);
     }
 
     public ProductScore score(ProductInput product) {
@@ -103,7 +103,7 @@ public final class ExplorabilityScorer {
     }
 
     private BigDecimal findPositiveSupercategoryBaseline(ProductInput product) {
-        BigDecimal baseline = p95BySupercategory.get(product.analyticSuperCategory());
+        BigDecimal baseline = p99BySupercategory.get(product.analyticSuperCategory());
         return isPositive(baseline) ? baseline : null;
     }
 
@@ -119,20 +119,16 @@ public final class ExplorabilityScorer {
                 .stripTrailingZeros();
     }
 
-    /** Cap normalized product scores at p95/p99, then average all scores. */
-    public static MissionScore scoreMission(MissionInput mission, int percentile) {
+    /** Average the 50 highest normalized product scores, or all scores when fewer than 50 exist. */
+    public static MissionScore scoreMission(MissionInput mission) {
         Objects.requireNonNull(mission, "mission");
-        if (percentile != 95 && percentile != 99) {
-            throw new IllegalArgumentException("Mission percentile must be 95 or 99");
-        }
-        List<BigDecimal> sortedScores = mission.productExploreScores().stream().sorted().toList();
-        BigDecimal scoreCap = interpolatedPercentile(sortedScores, percentile);
-        BigDecimal cappedTotal = BigDecimal.ZERO;
-        for (BigDecimal score : sortedScores) {
-            cappedTotal = cappedTotal.add(score.min(scoreCap));
-        }
-        BigDecimal productCount = BigDecimal.valueOf(sortedScores.size());
-        BigDecimal average = cappedTotal.divide(productCount, SCORE_DECIMAL_PLACES, RoundingMode.HALF_UP)
+        List<BigDecimal> topScores = mission.productExploreScores().stream()
+                .sorted(Comparator.reverseOrder())
+                .limit(50)
+                .toList();
+        BigDecimal total = topScores.stream().reduce(BigDecimal.ZERO, BigDecimal::add);
+        BigDecimal average = total.divide(BigDecimal.valueOf(topScores.size()),
+                        SCORE_DECIMAL_PLACES, RoundingMode.HALF_UP)
                 .stripTrailingZeros();
         return new MissionScore(mission.missionId(), average);
     }

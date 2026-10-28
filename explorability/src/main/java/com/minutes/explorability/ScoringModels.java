@@ -38,7 +38,7 @@ public final class ScoringModels {
         }
     }
 
-    /** Immutable weights and optional p95 baselines from the same weight version. */
+    /** Immutable weights and optional p99 baselines from the same weight version. */
     @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
     public record ScoringConfig(
             int schemaVersion,
@@ -80,11 +80,11 @@ public final class ScoringModels {
         }
 
         @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-        public record Baseline(String analyticSuperCategory, BigDecimal p95RawScore) {
+        public record Baseline(String analyticSuperCategory, BigDecimal p99RawScore) {
             public Baseline {
                 ScoringModels.text(analyticSuperCategory, "baseline analytic_super_category");
-                if (p95RawScore == null || p95RawScore.signum() < 0) {
-                    throw new IllegalArgumentException("p95_raw_score must be non-negative");
+                if (p99RawScore == null || p99RawScore.signum() < 0) {
+                    throw new IllegalArgumentException("p99_raw_score must be non-negative");
                 }
             }
         }

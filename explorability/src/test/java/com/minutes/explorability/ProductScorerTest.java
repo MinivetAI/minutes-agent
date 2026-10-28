@@ -129,7 +129,7 @@ class ProductScorerTest {
                 config(List.of(), new Baseline("Grooming", decimal("1")))).exploreScore());
     }
 
-    @Test void normalizedScoresStayInRangeIncludingAtAndAboveP95() {
+    @Test void normalizedScoresStayInRangeIncludingAtAndAboveP99() {
         for (int weight = 0; weight <= 100; weight++) {
             for (String baseline : List.of("0.01", "0.5", "1", "3")) {
                 var c = config(List.of(new DimensionWeight("a", BigDecimal.valueOf(weight, 2), List.of())),
@@ -196,7 +196,7 @@ class ProductScorerTest {
         var c = ScoringJson.readConfig("""
                 {"schema_version":1,"weight_version":"v1","dimensions":[{"dimension_id":"a","default_weight":0.5}],
                  "normalization":{"weight_version":"v1","baselines":[{
-                   "analytic_super_category":"Grooming","p95_raw_score":2}]}}
+                   "analytic_super_category":"Grooming","p99_raw_score":2}]}}
                 """);
         assertEquals("{\"raw_score\":0.5,\"explore_score\":0.25,\"error\":null}",
                 ScoringJson.writeScore(score(product(qualified("a")), c)));

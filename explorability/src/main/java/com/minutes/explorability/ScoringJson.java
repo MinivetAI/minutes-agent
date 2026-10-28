@@ -42,7 +42,7 @@ public final class ScoringJson {
                     throw new IllegalArgumentException("Baseline weight_version must match dimension weights");
                 }
                 baselines.add(new ScoringConfig.Baseline(
-                        row.get("analytic_super_category"), new BigDecimal(row.get("p95"))));
+                        row.get("analytic_super_category"), new BigDecimal(row.get("p99"))));
             }
         }
         return new ScoringConfig.Normalization(weightVersion, baselines);

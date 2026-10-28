@@ -28,10 +28,10 @@ class ConfigIntegrationTest {
         assertEquals(65, config.normalization().baselines().size());
         assertTrue(config.normalization().baselines().stream()
                 .allMatch(b -> !b.analyticSuperCategory().isBlank()));
-        assertTrue(config.normalization().baselines().stream().anyMatch(b -> b.p95RawScore().signum() > 0));
+        assertTrue(config.normalization().baselines().stream().anyMatch(b -> b.p99RawScore().signum() > 0));
         var result = new ExplorabilityScorer(config).score(product());
         assertEquals(0, new BigDecimal("3").compareTo(result.rawScore()));
-        assertEquals(0, new BigDecimal("0.6667").compareTo(result.exploreScore()));
+        assertEquals(0, new BigDecimal("0.5455").compareTo(result.exploreScore()));
         assertNull(result.error());
     }
 
@@ -40,7 +40,7 @@ class ConfigIntegrationTest {
         Files.writeString(baseline, HEADER + "Grooming,100,1,4,5,2026-10-09,v1\n");
         var config = ScoringJson.readConfig(Path.of("config/dimension-weights.json"), baseline);
         var result = new ExplorabilityScorer(config).score(product());
-        assertEquals(0, new BigDecimal("0.75").compareTo(result.exploreScore()));
+        assertEquals(0, new BigDecimal("0.6").compareTo(result.exploreScore()));
         assertNull(result.error());
     }
 
@@ -97,7 +97,7 @@ class ConfigIntegrationTest {
             var p = new ProductInput("P1", "BabyCare", category, "BabyGear", "FeedingBottle",
                     List.of(new ProductInput.Dimension("organic", List.of())));
             var result = scorer.score(p);
-            assertEquals(0, result.rawScore().divide(new BigDecimal("6.8"), 4, java.math.RoundingMode.HALF_UP)
+            assertEquals(0, result.rawScore().divide(new BigDecimal("8.4"), 4, java.math.RoundingMode.HALF_UP)
                     .compareTo(result.exploreScore()));
         }
     }
@@ -107,7 +107,7 @@ class ConfigIntegrationTest {
                 {"schema_version":1,"weight_version":"v1","dimensions":[],
                  "normalization":{"weight_version":"v1","baselines":[{
                    "analytic_super_category":"Grooming","analytic_category":"Grooming",
-                   "p95_raw_score":2}]}}
+                   "p99_raw_score":2}]}}
                 """));
     }
 
@@ -117,7 +117,7 @@ class ConfigIntegrationTest {
         Files.writeString(baseline, HEADER + row + row);
         assertThrows(IllegalArgumentException.class, () -> new ExplorabilityScorer(ScoringJson.readConfig(
                 Path.of("config/dimension-weights.json"), baseline)));
-        Files.writeString(baseline, "analytic_super_category,p95\nGrooming,2\n");
+        Files.writeString(baseline, "analytic_super_category,p99\nGrooming,2\n");
         assertThrows(IllegalArgumentException.class, () -> ScoringJson.readConfig(
                 Path.of("config/dimension-weights.json"), baseline));
     }
