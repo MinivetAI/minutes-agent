@@ -19,7 +19,7 @@ TASKS: Dict[str, Dict[str, Any]] = {
         "input_model": DimensionSummaryInput,
         "output_model": DimensionSummaryOutput,
         "guide_model": DimensionDescriptionsOutput,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 1024,
         "request_extra": {"chat_template_kwargs": {"enable_thinking": False}},
         "instruction": DIMENSION_SUMMARY,
         "execute": summarize_dimensions,

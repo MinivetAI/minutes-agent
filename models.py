@@ -16,7 +16,7 @@ class DimensionValuePair(BaseModel):
 class DimensionSummaryInput(BaseModel):
     dimensions: List[DimensionValuePair] = Field(
         min_length=1,
-        max_length=128,
+        max_length=40,
         description="Ordered dimensions, each with an optional list of values",
     )
 
