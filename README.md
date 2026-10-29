@@ -9,6 +9,7 @@ The first cut mirrors the knowledge-oriented approach used in `food-agent`, but 
 Current tasks:
 
 - `dimension_summary` -> `POST /v1/llm/enrich/dimension-summary`
+- `purchase_behavior_summary` -> `POST /v1/llm/enrich/purchase-behavior-summary`
 - `fetch_product_knowledge` -> `POST /v1/llm/knowledge/fetch-product`
 - `product_semantic_paragraph` -> `POST /v1/llm/enrich/product-paragraph`
 
@@ -21,43 +22,80 @@ pip install -r requirements.txt
 python app.py --provider openai --model gpt-5.4-mini-2026-03-17
 ```
 
-To enable dimension summaries, include `dimension_summary` in `--tasks` when running
-`app.py`, or in `MINUTES_AGENT_TASKS` when using the ASGI app factory. For example:
+To enable both summary tasks, include them in `--tasks` when running `app.py`, or in
+`MINUTES_AGENT_TASKS` when using the ASGI app factory. For example:
 
 ```bash
-python app.py --tasks dimension_summary --provider qwen \
-  --vllm-url http://prod.dev.internal/llm/v1 \
+python app.py --tasks dimension_summary,purchase_behavior_summary --provider qwen \
+  --vllm-url <qwen-openai-compatible-base-url> \
   --model Qwen3.6-35B-A3B
 ```
 
-Dimension summary requests keep the same input format:
+## Dimension summary
+
+Dimension summary requests use a list for each dimension's `value`:
 
 ```json
-{"dimensions": [{"key": "nutritional_claims", "value": "high_protein"}, {"key": "premium_sku"}]}
+{"dimensions": [{"key": "active_or_special_ingredients", "value": ["watermelon", "zinc", "vitamin_c"]}, {"key": "sku_tier", "value": ["premium_branded"]}]}
 ```
 
-The service adds each matching description from `data/dimension-reference.json` directly beside
-that dimension's name and selected value in the LLM request. It separately marks names that have no
-reference. One structured model call returns one to four sentence groups with the input indices
-covered by each sentence. The service validates that every requested dimension is covered and joins
-the sentences into one coherent paragraph, including repeated dimensions. The response remains
-`{"summary": "..."}`; internal descriptions and indices are not exposed. Invalid coverage or
-empty sentences trigger one correction attempt, then fail rather than return an incomplete summary.
-Each prompt item explicitly identifies its `dimension_name` and `selected_value`; related dimensions
-may share a sentence while retaining their distinct meanings and values. Requests
-accept 1–64 dimensions, with a 4096-token generation budget. Value lists
-remain in the Markdown; selected values come from the request.
+Each prompt item contains its dimension name and selected string or boolean values. When the name
+exists in `data/dimension-reference.json`, the service also injects that description and any value
+explanations matching the request. Names absent from the reference are sent without extra context.
+The reference is intentionally limited to dimensions or values that need clarification.
+
+One structured model call returns sentence groups with the input indices covered by each sentence.
+The service verifies that every requested dimension is covered exactly once and joins the sentences
+into one paragraph. Invalid coverage or malformed sentences trigger one correction attempt. The
+public response remains `{"summary": "..."}`.
 
 The same reference file contains optional `value_explanations` within each dimension
 to clarify ambiguous selected values (currently bilona, BLDC and azo-free). Edit these
 curated explanations directly in the JSON. The prompt receives descriptions and only
-explanations matching the supplied dimension and value, rather than a complete value list.
+explanations matching the supplied dimension values, rather than a complete value list.
 
-After editing `docs/dimesion-values.md`, regenerate the reference and restart the
-service to reload it. Regeneration preserves the curated value explanations:
+After editing `docs/dimesion-values.md`, regenerate the reference and restart the service to reload
+it. Regeneration refreshes only the entries already present in the curated JSON and preserves their
+value explanations:
 
 ```bash
 python scripts/generate_dimension_reference.py
+```
+
+## Purchase-behavior summary
+
+The purchase task accepts verticals containing purchased product titles and optional product types:
+
+```json
+{
+  "verticals": [
+    {
+      "vertical": "milk",
+      "products": [
+        {"title": "Amul Toned Milk", "type": "toned"},
+        {"title": "Mother Dairy Full Cream Milk", "type": "full cream"}
+      ]
+    },
+    {
+      "vertical": "chocolates",
+      "products": [
+        {"title": "Hershey's Milk Chocolate"},
+        {"title": "Cadbury Dairy Milk"}
+      ]
+    }
+  ]
+}
+```
+
+The output is one category-level paragraph describing the verticals and general product types the
+customer purchases. Exact titles, brands and individual SKUs are not repeated. Missing `type` values
+are allowed; the model may infer only an obvious general type from the title. Repeated input entries
+can support recurring behavior, while single entries are treated only as evidence of that purchase.
+
+The response is:
+
+```json
+{"summary": "The customer buys toned and full-cream milk alongside milk chocolate products."}
 ```
 
 ## Batch sample fetch
