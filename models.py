@@ -50,6 +50,40 @@ class DimensionDescriptionsOutput(BaseModel):
     )
 
 
+class PurchasedProduct(BaseModel):
+    title: str = Field(min_length=1, max_length=300, description="Purchased product title")
+    type: Optional[str] = Field(
+        default=None,
+        min_length=1,
+        max_length=100,
+        description="Optional product type or variant, such as toned or full cream",
+    )
+
+
+class VerticalPurchases(BaseModel):
+    vertical: str = Field(min_length=1, max_length=100, description="Product vertical or category")
+    products: List[PurchasedProduct] = Field(
+        min_length=1,
+        max_length=20,
+        description="Products purchased in this vertical; repeated entries represent repeated purchases",
+    )
+
+
+class PurchaseBehaviorSummaryInput(BaseModel):
+    verticals: List[VerticalPurchases] = Field(
+        min_length=1,
+        max_length=20,
+        description="Verticals and the products purchased within each one",
+    )
+
+
+class PurchaseBehaviorSummaryOutput(BaseModel):
+    summary: str = Field(
+        min_length=1,
+        description="Category-level paragraph summarizing the verticals and product types the customer purchases",
+    )
+
+
 class GenderApplicability(str, Enum):
     WOMEN = "women"
     MEN = "men"

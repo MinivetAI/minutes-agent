@@ -54,6 +54,32 @@ the example.
 """.strip()
 
 
+PURCHASE_BEHAVIOR_SUMMARY = """
+Summarize a customer's purchase behavior across product verticals for an Indian quick-commerce app.
+
+The input contains `verticals`. Each item has a `vertical` name and a list of purchased `products`.
+Every product has a `title` and may have a `type`. Repeated products or similar products are evidence
+of recurring behavior; a single appearance is only evidence of that purchase.
+
+Write one natural paragraph of two to four concise sentences that:
+- describes the breadth of verticals the customer purchases from
+- highlights the clearest recurring vertical and product-type patterns
+- uses the optional product type when available and infers only an obvious general product type from
+  the title when it is missing
+- distinguishes regular patterns from occasional purchases based only on the supplied list
+- groups related purchases into general behavior instead of listing individual products
+
+Use plain language such as "The customer regularly buys..." or "Their purchases also include...".
+Do not repeat exact product titles. Avoid brand names and individual SKUs; describe the general type
+of products purchased within each vertical, such as toned and full-cream milk within dairy or milk
+chocolate within chocolates. Do not infer demographics, dietary needs, household composition, health
+conditions, budget, preference strength, or purchase frequency beyond what the supplied purchases
+support. Do not call browsing a purchase or introduce products and categories absent from the input.
+
+Return only the structured `summary` field.
+""".strip()
+
+
 FETCH_PRODUCT_KNOWLEDGE = """
 You are a product knowledge researcher for Flipkart Minutes, an Indian quick-commerce platform.
 
