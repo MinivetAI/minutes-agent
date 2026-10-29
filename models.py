@@ -1,11 +1,11 @@
 from enum import Enum
 from typing import List, Optional
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class DimensionValuePair(BaseModel):
-    key: str = Field(min_length=1, description="Dimension name")
+    key: str = Field(min_length=1, max_length=100, description="Dimension name")
     value: Optional[List[str]] = Field(
         default=None,
         min_length=1,
@@ -16,9 +16,19 @@ class DimensionValuePair(BaseModel):
 class DimensionSummaryInput(BaseModel):
     dimensions: List[DimensionValuePair] = Field(
         min_length=1,
-        max_length=40,
+        max_length=30,
         description="Ordered dimensions, each with an optional list of values",
     )
+
+    @model_validator(mode="after")
+    def keep_request_within_context(self):
+        text_length = sum(
+            len(item.key) + sum(len(value) for value in item.value or [])
+            for item in self.dimensions
+        )
+        if text_length > 4_000:
+            raise ValueError("Dimension names and values are too large for the 8K model context")
+        return self
 
 
 class DimensionSummaryOutput(BaseModel):
@@ -75,6 +85,17 @@ class PurchaseBehaviorSummaryInput(BaseModel):
         max_length=20,
         description="Verticals and the products purchased within each one",
     )
+
+    @model_validator(mode="after")
+    def keep_request_within_context(self):
+        text_length = sum(
+            len(item.vertical)
+            + sum(len(product.title) + len(product.type or "") for product in item.products)
+            for item in self.verticals
+        )
+        if text_length > 16_000:
+            raise ValueError("Vertical and product text is too large for the 8K model context")
+        return self
 
 
 class PurchaseBehaviorSummaryOutput(BaseModel):
