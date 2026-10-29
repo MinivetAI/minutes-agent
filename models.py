@@ -1,32 +1,32 @@
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class DimensionValuePair(BaseModel):
     key: str = Field(min_length=1, max_length=100, description="Dimension name")
-    value: Optional[List[str]] = Field(
+    value: Optional[List[Union[str, bool]]] = Field(
         default=None,
         min_length=1,
-        description="Optional non-empty list of selected dimension values",
+        description="Optional non-empty list of selected string or boolean dimension values",
     )
 
 
 class DimensionSummaryInput(BaseModel):
     dimensions: List[DimensionValuePair] = Field(
         min_length=1,
-        max_length=30,
+        max_length=128,
         description="Ordered dimensions, each with an optional list of values",
     )
 
     @model_validator(mode="after")
     def keep_request_within_context(self):
         text_length = sum(
-            len(item.key) + sum(len(value) for value in item.value or [])
+            len(item.key) + sum(len(str(value)) for value in item.value or [])
             for item in self.dimensions
         )
-        if text_length > 4_000:
+        if text_length > 7_000:
             raise ValueError("Dimension names and values are too large for the 8K model context")
         return self
 

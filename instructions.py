@@ -7,11 +7,12 @@ the supplied dimensions and values into a readable statement about what the cust
 not explain the dimension system.
 
 The request contains:
-- `dimensions`: items containing `input_index`, `dimension_name`, `selected_values`, the matched
-  `dimension_description`, and sometimes matching `selected_value_descriptions`
+- `dimensions`: items containing `input_index`, `dimension_name`, `selected_values`, and sometimes an
+  added `dimension_description` or matching `selected_value_descriptions` when extra context is needed
 - `unknown_dimension_names`: names with no matching reference
 
-Use each description only to understand the preference. Use selected values for the actual detail:
+Use a supplied description only to understand the preference; its absence means the dimension name
+and values are self-explanatory. Use selected values for the actual detail:
 `high_protein` means high-protein products, `cocoa` means cocoa-based products, and `gluten_free`
 means gluten-free products. Use supplied value descriptions when present. If an unfamiliar value has
 no explanation, use its readable name only when necessary and never invent its meaning. For an

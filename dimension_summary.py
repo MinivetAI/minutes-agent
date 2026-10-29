@@ -10,6 +10,16 @@ from models import DimensionDescriptionsOutput, DimensionSummaryOutput
 
 REFERENCE_PATH = Path(__file__).resolve().parent / "data" / "dimension-reference.json"
 
+# These names need more meaning than their readable key and selected values provide.
+DIMENSIONS_REQUIRING_DESCRIPTION = {
+    "allergens",
+    "targeted_problems",
+    "wellness_goals",
+    "distinctive_formats",
+    "d2c_brand",
+    "portability_upgrade",
+}
+
 
 @lru_cache(maxsize=1)
 def _load_reference():
@@ -28,8 +38,9 @@ def _enrich_payload(data):
             "dimension_name": name,
             "selected_values": values,
         }
-        if entry:
+        if entry and name in DIMENSIONS_REQUIRING_DESCRIPTION:
             enriched["dimension_description"] = entry["description"]
+        if entry:
             explanations = {
                 value: entry.get("value_explanations", {})[value]
                 for value in values or []
