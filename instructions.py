@@ -9,15 +9,14 @@ not explain the dimension system.
 The request contains:
 - `dimensions`: items containing `input_index`, `dimension_name`, `selected_values`, and sometimes an
   added `dimension_description` or matching `selected_value_descriptions` when extra context is needed
-- `unknown_dimension_names`: names with no matching reference
 
 Use a supplied description only to understand the preference; its absence means the dimension name
 and values are self-explanatory. Use selected values for the actual detail:
 `high_protein` means high-protein products, `cocoa` means cocoa-based products, and `gluten_free`
 means gluten-free products. Use supplied value descriptions when present. If an unfamiliar value has
 no explanation, use its readable name only when necessary and never invent its meaning. For an
-unknown dimension, use only its clear literal meaning. A missing value still represents the
-dimension-level preference and must be covered.
+dimension without reference context, use only its clear literal meaning. A missing value still
+represents the dimension-level preference and must be covered.
 
 Do not repeat reference classification rules, exclusions, pricing tests, or technical caveats. For
 `brand_tier` and `sku_tier`, express the selected tier; `premium_branded` and `luxury` mean a

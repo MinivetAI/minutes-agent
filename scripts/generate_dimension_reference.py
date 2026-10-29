@@ -39,6 +39,7 @@ def parse_dimension_reference(markdown):
 def main():
     reference = parse_dimension_reference(SOURCE.read_text(encoding="utf-8"))
     existing = json.loads(DESTINATION.read_text(encoding="utf-8")) if DESTINATION.exists() else {}
+    reference = {name: entry for name, entry in reference.items() if name in existing}
     for name, entry in reference.items():
         explanations = existing.get(name, {}).get("value_explanations")
         if explanations:

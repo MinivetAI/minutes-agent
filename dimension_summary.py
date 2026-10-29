@@ -10,16 +10,6 @@ from models import DimensionDescriptionsOutput, DimensionSummaryOutput
 
 REFERENCE_PATH = Path(__file__).resolve().parent / "data" / "dimension-reference.json"
 
-# These names need more meaning than their readable key and selected values provide.
-DIMENSIONS_REQUIRING_DESCRIPTION = {
-    "allergens",
-    "targeted_problems",
-    "wellness_goals",
-    "distinctive_formats",
-    "d2c_brand",
-    "portability_upgrade",
-}
-
 
 @lru_cache(maxsize=1)
 def _load_reference():
@@ -29,7 +19,6 @@ def _load_reference():
 def _enrich_payload(data):
     reference = _load_reference()
     dimensions = []
-    unknown_names = []
     for index, item in enumerate(data["dimensions"]):
         name, values = item["key"], item.get("value")
         entry = reference.get(name)
@@ -38,9 +27,8 @@ def _enrich_payload(data):
             "dimension_name": name,
             "selected_values": values,
         }
-        if entry and name in DIMENSIONS_REQUIRING_DESCRIPTION:
-            enriched["dimension_description"] = entry["description"]
         if entry:
+            enriched["dimension_description"] = entry["description"]
             explanations = {
                 value: entry.get("value_explanations", {})[value]
                 for value in values or []
@@ -48,13 +36,8 @@ def _enrich_payload(data):
             }
             if explanations:
                 enriched["selected_value_descriptions"] = explanations
-        elif name not in unknown_names:
-            unknown_names.append(name)
         dimensions.append(enriched)
-    return {
-        "dimensions": dimensions,
-        "unknown_dimension_names": unknown_names,
-    }
+    return {"dimensions": dimensions}
 
 
 def _normalize_text(text):
